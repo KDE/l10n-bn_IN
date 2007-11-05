@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-04 06:17+0100\n"
+"POT-Creation-Date: 2007-11-05 05:53+0100\n"
 "PO-Revision-Date: 2007-09-14 10:36+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -1582,8 +1582,8 @@ msgstr ""
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">(এই মুহূর্ত অবধি অজানা)</p></body></html>"
 
-#: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:788
-#: kdeui/dialogs/kmessagebox.cpp:823
+#: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:741
+#: kdeui/dialogs/kmessagebox.cpp:776
 msgid "Error"
 msgstr "ত্রুটি"
 
@@ -5294,38 +5294,38 @@ msgstr "%1"
 msgid "Configure Shortcuts"
 msgstr ""
 
-#: kdeui/dialogs/kmessagebox.cpp:238
+#: kdeui/dialogs/kmessagebox.cpp:191
 msgid "Details"
 msgstr "বিবরণ"
 
-#: kdeui/dialogs/kmessagebox.cpp:413 kdeui/dialogs/kmessagebox.cpp:472
+#: kdeui/dialogs/kmessagebox.cpp:366 kdeui/dialogs/kmessagebox.cpp:425
 msgid "Question"
 msgstr ""
 
-#: kdeui/dialogs/kmessagebox.cpp:433 kdeui/dialogs/kmessagebox.cpp:493
-#: kdeui/dialogs/kmessagebox.cpp:584 kdeui/dialogs/kmessagebox.cpp:663
-#: kdeui/dialogs/kmessagebox.cpp:748
+#: kdeui/dialogs/kmessagebox.cpp:386 kdeui/dialogs/kmessagebox.cpp:446
+#: kdeui/dialogs/kmessagebox.cpp:537 kdeui/dialogs/kmessagebox.cpp:616
+#: kdeui/dialogs/kmessagebox.cpp:701
 msgid "Do not ask again"
 msgstr ""
 
-#: kdeui/dialogs/kmessagebox.cpp:564 kdeui/dialogs/kmessagebox.cpp:643
-#: kdeui/dialogs/kmessagebox.cpp:728
+#: kdeui/dialogs/kmessagebox.cpp:517 kdeui/dialogs/kmessagebox.cpp:596
+#: kdeui/dialogs/kmessagebox.cpp:681
 msgid "Warning"
 msgstr ""
 
-#: kdeui/dialogs/kmessagebox.cpp:871 kdeui/dialogs/kmessagebox.cpp:904
+#: kdeui/dialogs/kmessagebox.cpp:824 kdeui/dialogs/kmessagebox.cpp:857
 msgid "Sorry"
 msgstr ""
 
-#: kdeui/dialogs/kmessagebox.cpp:952
+#: kdeui/dialogs/kmessagebox.cpp:905
 msgid "Information"
 msgstr "তথ্য"
 
-#: kdeui/dialogs/kmessagebox.cpp:972
+#: kdeui/dialogs/kmessagebox.cpp:925
 msgid "Do not show this message again"
 msgstr ""
 
-#: kdeui/dialogs/kmessagebox.cpp:1017
+#: kdeui/dialogs/kmessagebox.cpp:970
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:58
 #: kdeui/widgets/khelpmenu.cpp:260 kde3support/kdeui/k3aboutdialog.cpp:1045
 #, kde-format
@@ -7979,15 +7979,15 @@ msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/widgets/ktimezonewidget.cpp:51
+#: kdeui/widgets/ktimezonewidget.cpp:52
 msgid "Area"
 msgstr ""
 
-#: kdeui/widgets/ktimezonewidget.cpp:51
+#: kdeui/widgets/ktimezonewidget.cpp:52
 msgid "Region"
 msgstr ""
 
-#: kdeui/widgets/ktimezonewidget.cpp:51
+#: kdeui/widgets/ktimezonewidget.cpp:52
 msgid "Comment"
 msgstr ""
 
@@ -8254,12 +8254,12 @@ msgstr ""
 msgid "&Unmount '%1'"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:719
+#: kfile/kfileplacesmodel.cpp:722
 #, kde-format
 msgid "An error occurred while accessing '%1', the system said: %2"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:723
+#: kfile/kfileplacesmodel.cpp:726
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr ""
