@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-25 05:57+0100\n"
+"POT-Creation-Date: 2007-11-26 06:00+0100\n"
 "PO-Revision-Date: 2007-09-14 10:36+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -4331,102 +4331,169 @@ msgid "Ctrl"
 msgstr "Ctrl"
 
 #: kdecore/localization/kuitsemantics.cpp:824
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Delete"
 msgctxt "keyboard-key-name"
-msgid "Delete"
+msgid "Del"
 msgstr "Delete"
 
 #: kdecore/localization/kuitsemantics.cpp:825
 msgctxt "keyboard-key-name"
+msgid "Delete"
+msgstr "Delete"
+
+#: kdecore/localization/kuitsemantics.cpp:826
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "PageDown"
+msgctxt "keyboard-key-name"
+msgid "Down"
+msgstr "PageDown"
+
+#: kdecore/localization/kuitsemantics.cpp:827
+msgctxt "keyboard-key-name"
 msgid "End"
 msgstr "End"
 
-#: kdecore/localization/kuitsemantics.cpp:826
+#: kdecore/localization/kuitsemantics.cpp:828
 msgctxt "keyboard-key-name"
 msgid "Enter"
 msgstr ""
 
-#: kdecore/localization/kuitsemantics.cpp:827
-msgctxt "keyboard-key-name"
-msgid "Home"
-msgstr "Home"
-
-#: kdecore/localization/kuitsemantics.cpp:828
-msgctxt "keyboard-key-name"
-msgid "Hyper"
-msgstr ""
-
 #: kdecore/localization/kuitsemantics.cpp:829
 msgctxt "keyboard-key-name"
-msgid "Insert"
-msgstr "Insert"
+msgid "Esc"
+msgstr ""
 
 #: kdecore/localization/kuitsemantics.cpp:830
 msgctxt "keyboard-key-name"
-msgid "Menu"
+msgid "Escape"
 msgstr ""
 
 #: kdecore/localization/kuitsemantics.cpp:831
 msgctxt "keyboard-key-name"
+msgid "Home"
+msgstr "Home"
+
+#: kdecore/localization/kuitsemantics.cpp:832
+msgctxt "keyboard-key-name"
+msgid "Hyper"
+msgstr ""
+
+#: kdecore/localization/kuitsemantics.cpp:833
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "Insert"
+msgctxt "keyboard-key-name"
+msgid "Ins"
+msgstr "Insert"
+
+#: kdecore/localization/kuitsemantics.cpp:834
+msgctxt "keyboard-key-name"
+msgid "Insert"
+msgstr "Insert"
+
+#: kdecore/localization/kuitsemantics.cpp:835
+msgctxt "keyboard-key-name"
+msgid "Left"
+msgstr ""
+
+#: kdecore/localization/kuitsemantics.cpp:836
+msgctxt "keyboard-key-name"
+msgid "Menu"
+msgstr ""
+
+#: kdecore/localization/kuitsemantics.cpp:837
+msgctxt "keyboard-key-name"
 msgid "Meta"
 msgstr "Meta"
 
-#: kdecore/localization/kuitsemantics.cpp:832
+#: kdecore/localization/kuitsemantics.cpp:838
 #, fuzzy
 #| msgid "NumLock"
 msgctxt "keyboard-key-name"
 msgid "NumLock"
 msgstr "NumLock"
 
-#: kdecore/localization/kuitsemantics.cpp:833
+#: kdecore/localization/kuitsemantics.cpp:839
 msgctxt "keyboard-key-name"
 msgid "PageDown"
 msgstr "PageDown"
 
-#: kdecore/localization/kuitsemantics.cpp:834
+#: kdecore/localization/kuitsemantics.cpp:840
 msgctxt "keyboard-key-name"
 msgid "PageUp"
 msgstr "PageUp"
 
-#: kdecore/localization/kuitsemantics.cpp:835
+#: kdecore/localization/kuitsemantics.cpp:841
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "PageDown"
+msgctxt "keyboard-key-name"
+msgid "PgDown"
+msgstr "PageDown"
+
+#: kdecore/localization/kuitsemantics.cpp:842
+#, fuzzy
+#| msgctxt "keyboard-key-name"
+#| msgid "PageUp"
+msgctxt "keyboard-key-name"
+msgid "PgUp"
+msgstr "PageUp"
+
+#: kdecore/localization/kuitsemantics.cpp:843
+#, fuzzy
+#| msgid "Value"
+msgctxt "keyboard-key-name"
+msgid "Pause"
+msgstr "মান"
+
+#: kdecore/localization/kuitsemantics.cpp:844
 msgctxt "keyboard-key-name"
 msgid "PauseBreak"
 msgstr ""
 
-#: kdecore/localization/kuitsemantics.cpp:836
+#: kdecore/localization/kuitsemantics.cpp:845
 msgctxt "keyboard-key-name"
 msgid "PrintScreen"
 msgstr ""
 
-#: kdecore/localization/kuitsemantics.cpp:837
+#: kdecore/localization/kuitsemantics.cpp:846
 msgctxt "keyboard-key-name"
 msgid "PrtScr"
 msgstr ""
 
-#: kdecore/localization/kuitsemantics.cpp:838
+#: kdecore/localization/kuitsemantics.cpp:847
 #, fuzzy
 #| msgid "Run"
 msgctxt "keyboard-key-name"
 msgid "Return"
 msgstr "সঞ্চালন"
 
-#: kdecore/localization/kuitsemantics.cpp:839
+#: kdecore/localization/kuitsemantics.cpp:848
+msgctxt "keyboard-key-name"
+msgid "Right"
+msgstr ""
+
+#: kdecore/localization/kuitsemantics.cpp:849
 #, fuzzy
 #| msgid "ScrollLock"
 msgctxt "keyboard-key-name"
 msgid "ScrollLock"
 msgstr "ScrollLock"
 
-#: kdecore/localization/kuitsemantics.cpp:840
+#: kdecore/localization/kuitsemantics.cpp:850
 msgctxt "keyboard-key-name"
 msgid "Shift"
 msgstr "Shift"
 
-#: kdecore/localization/kuitsemantics.cpp:841
+#: kdecore/localization/kuitsemantics.cpp:851
 msgctxt "keyboard-key-name"
 msgid "Space"
 msgstr "Space"
 
-#: kdecore/localization/kuitsemantics.cpp:842
+#: kdecore/localization/kuitsemantics.cpp:852
 #, fuzzy
 #| msgctxt "keyboard-key-name"
 #| msgid "Space"
@@ -4434,19 +4501,24 @@ msgctxt "keyboard-key-name"
 msgid "Super"
 msgstr "Space"
 
-#: kdecore/localization/kuitsemantics.cpp:843
+#: kdecore/localization/kuitsemantics.cpp:853
 #, fuzzy
 #| msgid "SysReq"
 msgctxt "keyboard-key-name"
 msgid "SysReq"
 msgstr "SysReq"
 
-#: kdecore/localization/kuitsemantics.cpp:844
+#: kdecore/localization/kuitsemantics.cpp:854
 msgctxt "keyboard-key-name"
 msgid "Tab"
 msgstr ""
 
-#: kdecore/localization/kuitsemantics.cpp:845
+#: kdecore/localization/kuitsemantics.cpp:855
+msgctxt "keyboard-key-name"
+msgid "Up"
+msgstr ""
+
+#: kdecore/localization/kuitsemantics.cpp:856
 msgctxt "keyboard-key-name"
 msgid "Win"
 msgstr ""
@@ -5371,6 +5443,7 @@ msgid "Default:"
 msgstr "ডিফল্ট ভাষা:"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1078
+#: kdeui/widgets/kkeysequencewidget.cpp:355
 msgid "None"
 msgstr ""
 
@@ -8453,12 +8526,12 @@ msgstr ""
 msgid "Select Folder"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:224 kfile/kdirselectdialog.cpp:262
+#: kfile/kdirselectdialog.cpp:224 kfile/kdirselectdialog.cpp:260
 #: kfile/kdiroperator.cpp:1488
 msgid "New Folder..."
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:269
+#: kfile/kdirselectdialog.cpp:267
 msgid "Show Hidden Folders"
 msgstr ""
 
