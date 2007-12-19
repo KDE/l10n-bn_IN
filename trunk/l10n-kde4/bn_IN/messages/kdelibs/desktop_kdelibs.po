@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-18 05:23+0000\n"
-"PO-Revision-Date: 2007-09-11 11:04+0530\n"
+"PO-Revision-Date: 2007-12-19 12:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
 "MIME-Version: 1.0\n"
@@ -26,19 +26,18 @@ msgstr "নাম"
 
 #: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:64
 msgctxt "Comment"
-msgid ""
-"The instant messenger allows two-way chat between individuals and groups."
-msgstr ""
+msgid "The instant messenger allows two-way chat between individuals and groups."
+msgstr "ইনস্ট্যান্ট মেসেঞ্জারের সাহায্যে ব্যক্তি ও দলের সদস্যরা একে অপরের সাথে কথা বলতে সক্ষম হবে।"
 
 #: interfaces/kspeech/dbustexttospeech.desktop:4
 msgctxt "Comment"
 msgid "Text-to-Speech Service with a D-Bus interface"
-msgstr ""
+msgstr "D-Bus ইন্টারফেসের সাহায্যে উপলব্ধ টেক্সট-থেকে-শব্দ পরিসেবা"
 
 #: interfaces/ktexteditor/kcm_ktexteditor.desktop:1
 msgctxt "Name"
 msgid "Embedded Text Editor"
-msgstr ""
+msgstr "এমবেড করা টেক্সট এডিটর"
 
 #: interfaces/ktexteditor/kcm_ktexteditor.desktop:69
 msgctxt "Comment"
@@ -46,12 +45,12 @@ msgid ""
 "The text editor service provides applications with a text viewer and editor. "
 "KDE applications that provide text editing facilities should use this "
 "service."
-msgstr ""
+msgstr "টেক্সট এডিটর পরিসেবার সাহায্যে টেক্সট প্রদর্শন ব্যবস্থা ও এডিটর উপলব্ধ করা হয়। টেক্সট এডিটরের কর্ম উপলব্ধকারী KDE অ্যাপ্লিকেশনগুলি দ্বারা এই পরিসেবা ব্যবহার করা আবশ্যক।"
 
 #: interfaces/ktexteditor/ktexteditor.desktop:5
 msgctxt "Comment"
 msgid "Embeddable Text Editor Component (with Doc/View Separation)"
-msgstr ""
+msgstr "এমবেড করা টেক্সট এডিটেরের সামগ্রী (Doc/View পার্থক্যসহ)"
 
 #: interfaces/ktexteditor/ktexteditorplugin.desktop:5
 msgctxt "Comment"
@@ -61,7 +60,7 @@ msgstr "KTextEditor প্লাগ-ইন"
 #: kate/data/katepart.desktop:2
 msgctxt "Name"
 msgid "Embedded Advanced Text Editor"
-msgstr ""
+msgstr "এমবেড করা উন্নত টেক্সট এডিটর"
 
 #: kate/plugins/autobookmarker/ktexteditor_autobookmarker.desktop:8
 #: kate/plugins/insertfile/ktexteditor_insertfile.desktop:8
@@ -70,7 +69,7 @@ msgstr ""
 #: kate/plugins/wordcompletion/ktexteditor_docwordcompletion.desktop:8
 msgctxt "X-KDE-PluginInfo-Category"
 msgid "Editor"
-msgstr ""
+msgstr "এডিটর"
 
 #: kate/plugins/autobookmarker/ktexteditor_autobookmarker.desktop:29
 msgctxt "Name"
@@ -80,7 +79,7 @@ msgstr "Autobookmarker"
 #: kate/plugins/autobookmarker/ktexteditor_autobookmarker.desktop:78
 msgctxt "Comment"
 msgid "Set bookmarks on lines matching a pattern when documents are loaded"
-msgstr ""
+msgstr "ডকুমেন্ট লোড করা হলে সুনির্দিষ্ট বিন্যাস অনুযায়ী সনাক্ত পংক্তিগুলির জন্য বুকমার্ক নির্ধারণ করা হবে।"
 
 #: kate/plugins/insertfile/ktexteditor_insertfile.desktop:30
 msgctxt "Name"
@@ -90,17 +89,17 @@ msgstr "ফাইল সন্নিবেশ করুন"
 #: kate/plugins/insertfile/ktexteditor_insertfile.desktop:82
 msgctxt "Comment"
 msgid "Insert any readable file at cursor position"
-msgstr ""
+msgstr "কার্সারের অবস্থানে পাঠযোগ্য কোনো ফাইল সন্নিবেশ করা হবে"
 
 #: kate/plugins/kdatatool/ktexteditor_kdatatool.desktop:30
 msgctxt "Name"
 msgid "Data tools"
-msgstr ""
+msgstr "তথ্য সংক্রান্ত সামগ্রী"
 
 #: kate/plugins/kdatatool/ktexteditor_kdatatool.desktop:82
 msgctxt "Comment"
 msgid "Enable data tools like thesaurus and spell check (if installed)"
-msgstr ""
+msgstr "তথ্য সংক্রান্ত সামগ্রী যেমন শব্দকোষ ও বানান পরীক্ষণ ব্যবস্থা (ইনস্টল করা থাকলে) সক্রিয় করুন"
 
 #: kate/plugins/timedate/ktexteditor_timedate.desktop:29
 msgctxt "Name"
@@ -110,22 +109,22 @@ msgstr "সময় ও তারিখ"
 #: kate/plugins/timedate/ktexteditor_timedate.desktop:76
 msgctxt "Comment"
 msgid "Insert current Time & Date"
-msgstr ""
+msgstr "বর্তমান সময় ও তারিখ সন্নিবেশ করা হবে"
 
 #: kate/plugins/timedate/ktexteditor_timedate_config.desktop:9
 msgctxt "Name"
 msgid "Format of Time & Date insertion"
-msgstr ""
+msgstr "সময় ও তারিখ সন্নিবেশের বিন্যাস"
 
 #: kate/plugins/wordcompletion/ktexteditor_docwordcompletion.desktop:30
 msgctxt "Name"
 msgid "Word Completion"
-msgstr ""
+msgstr "শব্দ সম্পূর্ণকরণ"
 
 #: kate/plugins/wordcompletion/ktexteditor_docwordcompletion.desktop:81
 msgctxt "Comment"
 msgid "Directional or popup-based completion from words in the document"
-msgstr ""
+msgstr "ডকুমেন্টে লেখার সময় শব্দ সম্পূর্ণ করার জন্য পপ-আপ অথবা নির্দেশক ব্যবস্থা"
 
 #: kate/plugins/wordcompletion/ktexteditor_docwordcompletion_config.desktop:8
 msgctxt "Name"
@@ -405,7 +404,7 @@ msgstr "ক্রোয়েশিয়ান"
 #: kdecore/all_languages.desktop:3236
 msgctxt "Name"
 msgid "Upper Sorbian"
-msgstr ""
+msgstr "আপার সোর্বিয়ান"
 
 #: kdecore/all_languages.desktop:3299
 msgctxt "Name"
@@ -1015,12 +1014,12 @@ msgstr "জুলু"
 #: kdecore/services/kplugininfo.desktop:4
 msgctxt "Name"
 msgid "KDE Plugin Information"
-msgstr ""
+msgstr "KDE প্লাগ-ইন সংক্রান্ত তথ্য"
 
 #: kdecore/sonnet/sonnetspeller.desktop:5
 msgctxt "Comment"
 msgid "Sonnet Spell Client"
-msgstr ""
+msgstr "Sonnet বানান পরীক্ষণের ক্লায়েন্ট"
 
 #: kded/kdedmodule.desktop:4
 msgctxt "Comment"
@@ -1030,17 +1029,17 @@ msgstr "KDED মডিউল"
 #: kdeui/shortcuts/kdedglobalaccel.desktop:9
 msgctxt "Name"
 msgid "KDED Global Shortcuts Server"
-msgstr ""
+msgstr "KDED গ্লোবাল শর্ট-কাট সার্ভার"
 
 #: khtml/java/kjavaappletviewer.desktop:2
 msgctxt "Name"
 msgid "Embedded Java Applet Viewer"
-msgstr ""
+msgstr "এমবেড করা Java Applet Viewer"
 
 #: khtml/khtml.desktop:3
 msgctxt "Comment"
 msgid "Embeddable HTML viewing component"
-msgstr ""
+msgstr "এমবেড করার যোগ্য HTML প্রদর্শনের সামগ্রী"
 
 #: khtml/khtml.desktop:73
 msgctxt "Name"
@@ -1050,22 +1049,22 @@ msgstr "KHTML"
 #: khtml/khtmladaptorpart.desktop:2
 msgctxt "Name"
 msgid "KHTML Extension Adaptor"
-msgstr ""
+msgstr "KHTML Extension Adaptor"
 
 #: khtml/khtmlimage.desktop:3
 msgctxt "Comment"
 msgid "Embeddable Image Viewing Component"
-msgstr ""
+msgstr "এমবেড করার যোগ্য ছবি প্রদর্শনের সামগ্রী"
 
 #: khtml/khtmlimage.desktop:72
 msgctxt "Name"
 msgid "Embeddable Image Viewer"
-msgstr ""
+msgstr "এমবেড করার যোগ্য ছবি প্রদর্শন ব্যবস্থা"
 
 #: khtml/kmultipart/kmultipart.desktop:4
 msgctxt "Name"
 msgid "Embeddable Component for multipart/mixed"
-msgstr ""
+msgstr "মাল্টিপার্ট/মিক্সড-র জন্য এমবেড করার যোগ্য সামগ্রী"
 
 #: kimgio/bmp.desktop:2
 msgctxt "Name"
@@ -1190,42 +1189,42 @@ msgstr "XV"
 #: kio/application.desktop:4 phonon/platform_kde/phonon.notifyrc:44
 msgctxt "Name"
 msgid "Application"
-msgstr ""
+msgstr "অ্যাপ্লিকেশন"
 
 #: kio/data.protocol:8
 msgctxt "Description"
 msgid "A kioslave for data URIs (rfc2397)"
-msgstr ""
+msgstr "ডাটা URI-র জন্য একটি kioslave (rfc2397)"
 
 #: kio/kcmodule.desktop:4
 msgctxt "Name"
 msgid "KDE Configuration Module"
-msgstr ""
+msgstr "KDE কনফিগারেশন মডিউল"
 
 #: kio/kcmoduleinit.desktop:4
 msgctxt "Name"
 msgid "KDE Configuration Initialization"
-msgstr ""
+msgstr "KDE কনফিগারেশন প্রারম্ভকরণ"
 
 #: kio/kdatatool.desktop:4
 msgctxt "Comment"
 msgid "KDE Data Tool"
-msgstr ""
+msgstr "KDE ডাটা সংক্রান্ত সামগ্রী"
 
 #: kio/kfile/kpropertiesdialogplugin.desktop:4
 msgctxt "Comment"
 msgid "Plugin for the Properties Dialog"
-msgstr ""
+msgstr "বৈশিষ্ট্য বিশিষ্ট ডায়লগের জন্য একটি প্লাগ-ইন"
 
 #: kio/kfileplugin.desktop:4
 msgctxt "Name"
 msgid "KFile Meta Data Plugin"
-msgstr ""
+msgstr "KFile মিটা ডাটা প্লাগ-ইন"
 
 #: kio/kio/kfilewrite.desktop:5
 msgctxt "Comment"
 msgid "KFileWrite plugin"
-msgstr ""
+msgstr "KFileWrite প্লাগ-ইন"
 
 #: kio/kscan.desktop:4
 msgctxt "Name"
@@ -1235,216 +1234,214 @@ msgstr "KScan"
 #: kio/kurifilterplugin.desktop:4
 msgctxt "Name"
 msgid "Enhanced Browsing Plugin"
-msgstr ""
+msgstr "উন্নত ব্রাউজিং-এ সহায়ক প্লাগ-ইন"
 
 #: kio/misc/kpac/proxyscout.desktop:3
 msgctxt "Name"
 msgid "Proxy Scout"
-msgstr ""
+msgstr "Proxy Scout"
 
 #: kio/misc/kpac/proxyscout.desktop:55
 msgctxt "Comment"
 msgid "Automatic proxy configuration"
-msgstr ""
+msgstr "স্বয়ংক্রিয় প্রক্সি কনফিগারেশন ব্যবস্থা"
 
 #: kio/misc/kpac/proxyscout.notifyrc:3
 msgctxt "Comment"
 msgid "Automatic Proxy Configuration"
-msgstr ""
+msgstr "স্বয়ংক্রিয় প্রক্সি কনফিগারেশন ব্যবস্থা"
 
 #: kio/misc/kpac/proxyscout.notifyrc:50
 msgctxt "Name"
 msgid "Invalid Proxy Script"
-msgstr ""
+msgstr "অবৈধ প্রক্সি স্ক্রিপ্ট"
 
 #: kio/misc/kpac/proxyscout.notifyrc:94
 msgctxt "Comment"
 msgid "The downloaded proxy configuration script is invalid"
-msgstr ""
+msgstr "ডাউনলোড করা প্রক্সি কনফিগারেশন স্ক্রিপ্ট বৈধ নয়"
 
 #: kio/misc/kpac/proxyscout.notifyrc:156
 msgctxt "Name"
 msgid "Script Download Error"
-msgstr ""
+msgstr "স্ক্রিপ্ট ডাউনলোড সংক্রান্ত ত্রুটি"
 
 #: kio/misc/kpac/proxyscout.notifyrc:197
 msgctxt "Comment"
 msgid "The proxy configuration script could not be downloaded"
-msgstr ""
+msgstr "প্রক্সি কনফিগারেশনের স্ক্রিপ্ট ডাউনলোড করা যায়নি"
 
 #: kio/misc/kpac/proxyscout.notifyrc:259
 msgctxt "Name"
 msgid "Script Evaluation Error"
-msgstr ""
+msgstr "স্ক্রিপ্ট বিশ্লেষণ সংক্রান্ত ত্রুটি"
 
 #: kio/misc/kpac/proxyscout.notifyrc:299
 msgctxt "Comment"
 msgid "There was an error executing the proxy configuration script"
-msgstr ""
+msgstr "প্রক্সি কনফিগারেশনের স্ক্রিপ্ট সঞ্চালনে সমস্যা"
 
 #: kio/misc/kssld/kssld.desktop:7
 msgctxt "Name"
 msgid "KSSL Daemon Module"
-msgstr ""
+msgstr "KSSL ডেমন মডিউল"
 
 #: kio/misc/kssld/kssld.desktop:73
 msgctxt "Comment"
 msgid "KSSL daemon module for KDED"
-msgstr ""
+msgstr "KDED-র জন্য KSSL ডেমন মডিউল"
 
 #: kio/misc/kwalletd/kwalletd.desktop:7
 msgctxt "Name"
 msgid "KWallet Daemon Module"
-msgstr ""
+msgstr "KWallet ডেমন মডিউল"
 
 #: kio/misc/kwalletd/kwalletd.desktop:72
 msgctxt "Comment"
 msgid "KWallet daemon module for KDED"
-msgstr ""
+msgstr "KDED-র জন্য KWallet ডেমন মডিউল"
 
 #: kio/misc/mms.protocol:11
 msgctxt "Description"
 msgid "Microsoft Media Server Protocol"
-msgstr ""
+msgstr "Microsoft Media Server Protocol"
 
 #: kio/renamedialogplugin.desktop:4
 msgctxt "Comment"
 msgid "Plugin for the Rename Dialog"
-msgstr ""
+msgstr "নাম পরিবর্তনের ডায়লগের জন্য প্লাগ-ইন"
 
 #: kio/tests/dummymeta.desktop:3
 msgctxt "Name"
 msgid "Dummy Meta"
-msgstr ""
+msgstr "ডামি মিটা"
 
 #: kioslave/http/http_cache_cleaner.desktop:3
 msgctxt "Name"
 msgid "HTTP Cache Cleaner"
-msgstr ""
+msgstr "HTTP ক্যাশে পরিশ্রুতি ব্যবস্থা"
 
 #: kioslave/http/http_cache_cleaner.desktop:72
 msgctxt "Comment"
 msgid "Cleans up old entries from the HTTP cache"
-msgstr ""
+msgstr "HTTP ক্যাশে থেকে পুরোনো তথ্য মুছে ফেলা হয়"
 
 #: kioslave/http/kcookiejar/kcookiejar.desktop:3
 msgctxt "Name"
 msgid "KDED Cookie Jar Module"
-msgstr ""
+msgstr "KDED Cookie Jar মডিউল"
 
 #: kioslave/http/kcookiejar/kcookiejar.desktop:70
 msgctxt "Comment"
 msgid "Keeps track of all cookies in the system"
-msgstr ""
+msgstr "সিস্টেম উপস্থিত সর্বধরনের কুকি সম্বন্ধে তথ্য নিরীক্ষণ করা হয়"
 
 #: knotify/tests/knotifytest.notifyrc:3
 msgctxt "Comment"
 msgid "Test for Knotify"
-msgstr ""
+msgstr "Knotify সংক্রান্ত পরীক্ষা"
 
 #: knotify/tests/knotifytest.notifyrc:45
 msgctxt "Name"
 msgid "Group"
-msgstr ""
+msgstr "দল"
 
 #: knotify/tests/knotifytest.notifyrc:87
 msgctxt "Comment"
 msgid "The group"
-msgstr ""
+msgstr "দল"
 
 #: knotify/tests/knotifytest.notifyrc:130
 msgctxt "Name"
 msgid "Online"
-msgstr ""
+msgstr "অনলাইন অবস্থা"
 
 #: knotify/tests/knotifytest.notifyrc:165
 msgctxt "Comment"
 msgid "The contact is now connected"
-msgstr ""
+msgstr "পরিচিতির সাথে সংযোগ স্থাপিত হয়েছে"
 
 #: knotify/tests/knotifytest.notifyrc:210
 msgctxt "Name"
 msgid "Message Received"
-msgstr ""
+msgstr "বার্তা প্রাপ্ত হয়েছে"
 
 #: knotify/tests/knotifytest.notifyrc:251
 msgctxt "Comment"
 msgid "A Message has been received"
-msgstr ""
+msgstr "একটি বার্তা প্রাপ্ত হয়েছে"
 
 #: kparts/browserview.desktop:5
 msgctxt "Name"
 msgid "Browser View"
-msgstr ""
+msgstr "ব্রাউজার অনুসারে প্রদর্শন"
 
 #: kparts/kpart.desktop:4 kparts/krop.desktop:5 kparts/krwp.desktop:5
 msgctxt "Comment"
 msgid "KDE Component"
-msgstr ""
+msgstr "KDE-র অংশ"
 
 #: kparts/tests/notepad.desktop:2
 msgctxt "Name"
 msgid "Notepad (example)"
-msgstr ""
+msgstr "Notepad (উদাহরণ)"
 
 #: phonon/kcm/kcm_phonon.desktop:13
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Rundi"
 msgctxt "Name"
 msgid "Sound"
-msgstr "রুন্ডি"
+msgstr "শব্দ"
 
 #: phonon/kcm/kcm_phonon.desktop:59
 msgctxt "Comment"
 msgid "Sound System Configuration"
-msgstr ""
+msgstr "শব্দের ব্যবস্থা কনফিগারেশনের প্রণালী"
 
 #: phonon/phononbackend.desktop:4
 msgctxt "Name"
 msgid "KDE Multimedia Backend"
-msgstr ""
+msgstr "KDE মাল্টিমিডিয়া ব্যাক-এন্ড"
 
 #: phonon/platform_kde/phonon.notifyrc:3
 msgctxt "Comment"
 msgid "Phonon: KDE's Multimedia Library"
-msgstr ""
+msgstr "Phonon: KDE-র মাল্টিমিডিয়া লাইব্রেরি"
 
 #: phonon/platform_kde/phonon.notifyrc:115
 msgctxt "Name"
 msgid "Audio Device Fallback"
-msgstr ""
+msgstr "অডিও ডিভাইস সংক্রান্ত বিকল্প ব্যবস্থা"
 
 #: phonon/platform_kde/phonon.notifyrc:151
 msgctxt "Comment"
-msgid ""
-"Notification on automatic fallback if the preferred device is unavailable"
-msgstr ""
+msgid "Notification on automatic fallback if the preferred device is unavailable"
+msgstr "নির্বাচিত ডিভাইস উপলব্ধ না থাকলে স্বয়ংক্রিয়রূপে বিকল্প ব্যবস্থায় প্রয়োগের সূচনাবার্তা"
 
 #: phonon/tests/fakebackend/fake.desktop:10
 msgctxt "Name"
 msgid "Fake"
-msgstr ""
+msgstr "Fake"
 
 #: phonon/tests/fakebackend/fake.desktop:44
 msgctxt "Comment"
 msgid "Testing Backend"
-msgstr ""
+msgstr "পরীক্ষণের ব্যাক-এন্ড"
 
 #: security/crypto/crypto.desktop:11
 msgctxt "Name"
 msgid "Crypto"
-msgstr ""
+msgstr "Crypto"
 
 #: security/crypto/crypto.desktop:49
 msgctxt "Comment"
 msgid "Configure SSL, manage certificates, and other cryptography settings"
-msgstr ""
+msgstr "SSL কনফিগারেশন, সার্টিফিকেট পরিচালনা ও ক্রিপ্টোগ্রাফি সংক্রান্ত বিবিধ বৈশিষ্ট্য কনফিগার করুন"
 
 #: security/kcert/kcertpart.desktop:3
 msgctxt "Comment"
 msgid "Embeddable Personal Certificate Manager"
-msgstr ""
+msgstr "এমবেড করার যোগ্য ব্যক্তিগত সার্টিফিকেট পরিচালন ব্যবস্থা"
 
 #: security/kcert/kcertpart.desktop:72
 msgctxt "Name"
@@ -1456,7 +1453,7 @@ msgstr "KCertPart"
 #: sonnet/plugins/hspell/kspell_hspell.desktop:10
 msgctxt "X-KDE-PluginInfo-Category"
 msgid "Clients"
-msgstr ""
+msgstr "ক্লায়েন্ট"
 
 #: sonnet/plugins/aspell/kspell_aspell.desktop:30
 msgctxt "Name"
@@ -1473,30 +1470,3 @@ msgctxt "Name"
 msgid "HSpell"
 msgstr "HSpell"
 
-#~ msgctxt "Name"
-#~ msgid "RDF"
-#~ msgstr "RDF"
-
-#~ msgctxt "Name"
-#~ msgid "RDF-Schema"
-#~ msgstr "RDF-Schema"
-
-#~ msgctxt "Comment"
-#~ msgid "Foomatic (CUPS, LPRng, PDQ)"
-#~ msgstr "Foomatic (CUPS, LPRng, PDQ)"
-
-#~ msgctxt "Name"
-#~ msgid "KDE Print Daemon"
-#~ msgstr "KDE প্রিন্ট ডেমন"
-
-#~ msgctxt "Comment"
-#~ msgid "KSendFax"
-#~ msgstr "KSendFax"
-
-#~ msgctxt "Name"
-#~ msgid "EPSON InkJet"
-#~ msgstr "EPSON InkJet"
-
-#~ msgctxt "Name"
-#~ msgid "Phonon"
-#~ msgstr "Phonon"
