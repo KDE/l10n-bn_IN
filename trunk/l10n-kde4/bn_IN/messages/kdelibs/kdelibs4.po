@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-23 06:20+0100\n"
-"PO-Revision-Date: 2007-12-19 16:19+0530\n"
+"PO-Revision-Date: 2007-12-24 16:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
 "MIME-Version: 1.0\n"
@@ -965,8 +965,7 @@ msgstr "ব্যবহারযোগ্য উইজেট বিন্যা�
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
-msgstr ""
-"উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
+msgstr "উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 30
@@ -1147,8 +1146,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 413
 #: rc.cpp:541
-msgid ""
-"Whether the shortcut icons to the left in the file dialog should be shown"
+msgid "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr "ফাইল ডায়লগের মধ্যে বাঁদিকের অংশে শর্ট-কাট আইকন প্রদর্শন করা হবে কি না"
 
 #. i18n: tag label
@@ -1160,8 +1158,7 @@ msgstr "দেশের নাম"
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 433
 #: rc.cpp:547
-msgid ""
-"Used to determine how to display numbers, currency and time/date for example"
+msgid "Used to determine how to display numbers, currency and time/date for example"
 msgstr "সংখ্যা, মুদ্রা, সময়/তারিখ প্রভৃতি প্রদর্শনের বিন্যাস নির্ধারণের জন্য ব্যবহৃত"
 
 #. i18n: tag label
@@ -1198,8 +1195,7 @@ msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভক�
 #. i18n: file ./kutils/kdeglobals.kcfg line 451
 #: rc.cpp:565
 msgid "Path to the directory containing executables to be run on session login"
-msgstr ""
-"সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
+msgstr "সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 455
@@ -5069,8 +5065,7 @@ msgid "Discard changes"
 msgstr ""
 
 #: kdeui/util/kstandardguiitem.cpp:127
-msgid ""
-"Pressing this button will discard all recent changes made in this dialog"
+msgid "Pressing this button will discard all recent changes made in this dialog"
 msgstr ""
 
 #: kdeui/util/kstandardguiitem.cpp:133 kdeui/actions/kstandardaction_p.h:46
@@ -5596,8 +5591,7 @@ msgid "%1"
 msgstr "%1"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1058
-msgid ""
-"This element will be replaced with all the elements of an embedded component."
+msgid "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
 #: kdeui/dialogs/kedittoolbar.cpp:1060
@@ -5698,8 +5692,7 @@ msgid "Submit Bug Report"
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:138
-msgid ""
-"Your email address. If incorrect, use the Configure Email button to change it"
+msgid "Your email address. If incorrect, use the Configure Email button to change it"
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:139
@@ -6120,7 +6113,6 @@ msgid "Change font size?"
 msgstr ""
 
 #: kdeui/fonts/kfontchooser.cpp:274
-#, fuzzy
 #| msgid "Size:"
 msgctxt "@label:listbox Font size"
 msgid "Size:"
@@ -6211,7 +6203,7 @@ msgid "%1"
 msgstr "%1"
 
 #: kdeui/fonts/kfontchooser.cpp:1062
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "dictionary name. %1-language and %2-variant name"
 #| msgid "%1 [%2]"
 msgctxt "@item Font name [foundry]"
@@ -6296,8 +6288,7 @@ msgid ""
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:218
-msgid ""
-"Enter a pattern to search for, or select a previous pattern from the list."
+msgid "Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:221
@@ -8983,8 +8974,7 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:910
 #, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:910
@@ -10444,7 +10434,7 @@ msgstr ""
 
 #: kutils/kcmoduleloader.cpp:153
 msgid "There was an error loading the module."
-msgstr ""
+msgstr "মডিউল লোড করতে সমস্যা।"
 
 #: kutils/kcmoduleloader.cpp:153
 #, kde-format
@@ -10498,14 +10488,14 @@ msgstr ""
 
 #: kutils/kpluginselector.cpp:233
 msgid "Dependency Check"
-msgstr ""
+msgstr "নির্ভরতা পরীক্ষণ"
 
 #: kutils/kpluginselector.cpp:251
 #, kde-format
 msgid "%1 plugin added"
 msgid_plural "%1 plugins added"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1-টি প্লাগ-ইন যোগ করা হয়েছে"
+msgstr[1] "%1-টি প্লাগ-ইন যোগ করা হয়েছে"
 
 #: kutils/kpluginselector.cpp:254
 msgid ", "
@@ -10515,8 +10505,8 @@ msgstr ", "
 #, kde-format
 msgid "%1 plugin removed"
 msgid_plural "%1 plugins removed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1-টি প্লাগ-ইন অপসারিত হয়েছে"
+msgstr[1] "%1 plugins removed"
 
 #: kutils/kpluginselector.cpp:260
 msgid " since the last time you asked for details"
@@ -10525,23 +10515,23 @@ msgstr ""
 #: kutils/kpluginselector.cpp:1651
 #, kde-format
 msgid "About %1 plugin"
-msgstr ""
+msgstr "%1 প্লাগ-ইন পরিচিতি"
 
 #: kutils/kpluginselector.cpp:1684
 msgid "E-Mail:"
-msgstr ""
+msgstr "ই-মেইল:"
 
 #: kutils/kpluginselector.cpp:1702
 msgid "Website:"
-msgstr ""
+msgstr "ওয়েব-সাইট:"
 
 #: kutils/kprintpreview.cpp:123
 msgid "Could not load print preview part"
-msgstr ""
+msgstr "প্রিন্টের পূর্বরূপের অংশ লোড করতে ব্যর্থ"
 
 #: kutils/kprintpreview.cpp:138
 msgid "Print Preview"
-msgstr ""
+msgstr "প্রিন্টের পূর্বরূপ"
 
 #: kutils/kcmoduleproxy.cpp:130
 msgid ""
@@ -10561,11 +10551,11 @@ msgstr ""
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
-msgstr ""
+msgstr "কনফিগারেশনের এই বিভাগ বর্তমানে %1-র মধ্যে খোলা রয়েছে"
 
 #: kutils/ksettings/componentsdialog.cpp:53
 msgid "Select Components"
-msgstr ""
+msgstr "সামগ্রী নির্বাচন করুন"
 
 #: kutils/ksettings/dialog.cpp:227
 msgid "component enabled:"
@@ -10577,53 +10567,52 @@ msgstr "KJSCmd"
 
 #: kjsembed/kjscmd/kjscmd.cpp:140
 msgid "Utility for running KJSEmbed scripts \n"
-msgstr ""
+msgstr "KJSEmbed স্ক্রিপ্ট সঞ্চালনের সামগ্রী \n"
 
 #: kjsembed/kjscmd/kjscmd.cpp:143
 msgid "(C) 2005-2006 The KJSEmbed Authors"
-msgstr ""
+msgstr "(C) ২০০৫-২০০৬ KJSEmbed নির্মাতাবৃন্দ"
 
 #: kjsembed/kjscmd/kjscmd.cpp:146 kjsembed/kjscmd/kjscmd.cpp:147
 msgid "Execute script without gui support"
-msgstr ""
+msgstr "gui সমর্থনবিনা স্ক্রিপ্ট সঞ্চালন করা হবে"
 
 #: kjsembed/kjscmd/kjscmd.cpp:148 kjsembed/kjscmd/kjscmd.cpp:149
 msgid "start interactive kjs interpreter"
-msgstr ""
+msgstr "ইন্টারেক্টিভ kjs ইন্টারপ্রেটার আরম্ভ করা হবে"
 
 #: kjsembed/kjscmd/kjscmd.cpp:150 kjsembed/kjscmd/kjscmd.cpp:151
 msgid "start without KDE KApplication support."
-msgstr ""
+msgstr "KDE KApplication সমর্থন বিনা আরম্ভ করা হবে।"
 
 #: kjsembed/kjscmd/kjscmd.cpp:152
 msgid "Script to execute"
-msgstr ""
+msgstr "সঞ্চালনের জন্য স্ক্রিপ্ট"
 
 #: kjsembed/kjsembed/qlayout_binding.cpp:90
 #, kde-format
 msgid "'%1' is not a valid QLayout."
-msgstr ""
+msgstr "'%1' বৈধ QLayout নয়।"
 
 #: kjsembed/kjsembed/qlayout_binding.cpp:96
 msgid "Must supply a layout name."
-msgstr ""
+msgstr "বিন্যাসের নাম উল্লেখ করা আবশ্যক।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:116
 msgid "Wrong object type."
-msgstr ""
+msgstr "ভুল ধরনের অবজেক্ট।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:124
 msgid "First argument must be a QObject."
-msgstr ""
+msgstr "প্রথম আর্গুমেন্ট QObject হওয়া আবশ্যক।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:161
 msgid "Incorrect number of arguments."
-msgstr ""
+msgstr "ভুল সংখ্যক আর্গুমেন্ট"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:409
 #, kde-format
-msgid ""
-"The slot sked for %1 arguments but there are only %2 arguments available."
+msgid "The slot sked for %1 arguments but there are only %2 arguments available."
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:597
@@ -10634,27 +10623,27 @@ msgstr ""
 #: kjsembed/kjsembed/qobject_binding.cpp:632
 #, kde-format
 msgid "No such method '%1'."
-msgstr ""
+msgstr "'%1' মেথড অনুপস্থিত।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:647
 #, kde-format
 msgid "Call to method '%1' failed, unable to get argument %2: %3"
-msgstr ""
+msgstr "'%1' মেথডকে করা কল বিফল, %2: %3 আর্গুমেন্ট প্রাপ্ত করতে ব্যর্থ।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:662
 #, kde-format
 msgid "Call to '%1' failed."
-msgstr ""
+msgstr "'%1'-কে করা কল বিফল হয়েছে।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:747
 #: kjsembed/kjsembed/object_binding.h:219
 #, kde-format
 msgid "%1 is not an Object type"
-msgstr ""
+msgstr "%1 কোনো অবজেক্টের ধরন নয়"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:753
 msgid "Could not construct value"
-msgstr ""
+msgstr "মান গঠন করতে ব্যর্থ"
 
 #: kjsembed/kjsembed/eventproxy.cpp:108
 #, kde-format
@@ -10664,22 +10653,22 @@ msgstr ""
 #: kjsembed/kjsembed/eventproxy.cpp:135
 #, kde-format
 msgid "Exception calling '%1' function from %2:%3:%4"
-msgstr ""
+msgstr "%2:%3:%4 থেকে '%1' ফাংশান কল করতে এক্সেপশন উৎপন্ন হয়েছে"
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:59
 #, kde-format
 msgid "There was an error reading the file '%1'"
-msgstr ""
+msgstr "ফাইল '%1' পড়তে ব্যর্থ"
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:67
 #, kde-format
 msgid "Could not read file '%1'"
-msgstr ""
+msgstr "ফাইল '%1' পড়তে ব্যর্থ"
 
 #: kjsembed/kjsembed/qformbuilder_binding.cpp:70
 #: kjsembed/kjsembed/quiloader_binding.cpp:118
 msgid "Must supply a filename."
-msgstr ""
+msgstr "ফাইলের নাম উল্লেখ করা আবশ্যক।"
 
 #: kjsembed/kjsembed/slotproxy.cpp:115
 #, kde-format
@@ -10694,91 +10683,91 @@ msgstr ""
 #: kjsembed/kjsembed/qwidget_binding.cpp:161
 #, kde-format
 msgid "'%1' is not a valid QWidget."
-msgstr ""
+msgstr "'%1' বৈধ QWidget নয়।"
 
 #: kjsembed/kjsembed/qwidget_binding.cpp:170
 msgid "Must supply a widget name."
-msgstr ""
+msgstr "উইজেটের নাম উল্লেখ করা আবশ্যক।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:53
 msgid "Not enough arguments."
-msgstr ""
+msgstr "পর্যাপ্ত আর্গুমেন্ট উপস্থিত নেই।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:70
 msgid "Failed to create Action."
-msgstr ""
+msgstr "Action নির্মাণ করতে ব্যর্থ।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:81
 msgid "Failed to create ActionGroup."
-msgstr ""
+msgstr "ActionGroup নির্মাণ করতে ব্যর্থ।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:88
 msgid "No classname specified"
-msgstr ""
+msgstr "ক্লাসের নাম উল্লিখিত হয়নি।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:95
 msgid "Failed to create Layout."
-msgstr ""
+msgstr "বিন্যাস নির্মাণ করতে ব্যর্থ।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:103
 msgid "No classname specified."
-msgstr ""
+msgstr "ক্লাসের নাম উল্লিখিত হয়নি।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:110
 msgid "Failed to create Widget."
-msgstr ""
+msgstr "উইজেট নির্মাণ করতে ব্যর্থ।"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:122
 #, kde-format
 msgid "Could not open file '%1': %2"
-msgstr ""
+msgstr "ফাইল '%1' খুলতে ব্যর্থ: %2"
 
 #: kjsembed/kjsembed/quiloader_binding.cpp:129
 #, kde-format
 msgid "Failed to load file '%1'"
-msgstr ""
+msgstr "ফাইল '%1' লোড করতে ব্যর্থ"
 
 #: kjsembed/kjsembed/fileio.cpp:69
 #, kde-format
 msgid "Could not open file '%1'"
-msgstr ""
+msgstr "ফাইল '%1' খুলতে ব্যর্থ"
 
 #: kjsembed/kjsembed/fileio.cpp:104
 msgid "Could not create temporary file."
-msgstr ""
+msgstr "অস্থায়ী ফাইল নির্মাণ করতে সমস্য।"
 
 #: kjsembed/kjsembed/builtins.cpp:88 kjsembed/kjsembed/builtins.cpp:128
 #, kde-format
 msgid "Error seen while processing include '%1' line %2: %3"
-msgstr ""
+msgstr "include '%1' পংক্তি %2 প্রক্রিয়াকরণের সময় সমস্যা: %3"
 
 #: kjsembed/kjsembed/builtins.cpp:94
 #, kde-format
 msgid "include only takes 1 argument, not %1."
-msgstr ""
+msgstr "include দ্বারা %1 নয় শুধুমাত্র ১-টি আর্গুমেন্ট গ্রহণ করা হয়।"
 
 #: kjsembed/kjsembed/builtins.cpp:132
 #, kde-format
 msgid "File %1 not found."
-msgstr ""
+msgstr "ফাইল %1 পাওয়া যায়নি।"
 
 #: kjsembed/kjsembed/builtins.cpp:138
 #, kde-format
 msgid "library only takes 1 argument, not %1."
-msgstr ""
+msgstr "library দ্বারা %1 নয় শুধুমাত্র ১-টি আর্গুমেন্ট গ্রহণ করা হয়।"
 
 #: kjsembed/kjsembed/kjsembed.cpp:278 kjsembed/kjsembed/kjsembed.cpp:300
 #, kde-format
 msgid "%1 is not a function and cannot be called."
-msgstr ""
+msgstr "%1 ফাংশান নয় এবং এটি কল (call) করা সম্ভব নয়।"
 
 #: kjsembed/kjsembed/qaction_binding.cpp:59
 msgid "Action takes 2 args."
-msgstr ""
+msgstr "Action দ্বারা ২-টি আর্গুমেন্ট গ্রহণ করা হয়।"
 
 #: kjsembed/kjsembed/qaction_binding.cpp:86
 msgid "ActionGroup takes 2 args."
-msgstr ""
+msgstr "ActionGroup দ্বারা ২-টি আর্গুমেন্ট গ্রহণ করা হয়।"
 
 #: kjsembed/kjsembed/qaction_binding.cpp:91
 msgid "Must supply a valid parent."
@@ -10786,21 +10775,21 @@ msgstr ""
 
 #: kde3support/kio/kfile/k3fileview.cpp:123
 msgid "Unknown View"
-msgstr ""
+msgstr "অজানা প্রদর্শনের বিন্যাস"
 
 #: kde3support/kdeui/k3spelldlg.cpp:49
 msgid "Check Spelling"
-msgstr ""
+msgstr "বানান পরীক্ষা করা হবে"
 
 #: kde3support/kdeui/k3spelldlg.cpp:54
 msgid "&Finished"
-msgstr ""
+msgstr "সমাপ্ত (&F)"
 
 #: kde3support/kdeui/k3listviewsearchline.cpp:307
 #, kde-format
 msgctxt "Column number %1"
 msgid "Column No. %1"
-msgstr ""
+msgstr "কলাম সংখ্যা %1"
 
 #: kde3support/kdeui/k3aboutapplication.cpp:50
 msgid "??"
@@ -10811,57 +10800,59 @@ msgid ""
 "No information available.\n"
 "The supplied KAboutData object does not exist."
 msgstr ""
+"কোনো তথ্য উপলব্ধ নেই।\n"
+"উল্লিখিত KAboutData অবজেক্ট বর্তমানে উপস্থিত নেই।"
 
 #: kde3support/kdeui/k3aboutapplication.cpp:169
 msgid "&License Agreement"
-msgstr ""
+msgstr "লাইসেন্স সংক্রান্ত চুক্তিপত্র (&L)"
 
 #: kde3support/kdeui/k3command.cpp:388
 #, kde-format
 msgid "Undo: %1"
-msgstr ""
+msgstr "পূর্বাবস্থা: %1"
 
 #: kde3support/kdeui/k3command.cpp:394
 #, kde-format
 msgid "Redo: %1"
-msgstr ""
+msgstr "পুনরাবৃত্তি: %1"
 
 #: kde3support/kdeui/k3command.cpp:421 kdeui/actions/kstandardaction_p.h:55
 msgid "&Undo"
-msgstr ""
+msgstr "পূর্বাবস্থা (&U)"
 
 #: kde3support/kdeui/k3command.cpp:421
 msgid "&Redo"
-msgstr ""
+msgstr "পুনরাবৃত্তি (&R)"
 
 #: kde3support/kdeui/k3command.cpp:426
 #, kde-format
 msgid "&Undo: %1"
-msgstr ""
+msgstr "পূর্বাবস্থা: %1 (&U)"
 
 #: kde3support/kdeui/k3command.cpp:429
 #, kde-format
 msgid "&Redo: %1"
-msgstr ""
+msgstr "পুনরাবৃত্তি: %1 (&R)"
 
 #: kde3support/kdeui/k3passworddialog.cpp:360
 msgid "&Password:"
-msgstr ""
+msgstr "পাসওয়ার্ড: (&P)"
 
 #: kde3support/kdeui/k3passworddialog.cpp:378
 msgid "&Keep password"
-msgstr ""
+msgstr "পাসওয়ার্ড বজায় রাখা হবে (&K)"
 
 #: kde3support/kdeui/k3passworddialog.cpp:564
 #: kde3support/kdeui/k3passworddialog.cpp:568
 #: kde3support/kdeui/k3passworddialog.cpp:589
 msgid "Password Input"
-msgstr ""
+msgstr "পাসওয়ার্ড ইনপুট"
 
 #: kde3support/kdeui/k3sconfig.cpp:109
 msgctxt "@option:check"
 msgid "Do SpellChecking"
-msgstr ""
+msgstr "বানান পরীক্ষা করা হবে"
 
 #: kde3support/kdeui/k3sconfig.cpp:113
 msgctxt "@option:check"
@@ -10876,17 +10867,17 @@ msgstr ""
 #: kde3support/kdeui/k3sconfig.cpp:132
 msgctxt "@label:listbox"
 msgid "&Dictionary:"
-msgstr ""
+msgstr "অভিধান: (&D)"
 
 #: kde3support/kdeui/k3sconfig.cpp:159
 msgctxt "@label:listbox"
 msgid "&Encoding:"
-msgstr ""
+msgstr "এনকোডিং: (&E)"
 
 #: kde3support/kdeui/k3sconfig.cpp:166
 msgctxt "@item:inlistbox Spell checker"
 msgid "International <application>Ispell</application>"
-msgstr ""
+msgstr "আন্তর্জাতিক <application>Ispell</application>"
 
 #: kde3support/kdeui/k3sconfig.cpp:167
 msgctxt "@item:inlistbox Spell checker"
@@ -10906,7 +10897,7 @@ msgstr "<application>Zemberek</application>"
 #: kde3support/kdeui/k3sconfig.cpp:174
 msgctxt "@label:listbox"
 msgid "&Client:"
-msgstr ""
+msgstr "ক্লায়েন্ট: (&C)"
 
 #: kde3support/kdeui/k3sconfig.cpp:256 kde3support/kdeui/k3sconfig.cpp:416
 #: kde3support/kdeui/k3sconfig.cpp:680
@@ -10918,7 +10909,7 @@ msgstr "হিব্রু"
 #: kde3support/kdeui/k3sconfig.cpp:685
 msgctxt "@item Spelling dictionary"
 msgid "Turkish"
-msgstr ""
+msgstr "তুর্কি"
 
 #: kde3support/kdeui/k3sconfig.cpp:314
 msgctxt "@item Spelling dictionary"
@@ -10928,67 +10919,67 @@ msgstr "ইংরাজি"
 #: kde3support/kdeui/k3sconfig.cpp:317
 msgctxt "@item Spelling dictionary"
 msgid "Spanish"
-msgstr ""
+msgstr "স্প্যানিশ"
 
 #: kde3support/kdeui/k3sconfig.cpp:320
 msgctxt "@item Spelling dictionary"
 msgid "Danish"
-msgstr ""
+msgstr "ড্যানিশ"
 
 #: kde3support/kdeui/k3sconfig.cpp:323
 msgctxt "@item Spelling dictionary"
 msgid "German"
-msgstr ""
+msgstr "জার্মান"
 
 #: kde3support/kdeui/k3sconfig.cpp:326
 msgctxt "@item Spelling dictionary"
 msgid "German (new spelling)"
-msgstr ""
+msgstr "জার্মান (নতুন বানান)"
 
 #: kde3support/kdeui/k3sconfig.cpp:329
 msgctxt "@item Spelling dictionary"
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "ব্রাজিলিয়ান পোর্তুগিজ"
 
 #: kde3support/kdeui/k3sconfig.cpp:332
 msgctxt "@item Spelling dictionary"
 msgid "Portuguese"
-msgstr ""
+msgstr "পোর্তুগিজ"
 
 #: kde3support/kdeui/k3sconfig.cpp:335
 msgctxt "@item Spelling dictionary"
 msgid "Esperanto"
-msgstr ""
+msgstr "এসপারান্তো"
 
 #: kde3support/kdeui/k3sconfig.cpp:338
 msgctxt "@item Spelling dictionary"
 msgid "Norwegian"
-msgstr ""
+msgstr "নরওয়েজিয়ান"
 
 #: kde3support/kdeui/k3sconfig.cpp:341
 msgctxt "@item Spelling dictionary"
 msgid "Polish"
-msgstr ""
+msgstr "পোলিশ"
 
 #: kde3support/kdeui/k3sconfig.cpp:344
 msgctxt "@item Spelling dictionary"
 msgid "Russian"
-msgstr ""
+msgstr "রাশিয়ান"
 
 #: kde3support/kdeui/k3sconfig.cpp:347
 msgctxt "@item Spelling dictionary"
 msgid "Slovenian"
-msgstr ""
+msgstr "স্লোভেনিয়ান"
 
 #: kde3support/kdeui/k3sconfig.cpp:350
 msgctxt "@item Spelling dictionary"
 msgid "Slovak"
-msgstr ""
+msgstr "স্লোভাক"
 
 #: kde3support/kdeui/k3sconfig.cpp:353
 msgctxt "@item Spelling dictionary"
 msgid "Czech"
-msgstr ""
+msgstr "চেক"
 
 #: kde3support/kdeui/k3sconfig.cpp:356
 msgctxt "@item Spelling dictionary"
@@ -10998,32 +10989,32 @@ msgstr "সুইডিশ"
 #: kde3support/kdeui/k3sconfig.cpp:359
 msgctxt "@item Spelling dictionary"
 msgid "Swiss German"
-msgstr ""
+msgstr "সুইস জার্মান"
 
 #: kde3support/kdeui/k3sconfig.cpp:362
 msgctxt "@item Spelling dictionary"
 msgid "Ukrainian"
-msgstr ""
+msgstr "ইউক্রেনিয়েন"
 
 #: kde3support/kdeui/k3sconfig.cpp:365
 msgctxt "@item Spelling dictionary"
 msgid "Lithuanian"
-msgstr ""
+msgstr "লিথুয়েনিয়ান"
 
 #: kde3support/kdeui/k3sconfig.cpp:368
 msgctxt "@item Spelling dictionary"
 msgid "French"
-msgstr ""
+msgstr "ফ্রেঞ্চ"
 
 #: kde3support/kdeui/k3sconfig.cpp:371
 msgctxt "@item Spelling dictionary"
 msgid "Belarusian"
-msgstr ""
+msgstr "বেলারুশিয়ান"
 
 #: kde3support/kdeui/k3sconfig.cpp:374
 msgctxt "@item Spelling dictionary"
 msgid "Hungarian"
-msgstr ""
+msgstr "হাঙ্গেরিয়ান"
 
 #: kde3support/kdeui/k3sconfig.cpp:378
 msgctxt "@item Spelling dictionary"
@@ -11080,7 +11071,7 @@ msgstr "%1 %2, %3"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:900
 msgid "Other Contributors:"
-msgstr ""
+msgstr "অন্যান্য যোগদানকারী:"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:901
 msgid "(No logo available)"
@@ -11102,7 +11093,7 @@ msgstr ""
 #: kde3support/kdeui/k3dockwidget.cpp:288
 msgctxt "Dock this window"
 msgid "Dock"
-msgstr ""
+msgstr "আটক করা হবে"
 
 #: kde3support/kdeui/k3dockwidget.cpp:296
 msgid "Detach"
@@ -11141,26 +11132,25 @@ msgstr "ক্রমবর্ধমান বানানপরীক্ষণ"
 
 #: kde3support/kunittest/modrunner.cpp:41
 msgid "A command-line application that can be used to run KUnitTest modules."
-msgstr ""
+msgstr "KUnitTest মডিউল সঞ্চালনের উদ্দেশ্যে কমান্ড-লাইন থেকে ব্যবহারযোগ্য অ্যাপ্লিকেশন।"
 
 #: kde3support/kunittest/modrunner.cpp:46
 msgid "Only run modules whose filenames match the regexp."
-msgstr ""
+msgstr "regexp অনুযায়ী চিহ্নিত নামধারী মডিউলগুলি সঞ্চালিত হবে।"
 
 #: kde3support/kunittest/modrunner.cpp:47
 msgid ""
 "Only run tests modules which are found in the folder. Use the query option "
 "to select modules."
-msgstr ""
+msgstr "শুধুমাত্র ফোল্ডারে উপস্থিত মডিউলগুলি পরীক্ষা করা হবে। সুনির্দিষ্ট মডিউল নির্বাচন করার জন্য query বিকল্পটি প্রয়োগ করুন।"
 
 #: kde3support/kunittest/modrunner.cpp:48
-msgid ""
-"Disables debug capturing. You typically use this option when you use the GUI."
-msgstr ""
+msgid "Disables debug capturing. You typically use this option when you use the GUI."
+msgstr "ডিবাগ থেকে তথ্য প্রাপ্তি নিষ্ক্রিয় করা হয়। GUI ব্যবহারকালে এই বিকল্পটি সাধারণত ব্যবহার করা হয়।"
 
 #: kde3support/kunittest/modrunner.cpp:50
 msgid "KUnitTest ModRunner"
-msgstr ""
+msgstr "KUnitTest ModRunner"
 
 #: kde3support/kunittest/modrunner.cpp:51
 msgid "(C) 2005 Jeroen Wijnhout"
@@ -11209,8 +11199,7 @@ msgstr "নামাঙ্কিত রঙ"
 msgid ""
 "Unable to read X11 RGB color strings. The following file location(s) were "
 "examined:\n"
-msgstr ""
-"X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
+msgstr "X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
 
 #: kdeui/colors/kcolordialog.cpp:967
 msgid "Select Color"
@@ -11218,7 +11207,7 @@ msgstr "রঙ নির্বাচন করুন"
 
 #: kdeui/colors/kcolordialog.cpp:1037
 msgid "Hue:"
-msgstr ""
+msgstr "হিউ:"
 
 #: kdeui/colors/kcolordialog.cpp:1047
 msgid "Saturation:"
@@ -11291,7 +11280,7 @@ msgstr "ফাইল খুলতে সমস্যা।"
 
 #: kwallet/backend/kwalletbackend.cc:261
 msgid "Not a wallet file."
-msgstr ""
+msgstr "wallet ফাইল নয়।"
 
 #: kwallet/backend/kwalletbackend.cc:263
 msgid "Unsupported file format revision."
@@ -11307,7 +11296,7 @@ msgstr "ক্ষতিগ্রস্ত ফাইল কি?"
 
 #: kwallet/backend/kwalletbackend.cc:269
 msgid "Error validating wallet integrity. Possibly corrupted."
-msgstr ""
+msgstr "wallet-র যথার্থতা প্রমাণ করতে ব্যর্থ। সম্ভবত এটি ক্ষতিগ্রস্ত।"
 
 #: kwallet/backend/kwalletbackend.cc:273
 msgid "Read error - possibly incorrect password."
@@ -11324,7 +11313,7 @@ msgstr "qttest"
 #: kdecore/services/kservice.h:519
 #, kde-format
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
-msgstr ""
+msgstr "'%1' পরিসেবা দ্বারা '%3' প্রাসঙ্গিক শব্দ অর্থাৎ কি-ওয়ার্ড সহ '%2' ইন্টারফেস উপলব্ধ করা হয় না।"
 
 #: kdeui/actions/kstandardaction_p.h:43
 msgid "&New"
@@ -11500,3 +11489,4 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
 "4<br />(দশমিক অনুসারে: %5)</qt>"
+
