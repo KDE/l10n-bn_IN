@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2007-12-26 06:13+0100\n"
-"PO-Revision-Date: 2007-12-24 16:04+0530\n"
+"PO-Revision-Date: 2007-12-26 18:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
 "MIME-Version: 1.0\n"
@@ -812,10 +812,9 @@ msgstr ""
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 35
 #: rc.cpp:372
-#, fuzzy
 #| msgid "Main Toolbar"
 msgid "HTML Toolbar"
-msgstr "প্রধান টুল-বার"
+msgstr "HTML টুল-বার"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 44
@@ -969,8 +968,7 @@ msgstr "ব্যবহারযোগ্য উইজেট বিন্যা�
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
-msgstr ""
-"উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
+msgstr "উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 30
@@ -1151,8 +1149,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 413
 #: rc.cpp:538
-msgid ""
-"Whether the shortcut icons to the left in the file dialog should be shown"
+msgid "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr "ফাইল ডায়লগের মধ্যে বাঁদিকের অংশে শর্ট-কাট আইকন প্রদর্শন করা হবে কি না"
 
 #. i18n: tag label
@@ -1164,8 +1161,7 @@ msgstr "দেশের নাম"
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 433
 #: rc.cpp:544
-msgid ""
-"Used to determine how to display numbers, currency and time/date for example"
+msgid "Used to determine how to display numbers, currency and time/date for example"
 msgstr "সংখ্যা, মুদ্রা, সময়/তারিখ প্রভৃতি প্রদর্শনের বিন্যাস নির্ধারণের জন্য ব্যবহৃত"
 
 #. i18n: tag label
@@ -1202,8 +1198,7 @@ msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভক�
 #. i18n: file ./kutils/kdeglobals.kcfg line 451
 #: rc.cpp:562
 msgid "Path to the directory containing executables to be run on session login"
-msgstr ""
-"সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
+msgstr "সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 455
@@ -5073,8 +5068,7 @@ msgid "Discard changes"
 msgstr ""
 
 #: kdeui/util/kstandardguiitem.cpp:127
-msgid ""
-"Pressing this button will discard all recent changes made in this dialog"
+msgid "Pressing this button will discard all recent changes made in this dialog"
 msgstr ""
 
 #: kdeui/util/kstandardguiitem.cpp:133 kdeui/actions/kstandardaction_p.h:46
@@ -5600,8 +5594,7 @@ msgid "%1"
 msgstr "%1"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1058
-msgid ""
-"This element will be replaced with all the elements of an embedded component."
+msgid "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
 #: kdeui/dialogs/kedittoolbar.cpp:1060
@@ -5702,8 +5695,7 @@ msgid "Submit Bug Report"
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:138
-msgid ""
-"Your email address. If incorrect, use the Configure Email button to change it"
+msgid "Your email address. If incorrect, use the Configure Email button to change it"
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:139
@@ -6296,8 +6288,7 @@ msgid ""
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:218
-msgid ""
-"Enter a pattern to search for, or select a previous pattern from the list."
+msgid "Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:221
@@ -8983,8 +8974,7 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:910
 #, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:910
@@ -9900,7 +9890,7 @@ msgstr ""
 
 #: khtml/java/kjavaappletserver.cpp:147
 msgid "Loading Applet"
-msgstr ""
+msgstr "অ্যাপ্লেট লোড করা হচ্ছে"
 
 #: khtml/java/kjavaappletserver.cpp:151
 msgid "Error: java executable not found"
@@ -9916,7 +9906,7 @@ msgstr ""
 
 #: khtml/java/kjavaappletserver.cpp:668
 msgid "Ok"
-msgstr ""
+msgstr "ঠিক আছে"
 
 #: khtml/java/kjavaappletserver.cpp:670
 msgid "NoCARoot"
@@ -9936,7 +9926,7 @@ msgstr "InvalidCA"
 
 #: khtml/java/kjavaappletserver.cpp:678
 msgid "Expired"
-msgstr ""
+msgstr "মেয়াদ উত্তীর্ণ"
 
 #: khtml/java/kjavaappletserver.cpp:680
 msgid "SelfSigned"
@@ -9948,11 +9938,11 @@ msgstr "ErrorReadingRoot"
 
 #: khtml/java/kjavaappletserver.cpp:684
 msgid "Revoked"
-msgstr ""
+msgstr "প্রত্যাহার করা হয়েছে"
 
 #: khtml/java/kjavaappletserver.cpp:686
 msgid "Untrusted"
-msgstr ""
+msgstr "বিশ্বস্ত নয়"
 
 #: khtml/java/kjavaappletserver.cpp:688
 msgid "SignatureFailed"
@@ -9960,7 +9950,7 @@ msgstr "SignatureFailed"
 
 #: khtml/java/kjavaappletserver.cpp:690
 msgid "Rejected"
-msgstr ""
+msgstr "প্রত্যাখ্যাত"
 
 #: khtml/java/kjavaappletserver.cpp:692
 msgid "PrivateKeyFailed"
@@ -9980,7 +9970,7 @@ msgstr ""
 
 #: khtml/java/kjavaappletserver.cpp:846
 msgid "&Reject All"
-msgstr ""
+msgstr "সমস্ত প্রত্যাখ্যান করা হবে (&R)"
 
 #: khtml/java/kjavaappletserver.cpp:852
 msgid "&Grant All"
@@ -10001,7 +9991,7 @@ msgstr ""
 
 #: khtml/kmultipart/kmultipart.cpp:572
 msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
-msgstr ""
+msgstr "স্বত্বাধিকার ২০০১, ডেভিড ফাউরে <email>david@mandrakesoft.com</email>"
 
 #: khtml/rendering/render_frames.cpp:944
 #, kde-format
@@ -10009,18 +9999,20 @@ msgid ""
 "No plugin found for '%1'.\n"
 "Do you want to download one from %2?"
 msgstr ""
+"'%1'-র জন্য প্লাগ-ইন পাওয়া যায়নি।\n"
+"%2 থেকে ডাউনলোড করা হবে কি?"
 
 #: khtml/rendering/render_frames.cpp:945
 msgid "Missing Plugin"
-msgstr ""
+msgstr "অনুপস্থিত প্লাগ-ইন"
 
 #: khtml/rendering/render_frames.cpp:945
 msgid "Download"
-msgstr ""
+msgstr "ডাউনলোড করা হবে"
 
 #: khtml/rendering/render_frames.cpp:945
 msgid "Do Not Download"
-msgstr ""
+msgstr "ডাউনলোড করা হবে না"
 
 #: kinit/kinit.cpp:411
 msgid ""
@@ -10039,7 +10031,7 @@ msgstr ""
 #: kinit/kinit.cpp:527
 #, kde-format
 msgid "Could not find '%1' executable."
-msgstr ""
+msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
 
 #: kinit/kinit.cpp:545
 #, kde-format
@@ -10047,6 +10039,8 @@ msgid ""
 "Could not open library '%1'.\n"
 "%2"
 msgstr ""
+"লাইব্রেরি '%1' খোলা যায়নি।\n"
+"%2"
 
 #: kinit/kinit.cpp:591
 #, kde-format
@@ -10054,6 +10048,8 @@ msgid ""
 "Could not find 'kdemain' in '%1'.\n"
 "%2"
 msgstr ""
+"'%1'-র মধ্যে 'kdemain' পাওয়া যায়নি।\n"
+"%2"
 
 #: kinit/klauncher_main.cpp:54
 msgid ""
@@ -10064,89 +10060,89 @@ msgstr ""
 #: kinit/klauncher.cpp:490
 #, kde-format
 msgid "KDEInit could not launch '%1'."
-msgstr ""
+msgstr "KDEInit দ্বারা '%1' লঞ্চ করা যায়নি"
 
 #: kinit/klauncher.cpp:655 kinit/klauncher.cpp:680 kinit/klauncher.cpp:695
 #, kde-format
 msgid "Could not find service '%1'."
-msgstr ""
+msgstr "পরিসেবা '%1' সন্ধান করা যায়নি।"
 
 #: kinit/klauncher.cpp:711 kinit/klauncher.cpp:747
 #, kde-format
 msgid "Service '%1' is malformatted."
-msgstr ""
+msgstr "'%1' পরিসেবা ত্রুটিপূর্ণ রূপে গঠিত হয়েছে।"
 
 #: kinit/klauncher.cpp:819
 #, kde-format
 msgid "Launching %1"
-msgstr ""
+msgstr "%1 লঞ্চ করা হচ্ছে"
 
 #: kinit/klauncher.cpp:1023
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
-msgstr ""
+msgstr "অজানা প্রোটোকল '%1'।\n"
 
 #: kinit/klauncher.cpp:1084
 #, kde-format
 msgid "Error loading '%1'.\n"
-msgstr ""
+msgstr "'%1' লোড করতে সমস্যা।\n"
 
 #: kross/ui/view.cpp:158
 msgid "Text:"
-msgstr ""
+msgstr "টেক্সট:"
 
 #: kross/ui/view.cpp:165
 msgid "Comment:"
-msgstr ""
+msgstr "মন্তব্য:"
 
 #: kross/ui/view.cpp:172
 msgid "Icon:"
-msgstr ""
+msgstr "আইকন:"
 
 #: kross/ui/view.cpp:193
 msgid "Interpreter:"
-msgstr ""
+msgstr "ইন্টারপ্রেটার:"
 
 #: kross/ui/view.cpp:303
 msgid "Execute the selected script."
-msgstr ""
+msgstr "নির্বাচিত স্ক্রিপ্ট সঞ্চালন করুন।"
 
 #: kross/ui/view.cpp:310
 msgid "Stop execution of the selected script."
-msgstr ""
+msgstr "নির্বাচিত স্ক্রিপ্টের সঞ্চালন বন্ধ করুন।"
 
 #: kross/ui/view.cpp:315
 msgid "Edit..."
-msgstr ""
+msgstr "সম্পাদনা..."
 
 #: kross/ui/view.cpp:317
 msgid "Edit selected script."
-msgstr ""
+msgstr "নির্বাচিত স্ক্রিপ্ট সম্পাদন করুন।"
 
 #: kross/ui/view.cpp:322
 msgid "Add..."
-msgstr ""
+msgstr "যোগ করুন..."
 
 #: kross/ui/view.cpp:324
 msgid "Add a new script."
-msgstr ""
+msgstr "নতুন স্ক্রিপ্ট যোগ করুন।"
 
 #: kross/ui/view.cpp:331
 msgid "Remove selected script."
-msgstr ""
+msgstr "নির্বাচিত স্ক্রিপ্ট মুছে ফেলুন।"
 
 #: kross/core/interpreter.cpp:132
 #, kde-format
 msgid "Could not load interpreter library \"%1\""
-msgstr ""
+msgstr "ইন্টারপ্রেটার লাইব্রেরি \"%1\" লোড করতে ব্যর্থ"
 
 #: kross/core/interpreter.cpp:144
 msgid "Incompatible interpreter library."
-msgstr ""
+msgstr "ইন্টারপ্রেটার লাইব্রেরি বিসংগত"
 
 #: kross/core/manager.cpp:102
 msgid "Level of safety of the Ruby interpreter"
-msgstr ""
+msgstr "Ruby ইন্টারপ্রেটারের ক্ষেত্রে নিরাপত্তার মাত্রা"
 
 #: kross/core/manager.cpp:146
 msgid "Restricted mode for untrusted scripts"
@@ -10155,32 +10151,32 @@ msgstr ""
 #: kross/core/action.cpp:376
 #, kde-format
 msgid "There exists no such scriptfile \"%1\""
-msgstr ""
+msgstr "scriptfile \"%1\" অনুপস্থিত"
 
 #: kross/core/action.cpp:380
 #, kde-format
 msgid "Failed to determinate interpreter for scriptfile \"%1\""
-msgstr ""
+msgstr "scriptfile \"%1\"-র জন্য ইন্টারপ্রেটার নির্ধারণ করতে ব্যর্থ"
 
 #: kross/core/action.cpp:384
 #, kde-format
 msgid "Failed to open scriptfile \"%1\""
-msgstr ""
+msgstr "scriptfile \"%1\" খুলতে ব্যর্থ"
 
 #: kross/core/action.cpp:395
 #, kde-format
 msgid "Failed to load interpreter \"%1\": %2"
-msgstr ""
+msgstr "ইন্টারপ্রেটার \"%1\" লোড করতে ব্যর্থ: %2"
 
 #: kross/core/action.cpp:397
 #, kde-format
 msgid "No such interpreter \"%1\""
-msgstr ""
+msgstr "ইন্টারপ্রেটাট \"%1\" অনুপস্থিত"
 
 #: kross/core/action.cpp:403
 #, kde-format
 msgid "Failed to create script for interpreter \"%1\""
-msgstr ""
+msgstr "ইন্টারপ্রেটার \"%1\"-র জন্য স্ক্রিপ্ট নির্মাণ করতে ব্যর্থ"
 
 #: kross/test/main.cpp:132
 msgid "KrossTest"
@@ -10188,23 +10184,23 @@ msgstr "KrossTest"
 
 #: kross/test/main.cpp:134
 msgid "KDE application to test the Kross framework."
-msgstr ""
+msgstr "Kross ফ্রেমওয়ার্ক পরীক্ষণের জন্য ব্যবহৃত KDE অ্যাপ্লিকেশন।"
 
 #: kross/test/main.cpp:136
 msgid "(C) 2005-2007 Sebastian Sauer"
-msgstr ""
+msgstr "(C) ২০০৫-২০০৭ সেবাস্তিয়ান সওয়ার"
 
 #: kross/test/main.cpp:137
 msgid "Test the Kross framework!"
-msgstr ""
+msgstr "Kross ফ্রেমওয়ার্ক পরীক্ষা করুন!"
 
 #: kross/test/main.cpp:140 kross/console/main.cpp:102
 msgid "Sebastian Sauer"
-msgstr ""
+msgstr "সেবাস্তিয়ান সওয়ার"
 
 #: kross/test/main.cpp:143 kross/console/main.cpp:108
 msgid "Scriptfile"
-msgstr ""
+msgstr "Scriptfile"
 
 #: kross/console/main.cpp:94
 msgid "Kross"
@@ -10212,82 +10208,82 @@ msgstr "Kross"
 
 #: kross/console/main.cpp:96
 msgid "KDE application to run Kross scripts."
-msgstr ""
+msgstr "Kross স্ক্রিপ্ট সঞ্চালনের জন্য KDE অ্যাপ্লিকেশন।"
 
 #: kross/console/main.cpp:98
 msgid "(C) 2006 Sebastian Sauer"
-msgstr ""
+msgstr "(C) ২০০৬ সেবাস্তিয়ান সওয়ার"
 
 #: kross/console/main.cpp:99
 msgid "Run Kross scripts."
-msgstr ""
+msgstr "Kross স্ক্রিপ্ট সঞ্চালন করা হবে।"
 
 #: kross/modules/form.cpp:273
 msgid "Abort?"
-msgstr ""
+msgstr "পরিত্যাগ করা হবে কি?"
 
 #: knotify/config/knotifyconfigwidget.cpp:100
 msgid "Configure Notifications"
-msgstr ""
+msgstr "সূচনাবার্তা কনফিগার করুন"
 
 #: knotify/config/knotifyeventlist.cpp:93
 msgctxt "Title of the notified event"
 msgid "Title"
-msgstr ""
+msgstr "শিরোনাম"
 
 #: knotify/config/knotifyeventlist.cpp:93
 msgctxt "Description of the notified event"
 msgid "Description"
-msgstr ""
+msgstr "বিবরণ"
 
 #: knotify/config/knotifyeventlist.cpp:93
 msgctxt "State of the notified event"
 msgid "State"
-msgstr ""
+msgstr "অবস্থা"
 
 #: kconf_update/kconf_update.cpp:137
 msgid "Only local files are supported."
-msgstr ""
+msgstr "শুধুমাত্র স্থানীয় ফাইল সমর্থিত হবে।"
 
 #: kconf_update/kconf_update.cpp:954
 msgid "Keep output results from scripts"
-msgstr ""
+msgstr "স্ক্রিপ্ট থেকে প্রাপ্ত ফলাফল সংরক্ষণ করা হবে"
 
 #: kconf_update/kconf_update.cpp:955
 msgid "Check whether config file itself requires updating"
-msgstr ""
+msgstr "কনফিগ ফাইল আপডেট করার প্রয়োজন কিনা পরীক্ষা করুন"
 
 #: kconf_update/kconf_update.cpp:956
 msgid "File to read update instructions from"
-msgstr ""
+msgstr "চিহ্নিত ফাইল থেকে আপডেট সংক্রান্ত তথ্য পড়া হবে"
 
 #: kconf_update/kconf_update.cpp:958
 msgid "KConf Update"
-msgstr ""
+msgstr "KConf আপডেট"
 
 #: kconf_update/kconf_update.cpp:960
 msgid "KDE Tool for updating user configuration files"
-msgstr ""
+msgstr "ব্যবহারকারীর কনফিগারেশন ফাইল আপডেট করতে ব্যবহৃত KDE সামগ্রী"
 
 #: kconf_update/kconf_update.cpp:962
 msgid "(c) 2001, Waldo Bastian"
-msgstr ""
+msgstr "(c) ২০০১, ওয়াল্ডো ব্যাস্টিয়ান"
 
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
-msgstr ""
+msgstr "ini বিন্যাসের বিবরণের ফাইল থেকে QT উইজেট প্লাগ-ইন নির্মাণ করা হয়।"
 
 #: kdewidgets/makekdewidgets.cpp:88
 msgid "Input file"
-msgstr ""
+msgstr "ইনপুট ফাইল"
 
 #: kdewidgets/makekdewidgets.cpp:89
 msgid "Output file"
-msgstr ""
+msgstr "আউটপুট ফাইল"
 
 #: kdewidgets/makekdewidgets.cpp:90
 msgid "Name of the plugin class to generate"
-msgstr ""
+msgstr "নির্মাণের জন্য চিহ্নিত প্লাগ-ইন ক্লাসের নাম"
 
 #: kdewidgets/makekdewidgets.cpp:91
 msgid "Default widget group name to display in designer"
@@ -10299,15 +10295,15 @@ msgstr "makekdewidgets"
 
 #: kdewidgets/makekdewidgets.cpp:94
 msgid "(C) 2004-2005 Ian Reinhart Geiser"
-msgstr ""
+msgstr "(C) ২০০৪-২০০৫ ইয়ান রাইনহার্ট গেইসার"
 
 #: kdewidgets/makekdewidgets.cpp:95
 msgid "Ian Reinhart Geiser"
-msgstr ""
+msgstr "ইয়ান রাইনহার্ট গেইসার"
 
 #: kdewidgets/makekdewidgets.cpp:96
 msgid "Daniel Molkentin"
-msgstr ""
+msgstr "ড্যানিয়েল মলকেনটিন"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:170
 msgid "Tag resource..."
@@ -10315,24 +10311,24 @@ msgstr ""
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:183
 msgid "Create new tag..."
-msgstr ""
+msgstr "নতুন ট্যাগ নির্মাণ করুন..."
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:188
 msgid "New Tag"
-msgstr ""
+msgstr "নতুন ট্যাগ"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:188
 msgid "Please insert the name of the new tag"
-msgstr ""
+msgstr "অনুগ্রহ করে নতুন ট্যাগের নাম লিখুন"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:197
 #, kde-format
 msgid "The tag %1 already exists"
-msgstr ""
+msgstr "ট্যাগ %1 বর্তমানে উপস্থিত"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:197
 msgid "Tag exists"
-msgstr ""
+msgstr "ট্যাগ উপস্থিত রয়েছে"
 
 #: nepomuk/core/test/tagcloudtest.cpp:30
 msgid "tagcloudtest"
@@ -10340,28 +10336,28 @@ msgstr "tagcloudtest"
 
 #: nepomuk/core/generated/resource.cpp:297
 msgid "Success"
-msgstr ""
+msgstr "সফল"
 
 #: nepomuk/core/generated/resource.cpp:299
 msgid "Communication error"
-msgstr ""
+msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
 
 #: nepomuk/core/generated/resource.cpp:301
 msgid "Invalid type in Database"
-msgstr ""
+msgstr "ডাটাবেসের মধ্যে অবৈধ ধরন"
 
 #: nepomuk/core/generated/resource.cpp:303
 msgid "Unknown error"
-msgstr ""
+msgstr "অজানা ত্রুটি"
 
 #: kparts/browserextension.cpp:647
 #, kde-format
 msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
-msgstr ""
+msgstr "<qt><b>%1</b> সম্বন্ধে ইন্টারনেটে অনুসন্ধান করা হবে কি?</qt>"
 
 #: kparts/browserextension.cpp:648
 msgid "Internet Search"
-msgstr ""
+msgstr "ইন্টারনেটে অনুসন্ধান"
 
 #: kparts/browserextension.cpp:648
 msgid "&Search"
@@ -10369,7 +10365,7 @@ msgstr "অনুসন্ধান (&S)"
 
 #: kparts/part.cpp:753
 msgid "Untitled"
-msgstr ""
+msgstr "শিরোনামবিহীন"
 
 #: kparts/part.cpp:759
 #, kde-format
@@ -10377,19 +10373,21 @@ msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
 msgstr ""
+"\"%1\" ডকুমেন্টে কিছু পরিবর্তন করা হয়েছে।\n"
+"পরিবর্তনগুলি সংরক্ষণ করা হবে কি বর্জন করা হবে?"
 
 #: kparts/part.cpp:761
 msgid "Close Document"
-msgstr ""
+msgstr "ডকুমেন্ট বন্ধ করুন"
 
 #: kparts/browserrun.cpp:294
 #, kde-format
 msgid "Do you really want to execute '%1'?"
-msgstr ""
+msgstr "আপনি কি নিশ্চিতরূপে '%1' সঞ্চালন করতে ইচ্ছুক?"
 
 #: kparts/browserrun.cpp:295
 msgid "Execute File?"
-msgstr ""
+msgstr "ফাইল সঞ্চালিত হবে কি?"
 
 #: kparts/browserrun.cpp:313
 #, kde-format
@@ -10397,6 +10395,8 @@ msgid ""
 "Open '%2'?\n"
 "Type: %1"
 msgstr ""
+"'%2' খোলা হবে কি?\n"
+"ধরন: %1"
 
 #: kparts/browserrun.cpp:315
 #, kde-format
@@ -10405,20 +10405,23 @@ msgid ""
 "Name: %2\n"
 "Type: %1"
 msgstr ""
+"'%3' খোলা হবে কি?\n"
+"নাম: %2\n"
+"ধরন: %1"
 
 #: kparts/browserrun.cpp:330
 #, kde-format
 msgid "&Open with '%1'"
-msgstr ""
+msgstr "'%1' সহযোগে খুলুন (&O)"
 
 #: kparts/browserrun.cpp:331
 msgid "&Open With..."
-msgstr ""
+msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
 
 #: kutils/kcmoduleloader.cpp:76
 #, kde-format
 msgid "The module %1 could not be found."
-msgstr ""
+msgstr "মডিউল %1 পাওয়া যায়নি।"
 
 #: kutils/kcmoduleloader.cpp:77
 #, kde-format
@@ -10426,22 +10429,24 @@ msgid ""
 "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</p></"
 "qt>"
 msgstr ""
+"<qt><p>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 পাওয়া যায়নি।</p></"
+"qt>"
 
 #: kutils/kcmoduleloader.cpp:79
 #, kde-format
 msgid "The module %1 is disabled."
-msgstr ""
+msgstr "%1 মডিউল নিষ্ক্রিয় করা হয়েছে।"
 
 #: kutils/kcmoduleloader.cpp:80
 msgid ""
 "<qt><p>Either the hardware/software the module configures is not available "
 "or the module has been disabled by the administrator.</p></qt>"
-msgstr ""
+msgstr "<qt><p>সম্ভবত মডিউল দ্বারা কনফিগার হওয়া হার্ডওয়্যার/সফ্টওয়্যার উপলব্ধ নয় অথবা অ্যাডমিনিস্ট্রেটর দ্বারা মডিউল নিষ্ক্রিয় করা হয়েছে।</p></qt>"
 
 #: kutils/kcmoduleloader.cpp:133
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
-msgstr ""
+msgstr "%1 মডিউলটি বৈধ কনফিগারেশন মডিউল নয়।"
 
 #: kutils/kcmoduleloader.cpp:134
 #, kde-format
@@ -10449,6 +10454,8 @@ msgid ""
 "<qt>The diagnostics is:<br />The desktop file %1 does not specify a library."
 "</qt>"
 msgstr ""
+"<qt>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 দ্বারা কোনো লাইব্রেরি নির্দেশিত হয়নি।"
+"</qt>"
 
 #: kutils/kcmoduleloader.cpp:153
 msgid "There was an error loading the module."
@@ -10480,13 +10487,13 @@ msgstr "পরিচিতি"
 
 #: kutils/kpluginselector.cpp:158
 msgid "Automatic changes have been performed due to plugin dependencies"
-msgstr ""
+msgstr "প্লাগ-ইন সংক্রান্ত নির্ভরতা পূর্ণ করার উদ্দেশ্যে স্বয়ংক্রিয় পরিবর্তন সম্পন্ন করা হয়েছে"
 
 #: kutils/kpluginselector.cpp:225
 msgid ""
 "Automatically changes have been performed in order to satisfy plugin "
 "dependencies:\n"
-msgstr ""
+msgstr "প্লাগ-ইন সংক্রান্ত নির্ভরতা পূর্ণ করার উদ্দেশ্যে স্বয়ংক্রিয়রূপে পরিবর্তন সম্পন্ন করা হয়েছে:\n"
 
 #: kutils/kpluginselector.cpp:229
 #, kde-format
@@ -10495,6 +10502,8 @@ msgid ""
 "    %1 plugin has been automatically checked because the dependency of %2 "
 "plugin"
 msgstr ""
+"\n"
+"    %1 প্লাগ-ইনটি %2 প্লাগ-ইনের উপর নির্ভরতার ফলে স্বয়ংক্রিয়রূপে নির্বাচন করা হয়েছে"
 
 #: kutils/kpluginselector.cpp:231
 #, kde-format
@@ -10503,6 +10512,8 @@ msgid ""
 "    %1 plugin has been automatically unchecked becase its dependency on %2 "
 "plugin"
 msgstr ""
+"\n"
+"    %1 প্লাগ-ইনটি %2 প্লাগ-ইনের উপর নির্ভরতার ফলে স্বয়ংক্রিয়রূপে নির্বাচন থেকে সরিয়ে ফেলা হয়েছে"
 
 #: kutils/kpluginselector.cpp:233
 msgid "Dependency Check"
@@ -10577,7 +10588,7 @@ msgstr "সামগ্রী নির্বাচন করুন"
 
 #: kutils/ksettings/dialog.cpp:227
 msgid "component enabled:"
-msgstr ""
+msgstr "সামগ্রী সক্রিয় করা হয়েছে:"
 
 #: kjsembed/kjscmd/kjscmd.cpp:139
 msgid "KJSCmd"
@@ -10630,9 +10641,8 @@ msgstr "ভুল সংখ্যক আর্গুমেন্ট"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:409
 #, kde-format
-msgid ""
-"The slot sked for %1 arguments but there are only %2 arguments available."
-msgstr ""
+msgid "The slot sked for %1 arguments but there are only %2 arguments available."
+msgstr "slot দ্বারা %1 আর্গুমেন্ট অনুরোধ করা হয়েছে কিন্তু শুধুমাত্র %2 আর্গুমেন্ট উপস্থিত রয়েছে।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:597
 #, kde-format
@@ -10790,7 +10800,7 @@ msgstr "ActionGroup দ্বারা ২-টি আর্গুমেন্ট
 
 #: kjsembed/kjsembed/qaction_binding.cpp:91
 msgid "Must supply a valid parent."
-msgstr ""
+msgstr "বৈধ ঊর্ধ্বতন মান উল্লেখ করা আবশ্যক।"
 
 #: kde3support/kio/kfile/k3fileview.cpp:123
 msgid "Unknown View"
@@ -11107,7 +11117,7 @@ msgstr "বন্ধ করুন"
 #: kde3support/kdeui/k3dockwidget.cpp:280
 msgctxt "Freeze the window geometry"
 msgid "Freeze"
-msgstr ""
+msgstr "স্থায়ী ধার্য করা হবে"
 
 #: kde3support/kdeui/k3dockwidget.cpp:288
 msgctxt "Dock this window"
@@ -11151,8 +11161,7 @@ msgstr "ক্রমবর্ধমান বানানপরীক্ষণ"
 
 #: kde3support/kunittest/modrunner.cpp:41
 msgid "A command-line application that can be used to run KUnitTest modules."
-msgstr ""
-"KUnitTest মডিউল সঞ্চালনের উদ্দেশ্যে কমান্ড-লাইন থেকে ব্যবহারযোগ্য অ্যাপ্লিকেশন।"
+msgstr "KUnitTest মডিউল সঞ্চালনের উদ্দেশ্যে কমান্ড-লাইন থেকে ব্যবহারযোগ্য অ্যাপ্লিকেশন।"
 
 #: kde3support/kunittest/modrunner.cpp:46
 msgid "Only run modules whose filenames match the regexp."
@@ -11167,8 +11176,7 @@ msgstr ""
 "জন্য query বিকল্পটি প্রয়োগ করুন।"
 
 #: kde3support/kunittest/modrunner.cpp:48
-msgid ""
-"Disables debug capturing. You typically use this option when you use the GUI."
+msgid "Disables debug capturing. You typically use this option when you use the GUI."
 msgstr ""
 "ডিবাগ থেকে তথ্য প্রাপ্তি নিষ্ক্রিয় করা হয়। GUI ব্যবহারকালে এই বিকল্পটি সাধারণত "
 "ব্যবহার করা হয়।"
@@ -11224,8 +11232,7 @@ msgstr "নামাঙ্কিত রঙ"
 msgid ""
 "Unable to read X11 RGB color strings. The following file location(s) were "
 "examined:\n"
-msgstr ""
-"X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
+msgstr "X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
 
 #: kdeui/colors/kcolordialog.cpp:967
 msgid "Select Color"
@@ -11465,11 +11472,11 @@ msgstr "অন্তিম পৃষ্ঠা (&L)"
 
 #: kdeui/actions/kstandardaction_p.h:90
 msgid "&Back in the Document"
-msgstr ""
+msgstr "ডকুমেন্টের পূর্ববর্তী অংশ (&B)"
 
 #: kdeui/actions/kstandardaction_p.h:91
 msgid "&Forward in the Document"
-msgstr ""
+msgstr "ডকুমেন্টের পরবর্তী অংশে (&F)"
 
 #: kdeui/actions/kstandardaction_p.h:93
 msgid "&Add Bookmark"
@@ -11525,3 +11532,4 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
 "4<br />(দশমিক অনুসারে: %5)</qt>"
+
