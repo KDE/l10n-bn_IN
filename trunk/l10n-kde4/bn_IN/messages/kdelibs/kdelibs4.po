@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-18 07:58+0100\n"
+"POT-Creation-Date: 2008-01-19 08:55+0100\n"
 "PO-Revision-Date: 2007-12-27 18:24+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -3734,7 +3734,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kdecore/services/kmimetype.cpp:124
+#: kdecore/services/kmimetype.cpp:129
 msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
 "XDG_DATA_DIRS is not set, or includes /usr/share"
@@ -6588,7 +6588,7 @@ msgstr ""
 msgid "All Visible Columns"
 msgstr ""
 
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:604
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:605
 #: kde3support/kdeui/k3listviewsearchline.cpp:557
 msgid "S&earch:"
 msgstr "অনুসন্ধান:(&e)"
@@ -7008,18 +7008,18 @@ msgstr ""
 msgid "Sonnet Configuration"
 msgstr ""
 
-#: kdeui/sonnet/highlighter.cpp:221 kdeui/sonnet/highlighter.cpp:242
+#: kdeui/sonnet/highlighter.cpp:222 kdeui/sonnet/highlighter.cpp:243
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr ""
 
-#: kdeui/sonnet/highlighter.cpp:223
+#: kdeui/sonnet/highlighter.cpp:224
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 
-#: kdeui/sonnet/highlighter.cpp:244
+#: kdeui/sonnet/highlighter.cpp:245
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr ""
@@ -7047,6 +7047,12 @@ msgstr ""
 #: kdeui/xmlgui/ktoolbarhandler.cpp:95
 msgid "Toolbars"
 msgstr ""
+
+#: kdeui/widgets/ktabbar.cpp:220
+#, fuzzy
+#| msgid "Close Script"
+msgid "Close this tab"
+msgstr "স্ক্রিপ্ট বন্ধ করুন"
 
 #: kdeui/widgets/klanguagebutton.cpp:175
 msgid "without name"
@@ -8114,19 +8120,19 @@ msgctxt "No shortcut defined"
 msgid "None"
 msgstr ""
 
-#: kdeui/widgets/keditlistbox.cpp:236
+#: kdeui/widgets/keditlistbox.cpp:323
 msgid "&Add"
 msgstr ""
 
-#: kdeui/widgets/keditlistbox.cpp:248
+#: kdeui/widgets/keditlistbox.cpp:335
 msgid "&Remove"
 msgstr ""
 
-#: kdeui/widgets/keditlistbox.cpp:260
+#: kdeui/widgets/keditlistbox.cpp:347
 msgid "Move &Up"
 msgstr ""
 
-#: kdeui/widgets/keditlistbox.cpp:265
+#: kdeui/widgets/keditlistbox.cpp:352
 msgid "Move &Down"
 msgstr ""
 
@@ -8290,6 +8296,10 @@ msgstr ""
 
 #: kdeui/widgets/ktextedit.cpp:330 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:436
+msgid "Nothing to spell check."
 msgstr ""
 
 #: kfile/kfileplacesview.cpp:365
