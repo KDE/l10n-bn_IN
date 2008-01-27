@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-25 06:35+0100\n"
+"POT-Creation-Date: 2008-01-27 07:48+0100\n"
 "PO-Revision-Date: 2007-12-27 18:24+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -1391,7 +1391,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:653 rc.cpp:885 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:184
+#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:185
 #: kross/ui/view.cpp:308
 msgid "Stop"
 msgstr "বন্ধ করুন"
@@ -9518,7 +9518,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr "উপলব্ধ পরীক্ষা: %1 (উপেক্ষিত: %2)"
 
 #: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:176
+#: khtml/ecma/debugger/debugwindow.cpp:177
 msgid "Continue"
 msgstr "এগিয়ে চলুন"
 
@@ -9607,7 +9607,7 @@ msgstr "JavaScript সংক্রান্ত ত্রুটি"
 msgid "&Do not show this message again"
 msgstr "এই বার্তা পুনরায় প্রদর্শন করা হবে না (&D)"
 
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:121
+#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:122
 msgid "JavaScript Debugger"
 msgstr "JavaScript ডিবাগার"
 
@@ -9636,7 +9636,7 @@ msgstr "এগিয়ে চলুন (&C)"
 msgid "St&op"
 msgstr "বন্ধ করা হবে (&o)"
 
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:183
+#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:184
 msgid "&Break at Next Statement"
 msgstr ""
 
@@ -9645,7 +9645,7 @@ msgctxt "Next breakpoint"
 msgid "Next"
 msgstr "পরবর্তী"
 
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:592
+#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:593
 #, kde-format
 msgid "Parse error at %1 line %2"
 msgstr ""
@@ -9658,7 +9658,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:628
+#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:629
 #, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
@@ -9707,37 +9707,37 @@ msgstr "অনুমতি প্রদান করা হবে"
 msgid "Do Not Allow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_window.cpp:1890
+#: khtml/ecma/kjs_window.cpp:1896
 msgid "Close window?"
 msgstr "উইন্ডো বন্ধ করা হবে কি?"
 
-#: khtml/ecma/kjs_window.cpp:1890
+#: khtml/ecma/kjs_window.cpp:1896
 msgid "Confirmation Required"
 msgstr "নিশ্চিত করা আবশ্যক"
 
-#: khtml/ecma/kjs_window.cpp:2840
+#: khtml/ecma/kjs_window.cpp:2874
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2843
+#: khtml/ecma/kjs_window.cpp:2877
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2851
+#: khtml/ecma/kjs_window.cpp:2885
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript দ্বারা বুকমার্ক যোগ করার প্রচেষ্টা করা হয়েছে"
 
-#: khtml/ecma/kjs_window.cpp:2855
+#: khtml/ecma/kjs_window.cpp:2889
 msgid "Insert"
 msgstr "সন্নিবেশ করুন"
 
-#: khtml/ecma/kjs_window.cpp:2855
+#: khtml/ecma/kjs_window.cpp:2889
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
@@ -9757,7 +9757,7 @@ msgid ""
 msgstr ""
 
 #: khtml/ecma/debugger/debugdocument.cpp:210
-#: khtml/ecma/debugger/debugwindow.cpp:126
+#: khtml/ecma/debugger/debugwindow.cpp:127
 msgid ""
 "A KDE text-editor component could not be found;\n"
 "please check your KDE installation."
@@ -9779,34 +9779,34 @@ msgstr "স্থানীয় ভেরিয়েবল"
 msgid "Reference"
 msgstr "প্রতিনির্দেশ"
 
-#: khtml/ecma/debugger/debugwindow.cpp:178
 #: khtml/ecma/debugger/debugwindow.cpp:179
+#: khtml/ecma/debugger/debugwindow.cpp:180
 msgid "Continue script execution"
 msgstr "স্ক্রিপ্ট সঞ্চালন চলবে"
 
-#: khtml/ecma/debugger/debugwindow.cpp:190
-#: khtml/ecma/debugger/debugwindow.cpp:192
+#: khtml/ecma/debugger/debugwindow.cpp:191
 #: khtml/ecma/debugger/debugwindow.cpp:193
+#: khtml/ecma/debugger/debugwindow.cpp:194
 msgid "Step Into"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:197
-#: khtml/ecma/debugger/debugwindow.cpp:199
+#: khtml/ecma/debugger/debugwindow.cpp:198
 #: khtml/ecma/debugger/debugwindow.cpp:200
+#: khtml/ecma/debugger/debugwindow.cpp:201
 msgid "Step Out"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:204
-#: khtml/ecma/debugger/debugwindow.cpp:206
+#: khtml/ecma/debugger/debugwindow.cpp:205
 #: khtml/ecma/debugger/debugwindow.cpp:207
+#: khtml/ecma/debugger/debugwindow.cpp:208
 msgid "Step Over"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:247
+#: khtml/ecma/debugger/debugwindow.cpp:248
 msgid "Close source"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:253
+#: khtml/ecma/debugger/debugwindow.cpp:254
 msgid "Ready"
 msgstr "প্রস্তুত"
 
