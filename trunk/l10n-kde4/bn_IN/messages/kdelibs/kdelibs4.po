@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runabh@gmail.com>, 2007.
-# Runa Bhattacharjee <runab@redhat.com>, 2007.
+# Runa Bhattacharjee <runab@redhat.com>, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-02-03 08:51+0100\n"
-"PO-Revision-Date: 2007-12-27 18:24+0530\n"
-"Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
+"PO-Revision-Date: 2008-02-04 00:09+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,13 +52,13 @@ msgstr ""
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 44
 #: rc.cpp:11
 msgid "Show:"
-msgstr ""
+msgstr "প্রদর্শন করা হবে:"
 
 #. i18n: tag string
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 74
 #: rc.cpp:14
 msgid "Order by:"
-msgstr ""
+msgstr "ক্রমবিন্যাসের প্রণালী:"
 
 #. i18n: tag string
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 104
@@ -399,7 +399,7 @@ msgstr ""
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 178
 #: rc.cpp:159 rc.cpp:805
 msgid "Replace &with:"
-msgstr ""
+msgstr "প্রতিস্থাপনে ব্যবহৃত শব্দ: (&w)"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 180
@@ -436,6 +436,9 @@ msgid ""
 "in the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>অজানা টেক্সটের পরিবর্তে উপরে (বাঁদিকে) অবস্থিত বাক্সে লেখা তথ্য প্রয়োগ করার জন্য এই স্থানে ক্লিক করুন।</p>\n"
+"</qt>"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 217
@@ -456,6 +459,9 @@ msgid ""
 "in the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>অজানা টেক্সটের সমস্ত উপস্থিতির পরিবর্তে উপরে (বাঁদিকে) অবস্থিত বাক্সে লেখা তথ্য প্রয়োগ করার জন্য এই স্থানে ক্লিক করুন।</p>\n"
+"</qt>"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 229
@@ -478,6 +484,11 @@ msgid ""
 "</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>অজানা শব্দটি অপরিবর্তিত রাখতে এই স্থানে ক্লিক করুন।</p>\n"
+"<p>নাম, acronym, বিদেশি শব্দ অথবা অন্যান্য কোনো অজানা শব্দ, অভিধানে অন্তভুক্ত না করেও ব্যবহার করতে ইচ্ছুক হলে এই পদ্ধতি ব্যবহার করা যাবে।"
+"</p>\n"
+"</qt>"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 242
@@ -503,6 +514,11 @@ msgid ""
 "</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>অজানা শব্দের সমস্ত উপস্থিতি অপরিবর্তিত রাখতে এই স্থানে ক্লিক করুন।</p>\n"
+"<p>নাম, acronym, বিদেশি শব্দ অথবা অন্যান্য কোনো অজানা শব্দ, অভিধানে অন্তভুক্ত না করেও ব্যবহার করতে ইচ্ছুক হলে এই পদ্ধতি ব্যবহার করা যাবে।"
+"</p>\n"
+"</qt>"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 255
@@ -697,7 +713,7 @@ msgstr "শুধুমাত্র HTML পরীক্ষা সঞ্চা�
 #. i18n: file ./khtml/test_regression_gui.ui line 257
 #: rc.cpp:309
 msgid "Do not supress debug output"
-msgstr ""
+msgstr "ডিবাগ কর্ম থেকে উৎপন্ন ফলাফল আড়াল করা হবে না"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 265
@@ -821,7 +837,7 @@ msgstr "বন্ধ করুন (&C)"
 #: rc.cpp:369 kdeui/util/kstandardguiitem.cpp:167
 #: kdeui/actions/kstandardaction_p.h:61
 msgid "C&lear"
-msgstr ""
+msgstr "পরিশ্রুত করুন (&l)"
 
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 35
@@ -917,7 +933,7 @@ msgstr "কমান্ড সঞ্চালন (&c)"
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 102
 #: rc.cpp:432
 msgid "Select the command to run"
-msgstr ""
+msgstr "সঞ্চালনের জন্য কমান্ড নির্বাচন করুন"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 109
@@ -981,8 +997,7 @@ msgstr "ব্যবহারযোগ্য উইজেট বিন্যা�
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
-msgstr ""
-"উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
+msgstr "উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 30
@@ -1058,7 +1073,7 @@ msgstr "লিঙ্কে ব্যবহৃত রঙ"
 #. i18n: file ./kutils/kdeglobals.kcfg line 54
 #: rc.cpp:499
 msgid "What color links which are yet not clicked on should have."
-msgstr ""
+msgstr "ক্লিক না করা লিঙ্কের ক্ষেত্রে ব্যবহৃত রং।"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 57
@@ -1098,7 +1113,7 @@ msgstr "পর্দার ছবি সংগ্রহে ব্যবহৃত
 #. i18n: file ./kutils/kdeglobals.kcfg line 78
 #: rc.cpp:517
 msgid "Shortcut for toggling Clipboard Actions on and off"
-msgstr ""
+msgstr "ক্লিপ-বোর্ড সংক্রান্ত কর্ম চালু অথবা বন্ধ করার জন্য ব্যবহৃত শর্ট-কাট"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 83
@@ -1158,13 +1173,12 @@ msgstr ""
 #. i18n: file ./kutils/kdeglobals.kcfg line 412
 #: rc.cpp:544
 msgid "Show speedbar"
-msgstr ""
+msgstr "গতিনির্দেশক-বার প্রদর্শন করা হবে"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 413
 #: rc.cpp:547
-msgid ""
-"Whether the shortcut icons to the left in the file dialog should be shown"
+msgid "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr "ফাইল ডায়লগের মধ্যে বাঁদিকের অংশে শর্ট-কাট আইকন প্রদর্শন করা হবে কি না"
 
 #. i18n: tag label
@@ -1176,8 +1190,7 @@ msgstr "দেশের নাম"
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 433
 #: rc.cpp:553
-msgid ""
-"Used to determine how to display numbers, currency and time/date for example"
+msgid "Used to determine how to display numbers, currency and time/date for example"
 msgstr "সংখ্যা, মুদ্রা, সময়/তারিখ প্রভৃতি প্রদর্শনের বিন্যাস নির্ধারণের জন্য ব্যবহৃত"
 
 #. i18n: tag label
@@ -1214,8 +1227,7 @@ msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভক�
 #. i18n: file ./kutils/kdeglobals.kcfg line 451
 #: rc.cpp:571
 msgid "Path to the directory containing executables to be run on session login"
-msgstr ""
-"সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
+msgstr "সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 455
@@ -1263,25 +1275,25 @@ msgstr "উপরে মাউস চলাচল করা হলে টুল-
 #. i18n: file ./kutils/kdeglobals.kcfg line 522
 #: rc.cpp:596
 msgid "Show text on toolbar icons "
-msgstr ""
+msgstr "টুল-বার আইকনের মধ্যে লেখা প্রদর্শিত হবে "
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 523
 #: rc.cpp:599
 msgid "Whether text should be shown in addition to icons on toolbar icons"
-msgstr ""
+msgstr "টুল-বার আইকনের মধ্যে উপস্থিত আইকনগুলির সাথে লেখা প্রদর্শিত হবে কি না"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 527
 #: rc.cpp:602
 msgid "Transparent toolbars when moved"
-msgstr ""
+msgstr "স্থানান্তর কালে টুল-বার প্রদর্শনের সময় স্বচ্ছ করা হবে কি না"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 528
 #: rc.cpp:605
 msgid "Whether toolbars should be visible when moved"
-msgstr ""
+msgstr "স্থানান্তর কালে টুল-বার প্রদর্শন করা হবে কি না"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 549
@@ -1469,13 +1481,13 @@ msgstr "স্ক্রিপ্ট সঞ্চালন করুন..."
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 208
 #: rc.cpp:701
 msgid "Run To..."
-msgstr ""
+msgstr "সুনির্দিষ্ট স্থান অবধি সঞ্চালন..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 211
 #: rc.cpp:704
 msgid "Run to breakpoint..."
-msgstr ""
+msgstr "সুনির্দিষ্ট ব্রেক-পয়েন্ট অবধি সঞ্চালন..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 219
@@ -1536,7 +1548,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 16
 #: rc.cpp:846
 msgid "ThreadWeaver Jobs Examples"
-msgstr ""
+msgstr "ThreadWeaver Job-র উদাহরণ"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 19
@@ -1544,7 +1556,7 @@ msgstr ""
 msgid ""
 "The program executes 100 jobs in 4 threads. Each job waits for a random "
 "amount of milliseconds between 1 and 1000."
-msgstr ""
+msgstr "চিহ্নিত প্রোগ্রামটি ৪-টি থ্রেডের মধ্যে ১০০-টি কাজ সঞ্চালন করে। প্রতিটি কাজের জন্য ১ থেকে ১০০০ মিনিসেকেন্ডের মধ্যে অনির্দিষ্ট সময়কাল অপেক্ষা করা হয়।"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 39
@@ -1552,19 +1564,19 @@ msgstr ""
 msgid ""
 "Check to see logging information about thread activity. Watch the console "
 "output to see the log information."
-msgstr ""
+msgstr "থ্রেড সম্পর্কিত গতিবিধি জানতে হলে লগ পরীক্ষা করুন। লগের তথ্য পর্যবেক্ষণের জন্য কনসোল দেখুন।"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 42
 #: rc.cpp:855
 msgid "Log Thread Activity"
-msgstr ""
+msgstr "থ্রেড সংক্রান্ত কাজের লগ"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 62
 #: rc.cpp:858
 msgid "Displays Thread Activity"
-msgstr ""
+msgstr "থ্রেড সংক্রান্ত কাজের গতিবিধি প্রদর্শন"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
@@ -1576,7 +1588,7 @@ msgstr "আরম্ভ"
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 185
 #: rc.cpp:870
 msgid "GUI based example for the Weaver Thread Manager"
-msgstr ""
+msgstr "Weaver Thread Manager-র গ্রাফিক্যাল ইউজার ইন্টারফেস ভিত্তিক উদাহরণ"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 208
@@ -1606,7 +1618,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 46
 #: rc.cpp:891
 msgid "What time is it? Click to update."
-msgstr ""
+msgstr "বর্তমান সময় কী? আপডেট করার জন্য ক্লিক করুন।"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 53
@@ -1631,7 +1643,7 @@ msgstr "ত্রুটি"
 
 #: kjs/object.cpp:592
 msgid "Evaluation error"
-msgstr ""
+msgstr "বিশ্লেষণ সংক্রান্ত ত্রুটি"
 
 #: kjs/object.cpp:593
 msgid "Range error"
@@ -1643,11 +1655,11 @@ msgstr ""
 
 #: kjs/object.cpp:595
 msgid "Syntax error"
-msgstr ""
+msgstr "সিন্টেক্স ত্রুটি"
 
 #: kjs/object.cpp:596
 msgid "Type error"
-msgstr ""
+msgstr "ধরন সংক্রান্ত ত্রুটি"
 
 #: kjs/object.cpp:597
 msgid "URI error"
@@ -1656,7 +1668,7 @@ msgstr "URI সংক্রান্ত ত্রুটি"
 #: interfaces/ktexteditor/editorchooser.cpp:71
 #, kde-format
 msgid "System Default (currently: %1)"
-msgstr ""
+msgstr "সিস্টেমের ডিফল্ট মান (বর্তমান: %1)"
 
 #: interfaces/ktexteditor/templateinterface.cpp:65
 msgid ""
@@ -1666,14 +1678,18 @@ msgid ""
 "\n"
 "Please install the KDEPIM/Kontact package for your system"
 msgstr ""
+"আপনার ঠিকানা-বইয়ে সংরক্ষণের জন্য এই টেমপ্লেটের মধ্যে আপনার তথ্য পূরণ করা আবশ্যক।\n"
+"প্রয়োজনীয় প্লাগ-ইন লোড করা যায়নি।\n"
+"\n"
+"অনুগ্রহ করে আপনার সিস্টেমের জন্য KDEPIM/Kontact প্যাকেজ যোগ করুন"
 
 #: kded/khostname.cpp:73
 msgid "Error: HOME environment variable not set.\n"
-msgstr ""
+msgstr "ত্রুটি: এনভায়রনমেন্ট ভেরিয়েবল HOME নির্ধারণ করা হয়নি।\n"
 
 #: kded/khostname.cpp:83
 msgid "Error: DISPLAY environment variable not set.\n"
-msgstr ""
+msgstr "ত্রুটি: এনভায়রনমেন্ট ভেরিয়েবল DISPLAY নির্ধারণ করা হয়নি।\n"
 
 #: kded/khostname.cpp:218
 msgid "KDontChangeTheHostName"
@@ -1681,16 +1697,16 @@ msgstr "KDontChangeTheHostName"
 
 #: kded/khostname.cpp:219
 msgid "Informs KDE about a change in hostname"
-msgstr ""
+msgstr "KDE-কে, হোস্ট-নেম পরিবর্তন সম্পর্কে সূচিত করা হয়"
 
 #: kded/khostname.cpp:220
 msgid "(c) 2001 Waldo Bastian"
-msgstr ""
+msgstr "(c) ২০০১ ওয়াল্ডো ব্যাস্টিয়ান"
 
 #: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:709 khtml/khtml_global.cpp:198
 #: kconf_update/kconf_update.cpp:964
 msgid "Waldo Bastian"
-msgstr ""
+msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
 #: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:708 kded/kbuildsycoca.cpp:709
 #: kross/qts/main.cpp:63 kross/test/main.cpp:140 kross/console/main.cpp:102
@@ -1712,11 +1728,11 @@ msgstr "KDE Daemon"
 
 #: kded/kded.cpp:751
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
-msgstr ""
+msgstr "KDE Daemon - প্রয়োজন অনুসারে Sycoca ডাটাবেস আপডেট আরম্ভ করতে ব্যবহৃত"
 
 #: kded/kded.cpp:754
 msgid "Check Sycoca database only once"
-msgstr ""
+msgstr "Sycoca ডাটাবেস শুধুমাত্র একবার পরীক্ষা করা হবে"
 
 #: kded/kbuildsycoca.cpp:483
 #, kde-format
@@ -1725,6 +1741,8 @@ msgid ""
 "Check that the permissions are correct on the directory and the disk is not "
 "full.\n"
 msgstr ""
+"ডাটাবেস '%1' নির্মাণে সমস্য।\n"
+"ডিরেক্টরি ব্যবহারের অনুমতি এবং ডিস্কে অবশিষ্ট স্থান উপস্থিত রয়েছে কিনা পরীক্ষা করুন।\n"
 
 #: kded/kbuildsycoca.cpp:483 kded/kbuildsycoca.cpp:514
 #: kded/kbuildsycoca.cpp:705
@@ -1738,66 +1756,68 @@ msgid ""
 "Check that the permissions are correct on the directory and the disk is not "
 "full.\n"
 msgstr ""
+"ডাটাবেস '%1'-এ লিখতে সমস্য।\n"
+"ডিরেক্টরি ব্যবহারের অনুমতি এবং ডিস্কে অবশিষ্ট স্থান উপস্থিত রয়েছে কিনা পরীক্ষা করুন।\n"
 
 #: kded/kbuildsycoca.cpp:706
 msgid "Rebuilds the system configuration cache."
-msgstr ""
+msgstr "সিস্টেম কনফিগারেশন সংক্রান্ত ক্যাশে পুনরায় নির্মাণ করতে ব্যবহৃত হয়।"
 
 #: kded/kbuildsycoca.cpp:707
 msgid "(c) 1999-2002 KDE Developers"
-msgstr ""
+msgstr "(c) ১৯৯৯-২০০২ KDE নির্মাতাবৃন্দ"
 
 #: kded/kbuildsycoca.cpp:708
 msgid "David Faure"
-msgstr ""
+msgstr "ডেভিড ফেওরে"
 
 #: kded/kbuildsycoca.cpp:712
 msgid "Do not signal applications to update"
-msgstr ""
+msgstr "আপডেট করার জন্য অ্যাপ্লিকেশনগুলিকে কোনো সংকেত জানানো হবে না"
 
 #: kded/kbuildsycoca.cpp:713
 msgid "Disable incremental update, re-read everything"
-msgstr ""
+msgstr "ক্রমবর্ধমান আপডেট ব্যবস্থা নিষ্ক্রিয় করা হবে, সর্বধরনের তথ্য পুনরায় পাঠ করা হবে"
 
 #: kded/kbuildsycoca.cpp:714
 msgid "Check file timestamps"
-msgstr ""
+msgstr "ফাইলে উপস্থিত সময়ের-চিহ্ন"
 
 #: kded/kbuildsycoca.cpp:715
 msgid "Disable checking files (dangerous)"
-msgstr ""
+msgstr "ফাইল পরীক্ষণ নিষ্ক্রিয় করুন (বিপজ্জনক)"
 
 #: kded/kbuildsycoca.cpp:716
 msgid "Create global database"
-msgstr ""
+msgstr "গ্লোবাল ডাটাবেস নির্মাণ করা হবে"
 
 #: kded/kbuildsycoca.cpp:717
 msgid "Perform menu generation test run only"
-msgstr ""
+msgstr "শুধুমাত্র পরীক্ষামূলকভাবে মেনু নির্মাণ করা হবে"
 
 #: kded/kbuildsycoca.cpp:718
 msgid "Track menu id for debug purposes"
-msgstr ""
+msgstr "ডিবাগ করার উদ্দেশ্যে মেনু id নিরীক্ষণ করা হবে"
 
 #: kded/kbuildsycoca.cpp:720
 msgid "Silent - work without windows and stderr"
-msgstr ""
+msgstr "নিঃশব্দ (silent) - উইন্ডো ও stderr বিনা কর্ম সঞ্চালন"
 
 #: kded/kbuildsycoca.cpp:721
 msgid "Show progress information (even if 'silent' mode is on)"
-msgstr ""
+msgstr "কর্মের প্রগতি সম্পর্কে তথ্য প্রদর্শন করা হবে ('নিঃশব্দ (silent)' মোড সক্রিয় হলেও)"
 
 #: kded/kbuildsycoca.cpp:746
 msgid "Reloading KDE configuration, please wait..."
-msgstr ""
+msgstr "KDE সংক্রান্ত কনফিগারেশন পুনরায় লোড করা হচ্ছে, অনুগ্রহ করে প্রতীক্ষা করুন..."
 
 #: kded/kbuildsycoca.cpp:747
 msgid "KDE Configuration Manager"
-msgstr ""
+msgstr "KDE Configuration Manager"
 
 #: kded/kbuildsycoca.cpp:749
 msgid "Do you want to reload KDE configuration?"
-msgstr ""
+msgstr "KDE কনফিগারেশন পুনরায় লোড করা হবে কি?"
 
 #: kded/kbuildsycoca.cpp:749
 msgctxt "Reload KDE configuration messagebox"
@@ -1806,27 +1826,27 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:749
 msgid "Do Not Reload"
-msgstr ""
+msgstr "পুনরায় লোড করা হবে না"
 
 #: kded/kbuildsycoca.cpp:919
 msgid "Configuration information reloaded successfully."
-msgstr ""
+msgstr "কনফিগারেশন সম্পর্কিত তথ্য সাফল্যের সাথে পুনরায় লোড করা হয়েছে।"
 
 #: kpty/kptydevice.cpp:283
 msgid "Error reading from PTY"
-msgstr ""
+msgstr "PTY থেকে পড়তে সমস্যা"
 
 #: kpty/kptydevice.cpp:317
 msgid "Error writing to PTY"
-msgstr ""
+msgstr "PTY-এ লিখতে সমস্যা"
 
 #: kpty/kptydevice.cpp:402
 msgid "PTY operation timed out"
-msgstr ""
+msgstr "PTY কর্মের মেয়াদ পূর্ণ হয়েছে"
 
 #: kpty/kptydevice.cpp:444
 msgid "Error opening PTY"
-msgstr ""
+msgstr "PTY খুলতে সমস্যা"
 
 #: kdecore/kde-config.cpp:54
 msgid "kde4-config"
@@ -1834,11 +1854,11 @@ msgstr "kde4-config"
 
 #: kdecore/kde-config.cpp:55
 msgid "A little program to output installation paths"
-msgstr ""
+msgstr "ইনস্টলেশন পাথ আউটপুট করতে ব্যবহৃত একটি ক্ষুদ্র প্রোগ্রাম"
 
 #: kdecore/kde-config.cpp:57
 msgid "(C) 2000 Stephan Kulow"
-msgstr ""
+msgstr "(C) ২০০০ স্টিফেন কুলো"
 
 #: kdecore/kde-config.cpp:61
 msgid "Left for legacy support"
@@ -1846,11 +1866,11 @@ msgstr ""
 
 #: kdecore/kde-config.cpp:62
 msgid "Compiled in prefix for KDE libraries"
-msgstr ""
+msgstr "KDE লাইব্রেরির জন্য prefix মধ্যে কম্পাইল করা হয়েছে"
 
 #: kdecore/kde-config.cpp:63
 msgid "Compiled in exec_prefix for KDE libraries"
-msgstr ""
+msgstr "KDE লাইব্রেরির জন্য exec_prefix মধ্যে কম্পাইল করা হয়েছে"
 
 #: kdecore/kde-config.cpp:64
 msgid "Compiled in library path suffix"
@@ -1862,23 +1882,23 @@ msgstr ""
 
 #: kdecore/kde-config.cpp:66
 msgid "Compiled in version string for KDE libraries"
-msgstr ""
+msgstr "KDE লাইব্রেরির জন্য সংস্করণ চিহ্নকারী পংক্তির মধ্যে কম্পাইল করা হয়েছে"
 
 #: kdecore/kde-config.cpp:67
 msgid "Available KDE resource types"
-msgstr ""
+msgstr "উপলব্ধ KDE রিসোর্সের প্রকৃতি"
 
 #: kdecore/kde-config.cpp:68
 msgid "Search path for resource type"
-msgstr ""
+msgstr "রিসোর্সের ধরন অনুসন্ধানের পাথ"
 
 #: kdecore/kde-config.cpp:69
 msgid "Find filename inside the resource type given to --path"
-msgstr ""
+msgstr "--path-র মান রূপে উল্লিখিত রিসোর্সের ধরনের মধ্যে ফাইলের নাম অনুসন্ধান করুন"
 
 #: kdecore/kde-config.cpp:70
 msgid "User path: desktop|autostart|document"
-msgstr ""
+msgstr "User path: desktop|autostart|document"
 
 #: kdecore/kde-config.cpp:71
 msgid "Prefix to install resource files to"
@@ -1886,19 +1906,19 @@ msgstr ""
 
 #: kdecore/kde-config.cpp:118
 msgid "Applications menu (.desktop files)"
-msgstr ""
+msgstr "অ্যাপ্লিকেশন তালিকার মেনু (.desktop ফাইল)"
 
 #: kdecore/kde-config.cpp:119
 msgid "CGIs to run from kdehelp"
-msgstr ""
+msgstr "kdehelp থেকে সঞ্চালনযোগ্য CGI"
 
 #: kdecore/kde-config.cpp:120
 msgid "Configuration files"
-msgstr ""
+msgstr "কনফিগারেশন ফাইল"
 
 #: kdecore/kde-config.cpp:121
 msgid "Where applications store data"
-msgstr ""
+msgstr "অ্যাপ্লিকেশন দ্বারা তথ্য সংরক্ষণের স্থান"
 
 #: kdecore/kde-config.cpp:122
 msgid "Emoticons"
@@ -1906,39 +1926,39 @@ msgstr ""
 
 #: kdecore/kde-config.cpp:123
 msgid "Executables in $prefix/bin"
-msgstr ""
+msgstr "$prefix/bin-র মধ্যে উপস্থিত এক্সেকিউটেবল"
 
 #: kdecore/kde-config.cpp:124
 msgid "HTML documentation"
-msgstr ""
+msgstr "HTML নথিপত্র"
 
 #: kdecore/kde-config.cpp:125
 msgid "Icons"
-msgstr ""
+msgstr "আইকন"
 
 #: kdecore/kde-config.cpp:126
 msgid "Configuration description files"
-msgstr ""
+msgstr "কনফিগারেশনের বর্ণনামূলক ফাইল"
 
 #: kdecore/kde-config.cpp:127
 msgid "Libraries"
-msgstr ""
+msgstr "লাইব্রেরি"
 
 #: kdecore/kde-config.cpp:128
 msgid "Includes/Headers"
-msgstr ""
+msgstr "Include ফাইল/Header ফাইল"
 
 #: kdecore/kde-config.cpp:129
 msgid "Translation files for KLocale"
-msgstr ""
+msgstr "KLocale-র জন্য অনুবাদের ফাইল"
 
 #: kdecore/kde-config.cpp:130
 msgid "Mime types"
-msgstr ""
+msgstr "Mime-র ধরন"
 
 #: kdecore/kde-config.cpp:131
 msgid "Loadable modules"
-msgstr ""
+msgstr "লোড করার যোগ্য মডিউল"
 
 #: kdecore/kde-config.cpp:132 kdecore/kde-config.cpp:142
 msgid "Legacy pixmaps"
@@ -1946,47 +1966,47 @@ msgstr ""
 
 #: kdecore/kde-config.cpp:133
 msgid "Qt plugins"
-msgstr ""
+msgstr "Qt প্লাগ-ইন"
 
 #: kdecore/kde-config.cpp:134
 msgid "Services"
-msgstr ""
+msgstr "পরিসেবা"
 
 #: kdecore/kde-config.cpp:135
 msgid "Service types"
-msgstr ""
+msgstr "পরিসেবার ধরন"
 
 #: kdecore/kde-config.cpp:136
 msgid "Application sounds"
-msgstr ""
+msgstr "অ্যাপ্লিকেশনে ব্যবহৃত শব্দ"
 
 #: kdecore/kde-config.cpp:137
 msgid "Templates"
-msgstr ""
+msgstr "টেমপ্লেট"
 
 #: kdecore/kde-config.cpp:138
 msgid "Wallpapers"
-msgstr ""
+msgstr "পটভূমির ছবি"
 
 #: kdecore/kde-config.cpp:139
 msgid "XDG Application menu (.desktop files)"
-msgstr ""
+msgstr "XDG অ্যাপ্লিকেশন তালিকার মেনু (.desktop ফাইল)"
 
 #: kdecore/kde-config.cpp:140
 msgid "XDG Menu descriptions (.directory files)"
-msgstr ""
+msgstr "XDG মেনুর বর্ণনা (.directory ফাইল)"
 
 #: kdecore/kde-config.cpp:141
 msgid "XDG Icons"
-msgstr ""
+msgstr "XDG আইকন"
 
 #: kdecore/kde-config.cpp:143
 msgid "XDG Mime Types"
-msgstr ""
+msgstr "XDG Mime-র ধরন"
 
 #: kdecore/kde-config.cpp:144
 msgid "XDG Menu layout (.menu files)"
-msgstr ""
+msgstr "XDG মেনুর বিন্যাস (.menu ফাইল)"
 
 #: kdecore/kde-config.cpp:145
 msgid "Temporary files (specific for both current host and current user)"
@@ -1999,7 +2019,7 @@ msgstr ""
 #: kdecore/kde-config.cpp:158
 #, kde-format
 msgid "%1 - unknown type\n"
-msgstr ""
+msgstr "%1 - অজানা ধরন\n"
 
 #: kdecore/kde-config.cpp:220
 #, kde-format
@@ -2012,7 +2032,7 @@ msgstr ""
 
 #: kdecore/io/ksavefile.cpp:89
 msgid "Already opened."
-msgstr ""
+msgstr "বর্তমানে খোলা অবস্থায় রয়েছে।"
 
 #: kdecore/io/ksavefile.cpp:98
 msgid "Insufficient permissions in target directory."
@@ -2020,11 +2040,11 @@ msgstr ""
 
 #: kdecore/io/ksavefile.cpp:108
 msgid "Unable to open temporary file."
-msgstr ""
+msgstr "অস্থায়ী ফাইল খুলতে ব্যর্থ।"
 
 #: kdecore/io/ksavefile.cpp:208
 msgid "Error during rename."
-msgstr ""
+msgstr "নাম পরিবর্তনকালে ত্রুটি।"
 
 #: kdecore/date/kcalendarsystemhijri.cpp:527
 #: kdecore/date/kcalendarsystemhijri.cpp:558
@@ -2633,190 +2653,190 @@ msgstr ""
 #: kdecore/date/kcalendarsystemgregorian.cpp:260
 msgctxt "January"
 msgid "Jan"
-msgstr ""
+msgstr "জানুয়ারি"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:262
 msgctxt "February"
 msgid "Feb"
-msgstr ""
+msgstr "ফেব্রুয়ারি"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:264
 msgctxt "March"
 msgid "Mar"
-msgstr ""
+msgstr "মার্চ"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:266
 msgctxt "April"
 msgid "Apr"
-msgstr ""
+msgstr "এপ্রিল"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:268
 msgctxt "May short"
 msgid "May"
-msgstr ""
+msgstr "মে"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:270
 msgctxt "June"
 msgid "Jun"
-msgstr ""
+msgstr "জুন"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:272
 msgctxt "July"
 msgid "Jul"
-msgstr ""
+msgstr "জুলাই"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:274
 msgctxt "August"
 msgid "Aug"
-msgstr ""
+msgstr "আগস্ট"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:276
 msgctxt "September"
 msgid "Sep"
-msgstr ""
+msgstr "সেপ্টেম্বর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:278
 msgctxt "October"
 msgid "Oct"
-msgstr ""
+msgstr "অক্টোবর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:280
 msgctxt "November"
 msgid "Nov"
-msgstr ""
+msgstr "নভেম্বর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:282
 msgctxt "December"
 msgid "Dec"
-msgstr ""
+msgstr "ডিসেম্বর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:291
 msgid "January"
-msgstr ""
+msgstr "জানুয়ারি"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:293
 msgid "February"
-msgstr ""
+msgstr "ফেব্রুয়ারি"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:295
 msgctxt "March long"
 msgid "March"
-msgstr ""
+msgstr "মার্চ"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:297
 msgid "April"
-msgstr ""
+msgstr "এপ্রিল"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:299
 msgctxt "May long"
 msgid "May"
-msgstr ""
+msgstr "মে"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:301
 msgid "June"
-msgstr ""
+msgstr "জুন"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:303
 msgid "July"
-msgstr ""
+msgstr "জুলাই"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:305
 msgctxt "August long"
 msgid "August"
-msgstr ""
+msgstr "আগস্ট"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:307
 msgid "September"
-msgstr ""
+msgstr "সেপ্টেম্বর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:309
 msgid "October"
-msgstr ""
+msgstr "অক্টোবর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:311
 msgid "November"
-msgstr ""
+msgstr "নভেম্বর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:313
 msgid "December"
-msgstr ""
+msgstr "ডিসেম্বর"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:329
 #: kdecore/date/kcalendarsystemhebrew.cpp:837
 msgctxt "Monday"
 msgid "Mon"
-msgstr ""
+msgstr "সোম"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:330
 #: kdecore/date/kcalendarsystemhebrew.cpp:838
 msgctxt "Tuesday"
 msgid "Tue"
-msgstr ""
+msgstr "মঙ্গল"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:331
 #: kdecore/date/kcalendarsystemhebrew.cpp:839
 msgctxt "Wednesday"
 msgid "Wed"
-msgstr ""
+msgstr "বুধ"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:332
 #: kdecore/date/kcalendarsystemhebrew.cpp:840
 msgctxt "Thursday"
 msgid "Thu"
-msgstr ""
+msgstr "বৃহঃ"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:333
 #: kdecore/date/kcalendarsystemhebrew.cpp:841
 msgctxt "Friday"
 msgid "Fri"
-msgstr ""
+msgstr "শুক্র"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:334
 #: kdecore/date/kcalendarsystemhebrew.cpp:842
 msgctxt "Saturday"
 msgid "Sat"
-msgstr ""
+msgstr "শনি"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:335
 #: kdecore/date/kcalendarsystemhebrew.cpp:843
 msgctxt "Sunday"
 msgid "Sun"
-msgstr ""
+msgstr "রবি"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:341
 #: kdecore/date/kcalendarsystemhebrew.cpp:849
 msgid "Monday"
-msgstr ""
+msgstr "সোমবার"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:342
 #: kdecore/date/kcalendarsystemhebrew.cpp:850
 msgid "Tuesday"
-msgstr ""
+msgstr "মঙ্গলবার"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:343
 #: kdecore/date/kcalendarsystemhebrew.cpp:851
 msgid "Wednesday"
-msgstr ""
+msgstr "বুধবার"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:344
 #: kdecore/date/kcalendarsystemhebrew.cpp:852
 msgid "Thursday"
-msgstr ""
+msgstr "বৃহস্পতিবার"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:345
 #: kdecore/date/kcalendarsystemhebrew.cpp:853
 msgid "Friday"
-msgstr ""
+msgstr "শুক্রবার"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:346
 #: kdecore/date/kcalendarsystemhebrew.cpp:854
 msgid "Saturday"
-msgstr ""
+msgstr "শনিবার"
 
 #: kdecore/date/kcalendarsystemgregorian.cpp:347
 #: kdecore/date/kcalendarsystemhebrew.cpp:855
 msgid "Sunday"
-msgstr ""
+msgstr "রবিবার"
 
 #: kdecore/date/kcalendarsystemhebrew.cpp:759
 msgid "of Tishrey"
@@ -2933,7 +2953,7 @@ msgstr ""
 #: kdecore/date/kcalendarsystem.cpp:70
 msgctxt "@item Calendar system"
 msgid "Gregorian"
-msgstr ""
+msgstr "গ্রেগোরিয়ান"
 
 #: kdecore/date/kcalendarsystem.cpp:74
 msgctxt "@item Calendar system"
@@ -2943,32 +2963,32 @@ msgstr "হিব্রু"
 #: kdecore/date/kcalendarsystem.cpp:78
 msgctxt "@item Calendar system"
 msgid "Hijri"
-msgstr ""
+msgstr "হিজরি"
 
 #: kdecore/date/kcalendarsystem.cpp:82
 msgctxt "@item Calendar system"
 msgid "Jalali"
-msgstr ""
+msgstr "জালালি"
 
 #: kdecore/date/kcalendarsystem.cpp:85
 msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
-msgstr ""
+msgstr "বর্ষপঞ্জির ধরন বৈধ নয়"
 
 #: kdecore/date/kdatetime.cpp:1466 kdecore/date/kdatetime.cpp:1476
 #: kdecore/date/kdatetime.cpp:2813 kdecore/localization/klocale.cpp:1713
 #: kdecore/localization/klocale.cpp:1839
 msgid "am"
-msgstr ""
+msgstr "পূর্বাহ্ন"
 
 #: kdecore/date/kdatetime.cpp:2821 kdecore/localization/klocale.cpp:1704
 #: kdecore/localization/klocale.cpp:1837
 msgid "pm"
-msgstr ""
+msgstr "অপরাহ্ন"
 
 #: kdecore/util/klibloader.cpp:98
 msgid "Library not found"
-msgstr ""
+msgstr "লাইব্রেরি পাওয়া যায়নি"
 
 #: kdecore/util/klibloader.cpp:146 kdecore/services/kmimetypetrader.h:136
 #: kdecore/services/kmimetypetrader.h:169
@@ -2992,7 +3012,7 @@ msgstr ""
 
 #: kdecore/util/klibloader.cpp:156
 msgid "KLibLoader: Unknown error"
-msgstr ""
+msgstr "KLibLoader: অজানা ত্রুটি"
 
 #: kdecore/util/kpluginloader.cpp:131
 #, kde-format
@@ -3013,7 +3033,7 @@ msgstr ""
 
 #: kdecore/config/kconfig.cpp:614
 msgid "Please contact your system administrator."
-msgstr ""
+msgstr "অনুগ্রহ করে সিস্টেম অ্যাডমিনিস্ট্রটরের সাথে যোগাযোগ করুন।"
 
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
@@ -3024,17 +3044,17 @@ msgstr ""
 #: kdecore/network/k3socketbase.cpp:214
 msgctxt "Socket error code NoError"
 msgid "no error"
-msgstr ""
+msgstr "ত্রুটি বিহীন"
 
 #: kdecore/network/k3socketbase.cpp:219
 msgctxt "Socket error code LookupFailure"
 msgid "name lookup has failed"
-msgstr ""
+msgstr "নাম অনুসন্ধান বিফল"
 
 #: kdecore/network/k3socketbase.cpp:224
 msgctxt "Socket error code AddressInUse"
 msgid "address already in use"
-msgstr ""
+msgstr "ঠিকানা বর্তমানে ব্যবহৃত হচ্ছে"
 
 #: kdecore/network/k3socketbase.cpp:229
 msgctxt "Socket error code AlreadyBound"
@@ -3044,7 +3064,7 @@ msgstr ""
 #: kdecore/network/k3socketbase.cpp:234
 msgctxt "Socket error code AlreadyCreated"
 msgid "socket is already created"
-msgstr ""
+msgstr "সকেট বর্তমানে নির্মিত"
 
 #: kdecore/network/k3socketbase.cpp:239
 msgctxt "Socket error code NotBound"
@@ -3054,7 +3074,7 @@ msgstr ""
 #: kdecore/network/k3socketbase.cpp:244
 msgctxt "Socket error code NotCreated"
 msgid "socket has not been created"
-msgstr ""
+msgstr "সকেট নির্মাণ করা হয়নি"
 
 #: kdecore/network/k3socketbase.cpp:249
 msgctxt "Socket error code WouldBlock"
@@ -3103,7 +3123,7 @@ msgstr ""
 
 #: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
 msgid "no error"
-msgstr ""
+msgstr "ত্রুটি বিহীন"
 
 #: kdecore/network/netsupp.cpp:892
 msgid "address family for nodename not supported"
@@ -3115,7 +3135,7 @@ msgstr ""
 
 #: kdecore/network/netsupp.cpp:894
 msgid "invalid value for 'ai_flags'"
-msgstr ""
+msgstr "'ai_flags'-র মান বৈধ নয়"
 
 #: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
 msgid "non-recoverable failure in name resolution"
@@ -3123,7 +3143,7 @@ msgstr ""
 
 #: kdecore/network/netsupp.cpp:896
 msgid "'ai_family' not supported"
-msgstr ""
+msgstr "'ai_family' সমর্থিত নয়"
 
 #: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
 msgid "memory allocation failure"
@@ -3135,7 +3155,7 @@ msgstr ""
 
 #: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
 msgid "name or service not known"
-msgstr ""
+msgstr "নাম অথবা পরিসেবা অজানা"
 
 #: kdecore/network/netsupp.cpp:900
 msgid "servname not supported for ai_socktype"
@@ -3143,11 +3163,11 @@ msgstr ""
 
 #: kdecore/network/netsupp.cpp:901
 msgid "'ai_socktype' not supported"
-msgstr ""
+msgstr "'ai_socktype' সমর্থিত নয়"
 
 #: kdecore/network/netsupp.cpp:902
 msgid "system error"
-msgstr ""
+msgstr "সিস্টেম জড়িত ত্রুটি"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -3155,7 +3175,7 @@ msgstr ""
 
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
-msgstr ""
+msgstr "অবৈধ ফ্ল্যাগ"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -3171,17 +3191,17 @@ msgstr ""
 
 #: kdecore/network/k3resolver.cpp:555
 msgid "unknown error"
-msgstr ""
+msgstr "অজানা ত্রুটি"
 
 #: kdecore/network/k3resolver.cpp:557
 #, kde-format
 msgctxt "1: the i18n'ed system error code, from errno"
 msgid "system error: %1"
-msgstr ""
+msgstr "সিস্টেম জড়িত ত্রুটি: %1"
 
 #: kdecore/network/k3resolver.cpp:568
 msgid "request was canceled"
-msgstr ""
+msgstr "অনুরোধ বাতিল করা হয়েছে"
 
 #: kdecore/network/ksocketfactory.cpp:90
 #: kdecore/network/ksocketfactory.cpp:104
@@ -3190,11 +3210,11 @@ msgstr ""
 
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
-msgstr ""
+msgstr "NEC SOCKS ক্লায়েন্ট"
 
 #: kdecore/network/k3socks.cpp:172
 msgid "Dante SOCKS client"
-msgstr ""
+msgstr "Dante SOCKS ক্লায়েন্ট"
 
 #: kdecore/kernel/ktoolinvocation_win.cpp:69
 #: kdecore/kernel/ktoolinvocation_x11.cpp:96
@@ -3296,7 +3316,7 @@ msgstr ""
 
 #: kdecore/kernel/kcmdlineargs.cpp:295
 msgid "disable XIM"
-msgstr ""
+msgstr "XIM নিষ্ক্রিয় করুন"
 
 #: kdecore/kernel/kcmdlineargs.cpp:298
 msgid "forces the application to run as QWS Server"
@@ -3745,7 +3765,7 @@ msgstr "হিব্রু"
 #: kdecore/localization/kcharsets.cpp:170
 msgctxt "@item Text character set"
 msgid "Turkish"
-msgstr ""
+msgstr "তুর্কি"
 
 #: kdecore/localization/kencodingdetector.cpp:1130
 #: kdecore/localization/kencodingdetector.cpp:1197
@@ -4484,16 +4504,14 @@ msgid "F%1"
 msgstr "F%1"
 
 #: knewstuff/knewstuff2/ui/itemsview.cpp:311
-#, fuzzy
 #| msgid "Main:"
 msgid "Rating: "
-msgstr "প্রধান:"
+msgstr ""
 
 #: knewstuff/knewstuff2/ui/itemsview.cpp:316
-#, fuzzy
 #| msgid "Download"
 msgid "Downloads: "
-msgstr "ডাউনলোড করা হবে"
+msgstr "ডাউনলোড করা সামগ্রী: "
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:35
 msgid "Translate this entry"
@@ -4506,7 +4524,7 @@ msgstr ""
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:49
 msgid "Description"
-msgstr ""
+msgstr "বিবরণ"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:50
 msgid "Payload"
@@ -5050,8 +5068,7 @@ msgid "Discard changes"
 msgstr ""
 
 #: kdeui/util/kstandardguiitem.cpp:127
-msgid ""
-"Pressing this button will discard all recent changes made in this dialog"
+msgid "Pressing this button will discard all recent changes made in this dialog"
 msgstr ""
 
 #: kdeui/util/kstandardguiitem.cpp:133 kdeui/actions/kstandardaction_p.h:46
@@ -5140,7 +5157,7 @@ msgstr ""
 #: kdeui/util/kstandardguiitem.cpp:194 kdeui/actions/kstandardaction.cpp:72
 msgctxt "go back"
 msgid "&Back"
-msgstr ""
+msgstr "পূর্ববর্তী (&B)"
 
 #: kdeui/util/kstandardguiitem.cpp:195
 msgid "Go back one step"
@@ -5474,7 +5491,7 @@ msgstr ""
 #. i18n: Filter for the Yes-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:53
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
 msgctxt "@action:button filter-yes"
@@ -5484,7 +5501,7 @@ msgstr "%1"
 #. i18n: Filter for the No-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:59
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
 msgctxt "@action:button filter-no"
@@ -5494,7 +5511,7 @@ msgstr "%1"
 #. i18n: Filter for the Continue-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
 msgctxt "@action:button filter-continue"
@@ -5504,7 +5521,7 @@ msgstr "%1"
 #. i18n: Filter for the Cancel-button text in standard message dialogs,
 #. after the message caption/text have been translated.
 #: kdeui/dialogs/kmessagebox.cpp:71
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
 msgctxt "@action:button filter-cancel"
@@ -5623,8 +5640,7 @@ msgid "%1"
 msgstr "%1"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1060
-msgid ""
-"This element will be replaced with all the elements of an embedded component."
+msgid "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
 #: kdeui/dialogs/kedittoolbar.cpp:1062
@@ -5725,8 +5741,7 @@ msgid "Submit Bug Report"
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:138
-msgid ""
-"Your email address. If incorrect, use the Configure Email button to change it"
+msgid "Your email address. If incorrect, use the Configure Email button to change it"
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:139
@@ -6319,8 +6334,7 @@ msgid ""
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:218
-msgid ""
-"Enter a pattern to search for, or select a previous pattern from the list."
+msgid "Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:221
@@ -6615,7 +6629,7 @@ msgstr ""
 #: kdeui/shortcuts/kstandardshortcut.cpp:65
 msgctxt "@action"
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ করুন"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:66
 msgctxt "@action"
@@ -6861,7 +6875,7 @@ msgstr ""
 #: kdeui/widgets/kdatepicker.cpp:699
 msgctxt "@action:button"
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ করুন"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:206
 msgid "<h2>Accelerators changed</h2>"
@@ -6966,30 +6980,27 @@ msgstr ""
 #: kdeui/sonnet/dialog.cpp:66
 msgctxt "@title:window"
 msgid "Check Spelling"
-msgstr ""
+msgstr "বানান পরীক্ষা করা হবে"
 
 #: kdeui/sonnet/dialog.cpp:68
 msgctxt "@action:button"
 msgid "&Finished"
-msgstr ""
+msgstr "সমাপ্ত (&F)"
 
 #: kdeui/sonnet/dialog.cpp:157
-#, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check stopped."
-msgstr "বানান পরীক্ষণব্যবস্থা"
+msgstr "বানান পরীক্ষণ বন্ধ করা হয়েছে।"
 
 #: kdeui/sonnet/dialog.cpp:165
-#, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check canceled."
-msgstr "বানান পরীক্ষণব্যবস্থা"
+msgstr "বানান পরীক্ষণ বাতিল করা হয়েছে।"
 
 #: kdeui/sonnet/dialog.cpp:299
-#, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check complete."
-msgstr "বানান পরীক্ষণব্যবস্থা"
+msgstr "বানান পরীক্ষণ সমাপ্ত।"
 
 #: kdeui/sonnet/configdialog.cpp:42
 msgid "Sonnet Configuration"
@@ -7012,16 +7023,14 @@ msgid "As-you-type spell checking disabled."
 msgstr ""
 
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:48
-#, fuzzy
 #| msgid "Show &Toolbar"
 msgid "Add to Toolbar"
-msgstr "টুলবার প্রদর্শন (&T)"
+msgstr "টুল-বারে যোগ করুন"
 
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:56
-#, fuzzy
 #| msgid "Configure S&hortcuts..."
 msgid "Configure Shortcut..."
-msgstr "শর্টকাট কনফিগার করুন...(&h)"
+msgstr "শর্টকাট কনফিগার করুন..."
 
 #: kdeui/xmlgui/kxmlguibuilder.cpp:174 kdeui/xmlgui/kxmlguibuilder.cpp:347
 msgid "No text"
@@ -7036,10 +7045,9 @@ msgid "Toolbars"
 msgstr ""
 
 #: kdeui/widgets/ktabbar.cpp:220
-#, fuzzy
 #| msgid "Close Script"
 msgid "Close this tab"
-msgstr "স্ক্রিপ্ট বন্ধ করুন"
+msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
 #: kdeui/widgets/klanguagebutton.cpp:175
 msgid "without name"
@@ -8084,7 +8092,7 @@ msgstr "বিভাজক, শূণ্যস্থান"
 
 #: kdeui/widgets/kcharselectdata.cpp:530 khtml/java/kjavaappletserver.cpp:697
 msgid "Unknown"
-msgstr ""
+msgstr "অজানা"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:136
 msgid "Shortcut conflict"
@@ -8579,11 +8587,10 @@ msgid "You do not have permission to create that folder."
 msgstr ""
 
 #: kfile/kdirselectdialog.cpp:224
-#, fuzzy
 #| msgid "Select Color"
 msgctxt "@title:window"
 msgid "Select Folder"
-msgstr "রঙ নির্বাচন করুন"
+msgstr "ফোল্ডার নির্বাচন করুন"
 
 #: kfile/kdirselectdialog.cpp:226
 msgctxt "@action:button"
@@ -8596,11 +8603,10 @@ msgid "New Folder..."
 msgstr ""
 
 #: kfile/kdirselectdialog.cpp:269
-#, fuzzy
 #| msgid "Show hidden files"
 msgctxt "@option:check"
 msgid "Show Hidden Folders"
-msgstr "আড়াল করা ফাইল প্রদর্শন করা হবে"
+msgstr "আড়াল করা ফোল্ডার প্রদর্শন করা হবে"
 
 #: kfile/kfileplaceeditdialog.cpp:85
 msgid "Edit Places Entry"
@@ -9066,8 +9072,7 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:910
 #, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:910
@@ -9489,8 +9494,7 @@ msgstr "নিরাপত্তা সংক্রান্ত সতর্ক�
 #: khtml/khtml_part.cpp:6890
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
-msgstr ""
-"<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
+msgstr "<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
 
 #: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:823
 msgid "Security Alert"
@@ -10279,10 +10283,10 @@ msgid "Failed to open scriptfile \"%1\""
 msgstr "scriptfile \"%1\" খুলতে ব্যর্থ"
 
 #: kross/core/action.cpp:418
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to load interpreter \"%1\": %2"
 msgid "Failed to load interpreter \"%1\""
-msgstr "ইন্টারপ্রেটার \"%1\" লোড করতে ব্যর্থ: %2"
+msgstr "ইন্টারপ্রেটার \"%1\" লোড করতে ব্যর্থ"
 
 #: kross/core/action.cpp:420
 #, kde-format
@@ -10398,26 +10402,23 @@ msgid "Daniel Molkentin"
 msgstr "ড্যানিয়েল মলকেনটিন"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:170
-#, fuzzy
 #| msgid "Tag resource..."
 msgid "Tag Resource"
-msgstr "সামগ্রী ট্যাগ করুন..."
+msgstr "সামগ্রী ট্যাগ করুন"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:183
-#, fuzzy
 #| msgid "Create new tag..."
 msgid "Create New Tag..."
-msgstr "নতুন ট্যাগ নির্মাণ করুন..."
+msgstr "নতুন ট্যাগ নির্মাণ করুন"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:188
 msgid "New Tag"
 msgstr "নতুন ট্যাগ"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:188
-#, fuzzy
 #| msgid "Please insert the name of the new tag"
 msgid "Please insert the name of the new tag:"
-msgstr "অনুগ্রহ করে নতুন ট্যাগের নাম লিখুন"
+msgstr "অনুগ্রহ করে নতুন ট্যাগের নাম লিখুন:"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:197
 #, kde-format
@@ -10425,7 +10426,6 @@ msgid "The tag %1 already exists"
 msgstr "ট্যাগ %1 বর্তমানে উপস্থিত"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:197
-#, fuzzy
 #| msgid "Tag exists"
 msgid "Tag Exists"
 msgstr "ট্যাগ উপস্থিত রয়েছে"
@@ -10553,8 +10553,7 @@ msgstr "%1 মডিউলটি বৈধ কনফিগারেশন মড
 msgid ""
 "<qt>The diagnostics is:<br />The desktop file %1 does not specify a library."
 "</qt>"
-msgstr ""
-"<qt>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 দ্বারা কোনো লাইব্রেরি নির্দেশিত হয়নি।</qt>"
+msgstr "<qt>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 দ্বারা কোনো লাইব্রেরি নির্দেশিত হয়নি।</qt>"
 
 #: kutils/kcmoduleloader.cpp:153
 msgid "There was an error loading the module."
@@ -10586,8 +10585,7 @@ msgstr "পরিচিতি"
 
 #: kutils/kpluginselector.cpp:157
 msgid "Automatic changes have been performed due to plugin dependencies"
-msgstr ""
-"প্লাগ-ইন সংক্রান্ত নির্ভরতা পূর্ণ করার উদ্দেশ্যে স্বয়ংক্রিয় পরিবর্তন সম্পন্ন করা হয়েছে"
+msgstr "প্লাগ-ইন সংক্রান্ত নির্ভরতা পূর্ণ করার উদ্দেশ্যে স্বয়ংক্রিয় পরিবর্তন সম্পন্ন করা হয়েছে"
 
 #: kutils/kpluginselector.cpp:224
 msgid ""
@@ -10747,10 +10745,8 @@ msgstr "ভুল সংখ্যক আর্গুমেন্ট"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:410
 #, kde-format
-msgid ""
-"The slot sked for %1 arguments but there are only %2 arguments available."
-msgstr ""
-"slot দ্বারা %1 আর্গুমেন্ট অনুরোধ করা হয়েছে কিন্তু শুধুমাত্র %2 আর্গুমেন্ট উপস্থিত রয়েছে।"
+msgid "The slot sked for %1 arguments but there are only %2 arguments available."
+msgstr "slot দ্বারা %1 আর্গুমেন্ট অনুরোধ করা হয়েছে কিন্তু শুধুমাত্র %2 আর্গুমেন্ট উপস্থিত রয়েছে।"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:598
 #, kde-format
@@ -11269,8 +11265,7 @@ msgstr "ক্রমবর্ধমান বানানপরীক্ষণ"
 
 #: kde3support/kunittest/modrunner.cpp:41
 msgid "A command-line application that can be used to run KUnitTest modules."
-msgstr ""
-"KUnitTest মডিউল সঞ্চালনের উদ্দেশ্যে কমান্ড-লাইন থেকে ব্যবহারযোগ্য অ্যাপ্লিকেশন।"
+msgstr "KUnitTest মডিউল সঞ্চালনের উদ্দেশ্যে কমান্ড-লাইন থেকে ব্যবহারযোগ্য অ্যাপ্লিকেশন।"
 
 #: kde3support/kunittest/modrunner.cpp:46
 msgid "Only run modules whose filenames match the regexp."
@@ -11285,8 +11280,7 @@ msgstr ""
 "জন্য query বিকল্পটি প্রয়োগ করুন।"
 
 #: kde3support/kunittest/modrunner.cpp:48
-msgid ""
-"Disables debug capturing. You typically use this option when you use the GUI."
+msgid "Disables debug capturing. You typically use this option when you use the GUI."
 msgstr ""
 "ডিবাগ থেকে তথ্য প্রাপ্তি নিষ্ক্রিয় করা হয়। GUI ব্যবহারকালে এই বিকল্পটি সাধারণত "
 "ব্যবহার করা হয়।"
@@ -11342,8 +11336,7 @@ msgstr "নামাঙ্কিত রঙ"
 msgid ""
 "Unable to read X11 RGB color strings. The following file location(s) were "
 "examined:\n"
-msgstr ""
-"X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
+msgstr "X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
 
 #: kdeui/colors/kcolordialog.cpp:967
 msgid "Select Color"
@@ -11474,10 +11467,9 @@ msgid "Re&vert"
 msgstr "পূর্বাবস্থা (&v)"
 
 #: kdeui/actions/kstandardaction_p.h:51
-#, fuzzy
 #| msgid "Print Preview"
 msgid "Print Previe&w"
-msgstr "প্রিন্টের পূর্বরূপ"
+msgstr "প্রিন্টের পূর্বরূপ (&w)"
 
 #: kdeui/actions/kstandardaction_p.h:52
 msgid "&Mail..."
@@ -11646,55 +11638,3 @@ msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
 "4<br />(দশমিক অনুসারে: %5)</qt>"
 
-#~ msgctxt ""
-#~ "Hot new stuff offers to Download New Data. Apps can fill in an individual "
-#~ "string here, but Data is the default. This is in an action that gets "
-#~ "displayed in the menu or toolbar for example."
-#~ msgid "Data..."
-#~ msgstr "তথ্য..."
-
-#~ msgid "OK"
-#~ msgstr "ঠিক আছে"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
-#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-"
-#~ "style:normal; text-decoration:none;\"><p style=\" margin-top:0px; margin-"
-#~ "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-#~ "indent:0px;\">Title</p></body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
-#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-"
-#~ "style:normal; text-decoration:none;\"><p style=\" margin-top:0px; margin-"
-#~ "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-#~ "indent:0px;\">শিরোনাম</p></body></html>"
-
-#~ msgid "Include &Creation Date"
-#~ msgstr "নির্মাণের তারিখ অন্তর্ভুক্ত করা হবে (&C)"
-
-#~ msgid ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
-#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-"
-#~ "style:normal; text-decoration:none;\"><p style=\" margin-top:0px; margin-"
-#~ "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-#~ "indent:0px;\"><span style=\" font-size:18pt;\">Template</span></p></"
-#~ "body></html>"
-#~ msgstr ""
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
-#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-"
-#~ "style:normal; text-decoration:none;\"><p style=\" margin-top:0px; margin-"
-#~ "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-#~ "indent:0px;\"><span style=\" font-size:18pt;\">টেমপ্লেট</span></p></body></"
-#~ "html>"
-
-#~ msgid "Print Previe&w..."
-#~ msgstr "প্রিন্টের পূর্বপ্রদর্শন...(&w)"
-
-#~ msgid "Could not load interpreter library \"%1\""
-#~ msgstr "ইন্টারপ্রেটার লাইব্রেরি \"%1\" লোড করতে ব্যর্থ"
-
-#~ msgid "Incompatible interpreter library."
-#~ msgstr "ইন্টারপ্রেটার লাইব্রেরি বিসংগত"
-
-#~ msgid "Stop script execution"
-#~ msgstr "স্ক্রিপ্ট সঞ্চালন বন্ধ করুন"
