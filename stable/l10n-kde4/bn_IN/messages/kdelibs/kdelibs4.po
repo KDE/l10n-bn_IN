@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-06 07:55+0100\n"
+"POT-Creation-Date: 2008-02-08 07:57+0100\n"
 "PO-Revision-Date: 2007-12-27 18:24+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -5046,7 +5046,7 @@ msgstr ""
 msgid "&Cancel"
 msgstr ""
 
-#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:849
+#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:817
 msgid "&Yes"
 msgstr ""
 
@@ -5054,7 +5054,7 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:842
+#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:810
 msgid "&No"
 msgstr ""
 
@@ -8081,7 +8081,7 @@ msgstr "বিভাজক, অনুচ্ছেদ"
 msgid "Separator, Space"
 msgstr "বিভাজক, শূণ্যস্থান"
 
-#: kdeui/widgets/kcharselectdata.cpp:530 khtml/java/kjavaappletserver.cpp:697
+#: kdeui/widgets/kcharselectdata.cpp:530
 msgid "Unknown"
 msgstr ""
 
@@ -9459,7 +9459,7 @@ msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
 
-#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:823
+#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:791
 msgid "Security Alert"
 msgstr "নিরাপত্তা সংক্রান্ত সূচনা"
 
@@ -9984,82 +9984,30 @@ msgid "Error: java executable not found"
 msgstr "ত্রুটি: java এক্সেকিউটেবল পাওয়া যায়নি"
 
 #: khtml/java/kjavaappletserver.cpp:663
-msgid "Signed by (validation: "
+#, fuzzy, kde-format
+#| msgid "Signed by (validation: "
+msgid "Signed by (validation: %1)"
 msgstr "স্বাক্ষরকারী (অনুমোদন: "
 
 #: khtml/java/kjavaappletserver.cpp:665
-msgid "Certificate (validation: "
+#, fuzzy, kde-format
+#| msgid "Certificate (validation: "
+msgid "Certificate (validation: %1)"
 msgstr "সার্টিফিকেট (অনুমোদন: "
 
-#: khtml/java/kjavaappletserver.cpp:668
-msgid "Ok"
-msgstr "ঠিক আছে"
-
-#: khtml/java/kjavaappletserver.cpp:670
-msgid "NoCARoot"
-msgstr "NoCARoot"
-
-#: khtml/java/kjavaappletserver.cpp:672
-msgid "InvalidPurpose"
-msgstr "InvalidPurpose"
-
-#: khtml/java/kjavaappletserver.cpp:674
-msgid "PathLengthExceeded"
-msgstr "PathLengthExceeded"
-
-#: khtml/java/kjavaappletserver.cpp:676
-msgid "InvalidCA"
-msgstr "InvalidCA"
-
-#: khtml/java/kjavaappletserver.cpp:678
-msgid "Expired"
-msgstr "মেয়াদ উত্তীর্ণ"
-
-#: khtml/java/kjavaappletserver.cpp:680
-msgid "SelfSigned"
-msgstr "SelfSigned"
-
-#: khtml/java/kjavaappletserver.cpp:682
-msgid "ErrorReadingRoot"
-msgstr "ErrorReadingRoot"
-
-#: khtml/java/kjavaappletserver.cpp:684
-msgid "Revoked"
-msgstr "প্রত্যাহার করা হয়েছে"
-
-#: khtml/java/kjavaappletserver.cpp:686
-msgid "Untrusted"
-msgstr "বিশ্বস্ত নয়"
-
-#: khtml/java/kjavaappletserver.cpp:688
-msgid "SignatureFailed"
-msgstr "SignatureFailed"
-
-#: khtml/java/kjavaappletserver.cpp:690
-msgid "Rejected"
-msgstr "প্রত্যাখ্যাত"
-
-#: khtml/java/kjavaappletserver.cpp:692
-msgid "PrivateKeyFailed"
-msgstr "PrivateKeyFailed"
-
-#: khtml/java/kjavaappletserver.cpp:694
-msgid "InvalidHost"
-msgstr "InvalidHost"
-
-#: khtml/java/kjavaappletserver.cpp:830
+#: khtml/java/kjavaappletserver.cpp:798
 msgid "Do you grant Java applet with certificate(s):"
 msgstr "সার্টিফিটকেটের সাথে Java অ্যাপ্লেট গ্রহণ করা হবে কী:"
 
-#: khtml/java/kjavaappletserver.cpp:832
+#: khtml/java/kjavaappletserver.cpp:800
 msgid "the following permission"
 msgstr "নিম্নলিখিত অনুমতি"
 
-#: khtml/java/kjavaappletserver.cpp:846
+#: khtml/java/kjavaappletserver.cpp:814
 msgid "&Reject All"
 msgstr "সমস্ত প্রত্যাখ্যান করা হবে (&R)"
 
-#: khtml/java/kjavaappletserver.cpp:852
+#: khtml/java/kjavaappletserver.cpp:820
 msgid "&Grant All"
 msgstr "সমস্ত গ্রহণ করা হবে (&G)"
 
@@ -11614,6 +11562,48 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
 "4<br />(দশমিক অনুসারে: %5)</qt>"
+
+#~ msgid "Ok"
+#~ msgstr "ঠিক আছে"
+
+#~ msgid "NoCARoot"
+#~ msgstr "NoCARoot"
+
+#~ msgid "InvalidPurpose"
+#~ msgstr "InvalidPurpose"
+
+#~ msgid "PathLengthExceeded"
+#~ msgstr "PathLengthExceeded"
+
+#~ msgid "InvalidCA"
+#~ msgstr "InvalidCA"
+
+#~ msgid "Expired"
+#~ msgstr "মেয়াদ উত্তীর্ণ"
+
+#~ msgid "SelfSigned"
+#~ msgstr "SelfSigned"
+
+#~ msgid "ErrorReadingRoot"
+#~ msgstr "ErrorReadingRoot"
+
+#~ msgid "Revoked"
+#~ msgstr "প্রত্যাহার করা হয়েছে"
+
+#~ msgid "Untrusted"
+#~ msgstr "বিশ্বস্ত নয়"
+
+#~ msgid "SignatureFailed"
+#~ msgstr "SignatureFailed"
+
+#~ msgid "Rejected"
+#~ msgstr "প্রত্যাখ্যাত"
+
+#~ msgid "PrivateKeyFailed"
+#~ msgstr "PrivateKeyFailed"
+
+#~ msgid "InvalidHost"
+#~ msgstr "InvalidHost"
 
 #~ msgid "Stop script execution"
 #~ msgstr "স্ক্রিপ্ট সঞ্চালন বন্ধ করুন"
