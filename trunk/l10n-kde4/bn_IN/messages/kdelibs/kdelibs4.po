@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-13 15:50+0100\n"
+"POT-Creation-Date: 2008-03-15 23:49+0100\n"
 "PO-Revision-Date: 2008-02-13 22:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -606,7 +606,7 @@ msgid "&Help"
 msgstr "সাহায্য (&H)"
 
 #. i18n: tag text
-#. i18n: file ./kdeui/xmlgui/ui_standards.rc line 188
+#. i18n: file ./kdeui/xmlgui/ui_standards.rc line 190
 #: rc.cpp:255
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
@@ -4969,11 +4969,11 @@ msgid ""
 "installed, otherwise signing of the resources will not be possible.</qt>"
 msgstr ""
 
-#: kdeui/jobs/kstatusbarjobtracker.cpp:233
+#: kdeui/jobs/kstatusbarjobtracker.cpp:237
 msgid " Stalled "
 msgstr ""
 
-#: kdeui/jobs/kstatusbarjobtracker.cpp:235
+#: kdeui/jobs/kstatusbarjobtracker.cpp:239
 #, kde-format
 msgid " %1/s "
 msgstr " %1/s "
@@ -5626,8 +5626,8 @@ msgstr ""
 msgid "Reset ToolBars"
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2887
-#: khtml/khtmlview.cpp:2920 khtml/html/html_formimpl.cpp:2172
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2885
+#: khtml/khtmlview.cpp:2918 khtml/html/html_formimpl.cpp:2172
 msgid "Reset"
 msgstr ""
 
@@ -7077,11 +7077,11 @@ msgstr "বানান পরীক্ষণ বন্ধ করা হয়ে�
 msgid "Spell check canceled."
 msgstr "বানান পরীক্ষণ বাতিল করা হয়েছে।"
 
-#: kdeui/sonnet/dialog.cpp:299
+#: kdeui/sonnet/dialog.cpp:300
 msgid "Spell check complete."
 msgstr "বানান পরীক্ষণ সমাপ্ত।"
 
-#: kdeui/sonnet/configdialog.cpp:42
+#: kdeui/sonnet/configdialog.cpp:51
 msgid "Sonnet Configuration"
 msgstr ""
 
@@ -8594,27 +8594,27 @@ msgstr ""
 msgid "Trash"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:655
+#: kfile/kfileplacesmodel.cpp:656
 #, kde-format
 msgid "&Eject '%1'"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:657
+#: kfile/kfileplacesmodel.cpp:658
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:659
+#: kfile/kfileplacesmodel.cpp:660
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:720
+#: kfile/kfileplacesmodel.cpp:721
 #, kde-format
 msgid "An error occurred while accessing '%1', the system said: %2"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:724
+#: kfile/kfileplacesmodel.cpp:725
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr ""
@@ -9534,7 +9534,7 @@ msgid ""
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4782 khtml/khtmlview.cpp:2873 khtml/khtmlview.cpp:2915
+#: khtml/khtml_part.cpp:4782 khtml/khtmlview.cpp:2871 khtml/khtmlview.cpp:2913
 #: khtml/html/html_formimpl.cpp:1572 khtml/html/html_formimpl.cpp:2180
 msgid "Submit"
 msgstr "জমা করুন"
@@ -9645,39 +9645,39 @@ msgstr ""
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1840
+#: khtml/khtmlview.cpp:1838
 msgid "Find stopped."
 msgstr "অনুসন্ধান বন্ধ করা হয়েছে।"
 
-#: khtml/khtmlview.cpp:1851
+#: khtml/khtmlview.cpp:1849
 msgid "Starting -- find links as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1857
+#: khtml/khtmlview.cpp:1855
 msgid "Starting -- find text as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1880
+#: khtml/khtmlview.cpp:1878
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1885
+#: khtml/khtmlview.cpp:1883
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1893
+#: khtml/khtmlview.cpp:1891
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "টেক্সট পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1898
+#: khtml/khtmlview.cpp:1896
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "টেক্সট পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1944
+#: khtml/khtmlview.cpp:1942
 msgid "Access Keys activated"
 msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
@@ -9789,62 +9789,62 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "পরিত্যাগ করা হবে (&A)"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2110
+#: khtml/ecma/kjs_window.cpp:1596 khtml/ecma/kjs_html.cpp:2110
 msgid "Confirmation: JavaScript Popup"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1593
+#: khtml/ecma/kjs_window.cpp:1599
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1596
+#: khtml/ecma/kjs_window.cpp:1602
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2117
+#: khtml/ecma/kjs_window.cpp:1604 khtml/ecma/kjs_html.cpp:2117
 msgid "Allow"
 msgstr "অনুমতি প্রদান করা হবে"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2117
+#: khtml/ecma/kjs_window.cpp:1604 khtml/ecma/kjs_html.cpp:2117
 msgid "Do Not Allow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_window.cpp:1896
+#: khtml/ecma/kjs_window.cpp:1902
 msgid "Close window?"
 msgstr "উইন্ডো বন্ধ করা হবে কি?"
 
-#: khtml/ecma/kjs_window.cpp:1896
+#: khtml/ecma/kjs_window.cpp:1902
 msgid "Confirmation Required"
 msgstr "নিশ্চিত করা আবশ্যক"
 
-#: khtml/ecma/kjs_window.cpp:2874
+#: khtml/ecma/kjs_window.cpp:2880
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2877
+#: khtml/ecma/kjs_window.cpp:2883
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2885
+#: khtml/ecma/kjs_window.cpp:2891
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript দ্বারা বুকমার্ক যোগ করার প্রচেষ্টা করা হয়েছে"
 
-#: khtml/ecma/kjs_window.cpp:2889
+#: khtml/ecma/kjs_window.cpp:2895
 msgid "Insert"
 msgstr "সন্নিবেশ করুন"
 
-#: khtml/ecma/kjs_window.cpp:2889
+#: khtml/ecma/kjs_window.cpp:2895
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
