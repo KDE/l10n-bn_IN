@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-26 14:37+0100\n"
+"POT-Creation-Date: 2008-03-27 15:16+0100\n"
 "PO-Revision-Date: 2008-02-13 22:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -5630,8 +5630,8 @@ msgstr ""
 msgid "Reset ToolBars"
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2909
-#: khtml/khtmlview.cpp:2942 khtml/html/html_formimpl.cpp:2187
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2887
+#: khtml/khtmlview.cpp:2920 khtml/html/html_formimpl.cpp:2187
 msgid "Reset"
 msgstr ""
 
@@ -5714,7 +5714,7 @@ msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:484
 #: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:353
+#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:364
 #: kdeui/widgets/kkeysequencewidget.cpp:128
 msgid "Reassign"
 msgstr ""
@@ -6662,11 +6662,11 @@ msgstr ""
 msgid "S&earch:"
 msgstr "অনুসন্ধান:(&e)"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:346
+#: kdeui/shortcuts/kglobalaccel.cpp:357
 msgid "Conflict with Global Shortcut"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:347
+#: kdeui/shortcuts/kglobalaccel.cpp:358
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -9538,7 +9538,7 @@ msgid ""
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4758 khtml/khtmlview.cpp:2895 khtml/khtmlview.cpp:2937
+#: khtml/khtml_part.cpp:4758 khtml/khtmlview.cpp:2873 khtml/khtmlview.cpp:2915
 #: khtml/html/html_formimpl.cpp:1587 khtml/html/html_formimpl.cpp:2195
 msgid "Submit"
 msgstr "জমা করুন"
@@ -9649,39 +9649,39 @@ msgstr ""
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1862
+#: khtml/khtmlview.cpp:1840
 msgid "Find stopped."
 msgstr "অনুসন্ধান বন্ধ করা হয়েছে।"
 
-#: khtml/khtmlview.cpp:1873
+#: khtml/khtmlview.cpp:1851
 msgid "Starting -- find links as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1879
+#: khtml/khtmlview.cpp:1857
 msgid "Starting -- find text as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1902
+#: khtml/khtmlview.cpp:1880
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1907
+#: khtml/khtmlview.cpp:1885
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1915
+#: khtml/khtmlview.cpp:1893
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "টেক্সট পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1920
+#: khtml/khtmlview.cpp:1898
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "টেক্সট পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1966
+#: khtml/khtmlview.cpp:1944
 msgid "Access Keys activated"
 msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
@@ -10767,33 +10767,33 @@ msgid ""
 msgstr ""
 "slot দ্বারা %1 আর্গুমেন্ট অনুরোধ করা হয়েছে কিন্তু শুধুমাত্র %2 আর্গুমেন্ট উপস্থিত রয়েছে।"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:598
+#: kjsembed/kjsembed/qobject_binding.cpp:604
 #, kde-format
 msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:633
+#: kjsembed/kjsembed/qobject_binding.cpp:639
 #, kde-format
 msgid "No such method '%1'."
 msgstr "'%1' মেথড অনুপস্থিত।"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:648
+#: kjsembed/kjsembed/qobject_binding.cpp:654
 #, kde-format
 msgid "Call to method '%1' failed, unable to get argument %2: %3"
 msgstr "'%1' মেথডকে করা কল বিফল, %2: %3 আর্গুমেন্ট প্রাপ্ত করতে ব্যর্থ।"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:663
+#: kjsembed/kjsembed/qobject_binding.cpp:669
 #, kde-format
 msgid "Call to '%1' failed."
 msgstr "'%1'-কে করা কল বিফল হয়েছে।"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:753
+#: kjsembed/kjsembed/qobject_binding.cpp:758
 #: kjsembed/kjsembed/object_binding.h:219
 #, kde-format
 msgid "%1 is not an Object type"
 msgstr "%1 কোনো অবজেক্টের ধরন নয়"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:759
+#: kjsembed/kjsembed/qobject_binding.cpp:764
 msgid "Could not construct value"
 msgstr "মান গঠন করতে ব্যর্থ"
 
@@ -11466,8 +11466,8 @@ msgid "Decryption error."
 msgstr "ডিক্রিপশন সংক্রান্ত ত্রুটি।"
 
 #: kdecore/util/qtest_kde.h:84 kdecore/util/qtest_kde.h:128
-msgid "qttest"
-msgstr "qttest"
+msgid "KDE Test Program"
+msgstr ""
 
 #: kdecore/services/kservice.h:513
 #, kde-format
@@ -11658,6 +11658,9 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
 "4<br />(দশমিক অনুসারে: %5)</qt>"
+
+#~ msgid "qttest"
+#~ msgstr "qttest"
 
 #~ msgid "Tag Resource"
 #~ msgstr "সামগ্রী ট্যাগ করুন"
