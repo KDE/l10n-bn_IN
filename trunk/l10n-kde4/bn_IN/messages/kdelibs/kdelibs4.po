@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-29 21:23+0100\n"
+"POT-Creation-Date: 2008-03-31 20:05+0200\n"
 "PO-Revision-Date: 2008-02-13 22:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -670,9 +670,13 @@ msgstr "স্থগিত"
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 150
 #: rc.cpp:285 rc.cpp:288
+#, fuzzy
+#| msgid ""
+#| "You may select a file where the log content is stored, before the "
+#| "regression testing started!"
 msgid ""
 "You may select a file where the log content is stored, before the regression "
-"testing started!"
+"testing started."
 msgstr ""
 "রিগ্রেশন পরীক্ষণ আরম্ভের পূর্বে, লগ সংরক্ষণের জন্য একটি ফাইল নির্বাচন করা যাবে!"
 
@@ -720,9 +724,9 @@ msgstr "শুধুমাত্র HTML পরীক্ষা সঞ্চা�
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 257
-#: rc.cpp:312
-msgid "Do not supress debug output"
-msgstr "ডিবাগ কর্ম থেকে উৎপন্ন ফলাফল আড়াল করা হবে না"
+#: rc.cpp:312 khtml/test_regression.cpp:618
+msgid "Do not suppress debug output"
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 265
@@ -1018,9 +1022,13 @@ msgstr "সিস্টেমের স্পিকার ব্যবহার 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 31
 #: rc.cpp:473
+#, fuzzy
+#| msgid ""
+#| "If the ordinary PC speaker should be used instead of KDE's own "
+#| "notifications system."
 msgid ""
-"If the ordinary PC speaker should be used instead of KDE's own notifications "
-"system."
+"Whether the ordinary PC speaker should be used instead of KDE's own "
+"notifications system."
 msgstr "KDE-র নিজস্ব সূচনাব্যবস্থার পরিবর্তে PC সাধারণ স্পিকার ব্যবহার করা হবে কিনা।"
 
 #. i18n: tag label
@@ -1082,7 +1090,9 @@ msgstr "লিঙ্কে ব্যবহৃত রঙ"
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 54
 #: rc.cpp:502
-msgid "What color links which are yet not clicked on should have."
+#, fuzzy
+#| msgid "What color links which are yet not clicked on should have."
+msgid "What color links should be that have not yet been clicked on"
 msgstr "ক্লিক না করা লিঙ্কের ক্ষেত্রে ব্যবহৃত রং।"
 
 #. i18n: tag label
@@ -1140,19 +1150,25 @@ msgstr "প্রথমে ডিরেক্টরি প্রদর্শি�
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 388
 #: rc.cpp:529
-msgid "If directories should be placed at the top when displaying files"
+#, fuzzy
+#| msgid "If directories should be placed at the top when displaying files"
+msgid "Whether directories should be placed at the top when displaying files"
 msgstr "ফাইল প্রদর্শনকালে ডিরেক্টরিগুলি উপরের অংশে প্রদর্শিত হবে কি না"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 396
 #: rc.cpp:532
-msgid "The recent URLs recently visited"
+#, fuzzy
+#| msgid "The recent URLs recently visited"
+msgid "The URLs recently visited"
 msgstr "সম্প্রতি পরিদর্শিত URL"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 397
 #: rc.cpp:535
-msgid "Used for auto completion in file dialogs for example."
+#, fuzzy
+#| msgid "Used for auto completion in file dialogs for example."
+msgid "Used for auto-completion in file dialogs, for example"
 msgstr ""
 "স্বয়ংক্রিয়ভাবে তথ্য সম্পূর্ণ করার উদ্দেশ্যে ব্যবহৃত, উদাহরণস্বরূপ ফাইল ডায়লগে প্রয়োগ করা "
 "হবে।"
@@ -1172,9 +1188,13 @@ msgstr "আড়াল করা ফাইল প্রদর্শন করা �
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 407
 #: rc.cpp:544
+#, fuzzy
+#| msgid ""
+#| "Determines if files starting with a dot(convention for hidden files) "
+#| "should be shown"
 msgid ""
-"Determines if files starting with a dot(convention for hidden files) should "
-"be shown"
+"Whether files starting with a dot (convention for hidden files) should be "
+"shown"
 msgstr ""
 "নামের প্রারম্ভে বিন্দু চিহ্নসহ ফাইল (আড়াল করা ফাইলের নামের ক্ষেত্রে প্রযোজ্য) প্রদর্শন "
 "করা হবে কিনা তা নির্দিষ্ট করা হয়।"
@@ -1201,14 +1221,20 @@ msgstr "দেশের নাম"
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 433
 #: rc.cpp:556
+#, fuzzy
+#| msgid ""
+#| "Used to determine how to display numbers, currency and time/date for "
+#| "example"
 msgid ""
-"Used to determine how to display numbers, currency and time/date for example"
+"Used to determine how to display numbers, currency and time/date, for example"
 msgstr "সংখ্যা, মুদ্রা, সময়/তারিখ প্রভৃতি প্রদর্শনের বিন্যাস নির্ধারণের জন্য ব্যবহৃত"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 437
 #: rc.cpp:559
-msgid "What language to display text in"
+#, fuzzy
+#| msgid "What language to display text in"
+msgid "What language to use to display text"
 msgstr "টেক্সট প্রদর্শনের জন্য ব্যবহারযোগ্য ভাষা"
 
 #. i18n: tag label
@@ -1253,7 +1279,7 @@ msgstr "ডেস্কটপ ডিরেক্টরি নির্দেশ�
 #: rc.cpp:580
 #, fuzzy
 #| msgid "In this directory the files on the dekstop are stored"
-msgid "In this directory the files on the desktop are stored"
+msgid "Directory where the files on the desktop are stored"
 msgstr "চিহ্নিত ডিরেক্টরির মধ্যে ডেস্কটপের উপরে অবস্থিত ফাইলগুলি সংরক্ষিত হয়"
 
 #. i18n: tag label
@@ -1568,9 +1594,13 @@ msgstr "ThreadWeaver Job-র উদাহরণ"
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 19
 #: rc.cpp:852
+#, fuzzy
+#| msgid ""
+#| "The program executes 100 jobs in 4 threads. Each job waits for a random "
+#| "amount of milliseconds between 1 and 1000."
 msgid ""
 "The program executes 100 jobs in 4 threads. Each job waits for a random "
-"amount of milliseconds between 1 and 1000."
+"number of milliseconds between 1 and 1000."
 msgstr ""
 "চিহ্নিত প্রোগ্রামটি ৪-টি থ্রেডের মধ্যে ১০০-টি কাজ সঞ্চালন করে। প্রতিটি কাজের জন্য ১ "
 "থেকে ১০০০ মিনিসেকেন্ডের মধ্যে অনির্দিষ্ট সময়কাল অপেক্ষা করা হয়।"
@@ -1690,12 +1720,19 @@ msgid "System Default (currently: %1)"
 msgstr "সিস্টেমের ডিফল্ট মান (বর্তমান: %1)"
 
 #: interfaces/ktexteditor/templateinterface.cpp:65
+#, fuzzy
+#| msgid ""
+#| "The templates needs information about you, which are stored in your "
+#| "addressbook.\n"
+#| "The needed plugin could not be loaded.\n"
+#| "\n"
+#| "Please install the KDEPIM/Kontact package for your system"
 msgid ""
-"The templates needs information about you, which are stored in your "
-"addressbook.\n"
-"The needed plugin could not be loaded.\n"
+"The template needs information about you, which is stored in your address "
+"book.\n"
+"However, the required plugin could not be loaded.\n"
 "\n"
-"Please install the KDEPIM/Kontact package for your system"
+"Please install the KDEPIM/Kontact package for your system."
 msgstr ""
 "আপনার ঠিকানা-বইয়ে সংরক্ষণের জন্য এই টেমপ্লেটের মধ্যে আপনার তথ্য পূরণ করা আবশ্যক।\n"
 "প্রয়োজনীয় প্লাগ-ইন লোড করা যায়নি।\n"
@@ -3026,24 +3063,22 @@ msgstr "অপরাহ্ন"
 msgid "Library not found"
 msgstr "লাইব্রেরি পাওয়া যায়নি"
 
-#: kdecore/util/klibloader.cpp:146 kdecore/services/kmimetypetrader.h:136
-#: kdecore/services/kmimetypetrader.h:169
-#: kdecore/services/kservicetypetrader.h:187
-msgid "No service matching the requirements was found"
+#: kdecore/util/klibloader.cpp:146
+msgid "No service matching the requirements was found."
 msgstr ""
 
 #: kdecore/util/klibloader.cpp:148
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
-"file"
+"file."
 msgstr ""
 
 #: kdecore/util/klibloader.cpp:152
-msgid "The library does not export a factory for creating components"
+msgid "The library does not export a factory for creating components."
 msgstr ""
 
 #: kdecore/util/klibloader.cpp:154
-msgid "The factory does not support creating components of the specified type"
+msgid "The factory does not support creating components of the specified type."
 msgstr ""
 
 #: kdecore/util/klibloader.cpp:156
@@ -3054,7 +3089,7 @@ msgstr "KLibLoader: অজানা ত্রুটি"
 #, kde-format
 msgid ""
 "The service '%1' provides no library or the Library key is missing in the ."
-"desktop file"
+"desktop file."
 msgstr ""
 
 #: kdecore/util/kpluginloader.cpp:163
@@ -3064,7 +3099,7 @@ msgstr ""
 
 #: kdecore/util/kpluginloader.cpp:187
 #, kde-format
-msgid "The plugin '%1' uses incompatible KDE library. (%2)"
+msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
 #: kdecore/config/kconfig.cpp:659
@@ -3630,7 +3665,7 @@ msgstr ""
 #: kdecore/kernel/ktoolinvocation.cpp:110
 #, kde-format
 msgid ""
-"KLauncher could not be reached via D-Bus, error when calling %1:\n"
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 "%2\n"
 msgstr ""
 
@@ -3765,13 +3800,13 @@ msgstr "ফাইল %1 পাওয়া যায়নি।"
 
 #: kdecore/sycoca/kmemfile.cpp:78
 #, kde-format
-msgid "Can't open %1 for reading"
+msgid "Cannot open %1 for reading"
 msgstr ""
 
-#: kdecore/sycoca/kmemfile.cpp:88
+#: kdecore/sycoca/kmemfile.cpp:88 kdecore/sycoca/kmemfile.cpp:167
 #, fuzzy, kde-format
 #| msgid "Could not create temporary file."
-msgid "Can not create memory segment for file %1"
+msgid "Cannot create memory segment for file %1"
 msgstr "অস্থায়ী ফাইল নির্মাণ করতে সমস্য।"
 
 #: kdecore/sycoca/kmemfile.cpp:98
@@ -3784,13 +3819,8 @@ msgstr "ফাইল '%1' পড়তে ব্যর্থ"
 msgid "Only 'ReadOnly' allowed"
 msgstr ""
 
-#: kdecore/sycoca/kmemfile.cpp:167
-#, kde-format
-msgid "Can't create memory segment for file %1"
-msgstr ""
-
 #: kdecore/sycoca/kmemfile.cpp:205
-msgid "Can't seek over eof"
+msgid "Cannot seek past eof"
 msgstr ""
 
 #: kdecore/services/kmimetype.cpp:58
@@ -3805,7 +3835,7 @@ msgstr[1] ""
 #: kdecore/services/kmimetype.cpp:129
 msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
-"XDG_DATA_DIRS is not set, or includes /usr/share"
+"XDG_DATA_DIRS is not set, or includes /usr/share."
 msgstr ""
 
 #: kdecore/localization/kencodingdetector.cpp:1116
@@ -4632,7 +4662,7 @@ msgid "Author:"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:72
-msgid "E-mail address:"
+msgid "Email address:"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:77
@@ -4674,7 +4704,7 @@ msgid "Summary:"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:109
-msgid "In which language did you describe above?"
+msgid "In which language did you describe the above?"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:112
@@ -4704,11 +4734,11 @@ msgstr ""
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:96
 #, kde-format
 msgctxt "Program name followed by 'Add On Installer'"
-msgid "%1 Add On Installer"
+msgid "%1 Add-On Installer"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:168
-msgid "Timeout. Check internet connection!"
+msgid "Timeout. Check Internet connection!"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:250
@@ -4880,7 +4910,7 @@ msgid "KNewStuff contributions"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:565
-msgid "This operation needs authentication"
+msgid "This operation requires authentication."
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/knewstuffaction.cpp:37
@@ -5630,8 +5660,10 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kedittoolbar.cpp:527
-msgid "Reset ToolBars"
-msgstr ""
+#, fuzzy
+#| msgid "Add to Toolbar"
+msgid "Reset Toolbars"
+msgstr "টুল-বারে যোগ করুন"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2887
 #: khtml/khtmlview.cpp:2920 khtml/html/html_formimpl.cpp:2187
@@ -6095,7 +6127,7 @@ msgid "Switch Application Language"
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:108
-msgid "Please choose language which should be used for this application:"
+msgid "Please choose the language which should be used for this application:"
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:136
@@ -6105,18 +6137,20 @@ msgstr ""
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:137
 msgid ""
 "Adds one more language which will be used if other translations do not "
-"contain proper translation"
+"contain a proper translation."
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:226
 msgid ""
-"Language for this application has been changed. The change will take effect "
-"upon next start of application"
+"The language for this application has been changed. The change will take "
+"effect the next time the application is started."
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:227
-msgid "Application language changed"
-msgstr ""
+#, fuzzy
+#| msgid "Application sounds"
+msgid "Application Language Changed"
+msgstr "অ্যাপ্লিকেশনে ব্যবহৃত শব্দ"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:280
 msgid "Primary language:"
@@ -6128,14 +6162,14 @@ msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:311
 msgid ""
-"This is main application language which will be used first before any other "
-"languages"
+"This is the main application language which will be used first, before any "
+"other languages."
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:312
 msgid ""
-"This is language which will be used if any previous languages does not "
-"contain proper translation"
+"This is the language which will be used if any previous languages do not "
+"contain a proper translation."
 msgstr ""
 
 #: kdeui/dialogs/kpassworddialog.cpp:68
@@ -6461,7 +6495,7 @@ msgstr ""
 #: kdeui/findreplace/kfinddialog.cpp:227
 msgid ""
 "<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where <code><b>N</"
-"b></code> is a integer number, will be replaced with the corresponding "
+"b></code> is an integer number, will be replaced with the corresponding "
 "capture (\"parenthesized substring\") from the pattern.<p>To include (a "
 "literal <code><b>\\N</b></code> in your replacement, put an extra backslash "
 "in front of it, like <code><b>\\\\N</b></code>.</p></qt>"
@@ -7006,7 +7040,7 @@ msgctxt ""
 msgid "LTR"
 msgstr "LTR"
 
-#: kdeui/kernel/kapplication.cpp:829
+#: kdeui/kernel/kapplication.cpp:862
 #, kde-format
 msgid "The style '%1' was not found"
 msgstr ""
@@ -7655,8 +7689,11 @@ msgid "Combining Diacritical Marks for Symbols"
 msgstr "সংকেতের সাথে ব্যবহারযোগ্য সংযুক্তকারী ধ্বনি-নির্দেশক চিহ্ন"
 
 #: kdeui/widgets/kcharselect-translation.cpp:97
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Letterlike Symbols"
 msgctxt "KCharselect unicode block name"
-msgid "Letterlike Symbols"
+msgid "Letter-Like Symbols"
 msgstr "অক্ষরের অনুরূপ চিহ্ন"
 
 #: kdeui/widgets/kcharselect-translation.cpp:98
@@ -7975,8 +8012,11 @@ msgid "Arabic Presentation Forms-B"
 msgstr "আরবি রূপে বিন্যাস-B"
 
 #: kdeui/widgets/kcharselect-translation.cpp:161
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Halfwidth and Fullwidth Forms"
 msgctxt "KCharselect unicode block name"
-msgid "Halfwidth and Fullwidth Forms"
+msgid "Half-Width and Full-Width Forms"
 msgstr "অর্ধমাপ ও পূর্ণমাপ রূপ"
 
 #: kdeui/widgets/kcharselect-translation.cpp:162
@@ -8638,7 +8678,7 @@ msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:727
 #, kde-format
-msgid "An error occurred while accessing '%1', the system said: %2"
+msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:731
@@ -8905,7 +8945,7 @@ msgid "Navigate"
 msgstr ""
 
 #: khtml/testkhtml.cpp:38
-msgid "url to open"
+msgid "URL to open"
 msgstr ""
 
 #: khtml/testkhtml.cpp:40
@@ -8949,10 +8989,6 @@ msgstr ""
 msgid "Directory containing tests, basedir and output directories."
 msgstr ""
 
-#: khtml/test_regression.cpp:618
-msgid "Do not suppress debug output"
-msgstr ""
-
 #: khtml/test_regression.cpp:620
 msgid "Regenerate baseline (instead of checking)"
 msgstr ""
@@ -8979,8 +9015,8 @@ msgstr ""
 
 #: khtml/test_regression.cpp:630
 msgid ""
-"Directory containing tests,basedir and output directories. Only regarded if -"
-"b is not specified."
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
 msgstr ""
 
 #: khtml/test_regression.cpp:631
@@ -9657,8 +9693,10 @@ msgid "Continue"
 msgstr "এগিয়ে চলুন"
 
 #: khtml/test_regression_gui_window.cpp:632
-msgid "Can not find testregression executable."
-msgstr ""
+#, fuzzy
+#| msgid "Could not find '%1' executable."
+msgid "Cannot find testregression executable."
+msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
 
 #: khtml/test_regression_gui_window.cpp:1102
 msgid "Run test..."
@@ -10305,13 +10343,15 @@ msgid "Level of safety of the Ruby interpreter"
 msgstr "Ruby ইন্টারপ্রেটারের ক্ষেত্রে নিরাপত্তার মাত্রা"
 
 #: kross/core/action.cpp:399
-#, kde-format
-msgid "There exists no such scriptfile \"%1\""
-msgstr "scriptfile \"%1\" অনুপস্থিত"
+#, fuzzy, kde-format
+#| msgid "File %1 not found."
+msgid "Scriptfile \"%1\" does not exist."
+msgstr "ফাইল %1 পাওয়া যায়নি।"
 
 #: kross/core/action.cpp:403
-#, kde-format
-msgid "Failed to determinate interpreter for scriptfile \"%1\""
+#, fuzzy, kde-format
+#| msgid "Failed to determinate interpreter for scriptfile \"%1\""
+msgid "Failed to determine interpreter for scriptfile \"%1\""
 msgstr "scriptfile \"%1\"-র জন্য ইন্টারপ্রেটার নির্ধারণ করতে ব্যর্থ"
 
 #: kross/core/action.cpp:407
@@ -10437,6 +10477,22 @@ msgstr "ইয়ান রাইনহার্ট গেইসার"
 msgid "Daniel Molkentin"
 msgstr "ড্যানিয়েল মলকেনটিন"
 
+#: nepomuk/core/resource.cpp:368
+msgid "Success"
+msgstr "সফল"
+
+#: nepomuk/core/resource.cpp:370
+msgid "Communication error"
+msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
+
+#: nepomuk/core/resource.cpp:372
+msgid "Invalid type in Database"
+msgstr "ডাটাবেসের মধ্যে অবৈধ ধরন"
+
+#: nepomuk/core/resource.cpp:374
+msgid "Unknown error"
+msgstr "অজানা ত্রুটি"
+
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:207
 msgid "Create New Tag..."
 msgstr "নতুন ট্যাগ নির্মাণ করুন"
@@ -10467,22 +10523,6 @@ msgstr "সূচনাবার্তা কনফিগার করুন"
 #: nepomuk/core/test/tagcloudtest.cpp:30
 msgid "tagcloudtest"
 msgstr "tagcloudtest"
-
-#: nepomuk/core/generated/resource.cpp:370
-msgid "Success"
-msgstr "সফল"
-
-#: nepomuk/core/generated/resource.cpp:372
-msgid "Communication error"
-msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
-
-#: nepomuk/core/generated/resource.cpp:374
-msgid "Invalid type in Database"
-msgstr "ডাটাবেসের মধ্যে অবৈধ ধরন"
-
-#: nepomuk/core/generated/resource.cpp:376
-msgid "Unknown error"
-msgstr "অজানা ত্রুটি"
 
 #: kparts/browserextension.cpp:645
 #, kde-format
@@ -10624,18 +10664,26 @@ msgstr ""
 "প্লাগ-ইন সংক্রান্ত নির্ভরতা পূর্ণ করার উদ্দেশ্যে স্বয়ংক্রিয় পরিবর্তন সম্পন্ন করা হয়েছে"
 
 #: kutils/kpluginselector.cpp:224
+#, fuzzy
+#| msgid ""
+#| "Automatically changes have been performed in order to satisfy plugin "
+#| "dependencies:\n"
 msgid ""
-"Automatically changes have been performed in order to satisfy plugin "
+"Automatic changes have been performed in order to satisfy plugin "
 "dependencies:\n"
 msgstr ""
 "প্লাগ-ইন সংক্রান্ত নির্ভরতা পূর্ণ করার উদ্দেশ্যে স্বয়ংক্রিয়রূপে পরিবর্তন সম্পন্ন করা "
 "হয়েছে:\n"
 
 #: kutils/kpluginselector.cpp:228
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "\n"
+#| "    %1 plugin has been automatically checked because the dependency of %2 "
+#| "plugin"
 msgid ""
 "\n"
-"    %1 plugin has been automatically checked because the dependency of %2 "
+"    %1 plugin has been automatically checked because of the dependency of %2 "
 "plugin"
 msgstr ""
 "\n"
@@ -10649,8 +10697,8 @@ msgstr ""
 #| "2 plugin"
 msgid ""
 "\n"
-"    %1 plugin has been automatically unchecked because its dependency on %2 "
-"plugin"
+"    %1 plugin has been automatically unchecked because of its dependency on %"
+"2 plugin"
 msgstr ""
 "\n"
 "    %1 প্লাগ-ইনটি %2 প্লাগ-ইনের উপর নির্ভরতার ফলে স্বয়ংক্রিয়রূপে নির্বাচন থেকে "
@@ -10688,8 +10736,10 @@ msgid "About %1 plugin"
 msgstr "%1 প্লাগ-ইন পরিচিতি"
 
 #: kutils/kpluginselector.cpp:1683
-msgid "E-Mail:"
-msgstr "ই-মেইল:"
+#, fuzzy
+#| msgid "Email"
+msgid "Email:"
+msgstr "ই-মেইল"
 
 #: kutils/kpluginselector.cpp:1701
 msgid "Website:"
@@ -10704,8 +10754,12 @@ msgid "Print Preview"
 msgstr "প্রিন্টের পূর্বরূপ"
 
 #: kutils/kcmoduleproxy.cpp:134
+#, fuzzy
+#| msgid ""
+#| "<b>Changes in this section requires root access.</b><br />On applying "
+#| "your changes you will have to supply your root password."
 msgid ""
-"<b>Changes in this section requires root access.</b><br />On applying your "
+"<b>Changes in this section require root access.</b><br />On applying your "
 "changes you will have to supply your root password."
 msgstr ""
 "<b>এই বিভাগে পরিবর্তন করার জন্য root ব্যবহারকারীর অধিকার উপস্থিত থাকা আবশ্যক।</"
@@ -10784,9 +10838,11 @@ msgid "Incorrect number of arguments."
 msgstr "ভুল সংখ্যক আর্গুমেন্ট"
 
 #: kjsembed/kjsembed/qobject_binding.cpp:410
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "The slot sked for %1 arguments but there are only %2 arguments available."
 msgid ""
-"The slot sked for %1 arguments but there are only %2 arguments available."
+"The slot asked for %1 arguments but there are only %2 arguments available."
 msgstr ""
 "slot দ্বারা %1 আর্গুমেন্ট অনুরোধ করা হয়েছে কিন্তু শুধুমাত্র %2 আর্গুমেন্ট উপস্থিত রয়েছে।"
 
@@ -10912,8 +10968,9 @@ msgid "Could not create temporary file."
 msgstr "অস্থায়ী ফাইল নির্মাণ করতে সমস্য।"
 
 #: kjsembed/kjsembed/builtins.cpp:89 kjsembed/kjsembed/builtins.cpp:129
-#, kde-format
-msgid "Error seen while processing include '%1' line %2: %3"
+#, fuzzy, kde-format
+#| msgid "Error seen while processing include '%1' line %2: %3"
+msgid "Error encountered while processing include '%1' line %2: %3"
 msgstr "include '%1' পংক্তি %2 প্রক্রিয়াকরণের সময় সমস্যা: %3"
 
 #: kjsembed/kjsembed/builtins.cpp:95
@@ -11025,8 +11082,11 @@ msgid "Password Input"
 msgstr "পাসওয়ার্ড ইনপুট"
 
 #: kde3support/kdeui/k3sconfig.cpp:109
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Do SpellChecking"
 msgctxt "@option:check"
-msgid "Do SpellChecking"
+msgid "Do Spellchecking"
 msgstr "বানান পরীক্ষা করা হবে"
 
 #: kde3support/kdeui/k3sconfig.cpp:113
@@ -11499,6 +11559,12 @@ msgstr ""
 "'%1' পরিসেবা দ্বারা '%3' প্রাসঙ্গিক শব্দ অর্থাৎ কি-ওয়ার্ড সহ '%2' ইন্টারফেস উপলব্ধ "
 "করা হয় না।"
 
+#: kdecore/services/kmimetypetrader.h:136
+#: kdecore/services/kmimetypetrader.h:169
+#: kdecore/services/kservicetypetrader.h:187
+msgid "No service matching the requirements was found"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:43
 msgid "&New"
 msgstr "নতুন (&N)"
@@ -11681,6 +11747,21 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
 "4<br />(দশমিক অনুসারে: %5)</qt>"
+
+#: kross/qts/values_p.h:68
+#, fuzzy, kde-format
+#| msgid "No such interpreter \"%1\""
+msgid "No such function \"%1\""
+msgstr "ইন্টারপ্রেটাট \"%1\" অনুপস্থিত"
+
+#~ msgid "Do not supress debug output"
+#~ msgstr "ডিবাগ কর্ম থেকে উৎপন্ন ফলাফল আড়াল করা হবে না"
+
+#~ msgid "There exists no such scriptfile \"%1\""
+#~ msgstr "scriptfile \"%1\" অনুপস্থিত"
+
+#~ msgid "E-Mail:"
+#~ msgstr "ই-মেইল:"
 
 #~ msgid "qttest"
 #~ msgstr "qttest"
