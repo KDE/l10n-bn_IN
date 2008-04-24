@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-21 20:00+0200\n"
+"POT-Creation-Date: 2008-04-24 01:28+0200\n"
 "PO-Revision-Date: 2008-02-13 22:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -88,7 +88,7 @@ msgstr "পরীক্ষা: (&V)"
 #. i18n: file ./kdeui/dialogs/knewpassworddialog.ui line 110
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 121
-#: rc.cpp:30 rc.cpp:72
+#: rc.cpp:30 rc.cpp:69
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
@@ -163,56 +163,50 @@ msgid "Mouse Shape Gesture"
 msgstr "মাউস আকারের ভঙ্গিমা"
 
 #. i18n: tag string
-#. i18n: file ./kdeui/dialogs/kshortcutsdialog.ui line 70
-#: rc.cpp:63 kdeui/util/kkeyserver_x11.cpp:119
-msgid "Print"
-msgstr ""
-
-#. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 54
-#: rc.cpp:66
+#: rc.cpp:63
 msgid "Supply a username and password below."
 msgstr "ব্যবহারকারীর নাম ও পাসওয়ার্ড নীচে লিখুন।"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 111
-#: rc.cpp:69
+#: rc.cpp:66
 msgid "Username:"
 msgstr "ব্যবহারকারীর নাম:"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 138
-#: rc.cpp:75
+#: rc.cpp:72
 msgid "Remember password"
 msgstr "পাসওয়ার্ড মনে রাখা হবে"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 28
-#: rc.cpp:78 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:373
+#: rc.cpp:75 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:373
 msgid "Options"
 msgstr "বিকল্প"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 40
-#: rc.cpp:81
+#: rc.cpp:78
 msgid "Enable &background spellchecking"
 msgstr "পটভূমিতে বানান পরীক্ষণ ব্যবস্থা সক্রিয় করা হবে (&b)"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 47
-#: rc.cpp:84
+#: rc.cpp:81
 msgid "Skip all &uppercase words"
 msgstr "বড় ছাঁদের হরফ সহযোগে লেখা সব শব্দ উপেক্ষা করা হবে (&u)"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 54
-#: rc.cpp:87
+#: rc.cpp:84
 msgid "S&kip run-together words"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 64
-#: rc.cpp:90
+#: rc.cpp:87
 msgid "Default language:"
 msgstr "ডিফল্ট ভাষা:"
 
@@ -220,7 +214,7 @@ msgstr "ডিফল্ট ভাষা:"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 42
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 58
-#: rc.cpp:93 rc.cpp:105
+#: rc.cpp:90 rc.cpp:102
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
@@ -240,7 +234,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 45
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 39
-#: rc.cpp:99 rc.cpp:729
+#: rc.cpp:96 rc.cpp:726
 msgid "Unknown word:"
 msgstr "অজানা শব্দ:"
 
@@ -248,7 +242,7 @@ msgstr "অজানা শব্দ:"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 52
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 46
-#: rc.cpp:102 rc.cpp:732
+#: rc.cpp:99 rc.cpp:729
 msgid "Unknown word"
 msgstr "অজানা শব্দ"
 
@@ -256,7 +250,7 @@ msgstr "অজানা শব্দ"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 61
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 55
-#: rc.cpp:111 rc.cpp:741
+#: rc.cpp:108 rc.cpp:738
 msgid "<b>misspelled</b>"
 msgstr "<b>ভুল বানান</b>"
 
@@ -268,7 +262,7 @@ msgstr "<b>ভুল বানান</b>"
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 64
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 236
-#: rc.cpp:114 rc.cpp:172 rc.cpp:744 rc.cpp:839
+#: rc.cpp:111 rc.cpp:169 rc.cpp:741 rc.cpp:836
 msgid ""
 "<qt>\n"
 "<p>Select the language of the document you are proofing here.</p>\n"
@@ -279,7 +273,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 73
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 67
-#: rc.cpp:119 rc.cpp:749
+#: rc.cpp:116 rc.cpp:746
 msgid "&Language:"
 msgstr "ভাষা: (&L)"
 
@@ -287,7 +281,7 @@ msgstr "ভাষা: (&L)"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 83
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 77
-#: rc.cpp:122 rc.cpp:752
+#: rc.cpp:119 rc.cpp:749
 msgid "Text excerpt showing the unknown word in its context."
 msgstr "অজানা শব্দের প্রসঙ্গ নির্দেশকারী লেখার অংশ।"
 
@@ -295,7 +289,7 @@ msgstr "অজানা শব্দের প্রসঙ্গ নির্দ
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 88
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 82
-#: rc.cpp:125 rc.cpp:755
+#: rc.cpp:122 rc.cpp:752
 msgid ""
 "<qt>\n"
 "<p>Here you can see a text excerpt showing the unknown word in its context. "
@@ -309,7 +303,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 94
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 88
-#: rc.cpp:130 rc.cpp:760
+#: rc.cpp:127 rc.cpp:757
 msgid "... the <b>misspelled</b> word shown in context ..."
 msgstr "... প্রসঙ্গ অনুসারে প্রদর্শিত শব্দের <b>ভুল বানান</b> ..."
 
@@ -317,7 +311,7 @@ msgstr "... প্রসঙ্গ অনুসারে প্রদর্শি
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 107
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 101
-#: rc.cpp:133 rc.cpp:763
+#: rc.cpp:130 rc.cpp:760
 msgid ""
 "<qt>\n"
 "<p>The unknown word was detected and considered unknown because it is not "
@@ -333,7 +327,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 110
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 104
-#: rc.cpp:139 rc.cpp:769
+#: rc.cpp:136 rc.cpp:766
 msgid "<< Add to Dictionary"
 msgstr "<< অভিধানে যোগ করুন"
 
@@ -341,7 +335,7 @@ msgstr "<< অভিধানে যোগ করুন"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 133
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 139
-#: rc.cpp:142 rc.cpp:780
+#: rc.cpp:139 rc.cpp:777
 msgid "Suggestion List"
 msgstr "প্রস্তাবিত শব্দের তালিকা"
 
@@ -349,7 +343,7 @@ msgstr "প্রস্তাবিত শব্দের তালিকা"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 139
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 145
-#: rc.cpp:145 rc.cpp:783
+#: rc.cpp:142 rc.cpp:780
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should check if the correction for "
@@ -366,7 +360,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 146
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 152
-#: rc.cpp:151 rc.cpp:789
+#: rc.cpp:148 rc.cpp:786
 msgid "Suggested Words"
 msgstr "প্রস্তাবিত শব্দ"
 
@@ -378,7 +372,7 @@ msgstr "প্রস্তাবিত শব্দ"
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 175
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 217
-#: rc.cpp:154 rc.cpp:163 rc.cpp:800 rc.cpp:827
+#: rc.cpp:151 rc.cpp:160 rc.cpp:797 rc.cpp:824
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should type the correction for "
@@ -393,7 +387,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 160
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 178
-#: rc.cpp:160 rc.cpp:806
+#: rc.cpp:157 rc.cpp:803
 msgid "Replace &with:"
 msgstr "প্রতিস্থাপনে ব্যবহৃত শব্দ: (&w)"
 
@@ -401,7 +395,7 @@ msgstr "প্রতিস্থাপনে ব্যবহৃত শব্দ:
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 180
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 231
-#: rc.cpp:169 rc.cpp:836
+#: rc.cpp:166 rc.cpp:833
 msgid "Language Selection"
 msgstr "ভাষা নির্বাচন"
 
@@ -409,7 +403,7 @@ msgstr "ভাষা নির্বাচন"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 189
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 240
-#: rc.cpp:177 rc.cpp:844
+#: rc.cpp:174 rc.cpp:841
 msgid "English"
 msgstr "ইংরাজি"
 
@@ -417,7 +411,7 @@ msgstr "ইংরাজি"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 205
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 224
-#: rc.cpp:180 rc.cpp:833
+#: rc.cpp:177 rc.cpp:830
 msgid "S&uggest"
 msgstr "প্রস্তাবনা (&u)"
 
@@ -425,7 +419,7 @@ msgstr "প্রস্তাবনা (&u)"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 214
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 162
-#: rc.cpp:183 rc.cpp:792
+#: rc.cpp:180 rc.cpp:789
 msgid ""
 "<qt>\n"
 "<p>Click here to replace this occurrence of the unknown text with the text "
@@ -441,7 +435,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 217
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 165
-#: rc.cpp:188 rc.cpp:797 kdeui/findreplace/kfinddialog.cpp:202
+#: rc.cpp:185 rc.cpp:794 kdeui/findreplace/kfinddialog.cpp:202
 msgid "&Replace"
 msgstr "প্রতিস্থাপন (&R)"
 
@@ -449,7 +443,7 @@ msgstr "প্রতিস্থাপন (&R)"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 226
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 129
-#: rc.cpp:191 rc.cpp:772
+#: rc.cpp:188 rc.cpp:769
 msgid ""
 "<qt>\n"
 "<p>Click here to replace all occurrences of the unknown text with the text "
@@ -465,7 +459,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 229
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 132
-#: rc.cpp:196 rc.cpp:777
+#: rc.cpp:193 rc.cpp:774
 msgid "R&eplace All"
 msgstr "সমস্ত প্রতিস্থাপন করা হবে (&e)"
 
@@ -473,7 +467,7 @@ msgstr "সমস্ত প্রতিস্থাপন করা হবে (&
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 239
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 191
-#: rc.cpp:199 rc.cpp:809
+#: rc.cpp:196 rc.cpp:806
 msgid ""
 "<qt>\n"
 "<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
@@ -492,7 +486,7 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 242
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 194
-#: rc.cpp:205 rc.cpp:815
+#: rc.cpp:202 rc.cpp:812
 msgid "&Ignore"
 msgstr "উপেক্ষা করুন (&I)"
 
@@ -502,7 +496,7 @@ msgstr "উপেক্ষা করুন (&I)"
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 265
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 204
-#: rc.cpp:208 rc.cpp:217 rc.cpp:818
+#: rc.cpp:205 rc.cpp:214 rc.cpp:815
 msgid ""
 "<qt>\n"
 "<p>Click here to let all occurrences of the unknown word remain as they are."
@@ -522,13 +516,13 @@ msgstr ""
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 255
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 207
-#: rc.cpp:214 rc.cpp:824
+#: rc.cpp:211 rc.cpp:821
 msgid "I&gnore All"
 msgstr "সমস্ত উপেক্ষা করা হবে (&g)"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 268
-#: rc.cpp:223
+#: rc.cpp:220
 msgid "Autocorrect"
 msgstr "স্বয়ং সংশোধন"
 
@@ -536,13 +530,13 @@ msgstr "স্বয়ং সংশোধন"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 4
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 4
-#: rc.cpp:226 rc.cpp:373
+#: rc.cpp:223 rc.cpp:370
 msgid "&File"
 msgstr "ফাইল (&F)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 33
-#: rc.cpp:229
+#: rc.cpp:226
 msgid "&Game"
 msgstr "খেলা (&G)"
 
@@ -552,13 +546,13 @@ msgstr "খেলা (&G)"
 #. i18n: file ./khtml/khtml.rc line 4
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 11
-#: rc.cpp:232 rc.cpp:331 rc.cpp:376
+#: rc.cpp:229 rc.cpp:328 rc.cpp:373
 msgid "&Edit"
 msgstr "সম্পাদনা (&E)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 83
-#: rc.cpp:235
+#: rc.cpp:232
 msgctxt "@title:menu Game move"
 msgid "&Move"
 msgstr "স্থানান্তরণ (&M)"
@@ -567,61 +561,61 @@ msgstr "স্থানান্তরণ (&M)"
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:238 rc.cpp:379 kfile/kdiroperator.cpp:1650
+#: rc.cpp:235 rc.cpp:376 kfile/kdiroperator.cpp:1650
 msgid "&View"
 msgstr "প্রদর্শন (&V)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 115
-#: rc.cpp:241
+#: rc.cpp:238
 msgid "&Go"
 msgstr "গন্তব্য (&G)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 136
-#: rc.cpp:244
+#: rc.cpp:241
 msgid "&Bookmarks"
 msgstr "বুকমার্ক (&B)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 142
-#: rc.cpp:247
+#: rc.cpp:244
 msgid "&Tools"
 msgstr "সরঞ্জাম (&T)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 146
-#: rc.cpp:250
+#: rc.cpp:247
 msgid "&Settings"
 msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 174
-#: rc.cpp:253 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:250 kdeui/widgets/khelpmenu.cpp:148
 msgid "&Help"
 msgstr "সাহায্য (&H)"
 
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 190
-#: rc.cpp:256
+#: rc.cpp:253
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/widgets/kshortcutwidget.ui line 22
-#: rc.cpp:259 kdeui/dialogs/kshortcutseditor.cpp:606
+#: rc.cpp:256 kdeui/dialogs/kshortcutseditor.cpp:608
 msgid "Main:"
 msgstr "প্রধান:"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/widgets/kshortcutwidget.ui line 52
-#: rc.cpp:262 kdeui/dialogs/kshortcutseditor.cpp:607
+#: rc.cpp:259 kdeui/dialogs/kshortcutseditor.cpp:609
 msgid "Alternate:"
 msgstr "বিকল্প:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 16
-#: rc.cpp:265
+#: rc.cpp:262
 msgid "KHTML Regression Testing Utility"
 msgstr "KHTML রিগ্রেশন পরীক্ষণ ব্যবস্থা"
 
@@ -629,13 +623,13 @@ msgstr "KHTML রিগ্রেশন পরীক্ষণ ব্যবস্�
 #. i18n: file ./khtml/test_regression_gui.ui line 50
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 78
-#: rc.cpp:268 rc.cpp:633
+#: rc.cpp:265 rc.cpp:630
 msgid "0"
 msgstr "0"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 59
-#: rc.cpp:271
+#: rc.cpp:268
 msgid "Regression testing output"
 msgstr "রিগ্রেশন পরীক্ষণের ফলাফল"
 
@@ -643,13 +637,13 @@ msgstr "রিগ্রেশন পরীক্ষণের ফলাফল"
 #. i18n: file ./khtml/test_regression_gui.ui line 114
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 117
-#: rc.cpp:274 rc.cpp:277
+#: rc.cpp:271 rc.cpp:274
 msgid "Pause/Continue regression testing process"
 msgstr "রিগ্রেশন পরীক্ষণ স্থগিত করুন/পুনরারম্ভ করুন"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 123
-#: rc.cpp:280 kdeui/jobs/kwidgetjobtracker.cpp:383
+#: rc.cpp:277 kdeui/jobs/kwidgetjobtracker.cpp:383
 #: kdeui/jobs/kwidgetjobtracker.cpp:443
 #: khtml/test_regression_gui_window.cpp:571
 msgid "Pause"
@@ -659,7 +653,7 @@ msgstr "স্থগিত"
 #. i18n: file ./khtml/test_regression_gui.ui line 147
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 150
-#: rc.cpp:283 rc.cpp:286
+#: rc.cpp:280 rc.cpp:283
 #, fuzzy
 #| msgid ""
 #| "You may select a file where the log content is stored, before the "
@@ -672,152 +666,152 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 153
-#: rc.cpp:289
+#: rc.cpp:286
 msgid "Output to file..."
 msgstr "ফলাফল ফাইলে সংরক্ষণ করা হবে..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 165
-#: rc.cpp:292
+#: rc.cpp:289
 msgid "Regression testing status"
 msgstr "রিগ্রেশন পরীক্ষণের অবস্থা"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 185
-#: rc.cpp:295
+#: rc.cpp:292
 msgid "View HTML Output"
 msgstr "HTML বিন্যাসে ফলাফল প্রদর্শন"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:298 kutils/kpluginselector.cpp:63
+#: rc.cpp:295 kutils/kpluginselector.cpp:63
 msgid "Settings"
 msgstr "বৈশিষ্ট্য"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 215
-#: rc.cpp:301
+#: rc.cpp:298
 msgid "Tests"
 msgstr "পরীক্ষা"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 241
-#: rc.cpp:304
+#: rc.cpp:301
 msgid "Only run JS tests"
 msgstr "শুধুমাত্র JS পরীক্ষা সঞ্চালিত হবে"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 249
-#: rc.cpp:307
+#: rc.cpp:304
 msgid "Only run HTML tests"
 msgstr "শুধুমাত্র HTML পরীক্ষা সঞ্চালিত হবে"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 257
-#: rc.cpp:310 khtml/test_regression.cpp:618
+#: rc.cpp:307 khtml/test_regression.cpp:618
 msgid "Do not suppress debug output"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 265
-#: rc.cpp:313 khtml/test_regression.cpp:627
+#: rc.cpp:310 khtml/test_regression.cpp:627
 msgid "Do not use Xvfb"
 msgstr "Xvfb ব্যবহার করা হবে না"
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 270
-#: rc.cpp:316
+#: rc.cpp:313
 msgid "Run tests..."
 msgstr "পরীক্ষা সঞ্চালন করা হবে..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 275
-#: rc.cpp:319
+#: rc.cpp:316
 msgid "Run single test..."
 msgstr "একটি পরীক্ষা সঞ্চালন করা হবে..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 280
-#: rc.cpp:322
+#: rc.cpp:319
 msgid "Specify tests directory..."
 msgstr "পরীক্ষার ডিরেক্টরি উল্লেখ করুন..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 285
-#: rc.cpp:325
+#: rc.cpp:322
 msgid "Specify khtml directory..."
 msgstr "khtml ডিরেক্টরি উল্লেখ করুন..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 290
-#: rc.cpp:328
+#: rc.cpp:325
 msgid "Specify output directory..."
 msgstr "আউটপুট ডিরেক্টরি উল্লেখ করুন..."
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 21
-#: rc.cpp:334
+#: rc.cpp:331
 msgid "Document Information"
 msgstr "ডকুমেন্ট সংক্রান্ত তথ্য"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 45
-#: rc.cpp:337 kdeui/dialogs/kdeprintdialog.cpp:46 kross/ui/view.cpp:511
+#: rc.cpp:334 kross/ui/view.cpp:511
 msgid "General"
 msgstr "সাধারণ"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 92
-#: rc.cpp:340
+#: rc.cpp:337
 msgid "URL:"
 msgstr "URL:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 138
-#: rc.cpp:343
+#: rc.cpp:340
 msgid "Title:"
 msgstr "শিরোনাম:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 154
-#: rc.cpp:346
+#: rc.cpp:343
 msgid "Last modified:"
 msgstr "সর্বশেষ পরিবর্তন:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 170
-#: rc.cpp:349
+#: rc.cpp:346
 msgid "Document encoding:"
 msgstr "ডকুমেন্টের এনকোডিং:"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 195
-#: rc.cpp:352
+#: rc.cpp:349
 msgid "HTTP Headers"
 msgstr "HTTP হেডার"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 232
-#: rc.cpp:355
+#: rc.cpp:352
 msgid "Property"
 msgstr "বৈশিষ্ট্য"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 237
-#: rc.cpp:358 khtml/ecma/debugger/localvariabledock.cpp:52
+#: rc.cpp:355 khtml/ecma/debugger/localvariabledock.cpp:52
 #: khtml/java/kjavaappletviewer.cpp:140
 msgid "Value"
 msgstr "মান"
 
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 16
-#: rc.cpp:361
+#: rc.cpp:358
 msgid "JavaScript Errors"
 msgstr "JavaScript সংক্রান্ত ত্রুটি"
 
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 19
-#: rc.cpp:364
+#: rc.cpp:361
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -830,39 +824,39 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 31
-#: rc.cpp:367 kdeui/util/kstandardguiitem.cpp:180
+#: rc.cpp:364 kdeui/util/kstandardguiitem.cpp:180
 #: kdeui/actions/kstandardaction_p.h:49
 msgid "&Close"
 msgstr "বন্ধ করুন (&C)"
 
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 38
-#: rc.cpp:370 kdeui/util/kstandardguiitem.cpp:167
+#: rc.cpp:367 kdeui/util/kstandardguiitem.cpp:167
 #: kdeui/actions/kstandardaction_p.h:61
 msgid "C&lear"
 msgstr "পরিশ্রুত করুন (&l)"
 
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 35
-#: rc.cpp:382
+#: rc.cpp:379
 msgid "HTML Toolbar"
 msgstr "HTML টুল-বার"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 44
-#: rc.cpp:385 kross/ui/view.cpp:208
+#: rc.cpp:382 kross/ui/view.cpp:208
 msgid "File:"
 msgstr "ফাইল:"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 79
-#: rc.cpp:388
+#: rc.cpp:385
 msgid "..."
 msgstr "..."
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 99
-#: rc.cpp:391
+#: rc.cpp:388
 msgid "GroupBox 1"
 msgstr "GroupBox 1"
 
@@ -870,13 +864,13 @@ msgstr "GroupBox 1"
 #. i18n: file ./kross/test/testguiform.ui line 127
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 142
-#: rc.cpp:394 rc.cpp:397
+#: rc.cpp:391 rc.cpp:394
 msgid "CheckBox"
 msgstr "CheckBox"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 162
-#: rc.cpp:400
+#: rc.cpp:397
 msgid "Other GroupBox"
 msgstr "অন্যান্য GroupBox"
 
@@ -884,19 +878,19 @@ msgstr "অন্যান্য GroupBox"
 #. i18n: file ./kross/test/testguiform.ui line 190
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 205
-#: rc.cpp:403 rc.cpp:406
+#: rc.cpp:400 rc.cpp:403
 msgid "RadioButton"
 msgstr "RadioButton"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 232
-#: rc.cpp:409
+#: rc.cpp:406
 msgid "action1"
 msgstr "action1"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 16
-#: rc.cpp:412
+#: rc.cpp:409
 msgid "Play a &sound"
 msgstr "একটি শব্দ বাজানো হবে (&s)"
 
@@ -904,43 +898,43 @@ msgstr "একটি শব্দ বাজানো হবে (&s)"
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 42
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 72
-#: rc.cpp:415 rc.cpp:424
+#: rc.cpp:412 rc.cpp:421
 msgid "Select the sound to play"
 msgstr "বাজানোর জন্য শব্দ নির্বাচন করুন"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 49
-#: rc.cpp:418
+#: rc.cpp:415
 msgid "Show a message in a &popup"
 msgstr "পপ-আপের মধ্যে বার্তা প্রদর্শন করা হবে (&p)"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 56
-#: rc.cpp:421
+#: rc.cpp:418
 msgid "Log to a file"
 msgstr "ফাইলে লগ সংরক্ষণ করা হবে"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 79
-#: rc.cpp:427
+#: rc.cpp:424
 msgid "Mark &taskbar entry"
 msgstr "টাস্ক-বারের এন্ট্রি চিহ্নিত করা হবে (&t)"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 86
-#: rc.cpp:430
+#: rc.cpp:427
 msgid "Run &command"
 msgstr "কমান্ড সঞ্চালন (&c)"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 102
-#: rc.cpp:433
+#: rc.cpp:430
 msgid "Select the command to run"
 msgstr "সঞ্চালনের জন্য কমান্ড নির্বাচন করুন"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 109
-#: rc.cpp:436
+#: rc.cpp:433
 msgid "Sp&eech"
 msgstr "ধ্বনি (&e)"
 
@@ -948,7 +942,7 @@ msgstr "ধ্বনি (&e)"
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 122
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 144
-#: rc.cpp:440 rc.cpp:453
+#: rc.cpp:437 rc.cpp:450
 #, no-c-format
 msgid ""
 "<qt>Specifies how KTTS should speak the event when received.  If you select "
@@ -960,43 +954,43 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 126
-#: rc.cpp:443
+#: rc.cpp:440
 msgid "Speak event message"
 msgstr "ইভেন্ট সম্বন্ধীয় বার্তা উচ্চারণ"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 131
-#: rc.cpp:446
+#: rc.cpp:443
 msgid "Speak event name"
 msgstr "ইভেন্টের নাম উচ্চারণ"
 
 #. i18n: tag string
 #. i18n: file ./knotify/config/knotifyconfigactionswidgetbase.ui line 136
-#: rc.cpp:449
+#: rc.cpp:446
 msgid "Speak custom text"
 msgstr "স্বনির্ধারিত টেক্সট উচ্চারণ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 9
-#: rc.cpp:456
+#: rc.cpp:453
 msgid "Distance between desktop icons"
 msgstr "ডেস্কটপ আইনের মধ্যে অন্তর্বর্তী ব্যবধান"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 10
-#: rc.cpp:459
+#: rc.cpp:456
 msgid "The distance between icons specified in pixels."
 msgstr "পিক্সেলে উল্লিখিত আইকনের মধ্যে অন্তর্বর্তী ব্যবধান।"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 23
-#: rc.cpp:462
+#: rc.cpp:459
 msgid "Widget style to use"
 msgstr "ব্যবহারযোগ্য উইজেট বিন্যাস"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 24
-#: rc.cpp:465
+#: rc.cpp:462
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
@@ -1005,13 +999,13 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 30
-#: rc.cpp:468
+#: rc.cpp:465
 msgid "Use the PC speaker"
 msgstr "সিস্টেমের স্পিকার ব্যবহার করা হবে"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 31
-#: rc.cpp:471
+#: rc.cpp:468
 #, fuzzy
 #| msgid ""
 #| "If the ordinary PC speaker should be used instead of KDE's own "
@@ -1023,13 +1017,13 @@ msgstr "KDE-র নিজস্ব সূচনাব্যবস্থার �
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 35
-#: rc.cpp:474
+#: rc.cpp:471
 msgid "What terminal application to use"
 msgstr "ব্যবহারযোগ্য টার্মিনাল অ্যাপ্লিকেশন"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 37
-#: rc.cpp:477
+#: rc.cpp:474
 msgid ""
 "Whenever a terminal application is launched this terminal emulator program "
 "will be used.\n"
@@ -1039,13 +1033,13 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 41
-#: rc.cpp:481
+#: rc.cpp:478
 msgid "Fixed width font"
 msgstr "স্থায়ী প্রস্থ মাপের ফন্ট"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 43
-#: rc.cpp:484
+#: rc.cpp:481
 msgid ""
 "This font is used when a fixed font is needed. A fixed font has a constant "
 "width.\n"
@@ -1055,31 +1049,31 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 46
-#: rc.cpp:488
+#: rc.cpp:485
 msgid "System wide font"
 msgstr "সমগ্র সিস্টেমে ব্যবহৃত ফন্ট"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 49
-#: rc.cpp:491
+#: rc.cpp:488
 msgid "Font for menus"
 msgstr "মেনুতে ব্যবহৃত ফন্ট"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 50
-#: rc.cpp:494
+#: rc.cpp:491
 msgid "What font to use for menus in applications."
 msgstr "অ্যাপ্লিকেশনের মেনুতে যে ফন্ট ব্যবহৃত হবে।"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 53
-#: rc.cpp:497
+#: rc.cpp:494
 msgid "Color for links"
 msgstr "লিঙ্কে ব্যবহৃত রঙ"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 54
-#: rc.cpp:500
+#: rc.cpp:497
 #, fuzzy
 #| msgid "What color links which are yet not clicked on should have."
 msgid "What color links should be that have not yet been clicked on"
@@ -1087,19 +1081,19 @@ msgstr "ক্লিক না করা লিঙ্কের ক্ষেত�
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 57
-#: rc.cpp:503
+#: rc.cpp:500
 msgid "Color for visited links"
 msgstr "পরিদর্শিত লিঙ্কের রঙ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 60
-#: rc.cpp:506
+#: rc.cpp:503
 msgid "Font for the taskbar"
 msgstr "টাস্ক-বারে ব্যবহৃত ফন্ট"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 61
-#: rc.cpp:509
+#: rc.cpp:506
 msgid ""
 "What font to use for the panel at the bottom of the screen, where the "
 "currently running applications are."
@@ -1109,37 +1103,37 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 64
-#: rc.cpp:512
+#: rc.cpp:509
 msgid "Fonts for toolbars"
 msgstr "টুল-বারে ব্যবহৃত ফন্ট"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 73
-#: rc.cpp:515
+#: rc.cpp:512
 msgid "Shortcut for taking screenshot"
 msgstr "পর্দার ছবি সংগ্রহে ব্যবহৃত শর্টকাট"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 78
-#: rc.cpp:518
+#: rc.cpp:515
 msgid "Shortcut for toggling Clipboard Actions on and off"
 msgstr "ক্লিপ-বোর্ড সংক্রান্ত কর্ম চালু অথবা বন্ধ করার জন্য ব্যবহৃত শর্ট-কাট"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 83
-#: rc.cpp:521
+#: rc.cpp:518
 msgid "Shortcut for shutting down the computer without confirmation"
 msgstr "নিশ্চায়ন বিনা কম্পিউটার বন্ধ করার শর্ট-কাট"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 387
-#: rc.cpp:524
+#: rc.cpp:521
 msgid "Show directories first"
 msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 388
-#: rc.cpp:527
+#: rc.cpp:524
 #, fuzzy
 #| msgid "If directories should be placed at the top when displaying files"
 msgid "Whether directories should be placed at the top when displaying files"
@@ -1147,7 +1141,7 @@ msgstr "ফাইল প্রদর্শনকালে ডিরেক্ট�
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 396
-#: rc.cpp:530
+#: rc.cpp:527
 #, fuzzy
 #| msgid "The recent URLs recently visited"
 msgid "The URLs recently visited"
@@ -1155,7 +1149,7 @@ msgstr "সম্প্রতি পরিদর্শিত URL"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 397
-#: rc.cpp:533
+#: rc.cpp:530
 #, fuzzy
 #| msgid "Used for auto completion in file dialogs for example."
 msgid "Used for auto-completion in file dialogs, for example"
@@ -1165,19 +1159,19 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 401
-#: rc.cpp:536
+#: rc.cpp:533
 msgid "Show file preview in file dialog"
 msgstr "ফাইল ডায়লগে ফাইলের পূর্বরূপ প্রদর্শিত হবে"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 406
-#: rc.cpp:539
+#: rc.cpp:536
 msgid "Show hidden files"
 msgstr "আড়াল করা ফাইল প্রদর্শন করা হবে"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 407
-#: rc.cpp:542
+#: rc.cpp:539
 #, fuzzy
 #| msgid ""
 #| "Determines if files starting with a dot(convention for hidden files) "
@@ -1191,26 +1185,26 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 412
-#: rc.cpp:545
+#: rc.cpp:542
 msgid "Show speedbar"
 msgstr "গতিনির্দেশক-বার প্রদর্শন করা হবে"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 413
-#: rc.cpp:548
+#: rc.cpp:545
 msgid ""
 "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr "ফাইল ডায়লগের মধ্যে বাঁদিকের অংশে শর্ট-কাট আইকন প্রদর্শন করা হবে কি না"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 432
-#: rc.cpp:551
+#: rc.cpp:548
 msgid "What country"
 msgstr "দেশের নাম"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 433
-#: rc.cpp:554
+#: rc.cpp:551
 #, fuzzy
 #| msgid ""
 #| "Used to determine how to display numbers, currency and time/date for "
@@ -1221,7 +1215,7 @@ msgstr "সংখ্যা, মুদ্রা, সময়/তারিখ প্
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 437
-#: rc.cpp:557
+#: rc.cpp:554
 #, fuzzy
 #| msgid "What language to display text in"
 msgid "What language to use to display text"
@@ -1229,44 +1223,44 @@ msgstr "টেক্সট প্রদর্শনের জন্য ব্য
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 440
-#: rc.cpp:560
+#: rc.cpp:557
 msgid "Character used for indicating positive numbers"
 msgstr "শূণ্যের অধিক সংখ্যা নির্ধারণ করতে ব্যবহৃত অক্ষর"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 441
-#: rc.cpp:563
+#: rc.cpp:560
 msgid "Most countries have no character for this"
 msgstr "অধিকাংশ দেশে এটি নির্দেশ করার জন্য কোনো অক্ষর উপলব্ধ নেই"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 446
-#: rc.cpp:566
+#: rc.cpp:563
 msgid "Path for the trash can"
 msgstr "আবর্জনার বাক্স নির্দেশকারী পাথ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 450
-#: rc.cpp:569
+#: rc.cpp:566
 msgid "Path to the autostart directory"
 msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভকরণের জন্য ব্যবহৃত ডিরেক্টরির পাথ"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 451
-#: rc.cpp:572
+#: rc.cpp:569
 msgid "Path to the directory containing executables to be run on session login"
 msgstr ""
 "সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 455
-#: rc.cpp:575
+#: rc.cpp:572
 msgid "Path to the desktop directory"
 msgstr "ডেস্কটপ ডিরেক্টরি নির্দেশকারী পাথ"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 456
-#: rc.cpp:578
+#: rc.cpp:575
 #, fuzzy
 #| msgid "In this directory the files on the dekstop are stored"
 msgid "Directory where the files on the desktop are stored"
@@ -1274,157 +1268,157 @@ msgstr "চিহ্নিত ডিরেক্টরির মধ্যে ড
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 460
-#: rc.cpp:581
+#: rc.cpp:578
 msgid "Path to documents folder"
 msgstr "ডকুমেন্ট ফোল্ডার নির্দেশকারী পাথ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 507
-#: rc.cpp:585
+#: rc.cpp:582
 msgid "Enable SOCKS support"
 msgstr "SOCKS সমর্থন সক্রিয় করুন"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 508
-#: rc.cpp:588
+#: rc.cpp:585
 msgid "Whether SOCKS version 4 and 5 should be enabled in KDE's sub systems"
 msgstr "KDE-র সাব-সিস্টেমে SOCKS-র সংস্করণ ৪ ও ৫ সক্রিয় করা হবে কি না"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 512
-#: rc.cpp:591
+#: rc.cpp:588
 msgid "Path to custom SOCKS library"
 msgstr "স্বনির্ধারিত SOCKS লাইব্রেরি চিহ্নকারী পাথ"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 518
-#: rc.cpp:594
+#: rc.cpp:591
 msgid "Highlight toolbar buttons on mouse over"
 msgstr "উপরে মাউস চলাচল করা হলে টুল-বার বাটন উজ্জ্বল করা হবে"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 522
-#: rc.cpp:597
+#: rc.cpp:594
 msgid "Show text on toolbar icons "
 msgstr "টুল-বার আইকনের মধ্যে লেখা প্রদর্শিত হবে "
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 523
-#: rc.cpp:600
+#: rc.cpp:597
 msgid "Whether text should be shown in addition to icons on toolbar icons"
 msgstr "টুল-বার আইকনের মধ্যে উপস্থিত আইকনগুলির সাথে লেখা প্রদর্শিত হবে কি না"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 527
-#: rc.cpp:603
+#: rc.cpp:600
 msgid "Transparent toolbars when moved"
 msgstr "স্থানান্তর কালে টুল-বার প্রদর্শনের সময় স্বচ্ছ করা হবে কি না"
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 528
-#: rc.cpp:606
+#: rc.cpp:603
 msgid "Whether toolbars should be visible when moved"
 msgstr "স্থানান্তর কালে টুল-বার প্রদর্শন করা হবে কি না"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 549
-#: rc.cpp:609
+#: rc.cpp:606
 msgid "Password echo type"
 msgstr "পাসওয়ার্ড লেখার ইকো"
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 559
-#: rc.cpp:612
+#: rc.cpp:609
 msgid "The size of the dialog"
 msgstr "ডায়লগের মাপ"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 16
-#: rc.cpp:615
+#: rc.cpp:612
 msgid "JS Calculator"
 msgstr "JS Calculator"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 43
-#: rc.cpp:618
+#: rc.cpp:615
 msgid "+"
 msgstr "+"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 50
-#: rc.cpp:621
+#: rc.cpp:618
 msgid "AC"
 msgstr "AC"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 57
-#: rc.cpp:624
+#: rc.cpp:621
 msgid "-"
 msgstr "-"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 64
-#: rc.cpp:627
+#: rc.cpp:624
 msgid "="
 msgstr "="
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 71
-#: rc.cpp:630
+#: rc.cpp:627
 msgid "CL"
 msgstr "CL"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 85
-#: rc.cpp:636
+#: rc.cpp:633
 msgid "4"
 msgstr "৪"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 92
-#: rc.cpp:639
+#: rc.cpp:636
 msgid "2"
 msgstr "২"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 99
-#: rc.cpp:642
+#: rc.cpp:639
 msgid "5"
 msgstr "৫"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 106
-#: rc.cpp:645
+#: rc.cpp:642
 msgid "3"
 msgstr "৩"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 113
-#: rc.cpp:648
+#: rc.cpp:645
 msgid "7"
 msgstr "৭"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 120
-#: rc.cpp:651
+#: rc.cpp:648
 msgid "6"
 msgstr "৬"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 127
-#: rc.cpp:654
+#: rc.cpp:651
 msgid "8"
 msgstr "৮"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 134
-#: rc.cpp:657
+#: rc.cpp:654
 msgid "9"
 msgstr "৯"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/calc/calc.ui line 141
-#: rc.cpp:660
+#: rc.cpp:657
 msgid "1"
 msgstr "১"
 
@@ -1432,49 +1426,49 @@ msgstr "১"
 #. i18n: file ./kjsembed/examples/console/console.ui line 16
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 16
-#: rc.cpp:663 rc.cpp:666
+#: rc.cpp:660 rc.cpp:663
 msgid "MainWindow"
 msgstr "MainWindow"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 109
-#: rc.cpp:669 kparts/browserrun.cpp:302
+#: rc.cpp:666 kparts/browserrun.cpp:302
 msgid "Execute"
 msgstr "সঞ্চালন"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 128
-#: rc.cpp:672
+#: rc.cpp:669
 msgid "File"
 msgstr "ফাইল"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 167
-#: rc.cpp:675
+#: rc.cpp:672
 msgid "Open Script"
 msgstr "স্ক্রিপ্ট খুলুন"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 170
-#: rc.cpp:678
+#: rc.cpp:675
 msgid "Open a script..."
 msgstr "একটি স্ক্রিপ্ট খুলুন..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 173
-#: rc.cpp:681
+#: rc.cpp:678
 msgid "Ctrl+O"
 msgstr "Ctrl+O"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 178
-#: rc.cpp:684
+#: rc.cpp:681
 msgid "Close Script"
 msgstr "স্ক্রিপ্ট বন্ধ করুন"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 181
-#: rc.cpp:687
+#: rc.cpp:684
 msgid "Close script..."
 msgstr "স্ক্রিপ্ট বন্ধ করুন..."
 
@@ -1486,49 +1480,49 @@ msgstr "স্ক্রিপ্ট বন্ধ করুন..."
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 69
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 39
-#: rc.cpp:690 rc.cpp:868 rc.cpp:886 rc.cpp:889
+#: rc.cpp:687 rc.cpp:865 rc.cpp:883 rc.cpp:886
 msgid "Quit"
 msgstr "প্রস্থান"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 189
-#: rc.cpp:693
+#: rc.cpp:690
 msgid "Quit application..."
 msgstr "অ্যাপ্লিকেশন থেকে প্রস্থান..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 197
-#: rc.cpp:696 kross/ui/view.cpp:301
+#: rc.cpp:693 kross/ui/view.cpp:301
 msgid "Run"
 msgstr "সঞ্চালন"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 200
-#: rc.cpp:699
+#: rc.cpp:696
 msgid "Run script..."
 msgstr "স্ক্রিপ্ট সঞ্চালন করুন..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 208
-#: rc.cpp:702
+#: rc.cpp:699
 msgid "Run To..."
 msgstr "সুনির্দিষ্ট স্থান অবধি সঞ্চালন..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 211
-#: rc.cpp:705
+#: rc.cpp:702
 msgid "Run to breakpoint..."
 msgstr "সুনির্দিষ্ট ব্রেক-পয়েন্ট অবধি সঞ্চালন..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 219
-#: rc.cpp:708 khtml/ecma/kjs_debugwin.cpp:480
+#: rc.cpp:705 khtml/ecma/kjs_debugwin.cpp:480
 msgid "Step"
 msgstr "ধাপ"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 222
-#: rc.cpp:711
+#: rc.cpp:708
 msgid "Step to next line..."
 msgstr "পরবর্তী পংক্তিতে পদার্পন..."
 
@@ -1536,7 +1530,7 @@ msgstr "পরবর্তী পংক্তিতে পদার্পন..."
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 230
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
-#: rc.cpp:714 rc.cpp:865 kdeui/util/kstandardguiitem.cpp:265
+#: rc.cpp:711 rc.cpp:862 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
 #: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:186
 #: kross/ui/view.cpp:308
@@ -1545,13 +1539,13 @@ msgstr "বন্ধ করুন"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/kjsconsole/jsconsole.ui line 233
-#: rc.cpp:717
+#: rc.cpp:714
 msgid "Step execution..."
 msgstr "ক্রমবর্ধমান সঞ্চালন..."
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/examples/docviewer/docviewer.ui line 33
-#: rc.cpp:720
+#: rc.cpp:717
 msgid "<h1>KJSEmbed Documentation Viewer</h1>"
 msgstr "<h1>KJSEmbed ডকুমেন্ট প্রদর্শন ব্যবস্থা</h1>"
 
@@ -1559,7 +1553,7 @@ msgstr "<h1>KJSEmbed ডকুমেন্ট প্রদর্শন ব্য
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 36
 #. i18n: tag string
 #. i18n: file ./kde3support/kdeui/k3spellui.ui line 52
-#: rc.cpp:723 rc.cpp:735
+#: rc.cpp:720 rc.cpp:732
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
@@ -1577,13 +1571,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 16
-#: rc.cpp:847
+#: rc.cpp:844
 msgid "ThreadWeaver Jobs Examples"
 msgstr "ThreadWeaver Job-র উদাহরণ"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 19
-#: rc.cpp:850
+#: rc.cpp:847
 #, fuzzy
 #| msgid ""
 #| "The program executes 100 jobs in 4 threads. Each job waits for a random "
@@ -1597,7 +1591,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 39
-#: rc.cpp:853
+#: rc.cpp:850
 msgid ""
 "Check to see logging information about thread activity. Watch the console "
 "output to see the log information."
@@ -1607,61 +1601,61 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 42
-#: rc.cpp:856
+#: rc.cpp:853
 msgid "Log Thread Activity"
 msgstr "থ্রেড সংক্রান্ত কাজের লগ"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 62
-#: rc.cpp:859
+#: rc.cpp:856
 msgid "Displays Thread Activity"
 msgstr "থ্রেড সংক্রান্ত কাজের গতিবিধি প্রদর্শন"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
-#: rc.cpp:862
+#: rc.cpp:859
 msgid "Start"
 msgstr "আরম্ভ"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 185
-#: rc.cpp:871
+#: rc.cpp:868
 msgid "GUI based example for the Weaver Thread Manager"
 msgstr "Weaver Thread Manager-র গ্রাফিক্যাল ইউজার ইন্টারফেস ভিত্তিক উদাহরণ"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 208
-#: rc.cpp:874
+#: rc.cpp:871
 msgid "Remaining number of jobs:"
 msgstr "অবিশষ্ট কর্মের সংখ্যা:"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 32
-#: rc.cpp:877
+#: rc.cpp:874
 msgid "Select Files..."
 msgstr "ফাইল নির্বাচন করুন..."
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 42
-#: rc.cpp:880
+#: rc.cpp:877
 msgid "Cancel"
 msgstr "বাতিল"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 52
-#: rc.cpp:883
+#: rc.cpp:880
 msgid "Suspend"
 msgstr "বর্জন করুন"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 46
-#: rc.cpp:892
+#: rc.cpp:889
 msgid "What time is it? Click to update."
 msgstr "বর্তমান সময় কী? আপডেট করার জন্য ক্লিক করুন।"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 53
-#: rc.cpp:895
+#: rc.cpp:892
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
 "white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-style:"
@@ -1879,19 +1873,19 @@ msgstr "পুনরায় লোড করা হবে না"
 msgid "Configuration information reloaded successfully."
 msgstr "কনফিগারেশন সম্পর্কিত তথ্য সাফল্যের সাথে পুনরায় লোড করা হয়েছে।"
 
-#: kpty/kptydevice.cpp:285
+#: kpty/kptydevice.cpp:272
 msgid "Error reading from PTY"
 msgstr "PTY থেকে পড়তে সমস্যা"
 
-#: kpty/kptydevice.cpp:319
+#: kpty/kptydevice.cpp:306
 msgid "Error writing to PTY"
 msgstr "PTY-এ লিখতে সমস্যা"
 
-#: kpty/kptydevice.cpp:404
+#: kpty/kptydevice.cpp:391
 msgid "PTY operation timed out"
 msgstr "PTY কর্মের মেয়াদ পূর্ণ হয়েছে"
 
-#: kpty/kptydevice.cpp:459 kpty/kptydevice.cpp:473
+#: kpty/kptydevice.cpp:446 kpty/kptydevice.cpp:460
 msgid "Error opening PTY"
 msgstr "PTY খুলতে সমস্যা"
 
@@ -4643,7 +4637,7 @@ msgid "Name"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:49
-#: kdeui/dialogs/kshortcutseditor.cpp:631
+#: kdeui/dialogs/kshortcutseditor.cpp:633
 msgid "Description"
 msgstr "বিবরণ"
 
@@ -4730,7 +4724,7 @@ msgid "Do Not Fill Out"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:94
-msgid "Get Hot New Stuff!"
+msgid "Get Hot New Stuff"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:96
@@ -4739,27 +4733,27 @@ msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:168
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:164
 msgid "Timeout. Check Internet connection!"
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:250
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:246
 msgid "Entries failed to load"
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:344
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:340
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:406
 msgid "A protocol fault has occurred. The request has failed."
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:345
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:352
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:341
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:348
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:407
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:414
 msgid "Desktop Exchange Service"
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:351
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:347
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:413
 msgid "A network error has occurred. The request has failed."
 msgstr ""
@@ -5464,6 +5458,10 @@ msgstr "অনুসন্ধান"
 msgid "Cut"
 msgstr ""
 
+#: kdeui/util/kkeyserver_x11.cpp:119 kdeui/dialogs/kshortcutsdialog.cpp:61
+msgid "Print"
+msgstr ""
+
 #: kdeui/util/kcompletion.cpp:691
 msgid ""
 "You reached the end of the list\n"
@@ -5644,19 +5642,19 @@ msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kdialog.cpp:227
+#: kdeui/dialogs/kdialog.cpp:229
 msgid "&Try"
 msgstr ""
 
-#: kdeui/dialogs/kdialog.cpp:458
+#: kdeui/dialogs/kdialog.cpp:460
 msgid "modified"
 msgstr "পরিবর্তিত"
 
-#: kdeui/dialogs/kdialog.cpp:838
+#: kdeui/dialogs/kdialog.cpp:840
 msgid "&Details"
 msgstr "বিবরণ (&D)"
 
-#: kdeui/dialogs/kdialog.cpp:986
+#: kdeui/dialogs/kdialog.cpp:988
 msgid "Get help..."
 msgstr ""
 
@@ -5744,18 +5742,18 @@ msgid "Change Icon"
 msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:104
-#: kdeui/dialogs/kshortcutseditor.cpp:627
+#: kdeui/dialogs/kshortcutseditor.cpp:629
 msgid "Shortcuts"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:490
-#: kdeui/dialogs/kshortcutseditor.cpp:522
-#: kdeui/dialogs/kshortcutseditor.cpp:538
+#: kdeui/dialogs/kshortcutseditor.cpp:492
+#: kdeui/dialogs/kshortcutseditor.cpp:524
+#: kdeui/dialogs/kshortcutseditor.cpp:540
 #: kdeui/widgets/kkeysequencewidget.cpp:124
 msgid "Key Conflict"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:491
+#: kdeui/dialogs/kshortcutseditor.cpp:493
 #: kdeui/widgets/kkeysequencewidget.cpp:125
 #, kde-format
 msgid ""
@@ -5763,19 +5761,19 @@ msgid ""
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:495
-#: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:527
-#: kdeui/dialogs/kshortcutseditor.cpp:543 kdeui/shortcuts/kglobalaccel.cpp:375
+#: kdeui/dialogs/kshortcutseditor.cpp:497
+#: kdeui/dialogs/kshortcutseditor.cpp:515
+#: kdeui/dialogs/kshortcutseditor.cpp:529
+#: kdeui/dialogs/kshortcutseditor.cpp:545 kdeui/shortcuts/kglobalaccel.cpp:375
 #: kdeui/widgets/kkeysequencewidget.cpp:128
 msgid "Reassign"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:507
+#: kdeui/dialogs/kshortcutseditor.cpp:509
 msgid "Conflict with Standard Application Shortcut"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:508
+#: kdeui/dialogs/kshortcutseditor.cpp:510
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -5783,34 +5781,34 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:523
+#: kdeui/dialogs/kshortcutseditor.cpp:525
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:539
+#: kdeui/dialogs/kshortcutseditor.cpp:541
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:588
+#: kdeui/dialogs/kshortcutseditor.cpp:590
 #, fuzzy, kde-format
 #| msgid "Shortcut"
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "শর্ট-কাট"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:608
+#: kdeui/dialogs/kshortcutseditor.cpp:610
 #, fuzzy
 #| msgid "Global"
 msgid "Global:"
 msgstr "সার্বজনীন"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:623
+#: kdeui/dialogs/kshortcutseditor.cpp:625
 #, fuzzy
 #| msgid "Action"
 msgid "Action Name"
@@ -8656,44 +8654,44 @@ msgid ""
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:85
+#: kfile/kfileplacesmodel.cpp:88
 msgctxt "Home Directory"
 msgid "Home"
 msgstr "ব্যক্তিগত ডিরেক্টরি"
 
-#: kfile/kfileplacesmodel.cpp:87
+#: kfile/kfileplacesmodel.cpp:90
 msgid "Network"
 msgstr "নেটওয়ার্ক"
 
-#: kfile/kfileplacesmodel.cpp:91 kfile/kfileplacesmodel.cpp:94
+#: kfile/kfileplacesmodel.cpp:94 kfile/kfileplacesmodel.cpp:97
 msgid "Root"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:97
+#: kfile/kfileplacesmodel.cpp:100
 msgid "Trash"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:662
+#: kfile/kfileplacesmodel.cpp:665
 #, kde-format
 msgid "&Eject '%1'"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:664
+#: kfile/kfileplacesmodel.cpp:667
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:666
+#: kfile/kfileplacesmodel.cpp:669
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:727
+#: kfile/kfileplacesmodel.cpp:730
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:731
+#: kfile/kfileplacesmodel.cpp:734
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr ""
