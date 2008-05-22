@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-21 08:59+0200\n"
+"POT-Creation-Date: 2008-05-22 12:06+0200\n"
 "PO-Revision-Date: 2008-02-13 22:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -6672,8 +6672,7 @@ msgstr ""
 #. i18n: Filtering message, so that translators can translate the
 #. font names on their own should they want. May be replaced in
 #. the future with conventional messages in a PO file.
-#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/kfontchooser.cpp:1046
-#: kdeui/fonts/kfontcombobox.cpp:54
+#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/fonthelpers.cpp:58
 #, kde-format
 msgctxt "@item Font name"
 msgid "%1"
@@ -6709,126 +6708,126 @@ msgstr ""
 msgid "Select Font"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:174
+#: kdeui/fonts/kfontchooser.cpp:155
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font to be used."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:197
+#: kdeui/fonts/kfontchooser.cpp:178
 msgid "Requested Font"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:220
+#: kdeui/fonts/kfontchooser.cpp:201
 msgctxt "@option:check"
 msgid "Font"
 msgstr "ফন্ট"
 
-#: kdeui/fonts/kfontchooser.cpp:224
+#: kdeui/fonts/kfontchooser.cpp:205
 msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font family settings."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:225
+#: kdeui/fonts/kfontchooser.cpp:206
 msgctxt "@info:tooltip"
 msgid "Change font family?"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:229
+#: kdeui/fonts/kfontchooser.cpp:210
 msgctxt "@label"
 msgid "Font:"
 msgstr "ফন্ট:"
 
-#: kdeui/fonts/kfontchooser.cpp:236
+#: kdeui/fonts/kfontchooser.cpp:217
 msgctxt "@option:check"
 msgid "Font style"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:240
+#: kdeui/fonts/kfontchooser.cpp:221
 msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font style settings."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:241
+#: kdeui/fonts/kfontchooser.cpp:222
 msgctxt "@info:tooltip"
 msgid "Change font style?"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:245
+#: kdeui/fonts/kfontchooser.cpp:226
 msgid "Font style:"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:253
+#: kdeui/fonts/kfontchooser.cpp:234
 msgctxt "@option:check"
 msgid "Size"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:257
+#: kdeui/fonts/kfontchooser.cpp:238
 msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font size settings."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:258
+#: kdeui/fonts/kfontchooser.cpp:239
 msgctxt "@info:tooltip"
 msgid "Change font size?"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:262
+#: kdeui/fonts/kfontchooser.cpp:243
 msgctxt "@label:listbox Font size"
 msgid "Size:"
 msgstr "মাপ:"
 
-#: kdeui/fonts/kfontchooser.cpp:278
+#: kdeui/fonts/kfontchooser.cpp:259
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font family to be used."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:304
+#: kdeui/fonts/kfontchooser.cpp:285
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:312 kdeui/fonts/kfontchooser.cpp:634
+#: kdeui/fonts/kfontchooser.cpp:293 kdeui/fonts/kfontchooser.cpp:615
 msgctxt "@item font"
 msgid "Regular"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:313 kdeui/fonts/kfontchooser.cpp:655
+#: kdeui/fonts/kfontchooser.cpp:294 kdeui/fonts/kfontchooser.cpp:636
 msgctxt "@item font"
 msgid "Italic"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:314 kdeui/fonts/kfontchooser.cpp:656
+#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:637
 msgctxt "@item font"
 msgid "Oblique"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:315
+#: kdeui/fonts/kfontchooser.cpp:296
 msgctxt "@item font"
 msgid "Bold"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:316
+#: kdeui/fonts/kfontchooser.cpp:297
 msgctxt "@item font"
 msgid "Bold Italic"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:335
+#: kdeui/fonts/kfontchooser.cpp:316
 msgctxt "@item font size"
 msgid "Relative"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:337
+#: kdeui/fonts/kfontchooser.cpp:318
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:339
+#: kdeui/fonts/kfontchooser.cpp:320
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
 "dynamically and adjusted to changing environment (e.g. widget dimensions, "
 "paper size)."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:364
+#: kdeui/fonts/kfontchooser.cpp:345
 msgid "Here you can choose the font size to be used."
 msgstr ""
 
@@ -6836,17 +6835,17 @@ msgstr ""
 #. Replace it with a sample text in your language, such that it is
 #. representative of language's writing system.
 #. If you wish, you can input several lines of text separated by \n.
-#: kdeui/fonts/kfontchooser.cpp:402
+#: kdeui/fonts/kfontchooser.cpp:383
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:404
+#: kdeui/fonts/kfontchooser.cpp:385
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr ""
 
-#: kdeui/fonts/kfontchooser.cpp:420 kdeui/fonts/kfontchooser.cpp:433
+#: kdeui/fonts/kfontchooser.cpp:401 kdeui/fonts/kfontchooser.cpp:414
 msgid "Actual Font"
 msgstr ""
 
@@ -6855,13 +6854,13 @@ msgstr ""
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:641
+#: kdeui/fonts/kfontchooser.cpp:622
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/fonts/kfontchooser.cpp:1049
+#: kdeui/fonts/fonthelpers.cpp:60
 #, kde-format
 msgctxt "@item Font name [foundry]"
 msgid "%1 [%2]"
@@ -6871,7 +6870,7 @@ msgstr "%1 [%2]"
 #. another message. It is displayed in the dropdown list of font previews
 #. (the font selection combo box), so keep it under the length equivalent
 #. to 60 or so proportional Latin characters.
-#: kdeui/fonts/kfontcombobox.cpp:48
+#: kdeui/fonts/kfontcombobox.cpp:49
 msgctxt "short"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
@@ -6881,7 +6880,7 @@ msgstr ""
 #. http://doc.trolltech.com/qfontdatabase.html#WritingSystem-enum
 #. If the sample text contains several scripts, their IDs can be given
 #. as a comma-separated list (e.g. for Japanese it is "1,27").
-#: kdeui/fonts/kfontcombobox.cpp:125
+#: kdeui/fonts/kfontcombobox.cpp:120
 #, fuzzy
 #| msgid "1"
 msgctxt "Numeric IDs of scripts for font previews"
@@ -8606,14 +8605,14 @@ msgstr ""
 msgid "Select the current day"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:218
+#: kdeui/widgets/krichtextwidget.cpp:220
 #, fuzzy
 #| msgid "Select Color"
 msgctxt "@action"
 msgid "Text &Color..."
 msgstr "রঙ নির্বাচন করুন"
 
-#: kdeui/widgets/krichtextwidget.cpp:219
+#: kdeui/widgets/krichtextwidget.cpp:221
 #, fuzzy
 #| msgctxt "palette name"
 #| msgid "Web Colors"
@@ -8621,12 +8620,12 @@ msgctxt "@label stroke color"
 msgid "Color"
 msgstr "ওয়েবে ব্যবহৃত রঙ"
 
-#: kdeui/widgets/krichtextwidget.cpp:229
+#: kdeui/widgets/krichtextwidget.cpp:231
 msgctxt "@action"
 msgid "Text &Highlight..."
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:239
+#: kdeui/widgets/krichtextwidget.cpp:241
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Font"
@@ -8634,147 +8633,147 @@ msgctxt "@action"
 msgid "&Font"
 msgstr "ফন্ট"
 
-#: kdeui/widgets/krichtextwidget.cpp:249
+#: kdeui/widgets/krichtextwidget.cpp:251
 msgctxt "@action"
 msgid "Font &Size"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:258
+#: kdeui/widgets/krichtextwidget.cpp:260
 msgctxt "@action boldify selected text"
 msgid "&Bold"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:271
+#: kdeui/widgets/krichtextwidget.cpp:273
 msgctxt "@action italicize selected text"
 msgid "&Italic"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:285
+#: kdeui/widgets/krichtextwidget.cpp:287
 msgctxt "@action underline selected text"
 msgid "&Underline"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:299
+#: kdeui/widgets/krichtextwidget.cpp:301
 msgctxt "@action"
 msgid "&Strike Out"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:311
+#: kdeui/widgets/krichtextwidget.cpp:313
 msgctxt "@action"
 msgid "Align &Left"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:312
+#: kdeui/widgets/krichtextwidget.cpp:314
 msgctxt "@label left justify"
 msgid "Left"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:317
+#: kdeui/widgets/krichtextwidget.cpp:319
 msgctxt "@action"
 msgid "Align &Center"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:318
+#: kdeui/widgets/krichtextwidget.cpp:320
 #, fuzzy
 #| msgid "General"
 msgctxt "@label center justify"
 msgid "Center"
 msgstr "সাধারণ"
 
-#: kdeui/widgets/krichtextwidget.cpp:323
+#: kdeui/widgets/krichtextwidget.cpp:325
 msgctxt "@action"
 msgid "Align &Right"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:324
+#: kdeui/widgets/krichtextwidget.cpp:326
 msgctxt "@label right justify"
 msgid "Right"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:329
+#: kdeui/widgets/krichtextwidget.cpp:331
 msgctxt "@action"
 msgid "&Justify"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:330
+#: kdeui/widgets/krichtextwidget.cpp:332
 msgctxt "@label justify fill"
 msgid "Justify"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:353
+#: kdeui/widgets/krichtextwidget.cpp:355
 msgctxt "@title:menu"
 msgid "List Style"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:355
+#: kdeui/widgets/krichtextwidget.cpp:357
 msgctxt "@item:inmenu no list style"
 msgid "None"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:356
+#: kdeui/widgets/krichtextwidget.cpp:358
 msgctxt "@item:inmenu disc list style"
 msgid "Disc"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:357
+#: kdeui/widgets/krichtextwidget.cpp:359
 #, fuzzy
 #| msgid "File"
 msgctxt "@item:inmenu circle list style"
 msgid "Circle"
 msgstr "ফাইল"
 
-#: kdeui/widgets/krichtextwidget.cpp:358
+#: kdeui/widgets/krichtextwidget.cpp:360
 msgctxt "@item:inmenu square list style"
 msgid "Square"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:359
+#: kdeui/widgets/krichtextwidget.cpp:361
 msgctxt "@item:inmenu numbered lists"
 msgid "123"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:360
+#: kdeui/widgets/krichtextwidget.cpp:362
 #, fuzzy
 #| msgid "Sab"
 msgctxt "@item:inmenu lowercase abc lists"
 msgid "abc"
 msgstr "সব"
 
-#: kdeui/widgets/krichtextwidget.cpp:361
+#: kdeui/widgets/krichtextwidget.cpp:363
 #, fuzzy
 #| msgid "AC"
 msgctxt "@item:inmenu uppercase abc lists"
 msgid "ABC"
 msgstr "AC"
 
-#: kdeui/widgets/krichtextwidget.cpp:376
+#: kdeui/widgets/krichtextwidget.cpp:378
 msgctxt "@action"
 msgid "Increase Indent"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:388
+#: kdeui/widgets/krichtextwidget.cpp:390
 msgctxt "@action"
 msgid "Decrease Indent"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:400
+#: kdeui/widgets/krichtextwidget.cpp:402
 msgctxt "@action"
 msgid "Insert Rule Line"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:410
+#: kdeui/widgets/krichtextwidget.cpp:412
 #, fuzzy
 #| msgid "Line"
 msgctxt "@action"
 msgid "Link"
 msgstr "রেখা"
 
-#: kdeui/widgets/krichtextwidget.cpp:420
+#: kdeui/widgets/krichtextwidget.cpp:422
 msgctxt "@action"
 msgid "Format Painter"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:430
+#: kdeui/widgets/krichtextwidget.cpp:432
 msgctxt "@action"
 msgid "To Plain Text"
 msgstr ""
