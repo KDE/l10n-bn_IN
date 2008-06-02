@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-01 12:00+0200\n"
+"POT-Creation-Date: 2008-06-02 13:30+0200\n"
 "PO-Revision-Date: 2008-02-13 22:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -6040,12 +6040,6 @@ msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kshortcutseditoritem.cpp:89
-#, kde-format
-msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
-msgid "%1"
-msgstr "%1"
-
 #: kdeui/dialogs/kdialog.cpp:237
 msgid "&Try"
 msgstr ""
@@ -6589,6 +6583,13 @@ msgstr ""
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:130
 msgid "&Support KDE"
 msgstr ""
+
+#: kdeui/dialogs/kdeprintdialog.cpp:41 kdeui/dialogs/kdeprintdialog.cpp:53
+#, fuzzy
+#| msgid "Property"
+msgctxt "@title:window"
+msgid "Print"
+msgstr "বৈশিষ্ট্য"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
 msgid "Switch Application Language"
@@ -12575,6 +12576,10 @@ msgstr ""
 #| msgid "No such interpreter \"%1\""
 msgid "No such function \"%1\""
 msgstr "ইন্টারপ্রেটাট \"%1\" অনুপস্থিত"
+
+#~ msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
+#~ msgid "%1"
+#~ msgstr "%1"
 
 #~ msgid "component enabled:"
 #~ msgstr "সামগ্রী সক্রিয় করা হয়েছে:"
