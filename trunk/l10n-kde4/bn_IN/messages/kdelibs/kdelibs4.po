@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runabh@gmail.com>, 2007.
+# Runa Bhattacharjee <runab@redhat.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-06-14 17:24+0200\n"
-"PO-Revision-Date: 2008-06-17 18:29+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
-"Language-Team: Bengali INDIA <discuss@ankur.co.in>\n"
+"PO-Revision-Date: 2008-06-18 11:11+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -363,7 +364,6 @@ msgstr "ডোমেইন:"
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kpassworddialog.ui line 155
 #: rc.cpp:155
-
 msgid "Remember password"
 msgstr "পাসওয়ার্ড মনে রাখা হবে"
 
@@ -1208,7 +1208,6 @@ msgid ""
 "notifications system."
 msgstr "KDE-র নিজস্ব সূচনাব্যবস্থার পরিবর্তে PC-র সাধারণ স্পিকার ব্যবহার করা হবে কিনা।"
 
-
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 35
 #: rc.cpp:554
@@ -1836,7 +1835,6 @@ msgid "System Default (currently: %1)"
 msgstr "সিস্টেমের ডিফল্ট মান (বর্তমান: %1)"
 
 #: interfaces/ktexteditor/templateinterface.cpp:65
-#, fuzzy
 #| msgid ""
 #| "The templates needs information about you, which are stored in your "
 #| "addressbook.\n"
@@ -1851,9 +1849,9 @@ msgid ""
 "Please install the KDEPIM/Kontact package for your system."
 msgstr ""
 "আপনার ঠিকানা-বইয়ে সংরক্ষণের জন্য এই টেমপ্লেটের মধ্যে আপনার তথ্য পূরণ করা আবশ্যক।\n"
-"প্রয়োজনীয় প্লাগ-ইন লোড করা যায়নি।\n"
+"কিন্তু, প্রয়োজনীয় প্লাগ-ইন লোড করা যায়নি।\n"
 "\n"
-"অনুগ্রহ করে আপনার সিস্টেমের জন্য KDEPIM/Kontact প্যাকেজ যোগ করুন"
+"অনুগ্রহ করে আপনার সিস্টেমে KDEPIM/Kontact প্যাকেজ ইনস্টল করুন।"
 
 #: kded/khostname.cpp:73
 msgid "Error: HOME environment variable not set.\n"
@@ -3545,17 +3543,14 @@ msgstr "Qt"
 msgid "KDE"
 msgstr "KDE"
 
-
 #: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:819
 msgid "Unknown option '%1'."
 msgstr "অজানা বিকল্প '%1'।"
-
 
 #: kdecore/kernel/kcmdlineargs.cpp:827
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "'%1' অনুপস্থিত।"
-
 
 #: kdecore/kernel/kcmdlineargs.cpp:912
 msgctxt "the 2nd argument is a list of name+address, one on each line"
@@ -3574,11 +3569,9 @@ msgstr "এই অ্যাপ্লিকেশনের নির্মাত�
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "অনুগ্রহ করে http://bugs.kde.org-এ বাগ দায়ের করুন।\n"
 
-
 #: kdecore/kernel/kcmdlineargs.cpp:924
 msgid "Please report bugs to %1.\n"
 msgstr "অনুগ্রহ করে %1-এ বাগ দায়ের করুন।\n"
-
 
 #: kdecore/kernel/kcmdlineargs.cpp:950
 msgid "Unexpected argument '%1'."
@@ -3592,11 +3585,9 @@ msgstr "কমান্ড-লাইন থেকে ব্যবহারযো
 msgid "[options] "
 msgstr "[বিকল্প] "
 
-
 #: kdecore/kernel/kcmdlineargs.cpp:1096
 msgid "[%1-options]"
 msgstr "[%1-বিকল্প]"
-
 
 #: kdecore/kernel/kcmdlineargs.cpp:1117
 msgid "Usage: %1 %2\n"
@@ -3613,7 +3604,6 @@ msgstr ""
 #: kdecore/kernel/kcmdlineargs.cpp:1121
 msgid "Show help about options"
 msgstr "বিবিধ বিকল্প সম্বন্ধীয় সাহায্যে প্রদর্শন করা হবে"
-
 
 #: kdecore/kernel/kcmdlineargs.cpp:1129
 msgid "Show %1 specific options"
@@ -3638,7 +3628,6 @@ msgstr "লাইসেন্স সংক্রান্ত তথ্য প্
 #: kdecore/kernel/kcmdlineargs.cpp:1140
 msgid "End of options"
 msgstr "বিকল্পের সমাপ্তি"
-
 
 #: kdecore/kernel/kcmdlineargs.cpp:1161
 msgid ""
@@ -5253,13 +5242,11 @@ msgstr ""
 msgid "Progress Dialog"
 msgstr ""
 
-
 #: kdeui/jobs/kwidgetjobtracker.cpp:526
 msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] ""
 msgstr[1] ""
-
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:527
 msgid "%1 file"
@@ -5302,7 +5289,6 @@ msgstr ""
 #: kdeui/util/ksystemtrayicon.cpp:196
 msgid "&Restore"
 msgstr ""
-
 
 #: kdeui/util/ksystemtrayicon.cpp:216
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
@@ -5740,7 +5726,6 @@ msgstr ""
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:195
 msgid "Double Thick Line"
 msgstr ""
-
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
@@ -6670,7 +6655,6 @@ msgstr ""
 msgctxt "@item Font name"
 msgid "%1"
 msgstr "%1"
-
 
 #. i18n: Filter by which the translators can translate, or otherwise
 #. operate on the font names not put up for regular translation.
@@ -7972,7 +7956,6 @@ msgid "Combining Diacritical Marks for Symbols"
 msgstr "সংকেতের সাথে ব্যবহারযোগ্য সংযুক্তকারী ধ্বনি-নির্দেশক চিহ্ন"
 
 #: kdeui/widgets/kcharselect-translation.cpp:97
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Letterlike Symbols"
 msgctxt "KCharselect unicode block name"
@@ -8295,7 +8278,6 @@ msgid "Arabic Presentation Forms-B"
 msgstr "আরবি রূপে বিন্যাস-B"
 
 #: kdeui/widgets/kcharselect-translation.cpp:161
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Halfwidth and Fullwidth Forms"
 msgctxt "KCharselect unicode block name"
@@ -11093,7 +11075,6 @@ msgid "Print Preview"
 msgstr "প্রিন্টের পূর্বরূপ"
 
 #: kutils/kcmoduleproxy.cpp:134
-#, fuzzy
 #| msgid ""
 #| "<b>Changes in this section requires root access.</b><br />On applying "
 #| "your changes you will have to supply your root password."
@@ -11392,7 +11373,6 @@ msgid "Password Input"
 msgstr "পাসওয়ার্ড ইনপুট"
 
 #: kde3support/kdeui/k3sconfig.cpp:109
-#, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Do SpellChecking"
 msgctxt "@option:check"
