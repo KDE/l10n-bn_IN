@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-18 09:48+0200\n"
+"POT-Creation-Date: 2008-06-22 02:24+0200\n"
 "PO-Revision-Date: 2008-06-18 11:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -3164,14 +3164,14 @@ msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "বর্ষপঞ্জির ধরন বৈধ নয়"
 
-#: kdecore/date/kdatetime.cpp:1476 kdecore/date/kdatetime.cpp:1486
-#: kdecore/date/kdatetime.cpp:2823 kdecore/localization/klocale.cpp:1715
-#: kdecore/localization/klocale.cpp:1841
+#: kdecore/date/kdatetime.cpp:1474 kdecore/date/kdatetime.cpp:1484
+#: kdecore/date/kdatetime.cpp:2821 kdecore/localization/klocale.cpp:1720
+#: kdecore/localization/klocale.cpp:1846
 msgid "am"
 msgstr "পূর্বাহ্ন"
 
-#: kdecore/date/kdatetime.cpp:2831 kdecore/localization/klocale.cpp:1706
-#: kdecore/localization/klocale.cpp:1839
+#: kdecore/date/kdatetime.cpp:2829 kdecore/localization/klocale.cpp:1711
+#: kdecore/localization/klocale.cpp:1844
 msgid "pm"
 msgstr "অপরাহ্ন"
 
@@ -3231,7 +3231,6 @@ msgstr "অনুগ্রহ করে সিস্টেম অ্যাডম
 
 #: kdecore/config/kconfigini.cpp:495
 #, kde-format
-#| msgid "Configuration file \"%1\" not writable.\n"
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr ""
 
@@ -3838,9 +3837,6 @@ msgstr "মূল থ্রেড থেকে ফাংশান কল কর�
 
 #: kdecore/kernel/ktoolinvocation.cpp:119
 #, kde-format
-#| msgid ""
-#| "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-#| "%2\n"
 msgid ""
 "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 "%2\n"
@@ -3991,19 +3987,16 @@ msgstr "ফাইল %1 পাওয়া যায়নি"
 
 #: kdecore/sycoca/kmemfile.cpp:78
 #, kde-format
-#| msgid "Cannot open %1 for reading"
 msgid "Cannot open %1 for reading"
 msgstr ""
 
 #: kdecore/sycoca/kmemfile.cpp:88 kdecore/sycoca/kmemfile.cpp:167
 #, kde-format
-#| msgid "Cannot create memory segment for file %1"
 msgid "Cannot create memory segment for file %1"
 msgstr ""
 
 #: kdecore/sycoca/kmemfile.cpp:98
 #, kde-format
-#| msgid "Could not read data from %1 into shm"
 msgid "Could not read data from %1 into shm"
 msgstr ""
 
@@ -4017,10 +4010,6 @@ msgstr ""
 
 #: kdecore/services/kmimetype.cpp:58
 #, kde-format
-#| msgid "Could not find mime type <resource>%2</resource>"
-#| msgid_plural ""
-#| "Could not find mime types:\n"
-#| "<resource>%2</resource>"
 msgid "Could not find mime type <resource>%2</resource>"
 msgid_plural ""
 "Could not find mime types:\n"
@@ -4128,75 +4117,75 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "থাই"
 
-#: kdecore/localization/klocale.cpp:1174
+#: kdecore/localization/klocale.cpp:1179
 #, kde-format
 msgid "%1 TiB"
 msgstr "%1 TiB"
 
-#: kdecore/localization/klocale.cpp:1176
+#: kdecore/localization/klocale.cpp:1181
 #, kde-format
 msgid "%1 GiB"
 msgstr "%1 GiB"
 
-#: kdecore/localization/klocale.cpp:1182
+#: kdecore/localization/klocale.cpp:1187
 #, kde-format
 msgid "%1 MiB"
 msgstr "%1 MiB"
 
-#: kdecore/localization/klocale.cpp:1188
+#: kdecore/localization/klocale.cpp:1193
 #, kde-format
 msgid "%1 KiB"
 msgstr "%1 KiB"
 
-#: kdecore/localization/klocale.cpp:1193
+#: kdecore/localization/klocale.cpp:1198
 #, kde-format
 msgid "%1 B"
 msgstr "%1 B"
 
-#: kdecore/localization/klocale.cpp:1198
+#: kdecore/localization/klocale.cpp:1203
 msgid "0 B"
 msgstr "0 B"
 
-#: kdecore/localization/klocale.cpp:1206
+#: kdecore/localization/klocale.cpp:1211
 #, kde-format
 msgid "%1 days"
 msgstr "%1 দিন"
 
-#: kdecore/localization/klocale.cpp:1209
+#: kdecore/localization/klocale.cpp:1214
 #, kde-format
 msgid "%1 hours"
 msgstr "%1 ঘন্টা"
 
-#: kdecore/localization/klocale.cpp:1212
+#: kdecore/localization/klocale.cpp:1217
 #, kde-format
 msgid "%1 minutes"
 msgstr "%1 মিনিট"
 
-#: kdecore/localization/klocale.cpp:1215
+#: kdecore/localization/klocale.cpp:1220
 #, kde-format
 msgid "%1 seconds"
 msgstr "%1 সেকেন্ড"
 
-#: kdecore/localization/klocale.cpp:1218
+#: kdecore/localization/klocale.cpp:1223
 #, kde-format
 msgid "%1 milliseconds"
 msgstr "%1 মিলিসেকেন্ড"
 
-#: kdecore/localization/klocale.cpp:1308
+#: kdecore/localization/klocale.cpp:1313
 msgid "Today"
 msgstr "আজ"
 
-#: kdecore/localization/klocale.cpp:1310
+#: kdecore/localization/klocale.cpp:1315
 msgid "Yesterday"
 msgstr "গতকাল"
 
-#: kdecore/localization/klocale.cpp:1879
+#: kdecore/localization/klocale.cpp:1884
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1940
+#: kdecore/localization/klocale.cpp:1945
 #, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -4930,8 +4919,6 @@ msgstr "নতুন জিনিস প্রাপ্ত করুন"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:129
 #, kde-format
-#| msgctxt "Program name followed by 'Add On Installer'"
-#| msgid "%1 Add-On Installer"
 msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
 msgstr ""
@@ -5002,7 +4989,6 @@ msgstr "উপলব্ধকারীর তথ্য"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:522
 #, kde-format
-#| msgid "Could not install %1"
 msgid "Could not install %1"
 msgstr ""
 
@@ -5245,9 +5231,6 @@ msgstr ""
 
 #: knewstuff/knewstuff2/core/security.cpp:198
 #, kde-format
-#| msgid ""
-#| "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%"
-#| "3&gt;</i><br />:</qt>"
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
 "i><br />:</qt>"
@@ -5293,8 +5276,6 @@ msgstr " %1/s "
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:286
 #, kde-format
-#| msgid "%2 of %3 complete"
-#| msgid_plural "%2 of %3 complete"
 msgid "%2 of %3 complete"
 msgid_plural "%2 of %3 complete"
 msgstr[0] ""
@@ -5316,14 +5297,11 @@ msgstr[1] "%2 / %1 ফাইল"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:328
 #, kde-format
-#| msgid "%1 % of %2 "
 msgid "%1 % of %2 "
 msgstr ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:331
 #, kde-format
-#| msgid "%2 % of 1 file"
-#| msgid_plural "%2 % of %1 files"
 msgid "%2 % of 1 file"
 msgid_plural "%2 % of %1 files"
 msgstr[0] ""
@@ -5340,8 +5318,6 @@ msgstr ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:351
 #, kde-format
-#| msgid "%2/s ( %3 remaining )"
-#| msgid_plural "%2/s ( %3 remaining )"
 msgid "%2/s ( %3 remaining )"
 msgid_plural "%2/s ( %3 remaining )"
 msgstr[0] ""
@@ -5355,7 +5331,6 @@ msgstr "%1/s"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:378
 #, kde-format
-#| msgid "%1/s (done)"
 msgid "%1/s (done)"
 msgstr ""
 
@@ -5389,8 +5364,6 @@ msgstr ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:522
 #, kde-format
-#| msgid "%1 folder"
-#| msgid_plural "%1 folders"
 msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] ""
@@ -5398,8 +5371,6 @@ msgstr[1] ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:523
 #, kde-format
-#| msgid "%1 file"
-#| msgid_plural "%1 files"
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] ""
@@ -5443,7 +5414,6 @@ msgstr ""
 
 #: kdeui/util/ksystemtrayicon.cpp:216
 #, kde-format
-#| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr ""
 
@@ -5776,8 +5746,6 @@ msgstr ""
 #: kdeui/dialogs/knewpassworddialog.cpp:109
 #: kde3support/kdeui/k3passworddialog.cpp:622
 #, kde-format
-#| msgid "Password must be at least 1 character long"
-#| msgid_plural "Password must be at least %1 characters long"
 msgid "Password must be at least 1 character long"
 msgid_plural "Password must be at least %1 characters long"
 msgstr[0] ""
@@ -6000,7 +5968,6 @@ msgstr ""
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:73
 #: kdeui/widgets/khelpmenu.cpp:263 kde3support/kdeui/k3aboutdialog.cpp:1045
 #, kde-format
-#| msgid "About %1"
 msgid "About %1"
 msgstr ""
 
@@ -6018,15 +5985,15 @@ msgstr "%1"
 msgid "&Try"
 msgstr ""
 
-#: kdeui/dialogs/kdialog.cpp:470
+#: kdeui/dialogs/kdialog.cpp:515
 msgid "modified"
 msgstr "পরিবর্তিত"
 
-#: kdeui/dialogs/kdialog.cpp:849
+#: kdeui/dialogs/kdialog.cpp:894
 msgid "&Details"
 msgstr "বিবরণ (&D)"
 
-#: kdeui/dialogs/kdialog.cpp:996
+#: kdeui/dialogs/kdialog.cpp:1041
 msgid "Get help..."
 msgstr ""
 
@@ -6098,7 +6065,6 @@ msgstr ""
 
 #: kdeui/dialogs/kedittoolbar.cpp:1056
 #, kde-format
-#| msgid "ActionList: %1"
 msgid "ActionList: %1"
 msgstr ""
 
@@ -6127,10 +6093,6 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:493
 #: kdeui/widgets/kkeysequencewidget.cpp:125
 #, kde-format
-#| msgid ""
-#| "The '%1' key combination has already been allocated to the \"%2\" "
-#| "action.\n"
-#| "Do you want to reassign it from that action to the current one?"
 msgid ""
 "The '%1' key combination has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
@@ -6150,10 +6112,6 @@ msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:510
 #, kde-format
-#| msgid ""
-#| "The '%1' key combination is also used for the standard action \"%2\" that "
-#| "some applications use.\n"
-#| "Do you really want to use it as a global shortcut as well?"
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
 "some applications use.\n"
@@ -6162,9 +6120,6 @@ msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:525
 #, kde-format
-#| msgid ""
-#| "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-#| "Do you want to reassign it from that action to the current one?"
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
@@ -6172,9 +6127,6 @@ msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:541
 #, kde-format
-#| msgid ""
-#| "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-#| "Do you want to reassign it from that action to the current one?"
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
@@ -6202,9 +6154,6 @@ msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
 #, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
-#| "3</html>"
 msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %3</"
 "html>"
@@ -6212,7 +6161,6 @@ msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:125
 #, kde-format
-#| msgid "License: %1"
 msgid "License: %1"
 msgstr ""
 
@@ -6244,7 +6192,6 @@ msgstr ""
 #: kde3support/kdeui/k3aboutapplication.cpp:111
 #: kde3support/kdeui/k3aboutapplication.cpp:114
 #, kde-format
-#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr ""
 
@@ -6341,7 +6288,6 @@ msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:156
 #, kde-format
-#| msgid "Send this bug report to %1."
 msgid "Send this bug report to %1."
 msgstr ""
 
@@ -6494,9 +6440,6 @@ msgstr ""
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:49
 #, kde-format
-#| msgid ""
-#| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
-#| "b></html>"
 msgid ""
 "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</b></"
 "html>"
@@ -6667,15 +6610,11 @@ msgstr ""
 
 #: kdeui/fonts/kfontrequester.cpp:223
 #, kde-format
-#| msgid "Preview of the \"%1\" font"
 msgid "Preview of the \"%1\" font"
 msgstr ""
 
 #: kdeui/fonts/kfontrequester.cpp:224
 #, kde-format
-#| msgid ""
-#| "This is a preview of the \"%1\" font. You can change it by clicking the "
-#| "\"Choose...\" button."
 msgid ""
 "This is a preview of the \"%1\" font. You can change it by clicking the "
 "\"Choose...\" button."
@@ -7084,7 +7023,6 @@ msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:541
 #, kde-format
-#| msgid "Captured Text (%1)"
 msgid "Captured Text (%1)"
 msgstr ""
 
@@ -7110,7 +7048,6 @@ msgstr ""
 
 #: kdeui/findreplace/kreplace.cpp:63
 #, kde-format
-#| msgid "Replace '%1' with '%2'?"
 msgid "Replace '%1' with '%2'?"
 msgstr ""
 
@@ -7120,8 +7057,6 @@ msgstr ""
 
 #: kdeui/findreplace/kreplace.cpp:140 kdeui/findreplace/kreplace.cpp:336
 #, kde-format
-#| msgid "1 replacement done."
-#| msgid_plural "%1 replacements done."
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
 msgstr[0] ""
@@ -7149,15 +7084,11 @@ msgstr ""
 
 #: kdeui/findreplace/kreplacedialog.cpp:154
 #, kde-format
-#| msgid ""
-#| "Your replacement string is referencing a capture greater than '\\%1', "
 msgid "Your replacement string is referencing a capture greater than '\\%1', "
 msgstr ""
 
 #: kdeui/findreplace/kreplacedialog.cpp:156
 #, kde-format
-#| msgid "but your pattern only defines 1 capture."
-#| msgid_plural "but your pattern only defines %1 captures."
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
 msgstr[0] ""
@@ -7179,14 +7110,11 @@ msgstr ""
 
 #: kdeui/findreplace/kfind.cpp:58
 #, kde-format
-#| msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr ""
 
 #: kdeui/findreplace/kfind.cpp:587 kdeui/findreplace/kfind.cpp:607
 #, kde-format
-#| msgid "1 match found."
-#| msgid_plural "%1 matches found."
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] ""
@@ -7194,13 +7122,11 @@ msgstr[1] ""
 
 #: kdeui/findreplace/kfind.cpp:589
 #, kde-format
-#| msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr ""
 
 #: kdeui/findreplace/kfind.cpp:609
 #, kde-format
-#| msgid "No matches found for '<b>%1</b>'."
 msgid "No matches found for '<b>%1</b>'."
 msgstr ""
 
@@ -7233,10 +7159,6 @@ msgstr ""
 
 #: kdeui/shortcuts/kglobalaccel.cpp:430
 #, kde-format
-#| msgid ""
-#| "The '%1' key combination has already been allocated to the global action "
-#| "\"%2\" in %3.\n"
-#| "Do you want to reassign it from that action to the current one?"
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
 "\" in %3.\n"
@@ -7265,10 +7187,6 @@ msgstr ""
 
 #: kdeui/shortcuts/kgesture.cpp:540
 #, kde-format
-#| msgctxt ""
-#| "a kind of mouse gesture: hold down one mouse button, then press another "
-#| "button"
-#| msgid "Hold %1, then push %2"
 msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
 "button"
@@ -7558,7 +7476,6 @@ msgstr "LTR"
 
 #: kdeui/kernel/kapplication.cpp:862
 #, kde-format
-#| msgid "The style '%1' was not found"
 msgid "The style '%1' was not found"
 msgstr ""
 
@@ -7634,7 +7551,6 @@ msgstr ""
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:546
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:247
 #, kde-format
-#| msgid "Desktop %1"
 msgid "Desktop %1"
 msgstr ""
 
@@ -7708,129 +7624,139 @@ msgstr ""
 msgid "&Selected:"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:270 kdeui/widgets/kcharselect.cpp:272
+#: kdeui/widgets/kcharselect.cpp:272 kdeui/widgets/kcharselect.cpp:274
 msgid "Enter a search term or character here"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:275
+#: kdeui/widgets/kcharselect.cpp:277
 msgid "Search"
 msgstr "অনুসন্ধান"
 
-#: kdeui/widgets/kcharselect.cpp:295
+#: kdeui/widgets/kcharselect.cpp:297
 msgid "Set font"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:302
+#: kdeui/widgets/kcharselect.cpp:304
 msgid "Set font size"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:309
+#: kdeui/widgets/kcharselect.cpp:311
 msgid "Select a category"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:312
+#: kdeui/widgets/kcharselect.cpp:314
 msgid "Select a block to be displayed"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:454 kdeui/widgets/kcharselect.cpp:456
+#: kdeui/widgets/kcharselect.cpp:456 kdeui/widgets/kcharselect.cpp:458
 msgid "Character:"
 msgstr "অক্ষর:"
 
-#: kdeui/widgets/kcharselect.cpp:456 kdeui/widgets/kcharselect_p.h:175
+#: kdeui/widgets/kcharselect.cpp:458 kdeui/widgets/kcharselect.cpp:685
 msgid "Non-printable"
 msgstr "প্রিন্ট করারযোগ্য নয়"
 
-#: kdeui/widgets/kcharselect.cpp:460
+#: kdeui/widgets/kcharselect.cpp:462
 msgid "Name: "
 msgstr "নাম: "
 
-#: kdeui/widgets/kcharselect.cpp:468
+#: kdeui/widgets/kcharselect.cpp:470
 msgid "Annotations and Cross References"
 msgstr "টীকা ও প্রতিনির্দেশ"
 
-#: kdeui/widgets/kcharselect.cpp:472
+#: kdeui/widgets/kcharselect.cpp:474
 msgid "Alias names:"
 msgstr "উপনাম:"
 
-#: kdeui/widgets/kcharselect.cpp:480
+#: kdeui/widgets/kcharselect.cpp:482
 msgid "Notes:"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:488
+#: kdeui/widgets/kcharselect.cpp:490
 msgid "See also:"
 msgstr "অতিরিক্ত তথ্য:"
 
-#: kdeui/widgets/kcharselect.cpp:500
+#: kdeui/widgets/kcharselect.cpp:502
 msgid "Equivalents:"
 msgstr "সমতুল্য:"
 
-#: kdeui/widgets/kcharselect.cpp:508
+#: kdeui/widgets/kcharselect.cpp:510
 msgid "Approximate equivalents:"
 msgstr "কিছুমাত্রায় সমতুল্য:"
 
-#: kdeui/widgets/kcharselect.cpp:517
+#: kdeui/widgets/kcharselect.cpp:519
 msgid "CJK Ideograph Information"
 msgstr "CJK ভাবসংকেত তথ্য"
 
-#: kdeui/widgets/kcharselect.cpp:520
+#: kdeui/widgets/kcharselect.cpp:522
 msgid "Definition in English: "
 msgstr "ইংরাজি ব্যাখ্যা:"
 
-#: kdeui/widgets/kcharselect.cpp:525
+#: kdeui/widgets/kcharselect.cpp:527
 msgid "Mandarin Pronunciation: "
 msgstr "ম্যান্ডারিন উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:530
+#: kdeui/widgets/kcharselect.cpp:532
 msgid "Cantonese Pronunciation: "
 msgstr "ক্যান্টোনিস উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:535
+#: kdeui/widgets/kcharselect.cpp:537
 msgid "Japanese On Pronunciation: "
 msgstr "জাপানি ওন উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:540
+#: kdeui/widgets/kcharselect.cpp:542
 msgid "Japanese Kun Pronunciation: "
 msgstr "জাপানি কুন উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:545
+#: kdeui/widgets/kcharselect.cpp:547
 msgid "Tang Pronunciation: "
 msgstr "ট্যাং উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:550
+#: kdeui/widgets/kcharselect.cpp:552
 msgid "Korean Pronunciation: "
 msgstr "কোরিয়ান উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:556
+#: kdeui/widgets/kcharselect.cpp:558
 msgid "General Character Properties"
 msgstr "অক্ষরের সাধারণ বৈশিষ্ট্য"
 
-#: kdeui/widgets/kcharselect.cpp:557
+#: kdeui/widgets/kcharselect.cpp:559
 msgid "Block: "
 msgstr "ব্লক: "
 
-#: kdeui/widgets/kcharselect.cpp:558
+#: kdeui/widgets/kcharselect.cpp:560
 msgid "Unicode category: "
 msgstr "ইউনিকোড শ্রেণী: "
 
-#: kdeui/widgets/kcharselect.cpp:562
+#: kdeui/widgets/kcharselect.cpp:564
 msgid "Various Useful Representations"
 msgstr "বিভিন্ন সহায়ক বর্ণনা"
 
-#: kdeui/widgets/kcharselect.cpp:563
+#: kdeui/widgets/kcharselect.cpp:565
 msgid "UTF-8:"
 msgstr "UTF-8:"
 
-#: kdeui/widgets/kcharselect.cpp:566
+#: kdeui/widgets/kcharselect.cpp:568
 msgid "UTF-16: "
 msgstr "UTF-16: "
 
-#: kdeui/widgets/kcharselect.cpp:567
+#: kdeui/widgets/kcharselect.cpp:569
 msgid "C octal escaped UTF-8: "
 msgstr "C octal escaped UTF-8: "
 
-#: kdeui/widgets/kcharselect.cpp:570
+#: kdeui/widgets/kcharselect.cpp:572
 msgid "XML decimal entity:"
 msgstr "XML দশমিক এনটিটি:"
+
+#: kdeui/widgets/kcharselect.cpp:686
+#, kde-format
+msgctxt "Character"
+msgid ""
+"<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode code point: "
+"%4<br />(In decimal: %5)</qt>"
+msgstr ""
+"<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
+"4<br />(দশমিক অনুসারে: %5)</qt>"
 
 #: kdeui/widgets/kcharselect-translation.cpp:23
 msgctxt "KCharSelect section name"
@@ -8537,51 +8463,50 @@ msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
 msgstr "পরিশ্রুত করুন (&l)"
 
-#: kdeui/widgets/klineedit.cpp:1098
+#: kdeui/widgets/klineedit.cpp:1109
 msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "রঙ নির্বাচন করুন"
 
-#: kdeui/widgets/klineedit.cpp:1105
+#: kdeui/widgets/klineedit.cpp:1116
 msgctxt "@item:inmenu Text Completion"
 msgid "None"
 msgstr ""
 
-#: kdeui/widgets/klineedit.cpp:1106
+#: kdeui/widgets/klineedit.cpp:1117
 #, fuzzy
 #| msgid "January"
 msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
 msgstr "জানুয়ারি"
 
-#: kdeui/widgets/klineedit.cpp:1107
+#: kdeui/widgets/klineedit.cpp:1118
 msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
 msgstr "স্বয়ংক্রিয়"
 
-#: kdeui/widgets/klineedit.cpp:1108
+#: kdeui/widgets/klineedit.cpp:1119
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List"
 msgstr ""
 
-#: kdeui/widgets/klineedit.cpp:1109
+#: kdeui/widgets/klineedit.cpp:1120
 msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
 msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
 
-#: kdeui/widgets/klineedit.cpp:1110
+#: kdeui/widgets/klineedit.cpp:1121
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr ""
 
-#: kdeui/widgets/klineedit.cpp:1132
+#: kdeui/widgets/klineedit.cpp:1143
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "ডিফল্ট মান"
 
 #: kdeui/widgets/kdatepicker.cpp:210
 #, kde-format
-#| msgid "Week %1"
 msgid "Week %1"
 msgstr ""
 
@@ -8772,147 +8697,147 @@ msgctxt "@action"
 msgid "To Plain Text"
 msgstr ""
 
-#: kdeui/widgets/kcharselectdata.cpp:232
+#: kdeui/widgets/kcharselectdata.cpp:234
 msgid "<Non Private Use High Surrogate>"
 msgstr "<Non Private Use High Surrogate>"
 
-#: kdeui/widgets/kcharselectdata.cpp:234
+#: kdeui/widgets/kcharselectdata.cpp:236
 msgid "<Private Use High Surrogate>"
 msgstr "<Private Use High Surrogate>"
 
-#: kdeui/widgets/kcharselectdata.cpp:236
+#: kdeui/widgets/kcharselectdata.cpp:238
 msgid "<Low Surrogate>"
 msgstr "<Low Surrogate>"
 
-#: kdeui/widgets/kcharselectdata.cpp:238
+#: kdeui/widgets/kcharselectdata.cpp:240
 msgid "<Private Use>"
 msgstr "<Private Use>"
 
-#: kdeui/widgets/kcharselectdata.cpp:268
+#: kdeui/widgets/kcharselectdata.cpp:270
 msgid "<not assigned>"
 msgstr "<not assigned>"
 
-#: kdeui/widgets/kcharselectdata.cpp:500
+#: kdeui/widgets/kcharselectdata.cpp:508
 msgid "Other, Control"
 msgstr "অন্যান্য, নিয়ন্ত্রণ"
 
-#: kdeui/widgets/kcharselectdata.cpp:501
+#: kdeui/widgets/kcharselectdata.cpp:509
 msgid "Other, Format"
 msgstr "অন্যান্য, বিন্যাস"
 
-#: kdeui/widgets/kcharselectdata.cpp:502
+#: kdeui/widgets/kcharselectdata.cpp:510
 msgid "Other, Not Assigned"
 msgstr "অন্যান, বরাদ্দ করা হয়নি"
 
-#: kdeui/widgets/kcharselectdata.cpp:503
+#: kdeui/widgets/kcharselectdata.cpp:511
 msgid "Other, Private Use"
 msgstr "অন্যান্য, ব্যক্তিগত ব্যবহার"
 
-#: kdeui/widgets/kcharselectdata.cpp:504
+#: kdeui/widgets/kcharselectdata.cpp:512
 msgid "Other, Surrogate"
 msgstr "অন্যান্য, বিকল্প"
 
-#: kdeui/widgets/kcharselectdata.cpp:505
+#: kdeui/widgets/kcharselectdata.cpp:513
 msgid "Letter, Lowercase"
 msgstr "অক্ষর, ছোট হরফ"
 
-#: kdeui/widgets/kcharselectdata.cpp:506
+#: kdeui/widgets/kcharselectdata.cpp:514
 msgid "Letter, Modifier"
 msgstr "অক্ষর, পরিবর্তক"
 
-#: kdeui/widgets/kcharselectdata.cpp:507
+#: kdeui/widgets/kcharselectdata.cpp:515
 msgid "Letter, Other"
 msgstr "অক্ষর, অন্যান্য"
 
-#: kdeui/widgets/kcharselectdata.cpp:508
+#: kdeui/widgets/kcharselectdata.cpp:516
 msgid "Letter, Titlecase"
 msgstr "অক্ষর, প্রারম্ভিক অক্ষর বড় হরফে"
 
-#: kdeui/widgets/kcharselectdata.cpp:509
+#: kdeui/widgets/kcharselectdata.cpp:517
 msgid "Letter, Uppercase"
 msgstr "অক্ষর, বড় হরফ"
 
-#: kdeui/widgets/kcharselectdata.cpp:510
+#: kdeui/widgets/kcharselectdata.cpp:518
 msgid "Mark, Spacing Combining"
 msgstr "চিহ্ন, শূণ্যস্থান সংযুক্তকারী"
 
-#: kdeui/widgets/kcharselectdata.cpp:511
+#: kdeui/widgets/kcharselectdata.cpp:519
 msgid "Mark, Enclosing"
 msgstr "চিহ্ন, আবদ্ধকারী"
 
-#: kdeui/widgets/kcharselectdata.cpp:512
+#: kdeui/widgets/kcharselectdata.cpp:520
 msgid "Mark, Non-Spacing"
 msgstr "চিহ্ন, শূণ্যস্থানবিহীন"
 
-#: kdeui/widgets/kcharselectdata.cpp:513
+#: kdeui/widgets/kcharselectdata.cpp:521
 msgid "Number, Decimal Digit"
 msgstr "সংখ্যা, দশমিক সংখ্যা"
 
-#: kdeui/widgets/kcharselectdata.cpp:514
+#: kdeui/widgets/kcharselectdata.cpp:522
 msgid "Number, Letter"
 msgstr "সংখ্যা, বর্ণ"
 
-#: kdeui/widgets/kcharselectdata.cpp:515
+#: kdeui/widgets/kcharselectdata.cpp:523
 msgid "Number, Other"
 msgstr "সংখ্যা, অন্যান্য"
 
-#: kdeui/widgets/kcharselectdata.cpp:516
+#: kdeui/widgets/kcharselectdata.cpp:524
 msgid "Punctuation, Connector"
 msgstr "যতিচিহ্ন, সংযুক্তকারী"
 
-#: kdeui/widgets/kcharselectdata.cpp:517
+#: kdeui/widgets/kcharselectdata.cpp:525
 msgid "Punctuation, Dash"
 msgstr "যতিচিহ্ন, ড্যাশ"
 
-#: kdeui/widgets/kcharselectdata.cpp:518
+#: kdeui/widgets/kcharselectdata.cpp:526
 msgid "Punctuation, Close"
 msgstr "যতিচিহ্ন, বন্ধ"
 
-#: kdeui/widgets/kcharselectdata.cpp:519
+#: kdeui/widgets/kcharselectdata.cpp:527
 msgid "Punctuation, Final Quote"
 msgstr "যতিচিহ্ন, উদ্ধৃতি সমাপ্তি"
 
-#: kdeui/widgets/kcharselectdata.cpp:520
+#: kdeui/widgets/kcharselectdata.cpp:528
 msgid "Punctuation, Initial Quote"
 msgstr "যতিচিহ্ন, উদ্ধৃতি প্রারম্ভ"
 
-#: kdeui/widgets/kcharselectdata.cpp:521
+#: kdeui/widgets/kcharselectdata.cpp:529
 msgid "Punctuation, Other"
 msgstr "যতিচিহ্ন, অন্যান্য"
 
-#: kdeui/widgets/kcharselectdata.cpp:522
+#: kdeui/widgets/kcharselectdata.cpp:530
 msgid "Punctuation, Open"
 msgstr "যতিচিহ্ন, খোলা"
 
-#: kdeui/widgets/kcharselectdata.cpp:523
+#: kdeui/widgets/kcharselectdata.cpp:531
 msgid "Symbol, Currency"
 msgstr "চিহ্ন, মুদ্রা"
 
-#: kdeui/widgets/kcharselectdata.cpp:524
+#: kdeui/widgets/kcharselectdata.cpp:532
 msgid "Symbol, Modifier"
 msgstr "চিহ্ন, পরিবর্তক"
 
-#: kdeui/widgets/kcharselectdata.cpp:525
+#: kdeui/widgets/kcharselectdata.cpp:533
 msgid "Symbol, Math"
 msgstr "চিহ্ন, গাণিতিক"
 
-#: kdeui/widgets/kcharselectdata.cpp:526
+#: kdeui/widgets/kcharselectdata.cpp:534
 msgid "Symbol, Other"
 msgstr "চিহ্ন, অন্যান্য"
 
-#: kdeui/widgets/kcharselectdata.cpp:527
+#: kdeui/widgets/kcharselectdata.cpp:535
 msgid "Separator, Line"
 msgstr "বিভাকজ, রেখা"
 
-#: kdeui/widgets/kcharselectdata.cpp:528
+#: kdeui/widgets/kcharselectdata.cpp:536
 msgid "Separator, Paragraph"
 msgstr "বিভাজক, অনুচ্ছেদ"
 
-#: kdeui/widgets/kcharselectdata.cpp:529
+#: kdeui/widgets/kcharselectdata.cpp:537
 msgid "Separator, Space"
 msgstr "বিভাজক, শূণ্যস্থান"
 
-#: kdeui/widgets/kcharselectdata.cpp:530
+#: kdeui/widgets/kcharselectdata.cpp:538
 msgid "Unknown"
 msgstr "অজানা"
 
@@ -8926,9 +8851,6 @@ msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্
 
 #: kdeui/widgets/kkeysequencewidget.cpp:137
 #, kde-format
-#| msgid ""
-#| "<qt>The '%1' key combination is already used by the <b>%2</b> action."
-#| "<br>Please select a different one.</qt>"
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
@@ -8982,7 +8904,6 @@ msgstr ""
 
 #: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
 #, kde-format
-#| msgid "%1 &Handbook"
 msgid "%1 &Handbook"
 msgstr ""
 
@@ -9000,7 +8921,6 @@ msgstr ""
 
 #: kdeui/widgets/khelpmenu.cpp:193 kdeui/actions/kstandardaction_p.h:116
 #, kde-format
-#| msgid "&About %1"
 msgid "&About %1"
 msgstr ""
 
@@ -9067,25 +8987,21 @@ msgstr "ডিফল্ট মান"
 
 #: kdeui/widgets/ktoolbar.cpp:298 kdeui/widgets/ktoolbar.cpp:318
 #, kde-format
-#| msgid "Small (%1x%2)"
 msgid "Small (%1x%2)"
 msgstr ""
 
 #: kdeui/widgets/ktoolbar.cpp:300 kdeui/widgets/ktoolbar.cpp:320
 #, kde-format
-#| msgid "Medium (%1x%2)"
 msgid "Medium (%1x%2)"
 msgstr ""
 
 #: kdeui/widgets/ktoolbar.cpp:302 kdeui/widgets/ktoolbar.cpp:322
 #, kde-format
-#| msgid "Large (%1x%2)"
 msgid "Large (%1x%2)"
 msgstr ""
 
 #: kdeui/widgets/ktoolbar.cpp:304 kdeui/widgets/ktoolbar.cpp:324
 #, kde-format
-#| msgid "Huge (%1x%2)"
 msgid "Huge (%1x%2)"
 msgstr ""
 
@@ -9144,13 +9060,11 @@ msgstr ""
 
 #: kfile/kfileplacesview.cpp:418
 #, kde-format
-#| msgid "&Edit '%1'..."
 msgid "&Edit '%1'..."
 msgstr ""
 
 #: kfile/kfileplacesview.cpp:421
 #, kde-format
-#| msgid "&Hide '%1'"
 msgid "&Hide '%1'"
 msgstr ""
 
@@ -9160,7 +9074,6 @@ msgstr ""
 
 #: kfile/kfileplacesview.cpp:438
 #, kde-format
-#| msgid "&Remove '%1'"
 msgid "&Remove '%1'"
 msgstr ""
 
@@ -9191,16 +9104,11 @@ msgstr ""
 
 #: kfile/kfilewidget.cpp:276
 #, kde-format
-#| msgid "Drive: %1"
 msgid "Drive: %1"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:348
 #, kde-format
-#| msgid ""
-#| "<qt>Click this button to enter the parent folder.<br /><br />For "
-#| "instance, if the current location is file:/home/%1 clicking this button "
-#| "will take you to file:/home.</qt>"
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
 "if the current location is file:/home/%1 clicking this button will take you "
@@ -9268,9 +9176,6 @@ msgstr ""
 
 #: kfile/kfilewidget.cpp:711
 #, kde-format
-#| msgid ""
-#| "%1\n"
-#| "does not appear to be a valid URL.\n"
 msgid ""
 "%1\n"
 "does not appear to be a valid URL.\n"
@@ -9306,11 +9211,6 @@ msgstr ""
 
 #: kfile/kfilewidget.cpp:1382
 #, kde-format
-#| msgid ""
-#| "The requested filenames\n"
-#| "%1\n"
-#| "do not appear to be valid;\n"
-#| "make sure every filename is enclosed in double quotes."
 msgid ""
 "The requested filenames\n"
 "%1\n"
@@ -9332,13 +9232,11 @@ msgstr ""
 
 #: kfile/kfilewidget.cpp:1762
 #, kde-format
-#| msgid "Automatically select filename e&xtension (%1)"
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
 #: kfile/kfilewidget.cpp:1763
 #, kde-format
-#| msgid "the extension <b>%1</b>"
 msgid "the extension <b>%1</b>"
 msgstr ""
 
@@ -9352,18 +9250,6 @@ msgstr ""
 
 #: kfile/kfilewidget.cpp:1782
 #, kde-format
-#| msgid ""
-#| "This option enables some convenient features for saving files with "
-#| "extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text "
-#| "area will be updated if you change the file type to save in.<br /><br /></"
-#| "li><li>If no extension is specified in the <b>%2</b> text area when you "
-#| "click <b>Save</b>, %3 will be added to the end of the filename (if the "
-#| "filename does not already exist). This extension is based on the file "
-#| "type that you have chosen to save in.<br /><br />If you do not want KDE "
-#| "to supply an extension for the filename, you can either turn this option "
-#| "off or you can suppress it by adding a period (.) to the end of the "
-#| "filename (the period will be automatically removed).</li></ol>If unsure, "
-#| "keep this option enabled as it makes your files more manageable."
 msgid ""
 "This option enables some convenient features for saving files with "
 "extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
@@ -9409,31 +9295,26 @@ msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:686
 #, kde-format
-#| msgid "&Eject '%1'"
 msgid "&Eject '%1'"
 msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:688
 #, kde-format
-#| msgid "&Safely Remove '%1'"
 msgid "&Safely Remove '%1'"
 msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:690
 #, kde-format
-#| msgid "&Unmount '%1'"
 msgid "&Unmount '%1'"
 msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:751
 #, kde-format
-#| msgid "An error occurred while accessing '%1', the system responded: %2"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
 #: kfile/kfileplacesmodel.cpp:755
 #, kde-format
-#| msgid "An error occurred while accessing '%1'"
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
@@ -9453,10 +9334,6 @@ msgstr ""
 
 #: kfile/kdirselectdialog.cpp:120
 #, kde-format
-#| msgctxt "@label:textbox"
-#| msgid ""
-#| "Create new folder in:\n"
-#| "%1"
 msgctxt "@label:textbox"
 msgid ""
 "Create new folder in:\n"
@@ -9465,7 +9342,6 @@ msgstr ""
 
 #: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:677
 #, kde-format
-#| msgid "A file or folder named %1 already exists."
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
@@ -9510,11 +9386,6 @@ msgstr ""
 
 #: kfile/kfileplaceeditdialog.cpp:112
 #, kde-format
-#| msgid ""
-#| "<qt>This is the location associated with the entry. Any valid URL may be "
-#| "used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp."
-#| "kde.org/pub/kde/stable<br /><br />By clicking on the button next to the "
-#| "text edit box you can browse to an appropriate URL.</qt>"
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
 "used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
@@ -9534,16 +9405,11 @@ msgstr ""
 
 #: kfile/kfileplaceeditdialog.cpp:147
 #, kde-format
-#| msgid "&Only show when using this application (%1)"
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
 #: kfile/kfileplaceeditdialog.cpp:149
 #, kde-format
-#| msgid ""
-#| "<qt>Select this setting if you want this entry to show only when using "
-#| "the current application (%1).<br /><br />If this setting is not selected, "
-#| "the entry will be available in all applications.</qt>"
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
 "current application (%1).<br /><br />If this setting is not selected, the "
@@ -9556,9 +9422,6 @@ msgstr "আড়াল করা ফোল্ডার প্রদর্শন �
 
 #: kfile/kdiroperator.cpp:651
 #, kde-format
-#| msgid ""
-#| "Create new folder in:\n"
-#| "%1"
 msgid ""
 "Create new folder in:\n"
 "%1"
@@ -9574,9 +9437,6 @@ msgstr ""
 
 #: kfile/kdiroperator.cpp:717
 #, kde-format
-#| msgid ""
-#| "<qt>Do you really want to delete\n"
-#| " <b>'%1'</b>?</qt>"
 msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
@@ -9588,8 +9448,6 @@ msgstr ""
 
 #: kfile/kdiroperator.cpp:724
 #, kde-format
-#| msgid "Do you really want to delete this item?"
-#| msgid_plural "Do you really want to delete these %1 items?"
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] ""
@@ -9609,9 +9467,6 @@ msgstr ""
 
 #: kfile/kdiroperator.cpp:775
 #, kde-format
-#| msgid ""
-#| "<qt>Do you really want to trash\n"
-#| " <b>'%1'</b>?</qt>"
 msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
@@ -9628,8 +9483,6 @@ msgstr ""
 
 #: kfile/kdiroperator.cpp:782
 #, kde-format
-#| msgid "translators: not called for n == 1"
-#| msgid_plural "Do you really want to trash these %1 items?"
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
@@ -9761,7 +9614,6 @@ msgstr "%1 (%2x%3 পিক্সেল)"
 
 #: khtml/khtmlimage.cpp:201
 #, kde-format
-#| msgid "Image - %1x%2 Pixels"
 msgid "Image - %1x%2 Pixels"
 msgstr ""
 
@@ -9863,19 +9715,16 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:478
 #, kde-format
-#| msgid "Search for '%1' with %2"
 msgid "Search for '%1' with %2"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:490
 #, kde-format
-#| msgid "Search for '%1' with"
 msgid "Search for '%1' with"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:524
 #, kde-format
-#| msgid "Open '%1'"
 msgid "Open '%1'"
 msgstr ""
 
@@ -9950,7 +9799,6 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:669
 #, kde-format
-#| msgid "View Image (%1)"
 msgid "View Image (%1)"
 msgstr ""
 
@@ -9960,7 +9808,6 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:683
 #, kde-format
-#| msgid "Block Images From %1"
 msgid "Block Images From %1"
 msgstr ""
 
@@ -9986,8 +9833,6 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:910
 #, kde-format
-#| msgid ""
-#| "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
@@ -10002,7 +9847,6 @@ msgstr ""
 
 #: khtml/khtml_ext.cpp:971 kparts/browserrun.cpp:414
 #, kde-format
-#| msgid "The Download Manager (%1) could not be found in your $PATH "
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 
@@ -10159,7 +10003,6 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:626
 #, kde-format
-#| msgid "The fake user-agent '%1' is in use."
 msgid "The fake user-agent '%1' is in use."
 msgstr ""
 
@@ -10177,13 +10020,11 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:1197
 #, kde-format
-#| msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgstr ""
 
 #: khtml/khtml_part.cpp:1246
 #, kde-format
-#| msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgstr ""
 
@@ -10215,7 +10056,6 @@ msgstr "URL: %1"
 
 #: khtml/khtml_part.cpp:1734
 #, kde-format
-#| msgid "Protocol: %1"
 msgid "Protocol: %1"
 msgstr ""
 
@@ -10302,9 +10142,6 @@ msgstr " - বার্তা প্রাপকদের নাম লিখু
 
 #: khtml/khtml_part.cpp:3932
 #, kde-format
-#| msgid ""
-#| "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
-#| "follow the link?</qt>"
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
 "the link?</qt>"
@@ -10387,9 +10224,6 @@ msgstr "ই-মেইল করুন (&S)"
 
 #: khtml/khtml_part.cpp:4878
 #, kde-format
-#| msgid ""
-#| "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
-#| "filesystem.<br />Do you want to submit the form?</qt>"
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 "filesystem.<br />Do you want to submit the form?</qt>"
@@ -10427,7 +10261,6 @@ msgstr "নিরাপত্তা সংক্রান্ত সূচনা"
 
 #: khtml/khtml_part.cpp:7201
 #, kde-format
-#| msgid "The wallet '%1' is open and being used for form data and passwords."
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
@@ -10557,7 +10390,6 @@ msgstr "ডকুমেন্টে সঠিক ফাইল বিন্যা
 
 #: khtml/xml/xml_tokenizer.cpp:321
 #, kde-format
-#| msgid "fatal parsing error: %1 in line %2, column %3"
 msgid "fatal parsing error: %1 in line %2, column %3"
 msgstr ""
 
@@ -10674,9 +10506,6 @@ msgstr ""
 
 #: khtml/ecma/kjs_window.cpp:1602
 #, kde-format
-#| msgid ""
-#| "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
-#| "JavaScript.<br />Do you want to allow this?</qt>"
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
@@ -10700,9 +10529,6 @@ msgstr "নিশ্চিত করা আবশ্যক"
 
 #: khtml/ecma/kjs_window.cpp:2881
 #, kde-format
-#| msgid ""
-#| "Do you want a bookmark pointing to the location \"%1\" to be added to "
-#| "your collection?"
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
@@ -10710,9 +10536,6 @@ msgstr ""
 
 #: khtml/ecma/kjs_window.cpp:2884
 #, kde-format
-#| msgid ""
-#| "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to "
-#| "be added to your collection?"
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
@@ -10739,10 +10562,6 @@ msgstr ""
 
 #: khtml/ecma/kjs_html.cpp:2115
 #, kde-format
-#| msgid ""
-#| "<qt>This site is submitting a form which will open <p>%1</p> in a new "
-#| "browser window via JavaScript.<br />Do you want to allow the form to be "
-#| "submitted?</qt>"
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
 "browser window via JavaScript.<br />Do you want to allow the form to be "
@@ -10809,7 +10628,6 @@ msgstr ""
 
 #: khtml/ecma/debugger/debugwindow.cpp:831
 #, kde-format
-#| msgid "Evaluation threw an exception %1"
 msgid "Evaluation threw an exception %1"
 msgstr ""
 
@@ -10897,11 +10715,6 @@ msgstr ""
 
 #: khtml/html/html_formimpl.cpp:645
 #, kde-format
-#| msgid ""
-#| "Konqueror has the ability to store the password in an encrypted wallet. "
-#| "When the wallet is unlocked, it can then automatically restore the login "
-#| "information next time you visit %1. Do you want to store the information "
-#| "now?"
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
@@ -11183,7 +10996,6 @@ msgstr "Ruby ইন্টারপ্রেটারের ক্ষেত্র
 
 #: kross/core/action.cpp:399
 #, kde-format
-#| msgid "Scriptfile \"%1\" does not exist."
 msgid "Scriptfile \"%1\" does not exist."
 msgstr ""
 
@@ -11472,13 +11284,6 @@ msgstr "মডিউল লোড করতে সমস্যা।"
 
 #: kutils/kcmoduleloader.cpp:153
 #, kde-format
-#| msgid ""
-#| "<qt>The diagnostics is:<br />%1<p>Possible reasons:</p><ul><li>An error "
-#| "occurred during your last KDE upgrade leaving an orphaned control module</"
-#| "li><li>You have old third party modules lying around.</li></ul><p>Check "
-#| "these points carefully and try to remove the module mentioned in the "
-#| "error message. If this fails, consider contacting your distributor or "
-#| "packager.</p></qt>"
 msgid ""
 "<qt>The diagnostics is:<br />%1<p>Possible reasons:</p><ul><li>An error "
 "occurred during your last KDE upgrade leaving an orphaned control module</"
@@ -11669,7 +11474,6 @@ msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:610
 #, kde-format
-#| msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr ""
 
@@ -12555,16 +12359,6 @@ msgstr "এটি কী? (&T)"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "দিনের উপদেশ (&D)"
-
-#: kdeui/widgets/kcharselect_p.h:176
-#, kde-format
-msgctxt "Character"
-msgid ""
-"<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode code point: "
-"%4<br />(In decimal: %5)</qt>"
-msgstr ""
-"<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode কোড পয়েন্ট: %"
-"4<br />(দশমিক অনুসারে: %5)</qt>"
 
 #: kross/qts/values_p.h:69
 #, kde-format
