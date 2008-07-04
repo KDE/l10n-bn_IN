@@ -1,15 +1,15 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# , 2008.
+# Arindam Ghosh <arindam.foss@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-06-03 10:35+0200\n"
-"PO-Revision-Date: 2008-07-03 21:45+0530\n"
-"Last-Translator: Arindam Ghosh\n"
-"Language-Team: Bengali(India) <discuss@ankur.org.in>\n"
+"PO-Revision-Date: 2008-07-04 10:33+0530\n"
+"Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
+"Language-Team: American English <discuss@ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -159,12 +159,18 @@ msgstr ""
 "যেমন, প্রত্যেকটা ভার্চুয়াল ডেস্কটপের  বিভিন্ন বিন্যাস অথবা সবার জন্যে একই "
 "পটভূমি নির্বাচিত করা যায়।</p> <p>ডেস্কটপের চেহারাটি প্রেক্ষপটভূমির রঙ ও "
 "প্যাটার্নের সংযোগের ফলস্বরূপ, এবং এটি কখনো একটা ওয়ালপেপারও হয়, যেটা "
-"স্বাধারনত একটা গ্রাফিক্স ফাইল হয়ে থাকে।</p> <p>পটভূমি"
+"স্বাধারনত একটা গ্রাফিক্স ফাইল হয়ে থাকে।</p> <p>পটভূমি একরঙা হতে পারে, অথবা "
+"দুটো রঙের বিভিন্ন রকমের মিশ্রন হতে পারে। ওয়ালপেপার গুলোও টাইল ও স্ট্রেচ "
+"ইত্যাদির সাহায্যে স্বনির্বাচিত করা যায়। ওয়ালপেপার অস্বচ্ছ ভাবে ব্যবহৃত হতে "
+"পারে অথবা একটা রঙ বা প্যাটার্নের সঙ্গে ব্লেন্ড করে।</p> <p>KDE-তে ওয়ালপেপার "
+"স্বয়ংক্রিয় ভাবে একটা নির্দিষ্ট সময়সিমা পরে পরিবর্তন করা যায়। অাপনি সহজেই "
+"পটভূমি প্রোগ্রামের বদলে অন্য কিছু ব্যবহার করতে পারেন যেমন, \"kdeworld\" "
+"প্রোগ্রাম পৃথিবীর দিন/রাতের ম্যাপ দেখায় যেটা সময় অনুযায়ি পরিবর্তন হয়।</p>"
 
 #: bgdialog.cpp:407
 #, kde-format
 msgid "Screen %1"
-msgstr ""
+msgstr "স্ক্রীন %1"
 
 #: bgdialog.cpp:410
 msgid "Single Color"
@@ -275,20 +281,22 @@ msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
 msgstr ""
+"এই মনিটারের ছবিটা বর্তমান বিন্যাস অনুযায়ি অাপনার ডেস্কটপ কেমন দেখাবে তার "
+"প্রতিচ্ছবি।"
 
 #: bgwallpaper.cpp:118
 msgid "Setup Slide Show"
-msgstr ""
+msgstr "স্লাইড সো বিন্যাস"
 
 #: bgwallpaper.cpp:175
 msgid "Select Image"
-msgstr ""
+msgstr "ছবি নির্বাচিত করুন"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 16
 #: rc.cpp:3
 msgid "Background Program"
-msgstr ""
+msgstr "পটভূমি প্রোগ্রাম"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 31
@@ -304,6 +312,8 @@ msgid ""
 "help).</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 34
@@ -311,7 +321,7 @@ msgstr ""
 #. i18n: file bgwallpaper_ui.ui line 95
 #: rc.cpp:12 rc.cpp:188
 msgid "&Add..."
-msgstr ""
+msgstr "যোগ (&A)"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 44
@@ -343,7 +353,7 @@ msgstr ""
 #. i18n: file bgadvanced_ui.ui line 63
 #: rc.cpp:27
 msgid "&Modify..."
-msgstr ""
+msgstr "পরিবর্তন(&M)"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 103
@@ -372,19 +382,19 @@ msgstr ""
 #. i18n: file bgadvanced_ui.ui line 107
 #: rc.cpp:41
 msgid "Program"
-msgstr ""
+msgstr "প্রোগ্রাম"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 112
 #: rc.cpp:44
 msgid "Comment"
-msgstr ""
+msgstr "মন্তব্য"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 117
 #: rc.cpp:47
 msgid "Refresh"
-msgstr ""
+msgstr "রিফ্রেশ"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 125
