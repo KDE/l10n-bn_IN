@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-06-03 10:35+0200\n"
-"PO-Revision-Date: 2008-07-04 15:40+0530\n"
+"PO-Revision-Date: 2008-07-04 18:25+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: American English <discuss@ankur.org.in>\n"
 "MIME-Version: 1.0\n"
@@ -452,6 +452,9 @@ msgid ""
 "caching can make switching desktops smoother at the expense of higher memory "
 "use."
 msgstr ""
+"এখানে KDE পটভূমি ক্যাশের জন্যে কতোখানি মেমোরি ব্যবহৃত হবে তার মান নির্ধারিত "
+"করতে পারেন। অাপনার যদি প্রত্যেকটা ডেস্কটপে বিভিন্ন পটভূমি থাকে, বেশি মেমোরি "
+"থাকলে একটা থেকে অারেকটা ডেস্কটপে যাওয়া সহজ হয়ে যায় ও দেখতেও ভালো লাগে।"
 
 #. i18n: tag string
 #. i18n: file bgadvanced_ui.ui line 147
@@ -485,6 +488,9 @@ msgid ""
 "to run for the background picture or control the size of the background "
 "cache."
 msgstr ""
+"এই বাটনটা ক্লিক করে অাইকনের রং ও ছায়া নির্ধারিত করতে পারেন, তথা একটা "
+"প্রোগ্রামকে পটভূমির ছবির জন্যে নির্বাচিত বা পটভূমির ক্যাশের পরিমাপ নিয়ন্ত্রন "
+"করতে পারেন।"
 
 #. i18n: tag string
 #. i18n: file bgdialog_ui.ui line 134
@@ -556,6 +562,9 @@ msgid ""
 "option of \"No Blending\" means that the picture simply obscures the "
 "background colors below."
 msgstr ""
+"অাপনি যদি পটভূমিতে একটা ছবি ব্যবহার করছেন, তাহলে বিভিন্নভাবে পটভূমির রঙের "
+"সঙ্গে ছবিটার মিশ্রন হতে পারে যেটা সহজেই নির্ধারিত করা যায়। ডিফল্ট অপশন হচ্ছে "
+" \"ব্লেন্ড হবে না\" যার মানে ছবির নীচে রঙের পটভূমিতে কোনো প্রভাব পড়ে না।"
 
 #. i18n: tag string
 #. i18n: file bgdialog_ui.ui line 271
@@ -570,6 +579,8 @@ msgid ""
 "Click to choose the secondary background color. If no secondary color is "
 "required by the pattern selected this button will be disabled."
 msgstr ""
+"এখানে ক্লিক করে একটা গৌন/দ্বিতীয় রং নির্বাচিত করুন। যদি নির্বাচিত "
+"প্যাটার্নের কোনো গৌন রং দরকার না হয় তাহলে এই বাটনটা অকেজো হয়ে যায়।"
 
 #. i18n: tag string
 #. i18n: file bgdialog_ui.ui line 293
@@ -592,7 +603,9 @@ msgid ""
 "You can use this slider to control the degree of blending. You can "
 "experiment by moving the slider and looking at the effects in the preview "
 "image."
-msgstr "এই স্লাইডার ব্যবহার করুন মিশ্রনের মাত্রা নির্ধারন করার জন্যে। "
+msgstr ""
+"এই স্লাইডার ব্যবহার করুন মিশ্রনের মাত্রা নির্ধারন করার জন্যে। অাপনি "
+"স্লাইডারটা সরিয়ে ও তার প্রভাব প্রাকদর্শন করে বিভিন্ন পরীক্ষা করতে পারেন।"
 
 #. i18n: tag string
 #. i18n: file bgdialog_ui.ui line 324
@@ -607,6 +620,8 @@ msgid ""
 "For some types of blending, you can reverse the role of the background and "
 "the picture by checking this option."
 msgstr ""
+"কিছু প্রকারের মিশ্রনে, অামরা পটভূমি তথা ছবির ভূমিকা অদল-বদল করে দিতে পারি এই "
+"অপশন চয়ন করে।"
 
 #. i18n: tag string
 #. i18n: file bgdialog_ui.ui line 367
@@ -653,6 +668,10 @@ msgid ""
 "time, after which another image from the set will be shown. Images can be "
 "shown at random or in the order you specify them."
 msgstr ""
+"এই বাটনটা ক্লিক করুন একটা ছবি সমূহকে পটভূমির ছবি হিসেবে নির্বাচিত করার "
+"জন্যে। একটা ছবি একটা নির্দিষ্ট সময় অবধি দেখানো হয়, তার পরে অন্য অারেকটা ছবি "
+"ওই সমূহ থেকে দেখানো হবে। ছবি গুলো একটা নির্দিষ্ট অথবা এলোমেলো তালিকায় "
+"প্রদর্শিত হবে।"
 
 #. i18n: tag string
 #. i18n: file bgdialog_ui.ui line 490
