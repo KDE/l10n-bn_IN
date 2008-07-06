@@ -99,9 +99,6 @@ msgid "Open File"
 msgstr "ফাইল খুলুন"
 
 #: kwritemain.cpp:277
-#| msgid ""
-#| "The given file could not be read, check if it exists or if it is readable "
-#| "for the current user."
 msgid ""
 "The file given could not be read; check whether it exists or is readable for "
 "the current user."
@@ -373,7 +370,8 @@ msgstr "ডকুমেন্ট যেটা খুলতে হবে"
 
 #: kwritemain.cpp:769
 #, kde-format
-msgid "The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr "ফাইল '%1' খোলা যাচ্ছেনা: এটা সাধারন ফাইল নয়, এটা একটা ফোল্ডার"
 
 #: kwritemain.cpp:788
@@ -437,4 +435,3 @@ msgstr "makghosh@gmail.com"
 
 #~ msgid "Override the system wide setting for the default editing component"
 #~ msgstr "ডিফল্ট সম্পাদন কম্পোনেন্টের জন্যে সিস্টেম প্রশস্ত বিন্যাস পরিবর্তন করা হবে"
-
