@@ -29,30 +29,36 @@ msgid ""
 msgstr ""
 "কমান্ড লাইন থেকে পাওয়ার ম্যানেজমেন্ট অপশন গুলো অনুসন্ধান এবং নিয়ন্ত্রণের জন্য KDE-র সরঞ্জাম"
 
+# runab: changed the spelling of syntax and argument
 #: solid-powermanagement.cpp:163
 msgid "Syntax Error: Not enough arguments"
-msgstr "সিন্ট্যক্সে ত্রুটি: যথেষ্ট আরগুমেন্টস নেই"
+msgstr "সিন্ট্যাক্স-এ ত্রুটি: যথেষ্ট আরগুমেন্ট নেই"
 
+# runab: changed the spelling of syntax and argument
 #: solid-powermanagement.cpp:169
 msgid "Syntax Error: Too many arguments"
-msgstr "সিন্ট্যক্সে ত্রুটি: অতিরিক্ত আর্গুমেন্টস"
+msgstr "সিন্ট্যাক্স-এ ত্রুটি: অতিরিক্ত আরগুমেন্ট"
 
+# runab: changed প্রাপ্য to উপলব্ধ
 #: solid-powermanagement.cpp:181
 msgid "Show available commands"
-msgstr "প্রাপ্য কমান্ডস প্রদর্শিত হবে"
+msgstr "উপলব্ধ কমান্ড প্রদর্শিত হবে"
 
+# runab reinstated --commands in english
 #: solid-powermanagement.cpp:183
 msgid "Command (see --commands)"
-msgstr "কমান্ড (--কমান্ডস দেখুন)"
+msgstr "কমান্ড (--commands দেখুন)"
 
+# runab: changed the spelling of argument
 #: solid-powermanagement.cpp:185
 msgid "Arguments for command"
-msgstr "কমান্ডের জন্য আর্গুমেন্টস"
+msgstr "কমান্ডের জন্য আর্গুমেন্ট"
 
 #: solid-powermanagement.cpp:197
 msgid "Syntax:"
-msgstr "সিন্ট্যক্স:"
+msgstr "সিন্ট্যাক্স:"
 
+# runab: changes suspend and scheme to english as these are options
 #: solid-powermanagement.cpp:200
 msgid ""
 "             # List a particular set of information regarding power "
@@ -66,13 +72,14 @@ msgid ""
 "             # supported CPU frequency policy\n"
 msgstr ""
 "             # পাওয়ার ম্যানেজমেন্ট সংঙ্ক্রান্ত নির্দিষ্ট পরিচিতির সমষ্টি তালিকাভুক্ত করা হবে।\n"
-"             # - যদি 'সাসপেন্ড' অপশন উল্লেখিত থাকে, সাসপেন্ডের সিস্টেম দ্বারা সমর্থিত পন্থা\n"
+"             # - যদি 'suspend' অপশন উল্লেখিত থাকে, সাসপেন্ডের সিস্টেম দ্বারা সমর্থিত পন্থা\n"
 "             # তালিকাভুক্ত করা হবে\n"
-"             # - যদি 'স্কিম' অপশন উল্লেখিত থাকে, সিস্টেম দ্বারা সমর্থিত পাওয়ার\n"
+"             # - যদি 'scheme' অপশন উল্লেখিত থাকে, সিস্টেম দ্বারা সমর্থিত পাওয়ার\n"
 "             # ম্যানেজমেন্ট স্কিম গুলো তালিকাভুক্ত করা হবে\n"
 "             # - যদি 'cpufreq' অপশন উল্লেখিত থাকে, সমর্থিত CPU ফ্রিকয়েন্সি পলিসি\n"
 "             # গুলো তালিকাভুক্ত করা হবে\n"
 
+# runab: changes scheme to english it is an option
 #: solid-powermanagement.cpp:209
 msgid ""
 "             # Set power management options of the system.\n"
@@ -83,15 +90,17 @@ msgid ""
 "             # set corresponds to 'value'\n"
 msgstr ""
 "             # আপনার সিস্টেমে পাওয়ার ম্যানেজমেন্ট অপশনগুলো নিযুক্ত করুন।\n"
-"             # - যদি 'স্কিম' অপশন উল্লেখিত থাকে, তবে পাওয়ার ম্যানেজমেন্ট\n"
+"             # - যদি 'scheme' অপশন উল্লেখিত থাকে, তবে পাওয়ার ম্যানেজমেন্ট\n"
 "             # স্কিম 'value'-তে নির্ধারিত হয়\n"
 "             # - যদি 'cpufreq' অপশন উল্লেখিত থাকে তবে CPU ফ্রিকয়েন্সি পলিসি\n"
 "             # 'value'-তে নির্ধারিত হয়\n"
 
+# runab: A space inserted afte the #
 #: solid-powermanagement.cpp:216
 msgid "             # Suspend the computer using the given 'method'.\n"
-msgstr "             #সংশ্লিষ্ট পদ্ধতির সাহায্যে আপনার কম্পিউটার নিলম্বন করুন।\n"
+msgstr "             # সংশ্লিষ্ট পদ্ধতির সাহায্যে আপনার কম্পিউটার নিলম্বন করুন।\n"
 
+# runab: changed set and get to english it is an option. corrected the spelling of ঔজ্জ্বল্য
 #: solid-powermanagement.cpp:219
 msgid ""
 "             # Set and get brightness options of the system.\n"
@@ -100,21 +109,23 @@ msgid ""
 "             # - If the 'get' option is specified, the current brightness\n"
 "             # is returned (as a percentage)'\n"
 msgstr ""
-"             # আপনার সিস্টেমের ঔজ্জ্বল্লের অপসন গুলো নিযুক্ত করে গ্রহন করুন।\n"
-"             # - যদি 'সেট' অপশন উল্লেখিত থাকে, তবে ঔজ্জ্বল্লের মান\n"
+"             # আপনার সিস্টেমের ঔজ্জ্বল্ল্যের অপসন গুলো নিযুক্ত করে গ্রহন করুন।\n"
+"             # - যদি 'set' অপশন উল্লেখিত থাকে, তবে ঔজ্জ্বল্ল্যের মান\n"
 "             # 'value'-তে (শতকরা হিসেবে) নির্ধারিত হয়\n"
-"             # - যদি 'গেট' অপশন উল্লেখিত থাকে, তবে বর্তমান ঔজ্জ্বল্লের মান\n"
+"             # - যদি 'get' অপশন উল্লেখিত থাকে, তবে বর্তমান ঔজ্জ্বল্ল্যের মান\n"
 "             # পাওয়া যায় (শতকরা হিসেবে)\n"
 
+# runab: corrected the spelling of syntax
 #: solid-powermanagement.cpp:270 solid-powermanagement.cpp:289
 #, kde-format
 msgid "Syntax Error: Unknown option '%1'"
-msgstr "সিন্ট্যেক্সের ত্রুটি: অজানা অপশন '%1'"
+msgstr "সিন্ট্যাক্সের ত্রুটি: অজানা অপশন '%1'"
 
+# runab: corrected the spelling of syntax
 #: solid-powermanagement.cpp:306
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'"
-msgstr "সিন্ট্যক্সের ত্রুটি: অজানা কমান্ড '%1'"
+msgstr "সিন্ট্যাক্সের ত্রুটি: অজানা কমান্ড '%1'"
 
 #: solid-powermanagement.cpp:355
 #, kde-format
@@ -140,13 +151,15 @@ msgstr "অসমর্থিত স্কিম: %1"
 msgid "Unsupported cpufreq policy: %1"
 msgstr "অসমর্থিত cpufreq পলিসি: %1"
 
+
 #: solid-powermanagement.cpp:529
 #, kde-format
 msgid "Progress: %1%"
 msgstr "অগ্রসর: %1%"
 
+# runab: changed to তথ্য
 #: solid-powermanagement.cpp:534
 #, kde-format
 msgid "Info: %1"
-msgstr "ইনফো: %1"
+msgstr "তথ্য: %1"
 
