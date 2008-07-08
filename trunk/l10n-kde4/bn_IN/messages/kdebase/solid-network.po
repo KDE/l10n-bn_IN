@@ -26,7 +26,9 @@ msgstr "solid-network"
 msgid ""
 "KDE tool for querying and controlling your network interfaces from the "
 "command line"
-msgstr "কমান্ড লাইন থেকে আপনার নেটওয়ার্ক ইন্টারফেসগুলো অনুসন্ধান এবং নিয়ন্ত্রণের জন্য KDE-র সরঞ্জাম"
+msgstr ""
+"কমান্ড লাইন থেকে আপনার নেটওয়ার্ক ইন্টারফেসগুলো অনুসন্ধান এবং নিয়ন্ত্রণের জন্য KDE-র "
+"সরঞ্জাম"
 
 # changed the spelling of argument and syntax
 #: solid-network.cpp:366
@@ -61,8 +63,10 @@ msgid "             # List the network devices present.\n"
 msgstr "             #বর্তমান অবস্থিত নেটওয়ার্ক ডিভাইসগুলো তালিকাভুক্ত করা হবে।\n"
 
 #: solid-network.cpp:406
-msgid "             # List the networks known to the device specified by 'uni'.\n"
-msgstr "             # 'uni'উল্লেখিত ডিভাইস পরিচিত নেটওয়ার্কগুলো তালিকাভুক্ত করা হবে।\n"
+msgid ""
+"             # List the networks known to the device specified by 'uni'.\n"
+msgstr ""
+"             # 'uni'উল্লেখিত ডিভাইস পরিচিত নেটওয়ার্কগুলো তালিকাভুক্ত করা হবে।\n"
 
 # all tech terminology reinstated in english
 #: solid-network.cpp:409
@@ -90,7 +94,8 @@ msgstr ""
 "             # - 'interface' অপশন উল্লিখিত থাকলে 'uni' দ্বারা চিহ্নিত \n"
 "             # নেটওয়ার্ক ইন্টারফেসের বৈশিষ্ট্যাবলী প্রিন্ট করা হবে।\n"
 "             # - 'network' অপশন উল্লিখিত থাকলে 'device-uni'-এ উপস্থিত \n"
-"             #  নেটওয়ার্কের 'network-uni' দ্বারা চিহ্নিত বৈশিষ্টাবলী প্রিন্ট করা হবে।\n"
+"             #  নেটওয়ার্কের 'network-uni' দ্বারা চিহ্নিত বৈশিষ্টাবলী প্রিন্ট করা "
+"হবে।\n"
 
 #: solid-network.cpp:422 solid-network.cpp:425
 msgid "             # Enable or disable networking on this system.\n"
@@ -109,7 +114,8 @@ msgid ""
 "             # wpaeap UNIMPLEMENTED IN SOLIDSHELL\n"
 msgstr ""
 "             #  'device-uni'-র উপর স্থাপিত 'network-uni'সক্রিয় করা হবে\n"
-"             # বিকল্প রূপে,হেক্স-কি 'key' সহযোগে ওপেন সিস্টেম এনক্রিপশন WEP128 ব্যবহার করুন। (হার্ডকোডেড)\n"
+"             # বিকল্প রূপে,হেক্স-কি 'key' সহযোগে ওপেন সিস্টেম এনক্রিপশন WEP128 "
+"ব্যবহার করুন। (হার্ডকোডেড)\n"
 "             # এই ক্ষেত্রে  'authentication'-র জন্য প্রযোজ্য মান:\n"
 "             #  wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 "
 "'key' [open|shared]\n"
@@ -186,7 +192,6 @@ msgstr "ওয়ারলেস: সক্রিয় করা রয়েছে"
 msgid "wireless: is not enabled"
 msgstr "ওয়ারলেস: সক্রিয় করা হয়নি"
 
-
 #: solid-network.cpp:694
 msgid "wireless hardware: is enabled"
 msgstr "ওয়ারলেস হার্ডওয়ার: সক্রিয় করা রয়েছে"
@@ -205,4 +210,3 @@ msgstr "অগ্রগতি: %1%"
 #, kde-format
 msgid "Info: %1"
 msgstr "তথ্য: %1%"
-

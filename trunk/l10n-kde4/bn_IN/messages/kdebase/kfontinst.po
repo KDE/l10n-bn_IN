@@ -32,8 +32,8 @@ msgid ""
 "Do you wish to install the font(s) for personal use (only available to you), "
 "or system-wide (available to all users)?"
 msgstr ""
-"ফন্টগুলি নিজস্ব ব্যবহার জন্য ইনস্টল করবেন (শুধুমাত্র আপনার জন্য উপলব্ধ), "
-"নাকি সম্পূর্ণ সিস্টেম-ব্যাপী ব্যবহারের জন্য উপলব্ধ করা হবে (সকল ব্যবহারকারীদের জন্য উপলব্ধ)?"
+"ফন্টগুলি নিজস্ব ব্যবহার জন্য ইনস্টল করবেন (শুধুমাত্র আপনার জন্য উপলব্ধ), নাকি সম্পূর্ণ "
+"সিস্টেম-ব্যাপী ব্যবহারের জন্য উপলব্ধ করা হবে (সকল ব্যবহারকারীদের জন্য উপলব্ধ)?"
 
 #: apps/Installer.cpp:54 kcmfontinst/KCmFontInst.cpp:1161
 msgid "Where to Install"
@@ -475,7 +475,8 @@ msgstr "su-র সাথে আলাপন বিফল হয়েছে।"
 
 #: kcmfontinst/JobRunner.cpp:146
 #, kde-format
-msgid "<p>Could not launch '%1'.</p><p>Make sure your PATH is set correctly.</p>"
+msgid ""
+"<p>Could not launch '%1'.</p><p>Make sure your PATH is set correctly.</p>"
 msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:154
@@ -905,14 +906,18 @@ msgstr "<p>আপনি কি নিশ্চিতরূপে </p><p>'<b>%1</
 msgid ""
 "<p>Do you really want to enable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
-msgstr "<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত </p><p>'<b>%1</b> সক্রিয় করতে ইচ্ছুক'?</p>"
+msgstr ""
+"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত </p><p>'<b>%1</b> সক্রিয় করতে "
+"ইচ্ছুক'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1370
 #, kde-format
 msgid ""
 "<p>Do you really want to disable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
-msgstr "<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত </p><p>'<b>%1</b> নিষ্ক্রিয় করতে ইচ্ছুক'?</p>"
+msgstr ""
+"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত </p><p>'<b>%1</b> নিষ্ক্রিয় করতে "
+"ইচ্ছুক'?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1374 kcmfontinst/KCmFontInst.cpp:1375
 msgid "Enable Font"
@@ -945,11 +950,9 @@ msgid_plural ""
 "<p>Do you really want to enable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
 msgstr[0] ""
-"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত এই ফন্টটি সক্রিয় করতে ইচ্ছুক?"
-"</p>"
+"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত এই ফন্টটি সক্রিয় করতে ইচ্ছুক?</p>"
 msgstr[1] ""
-"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত %1-টি ফন্ট সক্রিয় করতে ইচ্ছুক?"
-"</p>"
+"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত %1-টি ফন্ট সক্রিয় করতে ইচ্ছুক?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1392
 #, kde-format
@@ -960,11 +963,9 @@ msgid_plural ""
 "<p>Do you really want to disable these %1 fonts contained within group '<b>%"
 "2</b>'?</p>"
 msgstr[0] ""
-"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত এই ফন্টটি নিষ্ক্রিয় করতে ইচ্ছুক?"
-"</p>"
+"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত এই ফন্টটি নিষ্ক্রিয় করতে ইচ্ছুক?</p>"
 msgstr[1] ""
-"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত %1-টি ফন্ট নিষ্ক্রিয় করতে ইচ্ছুক?"
-"</p>"
+"<p>আপনি কি নিশ্চিতরূপে '<b>%2</b>' দলের অন্তর্গত %1-টি ফন্ট নিষ্ক্রিয় করতে ইচ্ছুক?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1398 kcmfontinst/KCmFontInst.cpp:1399
 msgid "Enable Fonts"
@@ -986,7 +987,8 @@ msgstr "ফন্ট(গুলি) নিষ্ক্রিয় করা হচ�
 msgid ""
 "The installer is currently busy. Please wait for the current operation to "
 "terminate."
-msgstr "ইনস্টলার বর্তমানে ব্যস্ত। অনুগ্রহ করে বর্তমান কর্ম সমাপ্ত না হওয়া অবধি প্রতীক্ষা করুন।"
+msgstr ""
+"ইনস্টলার বর্তমানে ব্যস্ত। অনুগ্রহ করে বর্তমান কর্ম সমাপ্ত না হওয়া অবধি প্রতীক্ষা করুন।"
 
 #: kcmfontinst/PrintDialog.cpp:37
 msgid "Print Font Samples"
@@ -1128,8 +1130,10 @@ msgid "Disabled Font"
 msgstr "নিষ্ক্রিয় ফন্ট"
 
 #: kio/KioFonts.cpp:2930
-msgid "You cannot install bitmap fonts, as these have been disabled on your system."
-msgstr "সিস্টেমের মধ্যে বিট-ম্যাপ ফন্ট নিষ্ক্রিয় হওয়ার ফলে, বিট-ম্যাপ ফন্ট ইনস্টল করা সম্ভব নয়।"
+msgid ""
+"You cannot install bitmap fonts, as these have been disabled on your system."
+msgstr ""
+"সিস্টেমের মধ্যে বিট-ম্যাপ ফন্ট নিষ্ক্রিয় হওয়ার ফলে, বিট-ম্যাপ ফন্ট ইনস্টল করা সম্ভব নয়।"
 
 #: kio/KioFonts.cpp:2936
 #, kde-format
@@ -1184,7 +1188,9 @@ msgid ""
 "moved. The affected fonts are:</p><ul>%1</ul><p>\n"
 " Do you wish to move all of these?</p>"
 msgstr ""
-"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট স্থানান্তের প্রচেষ্টা করা হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি স্থানান্তরের জন্য অন্যান্য সকল ফন্ট স্থানান্তর করা আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
+"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট স্থানান্তের প্রচেষ্টা করা "
+"হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি স্থানান্তরের জন্য অন্যান্য সকল ফন্ট স্থানান্তর "
+"করা আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
 " আপনি কি এই সকল ফন্ট স্থানান্তর করতে ইচ্ছুক?</p>"
 
 #: kio/KioFonts.cpp:3180
@@ -1195,7 +1201,9 @@ msgid ""
 "copied. The affected fonts are:</p><ul>%1</ul><p>\n"
 " Do you wish to copy all of these?</p>"
 msgstr ""
-"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট কপি করার প্রচেষ্টা করা হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি কপি করার জন্য অন্যান্য সকল ফন্ট কপি করা আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
+"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট কপি করার প্রচেষ্টা করা "
+"হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি কপি করার জন্য অন্যান্য সকল ফন্ট কপি করা "
+"আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
 " আপনি কি এই সকল ফন্ট কপি করতে ইচ্ছুক?</p>"
 
 #: kio/KioFonts.cpp:3186
@@ -1206,7 +1214,9 @@ msgid ""
 "deleted. The affected fonts are:</p><ul>%1</ul><p>\n"
 " Do you wish to delete all of these?</p>"
 msgstr ""
-"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট মুছে ফেলার প্রচেষ্টা করা হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি মুছে ফেলার জন্য অন্যান্য সকল ফন্ট মুছে ফেলা আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
+"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট মুছে ফেলার প্রচেষ্টা করা "
+"হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি মুছে ফেলার জন্য অন্যান্য সকল ফন্ট মুছে ফেলা "
+"আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
 " আপনি কি এই সকল ফন্ট মুছে ফেলতে ইচ্ছুক?</p>"
 
 #: kio/KioFonts.cpp:3192
@@ -1217,7 +1227,9 @@ msgid ""
 "enabled. The affected fonts are:</p><ul>%1</ul><p>\n"
 " Do you wish to enable all of these?</p>"
 msgstr ""
-"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট সক্রিয় করার প্রচেষ্টা করা হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি সক্রিয় করার জন্য অন্যান্য সকল ফন্ট সক্রিয় করা আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
+"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট সক্রিয় করার প্রচেষ্টা করা "
+"হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি সক্রিয় করার জন্য অন্যান্য সকল ফন্ট সক্রিয় করা "
+"আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
 " আপনি কি এই সকল ফন্ট সক্রিয় করতে ইচ্ছুক?</p>"
 
 #: kio/KioFonts.cpp:3198
@@ -1228,13 +1240,17 @@ msgid ""
 "disabled. The affected fonts are:</p><ul>%1</ul><p>\n"
 " Do you wish to disable all of these?</p>"
 msgstr ""
-"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট নিষ্ক্রিয় করার প্রচেষ্টা করা হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি নিষ্ক্রিয় করার জন্য অন্যান্য সকল ফন্ট নিষ্ক্রিয় করা আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
+"<p>একই ফাইলের মধ্যে,অন্যান্য ফন্টের সাথে উপস্থিত একটি ফন্ট নিষ্ক্রিয় করার প্রচেষ্টা "
+"করা হচ্ছে; বর্তমান পরিস্থিতিতে চিহ্নিত ফন্টটি নিষ্ক্রিয় করার জন্য অন্যান্য সকল ফন্ট "
+"নিষ্ক্রিয় করা আবশ্যক। প্রভাবিত ফন্টগুলি হল:</p><ul>%1</ul><p>\n"
 " আপনি কি এই সকল ফন্ট নিষ্ক্রিয় করতে ইচ্ছুক?</p>"
 
 #: kio/KioFonts.cpp:3267
 #, kde-format
 msgid "You cannot rename, move, copy, or delete either \"%1\" or \"%2\"."
-msgstr "আপনি \"%1\" অথবা \"%2\" কপি, স্থানান্তর ও অপসারণ করতে পারবেন না। এইগুলির নাম পরিবর্তন করাও সম্ভব নয়।"
+msgstr ""
+"আপনি \"%1\" অথবা \"%2\" কপি, স্থানান্তর ও অপসারণ করতে পারবেন না। এইগুলির নাম "
+"পরিবর্তন করাও সম্ভব নয়।"
 
 #: lib/FcEngine.cpp:599
 msgctxt "First letter of the alphabet (in upper then lower case)"
@@ -1242,7 +1258,8 @@ msgid "Aa"
 msgstr "অ"
 
 #: lib/FcEngine.cpp:601
-msgctxt "All letters of the alphabet (in upper/lower case pairs), followed by numbers"
+msgctxt ""
+"All letters of the alphabet (in upper/lower case pairs), followed by numbers"
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
 msgstr "অআইইউঊঋএঐওঔকখগঘঙচছজঝঞটঠডড়ঢঢ়ণতথদধনপফবভমযরলশষসহয়"
 
@@ -2270,4 +2287,3 @@ msgstr "ফাগস পা"
 #: viewpart/UnicodeScripts.h:79
 msgid "Yi"
 msgstr "ইয়ি"
-

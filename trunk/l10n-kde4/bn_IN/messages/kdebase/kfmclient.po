@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfmclient\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-24 01:39+0200\n"
+"POT-Creation-Date: 2008-07-08 14:23+0200\n"
 "PO-Revision-Date: 2008-07-06 16:07+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -74,7 +74,8 @@ msgid ""
 "\n"
 msgstr ""
 "            # 'mimetype' উল্লিখিত হলে সেটি প্রয়োগ করে Konqueror\n"
-"            #   দ্বারা ব্যবহারযোগ্য সামগ্রী নির্ধারণ করা হবে। উদাহরণস্বরূপ, ওয়েব-পেজ\n"
+"            #   দ্বারা ব্যবহারযোগ্য সামগ্রী নির্ধারণ করা হবে। উদাহরণস্বরূপ, ওয়েব-"
+"পেজ\n"
 "            #   দ্রুত প্রদর্শনের জন্য মান text/html নির্ধারণ করুন\n"
 "\n"
 
@@ -87,8 +88,8 @@ msgid ""
 "\n"
 msgstr ""
 "  kfmclient newTab 'url' ['mimetype']\n"
-"            # পূর্ববর্তী মানের অনুরূপ কিন্তু সম্ভব হলে, 'url'-টি কে বর্তমানে সক্রিয় ডেস্কটপে চলমান "
-"Konqueror\n"
+"            # পূর্ববর্তী মানের অনুরূপ কিন্তু সম্ভব হলে, 'url'-টি কে বর্তমানে সক্রিয় "
+"ডেস্কটপে চলমান Konqueror\n"
 "            #    উইন্ডোর একটি নতুন ট্যাবে প্রদর্শন করা হবে।\n"
 "\n"
 
@@ -103,26 +104,25 @@ msgid ""
 msgstr ""
 "  kfmclient openProfile 'profile' ['url']\n"
 "            # উল্লিখিত প্রোফাইল প্রয়োগ করে একটি উইন্ডো খোলা হয়।\n"
-"            #   'profile' মূলত ~/.kde/share/apps/konqueror/"
-"profiles-র অধীন একটি ফাইল।\n"
+"            #   'profile' মূলত ~/.kde/share/apps/konqueror/profiles-র অধীন "
+"একটি ফাইল।\n"
 "            #   ঐচ্ছিকরূপে প্রদর্শনযোগ্য URL, 'url' দ্বারা নির্দিষ্ট করা হয়।\n"
 "\n"
 
-#: kfmclient.cpp:445
+#: kfmclient.cpp:447
 #, kde-format
 msgid "Profile %1 not found\n"
 msgstr "%1 প্রোফাইল পাওয়া যায়নি\n"
 
-#: kfmclient.cpp:476
+#: kfmclient.cpp:478
 msgid "Syntax Error: Not enough arguments\n"
 msgstr "সিন্টেক্স ত্রুটি: পর্যাপ্ত আর্গুমেন্ট উল্লিখিত হয়নি\n"
 
-#: kfmclient.cpp:481
+#: kfmclient.cpp:483
 msgid "Syntax Error: Too many arguments\n"
 msgstr "সিন্টেক্স ত্রুটি: অত্যাধিক আর্গুমেন্ট\n"
 
-#: kfmclient.cpp:548
+#: kfmclient.cpp:550
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'\n"
 msgstr "সিন্টেক্স ত্রুটি: অজানা কমান্ড '%1'\n"
-
