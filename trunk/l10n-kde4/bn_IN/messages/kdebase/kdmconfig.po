@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-07-08 14:24+0200\n"
-"PO-Revision-Date: 2008-07-09 20:05+0530\n"
+"PO-Revision-Date: 2008-07-09 23:32+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
 "MIME-Version: 1.0\n"
@@ -228,7 +228,7 @@ msgstr "%s-এ স্বাগতম %n-র মধ্যে"
 msgid ""
 "<h1>KDM - Dialog</h1> Here you can configure the basic appearance of the KDM "
 "login manager in dialog mode, i.e. a greeting string, an icon etc."
-msgstr ""
+msgstr "<h1>KDM - ডায়লগ</h1> ডায়লগ মোডে প্রদর্শিত KDM লগ-ইন পরিচালনব্যবস্থার মৌলিক চেহারাছবি এইখানে কনফিগার করা যাবে, অর্থাৎ অভিবাদন, আইকন প্রভৃতি"
 
 #: kdm-gen.cpp:50
 msgctxt "@title:group"
@@ -410,18 +410,20 @@ msgstr ""
 #: kdm-theme.cpp:74
 msgctxt "@title:column"
 msgid "Theme"
-msgstr ""
+msgstr "থিম"
 
 #: kdm-theme.cpp:75
 msgctxt "@title:column"
 msgid "Author"
-msgstr ""
+msgstr "নির্মাতা"
 
 #: kdm-theme.cpp:79
 msgid ""
 "This is a list of installed themes.\n"
 "Click the one to be used."
 msgstr ""
+"ইনস্টল হওয়া থিমের তালিকা।\n"
+"ব্যবহারের জন্য যে কোনো একটি ক্লিক করুন।"
 
 #: kdm-theme.cpp:87
 msgid "This is a screen shot of what KDM will look like."
@@ -434,7 +436,7 @@ msgstr ""
 #: kdm-theme.cpp:99
 msgctxt "@action:button"
 msgid "Install &new theme"
-msgstr ""
+msgstr "নতুন থিম ইনস্টল করুন (&n)"
 
 #: kdm-theme.cpp:100
 msgid "This will install a theme into the theme directory."
@@ -443,31 +445,31 @@ msgstr ""
 #: kdm-theme.cpp:104
 msgctxt "@action:button"
 msgid "&Remove theme"
-msgstr ""
+msgstr "থিম মুছে ফেলুন (&R)"
 
 #: kdm-theme.cpp:105
 msgid "This will remove the selected theme."
-msgstr ""
+msgstr "এর ফলে নির্বাচিত থিম মুছে ফেলা হবে।"
 
 #: kdm-theme.cpp:109
 msgctxt "@action:button"
 msgid "&Get New Themes"
-msgstr ""
+msgstr "নতুন থিম প্রাপ্ত করুন (&G)"
 
 #: kdm-theme.cpp:122 kdm-users.cpp:93
 #, kde-format
 msgid "Unable to create folder %1"
-msgstr ""
+msgstr "ফোল্ডার %1 নির্মাণ করতে ব্যর্থ"
 
 #: kdm-theme.cpp:204
 #, kde-format
 msgid "<qt><strong>Copyright:</strong> %1<br/></qt>"
-msgstr ""
+msgstr "<qt><strong>স্বত্বাধিকার:</strong> %1<br/></qt>"
 
 #: kdm-theme.cpp:207
 #, kde-format
 msgid "<qt><strong>Description:</strong> %1</qt>"
-msgstr ""
+msgstr "<qt><strong>বিবরণ:</strong> %1</qt>"
 
 #: kdm-theme.cpp:219
 msgid "Drag or Type Theme URL"
@@ -539,12 +541,12 @@ msgstr ""
 #: kdm-users.cpp:132
 msgctxt "@title:group"
 msgid "Users"
-msgstr ""
+msgstr "ব্যবহারকারী"
 
 #: kdm-users.cpp:133
 msgctxt "... of users"
 msgid "Show list"
-msgstr ""
+msgstr "তালিকা প্রদর্শন"
 
 #: kdm-users.cpp:135
 msgid ""
@@ -627,7 +629,7 @@ msgstr ""
 #: kdm-users.cpp:199
 msgctxt "@option:radio image source"
 msgid "System"
-msgstr ""
+msgstr "সিস্টেম"
 
 #: kdm-users.cpp:200
 msgctxt "@option:radio image source"
@@ -642,12 +644,12 @@ msgstr ""
 #: kdm-users.cpp:202
 msgctxt "@option:radio image source"
 msgid "User"
-msgstr ""
+msgstr "ব্যবহারকারী"
 
 #: kdm-users.cpp:217
 msgctxt "@title:group user face assignments"
 msgid "User Images"
-msgstr ""
+msgstr "ব্যবহারকারীর ছবি"
 
 #: kdm-users.cpp:219
 msgid "The user the image below belongs to."
@@ -655,7 +657,7 @@ msgstr ""
 
 #: kdm-users.cpp:222
 msgid "User:"
-msgstr ""
+msgstr "ব্যবহারকারী:"
 
 #: kdm-users.cpp:231
 msgid "Click or drop an image here"
@@ -694,6 +696,8 @@ msgid ""
 "There was an error saving the image:\n"
 "%1"
 msgstr ""
+"চিহ্নিত ছবি সংরক্ষণ করতে ত্রুটি:\n"
+"%1"
 
 #: main.cpp:78
 #, kde-format
@@ -709,31 +713,31 @@ msgstr ""
 
 #: main.cpp:101
 msgid "(c) 1996-2008 The KDM Authors"
-msgstr ""
+msgstr "(c) ১৯৯৬-২০০৮, KDM নির্মাতাবৃন্দ"
 
 #: main.cpp:104
 msgid "Thomas Tanghus"
-msgstr ""
+msgstr "থোমাস তানঘুস"
 
 #: main.cpp:104
 msgid "Original author"
-msgstr ""
+msgstr "মূল নির্মাতা"
 
 #: main.cpp:105
 msgid "Steffen Hansen"
-msgstr ""
+msgstr "স্টেফেন হ্যানসেন"
 
 #: main.cpp:106
 msgid "Oswald Buddenhagen"
-msgstr ""
+msgstr "ওসওয়াল্ড বুডেনহাগেন"
 
 #: main.cpp:106
 msgid "Current maintainer"
-msgstr ""
+msgstr "বর্তমান মেইনটেনার"
 
 #: main.cpp:107
 msgid "Stephen Leaf"
-msgstr ""
+msgstr "স্টিফান লিফ"
 
 #: main.cpp:110
 msgid ""
@@ -762,11 +766,11 @@ msgstr ""
 
 #: main.cpp:198
 msgid "General (&1)"
-msgstr ""
+msgstr "সাধারণ (&1)"
 
 #: main.cpp:204
 msgid "Dialog (&2)"
-msgstr ""
+msgstr "ডায়লগ (&2)"
 
 #: main.cpp:209
 msgid "There is no login dialog window in themed mode."
@@ -774,7 +778,7 @@ msgstr ""
 
 #: main.cpp:215
 msgid "Background (&3)"
-msgstr ""
+msgstr "পটভূমি (&3)"
 
 #: main.cpp:220
 msgid "The background cannot be configured separately in themed mode."
@@ -782,7 +786,7 @@ msgstr ""
 
 #: main.cpp:226
 msgid "Theme (&4)"
-msgstr ""
+msgstr "থিম (&4)"
 
 #: main.cpp:228
 msgid "Themed mode is disabled. See \"General\" tab."
@@ -790,15 +794,15 @@ msgstr ""
 
 #: main.cpp:237
 msgid "Shutdown (&5)"
-msgstr ""
+msgstr "বন্ধ করুন (&5)"
 
 #: main.cpp:241
 msgid "Users (&6)"
-msgstr ""
+msgstr "ব্যবহারকারী (&6)"
 
 #: main.cpp:251
 msgid "Convenience (&7)"
-msgstr ""
+msgstr "সুবিধা (&7)"
 
 #: positioner.cpp:97
 msgid ""
@@ -810,10 +814,10 @@ msgstr ""
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "রুণা ভট্টাচার্য্য"
 
 #: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "runab@redhat.com"
 
