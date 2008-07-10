@@ -67,7 +67,8 @@ msgid ""
 msgstr ""
 "             # সিস্টেমে উপলব্ধ হার্ডওয়ার তালিকাভুক্ত করা হবে।\n"
 "             # - 'nonportableinfo' অপশন উল্লিখিত থাকলে,ডিভাইসের \n"
-"             # বৈশিষ্টাবলী তালিকাভুক্ত করা হবে (সাবধান থাকবেন, এই অবস্থায় বৈশিষ্টগুলির নাম\n"
+"             # বৈশিষ্টাবলী তালিকাভুক্ত করা হবে (সাবধান থাকবেন, এই অবস্থায় "
+"বৈশিষ্টগুলির নাম\n"
 "             # ব্যাক-এন্ডের উপর নির্ভরশীল),\n"
 "             # - 'details' অপশন উল্লিখিত থাকলে, ডিভাইসের ইন্টারফেসগুলি\n"
 "             # এবং সংশ্লিষ্ট বৈশিষ্ট্যাবলীগুলি প্ল্যাটফর্ম নির্বিশেষ একটি বিন্যাসে \n"
@@ -80,7 +81,8 @@ msgid ""
 "             # Display all the interfaces and properties of the device\n"
 "             # corresponding to 'udi' in a platform neutral fashion.\n"
 msgstr ""
-"             # 'udi' সংক্রান্ত ডিভাইসের সমস্ত ইন্টারফেস এবং বৈশিষ্টাবলী প্ল্যাটফর্ম নির্বিশেষ\n"
+"             # 'udi' সংক্রান্ত ডিভাইসের সমস্ত ইন্টারফেস এবং বৈশিষ্টাবলী প্ল্যাটফর্ম "
+"নির্বিশেষ\n"
 "             # একটি বিন্যাসে প্রর্দশিত হবে।\n"
 
 # runab: corrected the spelling of সংক্রান্ত (সংঙ্ক্রান্ত = wrong),ব্যাক-এন্ড (ব্যাকটএন্ডের=wrong), বৈশিষ্ট্যাবলী (বৈশিষ্টগুলি =wrong)
@@ -91,8 +93,9 @@ msgid ""
 "             # (be careful, in this case property names are backend "
 "dependent).\n"
 msgstr ""
-"             # 'udi' সংক্রান্ত ডিভাইসের সমস্ত বৈশিষ্ট্যাবলী প্রর্দশিত হবে "
-"             # (সাবধান থাকবেন, এই অবস্থায় বৈশিষ্টগুলির নাম ব্যাক-এন্ডের উপর নির্ভরশীল)।\n"
+"             # 'udi' সংক্রান্ত ডিভাইসের সমস্ত বৈশিষ্ট্যাবলী প্রর্দশিত "
+"হবে              # (সাবধান থাকবেন, এই অবস্থায় বৈশিষ্টগুলির নাম ব্যাক-এন্ডের উপর "
+"নির্ভরশীল)।\n"
 
 # runab: corrected typo in অনথ্যা
 #: solid-hardware.cpp:214
@@ -109,15 +112,20 @@ msgstr ""
 "              # - অন্যথা সমস্ত ডিভাইসেই অনুসন্ধান করা হবে।\n"
 
 #: solid-hardware.cpp:220
-msgid "             # If applicable, mount the device corresponding to 'udi'.\n"
-msgstr "             #  যদি প্রযোজ্য হয়, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি মাউন্ট করা হবে।\n"
+msgid ""
+"             # If applicable, mount the device corresponding to 'udi'.\n"
+msgstr ""
+"             #  যদি প্রযোজ্য হয়, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি মাউন্ট করা হবে।\n"
 
 #: solid-hardware.cpp:223
-msgid "             # If applicable, unmount the device corresponding to 'udi'.\n"
-msgstr "             # প্রযোজ্য হলে, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি আন-মাউন্ট করা হবে।\n"
+msgid ""
+"             # If applicable, unmount the device corresponding to 'udi'.\n"
+msgstr ""
+"             # প্রযোজ্য হলে, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি আন-মাউন্ট করা হবে।\n"
 
 #: solid-hardware.cpp:226
-msgid "             # If applicable, eject the device corresponding to 'udi'.\n"
+msgid ""
+"             # If applicable, eject the device corresponding to 'udi'.\n"
 msgstr "             # প্রযোজ্য হলে, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি বের করা হবে\n"
 
 # runab : corrected the spelling of syntax
@@ -152,4 +160,3 @@ msgstr "অগ্রগতি: %1%"
 #, kde-format
 msgid "Info: %1"
 msgstr "তথ্য: %1"
-
