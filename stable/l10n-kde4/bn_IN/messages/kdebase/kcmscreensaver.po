@@ -1,0 +1,334 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sankarshan Mukhopadhyay <sankarshan.mukhopadhyay@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmscreensaver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-03-06 21:58+0100\n"
+"PO-Revision-Date: 2008-07-06 21:54+0530\n"
+"Last-Translator: Sankarshan Mukhopadhyay <sankarshan.mukhopadhyay@gmail."
+"com>\n"
+"Language-Team: American English <discuss@ankur.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KAider 0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: advanceddialog.cpp:21
+msgid "Advanced Options"
+msgstr "উন্নত বৈশিষ্ট্য"
+
+#: advanceddialog.cpp:147
+msgid ""
+"Specify the priority that the screensaver will run at. A higher priority may "
+"mean that the screensaver runs faster, though may reduce the speed that "
+"other programs run at while the screensaver is active."
+msgstr ""
+"যে গুরুত্ব ব্যবহার করে স্ক্রিন-সেভার চলবে তা নির্ধারন করুন। অধিক গুরুত্বপ্রাপ্ত স্ক্রিন-"
+"সেভার দ্রুত চালিত হওয়ার ফলে, অন্যান্য প্রোগ্রাম-এর গতি কমিয়ে দিতে পারে।"
+
+#: advanceddialog.cpp:148
+msgid ""
+"The action to take when the mouse cursor is located in the top left corner "
+"of the screen for 15 seconds."
+msgstr ""
+"পর্দার উপরের অংশে বাম কোণে মাউস কার্সার  ১৫ সেকেন্ডের জন্য উপস্থিত থাকলে যে কর্ম "
+"করতে হবে।"
+
+#: advanceddialog.cpp:149
+msgid ""
+"The action to take when the mouse cursor is located in the top right corner "
+"of the screen for 15 seconds."
+msgstr ""
+"পর্দার উপরের অংশে ডান কোণে মাউস কার্সার  ১৫ সেকেন্ডের জন্য উপস্থিত থাকলে যে কর্ম "
+"করতে হবে।"
+
+#: advanceddialog.cpp:150
+msgid ""
+"The action to take when the mouse cursor is located in the bottom left "
+"corner of the screen for 15 seconds."
+msgstr ""
+"পর্দার নীচের অংশে বাম কোণে মাউস কার্সার  ১৫ সেকেন্ডের জন্য উপস্থিত থাকলে যে কর্ম "
+"করতে হবে।"
+
+#: advanceddialog.cpp:151
+msgid ""
+"The action to take when the mouse cursor is located in the bottom right "
+"corner of the screen for 15 seconds."
+msgstr ""
+"পর্দার নীচের অংশে ডান কোণে মাউস কার্সার  ১৫ সেকেন্ডের জন্য উপস্থিত থাকলে যে কর্ম "
+"করতে হবে।"
+
+#: category_list.cpp:7
+msgctxt "Screen saver category"
+msgid "Banners & Pictures"
+msgstr "ব্যানার ও ছবি"
+
+#: category_list.cpp:8
+msgctxt "Screen saver category"
+msgid "Desktop Distortions"
+msgstr "ডেস্কটপের রূপ বিকৃতি"
+
+#: category_list.cpp:9
+msgctxt "Screen saver category"
+msgid "Flying Things"
+msgstr "উড়ে যাওয়া বস্তু"
+
+#: category_list.cpp:10
+msgctxt "Screen saver category"
+msgid "Fractals"
+msgstr "ফ্র্যাক্টাল"
+
+#: category_list.cpp:11
+msgctxt "Screen saver category"
+msgid "Gadgets & Simulations"
+msgstr "গ্যাজেট ও সিমুলেশন"
+
+#: category_list.cpp:12
+msgctxt "Screen saver category"
+msgid "Illusions of Depth"
+msgstr "গভীরের ভ্রম"
+
+#: category_list.cpp:13
+msgctxt "Screen saver category"
+msgid "Miscellaneous"
+msgstr "বিবিধ"
+
+#: category_list.cpp:14
+msgctxt "Screen saver category"
+msgid "OpenGL Screen Savers"
+msgstr "OpenGL স্ক্রিন-সেভার"
+
+#: category_list.cpp:15
+msgctxt "Screen saver category"
+msgid "Rapid Motion"
+msgstr "দ্রুত গতি"
+
+#: category_list.cpp:16
+msgctxt "Screen saver category"
+msgid "Visit to Flatland"
+msgstr "ফ্ল্যাটল্যান্ড-এ ভ্রমণ"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 16
+#: rc.cpp:3
+msgid "Screen Corner Actions"
+msgstr "পর্দার কোণার কর্ম"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 60
+#: rc.cpp:6
+msgid "Top left:"
+msgstr "উপরের বাম কোণ:"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 71
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 132
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 193
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 254
+#: rc.cpp:9 rc.cpp:21 rc.cpp:33 rc.cpp:45
+msgid "No Action"
+msgstr "কোন কর্ম নেই"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 76
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 137
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 198
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 259
+#: rc.cpp:12 rc.cpp:24 rc.cpp:36 rc.cpp:48
+msgid "Lock Screen"
+msgstr "পর্দা লক করুন"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 81
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 142
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 203
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 264
+#: rc.cpp:15 rc.cpp:27 rc.cpp:39 rc.cpp:51
+msgid "Prevent Locking"
+msgstr "লক করতে প্রতিরোধ করুন"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 121
+#: rc.cpp:18
+msgid "Top right:"
+msgstr "উপরের ডান দিক:"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 182
+#: rc.cpp:30
+msgid "Bottom left:"
+msgstr "নীচের বাম দিক:"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 243
+#: rc.cpp:42
+msgid "Bottom right:"
+msgstr "নীচের ডান দিক:"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 369
+#: rc.cpp:54
+msgid "Screen Saver Priority"
+msgstr "স্ক্রিন-সেভারের গুরুত্ব"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 379
+#: rc.cpp:57
+msgid "Low"
+msgstr "নিম্ন"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 384
+#: rc.cpp:60
+msgid "Medium"
+msgstr "মাঝারি"
+
+#. i18n: tag string
+#. i18n: file advanceddialogimpl.ui line 389
+#: rc.cpp:63
+msgid "High"
+msgstr "উচ্চ"
+
+#: rc.cpp:64
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "সঙ্কর্ষণ মুখোপাধ্যায়"
+
+#: rc.cpp:65
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sankarshan@randomink.org"
+
+#: scrnsave.cpp:99
+msgid ""
+"<h1>Screen Saver</h1> <p>This module allows you to enable and configure a "
+"screen saver. Note that you can enable a screen saver even if you have power "
+"saving features enabled for your display.</p> <p>Besides providing an "
+"endless variety of entertainment and preventing monitor burn-in, a screen "
+"saver also gives you a simple way to lock your display if you are going to "
+"leave it unattended for a while. If you want the screen saver to lock the "
+"session, make sure you enable the \"Require password\" feature of the screen "
+"saver; if you do not, you can still explicitly lock the session using the "
+"desktop's \"Lock Session\" action.</p>"
+msgstr ""
+
+#: scrnsave.cpp:132
+msgid "Screen Saver"
+msgstr "স্ক্রিন-সেভার"
+
+#: scrnsave.cpp:145
+msgid "Select the screen saver to use."
+msgstr "ব্যবহারের জন্য স্ক্রিন-সেভার নির্বাচন করুন"
+
+#: scrnsave.cpp:149
+msgid "&Setup..."
+msgstr "প্রস্তুতি...(&S)"
+
+#: scrnsave.cpp:153
+msgid "Configure the screen saver's options, if any."
+msgstr "স্ক্রiনসেভারের কোন বৈশিষ্ট্য থাকলে সেটির মান পরিবর্তন করুন।"
+
+#: scrnsave.cpp:155
+msgid "&Test"
+msgstr "পরীক্ষা করুন(&T)"
+
+#: scrnsave.cpp:159
+msgid "Show a full screen preview of the screen saver."
+msgstr "সম্পূর্ণ পর্দা জুড়ে স্ক্রিন-সেভারের প্রাকপ্রদর্শন করুন"
+
+#: scrnsave.cpp:161
+msgid "Settings"
+msgstr "মান"
+
+#: scrnsave.cpp:166
+msgid "Start a&utomatically"
+msgstr "স্বয়ংক্রিয় ভাবে আরম্ভ করা হবে (&u)"
+
+#: scrnsave.cpp:169
+msgid "Automatically start the screen saver after a period of inactivity."
+msgstr "কিছুক্ষণ নিষ্ক্রিয়তার পরে স্ক্রিন-সেভার স্বয়ংক্রিয় ভাবে চালু করা হবে।"
+
+#: scrnsave.cpp:177 scrnsave.cpp:210
+msgid "After:"
+msgstr "অতিবাহিত সময়:"
+
+#: scrnsave.cpp:183
+msgid " min"
+msgstr "মিনিট"
+
+#: scrnsave.cpp:192
+msgid "The period of inactivity after which the screen saver should start."
+msgstr "চিহ্নিত সময়সীমার পরে স্ক্রিন-সেভার আরম্ভ হবে।"
+
+#: scrnsave.cpp:198
+msgid "&Require password to stop"
+msgstr "বন্ধ করার জন্য পাসওয়ার্ড প্রয়োজন(&R)"
+
+#: scrnsave.cpp:205
+msgid ""
+"Prevent potential unauthorized use by requiring a password to stop the "
+"screen saver."
+msgstr "স্ক্রিন-সেভার বন্ধ করার জন্য পাসওয়ার্ড প্রয়োজন করে অবৈধ ব্যবহার বন্ধ করুন।"
+
+#: scrnsave.cpp:213
+msgid ""
+"The amount of time, after the screen saver has started, to ask for the "
+"unlock password."
+msgstr "স্ক্রিন-সেভার আরম্ভের যে সময়সীমার পরে পাসওয়ার্ড প্রয়োজন হবে।"
+
+#: scrnsave.cpp:218
+msgid " sec"
+msgstr "সেকেন্ড"
+
+#: scrnsave.cpp:236
+msgid "Choose the period after which the display will be locked. "
+msgstr "যে সময়সীমার  পরে প্রদর্শনক্ষেত্র বন্ধ করা হবে তা নির্বাচন করুন।"
+
+#: scrnsave.cpp:251
+msgid "A preview of the selected screen saver."
+msgstr "নির্বাচিত স্ক্রিন-সেভার প্রাকপ্রদর্শন।"
+
+#: scrnsave.cpp:258
+msgid "Advanced &Options"
+msgstr "অতিরিক্ত বৈশিষ্ট্য (&O)"
+
+#: scrnsave.cpp:286
+msgid "kcmscreensaver"
+msgstr "kcmscreensaver"
+
+#: scrnsave.cpp:286
+msgid "KDE Screen Saver Control Module"
+msgstr "KDE স্ক্রিন-সেভার কন্ট্রল মডিউল"
+
+#: scrnsave.cpp:288
+msgid ""
+"(c) 1997-2002 Martin R. Jones\n"
+"(c) 2003-2004 Chris Howells"
+msgstr ""
+"(c) ১৯৯৭-২০০২ মার্টিন আর. জোন্স\n"
+"(c) ২০০৩-২০০৪ ক্রিস হাওয়েল্স"
+
+#: scrnsave.cpp:290
+msgid "Chris Howells"
+msgstr "ক্রিস হাওয়েল্স"
+
+#: scrnsave.cpp:291
+msgid "Martin R. Jones"
+msgstr "মার্টিন আর. জোন্স"
+
+#: scrnsave.cpp:472
+msgid "Loading..."
+msgstr "লোড করা হচ্ছে..."
