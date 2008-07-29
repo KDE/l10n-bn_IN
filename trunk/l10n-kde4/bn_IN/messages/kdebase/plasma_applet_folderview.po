@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-08 14:23+0200\n"
+"POT-Creation-Date: 2008-07-29 08:28+0200\n"
 "PO-Revision-Date: 2008-07-04 11:57+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -17,42 +17,42 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: folderview.cpp:339
+#: folderview.cpp:533
 msgid "&Paste"
 msgstr "পেস্ট করুন (&P)"
 
-#: folderview.cpp:574
+#: folderview.cpp:768
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
-#: folderview.cpp:576
+#: folderview.cpp:770
 msgid "Home"
 msgstr "ব্যক্তিগত ফোল্ডার"
 
-#: folderview.cpp:819
+#: folderview.cpp:1016
 msgid "&Reload"
 msgstr "নতুন করে লোড (&R)"
 
-#: folderview.cpp:823
+#: folderview.cpp:1020
 msgid "&Rename"
 msgstr "নাম পরিবর্তন (&R)"
 
-#: folderview.cpp:827
+#: folderview.cpp:1024
 msgid "&Move to Trash"
 msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
-#: folderview.cpp:832
+#: folderview.cpp:1029
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
 #. i18n: tag string
-#. i18n: file folderviewConfig.ui line 14
+#. i18n: file folderviewConfig.ui line 28
 #: rc.cpp:3
 msgid "Show the desktop folder"
 msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন করা হবে"
 
 #. i18n: tag string
-#. i18n: file folderviewConfig.ui line 21
+#. i18n: file folderviewConfig.ui line 35
 #: rc.cpp:6
 msgid "Show a custom folder"
 msgstr "স্বনির্ধারিত ফোল্ডার প্রদর্শন করা হবে"
@@ -64,24 +64,77 @@ msgid "Select:"
 msgstr "নির্বাচন করুন:"
 
 #. i18n: tag string
-#. i18n: file folderviewConfig.ui line 70
+#. i18n: file folderviewConfig.ui line 73
 #: rc.cpp:12
-msgid "Filter"
-msgstr "ফিল্টার"
+msgid "Show all files"
+msgstr ""
 
 #. i18n: tag string
-#. i18n: file folderviewConfig.ui line 93
+#. i18n: file folderviewConfig.ui line 78
 #: rc.cpp:15
+msgid "Show files matching..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 83
+#: rc.cpp:18
+msgid "Hide files matching..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 180
+#: rc.cpp:21
+#, fuzzy
+#| msgid "Select:"
+msgid "Select All"
+msgstr "নির্বাচন করুন:"
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 187
+#: rc.cpp:24
+msgid "Deselect All"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 211
+#: rc.cpp:27
+msgid "Search file type"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 221
+#: rc.cpp:30
+msgid "File types:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 228
+#: rc.cpp:33
+msgid "File name pattern:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 241
+#: rc.cpp:36
 msgid "Space-separated list of extensions, e.g. *.txt * .od*"
 msgstr ""
 "শূণ্যস্থান দ্বারা বিভাজিত, ফাইল এক্সটেনশনের তালিকা। উদাহরণস্বরূপ, *.txt * .od*"
 
 #. i18n: tag string
-#. i18n: file folderviewConfig.ui line 96
-#: rc.cpp:18
+#. i18n: file folderviewConfig.ui line 244
+#: rc.cpp:39
 msgid ""
 "Space-separated list of extensions, e.g. *.txt * .od* to display only "
 "office- and text-files"
 msgstr ""
 "শূণ্যস্থান দ্বারা বিভাজিত, শুধুমাত্র অফিস- ও টেক্সট ফাইল এক্সটেনশনের তালিকা। "
 "উদাহরণস্বরূপ, *.txt * .od*"
+
+#. i18n: tag string
+#. i18n: file folderviewConfig.ui line 253
+#: rc.cpp:42
+msgid "Pattern filter"
+msgstr ""
+
+#~ msgid "Filter"
+#~ msgstr "ফিল্টার"

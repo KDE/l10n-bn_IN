@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phononxine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-16 15:48+0200\n"
+"POT-Creation-Date: 2008-07-29 08:29+0200\n"
 "PO-Revision-Date: 2008-07-06 16:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -18,50 +18,43 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. i18n: tag string
-#. i18n: file xineoptions.ui line 29
+#. i18n: file xineoptions.ui line 20
 #: rc.cpp:3
-msgid "Audio Devices"
-msgstr "অডিও ডিভাইস"
-
-#. i18n: tag string
-#. i18n: file xineoptions.ui line 35
-#: rc.cpp:6
-msgid "Show &OSS devices:"
-msgstr "OSS ডিভাইস প্রদর্শন করা হবে: (&O)"
-
-#. i18n: tag string
-#. i18n: file xineoptions.ui line 51
-#: rc.cpp:9
-msgid ""
-"Show OSS devices in the list of available devices, even if ALSA is available."
-msgstr "ALSA উপলব্ধ থাকলেও, উপলব্ধ ডিভাইসের তালিকায় OSS ডিভাইস প্রদর্শন করা হবে।"
-
-#. i18n: tag string
-#. i18n: file xineoptions.ui line 90
-#: rc.cpp:12
 msgid "Deinterlacing"
 msgstr "ডি-ইন্টারলেসিং"
 
 #. i18n: tag string
-#. i18n: file xineoptions.ui line 96
-#: rc.cpp:15
+#. i18n: file xineoptions.ui line 26
+#: rc.cpp:6
 msgid "Deinterlace &media:"
 msgstr "মিডিয়া ডি-ইন্টারলেস করা হবে: (&m)"
 
 #. i18n: tag string
-#. i18n: file xineoptions.ui line 131
-#: rc.cpp:18
+#. i18n: file xineoptions.ui line 61
+#: rc.cpp:9
 msgid "Deinterlacing m&ethod:"
 msgstr "ডি-ইন্টারলেসিং-র পদ্ধতি: (&e)"
 
-#: xineoptions.cpp:45
+#: xineoptions.cpp:41
 msgid "DVD"
 msgstr "DVD"
 
-#: xineoptions.cpp:49
+#: xineoptions.cpp:45
 msgid "VCD"
 msgstr "VCD"
 
-#: xineoptions.cpp:53
+#: xineoptions.cpp:49
 msgid "File"
 msgstr "ফাইল"
+
+#~ msgid "Audio Devices"
+#~ msgstr "অডিও ডিভাইস"
+
+#~ msgid "Show &OSS devices:"
+#~ msgstr "OSS ডিভাইস প্রদর্শন করা হবে: (&O)"
+
+#~ msgid ""
+#~ "Show OSS devices in the list of available devices, even if ALSA is "
+#~ "available."
+#~ msgstr ""
+#~ "ALSA উপলব্ধ থাকলেও, উপলব্ধ ডিভাইসের তালিকায় OSS ডিভাইস প্রদর্শন করা হবে।"
