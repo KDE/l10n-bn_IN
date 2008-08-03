@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-29 08:29+0200\n"
+"POT-Creation-Date: 2008-08-03 08:18+0200\n"
 "PO-Revision-Date: 2008-07-11 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -632,11 +632,15 @@ msgstr ""
 "ওয়ার্ক-শিট সংরক্ষণ করা হবে কি?"
 
 #: Workspace.cc:176
-msgid "*.sgrd|Sensor Files"
+#, fuzzy
+#| msgid "*.sgrd|Sensor Files"
+msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr "*.sgrd|Sensor Files"
 
 #: Workspace.cc:176
-msgid "Select Worksheet to Import"
+#, fuzzy
+#| msgid "Select Worksheet to Import"
+msgid "Select Worksheet to Open"
 msgstr "ইম্পোর্ট করার জন্য ওয়ার্ক-শিট নির্বাচন করুন"
 
 #: Workspace.cc:204 Workspace.cc:225
@@ -1110,19 +1114,19 @@ msgid "&File"
 msgstr "ফাইল (&F)"
 
 #. i18n: tag text
-#. i18n: file ksysguardui.rc line 12
+#. i18n: file ksysguardui.rc line 13
 #: rc.cpp:6
 msgid "&Edit"
 msgstr "সম্পাদনা (&E)"
 
 #. i18n: tag text
-#. i18n: file ksysguardui.rc line 16
+#. i18n: file ksysguardui.rc line 17
 #: rc.cpp:9
 msgid "&Settings"
 msgstr "বৈশিষ্ট্যাবলী (&S)"
 
 #. i18n: tag text
-#. i18n: file ksysguardui.rc line 19
+#. i18n: file ksysguardui.rc line 20
 #: rc.cpp:12
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
@@ -1359,124 +1363,135 @@ msgid ""
 "drag other sensors on to the display to add more sensors."
 msgstr ""
 
-#: ksysguard.cc:73
+#: ksysguard.cc:74
 msgid "KDE System Monitor"
 msgstr "KDE সিস্টেমে মনিটর"
 
-#: ksysguard.cc:147 ksysguard.cc:532
+#: ksysguard.cc:151 ksysguard.cc:542
 msgid "System Monitor"
 msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
-#: ksysguard.cc:148
+#: ksysguard.cc:152
 msgid "&New Worksheet..."
 msgstr "নতুন ওয়ার্ক-শিট...(&N)"
 
-#: ksysguard.cc:149
-msgid "Import Worksheet..."
-msgstr "ওয়ার্ক-শিট ইম্পোর্ট করুন..."
+#: ksysguard.cc:153
+#, fuzzy
+#| msgid "&New Worksheet..."
+msgid "Open Worksheet..."
+msgstr "নতুন ওয়ার্ক-শিট...(&N)"
 
-#: ksysguard.cc:150
+#: ksysguard.cc:154
 msgid "&Export Worksheet..."
 msgstr "ওয়ার্ক-শিট এক্সপোর্ট করুন...(&E)"
 
-#: ksysguard.cc:151
+#: ksysguard.cc:155
 msgid "&Remove Worksheet"
 msgstr "ওয়ার্ক-শিট মুছে ফেলুন (&R)"
 
-#: ksysguard.cc:152
+#: ksysguard.cc:156
 msgid "Monitor remote machine..."
 msgstr "দূরবর্তী মেশিন নিরীক্ষণ করুন..."
 
-#: ksysguard.cc:153
+#: ksysguard.cc:157
+#, fuzzy
+#| msgid "&New Worksheet..."
+msgid "Download new worksheets..."
+msgstr "নতুন ওয়ার্ক-শিট...(&N)"
+
+#: ksysguard.cc:158
 msgid "&Worksheet Properties"
 msgstr "ওয়ার্ক-শিটের বৈশিষ্ট্যাবলী (&W)"
 
-#: ksysguard.cc:440
+#: ksysguard.cc:450
 #, kde-format
 msgid " %1 processes "
 msgstr " %1 প্রসেস সংখ্যা "
 
-#: ksysguard.cc:446
+#: ksysguard.cc:456
 #, kde-format
 msgid " CPU: %1% "
 msgstr " CPU: %1% "
 
-#: ksysguard.cc:460
+#: ksysguard.cc:470
 #, kde-format
 msgid " Memory: %1 / %2 "
 msgstr " মেমরি: %1 / %2 "
 
-#: ksysguard.cc:487
+#: ksysguard.cc:497
 msgid " No swap space available "
 msgstr " swap-র কোনো স্থান উপলব্ধ নেই "
 
-#: ksysguard.cc:489
+#: ksysguard.cc:499
 #, kde-format
 msgid " Swap: %1 / %2 "
 msgstr " Swap: %1 / %2 "
 
-#: ksysguard.cc:534
+#: ksysguard.cc:544
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "(c) ১৯৯৬-২০০৮ KDE System Monitor নির্মাতাবৃন্দ"
 
-#: ksysguard.cc:535
+#: ksysguard.cc:545
 msgid "John Tapsell"
 msgstr "জন ট্যাপসেল"
 
-#: ksysguard.cc:535
+#: ksysguard.cc:545
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইনটেনার"
 
-#: ksysguard.cc:536
+#: ksysguard.cc:546
 msgid "Chris Schlaeger"
 msgstr "ক্রিস স্খলেগার"
 
-#: ksysguard.cc:536
+#: ksysguard.cc:546
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী মেইনটেনার"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:547
 msgid "Greg Martyn"
 msgstr "গ্রেগ মার্টিন"
 
-#: ksysguard.cc:538
+#: ksysguard.cc:548
 msgid "Tobias Koenig"
 msgstr "টোবিয়াস কোনিগ"
 
-#: ksysguard.cc:539
+#: ksysguard.cc:549
 msgid "Nicolas Leclercq"
 msgstr "নিকোলাস লেকলার্ক"
 
-#: ksysguard.cc:540
+#: ksysguard.cc:550
 msgid "Alex Sanda"
 msgstr "অ্যালেক্স স্যান্ড্রা"
 
-#: ksysguard.cc:541
+#: ksysguard.cc:551
 msgid "Bernd Johannes Wuebben"
 msgstr "বার্নড জোহানেস উইবেন"
 
-#: ksysguard.cc:542
+#: ksysguard.cc:552
 msgid "Ralf Mueller"
 msgstr "রাল্ফ মুলার"
 
-#: ksysguard.cc:543
+#: ksysguard.cc:553
 msgid "Hamish Rodda"
 msgstr "হামিশ রোড্ডা"
 
-#: ksysguard.cc:544
+#: ksysguard.cc:554
 msgid "Torsten Kasch"
 msgstr "টোর্সটেন কাশখ"
 
-#: ksysguard.cc:544
+#: ksysguard.cc:554
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
 
-#: ksysguard.cc:552
+#: ksysguard.cc:563
 msgid "Optional worksheet files to load"
 msgstr "লোড করার জন্য চিহ্নিত ঐচ্ছিক ওয়ার্ক-শিট"
+
+#~ msgid "Import Worksheet..."
+#~ msgstr "ওয়ার্ক-শিট ইম্পোর্ট করুন..."
 
 #~ msgid "Enter the number of horizontal lines here."
 #~ msgstr "উলম্ব রেখার সংখ্যা এখানে লিখুন।"
