@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-03 10:35+0200\n"
+"POT-Creation-Date: 2008-08-25 09:06+0200\n"
 "PO-Revision-Date: 2008-07-04 23:46+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -46,10 +46,10 @@ msgstr "অাপনি নিশ্চিতভাবে প্রোগ্র�
 msgid "Remove Background Program"
 msgstr "প্রেক্ষাপটভূমির প্রোগ্রামটা সরানো হবে"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 47
-#. i18n: tag string
-#. i18n: file bgwallpaper_ui.ui line 118
+#. i18n: file: bgadvanced_ui.ui:47
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#. i18n: file: bgwallpaper_ui.ui:118
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
 #: bgadvanced.cpp:271 rc.cpp:18 rc.cpp:191
 msgid "&Remove"
 msgstr "বন্ধো (&R)"
@@ -291,14 +291,14 @@ msgstr "স্লাইড সো বিন্যাস"
 msgid "Select Image"
 msgstr "ছবি নির্বাচিত করুন"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 16
+#. i18n: file: bgadvanced_ui.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupProgram)
 #: rc.cpp:3
 msgid "Background Program"
 msgstr "পটভূমি প্রোগ্রাম"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 31
+#. i18n: file: bgadvanced_ui.ui:31
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdd)
 #: rc.cpp:6
 msgid ""
 "<qt>\n"
@@ -320,16 +320,16 @@ msgstr ""
 "ফাইলের নাম ও --help (foobar --help)</p>\n"
 "</qt>"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 34
-#. i18n: tag string
-#. i18n: file bgwallpaper_ui.ui line 95
+#. i18n: file: bgadvanced_ui.ui:34
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#. i18n: file: bgwallpaper_ui.ui:95
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
 #: rc.cpp:12 rc.cpp:188
 msgid "&Add..."
 msgstr "যোগ (&A)"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 44
+#. i18n: file: bgadvanced_ui.ui:44
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonRemove)
 #: rc.cpp:15
 msgid ""
 "Click here to remove programs from this list. Please note that it does not "
@@ -339,8 +339,8 @@ msgstr ""
 "এখানে ক্লিক করুন যদি অাপনি তালিকাতে একটা প্রোগ্রাম সরাতে চান। মনে রাখা দরকার যে "
 "এতে, প্রোগ্রামটা শুধুমাত্র তালিকা থেকে মুছে যায়, কিন্তু সিস্টেমে সেটা থেকে যায়।"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 60
+#. i18n: file: bgadvanced_ui.ui:60
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonModify)
 #: rc.cpp:21
 msgid ""
 "<qt>\n"
@@ -366,14 +366,14 @@ msgstr ""
 "পছন্দমতো ওয়েব-পেজ এ্যাড্রেস (URL) দিতে পারেন।</p>\n"
 "</qt>"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 63
+#. i18n: file: bgadvanced_ui.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonModify)
 #: rc.cpp:27
 msgid "&Modify..."
 msgstr "পরিবর্তন (&M)"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 103
+#. i18n: file: bgadvanced_ui.ui:103
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, m_listPrograms)
 #: rc.cpp:30
 msgid ""
 "<qt>\n"
@@ -395,26 +395,26 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 107
+#. i18n: file: bgadvanced_ui.ui:107
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
 #: rc.cpp:41
 msgid "Program"
 msgstr "প্রোগ্রাম"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 112
+#. i18n: file: bgadvanced_ui.ui:112
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
 #: rc.cpp:44
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 117
+#. i18n: file: bgadvanced_ui.ui:117
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
 #: rc.cpp:47
 msgid "Refresh"
 msgstr "রিফ্রেস"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 125
+#. i18n: file: bgadvanced_ui.ui:125
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbProgram)
 #: rc.cpp:50
 msgid ""
 "Check here if you want to allow a program to draw your desktop background. "
@@ -427,22 +427,22 @@ msgstr ""
 "রয়েছে। অাপনি ইচ্ছেমতো যে কোনো একটা প্রোগ্রান ব্যবহার করতে পারেন, ও নতুন প্রোগ্রাম "
 "যোগ অথবা পরিবর্তন করতে পারেন।"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 128
+#. i18n: file: bgadvanced_ui.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbProgram)
 #: rc.cpp:53
 msgid "Use the following program for drawing the background:"
 msgstr "পটভূমি অাকার জন্যে এই প্রোগ্রাম ব্যবহার করুন:"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 138
+#. i18n: file: bgadvanced_ui.ui:138
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupCache)
 #: rc.cpp:56
 msgid "Memory Usage"
 msgstr "মেমোরি ব্যবহৃত"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 144
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 157
+#. i18n: file: bgadvanced_ui.ui:144
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
+#. i18n: file: bgadvanced_ui.ui:157
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, m_spinCache)
 #: rc.cpp:59 rc.cpp:65
 msgid ""
 "In this box you can enter how much memory KDE should use for caching the "
@@ -454,32 +454,32 @@ msgstr ""
 "পারেন। অাপনার যদি প্রত্যেকটা ডেস্কটপে বিভিন্ন পটভূমি থাকে, বেশি মেমোরি থাকলে একটা "
 "থেকে অারেকটা ডেস্কটপে যাওয়া সহজ হয়ে যায় ও দেখতেও ভালো লাগে।"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 147
+#. i18n: file: bgadvanced_ui.ui:147
+#. i18n: ectx: property (text), widget (QLabel, m_lblCache)
 #: rc.cpp:62
 msgid "Size of background cache:"
 msgstr "পটভূমির ক্যাশের পরিমান"
 
-#. i18n: tag string
-#. i18n: file bgadvanced_ui.ui line 160
+#. i18n: file: bgadvanced_ui.ui:160
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_spinCache)
 #: rc.cpp:68
 msgid " k"
 msgstr "k"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 79
+#. i18n: file: bgdialog_ui.ui:79
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonIdentifyScreens)
 #: rc.cpp:71
 msgid "Click this button to show the identifying number for each screen."
 msgstr "এই বাটন ক্লিক করুন যদি প্রত্যেকটা স্ক্রীনের পরিচায়ক নম্বরটি দেখাতে হয়।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 82
+#. i18n: file: bgdialog_ui.ui:82
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonIdentifyScreens)
 #: rc.cpp:74
 msgid "Identify Screens"
 msgstr "স্ক্রীনের পরিচীতি"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 131
+#. i18n: file: bgdialog_ui.ui:131
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdvanced)
 #: rc.cpp:77
 msgid ""
 "Click this button to set the icon text colors and shadow, set up a program "
@@ -489,14 +489,14 @@ msgstr ""
 "এই বাটনটা ক্লিক করে অাইকনের রং ও ছায়া নির্ধারিত করতে পারেন, তথা একটা প্রোগ্রামকে "
 "পটভূমির ছবির জন্যে নির্বাচিত বা পটভূমির ক্যাশের পরিমাপ নিয়ন্ত্রন করতে পারেন।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 134
+#. i18n: file: bgdialog_ui.ui:134
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvanced)
 #: rc.cpp:80
 msgid "Advanced Options"
 msgstr "অতিরিক্ত অপশন সমূহ"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 183
+#. i18n: file: bgdialog_ui.ui:183
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonGetNew)
 #: rc.cpp:83
 msgid ""
 "Click this button to give you a list of new wallpapers to download from the "
@@ -505,22 +505,22 @@ msgstr ""
 "এই বাটন ক্লিক করুন যদি অাপনি ইন্টারনেট থেকে নতুন ওয়ালপেপারের তালিকা ডাউনলোড করতে "
 "চান।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 186
+#. i18n: file: bgdialog_ui.ui:186
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNew)
 #: rc.cpp:86
 msgid "Get New Wallpapers"
 msgstr "নতুন ওয়ালপেপার খোজো"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 231
+#. i18n: file: bgdialog_ui.ui:231
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox3)
 #: rc.cpp:89
 msgid "Options"
 msgstr "অপশন সমূহ"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 246
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 428
+#. i18n: file: bgdialog_ui.ui:246
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblWallpaperPos)
+#. i18n: file: bgdialog_ui.ui:437
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboWallpaperPos)
 #: rc.cpp:92 rc.cpp:137
 msgid ""
 "<qt>You can choose here how a background picture is shown on the desktop:\n"
@@ -544,14 +544,14 @@ msgid ""
 "</ul></qt>"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 249
+#. i18n: file: bgdialog_ui.ui:249
+#. i18n: ectx: property (text), widget (QLabel, m_lblWallpaperPos)
 #: rc.cpp:104
 msgid "Posi&tion:"
 msgstr "অবস্থান (&t):"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 262
+#. i18n: file: bgdialog_ui.ui:265
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboBlend)
 #: rc.cpp:107
 msgid ""
 "If you have selected to use a background picture you can choose various "
@@ -563,14 +563,14 @@ msgstr ""
 "ছবিটার মিশ্রন হতে পারে যেটা সহজেই নির্ধারিত করা যায়। ডিফল্ট অপশন হচ্ছে  \"ব্লেন্ড "
 "হবে না\" যার মানে ছবির নীচে রঙের পটভূমিতে কোনো প্রভাব পড়ে না।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 271
+#. i18n: file: bgdialog_ui.ui:274
+#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorPrimary)
 #: rc.cpp:110
 msgid "Click to choose the primary background color."
 msgstr "প্রাথমিক রং নির্বাচিত করতে এখানে ক্লিক করুন।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 281
+#. i18n: file: bgdialog_ui.ui:284
+#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorSecondary)
 #: rc.cpp:113
 msgid ""
 "Click to choose the secondary background color. If no secondary color is "
@@ -579,22 +579,22 @@ msgstr ""
 "এখানে ক্লিক করে একটা গৌন/দ্বিতীয় রং নির্বাচিত করুন। যদি নির্বাচিত প্যাটার্নের কোনো "
 "গৌন রং দরকার না হয় তাহলে এই বাটনটা অকেজো হয়ে যায়।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 293
+#. i18n: file: bgdialog_ui.ui:296
+#. i18n: ectx: property (text), widget (QLabel, m_lblColors)
 #: rc.cpp:116
 msgid "Co&lors:"
 msgstr "রং সমূহ (&l):"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 306
+#. i18n: file: bgdialog_ui.ui:312
+#. i18n: ectx: property (text), widget (QLabel, m_lblBlending)
 #: rc.cpp:119
 msgid "&Blending:"
 msgstr "মিশ্রন (&B):"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 321
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 337
+#. i18n: file: bgdialog_ui.ui:330
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblBlendBalance)
+#. i18n: file: bgdialog_ui.ui:346
+#. i18n: ectx: property (whatsThis), widget (QSlider, m_sliderBlend)
 #: rc.cpp:122 rc.cpp:128
 msgid ""
 "You can use this slider to control the degree of blending. You can "
@@ -604,14 +604,14 @@ msgstr ""
 "এই স্লাইডার ব্যবহার করুন মিশ্রনের মাত্রা নির্ধারন করার জন্যে। অাপনি স্লাইডারটা সরিয়ে "
 "ও তার প্রভাব প্রাকদর্শন করে বিভিন্ন পরীক্ষা করতে পারেন।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 324
+#. i18n: file: bgdialog_ui.ui:333
+#. i18n: ectx: property (text), widget (QLabel, m_lblBlendBalance)
 #: rc.cpp:125
 msgid "Balance:"
 msgstr "ভারসাম্য:"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 364
+#. i18n: file: bgdialog_ui.ui:373
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbBlendReverse)
 #: rc.cpp:131
 msgid ""
 "For some types of blending, you can reverse the role of the background and "
@@ -620,44 +620,44 @@ msgstr ""
 "কিছু প্রকারের মিশ্রনে, অামরা পটভূমি তথা ছবির ভূমিকা অদল-বদল করে দিতে পারি এই অপশন "
 "চয়ন করে।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 367
+#. i18n: file: bgdialog_ui.ui:376
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbBlendReverse)
 #: rc.cpp:134
 msgid "Reverse roles"
 msgstr "বিপরীত ভূমিকা"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 438
+#. i18n: file: bgdialog_ui.ui:447
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, m_buttonGroupBackground)
 #: rc.cpp:149
 msgid "Background"
 msgstr "পটভূমি"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 444
+#. i18n: file: bgdialog_ui.ui:453
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_radioNoPicture)
 #: rc.cpp:152
 msgid "No picture, color only"
 msgstr "খালি রং অাছে কিন্তু কোনো ছবি নেই"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 447
+#. i18n: file: bgdialog_ui.ui:456
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioNoPicture)
 #: rc.cpp:155
 msgid "&No picture"
 msgstr "কোনো ছবি নেই (&N)"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 454
+#. i18n: file: bgdialog_ui.ui:463
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSlideShow)
 #: rc.cpp:158
 msgid "&Slide show:"
 msgstr "স্লাইড শো (&S):"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 461
+#. i18n: file: bgdialog_ui.ui:470
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioPicture)
 #: rc.cpp:161
 msgid "&Picture:"
 msgstr "ছবি (&P):"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 487
+#. i18n: file: bgdialog_ui.ui:496
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonSetupWallpapers)
 #: rc.cpp:164
 msgid ""
 "Click this button to select a set of images to be used as background "
@@ -669,57 +669,57 @@ msgstr ""
 "ছবি একটা নির্দিষ্ট সময় অবধি দেখানো হয়, তার পরে অন্য অারেকটা ছবি ওই সমূহ থেকে "
 "দেখানো হবে। ছবি গুলো একটা নির্দিষ্ট অথবা এলোমেলো তালিকায় প্রদর্শিত হবে।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 490
+#. i18n: file: bgdialog_ui.ui:499
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonSetupWallpapers)
 #: rc.cpp:167
 msgid "Set&up..."
 msgstr "বিন্যাস (&u)..."
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 548
+#. i18n: file: bgdialog_ui.ui:557
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboScreen)
 #: rc.cpp:170
 msgid ""
 "Choose the screen you wish to configure the background for from this list."
 msgstr "যে স্ক্রীনের পটভূমি কনফিগার করতে চান সেটা এই তালিকা থেকে নির্বাচিত করুন।"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 552
+#. i18n: file: bgdialog_ui.ui:561
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
 #: rc.cpp:173
 msgid "Across All Screens"
 msgstr "সব স্ক্রীনে"
 
-#. i18n: tag string
-#. i18n: file bgdialog_ui.ui line 557
+#. i18n: file: bgdialog_ui.ui:566
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
 #: rc.cpp:176
 msgid "On Each Screen"
 msgstr "প্রত্যেকটা স্ক্রীনে"
 
-#. i18n: tag string
-#. i18n: file bgwallpaper_ui.ui line 22
+#. i18n: file: bgwallpaper_ui.ui:22
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: rc.cpp:179
 msgid "Show the following pictures:"
 msgstr "এই ছবিগুলো দেখানো হবে:"
 
-#. i18n: tag string
-#. i18n: file bgwallpaper_ui.ui line 32
+#. i18n: file: bgwallpaper_ui.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbRandom)
 #: rc.cpp:182
 msgid "&Show pictures in random order"
 msgstr "ছবিগুলো এলোমেলো তালিকায় দেখানো হবে।"
 
-#. i18n: tag string
-#. i18n: file bgwallpaper_ui.ui line 41
+#. i18n: file: bgwallpaper_ui.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:185
 msgid "Change &picture after:"
 msgstr "এই সময়ের পরে ছবে পরিবর্তন হবে:"
 
-#. i18n: tag string
-#. i18n: file bgwallpaper_ui.ui line 125
+#. i18n: file: bgwallpaper_ui.ui:125
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveDown)
 #: rc.cpp:194
 msgid "Move &Down"
 msgstr "নীচে নামবে (&D)"
 
-#. i18n: tag string
-#. i18n: file bgwallpaper_ui.ui line 132
+#. i18n: file: bgwallpaper_ui.ui:132
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveUp)
 #: rc.cpp:197
 msgid "Move &Up"
 msgstr "উপরে উঠবে (&U)"

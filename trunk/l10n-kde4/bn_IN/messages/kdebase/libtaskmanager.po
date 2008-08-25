@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-11 08:30+0200\n"
+"POT-Creation-Date: 2008-08-25 09:06+0200\n"
 "PO-Revision-Date: 2008-07-11 18:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -21,74 +21,80 @@ msgstr ""
 msgid "modified"
 msgstr "পরিবর্তিত"
 
-#: taskrmbmenu.cpp:84
+#: taskrmbmenu.cpp:86
 msgid "&To Current Desktop"
 msgstr "বর্তমান ডেস্কটপে স্থানান্তরণ (&T)"
 
-#: taskrmbmenu.cpp:95
+#: taskrmbmenu.cpp:97
 msgid "&Move"
 msgstr "স্থানান্তরণ (&M)"
 
-#: taskrmbmenu.cpp:98
+#: taskrmbmenu.cpp:100
 msgid "Re&size"
 msgstr "মাপ পরিবর্তন (&s)"
 
-#: taskrmbmenu.cpp:101
+#: taskrmbmenu.cpp:103
 msgid "Mi&nimize"
 msgstr "আড়াল করুন (&n)"
 
-#: taskrmbmenu.cpp:106
+#: taskrmbmenu.cpp:108
 msgid "Ma&ximize"
 msgstr "বড় করুন (&x)"
 
-#: taskrmbmenu.cpp:111
+#: taskrmbmenu.cpp:113
 msgid "&Shade"
 msgstr "ছায়াবৃত (&S)"
 
-#: taskrmbmenu.cpp:118
+#: taskrmbmenu.cpp:120
 msgid "&Close"
 msgstr "বন্ধ করুন (&C)"
 
-#: taskrmbmenu.cpp:146
+#: taskrmbmenu.cpp:148
 msgid "All &to Current Desktop"
 msgstr "দৃশ্যমান ডেস্কটপে সকল স্থানান্তরণ (&t)"
 
-#: taskrmbmenu.cpp:161
+#: taskrmbmenu.cpp:163
 msgid "Mi&nimize All"
 msgstr "সব আড়াল করুন (&n)"
 
-#: taskrmbmenu.cpp:174
+#: taskrmbmenu.cpp:176
 msgid "Ma&ximize All"
 msgstr "সব বড় করুন (&x)"
 
-#: taskrmbmenu.cpp:187
+#: taskrmbmenu.cpp:189
 msgid "&Restore All"
 msgstr "স্বাভাবিক মাপে সব স্থাপন করুন (&R)"
 
-#: taskrmbmenu.cpp:202
+#: taskrmbmenu.cpp:204
 msgid "&Close All"
 msgstr "সব বন্ধ করুন (&C)"
 
-#: taskrmbmenu.cpp:209
+#: taskrmbmenu.cpp:211
 msgid "Ad&vanced"
 msgstr "উন্নত বৈশিষ্ট্য (&v)"
 
-#: taskrmbmenu.cpp:212
+#: taskrmbmenu.cpp:214
 msgid "Keep &Above Others"
 msgstr "সব থেকে উপরের স্থানে স্থাপন করা হবে (&A)"
 
-#: taskrmbmenu.cpp:218
+#: taskrmbmenu.cpp:220
 msgid "Keep &Below Others"
 msgstr "সব থেকে নীচে স্থাপন করা হবে (&B)"
 
-#: taskrmbmenu.cpp:224
+#: taskrmbmenu.cpp:226
 msgid "&Fullscreen"
 msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন (&F)"
 
-#: taskrmbmenu.cpp:240
+#: taskrmbmenu.cpp:242
 msgid "To &Desktop"
 msgstr "পৃথক ডেস্কটপে স্থানান্তরণ (&D)"
 
-#: taskrmbmenu.cpp:242 taskrmbmenu.cpp:267
+#: taskrmbmenu.cpp:244 taskrmbmenu.cpp:270
 msgid "&All Desktops"
+msgstr "সকল ডেস্কটপে স্থাপন করুন (&A)"
+
+#: taskrmbmenu.cpp:267
+#, fuzzy
+#| msgid "&All Desktops"
+msgid "All to &Desktop"
 msgstr "সকল ডেস্কটপে স্থাপন করুন (&A)"
