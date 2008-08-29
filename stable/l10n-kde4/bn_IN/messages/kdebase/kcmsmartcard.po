@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-06 21:58+0100\n"
+"POT-Creation-Date: 2008-08-29 06:15+0200\n"
 "PO-Revision-Date: 2008-07-09 11:00+0530\n"
 "Last-Translator: Sankarshan Mukhopadhyay <sankarshan@randomink.org>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -16,20 +16,20 @@ msgstr ""
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. i18n: tag string
-#. i18n: file nosmartcardbase.ui line 24
+#. i18n: file: nosmartcardbase.ui:24
+#. i18n: ectx: property (text), widget (QLabel)
 #: rc.cpp:3
 msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr "<b>KDE স্মার্টকার্ড সার্ভিস-এর সাথে যোগাযোগ করা সম্ভব হয়নি।</b>"
 
-#. i18n: tag string
-#. i18n: file nosmartcardbase.ui line 35
+#. i18n: file: nosmartcardbase.ui:35
+#. i18n: ectx: property (title), widget (QGroupBox)
 #: rc.cpp:6
 msgid "Possible Reasons"
 msgstr "সম্ভাব্য কারণ"
 
-#. i18n: tag string
-#. i18n: file nosmartcardbase.ui line 49
+#. i18n: file: nosmartcardbase.ui:49
+#. i18n: ectx: property (text), widget (QLabel)
 #: rc.cpp:9
 msgid ""
 "\n"
@@ -41,26 +41,26 @@ msgid ""
 "will need to recompile the kdelibs package with libpcsclite installed."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 31
+#. i18n: file: smartcardbase.ui:31
+#. i18n: ectx: attribute (title), widget (QWidget)
 #: rc.cpp:15
 msgid "Smartcard Support"
 msgstr "স্মার্টকার্ড-র সমর্থন"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 42
+#. i18n: file: smartcardbase.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox)
 #: rc.cpp:18
 msgid "&Enable smartcard support"
 msgstr "স্মার্টকার্ড-এর জন্য সমর্থন সক্রিয় করা হবে (&E)"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 61
+#. i18n: file: smartcardbase.ui:61
+#. i18n: ectx: property (text), widget (QCheckBox)
 #: rc.cpp:21
 msgid "Enable &polling to autodetect card events"
 msgstr "কার্ড সংক্রান্ত কর্ম স্বয়ংক্রিয়ভাবে নির্ধারণের জন্য polling সক্রিয় করুন (&p)"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 64
+#. i18n: file: smartcardbase.ui:64
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
 #: rc.cpp:24
 msgid ""
 "In most cases you should have this enabled. It allows KDE to automatically "
@@ -69,14 +69,14 @@ msgstr ""
 "সাধারনত এইটি সক্রিয় থাকে। এটির দ্বারা KDE স্বয়ংক্রিয়ভাবে কার্ড চালনা ও রিডার হট-"
 "প্লাগ ইভেন্ট নির্ধারণ করে।"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 92
+#. i18n: file: smartcardbase.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox)
 #: rc.cpp:27
 msgid "Automatically &launch card manager if inserted card is unclaimed"
 msgstr "অন্তর্ভুক্ত কার্ড কার্যকরী না হলে, স্বয়ংক্রিয়রূপে কার্ড ম্যানেজার চালু করুন"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 95
+#. i18n: file: smartcardbase.ui:95
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
 #: rc.cpp:30
 msgid ""
 "When you insert a smartcard, KDE can automatically launch a management tool "
@@ -85,50 +85,50 @@ msgstr ""
 "স্মার্টকার্ড অন্তর্ভুক্ত করার পরে যদি কোনো অন্য অ্যাপ্লিকেশন সেটি ব্যবহার না করে তাহলে "
 "KDE দ্বারা স্বয়ংক্রিয়রূপে কার্ড পরিচালন ব্যবস্থা আরম্ভ করা হবে।"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 106
+#. i18n: file: smartcardbase.ui:106
+#. i18n: ectx: property (text), widget (QCheckBox)
 #: rc.cpp:33
 msgid "&Beep on card insert and removal"
 msgstr "কার্ড অন্তর্ভুক্ত বা নিকাশ কালে বিপ শব্দ করা হবে (&B)"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 135
+#. i18n: file: smartcardbase.ui:135
+#. i18n: ectx: attribute (title), widget (QWidget)
 #: rc.cpp:36
 msgid "Readers"
 msgstr "রিডার"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 152
+#. i18n: file: smartcardbase.ui:152
+#. i18n: ectx: property (text), widget (K3ListView)
 #: rc.cpp:39
 msgid "Reader"
 msgstr "রিডার"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 163
+#. i18n: file: smartcardbase.ui:163
+#. i18n: ectx: property (text), widget (K3ListView)
 #: rc.cpp:42
 msgid "Type"
 msgstr "ধরন"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 174
+#. i18n: file: smartcardbase.ui:174
+#. i18n: ectx: property (text), widget (K3ListView)
 #: rc.cpp:45
 msgid "Subtype"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 185
+#. i18n: file: smartcardbase.ui:185
+#. i18n: ectx: property (text), widget (K3ListView)
 #: rc.cpp:48
 msgid "SubSubtype"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 228
+#. i18n: file: smartcardbase.ui:228
+#. i18n: ectx: property (title), widget (QGroupBox)
 #: rc.cpp:51
 msgid "PCSCLite Configuration"
 msgstr "PCSCLite কনফিগারেশন"
 
-#. i18n: tag string
-#. i18n: file smartcardbase.ui line 251
+#. i18n: file: smartcardbase.ui:251
+#. i18n: ectx: property (text), widget (QLabel)
 #: rc.cpp:54
 msgid ""
 "To add new readers you have to modify /etc/readers.conf file and re-start "

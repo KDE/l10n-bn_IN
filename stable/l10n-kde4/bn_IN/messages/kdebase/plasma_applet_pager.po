@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-29 02:52+0200\n"
+"POT-Creation-Date: 2008-08-29 06:16+0200\n"
 "PO-Revision-Date: 2008-07-04 11:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -37,36 +37,36 @@ msgstr "শূণ্য"
 msgid "What will appear when the mouse is over a desktop miniature"
 msgstr "ডেস্কটপের ক্ষুদ্র আকৃতির উপর মাউস স্থাপন করা হলে প্রদর্শনযোগ্য বস্তু"
 
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 13
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 16
+#. i18n: file: pagerConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
+#. i18n: file: pagerConfig.ui:16
+#. i18n: ectx: property (accessibleName), widget (QWidget, pagerConfig)
 #: rc.cpp:3 rc.cpp:6
 msgid "Configure Pager"
 msgstr "Pager কনফিগার করুন"
 
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 25
+#. i18n: file: pagerConfig.ui:25
+#. i18n: ectx: property (text), widget (QLabel, labelText)
 #: rc.cpp:9
 msgid "Displayed text:"
 msgstr "প্রদর্শিত টেক্সট:"
 
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 35
+#. i18n: file: pagerConfig.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, showWindowIconsCheckBox)
 #: rc.cpp:12
 msgid "Display window &icons"
 msgstr "উইন্ডো আইকন প্রদর্শন করা হয় (&i)"
 
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 42
+#. i18n: file: pagerConfig.ui:42
+#. i18n: ectx: property (text), widget (QLabel, labelRows)
 #: rc.cpp:15
 msgid "Number of rows:"
 msgstr "সারির সংখ্যা:"
 
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 52
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 55
+#. i18n: file: pagerConfig.ui:52
+#. i18n: ectx: property (toolTip), widget (QSpinBox, spinRows)
+#. i18n: file: pagerConfig.ui:55
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, spinRows)
 #: rc.cpp:18 rc.cpp:21
 msgid "Change the number of rows"
 msgstr "সারির সংখ্যা পরিবর্তন করুন"
