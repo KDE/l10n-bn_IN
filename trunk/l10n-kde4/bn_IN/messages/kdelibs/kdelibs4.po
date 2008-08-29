@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-28 09:38+0200\n"
+"POT-Creation-Date: 2008-08-29 11:28+0200\n"
 "PO-Revision-Date: 2008-07-03 17:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -370,7 +370,7 @@ msgstr "পাসওয়ার্ড মনে রাখা হবে"
 
 #. i18n: file: kdeui/sonnet/configui.ui:28
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:399
+#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126
 msgid "Options"
 msgstr "বিকল্প"
 
@@ -772,7 +772,7 @@ msgstr "স্থানান্তরণ (&M)"
 #. i18n: ectx: Menu (view)
 #. i18n: file: khtml/khtml_browser.rc:20
 #. i18n: ectx: Menu (view)
-#: rc.cpp:318 rc.cpp:459 kfile/kdiroperator.cpp:1701
+#: rc.cpp:318 rc.cpp:459
 msgid "&View"
 msgstr "প্রদর্শন (&V)"
 
@@ -5779,7 +5779,7 @@ msgstr "মুছে ফেলুন"
 msgid "Test"
 msgstr "পরীক্ষা করুন"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1694
+#: kdeui/util/kstandardguiitem.cpp:285
 msgid "Properties"
 msgstr "বৈশিষ্ট্য"
 
@@ -5834,7 +5834,7 @@ msgstr "Props"
 msgid "Front"
 msgstr "Front"
 
-#: kdeui/util/kkeyserver_x11.cpp:114 kfile/kurlbutton.cpp:90
+#: kdeui/util/kkeyserver_x11.cpp:114
 msgid "Copy"
 msgstr "কপি করুন"
 
@@ -5842,7 +5842,7 @@ msgstr "কপি করুন"
 msgid "Open"
 msgstr "খুলুন"
 
-#: kdeui/util/kkeyserver_x11.cpp:116 kfile/kurlbutton.cpp:94
+#: kdeui/util/kkeyserver_x11.cpp:116
 msgid "Paste"
 msgstr "পেস্ট করুন"
 
@@ -9483,591 +9483,6 @@ msgstr "<< অভিধানে যোগ করুন"
 msgid "Nothing to spell check."
 msgstr "বানান পরীক্ষা করার জন্য কিছু উপস্থিত নেই।"
 
-#: kfile/kfileplacesview.cpp:560
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "আবর্জনার বাক্স ফাঁকা করুন"
-
-#: kfile/kfileplacesview.cpp:566
-#, kde-format
-msgid "&Edit '%1'..."
-msgstr "'%1' সম্পাদনা করুন...(&E)"
-
-#: kfile/kfileplacesview.cpp:585
-#, kde-format
-msgid "&Hide '%1'"
-msgstr "'%1' আড়াল করা হবে (&H)"
-
-#: kfile/kfileplacesview.cpp:592
-msgid "&Show All Entries"
-msgstr "সকল এনট্রি প্রদর্শন করা হবে (&S)"
-
-#: kfile/kfileplacesview.cpp:601
-#, kde-format
-msgid "&Remove '%1'"
-msgstr "'%1' মুছে ফেলুন (&R)"
-
-#: kfile/kfileplacesview.cpp:610
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr ""
-"আপনি কি নিশ্চিতরূপে আবর্জনার বাক্স ফাঁকা করতে ইচ্ছুক? এর ফলে বাক্সের মধ্যে উপস্থিত সকল "
-"সামগ্রী মুছে যাবে।"
-
-#: kfile/kfileplacesview.cpp:614
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "আবর্জনা ফাঁকা করা হবে"
-
-#: kfile/kfilefiltercombo.cpp:36 kfile/kfilewidget.cpp:1663
-msgid "*|All Files"
-msgstr "*|সর্বধরনের ফাইল"
-
-#: kfile/kfilefiltercombo.cpp:181
-msgid "All Supported Files"
-msgstr "সর্বধরনের সমর্থিত ফাইল"
-
-#: kfile/kfilewidget.cpp:246
-msgid ""
-"<qt>While typing in the text area, you may be presented with possible "
-"matches. This feature can be controlled by clicking with the right mouse "
-"button and selecting a preferred mode from the <b>Text Completion</b> menu."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:313
-#, kde-format
-msgid "Drive: %1"
-msgstr "ড্রাইভ: %1"
-
-#: kfile/kfilewidget.cpp:368
-#, kde-format
-msgid ""
-"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
-"if the current location is file:/home/%1 clicking this button will take you "
-"to file:/home.</qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:373
-msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:375
-msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:378
-msgid "Click this button to reload the contents of the current location."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:381
-msgid "Click this button to create a new folder."
-msgstr "নতুন ফোল্ডার নির্মাণ করার জন্য এই বাটন ক্লিক করুন।"
-
-#: kfile/kfilewidget.cpp:387
-msgid "Show Places Navigation Panel"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:394
-msgid "Show Bookmarks"
-msgstr "বুকমার্ক প্রদর্শন করা হবে"
-
-#: kfile/kfilewidget.cpp:401
-msgid ""
-"<qt>This is the preferences menu for the file dialog. Various options can be "
-"accessed from this menu including: <ul><li>how files are sorted in the list</"
-"li><li>types of view, including icon and list</li><li>showing of hidden "
-"files</li><li>the Places navigation panel</li><li>file previews</"
-"li><li>separating folders from files</li></ul></qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:447 kfile/kfileplaceeditdialog.cpp:116
-msgid "&Location:"
-msgstr "অবস্থান: (&L)"
-
-#: kfile/kfilewidget.cpp:484
-msgid ""
-"<qt>This is the filter to apply to the file list. File names that do not "
-"match the filter will not be shown.<p>You may select from one of the preset "
-"filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:490
-msgid "&Filter:"
-msgstr "ফিল্টার: (&F)"
-
-#: kfile/kfilewidget.cpp:717 kfile/kfilewidget.cpp:766
-#: kfile/kfilewidget.cpp:1600
-msgid "You can only select local files."
-msgstr "শুধুমাত্র স্থানীয় ফাইল নির্বাচন করা যাবে।"
-
-#: kfile/kfilewidget.cpp:718 kfile/kfilewidget.cpp:767
-#: kfile/kfilewidget.cpp:1601
-msgid "Remote Files Not Accepted"
-msgstr "দূরবর্তী ফাইল গ্রহণযোগ নয়"
-
-#: kfile/kfilewidget.cpp:757
-#, kde-format
-msgid ""
-"%1\n"
-"does not appear to be a valid URL.\n"
-msgstr ""
-"%1\n"
-"সম্ভবত বৈধ URL নয়।\n"
-
-#: kfile/kfilewidget.cpp:757
-msgid "Invalid URL"
-msgstr "অবৈধ URL"
-
-#: kfile/kfilewidget.cpp:1191
-msgid "This is the name to save the file as."
-msgstr "ফাইল সংরক্ষণের জন্য এই নাম ব্যবহার করা হবে।"
-
-#: kfile/kfilewidget.cpp:1196
-msgid ""
-"This is the list of files to open. More than one file can be specified by "
-"listing several files, separated by spaces."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1203
-msgid "This is the name of the file to open."
-msgstr "খোলার উদ্দেশ্যে এই ফাইল চিহ্নিত করা হয়েছে।"
-
-#: kfile/kfilewidget.cpp:1377
-#, kde-format
-msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1378 khtml/khtml_ext.cpp:928
-msgid "Overwrite File?"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1532
-msgid ""
-"The chosen filenames do not\n"
-"appear to be valid."
-msgstr ""
-"নির্বাচিত ফাইলগুলি\n"
-"সম্ভবত বৈধ নয়।"
-
-#: kfile/kfilewidget.cpp:1534
-msgid "Invalid Filenames"
-msgstr "ফাইলের নাম বৈধ নয়"
-
-#: kfile/kfilewidget.cpp:1563
-#, kde-format
-msgid ""
-"The requested filenames\n"
-"%1\n"
-"do not appear to be valid;\n"
-"make sure every filename is enclosed in double quotes."
-msgstr ""
-"অনুরোধ করা ফাইলের নামগুলি\n"
-"%1\n"
-"সম্ভবত বৈধ নয়;\n"
-"অনুগ্রহ করে ফাইলের নাম লেখার সময় তা উদ্ধৃতিচিহ্নের (ডাবল-কোট) মধ্যে লিখুন।"
-
-#: kfile/kfilewidget.cpp:1567
-msgid "Filename Error"
-msgstr "ফাইলের নাম সংক্রান্ত ত্রুটি"
-
-#: kfile/kfilewidget.cpp:1660
-msgid "*|All Folders"
-msgstr "*|সকল ফোল্ডার"
-
-#: kfile/kfilewidget.cpp:1802 kparts/browserrun.cpp:384
-msgid "&Open"
-msgstr "খুলুন (&O)"
-
-#: kfile/kfilewidget.cpp:1958
-#, kde-format
-msgid "Automatically select filename e&xtension (%1)"
-msgstr "স্বয়ংক্রিয়রূপে ফাইলে এক্সটেনশন নির্বাচন করা হবে (%1) (&x)"
-
-#: kfile/kfilewidget.cpp:1959
-#, kde-format
-msgid "the extension <b>%1</b>"
-msgstr "<b>%1</b> এক্সটেনশন"
-
-#: kfile/kfilewidget.cpp:1967
-msgid "Automatically select filename e&xtension"
-msgstr "স্বয়ংক্রিয়রূপে ফাইলে এক্সটেনশন নির্বাচন করা হবে (&x)"
-
-#: kfile/kfilewidget.cpp:1968
-msgid "a suitable extension"
-msgstr "যথাযত এক্সটেনশন"
-
-#: kfile/kfilewidget.cpp:1978
-#, kde-format
-msgid ""
-"This option enables some convenient features for saving files with "
-"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br /><br /></"
-"li><li>If no extension is specified in the <b>%2</b> text area when you "
-"click <b>Save</b>, %3 will be added to the end of the filename (if the "
-"filename does not already exist). This extension is based on the file type "
-"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
-"an extension for the filename, you can either turn this option off or you "
-"can suppress it by adding a period (.) to the end of the filename (the "
-"period will be automatically removed).</li></ol>If unsure, keep this option "
-"enabled as it makes your files more manageable."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:2277
-msgid "Bookmarks"
-msgstr "বুকমার্ক"
-
-#: kfile/kfilewidget.cpp:2281
-msgid ""
-"<qt>This button allows you to bookmark specific locations. Click on this "
-"button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
-"otherwise operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-
-#: kfile/kfileplacesmodel.cpp:101
-msgctxt "Home Directory"
-msgid "Home"
-msgstr "ব্যক্তিগত ডিরেক্টরি"
-
-#: kfile/kfileplacesmodel.cpp:103
-msgid "Network"
-msgstr "নেটওয়ার্ক"
-
-#: kfile/kfileplacesmodel.cpp:107 kfile/kfileplacesmodel.cpp:110
-msgid "Root"
-msgstr "Root"
-
-#: kfile/kfileplacesmodel.cpp:113
-msgid "Trash"
-msgstr "আবর্জনা"
-
-#: kfile/kfileplacesmodel.cpp:687
-#, fuzzy, kde-format
-#| msgid "&Remove '%1'"
-msgid "&Release '%1'"
-msgstr "'%1' মুছে ফেলুন (&R)"
-
-#: kfile/kfileplacesmodel.cpp:689
-#, kde-format
-msgid "&Safely Remove '%1'"
-msgstr "নিরাপদভাবে '%1' সরিয়ে নিন (&S)"
-
-#: kfile/kfileplacesmodel.cpp:692
-#, kde-format
-msgid "&Unmount '%1'"
-msgstr "'%1' আন-মাউন্ট করুন (&U)"
-
-#: kfile/kfileplacesmodel.cpp:713
-#, kde-format
-msgid "&Eject '%1'"
-msgstr "'%1' বের করা হবে (&E)"
-
-#: kfile/kfileplacesmodel.cpp:746
-#, fuzzy, kde-format
-#| msgid "%1 is not a function and cannot be called."
-msgid "The device '%1' is not a disc and can't be ejected."
-msgstr "%1 ফাংশান নয় এবং এটি কল (call) করা সম্ভব নয়।"
-
-#: kfile/kfileplacesmodel.cpp:782
-#, kde-format
-msgid "An error occurred while accessing '%1', the system responded: %2"
-msgstr ""
-"'%1' ব্যবহারের প্রচেষ্টাকালে একটি সমস্যা দেখা দিয়েছে। সিস্টেম থেকে প্রাপ্ত উত্তর: %2"
-
-#: kfile/kfileplacesmodel.cpp:786
-#, kde-format
-msgid "An error occurred while accessing '%1'"
-msgstr "'%1' ব্যবহারের প্রচেষ্টা করতে সমস্যা"
-
-#: kfile/kurlnavigator.cpp:573
-msgid "Custom Path"
-msgstr "স্বনির্ধারিত পাথ"
-
-#: kfile/kdirselectdialog.cpp:115 kfile/kdiroperator.cpp:666
-#: kfile/kdiroperator.cpp:674
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: kfile/kdirselectdialog.cpp:119
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: kfile/kdirselectdialog.cpp:120
-#, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"চিহ্নিত স্থানে নতুন ফেল্ডার তৈরি করা হবে:\n"
-"%1"
-
-#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:701
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr "%1 নামক একটি ফাইল অথবা ফোল্ডার বর্তমানে উপস্থিত রয়েছে।"
-
-#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:704
-msgid "You do not have permission to create that folder."
-msgstr "এই ফোল্ডারটি নির্মাণ করার জন্য আবশ্যক অনুমতি আপনার নেই।"
-
-#: kfile/kdirselectdialog.cpp:223
-msgctxt "@title:window"
-msgid "Select Folder"
-msgstr "ফোল্ডার নির্বাচন করুন"
-
-#: kfile/kdirselectdialog.cpp:225
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "নতুন ফোল্ডার..."
-
-#: kfile/kdirselectdialog.cpp:264
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "নতুন ফোল্ডার..."
-
-#: kfile/kdirselectdialog.cpp:271
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "আড়াল করা ফোল্ডার প্রদর্শন করা হবে"
-
-#: kfile/kfileplaceeditdialog.cpp:85
-msgid "Edit Places Entry"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:99
-msgid ""
-"<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"description should consist of one or two words that will help you remember "
-"what this entry refers to.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:102
-msgid "&Description:"
-msgstr "বিবরণ: (&D)"
-
-#: kfile/kfileplaceeditdialog.cpp:112
-#, kde-format
-msgid ""
-"<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
-"edit box you can browse to an appropriate URL.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:125
-msgid ""
-"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
-"on the button to select a different icon.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:127
-msgid "Choose an &icon:"
-msgstr "একটি আইকন নির্বাচন করুন: (&i)"
-
-#: kfile/kfileplaceeditdialog.cpp:147
-#, kde-format
-msgid "&Only show when using this application (%1)"
-msgstr "শুধুমাত্র চিহ্নিত অ্যাপ্লিকেশন ব্যবহারকালে প্রদর্শন করা হবে (%1) (&O)"
-
-#: kfile/kfileplaceeditdialog.cpp:149
-#, kde-format
-msgid ""
-"<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<br /><br />If this setting is not selected, the "
-"entry will be available in all applications.</qt>"
-msgstr ""
-
-#: kfile/kfiletreeview.cpp:185
-msgid "Show Hidden Folders"
-msgstr "আড়াল করা ফোল্ডার প্রদর্শন করা হবে"
-
-#: kfile/kdiroperator.cpp:675
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"চিহ্নিত স্থানে নতুন ফোল্ডার নির্বাচন করুন:\n"
-"%1"
-
-#: kfile/kdiroperator.cpp:719
-msgid "You did not select a file to delete."
-msgstr "মুছে ফেলার জন্য কোনো ফাইল নির্বাচন করা হয়নি।"
-
-#: kfile/kdiroperator.cpp:720
-msgid "Nothing to Delete"
-msgstr "মুছে ফেলা জন্য কিছু নেই"
-
-#: kfile/kdiroperator.cpp:741
-#, kde-format
-msgid ""
-"<qt>Do you really want to delete\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt>আপনি কি নিশ্চিতরূপে\n"
-" <b>'%1'</b> মুছে ফেলতে ইচ্ছুক?</qt>"
-
-#: kfile/kdiroperator.cpp:743
-msgid "Delete File"
-msgstr "ফাইল মুছে ফেলুন"
-
-#: kfile/kdiroperator.cpp:748
-#, kde-format
-msgid "Do you really want to delete this item?"
-msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "আপনি কি নিশ্চিতরূপে এই বস্তুটি মুছে ফেলতে ইচ্ছুক?"
-msgstr[1] "আপনি কি নিশ্চিতরূপে এই %1-টি বস্তুগুলি মুছে ফেলতে ইচ্ছুক?"
-
-#: kfile/kdiroperator.cpp:750
-msgid "Delete Files"
-msgstr "ফাইল মুছে ফেলুন"
-
-#: kfile/kdiroperator.cpp:781
-msgid "You did not select a file to trash."
-msgstr "আবর্জনায় সরানোর উদ্দেশ্যে কোনো ফাইল নির্বাচন করা হয়নি।"
-
-#: kfile/kdiroperator.cpp:782
-msgid "Nothing to Trash"
-msgstr "আবর্জনায় সরানোর জন্য কিছু নেই"
-
-#: kfile/kdiroperator.cpp:799
-#, kde-format
-msgid ""
-"<qt>Do you really want to trash\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt>আপনি কি নিশ্চিতরূপে\n"
-" <b>'%1'</b> আবর্জনায় সরাতে ইচ্ছুক?</qt>"
-
-#: kfile/kdiroperator.cpp:801
-msgid "Trash File"
-msgstr "ফাইল আবর্জনায় সরানো হবে"
-
-#: kfile/kdiroperator.cpp:802 kfile/kdiroperator.cpp:809
-msgctxt "to trash"
-msgid "&Trash"
-msgstr "আবর্জনা (&T)"
-
-#: kfile/kdiroperator.cpp:806
-#, kde-format
-msgid "translators: not called for n == 1"
-msgid_plural "Do you really want to trash these %1 items?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kfile/kdiroperator.cpp:808
-msgid "Trash Files"
-msgstr "ফাইল আবর্জনায় সরানো হবে"
-
-#: kfile/kdiroperator.cpp:935 kfile/kdiroperator.cpp:1052
-msgid "The specified folder does not exist or was not readable."
-msgstr "উল্লিখিত ফোল্ডার অনুপস্থিত অথবা এটি পড়া সম্ভব নয়।"
-
-#: kfile/kdiroperator.cpp:1594
-msgid "Menu"
-msgstr "মেনু"
-
-#: kfile/kdiroperator.cpp:1598
-msgid "Parent Folder"
-msgstr "ঊর্ধ্বতন ফোল্ডার"
-
-#: kfile/kdiroperator.cpp:1605
-msgid "Home Folder"
-msgstr "ব্যক্তিগত ফোল্ডার"
-
-#: kfile/kdiroperator.cpp:1608
-msgid "Reload"
-msgstr "পুনরায় লোড করা হবে"
-
-#: kfile/kdiroperator.cpp:1611
-msgid "New Folder..."
-msgstr "নতুন ফোল্ডার..."
-
-#: kfile/kdiroperator.cpp:1616
-msgid "Move to Trash"
-msgstr "আবর্জনার বাক্স স্থানান্তর"
-
-#: kfile/kdiroperator.cpp:1622
-msgid "Delete"
-msgstr "মুছে ফেলুন"
-
-#: kfile/kdiroperator.cpp:1629
-msgid "Sorting"
-msgstr "ক্রমবিন্যাস"
-
-#: kfile/kdiroperator.cpp:1632
-msgid "By Name"
-msgstr "নাম অনুসারে"
-
-#: kfile/kdiroperator.cpp:1636
-msgid "By Size"
-msgstr "মাপ অনুসারে"
-
-#: kfile/kdiroperator.cpp:1640
-msgid "By Date"
-msgstr "তারিখ অনুসারে"
-
-#: kfile/kdiroperator.cpp:1644
-msgid "By Type"
-msgstr "ধরন অনুসারে"
-
-#: kfile/kdiroperator.cpp:1648
-msgid "Descending"
-msgstr "বড় থেকে ছোট"
-
-#: kfile/kdiroperator.cpp:1658
-msgid "Short View"
-msgstr "সংক্ষিপ্ত প্রদর্শন"
-
-#: kfile/kdiroperator.cpp:1663
-msgid "Detailed View"
-msgstr "বিস্তারিত প্রদর্শন"
-
-#: kfile/kdiroperator.cpp:1668
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Tree View"
-msgstr "বিস্তারিত প্রদর্শন"
-
-#: kfile/kdiroperator.cpp:1673
-#, fuzzy
-#| msgid "Detailed View"
-msgid "Detailed Tree View"
-msgstr "বিস্তারিত প্রদর্শন"
-
-#: kfile/kdiroperator.cpp:1684
-msgid "Show Hidden Files"
-msgstr "আড়াল করা ফাইল প্রদর্শন করা হবে"
-
-#: kfile/kdiroperator.cpp:1688
-msgid "Show Preview"
-msgstr "পূর্বরূপ প্রদর্শন করা হবে"
-
-#: kfile/kurltogglebutton.cpp:76
-msgid "Click for Location Navigation"
-msgstr ""
-
-#: kfile/kurltogglebutton.cpp:78
-msgid "Click to Edit Location"
-msgstr ""
-
-#: kfile/kurlbutton.cpp:101 kross/ui/view.cpp:505
-msgid "Edit"
-msgstr "সম্পাদনা"
-
-#: kfile/kurlbutton.cpp:104
-msgid "Navigate"
-msgstr "পরিদর্শন"
-
-#: kfile/kurlbutton.cpp:119
-#, fuzzy
-#| msgid "Show all options"
-msgid "Show Full Path"
-msgstr "সকল বিকল্প প্রদর্শন করা হবে"
-
 #: khtml/testkhtml.cpp:38
 msgid "URL to open"
 msgstr "প্রদর্শনের উদ্দেশ্যে URL"
@@ -10323,6 +9738,10 @@ msgstr ""
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: khtml/khtml_ext.cpp:928
+msgid "Overwrite File?"
 msgstr ""
 
 #: khtml/khtml_ext.cpp:928
@@ -11462,6 +10881,10 @@ msgstr "নতুন স্ক্রিপ্ট যোগ করুন।"
 msgid "Remove selected script."
 msgstr "নির্বাচিত স্ক্রিপ্ট মুছে ফেলুন।"
 
+#: kross/ui/view.cpp:505
+msgid "Edit"
+msgstr "সম্পাদনা"
+
 #: kross/qts/main.cpp:57 kross/console/main.cpp:94
 msgid "Kross"
 msgstr "Kross"
@@ -11735,6 +11158,10 @@ msgstr "'%1' সহযোগে খুলুন (&O)"
 #: kparts/browserrun.cpp:339
 msgid "&Open With..."
 msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
+
+#: kparts/browserrun.cpp:384
+msgid "&Open"
+msgstr "খুলুন (&O)"
 
 #: kutils/kcmoduleloader.cpp:76
 #, kde-format
@@ -12851,6 +12278,335 @@ msgstr "দিনের উপদেশ (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Empty Trash"
+#~ msgstr "আবর্জনার বাক্স ফাঁকা করুন"
+
+#~ msgid "&Edit '%1'..."
+#~ msgstr "'%1' সম্পাদনা করুন...(&E)"
+
+#~ msgid "&Hide '%1'"
+#~ msgstr "'%1' আড়াল করা হবে (&H)"
+
+#~ msgid "&Show All Entries"
+#~ msgstr "সকল এনট্রি প্রদর্শন করা হবে (&S)"
+
+#~ msgid "&Remove '%1'"
+#~ msgstr "'%1' মুছে ফেলুন (&R)"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to empty the Trash? All items will be deleted."
+#~ msgstr ""
+#~ "আপনি কি নিশ্চিতরূপে আবর্জনার বাক্স ফাঁকা করতে ইচ্ছুক? এর ফলে বাক্সের মধ্যে উপস্থিত "
+#~ "সকল সামগ্রী মুছে যাবে।"
+
+#~ msgctxt "@action:button"
+#~ msgid "Empty Trash"
+#~ msgstr "আবর্জনা ফাঁকা করা হবে"
+
+#~ msgid "*|All Files"
+#~ msgstr "*|সর্বধরনের ফাইল"
+
+#~ msgid "All Supported Files"
+#~ msgstr "সর্বধরনের সমর্থিত ফাইল"
+
+#~ msgid "Drive: %1"
+#~ msgstr "ড্রাইভ: %1"
+
+#~ msgid "Click this button to create a new folder."
+#~ msgstr "নতুন ফোল্ডার নির্মাণ করার জন্য এই বাটন ক্লিক করুন।"
+
+#~ msgid "Show Bookmarks"
+#~ msgstr "বুকমার্ক প্রদর্শন করা হবে"
+
+#~ msgid "&Location:"
+#~ msgstr "অবস্থান: (&L)"
+
+#~ msgid "&Filter:"
+#~ msgstr "ফিল্টার: (&F)"
+
+#~ msgid "You can only select local files."
+#~ msgstr "শুধুমাত্র স্থানীয় ফাইল নির্বাচন করা যাবে।"
+
+#~ msgid "Remote Files Not Accepted"
+#~ msgstr "দূরবর্তী ফাইল গ্রহণযোগ নয়"
+
+#~ msgid ""
+#~ "%1\n"
+#~ "does not appear to be a valid URL.\n"
+#~ msgstr ""
+#~ "%1\n"
+#~ "সম্ভবত বৈধ URL নয়।\n"
+
+#~ msgid "Invalid URL"
+#~ msgstr "অবৈধ URL"
+
+#~ msgid "This is the name to save the file as."
+#~ msgstr "ফাইল সংরক্ষণের জন্য এই নাম ব্যবহার করা হবে।"
+
+#~ msgid "This is the name of the file to open."
+#~ msgstr "খোলার উদ্দেশ্যে এই ফাইল চিহ্নিত করা হয়েছে।"
+
+#~ msgid ""
+#~ "The chosen filenames do not\n"
+#~ "appear to be valid."
+#~ msgstr ""
+#~ "নির্বাচিত ফাইলগুলি\n"
+#~ "সম্ভবত বৈধ নয়।"
+
+#~ msgid "Invalid Filenames"
+#~ msgstr "ফাইলের নাম বৈধ নয়"
+
+#~ msgid ""
+#~ "The requested filenames\n"
+#~ "%1\n"
+#~ "do not appear to be valid;\n"
+#~ "make sure every filename is enclosed in double quotes."
+#~ msgstr ""
+#~ "অনুরোধ করা ফাইলের নামগুলি\n"
+#~ "%1\n"
+#~ "সম্ভবত বৈধ নয়;\n"
+#~ "অনুগ্রহ করে ফাইলের নাম লেখার সময় তা উদ্ধৃতিচিহ্নের (ডাবল-কোট) মধ্যে লিখুন।"
+
+#~ msgid "Filename Error"
+#~ msgstr "ফাইলের নাম সংক্রান্ত ত্রুটি"
+
+#~ msgid "*|All Folders"
+#~ msgstr "*|সকল ফোল্ডার"
+
+#~ msgid "Automatically select filename e&xtension (%1)"
+#~ msgstr "স্বয়ংক্রিয়রূপে ফাইলে এক্সটেনশন নির্বাচন করা হবে (%1) (&x)"
+
+#~ msgid "the extension <b>%1</b>"
+#~ msgstr "<b>%1</b> এক্সটেনশন"
+
+#~ msgid "Automatically select filename e&xtension"
+#~ msgstr "স্বয়ংক্রিয়রূপে ফাইলে এক্সটেনশন নির্বাচন করা হবে (&x)"
+
+#~ msgid "a suitable extension"
+#~ msgstr "যথাযত এক্সটেনশন"
+
+#~ msgid "Bookmarks"
+#~ msgstr "বুকমার্ক"
+
+#~ msgctxt "Home Directory"
+#~ msgid "Home"
+#~ msgstr "ব্যক্তিগত ডিরেক্টরি"
+
+#~ msgid "Network"
+#~ msgstr "নেটওয়ার্ক"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Trash"
+#~ msgstr "আবর্জনা"
+
+#, fuzzy
+#~| msgid "&Remove '%1'"
+#~ msgid "&Release '%1'"
+#~ msgstr "'%1' মুছে ফেলুন (&R)"
+
+#~ msgid "&Safely Remove '%1'"
+#~ msgstr "নিরাপদভাবে '%1' সরিয়ে নিন (&S)"
+
+#~ msgid "&Unmount '%1'"
+#~ msgstr "'%1' আন-মাউন্ট করুন (&U)"
+
+#~ msgid "&Eject '%1'"
+#~ msgstr "'%1' বের করা হবে (&E)"
+
+#, fuzzy
+#~| msgid "%1 is not a function and cannot be called."
+#~ msgid "The device '%1' is not a disc and can't be ejected."
+#~ msgstr "%1 ফাংশান নয় এবং এটি কল (call) করা সম্ভব নয়।"
+
+#~ msgid "An error occurred while accessing '%1', the system responded: %2"
+#~ msgstr ""
+#~ "'%1' ব্যবহারের প্রচেষ্টাকালে একটি সমস্যা দেখা দিয়েছে। সিস্টেম থেকে প্রাপ্ত উত্তর: "
+#~ "%2"
+
+#~ msgid "An error occurred while accessing '%1'"
+#~ msgstr "'%1' ব্যবহারের প্রচেষ্টা করতে সমস্যা"
+
+#~ msgid "Custom Path"
+#~ msgstr "স্বনির্ধারিত পাথ"
+
+#~ msgid "New Folder"
+#~ msgstr "নতুন ফোল্ডার"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "নতুন ফোল্ডার"
+
+#~ msgctxt "@label:textbox"
+#~ msgid ""
+#~ "Create new folder in:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "চিহ্নিত স্থানে নতুন ফেল্ডার তৈরি করা হবে:\n"
+#~ "%1"
+
+#~ msgid "A file or folder named %1 already exists."
+#~ msgstr "%1 নামক একটি ফাইল অথবা ফোল্ডার বর্তমানে উপস্থিত রয়েছে।"
+
+#~ msgid "You do not have permission to create that folder."
+#~ msgstr "এই ফোল্ডারটি নির্মাণ করার জন্য আবশ্যক অনুমতি আপনার নেই।"
+
+#~ msgctxt "@title:window"
+#~ msgid "Select Folder"
+#~ msgstr "ফোল্ডার নির্বাচন করুন"
+
+#~ msgctxt "@action:button"
+#~ msgid "New Folder..."
+#~ msgstr "নতুন ফোল্ডার..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Folder..."
+#~ msgstr "নতুন ফোল্ডার..."
+
+#~ msgctxt "@option:check"
+#~ msgid "Show Hidden Folders"
+#~ msgstr "আড়াল করা ফোল্ডার প্রদর্শন করা হবে"
+
+#~ msgid "&Description:"
+#~ msgstr "বিবরণ: (&D)"
+
+#~ msgid "Choose an &icon:"
+#~ msgstr "একটি আইকন নির্বাচন করুন: (&i)"
+
+#~ msgid "&Only show when using this application (%1)"
+#~ msgstr "শুধুমাত্র চিহ্নিত অ্যাপ্লিকেশন ব্যবহারকালে প্রদর্শন করা হবে (%1) (&O)"
+
+#~ msgid "Show Hidden Folders"
+#~ msgstr "আড়াল করা ফোল্ডার প্রদর্শন করা হবে"
+
+#~ msgid ""
+#~ "Create new folder in:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "চিহ্নিত স্থানে নতুন ফোল্ডার নির্বাচন করুন:\n"
+#~ "%1"
+
+#~ msgid "You did not select a file to delete."
+#~ msgstr "মুছে ফেলার জন্য কোনো ফাইল নির্বাচন করা হয়নি।"
+
+#~ msgid "Nothing to Delete"
+#~ msgstr "মুছে ফেলা জন্য কিছু নেই"
+
+#~ msgid ""
+#~ "<qt>Do you really want to delete\n"
+#~ " <b>'%1'</b>?</qt>"
+#~ msgstr ""
+#~ "<qt>আপনি কি নিশ্চিতরূপে\n"
+#~ " <b>'%1'</b> মুছে ফেলতে ইচ্ছুক?</qt>"
+
+#~ msgid "Delete File"
+#~ msgstr "ফাইল মুছে ফেলুন"
+
+#~ msgid "Do you really want to delete this item?"
+#~ msgid_plural "Do you really want to delete these %1 items?"
+#~ msgstr[0] "আপনি কি নিশ্চিতরূপে এই বস্তুটি মুছে ফেলতে ইচ্ছুক?"
+#~ msgstr[1] "আপনি কি নিশ্চিতরূপে এই %1-টি বস্তুগুলি মুছে ফেলতে ইচ্ছুক?"
+
+#~ msgid "Delete Files"
+#~ msgstr "ফাইল মুছে ফেলুন"
+
+#~ msgid "You did not select a file to trash."
+#~ msgstr "আবর্জনায় সরানোর উদ্দেশ্যে কোনো ফাইল নির্বাচন করা হয়নি।"
+
+#~ msgid "Nothing to Trash"
+#~ msgstr "আবর্জনায় সরানোর জন্য কিছু নেই"
+
+#~ msgid ""
+#~ "<qt>Do you really want to trash\n"
+#~ " <b>'%1'</b>?</qt>"
+#~ msgstr ""
+#~ "<qt>আপনি কি নিশ্চিতরূপে\n"
+#~ " <b>'%1'</b> আবর্জনায় সরাতে ইচ্ছুক?</qt>"
+
+#~ msgid "Trash File"
+#~ msgstr "ফাইল আবর্জনায় সরানো হবে"
+
+#~ msgctxt "to trash"
+#~ msgid "&Trash"
+#~ msgstr "আবর্জনা (&T)"
+
+#~ msgid "Trash Files"
+#~ msgstr "ফাইল আবর্জনায় সরানো হবে"
+
+#~ msgid "The specified folder does not exist or was not readable."
+#~ msgstr "উল্লিখিত ফোল্ডার অনুপস্থিত অথবা এটি পড়া সম্ভব নয়।"
+
+#~ msgid "Menu"
+#~ msgstr "মেনু"
+
+#~ msgid "Parent Folder"
+#~ msgstr "ঊর্ধ্বতন ফোল্ডার"
+
+#~ msgid "Home Folder"
+#~ msgstr "ব্যক্তিগত ফোল্ডার"
+
+#~ msgid "Reload"
+#~ msgstr "পুনরায় লোড করা হবে"
+
+#~ msgid "New Folder..."
+#~ msgstr "নতুন ফোল্ডার..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "আবর্জনার বাক্স স্থানান্তর"
+
+#~ msgid "Delete"
+#~ msgstr "মুছে ফেলুন"
+
+#~ msgid "Sorting"
+#~ msgstr "ক্রমবিন্যাস"
+
+#~ msgid "By Name"
+#~ msgstr "নাম অনুসারে"
+
+#~ msgid "By Size"
+#~ msgstr "মাপ অনুসারে"
+
+#~ msgid "By Date"
+#~ msgstr "তারিখ অনুসারে"
+
+#~ msgid "By Type"
+#~ msgstr "ধরন অনুসারে"
+
+#~ msgid "Descending"
+#~ msgstr "বড় থেকে ছোট"
+
+#~ msgid "Short View"
+#~ msgstr "সংক্ষিপ্ত প্রদর্শন"
+
+#~ msgid "Detailed View"
+#~ msgstr "বিস্তারিত প্রদর্শন"
+
+#, fuzzy
+#~| msgid "Detailed View"
+#~ msgid "Tree View"
+#~ msgstr "বিস্তারিত প্রদর্শন"
+
+#, fuzzy
+#~| msgid "Detailed View"
+#~ msgid "Detailed Tree View"
+#~ msgstr "বিস্তারিত প্রদর্শন"
+
+#~ msgid "Show Hidden Files"
+#~ msgstr "আড়াল করা ফাইল প্রদর্শন করা হবে"
+
+#~ msgid "Show Preview"
+#~ msgstr "পূর্বরূপ প্রদর্শন করা হবে"
+
+#~ msgid "Navigate"
+#~ msgstr "পরিদর্শন"
+
+#, fuzzy
+#~| msgid "Show all options"
+#~ msgid "Show Full Path"
+#~ msgstr "সকল বিকল্প প্রদর্শন করা হবে"
 
 #, fuzzy
 #~| msgctxt "KCharselect unicode block name"
