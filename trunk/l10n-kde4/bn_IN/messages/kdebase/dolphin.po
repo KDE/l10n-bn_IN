@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-01 09:33+0200\n"
+"POT-Creation-Date: 2008-09-03 10:05+0200\n"
 "PO-Revision-Date: 2008-07-07 02:25+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KAider 0.1\n"
 
-#: filterbar.cpp:43
-msgctxt "@label:textbox"
-msgid "Filter:"
-msgstr "ফিল্টার"
-
-#: filterbar.cpp:56
+#: filterbar.cpp:41
 msgctxt "@info:tooltip"
 msgid "Hide Filter Bar"
 msgstr "ফিল্টার বার অদৃশ্য হবে"
+
+#: filterbar.cpp:45
+msgctxt "@label:textbox"
+msgid "Filter:"
+msgstr "ফিল্টার"
 
 #: iconsizegroupbox.cpp:29
 msgctxt "@title:group"
@@ -194,7 +194,7 @@ msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ফোল্ডার খোলা হচ্ছে..."
 
-#: dolphinviewcontainer.cpp:323
+#: dolphinviewcontainer.cpp:324
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -202,7 +202,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
 
-#: dolphinviewcontainer.cpp:331
+#: dolphinviewcontainer.cpp:332
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected (%2)"
