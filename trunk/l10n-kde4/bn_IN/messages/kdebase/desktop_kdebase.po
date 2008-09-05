@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-03 08:15+0000\n"
+"POT-Creation-Date: 2008-09-05 07:46+0000\n"
 "PO-Revision-Date: 2008-07-09 00:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -3194,6 +3194,11 @@ msgstr "ব্রাউজার প্লাগ-ইন কনফিগার �
 msgctxt "Name"
 msgid "Folder View"
 msgstr "ফোল্ডার প্রদর্শন"
+
+#: apps/plasma/applets/folderview/plasma-applet-folderview.desktop:57
+msgctxt "Comment"
+msgid "Display the content of folders (Desktop as default)"
+msgstr ""
 
 #: runtime/drkonqi/debuggers/gdbrc:2
 msgctxt "Name"
@@ -9841,6 +9846,22 @@ msgstr ""
 msgctxt "Comment"
 msgid "Mouse data for Plasmoids"
 msgstr ""
+
+#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "NetworkManager"
+msgctxt "Name"
+msgid "Network Engine"
+msgstr "NetworkManager"
+
+#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Network interface information"
+msgctxt "Comment"
+msgid "Network information for Plasmoids"
+msgstr "নেটওয়ার্ক ইন্টারফেস সংক্রান্ত তথ্য"
 
 #: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:2
 msgctxt "Name"
