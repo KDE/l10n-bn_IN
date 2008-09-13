@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-12 07:54+0000\n"
+"POT-Creation-Date: 2008-09-13 08:29+0000\n"
 "PO-Revision-Date: 2008-07-09 00:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -5261,6 +5261,19 @@ msgctxt "Name"
 msgid "ShortURIFilter"
 msgstr "ShortURIFilter"
 
+#: runtime/kwalletd/kwalletd.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Favicon Module"
+msgctxt "Name"
+msgid "KWallet Daemon Module"
+msgstr "KDED Favicon মডিউল"
+
+#: runtime/kwalletd/kwalletd.desktop:83
+msgctxt "Comment"
+msgid "KWallet daemon module for KDED"
+msgstr ""
+
 #: runtime/l10n/C/entry.desktop:2
 msgctxt "Name"
 msgid "Default"
@@ -7407,16 +7420,6 @@ msgid ""
 "Allows the manipulation of widget behavior and changing the Style for KDE"
 msgstr ""
 
-#: workspace/kcontrol/taskbar/kcmtaskbar.desktop:13
-msgctxt "Name"
-msgid "Taskbar"
-msgstr "টাস্ক-বার"
-
-#: workspace/kcontrol/taskbar/kcmtaskbar.desktop:90
-msgctxt "Comment"
-msgid "Configure the panel taskbar"
-msgstr "প্যানেল টাস্ক-বার কনফিগার করুন"
-
 #: workspace/kcontrol/xinerama/xinerama.desktop:14
 msgctxt "Name"
 msgid "Multiple Monitors"
@@ -7913,6 +7916,11 @@ msgstr ""
 msgctxt "Name"
 msgid "KHotKeys"
 msgstr "KHotKeys"
+
+#: workspace/khotkeys/app/khotkeys.desktop:39
+msgctxt "Comment"
+msgid "KHotKeys daemon. No daemon, no hotkeys."
+msgstr ""
 
 #: workspace/khotkeys/data/kde32b1.khotkeys:5
 msgctxt "Comment"
@@ -9826,7 +9834,7 @@ msgctxt "Name"
 msgid "Dictionary"
 msgstr "HyperDictionary.com"
 
-#: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:9
+#: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:10
 msgctxt "Comment"
 msgid "Look up word meanings"
 msgstr "শব্দের অর্থ অনুসন্ধান করুন"
@@ -9839,7 +9847,7 @@ msgctxt "Name"
 msgid "Files and Directories"
 msgstr "মুক্ত ডিরেক্টরি"
 
-#: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:9
+#: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:10
 msgctxt "Comment"
 msgid "Info about files and directories for Plasmoids"
 msgstr ""
@@ -9854,7 +9862,7 @@ msgctxt "Name"
 msgid "Pointer Position"
 msgstr ""
 
-#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:9
+#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:10
 msgctxt "Comment"
 msgid "Mouse data for Plasmoids"
 msgstr ""
@@ -9867,7 +9875,7 @@ msgctxt "Name"
 msgid "Networking"
 msgstr "নেটওয়ার্ক"
 
-#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:10
+#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:11
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Network interface information"
@@ -9883,7 +9891,7 @@ msgctxt "Name"
 msgid "Now Playing"
 msgstr "Paint প্রদর্শন করা হবে"
 
-#: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:10
+#: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:11
 msgctxt "Comment"
 msgid "Lists currently playing music"
 msgstr ""
@@ -9896,7 +9904,7 @@ msgctxt "Name"
 msgid "Places"
 msgstr "Faces"
 
-#: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:9
+#: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:10
 msgctxt "Comment"
 msgid "Places data for Plasmoids"
 msgstr ""
@@ -9917,7 +9925,7 @@ msgctxt "Name"
 msgid "Device Information"
 msgstr "তথ্য"
 
-#: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:9
+#: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:10
 msgctxt "Comment"
 msgid "SolidDevice data for Plasmoids"
 msgstr ""
@@ -9938,7 +9946,7 @@ msgctxt "Name"
 msgid "Date and Time"
 msgstr "তারিখ ও সময়"
 
-#: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:9
+#: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:10
 msgctxt "Comment"
 msgid "Time data for Plasmoids"
 msgstr ""
@@ -9983,7 +9991,7 @@ msgctxt "Name"
 msgid "Weather"
 msgstr ""
 
-#: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:9
+#: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:10
 msgctxt "Comment"
 msgid "Weather data for Plasmoids"
 msgstr ""
@@ -10414,6 +10422,14 @@ msgstr ""
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Taskbar"
+#~ msgstr "টাস্ক-বার"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the panel taskbar"
+#~ msgstr "প্যানেল টাস্ক-বার কনফিগার করুন"
 
 #, fuzzy
 #~| msgctxt "Name"
