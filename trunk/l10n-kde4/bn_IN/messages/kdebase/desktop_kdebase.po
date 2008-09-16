@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-15 07:50+0000\n"
+"POT-Creation-Date: 2008-09-16 07:47+0000\n"
 "PO-Revision-Date: 2008-07-09 00:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -324,9 +324,14 @@ msgid "Alephone - No OpenGL"
 msgstr "Alephone - No OpenGL"
 
 #: apps/kappfinder/apps/Games/Arcade/alephone.desktop:72
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid ""
+#| "An open source version of Marathon Infinity for SDL that has Open GL "
+#| "disabled"
 msgctxt "Comment"
 msgid ""
-"An open source version of Marathon Infinity for SDL that has Open GL disabled"
+"An open source version of Marathon Infinity for SDL that has OpenGL disabled"
 msgstr "SDL-র Marathon Infinity-র ওপেন সোর্স সংস্করণ, Open GL নিষ্ক্রিয়"
 
 #: apps/kappfinder/apps/Games/Arcade/battalion.desktop:2
@@ -583,13 +588,19 @@ msgid "Strategy Game"
 msgstr ""
 
 #: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "FreeCiv Server"
 msgctxt "Name"
-msgid "FreeCiv Server"
+msgid "Freeciv Server"
 msgstr "FreeCiv Server"
 
 #: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:74
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "A server for Free Civ"
 msgctxt "Comment"
-msgid "A server for Free Civ"
+msgid "A server for Freeciv"
 msgstr "Free Civ-র সার্ভার"
 
 #: apps/kappfinder/apps/Games/TacticStrategy/xscorch.desktop:3
@@ -724,8 +735,8 @@ msgstr "PostScript Viewer"
 
 #: apps/kappfinder/apps/Graphics/gimp.desktop:2
 msgctxt "Name"
-msgid "Gimp"
-msgstr "Gimp"
+msgid "GIMP"
+msgstr ""
 
 #: apps/kappfinder/apps/Graphics/gimp.desktop:26
 msgctxt "GenericName"
@@ -1002,9 +1013,12 @@ msgid "SILC Client"
 msgstr "SILC ক্লায়েন্ট"
 
 #: apps/kappfinder/apps/Internet/Terminal/silc.desktop:80
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KSIRC"
 msgctxt "Name"
-msgid "Silc"
-msgstr "Silc"
+msgid "SILC"
+msgstr "KSIRC"
 
 #: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:5
 msgctxt "Name"
@@ -1168,8 +1182,11 @@ msgid "Netscape"
 msgstr "Netscape"
 
 #: apps/kappfinder/apps/Internet/netscape6.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Netscape6"
 msgctxt "Name"
-msgid "Netscape6"
+msgid "Netscape 6"
 msgstr "Netscape6"
 
 #: apps/kappfinder/apps/Internet/opera.desktop:2
@@ -1247,8 +1264,11 @@ msgid "Video Player"
 msgstr "ভিডিও বাদন"
 
 #: apps/kappfinder/apps/Multimedia/alevt.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "VideoText Viewer"
 msgctxt "GenericName"
-msgid "VideoText Viewer"
+msgid "Videotext Viewer"
 msgstr "VideoText প্রদর্শন ব্যবস্থা"
 
 #: apps/kappfinder/apps/Multimedia/alevt.desktop:80
@@ -3878,7 +3898,7 @@ msgid "There was a serious error causing the program to exit"
 msgstr "একটি মারাত্মক ত্রুটির ফলে প্রোগ্রামটি বন্ধ করতে বাধ্য হয়েছে"
 
 #: runtime/knotify/kde.notifyrc:648
-#: workspace/powerdevil/powerdevil.notifyrc:33
+#: workspace/powerdevil/powerdevil.notifyrc:77
 msgctxt "Name"
 msgid "Notification"
 msgstr "সূচনা"
@@ -3888,7 +3908,7 @@ msgctxt "Comment"
 msgid "Something special happened in the program"
 msgstr "প্রোগ্রামের মধ্যে বিশেষ কিছু ঘটেছে"
 
-#: runtime/knotify/kde.notifyrc:776 workspace/powerdevil/powerdevil.notifyrc:9
+#: runtime/knotify/kde.notifyrc:776 workspace/powerdevil/powerdevil.notifyrc:7
 msgctxt "Name"
 msgid "Warning"
 msgstr "সতর্কবার্তা"
@@ -5270,7 +5290,7 @@ msgctxt "Name"
 msgid "KWallet Daemon Module"
 msgstr "KDED Favicon মডিউল"
 
-#: runtime/kwalletd/kwalletd.desktop:13
+#: runtime/kwalletd/kwalletd.desktop:15
 msgctxt "Comment"
 msgid "KWallet daemon module for KDED"
 msgstr ""
@@ -9835,7 +9855,7 @@ msgctxt "Name"
 msgid "Dictionary"
 msgstr "HyperDictionary.com"
 
-#: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:10
+#: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:11
 msgctxt "Comment"
 msgid "Look up word meanings"
 msgstr "শব্দের অর্থ অনুসন্ধান করুন"
@@ -9848,7 +9868,7 @@ msgctxt "Name"
 msgid "Files and Directories"
 msgstr "মুক্ত ডিরেক্টরি"
 
-#: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:10
+#: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:11
 msgctxt "Comment"
 msgid "Info about files and directories for Plasmoids"
 msgstr ""
@@ -9863,7 +9883,7 @@ msgctxt "Name"
 msgid "Pointer Position"
 msgstr ""
 
-#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:10
+#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:11
 msgctxt "Comment"
 msgid "Mouse data for Plasmoids"
 msgstr ""
@@ -9876,7 +9896,7 @@ msgctxt "Name"
 msgid "Networking"
 msgstr "নেটওয়ার্ক"
 
-#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:11
+#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:12
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Network interface information"
@@ -9892,7 +9912,7 @@ msgctxt "Name"
 msgid "Now Playing"
 msgstr "Paint প্রদর্শন করা হবে"
 
-#: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:11
+#: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:12
 msgctxt "Comment"
 msgid "Lists currently playing music"
 msgstr ""
@@ -9905,7 +9925,7 @@ msgctxt "Name"
 msgid "Places"
 msgstr "Faces"
 
-#: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:10
+#: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:11
 msgctxt "Comment"
 msgid "Places data for Plasmoids"
 msgstr ""
@@ -9926,7 +9946,7 @@ msgctxt "Name"
 msgid "Device Information"
 msgstr "তথ্য"
 
-#: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:10
+#: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:11
 msgctxt "Comment"
 msgid "SolidDevice data for Plasmoids"
 msgstr ""
@@ -9947,7 +9967,7 @@ msgctxt "Name"
 msgid "Date and Time"
 msgstr "তারিখ ও সময়"
 
-#: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:10
+#: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:11
 msgctxt "Comment"
 msgid "Time data for Plasmoids"
 msgstr ""
@@ -9992,7 +10012,7 @@ msgctxt "Name"
 msgid "Weather"
 msgstr ""
 
-#: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:10
+#: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:11
 msgctxt "Comment"
 msgid "Weather data for Plasmoids"
 msgstr ""
@@ -10036,7 +10056,7 @@ msgctxt "Name"
 msgid "PowerDevil"
 msgstr ""
 
-#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:6
+#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -10140,6 +10160,20 @@ msgctxt "Comment"
 msgid "MacOS dashboard widget"
 msgstr ""
 
+#: workspace/plasma/scriptengines/webkit/plasma-packagestructure-web.desktop:2
+#: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:2
+msgctxt "Name"
+msgid "Web Widget"
+msgstr "ওয়েব উইজেট"
+
+#: workspace/plasma/scriptengines/webkit/plasma-packagestructure-web.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "HTML Files"
+msgctxt "Comment"
+msgid "HTML widget"
+msgstr "HTML ফাইল"
+
 #: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:2
 msgctxt "Name"
 msgid "Dashboard"
@@ -10149,11 +10183,6 @@ msgstr "Dashboard"
 msgctxt "Comment"
 msgid "MacOS X dashboard widget"
 msgstr ""
-
-#: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:2
-msgctxt "Name"
-msgid "Web Widget"
-msgstr "ওয়েব উইজেট"
 
 #: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:45
 msgctxt "Comment"
@@ -10211,7 +10240,7 @@ msgctxt "Name"
 msgid "Slideshow"
 msgstr "XSoldier"
 
-#: workspace/powerdevil/daemon/powerdevil.desktop:15
+#: workspace/powerdevil/daemon/powerdevil.desktop:13
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -10227,7 +10256,7 @@ msgctxt "Name"
 msgid "Power Management Preferences"
 msgstr "ফাইল পরিচালনা"
 
-#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:24
+#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:15
 msgctxt "Comment"
 msgid "Display brightness, suspend and power profile settings"
 msgstr ""
@@ -10237,12 +10266,12 @@ msgctxt "Comment"
 msgid "PowerDevil"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:20
+#: workspace/powerdevil/powerdevil.notifyrc:74
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:44
+#: workspace/powerdevil/powerdevil.notifyrc:144
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Browser Identification"
@@ -10250,7 +10279,7 @@ msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr "ব্রাউজার সনাক্তকরণ"
 
-#: workspace/powerdevil/powerdevil.notifyrc:57
+#: workspace/powerdevil/powerdevil.notifyrc:147
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notification"
@@ -10258,47 +10287,47 @@ msgctxt "Name"
 msgid "Critical notification"
 msgstr "সূচনা"
 
-#: workspace/powerdevil/powerdevil.notifyrc:67
+#: workspace/powerdevil/powerdevil.notifyrc:148
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:79
+#: workspace/powerdevil/powerdevil.notifyrc:151
 msgctxt "Name"
 msgid "Low Battery"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:90
+#: workspace/powerdevil/powerdevil.notifyrc:152
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:106
+#: workspace/powerdevil/powerdevil.notifyrc:158
 msgctxt "Name"
 msgid "Battery at warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:117
+#: workspace/powerdevil/powerdevil.notifyrc:159
 msgctxt "Comment"
 msgid "Your battery has reached warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:133
+#: workspace/powerdevil/powerdevil.notifyrc:165
 msgctxt "Name"
 msgid "Battery at critical level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:144
+#: workspace/powerdevil/powerdevil.notifyrc:166
 msgctxt "Comment"
 msgid "Your battery has reached critical level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:160
+#: workspace/powerdevil/powerdevil.notifyrc:172
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:171
+#: workspace/powerdevil/powerdevil.notifyrc:173
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -10306,12 +10335,12 @@ msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr "আবর্জনা বর্জন করা হয়েছে"
 
-#: workspace/powerdevil/powerdevil.notifyrc:187
+#: workspace/powerdevil/powerdevil.notifyrc:179
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:198
+#: workspace/powerdevil/powerdevil.notifyrc:180
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -10319,12 +10348,12 @@ msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr "আবর্জনা বর্জন করা হয়েছে"
 
-#: workspace/powerdevil/powerdevil.notifyrc:214
+#: workspace/powerdevil/powerdevil.notifyrc:186
 msgctxt "Name"
 msgid "Job error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:225
+#: workspace/powerdevil/powerdevil.notifyrc:187
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "There was an error in the program which may cause problems"
@@ -10332,27 +10361,27 @@ msgctxt "Comment"
 msgid "There was an error while performing a job"
 msgstr "প্রোগ্রামের মধ্যে একটি ত্রুটি দেখা দিয়েছে এবং এর ফলে সমস্যা দেখা দিতে পারে"
 
-#: workspace/powerdevil/powerdevil.notifyrc:241
+#: workspace/powerdevil/powerdevil.notifyrc:193
 msgctxt "Name"
 msgid "Profile Changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:252
+#: workspace/powerdevil/powerdevil.notifyrc:194
 msgctxt "Comment"
 msgid "The profile was changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:268
+#: workspace/powerdevil/powerdevil.notifyrc:200
 msgctxt "Name"
 msgid "Doing a Job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:279
+#: workspace/powerdevil/powerdevil.notifyrc:201
 msgctxt "Comment"
 msgid "Something is ongoing"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:295
+#: workspace/powerdevil/powerdevil.notifyrc:207
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Internal Services"
@@ -10360,7 +10389,7 @@ msgctxt "Name"
 msgid "Internal PowerDevil Error"
 msgstr "অভ্যন্তরীণ পরিসেবা"
 
-#: workspace/powerdevil/powerdevil.notifyrc:305
+#: workspace/powerdevil/powerdevil.notifyrc:208
 msgctxt "Comment"
 msgid "PowerDevil has triggered an internal error"
 msgstr ""
@@ -10591,6 +10620,14 @@ msgstr ""
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Gimp"
+#~ msgstr "Gimp"
+
+#~ msgctxt "Name"
+#~ msgid "Silc"
+#~ msgstr "Silc"
 
 #~ msgctxt "Name"
 #~ msgid "Taskbar"
