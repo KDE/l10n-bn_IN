@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-25 09:06+0200\n"
+"POT-Creation-Date: 2008-09-22 09:33+0200\n"
 "PO-Revision-Date: 2008-06-24 17:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -18,11 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: globalshortcuts.cpp:67
-msgid "Import scheme..."
+#, fuzzy
+#| msgid "Import scheme..."
+msgid "Import Scheme..."
 msgstr "স্কিম ইম্পোর্ট করুন..."
 
 #: globalshortcuts.cpp:72
-msgid "Export scheme..."
+#, fuzzy
+#| msgid "Export scheme..."
+msgid "Export Scheme..."
 msgstr "স্কিম এক্সপোর্ট করুন..."
 
 #: globalshortcuts.cpp:112
@@ -47,7 +51,9 @@ msgstr ""
 "হারিয়ে যাবে।"
 
 #: globalshortcuts.cpp:183
-msgid "Load shortcurt scheme"
+#, fuzzy
+#| msgid "Load shortcurt scheme"
+msgid "Load Shortcurt Scheme"
 msgstr "শর্ট-কাট স্কিম লোড করুন"
 
 #: globalshortcuts.cpp:184
@@ -74,7 +80,9 @@ msgstr "শর্ট-কাট:"
 #. i18n: file: select_scheme_dialog.ui:20
 #. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
 #: rc.cpp:9
-msgid "Select a shortcut scheme"
+#, fuzzy
+#| msgid "Select a shortcut scheme"
+msgid "Select Shortcut Scheme"
 msgstr "শর্ট-কাট স্কিম নির্বাচন করুন"
 
 #. i18n: file: select_scheme_dialog.ui:47
@@ -86,7 +94,9 @@ msgstr "একটি প্রমিত KDE শর্ট-কাট স্কি�
 #. i18n: file: select_scheme_dialog.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:15
-msgid "&Standard Scheme"
+#, fuzzy
+#| msgid "&Standard Scheme"
+msgid "&Standard scheme:"
 msgstr "প্রমিত স্কিম (&S)"
 
 #. i18n: file: select_scheme_dialog.ui:100
@@ -98,5 +108,7 @@ msgstr "একটি শর্ট-কাট স্কিম ফাইল নি�
 #. i18n: file: select_scheme_dialog.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:21
-msgid "&Path"
+#, fuzzy
+#| msgid "&Path"
+msgid "&Path:"
 msgstr "পাথ (&P)"
