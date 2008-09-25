@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-24 10:36+0200\n"
+"POT-Creation-Date: 2008-09-25 10:24+0200\n"
 "PO-Revision-Date: 2008-07-07 02:25+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -689,14 +689,17 @@ msgid "Arrangement:"
 msgstr "সুসজ্জায়ন:"
 
 #: iconsviewsettingspage.cpp:110
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Columns"
 msgctxt "@item:inlistbox Arrangement"
-msgid "Left to Right"
-msgstr "বাঁদিক থেকে ডানদিক"
+msgid "Columns"
+msgstr "কলাম"
 
 #: iconsviewsettingspage.cpp:111
 msgctxt "@item:inlistbox Arrangement"
-msgid "Top to Bottom"
-msgstr "উপোর থেকে নীচ"
+msgid "Rows"
+msgstr ""
 
 #: iconsviewsettingspage.cpp:114
 msgctxt "@label:listbox"
@@ -1843,6 +1846,14 @@ msgstr ""
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr ""
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Left to Right"
+#~ msgstr "বাঁদিক থেকে ডানদিক"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Top to Bottom"
+#~ msgstr "উপোর থেকে নীচ"
 
 #~ msgctxt "@title:group"
 #~ msgid "Column Width"
