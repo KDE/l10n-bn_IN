@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-29 10:08+0200\n"
+"POT-Creation-Date: 2008-09-30 09:38+0200\n"
 "PO-Revision-Date: 2008-07-03 17:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -1819,7 +1819,7 @@ msgid "Form"
 msgstr "প্রেরক:"
 
 #: kjs/object.cpp:625 kdeui/dialogs/kmessagebox.cpp:816
-#: kdeui/dialogs/kmessagebox.cpp:849
+#: kdeui/dialogs/kmessagebox.cpp:849 khtml/rendering/render_form.cpp:624
 msgid "Error"
 msgstr "ত্রুটি"
 
@@ -9395,7 +9395,7 @@ msgstr "উপরে স্থানান্তর (&U)"
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:735
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:747
 msgid "Clear &History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&H)"
 
@@ -10865,36 +10865,36 @@ msgstr ""
 msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgstr "স্বত্বাধিকার ২০০১, ডেভিড ফাউরে <email>david@mandrakesoft.com</email>"
 
-#: khtml/rendering/render_form.cpp:597
+#: khtml/rendering/render_form.cpp:603
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "শর্ট-কাট"
 
-#: khtml/rendering/render_form.cpp:609
-#, fuzzy
+#: khtml/rendering/render_form.cpp:624
+#, fuzzy, kde-format
 #| msgctxt "Socket error code AlreadyCreated"
 #| msgid "socket is already created"
-msgid " is already assigned to "
+msgid "%1 is already assigned to %2"
 msgstr "সকেট বর্তমানে নির্মিত"
 
-#: khtml/rendering/render_form.cpp:659
+#: khtml/rendering/render_form.cpp:669
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:661
+#: khtml/rendering/render_form.cpp:671
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "New search provider"
 msgstr "অনুসন্ধানের উদ্দেশ্যে এই স্থানে তথ্য লিখুন"
 
-#: khtml/rendering/render_form.cpp:666
+#: khtml/rendering/render_form.cpp:676
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "শর্ট-কাট"
 
-#: khtml/rendering/render_form.cpp:750
+#: khtml/rendering/render_form.cpp:762
 #, fuzzy
 #| msgid "Configure Shortcuts"
 msgid "Create Web Shortcut"
@@ -11190,19 +11190,19 @@ msgstr "ইয়ান রাইনহার্ট গেইসার"
 msgid "Daniel Molkentin"
 msgstr "ড্যানিয়েল মলকেনটিন"
 
-#: nepomuk/core/resource.cpp:398
+#: nepomuk/core/resource.cpp:405
 msgid "Success"
 msgstr "সফল"
 
-#: nepomuk/core/resource.cpp:400
+#: nepomuk/core/resource.cpp:407
 msgid "Communication error"
 msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
 
-#: nepomuk/core/resource.cpp:402
+#: nepomuk/core/resource.cpp:409
 msgid "Invalid type in Database"
 msgstr "ডাটাবেসের মধ্যে অবৈধ ধরন"
 
-#: nepomuk/core/resource.cpp:404
+#: nepomuk/core/resource.cpp:411
 msgid "Unknown error"
 msgstr "অজানা ত্রুটি"
 
@@ -11679,6 +11679,18 @@ msgstr "ফাইল %1 পাওয়া যায়নি।"
 #, kde-format
 msgid "library only takes 1 argument, not %1."
 msgstr "library দ্বারা %1 নয় শুধুমাত্র ১-টি আর্গুমেন্ট গ্রহণ করা হয়।"
+
+#: kjsembed/kjsembed/builtins.cpp:154
+#, fuzzy
+#| msgid "Alt"
+msgid "Alert"
+msgstr "Alt"
+
+#: kjsembed/kjsembed/builtins.cpp:165
+#, fuzzy
+#| msgid "Configure"
+msgid "Confirm"
+msgstr "কনফিগার করুন"
 
 #: kjsembed/kjsembed/kjsembed.cpp:273 kjsembed/kjsembed/kjsembed.cpp:295
 #, kde-format
@@ -12874,9 +12886,6 @@ msgstr "ফাংশান \"%1\" অনুপস্থিত"
 
 #~ msgid "Ctrl"
 #~ msgstr "Ctrl"
-
-#~ msgid "Alt"
-#~ msgstr "Alt"
 
 #~ msgid "Meta"
 #~ msgstr "Meta"
