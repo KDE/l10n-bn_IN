@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-30 09:38+0200\n"
+"POT-Creation-Date: 2008-10-02 09:44+0200\n"
 "PO-Revision-Date: 2008-07-03 17:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -5453,30 +5453,35 @@ msgstr[0] "%2 / %1 ফাইল"
 msgstr[1] "%2 / %1 ফাইল"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:374
-#, kde-format
-msgid "%1 % of %2 "
+#, fuzzy, kde-format
+#| msgid "%1 % of %2 "
+msgid "%1% of %2"
 msgstr "%1, সর্বমোট %2"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:377
-#, kde-format
-msgid "%2 % of 1 file"
-msgid_plural "%2 % of %1 files"
+#, fuzzy, kde-format
+#| msgid "%2 % of 1 file"
+#| msgid_plural "%2 % of %1 files"
+msgid "%2% of 1 file"
+msgid_plural "%2% of %1 files"
 msgstr[0] "%2 %, ১-টি ফাইলের"
 msgstr[1] "%2 %, %1-টি ফাইলের"
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:379
-#, kde-format
-msgid "%1 %"
-msgstr "%1 %"
+#: kdeui/jobs/kwidgetjobtracker.cpp:379 khtml/khtml_ext.cpp:1089
+#, no-c-format, kde-format
+msgid "%1%"
+msgstr "%1%"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:392
 msgid "Stalled"
 msgstr "স্থগিত"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:397
-#, kde-format
-msgid "%2/s ( %3 remaining )"
-msgid_plural "%2/s ( %3 remaining )"
+#, fuzzy, kde-format
+#| msgid "%2/s ( %3 remaining )"
+#| msgid_plural "%2/s ( %3 remaining )"
+msgid "%2/s (%3 remaining)"
+msgid_plural "%2/s (%3 remaining)"
 msgstr[0] "%2/s ( অবশিষ্ট %3 )"
 msgstr[1] "%2/s ( অবশিষ্ট %3 )"
 
@@ -9874,11 +9879,6 @@ msgstr ""
 msgid "Default Font Size (100%)"
 msgstr ""
 
-#: khtml/khtml_ext.cpp:1089
-#, no-c-format, kde-format
-msgid "%1%"
-msgstr "%1%"
-
 #: khtml/khtml_printsettings.cpp:31
 msgid ""
 "<qt><p><strong>'Print images'</strong></p><p>If this checkbox is enabled, "
@@ -10269,60 +10269,60 @@ msgstr ""
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6914
+#: khtml/khtml_part.cpp:6913
 msgid "Security Warning"
 msgstr "নিরাপত্তা সংক্রান্ত সতর্কবার্তা"
 
-#: khtml/khtml_part.cpp:6920
+#: khtml/khtml_part.cpp:6919
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
 
-#: khtml/khtml_part.cpp:6921 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6920 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "নিরাপত্তা সংক্রান্ত সূচনা"
 
-#: khtml/khtml_part.cpp:7271
+#: khtml/khtml_part.cpp:7270
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7328
+#: khtml/khtml_part.cpp:7327
 msgid "&Close Wallet"
 msgstr "Wallet বন্ধ করুন (&C)"
 
-#: khtml/khtml_part.cpp:7371
+#: khtml/khtml_part.cpp:7370
 msgid "JavaScript &Debugger"
 msgstr "JavaScript ডিবাগার (&D)"
 
-#: khtml/khtml_part.cpp:7404
+#: khtml/khtml_part.cpp:7403
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7410
+#: khtml/khtml_part.cpp:7409
 msgid "Popup Window Blocked"
 msgstr "পপ-আপ উইন্ডো প্রদর্শনে বাধা দেওয়া হয়েছে"
 
-#: khtml/khtml_part.cpp:7410
+#: khtml/khtml_part.cpp:7409
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7423
+#: khtml/khtml_part.cpp:7422
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "অবরুদ্ধ পপ-আপ উইন্ডো প্রদর্শন করা হবে (&S)"
 msgstr[1] "অবরুদ্ধ %1 পপ-আপ উইন্ডো প্রদর্শন করা হবে (&S)"
 
-#: khtml/khtml_part.cpp:7424
+#: khtml/khtml_part.cpp:7423
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7426
+#: khtml/khtml_part.cpp:7425
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "JavaScript-র নতুন উইন্ডো সংক্রান্ত নিয়মনীতি কনফিগার করুন...&C"
 
@@ -12436,6 +12436,9 @@ msgstr "দিনের উপদেশ (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
+
+#~ msgid "%1 %"
+#~ msgstr "%1 %"
 
 #~ msgid "Already open."
 #~ msgstr "বর্তমানে খোলা রয়েছে।"
