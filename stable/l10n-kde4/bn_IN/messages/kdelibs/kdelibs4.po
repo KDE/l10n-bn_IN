@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-02 06:09+0200\n"
+"POT-Creation-Date: 2008-10-03 06:05+0200\n"
 "PO-Revision-Date: 2008-07-03 17:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -3235,11 +3235,11 @@ msgstr "%1 লাইব্রেরি দ্বারা, KDE 4-র সাথ�
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "'%1' প্লাগ-ইন দ্বারা বিসংগত KDE লাইব্রেরি ব্যবহার করা হয় (%2)।"
 
-#: kdecore/config/kconfig.cpp:670
+#: kdecore/config/kconfig.cpp:667
 msgid "Please contact your system administrator."
 msgstr "অনুগ্রহ করে সিস্টেম অ্যাডমিনিস্ট্রটরের সাথে যোগাযোগ করুন।"
 
-#: kdecore/config/kconfigini.cpp:495
+#: kdecore/config/kconfigini.cpp:511
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "\"%1\" কনফিগারেশন ফাইলটির মধ্যে লেখা সম্ভব হবে না।\n"
@@ -6051,7 +6051,7 @@ msgid "Reset Toolbars"
 msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
 #: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2948
-#: khtml/khtmlview.cpp:2981 khtml/html/html_formimpl.cpp:2190
+#: khtml/khtmlview.cpp:2981 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
@@ -9114,19 +9114,19 @@ msgstr ""
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kdeui/widgets/ktextedit.cpp:373 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:389 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "বানান পরীক্ষণ..."
 
-#: kdeui/widgets/ktextedit.cpp:376 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:392 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "স্বয়ংক্রিয় বানান পরীক্ষণ"
 
-#: kdeui/widgets/ktextedit.cpp:380 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:396 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr ""
 
-#: kdeui/widgets/ktextedit.cpp:509
+#: kdeui/widgets/ktextedit.cpp:525
 msgid "Nothing to spell check."
 msgstr "বানান পরীক্ষা করার জন্য কিছু উপস্থিত নেই।"
 
@@ -9780,7 +9780,7 @@ msgid ""
 msgstr ""
 
 #: khtml/khtml_part.cpp:4948 khtml/khtmlview.cpp:2934 khtml/khtmlview.cpp:2976
-#: khtml/html/html_formimpl.cpp:1590 khtml/html/html_formimpl.cpp:2198
+#: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "জমা করুন"
 
@@ -10044,7 +10044,7 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "পরিত্যাগ করা হবে (&A)"
 
-#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2121
+#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2111
 msgid "Confirmation: JavaScript Popup"
 msgstr "নিশ্চায়ন: JavaScript পপ-আপ"
 
@@ -10061,11 +10061,11 @@ msgid ""
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Allow"
 msgstr "অনুমতি প্রদান করা হবে"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Do Not Allow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
@@ -10103,14 +10103,14 @@ msgstr "সন্নিবেশ করুন"
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_html.cpp:2123
+#: khtml/ecma/kjs_html.cpp:2113
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
 
-#: khtml/ecma/kjs_html.cpp:2126
+#: khtml/ecma/kjs_html.cpp:2116
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10271,7 +10271,7 @@ msgid ""
 "information next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:2579
+#: khtml/html/html_formimpl.cpp:2546
 msgid "Key Generator"
 msgstr "কি নির্মাণ ব্যবস্থা"
 
