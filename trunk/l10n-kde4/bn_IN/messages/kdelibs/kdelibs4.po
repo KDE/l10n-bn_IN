@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-03 09:40+0200\n"
+"POT-Creation-Date: 2008-10-04 10:34+0200\n"
 "PO-Revision-Date: 2008-07-03 17:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -1666,9 +1666,10 @@ msgstr "পরবর্তী পংক্তিতে পদার্পন..."
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:90
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
-#: rc.cpp:785 rc.cpp:933 kdeui/util/kstandardguiitem.cpp:265
-#: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 kross/ui/view.cpp:309
+#: rc.cpp:785 rc.cpp:933 kdeui/jobs/kstatusbarjobtracker.cpp:156
+#: kdeui/util/kstandardguiitem.cpp:265 kdeui/util/kkeyserver_x11.cpp:109
+#: kdeui/findreplace/kreplace.cpp:353 khtml/ecma/kjs_debugwin.cpp:482
+#: kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "বন্ধ করুন"
 
@@ -1819,7 +1820,7 @@ msgid "Form"
 msgstr "প্রেরক:"
 
 #: kjs/object.cpp:625 kdeui/dialogs/kmessagebox.cpp:816
-#: kdeui/dialogs/kmessagebox.cpp:849 khtml/rendering/render_form.cpp:624
+#: kdeui/dialogs/kmessagebox.cpp:849 khtml/rendering/render_form.cpp:625
 msgid "Error"
 msgstr "ত্রুটি"
 
@@ -6250,8 +6251,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2953
-#: khtml/khtmlview.cpp:2986 khtml/html/html_formimpl.cpp:2157
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2951
+#: khtml/khtmlview.cpp:2984 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
@@ -8049,19 +8050,19 @@ msgstr "বানান পরীক্ষণ সমাপ্ত।"
 msgid "Sonnet Configuration"
 msgstr "Sonnet কনফিগারেশন"
 
-#: kdeui/sonnet/highlighter.cpp:231 kdeui/sonnet/highlighter.cpp:253
+#: kdeui/sonnet/highlighter.cpp:232 kdeui/sonnet/highlighter.cpp:255
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "টাইপ-করার-সময়-বানান-পরীক্ষণ সক্রিয় করা হয়েছে।"
 
-#: kdeui/sonnet/highlighter.cpp:233
+#: kdeui/sonnet/highlighter.cpp:234
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr ""
 "বানানে অত্যাধিক পরিমাণ ত্রুটি। টাইপ-করার-সময়-বানান-পরীক্ষণ নিষ্ক্রিয় করা হয়েছে।"
 
-#: kdeui/sonnet/highlighter.cpp:255
+#: kdeui/sonnet/highlighter.cpp:257
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "টাইপ-করার-সময়-বানান-পরীক্ষণ নিষ্ক্রিয় করা হয়েছে।"
@@ -9406,7 +9407,7 @@ msgstr "উপরে স্থানান্তর (&U)"
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:747
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:748
 msgid "Clear &History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&H)"
 
@@ -10259,7 +10260,7 @@ msgid ""
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2939 khtml/khtmlview.cpp:2981
+#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2937 khtml/khtmlview.cpp:2979
 #: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "জমা করুন"
@@ -10370,39 +10371,39 @@ msgstr "অগ্রাহ্যের তালিকায় যোগ করা
 msgid "Remove from ignores..."
 msgstr "অগ্রাহ্যের তালিকা থেকে মুছে ফেলা হবে..."
 
-#: khtml/khtmlview.cpp:1911
+#: khtml/khtmlview.cpp:1909
 msgid "Find stopped."
 msgstr "অনুসন্ধান বন্ধ করা হয়েছে।"
 
-#: khtml/khtmlview.cpp:1922
+#: khtml/khtmlview.cpp:1920
 msgid "Starting -- find links as you type"
 msgstr "আরম্ভ করা হচ্ছে -- টাইপ করার সময় লিঙ্ক অনুসন্ধান করা হবে"
 
-#: khtml/khtmlview.cpp:1928
+#: khtml/khtmlview.cpp:1926
 msgid "Starting -- find text as you type"
 msgstr "আরম্ভ করা হচ্ছে -- টাইপ করার সময় টেক্সট অনুসন্ধান করা হবে"
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1949
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1956
+#: khtml/khtmlview.cpp:1954
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1962
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "টেক্সট পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1969
+#: khtml/khtmlview.cpp:1967
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "টেক্সট পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:2017
+#: khtml/khtmlview.cpp:2015
 msgid "Access Keys activated"
 msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
@@ -10427,7 +10428,7 @@ msgstr ""
 msgid "XML parsing error"
 msgstr "XML পার্স সংক্রান্ত ত্রুটি"
 
-#: khtml/xml/dom_docimpl.cpp:2225
+#: khtml/xml/dom_docimpl.cpp:2076
 msgid "Basic Page Style"
 msgstr "পৃষ্ঠার মূল বিন্যাস"
 
@@ -10524,73 +10525,73 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "পরিত্যাগ করা হবে (&A)"
 
-#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2111
+#: khtml/ecma/kjs_window.cpp:1582 khtml/ecma/kjs_html.cpp:2113
 msgid "Confirmation: JavaScript Popup"
 msgstr "নিশ্চায়ন: JavaScript পপ-আপ"
 
-#: khtml/ecma/kjs_window.cpp:1584
+#: khtml/ecma/kjs_window.cpp:1585
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1587
+#: khtml/ecma/kjs_window.cpp:1588
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2120
 msgid "Allow"
 msgstr "অনুমতি প্রদান করা হবে"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2120
 msgid "Do Not Allow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_window.cpp:1889
+#: khtml/ecma/kjs_window.cpp:1890
 msgid "Close window?"
 msgstr "উইন্ডো বন্ধ করা হবে কি?"
 
-#: khtml/ecma/kjs_window.cpp:1889
+#: khtml/ecma/kjs_window.cpp:1890
 msgid "Confirmation Required"
 msgstr "নিশ্চিত করা আবশ্যক"
 
-#: khtml/ecma/kjs_window.cpp:2747
+#: khtml/ecma/kjs_window.cpp:2748
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2750
+#: khtml/ecma/kjs_window.cpp:2751
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2758
+#: khtml/ecma/kjs_window.cpp:2759
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript দ্বারা বুকমার্ক যোগ করার প্রচেষ্টা করা হয়েছে"
 
-#: khtml/ecma/kjs_window.cpp:2762
+#: khtml/ecma/kjs_window.cpp:2763
 msgid "Insert"
 msgstr "সন্নিবেশ করুন"
 
-#: khtml/ecma/kjs_window.cpp:2762
+#: khtml/ecma/kjs_window.cpp:2763
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_html.cpp:2113
+#: khtml/ecma/kjs_html.cpp:2115
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
 
-#: khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_html.cpp:2118
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10871,36 +10872,36 @@ msgstr ""
 msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgstr "স্বত্বাধিকার ২০০১, ডেভিড ফাউরে <email>david@mandrakesoft.com</email>"
 
-#: khtml/rendering/render_form.cpp:603
+#: khtml/rendering/render_form.cpp:604
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "শর্ট-কাট"
 
-#: khtml/rendering/render_form.cpp:624
+#: khtml/rendering/render_form.cpp:625
 #, fuzzy, kde-format
 #| msgctxt "Socket error code AlreadyCreated"
 #| msgid "socket is already created"
 msgid "%1 is already assigned to %2"
 msgstr "সকেট বর্তমানে নির্মিত"
 
-#: khtml/rendering/render_form.cpp:669
+#: khtml/rendering/render_form.cpp:670
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:671
+#: khtml/rendering/render_form.cpp:672
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "New search provider"
 msgstr "অনুসন্ধানের উদ্দেশ্যে এই স্থানে তথ্য লিখুন"
 
-#: khtml/rendering/render_form.cpp:676
+#: khtml/rendering/render_form.cpp:677
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "শর্ট-কাট"
 
-#: khtml/rendering/render_form.cpp:762
+#: khtml/rendering/render_form.cpp:763
 #, fuzzy
 #| msgid "Configure Shortcuts"
 msgid "Create Web Shortcut"
