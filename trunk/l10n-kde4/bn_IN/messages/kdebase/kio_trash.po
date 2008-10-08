@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-27 09:41+0200\n"
+"POT-Creation-Date: 2008-10-08 10:27+0200\n"
 "PO-Revision-Date: 2008-07-06 00:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -108,21 +108,13 @@ msgstr ""
 msgid "Delete biggest files from trash"
 msgstr ""
 
-#: kio_trash.cpp:52
-msgid "Protocol name"
-msgstr "প্রোটোকলের"
-
-#: kio_trash.cpp:53 kio_trash.cpp:54
-msgid "Socket name"
-msgstr "সকেটের নাম"
-
-#: kio_trash.cpp:102 kio_trash.cpp:165 kio_trash.cpp:313 kio_trash.cpp:345
-#: kio_trash.cpp:511 kio_trash.cpp:523
+#: kio_trash.cpp:91 kio_trash.cpp:154 kio_trash.cpp:302 kio_trash.cpp:334
+#: kio_trash.cpp:500 kio_trash.cpp:512
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "ত্রুটিপূর্ণ URL %1"
 
-#: kio_trash.cpp:121
+#: kio_trash.cpp:110
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -134,6 +126,12 @@ msgstr ""
 "অবস্থানে পুনরায় স্থাপন করা সম্ভব হবে না। ডিরেক্টরিটি নতুন করে নির্মাণ করে এই কর্ম "
 "পুনরায় প্রচেষ্টা করুন অথবা, বস্তুটিকে অন্য কোনো স্থানে টেনে নিয়ে পুনরুদ্ধার করুন।"
 
-#: kio_trash.cpp:150
+#: kio_trash.cpp:139
 msgid "This file is already in the trash bin."
 msgstr "ফাইলটি পূর্বেই আবর্জনার বাক্সে স্থানান্তর করা হয়েছে।"
+
+#~ msgid "Protocol name"
+#~ msgstr "প্রোটোকলের"
+
+#~ msgid "Socket name"
+#~ msgstr "সকেটের নাম"
