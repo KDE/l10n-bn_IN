@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-08 10:26+0200\n"
+"POT-Creation-Date: 2008-10-12 09:38+0200\n"
 "PO-Revision-Date: 2008-07-03 17:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -907,13 +907,13 @@ msgstr "শুধুমাত্র HTML পরীক্ষা সঞ্চা�
 
 #. i18n: file: khtml/test_regression_gui.ui:257
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:387 khtml/test_regression.cpp:618
+#: rc.cpp:387 khtml/test_regression.cpp:617
 msgid "Do not suppress debug output"
 msgstr "ডিবাগ থেকে প্রাপ্ত ফলাফল আড়াল করা হবে না"
 
 #. i18n: file: khtml/test_regression_gui.ui:265
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:390 khtml/test_regression.cpp:627
+#: rc.cpp:390 khtml/test_regression.cpp:626
 msgid "Do not use Xvfb"
 msgstr "Xvfb ব্যবহার করা হবে না"
 
@@ -6251,8 +6251,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2951
-#: khtml/khtmlview.cpp:2984 khtml/html/html_formimpl.cpp:2157
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2973
+#: khtml/khtmlview.cpp:3006 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
@@ -9033,157 +9033,157 @@ msgstr "একটি বৎসর নির্বাচন করুন"
 msgid "Select the current day"
 msgstr "আজকের দিন নির্বাচন করুন"
 
-#: kdeui/widgets/krichtextwidget.cpp:226
+#: kdeui/widgets/krichtextwidget.cpp:227
 msgctxt "@action"
 msgid "Text &Color..."
 msgstr "টেক্সটে ব্যবহৃত রং...(&C)"
 
-#: kdeui/widgets/krichtextwidget.cpp:227
+#: kdeui/widgets/krichtextwidget.cpp:228
 msgctxt "@label stroke color"
 msgid "Color"
 msgstr "রঙ"
 
-#: kdeui/widgets/krichtextwidget.cpp:238
+#: kdeui/widgets/krichtextwidget.cpp:239
 msgctxt "@action"
 msgid "Text &Highlight..."
 msgstr "টেক্সট উজ্জ্বল করতে ব্যবহৃত রং...(&H)"
 
-#: kdeui/widgets/krichtextwidget.cpp:249
+#: kdeui/widgets/krichtextwidget.cpp:250
 msgctxt "@action"
 msgid "&Font"
 msgstr "ফন্ট (&F)"
 
-#: kdeui/widgets/krichtextwidget.cpp:260
+#: kdeui/widgets/krichtextwidget.cpp:261
 msgctxt "@action"
 msgid "Font &Size"
 msgstr "ফন্টের মাপ (&S)"
 
-#: kdeui/widgets/krichtextwidget.cpp:270
+#: kdeui/widgets/krichtextwidget.cpp:271
 msgctxt "@action boldify selected text"
 msgid "&Bold"
 msgstr "গাঢ় (&B)"
 
-#: kdeui/widgets/krichtextwidget.cpp:284
+#: kdeui/widgets/krichtextwidget.cpp:285
 msgctxt "@action italicize selected text"
 msgid "&Italic"
 msgstr "তেরছা (&I)"
 
-#: kdeui/widgets/krichtextwidget.cpp:299
+#: kdeui/widgets/krichtextwidget.cpp:300
 msgctxt "@action underline selected text"
 msgid "&Underline"
 msgstr "নিম্নরেখাঙ্কন (&U)"
 
-#: kdeui/widgets/krichtextwidget.cpp:314
+#: kdeui/widgets/krichtextwidget.cpp:315
 msgctxt "@action"
 msgid "&Strike Out"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:327
+#: kdeui/widgets/krichtextwidget.cpp:328
 msgctxt "@action"
 msgid "Align &Left"
 msgstr "বাঁপাশ্বিক (&L)"
 
-#: kdeui/widgets/krichtextwidget.cpp:328
+#: kdeui/widgets/krichtextwidget.cpp:329
 msgctxt "@label left justify"
 msgid "Left"
 msgstr "বাঁদিক"
 
-#: kdeui/widgets/krichtextwidget.cpp:334
+#: kdeui/widgets/krichtextwidget.cpp:335
 msgctxt "@action"
 msgid "Align &Center"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:335
+#: kdeui/widgets/krichtextwidget.cpp:336
 msgctxt "@label center justify"
 msgid "Center"
 msgstr "মধ্য"
 
-#: kdeui/widgets/krichtextwidget.cpp:341
+#: kdeui/widgets/krichtextwidget.cpp:342
 msgctxt "@action"
 msgid "Align &Right"
 msgstr "ডানপার্শ্বিক (&R)"
 
-#: kdeui/widgets/krichtextwidget.cpp:342
+#: kdeui/widgets/krichtextwidget.cpp:343
 msgctxt "@label right justify"
 msgid "Right"
 msgstr "ডানদিকে"
 
-#: kdeui/widgets/krichtextwidget.cpp:348
+#: kdeui/widgets/krichtextwidget.cpp:349
 msgctxt "@action"
 msgid "&Justify"
 msgstr "সমপ্রান্তিক (&J)"
 
-#: kdeui/widgets/krichtextwidget.cpp:349
+#: kdeui/widgets/krichtextwidget.cpp:350
 msgctxt "@label justify fill"
 msgid "Justify"
 msgstr "সমপ্রান্তিক"
 
-#: kdeui/widgets/krichtextwidget.cpp:374
+#: kdeui/widgets/krichtextwidget.cpp:375
 msgctxt "@title:menu"
 msgid "List Style"
 msgstr "লিস্টের বিন্যাস"
 
-#: kdeui/widgets/krichtextwidget.cpp:376
+#: kdeui/widgets/krichtextwidget.cpp:377
 msgctxt "@item:inmenu no list style"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kdeui/widgets/krichtextwidget.cpp:377
+#: kdeui/widgets/krichtextwidget.cpp:378
 msgctxt "@item:inmenu disc list style"
 msgid "Disc"
 msgstr "ডিস্ক"
 
-#: kdeui/widgets/krichtextwidget.cpp:378
+#: kdeui/widgets/krichtextwidget.cpp:379
 msgctxt "@item:inmenu circle list style"
 msgid "Circle"
 msgstr "বৃত্ত"
 
-#: kdeui/widgets/krichtextwidget.cpp:379
+#: kdeui/widgets/krichtextwidget.cpp:380
 msgctxt "@item:inmenu square list style"
 msgid "Square"
 msgstr "চৌকোণ"
 
-#: kdeui/widgets/krichtextwidget.cpp:380
+#: kdeui/widgets/krichtextwidget.cpp:381
 msgctxt "@item:inmenu numbered lists"
 msgid "123"
 msgstr "১২৩"
 
-#: kdeui/widgets/krichtextwidget.cpp:381
+#: kdeui/widgets/krichtextwidget.cpp:382
 msgctxt "@item:inmenu lowercase abc lists"
 msgid "abc"
 msgstr "অআকখ"
 
-#: kdeui/widgets/krichtextwidget.cpp:382
+#: kdeui/widgets/krichtextwidget.cpp:383
 msgctxt "@item:inmenu uppercase abc lists"
 msgid "ABC"
 msgstr "অআকখ"
 
-#: kdeui/widgets/krichtextwidget.cpp:398
+#: kdeui/widgets/krichtextwidget.cpp:399
 msgctxt "@action"
 msgid "Increase Indent"
 msgstr "প্রান্ত বৃদ্ধি করুন"
 
-#: kdeui/widgets/krichtextwidget.cpp:411
+#: kdeui/widgets/krichtextwidget.cpp:412
 msgctxt "@action"
 msgid "Decrease Indent"
 msgstr "প্রান্ত হ্রাস করুন"
 
-#: kdeui/widgets/krichtextwidget.cpp:424
+#: kdeui/widgets/krichtextwidget.cpp:425
 msgctxt "@action"
 msgid "Insert Rule Line"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:435
+#: kdeui/widgets/krichtextwidget.cpp:436
 msgctxt "@action"
 msgid "Link"
 msgstr "লিঙ্ক"
 
-#: kdeui/widgets/krichtextwidget.cpp:446
+#: kdeui/widgets/krichtextwidget.cpp:447
 msgctxt "@action"
 msgid "Format Painter"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:457
+#: kdeui/widgets/krichtextwidget.cpp:458
 msgctxt "@action"
 msgid "To Plain Text"
 msgstr "প্লেইন-টেক্সটে পরিবর্তন"
@@ -9644,51 +9644,51 @@ msgstr "ছবি - %1x%2 পিক্সেল"
 msgid "Done."
 msgstr "সমাপ্ত।"
 
-#: khtml/test_regression.cpp:616
+#: khtml/test_regression.cpp:615
 msgid "Directory containing tests, basedir and output directories."
 msgstr ""
 
-#: khtml/test_regression.cpp:620
+#: khtml/test_regression.cpp:619
 msgid "Regenerate baseline (instead of checking)"
 msgstr ""
 
-#: khtml/test_regression.cpp:622
+#: khtml/test_regression.cpp:621
 msgid "Do not show the window while running tests"
 msgstr "পরীক্ষা চলাকালে উইন্ডো প্রদর্শন করা হবে না"
 
-#: khtml/test_regression.cpp:624
+#: khtml/test_regression.cpp:623
 msgid "Only run a single test. Multiple options allowed."
 msgstr ""
 
-#: khtml/test_regression.cpp:625
+#: khtml/test_regression.cpp:624
 msgid "Only run .js tests"
 msgstr "শুধুমাত্র .js পরীক্ষা করা হবে।"
 
-#: khtml/test_regression.cpp:626
+#: khtml/test_regression.cpp:625
 msgid "Only run .html tests"
 msgstr "শুধুমাত্র .html পরীক্ষা করা হবে।"
 
-#: khtml/test_regression.cpp:629
+#: khtml/test_regression.cpp:628
 msgid "Put output in <directory> instead of <base_dir>/output"
 msgstr ""
 
-#: khtml/test_regression.cpp:630
+#: khtml/test_regression.cpp:629
 msgid ""
 "Directory containing tests, basedir and output directories. Only regarded if "
 "-b is not specified."
 msgstr ""
 
-#: khtml/test_regression.cpp:631
+#: khtml/test_regression.cpp:630
 msgid ""
 "Relative path to testcase, or directory of testcases to be run (equivalent "
 "to -t)."
 msgstr ""
 
-#: khtml/test_regression.cpp:633
+#: khtml/test_regression.cpp:632
 msgid "TestRegression"
 msgstr "TestRegression"
 
-#: khtml/test_regression.cpp:634
+#: khtml/test_regression.cpp:633
 msgid "Regression tester for khtml"
 msgstr ""
 
@@ -10259,7 +10259,7 @@ msgid ""
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2937 khtml/khtmlview.cpp:2979
+#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2959 khtml/khtmlview.cpp:3001
 #: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "জমা করুন"
@@ -10370,39 +10370,39 @@ msgstr "অগ্রাহ্যের তালিকায় যোগ করা
 msgid "Remove from ignores..."
 msgstr "অগ্রাহ্যের তালিকা থেকে মুছে ফেলা হবে..."
 
-#: khtml/khtmlview.cpp:1909
+#: khtml/khtmlview.cpp:1924
 msgid "Find stopped."
 msgstr "অনুসন্ধান বন্ধ করা হয়েছে।"
 
-#: khtml/khtmlview.cpp:1920
+#: khtml/khtmlview.cpp:1935
 msgid "Starting -- find links as you type"
 msgstr "আরম্ভ করা হচ্ছে -- টাইপ করার সময় লিঙ্ক অনুসন্ধান করা হবে"
 
-#: khtml/khtmlview.cpp:1926
+#: khtml/khtmlview.cpp:1941
 msgid "Starting -- find text as you type"
 msgstr "আরম্ভ করা হচ্ছে -- টাইপ করার সময় টেক্সট অনুসন্ধান করা হবে"
 
-#: khtml/khtmlview.cpp:1949
+#: khtml/khtmlview.cpp:1964
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1954
+#: khtml/khtmlview.cpp:1969
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1962
+#: khtml/khtmlview.cpp:1977
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "টেক্সট পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1967
+#: khtml/khtmlview.cpp:1982
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "টেক্সট পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:2015
+#: khtml/khtmlview.cpp:2030
 msgid "Access Keys activated"
 msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
@@ -10524,62 +10524,62 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "পরিত্যাগ করা হবে (&A)"
 
-#: khtml/ecma/kjs_window.cpp:1582 khtml/ecma/kjs_html.cpp:2113
+#: khtml/ecma/kjs_window.cpp:1580 khtml/ecma/kjs_html.cpp:2113
 msgid "Confirmation: JavaScript Popup"
 msgstr "নিশ্চায়ন: JavaScript পপ-আপ"
 
-#: khtml/ecma/kjs_window.cpp:1585
+#: khtml/ecma/kjs_window.cpp:1583
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1588
+#: khtml/ecma/kjs_window.cpp:1586
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2120
+#: khtml/ecma/kjs_window.cpp:1588 khtml/ecma/kjs_html.cpp:2120
 msgid "Allow"
 msgstr "অনুমতি প্রদান করা হবে"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2120
+#: khtml/ecma/kjs_window.cpp:1588 khtml/ecma/kjs_html.cpp:2120
 msgid "Do Not Allow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_window.cpp:1890
+#: khtml/ecma/kjs_window.cpp:1888
 msgid "Close window?"
 msgstr "উইন্ডো বন্ধ করা হবে কি?"
 
-#: khtml/ecma/kjs_window.cpp:1890
+#: khtml/ecma/kjs_window.cpp:1888
 msgid "Confirmation Required"
 msgstr "নিশ্চিত করা আবশ্যক"
 
-#: khtml/ecma/kjs_window.cpp:2748
+#: khtml/ecma/kjs_window.cpp:2746
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2751
+#: khtml/ecma/kjs_window.cpp:2749
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2759
+#: khtml/ecma/kjs_window.cpp:2757
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript দ্বারা বুকমার্ক যোগ করার প্রচেষ্টা করা হয়েছে"
 
-#: khtml/ecma/kjs_window.cpp:2763
+#: khtml/ecma/kjs_window.cpp:2761
 msgid "Insert"
 msgstr "সন্নিবেশ করুন"
 
-#: khtml/ecma/kjs_window.cpp:2763
+#: khtml/ecma/kjs_window.cpp:2761
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
