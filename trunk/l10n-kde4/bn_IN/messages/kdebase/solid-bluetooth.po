@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solid-bluetooth\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-29 21:27+0100\n"
+"POT-Creation-Date: 2008-10-15 10:38+0200\n"
 "PO-Revision-Date: 2008-07-21 13:26+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -59,80 +59,87 @@ msgid "             # List bluetooth default adapter/interface\n"
 msgstr "             # ব্লুটুথের ডিফল্ট অ্যাডাপটর/ইন্টারফেসগুলি তালিকাভুক্ত করা হবে\n"
 
 #: solid-bluetooth.cpp:209
-msgid ""
-"             # Query the name from the remote device 'remote-mac' with "
-"'ubi'\n"
-msgstr ""
-"             # 'ubi' দ্বারা 'remote-mac' নামক রিমোট ডিভাইস থেকে নামটি অনুসন্ধান "
-"করা হবে\n"
-
-#: solid-bluetooth.cpp:212
-msgid ""
-"             # Query information about the bluetooth adapter/interface with "
-"'ubi'\n"
+#, fuzzy
+#| msgid ""
+#| "             # Query information about the bluetooth adapter/interface "
+#| "with 'ubi'\n"
+msgid "             # Request to create a remote bluetooth device on the bus\n"
 msgstr ""
 "             # 'ubi' দ্বারা ব্লুটুথের অ্যাডাপটর/ইন্টারফেস সংঙ্ক্রান্ত তথ্য অনুসন্ধান করা "
 "হবে\n"
 
+#: solid-bluetooth.cpp:212
+#, fuzzy
+#| msgid ""
+#| "             # Query the name from the remote device 'remote-mac' with "
+#| "'ubi'\n"
+msgid ""
+"             # Request to remove the remote bluetooth device from the bus\n"
+msgstr ""
+"             # 'ubi' দ্বারা 'remote-mac' নামক রিমোট ডিভাইস থেকে নামটি অনুসন্ধান "
+"করা হবে\n"
+
 #: solid-bluetooth.cpp:215
-msgid ""
-"             # Set the bluetooth adapter name.\n"
-"             # Set the bluetooth adapter mode. Where 'value' is one of:\n"
-"             # off|connectable|discoverable\n"
-msgstr ""
-"             # ব্লুটুথ অ্যাডাপটরের নাম নিযুক্ত করা হবে।\n"
-"             # ব্লুটুথ অ্যাডাপটরের মোড নিযুক্ত করা হবে। যেখানে 'value' এগুলির মধ্যে "
-"একটি:‌\n"
-"             # অফ|কানেকটেবেল|ডিসকভারেবেল\n"
+#, fuzzy
+#| msgid "             # List bluetooth adapters/interfaces\n"
+msgid "             # Request the properties from the bluetooth adapter\n"
+msgstr "             # ব্লুটুথের অ্যাডাপটর/ইন্টারফেসগুলি তালিকাভুক্ত করা হবে\n"
 
-#: solid-bluetooth.cpp:220
-msgid "             # Scan for bluetooth remote devices.\n"
-msgstr "             # ব্লুটুথ রিমোট ডিভাইসগুলি স্ক্যন করা হবে।\n"
-
-#: solid-bluetooth.cpp:223
-msgid "             # List configured input devices.\n"
-msgstr "             # কনফিগার করা ইনপুট ডিভাইসগুলি তালিকাভুক্ত করা হবে।\n"
-
-#: solid-bluetooth.cpp:226
-msgid ""
-"             # Setup bluetooth input device.\n"
-"             # Remove configuration of remote input device.\n"
-"             # Connect or disconnect bluetooth input device.\n"
-msgstr ""
-"             # ব্লুটুথ ইনপুট ডিভাইস স্থাপন করা হবে।\n"
-"             # ব্লুটুথ ইনপুট ডিভাইসের কনফিগারেশন  করা হবে।\n"
-"             # ব্লুটুথ ইনপুট ডিভাইস সংযোগ করা হবে অথবা সংযোগ বিচ্ছিন্ন করা হবে।\n"
-
-#: solid-bluetooth.cpp:231
-msgid ""
-"             # Create bonding (pairing) with bluetooth remote device.\n"
-"             # Remove bonding of bluetooth remote device.\n"
-"             # Check for bonding of bluetooth remote device.\n"
-msgstr ""
-"             # ব্লুটুথ ডিভাইস দিয়ে বনডিং (পেয়ারিং) তৈরি করা হবে।\n"
-"             # ব্লুটুথ ডিভাইসের বনডিংসরিয়ে দেওয়া হবে।\n"
-"             # ব্লুটুথ রিমোট ডিভাইসের বনডিং পরীক্ষা করা হবে।\n"
-
-#: solid-bluetooth.cpp:371
+#: solid-bluetooth.cpp:407
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'"
 msgstr "সিন্ট্যক্সে ত্রুটি: অজানা অপসন '%1'"
 
-#: solid-bluetooth.cpp:551
+#: solid-bluetooth.cpp:614
 msgid "Error: unsupported operation!"
 msgstr "ত্রুটি: অসমর্থিত অপারেশন!"
 
-#: solid-bluetooth.cpp:562 solid-bluetooth.cpp:613
+#: solid-bluetooth.cpp:625 solid-bluetooth.cpp:676
 #, kde-format
 msgid "Error: %1"
 msgstr "ত্রুটি: %1"
 
-#: solid-bluetooth.cpp:659
+#: solid-bluetooth.cpp:722
 #, kde-format
 msgid "Progress: %1%"
 msgstr "অগ্রগতি: %1%"
 
-#: solid-bluetooth.cpp:664
+#: solid-bluetooth.cpp:727
 #, kde-format
 msgid "Info: %1"
 msgstr "ইনফো: %1"
+
+#~ msgid ""
+#~ "             # Set the bluetooth adapter name.\n"
+#~ "             # Set the bluetooth adapter mode. Where 'value' is one of:\n"
+#~ "             # off|connectable|discoverable\n"
+#~ msgstr ""
+#~ "             # ব্লুটুথ অ্যাডাপটরের নাম নিযুক্ত করা হবে।\n"
+#~ "             # ব্লুটুথ অ্যাডাপটরের মোড নিযুক্ত করা হবে। যেখানে 'value' এগুলির "
+#~ "মধ্যে একটি:‌\n"
+#~ "             # অফ|কানেকটেবেল|ডিসকভারেবেল\n"
+
+#~ msgid "             # Scan for bluetooth remote devices.\n"
+#~ msgstr "             # ব্লুটুথ রিমোট ডিভাইসগুলি স্ক্যন করা হবে।\n"
+
+#~ msgid "             # List configured input devices.\n"
+#~ msgstr "             # কনফিগার করা ইনপুট ডিভাইসগুলি তালিকাভুক্ত করা হবে।\n"
+
+#~ msgid ""
+#~ "             # Setup bluetooth input device.\n"
+#~ "             # Remove configuration of remote input device.\n"
+#~ "             # Connect or disconnect bluetooth input device.\n"
+#~ msgstr ""
+#~ "             # ব্লুটুথ ইনপুট ডিভাইস স্থাপন করা হবে।\n"
+#~ "             # ব্লুটুথ ইনপুট ডিভাইসের কনফিগারেশন  করা হবে।\n"
+#~ "             # ব্লুটুথ ইনপুট ডিভাইস সংযোগ করা হবে অথবা সংযোগ বিচ্ছিন্ন করা "
+#~ "হবে।\n"
+
+#~ msgid ""
+#~ "             # Create bonding (pairing) with bluetooth remote device.\n"
+#~ "             # Remove bonding of bluetooth remote device.\n"
+#~ "             # Check for bonding of bluetooth remote device.\n"
+#~ msgstr ""
+#~ "             # ব্লুটুথ ডিভাইস দিয়ে বনডিং (পেয়ারিং) তৈরি করা হবে।\n"
+#~ "             # ব্লুটুথ ডিভাইসের বনডিংসরিয়ে দেওয়া হবে।\n"
+#~ "             # ব্লুটুথ রিমোট ডিভাইসের বনডিং পরীক্ষা করা হবে।\n"
