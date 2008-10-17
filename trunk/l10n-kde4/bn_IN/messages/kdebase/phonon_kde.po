@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phonon_kde\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-19 06:37+0200\n"
+"POT-Creation-Date: 2008-10-17 09:34+0200\n"
 "PO-Revision-Date: 2008-07-04 12:18+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -34,33 +34,6 @@ msgstr "মাল্টিমিডিয়া ব্যাক-এন্ড পা
 msgid "Unable to find the requested Multimedia Backend"
 msgstr "অনুরোধ করা মাল্টিমিডিয়া ব্যাক-এন্ড পাওয়া যায়নি"
 
-#: devicelisting.cpp:61 devicelisting.cpp:76
-#, kde-format
-msgid "%1 (OSS)"
-msgstr "%1 (OSS)"
-
-#: devicelisting.cpp:63 devicelisting.cpp:78
-#, kde-format
-msgid "%1 (ALSA)"
-msgstr "%1 (ALSA)"
-
-#: devicelisting.cpp:133 devicelisting.cpp:277
-msgid ""
-"<html>This device is currently not available (either it is unplugged or the "
-"driver is not loaded).</html>"
-msgstr ""
-"<html>চিহ্নিত ডিভাইসটি বর্তমানে উপলব্ধ নয় (সম্ভবত এটি সংযুক্ত নয় অথবা ড্রাইভারটি "
-"লোড করা হয়নি)।</html>"
-
-#: devicelisting.cpp:135
-#, kde-format
-msgid ""
-"<html>This will try the following devices and use the first that works: "
-"<ol><li>%1</li></ol></html>"
-msgstr ""
-"<html>এর ফলে, নিম্নলিখিত ডিভাইসগুলির প্রয়োগের প্রচেষ্টা করা হবে ও সনাক্ত হওয়া প্রথম "
-"সফল ডিভাইসটি ব্যবহার করা হবে: <ol><li>%1</li></ol></html>"
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -70,3 +43,23 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runabh@gmail.com"
+
+#~ msgid "%1 (OSS)"
+#~ msgstr "%1 (OSS)"
+
+#~ msgid "%1 (ALSA)"
+#~ msgstr "%1 (ALSA)"
+
+#~ msgid ""
+#~ "<html>This device is currently not available (either it is unplugged or "
+#~ "the driver is not loaded).</html>"
+#~ msgstr ""
+#~ "<html>চিহ্নিত ডিভাইসটি বর্তমানে উপলব্ধ নয় (সম্ভবত এটি সংযুক্ত নয় অথবা ড্রাইভারটি "
+#~ "লোড করা হয়নি)।</html>"
+
+#~ msgid ""
+#~ "<html>This will try the following devices and use the first that works: "
+#~ "<ol><li>%1</li></ol></html>"
+#~ msgstr ""
+#~ "<html>এর ফলে, নিম্নলিখিত ডিভাইসগুলির প্রয়োগের প্রচেষ্টা করা হবে ও সনাক্ত হওয়া "
+#~ "প্রথম সফল ডিভাইসটি ব্যবহার করা হবে: <ol><li>%1</li></ol></html>"

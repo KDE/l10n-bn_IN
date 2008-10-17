@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-15 10:36+0200\n"
+"POT-Creation-Date: 2008-10-17 09:33+0200\n"
 "PO-Revision-Date: 2008-07-03 17:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -796,13 +796,13 @@ msgstr "প্রধান টুল-বার"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:334 kdeui/dialogs/kshortcutseditor.cpp:582
+#: rc.cpp:334 kdeui/dialogs/kshortcutseditor.cpp:583
 msgid "Main:"
 msgstr "প্রধান:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:337 kdeui/dialogs/kshortcutseditor.cpp:583
+#: rc.cpp:337 kdeui/dialogs/kshortcutseditor.cpp:584
 msgid "Alternate:"
 msgstr "বিকল্প:"
 
@@ -3226,7 +3226,7 @@ msgstr "%1 লাইব্রেরি দ্বারা, KDE 4-র সাথ�
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "'%1' প্লাগ-ইন দ্বারা বিসংগত KDE লাইব্রেরি ব্যবহার করা হয় (%2)।"
 
-#: kdecore/config/kconfig.cpp:667
+#: kdecore/config/kconfig.cpp:668
 msgid "Please contact your system administrator."
 msgstr "অনুগ্রহ করে সিস্টেম অ্যাডমিনিস্ট্রটরের সাথে যোগাযোগ করুন।"
 
@@ -4964,7 +4964,7 @@ msgid "Name"
 msgstr "নাম"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:49
-#: kdeui/dialogs/kshortcutseditor.cpp:607
+#: kdeui/dialogs/kshortcutseditor.cpp:608
 msgid "Description"
 msgstr "বিবরণ"
 
@@ -6304,48 +6304,48 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "আইকন পরিবর্তন করুন"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:506
-#: kdeui/dialogs/kshortcutseditor.cpp:522
+#: kdeui/dialogs/kshortcutseditor.cpp:507
+#: kdeui/dialogs/kshortcutseditor.cpp:523
 #: kdeui/widgets/kkeysequencewidget.cpp:152
 msgid "Key Conflict"
 msgstr "কি-র মধ্যে দ্বন্দ্ব"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:507
+#: kdeui/dialogs/kshortcutseditor.cpp:508
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:511
-#: kdeui/dialogs/kshortcutseditor.cpp:527 kdeui/shortcuts/kglobalaccel.cpp:395
+#: kdeui/dialogs/kshortcutseditor.cpp:512
+#: kdeui/dialogs/kshortcutseditor.cpp:528 kdeui/shortcuts/kglobalaccel.cpp:403
 #: kdeui/widgets/kkeysequencewidget.cpp:160
 #: kdeui/widgets/kkeysequencewidget.cpp:481
 msgid "Reassign"
 msgstr "পুনরায় নির্ধারণ"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:523
+#: kdeui/dialogs/kshortcutseditor.cpp:524
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:564
+#: kdeui/dialogs/kshortcutseditor.cpp:565
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1-র শর্ট-কাট"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:584
+#: kdeui/dialogs/kshortcutseditor.cpp:585
 msgid "Global:"
 msgstr "সার্বজনীন:"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:599
+#: kdeui/dialogs/kshortcutseditor.cpp:600
 msgid "Action Name"
 msgstr "কর্মের নাম"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:603
+#: kdeui/dialogs/kshortcutseditor.cpp:604
 msgid "Shortcuts"
 msgstr "শর্ট-কাট"
 
@@ -7399,11 +7399,11 @@ msgstr "সকল দৃশ্যমান কলাম"
 msgid "S&earch:"
 msgstr "অনুসন্ধান:(&e)"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:388
+#: kdeui/shortcuts/kglobalaccel.cpp:396
 msgid "Conflict with Global Shortcut"
 msgstr "সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:389
+#: kdeui/shortcuts/kglobalaccel.cpp:397
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -10417,7 +10417,7 @@ msgstr ""
 msgid "XML parsing error"
 msgstr "XML পার্স সংক্রান্ত ত্রুটি"
 
-#: khtml/xml/dom_docimpl.cpp:2078
+#: khtml/xml/dom_docimpl.cpp:2066
 msgid "Basic Page Style"
 msgstr "পৃষ্ঠার মূল বিন্যাস"
 
