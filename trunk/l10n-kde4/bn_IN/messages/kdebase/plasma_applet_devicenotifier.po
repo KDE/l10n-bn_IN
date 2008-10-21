@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-20 10:08+0200\n"
+"POT-Creation-Date: 2008-10-21 10:27+0200\n"
 "PO-Revision-Date: 2008-07-04 12:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -17,14 +17,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: devicenotifier.cpp:204
+#: devicenotifier.cpp:168
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
 msgstr[0] "চিহ্নিত ডিভাইসের জন্য ১-টি কর্ম"
 msgstr[1] "চিহ্নিত ডিভাইসের জন্য %1-টি কর্ম"
 
-#: notifierdialog.cpp:290
+#: devicenotifier.cpp:220
+#, kde-format
+msgid "Last plugged in device: %1"
+msgstr ""
+
+#: devicenotifier.cpp:225
+msgid "No devices plugged in"
+msgstr ""
+
+#: notifierdialog.cpp:284
 msgid ""
 "Cannot unmount the device.\n"
 "One or more files on this device are open within an application."
@@ -32,7 +41,7 @@ msgstr ""
 "ডিভাইস আন-মাউন্ট করা যায়নি।\n"
 "কোনো অ্যাপ্লিকেশনের মধ্যে এই ডিভাইসের এক অথবা একাধিক ফাইল খোলা রয়েছে।"
 
-#: notifierdialog.cpp:306
+#: notifierdialog.cpp:300
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -40,7 +49,7 @@ msgstr ""
 "ডিস্ক বের করা যায়নি।\n"
 "কোনো অ্যাপ্লিকেশনের মধ্যে এই ডিস্কের এক অথবা একাধিক ফাইল খোলা রয়েছে।"
 
-#: notifierdialog.cpp:393
+#: notifierdialog.cpp:387
 #, kde-format
 msgid "<font color=\"%1\">Devices recently plugged in:</font>"
 msgstr "<font color=\"%1\">সম্প্রতি সংযুক্ত করা ডিভাইস:</font>"
