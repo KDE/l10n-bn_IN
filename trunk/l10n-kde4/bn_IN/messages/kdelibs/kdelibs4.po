@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-27 10:16+0100\n"
+"POT-Creation-Date: 2008-10-28 09:45+0100\n"
 "PO-Revision-Date: 2008-10-23 11:15+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -5154,7 +5154,6 @@ msgstr "এই এনট্রির মান বিচার করুন"
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:540
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:64
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:186
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:188
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:194
 msgid "Install"
 msgstr "ইনস্টল করুন"
@@ -5190,7 +5189,6 @@ msgstr "যোগসাজস"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:140
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:177
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:179
 msgid "Update"
 msgstr "আপডেট করুন"
 
@@ -6282,7 +6280,6 @@ msgstr "আইকন পরিবর্তন করুন"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:508
 #: kdeui/dialogs/kshortcutseditor.cpp:524
-#: kdeui/widgets/kkeysequencewidget.cpp:236
 msgid "Key Conflict"
 msgstr "কি-র মধ্যে দ্বন্দ্ব"
 
@@ -6294,11 +6291,11 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:429
-#: kdeui/shortcuts/kglobalaccel.cpp:468
-#: kdeui/widgets/kkeysequencewidget.cpp:173
-#: kdeui/widgets/kkeysequencewidget.cpp:244
-#: kdeui/widgets/kkeysequencewidget.cpp:578
+#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:431
+#: kdeui/shortcuts/kglobalaccel.cpp:470
+#: kdeui/widgets/kkeysequencewidget.cpp:174
+#: kdeui/widgets/kkeysequencewidget.cpp:256
+#: kdeui/widgets/kkeysequencewidget.cpp:633
 msgid "Reassign"
 msgstr "পুনরায় নির্ধারণ"
 
@@ -7377,11 +7374,11 @@ msgstr "সকল দৃশ্যমান কলাম"
 msgid "S&earch:"
 msgstr "অনুসন্ধান:(&e)"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:422
+#: kdeui/shortcuts/kglobalaccel.cpp:424
 msgid "Conflict with Global Shortcut"
 msgstr "সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:423
+#: kdeui/shortcuts/kglobalaccel.cpp:425
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -7389,24 +7386,24 @@ msgid ""
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:449
+#: kdeui/shortcuts/kglobalaccel.cpp:451
 #, kde-format
 msgid "The '%1' key combination is registered by application %2 for action %3:"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:456
+#: kdeui/shortcuts/kglobalaccel.cpp:458
 #, kde-format
 msgid "In context '%1' for action '%2'\n"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:460
+#: kdeui/shortcuts/kglobalaccel.cpp:462
 #, kde-format
 msgid ""
 "The '%1' key combination is registered by application %2.\n"
 "%3"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:466
+#: kdeui/shortcuts/kglobalaccel.cpp:468
 msgid "Conflict With Registered Global Shortcut"
 msgstr "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
@@ -9269,45 +9266,59 @@ msgstr "অজানা"
 msgid "&Copy Full Text"
 msgstr "সম্পূর্ণ টেক্সট কপি করুন (&C)"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:160
+#: kdeui/widgets/kkeysequencewidget.cpp:161
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:167
+#: kdeui/widgets/kkeysequencewidget.cpp:168
 #, kde-format
 msgid "The shortcut '%1' conflicts with the following key combinations:\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:171
+#: kdeui/widgets/kkeysequencewidget.cpp:172
 #, fuzzy
 #| msgid "Conflict With Registered Global Shortcut"
 msgid "Conflict With Registered Global Shortcut(s)"
 msgstr "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:238
+#: kdeui/widgets/kkeysequencewidget.cpp:241
+#, fuzzy
+#| msgid "Shortcut conflict"
+msgid "Shortcut Conflict(s)"
+msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:245
+#, fuzzy, kde-format
+#| msgctxt "header for an applications shortcut list"
+#| msgid "Shortcuts for %1"
+msgid "Shortcut(s) '%1' for action '%2'\n"
+msgstr "%1-র শর্ট-কাট"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:250
 #, kde-format
 msgid ""
-"The \"%1\" key sequence conflicts with \"%2\" for the \"%3\" action.\n"
-"Do you want to assign an empty shortcut to that action?"
+"The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
+"Do you want to assign an empty shortcut to these actions?\n"
+"%2"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:252
+#: kdeui/widgets/kkeysequencewidget.cpp:264
 msgid "Shortcut conflict"
 msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:253
+#: kdeui/widgets/kkeysequencewidget.cpp:265
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:572
+#: kdeui/widgets/kkeysequencewidget.cpp:627
 msgid "Conflict with Standard Application Shortcut"
 msgstr "অ্যাপ্লিকেশনের প্রমিত শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:573
+#: kdeui/widgets/kkeysequencewidget.cpp:628
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -9315,21 +9326,21 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:605
+#: kdeui/widgets/kkeysequencewidget.cpp:660
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ইনপুট"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:612
+#: kdeui/widgets/kkeysequencewidget.cpp:667
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:655
+#: kdeui/widgets/kkeysequencewidget.cpp:710
 msgid "The key you just pressed isn't supported by qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:656
+#: kdeui/widgets/kkeysequencewidget.cpp:711
 #, fuzzy
 #| msgid "Unsorted"
 msgid "Unsupported Key"
@@ -10205,65 +10216,65 @@ msgid ""
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:6008
+#: khtml/khtml_part.cpp:6011
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6923
+#: khtml/khtml_part.cpp:6926
 msgid "Security Warning"
 msgstr "নিরাপত্তা সংক্রান্ত সতর্কবার্তা"
 
-#: khtml/khtml_part.cpp:6929
+#: khtml/khtml_part.cpp:6932
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
 
-#: khtml/khtml_part.cpp:6930 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6933 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "নিরাপত্তা সংক্রান্ত সূচনা"
 
-#: khtml/khtml_part.cpp:7280
+#: khtml/khtml_part.cpp:7283
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7337
+#: khtml/khtml_part.cpp:7340
 msgid "&Close Wallet"
 msgstr "Wallet বন্ধ করুন (&C)"
 
-#: khtml/khtml_part.cpp:7380
+#: khtml/khtml_part.cpp:7383
 msgid "JavaScript &Debugger"
 msgstr "JavaScript ডিবাগার (&D)"
 
-#: khtml/khtml_part.cpp:7413
+#: khtml/khtml_part.cpp:7416
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7419
+#: khtml/khtml_part.cpp:7422
 msgid "Popup Window Blocked"
 msgstr "পপ-আপ উইন্ডো প্রদর্শনে বাধা দেওয়া হয়েছে"
 
-#: khtml/khtml_part.cpp:7419
+#: khtml/khtml_part.cpp:7422
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7432
+#: khtml/khtml_part.cpp:7435
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "অবরুদ্ধ পপ-আপ উইন্ডো প্রদর্শন করা হবে (&S)"
 msgstr[1] "অবরুদ্ধ %1 পপ-আপ উইন্ডো প্রদর্শন করা হবে (&S)"
 
-#: khtml/khtml_part.cpp:7433
+#: khtml/khtml_part.cpp:7436
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7435
+#: khtml/khtml_part.cpp:7438
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "JavaScript-র নতুন উইন্ডো সংক্রান্ত নিয়মনীতি কনফিগার করুন...&C"
 
@@ -10362,7 +10373,7 @@ msgstr ""
 msgid "XML parsing error"
 msgstr "XML পার্স সংক্রান্ত ত্রুটি"
 
-#: khtml/xml/dom_docimpl.cpp:2203
+#: khtml/xml/dom_docimpl.cpp:2237
 msgid "Basic Page Style"
 msgstr "পৃষ্ঠার মূল বিন্যাস"
 
@@ -10690,7 +10701,7 @@ msgstr ""
 msgid "Key Generator"
 msgstr "কি নির্মাণ ব্যবস্থা"
 
-#: khtml/html/html_objectimpl.cpp:577
+#: khtml/html/html_objectimpl.cpp:574
 #, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
@@ -10699,15 +10710,15 @@ msgstr ""
 "'%1'-র জন্য প্লাগ-ইন পাওয়া যায়নি।\n"
 "%2 থেকে ডাউনলোড করা হবে কি?"
 
-#: khtml/html/html_objectimpl.cpp:578
+#: khtml/html/html_objectimpl.cpp:575
 msgid "Missing Plugin"
 msgstr "অনুপস্থিত প্লাগ-ইন"
 
-#: khtml/html/html_objectimpl.cpp:578
+#: khtml/html/html_objectimpl.cpp:575
 msgid "Download"
 msgstr "ডাউনলোড করা হবে"
 
-#: khtml/html/html_objectimpl.cpp:578
+#: khtml/html/html_objectimpl.cpp:575
 msgid "Do Not Download"
 msgstr "ডাউনলোড করা হবে না"
 
