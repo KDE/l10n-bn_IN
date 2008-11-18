@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:54+0100\n"
 "PO-Revision-Date: 2008-07-07 02:25+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -909,13 +909,19 @@ msgid "All settings will be reset to default values. Do you want to continue?"
 msgstr "সমস্ত বৈশিষ্টগুলো ডিফল্ট মানে রিসেট করা হবে। অাপনি অগ্রসর হতে চান?"
 
 #: commentwidget.cpp:55
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Add comment..."
 msgctxt "@label"
-msgid "Add comment..."
+msgid "Add Comment..."
 msgstr "মন্তব্য করা হবে..."
 
 #: commentwidget.cpp:58
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Change comment..."
 msgctxt "@label"
-msgid "Change comment..."
+msgid "Change Comment..."
 msgstr "মন্তব্য পরিবর্তন..."
 
 #: startupsettingspage.cpp:58
@@ -963,12 +969,7 @@ msgctxt "@info"
 msgid "The location for the home folder is invalid and will not be applied."
 msgstr "হোম ফোল্ডারের অবস্থান সঠিক নয় এবং তাই প্রোয়গ করা যাবে না।"
 
-#: tagcloud/newtagdialog.cpp:31
-msgctxt "@title:window"
-msgid "Create new Tag"
-msgstr "নতুন ট্যাগ তৈরি করা হবে"
-
-#: tagcloud/newtagdialog.cpp:68
+#: tagcloud/newtagdialog.cpp:31 tagcloud/newtagdialog.cpp:68
 msgctxt "@title:window"
 msgid "Create New Tag"
 msgstr "নতুন ট্যাগ তৈরি করা হবে"
@@ -979,8 +980,11 @@ msgid "with optional icon and description"
 msgstr "ঐচ্ছিক অাইকন ও বর্ণনা"
 
 #: tagcloud/resourcetaggingwidget.cpp:122
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Change tags..."
 msgctxt "@label"
-msgid "Change tags..."
+msgid "Change Tags..."
 msgstr "ট্যাগ পরিবর্তন..."
 
 #: tagcloud/tagcloud.cpp:134
@@ -1527,7 +1531,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:332
 msgctxt "@label"
-msgid "Detailed Description (optional):"
+msgid "Detailed description (optional):"
 msgstr ""
 
 #: dolphinmainwindow.cpp:147
@@ -2001,7 +2005,7 @@ msgstr ""
 
 #: detailsviewsettingspage.cpp:80
 msgctxt "@option:check"
-msgid "Expandable Folders"
+msgid "Expandable folders"
 msgstr ""
 
 #: additionalinfodialog.cpp:38
@@ -2038,6 +2042,10 @@ msgstr ""
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr ""
+
+#~ msgctxt "@title:window"
+#~ msgid "Create new Tag"
+#~ msgstr "নতুন ট্যাগ তৈরি করা হবে"
 
 #, fuzzy
 #~| msgctxt "@label"
