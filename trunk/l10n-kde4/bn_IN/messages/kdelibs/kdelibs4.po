@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:53+0100\n"
+"POT-Creation-Date: 2008-11-19 10:53+0100\n"
 "PO-Revision-Date: 2008-10-23 11:15+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -1034,7 +1034,7 @@ msgstr "পরিশ্রুত করুন (&l)"
 msgid "HTML Toolbar"
 msgstr "HTML টুল-বার"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:28
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:462
 #, fuzzy
@@ -1042,7 +1042,7 @@ msgstr "HTML টুল-বার"
 msgid "F&ind:"
 msgstr "অনুসন্ধান"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:54
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
 #: rc.cpp:465
 #, fuzzy
@@ -1051,13 +1051,13 @@ msgstr "অনুসন্ধান"
 msgid "&Next"
 msgstr "পরবর্তী (&N)"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:64
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:85
 #. i18n: ectx: property (text), widget (QToolButton, m_previous)
 #: rc.cpp:468 kdeui/dialogs/ktip.cpp:302
 msgid "&Previous"
 msgstr "পূর্ববর্তী (&P)"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:90
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
 #: rc.cpp:471
 #, fuzzy
@@ -1921,15 +1921,15 @@ msgstr "পুরোনো হোস্টনেম"
 msgid "New hostname"
 msgstr "নতুন হোস্টনেম"
 
-#: kded/kded.cpp:807
+#: kded/kded.cpp:814
 msgid "KDE Daemon"
 msgstr "KDE Daemon"
 
-#: kded/kded.cpp:809
+#: kded/kded.cpp:816
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "KDE Daemon - প্রয়োজন অনুসারে Sycoca ডাটাবেস আপডেট আরম্ভ করতে ব্যবহৃত"
 
-#: kded/kded.cpp:812
+#: kded/kded.cpp:819
 msgid "Check Sycoca database only once"
 msgstr "Sycoca ডাটাবেস শুধুমাত্র একবার পরীক্ষা করা হবে"
 
@@ -6670,6 +6670,8 @@ msgstr "ডিফল্ট মান:"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
+#: kdeui/widgets/kkeysequencewidget.cpp:667
+msgctxt "No shortcut defined"
 msgid "None"
 msgstr "শূণ্য"
 
@@ -9374,11 +9376,6 @@ msgstr ""
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ইনপুট"
-
-#: kdeui/widgets/kkeysequencewidget.cpp:667
-msgctxt "No shortcut defined"
-msgid "None"
-msgstr "শূণ্য"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:710
 msgid "The key you just pressed isn't supported by Qt."
@@ -12386,6 +12383,9 @@ msgstr "দিনের উপদেশ (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
+
+#~ msgid "None"
+#~ msgstr "শূণ্য"
 
 #~ msgid "Unsorted"
 #~ msgstr "ক্রমবিন্যাস বিহীন"
