@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkworkspace\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-26 10:45+0100\n"
+"POT-Creation-Date: 2008-11-27 09:43+0100\n"
 "PO-Revision-Date: 2008-07-04 12:29+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -53,12 +53,17 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: kwindowlistmenu.cpp:98
+msgctxt ""
+"Action that reorganizes the windows to try to have them less cluttered"
 msgid "Unclutter Windows"
 msgstr ""
 
 #: kwindowlistmenu.cpp:100
+#, fuzzy
+#| msgid "No Windows"
+msgctxt "Action that reorganizes the windows so that they are in cascade"
 msgid "Cascade Windows"
-msgstr ""
+msgstr "উইন্ডো বিহীন"
 
 #: kwindowlistmenu.cpp:155
 msgid "On All Desktops"
