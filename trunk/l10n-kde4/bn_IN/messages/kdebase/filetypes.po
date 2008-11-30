@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-18 09:52+0200\n"
+"POT-Creation-Date: 2008-11-30 09:46+0100\n"
 "PO-Revision-Date: 2008-07-11 18:32+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: filegroupdetails.cpp:36 filetypedetails.cpp:140
+#: filegroupdetails.cpp:35 filetypedetails.cpp:142
 msgid "Left Click Action"
 msgstr "বাঁদিকের ক্লিকের কর্ম"
 
-#: filegroupdetails.cpp:41 filetypedetails.cpp:146
+#: filegroupdetails.cpp:39 filetypedetails.cpp:148
 msgid "Show file in embedded viewer"
 msgstr "এমবেড করা প্রদর্শন ব্যবস্থায় ফাইল প্রদর্শন করা হবে"
 
-#: filegroupdetails.cpp:42 filetypedetails.cpp:147
+#: filegroupdetails.cpp:40 filetypedetails.cpp:149
 msgid "Show file in separate viewer"
 msgstr "পৃথক প্রদর্শন ব্যবস্থায় ফাইল প্রদর্শন করা হবে"
 
-#: filegroupdetails.cpp:47
+#: filegroupdetails.cpp:48
 msgid ""
 "Here you can configure what the Konqueror file manager will do when you "
 "click on a file belonging to this group. Konqueror can display the file in "
@@ -38,17 +38,17 @@ msgid ""
 "configuration."
 msgstr ""
 
-#: filetypedetails.cpp:72
+#: filetypedetails.cpp:73
 msgid ""
 "This button displays the icon associated with the selected file type. Click "
 "on it to choose a different icon."
 msgstr ""
 
-#: filetypedetails.cpp:81
+#: filetypedetails.cpp:82
 msgid "Filename Patterns"
 msgstr "ফাইলের নামের বিন্যাস"
 
-#: filetypedetails.cpp:90
+#: filetypedetails.cpp:91
 msgid ""
 "This box contains a list of patterns that can be used to identify files of "
 "the selected type. For example, the pattern *.txt is associated with the "
@@ -56,38 +56,38 @@ msgid ""
 "text files."
 msgstr ""
 
-#: filetypedetails.cpp:95 filetypesview.cpp:113 kservicelistwidget.cpp:122
+#: filetypedetails.cpp:96 filetypesview.cpp:129 kservicelistwidget.cpp:123
 msgid "Add..."
 msgstr "যোগ করুন..."
 
-#: filetypedetails.cpp:101
+#: filetypedetails.cpp:103
 msgid "Add a new pattern for the selected file type."
 msgstr "নির্বাচিত ধরনের ফাইলের জন্য একটি নতুন বিন্যাস যোগ করুন।"
 
-#: filetypedetails.cpp:103 kservicelistwidget.cpp:138
+#: filetypedetails.cpp:105 kservicelistwidget.cpp:141
 msgid "Remove"
 msgstr "মুছে ফেলুন"
 
-#: filetypedetails.cpp:109
+#: filetypedetails.cpp:112
 msgid "Remove the selected filename pattern."
 msgstr "নির্বাচিত ফাইলের নামের বিন্যাস মুছে ফেলুন।"
 
-#: filetypedetails.cpp:113
+#: filetypedetails.cpp:114
 msgid "Description"
 msgstr "বর্ণনা"
 
-#: filetypedetails.cpp:124
+#: filetypedetails.cpp:126
 msgid ""
 "You can enter a short description for files of the selected file type (e.g. "
 "'HTML Page'). This description will be used by applications like Konqueror "
 "to display directory content."
 msgstr ""
 
-#: filetypedetails.cpp:150
+#: filetypedetails.cpp:152
 msgid "Ask whether to save to disk instead"
 msgstr "পরিবর্তে ডিস্কে সংরক্ষণ করা হবে কি না তা জিজ্ঞাসা করা হবে"
 
-#: filetypedetails.cpp:165
+#: filetypedetails.cpp:167
 msgid ""
 "Here you can configure what the Konqueror file manager will do when you "
 "click on a file of this type. Konqueror can display the file in an embedded "
@@ -96,33 +96,33 @@ msgid ""
 "type belongs to, for instance 'image' if the current file type is image/png."
 msgstr ""
 
-#: filetypedetails.cpp:176
+#: filetypedetails.cpp:178
 msgid "&General"
 msgstr "সাধারণ (&G)"
 
-#: filetypedetails.cpp:177
+#: filetypedetails.cpp:179
 msgid "&Embedding"
 msgstr "এমবেড ব্যবস্থা (&E)"
 
-#: filetypedetails.cpp:216
+#: filetypedetails.cpp:218
 msgid "Add New Extension"
 msgstr "নতুন এক্সটেনশন যোগ করুন"
 
-#: filetypedetails.cpp:217
+#: filetypedetails.cpp:219
 msgid "Extension:"
 msgstr "এক্সটেনশন:"
 
-#: filetypedetails.cpp:329
+#: filetypedetails.cpp:331
 #, kde-format
 msgid "File type %1"
 msgstr "ফাইলের ধরন %1"
 
-#: filetypedetails.cpp:336
+#: filetypedetails.cpp:338
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr "'%1' দলের বৈশিষ্ট্য ব্যবহার করা হবে"
 
-#: filetypesview.cpp:47
+#: filetypesview.cpp:65
 msgid ""
 "<p><h1>File Associations</h1> This module allows you to choose which "
 "applications are associated with a given type of file. File types are also "
@@ -143,22 +143,22 @@ msgid ""
 "examining the contents of the file.</p>"
 msgstr ""
 
-#: filetypesview.cpp:78
+#: filetypesview.cpp:96
 msgid "F&ind file type or filename pattern:"
 msgstr "ফাইলের ধরন অথবা ফাইলের নামে বিন্যাস অনুসন্ধান করা হবে: (&i)"
 
-#: filetypesview.cpp:89
+#: filetypesview.cpp:107
 msgid ""
 "Enter a part of a filename pattern, and only file types with a matching file "
 "pattern will appear in the list. Alternatively, enter a part of a file type "
 "name as it appears in the list."
 msgstr ""
 
-#: filetypesview.cpp:100
+#: filetypesview.cpp:116
 msgid "Known Types"
 msgstr "জ্ঞাত ধরনগুলি"
 
-#: filetypesview.cpp:107
+#: filetypesview.cpp:123
 msgid ""
 "Here you can see a hierarchical list of the file types which are known on "
 "your system. Click on the '+' sign to expand a category, or the '-' sign to "
@@ -166,19 +166,19 @@ msgid ""
 "the information for that file type using the controls on the right."
 msgstr ""
 
-#: filetypesview.cpp:117
+#: filetypesview.cpp:134
 msgid "Click here to add a new file type."
 msgstr "নতুন ধরনের ফাইল যোগ করার জন্য এইখানে ক্লিক করুন।"
 
-#: filetypesview.cpp:119
+#: filetypesview.cpp:136
 msgid "&Remove"
 msgstr "মুছে ফেলুন (&R)"
 
-#: filetypesview.cpp:124
+#: filetypesview.cpp:142
 msgid "Click here to remove the selected file type."
 msgstr "নির্বাচিত ফাইলের ধরন মুছে ফেলার জন্য ক্লিক করুন।"
 
-#: filetypesview.cpp:146
+#: filetypesview.cpp:164
 msgid "Select a file type by name or by extension"
 msgstr "নাম অথবা এক্সটেনশন অনুযায়ী ফাইলের ধরন নির্বাচন করুন"
 
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Services Preference Order"
 msgstr ""
 
-#: kservicelistwidget.cpp:82
+#: kservicelistwidget.cpp:81
 msgid ""
 "This is a list of applications associated with files of the selected file "
 "type. This list is shown in Konqueror's context menus when you select \"Open "
@@ -248,7 +248,7 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:87
+#: kservicelistwidget.cpp:86
 msgid ""
 "This is a list of services associated with files of the selected file type. "
 "This list is shown in Konqueror's context menus when you select a \"Preview "
@@ -257,7 +257,7 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:96
+#: kservicelistwidget.cpp:95
 msgid "Move &Up"
 msgstr "উপরে স্থানান্তর (&U)"
 
@@ -279,7 +279,7 @@ msgstr ""
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kservicelistwidget.cpp:115
+#: kservicelistwidget.cpp:116
 msgid ""
 "Assigns a lower priority to the selected\n"
 "application, moving it down in the list. Note: This \n"
@@ -287,43 +287,43 @@ msgid ""
 "associated with more than one application."
 msgstr ""
 
-#: kservicelistwidget.cpp:119
+#: kservicelistwidget.cpp:120
 msgid ""
 "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:127
+#: kservicelistwidget.cpp:129
 msgid "Add a new application for this file type."
 msgstr "এই ফাইলের ধরনের জন্য একটি নতুন অ্যাপ্লিকেশন যোগ করুন।"
 
-#: kservicelistwidget.cpp:130
+#: kservicelistwidget.cpp:132
 msgid "Edit..."
 msgstr "সম্পাদনা..."
 
-#: kservicelistwidget.cpp:135
+#: kservicelistwidget.cpp:138
 msgid "Edit command line of the selected application."
 msgstr "নির্বাচিত অ্যাপ্লিকেশনের কমান্ড-লাইন সম্পাদনা করুন।"
 
-#: kservicelistwidget.cpp:143
+#: kservicelistwidget.cpp:147
 msgid "Remove the selected application from the list."
 msgstr "নির্বাচিত অ্যাপ্লিকেশনটি তালিকা থেকে সরিয়ে নিন।"
 
-#: kservicelistwidget.cpp:172
+#: kservicelistwidget.cpp:174
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kservicelistwidget.cpp:174
+#: kservicelistwidget.cpp:176
 msgctxt "No components associated with this file type"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kservicelistwidget.cpp:263
+#: kservicelistwidget.cpp:265
 msgid "None"
 msgstr "শূণ্য"
 
-#: kservicelistwidget.cpp:360
+#: kservicelistwidget.cpp:362
 msgid "You are not authorized to remove this service."
 msgstr "এই পরিসেবা সরানোর জন্য পর্যাপ্ত অনুমতি আপনার নেই।"
 
@@ -339,19 +339,19 @@ msgstr "পরিসেবা নির্বাচন করুন:"
 msgid "Create New File Type"
 msgstr "নতুন ফাইলের ধরন নির্মাণ করুন"
 
-#: newtypedlg.cpp:53
+#: newtypedlg.cpp:49
 msgid "Group:"
 msgstr "দল:"
 
-#: newtypedlg.cpp:62
+#: newtypedlg.cpp:56
 msgid "Select the category under which the new file type should be added."
 msgstr ""
 
-#: newtypedlg.cpp:67
+#: newtypedlg.cpp:61
 msgid "Type name:"
 msgstr "ধরনের নাম:"
 
-#: newtypedlg.cpp:74
+#: newtypedlg.cpp:66
 msgid ""
 "Type the name of the file type. For instance, if you selected 'image' as "
 "category and you type 'custom' here, the file type 'image/custom' will be "
