@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-19 09:52+0100\n"
-"PO-Revision-Date: 2008-12-19 18:16+0530\n"
+"PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: activation.cpp:745
 #, kde-format
 msgid "Window '%1' demands attention."
-msgstr ""
+msgstr "উইন্ডো '%1' থেকে চেতাবনী প্রাপ্ত হয়েছে।"
 
 #: composite.cpp:491
 msgid ""
@@ -173,19 +173,19 @@ msgstr "উইন্ডোর শর্ট-কাট নির্ধারণ �
 
 #: kwinbindings.cpp:96
 msgid "Pack Window to the Right"
-msgstr ""
+msgstr "ডানদিকে উইন্ডো একত্রিত করুন"
 
 #: kwinbindings.cpp:98
 msgid "Pack Window to the Left"
-msgstr ""
+msgstr "বাঁদিকে উইন্ডো একত্রিত করুন"
 
 #: kwinbindings.cpp:100
 msgid "Pack Window Up"
-msgstr ""
+msgstr "উপরে উইন্ডো একত্রিত করুন"
 
 #: kwinbindings.cpp:102
 msgid "Pack Window Down"
-msgstr ""
+msgstr "নীচে উইন্ডো একত্রিত করুন"
 
 #: kwinbindings.cpp:104
 msgid "Pack Grow Window Horizontally"
@@ -527,8 +527,7 @@ msgstr ""
 msgid ""
 "kwin: it looks like there's already a window manager running. kwin not "
 "started.\n"
-msgstr ""
-"kwin: সম্ভবত একটি উইন্ডো পরিচালন ব্যবস্থা বর্তমানে চলছে। kwin আরম্ভ করা হয়নি।\n"
+msgstr "kwin: সম্ভবত একটি উইন্ডো পরিচালন ব্যবস্থা বর্তমানে চলছে। kwin আরম্ভ করা হয়নি।\n"
 
 #: main.cpp:187
 msgid "kwin: failure during initialization; aborting"
@@ -549,6 +548,8 @@ msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
 msgstr ""
+"kwin: পরিচালন ব্যবস্থা ধার্য করতে ব্যর্থ, একটি পৃথক উইন্ডো পরিচালনব্যবস্থা বর্তমানে চলছে কি? (--"
+"replace প্রয়োগের প্রচেষ্টা করুন)\n"
 
 #: main.cpp:396
 msgid "KDE window manager"
@@ -559,10 +560,9 @@ msgid "KWin"
 msgstr "KWin"
 
 #: main.cpp:471
-#, fuzzy
 #| msgid "(c) 1999-2005, The KDE Developers"
 msgid "(c) 1999-2008, The KDE Developers"
-msgstr "(c) ১৯৯৯-২০০৫, KDE-র নির্মাতা বৃন্দ"
+msgstr "(c) ১৯৯৯-২০০৮, KDE-র নির্মাতা বৃন্দ"
 
 #: main.cpp:472
 msgid "Matthias Ettrich"
@@ -590,11 +590,11 @@ msgstr "কনফিগারেশন সংক্রান্ত বিকল�
 
 #: main.cpp:481
 msgid "Replace already-running ICCCM2.0-compliant window manager"
-msgstr ""
+msgstr "ICCCM2.0-র সাথে সুসংগত বর্তমানে চলমান উইন্ডো পরিচালনব্যবস্থা প্রতিস্থাপন করুন"
 
 #: main.cpp:482
 msgid "Indicate that KWin has recently crashed n times"
-msgstr ""
+msgstr "KWin n সংখ্যক বার বিপর্যস্ত হওয়ার ইঙ্গিত প্রদর্শন করা হবে"
 
 #: plugins.cpp:42
 msgid "KWin: "
@@ -644,11 +644,11 @@ msgstr "উইন্ডো শর্ট-কাট... (&S)"
 
 #: useractions.cpp:111
 msgid "&Special Window Settings..."
-msgstr ""
+msgstr "উইন্ডো সংক্রান্ত বিশেষ বৈশিষ্ট্য...(&S)"
 
 #: useractions.cpp:115
 msgid "&Special Application Settings..."
-msgstr ""
+msgstr "অ্যাপ্লিকেশন সংক্রান্ত বিশেষ বৈশিষ্ট্য...(&S)"
 
 #: useractions.cpp:120
 msgid "Ad&vanced"
@@ -656,7 +656,7 @@ msgstr "উন্নত বৈশিষ্ট্য (&v)"
 
 #: useractions.cpp:137
 msgid "&Opacity"
-msgstr ""
+msgstr "গভিরতা (&O)"
 
 #: useractions.cpp:140
 msgid "&Move"
@@ -680,7 +680,7 @@ msgstr "ছায়াবৃত (&a)"
 
 #: useractions.cpp:178
 msgid "Configur&e Window Behavior..."
-msgstr ""
+msgstr "উইন্ডোর আচরণ কনফিগার করুন...(&e)"
 
 #: useractions.cpp:184
 msgid "&Close"
@@ -688,7 +688,7 @@ msgstr "বন্ধ করুন (&C)"
 
 #: useractions.cpp:270
 msgid "To &Desktop"
-msgstr ""
+msgstr "চিহ্নিত ডেস্কটপে স্থানান্তর (&D)"
 
 #: useractions.cpp:283
 msgid "&All Desktops"
@@ -697,7 +697,7 @@ msgstr "সকল ডেস্কটপে (&A)"
 #: useractions.cpp:420
 #, kde-format
 msgid "Activate Window (%1)"
-msgstr ""
+msgstr "উইন্ডো সক্রিয় করুন (%1)"
 
 #: workspace.cpp:1123 workspace.cpp:1143
 #, kde-format
@@ -724,24 +724,22 @@ msgstr ""
 
 #: effects/cube.cpp:90 effects/cube_config.cpp:61
 #: effects/cylinder_config.cpp:61 effects/sphere_config.cpp:61
-#, fuzzy
 #| msgid "Desktop %1"
 msgid "Desktop Cube"
-msgstr "ডেস্কটপ %1"
+msgstr ""
 
 #: effects/cube_config.cpp:53 effects/cylinder_config.cpp:53
 #: effects/sphere_config.cpp:53
 msgctxt "@title:tab Basic Settings"
 msgid "Basic"
-msgstr ""
+msgstr "মৌলিক"
 
 #: effects/cube_config.cpp:54 effects/cylinder_config.cpp:54
 #: effects/sphere_config.cpp:54
-#, fuzzy
 #| msgid "Ad&vanced"
 msgctxt "@title:tab Advanced Settings"
 msgid "Advanced"
-msgstr "উন্নত বৈশিষ্ট্য (&v)"
+msgstr "উন্নত বৈশিষ্ট্য"
 
 #: effects/desktopgrid.cpp:59 effects/desktopgrid_config.cpp:57
 msgid "Show Desktop Grid"
@@ -749,14 +747,13 @@ msgstr ""
 
 #: effects/desktopgrid_config.cpp:64
 msgid "Disabled"
-msgstr ""
+msgstr "নিষ্ক্রিয়"
 
 #: effects/desktopgrid_config.cpp:66
 msgid "Top"
 msgstr "উপরে"
 
 #: effects/desktopgrid_config.cpp:68
-#, fuzzy
 #| msgid "Top-right"
 msgid "Top-Right"
 msgstr "উপরে-ডানদিকে"
@@ -766,7 +763,6 @@ msgid "Right"
 msgstr "ডানদিকে"
 
 #: effects/desktopgrid_config.cpp:72
-#, fuzzy
 #| msgid "Bottom-right"
 msgid "Bottom-Right"
 msgstr "নীচে-ডানদিকে"
@@ -776,7 +772,6 @@ msgid "Bottom"
 msgstr "নীচে"
 
 #: effects/desktopgrid_config.cpp:76
-#, fuzzy
 #| msgid "Bottom-left"
 msgid "Bottom-Left"
 msgstr "নীচে-বাঁদিকে"
@@ -786,14 +781,13 @@ msgid "Left"
 msgstr "বাঁদিকে"
 
 #: effects/desktopgrid_config.cpp:80
-#, fuzzy
 #| msgid "Top-left"
 msgid "Top-Left"
 msgstr "উপরে-বাঁদিকে"
 
 #: effects/desktopgrid_config.cpp:82
 msgid "Center"
-msgstr ""
+msgstr "কেন্দ্রস্থিত"
 
 #: effects/invert.cpp:47 effects/invert_config.cpp:45
 msgid "Toggle Invert Effect"
@@ -805,25 +799,24 @@ msgstr ""
 
 #: effects/mousemark.cpp:52
 msgid "Clear All Mouse Marks"
-msgstr ""
+msgstr "মাউসের সকল চিহ্ন মুছে ফেলুন"
 
 #: effects/mousemark.cpp:56 effects/mousemark_config.cpp:67
 msgid "Clear Last Mouse Mark"
-msgstr ""
+msgstr "মাউসের সর্বশেষ চিহ্ন মুছে ফেলুন"
 
 #: effects/mousemark_config.cpp:62
 msgid "Clear Mouse Marks"
-msgstr ""
+msgstr "মাউসের চিহ্ন মুছে ফেলুন"
 
 #: effects/presentwindows.cpp:66 effects/presentwindows_config.cpp:62
 msgid "Toggle Present Windows (Current desktop)"
 msgstr ""
 
 #: effects/presentwindows.cpp:70 effects/presentwindows_config.cpp:57
-#, fuzzy
 #| msgid "Keep Window on All Desktops"
 msgid "Toggle Present Windows (All desktops)"
-msgstr "সকল ডেস্কটপের মধ্যে উইন্ডো প্রদর্শিত হবে"
+msgstr ""
 
 #: effects/presentwindows.cpp:1208
 #, kde-format
@@ -841,7 +834,7 @@ msgstr ""
 
 #: effects/snow.cpp:60
 msgid "Snow"
-msgstr ""
+msgstr "তুষারপাত"
 
 #: effects/snow_config.cpp:64
 msgid "Toggle Snow on Desktop"
@@ -853,7 +846,7 @@ msgstr ""
 
 #: effects/trackmouse_config.cpp:42
 msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
-msgstr ""
+msgstr "মাউস কার্সারের অবস্থান দেখার জন্য Ctrl+Meta কি টিপুন।"
 
 #: effects/videorecord.cpp:69 effects/videorecord_config.cpp:62
 msgid "Toggle Video Recording"
@@ -861,27 +854,27 @@ msgstr ""
 
 #: effects/videorecord_config.cpp:53
 msgid "Path to save video:"
-msgstr ""
+msgstr "ভিডিও সংরক্ষণস্থলের পাথ:"
 
 #: killer/killer.cpp:38
 msgid "KWin helper utility"
-msgstr ""
+msgstr "KWin সহায়ক সামগ্রী"
 
 #: killer/killer.cpp:41
 msgid "PID of the application to terminate"
-msgstr ""
+msgstr "বন্ধ করার জন্য চিহ্নিত অ্যাপ্লিকেশনের PID"
 
 #: killer/killer.cpp:42
 msgid "Hostname on which the application is running"
-msgstr ""
+msgstr "অ্যাপ্লিকেশন চালনাকারী মেশিনের হোস্ট-নেম"
 
 #: killer/killer.cpp:43
 msgid "Caption of the window to be terminated"
-msgstr ""
+msgstr "বন্ধ করার জন্য চিহ্নিত উইন্ডোর শিরোনাম"
 
 #: killer/killer.cpp:44
 msgid "Name of the application to be terminated"
-msgstr ""
+msgstr "বন্ধ করার জন্য চিহ্নিত অ্যাপ্লিকেশনের নাম"
 
 #: killer/killer.cpp:45
 msgid "ID of resource belonging to the application"
@@ -893,7 +886,7 @@ msgstr ""
 
 #: killer/killer.cpp:63
 msgid "This helper utility is not supposed to be called directly."
-msgstr ""
+msgstr "সহায়ক সামগ্রী সরাসরি আরম্ভ করা সম্ভব নয়।"
 
 #: killer/killer.cpp:67
 #, kde-format
@@ -901,78 +894,78 @@ msgid ""
 "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs to "
 "application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to terminate "
 "this application? (All unsaved data in this application will be lost.)</p>"
-msgstr ""
+msgstr "<p>\"<b>%2</b>\" শিরোনাম বিশিষ্ট উইন্ডো থেকে কোনো প্রতিক্রিয়া হচ্ছে না। এই উইন্ডোটি,  <b>%1</b> অ্যাপ্লিকেশনের  (PID=%3, হোস্ট-নেম=%4) মালিকানাধীন।</p><p>এই অ্যাপ্লিকেশনটি বন্ধ করতে ইচ্ছুক কি? (এর ফলে, অ্যাপ্লিকেশনের মধ্যে উপস্থিত সকল অসংরক্ষিত তথ্য মুছে যাবে।)</p>"
 
 #: killer/killer.cpp:72
 msgid "Terminate"
-msgstr ""
+msgstr "বন্ধ করুন"
 
 #: killer/killer.cpp:72
 msgid "Keep Running"
-msgstr ""
+msgstr "চলমান থাকবে"
 
 #: lib/kcommondecoration.cpp:286
 #, kde-format
 msgid "<center><b>%1 preview</b></center>"
-msgstr ""
+msgstr "<center><b>%1 প্রদর্শনের ঝলক</b></center>"
 
 #: lib/kcommondecoration.cpp:351
 msgid "Menu"
-msgstr ""
+msgstr "মেনু"
 
 #: lib/kcommondecoration.cpp:364 lib/kcommondecoration.cpp:551
 msgid "Not on all desktops"
-msgstr ""
+msgstr "সকল ডেস্কটপে নয়"
 
 #: lib/kcommondecoration.cpp:364 lib/kcommondecoration.cpp:552
 msgid "On all desktops"
-msgstr ""
+msgstr "সকল ডেস্কটপের মধ্যে"
 
 #: lib/kcommondecoration.cpp:376
 msgid "Help"
-msgstr ""
+msgstr "সাহায্য"
 
 #: lib/kcommondecoration.cpp:386
 msgid "Minimize"
-msgstr ""
+msgstr "আড়াল করুন"
 
 #: lib/kcommondecoration.cpp:398 lib/kcommondecoration.cpp:539
 msgid "Restore"
-msgstr ""
+msgstr "পূর্ববর্তী মাপ"
 
 #: lib/kcommondecoration.cpp:398 lib/kcommondecoration.cpp:538
 msgid "Maximize"
-msgstr ""
+msgstr "বড় করুন"
 
 #: lib/kcommondecoration.cpp:410
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ করুন"
 
 #: lib/kcommondecoration.cpp:421 lib/kcommondecoration.cpp:594
 msgid "Do not keep above others"
-msgstr ""
+msgstr "সকল উইন্ডোর উপরে নয়"
 
 #: lib/kcommondecoration.cpp:421 lib/kcommondecoration.cpp:594
 #: lib/kcommondecoration.cpp:618
 msgid "Keep above others"
-msgstr ""
+msgstr "সকল উইন্ডোর উপরে"
 
 #: lib/kcommondecoration.cpp:434 lib/kcommondecoration.cpp:611
 msgid "Do not keep below others"
-msgstr ""
+msgstr "অন্যান্য উইন্ডোর নীচে নয়"
 
 #: lib/kcommondecoration.cpp:434 lib/kcommondecoration.cpp:601
 #: lib/kcommondecoration.cpp:611
 msgid "Keep below others"
-msgstr ""
+msgstr "অন্যান্য উইন্ডোর নীচে"
 
 #: lib/kcommondecoration.cpp:447 lib/kcommondecoration.cpp:563
 msgid "Unshade"
-msgstr ""
+msgstr "ছায়াবিহীন"
 
 #: lib/kcommondecoration.cpp:447 lib/kcommondecoration.cpp:564
 msgid "Shade"
-msgstr ""
+msgstr "ছায়াবৃত"
 
 #: lib/kdecoration_plugins_p.cpp:128
 msgid "No window decoration plugin library was found."
@@ -985,7 +978,5 @@ msgstr ""
 #: lib/kdecoration_plugins_p.cpp:165
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
-msgstr ""
+msgstr "%1 লাইব্রেরি, KWin প্লাগ-ইন নয়।"
 
-#~ msgid "None"
-#~ msgstr "শূণ্য"
