@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-08 10:18+0100\n"
+"POT-Creation-Date: 2008-12-25 09:37+0100\n"
 "PO-Revision-Date: 2008-12-24 17:06+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -49,7 +49,8 @@ msgstr "ডেভিড ফাউরে"
 
 #: src/konqfactory.cpp:236
 msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
-msgstr "নির্মাতা (ফ্রেমওয়ার্ক, অংশবিশেষ, JavaScript, ইনপুট/আউটপুট লাইব্রেরি) ও মেইন্টেনার"
+msgstr ""
+"নির্মাতা (ফ্রেমওয়ার্ক, অংশবিশেষ, JavaScript, ইনপুট/আউটপুট লাইব্রেরি) ও মেইন্টেনার"
 
 #: src/konqfactory.cpp:237
 msgid "Simon Hausmann"
@@ -131,8 +132,11 @@ msgid "Stephan Kulow"
 msgstr "স্টিফান কুলো"
 
 #: src/konqfactory.cpp:248
-msgid "Developer (HTML rendering engine, I/O library, regression test framework)"
-msgstr "নির্মাতা (HTML রেন্ডারিং ইঞ্জিন, ইনপুট/আউটপুট লাইব্রেরি, রিগ্রেশন পরীক্ষণের পরিকাঠামো)"
+msgid ""
+"Developer (HTML rendering engine, I/O library, regression test framework)"
+msgstr ""
+"নির্মাতা (HTML রেন্ডারিং ইঞ্জিন, ইনপুট/আউটপুট লাইব্রেরি, রিগ্রেশন পরীক্ষণের "
+"পরিকাঠামো)"
 
 #: src/konqfactory.cpp:249
 msgid "Antti Koivisto"
@@ -395,7 +399,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2390 src/konqmainwindow.cpp:2479
 #: src/konqmainwindow.cpp:2497 src/konqmainwindow.cpp:2517
 #: src/konqmainwindow.cpp:2565 src/konqmainwindow.cpp:2598
-#: src/konqmainwindow.cpp:5092 src/konqviewmanager.cpp:1333
+#: src/konqmainwindow.cpp:5096 src/konqviewmanager.cpp:1333
 msgid "Discard Changes?"
 msgstr "পরিবর্তন বর্জন করা হবে কি?"
 
@@ -403,7 +407,7 @@ msgstr "পরিবর্তন বর্জন করা হবে কি?"
 #: src/konqmainwindow.cpp:2390 src/konqmainwindow.cpp:2479
 #: src/konqmainwindow.cpp:2497 src/konqmainwindow.cpp:2517
 #: src/konqmainwindow.cpp:2565 src/konqmainwindow.cpp:2598
-#: src/konqmainwindow.cpp:5092 src/konqviewmanager.cpp:1333
+#: src/konqmainwindow.cpp:5096 src/konqviewmanager.cpp:1333
 msgid "&Discard Changes"
 msgstr "পরিবর্তন বর্জন করা হবে কি? (&D)"
 
@@ -593,7 +597,7 @@ msgctxt "@action:inmenu Go"
 msgid "Show History in Sidebar"
 msgstr ""
 
-#: src/konqmainwindow.cpp:3639 src/konqmainwindow.cpp:4267
+#: src/konqmainwindow.cpp:3639 src/konqmainwindow.cpp:4271
 msgid "&Save View Profile..."
 msgstr ""
 
@@ -683,7 +687,8 @@ msgid "Location Bar"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3828
-msgid "<html>Location Bar<br /><br />Enter a web address or search term.</html>"
+msgid ""
+"<html>Location Bar<br /><br />Enter a web address or search term.</html>"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3832
@@ -780,7 +785,8 @@ msgid ""
 msgstr ""
 
 #: src/konqmainwindow.cpp:3905
-msgid "Force a reload of the currently displayed document and any contained images"
+msgid ""
+"Force a reload of the currently displayed document and any contained images"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3908
@@ -848,119 +854,121 @@ msgid ""
 "other linked views."
 msgstr ""
 
-#: src/konqmainwindow.cpp:4119
+#: src/konqmainwindow.cpp:4123
 msgid "Copy &Files..."
 msgstr "ফাইল কপি করুন...(&F)"
 
-#: src/konqmainwindow.cpp:4123
+#: src/konqmainwindow.cpp:4127
 msgid "M&ove Files..."
 msgstr "ফাইল স্থানান্তর...(&o)"
 
-#: src/konqmainwindow.cpp:4266
+#: src/konqmainwindow.cpp:4270
 #, kde-format
 msgid "&Save View Profile \"%1\"..."
 msgstr ""
 
-#: src/konqmainwindow.cpp:4476
+#: src/konqmainwindow.cpp:4480
 msgid ""
 "You have requested to open more than 20 bookmarks in tabs. This might take a "
 "while. Continue?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4478
+#: src/konqmainwindow.cpp:4482
 msgid "Open bookmarks folder in new tabs"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4652
+#: src/konqmainwindow.cpp:4656
 msgid "Open in T&his Window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4653
+#: src/konqmainwindow.cpp:4657
 msgid "Open the document in current window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4659 sidebar/web_module/web_module.h:54
+#: src/konqmainwindow.cpp:4663 sidebar/web_module/web_module.h:54
 #: sidebar/web_module/web_module.h:57
 msgid "Open in New &Window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4660
+#: src/konqmainwindow.cpp:4664
 msgid "Open the document in a new window"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4666
+#: src/konqmainwindow.cpp:4670
 msgid "Open in &New Tab"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4668
+#: src/konqmainwindow.cpp:4672
 msgid "Open the document in a new tab"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4876
+#: src/konqmainwindow.cpp:4880
 msgid "&Open With"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4890
+#: src/konqmainwindow.cpp:4894
 #, kde-format
 msgid "Open with %1"
 msgstr "%1 সহযোগে খুলুন"
 
-#: src/konqmainwindow.cpp:4936
+#: src/konqmainwindow.cpp:4940
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5052
-msgid "You have multiple tabs open in this window, are you sure you want to quit?"
+#: src/konqmainwindow.cpp:5056
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5054 src/konqviewmanager.cpp:1315
+#: src/konqmainwindow.cpp:5058 src/konqviewmanager.cpp:1315
 msgid "Confirmation"
 msgstr "নিশ্চায়ন"
 
-#: src/konqmainwindow.cpp:5056
+#: src/konqmainwindow.cpp:5060
 msgid "C&lose Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন (&l)"
 
-#: src/konqmainwindow.cpp:5089
+#: src/konqmainwindow.cpp:5093
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5090
+#: src/konqmainwindow.cpp:5094
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5131 src/konqmainwindow.cpp:5191
+#: src/konqmainwindow.cpp:5135 src/konqmainwindow.cpp:5195
 #: src/konqclosedwindowsmanager.cpp:378
 msgid "no name"
 msgstr "নাম বিহীন"
 
-#: src/konqmainwindow.cpp:5258
-msgid "Your sidebar is not functional or unavailable. A new entry cannot be added."
+#: src/konqmainwindow.cpp:5262
+msgid ""
+"Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5258 src/konqmainwindow.cpp:5265
+#: src/konqmainwindow.cpp:5262 src/konqmainwindow.cpp:5269
 msgid "Web Sidebar"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5263
+#: src/konqmainwindow.cpp:5267
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5265
+#: src/konqmainwindow.cpp:5269
 msgid "Add"
 msgstr "যোগ করুন"
 
-#: src/konqmainwindow.cpp:5265
+#: src/konqmainwindow.cpp:5269
 msgid "Do Not Add"
 msgstr "যোগ করা হবে না"
 
-#: src/konqmainwindow.cpp:5562
+#: src/konqmainwindow.cpp:5566
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -985,25 +993,26 @@ msgstr "সেশান সংরক্ষণ"
 
 #: src/konqsessiondlg.cpp:253
 #, kde-format
-msgid "A session with the name '%1' already exists, do you want to overwrite it?"
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
 msgstr ""
 
 #: src/konqsessiondlg.cpp:254
 msgid "Session exists. Overwrite?"
 msgstr ""
 
-#: src/konqview.cpp:1311
+#: src/konqview.cpp:1312
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
 "resend the data, any action the form carried out (such as search or online "
 "purchase) will be repeated. "
 msgstr ""
 
-#: src/konqview.cpp:1313
+#: src/konqview.cpp:1314
 msgid "Warning"
 msgstr "সতর্কবার্তা"
 
-#: src/konqview.cpp:1313
+#: src/konqview.cpp:1314
 msgid "Resend"
 msgstr ""
 
@@ -1548,7 +1557,8 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:157
 #, kde-format
-msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
+msgid ""
+"For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
 msgstr ""
 
 #: about/konq_aboutpage.cc:159
@@ -1608,7 +1618,8 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:214
 #, kde-format
-msgid "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
+msgid ""
+"JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
 msgstr ""
 
 #: about/konq_aboutpage.cc:215
@@ -1800,7 +1811,8 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:322
 #, kde-format
-msgid "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
+msgid ""
+"Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
 msgstr ""
 
 #: about/konq_aboutpage.cc:324
@@ -1832,7 +1844,8 @@ msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr ""
 
 #: about/konq_aboutpage.cc:456
-msgid "Do you want to disable showing the introduction in the webbrowsing profile?"
+msgid ""
+"Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr ""
 
 #: about/konq_aboutpage.cc:458
@@ -1868,7 +1881,8 @@ msgid "&Execute Shell Command..."
 msgstr ""
 
 #: shellcmdplugin/kshellcmdplugin.cpp:50
-msgid "KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
+msgid ""
+"KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
 msgstr ""
 
 #: shellcmdplugin/kshellcmdplugin.cpp:56
@@ -2093,4 +2107,3 @@ msgstr ""
 #: rc.cpp:104
 msgid "Clear History"
 msgstr ""
-
