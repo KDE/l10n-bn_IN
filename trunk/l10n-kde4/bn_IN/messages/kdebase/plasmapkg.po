@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-26 10:45+0100\n"
+"POT-Creation-Date: 2008-12-27 11:10+0100\n"
 "PO-Revision-Date: 2008-09-20 01:30+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -43,11 +43,15 @@ msgstr ""
 "ইনস্টল বা অপসারণের ক্ষেত্রে, সকল ব্যবহারকারীর জন্য ইনস্টল করা প্যাকেজগুলি প্রভাবিত "
 "হবে।"
 
-#: main.cpp:93
+#: main.cpp:96
 #, fuzzy
 #| msgid ""
 #| "The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
 #| "etc."
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same as "
+"messages with 'package type' context below)"
 msgid ""
 "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
 "etc."
@@ -55,32 +59,32 @@ msgstr ""
 "প্যাকেজের ধরন, যেমন থিম, ওয়াল-পেপার, plasmoid (প্লাসময়েড), DataEngine (ডাটা-"
 "ইঞ্জিন), Runner (রানার), ইত্যাদি।"
 
-#: main.cpp:97
+#: main.cpp:100
 #, fuzzy
 #| msgid "Install the package at <path>"
 msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
-#: main.cpp:99
+#: main.cpp:102
 #, fuzzy
 #| msgid "Install the package at <path>"
 msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
-#: main.cpp:101
+#: main.cpp:104
 msgid "List installed packages"
 msgstr "ইনস্টল হওয়া প্যাকেজগুলি তালিকাভুক্ত করুন"
 
-#: main.cpp:103
+#: main.cpp:106
 #, fuzzy
 #| msgid "Remove the package named <name>"
 msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "<name> নামক প্যাকেজটি অপসারণ করুন"
 
-#: main.cpp:105
+#: main.cpp:108
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -88,63 +92,78 @@ msgstr ""
 "প্যাকেজ root-র সুনির্দিষ্ট পাথ। পাথের তথ্য উপলব্ধ না করা হলে, বর্তমান KDE সেশানের "
 "ক্ষেত্রে প্রযোজ্য প্রমিত ডিরেক্টরির মধ্যে তথ্য খোঁজা হবে।"
 
-#: main.cpp:117
+#: main.cpp:120
+#, fuzzy
+#| msgid "plasmoid"
+msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid (প্লাসময়েড)"
 
-#: main.cpp:121
+#: main.cpp:124
+#, fuzzy
+#| msgid "theme"
+msgctxt "package type"
 msgid "theme"
 msgstr "থিম"
 
-#: main.cpp:123
+#: main.cpp:126
+#, fuzzy
+#| msgid "wallpaper"
+msgctxt "package type"
 msgid "wallpaper"
 msgstr "ওয়াল-পেপার"
 
-#: main.cpp:125
+#: main.cpp:128
+#, fuzzy
+#| msgid "dataengine"
+msgctxt "package type"
 msgid "dataengine"
 msgstr "dataengine (ডাটা-ইঞ্জিন)"
 
-#: main.cpp:129
+#: main.cpp:132
+#, fuzzy
+#| msgid "runner"
+msgctxt "package type"
 msgid "runner"
 msgstr "runner (রানার)"
 
-#: main.cpp:137
+#: main.cpp:140
 #, fuzzy, kde-format
 #| msgid "Could not find a suitable installer for package of type"
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "এই ধরনের প্যাকেজের জন্য উপযুক্ত ইনস্টলার পাওয়া যায়নি"
 
-#: main.cpp:146
+#: main.cpp:149
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "%1 ধরনের প্যাকেজের জন্য ইনস্টলার লোড করা যায়নি। উল্লিখিত ত্রুটি: %2"
 
-#: main.cpp:202
+#: main.cpp:205
 #, kde-format
 msgid "Successfully removed %1"
 msgstr ""
 
-#: main.cpp:204
+#: main.cpp:207
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr ""
 
-#: main.cpp:208
+#: main.cpp:211
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr ""
 
-#: main.cpp:213
+#: main.cpp:216
 #, kde-format
 msgid "Successfully installed %1"
 msgstr ""
 
-#: main.cpp:215
+#: main.cpp:218
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr ""
 
-#: main.cpp:220
+#: main.cpp:223
 #, fuzzy
 #| msgid "One of install, remove or list is required."
 msgctxt ""

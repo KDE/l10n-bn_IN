@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:55+0100\n"
+"POT-Creation-Date: 2008-12-27 11:10+0100\n"
 "PO-Revision-Date: 2008-07-11 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -84,7 +84,11 @@ msgid "Dummy"
 msgstr "ডামি"
 
 #: ksgrd/SensorAgent.cc:105
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Message from %1:\n"
+#| "%2"
+msgctxt "%1 is a host name"
 msgid ""
 "Message from %1:\n"
 "%2"
@@ -126,9 +130,10 @@ msgstr ""
 msgid "User Load"
 msgstr "ব্যবহারকারী সংক্রান্ত লোড"
 
-#. i18n: tag WorkSheet attribute title
-#. i18n: file: ./SystemLoad.sgrd:3
-#: ksgrd/SensorManager.cc:63 rc.cpp:149
+#: ksgrd/SensorManager.cc:63
+#, fuzzy
+#| msgid "System Load"
+msgctxt "@item sensor description"
 msgid "System Load"
 msgstr "সিস্টেমের লোড"
 
@@ -302,6 +307,9 @@ msgid "Packets"
 msgstr "প্যাকেট"
 
 #: ksgrd/SensorManager.cc:106
+#, fuzzy
+#| msgid "Carrier"
+msgctxt "@item sensor description ('carrier' is a type of network signal)"
 msgid "Carrier"
 msgstr "সম্প্রচার"
 
@@ -672,6 +680,9 @@ msgid "Size ratio:"
 msgstr "মাপের অনুপাত:"
 
 #: KSGAppletSettings.cc:63
+#, fuzzy
+#| msgid "%"
+msgctxt "Number suffix in spinbox"
 msgid "%"
 msgstr "%"
 
@@ -777,6 +788,7 @@ msgid "Upper limit:"
 msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:157
+msgctxt "@title:tab Appearance of the bar graph"
 msgid "Look"
 msgstr ""
 
@@ -1012,11 +1024,13 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cc:344
 #, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cc:391
 #, kde-format
+msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
 msgstr ""
 
@@ -1089,6 +1103,10 @@ msgid "Foreground color:"
 msgstr ""
 
 #: SensorDisplayLib/MultiMeterSettings.cc:31
+#, fuzzy
+#| msgid "Multimeter Settings"
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
 msgstr "মাল্টি-মিটার সংক্রান্ত বৈশিষ্ট্য"
 
@@ -1273,6 +1291,12 @@ msgstr "পরিবর্তন (&C)"
 msgid "Process Table"
 msgstr "প্রসেস টেবিল"
 
+#. i18n: tag WorkSheet attribute title
+#. i18n: file: ./SystemLoad.sgrd:3
+#: rc.cpp:149
+msgid "System Load"
+msgstr "সিস্টেমের লোড"
+
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad.sgrd:5
 #: rc.cpp:152
@@ -1383,9 +1407,12 @@ msgid "Tab &Properties"
 msgstr "বৈশিষ্ট্যাবলী (&P)"
 
 #: ksysguard.cc:449
-#, kde-format
-msgid " %1 processes "
-msgstr " %1 প্রসেস সংখ্যা "
+#, fuzzy, kde-format
+#| msgid " %1 processes "
+msgid " 1 process "
+msgid_plural " %1 processes "
+msgstr[0] " %1 প্রসেস সংখ্যা "
+msgstr[1] " %1 প্রসেস সংখ্যা "
 
 #: ksysguard.cc:455
 #, kde-format
@@ -1393,7 +1420,9 @@ msgid " CPU: %1% "
 msgstr " CPU: %1% "
 
 #: ksysguard.cc:469
-#, kde-format
+#, fuzzy, kde-format
+#| msgid " Memory: %1 / %2 "
+msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
 msgstr " মেমরি: %1 / %2 "
 
@@ -1402,7 +1431,9 @@ msgid " No swap space available "
 msgstr " swap-র কোনো স্থান উপলব্ধ নেই "
 
 #: ksysguard.cc:498
-#, kde-format
+#, fuzzy, kde-format
+#| msgid " Swap: %1 / %2 "
+msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
 msgstr " Swap: %1 / %2 "
 
