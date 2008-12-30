@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-25 09:38+0100\n"
-"PO-Revision-Date: 2008-07-06 00:34+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
-"Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
+"PO-Revision-Date: 2008-12-29 15:41+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +23,6 @@ msgid "ktrash"
 msgstr "ktrash"
 
 #: ktrash.cpp:34
-#, fuzzy
 #| msgid ""
 #| "Helper program to handle the KDE trash can\n"
 #| "Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
@@ -33,7 +33,7 @@ msgid ""
 "'url' trash:/\""
 msgstr ""
 "KDE আবর্জনার বাক্সের জন্য ব্যবহৃত সহায়ক প্রোগ্রাম\n"
-"উল্লেখ্য: আবর্জনার বাক্স ফাইল স্থানান্তর করার জন্য ktrash ব্যবহার না করে \"kfmclient "
+"উল্লেখ্য: আবর্জনার বাক্স ফাইল স্থানান্তর করার জন্য ktrash ব্যবহার না করে \"kioclient "
 "move 'url' trash:/\" করুন"
 
 #: ktrash.cpp:38
@@ -55,35 +55,34 @@ msgid ""
 msgstr ""
 
 #: trashimpl.cpp:1079
-#, fuzzy
 #| msgid "This file is already in the trash bin."
 msgid "The file is too large to be trashed."
-msgstr "ফাইলটি পূর্বেই আবর্জনার বাক্সে স্থানান্তর করা হয়েছে।"
+msgstr "ফাইলটির অত্যাধিক বৃহৎ মাপের ফলে আবর্জনার বাক্সে স্থানান্তর করা সম্ভব নয়।"
 
 #: kcmtrash.cpp:119
 msgid "Byte"
-msgstr ""
+msgstr "বাইট"
 
 #: kcmtrash.cpp:121
 msgid "KByte"
-msgstr ""
+msgstr "কিলোবাইট"
 
 #: kcmtrash.cpp:125
 msgid "MByte"
-msgstr ""
+msgstr "মেগাবাইট"
 
 #: kcmtrash.cpp:129
 msgid "GByte"
-msgstr ""
+msgstr "গিগাবাইট"
 
 #: kcmtrash.cpp:133
 msgid "TByte"
-msgstr ""
+msgstr "টেরাবাইট"
 
 #: kcmtrash.cpp:137
 #, kde-format
 msgid "(%1 %2)"
-msgstr ""
+msgstr "(%1 %2)"
 
 #: kcmtrash.cpp:264
 msgid "Delete files older than:"
@@ -95,7 +94,7 @@ msgstr ""
 
 #: kcmtrash.cpp:286
 msgid "Maximum size:"
-msgstr ""
+msgstr "সর্বোচ্চ মাপ:"
 
 #: kcmtrash.cpp:299
 msgid "When limit reached:"
@@ -135,8 +134,3 @@ msgstr ""
 msgid "This file is already in the trash bin."
 msgstr "ফাইলটি পূর্বেই আবর্জনার বাক্সে স্থানান্তর করা হয়েছে।"
 
-#~ msgid "Protocol name"
-#~ msgstr "প্রোটোকলের"
-
-#~ msgid "Socket name"
-#~ msgstr "সকেটের নাম"

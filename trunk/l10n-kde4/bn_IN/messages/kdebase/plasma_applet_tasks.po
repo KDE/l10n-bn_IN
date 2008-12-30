@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-28 09:55+0100\n"
-"PO-Revision-Date: 2008-07-04 11:18+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
-"Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
+"PO-Revision-Date: 2008-12-29 15:50+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,15 +22,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:3
 msgid "Appearance"
-msgstr ""
+msgstr "চেহারা ছবি"
 
 #. i18n: file: tasksConfig.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:6
-#, fuzzy
 #| msgid "Show tooltips"
 msgid "Show tooltips:"
-msgstr "টুল-টিপ প্রদর্শন করা হবে"
+msgstr "টুল-টিপ প্রদর্শন করা হবে:"
 
 #. i18n: file: tasksConfig.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_8)
@@ -65,13 +65,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:24
 msgid "Sorting:"
-msgstr ""
+msgstr "ক্রমবিন্যাস:"
 
 #. i18n: file: tasksConfig.ui:255
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:27
 msgid "Filters"
-msgstr ""
+msgstr "ফিল্টার"
 
 #. i18n: file: tasksConfig.ui:278
 #. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentDesktop)
@@ -88,10 +88,9 @@ msgstr "শুধুমাত্র বর্তমান পর্দার ক
 #. i18n: file: tasksConfig.ui:292
 #. i18n: ectx: property (text), widget (QCheckBox, showOnlyMinimized)
 #: rc.cpp:36
-#, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Only show tasks that are minimized"
-msgstr "শুধুমাত্র বর্তমান পর্দার কর্ম প্রদর্শন করা হবে"
+msgstr "শুধুমাত্র আড়াল করা কর্ম প্রদর্শন করা হবে"
 
 #: taskgroupitem.cpp:244 windowtaskitem.cpp:194
 #, kde-format
@@ -109,32 +108,33 @@ msgstr ""
 
 #: tasks.cpp:252
 msgid "General"
-msgstr ""
+msgstr "সাধারণ"
 
 #: tasks.cpp:260
 msgid "Do Not Group"
-msgstr ""
+msgstr "দলবদ্ধ করা হবে না"
 
 #: tasks.cpp:261 tasks.cpp:285
 msgid "Manually"
-msgstr ""
+msgstr "স্বয়ং"
 
 #: tasks.cpp:262
 msgid "By Program Name"
-msgstr ""
+msgstr "প্রোগ্রামের নাম অনুযায়ী"
 
 #: tasks.cpp:284
 msgid "Do Not Sort"
-msgstr ""
+msgstr "সুবিন্যস্ত করা হবে না"
 
 #: tasks.cpp:286
 msgid "Alphabetically"
-msgstr ""
+msgstr "অদ্যাক্ষর অনুযায়ী"
 
 #: tasks.cpp:287
 msgid "By Desktop"
-msgstr ""
+msgstr "ডেস্কটপ অনুযায়ী"
 
 #: windowtaskitem.cpp:278
 msgid "Collapse Parent Group"
 msgstr ""
+

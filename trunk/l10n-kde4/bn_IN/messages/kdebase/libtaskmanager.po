@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-28 09:55+0100\n"
-"PO-Revision-Date: 2008-07-11 18:41+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
-"Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
+"PO-Revision-Date: 2008-12-29 15:40+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: task.cpp:282
-#, fuzzy
 #| msgid "modified"
 msgctxt "marks that a task has been modified"
 msgid "modified"
@@ -78,44 +78,25 @@ msgstr "উন্নত বৈশিষ্ট্য (&v)"
 
 #: taskactions.cpp:266
 msgid "&Leave Group"
-msgstr ""
+msgstr "দল থেকে প্রস্থান করুন (&L)"
 
 #: taskactions.cpp:281
 msgid "&Edit Group"
-msgstr ""
+msgstr "দলের তথ্য সম্পাদনা করুন (&E)"
 
 #: strategies/manualgroupingstrategy.cpp:86
 msgid "Leave Group"
-msgstr ""
+msgstr "দল থেকে প্রস্থান করুন"
 
 #: strategies/manualgroupingstrategy.cpp:93
 msgid "Remove Group"
-msgstr ""
+msgstr "দল মুছে ফেলুন"
 
 #: strategies/programgroupingstrategy.cpp:69
 msgid "Allow This Program to Be Grouped"
-msgstr ""
+msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে"
 
 #: strategies/programgroupingstrategy.cpp:71
 msgid "Do Not Allow This Program to Be Grouped"
-msgstr ""
+msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে না"
 
-#~ msgid "All &to Current Desktop"
-#~ msgstr "দৃশ্যমান ডেস্কটপে সকল স্থানান্তরণ (&t)"
-
-#~ msgid "Mi&nimize All"
-#~ msgstr "সব আড়াল করুন (&n)"
-
-#~ msgid "Ma&ximize All"
-#~ msgstr "সব বড় করুন (&x)"
-
-#~ msgid "&Restore All"
-#~ msgstr "স্বাভাবিক মাপে সব স্থাপন করুন (&R)"
-
-#~ msgid "&Close All"
-#~ msgstr "সব বন্ধ করুন (&C)"
-
-#, fuzzy
-#~| msgid "&All Desktops"
-#~ msgid "All to &Desktop"
-#~ msgstr "সকল ডেস্কটপে স্থাপন করুন (&A)"

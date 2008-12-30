@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-27 11:10+0100\n"
-"PO-Revision-Date: 2008-07-04 11:50+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
-"Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
+"PO-Revision-Date: 2008-12-29 15:54+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,21 +24,21 @@ msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
 
 #: pager.cpp:193
 msgid "General"
-msgstr ""
+msgstr "সাধারণ"
 
 #: pager.cpp:1167
 #, kde-format
 msgid "One window:"
 msgid_plural "%1 windows:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "একটি উইন্ডো:"
+msgstr[1] "%1-টি উইন্ডো:"
 
 #: pager.cpp:1171
 #, kde-format
 msgid "and 1 other"
 msgid_plural "and %1 others"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ও অন্য একটি"
+msgstr[1] "ও অন্য %1-টি"
 
 #. i18n: file: pagerConfig.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
@@ -50,7 +51,6 @@ msgstr "Pager কনফিগার করুন"
 #. i18n: file: pagerConfig.ui:43
 #. i18n: ectx: property (text), widget (QLabel, displayLabel)
 #: rc.cpp:9
-#, fuzzy
 #| msgid "Displayed text:"
 msgid "Display text:"
 msgstr "প্রদর্শিত টেক্সট:"
@@ -58,7 +58,6 @@ msgstr "প্রদর্শিত টেক্সট:"
 #. i18n: file: pagerConfig.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
 #: rc.cpp:12
-#, fuzzy
 #| msgid "Desktop Number"
 msgid "Desktop number"
 msgstr "ডেস্কটপ সংখ্যা"
@@ -66,7 +65,6 @@ msgstr "ডেস্কটপ সংখ্যা"
 #. i18n: file: pagerConfig.ui:60
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
 #: rc.cpp:15
-#, fuzzy
 #| msgid "Desktop Name"
 msgid "Desktop name"
 msgstr "ডেস্কটপের নাম"
@@ -75,15 +73,14 @@ msgstr "ডেস্কটপের নাম"
 #. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
 #: rc.cpp:18
 msgid "No text"
-msgstr ""
+msgstr "লেখা বিহীন"
 
 #. i18n: file: pagerConfig.ui:74
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:21
-#, fuzzy
 #| msgid "Display window &icons"
 msgid "Display icons:"
-msgstr "উইন্ডো আইকন প্রদর্শন করা হয় (&i)"
+msgstr "আইকন প্রদর্শন করা হবে:"
 
 #. i18n: file: pagerConfig.ui:94
 #. i18n: ectx: property (text), widget (QLabel, labelRows)
@@ -102,13 +99,7 @@ msgstr "সারির সংখ্যা পরিবর্তন করুন
 #. i18n: file: pagerConfig.ui:170
 #. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
 #: rc.cpp:33
-#, fuzzy
 #| msgid "&Configure Desktops..."
 msgid "Configure Desktops..."
-msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
+msgstr "ডেস্কটপ কনফিগার করুন..."
 
-#~ msgid "None"
-#~ msgstr "শূণ্য"
-
-#~ msgid "What will appear when the mouse is over a desktop miniature"
-#~ msgstr "ডেস্কটপের ক্ষুদ্র আকৃতির উপর মাউস স্থাপন করা হলে প্রদর্শনযোগ্য বস্তু"
