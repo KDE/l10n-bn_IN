@@ -97,18 +97,22 @@ msgstr "CPU %1: %2, গতি অজানা"
 msgid ""
 "Your sound system could not be queried.  /dev/sndstat does not exist or is "
 "not readable."
-msgstr "সাউন্ড সিস্টেম অনুসন্ধান করা যায়নি।  /dev/sndstat উপস্থিত নেই অথবা পাঠযোগ্য নয়।"
+msgstr ""
+"সাউন্ড সিস্টেম অনুসন্ধান করা যায়নি।  /dev/sndstat উপস্থিত নেই অথবা পাঠযোগ্য নয়।"
 
 #: base/info_fbsd.cpp:173
-msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
 msgstr "SCSI সাব-সিস্টেম অনুসন্ধান করা যায়নি: /sbin/camcontrol পাওয়া যায়নি"
 
 #: base/info_fbsd.cpp:178
-msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
 msgstr "SCSI সাব-সিস্টেম অনুসন্ধান করা যায়নি: /sbin/camcontrol সঞ্চালন করতে ব্যর্থ"
 
 #: base/info_fbsd.cpp:226
-msgid "Could not find any programs with which to query your system's PCI information"
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
 msgstr ""
 
 #: base/info_fbsd.cpp:243
@@ -118,7 +122,9 @@ msgstr "PCI সাব-সিস্টেম অনুসন্ধান কর�
 
 #: base/info_fbsd.cpp:255
 msgid "The PCI subsystem could not be queried, this may need root privileges."
-msgstr "PCI সাব-সিস্টেম অনুসন্ধান করতে ব্যর্থ, সম্ভবত এর জন্য root ব্যবহারকারীর অধিকার প্রয়োজন।"
+msgstr ""
+"PCI সাব-সিস্টেম অনুসন্ধান করতে ব্যর্থ, সম্ভবত এর জন্য root ব্যবহারকারীর অধিকার "
+"প্রয়োজন।"
 
 #: base/info_fbsd.cpp:270
 msgid "Could not check file system info: "
@@ -716,4 +722,3 @@ msgstr "%1 পরিচিতি"
 #, kde-format
 msgid "Report Bug on Module %1..."
 msgstr "মডিউল %1 সম্পর্কে বাগ দায়ের করুন..."
-
