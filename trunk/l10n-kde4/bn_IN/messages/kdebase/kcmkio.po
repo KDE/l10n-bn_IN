@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-22 10:17+0100\n"
+"POT-Creation-Date: 2008-12-31 11:06+0100\n"
 "PO-Revision-Date: 2008-12-31 16:02+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -86,7 +86,8 @@ msgid "Information Lookup Failure"
 msgstr "তথ্য অনুসন্ধান করতে ব্যর্থ"
 
 #: kcookiesmanagement.cpp:251
-msgid "Unable to retrieve information about the cookies stored on your computer."
+msgid ""
+"Unable to retrieve information about the cookies stored on your computer."
 msgstr "কম্পিউটারের মধ্যে সংরক্ষিত কুকি সম্বন্ধে তথ্য প্রাপ্ত করতে ব্যর্থ।"
 
 #: kcookiesmanagement.cpp:340
@@ -110,7 +111,9 @@ msgstr "কুকি সংক্রান্ত নিয়ম পরিবর্
 msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
-msgstr "<qt><center><b>%1</b></center>-র জন্য বর্তমানে একটি নিয়ম উপস্থিত রয়েছে। আপনি কি এটি পরিবর্তন করতে ইচ্ছুক?</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center>-র জন্য বর্তমানে একটি নিয়ম উপস্থিত রয়েছে। আপনি কি "
+"এটি পরিবর্তন করতে ইচ্ছুক?</qt>"
 
 #: kcookiespolicies.cpp:219
 msgid "Duplicate Policy"
@@ -165,8 +168,10 @@ msgid ""
 "<b>HTTP_PROXY</b> here instead of the actual value http://localhost:3128.</"
 "qt>"
 msgstr ""
-"<qt>উল্লেখ্য, এনভায়রনমেন্ট ভেরিয়েবলের মানের পরিবর্তে নাম উল্লেখ করা আবশ্যক। উদাহরণস্বরূপ, <br /"
-"><b>HTTP_PROXY=http://localhost:3128</b><br /> এনভায়রমেন্ট ভেরিয়েবলের ক্ষেত্রে http://localhost:3128-র পরিবর্তে <b>HTTP_PROXY</b> লেখা আবশ্যক।</qt>"
+"<qt>উল্লেখ্য, এনভায়রনমেন্ট ভেরিয়েবলের মানের পরিবর্তে নাম উল্লেখ করা আবশ্যক। "
+"উদাহরণস্বরূপ, <br /><b>HTTP_PROXY=http://localhost:3128</b><br /> এনভায়রমেন্ট "
+"ভেরিয়েবলের ক্ষেত্রে http://localhost:3128-র পরিবর্তে <b>HTTP_PROXY</b> লেখা "
+"আবশ্যক।</qt>"
 
 #: kenvvarproxydlg.cpp:141 kenvvarproxydlg.cpp:303 kproxydlg.cpp:310
 msgid "Invalid Proxy Setup"
@@ -1058,19 +1063,19 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:30
+#. i18n: file: kproxydlg.ui:37
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbNoProxy)
 #: rc.cpp:328
 msgid "Connect to the Internet directly."
 msgstr "সরাসরি ইন্টারনেটের সাথে সংযোগ করুন।"
 
-#. i18n: file: kproxydlg.ui:33
+#. i18n: file: kproxydlg.ui:40
 #. i18n: ectx: property (text), widget (QRadioButton, rbNoProxy)
 #: rc.cpp:331
 msgid "Connect to the &Internet directly"
 msgstr "সরাসরি ইন্টারনেটের সাথে সংযোগ করুন (&I)"
 
-#. i18n: file: kproxydlg.ui:50
+#. i18n: file: kproxydlg.ui:57
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoDiscover)
 #: rc.cpp:334
 msgid ""
@@ -1084,31 +1089,31 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:53
+#. i18n: file: kproxydlg.ui:60
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoDiscover)
 #: rc.cpp:341
 msgid "A&utomatically detect proxy configuration"
 msgstr "স্বয়ংক্রিয়ভাবে প্রক্সি কনফিগারেশন সনাক্ত করা হবে (&u)"
 
-#. i18n: file: kproxydlg.ui:71
+#. i18n: file: kproxydlg.ui:78
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoScript)
 #: rc.cpp:344
 msgid "Use the specified proxy script URL to configure the proxy settings."
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:74
+#. i18n: file: kproxydlg.ui:81
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoScript)
 #: rc.cpp:347
 msgid "U&se proxy configuration URL:"
 msgstr "প্রক্সি কনফিগারেশনের URL ব্যবহার করা হবে: (&s)"
 
-#. i18n: file: kproxydlg.ui:90
+#. i18n: file: kproxydlg.ui:97
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, location)
 #: rc.cpp:350
 msgid "Enter the address for the proxy configuration script."
 msgstr "প্রক্সি কনফিগারেশন স্ক্রিপ্টের ঠিকানা লিখুন।"
 
-#. i18n: file: kproxydlg.ui:119
+#. i18n: file: kproxydlg.ui:126
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbEnvVar)
 #: rc.cpp:353
 msgid ""
@@ -1121,107 +1126,107 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:122
+#. i18n: file: kproxydlg.ui:129
 #. i18n: ectx: property (text), widget (QRadioButton, rbEnvVar)
 #: rc.cpp:359
 msgid "Use preset proxy environment &variables"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:132
+#. i18n: file: kproxydlg.ui:139
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbEnvSetup)
 #: rc.cpp:362
 msgid "Show the proxy environment variable configuration dialog."
 msgstr "প্রক্সির এনভায়রনমেন্ট ভেরিয়েবল কনফিগারেশনের ডায়লগ প্রদর্শন করা হবে।"
 
-#. i18n: file: kproxydlg.ui:135
+#. i18n: file: kproxydlg.ui:142
 #. i18n: ectx: property (text), widget (QPushButton, pbEnvSetup)
-#. i18n: file: kproxydlg.ui:177
+#. i18n: file: kproxydlg.ui:184
 #. i18n: ectx: property (text), widget (QPushButton, pbManSetup)
 #: rc.cpp:365 rc.cpp:377
 msgid "Setup..."
 msgstr "প্রস্তুতি..."
 
-#. i18n: file: kproxydlg.ui:161
+#. i18n: file: kproxydlg.ui:168
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbManual)
 #: rc.cpp:368
 msgid "Manually enter proxy server configuration information."
 msgstr "প্রক্সি কনফিগারেশনের তথ্য স্বয়ং লিখুন।"
 
-#. i18n: file: kproxydlg.ui:164
+#. i18n: file: kproxydlg.ui:171
 #. i18n: ectx: property (text), widget (QRadioButton, rbManual)
 #: rc.cpp:371
 msgid "&Manually specify the proxy settings"
 msgstr "প্রক্সির বৈশিষ্ট্যের মান স্বয়ং লিখুন (&M)"
 
-#. i18n: file: kproxydlg.ui:174
+#. i18n: file: kproxydlg.ui:181
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbManSetup)
 #: rc.cpp:374
 msgid "Show the manual proxy configuration dialog."
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:191
+#. i18n: file: kproxydlg.ui:199
 #. i18n: ectx: property (title), widget (QGroupBox, gbAuth)
 #: rc.cpp:380
 msgid "Authori&zation"
 msgstr "অনুমোদন (&z)"
 
-#. i18n: file: kproxydlg.ui:197
+#. i18n: file: kproxydlg.ui:205
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPrompt)
 #: rc.cpp:383
 msgid "Prompt for login information whenever it is required."
 msgstr "প্রয়োজন দেখা দিলে লগ-ইন সংক্রান্ত তথ্য উল্লেখ করার অনুরোধ জানানো হবে।"
 
-#. i18n: file: kproxydlg.ui:200
+#. i18n: file: kproxydlg.ui:208
 #. i18n: ectx: property (text), widget (QRadioButton, rbPrompt)
 #: rc.cpp:386
 msgid "Prompt as &needed"
 msgstr "প্রয়োজন অনুসারে অনুরোধ জানানো হবে (&n)"
 
-#. i18n: file: kproxydlg.ui:221
+#. i18n: file: kproxydlg.ui:229
 #. i18n: ectx: property (toolTip), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:389
 msgid "Use this login information."
 msgstr "লগ-ইন সংক্রান্ত এই তথ্য প্রয়োগ করা হবে।"
 
-#. i18n: file: kproxydlg.ui:224
+#. i18n: file: kproxydlg.ui:232
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:392
 msgid "Use information specified here to login into proxy servers as needed."
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:227
+#. i18n: file: kproxydlg.ui:235
 #. i18n: ectx: property (text), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:395
 msgid "Username:"
 msgstr "ব্যবহারকারীর নাম:"
 
-#. i18n: file: kproxydlg.ui:237
+#. i18n: file: kproxydlg.ui:245
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
 #: rc.cpp:398
 msgid "Login name."
 msgstr "লগ-ইন নাম।"
 
-#. i18n: file: kproxydlg.ui:247
+#. i18n: file: kproxydlg.ui:255
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
-#. i18n: file: kproxydlg.ui:266
+#. i18n: file: kproxydlg.ui:274
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
 #: rc.cpp:401 rc.cpp:407
 msgid "Login password."
 msgstr "লগ-ইন পাসওয়ার্ড।"
 
-#. i18n: file: kproxydlg.ui:250
+#. i18n: file: kproxydlg.ui:258
 #. i18n: ectx: property (text), widget (QLabel, lbPassword)
 #: rc.cpp:404
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
-#. i18n: file: kproxydlg.ui:284
+#. i18n: file: kproxydlg.ui:292
 #. i18n: ectx: property (title), widget (QGroupBox, gbOptions)
 #: rc.cpp:410
 msgid "O&ptions"
 msgstr "বিকল্প: (&p)"
 
-#. i18n: file: kproxydlg.ui:293
+#. i18n: file: kproxydlg.ui:301
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPersConn)
 #: rc.cpp:413
 msgid ""
@@ -1234,7 +1239,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:296
+#. i18n: file: kproxydlg.ui:304
 #. i18n: ectx: property (text), widget (QCheckBox, cbPersConn)
 #: rc.cpp:419
 msgid "Use persistent connections to proxy"
@@ -1270,7 +1275,9 @@ msgstr "FTP প্রক্সি সার্ভারের ঠিকানা
 msgid ""
 "Enter the port number of the FTP proxy server. Default 8080. Another common "
 "value is 3128."
-msgstr "FTP প্রক্সি সার্ভারের পোর্ট সংখ্যা লিখুন। ডিফল্ট মান 8080 ও অন্য একটি জনপ্রিয় মান হল 3128।"
+msgstr ""
+"FTP প্রক্সি সার্ভারের পোর্ট সংখ্যা লিখুন। ডিফল্ট মান 8080 ও অন্য একটি জনপ্রিয় মান হল "
+"3128।"
 
 #. i18n: file: manualproxy.ui:110
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbHttps)
@@ -1280,7 +1287,9 @@ msgstr "FTP প্রক্সি সার্ভারের পোর্ট �
 msgid ""
 "Enter the port number of the HTTP proxy server. Default is 8080. Another "
 "common value is 3128."
-msgstr "HTTP প্রক্সি সার্ভারের পোর্ট সংখ্যা লিখুন। ডিফল্ট মান 8080 ও অন্য একটি জনপ্রিয় মান হল 3128।"
+msgstr ""
+"HTTP প্রক্সি সার্ভারের পোর্ট সংখ্যা লিখুন। ডিফল্ট মান 8080 ও অন্য একটি জনপ্রিয় মান হল "
+"3128।"
 
 #. i18n: file: manualproxy.ui:136
 #. i18n: ectx: property (text), widget (QCheckBox, cbSameProxy)
@@ -1474,7 +1483,8 @@ msgstr ""
 #. i18n: file: useragentdlg.ui:70
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
 #: rc.cpp:561
-msgid "Includes your operating system's name in the browser identification text."
+msgid ""
+"Includes your operating system's name in the browser identification text."
 msgstr ""
 
 #. i18n: file: useragentdlg.ui:73
@@ -1709,4 +1719,3 @@ msgid ""
 "dialog box, simply click on the quick help button on the window title bar, "
 "then click on the section for which you are seeking help.</p>"
 msgstr ""
-
