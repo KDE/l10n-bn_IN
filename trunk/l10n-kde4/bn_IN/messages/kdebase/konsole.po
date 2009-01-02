@@ -127,7 +127,9 @@ msgstr "রঙ"
 msgid ""
 "The background transparency setting will not be used because your desktop "
 "does not appear to support transparent windows."
-msgstr "ব্যবহৃত ডেস্কটপ দ্বারা স্বচ্ছ উইন্ডো সমর্থিত না হওয়ার ফলে, পটভূমির স্বচ্ছতা নির্ধারণের বৈশিষ্ট্য প্রয়োগ করা হবে না।"
+msgstr ""
+"ব্যবহৃত ডেস্কটপ দ্বারা স্বচ্ছ উইন্ডো সমর্থিত না হওয়ার ফলে, পটভূমির স্বচ্ছতা নির্ধারণের "
+"বৈশিষ্ট্য প্রয়োগ করা হবে না।"
 
 #: CopyInputDialog.cpp:35
 msgid "Copy Input"
@@ -174,7 +176,9 @@ msgstr "প্রারম্ভিক ডিরেক্টরি নির্�
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
-msgstr "এই রঙের বিন্যাসের সাথে স্বচ্ছ পটভূমি ব্যবহৃত হয়, কিন্তু আপনার ডেস্কটপে স্বচ্ছ পটভূমি সমর্থিত নয়"
+msgstr ""
+"এই রঙের বিন্যাসের সাথে স্বচ্ছ পটভূমি ব্যবহৃত হয়, কিন্তু আপনার ডেস্কটপে স্বচ্ছ পটভূমি "
+"সমর্থিত নয়"
 
 #: EditProfileDialog.cpp:600
 #, kde-format
@@ -331,7 +335,8 @@ msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
 #: MainWindow.cpp:349
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
-msgstr "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
+msgstr ""
+"এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
 #: MainWindow.cpp:351 SessionController.cpp:587
 msgid "Confirm Close"
@@ -386,7 +391,9 @@ msgstr "সতর্কবার্তা: "
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
-msgstr "'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
+msgstr ""
+"'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার "
+"প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
 
 #: Session.cpp:372
 msgid "Could not find an interactive shell to start."
@@ -530,14 +537,18 @@ msgstr ""
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
-msgstr "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে ইচ্ছুক?"
+msgstr ""
+"বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
+"ইচ্ছুক?"
 
 #: SessionController.cpp:584
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
-msgstr "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে ইচ্ছুক?"
+msgstr ""
+"বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
+"করতে ইচ্ছুক?"
 
 #: SessionController.cpp:1068
 #, kde-format
@@ -705,7 +716,8 @@ msgid ""
 msgstr ""
 
 #: main.cpp:131
-msgid "Create a new tab in an existing window rather than creating a new window"
+msgid ""
+"Create a new tab in an existing window rather than creating a new window"
 msgstr ""
 
 #: main.cpp:132
@@ -717,7 +729,8 @@ msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "সিস্টেম দ্বারা সমর্থিত হলেও, স্বচ্ছ পটভূমি ব্যবহার করা হবে না।"
 
 #: main.cpp:135
-msgid "Try to enable transparency, even if the system does not appear to support it."
+msgid ""
+"Try to enable transparency, even if the system does not appear to support it."
 msgstr "সিস্টেম দ্বারা সমর্থিত না হলেও, স্বচ্ছ পটভূমি সক্রিয় করার প্রচেষ্টা করুন।"
 
 #: main.cpp:137
@@ -972,7 +985,8 @@ msgstr "কমান্ড:"
 msgid ""
 "The command to execute when new terminal sessions are created using this "
 "profile"
-msgstr "চিহ্নিত প্রোফাইল সহযোগে নতুন টার্মিন্যাল সেশান নির্মাণের সময় সঞ্চালনযোগ্য কমান্ড"
+msgstr ""
+"চিহ্নিত প্রোফাইল সহযোগে নতুন টার্মিন্যাল সেশান নির্মাণের সময় সঞ্চালনযোগ্য কমান্ড"
 
 #. i18n: file: EditProfileDialog.ui:92
 #. i18n: ectx: property (text), widget (QLabel, label_9)
@@ -983,7 +997,8 @@ msgstr "প্রারম্ভিক ডিরেক্টরি:"
 #. i18n: file: EditProfileDialog.ui:102
 #. i18n: ectx: property (toolTip), widget (KLineEdit, initialDirEdit)
 #: rc.cpp:45 rc.cpp:430
-msgid "The initial working directory for new terminal sessions using this profile"
+msgid ""
+"The initial working directory for new terminal sessions using this profile"
 msgstr "চিহ্নিত প্রোফাইল সহ নির্মিত নতুন টার্মিন্যাল সেশানের জন্য প্রারম্ভিক ডিরেক্টরি"
 
 #. i18n: file: EditProfileDialog.ui:112
@@ -1443,7 +1458,9 @@ msgstr "প্রোগ্রাম দ্বারা টার্মিন্�
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
 "Hebrew only)"
-msgstr "টার্মিন্যালের মধ্যে উভয় দিশায় প্রদর্শন সক্রিয় করা হবে (শুধুমাত্র আরবি, ফার্সি ও হিব্রুর ক্ষেত্রে প্রযোজ্য)"
+msgstr ""
+"টার্মিন্যালের মধ্যে উভয় দিশায় প্রদর্শন সক্রিয় করা হবে (শুধুমাত্র আরবি, ফার্সি ও হিব্রুর "
+"ক্ষেত্রে প্রযোজ্য)"
 
 #. i18n: file: EditProfileDialog.ui:938
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
@@ -1812,4 +1829,3 @@ msgstr "Solaris কনসোল"
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 টার্মিন্যাল"
-
