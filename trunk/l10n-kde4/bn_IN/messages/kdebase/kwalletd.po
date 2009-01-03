@@ -56,14 +56,18 @@ msgstr "DBus ইন্টারফেস"
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
 "password for this wallet below.</qt>"
-msgstr "<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই ওয়ালেটের পাসওয়ার্ড নীচে লিখুন।</qt>"
+msgstr ""
+"<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই "
+"ওয়ালেটের পাসওয়ার্ড নীচে লিখুন।</qt>"
 
 #: kwalletd.cpp:443
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
 "b>'. Please enter the password for this wallet below.</qt>"
-msgstr "<qt>'<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই ওয়ালেটের পাসওয়ার্ড নীচে লিখুন।</qt>"
+msgstr ""
+"<qt>'<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। অনুগ্রহ করে "
+"এই ওয়ালেটের পাসওয়ার্ড নীচে লিখুন।</qt>"
 
 #: kwalletd.cpp:447
 msgid "&Open"
@@ -75,15 +79,18 @@ msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
 "%2: %3)</qt>"
 msgstr ""
-"<qt>'<b>%1</b>' ওয়ালেট খুলতে ব্যর্থ। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।<br />(ত্রুটির কোড "
-"%2: %3)</qt>"
+"<qt>'<b>%1</b>' ওয়ালেট খুলতে ব্যর্থ। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।<br />(ত্রুটির "
+"কোড %2: %3)</qt>"
 
 #: kwalletd.cpp:473
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
 "click cancel to deny the application's request."
-msgstr "KDE দ্বারা ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। সংবেদনশীল তথ্য নিরাপদভাবে সংরক্ষণের জন্য এই পরিসেবাটি ব্যবহার করা হয়। এই ওয়ালেটের জন্য় অনুগ্রহ করে পাসওয়ার্ড লিখুন অথবা অ্যাপ্লিকেশনের অনুরোধ নাকচ করার জন্য বাতিল টিপুন।"
+msgstr ""
+"KDE দ্বারা ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। সংবেদনশীল তথ্য নিরাপদভাবে সংরক্ষণের "
+"জন্য এই পরিসেবাটি ব্যবহার করা হয়। এই ওয়ালেটের জন্য় অনুগ্রহ করে পাসওয়ার্ড লিখুন অথবা "
+"অ্যাপ্লিকেশনের অনুরোধ নাকচ করার জন্য বাতিল টিপুন।"
 
 #: kwalletd.cpp:475
 #, kde-format
@@ -93,7 +100,9 @@ msgid ""
 "to use with this wallet or click cancel to deny the application's request.</"
 "qt>"
 msgstr ""
-"<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। সংবেদনশীল তথ্য নিরাপদভাবে সংরক্ষণের জন্য এই পরিসেবাটি ব্যবহার করা হয়। এই ওয়ালেটের জন্য় অনুগ্রহ করে পাসওয়ার্ড লিখুন অথবা অ্যাপ্লিকেশনের অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</"
+"<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। সংবেদনশীল "
+"তথ্য নিরাপদভাবে সংরক্ষণের জন্য এই পরিসেবাটি ব্যবহার করা হয়। এই ওয়ালেটের জন্য় "
+"অনুগ্রহ করে পাসওয়ার্ড লিখুন অথবা অ্যাপ্লিকেশনের অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</"
 "qt>"
 
 #: kwalletd.cpp:479
@@ -102,7 +111,10 @@ msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
 "choose a password for this wallet, or cancel to deny the application's "
 "request.</qt>"
-msgstr "<qt>KDE দ্বারা '<b>%1</b>' নামক একটি নতুন ওয়ালেট নির্মাণর অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই ওয়ালেটের জন্য একটি পাসওয়ার্ড নির্বাচন করুন অথবা অ্যাপ্লিকেশনের এই অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</qt>"
+msgstr ""
+"<qt>KDE দ্বারা '<b>%1</b>' নামক একটি নতুন ওয়ালেট নির্মাণর অনুরোধ জানানো হয়েছে। "
+"অনুগ্রহ করে এই ওয়ালেটের জন্য একটি পাসওয়ার্ড নির্বাচন করুন অথবা অ্যাপ্লিকেশনের এই "
+"অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</qt>"
 
 #: kwalletd.cpp:481
 #, kde-format
@@ -110,7 +122,10 @@ msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
 "'<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the "
 "application's request.</qt>"
-msgstr "<qt>'<b>%1</b>' অ্যাপ্লিকেশন দ্বারা '<b>%2</b>' নামক একটি নতুন ওয়ালেট নির্মাণর অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই ওয়ালেটের জন্য একটি পাসওয়ার্ড নির্বাচন করুন অথবা অ্যাপ্লিকেশনের এই অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</qt>"
+msgstr ""
+"<qt>'<b>%1</b>' অ্যাপ্লিকেশন দ্বারা '<b>%2</b>' নামক একটি নতুন ওয়ালেট নির্মাণর "
+"অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই ওয়ালেটের জন্য একটি পাসওয়ার্ড নির্বাচন করুন অথবা "
+"অ্যাপ্লিকেশনের এই অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</qt>"
 
 #: kwalletd.cpp:486
 msgid "C&reate"
@@ -126,7 +141,9 @@ msgstr "<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলা�
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%"
 "2</b>'.</qt>"
-msgstr "<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।</qt>"
+msgstr ""
+"<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো "
+"হয়েছে।</qt>"
 
 #: kwalletd.cpp:650
 msgid ""
@@ -137,7 +154,8 @@ msgstr "ওয়ালেট খুলতে ব্যর্থ। পাসওয়
 #: kwalletd.cpp:661
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
-msgstr "<qt>অনুগ্রহ করে, ওয়ালেট '<b>%1</b>'-র জন্য একটি নতুন পাসওয়ার্ড নির্মাণ করুন।</qt>"
+msgstr ""
+"<qt>অনুগ্রহ করে, ওয়ালেট '<b>%1</b>'-র জন্য একটি নতুন পাসওয়ার্ড নির্মাণ করুন।</qt>"
 
 #: kwalletd.cpp:671
 msgid "Error re-encrypting the wallet. Password was not changed."
@@ -151,7 +169,9 @@ msgstr "ওয়ালেট পুনরায় খুলতে ব্যর্থ
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
-msgstr "ওয়ালেট ব্যবহারের উদ্দেশ্যে বেশ কয়েকবার ব্যর্থ প্রচেষ্টা করা হয়েছে। সম্ভবত কোনো অ্যাপ্লিকেশন দ্বারা ভুলবসত এটি হয়েছে।"
+msgstr ""
+"ওয়ালেট ব্যবহারের উদ্দেশ্যে বেশ কয়েকবার ব্যর্থ প্রচেষ্টা করা হয়েছে। সম্ভবত কোনো "
+"অ্যাপ্লিকেশন দ্বারা ভুলবসত এটি হয়েছে।"
 
 #. i18n: file: kbetterthankdialogbase.ui:52
 #. i18n: ectx: property (text), widget (QPushButton, _allowOnce)
@@ -328,4 +348,3 @@ msgstr "পাসওয়ার্ড দুটি মিলেছে।"
 #: kwalletwizard.cpp:144
 msgid "Passwords do not match."
 msgstr "পাসওয়ার্ডে গরমিল।"
-
