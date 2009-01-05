@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-02 10:20+0100\n"
+"POT-Creation-Date: 2009-01-05 10:13+0100\n"
 "PO-Revision-Date: 2008-07-10 17:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -29,15 +29,15 @@ msgid ""
 "Setup= option in kdmrc (usually Xsetup)."
 msgstr ""
 
-#: kdm-conv.cpp:86
+#: kdm-conv.cpp:49
 msgid "<big><b><center>Attention<br/>Read help</center></b></big>"
 msgstr ""
 
-#: kdm-conv.cpp:96
+#: kdm-conv.cpp:59
 msgid "Enable Au&to-Login"
 msgstr "স্বয়ংক্রিয় লগ-ইন সক্রিয় করুন (&t)"
 
-#: kdm-conv.cpp:102
+#: kdm-conv.cpp:65
 msgid ""
 "Turn on the auto-login feature. This applies only to KDM's graphical login. "
 "Think twice before enabling this!"
@@ -45,111 +45,111 @@ msgstr ""
 "স্বয়ংক্রিয় লগ-ইনের বৈশিষ্ট্য সক্রিয় করুন। শুধুমাত্র KDM-র গ্রাফিক্যাল লগ-ইনের ক্ষেত্রে "
 "প্রযোজ্য। এটি সক্রিয় করার পূর্বে পুনরায় বিবেচনা করা বাঞ্ছনীয়।"
 
-#: kdm-conv.cpp:109
+#: kdm-conv.cpp:72
 msgid "Use&r:"
 msgstr "ব্যবহারকারী: (&r)"
 
-#: kdm-conv.cpp:118
+#: kdm-conv.cpp:81
 msgid "Select the user to be logged in automatically."
 msgstr "স্বয়ংক্রিয়রূপে লগ-ইনের জন্য চিহ্নিত ব্যবহারকারীর নাম নির্বাচন করুন।"
 
-#: kdm-conv.cpp:121
+#: kdm-conv.cpp:84
 msgid "Loc&k session"
 msgstr "সেশান লক করুন: (&k)"
 
-#: kdm-conv.cpp:125
+#: kdm-conv.cpp:88
 msgid ""
 "The automatically started session will be locked immediately (provided it is "
 "a KDE session). This can be used to obtain a super-fast login restricted to "
 "one user."
 msgstr ""
 
-#: kdm-conv.cpp:129
+#: kdm-conv.cpp:92
 msgctxt "@title:group"
 msgid "Preselect User"
 msgstr "ব্যবহারকারীর নাম পূর্বে নির্বাচন করুন"
 
-#: kdm-conv.cpp:133
+#: kdm-conv.cpp:96
 msgctxt "@option:radio preselected user"
 msgid "&None"
 msgstr "শূণ্য (&N)"
 
-#: kdm-conv.cpp:134
+#: kdm-conv.cpp:97
 msgctxt "@option:radio preselected user"
 msgid "Prev&ious"
 msgstr "পূর্ববর্তী (&i)"
 
-#: kdm-conv.cpp:136
+#: kdm-conv.cpp:99
 msgid ""
 "Preselect the user that logged in previously. Use this if this computer is "
 "usually used several consecutive times by one user."
 msgstr ""
 
-#: kdm-conv.cpp:138
+#: kdm-conv.cpp:101
 msgctxt "@option:radio preselected user"
 msgid "Specif&y"
 msgstr "নির্ধারণ করুন (&y)"
 
-#: kdm-conv.cpp:140
+#: kdm-conv.cpp:103
 msgid ""
 "Preselect the user specified in the combo box below. Use this if this "
 "computer is predominantly used by a certain user."
 msgstr ""
 
-#: kdm-conv.cpp:155
+#: kdm-conv.cpp:118
 msgid "Us&er:"
 msgstr "ব্যবহারকারী: (&e)"
 
-#: kdm-conv.cpp:159
+#: kdm-conv.cpp:122
 msgid ""
 "Select the user to be preselected for login. This box is editable, so you "
 "can specify an arbitrary non-existent user to mislead possible attackers."
 msgstr ""
 
-#: kdm-conv.cpp:172
+#: kdm-conv.cpp:135
 msgctxt "@option:check action"
 msgid "Focus pass&word"
 msgstr "পাসওয়ার্ডের উপর ফোকাস করা হবে (&w)"
 
-#: kdm-conv.cpp:175
+#: kdm-conv.cpp:138
 msgid ""
 "When this option is on, KDM will place the cursor in the password field "
 "instead of the user field after preselecting a user. Use this to save one "
 "key press per login, if the preselection usually does not need to be changed."
 msgstr ""
 
-#: kdm-conv.cpp:181
+#: kdm-conv.cpp:144
 msgid "Enable Password-&Less Logins"
 msgstr "পাসওয়ার্ড বিহীন লগ-ইন সক্রিয় করা হবে (&L)"
 
-#: kdm-conv.cpp:188
+#: kdm-conv.cpp:151
 msgid ""
 "When this option is checked, the checked users from the list below will be "
 "allowed to log in without entering their password. This applies only to "
 "KDM's graphical login. Think twice before enabling this!"
 msgstr ""
 
-#: kdm-conv.cpp:195
+#: kdm-conv.cpp:158
 msgid "No password re&quired for:"
 msgstr "প্রদর্শিত ব্যবহারকারীদের জন্য পাসওয়ার্ড প্রয়োজন নেই: (&q)"
 
-#: kdm-conv.cpp:207
+#: kdm-conv.cpp:164
 msgid ""
 "Check all users you want to allow a password-less login for. Entries denoted "
 "with '@' are user groups. Checking a group is like checking all users in "
 "that group."
 msgstr ""
 
-#: kdm-conv.cpp:211 kdm-shut.cpp:93
+#: kdm-conv.cpp:168 kdm-shut.cpp:93
 msgctxt "@title:group"
 msgid "Miscellaneous"
 msgstr "বিবিধ"
 
-#: kdm-conv.cpp:215
+#: kdm-conv.cpp:172
 msgid "Automatically log in again after &X server crash"
 msgstr "X-সার্ভার বিপর্যয়ের পরে স্বয়ংক্রিয়ভাবে পুনরায় লগ-ইন হবে (&X)"
 
-#: kdm-conv.cpp:217
+#: kdm-conv.cpp:174
 msgid ""
 "When this option is on, a user will be logged in again automatically when "
 "their session is interrupted by an X server crash; note that this can open a "
@@ -255,39 +255,44 @@ msgstr ""
 "পরিবর্তনগুলি প্রয়োগ করা হবে।"
 
 #: kdm-gen.cpp:71
+msgctxt "@title:group"
+msgid "Appearance"
+msgstr "চেহারাছবি"
+
+#: kdm-gen.cpp:78
 msgid "&Use themed greeter"
 msgstr "থিমসহ অভিবাদন পদ্ধতি ব্যবহার করা হবে (&U)"
 
-#: kdm-gen.cpp:74
+#: kdm-gen.cpp:81
 msgid "Enable this if you would like to use a themed Login Manager."
 msgstr "থিম সহ লগ-ইন পরিচালনব্যবস্থা ব্যবহার করতে ইচ্ছুক হলে, এই বৈশিষ্ট্য সক্রিয় করুন।"
 
-#: kdm-gen.cpp:84 kdm-gen.cpp:95 kdm-users.cpp:99
+#: kdm-gen.cpp:85 kdm-gen.cpp:96 kdm-users.cpp:99
 msgid "<placeholder>default</placeholder>"
 msgstr "<placeholder>ডিফল্ট মান</placeholder>"
 
-#: kdm-gen.cpp:89
+#: kdm-gen.cpp:90
 msgid "GUI s&tyle:"
 msgstr "GUI-র বিন্যাস: (&t)"
 
-#: kdm-gen.cpp:91
+#: kdm-gen.cpp:92
 msgid "You can choose a basic GUI style here that will be used by KDM only."
 msgstr "শুধুমাত্র KDM দ্বারা ব্যবহারযোগ্য একটি সাদামাটা GUI বিন্যাস নির্বাচন করুন।"
 
-#: kdm-gen.cpp:99
+#: kdm-gen.cpp:100
 msgid "Color sche&me:"
 msgstr ""
 
-#: kdm-gen.cpp:101
+#: kdm-gen.cpp:102
 msgid "You can choose a basic Color Scheme here that will be used by KDM only."
 msgstr ""
 
-#: kdm-gen.cpp:104
+#: kdm-gen.cpp:105
 msgctxt "@title:group"
 msgid "Fonts"
 msgstr "ফন্ট"
 
-#: kdm-gen.cpp:112
+#: kdm-gen.cpp:113
 msgid ""
 "This changes the font which is used for all the text in the login manager "
 "except for the greeting and failure messages."
@@ -295,12 +300,12 @@ msgstr ""
 "এর ফলে অভিবাদন ও বিফলতার বার্তা ব্যতীত লগ-ইন পর্দায় অন্যান্য টেক্সট প্রদর্শনের জন্য "
 "ব্যবহৃত ফন্ট পরিবর্তিত হবে"
 
-#: kdm-gen.cpp:115
+#: kdm-gen.cpp:116
 msgctxt "... font"
 msgid "&General:"
 msgstr "সাধারণ: (&G)"
 
-#: kdm-gen.cpp:119
+#: kdm-gen.cpp:120
 msgid ""
 "This changes the font which is used for failure messages in the login "
 "manager."
@@ -308,26 +313,26 @@ msgstr ""
 "লগ-ইন পরিচালন ব্যবস্থার মধ্যে বিফলতা সংক্রান্ত বার্তা প্রদর্শনের জন্য ব্যবহৃত ফন্ট এর "
 "ফলে পরিবর্তন করা হয়।"
 
-#: kdm-gen.cpp:121
+#: kdm-gen.cpp:122
 msgctxt "font for ..."
 msgid "&Failure:"
 msgstr "ব্যর্থতা: (&F)"
 
-#: kdm-gen.cpp:125
+#: kdm-gen.cpp:126
 msgid "This changes the font which is used for the login manager's greeting."
 msgstr ""
 "লগ-ইন পরিচালন ব্যবস্থার অভিবাদন বার্তার জন্য ব্যবহৃত ফন্ট এর ফলে পরিবর্তন করা হবে।"
 
-#: kdm-gen.cpp:127
+#: kdm-gen.cpp:128
 msgctxt "font for ..."
 msgid "Gree&ting:"
 msgstr "অভিবাদন: (&t)"
 
-#: kdm-gen.cpp:129
+#: kdm-gen.cpp:130
 msgid "Use anti-aliasing for fonts"
 msgstr "ফন্টের জন্য অ্যান্ট-অ্যালায়েসিং ব্যবহার করা হবে"
 
-#: kdm-gen.cpp:131
+#: kdm-gen.cpp:132
 msgid ""
 "If you check this box and your X-Server has the Xft extension, fonts will be "
 "antialiased (smoothed) in the login dialog."
@@ -436,7 +441,7 @@ msgstr ""
 "ইনস্টল হওয়া থিমের তালিকা।\n"
 "ব্যবহারের জন্য যে কোনো একটি ক্লিক করুন।"
 
-#: kdm-theme.cpp:87
+#: kdm-theme.cpp:88
 msgid "This is a screen shot of what KDM will look like."
 msgstr ""
 
@@ -444,54 +449,54 @@ msgstr ""
 msgid "This contains information about the selected theme."
 msgstr "নির্বাচিত থিম সম্পর্কিত তথ্য এর মধ্যে অন্তর্ভুক্ত রয়েছে।"
 
-#: kdm-theme.cpp:101
+#: kdm-theme.cpp:100
 msgctxt "@action:button"
 msgid "Install &new theme"
 msgstr "নতুন থিম ইনস্টল করুন (&n)"
 
-#: kdm-theme.cpp:102
+#: kdm-theme.cpp:101
 msgid "This will install a theme into the theme directory."
 msgstr "এর ফলে, থিম ডিরেক্টরির মধ্যে একটি থিম ইনস্টল করা হবে।"
 
-#: kdm-theme.cpp:106
+#: kdm-theme.cpp:105
 msgctxt "@action:button"
 msgid "&Remove theme"
 msgstr "থিম মুছে ফেলুন (&R)"
 
-#: kdm-theme.cpp:107
+#: kdm-theme.cpp:106
 msgid "This will remove the selected theme."
 msgstr "এর ফলে নির্বাচিত থিম মুছে ফেলা হবে।"
 
-#: kdm-theme.cpp:111
+#: kdm-theme.cpp:110
 msgctxt "@action:button"
 msgid "&Get New Themes"
 msgstr "নতুন থিম প্রাপ্ত করুন (&G)"
 
-#: kdm-theme.cpp:124 kdm-users.cpp:93
+#: kdm-theme.cpp:123 kdm-users.cpp:93
 #, kde-format
 msgid "Unable to create folder %1"
 msgstr "ফোল্ডার %1 নির্মাণ করতে ব্যর্থ"
 
-#: kdm-theme.cpp:206
+#: kdm-theme.cpp:205
 #, kde-format
 msgid "<qt><strong>Copyright:</strong> %1<br/></qt>"
 msgstr "<qt><strong>স্বত্বাধিকার:</strong> %1<br/></qt>"
 
-#: kdm-theme.cpp:209
+#: kdm-theme.cpp:208
 #, kde-format
 msgid "<qt><strong>Description:</strong> %1</qt>"
 msgstr "<qt><strong>বিবরণ:</strong> %1</qt>"
 
-#: kdm-theme.cpp:221
+#: kdm-theme.cpp:220
 msgid "Drag or Type Theme URL"
 msgstr "থিমের URL টেনে আনুন অথবা লিখুন।"
 
-#: kdm-theme.cpp:240
+#: kdm-theme.cpp:239
 #, kde-format
 msgid "Unable to find the KDM theme archive %1."
 msgstr "KDM থিম আর্কাইভ %1 সন্ধান করতে ব্যর্থ।"
 
-#: kdm-theme.cpp:242
+#: kdm-theme.cpp:241
 #, kde-format
 msgid ""
 "Unable to download the KDM theme archive;\n"
@@ -500,26 +505,26 @@ msgstr ""
 "KDM থিম আর্কাইভ ডাউনলোড করতে ব্যর্থ;\n"
 "অনুগ্রহ করে পরীক্ষা করুন %1 ঠিকানাটি সঠিক কি না।"
 
-#: kdm-theme.cpp:265
+#: kdm-theme.cpp:264
 msgid "The file is not a valid KDM theme archive."
 msgstr "সংশ্লিষ্ট ফাইলটি বৈধ KDM থিম আর্কাইভ নয়।"
 
-#: kdm-theme.cpp:268
+#: kdm-theme.cpp:267
 msgctxt "@title:window"
 msgid "Installing KDM themes"
 msgstr "KDM থিম ইনস্টল করুন"
 
-#: kdm-theme.cpp:277
+#: kdm-theme.cpp:276
 #, kde-format
 msgctxt "@info:progress"
 msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgstr "<qt><strong>%1</strong> থিম ইনস্টল করা হচ্ছে</qt>"
 
-#: kdm-theme.cpp:318
+#: kdm-theme.cpp:317
 msgid "Are you sure you want to remove the following themes?"
 msgstr "আপনি কি নিশ্চিতরূপে নিম্নলিখিত থিমগুলি মুছে ফেলতে ইচ্ছুক?"
 
-#: kdm-theme.cpp:319
+#: kdm-theme.cpp:318
 msgctxt "@title:window"
 msgid "Remove themes?"
 msgstr "থিম মুছে ফেলা হবে কি?"
@@ -843,7 +848,3 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
-
-#~ msgctxt "@title:group"
-#~ msgid "Appearance"
-#~ msgstr "চেহারাছবি"
