@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-05 10:11+0100\n"
+"POT-Creation-Date: 2009-01-06 09:59+0100\n"
 "PO-Revision-Date: 2008-10-23 11:15+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -2121,124 +2121,128 @@ msgstr "ইনস্টল করা Qt লাইব্রেরি ফাইল
 msgid "Location of installed Qt plugins"
 msgstr "ইনস্টল করা Qt প্লাগ-ইনগুলির অবস্থান"
 
-#: kdecore/kde-config.cpp:144
+#: kdecore/kde-config.cpp:126
 msgid "Applications menu (.desktop files)"
 msgstr "অ্যাপ্লিকেশন তালিকার মেনু (.desktop ফাইল)"
 
-#: kdecore/kde-config.cpp:145
+#: kdecore/kde-config.cpp:127
+msgid "Cached information (e.g. favicons, web-pages)"
+msgstr ""
+
+#: kdecore/kde-config.cpp:128
 msgid "CGIs to run from kdehelp"
 msgstr "kdehelp থেকে সঞ্চালনযোগ্য CGI"
 
-#: kdecore/kde-config.cpp:146
+#: kdecore/kde-config.cpp:129
 msgid "Configuration files"
 msgstr "কনফিগারেশন ফাইল"
 
-#: kdecore/kde-config.cpp:147
+#: kdecore/kde-config.cpp:130
 msgid "Where applications store data"
 msgstr "অ্যাপ্লিকেশন দ্বারা তথ্য সংরক্ষণের স্থান"
 
-#: kdecore/kde-config.cpp:148
+#: kdecore/kde-config.cpp:131
 msgid "Emoticons"
 msgstr "ভাব-প্রতীক"
 
-#: kdecore/kde-config.cpp:149
+#: kdecore/kde-config.cpp:132
 msgid "Executables in $prefix/bin"
 msgstr "$prefix/bin-র মধ্যে উপস্থিত এক্সেকিউটেবল"
 
-#: kdecore/kde-config.cpp:150
+#: kdecore/kde-config.cpp:133
 msgid "HTML documentation"
 msgstr "HTML নথিপত্র"
 
-#: kdecore/kde-config.cpp:151
+#: kdecore/kde-config.cpp:134
 msgid "Icons"
 msgstr "আইকন"
 
-#: kdecore/kde-config.cpp:152
+#: kdecore/kde-config.cpp:135
 msgid "Configuration description files"
 msgstr "কনফিগারেশনের বর্ণনামূলক ফাইল"
 
-#: kdecore/kde-config.cpp:153
+#: kdecore/kde-config.cpp:136
 msgid "Libraries"
 msgstr "লাইব্রেরি"
 
-#: kdecore/kde-config.cpp:154
+#: kdecore/kde-config.cpp:137
 msgid "Includes/Headers"
 msgstr "Include ফাইল/Header ফাইল"
 
-#: kdecore/kde-config.cpp:155
+#: kdecore/kde-config.cpp:138
 msgid "Translation files for KLocale"
 msgstr "KLocale-র জন্য অনুবাদের ফাইল"
 
-#: kdecore/kde-config.cpp:156
+#: kdecore/kde-config.cpp:139
 msgid "Mime types"
 msgstr "Mime-র ধরন"
 
-#: kdecore/kde-config.cpp:157
+#: kdecore/kde-config.cpp:140
 msgid "Loadable modules"
 msgstr "লোড করার যোগ্য মডিউল"
 
-#: kdecore/kde-config.cpp:158 kdecore/kde-config.cpp:168
+#: kdecore/kde-config.cpp:141 kdecore/kde-config.cpp:151
 msgid "Legacy pixmaps"
 msgstr "লিগ্যাসি পিক্সম্যাপ"
 
-#: kdecore/kde-config.cpp:159
+#: kdecore/kde-config.cpp:142
 msgid "Qt plugins"
 msgstr "Qt প্লাগ-ইন"
 
-#: kdecore/kde-config.cpp:160
+#: kdecore/kde-config.cpp:143
 msgid "Services"
 msgstr "পরিসেবা"
 
-#: kdecore/kde-config.cpp:161
+#: kdecore/kde-config.cpp:144
 msgid "Service types"
 msgstr "পরিসেবার ধরন"
 
-#: kdecore/kde-config.cpp:162
+#: kdecore/kde-config.cpp:145
 msgid "Application sounds"
 msgstr "অ্যাপ্লিকেশনে ব্যবহৃত শব্দ"
 
-#: kdecore/kde-config.cpp:163
+#: kdecore/kde-config.cpp:146
 msgid "Templates"
 msgstr "টেমপ্লেট"
 
-#: kdecore/kde-config.cpp:164
+#: kdecore/kde-config.cpp:147
 msgid "Wallpapers"
 msgstr "পটভূমির ছবি"
 
-#: kdecore/kde-config.cpp:165
+#: kdecore/kde-config.cpp:148
 msgid "XDG Application menu (.desktop files)"
 msgstr "XDG অ্যাপ্লিকেশন তালিকার মেনু (.desktop ফাইল)"
 
-#: kdecore/kde-config.cpp:166
+#: kdecore/kde-config.cpp:149
 msgid "XDG Menu descriptions (.directory files)"
 msgstr "XDG মেনুর বর্ণনা (.directory ফাইল)"
 
-#: kdecore/kde-config.cpp:167
+#: kdecore/kde-config.cpp:150
 msgid "XDG Icons"
 msgstr "XDG আইকন"
 
-#: kdecore/kde-config.cpp:169
+#: kdecore/kde-config.cpp:152
 msgid "XDG Mime Types"
 msgstr "XDG Mime-র ধরন"
 
-#: kdecore/kde-config.cpp:170
+#: kdecore/kde-config.cpp:153
 msgid "XDG Menu layout (.menu files)"
 msgstr "XDG মেনুর বিন্যাস (.menu ফাইল)"
 
-#: kdecore/kde-config.cpp:171
+#: kdecore/kde-config.cpp:154
 msgid "Temporary files (specific for both current host and current user)"
 msgstr "অস্থায়ী ফাইল (বর্তমান হোস্ট ও বর্তমান ব্যবহারকারীর জন্য সুনির্দিষ্ট)"
 
-#: kdecore/kde-config.cpp:172
+#: kdecore/kde-config.cpp:155
 msgid "UNIX Sockets (specific for both current host and current user)"
 msgstr "UNIX সকেট (বর্তমান হোস্ট ও বর্তমান ব্যবহারকারীর জন্য সুনির্দিষ্ট)"
 
-#: kdecore/kde-config.cpp:184
+#: kdecore/kde-config.cpp:167
 #, kde-format
 msgid "%1 - unknown type\n"
 msgstr "%1 - অজানা ধরন\n"
 
-#: kdecore/kde-config.cpp:246
+#: kdecore/kde-config.cpp:229
 #, kde-format
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - userpath-র ধরন অজ্ঞাত\n"
@@ -3248,7 +3252,7 @@ msgstr ""
 msgid "The library %1 does not offer a KDE 4 compatible factory."
 msgstr "%1 লাইব্রেরি দ্বারা, KDE 4-র সাথে সুসংগত ফ্যাক্টরি উপলব্ধ করা হয় না।"
 
-#: kdecore/util/kpluginloader.cpp:190
+#: kdecore/util/kpluginloader.cpp:191
 #, kde-format
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "'%1' প্লাগ-ইন দ্বারা বিসংগত KDE লাইব্রেরি ব্যবহার করা হয় (%2)।"
@@ -8009,7 +8013,7 @@ msgid ""
 "bottom of the window used for status information."
 msgstr ""
 
-#: kdeui/windowmanagement/kwindowsystem_qws.cpp:163
+#: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:852
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:546
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:559
@@ -8987,7 +8991,7 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "ড্রপ-ডাউন তালিকা && স্বয়ংক্রিয়"
 
-#: kdeui/widgets/klineedit.cpp:1148
+#: kdeui/widgets/klineedit.cpp:1150
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "ডিফল্ট মান"
@@ -12093,34 +12097,6 @@ msgstr "KUnitTest ModRunner"
 #: kde3support/kunittest/modrunner.cpp:51
 msgid "(C) 2005 Jeroen Wijnhout"
 msgstr "(C) ২০০৫ জেরোয়েন উইজনহুট"
-
-#: kformula/FormulaCommand.cpp:32
-msgid "Add Elements"
-msgstr ""
-
-#: kformula/FormulaCommand.cpp:61
-msgid "Remove Elements"
-msgstr ""
-
-#: kformula/FormulaCommand.cpp:91
-msgid "Replace Element"
-msgstr ""
-
-#: kformula/FormulaCommand.cpp:139
-msgid "Attribute Changed"
-msgstr ""
-
-#: kformula/sample/main.cpp:10
-msgid "Sample KFormula application"
-msgstr ""
-
-#: kformula/sample/main.cpp:11
-msgid "Application showing a KFormula widget for debugging purposes"
-msgstr ""
-
-#: kformula/sample/main.cpp:13
-msgid "Copyright 2008 Alfredo Beaumont <alfredo.beaumont@gmail.com>"
-msgstr ""
 
 #: kdeui/colors/kcolordialog.cpp:97
 msgctxt "palette name"

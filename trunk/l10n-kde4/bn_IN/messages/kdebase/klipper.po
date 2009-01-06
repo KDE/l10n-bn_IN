@@ -78,8 +78,8 @@ msgid ""
 "emptied. E.g. when an application exits, the clipboard would usually be "
 "emptied."
 msgstr ""
-"এই বিকল্পটি নির্বাচন করা হলে, ক্লিপ-বোর্ড কখনো ফাঁকা রাখা হবে না। উদাহরণ, কোনো অ্যাপ্লিকেশন বন্ধ করা হলে, ক্লিপ-বো "
-"র্ড সাধারণত ফাঁকা করা হবে।"
+"এই বিকল্পটি নির্বাচন করা হলে, ক্লিপ-বোর্ড কখনো ফাঁকা রাখা হবে না। উদাহরণ, কোনো "
+"অ্যাপ্লিকেশন বন্ধ করা হলে, ক্লিপ-বো র্ড সাধারণত ফাঁকা করা হবে।"
 
 #: configdialog.cpp:91
 msgid "&Ignore selection"
@@ -89,7 +89,9 @@ msgstr "নির্বাচন অগ্রাহ্য করা হবে (&
 msgid ""
 "This option prevents the selection being recorded in the clipboard history. "
 "Only explicit clipboard changes are recorded."
-msgstr "এর ফলে, নির্বাচিত অংশটি ক্লিপ-বোর্ডের মধ্যে সংরক্ষিত হবে না। শুধুমাত্র, ক্লিপ-বোর্ডে করা সুনির্দিষ্ট পরিবর্তন গ্রাহ্য করা হবে।"
+msgstr ""
+"এর ফলে, নির্বাচিত অংশটি ক্লিপ-বোর্ডের মধ্যে সংরক্ষিত হবে না। শুধুমাত্র, ক্লিপ-বোর্ডে "
+"করা সুনির্দিষ্ট পরিবর্তন গ্রাহ্য করা হবে।"
 
 #: configdialog.cpp:97
 msgid "Ignore images"
@@ -115,7 +117,8 @@ msgstr "ক্লিপবোর্ডের তথ্য ও নির্বা
 
 #: configdialog.cpp:115
 msgid "Selecting this option synchronizes these two buffers."
-msgstr "এই বিকল্পটি নির্বাচন করা হলে, এই বাফার দুটির মধ্যে উপস্থিত তথ্য সুসংগত করা হবে।"
+msgstr ""
+"এই বিকল্পটি নির্বাচন করা হলে, এই বাফার দুটির মধ্যে উপস্থিত তথ্য সুসংগত করা হবে।"
 
 #: configdialog.cpp:119
 msgid "Separate clipboard and selection"
@@ -151,7 +154,9 @@ msgstr[1] " এনট্রি"
 
 #: configdialog.cpp:199
 msgid "Action &list (right click to add/remove commands):"
-msgstr "কর্মের তালিকা (কমান্ড যোগ/অপসারণের জন্য মাউসের ডানদিকের বাটন সহযোগে ক্লিক করুন): (&l)"
+msgstr ""
+"কর্মের তালিকা (কমান্ড যোগ/অপসারণের জন্য মাউসের ডানদিকের বাটন সহযোগে ক্লিক করুন): "
+"(&l)"
 
 #: configdialog.cpp:205
 msgid "Regular Expression"
@@ -182,14 +187,18 @@ msgstr "উন্নত বৈশিষ্ট্য"
 msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will "
 "be replaced with the clipboard contents."
-msgstr "উজ্জ্বল করা কোনো কলামের তথ্য পরিবর্তনের জন্য সেটির উপর ক্লিক করুন। কমান্ডের মধ্যে অন্তর্ভুক্ত \"%s\"-র পরিবর্তে ক্লিপবোর্ডে উপস্থিত তথ্য লেখা হবে।"
+msgstr ""
+"উজ্জ্বল করা কোনো কলামের তথ্য পরিবর্তনের জন্য সেটির উপর ক্লিক করুন। কমান্ডের মধ্যে "
+"অন্তর্ভুক্ত \"%s\"-র পরিবর্তে ক্লিপবোর্ডে উপস্থিত তথ্য লেখা হবে।"
 
 #: configdialog.cpp:274
 msgid ""
 "For more information about regular expressions, you could have a look at the "
 "<a href=\"http://en.wikipedia.org/wiki/Regular_expression\">Wikipedia entry "
 "about this topic</a>."
-msgstr "রেগুলার এক্সপ্রেশন সম্পর্কে অধিক বিবরণ প্রাপ্ত করার জন্য এই সম্বন্ধীয় <a href=\"http://en.wikipedia.org/wiki/Regular_expression\">Wikipedia প্রবন্ধটি</a> পড়ুন।"
+msgstr ""
+"রেগুলার এক্সপ্রেশন সম্পর্কে অধিক বিবরণ প্রাপ্ত করার জন্য এই সম্বন্ধীয় <a href=\"http://"
+"en.wikipedia.org/wiki/Regular_expression\">Wikipedia প্রবন্ধটি</a> পড়ুন।"
 
 #: configdialog.cpp:300
 msgid "Add Command"
@@ -264,7 +273,9 @@ msgstr "ক্লিপবোর্ড সংক্রান্ত কর্ম 
 msgid ""
 "You can enable URL actions later by right-clicking on the Klipper icon and "
 "selecting 'Enable Actions'"
-msgstr "পরে কোনো সময় URL সংক্রান্ত কর্ম সক্রিয় করার জন্য Klipper আইকনের উপর ডান দিকের মাউস বাটন সহ ক্লিক করে, 'কর্ম সক্রিয় করুন' নির্বাচন করুন"
+msgstr ""
+"পরে কোনো সময় URL সংক্রান্ত কর্ম সক্রিয় করার জন্য Klipper আইকনের উপর ডান দিকের "
+"মাউস বাটন সহ ক্লিক করে, 'কর্ম সক্রিয় করুন' নির্বাচন করুন"
 
 #: klipper.cpp:552
 msgid "Should Klipper start automatically when you login?"
@@ -390,4 +401,3 @@ msgstr "বাতিল (&C)"
 #: urlgrabber.cpp:285
 msgid "Edit Contents"
 msgstr "তথ্য সম্পাদনা"
-
