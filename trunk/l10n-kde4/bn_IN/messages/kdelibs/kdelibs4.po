@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-06 09:59+0100\n"
+"POT-Creation-Date: 2009-01-07 11:17+0100\n"
 "PO-Revision-Date: 2008-10-23 11:15+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -806,13 +806,13 @@ msgstr "প্রধান টুল-বার"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:584
+#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:571
 msgid "Main:"
 msgstr "প্রধান:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:585
+#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:572
 msgid "Alternate:"
 msgstr "বিকল্প:"
 
@@ -3605,7 +3605,7 @@ msgstr "KDE অ্যাপ্লিকেশন"
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:493 khtml/khtml_part.cpp:4670
+#: kdecore/kernel/kcmdlineargs.cpp:493 khtml/khtml_part.cpp:4669
 msgid "KDE"
 msgstr "KDE"
 
@@ -5000,7 +5000,7 @@ msgid "Name"
 msgstr "নাম"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
-#: kdeui/dialogs/kshortcutseditor.cpp:609
+#: kdeui/dialogs/kshortcutseditor.cpp:596
 msgid "Description"
 msgstr "বিবরণ"
 
@@ -5441,11 +5441,11 @@ msgstr "হোস্ট"
 msgid "Port"
 msgstr "পোর্ট"
 
-#: kdeui/jobs/kstatusbarjobtracker.cpp:237
+#: kdeui/jobs/kstatusbarjobtracker.cpp:239
 msgid " Stalled "
 msgstr " স্থগিত "
 
-#: kdeui/jobs/kstatusbarjobtracker.cpp:239
+#: kdeui/jobs/kstatusbarjobtracker.cpp:241
 #, kde-format
 msgid " %1/s "
 msgstr " %1/s "
@@ -6272,8 +6272,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2956
-#: khtml/khtmlview.cpp:2989 khtml/html/html_formimpl.cpp:1782
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2958
+#: khtml/khtmlview.cpp:2991 khtml/html/html_formimpl.cpp:1782
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
@@ -6334,20 +6334,20 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "আইকন পরিবর্তন করুন"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:508
-#: kdeui/dialogs/kshortcutseditor.cpp:524
+#: kdeui/dialogs/kshortcutseditor.cpp:495
+#: kdeui/dialogs/kshortcutseditor.cpp:511
 msgid "Key Conflict"
 msgstr "কি-র মধ্যে দ্বন্দ্ব"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:509
+#: kdeui/dialogs/kshortcutseditor.cpp:496
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:423
+#: kdeui/dialogs/kshortcutseditor.cpp:500
+#: kdeui/dialogs/kshortcutseditor.cpp:516 kdeui/shortcuts/kglobalaccel.cpp:423
 #: kdeui/shortcuts/kglobalaccel.cpp:462
 #: kdeui/widgets/kkeysequencewidget.cpp:179
 #: kdeui/widgets/kkeysequencewidget.cpp:261
@@ -6355,28 +6355,28 @@ msgstr ""
 msgid "Reassign"
 msgstr "পুনরায় নির্ধারণ"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:525
+#: kdeui/dialogs/kshortcutseditor.cpp:512
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:566
+#: kdeui/dialogs/kshortcutseditor.cpp:553
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1-র শর্ট-কাট"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:586
+#: kdeui/dialogs/kshortcutseditor.cpp:573
 msgid "Global:"
 msgstr "সার্বজনীন:"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:601
+#: kdeui/dialogs/kshortcutseditor.cpp:588
 msgid "Action Name"
 msgstr "কর্মের নাম"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:605
+#: kdeui/dialogs/kshortcutseditor.cpp:592
 msgid "Shortcuts"
 msgstr "শর্ট-কাট"
 
@@ -9634,8 +9634,8 @@ msgstr "Testkhtml"
 msgid "a basic web browser using the KHTML library"
 msgstr ""
 
-#: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3664 khtml/khtml_part.cpp:3874
-#: khtml/khtml_part.cpp:4250 kparts/browserrun.cpp:444
+#: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3663 khtml/khtml_part.cpp:3873
+#: khtml/khtml_part.cpp:4249 kparts/browserrun.cpp:444
 msgid "Save As"
 msgstr "নতুন রূপে সংরক্ষণ"
 
@@ -9976,7 +9976,7 @@ msgstr "নথি সংক্রান্ত তথ্য পরিদর্শ
 msgid "Save &Background Image As..."
 msgstr "নতুন নামে পটভুমির ছবি সংরক্ষণ করুন...(&B)"
 
-#: khtml/khtml_part.cpp:326 khtml/khtml_part.cpp:3956
+#: khtml/khtml_part.cpp:326 khtml/khtml_part.cpp:3955
 msgid "SSL"
 msgstr "SSL"
 
@@ -10056,186 +10056,186 @@ msgstr ""
 msgid "Toggle Caret Mode"
 msgstr ""
 
-#: khtml/khtml_part.cpp:710
+#: khtml/khtml_part.cpp:709
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr ""
 
-#: khtml/khtml_part.cpp:1221
+#: khtml/khtml_part.cpp:1220
 msgid "This web page contains coding errors."
 msgstr ""
 
-#: khtml/khtml_part.cpp:1263
+#: khtml/khtml_part.cpp:1262
 msgid "&Hide Errors"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1264
+#: khtml/khtml_part.cpp:1263
 msgid "&Disable Error Reporting"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1308
+#: khtml/khtml_part.cpp:1307
 #, kde-format
 msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1357
+#: khtml/khtml_part.cpp:1356
 #, kde-format
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1467
+#: khtml/khtml_part.cpp:1466
 msgid "Display Images on Page"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1833
+#: khtml/khtml_part.cpp:1832
 #, kde-format
 msgid "Error: %1 - %2"
 msgstr "ত্রুটি: %1 - %2"
 
-#: khtml/khtml_part.cpp:1838
+#: khtml/khtml_part.cpp:1837
 msgid "The requested operation could not be completed"
 msgstr "অনুরোধ করা কর্মটি সম্পন্ন করা যায়নি"
 
-#: khtml/khtml_part.cpp:1844
+#: khtml/khtml_part.cpp:1843
 msgid "Technical Reason: "
 msgstr "প্রযুক্তিগত কারণ: "
 
-#: khtml/khtml_part.cpp:1849
+#: khtml/khtml_part.cpp:1848
 msgid "Details of the Request:"
 msgstr "অনুরোধের বিবরণ:"
 
-#: khtml/khtml_part.cpp:1851
+#: khtml/khtml_part.cpp:1850
 #, kde-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
-#: khtml/khtml_part.cpp:1854
+#: khtml/khtml_part.cpp:1853
 #, kde-format
 msgid "Protocol: %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:1857
+#: khtml/khtml_part.cpp:1856
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "তারিখ ও সময়: %1"
 
-#: khtml/khtml_part.cpp:1859
+#: khtml/khtml_part.cpp:1858
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "অতিরিক্ত তথ্য: %1"
 
-#: khtml/khtml_part.cpp:1861
+#: khtml/khtml_part.cpp:1860
 msgid "Description:"
 msgstr "বিবরণ:"
 
-#: khtml/khtml_part.cpp:1867
+#: khtml/khtml_part.cpp:1866
 msgid "Possible Causes:"
 msgstr "সম্ভাব্য কারণ:"
 
-#: khtml/khtml_part.cpp:1874
+#: khtml/khtml_part.cpp:1873
 msgid "Possible Solutions:"
 msgstr "সম্ভাব্য সমাধান:"
 
-#: khtml/khtml_part.cpp:2240
+#: khtml/khtml_part.cpp:2239
 msgid "Page loaded."
 msgstr "পেজ লোড করা হয়েছে"
 
-#: khtml/khtml_part.cpp:2242
+#: khtml/khtml_part.cpp:2241
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%1 ছবি লোড করা হয়েছে, সর্বমোট %2।"
 msgstr[1] "%1 ছবি লোড করা হয়েছে, সর্বমোট %2।"
 
-#: khtml/khtml_part.cpp:2403
+#: khtml/khtml_part.cpp:2402
 msgid "Automatic Detection"
 msgstr "স্বয়ংক্রিয় সনাক্তকরণ"
 
-#: khtml/khtml_part.cpp:3472 khtml/khtml_part.cpp:3559
-#: khtml/khtml_part.cpp:3570
+#: khtml/khtml_part.cpp:3471 khtml/khtml_part.cpp:3558
+#: khtml/khtml_part.cpp:3569
 msgid " (In new window)"
 msgstr " (নতুন উইন্ডোর মধ্যে)"
 
-#: khtml/khtml_part.cpp:3511
+#: khtml/khtml_part.cpp:3510
 msgid "Symbolic Link"
 msgstr "সিম্বলিক লিঙ্ক"
 
-#: khtml/khtml_part.cpp:3513
+#: khtml/khtml_part.cpp:3512
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (লিঙ্ক)"
 
-#: khtml/khtml_part.cpp:3533
+#: khtml/khtml_part.cpp:3532
 #, kde-format
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 বাইট)"
 
-#: khtml/khtml_part.cpp:3537
+#: khtml/khtml_part.cpp:3536
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 K)"
 
-#: khtml/khtml_part.cpp:3572
+#: khtml/khtml_part.cpp:3571
 msgid " (In other frame)"
 msgstr " (পৃথক ফ্রেমের মধ্যে)"
 
-#: khtml/khtml_part.cpp:3577
+#: khtml/khtml_part.cpp:3576
 msgid "Email to: "
 msgstr "ই-মেইল প্রাপক: "
 
-#: khtml/khtml_part.cpp:3583
+#: khtml/khtml_part.cpp:3582
 msgid " - Subject: "
 msgstr " - বিষয়: "
 
-#: khtml/khtml_part.cpp:3585
+#: khtml/khtml_part.cpp:3584
 msgid " - CC: "
 msgstr " - অনুলিপি প্রাপক:"
 
-#: khtml/khtml_part.cpp:3587
+#: khtml/khtml_part.cpp:3586
 msgid " - BCC: "
 msgstr " - বার্তা প্রাপকদের নাম লিখুন: "
 
-#: khtml/khtml_part.cpp:3669
+#: khtml/khtml_part.cpp:3668
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
 "the link?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:3670
+#: khtml/khtml_part.cpp:3669
 msgid "Follow"
 msgstr "অনুসরণ করুন"
 
-#: khtml/khtml_part.cpp:3771
+#: khtml/khtml_part.cpp:3770
 msgid "Frame Information"
 msgstr "ফ্রেম সংক্রান্ত তথ্য"
 
-#: khtml/khtml_part.cpp:3777
+#: khtml/khtml_part.cpp:3776
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Properties]</a>"
 
-#: khtml/khtml_part.cpp:3862
+#: khtml/khtml_part.cpp:3861
 msgid "Save Background Image As"
 msgstr "নতুন রূপে পটভূমির ছবি সংরক্ষণ করুন"
 
-#: khtml/khtml_part.cpp:3954
+#: khtml/khtml_part.cpp:3953
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr ""
 
-#: khtml/khtml_part.cpp:3973
+#: khtml/khtml_part.cpp:3972
 msgid "Save Frame As"
 msgstr "নতুন রূপে ফ্রেম সংরক্ষণ"
 
-#: khtml/khtml_part.cpp:4017
+#: khtml/khtml_part.cpp:4016
 msgid "&Find in Frame..."
 msgstr "ফ্রেমে অনুসন্ধান করুন...(&F)"
 
-#: khtml/khtml_part.cpp:4019 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4018 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "অনুসন্ধান...(&F)"
 
-#: khtml/khtml_part.cpp:4558
+#: khtml/khtml_part.cpp:4557
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -10243,16 +10243,16 @@ msgid ""
 "Are you sure you wish to continue?"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4561 khtml/khtml_part.cpp:4570
-#: khtml/khtml_part.cpp:4594
+#: khtml/khtml_part.cpp:4560 khtml/khtml_part.cpp:4569
+#: khtml/khtml_part.cpp:4593
 msgid "Network Transmission"
 msgstr "নেটওয়ার্ক পরিবহন"
 
-#: khtml/khtml_part.cpp:4561 khtml/khtml_part.cpp:4571
+#: khtml/khtml_part.cpp:4560 khtml/khtml_part.cpp:4570
 msgid "&Send Unencrypted"
 msgstr "বিনা এনক্রিপশনে প্রেরিত হবে (&S)"
 
-#: khtml/khtml_part.cpp:4568
+#: khtml/khtml_part.cpp:4567
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -10261,7 +10261,7 @@ msgstr ""
 "সতর্কবার্তা: আপনার তথ্য বিনা এনক্রিপশনে নেটওয়ার্কের মধ্যে প্রেরণ করা হবে।\n"
 "আপনি কি এগিয়ে যেতে ইচ্ছুক?"
 
-#: khtml/khtml_part.cpp:4592
+#: khtml/khtml_part.cpp:4591
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -10269,87 +10269,87 @@ msgstr ""
 "বর্তমান সাইট দ্বারা ই-মেইলের মাধ্যমে তথ্য জমা করার প্রচেষ্টা করা হচ্ছে।\n"
 "এগিয়ে চলা হবে কি?"
 
-#: khtml/khtml_part.cpp:4595
+#: khtml/khtml_part.cpp:4594
 msgid "&Send Email"
 msgstr "ই-মেইল করুন (&S)"
 
-#: khtml/khtml_part.cpp:4616
+#: khtml/khtml_part.cpp:4615
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4617 khtml/khtmlview.cpp:2942 khtml/khtmlview.cpp:2984
+#: khtml/khtml_part.cpp:4616 khtml/khtmlview.cpp:2944 khtml/khtmlview.cpp:2986
 #: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:1790
 msgid "Submit"
 msgstr "জমা করুন"
 
-#: khtml/khtml_part.cpp:4670
+#: khtml/khtml_part.cpp:4669
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: khtml/khtml_part.cpp:5676
+#: khtml/khtml_part.cpp:5675
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6592
+#: khtml/khtml_part.cpp:6591
 msgid "Security Warning"
 msgstr "নিরাপত্তা সংক্রান্ত সতর্কবার্তা"
 
-#: khtml/khtml_part.cpp:6598
+#: khtml/khtml_part.cpp:6597
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
 
-#: khtml/khtml_part.cpp:6599 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6598 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "নিরাপত্তা সংক্রান্ত সূচনা"
 
-#: khtml/khtml_part.cpp:6949
+#: khtml/khtml_part.cpp:6948
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7006
+#: khtml/khtml_part.cpp:7005
 msgid "&Close Wallet"
 msgstr "Wallet বন্ধ করুন (&C)"
 
-#: khtml/khtml_part.cpp:7049
+#: khtml/khtml_part.cpp:7048
 msgid "JavaScript &Debugger"
 msgstr "JavaScript ডিবাগার (&D)"
 
-#: khtml/khtml_part.cpp:7082
+#: khtml/khtml_part.cpp:7081
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7088
+#: khtml/khtml_part.cpp:7087
 msgid "Popup Window Blocked"
 msgstr "পপ-আপ উইন্ডো প্রদর্শনে বাধা দেওয়া হয়েছে"
 
-#: khtml/khtml_part.cpp:7088
+#: khtml/khtml_part.cpp:7087
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
 "or to open the popup."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7101
+#: khtml/khtml_part.cpp:7100
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "অবরুদ্ধ পপ-আপ উইন্ডো প্রদর্শন করা হবে (&S)"
 msgstr[1] "অবরুদ্ধ %1 পপ-আপ উইন্ডো প্রদর্শন করা হবে (&S)"
 
-#: khtml/khtml_part.cpp:7102
+#: khtml/khtml_part.cpp:7101
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7104
+#: khtml/khtml_part.cpp:7103
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "JavaScript-র নতুন উইন্ডো সংক্রান্ত নিয়মনীতি কনফিগার করুন...&C"
 
@@ -10391,39 +10391,39 @@ msgstr "অগ্রাহ্যের তালিকায় যোগ করা
 msgid "Remove from ignores..."
 msgstr "অগ্রাহ্যের তালিকা থেকে মুছে ফেলা হবে..."
 
-#: khtml/khtmlview.cpp:1911
+#: khtml/khtmlview.cpp:1913
 msgid "Find stopped."
 msgstr "অনুসন্ধান বন্ধ করা হয়েছে।"
 
-#: khtml/khtmlview.cpp:1922
+#: khtml/khtmlview.cpp:1924
 msgid "Starting -- find links as you type"
 msgstr "আরম্ভ করা হচ্ছে -- টাইপ করার সময় লিঙ্ক অনুসন্ধান করা হবে"
 
-#: khtml/khtmlview.cpp:1928
+#: khtml/khtmlview.cpp:1930
 msgid "Starting -- find text as you type"
 msgstr "আরম্ভ করা হচ্ছে -- টাইপ করার সময় টেক্সট অনুসন্ধান করা হবে"
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1953
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1956
+#: khtml/khtmlview.cpp:1958
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "লিঙ্ক পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1966
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "টেক্সট পাওয়া গিয়েছে: \"%1\"।"
 
-#: khtml/khtmlview.cpp:1969
+#: khtml/khtmlview.cpp:1971
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "টেক্সট পাওয়া যায়নি: \"%1\"।"
 
-#: khtml/khtmlview.cpp:2012
+#: khtml/khtmlview.cpp:2014
 msgid "Access Keys activated"
 msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
