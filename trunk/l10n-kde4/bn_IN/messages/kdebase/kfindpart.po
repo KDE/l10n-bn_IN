@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-11-02 09:58+0100\n"
-"PO-Revision-Date: 2009-01-07 16:35+0530\n"
+"PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
@@ -108,39 +108,39 @@ msgstr ""
 
 #: kftabdlg.cpp:149
 msgid "Find all files created or &modified:"
-msgstr ""
+msgstr "নিম্নলিখিত সময়ের মধ্যে নির্মিত অথবা পরিবর্তিত ফাইল অনুসন্ধান করুন: (&m)"
 
 #: kftabdlg.cpp:151
 msgid "&between"
-msgstr ""
+msgstr "প্রারম্ভিক সময় (&b)"
 
 #: kftabdlg.cpp:152
 msgid "&during the previous"
-msgstr ""
+msgstr "পূর্ববর্তী (&d)"
 
 #: kftabdlg.cpp:153
 msgid "and"
-msgstr ""
+msgstr "ও চিহ্নিত সময়ের মধ্যে"
 
 #: kftabdlg.cpp:158
 msgid "minute(s)"
-msgstr "মিনিট"
+msgstr "মিনিটের মধ্যে"
 
 #: kftabdlg.cpp:159
 msgid "hour(s)"
-msgstr "ঘন্টা"
+msgstr "ঘন্টার মধ্যে"
 
 #: kftabdlg.cpp:160
 msgid "day(s)"
-msgstr "দিন"
+msgstr "দিনের মধ্যে"
 
 #: kftabdlg.cpp:161
 msgid "month(s)"
-msgstr "মাস"
+msgstr "মাসের মধ্যে"
 
 #: kftabdlg.cpp:162
 msgid "year(s)"
-msgstr "বৎসর"
+msgstr "বৎসরের মধ্যে"
 
 #: kftabdlg.cpp:180
 msgid "File &size is:"
@@ -148,11 +148,11 @@ msgstr "ফাইলের মাপ: (&s)"
 
 #: kftabdlg.cpp:194
 msgid "Files owned by &user:"
-msgstr "চিহ্নিত ব্যবহারকারীর মালিকানাধীন ফাইল: (&u)"
+msgstr "উল্লিখিত ব্যবহারকারীর মালিকানাধীন ফাইল: (&u)"
 
 #: kftabdlg.cpp:199
 msgid "Owned by &group:"
-msgstr "চিহ্নিত দলের মালিকানাধীন: (&g)"
+msgstr "উল্লিখিত দলের মালিকানাধীন: (&g)"
 
 #: kftabdlg.cpp:202
 msgid "(none)"
@@ -164,11 +164,11 @@ msgstr "অন্তত"
 
 #: kftabdlg.cpp:204
 msgid "At Most"
-msgstr ""
+msgstr "সর্বাধিক"
 
 #: kftabdlg.cpp:205
 msgid "Equal To"
-msgstr "সমান"
+msgstr "চিহ্নিত মাপের সমান"
 
 #: kftabdlg.cpp:207
 msgid "Bytes"
@@ -180,11 +180,11 @@ msgstr "কিবিবাইট"
 
 #: kftabdlg.cpp:209
 msgid "MiB"
-msgstr "মিবিবাইট"
+msgstr "মেবিবাইট"
 
 #: kftabdlg.cpp:210
 msgid "GiB"
-msgstr ""
+msgstr "গিবিবাইট"
 
 #: kftabdlg.cpp:275
 msgid "File &type:"
@@ -199,7 +199,7 @@ msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
 "documentation for a list of supported file types.</qt>"
-msgstr ""
+msgstr "<qt>এই মান নির্ধারিত হলে, উল্লিখিত লেখা ধারণকারী ফাইল সন্ধান করা হবে। উল্লেখ্য, উপরোক্ত তালিকার মধ্যে উপস্থিত সর্বধরনের ফাইলের ক্ষেত্রে এই বিকল্প প্রযোজ্য নয়। অনুগ্রহ করে, সমর্থিত ফাইলের ধরন জানার জন্য সংশ্লিষ্ট নথিপত্র পড়ুন।</qt>"
 
 #: kftabdlg.cpp:294
 msgid "Case s&ensitive"
@@ -217,7 +217,7 @@ msgstr "রেগুলার এক্সপ্রেশন (&x)"
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
-msgstr ""
+msgstr "<qt>এই বিকল্পের সাহায্যে, লেখা বিহীন অন্যান্য ধরনের ফাইলগুলিও অনুসন্ধান করা হয় (যেমন, প্রোগ্রাম ফাইল ও ছবি)।</qt>"
 
 #: kftabdlg.cpp:307
 msgid "&Edit..."
@@ -225,11 +225,11 @@ msgstr "সম্পাদনা...(&E)"
 
 #: kftabdlg.cpp:313
 msgid "fo&r:"
-msgstr ""
+msgstr "অনুসন্ধান করা হবে: (&r)"
 
 #: kftabdlg.cpp:315
 msgid "Search &metainfo sections:"
-msgstr "metainfo বিভাগ অনুসন্ধান করা হবে: (&m)"
+msgstr "metainfo বিভাগে: (&m)"
 
 #: kftabdlg.cpp:319
 msgid "All Files & Folders"
@@ -261,15 +261,15 @@ msgstr "SUID দ্বারা এক্সেকিউটেবল ফাই�
 
 #: kftabdlg.cpp:326
 msgid "All Images"
-msgstr "সকল ছবি"
+msgstr "সর্বধরনের ছবির ফাইল"
 
 #: kftabdlg.cpp:327
 msgid "All Video"
-msgstr "সকল ভিডিও"
+msgstr "সর্বধরনের ভিডিও ফাইল"
 
 #: kftabdlg.cpp:328
 msgid "All Sounds"
-msgstr "সকল শব্দ"
+msgstr "সর্বধরনের শব্দের ফাইল"
 
 #: kftabdlg.cpp:379
 msgid "Name/&Location"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: kftabdlg.cpp:587
 msgid "Unable to search within a period which is less than a minute."
-msgstr ""
+msgstr "এক মিনিটের কম সময়ের মধ্যে পরিবর্তিত ফাইল অনুসন্ধান করতে ব্যর্থ।"
 
 #: kftabdlg.cpp:598
 msgid "The date is not valid."
@@ -308,223 +308,223 @@ msgstr "তারিখ বৈধ নয়।"
 
 #: kftabdlg.cpp:600
 msgid "Invalid date range."
-msgstr ""
+msgstr "তারিখের সীমা বৈধ নয়।"
 
 #: kftabdlg.cpp:602
 msgid "Unable to search dates in the future."
-msgstr ""
+msgstr "ভবিষ্যতের তারিখ অনুসন্ধান করতে ব্যর্থ।"
 
 #: kftabdlg.cpp:664
 msgid "Size is too big. Set maximum size value?"
-msgstr ""
+msgstr "অত্যাধিক বড় মাপ। সর্বাধিক মাপ নির্ধারণ করা হবে কি?"
 
 #: kftabdlg.cpp:664
 msgid "Error"
-msgstr ""
+msgstr "ত্রুটি"
 
 #: kftabdlg.cpp:664
 msgid "Set"
-msgstr ""
+msgstr "নির্ধারণ করা হবে"
 
 #: kftabdlg.cpp:664
 msgid "Do Not Set"
-msgstr ""
+msgstr "নির্ধারণ করা হবে না"
 
 #: kfwin.cpp:49
 msgid "Read-write"
-msgstr ""
+msgstr "পড়া-লেখা"
 
 #: kfwin.cpp:50
 msgid "Read-only"
-msgstr ""
+msgstr "শুধুমাত্র পাঠযোগ্য"
 
 #: kfwin.cpp:51
 msgid "Write-only"
-msgstr ""
+msgstr "শুধুমাত্র লেখার যোগ্য"
 
 #: kfwin.cpp:52
 msgid "Inaccessible"
-msgstr ""
+msgstr "ব্যবহারযোগ্য নয়"
 
 #: kfwin.cpp:116
 msgid "Name"
-msgstr ""
+msgstr "নাম"
 
 #: kfwin.cpp:117
 msgid "In Subfolder"
-msgstr ""
+msgstr "সাব-ফোল্ডারের অধীন"
 
 #: kfwin.cpp:118
 msgid "Size"
-msgstr ""
+msgstr "মাপ"
 
 #: kfwin.cpp:120
 msgid "Modified"
-msgstr ""
+msgstr "পরিবর্তনের সময়"
 
 #: kfwin.cpp:122
 msgid "Permissions"
-msgstr ""
+msgstr "অনুমতি"
 
 #: kfwin.cpp:125
 msgid "First Matching Line"
-msgstr ""
+msgstr "প্রারম্ভিক পংক্তির মিল"
 
 #: kfwin.cpp:194
 msgid "Save Results As"
-msgstr ""
+msgstr "নতুন রূপে ফলাফল সংরক্ষণ করুন"
 
 #: kfwin.cpp:219
 msgid "Unable to save results."
-msgstr ""
+msgstr "ফলাফল সংরক্ষণ করতে ব্যর্থ।"
 
 #: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
 msgid "KFind Results File"
-msgstr ""
+msgstr "KFind ফাইলের ফাইল"
 
 #: kfwin.cpp:259
 msgid "Results were saved to file\n"
-msgstr ""
+msgstr "ফাইলের মধ্যে ফলাফল সংরক্ষণ করা হয়েছে\n"
 
 #: kfwin.cpp:288
 #, kde-format
 msgid "Do you really want to delete the selected file?"
 msgid_plural "Do you really want to delete the %1 selected files?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "নির্বাচিত ফাইলটি কি নিশ্চিতরূপে মুছে ফেলা হবে?"
+msgstr[1] "নির্বাচিত %1 ফাইলগুলি কি নিশ্চিতরূপে মুছে ফেলা হবে?"
 
 #: kfwin.cpp:410
 msgctxt "Menu item"
 msgid "Open"
-msgstr ""
+msgstr "খুলুন"
 
 #: kfwin.cpp:411
 msgid "Open Folder"
-msgstr ""
+msgstr "ফোল্ডার খুলুন"
 
 #: kfwin.cpp:413 kfwin.cpp:423
 msgid "Copy"
-msgstr ""
+msgstr "কপি করুন"
 
 #: kfwin.cpp:414 kfwin.cpp:424
 msgid "Delete"
-msgstr ""
+msgstr "মুছে ফেলুন"
 
 #: kfwin.cpp:416
 msgid "Open With..."
-msgstr ""
+msgstr "উল্লিখিত প্রোগ্রাম সহযোগে খুলুন..."
 
 #: kfwin.cpp:418
 msgid "Properties"
-msgstr ""
+msgstr "বিবিধ বৈশিষ্ট্য"
 
 #: kfwin.cpp:422
 msgid "Selected Files"
-msgstr ""
+msgstr "নির্বাচিত ফাইল"
 
 #: kquery.cpp:486
 msgid "Error while using locate"
-msgstr ""
+msgstr "locate ব্যবহার করতে ত্রুটি"
 
 #: main.cpp:12
 msgid "KDE file find utility"
-msgstr ""
+msgstr "KDE দ্বারা উপলব্ধ ফাইল অনুসন্ধান ব্যবস্থা"
 
 #: main.cpp:16
 msgid "KFind"
-msgstr ""
+msgstr "KFind"
 
 #: main.cpp:18
 msgid "(c) 1998-2003, The KDE Developers"
-msgstr ""
+msgstr "(c) ১৯৯৮-২০০৩, KDE নির্মাতাবৃন্দ"
 
 #: main.cpp:20
 msgid "Eric Coquelle"
-msgstr ""
+msgstr "এরিখ কোকেল"
 
 #: main.cpp:20
 msgid "Current Maintainer"
-msgstr ""
+msgstr "বর্তমান মেইন্টেনার"
 
 #: main.cpp:21
 msgid "Mark W. Webb"
-msgstr ""
+msgstr "মার্ক ডব্লিউ. ওয়েব"
 
 #: main.cpp:21
 msgid "Developer"
-msgstr ""
+msgstr "ডিভেলপর"
 
 #: main.cpp:22
 msgid "Beppe Grimaldi"
-msgstr ""
+msgstr "বেপে গ্রিমাল্ডি"
 
 #: main.cpp:22
 msgid "UI Design & more search options"
-msgstr ""
+msgstr "প্রেক্ষাপটের বিন্যাস ও অনুসন্ধানের অতিরিক্ত বিকল্প"
 
 #: main.cpp:23
 msgid "Martin Hartig"
-msgstr ""
+msgstr "মার্টিন হার্টিগ"
 
 #: main.cpp:24
 msgid "Stephan Kulow"
-msgstr ""
+msgstr "স্টিফান কুলো"
 
 #: main.cpp:25
 msgid "Mario Weilguni"
-msgstr ""
+msgstr "মারিও ওয়েলগুনি"
 
 #: main.cpp:26
 msgid "Alex Zepeda"
-msgstr ""
+msgstr "অ্যালেক্স জেপেডা"
 
 #: main.cpp:27
 msgid "Miroslav Flídr"
-msgstr ""
+msgstr "মিরোস্লাভ ফ্লাইডার"
 
 #: main.cpp:28
 msgid "Harri Porten"
-msgstr ""
+msgstr "হ্যারি পোর্টেন"
 
 #: main.cpp:29
 msgid "Dima Rogozin"
-msgstr ""
+msgstr "ডিমা রোগোজিন"
 
 #: main.cpp:30
 msgid "Carsten Pfeiffer"
-msgstr ""
+msgstr "কার্স্টেন পাইফার"
 
 #: main.cpp:31
 msgid "Hans Petter Bieker"
-msgstr ""
+msgstr "হান্স পেটার বিইকার"
 
 #: main.cpp:32
 msgid "Waldo Bastian"
-msgstr ""
+msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
 #: main.cpp:32
 msgid "UI Design"
-msgstr ""
+msgstr "প্রেক্ষাপটের বিন্যাস"
 
 #: main.cpp:33
 msgid "Alexander Neundorf"
-msgstr ""
+msgstr "আলেক্সান্ডার নিউন্ডোর্ফ"
 
 #: main.cpp:34
 msgid "Clarence Dang"
-msgstr ""
+msgstr "ক্ল্যারেন্স ড্যং"
 
 #: main.cpp:39
 msgid "Path(s) to search"
-msgstr ""
+msgstr "অনুসন্ধান স্থলের পাথ"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "রুণা ভট্টাচার্য্য"
 
 #: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "runab@redhat.com"
 
