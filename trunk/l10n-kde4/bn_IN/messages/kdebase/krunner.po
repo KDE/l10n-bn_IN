@@ -78,7 +78,8 @@ msgstr "অবশিষ্ট সময়:"
 #: lock/autologout.cc:86
 #, kde-format
 msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
-msgid_plural "<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgid_plural ""
+"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
 msgstr[0] "<qt><nobr>১ সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে লগ-আউট করা হবে</nobr></qt>"
 msgstr[1] "<qt><nobr>%1 সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে লগ-আউট করা হবে</nobr></qt>"
 
@@ -116,7 +117,8 @@ msgstr "<i>kcheckpass</i> আরম্ভ করা সম্ভব নয়।"
 
 #: lock/lockprocess.cc:801
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr "<i>kcheckpass</i> সঞ্চালন করতে সক্ষম নয়। সম্ভবত setuid root নির্ধারিত হয়নি।"
+msgstr ""
+"<i>kcheckpass</i> সঞ্চালন করতে সক্ষম নয়। সম্ভবত setuid root নির্ধারিত হয়নি।"
 
 #: lock/lockprocess.cc:863
 msgid "No appropriate greeter plugin configured."
@@ -294,4 +296,3 @@ msgid ""
 "pressing Ctrl+Alt+Backspace; note, however, that your current session will "
 "not be saved with a forced shutdown."
 msgstr ""
-
