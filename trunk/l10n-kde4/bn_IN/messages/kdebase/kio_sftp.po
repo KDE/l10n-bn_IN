@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-09 10:43+0100\n"
+"POT-Creation-Date: 2009-01-10 11:23+0100\n"
 "PO-Revision-Date: 2009-01-09 17:56+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -66,7 +66,7 @@ msgstr "সতর্কবার্তা: হোস্টের পরিচয়
 msgid "Authentication failed."
 msgstr "পরিচয় প্রমাণ করতে ব্যর্থ।"
 
-#: kio_sftp.cpp:749 kio_sftp.cpp:764
+#: kio_sftp.cpp:749 kio_sftp.cpp:767
 msgid "Connection failed."
 msgstr "সংযোগ করতে ব্যর্থ।"
 
@@ -74,69 +74,70 @@ msgstr "সংযোগ করতে ব্যর্থ।"
 msgid "Connection closed by remote host."
 msgstr "দূরবর্তী হোস্টের সাথে সংযোগ বিচ্ছিন্ন করা হয়েছে।"
 
-#: kio_sftp.cpp:765
+#: kio_sftp.cpp:769
 #, kde-format
 msgid "Unexpected SFTP error: %1"
 msgstr "অপ্রত্যাশিত SFTP ত্রুটি: %1"
 
-#: kio_sftp.cpp:809
+#: kio_sftp.cpp:816
 #, kde-format
 msgid "SFTP version %1"
 msgstr "SFTP সংস্করণ %1"
 
-#: kio_sftp.cpp:815
+#: kio_sftp.cpp:822
 msgid "Protocol error."
 msgstr "প্রোটোকল সংক্রান্ত ত্রুটি।"
 
-#: kio_sftp.cpp:821
+#: kio_sftp.cpp:828
 #, kde-format
 msgid "Successfully connected to %1"
 msgstr "%1-র সাথে সাফল্যের সাথে সংযোগ করা হয়েছে"
 
-#: kio_sftp.cpp:1181
+#: kio_sftp.cpp:1188
 msgid "An internal error occurred. Please try again."
 msgstr "অভ্যন্তরীণ ত্রুটি উৎপন্ন হয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
 
-#: kio_sftp.cpp:1202
+#: kio_sftp.cpp:1209
 #, kde-format
 msgid ""
 "Unknown error was encountered while copying the file to '%1'. Please try "
 "again."
-msgstr "'%1'-এ ফাইল কপি করার সময় অজানা ত্রুটি দেখা দিয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
+msgstr ""
+"'%1'-এ ফাইল কপি করার সময় অজানা ত্রুটি দেখা দিয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
 
-#: kio_sftp.cpp:1420
+#: kio_sftp.cpp:1427
 msgid "The remote host does not support renaming files."
 msgstr "দূরবর্তী হোস্টের মধ্যে ফাইলের নাম পরিবর্তনের ব্যবস্থা নেই।"
 
-#: kio_sftp.cpp:1469
+#: kio_sftp.cpp:1476
 msgid "The remote host does not support creating symbolic links."
 msgstr "দূরবর্তী হোস্টের মধ্যে সিম্‌বলিক লিংক নির্মাণের ব্যবস্থা নেই।"
 
-#: kio_sftp.cpp:1604
+#: kio_sftp.cpp:1611
 msgid "Connection closed"
 msgstr "সংযোগ বন্ধ করা হয়েছে"
 
-#: kio_sftp.cpp:1606
+#: kio_sftp.cpp:1613
 msgid "Could not read SFTP packet"
 msgstr "SFTP প্যাকেট পড়তে ব্যর্থ"
 
-#: kio_sftp.cpp:1719
+#: kio_sftp.cpp:1726
 msgid "End of file."
 msgstr "ফাইলের সমাপ্তি।"
 
-#: kio_sftp.cpp:1728
+#: kio_sftp.cpp:1735
 msgid "SFTP command failed for an unknown reason."
 msgstr "অজানা কারণে SFTP কমান্ড ব্যর্থ হয়েছে।"
 
-#: kio_sftp.cpp:1732
+#: kio_sftp.cpp:1739
 msgid "The SFTP server received a bad message."
 msgstr "SFTP সার্ভার দ্বারা ত্রুটিপূর্ণ বার্তা গৃহীত হয়েছে।"
 
-#: kio_sftp.cpp:1736
+#: kio_sftp.cpp:1743
 msgid "You attempted an operation unsupported by the SFTP server."
 msgstr "প্রচেষ্টা করা কর্মটি SFTP সার্ভার দ্বারা সমর্থিত নয়।"
 
-#: kio_sftp.cpp:1740
+#: kio_sftp.cpp:1747
 #, kde-format
 msgid "Error code: %1"
 msgstr "ত্রুটির কোড: %1"
@@ -230,4 +231,3 @@ msgstr ""
 #: ksshprocess.cpp:1121
 msgid "Host key was rejected."
 msgstr "হোস্ট-কি প্রত্যাখ্যাত হয়েছে।"
-
