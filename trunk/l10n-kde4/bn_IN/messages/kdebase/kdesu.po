@@ -51,7 +51,9 @@ msgstr "সঞ্চালনযোগ্য কমান্ড উল্লে�
 
 #: kdesu.cpp:102
 msgid "Run command under target uid if <file> is not writable"
-msgstr "<file> যদি লেখার উদ্দেশ্যে অনুমোদিত না হয়, তাহলে উদ্দিষ্ট uid-র অধীন কমান্ড সঞ্চালিত হবে"
+msgstr ""
+"<file> যদি লেখার উদ্দেশ্যে অনুমোদিত না হয়, তাহলে উদ্দিষ্ট uid-র অধীন কমান্ড "
+"সঞ্চালিত হবে"
 
 #: kdesu.cpp:103
 msgid "Specifies the target uid"
@@ -154,13 +156,18 @@ msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
 "<b>root's</b> password below or click Ignore to continue with your current "
 "privileges."
-msgstr "অনুরোধ করা কর্মের জন্য <b>root ব্যবহারকারীর অনুমতি</b> আবশ্যক। অনুগ্রহ করে নীচে <b>root ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন অথবা বর্তমান অনুমতির মাত্রা সহ এগিয়ে চলার জন্য 'উপেক্ষা করুন' ক্লিক করুন।"
+msgstr ""
+"অনুরোধ করা কর্মের জন্য <b>root ব্যবহারকারীর অনুমতি</b> আবশ্যক। অনুগ্রহ করে নীচে "
+"<b>root ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন অথবা বর্তমান অনুমতির মাত্রা সহ এগিয়ে চলার "
+"জন্য 'উপেক্ষা করুন' ক্লিক করুন।"
 
 #: sudlg.cpp:42
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
 "<b>root's</b> password below."
-msgstr "অনুরোধ করা কর্মের জন্য <b>root ব্যবহারকারীর অনুমতি</b> আবশ্যক। অনুগ্রহ করে নীচে <b>root ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন।"
+msgstr ""
+"অনুরোধ করা কর্মের জন্য <b>root ব্যবহারকারীর অনুমতি</b> আবশ্যক। অনুগ্রহ করে নীচে "
+"<b>root ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন।"
 
 #: sudlg.cpp:46
 #, kde-format
@@ -168,14 +175,19 @@ msgid ""
 "The action you requested needs additional privileges. Please enter the "
 "password for <b>%1</b> below or click Ignore to continue with your current "
 "privileges."
-msgstr "অনুরোধ করা কর্মের জন্য অতিরিক্ত অনুমতি আবশ্যক। অনুগ্রহ করে নীচে <b>%1 ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন অথবা বর্তমান অনুমতির মাত্রা সহ এগিয়ে চলার জন্য 'উপেক্ষা করুন' ক্লিক করুন।"
+msgstr ""
+"অনুরোধ করা কর্মের জন্য অতিরিক্ত অনুমতি আবশ্যক। অনুগ্রহ করে নীচে <b>%1 ব্যবহারকারীর</"
+"b> পাসওয়ার্ড লিখুন অথবা বর্তমান অনুমতির মাত্রা সহ এগিয়ে চলার জন্য 'উপেক্ষা করুন' "
+"ক্লিক করুন।"
 
 #: sudlg.cpp:51
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
 "password for <b>%1</b> below."
-msgstr "অনুরোধ করা কর্মের জন্য অতিরিক্ত অনুমতি আবশ্যক। অনুগ্রহ করে নীচে <b>%1 ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন।"
+msgstr ""
+"অনুরোধ করা কর্মের জন্য অতিরিক্ত অনুমতি আবশ্যক। অনুগ্রহ করে নীচে <b>%1 ব্যবহারকারীর</"
+"b> পাসওয়ার্ড লিখুন।"
 
 #: sudlg.cpp:60
 msgid "&Ignore"
@@ -186,8 +198,11 @@ msgid "Conversation with su failed."
 msgstr "su-র সাথে তথ্য বিনিময় করতে ব্যর্থ।"
 
 #: sudlg.cpp:84
-msgid "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
-msgstr "'su' প্রোগ্রামটি পাওয়া যায়নি। <br />অনুগ্রহ করে পরীক্ষা করুন, PATH-র মান সঠিকভাবে ধার্য করা হয়েছে কি না।"
+msgid ""
+"The program 'su' could not be found.<br />Ensure your PATH is set correctly."
+msgstr ""
+"'su' প্রোগ্রামটি পাওয়া যায়নি। <br />অনুগ্রহ করে পরীক্ষা করুন, PATH-র মান সঠিকভাবে "
+"ধার্য করা হয়েছে কি না।"
 
 #: sudlg.cpp:95
 msgid "Incorrect password, please try again."
@@ -196,4 +211,3 @@ msgstr "পাসওয়ার্ড সঠিক নয়, অনুগ্রহ �
 #: sudlg.cpp:99
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "অভ্যন্তরীণ ত্রুটি: SuProcess::checkInstall() থেকে প্রাপ্ত ফলাফল বৈধ নয়"
-
