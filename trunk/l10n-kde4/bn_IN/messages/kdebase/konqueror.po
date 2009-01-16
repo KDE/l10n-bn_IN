@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-01-08 10:29+0100\n"
-"PO-Revision-Date: 2009-01-15 17:53+0530\n"
+"PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
 "MIME-Version: 1.0\n"
@@ -476,6 +476,8 @@ msgid ""
 "This view contains changes that have not been submitted.\n"
 "Closing the view will discard these changes."
 msgstr ""
+"এই প্রদর্শনক্ষেত্রে মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
+"প্রদর্শনক্ষেত্র বন্ধ করা হলে, এই পরিবর্তনগুলি মুছে যাবে।"
 
 #: src/konqmainwindow.cpp:2497 src/konqmainwindow.cpp:2517
 msgid ""
@@ -1053,10 +1055,12 @@ msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
 msgstr ""
+"বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
+"প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
 
 #: src/konqviewmanager.cpp:1316
 msgid "Load View Profile"
-msgstr ""
+msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
 
 #: src/konqviewmanager.cpp:1332
 msgid ""
@@ -1077,7 +1081,7 @@ msgstr ""
 
 #: src/konqframestatusbar.cpp:146
 msgid "Close View"
-msgstr ""
+msgstr "প্রদর্শন বন্ধ করুন"
 
 #: src/konqframestatusbar.cpp:226
 #, kde-format
@@ -1189,7 +1193,7 @@ msgstr "ক্রমবিন্যাস"
 #: sidebar/trees/history_module/history_module.cpp:370
 #: sidebar/trees/history_module/kcmhistory.cpp:254
 msgid "Do you really want to clear the entire history?"
-msgstr ""
+msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
 
 #: sidebar/trees/history_module/history_module.cpp:372
 #: sidebar/trees/history_module/kcmhistory.cpp:256
@@ -1202,6 +1206,8 @@ msgid ""
 "<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
 "3<br />Number of times visited: %4</qt>"
 msgstr ""
+"<qt><center><b>%1</b></center><hr />সর্বশেষ পরিদর্শিত: %2<br />প্রথম পরিদর্শন: %"
+"3<br />পরিদর্শন সংখ্যা: %4</qt>"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:76
 #: sidebar/trees/history_module/kcmhistory.cpp:81
@@ -1374,11 +1380,11 @@ msgstr "নতুন যোগ করুন"
 
 #: sidebar/sidebar_widget.cpp:273
 msgid "Multiple Views"
-msgstr ""
+msgstr "একাধিক প্রদর্শন"
 
 #: sidebar/sidebar_widget.cpp:275 sidebar/sidebar_widget.cpp:399
 msgid "Show Tabs Left"
-msgstr ""
+msgstr "বাঁদিকে ট্যাব প্রদর্শন করা হবে"
 
 #: sidebar/sidebar_widget.cpp:276
 msgid "Show Configuration Button"
@@ -1398,11 +1404,11 @@ msgstr ""
 
 #: sidebar/sidebar_widget.cpp:399
 msgid "Show Tabs Right"
-msgstr ""
+msgstr "ডানদিকে ট্যাব প্রদর্শন করা হবে"
 
 #: sidebar/sidebar_widget.cpp:478
 msgid "Set Name"
-msgstr ""
+msgstr "নাম নির্ধারণ করুন"
 
 #: sidebar/sidebar_widget.cpp:478
 msgid "Enter the name:"
@@ -1420,7 +1426,7 @@ msgstr "<qt><b>%1</b> উপস্থিত নেই</qt>"
 #: sidebar/sidebar_widget.cpp:535
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr ""
+msgstr "<qt><b>%1</b> ট্যাব নিশ্চিতরূপে মুছে ফেলা হবে কি?</qt>"
 
 #: sidebar/sidebar_widget.cpp:583
 msgid ""
@@ -1431,7 +1437,7 @@ msgstr ""
 
 #: sidebar/sidebar_widget.cpp:668
 msgid "Configure Sidebar"
-msgstr ""
+msgstr "সাইড-বার কনফিগার করুন"
 
 #: sidebar/sidebar_widget.cpp:791
 msgid "Set Name..."
@@ -1463,7 +1469,7 @@ msgstr " সেকেন্ড"
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
-msgstr ""
+msgstr "লিংক খুলুন (&O)"
 
 #: sidebar/web_module/web_module.h:63
 msgid "Set &Automatic Reload"
@@ -1471,7 +1477,7 @@ msgstr ""
 
 #: sidebar/konqsidebar.cpp:116
 msgid "Extended Sidebar"
-msgstr ""
+msgstr "প্রসারিত সাইড-বার"
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
@@ -1528,19 +1534,19 @@ msgstr "নেটওয়ার্ক ফোল্ডার"
 
 #: about/konq_aboutpage.cc:100
 msgid "Shared files and folders"
-msgstr ""
+msgstr "যৌথরূপে ব্যবহৃত ফাইল ও ফোল্ডার"
 
 #: about/konq_aboutpage.cc:103
 msgid "My Bookmarks"
-msgstr ""
+msgstr "আমার বুকমার্ক"
 
 #: about/konq_aboutpage.cc:104
 msgid "Quick access to your bookmarks"
-msgstr ""
+msgstr "বুকমার্ক দ্রুত প্রদর্শনের ব্যবস্থা"
 
 #: about/konq_aboutpage.cc:107
 msgid "Next: An Introduction to Konqueror"
-msgstr ""
+msgstr "পরবর্তী: Konqueror পরিচিতি"
 
 #: about/konq_aboutpage.cc:109
 msgid "Search the Web"
@@ -1578,7 +1584,7 @@ msgstr ""
 #: about/konq_aboutpage.cc:157
 #, kde-format
 msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
-msgstr ""
+msgstr "Konqueror সংক্রান্ত অতিরিক্ত নথিপত্র <a href=\"%1\">এইখানে</a> প্রাপ্ত করুন।"
 
 #: about/konq_aboutpage.cc:159
 #, kde-format
@@ -1606,11 +1612,11 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:206
 msgid "Supported standards"
-msgstr ""
+msgstr "সমর্থিত মান"
 
 #: about/konq_aboutpage.cc:207
 msgid "Additional requirements*"
-msgstr ""
+msgstr "অতিরিক্ত আবশ্যক মান*"
 
 #: about/konq_aboutpage.cc:208
 #, kde-format
@@ -1618,6 +1624,8 @@ msgid ""
 "<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF=\"%2"
 "\">HTML 4.01</A>"
 msgstr ""
+"<A HREF=\"%1\">DOM</A> (Level 1, আংশিক Level 2) ভিত্তিক <A HREF=\"%2"
+"\">HTML 4.01</A>"
 
 #: about/konq_aboutpage.cc:210 about/konq_aboutpage.cc:212
 #: about/konq_aboutpage.cc:224 about/konq_aboutpage.cc:229
@@ -1638,14 +1646,14 @@ msgstr ""
 #: about/konq_aboutpage.cc:214
 #, kde-format
 msgid "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
-msgstr ""
+msgstr "JavaScript নিষ্ক্রিয় (সার্বজনীনরূপে)। <A HREF=\"%1\">এইখানে</A> JavaScript সক্রিয় করুন।"
 
 #: about/konq_aboutpage.cc:215
 #, kde-format
 msgid ""
 "JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\\">here</"
 "A>."
-msgstr ""
+msgstr "JavaScript সক্রিয় (সার্বজনীনরূপে)। <A HREF=\\\"%1\\\">এইখানে</A> JavaScript কনফিগার করুন।"
 
 #: about/konq_aboutpage.cc:216
 #, kde-format
@@ -1662,7 +1670,7 @@ msgstr ""
 #: about/konq_aboutpage.cc:219
 #, kde-format
 msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
-msgstr ""
+msgstr "<A HREF=\"%1\">এইখানে</A> Java (সার্বজনীনরূপে) সক্রিয় করুন।"
 
 #: about/konq_aboutpage.cc:220
 #, kde-format
@@ -1675,7 +1683,7 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:225
 msgid "Secure Sockets Layer"
-msgstr ""
+msgstr "সিকিউর সকেট লেয়ার (SSL)"
 
 #: about/konq_aboutpage.cc:226
 msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
@@ -1696,7 +1704,7 @@ msgstr ""
 #: about/konq_aboutpage.cc:232
 msgctxt "Title of an html 'group box' explaining konqueror features"
 msgid "General"
-msgstr ""
+msgstr "সাধারণ বৈশিষ্ট্য"
 
 #: about/konq_aboutpage.cc:233
 msgid "Feature"
@@ -1718,11 +1726,11 @@ msgstr "PNG<br />MNG<br />JPG<br />GIF"
 
 #: about/konq_aboutpage.cc:237
 msgid "Transfer protocols"
-msgstr ""
+msgstr "তথ্য বিনিময়ের প্রোটোকল"
 
 #: about/konq_aboutpage.cc:238
 msgid "HTTP 1.1 (including gzip/bzip2 compression)"
-msgstr ""
+msgstr "HTTP 1.1 (gzip/bzip2 কম্প্রেশন অন্তর্ভুক্ত করুন)"
 
 #: about/konq_aboutpage.cc:239
 msgid "FTP"
@@ -1731,7 +1739,7 @@ msgstr "FTP"
 #: about/konq_aboutpage.cc:240
 #, kde-format
 msgid "and <A HREF=\"%1\">many more...</A>"
-msgstr ""
+msgstr "ও <A HREF=\"%1\">আরো অনেক...</A>"
 
 #: about/konq_aboutpage.cc:241
 msgctxt "A feature of Konqueror"
@@ -1740,11 +1748,11 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:242
 msgid "Manual"
-msgstr ""
+msgstr "ব্যবহারকারী দ্বারা"
 
 #: about/konq_aboutpage.cc:243
 msgid "Popup"
-msgstr ""
+msgstr "পপ-আপ"
 
 #: about/konq_aboutpage.cc:244
 msgid "(Short-) Automatic"
@@ -1882,7 +1890,7 @@ msgstr ""
 
 #: remoteencodingplugin/kremoteencodingplugin.cpp:127
 msgid "Reload"
-msgstr ""
+msgstr "পুনরায় লোড করুন"
 
 #: remoteencodingplugin/kremoteencodingplugin.cpp:128
 msgid "Default"
@@ -1894,11 +1902,11 @@ msgstr ""
 
 #: shellcmdplugin/kshellcmdplugin.cpp:40
 msgid "&Execute Shell Command..."
-msgstr ""
+msgstr "শেল কমান্ড সঞ্চালন করুন...(&E)"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:50
 msgid "KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
-msgstr ""
+msgstr "KShellCmdPlugin::slotExecuteShellCommand: প্রোগ্রাম সংক্রান্ত সমস্যা, অনুগ্রহ করে বাগ দায়ের করুন।"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:56
 msgid "Executing shell commands works only on local directories."
@@ -1906,16 +1914,16 @@ msgstr ""
 
 #: shellcmdplugin/kshellcmdplugin.cpp:75
 msgid "Execute Shell Command"
-msgstr ""
+msgstr "শেল কমান্ড সঞ্চালন করুন"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:76
 msgid "Execute shell command in current directory:"
-msgstr ""
+msgstr "বর্তমান ডিরেক্টরির মধ্যে শেল কমান্ড সঞ্চালন করুন:"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:86
 #, kde-format
 msgid "Output from command: \"%1\""
-msgstr ""
+msgstr "কমান্ড থেকে প্রাপ্ত ফলাফল: \"%1\""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1973,25 +1981,25 @@ msgstr "সাহায্য (&H)"
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:26
 msgid "Main Toolbar"
-msgstr ""
+msgstr "প্রধান টুল-বার"
 
 #. i18n: file: src/konqueror.rc:102
 #. i18n: ectx: ToolBar (extraToolBar)
 #: rc.cpp:29
 msgid "Extra Toolbar"
-msgstr ""
+msgstr "অতিরিক্ত টুল-বার"
 
 #. i18n: file: src/konqueror.rc:109
 #. i18n: ectx: ToolBar (locationToolBar)
 #: rc.cpp:32
 msgid "Location Toolbar"
-msgstr ""
+msgstr "অবস্থানসূচক টুল-বার"
 
 #. i18n: file: src/konqueror.rc:113
 #. i18n: ectx: ToolBar (bookmarkToolBar)
 #: rc.cpp:35
 msgid "Bookmark Toolbar"
-msgstr ""
+msgstr "বুকমার্কের টুল-বার"
 
 #. i18n: file: remoteencodingplugin/kremoteencodingplugin.rc:4
 #. i18n: ectx: Menu (tools)
@@ -2011,7 +2019,7 @@ msgstr "প্রোফাইলের নাম: (&P)"
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbSaveURLs)
 #: rc.cpp:47
 msgid "Save &URLs in profile"
-msgstr ""
+msgstr "প্রোফাইলের মধ্যে URL সংরক্ষণ করা হবে (&U)"
 
 #. i18n: file: src/konqsessiondlg_base.ui:25
 #. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
@@ -2025,7 +2033,7 @@ msgstr "নতুন..."
 #: rc.cpp:53
 msgctxt "@action:button Save current session"
 msgid "Save Current"
-msgstr ""
+msgstr "বর্তমান সেশান সংরক্ষণ করুন"
 
 #. i18n: file: src/konqsessiondlg_base.ui:39
 #. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
@@ -2045,13 +2053,13 @@ msgstr "মুছে ফেলুন"
 #. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
 #: rc.cpp:62
 msgid "Open tabs inside current window"
-msgstr ""
+msgstr "বর্তমান উইন্ডোর মধ্যে ট্যাব খোলা হবে"
 
 #. i18n: file: src/konqnewsessiondlg_base.ui:33
 #. i18n: ectx: property (text), widget (QLabel, lblDescription)
 #: rc.cpp:65
 msgid "Save open tabs and windows for easy retrieval"
-msgstr ""
+msgstr "সহজে পুনরুদ্ধার করার জন্য বর্তমানে প্রদর্শিত ট্যাব ও উইন্ডো সংরক্ষণ করুন"
 
 #. i18n: file: src/konqnewsessiondlg_base.ui:48
 #. i18n: ectx: property (text), widget (QLabel, lblSessionName)
@@ -2063,19 +2071,19 @@ msgstr "সেশানের নাম: (&S)"
 #. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
 #: rc.cpp:71
 msgid "Limits"
-msgstr ""
+msgstr "সীমা"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
 #: rc.cpp:74
 msgid "URLs e&xpire after"
-msgstr ""
+msgstr "চিহ্নিত সময়ের পরে URL-র মেয়াদ উত্তীর্ণ করা হবে (&x)"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:54
 #. i18n: ectx: property (text), widget (QLabel, lEntries)
 #: rc.cpp:77
 msgid "Maximum &number of URLs:"
-msgstr ""
+msgstr "সর্বাধিক URL সংখ্যা: (&n)"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:73
 #. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
@@ -2115,11 +2123,11 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
 #: rc.cpp:101
 msgid "Detailed tooltips"
-msgstr ""
+msgstr "বিস্তারিত বর্ণনা বিশিষ্ট টুল-টিপ"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:164
 #. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
 #: rc.cpp:104
 msgid "Clear History"
-msgstr ""
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
 
