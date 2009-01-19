@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-10 10:57+0100\n"
+"POT-Creation-Date: 2009-01-19 10:30+0100\n"
 "PO-Revision-Date: 2009-01-02 14:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -39,13 +39,13 @@ msgstr "DataSource"
 
 #. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:148 rc.cpp:28 serviceviewer.cpp:140
+#: engineexplorer.cpp:148 rc.cpp:25 serviceviewer.cpp:140
 msgid "Key"
 msgstr "কি"
 
 #. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:148 rc.cpp:31 serviceviewer.cpp:140
+#: engineexplorer.cpp:148 rc.cpp:28 serviceviewer.cpp:140
 msgid "Value"
 msgstr "মান"
 
@@ -198,31 +198,24 @@ msgstr "আপডেট করা হবে, প্রতি"
 msgid "Request"
 msgstr "অনুরোধ"
 
-#. i18n: file: serviceviewer.ui:16
-#. i18n: ectx: property (text), widget (QLabel, m_title)
-#: rc.cpp:22
-#, no-c-format, kde-format
-msgid "%1 service for %2 DataEngine source %3"
-msgstr "%1 পরিসেবা, %2 DataEngine উৎস %3-র জন্য"
-
 #. i18n: file: serviceviewer.ui:33
 #. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: rc.cpp:25
+#: rc.cpp:22
 msgid "&Operation:"
 msgstr "কর্ম: (&O)"
 
 #. i18n: file: serviceviewer.ui:80
 #. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: rc.cpp:34
+#: rc.cpp:31
 msgid "Operation count"
 msgstr "কর্মের সংখ্যা"
 
-#: rc.cpp:35
+#: rc.cpp:32
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
-#: rc.cpp:36
+#: rc.cpp:33
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
@@ -279,3 +272,6 @@ msgid "One active operation ..."
 msgid_plural "%1 operations active ..."
 msgstr[0] "একটি সক্রিয় কর্ম ..."
 msgstr[1] "%1-টি সক্রিয় কর্ম ..."
+
+#~ msgid "%1 service for %2 DataEngine source %3"
+#~ msgstr "%1 পরিসেবা, %2 DataEngine উৎস %3-র জন্য"
