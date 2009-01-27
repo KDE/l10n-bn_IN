@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-10 11:23+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-09 17:56+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,87 +17,87 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kio_sftp.cpp:431
+#: kio_sftp.cpp:424
 msgid "An internal error occurred. Please retry the request again."
 msgstr "একটি অভ্যন্তরীণ ত্রুটি দেখা দিয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
 
-#: kio_sftp.cpp:514
+#: kio_sftp.cpp:507
 #, kde-format
 msgid "Opening SFTP connection to host %1:%2"
 msgstr "%1:%2 হোস্টের সাথে SFTP সংযোগ স্থাপন করা হচ্ছে"
 
-#: kio_sftp.cpp:518
+#: kio_sftp.cpp:511
 msgid "No hostname specified"
 msgstr "কোনো হোস্ট-নেম উল্লিখিত হয়নি"
 
-#: kio_sftp.cpp:530
+#: kio_sftp.cpp:523
 msgid "SFTP Login"
 msgstr "SFTP লগ-ইন"
 
-#: kio_sftp.cpp:532
+#: kio_sftp.cpp:525
 msgid "site:"
 msgstr "সাইট:"
 
-#: kio_sftp.cpp:636
+#: kio_sftp.cpp:629
 msgid "Please enter your username and key passphrase."
 msgstr "অনুগ্রহ করে ব্যবহারকারীর নাম ও কি-র পরিচয় পংক্তি লিখুন।"
 
-#: kio_sftp.cpp:638
+#: kio_sftp.cpp:631
 msgid "Please enter your username and password."
 msgstr "অনুগ্রহ করে ব্যবহারকারীর নাম ও পাসওয়ার্ড লিখুন।"
 
-#: kio_sftp.cpp:646
+#: kio_sftp.cpp:639
 msgid "Incorrect username or password"
 msgstr "ব্যবহারকারী নাম অথবা পাসওয়ার্ড সঠিক নয়"
 
-#: kio_sftp.cpp:651
+#: kio_sftp.cpp:644
 msgid "Please enter a username and password"
 msgstr "অনুগ্রহ করে ব্যবহারকারীর নাম ও পাসওয়ার্ড লিখুন"
 
-#: kio_sftp.cpp:712
+#: kio_sftp.cpp:705
 msgid "Warning: Cannot verify host's identity."
 msgstr "সতর্কবার্তা: হোস্টের পরিচয় যাচাই করা যায়নি।"
 
-#: kio_sftp.cpp:723
+#: kio_sftp.cpp:716
 msgid "Warning: Host's identity changed."
 msgstr "সতর্কবার্তা: হোস্টের পরিচয় পরিবর্তিত হয়েছে।"
 
-#: kio_sftp.cpp:734 kio_sftp.cpp:735
+#: kio_sftp.cpp:727 kio_sftp.cpp:728
 msgid "Authentication failed."
 msgstr "পরিচয় প্রমাণ করতে ব্যর্থ।"
 
-#: kio_sftp.cpp:749 kio_sftp.cpp:767
+#: kio_sftp.cpp:742 kio_sftp.cpp:760
 msgid "Connection failed."
 msgstr "সংযোগ করতে ব্যর্থ।"
 
-#: kio_sftp.cpp:750 ksshprocess.cpp:868 ksshprocess.cpp:1015
+#: kio_sftp.cpp:743 ksshprocess.cpp:819 ksshprocess.cpp:966
 msgid "Connection closed by remote host."
 msgstr "দূরবর্তী হোস্টের সাথে সংযোগ বিচ্ছিন্ন করা হয়েছে।"
 
-#: kio_sftp.cpp:769
+#: kio_sftp.cpp:762
 #, kde-format
 msgid "Unexpected SFTP error: %1"
 msgstr "অপ্রত্যাশিত SFTP ত্রুটি: %1"
 
-#: kio_sftp.cpp:816
+#: kio_sftp.cpp:809
 #, kde-format
 msgid "SFTP version %1"
 msgstr "SFTP সংস্করণ %1"
 
-#: kio_sftp.cpp:822
+#: kio_sftp.cpp:815
 msgid "Protocol error."
 msgstr "প্রোটোকল সংক্রান্ত ত্রুটি।"
 
-#: kio_sftp.cpp:828
+#: kio_sftp.cpp:821
 #, kde-format
 msgid "Successfully connected to %1"
 msgstr "%1-র সাথে সাফল্যের সাথে সংযোগ করা হয়েছে"
 
-#: kio_sftp.cpp:1188
+#: kio_sftp.cpp:1181
 msgid "An internal error occurred. Please try again."
 msgstr "অভ্যন্তরীণ ত্রুটি উৎপন্ন হয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
 
-#: kio_sftp.cpp:1209
+#: kio_sftp.cpp:1202
 #, kde-format
 msgid ""
 "Unknown error was encountered while copying the file to '%1'. Please try "
@@ -105,25 +105,33 @@ msgid ""
 msgstr ""
 "'%1'-এ ফাইল কপি করার সময় অজানা ত্রুটি দেখা দিয়েছে। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
 
-#: kio_sftp.cpp:1427
+#: kio_sftp.cpp:1439
 msgid "The remote host does not support renaming files."
 msgstr "দূরবর্তী হোস্টের মধ্যে ফাইলের নাম পরিবর্তনের ব্যবস্থা নেই।"
 
-#: kio_sftp.cpp:1476
+#: kio_sftp.cpp:1488
 msgid "The remote host does not support creating symbolic links."
 msgstr "দূরবর্তী হোস্টের মধ্যে সিম্‌বলিক লিংক নির্মাণের ব্যবস্থা নেই।"
 
-#: kio_sftp.cpp:1611
+#: kio_sftp.cpp:1613
 msgid "Connection closed"
 msgstr "সংযোগ বন্ধ করা হয়েছে"
 
-#: kio_sftp.cpp:1613
+#: kio_sftp.cpp:1615
 msgid "Could not read SFTP packet"
 msgstr "SFTP প্যাকেট পড়তে ব্যর্থ"
 
-#: kio_sftp.cpp:1726
+#: kio_sftp.cpp:1724
 msgid "End of file."
 msgstr "ফাইলের সমাপ্তি।"
+
+#: kio_sftp.cpp:1727
+msgid "File does not exist."
+msgstr ""
+
+#: kio_sftp.cpp:1731
+msgid "Access is denied."
+msgstr ""
 
 #: kio_sftp.cpp:1735
 msgid "SFTP command failed for an unknown reason."
@@ -142,55 +150,55 @@ msgstr "প্রচেষ্টা করা কর্মটি SFTP সার�
 msgid "Error code: %1"
 msgstr "ত্রুটির কোড: %1"
 
-#: ksshprocess.cpp:460
+#: ksshprocess.cpp:415
 msgid "Cannot specify a subsystem and command at the same time."
 msgstr "সাব-সিস্টেম ও কমান্ড একযোগে উল্লেখ করা সম্ভব নয়।"
 
-#: ksshprocess.cpp:801
+#: ksshprocess.cpp:752
 msgid "No options provided for ssh execution."
 msgstr "ssh সঞ্চালনের জন্য কোনো বিকল্প উপলব্ধ করা হয়নি।"
 
-#: ksshprocess.cpp:809
+#: ksshprocess.cpp:760
 msgid "Failed to execute ssh process."
 msgstr "ssh প্রসেস সঞ্চালন করতে ব্যর্থ।"
 
-#: ksshprocess.cpp:834 ksshprocess.cpp:863 ksshprocess.cpp:982
-#: ksshprocess.cpp:1054
+#: ksshprocess.cpp:785 ksshprocess.cpp:814 ksshprocess.cpp:933
+#: ksshprocess.cpp:1005
 msgid "Error encountered while talking to ssh."
 msgstr "ssh-র সাথে তথ্য বিনিময় করার সময় সমস্যা দেখা দিয়েছে।"
 
-#: ksshprocess.cpp:914
+#: ksshprocess.cpp:865
 msgid "Please supply a password."
 msgstr "অনুগ্রহ করে একটি পাসওয়ার্ড উল্লেখ করুন।"
 
-#: ksshprocess.cpp:953
+#: ksshprocess.cpp:904
 msgid "Please supply the passphrase for your SSH private key."
 msgstr "অনুগ্রহ করে, ব্যক্তিগত SSH-কির জন্য পরিচয় পংক্তি উল্লেখ করুন।"
 
-#: ksshprocess.cpp:967
+#: ksshprocess.cpp:918
 #, kde-format
 msgid "Authentication to %1 failed"
 msgstr "%1-র সাথে পরিচয় প্রমাণিত করতে ব্যর্থ"
 
-#: ksshprocess.cpp:990
+#: ksshprocess.cpp:941
 #, kde-format
 msgid ""
 "The identity of the remote host '%1' could not be verified because the "
 "host's key is not in the \"known hosts\" file."
 msgstr ""
 
-#: ksshprocess.cpp:996
+#: ksshprocess.cpp:947
 msgid ""
 " Manually, add the host's key to the \"known hosts\" file or contact your "
 "administrator."
 msgstr ""
 
-#: ksshprocess.cpp:1002
+#: ksshprocess.cpp:953
 #, kde-format
 msgid " Manually, add the host's key to %1 or contact your administrator."
 msgstr ""
 
-#: ksshprocess.cpp:1034
+#: ksshprocess.cpp:985
 #, kde-format
 msgid ""
 "The identity of the remote host '%1' could not be verified. The host's key "
@@ -202,7 +210,7 @@ msgid ""
 "Would you like to accept the host's key and connect anyway? "
 msgstr ""
 
-#: ksshprocess.cpp:1062
+#: ksshprocess.cpp:1013
 #, kde-format
 msgid ""
 "WARNING: The identity of the remote host '%1' has changed!\n"
@@ -214,7 +222,7 @@ msgid ""
 "Add the correct host key to \"%3\" to get rid of this message."
 msgstr ""
 
-#: ksshprocess.cpp:1097
+#: ksshprocess.cpp:1048
 #, kde-format
 msgid ""
 "WARNING: The identity of the remote host '%1' has changed!\n"
@@ -228,6 +236,6 @@ msgid ""
 "Would you like to accept the host's new key and connect anyway?"
 msgstr ""
 
-#: ksshprocess.cpp:1121
+#: ksshprocess.cpp:1072
 msgid "Host key was rejected."
 msgstr "হোস্ট-কি প্রত্যাখ্যাত হয়েছে।"

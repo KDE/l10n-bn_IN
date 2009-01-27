@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-27 11:10+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-09-20 01:30+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -17,74 +17,65 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: main.cpp:42
+#: main.cpp:36
 msgid "Install, list, remove Plasma packages"
 msgstr "Plasma প্যাকেজগুলি ইনস্টল, তালিকাভুক্ত, অপসারণ করুন"
 
-#: main.cpp:77
+#: main.cpp:47
+msgid "Listing is not yet implemented."
+msgstr ""
+
+#: main.cpp:52
 msgid "Plasma Package Manager"
 msgstr "Plasma প্যাকেজ পরিচালনব্যবস্থা"
 
-#: main.cpp:79
+#: main.cpp:54
 msgid "(C) 2008, Aaron Seigo"
 msgstr "(C) ২০০৮ অ্যারন সেইগো"
 
-#: main.cpp:80
+#: main.cpp:55
 msgid "Aaron Seigo"
 msgstr "অ্যারন সেইগো"
 
-#: main.cpp:81
+#: main.cpp:56
 msgid "Original author"
 msgstr "মূল লেখক"
 
-#: main.cpp:90
+#: main.cpp:65
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
 "ইনস্টল বা অপসারণের ক্ষেত্রে, সকল ব্যবহারকারীর জন্য ইনস্টল করা প্যাকেজগুলি প্রভাবিত "
 "হবে।"
 
-#: main.cpp:96
+#: main.cpp:68
 #, fuzzy
 #| msgid ""
 #| "The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
 #| "etc."
-msgctxt ""
-"theme, wallpaper, etc. are keywords, but they may be translated, as both "
-"versions are recognized by the application (if translated, should be same as "
-"messages with 'package type' context below)"
 msgid ""
-"The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+"The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
 "etc."
 msgstr ""
 "প্যাকেজের ধরন, যেমন থিম, ওয়াল-পেপার, plasmoid (প্লাসময়েড), DataEngine (ডাটা-"
 "ইঞ্জিন), Runner (রানার), ইত্যাদি।"
 
-#: main.cpp:100
+#: main.cpp:72
 #, fuzzy
 #| msgid "Install the package at <path>"
-msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
-#: main.cpp:102
-#, fuzzy
-#| msgid "Install the package at <path>"
-msgctxt "Do not translate <path>"
-msgid "Upgrade the package at <path>"
-msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
-
-#: main.cpp:104
+#: main.cpp:74
 msgid "List installed packages"
 msgstr "ইনস্টল হওয়া প্যাকেজগুলি তালিকাভুক্ত করুন"
 
-#: main.cpp:106
+#: main.cpp:76
 #, fuzzy
 #| msgid "Remove the package named <name>"
-msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "<name> নামক প্যাকেজটি অপসারণ করুন"
 
-#: main.cpp:108
+#: main.cpp:78
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -92,84 +83,71 @@ msgstr ""
 "প্যাকেজ root-র সুনির্দিষ্ট পাথ। পাথের তথ্য উপলব্ধ না করা হলে, বর্তমান KDE সেশানের "
 "ক্ষেত্রে প্রযোজ্য প্রমিত ডিরেক্টরির মধ্যে তথ্য খোঁজা হবে।"
 
-#: main.cpp:120
+#: main.cpp:97
 #, fuzzy
 #| msgid "plasmoid"
-msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid (প্লাসময়েড)"
 
-#: main.cpp:124
+#: main.cpp:100
 #, fuzzy
 #| msgid "theme"
-msgctxt "package type"
 msgid "theme"
 msgstr "থিম"
 
-#: main.cpp:126
+#: main.cpp:102
 #, fuzzy
 #| msgid "wallpaper"
-msgctxt "package type"
 msgid "wallpaper"
 msgstr "ওয়াল-পেপার"
 
-#: main.cpp:128
+#: main.cpp:104
 #, fuzzy
 #| msgid "dataengine"
-msgctxt "package type"
 msgid "dataengine"
 msgstr "dataengine (ডাটা-ইঞ্জিন)"
 
-#: main.cpp:132
+#: main.cpp:107
 #, fuzzy
 #| msgid "runner"
-msgctxt "package type"
 msgid "runner"
 msgstr "runner (রানার)"
 
-#: main.cpp:140
+#: main.cpp:118
 #, fuzzy, kde-format
 #| msgid "Could not find a suitable installer for package of type"
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "এই ধরনের প্যাকেজের জন্য উপযুক্ত ইনস্টলার পাওয়া যায়নি"
 
-#: main.cpp:149
+#: main.cpp:127
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "%1 ধরনের প্যাকেজের জন্য ইনস্টলার লোড করা যায়নি। উল্লিখিত ত্রুটি: %2"
 
-#: main.cpp:205
-#, kde-format
-msgid "Successfully removed %1"
-msgstr ""
-
-#: main.cpp:207
-#, kde-format
-msgid "Removal of %1 failed."
-msgstr ""
-
-#: main.cpp:211
-#, kde-format
-msgid "Plugin %1 is not installed."
-msgstr ""
-
-#: main.cpp:216
+#: main.cpp:150
 #, kde-format
 msgid "Successfully installed %1"
 msgstr ""
 
-#: main.cpp:218
+#: main.cpp:152
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr ""
 
-#: main.cpp:223
+#: main.cpp:158
+#, kde-format
+msgid "Successfully removed %1"
+msgstr ""
+
+#: main.cpp:160
+#, kde-format
+msgid "Removal of %1 failed."
+msgstr ""
+
+#: main.cpp:164
 #, fuzzy
 #| msgid "One of install, remove or list is required."
-msgctxt ""
-"No option was given, this is the error message telling the user he needs at "
-"least one, do not translate install, remove, upgrade nor list"
-msgid "One of install, remove, upgrade or list is required."
+msgid "One of install, remove or list is required."
 msgstr "ইনস্টল, অপসারণ বা তালিকার মধ্যে যে কোনো একটা প্রোয়োজন।"
 
 #: rc.cpp:1
@@ -181,3 +159,9 @@ msgstr "রিয়া দাস"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mailtoria@gmail.com"
+
+#, fuzzy
+#~| msgid "Install the package at <path>"
+#~ msgctxt "Do not translate <path>"
+#~ msgid "Upgrade the package at <path>"
+#~ msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"

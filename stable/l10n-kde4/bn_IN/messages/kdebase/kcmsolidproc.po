@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsolidproc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-19 10:54+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-12-29 15:37+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -30,19 +30,21 @@ msgstr "নির্বাচিত প্রসেসর"
 msgid "Vendor"
 msgstr "বিক্রেতা"
 
-#. i18n: file: solidproc.ui:49
+#. i18n: file: solidproc.ui:46
 #. i18n: ectx: property (text), widget (QLabel, labelModel)
 #: rc.cpp:9
 msgid "Model:"
 msgstr "মডেল:"
 
-#. i18n: file: solidproc.ui:69
+#. i18n: file: solidproc.ui:63
 #. i18n: ectx: property (text), widget (QLabel, labelSpeed)
 #: rc.cpp:12
-msgid "Speed:"
+#, fuzzy
+#| msgid "Speed:"
+msgid "Speed"
 msgstr "গতি:"
 
-#. i18n: file: solidproc.ui:89
+#. i18n: file: solidproc.ui:80
 #. i18n: ectx: property (text), widget (QLabel, labelExtensions)
 #: rc.cpp:15
 msgid "Supported extensions:"
@@ -58,14 +60,18 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: solidproc.cpp:71
+#: solidproc.cpp:69
+msgid "kcmsolidproc"
+msgstr ""
+
+#: solidproc.cpp:70
 msgid "KCM Solid Processor Information"
 msgstr "KCM Solid Processor সংক্রান্ত তথ্য"
 
-#: solidproc.cpp:73
+#: solidproc.cpp:72
 msgid "(c) 2008 Ivo Anjo"
 msgstr "(c) ২০০৮ আইভো আনজো"
 
-#: solidproc.cpp:75
+#: solidproc.cpp:74
 msgid "Ivo Anjo"
 msgstr "আইভো আনজো"

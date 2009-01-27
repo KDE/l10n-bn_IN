@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:55+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: basictab.cpp:81
+#: basictab.cpp:79
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -33,74 +33,81 @@ msgid ""
 "%c - the caption"
 msgstr ""
 
-#: basictab.cpp:93
+#: basictab.cpp:91
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:94
+#: basictab.cpp:92
 msgid "&Place in system tray"
 msgstr "সিস্টেম ট্রের মধ্যে স্থাপন করুন (&P)"
 
-#: basictab.cpp:95
+#: basictab.cpp:93
 msgid "Only show in KDE"
 msgstr "শুধুমাত্র KDE-র মধ্যে প্রদর্শন করা হবে"
 
-#: basictab.cpp:96
+#: basictab.cpp:94
 msgid "Hidden entry"
 msgstr "আড়াল করা এনট্রি"
 
-#: basictab.cpp:100
+#: basictab.cpp:98
 msgid "&Name:"
 msgstr "নাম: (&N)"
 
-#: basictab.cpp:102
+#: basictab.cpp:100
 msgid "&Description:"
 msgstr "বিবরণ: (&D)"
 
-#: basictab.cpp:104
+#: basictab.cpp:102
 msgid "&Comment:"
 msgstr "মন্তব্য: (&C)"
 
-#: basictab.cpp:106
+#: basictab.cpp:104
 msgid "Co&mmand:"
 msgstr "কমান্ড: (&m)"
 
-#: basictab.cpp:147 preferencesdlg.cpp:72
+#: basictab.cpp:145 preferencesdlg.cpp:72
 msgid "General"
 msgstr "সাধারণ"
 
-#: basictab.cpp:158
+#: basictab.cpp:156
 msgid "&Work path:"
 msgstr ""
 
-#: basictab.cpp:177
+#: basictab.cpp:175
 msgid "Run in term&inal"
 msgstr "টার্মিন্যালে সঞ্চালনা (&i)"
 
-#: basictab.cpp:185
+#: basictab.cpp:183
 msgid "Terminal &options:"
 msgstr "টার্মিন্যাল সংক্রান্ত বিকল্প (&o)"
 
-#: basictab.cpp:205
+#: basictab.cpp:203
 msgid "&Run as a different user"
 msgstr "ভিন্ন ব্যবহারকারী রূপে সঞ্চালন করুন (&R)"
 
-#: basictab.cpp:213
+#: basictab.cpp:211
 msgid "&Username:"
 msgstr "ব্যবহারকারী: (&U)"
 
-#: basictab.cpp:235
+#: basictab.cpp:232
 msgid "Current shortcut &key:"
 msgstr "বর্তমান শর্ট-কাট কি: (&k)"
 
-#: basictab.cpp:245
+#: basictab.cpp:242
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
-#: khotkeys.cpp:55
+#: basictab.cpp:544
+#, kde-format
 msgid ""
-"Unable to contact khotkeys. Your changes are saved but i failed to activate "
-"them"
+"<qt>The key <b>%1</b> can not be used here because it is already used to "
+"activate <b>%2</b>.</qt>"
+msgstr ""
+
+#: basictab.cpp:550
+#, kde-format
+msgid ""
+"<qt>The key <b>%1</b> can not be used here because it is already in use.</qt>"
 msgstr ""
 
 #: kmenuedit.cpp:71
@@ -116,7 +123,9 @@ msgid "New S&eparator"
 msgstr "নতুন বিভাজন রেখা (&e)"
 
 #: kmenuedit.cpp:88
-msgid "Restore to System Menu"
+#, fuzzy
+#| msgid "Restore to System Menu"
+msgid "Restore to system menu"
 msgstr "সিস্টেম মেনুর মধ্যে পুনরায় স্থাপন করা হবে"
 
 #: kmenuedit.cpp:162
@@ -135,51 +144,51 @@ msgstr ""
 msgid "Save Menu Changes?"
 msgstr "মেনুর পরিবর্তন সংরক্ষণ করা হবে কি?"
 
-#: main.cpp:34
+#: main.cpp:32
 msgid "KDE menu editor"
 msgstr "KDE মেনু সম্পাদনা ব্যবস্থা"
 
-#: main.cpp:65
+#: main.cpp:62
 msgid "KDE Menu Editor"
 msgstr "KDE মেনু সম্পাদনা ব্যবস্থা"
 
-#: main.cpp:67
+#: main.cpp:64
 msgid "(C) 2000-2003, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
 msgstr "(C) ২০০০-২০০৩, ওয়াল্ডো ব্যাস্টিয়েন, রাফেল সান্দ্রিনি, ম্যাথায়েস এলটার"
 
-#: main.cpp:68
+#: main.cpp:65
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়েন"
 
-#: main.cpp:68
+#: main.cpp:65
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: main.cpp:69
+#: main.cpp:66
 msgid "Raffaele Sandrini"
 msgstr " রাফেল সান্দ্রিনি"
 
-#: main.cpp:69
+#: main.cpp:66
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী মেইন্টেনার"
 
-#: main.cpp:70
+#: main.cpp:67
 msgid "Matthias Elter"
 msgstr "ম্যাথায়েস এলটার"
 
-#: main.cpp:70
+#: main.cpp:67
 msgid "Original Author"
 msgstr "মূল নির্মাতা"
 
-#: main.cpp:71
+#: main.cpp:68
 msgid "Montel Laurent"
 msgstr "মন্টেল লরেন্ট"
 
-#: main.cpp:77
+#: main.cpp:74
 msgid "Sub menu to pre-select"
 msgstr "পূর্বে নির্বাচনের জন্য চিহ্নিত সাব-মেনু"
 
-#: main.cpp:78
+#: main.cpp:75
 msgid "Menu entry to pre-select"
 msgstr "পূর্বে নির্বাচনের জন্য চিহ্নিত মেনুর এনট্রি"
 
@@ -232,36 +241,36 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: treeview.cpp:97
+#: treeview.cpp:98
 msgid " [Hidden]"
 msgstr " [Hidden]"
 
-#: treeview.cpp:989
+#: treeview.cpp:990
 msgid "New Submenu"
 msgstr "নতুন সাব-মেনু"
 
-#: treeview.cpp:990
+#: treeview.cpp:991
 msgid "Submenu name:"
 msgstr "সাব-মেনুর নাম:"
 
-#: treeview.cpp:1061
+#: treeview.cpp:1062
 msgid "New Item"
 msgstr "নতুন বস্তু"
 
-#: treeview.cpp:1062
+#: treeview.cpp:1063
 msgid "Item name:"
 msgstr "বস্তুর নাম:"
 
-#: treeview.cpp:1388
+#: treeview.cpp:1389
 #, kde-format
 msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr "'%1'-র সকল সাব-মেনু মুছে ফেলা হবে। আপনি কি এগিয়ে যেতে ইচ্ছুক?"
 
-#: treeview.cpp:1546
+#: treeview.cpp:1547
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "নিম্নলিখিত কারণে, মেনুর মধ্যে করা পরিবর্তনগুলি সংরক্ষণ করা সম্ভব হয়নি:"
 
-#: treeview.cpp:1587
+#: treeview.cpp:1588
 msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."

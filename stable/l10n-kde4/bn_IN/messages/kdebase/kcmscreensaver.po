@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmscreensaver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-15 10:36+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-07-06 21:54+0530\n"
 "Last-Translator: Sankarshan Mukhopadhyay <sankarshan.mukhopadhyay@gmail."
 "com>\n"
@@ -212,7 +212,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sankarshan@randomink.org"
 
-#: scrnsave.cpp:100
+#: scrnsave.cpp:99
 msgid ""
 "<h1>Screen Saver</h1> <p>This module allows you to enable and configure a "
 "screen saver. Note that you can enable a screen saver even if you have power "
@@ -225,109 +225,95 @@ msgid ""
 "desktop's \"Lock Session\" action.</p>"
 msgstr ""
 
-#: scrnsave.cpp:133
+#: scrnsave.cpp:132
 msgid "Screen Saver"
 msgstr "স্ক্রিন-সেভার"
 
-#: scrnsave.cpp:146
+#: scrnsave.cpp:145
 msgid "Select the screen saver to use."
 msgstr "ব্যবহারের জন্য স্ক্রিন-সেভার নির্বাচন করুন"
 
-#: scrnsave.cpp:150
+#: scrnsave.cpp:149
 msgid "&Setup..."
 msgstr "প্রস্তুতি...(&S)"
 
-#: scrnsave.cpp:154
+#: scrnsave.cpp:153
 msgid "Configure the screen saver's options, if any."
 msgstr "স্ক্রiনসেভারের কোন বৈশিষ্ট্য থাকলে সেটির মান পরিবর্তন করুন।"
 
-#: scrnsave.cpp:156
+#: scrnsave.cpp:155
 msgid "&Test"
 msgstr "পরীক্ষা করুন(&T)"
 
-#: scrnsave.cpp:160
+#: scrnsave.cpp:159
 msgid "Show a full screen preview of the screen saver."
 msgstr "সম্পূর্ণ পর্দা জুড়ে স্ক্রিন-সেভারের প্রাকপ্রদর্শন করুন"
 
-#: scrnsave.cpp:162
+#: scrnsave.cpp:161
 msgid "Settings"
 msgstr "মান"
 
-#: scrnsave.cpp:167
+#: scrnsave.cpp:166
 msgid "Start a&utomatically"
 msgstr "স্বয়ংক্রিয় ভাবে আরম্ভ করা হবে (&u)"
 
-#: scrnsave.cpp:170
+#: scrnsave.cpp:169
 msgid "Automatically start the screen saver after a period of inactivity."
 msgstr "কিছুক্ষণ নিষ্ক্রিয়তার পরে স্ক্রিন-সেভার স্বয়ংক্রিয় ভাবে চালু করা হবে।"
 
-#: scrnsave.cpp:178 scrnsave.cpp:211
+#: scrnsave.cpp:177 scrnsave.cpp:210
 msgid "After:"
 msgstr "অতিবাহিত সময়:"
 
-#: scrnsave.cpp:184
+#: scrnsave.cpp:183
 msgid " min"
 msgstr "মিনিট"
 
-#: scrnsave.cpp:193
+#: scrnsave.cpp:192
 msgid "The period of inactivity after which the screen saver should start."
 msgstr "চিহ্নিত সময়সীমার পরে স্ক্রিন-সেভার আরম্ভ হবে।"
 
-#: scrnsave.cpp:199
+#: scrnsave.cpp:198
 msgid "&Require password to stop"
 msgstr "বন্ধ করার জন্য পাসওয়ার্ড প্রয়োজন(&R)"
 
-#: scrnsave.cpp:206
+#: scrnsave.cpp:205
 msgid ""
 "Prevent potential unauthorized use by requiring a password to stop the "
 "screen saver."
 msgstr "স্ক্রিন-সেভার বন্ধ করার জন্য পাসওয়ার্ড প্রয়োজন করে অবৈধ ব্যবহার বন্ধ করুন।"
 
-#: scrnsave.cpp:214
+#: scrnsave.cpp:213
 msgid ""
 "The amount of time, after the screen saver has started, to ask for the "
 "unlock password."
 msgstr "স্ক্রিন-সেভার আরম্ভের যে সময়সীমার পরে পাসওয়ার্ড প্রয়োজন হবে।"
 
-#: scrnsave.cpp:219
+#: scrnsave.cpp:218
 msgid " sec"
 msgstr "সেকেন্ড"
 
-#: scrnsave.cpp:237
+#: scrnsave.cpp:236
 msgid "Choose the period after which the display will be locked. "
 msgstr "যে সময়সীমার  পরে প্রদর্শনক্ষেত্র বন্ধ করা হবে তা নির্বাচন করুন।"
 
-#: scrnsave.cpp:242
-msgid "Allow widgets on screen saver"
-msgstr ""
-
-#: scrnsave.cpp:244
-msgid "Add widgets to your screensaver"
-msgstr ""
-
 #: scrnsave.cpp:251
-#, fuzzy
-#| msgid "&Setup..."
-msgid "Setup..."
-msgstr "প্রস্তুতি...(&S)"
-
-#: scrnsave.cpp:267
 msgid "A preview of the selected screen saver."
 msgstr "নির্বাচিত স্ক্রিন-সেভার প্রাকপ্রদর্শন।"
 
-#: scrnsave.cpp:274
+#: scrnsave.cpp:258
 msgid "Advanced &Options"
 msgstr "অতিরিক্ত বৈশিষ্ট্য (&O)"
 
-#: scrnsave.cpp:302
+#: scrnsave.cpp:286
 msgid "kcmscreensaver"
 msgstr "kcmscreensaver"
 
-#: scrnsave.cpp:302
+#: scrnsave.cpp:286
 msgid "KDE Screen Saver Control Module"
 msgstr "KDE স্ক্রিন-সেভার কন্ট্রল মডিউল"
 
-#: scrnsave.cpp:304
+#: scrnsave.cpp:288
 msgid ""
 "(c) 1997-2002 Martin R. Jones\n"
 "(c) 2003-2004 Chris Howells"
@@ -335,17 +321,22 @@ msgstr ""
 "(c) ১৯৯৭-২০০২ মার্টিন আর. জোন্স\n"
 "(c) ২০০৩-২০০৪ ক্রিস হাওয়েল্স"
 
-#: scrnsave.cpp:306
+#: scrnsave.cpp:290
 msgid "Chris Howells"
 msgstr "ক্রিস হাওয়েল্স"
 
-#: scrnsave.cpp:307
+#: scrnsave.cpp:291
 msgid "Martin R. Jones"
 msgstr "মার্টিন আর. জোন্স"
 
-#: scrnsave.cpp:492
+#: scrnsave.cpp:472
 msgid "Loading..."
 msgstr "লোড করা হচ্ছে..."
+
+#, fuzzy
+#~| msgid "&Setup..."
+#~ msgid "Setup..."
+#~ msgstr "প্রস্তুতি...(&S)"
 
 #, fuzzy
 #~| msgctxt "Screen saver category"

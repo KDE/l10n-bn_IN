@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-19 10:54+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-11-25 18:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: info.cpp:26
+msgid "kcminfo"
+msgstr ""
 
 #: info.cpp:27
 msgid "KDE Panel System Information Control Module"
@@ -42,8 +46,10 @@ msgid "This list displays system information on the selected category."
 msgstr "নির্বাচিত শ্রেণী সম্পর্কিত সিস্টেম সংক্রান্ত তথ্য এই তালিকায় প্রদর্শন করা হয়।"
 
 #: info.cpp:69
-#, kde-format
-msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+#| msgid "No information available about %1."
 msgid "No information available about %1."
 msgstr "%1 সংক্রান্ত কোনো তথ্য উপস্থিত নেই।"
 

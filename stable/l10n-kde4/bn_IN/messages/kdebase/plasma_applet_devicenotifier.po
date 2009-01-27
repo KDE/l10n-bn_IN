@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-28 10:13+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-07-04 12:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -17,23 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: devicenotifier.cpp:171
+#: devicenotifier.cpp:252
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
 msgstr[0] "চিহ্নিত ডিভাইসের জন্য ১-টি কর্ম"
 msgstr[1] "চিহ্নিত ডিভাইসের জন্য %1-টি কর্ম"
 
-#: devicenotifier.cpp:223
-#, kde-format
-msgid "Last plugged in device: %1"
-msgstr ""
-
-#: devicenotifier.cpp:226
-msgid "No devices plugged in"
-msgstr ""
-
-#: notifierdialog.cpp:297
+#: devicenotifier.cpp:451
 msgid ""
 "Cannot unmount the device.\n"
 "One or more files on this device are open within an application."
@@ -41,7 +32,7 @@ msgstr ""
 "ডিভাইস আন-মাউন্ট করা যায়নি।\n"
 "কোনো অ্যাপ্লিকেশনের মধ্যে এই ডিভাইসের এক অথবা একাধিক ফাইল খোলা রয়েছে।"
 
-#: notifierdialog.cpp:313
+#: devicenotifier.cpp:466
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -49,22 +40,39 @@ msgstr ""
 "ডিস্ক বের করা যায়নি।\n"
 "কোনো অ্যাপ্লিকেশনের মধ্যে এই ডিস্কের এক অথবা একাধিক ফাইল খোলা রয়েছে।"
 
-#: notifierdialog.cpp:400
+#: devicenotifier.cpp:502
 #, kde-format
 msgid "<font color=\"%1\">Devices recently plugged in:</font>"
 msgstr "<font color=\"%1\">সম্প্রতি সংযুক্ত করা ডিভাইস:</font>"
 
-#~ msgid "&Time to stay on top:"
-#~ msgstr "চিহ্নিত সময় অবধি উপরে স্থাপিত হবে: (&T)"
+#. i18n: file: deviceNotifierConfig.ui:16
+#. i18n: ectx: property (text), widget (QLabel, labelSize_2)
+#: rc.cpp:3
+msgid "&Time to stay on top:"
+msgstr "চিহ্নিত সময় অবধি উপরে স্থাপিত হবে: (&T)"
 
-#~ msgid " sec"
-#~ msgstr " sec"
+#. i18n: file: deviceNotifierConfig.ui:35
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinTime)
+#: rc.cpp:6
+msgid " sec"
+msgstr " sec"
 
-#~ msgid "&Number of items displayed:"
-#~ msgstr "প্রদর্শিত বস্তুর সংখ্যা: (&N)"
+#. i18n: file: deviceNotifierConfig.ui:42
+#. i18n: ectx: property (text), widget (QLabel, labelSize)
+#: rc.cpp:9
+msgid "&Number of items displayed:"
+msgstr "প্রদর্শিত বস্তুর সংখ্যা: (&N)"
 
-#~ msgid "Unlimited"
-#~ msgstr "সীমাবিহীন"
+#. i18n: file: deviceNotifierConfig.ui:61
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinItems)
+#. i18n: file: deviceNotifierConfig.ui:90
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinTimeItems)
+#: rc.cpp:12 rc.cpp:18
+msgid "Unlimited"
+msgstr "সীমাবিহীন"
 
-#~ msgid "&Display time of items:"
-#~ msgstr "বস্তু সংক্রান্ত সময় প্রদর্শন করা হবে: (&D)"
+#. i18n: file: deviceNotifierConfig.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15
+msgid "&Display time of items:"
+msgstr "বস্তু সংক্রান্ত সময় প্রদর্শন করা হবে: (&D)"
