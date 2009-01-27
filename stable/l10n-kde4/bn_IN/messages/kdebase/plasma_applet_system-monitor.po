@@ -1,0 +1,161 @@
+# translation of plasma_applet_system-monitor.po to Bengali INDIA
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_system-monitor\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-12-29 10:13+0100\n"
+"PO-Revision-Date: 2009-01-12 11:36+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cpu.cpp:44 cpu.cpp:133 hwinfo.cpp:131
+msgid "CPU"
+msgstr "CPU"
+
+#: cpu.cpp:154
+msgid "CPUs"
+msgstr "CPU-গুলি"
+
+#: hdd.cpp:49
+msgid "Disk Space"
+msgstr "ডিস্কের স্থান"
+
+#: hdd.cpp:58
+msgid "Mount Point"
+msgstr "মাউন্ট পয়েন্ট"
+
+#: hdd.cpp:59 temperature.cpp:79
+msgid "Name"
+msgstr "নাম"
+
+#: hdd.cpp:83
+msgid "Partitions"
+msgstr "পার্টিশন"
+
+#: hdd.cpp:125
+msgctxt "the root filesystem"
+msgid "root"
+msgstr "root"
+
+#: hdd.cpp:132
+msgid "Unknown filesystem"
+msgstr "অজানা ফাইল-সিস্টেম"
+
+#: hdd.cpp:142
+#, kde-format
+msgctxt "hard disk label (not mounted or accessible)"
+msgid "%1 (not accessible)"
+msgstr "%1 (ব্যবহারযোগ্য নয়)"
+
+#: hwinfo.cpp:56 hwinfo.cpp:149
+msgid "Hardware Info"
+msgstr "হার্ডওয়্যার সংক্রান্ত তথ্য"
+
+#: hwinfo.cpp:65
+msgid "Getting hardware information..."
+msgstr "হার্ডওয়্যার সংক্রান্ত তথ্য প্রাপ্ত করা হচ্ছে..."
+
+#: hwinfo.cpp:133
+msgid "GPU"
+msgstr "GPU"
+
+#: hwinfo.cpp:135
+msgid "Audio"
+msgstr "অডিও"
+
+#: hwinfo.cpp:138 net.cpp:44
+msgid "Network"
+msgstr "নেটওয়ার্ক"
+
+#: net.cpp:151
+msgid "Network interface"
+msgstr "নেটওয়ার্ক ইন্টারফেস"
+
+#: net.cpp:170
+msgid "Interfaces"
+msgstr "ইন্টারফেস"
+
+#. i18n: file: cpu-config.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "&CPUs:"
+msgstr "CPU: (&C)"
+
+#. i18n: file: cpu-config.ui:47
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: hdd-config.ui:56
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: net-config.ui:47
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: temperature-config.ui:51
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6 rc.cpp:15 rc.cpp:24 rc.cpp:36
+msgid "Update &interval:"
+msgstr "আপডেটের বিরতিকাল: (&i)"
+
+#. i18n: file: cpu-config.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: net-config.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: temperature-config.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:9 rc.cpp:27 rc.cpp:39
+msgid "seconds"
+msgstr "সেকেন্ড"
+
+#. i18n: file: hdd-config.ui:31
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:12
+msgid "Hard &disks:"
+msgstr "হার্ড-ডিস্ক: (&d)"
+
+#. i18n: file: hdd-config.ui:92
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18
+msgid "minutes"
+msgstr "মিনিট"
+
+#. i18n: file: net-config.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21
+msgid "&Network Interfaces:"
+msgstr "নেটওয়ার্ক ইন্টারফেস: (&N)"
+
+#. i18n: file: temperature-config.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:30
+msgid "&Available temperatures:"
+msgstr "উপলব্ধ তাপমাত্রা: (&A)"
+
+#. i18n: file: temperature-config.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, showPlotters)
+#: rc.cpp:33
+msgid "Show plotters"
+msgstr "প্লটার প্রদর্শন করা হবে"
+
+#: temperature.cpp:50 temperature.cpp:102
+msgid "Temperature"
+msgstr "তাপমাত্রা"
+
+#: temperature.cpp:78
+msgid "Sensor"
+msgstr "সেনসর"
+
+#: temperature.cpp:228
+#, kde-format
+msgid "%1 °C"
+msgstr "%1 °C"
+
+#: temperature.cpp:230
+#, kde-format
+msgid "%1 °F"
+msgstr "%1 °F"

@@ -1,0 +1,725 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Arindam Ghosh <arindam.foss@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmbackground\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-08-25 09:06+0200\n"
+"PO-Revision-Date: 2008-07-04 23:46+0530\n"
+"Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
+"Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KAider 0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bgadvanced.cpp:58
+msgid "Advanced Background Settings"
+msgstr "অতিরিক্ত প্রেক্ষাপটভূমির বিন্যাস"
+
+#: bgadvanced.cpp:225
+#, kde-format
+msgid "%1 min."
+msgstr "%1 মিনিট"
+
+#: bgadvanced.cpp:262
+msgid ""
+"Unable to remove the program: the program is global and can only be removed "
+"by the system administrator."
+msgstr ""
+"প্রোগ্রামটা সরানো যাচ্ছে না: কারন প্রোগ্রামটা গ্লোবাল যেটা খালি সিস্টেম "
+"অ্যাডমিন্সস্ট্রেটর সরাতে পারে।"
+
+#: bgadvanced.cpp:264
+msgid "Cannot Remove Program"
+msgstr "প্রোগ্রামটা সরানো সম্ভব নয়"
+
+#: bgadvanced.cpp:268
+#, kde-format
+msgid "Are you sure you want to remove the program `%1'?"
+msgstr "অাপনি নিশ্চিতভাবে প্রোগ্রাম `%1' বন্ধো করতে চান?"
+
+#: bgadvanced.cpp:270
+msgid "Remove Background Program"
+msgstr "প্রেক্ষাপটভূমির প্রোগ্রামটা সরানো হবে"
+
+#. i18n: file: bgadvanced_ui.ui:47
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#. i18n: file: bgwallpaper_ui.ui:118
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#: bgadvanced.cpp:271 rc.cpp:18 rc.cpp:191
+msgid "&Remove"
+msgstr "বন্ধো (&R)"
+
+#: bgadvanced.cpp:359
+msgid "Configure Background Program"
+msgstr "প্রেক্ষাপটভূমি প্রোগ্রামটা কনফিগার করুন"
+
+#: bgadvanced.cpp:371
+msgid "&Name:"
+msgstr "নাম (&N)"
+
+#: bgadvanced.cpp:377
+msgid "Co&mment:"
+msgstr "মন্তব্য (&m)"
+
+#: bgadvanced.cpp:383
+msgid "Comman&d:"
+msgstr "কমান্ড (&d)"
+
+#: bgadvanced.cpp:389
+msgid "&Preview cmd:"
+msgstr "কমান্ড প্রাকদর্শন (&P):"
+
+#: bgadvanced.cpp:395
+msgid "&Executable:"
+msgstr "এক্সিকিউটেবল (&E):"
+
+#: bgadvanced.cpp:401
+msgid "&Refresh time:"
+msgstr "রিফ্রেশের সময় (&R):"
+
+#: bgadvanced.cpp:406 bgwallpaper.cpp:127
+msgid " min"
+msgstr "মিনিট"
+
+#: bgadvanced.cpp:413
+msgid "New Command"
+msgstr "নতুন কমান্ড"
+
+#: bgadvanced.cpp:416
+#, kde-format
+msgid "New Command <%1>"
+msgstr "নতুন কমান্ড <%1>"
+
+#: bgadvanced.cpp:443
+msgid ""
+"You did not fill in the `Name' field.\n"
+"This is a required field."
+msgstr ""
+"অাপনি 'নাম' ক্ষেত্রটি ভরেননি।\n"
+" ওটা ভরা অতি অাবশ্যক"
+
+#: bgadvanced.cpp:451
+#, kde-format
+msgid ""
+"There is already a program with the name `%1'.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"`%1' নামের প্রোগ্রামটা ইতিমধ্যেই রয়েছে।\n"
+"অাপনি কি সেটা তার উপরেই খুলতে চান?"
+
+#: bgadvanced.cpp:452
+msgid "Overwrite"
+msgstr "ওভাররাইট"
+
+#: bgadvanced.cpp:458
+msgid ""
+"You did not fill in the `Executable' field.\n"
+"This is a required field."
+msgstr ""
+"অাপনি 'এক্সিকিউটেবল' ক্ষেত্রটি ভরেননি।\n"
+" ওটা ভরা অতি অাবশ্যক"
+
+#: bgadvanced.cpp:463
+msgid ""
+"You did not fill in the `Command' field.\n"
+"This is a required field."
+msgstr ""
+"অাপনি 'কমান্ড' ক্ষেত্রটি ভরেননি।\n"
+" ওটা ভরা অতি অাবশ্যক"
+
+#: bgdialog.cpp:115
+msgid "Open file dialog"
+msgstr "ফাইল ডায়ালগ খোলা হবে"
+
+#: bgdialog.cpp:354
+msgid ""
+"<p><h1>Background</h1> This module allows you to control the appearance of "
+"the virtual desktops. KDE offers a variety of options for customization, "
+"including the ability to specify different settings for each virtual "
+"desktop, or a common background for all of them.</p> <p>The appearance of "
+"the desktop results from the combination of its background colors and "
+"patterns, and optionally, wallpaper, which is based on the image from a "
+"graphic file.</p> <p>The background can be made up of a single color, or a "
+"pair of colors which can be blended in a variety of patterns. Wallpaper is "
+"also customizable, with options for tiling and stretching images. The "
+"wallpaper can be overlaid opaquely, or blended in different ways with the "
+"background colors and patterns.</p> <p>KDE allows you to have the wallpaper "
+"change automatically at specified intervals of time. You can also replace "
+"the background with a program that updates the desktop dynamically. For "
+"example, the \"kdeworld\" program shows a day/night map of the world which "
+"is updated periodically.</p>"
+msgstr ""
+"<p><h1>পটভূমি</h1> এই মডিউলটা অাপনার ভার্চুয়াল ডেস্কটপের চেহারা নিয়ন্ত্রন করতে "
+"সাহায্য করে। KDE-তে পটভূমি স্বনির্বাচিত করার জন্যে বিভিন্ন অপশন অাছে, যেমন, "
+"প্রত্যেকটা ভার্চুয়াল ডেস্কটপের  বিভিন্ন বিন্যাস অথবা সবার জন্যে একই পটভূমি নির্বাচিত "
+"করা যায়।</p> <p>ডেস্কটপের চেহারাটি প্রেক্ষপটভূমির রঙ ও প্যাটার্নের সংযোগের ফলস্বরূপ, "
+"এবং এটি কখনো একটা ওয়ালপেপারও হয়, যেটা স্বাধারনত একটা গ্রাফিক্স ফাইল হয়ে থাকে।</"
+"p> <p>পটভূমি একরঙা হতে পারে, অথবা দুটো রঙের বিভিন্ন রকমের মিশ্রন হতে পারে। "
+"ওয়ালপেপার গুলোও টাইল ও স্ট্রেচ ইত্যাদির সাহায্যে স্বনির্বাচিত করা যায়। ওয়ালপেপার "
+"অস্বচ্ছ ভাবে ব্যবহৃত হতে পারে অথবা একটা রঙ বা প্যাটার্নের সঙ্গে ব্লেন্ড করে।</p> "
+"<p>KDE-তে ওয়ালপেপার স্বয়ংক্রিয় ভাবে একটা নির্দিষ্ট সময়সিমা পরে পরিবর্তন করা যায়। "
+"অাপনি সহজেই পটভূমি প্রোগ্রামের বদলে অন্য কিছু ব্যবহার করতে পারেন যেমন, \"kdeworld"
+"\" প্রোগ্রাম পৃথিবীর দিন/রাতের ম্যাপ দেখায় যেটা সময় অনুযায়ি পরিবর্তন হয়।</p>"
+
+#: bgdialog.cpp:407
+#, kde-format
+msgid "Screen %1"
+msgstr "স্ক্রীন %1"
+
+#: bgdialog.cpp:410
+msgid "Single Color"
+msgstr "একক রং"
+
+#: bgdialog.cpp:411
+msgid "Horizontal Gradient"
+msgstr "অানুভূমিক নতি"
+
+#: bgdialog.cpp:412
+msgid "Vertical Gradient"
+msgstr "উলম্ব নতি"
+
+#: bgdialog.cpp:413
+msgid "Pyramid Gradient"
+msgstr "পিরামিড নতি"
+
+#: bgdialog.cpp:414
+msgid "Pipecross Gradient"
+msgstr "পাইপক্রশ নতি"
+
+#: bgdialog.cpp:415
+msgid "Elliptic Gradient"
+msgstr "ইলিপ্টিক নতি"
+
+#: bgdialog.cpp:430
+msgid "Centered"
+msgstr "কেন্দ্রিত"
+
+#: bgdialog.cpp:431
+msgid "Tiled"
+msgstr "টাইল্ড"
+
+#: bgdialog.cpp:432
+msgid "Center Tiled"
+msgstr "কেন্দ্রে টাইল্ড"
+
+#: bgdialog.cpp:433
+msgid "Centered Maxpect"
+msgstr "কেন্দ্রিত ম্যাক্সপেক্ট"
+
+#: bgdialog.cpp:434
+msgid "Tiled Maxpect"
+msgstr "টাইল্ড ম্যাক্সপেক্ট"
+
+#: bgdialog.cpp:435
+msgid "Scaled"
+msgstr "স্কেল্ড"
+
+#: bgdialog.cpp:436
+msgid "Centered Auto Fit"
+msgstr "স্বয়ংঙ্ক্রিয় ভাবে কেন্দ্রিত"
+
+#: bgdialog.cpp:437
+msgid "Scale & Crop"
+msgstr "স্কেল ও ক্রপ করা হবে"
+
+#: bgdialog.cpp:440
+msgid "No Blending"
+msgstr "ব্লেন্ড হবে না"
+
+#: bgdialog.cpp:441
+msgid "Flat"
+msgstr "সমতল"
+
+#: bgdialog.cpp:442
+msgid "Horizontal"
+msgstr "অনুভূমিক"
+
+#: bgdialog.cpp:443
+msgid "Vertical"
+msgstr "উলম্ব"
+
+#: bgdialog.cpp:444
+msgid "Pyramid"
+msgstr "পিরামিড"
+
+#: bgdialog.cpp:445
+msgid "Pipecross"
+msgstr "পাইপক্রশ"
+
+#: bgdialog.cpp:446
+msgid "Elliptic"
+msgstr "ইলিপ্টিক"
+
+#: bgdialog.cpp:447
+msgid "Intensity"
+msgstr "তীব্রতা"
+
+#: bgdialog.cpp:448
+msgid "Saturation"
+msgstr "সম্পৃক্তি"
+
+#: bgdialog.cpp:449
+msgid "Contrast"
+msgstr "বৈসাদৃশ্য"
+
+#: bgdialog.cpp:450
+msgid "Hue Shift"
+msgstr "রঙের সূক্ষ তারতম্য"
+
+#: bgdialog.cpp:595
+msgid "Select Wallpaper"
+msgstr "ওয়ালপেপার নির্বাচিত করুন"
+
+#: bgmonitor.cpp:169
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+"এই মনিটারের ছবিটা বর্তমান বিন্যাস অনুযায়ি অাপনার ডেস্কটপ কেমন দেখাবে তার "
+"প্রতিচ্ছবি।"
+
+#: bgwallpaper.cpp:118
+msgid "Setup Slide Show"
+msgstr "স্লাইড সো বিন্যাস"
+
+#: bgwallpaper.cpp:175
+msgid "Select Image"
+msgstr "ছবি নির্বাচিত করুন"
+
+#. i18n: file: bgadvanced_ui.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupProgram)
+#: rc.cpp:3
+msgid "Background Program"
+msgstr "পটভূমি প্রোগ্রাম"
+
+#. i18n: file: bgadvanced_ui.ui:31
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdd)
+#: rc.cpp:6
+msgid ""
+"<qt>\n"
+"<p>Click here if you want to add a program to the listbox. This button opens "
+"a dialog where you are asked to give details about the program you want to "
+"run. To successfully add a program, you must know if it is compatible, the "
+"name of the executable file and, if necessary, its options.</p>\n"
+"<p>You usually can get the available options to a suitable program by typing "
+"in a terminal emulator the name of the executable file plus --help (foobar --"
+"help).</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>এখানে ক্লিক করুন যদি অাপনি তালিকাতে একটা প্রোগ্রাম যোগ করতে চান। এই বাটন একটা "
+"ডায়ামগ খোলে যেখানে অাপনাকে সেই প্রোগ্রামের বিস্তৃত বর্ণনা দিতে হবে। প্রোগ্রামটা ঠিক "
+"করে যোগ করার জন্যে নিশ্চিতভাবে জানা দরকার যে সেটা উপযোগি কিনা, এক্সেকিউটেবল "
+"ফাইলের নাম, এবং তার অপশন সমুহ।</p>\n"
+"<p>অাপনি স্বাধারনত এই অপশনগুলো টার্মিনাল এমুলেটরের মধ্যে দেবেন যেমন, এক্সেকিউটেবল "
+"ফাইলের নাম ও --help (foobar --help)</p>\n"
+"</qt>"
+
+#. i18n: file: bgadvanced_ui.ui:34
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#. i18n: file: bgwallpaper_ui.ui:95
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#: rc.cpp:12 rc.cpp:188
+msgid "&Add..."
+msgstr "যোগ (&A)"
+
+#. i18n: file: bgadvanced_ui.ui:44
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonRemove)
+#: rc.cpp:15
+msgid ""
+"Click here to remove programs from this list. Please note that it does not "
+"remove the program from your system, it only removes it from the available "
+"options in the background drawing programs list."
+msgstr ""
+"এখানে ক্লিক করুন যদি অাপনি তালিকাতে একটা প্রোগ্রাম সরাতে চান। মনে রাখা দরকার যে "
+"এতে, প্রোগ্রামটা শুধুমাত্র তালিকা থেকে মুছে যায়, কিন্তু সিস্টেমে সেটা থেকে যায়।"
+
+#. i18n: file: bgadvanced_ui.ui:60
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonModify)
+#: rc.cpp:21
+msgid ""
+"<qt>\n"
+"<p>Click here to modify the programs options. You usually can get the "
+"available options to a suitable program by typing in a terminal emulator the "
+"name of the executable file plus --help. (example: kwebdesktop --help).</p>\n"
+"<p>One useful example is the program kwebdesktop. It draws a web page on the "
+"background of your desktop.  You can use this program by selecting it on the "
+"listbox on the right, but it will draw a predefined web page. To change the "
+"web page it renders, select the kwebdesktop program on the listbox, then "
+"click here. A dialog will appear, allowing you to change the web page by "
+"replacing the old address (URL) with a new one.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>এখানে ক্লিক করুন যদি অাপনি তালিকাতে একটা প্রোগ্রাম পরিবর্তন করতে চান। অাপনি "
+"স্বাধারনত এই অপশনগুলো টার্মিনাল এমুলেটরের মধ্যে পাবেন যেমন, এক্সেকিউটেবল ফাইলের "
+"নাম ও --help (উদাহরন: kwebdesktop --help)।</p>\n"
+"<p>একটি অাবশ্যক উদাহরন হলো kwebdesktop। এটা একটা ওয়েব-পেজ অাপনার ডেস্কটপের "
+"পটভূমি হিসেবে প্রদর্শন করে। অাপনি এই প্রোগ্রামটা ডান দিকের তালিকা থেকে নির্বাচিত "
+"করতে পারেন। কোন ওয়েব-পেজটা প্রদর্শিত হবে সেটা নির্ধারিত করার জন্যে kwebdesktop "
+"প্রোগ্রাম তালিকাতে নর্বাচন করে এখানে ক্লিক করুন। একটা ডায়ালগ খুলবে, যেখানে অাপনি "
+"পছন্দমতো ওয়েব-পেজ এ্যাড্রেস (URL) দিতে পারেন।</p>\n"
+"</qt>"
+
+#. i18n: file: bgadvanced_ui.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonModify)
+#: rc.cpp:27
+msgid "&Modify..."
+msgstr "পরিবর্তন (&M)"
+
+#. i18n: file: bgadvanced_ui.ui:103
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:30
+msgid ""
+"<qt>\n"
+"<p>Select from this listbox the program you want to use to draw your desktop "
+"background.</p>\n"
+"<p>The <b>Program</b> column shows the name of the program.<br>\n"
+"The <b>Comment</b> column brings a short description.<br>\n"
+"The <b>Refresh</b> column indicates the time interval between redraws of the "
+"desktop.</p>\n"
+"<p>The <b>K Web Desktop</b> program (kwebdesktop) is worth noting: it draws "
+"a specified page of the web in your desktop. You can modify it, and the "
+"webpage it draws by selecting it here, then clicking on the <b>Modify</b> "
+"button.<br>\n"
+"You can also add new compliant programs. To do that, click on the <b>Add</b> "
+"button.<br>\n"
+"You can also remove programs from this list clicking on the <b>Remove</b> "
+"button. Please note that it does not remove the program from your system, it "
+"only removes it from the available options in this listbox.</p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: bgadvanced_ui.ui:107
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:41
+msgid "Program"
+msgstr "প্রোগ্রাম"
+
+#. i18n: file: bgadvanced_ui.ui:112
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:44
+msgid "Comment"
+msgstr "মন্তব্য"
+
+#. i18n: file: bgadvanced_ui.ui:117
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listPrograms)
+#: rc.cpp:47
+msgid "Refresh"
+msgstr "রিফ্রেস"
+
+#. i18n: file: bgadvanced_ui.ui:125
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbProgram)
+#: rc.cpp:50
+msgid ""
+"Check here if you want to allow a program to draw your desktop background. "
+"Below you can find the list of programs currently available for drawing the "
+"background. You may use one of the available programs, add new ones or "
+"modify the existing ones to fit your needs."
+msgstr ""
+"এখানে নির্বাচিত করুন যে অাপনি একটা প্রোগ্রামকে পটভূমি অাঁকতে দিতে চান। এর নিচে "
+"অাপনি পটভূমি অাঁকার জন্যে উপযোগি প্রোগ্রামের তালিকা পাবেন যেগুলো এই মুহুর্তে সিস্টেমে "
+"রয়েছে। অাপনি ইচ্ছেমতো যে কোনো একটা প্রোগ্রান ব্যবহার করতে পারেন, ও নতুন প্রোগ্রাম "
+"যোগ অথবা পরিবর্তন করতে পারেন।"
+
+#. i18n: file: bgadvanced_ui.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbProgram)
+#: rc.cpp:53
+msgid "Use the following program for drawing the background:"
+msgstr "পটভূমি অাকার জন্যে এই প্রোগ্রাম ব্যবহার করুন:"
+
+#. i18n: file: bgadvanced_ui.ui:138
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupCache)
+#: rc.cpp:56
+msgid "Memory Usage"
+msgstr "মেমোরি ব্যবহৃত"
+
+#. i18n: file: bgadvanced_ui.ui:144
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
+#. i18n: file: bgadvanced_ui.ui:157
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, m_spinCache)
+#: rc.cpp:59 rc.cpp:65
+msgid ""
+"In this box you can enter how much memory KDE should use for caching the "
+"background(s). If you have different backgrounds for the different desktops "
+"caching can make switching desktops smoother at the expense of higher memory "
+"use."
+msgstr ""
+"এখানে KDE পটভূমি ক্যাশের জন্যে কতোখানি মেমোরি ব্যবহৃত হবে তার মান নির্ধারিত করতে "
+"পারেন। অাপনার যদি প্রত্যেকটা ডেস্কটপে বিভিন্ন পটভূমি থাকে, বেশি মেমোরি থাকলে একটা "
+"থেকে অারেকটা ডেস্কটপে যাওয়া সহজ হয়ে যায় ও দেখতেও ভালো লাগে।"
+
+#. i18n: file: bgadvanced_ui.ui:147
+#. i18n: ectx: property (text), widget (QLabel, m_lblCache)
+#: rc.cpp:62
+msgid "Size of background cache:"
+msgstr "পটভূমির ক্যাশের পরিমান"
+
+#. i18n: file: bgadvanced_ui.ui:160
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_spinCache)
+#: rc.cpp:68
+msgid " k"
+msgstr "k"
+
+#. i18n: file: bgdialog_ui.ui:79
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonIdentifyScreens)
+#: rc.cpp:71
+msgid "Click this button to show the identifying number for each screen."
+msgstr "এই বাটন ক্লিক করুন যদি প্রত্যেকটা স্ক্রীনের পরিচায়ক নম্বরটি দেখাতে হয়।"
+
+#. i18n: file: bgdialog_ui.ui:82
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonIdentifyScreens)
+#: rc.cpp:74
+msgid "Identify Screens"
+msgstr "স্ক্রীনের পরিচীতি"
+
+#. i18n: file: bgdialog_ui.ui:131
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdvanced)
+#: rc.cpp:77
+msgid ""
+"Click this button to set the icon text colors and shadow, set up a program "
+"to run for the background picture or control the size of the background "
+"cache."
+msgstr ""
+"এই বাটনটা ক্লিক করে অাইকনের রং ও ছায়া নির্ধারিত করতে পারেন, তথা একটা প্রোগ্রামকে "
+"পটভূমির ছবির জন্যে নির্বাচিত বা পটভূমির ক্যাশের পরিমাপ নিয়ন্ত্রন করতে পারেন।"
+
+#. i18n: file: bgdialog_ui.ui:134
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvanced)
+#: rc.cpp:80
+msgid "Advanced Options"
+msgstr "অতিরিক্ত অপশন সমূহ"
+
+#. i18n: file: bgdialog_ui.ui:183
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonGetNew)
+#: rc.cpp:83
+msgid ""
+"Click this button to give you a list of new wallpapers to download from the "
+"Internet."
+msgstr ""
+"এই বাটন ক্লিক করুন যদি অাপনি ইন্টারনেট থেকে নতুন ওয়ালপেপারের তালিকা ডাউনলোড করতে "
+"চান।"
+
+#. i18n: file: bgdialog_ui.ui:186
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNew)
+#: rc.cpp:86
+msgid "Get New Wallpapers"
+msgstr "নতুন ওয়ালপেপার খোজো"
+
+#. i18n: file: bgdialog_ui.ui:231
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox3)
+#: rc.cpp:89
+msgid "Options"
+msgstr "অপশন সমূহ"
+
+#. i18n: file: bgdialog_ui.ui:246
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblWallpaperPos)
+#. i18n: file: bgdialog_ui.ui:437
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboWallpaperPos)
+#: rc.cpp:92 rc.cpp:137
+msgid ""
+"<qt>You can choose here how a background picture is shown on the desktop:\n"
+"<ul>\n"
+"<li><em>Centered:</em> Center the picture on the desktop.</li>\n"
+" <li><em>Tiled:</em> Tile the picture beginning at the top left of the "
+"desktop, so the desktop is totally covered up.</li>\n"
+"<li><em>Center Tiled:</em> Center the picture on the desktop and then tile "
+"around it so that the background is totally covered up.</li>\n"
+"<li><em>Centered Maxpect:</em> Magnify the picture without distorting it "
+"until it fills either the width or height of the desktop, and then center it "
+"on the desktop.</li>\n"
+"<li><em>Scaled:</em> Magnify the picture, until the entire desktop is "
+"covered. This may result in some distortion of the picture.</li>\n"
+"<li><em>Centered Auto Fit:</em> If the picture fits the desktop this mode "
+"works like the Centered option. If the picture is larger than the desktop it "
+"is scaled down to fit while keeping the aspect ratio.</li>\n"
+"<li><em>Scale and Crop:</em> Magnify the picture without distorting it until "
+"it fills both the width and height of the desktop (cropping the picture if "
+"necessary), and then center it on the desktop.</li>\n"
+"</ul></qt>"
+msgstr ""
+
+#. i18n: file: bgdialog_ui.ui:249
+#. i18n: ectx: property (text), widget (QLabel, m_lblWallpaperPos)
+#: rc.cpp:104
+msgid "Posi&tion:"
+msgstr "অবস্থান (&t):"
+
+#. i18n: file: bgdialog_ui.ui:265
+#. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboBlend)
+#: rc.cpp:107
+msgid ""
+"If you have selected to use a background picture you can choose various "
+"methods of blending the background colors with the picture. The default "
+"option of \"No Blending\" means that the picture simply obscures the "
+"background colors below."
+msgstr ""
+"অাপনি যদি পটভূমিতে একটা ছবি ব্যবহার করছেন, তাহলে বিভিন্নভাবে পটভূমির রঙের সঙ্গে "
+"ছবিটার মিশ্রন হতে পারে যেটা সহজেই নির্ধারিত করা যায়। ডিফল্ট অপশন হচ্ছে  \"ব্লেন্ড "
+"হবে না\" যার মানে ছবির নীচে রঙের পটভূমিতে কোনো প্রভাব পড়ে না।"
+
+#. i18n: file: bgdialog_ui.ui:274
+#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorPrimary)
+#: rc.cpp:110
+msgid "Click to choose the primary background color."
+msgstr "প্রাথমিক রং নির্বাচিত করতে এখানে ক্লিক করুন।"
+
+#. i18n: file: bgdialog_ui.ui:284
+#. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorSecondary)
+#: rc.cpp:113
+msgid ""
+"Click to choose the secondary background color. If no secondary color is "
+"required by the pattern selected this button will be disabled."
+msgstr ""
+"এখানে ক্লিক করে একটা গৌন/দ্বিতীয় রং নির্বাচিত করুন। যদি নির্বাচিত প্যাটার্নের কোনো "
+"গৌন রং দরকার না হয় তাহলে এই বাটনটা অকেজো হয়ে যায়।"
+
+#. i18n: file: bgdialog_ui.ui:296
+#. i18n: ectx: property (text), widget (QLabel, m_lblColors)
+#: rc.cpp:116
+msgid "Co&lors:"
+msgstr "রং সমূহ (&l):"
+
+#. i18n: file: bgdialog_ui.ui:312
+#. i18n: ectx: property (text), widget (QLabel, m_lblBlending)
+#: rc.cpp:119
+msgid "&Blending:"
+msgstr "মিশ্রন (&B):"
+
+#. i18n: file: bgdialog_ui.ui:330
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_lblBlendBalance)
+#. i18n: file: bgdialog_ui.ui:346
+#. i18n: ectx: property (whatsThis), widget (QSlider, m_sliderBlend)
+#: rc.cpp:122 rc.cpp:128
+msgid ""
+"You can use this slider to control the degree of blending. You can "
+"experiment by moving the slider and looking at the effects in the preview "
+"image."
+msgstr ""
+"এই স্লাইডার ব্যবহার করুন মিশ্রনের মাত্রা নির্ধারন করার জন্যে। অাপনি স্লাইডারটা সরিয়ে "
+"ও তার প্রভাব প্রাকদর্শন করে বিভিন্ন পরীক্ষা করতে পারেন।"
+
+#. i18n: file: bgdialog_ui.ui:333
+#. i18n: ectx: property (text), widget (QLabel, m_lblBlendBalance)
+#: rc.cpp:125
+msgid "Balance:"
+msgstr "ভারসাম্য:"
+
+#. i18n: file: bgdialog_ui.ui:373
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbBlendReverse)
+#: rc.cpp:131
+msgid ""
+"For some types of blending, you can reverse the role of the background and "
+"the picture by checking this option."
+msgstr ""
+"কিছু প্রকারের মিশ্রনে, অামরা পটভূমি তথা ছবির ভূমিকা অদল-বদল করে দিতে পারি এই অপশন "
+"চয়ন করে।"
+
+#. i18n: file: bgdialog_ui.ui:376
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbBlendReverse)
+#: rc.cpp:134
+msgid "Reverse roles"
+msgstr "বিপরীত ভূমিকা"
+
+#. i18n: file: bgdialog_ui.ui:447
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, m_buttonGroupBackground)
+#: rc.cpp:149
+msgid "Background"
+msgstr "পটভূমি"
+
+#. i18n: file: bgdialog_ui.ui:453
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_radioNoPicture)
+#: rc.cpp:152
+msgid "No picture, color only"
+msgstr "খালি রং অাছে কিন্তু কোনো ছবি নেই"
+
+#. i18n: file: bgdialog_ui.ui:456
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioNoPicture)
+#: rc.cpp:155
+msgid "&No picture"
+msgstr "কোনো ছবি নেই (&N)"
+
+#. i18n: file: bgdialog_ui.ui:463
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSlideShow)
+#: rc.cpp:158
+msgid "&Slide show:"
+msgstr "স্লাইড শো (&S):"
+
+#. i18n: file: bgdialog_ui.ui:470
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioPicture)
+#: rc.cpp:161
+msgid "&Picture:"
+msgstr "ছবি (&P):"
+
+#. i18n: file: bgdialog_ui.ui:496
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonSetupWallpapers)
+#: rc.cpp:164
+msgid ""
+"Click this button to select a set of images to be used as background "
+"pictures. One picture at a time will be shown for a specified amount of "
+"time, after which another image from the set will be shown. Images can be "
+"shown at random or in the order you specify them."
+msgstr ""
+"এই বাটনটা ক্লিক করুন একটা ছবি সমূহকে পটভূমির ছবি হিসেবে নির্বাচিত করার জন্যে। একটা "
+"ছবি একটা নির্দিষ্ট সময় অবধি দেখানো হয়, তার পরে অন্য অারেকটা ছবি ওই সমূহ থেকে "
+"দেখানো হবে। ছবি গুলো একটা নির্দিষ্ট অথবা এলোমেলো তালিকায় প্রদর্শিত হবে।"
+
+#. i18n: file: bgdialog_ui.ui:499
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonSetupWallpapers)
+#: rc.cpp:167
+msgid "Set&up..."
+msgstr "বিন্যাস (&u)..."
+
+#. i18n: file: bgdialog_ui.ui:557
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboScreen)
+#: rc.cpp:170
+msgid ""
+"Choose the screen you wish to configure the background for from this list."
+msgstr "যে স্ক্রীনের পটভূমি কনফিগার করতে চান সেটা এই তালিকা থেকে নির্বাচিত করুন।"
+
+#. i18n: file: bgdialog_ui.ui:561
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
+#: rc.cpp:173
+msgid "Across All Screens"
+msgstr "সব স্ক্রীনে"
+
+#. i18n: file: bgdialog_ui.ui:566
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
+#: rc.cpp:176
+msgid "On Each Screen"
+msgstr "প্রত্যেকটা স্ক্রীনে"
+
+#. i18n: file: bgwallpaper_ui.ui:22
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:179
+msgid "Show the following pictures:"
+msgstr "এই ছবিগুলো দেখানো হবে:"
+
+#. i18n: file: bgwallpaper_ui.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, m_cbRandom)
+#: rc.cpp:182
+msgid "&Show pictures in random order"
+msgstr "ছবিগুলো এলোমেলো তালিকায় দেখানো হবে।"
+
+#. i18n: file: bgwallpaper_ui.ui:41
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:185
+msgid "Change &picture after:"
+msgstr "এই সময়ের পরে ছবে পরিবর্তন হবে:"
+
+#. i18n: file: bgwallpaper_ui.ui:125
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveDown)
+#: rc.cpp:194
+msgid "Move &Down"
+msgstr "নীচে নামবে (&D)"
+
+#. i18n: file: bgwallpaper_ui.ui:132
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonMoveUp)
+#: rc.cpp:197
+msgid "Move &Up"
+msgstr "উপরে উঠবে (&U)"

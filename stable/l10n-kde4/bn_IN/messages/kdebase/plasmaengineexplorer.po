@@ -1,0 +1,277 @@
+# translation of plasmaengineexplorer.po to Bengali INDIA
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmaengineexplorer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-01-19 10:30+0100\n"
+"PO-Revision-Date: 2009-01-02 14:48+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: engineexplorer.cpp:57 main.cpp:32
+msgid "Plasma Engine Explorer"
+msgstr "Plasma Engine Explorer"
+
+#: engineexplorer.cpp:73
+msgid "Search"
+msgstr "অনুসন্ধান"
+
+#: engineexplorer.cpp:79
+msgid "Collapse All"
+msgstr "সকল সংকুচিত করা হবে"
+
+#: engineexplorer.cpp:80
+msgid "Expand All"
+msgstr "সকল প্রসারিত করা হবে"
+
+#: engineexplorer.cpp:148
+msgid "DataSource"
+msgstr "DataSource"
+
+#. i18n: file: serviceviewer.ui:67
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#: engineexplorer.cpp:148 rc.cpp:25 serviceviewer.cpp:140
+msgid "Key"
+msgstr "কি"
+
+#. i18n: file: serviceviewer.ui:72
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#: engineexplorer.cpp:148 rc.cpp:28 serviceviewer.cpp:140
+msgid "Value"
+msgstr "মান"
+
+#: engineexplorer.cpp:148
+msgid "Type"
+msgstr "প্রকৃতি"
+
+#: engineexplorer.cpp:257
+msgid "Get associated service"
+msgstr "সংযুক্ত পরিসেবা প্রাপ্ত করুন"
+
+#: engineexplorer.cpp:258
+msgid "Update source now"
+msgstr "উৎস এখন আপডেট করুন"
+
+#: engineexplorer.cpp:259
+msgid "Remove source"
+msgstr "উৎস সরিয়ে ফেলুন"
+
+#: engineexplorer.cpp:279
+#, kde-format
+msgid "&lt;1 bit&gt;"
+msgid_plural "&lt;%1 bits&gt;"
+msgstr[0] "&lt;১ বিট&gt;"
+msgstr[1] "&lt;%1 বিট&gt;"
+
+#: engineexplorer.cpp:288
+#, kde-format
+msgid "&lt;1 byte&gt;"
+msgid_plural "&lt;%1 bytes&gt;"
+msgstr[0] "&lt;১ বাইট&gt;"
+msgstr[1] "&lt;%1 বাইট&gt;"
+
+#: engineexplorer.cpp:310
+#, kde-format
+msgid "&lt;1 item&gt;"
+msgid_plural "&lt;%1 items&gt;"
+msgstr[0] "&lt;১-টি সামগ্রী&gt;"
+msgstr[1] "&lt;%1-টি সামগ্রী&gt;"
+
+#: engineexplorer.cpp:376
+msgctxt "The user did a query to a dataengine and it returned empty data"
+msgid "<empty>"
+msgstr "<empty>"
+
+#: engineexplorer.cpp:383
+msgctxt ""
+"A the dataengine returned something that the humble view on the "
+"engineexplorer can't display, like a picture"
+msgid "<not displayable>"
+msgstr "<not displayable>"
+
+#. i18n: file: engineexplorer.ui:19
+#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
+#: engineexplorer.cpp:420 rc.cpp:3
+msgid "Plasma DataEngine Explorer"
+msgstr "Plasma DataEngine Explorer"
+
+#: engineexplorer.cpp:425
+#, kde-format
+msgctxt "The name of the engine followed by the number of data sources"
+msgid "%1 Engine - 1 data source"
+msgid_plural "%1 Engine - %2 data sources"
+msgstr[0] "%1 ইঞ্জিন - তথ্যের ১-টি উৎস"
+msgstr[1] "%1 ইঞ্জিন - তথ্যের %2-টি উৎস"
+
+#: ktreeviewsearchline.cpp:419
+msgid "Search Columns"
+msgstr "অনুসন্ধানের কলাম"
+
+#: ktreeviewsearchline.cpp:421
+msgid "All Visible Columns"
+msgstr "সকল দৃশ্যমান কলাম"
+
+#: ktreeviewsearchline.cpp:578
+msgid "S&earch:"
+msgstr "অনুসন্ধান: (&e)"
+
+#: main.cpp:27
+msgid "Explore the data published by Plasma DataEngines"
+msgstr "Plasma DataEngines দ্বারা প্রকাশিত তথ্য পরিদর্শন করুন"
+
+#: main.cpp:34
+msgid "(c) 2006, The KDE Team"
+msgstr "(c) ২০০৬, KDE দল"
+
+#: main.cpp:35
+msgid "Aaron J. Seigo"
+msgstr "অ্যারন জে. সেইগো"
+
+#: main.cpp:36
+msgid "Author and maintainer"
+msgstr "নির্মাতা ও মেইন্টেনার"
+
+#: main.cpp:42
+msgid "The desired height in pixels"
+msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দসই উচ্চতা"
+
+#: main.cpp:43
+msgid "The desired width in pixels"
+msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দসই প্রস্থ"
+
+#: main.cpp:44
+msgid "The desired x position in pixels"
+msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দ x অবস্থান"
+
+#: main.cpp:45
+msgid "The desired y position in pixels"
+msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দ y অবস্থান"
+
+#: main.cpp:46
+msgid "The data engine to use"
+msgstr "ব্যবহারযোগ্য ডাটা ইঞ্জিন"
+
+#: main.cpp:47
+msgid "The source to request"
+msgstr "অনুরোধ করা উৎস"
+
+#: main.cpp:48
+msgid "Update Interval in milliseconds."
+msgstr "আপডেট করার বিরতিকাল (মিলিসেকেন্ড অনুযায়ী)"
+
+#. i18n: file: engineexplorer.ui:34
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
+#: rc.cpp:6
+msgid "Source name"
+msgstr "উৎসের নাম"
+
+#. i18n: file: engineexplorer.ui:47
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
+#: rc.cpp:9
+msgid "Update on demand"
+msgstr "প্রয়োজন অনুসারে আপডেট করা হবে"
+
+#. i18n: file: engineexplorer.ui:50
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
+#: rc.cpp:12
+msgid "ms"
+msgstr "মিলিসেকেন্ড"
+
+#. i18n: file: engineexplorer.ui:53
+#. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
+#: rc.cpp:15
+msgid "Update every "
+msgstr "আপডেট করা হবে, প্রতি"
+
+#. i18n: file: engineexplorer.ui:75
+#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
+#: rc.cpp:18
+msgid "Request"
+msgstr "অনুরোধ"
+
+#. i18n: file: serviceviewer.ui:33
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
+#: rc.cpp:22
+msgid "&Operation:"
+msgstr "কর্ম: (&O)"
+
+#. i18n: file: serviceviewer.ui:80
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
+#: rc.cpp:31
+msgid "Operation count"
+msgstr "কর্মের সংখ্যা"
+
+#: rc.cpp:32
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: rc.cpp:33
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
+
+#: serviceviewer.cpp:44
+msgid "Start Operation"
+msgstr "প্রারম্ভিক কর্ম"
+
+#: serviceviewer.cpp:51
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "অজানা"
+
+#: serviceviewer.cpp:52
+msgctxt "Plasma service with unknown name"
+msgid "Unknown"
+msgstr "অজানা"
+
+#: serviceviewer.cpp:66
+#, kde-format
+msgctxt "%1 is a Plasma service name"
+msgid "%1 Service Explorer"
+msgstr ""
+
+#: serviceviewer.cpp:68
+#, kde-format
+msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
+msgstr "DataEngine: <b>%1</b>; উৎস: <b>%2</b>; পরিসেবা <b>%3</b>"
+
+#: serviceviewer.cpp:169
+#, kde-format
+msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
+msgstr "কর্ম %1, %2 গন্তব্যস্থল সহ বিফল হয়েছে। উৎপন্ন ত্রুটি:<p><b>%3</b>"
+
+#: serviceviewer.cpp:172 serviceviewer.cpp:183
+msgid "Operation Result"
+msgstr "কর্মের ফলাফল"
+
+#: serviceviewer.cpp:176
+msgid "No response from job!"
+msgstr "কর্ম থপকে কোনো প্রতিক্রিয়া প্রাপ্ত হয়নি!"
+
+#: serviceviewer.cpp:180
+#, kde-format
+msgid ""
+"%1 operation with destination %2 returned successfully. The result was:<p><b>"
+"%3</b>"
+msgstr ""
+"%1 কর্ম, %2 গন্তব্যস্থল সহ সাফল্যের সাথে সমাপ্ত হয়েছে। উৎপন্ন ফলাফল:<p><b>%3</b>"
+
+#: serviceviewer.cpp:205
+#, kde-format
+msgid "One active operation ..."
+msgid_plural "%1 operations active ..."
+msgstr[0] "একটি সক্রিয় কর্ম ..."
+msgstr[1] "%1-টি সক্রিয় কর্ম ..."
+
+#~ msgid "%1 service for %2 DataEngine source %3"
+#~ msgstr "%1 পরিসেবা, %2 DataEngine উৎস %3-র জন্য"

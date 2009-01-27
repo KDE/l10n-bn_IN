@@ -1,0 +1,336 @@
+# translation of plasma_applet_launcher.po to Bengali INDIA
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_launcher\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-01-25 10:04+0100\n"
+"PO-Revision-Date: 2008-12-30 15:25+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ui/flipscrollview.cpp:138
+msgid "All Applications"
+msgstr "সকল অ্যাপ্লিকেশন"
+
+#: ui/contextmenufactory.cpp:79
+msgid "Advanced"
+msgstr "উন্নত বৈশিষ্ট্য"
+
+#: ui/contextmenufactory.cpp:122
+msgid "Remove From Favorites"
+msgstr "পছন্দের তালিকা থেকে সরিয়ে ফেলুন"
+
+#: ui/contextmenufactory.cpp:127
+msgid "Add to Favorites"
+msgstr "পছন্দের তালিকায় যোগ করুন"
+
+#: ui/contextmenufactory.cpp:151
+msgid "Add to Desktop"
+msgstr "ডেস্কটপে যোগ করুন"
+
+#: ui/contextmenufactory.cpp:158
+msgid "Add to Panel"
+msgstr "প্যানেলে যোগ করুন"
+
+#: ui/contextmenufactory.cpp:181
+msgid "Eject"
+msgstr "বহিষ্কার"
+
+#: ui/contextmenufactory.cpp:183
+msgid "Safely Remove"
+msgstr "নিরাপদভাবে বের করে নিন"
+
+#: ui/launcher.cpp:159
+msgid "Leave"
+msgstr "প্রস্থান করুন"
+
+#: ui/launcher.cpp:170 core/favoritesmodel.cpp:44
+msgid "Favorites"
+msgstr "পছন্দ"
+
+#: ui/launcher.cpp:173
+msgid "Sort Alphabetically (A to Z)"
+msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (A থেকে Z)"
+
+#: ui/launcher.cpp:176
+msgid "Sort Alphabetically (Z to A)"
+msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (Z থেকে A)"
+
+#: ui/launcher.cpp:199 core/recentlyusedmodel.cpp:101 core/systemmodel.cpp:88
+#: core/searchmodel.cpp:135
+msgid "Applications"
+msgstr "অ্যাপ্লিকেশন"
+
+#: ui/launcher.cpp:211
+msgid "Recently Used"
+msgstr "সম্প্রতি ব্যবহৃত"
+
+#: ui/launcher.cpp:213
+msgid "Clear Recent Applications"
+msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
+
+#: ui/launcher.cpp:214
+msgid "Clear Recent Documents"
+msgstr "সম্প্রতি ব্যবহৃত নথিপত্রের তালিকা পরিস্কার করুন"
+
+#: ui/launcher.cpp:231
+msgid "Computer"
+msgstr "কম্পিউটার"
+
+#: ui/launcher.cpp:489
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
+
+#: ui/launcher.cpp:491
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
+
+#: ui/searchbar.cpp:72
+msgid "Search:"
+msgstr "অনুসন্ধান:"
+
+#: core/leavemodel.cpp:49
+msgid "Logout"
+msgstr "লগ-আউট করুন"
+
+#: core/leavemodel.cpp:51
+msgid "End session"
+msgstr "সেশান সমাপ্ত করুন"
+
+#: core/leavemodel.cpp:53 simpleapplet/simpleapplet.cpp:392
+msgid "Lock"
+msgstr "লক করুন"
+
+#: core/leavemodel.cpp:55
+msgid "Lock the screen"
+msgstr "পর্দা লক করুন"
+
+#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:390
+msgid "Switch User"
+msgstr "ব্যবহারকারী পরিবর্তন করুন"
+
+#: core/leavemodel.cpp:59
+msgid "Start a parallel session as a different user"
+msgstr "ভিন্ন ব্যবহারকারীর জন্য একযোগে একটি পৃথক সেশান আরম্ভ করুন"
+
+#: core/leavemodel.cpp:61
+msgid "Shutdown"
+msgstr "বন্ধ করুন"
+
+#: core/leavemodel.cpp:63
+msgid "Turn off the computer"
+msgstr "কম্পিউটার বন্ধ করুন"
+
+#: core/leavemodel.cpp:65
+msgctxt "Restart the computer"
+msgid "Restart"
+msgstr "পুনরারম্ভ"
+
+#: core/leavemodel.cpp:67
+msgid "Restart the computer"
+msgstr "কম্পিউটার পুনরায় আরম্ভ করুন"
+
+#: core/leavemodel.cpp:69
+msgid "Save Session"
+msgstr "সেশান সংরক্ষণ করুন"
+
+#: core/leavemodel.cpp:71
+msgid "Save current session for next login"
+msgstr "পরবর্তী লগ-ইনে প্রয়োগ করার জন্য বর্তমান সেশান সংরক্ষণ করুন"
+
+#: core/leavemodel.cpp:73
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "স্থগিত করুন"
+
+#: core/leavemodel.cpp:75 core/leavemodel.cpp:79 core/leavemodel.cpp:83
+msgid "Pause without logging out"
+msgstr "লগ-আউট না করে স্থগিত করুন"
+
+#: core/leavemodel.cpp:77
+msgid "Suspend to Disk"
+msgstr "ডিস্কে বিরত করুন"
+
+#: core/leavemodel.cpp:81
+msgid "Suspend to RAM"
+msgstr "RAM-এ বিরত করুন"
+
+#: core/leavemodel.cpp:103
+msgid "Session"
+msgstr "সেশান"
+
+#: core/leavemodel.cpp:125
+msgid "System"
+msgstr "সিস্টেম"
+
+#: core/applicationmodel.cpp:356
+msgid "Known Applications"
+msgstr "পরিচিত অ্যাপ্লিকেশন"
+
+#: core/models.cpp:117
+msgid "Home Folder"
+msgstr "ব্যক্তিগত ফোল্ডার"
+
+#: core/models.cpp:120
+msgid "Network Folders"
+msgstr "নেটওয়ার্ক ফোল্ডার"
+
+#: core/recentlyusedmodel.cpp:93 core/searchmodel.cpp:221
+msgid "Documents"
+msgstr "নথিপত্র"
+
+#: core/systemmodel.cpp:89
+msgid "Places"
+msgstr "স্থান"
+
+#: core/systemmodel.cpp:90
+msgid "Removable Storage"
+msgstr "অপসারণযোগ্য সংরক্ষণস্থল"
+
+#: core/systemmodel.cpp:91
+msgid "Storage"
+msgstr "সংরক্ষণস্থল"
+
+#: core/searchmodel.cpp:204
+msgid "Web Searches"
+msgstr "ওয়েবে অনুসন্ধান"
+
+#: core/searchmodel.cpp:211
+#, kde-format
+msgid "Search web for '%1'"
+msgstr "ওয়েবের মধ্যে '%1' অনুসন্ধান করুন"
+
+#: main.cpp:32
+msgid "Kickoff"
+msgstr "আরম্ভ করুন"
+
+#: main.cpp:33
+msgid "Application Launcher"
+msgstr "অ্যাপ্লিকেশন প্রারম্ভকারী"
+
+#: applet/applet.cpp:84
+msgid "Kickoff Application Launcher"
+msgstr "অ্যাপ্লিকেশন প্রারম্ভকারী ব্যবস্থা আরম্ভ করুন"
+
+#: applet/applet.cpp:85
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr "পছন্দ, অ্যাপ্লিকেশন, কম্পিউটারের স্থান, সম্প্রতি ব্যবহৃত সামগ্রী ও ডেস্কটপ সেশান"
+
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:245
+msgid "Menu Editor"
+msgstr "মেনু সম্পাদন ব্যবস্থা"
+
+#: applet/applet.cpp:114
+msgid "Switch to Classic Menu Style"
+msgstr "মেনুর পারম্পরিক বিন্যাসের পরিবর্তন করুন"
+
+#: applet/applet.cpp:148
+msgid "Switch tabs on hover"
+msgstr ""
+
+#: applet/applet.cpp:154
+msgid "General"
+msgstr "সাধারণ"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
+
+#: simpleapplet/simpleapplet.cpp:251
+msgid "Switch to Kickoff Menu Style"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:295
+msgctxt "@label:listbox Which category of items to view in a KMenu-like menu"
+msgid "View:"
+msgstr "প্রদর্শন:"
+
+#: simpleapplet/simpleapplet.cpp:299
+msgctxt "@item:inlistbox View:"
+msgid "Standard"
+msgstr "প্রমিত"
+
+#: simpleapplet/simpleapplet.cpp:300
+msgctxt "@item:inlistbox View:"
+msgid "Favorites"
+msgstr "পছন্দ"
+
+#: simpleapplet/simpleapplet.cpp:301
+msgctxt "@item:inlistbox View:"
+msgid "Bookmarks"
+msgstr "বুকমার্ক"
+
+#: simpleapplet/simpleapplet.cpp:302
+msgctxt "@item:inlistbox View:"
+msgid "Applications"
+msgstr "অ্যাপ্লিকেশন"
+
+#: simpleapplet/simpleapplet.cpp:303
+msgctxt "@item:inlistbox View:"
+msgid "Computer"
+msgstr "কম্পিউটার"
+
+#: simpleapplet/simpleapplet.cpp:304
+msgctxt "@item:inlistbox View:"
+msgid "Recently Used"
+msgstr "সম্প্রতি ব্যবহৃত"
+
+#: simpleapplet/simpleapplet.cpp:305
+msgctxt "@item:inlistbox View:"
+msgid "Leave"
+msgstr "প্রস্থান"
+
+#: simpleapplet/simpleapplet.cpp:308
+msgctxt "@label:listbox How to present applications in a KMenu-like menu"
+msgid "Format:"
+msgstr "বিন্যাস:"
+
+#: simpleapplet/simpleapplet.cpp:312
+msgctxt "@item:inlistbox Format:"
+msgid "Name Only"
+msgstr "শুধুমাত্র নাম"
+
+#: simpleapplet/simpleapplet.cpp:313
+msgctxt "@item:inlistbox Format:"
+msgid "Description Only"
+msgstr "শুধুমাত্র বিবরণ"
+
+#: simpleapplet/simpleapplet.cpp:314
+msgctxt "@item:inlistbox Format:"
+msgid "Name Description"
+msgstr "নাম বিবরণ"
+
+#: simpleapplet/simpleapplet.cpp:315
+msgctxt "@item:inlistbox Format:"
+msgid "Description (Name)"
+msgstr "বিবরণ (নাম)"
+
+#: simpleapplet/simpleapplet.cpp:316
+msgctxt "@item:inlistbox Format:"
+msgid "Name - Description"
+msgstr "নাম - বিবরণ"
+
+#: simpleapplet/simpleapplet.cpp:394
+msgid "Leave..."
+msgstr "প্রস্থান..."
