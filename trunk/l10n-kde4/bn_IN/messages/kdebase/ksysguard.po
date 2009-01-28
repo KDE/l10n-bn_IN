@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-27 11:10+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,17 +18,17 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: WorkSheet.cc:93
+#: WorkSheet.cc:97
 #, kde-format
 msgid "Cannot open the file %1."
 msgstr "ফাইল %1 খুলতে ব্যর্থ।"
 
-#: WorkSheet.cc:101
+#: WorkSheet.cc:105
 #, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr "%1 ফাইলের মধ্যে বৈধ XML তথ্য উপস্থিত নেই।"
 
-#: WorkSheet.cc:108
+#: WorkSheet.cc:112
 #, kde-format
 msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
@@ -37,54 +37,54 @@ msgstr ""
 "%1 ফাইলের মধ্যে ওয়ার্ক-শিটের বৈধ ব্যাখ্যা উপস্থিত থাকে না। এই ক্ষেত্রে ডকুমেন্টের জন্য "
 "'KSysGuardWorkSheet' মান ব্যবহার করা আবশ্যক।"
 
-#: WorkSheet.cc:132
+#: WorkSheet.cc:136
 #, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr " %1 ফাইলের মধ্যে ওয়ার্ক-শিট সংখ্যা বৈধ নয়।"
 
-#: WorkSheet.cc:234
+#: WorkSheet.cc:238
 #, kde-format
 msgid "Cannot save file %1"
 msgstr "%1 ফাইল সংরক্ষণ করতে ব্যর্থ"
 
-#: WorkSheet.cc:280
+#: WorkSheet.cc:284
 msgid "The clipboard does not contain a valid display description."
 msgstr ""
 
-#: WorkSheet.cc:331
+#: WorkSheet.cc:340
 msgid "Select Display Type"
 msgstr "প্রদর্শনের ধরন নির্বাচন করুন"
 
-#: WorkSheet.cc:332
+#: WorkSheet.cc:341
 msgid "&Line graph"
 msgstr ""
 
-#: WorkSheet.cc:333
+#: WorkSheet.cc:342
 msgid "&Digital display"
 msgstr "ডিজিট্যাল প্রদর্শন (&D)"
 
-#: WorkSheet.cc:334
+#: WorkSheet.cc:343
 msgid "&Bar graph"
 msgstr ""
 
-#: WorkSheet.cc:335
+#: WorkSheet.cc:344
 msgid "Log to a &file"
 msgstr "একটি ফাইলে লগ সংরক্ষণ করা হবে (&f)"
 
-#: WorkSheet.cc:505
+#: WorkSheet.cc:514
 msgid "Do you really want to delete the display?"
 msgstr "নিশ্চিতরূপে ডিসপ্লে মুছে ফেলতে ইচ্ছুক কি?"
 
-#: WorkSheet.cc:506
+#: WorkSheet.cc:515
 msgid "Delete Display"
 msgstr "ডিসপ্লে মুছে ফেলুন"
 
-#: WorkSheet.cc:525 WorkSheet.cc:528 WorkSheet.cc:530 WorkSheet.cc:532
-#: WorkSheet.cc:534 WorkSheet.cc:536 WorkSheet.cc:540
+#: WorkSheet.cc:534 WorkSheet.cc:537 WorkSheet.cc:539 WorkSheet.cc:541
+#: WorkSheet.cc:543 WorkSheet.cc:545 WorkSheet.cc:549
 msgid "Dummy"
 msgstr "ডামি"
 
-#: ksgrd/SensorAgent.cc:105
+#: ksgrd/SensorAgent.cc:109
 #, kde-format
 msgctxt "%1 is a host name"
 msgid ""
@@ -519,14 +519,13 @@ msgstr "টাইমার সংক্রান্ত বৈশিষ্ট্�
 msgid "Use update interval of worksheet"
 msgstr ""
 
-#: TimerSettings.cc:52 KSGAppletSettings.cc:67 WorkSheetSettings.cc:91
+#: TimerSettings.cc:52 WorkSheetSettings.cc:91
 msgid "Update interval:"
 msgstr "আপডেটের মধ্যে অন্তর্বর্তী সময়কাল:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:52
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cc:59 KSGAppletSettings.cc:74 rc.cpp:23
-#: WorkSheetSettings.cc:95
+#: TimerSettings.cc:59 rc.cpp:23 WorkSheetSettings.cc:95
 msgid " sec"
 msgstr " sec"
 
@@ -618,12 +617,12 @@ msgid ""
 "(Menu File->New) before you can drag sensors here."
 msgstr ""
 
-#: Workspace.cc:107
+#: Workspace.cc:108
 #, kde-format
 msgid "Sheet %1"
 msgstr "শিট %1"
 
-#: Workspace.cc:162
+#: Workspace.cc:163
 #, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
@@ -632,42 +631,40 @@ msgstr ""
 "ট্যাব '%1'-র মধ্যে পরিবর্তিত তথ্য উপস্থিত রয়েছে।\n"
 "ট্যাব সংরক্ষণ করা হবে কি?"
 
-#: Workspace.cc:177
+#: Workspace.cc:178
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr "*.sgrd|Sensor Files (*.sgrd)"
 
-#: Workspace.cc:177
+#: Workspace.cc:178
 msgid "Select Tab File to Import"
 msgstr ""
 
-#: Workspace.cc:205 Workspace.cc:226
+#: Workspace.cc:206 Workspace.cc:227
 msgid "You do not have a tab that could be saved."
 msgstr "সংরক্ষণ করার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
 
-#: Workspace.cc:233
+#: Workspace.cc:234
 msgid "Export Tab"
 msgstr ""
 
-#: Workspace.cc:251
+#: Workspace.cc:252
 msgid "There are no tabs that could be deleted."
 msgstr "মুছে ফেলার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
 
-#: KSGAppletSettings.cc:34
-msgid "System Guard Applet Settings"
+#: Workspace.cc:287
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
 msgstr ""
 
-#: KSGAppletSettings.cc:45
-msgid "Number of displays:"
-msgstr "ডিসপ্লের সংখ্যা:"
-
-#: KSGAppletSettings.cc:55
-msgid "Size ratio:"
-msgstr "মাপের অনুপাত:"
-
-#: KSGAppletSettings.cc:63
-msgctxt "Number suffix in spinbox"
-msgid "%"
-msgstr "%"
+#: Workspace.cc:287
+#, fuzzy
+#| msgid "System Monitor"
+msgid "Upload custom System Monitor tab"
+msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:43
 msgid "Edit BarGraph Preferences"
@@ -809,7 +806,7 @@ msgid ""
 msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cc:195
-#: SensorDisplayLib/FancyPlotterSettings.cc:235
+#: SensorDisplayLib/FancyPlotterSettings.cc:230
 msgid "Sensors"
 msgstr "সেনসর"
 
@@ -822,12 +819,12 @@ msgid "Push this button to configure the label."
 msgstr "লেবেল কনফিগার করার জন্য এই বাটন ক্লিক করুন।"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:212
-#: SensorDisplayLib/FancyPlotterSettings.cc:258
+#: SensorDisplayLib/FancyPlotterSettings.cc:253
 msgid "Delete"
 msgstr "মুছে ফেলুন"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:213
-#: SensorDisplayLib/FancyPlotterSettings.cc:259
+#: SensorDisplayLib/FancyPlotterSettings.cc:254
 msgid "Push this button to delete the sensor."
 msgstr "সেনসর মুছে ফেলার জন্য এই বাটন ক্লিক করুন।"
 
@@ -932,35 +929,35 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
-#: SensorDisplayLib/FancyPlotterSettings.cc:202 rc.cpp:92 rc.cpp:107
+#: SensorDisplayLib/FancyPlotterSettings.cc:197 rc.cpp:92 rc.cpp:107
 msgid "Colors"
 msgstr "রঙ"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:207
+#: SensorDisplayLib/FancyPlotterSettings.cc:202
 msgid "Font:"
 msgstr "ফন্ট:"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:214
+#: SensorDisplayLib/FancyPlotterSettings.cc:209
 msgid "Grid lines:"
 msgstr "গ্রিডের রেখা:"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:220
+#: SensorDisplayLib/FancyPlotterSettings.cc:215
 msgid "Background:"
 msgstr "পটভূমি:"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:250
+#: SensorDisplayLib/FancyPlotterSettings.cc:245
 msgid "Set Color..."
 msgstr "রঙ নির্ধারণ করুন..."
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:251
+#: SensorDisplayLib/FancyPlotterSettings.cc:246
 msgid "Push this button to configure the color of the sensor in the diagram."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:263
+#: SensorDisplayLib/FancyPlotterSettings.cc:258
 msgid "Move Up"
 msgstr "উপরে স্থানান্তর"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:268
+#: SensorDisplayLib/FancyPlotterSettings.cc:263
 msgid "Move Down"
 msgstr "নীচে স্থানান্তর"
 
@@ -977,19 +974,15 @@ msgstr "ঠিক আছে"
 msgid "Error"
 msgstr "ত্রুটি"
 
-#: SensorDisplayLib/SensorDisplay.cc:115
-msgid "Launch &System Guard"
-msgstr "System Guard আরম্ভ করুন (&S)"
-
-#: SensorDisplayLib/SensorDisplay.cc:122 SensorDisplayLib/SensorLogger.cc:598
+#: SensorDisplayLib/SensorDisplay.cc:118 SensorDisplayLib/SensorLogger.cc:598
 msgid "&Properties"
 msgstr "বৈশিষ্ট্যাবলী (&P)"
 
-#: SensorDisplayLib/SensorDisplay.cc:127 SensorDisplayLib/SensorLogger.cc:603
+#: SensorDisplayLib/SensorDisplay.cc:123 SensorDisplayLib/SensorLogger.cc:603
 msgid "&Remove Display"
 msgstr "ডিসপ্লে সরিয়ে নিন (&R)"
 
-#: SensorDisplayLib/SensorDisplay.cc:196
+#: SensorDisplayLib/SensorDisplay.cc:192
 #, kde-format
 msgid ""
 "<qt><p>This is a sensor display. To customize a sensor display click the "
@@ -1114,19 +1107,19 @@ msgstr ""
 msgid "&File"
 msgstr "ফাইল (&F)"
 
-#. i18n: file: ksysguardui.rc:13
+#. i18n: file: ksysguardui.rc:14
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:6
 msgid "&Edit"
 msgstr "সম্পাদনা (&E)"
 
-#. i18n: file: ksysguardui.rc:17
+#. i18n: file: ksysguardui.rc:18
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:9
 msgid "&Settings"
 msgstr "বৈশিষ্ট্যাবলী (&S)"
 
-#. i18n: file: ksysguardui.rc:20
+#. i18n: file: ksysguardui.rc:21
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:12
 msgid "Main Toolbar"
@@ -1327,141 +1320,160 @@ msgid "Sensor Browser"
 msgstr "সেনসর ব্রাউজার"
 
 #: SensorBrowser.cc:437
-msgid "Drag sensors to empty cells of a worksheet or the panel applet."
+msgid "Drag sensors to empty cells of a worksheet "
 msgstr ""
 
-#: SensorBrowser.cc:439
+#: SensorBrowser.cc:438
 msgid ""
 "The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet or the panel "
-"applet. A display will appear that visualizes the values provided by the "
-"sensor. Some sensor displays can display values of multiple sensors. Simply "
-"drag other sensors on to the display to add more sensors."
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
 msgstr ""
 
-#: ksysguard.cc:73
+#: ksysguard.cc:72
 msgid "KDE System Monitor"
 msgstr "KDE সিস্টেমে মনিটর"
 
-#: ksysguard.cc:150 ksysguard.cc:541
+#: ksysguard.cc:152 ksysguard.cc:530
 msgid "System Monitor"
 msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
-#: ksysguard.cc:151
+#: ksysguard.cc:153
 msgid "&New Tab..."
 msgstr ""
 
-#: ksysguard.cc:152
+#: ksysguard.cc:154
 msgid "Import Tab Fr&om File..."
 msgstr ""
 
-#: ksysguard.cc:153
+#: ksysguard.cc:155
 msgid "Save Tab &As..."
 msgstr ""
 
-#: ksysguard.cc:154
+#: ksysguard.cc:156
 msgid "&Close Tab"
 msgstr ""
 
-#: ksysguard.cc:155
+#: ksysguard.cc:157
 msgid "Monitor &Remote Machine..."
 msgstr "দূরবর্তী মেশিন নিরীক্ষণ করুন...(&R)"
 
-#: ksysguard.cc:156
+#: ksysguard.cc:158
 msgid "&Download New Tabs..."
 msgstr "নতুন ট্যাব ডাউনলোড করুন...(&D)"
 
-#: ksysguard.cc:157
+#: ksysguard.cc:159
+#, fuzzy
+#| msgid "&Download New Tabs..."
+msgid "&Upload Current Tab..."
+msgstr "নতুন ট্যাব ডাউনলোড করুন...(&D)"
+
+#: ksysguard.cc:161
 msgid "Tab &Properties"
 msgstr "ট্যাব সংক্রান্ত বৈশিষ্ট্য (&P)"
 
-#: ksysguard.cc:449
+#: ksysguard.cc:438
 #, kde-format
 msgid " 1 process "
 msgid_plural " %1 processes "
 msgstr[0] " একটি প্রসেস"
 msgstr[1] " %1-টি প্রসেস"
 
-#: ksysguard.cc:455
+#: ksysguard.cc:444
 #, kde-format
 msgid " CPU: %1% "
 msgstr " CPU: %1% "
 
-#: ksysguard.cc:469
+#: ksysguard.cc:458
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
 msgstr " মেমরি: %1 / %2 "
 
-#: ksysguard.cc:496
+#: ksysguard.cc:485
 msgid " No swap space available "
 msgstr " swap-র কোনো স্থান উপলব্ধ নেই "
 
-#: ksysguard.cc:498
+#: ksysguard.cc:487
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
 msgstr " Swap: %1 / %2 "
 
-#: ksysguard.cc:543
+#: ksysguard.cc:532
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "(c) ১৯৯৬-২০০৮ KDE System Monitor নির্মাতাবৃন্দ"
 
-#: ksysguard.cc:544
+#: ksysguard.cc:533
 msgid "John Tapsell"
 msgstr "জন ট্যাপসেল"
 
-#: ksysguard.cc:544
+#: ksysguard.cc:533
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইনটেনার"
 
-#: ksysguard.cc:545
+#: ksysguard.cc:534
 msgid "Chris Schlaeger"
 msgstr "ক্রিস স্খলেগার"
 
-#: ksysguard.cc:545
+#: ksysguard.cc:534
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী মেইনটেনার"
 
-#: ksysguard.cc:546
+#: ksysguard.cc:535
 msgid "Greg Martyn"
 msgstr "গ্রেগ মার্টিন"
 
-#: ksysguard.cc:547
+#: ksysguard.cc:536
 msgid "Tobias Koenig"
 msgstr "টোবিয়াস কোনিগ"
 
-#: ksysguard.cc:548
+#: ksysguard.cc:537
 msgid "Nicolas Leclercq"
 msgstr "নিকোলাস লেকলার্ক"
 
-#: ksysguard.cc:549
+#: ksysguard.cc:538
 msgid "Alex Sanda"
 msgstr "অ্যালেক্স স্যান্ড্রা"
 
-#: ksysguard.cc:550
+#: ksysguard.cc:539
 msgid "Bernd Johannes Wuebben"
 msgstr "বার্নড জোহানেস উইবেন"
 
-#: ksysguard.cc:551
+#: ksysguard.cc:540
 msgid "Ralf Mueller"
 msgstr "রাল্ফ মুলার"
 
-#: ksysguard.cc:552
+#: ksysguard.cc:541
 msgid "Hamish Rodda"
 msgstr "হামিশ রোড্ডা"
 
-#: ksysguard.cc:553
+#: ksysguard.cc:542
 msgid "Torsten Kasch"
 msgstr "টোর্সটেন কাশখ"
 
-#: ksysguard.cc:553
+#: ksysguard.cc:542
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
 
-#: ksysguard.cc:562
+#: ksysguard.cc:551
 msgid "Optional worksheet files to load"
 msgstr "লোড করার জন্য চিহ্নিত ঐচ্ছিক ওয়ার্ক-শিট"
+
+#~ msgid "Number of displays:"
+#~ msgstr "ডিসপ্লের সংখ্যা:"
+
+#~ msgid "Size ratio:"
+#~ msgstr "মাপের অনুপাত:"
+
+#~ msgctxt "Number suffix in spinbox"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Launch &System Guard"
+#~ msgstr "System Guard আরম্ভ করুন (&S)"
