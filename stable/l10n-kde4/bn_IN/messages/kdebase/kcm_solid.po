@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_solid\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2008-06-24 18:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -35,30 +35,24 @@ msgstr "কেভিন ওটেন্স"
 msgid "Prefer the selected backend."
 msgstr "নির্বাচিত ব্যাক-এন্ডকে অগ্রাধিকার দেওয়া হবে।"
 
-#. i18n: file: backendchooser.ui:95
-#. i18n: ectx: property (text), widget (QToolButton, upButton)
-#: rc.cpp:6
-msgid "move up"
-msgstr "উপরে স্থানান্তর"
-
-#. i18n: file: backendchooser.ui:116
+#. i18n: file: backendchooser.ui:113
 #. i18n: ectx: property (toolTip), widget (QToolButton, downButton)
-#: rc.cpp:9
+#: rc.cpp:6
 msgid "No preference for the selected backend."
 msgstr "নির্বাচিত ব্যাক-এন্ডকে অগ্রাধিকার দেওয়া হবে না।"
 
-#. i18n: file: backendchooser.ui:119
-#. i18n: ectx: property (text), widget (QToolButton, downButton)
-#: rc.cpp:12
-msgid "move down"
-msgstr "নীচে স্থানান্তর"
-
-#: rc.cpp:13
+#: rc.cpp:7
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
-#: rc.cpp:14
+#: rc.cpp:8
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@fedoraproject.org"
+
+#~ msgid "move up"
+#~ msgstr "উপরে স্থানান্তর"
+
+#~ msgid "move down"
+#~ msgstr "নীচে স্থানান্তর"

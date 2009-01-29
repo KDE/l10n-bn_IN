@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -20,10 +20,6 @@ msgstr ""
 #: kfinddlg.cpp:37
 msgid "Find Files/Folders"
 msgstr "ফাইল/ফোল্ডার অনুসন্ধান"
-
-#: kfinddlg.cpp:57
-msgid "AMiddleLengthText..."
-msgstr ""
 
 #: kfinddlg.cpp:58 kfinddlg.cpp:179
 msgid "Ready."
@@ -60,6 +56,7 @@ msgstr "নির্ধারিত ফোল্ডার পাওয়া যা
 #, fuzzy
 #| msgctxt "Name of the component that finds things"
 #| msgid "Find Component"
+msgctxt "Name of the component that finds things"
 msgid "Find Component"
 msgstr "অনুসন্ধান করতে ব্যবহৃত সামগ্রী"
 
@@ -196,11 +193,11 @@ msgstr "গিবিবাইট"
 msgid "File &type:"
 msgstr "ফাইলের প্রকৃতি: (&t)"
 
-#: kftabdlg.cpp:279
+#: kftabdlg.cpp:280
 msgid "C&ontaining text:"
 msgstr "উল্লিখিত লেখা সহ: (&o)"
 
-#: kftabdlg.cpp:285
+#: kftabdlg.cpp:286
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
@@ -210,19 +207,19 @@ msgstr ""
 "উপরোক্ত তালিকার মধ্যে উপস্থিত সর্বধরনের ফাইলের ক্ষেত্রে এই বিকল্প প্রযোজ্য নয়। অনুগ্রহ "
 "করে, সমর্থিত ফাইলের ধরন জানার জন্য সংশ্লিষ্ট নথিপত্র পড়ুন।</qt>"
 
-#: kftabdlg.cpp:293
+#: kftabdlg.cpp:294
 msgid "Case s&ensitive"
 msgstr "হরফের ছাঁদ সম্পর্কে সচেতন: (&e)"
 
-#: kftabdlg.cpp:294
+#: kftabdlg.cpp:295
 msgid "Include &binary files"
 msgstr "বাইনারি ফাইল অন্তর্ভুক্ত করা হবে (&b)"
 
-#: kftabdlg.cpp:295
+#: kftabdlg.cpp:296
 msgid "Regular e&xpression"
 msgstr "রেগুলার এক্সপ্রেশন (&x)"
 
-#: kftabdlg.cpp:298
+#: kftabdlg.cpp:299
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
@@ -230,71 +227,71 @@ msgstr ""
 "<qt>এই বিকল্পের সাহায্যে, লেখা বিহীন অন্যান্য ধরনের ফাইলগুলিও অনুসন্ধান করা হয় "
 "(যেমন, প্রোগ্রাম ফাইল ও ছবি)।</qt>"
 
-#: kftabdlg.cpp:306
+#: kftabdlg.cpp:307
 msgid "&Edit..."
 msgstr "সম্পাদনা...(&E)"
 
-#: kftabdlg.cpp:312
+#: kftabdlg.cpp:313
 msgid "fo&r:"
 msgstr "অনুসন্ধান করা হবে: (&r)"
 
-#: kftabdlg.cpp:314
+#: kftabdlg.cpp:315
 msgid "Search &metainfo sections:"
 msgstr "metainfo বিভাগে: (&m)"
 
-#: kftabdlg.cpp:318
+#: kftabdlg.cpp:319
 msgid "All Files & Folders"
 msgstr "সকল ফাইল ও ফোল্ডার"
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:320
 msgid "Files"
 msgstr "ফাইল"
 
-#: kftabdlg.cpp:320
+#: kftabdlg.cpp:321
 msgid "Folders"
 msgstr "ফোল্ডার"
 
-#: kftabdlg.cpp:321
+#: kftabdlg.cpp:322
 msgid "Symbolic Links"
 msgstr "সিম্বলিক লিংক"
 
-#: kftabdlg.cpp:322
+#: kftabdlg.cpp:323
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "বিশেষ ফাইল (সকেট, ডিভাইস ফাইল, ...)"
 
-#: kftabdlg.cpp:323
+#: kftabdlg.cpp:324
 msgid "Executable Files"
 msgstr "এক্সেকিউটেবল ফাইল"
 
-#: kftabdlg.cpp:324
+#: kftabdlg.cpp:325
 msgid "SUID Executable Files"
 msgstr "SUID দ্বারা এক্সেকিউটেবল ফাইল"
 
-#: kftabdlg.cpp:325
+#: kftabdlg.cpp:326
 msgid "All Images"
 msgstr "সর্বধরনের ছবির ফাইল"
 
-#: kftabdlg.cpp:326
+#: kftabdlg.cpp:327
 msgid "All Video"
 msgstr "সর্বধরনের ভিডিও ফাইল"
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:328
 msgid "All Sounds"
 msgstr "সর্বধরনের শব্দের ফাইল"
 
-#: kftabdlg.cpp:378
+#: kftabdlg.cpp:379
 msgid "Name/&Location"
 msgstr "নাম/অবস্থান (&L)"
 
-#: kftabdlg.cpp:379
+#: kftabdlg.cpp:380
 msgid "C&ontents"
 msgstr "বিষয়বস্তু (&o)"
 
-#: kftabdlg.cpp:380
+#: kftabdlg.cpp:381
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
-#: kftabdlg.cpp:385
+#: kftabdlg.cpp:386
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
 "examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
@@ -302,42 +299,42 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:393
+#: kftabdlg.cpp:394
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
 "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:586
+#: kftabdlg.cpp:587
 msgid "Unable to search within a period which is less than a minute."
 msgstr "এক মিনিটের কম সময়ের মধ্যে পরিবর্তিত ফাইল অনুসন্ধান করতে ব্যর্থ।"
 
-#: kftabdlg.cpp:597
+#: kftabdlg.cpp:598
 msgid "The date is not valid."
 msgstr "তারিখ বৈধ নয়।"
 
-#: kftabdlg.cpp:599
+#: kftabdlg.cpp:600
 msgid "Invalid date range."
 msgstr "তারিখের সীমা বৈধ নয়।"
 
-#: kftabdlg.cpp:601
+#: kftabdlg.cpp:602
 msgid "Unable to search dates in the future."
 msgstr "ভবিষ্যতের তারিখ অনুসন্ধান করতে ব্যর্থ।"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Size is too big. Set maximum size value?"
 msgstr "অত্যাধিক বড় মাপ। সর্বাধিক মাপ নির্ধারণ করা হবে কি?"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Error"
 msgstr "ত্রুটি"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Set"
 msgstr "নির্ধারণ করা হবে"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Do Not Set"
 msgstr "নির্ধারণ করা হবে না"
 

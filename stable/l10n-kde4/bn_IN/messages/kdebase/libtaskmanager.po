@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-29 15:40+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,107 +18,106 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: task.cpp:296
+#: task.cpp:282
 #, fuzzy
 #| msgctxt "marks that a task has been modified"
 #| msgid "modified"
+msgctxt "marks that a task has been modified"
 msgid "modified"
 msgstr "পরিবর্তিত"
 
-#: taskrmbmenu.cpp:84
-msgid "&To Current Desktop"
-msgstr "বর্তমান ডেস্কটপে স্থানান্তরণ (&T)"
-
-#: taskrmbmenu.cpp:95
-msgid "&Move"
-msgstr "স্থানান্তরণ (&M)"
-
-#: taskrmbmenu.cpp:98
-msgid "Re&size"
-msgstr "মাপ পরিবর্তন (&s)"
-
-#: taskrmbmenu.cpp:101
+#: taskactions.cpp:112
 msgid "Mi&nimize"
 msgstr "আড়াল করুন (&n)"
 
-#: taskrmbmenu.cpp:106
+#: taskactions.cpp:123
 msgid "Ma&ximize"
 msgstr "বড় করুন (&x)"
 
-#: taskrmbmenu.cpp:111
+#: taskactions.cpp:133
 msgid "&Shade"
 msgstr "ছায়াবৃত (&S)"
 
-#: taskrmbmenu.cpp:118
+#: taskactions.cpp:144
+msgid "Re&size"
+msgstr "মাপ পরিবর্তন (&s)"
+
+#: taskactions.cpp:153
+msgid "&Move"
+msgstr "স্থানান্তরণ (&M)"
+
+#: taskactions.cpp:162
 msgid "&Close"
 msgstr "বন্ধ করুন (&C)"
 
-#: taskrmbmenu.cpp:146
-#, fuzzy
-#| msgid "&To Current Desktop"
-msgid "All &to Current Desktop"
+#: taskactions.cpp:173
+msgid "&To Current Desktop"
 msgstr "বর্তমান ডেস্কটপে স্থানান্তরণ (&T)"
 
-#: taskrmbmenu.cpp:161
-#, fuzzy
-#| msgid "Mi&nimize"
-msgid "Mi&nimize All"
-msgstr "আড়াল করুন (&n)"
-
-#: taskrmbmenu.cpp:174
-#, fuzzy
-#| msgid "Ma&ximize"
-msgid "Ma&ximize All"
-msgstr "বড় করুন (&x)"
-
-#: taskrmbmenu.cpp:187
-msgid "&Restore All"
-msgstr ""
-
-#: taskrmbmenu.cpp:202
-#, fuzzy
-#| msgid "&Close"
-msgid "&Close All"
-msgstr "বন্ধ করুন (&C)"
-
-#: taskrmbmenu.cpp:209
-msgid "Ad&vanced"
-msgstr "উন্নত বৈশিষ্ট্য (&v)"
-
-#: taskrmbmenu.cpp:212
-msgid "Keep &Above Others"
-msgstr "সব থেকে উপরের স্থানে স্থাপন করা হবে (&A)"
-
-#: taskrmbmenu.cpp:218
-msgid "Keep &Below Others"
-msgstr "সব থেকে নীচে স্থাপন করা হবে (&B)"
-
-#: taskrmbmenu.cpp:224
-msgid "&Fullscreen"
-msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন (&F)"
-
-#: taskrmbmenu.cpp:240
-msgid "To &Desktop"
-msgstr "পৃথক ডেস্কটপে স্থানান্তরণ (&D)"
-
-#: taskrmbmenu.cpp:242 taskrmbmenu.cpp:267
+#: taskactions.cpp:192
 msgid "&All Desktops"
 msgstr "সকল ডেস্কটপে স্থাপন করুন (&A)"
 
-#~ msgid "&Leave Group"
-#~ msgstr "দল থেকে প্রস্থান করুন (&L)"
+#: taskactions.cpp:212
+msgid "To &Desktop"
+msgstr "পৃথক ডেস্কটপে স্থানান্তরণ (&D)"
 
-#~ msgid "&Edit Group"
-#~ msgstr "দলের তথ্য সম্পাদনা করুন (&E)"
+#: taskactions.cpp:225
+msgid "Keep &Above Others"
+msgstr "সব থেকে উপরের স্থানে স্থাপন করা হবে (&A)"
 
-#~ msgid "Leave Group"
-#~ msgstr "দল থেকে প্রস্থান করুন"
+#: taskactions.cpp:235
+msgid "Keep &Below Others"
+msgstr "সব থেকে নীচে স্থাপন করা হবে (&B)"
 
-#~ msgid "Remove Group"
-#~ msgstr "দল মুছে ফেলুন"
+#: taskactions.cpp:245
+msgid "&Fullscreen"
+msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন (&F)"
 
-#~ msgid "Allow This Program to Be Grouped"
-#~ msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে"
+#: taskactions.cpp:255
+msgid "Ad&vanced"
+msgstr "উন্নত বৈশিষ্ট্য (&v)"
 
-#~ msgid "Do Not Allow This Program to Be Grouped"
-#~ msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে না"
+#: taskactions.cpp:266
+msgid "&Leave Group"
+msgstr "দল থেকে প্রস্থান করুন (&L)"
+
+#: taskactions.cpp:281
+msgid "&Edit Group"
+msgstr "দলের তথ্য সম্পাদনা করুন (&E)"
+
+#: strategies/manualgroupingstrategy.cpp:86
+msgid "Leave Group"
+msgstr "দল থেকে প্রস্থান করুন"
+
+#: strategies/manualgroupingstrategy.cpp:93
+msgid "Remove Group"
+msgstr "দল মুছে ফেলুন"
+
+#: strategies/programgroupingstrategy.cpp:69
+msgid "Allow This Program to Be Grouped"
+msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে"
+
+#: strategies/programgroupingstrategy.cpp:71
+msgid "Do Not Allow This Program to Be Grouped"
+msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে না"
+
+#, fuzzy
+#~| msgid "&To Current Desktop"
+#~ msgid "All &to Current Desktop"
+#~ msgstr "বর্তমান ডেস্কটপে স্থানান্তরণ (&T)"
+
+#, fuzzy
+#~| msgid "Mi&nimize"
+#~ msgid "Mi&nimize All"
+#~ msgstr "আড়াল করুন (&n)"
+
+#, fuzzy
+#~| msgid "Ma&ximize"
+#~ msgid "Ma&ximize All"
+#~ msgstr "বড় করুন (&x)"
+
+#, fuzzy
+#~| msgid "&Close"
+#~ msgid "&Close All"
+#~ msgstr "বন্ধ করুন (&C)"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-29 15:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ktrash.cpp:34
+#: ktrash.cpp:32
 msgid "ktrash"
 msgstr "ktrash"
 
-#: ktrash.cpp:36
+#: ktrash.cpp:34
 #, fuzzy
 #| msgid ""
 #| "Helper program to handle the KDE trash can\n"
@@ -30,40 +30,97 @@ msgstr "ktrash"
 #| "'url' trash:/\""
 msgid ""
 "Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
 "'url' trash:/\""
 msgstr ""
 "KDE আবর্জনার বাক্সের জন্য ব্যবহৃত সহায়ক প্রোগ্রাম\n"
 "উল্লেখ্য: আবর্জনার বাক্স ফাইল স্থানান্তর করার জন্য ktrash ব্যবহার না করে \"kioclient "
 "move 'url' trash:/\" করুন"
 
-#: ktrash.cpp:40
+#: ktrash.cpp:38
 msgid "Empty the contents of the trash"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন"
 
-#: ktrash.cpp:42
+#: ktrash.cpp:40
 msgid "Restore a trashed file to its original location"
 msgstr "আবর্জনার মধ্যে স্থানান্তর করা একটি ফাইলকে পূর্ববর্তী অবস্থানে পুনরায় স্থাপন করুন"
 
-#: ktrash.cpp:44
+#: ktrash.cpp:42
 msgid "Ignored"
 msgstr "উপেক্ষিত"
 
-#: kio_trash.cpp:52
-msgid "Protocol name"
+#: trashimpl.cpp:1070
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
 msgstr ""
 
-#: kio_trash.cpp:53 kio_trash.cpp:54
-msgid "Socket name"
+#: trashimpl.cpp:1081
+msgid "The file is too large to be trashed."
+msgstr "ফাইলটির অত্যাধিক বৃহৎ মাপের ফলে আবর্জনার বাক্সে স্থানান্তর করা সম্ভব নয়।"
+
+#: kcmtrash.cpp:119
+msgid "Byte"
+msgstr "বাইট"
+
+#: kcmtrash.cpp:121
+msgid "KByte"
+msgstr "কিলোবাইট"
+
+#: kcmtrash.cpp:125
+msgid "MByte"
+msgstr "মেগাবাইট"
+
+#: kcmtrash.cpp:129
+msgid "GByte"
+msgstr "গিগাবাইট"
+
+#: kcmtrash.cpp:133
+msgid "TByte"
+msgstr "টেরাবাইট"
+
+#: kcmtrash.cpp:137
+#, kde-format
+msgid "(%1 %2)"
+msgstr "(%1 %2)"
+
+#: kcmtrash.cpp:264
+msgid "Delete files older than:"
 msgstr ""
 
-#: kio_trash.cpp:102 kio_trash.cpp:165 kio_trash.cpp:313 kio_trash.cpp:345
-#: kio_trash.cpp:511 kio_trash.cpp:523
+#: kcmtrash.cpp:275
+#, fuzzy
+#| msgid "Maximum size:"
+msgid "Limit to maximum size"
+msgstr "সর্বোচ্চ মাপ:"
+
+#: kcmtrash.cpp:286
+msgid "Maximum size:"
+msgstr "সর্বোচ্চ মাপ:"
+
+#: kcmtrash.cpp:299
+msgid "When limit reached:"
+msgstr ""
+
+#: kcmtrash.cpp:303
+msgid "Warn Me"
+msgstr ""
+
+#: kcmtrash.cpp:304
+msgid "Delete Oldest Files From Trash"
+msgstr ""
+
+#: kcmtrash.cpp:305
+msgid "Delete Biggest Files From Trash"
+msgstr ""
+
+#: kio_trash.cpp:91 kio_trash.cpp:154 kio_trash.cpp:302 kio_trash.cpp:334
+#: kio_trash.cpp:500 kio_trash.cpp:512
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "ত্রুটিপূর্ণ URL %1"
 
-#: kio_trash.cpp:121
+#: kio_trash.cpp:110
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -75,30 +132,6 @@ msgstr ""
 "অবস্থানে পুনরায় স্থাপন করা সম্ভব হবে না। ডিরেক্টরিটি নতুন করে নির্মাণ করে এই কর্ম "
 "পুনরায় প্রচেষ্টা করুন অথবা, বস্তুটিকে অন্য কোনো স্থানে টেনে নিয়ে পুনরুদ্ধার করুন।"
 
-#: kio_trash.cpp:150
+#: kio_trash.cpp:139
 msgid "This file is already in the trash bin."
 msgstr "ফাইলটি পূর্বেই আবর্জনার বাক্সে স্থানান্তর করা হয়েছে।"
-
-#~ msgid "The file is too large to be trashed."
-#~ msgstr "ফাইলটির অত্যাধিক বৃহৎ মাপের ফলে আবর্জনার বাক্সে স্থানান্তর করা সম্ভব নয়।"
-
-#~ msgid "Byte"
-#~ msgstr "বাইট"
-
-#~ msgid "KByte"
-#~ msgstr "কিলোবাইট"
-
-#~ msgid "MByte"
-#~ msgstr "মেগাবাইট"
-
-#~ msgid "GByte"
-#~ msgstr "গিগাবাইট"
-
-#~ msgid "TByte"
-#~ msgstr "টেরাবাইট"
-
-#~ msgid "(%1 %2)"
-#~ msgstr "(%1 %2)"
-
-#~ msgid "Maximum size:"
-#~ msgstr "সর্বোচ্চ মাপ:"

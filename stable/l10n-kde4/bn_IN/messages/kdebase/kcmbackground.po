@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-07-04 23:46+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -519,7 +519,7 @@ msgstr "অপশন সমূহ"
 
 #. i18n: file: bgdialog_ui.ui:246
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_lblWallpaperPos)
-#. i18n: file: bgdialog_ui.ui:428
+#. i18n: file: bgdialog_ui.ui:437
 #. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboWallpaperPos)
 #: rc.cpp:92 rc.cpp:137
 msgid ""
@@ -550,7 +550,7 @@ msgstr ""
 msgid "Posi&tion:"
 msgstr "অবস্থান (&t):"
 
-#. i18n: file: bgdialog_ui.ui:262
+#. i18n: file: bgdialog_ui.ui:265
 #. i18n: ectx: property (whatsThis), widget (QComboBox, m_comboBlend)
 #: rc.cpp:107
 msgid ""
@@ -563,13 +563,13 @@ msgstr ""
 "ছবিটার মিশ্রন হতে পারে যেটা সহজেই নির্ধারিত করা যায়। ডিফল্ট অপশন হচ্ছে  \"ব্লেন্ড "
 "হবে না\" যার মানে ছবির নীচে রঙের পটভূমিতে কোনো প্রভাব পড়ে না।"
 
-#. i18n: file: bgdialog_ui.ui:271
+#. i18n: file: bgdialog_ui.ui:274
 #. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorPrimary)
 #: rc.cpp:110
 msgid "Click to choose the primary background color."
 msgstr "প্রাথমিক রং নির্বাচিত করতে এখানে ক্লিক করুন।"
 
-#. i18n: file: bgdialog_ui.ui:281
+#. i18n: file: bgdialog_ui.ui:284
 #. i18n: ectx: property (whatsThis), widget (KColorButton, m_colorSecondary)
 #: rc.cpp:113
 msgid ""
@@ -579,21 +579,21 @@ msgstr ""
 "এখানে ক্লিক করে একটা গৌন/দ্বিতীয় রং নির্বাচিত করুন। যদি নির্বাচিত প্যাটার্নের কোনো "
 "গৌন রং দরকার না হয় তাহলে এই বাটনটা অকেজো হয়ে যায়।"
 
-#. i18n: file: bgdialog_ui.ui:293
+#. i18n: file: bgdialog_ui.ui:296
 #. i18n: ectx: property (text), widget (QLabel, m_lblColors)
 #: rc.cpp:116
 msgid "Co&lors:"
 msgstr "রং সমূহ (&l):"
 
-#. i18n: file: bgdialog_ui.ui:306
+#. i18n: file: bgdialog_ui.ui:312
 #. i18n: ectx: property (text), widget (QLabel, m_lblBlending)
 #: rc.cpp:119
 msgid "&Blending:"
 msgstr "মিশ্রন (&B):"
 
-#. i18n: file: bgdialog_ui.ui:321
+#. i18n: file: bgdialog_ui.ui:330
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_lblBlendBalance)
-#. i18n: file: bgdialog_ui.ui:337
+#. i18n: file: bgdialog_ui.ui:346
 #. i18n: ectx: property (whatsThis), widget (QSlider, m_sliderBlend)
 #: rc.cpp:122 rc.cpp:128
 msgid ""
@@ -604,13 +604,13 @@ msgstr ""
 "এই স্লাইডার ব্যবহার করুন মিশ্রনের মাত্রা নির্ধারন করার জন্যে। অাপনি স্লাইডারটা সরিয়ে "
 "ও তার প্রভাব প্রাকদর্শন করে বিভিন্ন পরীক্ষা করতে পারেন।"
 
-#. i18n: file: bgdialog_ui.ui:324
+#. i18n: file: bgdialog_ui.ui:333
 #. i18n: ectx: property (text), widget (QLabel, m_lblBlendBalance)
 #: rc.cpp:125
 msgid "Balance:"
 msgstr "ভারসাম্য:"
 
-#. i18n: file: bgdialog_ui.ui:364
+#. i18n: file: bgdialog_ui.ui:373
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_cbBlendReverse)
 #: rc.cpp:131
 msgid ""
@@ -620,43 +620,43 @@ msgstr ""
 "কিছু প্রকারের মিশ্রনে, অামরা পটভূমি তথা ছবির ভূমিকা অদল-বদল করে দিতে পারি এই অপশন "
 "চয়ন করে।"
 
-#. i18n: file: bgdialog_ui.ui:367
+#. i18n: file: bgdialog_ui.ui:376
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbBlendReverse)
 #: rc.cpp:134
 msgid "Reverse roles"
 msgstr "বিপরীত ভূমিকা"
 
-#. i18n: file: bgdialog_ui.ui:438
+#. i18n: file: bgdialog_ui.ui:447
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, m_buttonGroupBackground)
 #: rc.cpp:149
 msgid "Background"
 msgstr "পটভূমি"
 
-#. i18n: file: bgdialog_ui.ui:444
+#. i18n: file: bgdialog_ui.ui:453
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_radioNoPicture)
 #: rc.cpp:152
 msgid "No picture, color only"
 msgstr "খালি রং অাছে কিন্তু কোনো ছবি নেই"
 
-#. i18n: file: bgdialog_ui.ui:447
+#. i18n: file: bgdialog_ui.ui:456
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioNoPicture)
 #: rc.cpp:155
 msgid "&No picture"
 msgstr "কোনো ছবি নেই (&N)"
 
-#. i18n: file: bgdialog_ui.ui:454
+#. i18n: file: bgdialog_ui.ui:463
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSlideShow)
 #: rc.cpp:158
 msgid "&Slide show:"
 msgstr "স্লাইড শো (&S):"
 
-#. i18n: file: bgdialog_ui.ui:461
+#. i18n: file: bgdialog_ui.ui:470
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioPicture)
 #: rc.cpp:161
 msgid "&Picture:"
 msgstr "ছবি (&P):"
 
-#. i18n: file: bgdialog_ui.ui:487
+#. i18n: file: bgdialog_ui.ui:496
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonSetupWallpapers)
 #: rc.cpp:164
 msgid ""
@@ -669,26 +669,26 @@ msgstr ""
 "ছবি একটা নির্দিষ্ট সময় অবধি দেখানো হয়, তার পরে অন্য অারেকটা ছবি ওই সমূহ থেকে "
 "দেখানো হবে। ছবি গুলো একটা নির্দিষ্ট অথবা এলোমেলো তালিকায় প্রদর্শিত হবে।"
 
-#. i18n: file: bgdialog_ui.ui:490
+#. i18n: file: bgdialog_ui.ui:499
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonSetupWallpapers)
 #: rc.cpp:167
 msgid "Set&up..."
 msgstr "বিন্যাস (&u)..."
 
-#. i18n: file: bgdialog_ui.ui:548
+#. i18n: file: bgdialog_ui.ui:557
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboScreen)
 #: rc.cpp:170
 msgid ""
 "Choose the screen you wish to configure the background for from this list."
 msgstr "যে স্ক্রীনের পটভূমি কনফিগার করতে চান সেটা এই তালিকা থেকে নির্বাচিত করুন।"
 
-#. i18n: file: bgdialog_ui.ui:552
+#. i18n: file: bgdialog_ui.ui:561
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
 #: rc.cpp:173
 msgid "Across All Screens"
 msgstr "সব স্ক্রীনে"
 
-#. i18n: file: bgdialog_ui.ui:557
+#. i18n: file: bgdialog_ui.ui:566
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboScreen)
 #: rc.cpp:176
 msgid "On Each Screen"

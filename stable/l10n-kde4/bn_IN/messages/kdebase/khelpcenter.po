@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-31 18:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: application.cpp:57 navigator.cpp:483
+#: application.cpp:57 navigator.cpp:470
 msgid "KDE Help Center"
 msgstr "KDE Help Center"
 
@@ -84,6 +84,7 @@ msgstr "মাপ"
 #, fuzzy
 #| msgctxt "The smallest size a will have"
 #| msgid "M&inimum font size:"
+msgctxt "The smallest size a will have"
 msgid "M&inimum font size:"
 msgstr "ফন্টের সর্বনিম্ন মাপ প্রয়োগ করা হবে (&i)"
 
@@ -91,6 +92,7 @@ msgstr "ফন্টের সর্বনিম্ন মাপ প্রয়ো
 #, fuzzy
 #| msgctxt "The normal size a font will have"
 #| msgid "M&edium font size:"
+msgctxt "The normal size a font will have"
 msgid "M&edium font size:"
 msgstr "ফন্টের মাঝারি মাপ প্রয়োগ করা হবে: (&e)"
 
@@ -130,7 +132,7 @@ msgstr "এনকোডিং"
 msgid "&Default encoding:"
 msgstr "ডিফল্ট এনকোডিং: (&D)"
 
-#: fontdialog.cpp:147 fontdialog.cpp:215
+#: fontdialog.cpp:147 fontdialog.cpp:217
 msgid "Use Language Encoding"
 msgstr "ভাষার এনকোডিং প্রয়োগ করা হবে"
 
@@ -179,45 +181,42 @@ msgstr "ht://dig"
 
 #: htmlsearchconfig.cpp:59
 msgid ""
-"The fulltext search feature makes use of the ht://dig HTML search engine. "
-"You can get ht://dig at the"
+"The fulltext search feature makes use of the ht://dig HTML search engine."
 msgstr ""
 
-#: htmlsearchconfig.cpp:64
+#: htmlsearchconfig.cpp:63
 msgid "Information about where to get the ht://dig package."
 msgstr "ht://dig প্যাকেজের প্রাপ্তিস্থল সম্পর্কিত তথ্য।"
 
-#: htmlsearchconfig.cpp:68
-#, fuzzy
-#| msgid "ht://dig"
-msgid "ht://dig home page"
-msgstr "ht://dig"
+#: htmlsearchconfig.cpp:67
+msgid "You can get ht://dig at the ht://dig home page"
+msgstr "ht://dig-র হোম পেজ থেকে ht://dig পাওয়া যাবে"
 
-#: htmlsearchconfig.cpp:74
+#: htmlsearchconfig.cpp:73
 msgid "Program Locations"
 msgstr "প্রোগ্রামের অবস্থান"
 
-#: htmlsearchconfig.cpp:83
+#: htmlsearchconfig.cpp:82
 msgid "htsearch:"
 msgstr "htsearch:"
 
-#: htmlsearchconfig.cpp:89
+#: htmlsearchconfig.cpp:88
 msgid "Enter the URL of the htsearch CGI program."
 msgstr "htsearch CGI প্রোগ্রামের URL লিখুন।"
 
-#: htmlsearchconfig.cpp:94
+#: htmlsearchconfig.cpp:93
 msgid "Indexer:"
 msgstr "ইন্ডেক্সার:"
 
-#: htmlsearchconfig.cpp:100
+#: htmlsearchconfig.cpp:99
 msgid "Enter the path to your htdig indexer program here."
 msgstr ""
 
-#: htmlsearchconfig.cpp:106
+#: htmlsearchconfig.cpp:105
 msgid "htdig database:"
 msgstr "htdig ডাটাবেস:"
 
-#: htmlsearchconfig.cpp:112
+#: htmlsearchconfig.cpp:111
 msgid "Enter the path to the htdig database folder."
 msgstr "htdig ডাটাবেস ফোল্ডারের পাথ লিখুন।"
 
@@ -336,11 +335,11 @@ msgstr ""
 msgid "No indexing command specified for document type '%1'."
 msgstr ""
 
-#: kcmhelpcenter.cpp:531
+#: kcmhelpcenter.cpp:541
 msgid "Failed to build index."
 msgstr "ইন্ডেক্স নির্মাণ করতে ব্যর্থ।"
 
-#: kcmhelpcenter.cpp:586
+#: kcmhelpcenter.cpp:596
 #, kde-format
 msgid ""
 "Error executing indexing build command:\n"
@@ -450,24 +449,24 @@ msgstr "অনুসন্ধানের বিকল্প"
 msgid "G&lossary"
 msgstr "শব্দকোষ (&l)"
 
-#: navigator.cpp:482
+#: navigator.cpp:469
 msgid "Start Page"
 msgstr "প্রারম্ভিক পৃষ্ঠা"
 
-#: navigator.cpp:570
+#: navigator.cpp:557
 msgid "Unable to run search program."
 msgstr "অনুসন্ধানের প্রোগ্রাম সঞ্চালন করতে ব্যর্থ।"
 
-#: navigator.cpp:610
+#: navigator.cpp:597
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr ""
 "অনুসন্ধানের ইন্ডেক্স বর্তমানে উপস্থিত নেই। আপনি কি এখন ইন্ডেক্স তৈরি করতে ইচ্ছুক?"
 
-#: navigator.cpp:614
+#: navigator.cpp:601
 msgid "Create"
 msgstr "নির্মাণ করা হবে"
 
-#: navigator.cpp:615
+#: navigator.cpp:602
 msgid "Do Not Create"
 msgstr "নির্মাণ করা হবে না"
 
@@ -623,90 +622,21 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "অজানা"
 
-#: view.cpp:119
-msgid "Conquer your Desktop!"
-msgstr ""
-
-#: view.cpp:123
-#, fuzzy
-#| msgid "KDE Help Center"
-msgid "Help Center"
-msgstr "KDE Help Center"
-
-#: view.cpp:125
-msgid "Welcome to the K Desktop Environment"
-msgstr ""
-
-#: view.cpp:126
-msgid "The KDE team welcomes you to user-friendly UNIX computing"
-msgstr ""
-
-#: view.cpp:127
-msgid ""
-"KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
-"KDE desktop combines ease of use, contemporary functionality and "
-"outstanding\n"
-"graphical design with the technological superiority of the UNIX operating\n"
-"system."
-msgstr ""
-
-#: view.cpp:131
-msgid "What is the K Desktop Environment?"
-msgstr ""
-
-#: view.cpp:132
-msgid "Contacting the KDE Project"
-msgstr ""
-
-#: view.cpp:133
-msgid "Supporting the KDE Project"
-msgstr ""
-
-#: view.cpp:134
-msgid "Useful links"
-msgstr ""
-
-#: view.cpp:135
-msgid "Getting the most out of KDE"
-msgstr ""
-
-#: view.cpp:136
-msgid "General Documentation"
-msgstr ""
-
-#: view.cpp:137
-msgid "A Quick Start Guide to the Desktop"
-msgstr ""
-
-#: view.cpp:138
-msgid "KDE Users' guide"
-msgstr ""
-
-#: view.cpp:139
-msgid "Frequently asked questions"
-msgstr ""
-
-#: view.cpp:140
-msgid "Basic Applications"
-msgstr ""
-
-#: view.cpp:141
-msgid "The Kicker Desktop Panel"
-msgstr ""
-
-#: view.cpp:142
-#, fuzzy
-#| msgid "The KDE Help Center"
-msgid "The KDE Control Center"
-msgstr "KDE-র সহায়তা কেন্দ্র"
-
-#: view.cpp:143
-msgid "The Konqueror File manager and Web Browser"
-msgstr ""
-
-#: view.cpp:267
+#: view.cpp:209
 msgid "Copy Link Address"
 msgstr "লিঙ্কের ঠিকানা কপি করুন"
 
-#~ msgid "You can get ht://dig at the ht://dig home page"
-#~ msgstr "ht://dig-র হোম পেজ থেকে ht://dig পাওয়া যাবে"
+#, fuzzy
+#~| msgid "ht://dig"
+#~ msgid "ht://dig home page"
+#~ msgstr "ht://dig"
+
+#, fuzzy
+#~| msgid "KDE Help Center"
+#~ msgid "Help Center"
+#~ msgstr "KDE Help Center"
+
+#, fuzzy
+#~| msgid "The KDE Help Center"
+#~ msgid "The KDE Control Center"
+#~ msgstr "KDE-র সহায়তা কেন্দ্র"

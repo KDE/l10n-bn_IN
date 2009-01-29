@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-02 17:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -75,7 +75,7 @@ msgid "Unify Outputs"
 msgstr ""
 
 #: krandrtray.cpp:375 legacyrandrconfig.cpp:269 legacyrandrscreen.cpp:246
-#: outputconfig.cpp:292
+#: outputconfig.cpp:325
 #, kde-format
 msgid "%1 Hz"
 msgstr "%1 হার্টজ"
@@ -169,50 +169,50 @@ msgstr "উল্লেখযোগ্য সংশোধন, মাল্টি
 msgid "Application is being auto-started at KDE session start"
 msgstr "KDE সেশান আরম্ভের সময় অ্যাপ্লিকেশন স্বয়ংক্রিয়ভাবে আরম্ভ করা হবে"
 
-#: outputconfig.cpp:145
+#: outputconfig.cpp:165
 msgid "Left of"
 msgstr "বাঁদিকে"
 
-#: outputconfig.cpp:146
+#: outputconfig.cpp:166
 msgid "Right of"
 msgstr "ডানদিকে"
 
-#: outputconfig.cpp:147
+#: outputconfig.cpp:167
 msgctxt "Output is placed above another one"
 msgid "Above"
 msgstr "উপরে"
 
-#: outputconfig.cpp:148
+#: outputconfig.cpp:168
 msgctxt "Output is placed below another one"
 msgid "Below"
 msgstr "নীচে"
 
-#: outputconfig.cpp:149
+#: outputconfig.cpp:169
 msgid "Clone of"
 msgstr "প্রতিলিপি"
 
-#: outputconfig.cpp:150
+#: outputconfig.cpp:170
 msgctxt "Fixed, abitrary position"
 msgid "Absolute"
 msgstr "সুনিশ্চিত"
 
-#: outputconfig.cpp:153
+#: outputconfig.cpp:173
 msgid "No relative position"
 msgstr "কোনো আপেক্ষিত অবস্থান নেই"
 
-#: outputconfig.cpp:256
+#: outputconfig.cpp:288
 msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: outputconfig.cpp:261
-#, fuzzy
+#: outputconfig.cpp:294
+#, fuzzy, kde-format
 #| msgctxt "Automatic screen size (native resolution)"
 #| msgid "%1 (Auto)"
-msgctxt "Automatic (native resolution)"
-msgid " (Auto)"
+msgctxt "Automatic screen size (native resolution)"
+msgid "%1 (Auto)"
 msgstr "%1 (স্বয়ংক্রিয়)"
 
-#: outputconfig.cpp:286
+#: outputconfig.cpp:319
 msgctxt "Automatic configuration"
 msgid "Auto"
 msgstr "স্বয়ংক্রিয়"
@@ -228,7 +228,7 @@ msgstr "বাঁদিকে (৯০ ডিগ্রি)"
 #: randr.cpp:35
 #, fuzzy
 #| msgid "Left (90 degrees)"
-msgid "Upside-down (180 degrees)"
+msgid "Upside-Down (180 degrees)"
 msgstr "বাঁদিকে (৯০ ডিগ্রি)"
 
 #: randr.cpp:37
@@ -238,41 +238,39 @@ msgstr "ডানদিকে (২৭০ ডিগ্রি)"
 #: randr.cpp:39
 #, fuzzy
 #| msgid "Mirror Horizontally"
-msgid "Mirror horizontally"
+msgid "Mirror Horizontally"
 msgstr "অনুভূমিক প্রতিচ্ছবি"
 
 #: randr.cpp:41
 #, fuzzy
 #| msgid "Mirror Vertically"
-msgid "Mirror vertically"
+msgid "Mirror Vertically"
 msgstr "উলম্ব প্রতিচ্ছবি"
 
 #: randr.cpp:43 randr.cpp:74
 #, fuzzy
 #| msgid "Unknown Orientation"
-msgid "Unknown orientation"
+msgid "Unknown Orientation"
 msgstr "অজানা দিশা"
 
 #: randr.cpp:48
-msgid "Not rotated"
+msgid "Not Rotated"
 msgstr ""
 
 #: randr.cpp:50
-msgid "Rotated 90 degrees counterclockwise"
+msgid "Rotated 90 Degrees Counterclockwise"
 msgstr ""
 
 #: randr.cpp:52
-msgid "Rotated 180 degrees counterclockwise"
+msgid "Rotated 180 Degrees Counterclockwise"
 msgstr ""
 
 #: randr.cpp:54
-msgid "Rotated 270 degrees counterclockwise"
+msgid "Rotated 270 Degrees Counterclockwise"
 msgstr ""
 
 #: randr.cpp:59
-#, fuzzy
-#| msgid "mirrored horizontally and vertically"
-msgid "Mirrored horizontally and vertically"
+msgid "Mirrored Horizontally And Vertically"
 msgstr "অনুভুমিক ও উলম্ব দিশায় প্রতিচ্ছবি"
 
 #: randr.cpp:61
@@ -282,7 +280,7 @@ msgstr "অনুভুমিক ও উলম্ব দিশায় প্র�
 #: randr.cpp:64
 #, fuzzy
 #| msgid "Mirrored Horizontally"
-msgid "Mirrored horizontally"
+msgid "Mirrored Horizontally"
 msgstr "অনুভুমিক প্রতিচ্ছবি"
 
 #: randr.cpp:66
@@ -292,7 +290,7 @@ msgstr "অনুভুমিক প্রতিচ্ছবি"
 #: randr.cpp:69
 #, fuzzy
 #| msgid "Mirrored Vertically"
-msgid "Mirrored vertically"
+msgid "Mirrored Vertically"
 msgstr "উলম্ব প্রতিচ্ছবি"
 
 #: randr.cpp:71
@@ -321,6 +319,11 @@ msgid ""
 "indicate whether you wish to keep this configuration. In 15 seconds the "
 "display will revert to your previous settings."
 msgstr ""
+
+#: randrconfig.cpp:111
+#, kde-format
+msgid "%1 (Connected)"
+msgstr "%1 (সংযুক্ত)"
 
 #: randrdisplay.cpp:49
 #, kde-format
@@ -456,21 +459,23 @@ msgstr "অবস্থান:"
 msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
 msgstr ""
 
-#: rc.cpp:58
+#. i18n: file: randrconfigbase.ui:42
+#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
+#: rc.cpp:60
+msgid "Identify Outputs"
+msgstr "আউটপুট সনাক্ত করুন"
+
+#: rc.cpp:61
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
-#: rc.cpp:59
+#: rc.cpp:62
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#~ msgid "Mirrored Horizontally And Vertically"
+#, fuzzy
+#~| msgid "mirrored horizontally and vertically"
+#~ msgid "Mirrored horizontally and vertically"
 #~ msgstr "অনুভুমিক ও উলম্ব দিশায় প্রতিচ্ছবি"
-
-#~ msgid "%1 (Connected)"
-#~ msgstr "%1 (সংযুক্ত)"
-
-#~ msgid "Identify Outputs"
-#~ msgstr "আউটপুট সনাক্ত করুন"
