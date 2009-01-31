@@ -39,8 +39,6 @@ msgid "Web browser, file manager and document viewer."
 msgstr "ওয়েব ব্রাউজার, ফাইল পরিচালনব্যবস্থা, ও ডকুমেন্ট প্রদর্শক।"
 
 #: src/konqfactory.cpp:233
-#, fuzzy
-#| msgid "(C) 1999-2008, The Konqueror developers"
 msgid "(C) 1999-2008, The Konqueror developers"
 msgstr "(C) ১৯৯৯-২০০৮, Konqueror-র নির্মাতাবৃন্দ"
 
@@ -350,26 +348,18 @@ msgid "Konqueror didn't close correctly. Would you like to restore session?"
 msgstr "Konqueror সঠিকভাবে বন্ধ করা হয়নি। পূর্ববর্তী সেশান পুনরুদ্ধার করা হবে কি?"
 
 #: src/konqsessionmanager.cpp:322
-#, fuzzy
-#| msgid "Restore Session?"
 msgid "Restore Session?"
 msgstr "সেশান পুনরুদ্ধার করা হবে কি?"
 
 #: src/konqsessionmanager.cpp:323
-#, fuzzy
-#| msgid "Restore Session"
 msgid "Restore Session"
 msgstr "সেশান পুনরুদ্ধার করা হবে"
 
 #: src/konqsessionmanager.cpp:324
-#, fuzzy
-#| msgid "Do Not Restore"
 msgid "Do Not Restore"
 msgstr "সেশান পুনরুদ্ধার করা হবে না"
 
 #: src/konqsessionmanager.cpp:325
-#, fuzzy
-#| msgid "Ask Me Later"
 msgid "Ask Me Later"
 msgstr "পরে জিজ্ঞাসা করা হবে"
 
@@ -461,10 +451,8 @@ msgid "Navigate to your 'Home Folder'"
 msgstr "আপনার 'ব্যক্তিগত ফোল্ডার'-এ চলুন"
 
 #: src/konqmainwindow.cpp:2056
-#, fuzzy
-#| msgid "Navigate to your 'Home Folder'"
 msgid "Navigate to your 'Home Page'"
-msgstr "আপনার 'ব্যক্তিগত ফোল্ডার'-এ চলুন"
+msgstr "আপনার 'হোম পেজ'-এ চলুন"
 
 #: src/konqmainwindow.cpp:2057
 msgid "Navigate to your local 'Home Folder'"
@@ -552,14 +540,10 @@ msgid "Empty Closed Items History"
 msgstr "বন্ধ করা বস্তু"
 
 #: src/konqmainwindow.cpp:2888
-#, fuzzy
-#| msgid "Save As..."
 msgid "Save As..."
 msgstr "নতুন রূপে সংরক্ষণ..."
 
 #: src/konqmainwindow.cpp:2890
-#, fuzzy
-#| msgid "Manage..."
 msgid "Manage..."
 msgstr "ব্যবস্থাপনা..."
 
@@ -1130,8 +1114,7 @@ msgid "Stalled"
 msgstr "স্থগিত"
 
 #: src/konqguiclients.cpp:66
-#, fuzzy, kde-format
-#| msgid "Preview &in %1"
+#, kde-format
 msgid "Preview &in %1"
 msgstr "%1-র মধ্যে ঝলক প্রদর্শন করা হবে (&i)"
 
@@ -1224,9 +1207,6 @@ msgid "By &Date"
 msgstr "তারিখ অনুসারে (&D)"
 
 #: sidebar/trees/history_module/history_module.cpp:261
-#, fuzzy
-#| msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-#| msgid "Sort"
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
 msgid "Sort"
 msgstr "ক্রমবিন্যাস"
@@ -2076,9 +2056,6 @@ msgstr "প্রোফাইলের মধ্যে URL সংরক্ষণ
 #. i18n: file: src/konqsessiondlg_base.ui:25
 #. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
 #: rc.cpp:50
-#, fuzzy
-#| msgctxt "@action:button New session"
-#| msgid "New..."
 msgctxt "@action:button New session"
 msgid "New..."
 msgstr "নতুন..."
@@ -2086,9 +2063,6 @@ msgstr "নতুন..."
 #. i18n: file: src/konqsessiondlg_base.ui:32
 #. i18n: ectx: property (text), widget (QPushButton, m_pSaveCurrentButton)
 #: rc.cpp:53
-#, fuzzy
-#| msgctxt "@action:button Save current session"
-#| msgid "Save Current"
 msgctxt "@action:button Save current session"
 msgid "Save Current"
 msgstr "বর্তমান সেশান সংরক্ষণ করুন"
@@ -2188,11 +2162,6 @@ msgstr "বিস্তারিত বর্ণনা বিশিষ্ট ট
 #: rc.cpp:104
 msgid "Clear History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
-
-#, fuzzy
-#~| msgid "Navigate to your 'Home Page'"
-#~ msgid "Navigate to your 'Home Location'"
-#~ msgstr "আপনার 'হোম পেজ'-এ চলুন"
 
 #, fuzzy
 #~| msgid "Installed Plugins"

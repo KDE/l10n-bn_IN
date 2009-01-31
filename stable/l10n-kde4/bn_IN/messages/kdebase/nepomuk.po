@@ -97,9 +97,6 @@ msgid "File indexer is idle"
 msgstr "ফাইল ইন্ডেক্সার বর্তমানে কর্মহীন"
 
 #: kcm/nepomukserverkcm.cpp:207
-#, fuzzy
-#| msgctxt "@info_status"
-#| msgid "Strigi service not running."
 msgctxt "@info_status"
 msgid "Strigi service not running."
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
@@ -163,10 +160,6 @@ msgstr "Nepomuk Semantic ডেস্কটপ"
 #. i18n: file: kcm/nepomukconfigwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:11
-#, fuzzy
-#| msgid ""
-#| "Nepomuk Semantic Desktop enables tagging and rating of files integrated "
-#| "with the Desktop Search."
 msgid ""
 "Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
 "the Desktop Search."
@@ -183,10 +176,8 @@ msgstr "Nepomuk Semantic ডেস্কটপ সক্রিয় করুন"
 #. i18n: file: kcm/nepomukconfigwidget.ui:42
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:17
-#, fuzzy
-#| msgid "Strigi File Indexing"
 msgid "Strigi Desktop File Indexer"
-msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
+msgstr "Strigi ডেস্কটপ ফাইল ইন্ডেক্সার"
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -201,8 +192,6 @@ msgstr ""
 #. i18n: file: kcm/nepomukconfigwidget.ui:58
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableStrigi)
 #: rc.cpp:23
-#, fuzzy
-#| msgid "Enable Strigi Desktop File Indexer"
 msgid "Enable Strigi Desktop File Indexer"
 msgstr "Strigi ডেস্কটপ ফাইল ইন্ডেক্সার সক্রিয় করুন"
 
@@ -444,14 +433,3 @@ msgstr "কোনো পরিসেবার নাম নির্ধারি
 #: servicestub/main.cpp:115
 msgid "Unknown service name:"
 msgstr "পরিসেবার নাম অজানা:"
-
-#, fuzzy
-#~| msgctxt "@info_status"
-#~| msgid "Strigi service not running."
-#~ msgid "Strigi is running"
-#~ msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
-
-#, fuzzy
-#~| msgid "Strigi Desktop File Indexer"
-#~ msgid "Strigi Desktop Search"
-#~ msgstr "Strigi ডেস্কটপ ফাইল ইন্ডেক্সার"

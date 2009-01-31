@@ -93,8 +93,6 @@ msgid "Added NTP support"
 msgstr "NTP সমর্থন যোগ করেছেন"
 
 #: main.cpp:112
-#, fuzzy
-#| msgid "Failed to set system date/time/time zone."
 msgid "Failed to set system date/time/time zone."
 msgstr "সিস্টেমের তারিখ/সময়/সময়ের অঞ্চল নির্ধারণ করতে ব্যর্থ।"
 
@@ -117,19 +115,14 @@ msgid "To change the local time zone, select your area from the list below"
 msgstr ""
 
 #: tzone.cpp:95
-#, fuzzy, kde-format
-#| msgid "Current local time zone: %1 (%2)"
+#, kde-format
 msgid "Current local time zone: %1 (%2)"
 msgstr "বর্তমান স্থানীয় সময়ের অঞ্চল: %1 (%2)"
 
 #: tzone.cpp:120
-#, fuzzy
-#| msgid "Error setting new time zone."
 msgid "Error setting new time zone."
 msgstr "নতুন সময়ের অঞ্চল নির্ধারণ করতে সমস্যা।"
 
 #: tzone.cpp:121
-#, fuzzy
-#| msgid "Time zone Error"
 msgid "Time zone Error"
 msgstr "সময়ের অঞ্চল সংক্রান্ত ত্রুটি"
