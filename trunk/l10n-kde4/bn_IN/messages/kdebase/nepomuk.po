@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-20 10:16+0100\n"
+"POT-Creation-Date: 2009-02-01 11:27+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -343,13 +343,9 @@ msgstr "ফাইল %1 পার্স করতে ব্যর্থ (%2)"
 msgid "Strigi File Indexing"
 msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
 
-#: services/strigi/systray.cpp:37
+#: services/strigi/systray.cpp:37 services/strigi/systray.cpp:38
 msgid "Suspend Strigi Indexing"
 msgstr "Strigi ইন্ডেক্স ব্যবস্থা বিরত করুন"
-
-#: services/strigi/systray.cpp:38
-msgid "Resume Strigi Indexing"
-msgstr "Strigi ইন্ডেক্স ব্যবস্থা পুনরায় আরম্ভ করুন"
 
 #: services/strigi/systray.cpp:39
 msgid "Suspend or resume the Strigi file indexer manually"
@@ -433,3 +429,6 @@ msgstr "কোনো পরিসেবার নাম নির্ধারি
 #: servicestub/main.cpp:115
 msgid "Unknown service name:"
 msgstr "পরিসেবার নাম অজানা:"
+
+#~ msgid "Resume Strigi Indexing"
+#~ msgstr "Strigi ইন্ডেক্স ব্যবস্থা পুনরায় আরম্ভ করুন"
