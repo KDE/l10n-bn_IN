@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_webbrowser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-03 11:13+0100\n"
 "PO-Revision-Date: 2009-01-09 10:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -29,17 +29,11 @@ msgstr "ডায়লগ"
 msgid "Auto refresh:"
 msgstr "স্বয়ংক্রিয়ভাবে নতুন করে প্রদর্শন:"
 
-#. i18n: file: webbrowserconfig.ui:48
+#. i18n: file: webbrowserconfig.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:9
 msgid "Interval:"
 msgstr "বিরতি:"
-
-#. i18n: file: webbrowserconfig.ui:55
-#. i18n: ectx: property (suffix), widget (QSpinBox, autoRefreshInterval)
-#: rc.cpp:12
-msgid "minutes"
-msgstr "মিনিট"
 
 #: webbrowser.cpp:376
 #, kde-format
@@ -55,3 +49,11 @@ msgstr "বুকমার্ক মুছে ফেলুন"
 #: webbrowser.cpp:475
 msgid "General"
 msgstr "সাধারণ"
+
+#: webbrowser.cpp:487
+#, fuzzy
+#| msgid "minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"

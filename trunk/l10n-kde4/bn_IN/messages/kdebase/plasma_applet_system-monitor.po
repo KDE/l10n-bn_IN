@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-02 11:20+0100\n"
+"POT-Creation-Date: 2009-02-03 11:13+0100\n"
 "PO-Revision-Date: 2009-01-12 11:36+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -21,9 +21,17 @@ msgstr ""
 msgid "CPU"
 msgstr "CPU"
 
-#: cpu.cpp:154
+#: cpu.cpp:155
 msgid "CPUs"
 msgstr "CPU-গুলি"
+
+#: cpu.cpp:163 net.cpp:179 temperature.cpp:111
+#, fuzzy
+#| msgid "seconds"
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "সেকেন্ড"
+msgstr[1] "সেকেন্ড"
 
 #: hdd.cpp:49
 msgid "Disk Space"
@@ -37,20 +45,28 @@ msgstr "মাউন্ট পয়েন্ট"
 msgid "Name"
 msgstr "নাম"
 
-#: hdd.cpp:83
+#: hdd.cpp:84
 msgid "Partitions"
 msgstr "পার্টিশন"
 
-#: hdd.cpp:125
+#: hdd.cpp:92
+#, fuzzy
+#| msgid "minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"
+
+#: hdd.cpp:132
 msgctxt "the root filesystem"
 msgid "root"
 msgstr "root"
 
-#: hdd.cpp:132
+#: hdd.cpp:139
 msgid "Unknown filesystem"
 msgstr "অজানা ফাইল-সিস্টেম"
 
-#: hdd.cpp:142
+#: hdd.cpp:149
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
@@ -80,7 +96,7 @@ msgstr "নেটওয়ার্ক"
 msgid "Network interface"
 msgstr "নেটওয়ার্ক ইন্টারফেস"
 
-#: net.cpp:170
+#: net.cpp:171
 msgid "Interfaces"
 msgstr "ইন্টারফেস"
 
@@ -98,45 +114,31 @@ msgstr "CPU: (&C)"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: temperature-config.ui:51
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:6 rc.cpp:15 rc.cpp:24 rc.cpp:36
+#: rc.cpp:6 rc.cpp:12 rc.cpp:18 rc.cpp:27
 msgid "Update &interval:"
 msgstr "আপডেটের বিরতিকাল: (&i)"
 
-#. i18n: file: cpu-config.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: net-config.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:9 rc.cpp:27
-msgid "seconds"
-msgstr "সেকেন্ড"
-
 #. i18n: file: hdd-config.ui:31
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:12
+#: rc.cpp:9
 msgid "Hard &disks:"
 msgstr "হার্ড-ডিস্ক: (&d)"
 
-#. i18n: file: hdd-config.ui:92
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18
-msgid "minutes"
-msgstr "মিনিট"
-
 #. i18n: file: net-config.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:21
+#: rc.cpp:15
 msgid "&Network Interfaces:"
 msgstr "নেটওয়ার্ক ইন্টারফেস: (&N)"
 
 #. i18n: file: temperature-config.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:30
+#: rc.cpp:21
 msgid "&Available temperatures:"
 msgstr "উপলব্ধ তাপমাত্রা: (&A)"
 
 #. i18n: file: temperature-config.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, showPlotters)
-#: rc.cpp:33
+#: rc.cpp:24
 msgid "Show plotters"
 msgstr "প্লটার প্রদর্শন করা হবে"
 
@@ -148,14 +150,6 @@ msgstr "তাপমাত্রা"
 msgid "Sensor"
 msgstr "সেনসর"
 
-#: temperature.cpp:111
-#, fuzzy
-#| msgid "seconds"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] "সেকেন্ড"
-msgstr[1] "সেকেন্ড"
-
 #: temperature.cpp:235
 #, kde-format
 msgid "%1 °C"
@@ -165,3 +159,10 @@ msgstr "%1 °C"
 #, kde-format
 msgid "%1 °F"
 msgstr "%1 °F"
+
+#, fuzzy
+#~| msgid "seconds"
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] "সেকেন্ড"
+#~ msgstr[1] "সেকেন্ড"
