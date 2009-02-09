@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-08 10:23+0100\n"
+"POT-Creation-Date: 2009-02-09 10:14+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -25,7 +25,7 @@ msgstr "XSync ভিত্তিক (প্রস্তাবিত)"
 msgid "Timer Based"
 msgstr "টাইমার ভিত্তিক"
 
-#: daemon/SuspensionLockHandler.cpp:72
+#: daemon/SuspensionLockHandler.cpp:75
 #, kde-format
 msgid ""
 "The application %1 is inhibiting suspension for the following reason:\n"
@@ -59,7 +59,7 @@ msgstr "ডারিও ফ্রেডি"
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: daemon/PowerDevilDaemon.cpp:284
+#: daemon/PowerDevilDaemon.cpp:290
 msgid ""
 "Could not connect to battery interface!\n"
 "Please check your system configuration"
@@ -67,15 +67,15 @@ msgstr ""
 "ব্যাটারি প্রেক্ষাপটের সাথে সংযোগ স্থাপন করা যায়নি!\n"
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
-#: daemon/PowerDevilDaemon.cpp:399
+#: daemon/PowerDevilDaemon.cpp:405
 msgid "The power adaptor has been plugged in"
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: daemon/PowerDevilDaemon.cpp:404
+#: daemon/PowerDevilDaemon.cpp:410
 msgid "The power adaptor has been unplugged"
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
 
-#: daemon/PowerDevilDaemon.cpp:545
+#: daemon/PowerDevilDaemon.cpp:551
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -86,7 +86,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:555
+#: daemon/PowerDevilDaemon.cpp:561
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to disk "
@@ -98,7 +98,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি "
 "ডিস্কে বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:566
+#: daemon/PowerDevilDaemon.cpp:572
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -110,7 +110,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
 "এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:577
+#: daemon/PowerDevilDaemon.cpp:583
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC is going Standby in %1 "
@@ -122,21 +122,21 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি "
 "স্থগিত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:586
+#: daemon/PowerDevilDaemon.cpp:592
 msgid ""
 "Your battery has reached critical level, save your work as soon as possible!"
 msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
 
-#: daemon/PowerDevilDaemon.cpp:591
+#: daemon/PowerDevilDaemon.cpp:597
 msgid "Your battery has reached warning level"
 msgstr "ব্যাটারির ক্ষমতা সতর্কতামূলক পর্যায় উপস্থিত হয়েছে"
 
-#: daemon/PowerDevilDaemon.cpp:594
+#: daemon/PowerDevilDaemon.cpp:600
 msgid "Your battery has reached low level"
 msgstr "ব্যাটারির ক্ষমতা অত্যন্ত কম"
 
-#: daemon/PowerDevilDaemon.cpp:708
+#: daemon/PowerDevilDaemon.cpp:714
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be halted in %1 seconds. Click here to block the "
@@ -145,7 +145,7 @@ msgid "The computer will be halted in %1 seconds."
 msgstr ""
 "%1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:723
+#: daemon/PowerDevilDaemon.cpp:729
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be suspended to disk in %1 seconds. Click here to block "
@@ -155,7 +155,7 @@ msgstr ""
 "%1 সেকেন্ডের মধ্যে কম্পিউটারটি ডিস্কে বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে "
 "ক্লিক করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:739
+#: daemon/PowerDevilDaemon.cpp:745
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be suspended to RAM in %1 seconds. Click here to block "
@@ -165,7 +165,7 @@ msgstr ""
 "%1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে "
 "ক্লিক করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:755
+#: daemon/PowerDevilDaemon.cpp:761
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be put into standby in %1 seconds. Click here to block "
@@ -175,23 +175,23 @@ msgstr ""
 "%1 সেকেন্ডের মধ্যে কম্পিউটারটি স্থগিত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক "
 "করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:844
+#: daemon/PowerDevilDaemon.cpp:850
 msgid "There was an error while suspending:"
 msgstr "সিস্টেম স্থগিত করতে সমস্যা:"
 
-#: daemon/PowerDevilDaemon.cpp:1022
+#: daemon/PowerDevilDaemon.cpp:1028
 msgid "The screen is being locked"
 msgstr "পর্দা লক করা হচ্ছে"
 
-#: daemon/PowerDevilDaemon.cpp:1036 daemon/PowerDevilDaemon.cpp:1064
-#: daemon/PowerDevilDaemon.cpp:1092
+#: daemon/PowerDevilDaemon.cpp:1042 daemon/PowerDevilDaemon.cpp:1070
+#: daemon/PowerDevilDaemon.cpp:1098
 #, fuzzy
 #| msgid "Actions"
 msgctxt "Interrupts the suspension/shutdown process"
 msgid "Abort Action"
 msgstr "কর্ম"
 
-#: daemon/PowerDevilDaemon.cpp:1139
+#: daemon/PowerDevilDaemon.cpp:1145
 #, kde-format
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -200,50 +200,50 @@ msgstr ""
 "অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে!\n"
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:1212
+#: daemon/PowerDevilDaemon.cpp:1218
 #, kde-format
 msgid "Profile changed to \"%1\""
 msgstr "\"%1\"-এ প্রোফাইল পরিবর্তিত হয়েছে"
 
-#: daemon/PowerDevilDaemon.cpp:1240 kcmodule/CapabilitiesPage.cpp:152
+#: daemon/PowerDevilDaemon.cpp:1246 kcmodule/CapabilitiesPage.cpp:152
 #: kcmodule/CapabilitiesPage.cpp:267 kcmodule/EditPage.cpp:150
 msgid "Performance"
 msgstr "কর্মক্ষমতা"
 
-#: daemon/PowerDevilDaemon.cpp:1244 kcmodule/CapabilitiesPage.cpp:156
+#: daemon/PowerDevilDaemon.cpp:1250 kcmodule/CapabilitiesPage.cpp:156
 #: kcmodule/EditPage.cpp:156
 msgid "Dynamic (ondemand)"
 msgstr "পরিবর্তনশীল (প্রয়োজন অনুসারে)"
 
-#: daemon/PowerDevilDaemon.cpp:1248 kcmodule/CapabilitiesPage.cpp:160
+#: daemon/PowerDevilDaemon.cpp:1254 kcmodule/CapabilitiesPage.cpp:160
 #: kcmodule/EditPage.cpp:160
 msgid "Dynamic (conservative)"
 msgstr "পরিবর্তনশীল (রক্ষণশীল)"
 
-#: daemon/PowerDevilDaemon.cpp:1252 kcmodule/CapabilitiesPage.cpp:164
+#: daemon/PowerDevilDaemon.cpp:1258 kcmodule/CapabilitiesPage.cpp:164
 #: kcmodule/EditPage.cpp:165
 msgid "Powersave"
 msgstr "পাওয়ার-সেভ"
 
-#: daemon/PowerDevilDaemon.cpp:1256 kcmodule/CapabilitiesPage.cpp:168
+#: daemon/PowerDevilDaemon.cpp:1262 kcmodule/CapabilitiesPage.cpp:168
 #: kcmodule/EditPage.cpp:170
 msgid "Userspace"
 msgstr "ইউজার-স্পেস"
 
-#: daemon/PowerDevilDaemon.cpp:1269 kcmodule/GeneralPage.cpp:66
+#: daemon/PowerDevilDaemon.cpp:1275 kcmodule/GeneralPage.cpp:66
 #: kcmodule/CapabilitiesPage.cpp:128 kcmodule/EditPage.cpp:127
 #: kcmodule/EditPage.cpp:128 kcmodule/EditPage.cpp:129
 #: kcmodule/EditPage.cpp:130
 msgid "Suspend to Disk"
 msgstr "ডিস্কে বিরত করুন"
 
-#: daemon/PowerDevilDaemon.cpp:1273 kcmodule/GeneralPage.cpp:70
+#: daemon/PowerDevilDaemon.cpp:1279 kcmodule/GeneralPage.cpp:70
 #: kcmodule/EditPage.cpp:134 kcmodule/EditPage.cpp:135
 #: kcmodule/EditPage.cpp:136 kcmodule/EditPage.cpp:137
 msgid "Suspend to Ram"
 msgstr "RAM-এ বিরত করুন"
 
-#: daemon/PowerDevilDaemon.cpp:1277 kcmodule/GeneralPage.cpp:74
+#: daemon/PowerDevilDaemon.cpp:1283 kcmodule/GeneralPage.cpp:74
 #: kcmodule/CapabilitiesPage.cpp:136 kcmodule/EditPage.cpp:141
 #: kcmodule/EditPage.cpp:142 kcmodule/EditPage.cpp:143
 #: kcmodule/EditPage.cpp:144
