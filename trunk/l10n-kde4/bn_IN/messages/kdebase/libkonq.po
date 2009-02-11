@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-31 11:38+0100\n"
+"POT-Creation-Date: 2009-02-11 11:02+0100\n"
 "PO-Revision-Date: 2009-01-12 12:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -127,50 +127,64 @@ msgstr "নতুন ফোল্ডার"
 msgid "Enter folder name:"
 msgstr "ফোল্ডারের নাম লিখুন:"
 
-#: konq_popupmenu.cpp:232
+#: konq_popupmenu.cpp:239
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
-#: konq_popupmenu.cpp:255
+#: konq_popupmenu.cpp:262
 msgid "Create &Folder..."
 msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
 
-#: konq_popupmenu.cpp:263
+#: konq_popupmenu.cpp:270
 msgid "&Restore"
 msgstr "পুনরুদ্ধার (&R)"
 
-#: konq_popupmenu.cpp:305
+#: konq_popupmenu.cpp:289
+msgid "Show Original Directory"
+msgstr ""
+
+#: konq_popupmenu.cpp:289
+msgid "Show Original File"
+msgstr ""
+
+#: konq_popupmenu.cpp:290
+msgid ""
+"Opens a new file manager window showing the target of this link, in its "
+"parent directory."
+msgstr ""
+
+#: konq_popupmenu.cpp:321
 msgid "&Empty Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: konq_popupmenu.cpp:331
+#: konq_popupmenu.cpp:347
 msgid "&Bookmark This Page"
 msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
 
-#: konq_popupmenu.cpp:333
+#: konq_popupmenu.cpp:349
 msgid "&Bookmark This Location"
 msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
 
-#: konq_popupmenu.cpp:336
+#: konq_popupmenu.cpp:352
 msgid "&Bookmark This Folder"
 msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
 
-#: konq_popupmenu.cpp:338
+#: konq_popupmenu.cpp:354
 msgid "&Bookmark This Link"
 msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
 
-#: konq_popupmenu.cpp:340
+#: konq_popupmenu.cpp:356
 msgid "&Bookmark This File"
 msgstr "বর্তমান ফাইল লিংক করুন (&B)"
 
-#: konq_popupmenu.cpp:366
+#: konq_popupmenu.cpp:382
 msgid "Preview In"
 msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
 
-#: konq_popupmenu.cpp:392
+#: konq_popupmenu.cpp:408
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
-#: konq_popupmenu.cpp:405
+#: konq_popupmenu.cpp:421
 msgid "Share"
 msgstr "যৌথ ব্যবহার"
