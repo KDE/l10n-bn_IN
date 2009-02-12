@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-11 11:02+0100\n"
+"POT-Creation-Date: 2009-02-12 10:23+0100\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -471,18 +471,6 @@ msgstr "কমান্ড/URL:"
 msgid "Menu"
 msgstr ""
 
-#. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:37
-#. i18n: ectx: property (text), widget (QCheckBox, enabled)
-#: rc.cpp:233
-msgid "&Enabled"
-msgstr "সক্রিয় (&E)"
-
-#. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:44
-#. i18n: ectx: property (text), widget (QLabel, enabled_comment)
-#: rc.cpp:236
-msgid "Add comment here"
-msgstr "এইখানের মন্তব্য লিখুন"
-
 #: kcm_hotkeys/hotkeys_tree_view.cpp:40
 msgid "Test"
 msgstr "পরীক্ষা"
@@ -539,10 +527,6 @@ msgid ""
 "mouse button while drawing, and release when you have finished."
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_widget_base.cpp:76
-msgid "Parent group is disabled"
-msgstr "ঊর্ধ্বতন শ্রেণী নিষ্ক্রিয় অবস্থায় রয়েছে"
-
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:27
 #, fuzzy
 #| msgid "Active window: "
@@ -597,15 +581,15 @@ msgstr ""
 msgid "Failed to run qdbusviewer"
 msgstr "qdbusviewer সঞ্চালন করতে ব্যর্থ"
 
-#: kcm_hotkeys/hotkeys_model.cpp:371
+#: kcm_hotkeys/hotkeys_model.cpp:365
 msgid "Name"
 msgstr "নাম"
 
-#: kcm_hotkeys/hotkeys_model.cpp:374
+#: kcm_hotkeys/hotkeys_model.cpp:369
 msgid "Enabled"
 msgstr "সক্রিয়"
 
-#: kcm_hotkeys/hotkeys_model.cpp:377
+#: kcm_hotkeys/hotkeys_model.cpp:372
 msgid "Type"
 msgstr "ধরন"
 
@@ -747,6 +731,15 @@ msgstr ""
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
 msgstr ""
+
+#~ msgid "&Enabled"
+#~ msgstr "সক্রিয় (&E)"
+
+#~ msgid "Add comment here"
+#~ msgstr "এইখানের মন্তব্য লিখুন"
+
+#~ msgid "Parent group is disabled"
+#~ msgstr "ঊর্ধ্বতন শ্রেণী নিষ্ক্রিয় অবস্থায় রয়েছে"
 
 #~ msgid "Started server <em>org.kde.khotkeys</em>."
 #~ msgstr "<em>org.kde.khotkeys</em> সার্ভার আরম্ভ করা হয়েছে।"
