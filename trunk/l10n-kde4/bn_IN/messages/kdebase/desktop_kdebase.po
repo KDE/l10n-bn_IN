@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-15 09:13+0000\n"
+"POT-Creation-Date: 2009-02-16 08:16+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -3630,7 +3630,7 @@ msgctxt "Comment"
 msgid "Configure the spell checker"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
-#: runtime/kdedglobalaccel/kdedglobalaccel.desktop:10
+#: runtime/kglobalaccel/kglobalaccel.desktop:10
 msgctxt "Name"
 msgid "KDED Global Shortcuts Server"
 msgstr ""
@@ -7141,7 +7141,7 @@ msgctxt "Name"
 msgid "Platform"
 msgstr "প্ল্যাটিনাম"
 
-#: runtime/platforms/win/config/platform.desktop:20
+#: runtime/platforms/win/config/platform.desktop:22
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -9211,6 +9211,19 @@ msgstr ""
 #: workspace/kwin/effects/slide/slide.desktop:54
 msgctxt "Comment"
 msgid "Slide windows across the screen when switching virtual desktops"
+msgstr ""
+
+#: workspace/kwin/effects/snaphelper/snaphelper.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Saint Helena"
+msgctxt "Name"
+msgid "Snap Helper"
+msgstr "সেন্ট হেলেনা"
+
+#: workspace/kwin/effects/snaphelper/snaphelper.desktop:4
+msgctxt "Comment"
+msgid "Help you locate the center of the screen when moving a window."
 msgstr ""
 
 #: workspace/kwin/effects/snow/snow.desktop:3
