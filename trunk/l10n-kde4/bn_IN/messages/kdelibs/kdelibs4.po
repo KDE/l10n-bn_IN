@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-23 09:43+0100\n"
+"POT-Creation-Date: 2009-02-24 10:58+0100\n"
 "PO-Revision-Date: 2008-10-23 11:15+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -2126,123 +2126,135 @@ msgid "Applications menu (.desktop files)"
 msgstr "অ্যাপ্লিকেশন তালিকার মেনু (.desktop ফাইল)"
 
 #: kdecore/kde-config.cpp:127
+#, fuzzy
+#| msgid "Path to the autostart directory"
+msgid "Autostart directories"
+msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভকরণের জন্য ব্যবহৃত ডিরেক্টরির পাথ"
+
+#: kdecore/kde-config.cpp:128
 msgid "Cached information (e.g. favicons, web-pages)"
 msgstr ""
 
-#: kdecore/kde-config.cpp:128
+#: kdecore/kde-config.cpp:129
 msgid "CGIs to run from kdehelp"
 msgstr "kdehelp থেকে সঞ্চালনযোগ্য CGI"
 
-#: kdecore/kde-config.cpp:129
+#: kdecore/kde-config.cpp:130
 msgid "Configuration files"
 msgstr "কনফিগারেশন ফাইল"
 
-#: kdecore/kde-config.cpp:130
+#: kdecore/kde-config.cpp:131
 msgid "Where applications store data"
 msgstr "অ্যাপ্লিকেশন দ্বারা তথ্য সংরক্ষণের স্থান"
 
-#: kdecore/kde-config.cpp:131
+#: kdecore/kde-config.cpp:132
 msgid "Emoticons"
 msgstr "ভাব-প্রতীক"
 
-#: kdecore/kde-config.cpp:132
+#: kdecore/kde-config.cpp:133
 msgid "Executables in $prefix/bin"
 msgstr "$prefix/bin-র মধ্যে উপস্থিত এক্সেকিউটেবল"
 
-#: kdecore/kde-config.cpp:133
+#: kdecore/kde-config.cpp:134
 msgid "HTML documentation"
 msgstr "HTML নথিপত্র"
 
-#: kdecore/kde-config.cpp:134
+#: kdecore/kde-config.cpp:135
 msgid "Icons"
 msgstr "আইকন"
 
-#: kdecore/kde-config.cpp:135
+#: kdecore/kde-config.cpp:136
 msgid "Configuration description files"
 msgstr "কনফিগারেশনের বর্ণনামূলক ফাইল"
 
-#: kdecore/kde-config.cpp:136
+#: kdecore/kde-config.cpp:137
 msgid "Libraries"
 msgstr "লাইব্রেরি"
 
-#: kdecore/kde-config.cpp:137
+#: kdecore/kde-config.cpp:138
 msgid "Includes/Headers"
 msgstr "Include ফাইল/Header ফাইল"
 
-#: kdecore/kde-config.cpp:138
+#: kdecore/kde-config.cpp:139
 msgid "Translation files for KLocale"
 msgstr "KLocale-র জন্য অনুবাদের ফাইল"
 
-#: kdecore/kde-config.cpp:139
+#: kdecore/kde-config.cpp:140
 msgid "Mime types"
 msgstr "Mime-র ধরন"
 
-#: kdecore/kde-config.cpp:140
+#: kdecore/kde-config.cpp:141
 msgid "Loadable modules"
 msgstr "লোড করার যোগ্য মডিউল"
 
-#: kdecore/kde-config.cpp:141 kdecore/kde-config.cpp:151
+#: kdecore/kde-config.cpp:142 kdecore/kde-config.cpp:152
 msgid "Legacy pixmaps"
 msgstr "লিগ্যাসি পিক্সম্যাপ"
 
-#: kdecore/kde-config.cpp:142
+#: kdecore/kde-config.cpp:143
 msgid "Qt plugins"
 msgstr "Qt প্লাগ-ইন"
 
-#: kdecore/kde-config.cpp:143
+#: kdecore/kde-config.cpp:144
 msgid "Services"
 msgstr "পরিসেবা"
 
-#: kdecore/kde-config.cpp:144
+#: kdecore/kde-config.cpp:145
 msgid "Service types"
 msgstr "পরিসেবার ধরন"
 
-#: kdecore/kde-config.cpp:145
+#: kdecore/kde-config.cpp:146
 msgid "Application sounds"
 msgstr "অ্যাপ্লিকেশনে ব্যবহৃত শব্দ"
 
-#: kdecore/kde-config.cpp:146
+#: kdecore/kde-config.cpp:147
 msgid "Templates"
 msgstr "টেমপ্লেট"
 
-#: kdecore/kde-config.cpp:147
+#: kdecore/kde-config.cpp:148
 msgid "Wallpapers"
 msgstr "পটভূমির ছবি"
 
-#: kdecore/kde-config.cpp:148
+#: kdecore/kde-config.cpp:149
 msgid "XDG Application menu (.desktop files)"
 msgstr "XDG অ্যাপ্লিকেশন তালিকার মেনু (.desktop ফাইল)"
 
-#: kdecore/kde-config.cpp:149
+#: kdecore/kde-config.cpp:150
 msgid "XDG Menu descriptions (.directory files)"
 msgstr "XDG মেনুর বর্ণনা (.directory ফাইল)"
 
-#: kdecore/kde-config.cpp:150
+#: kdecore/kde-config.cpp:151
 msgid "XDG Icons"
 msgstr "XDG আইকন"
 
-#: kdecore/kde-config.cpp:152
+#: kdecore/kde-config.cpp:153
 msgid "XDG Mime Types"
 msgstr "XDG Mime-র ধরন"
 
-#: kdecore/kde-config.cpp:153
+#: kdecore/kde-config.cpp:154
 msgid "XDG Menu layout (.menu files)"
 msgstr "XDG মেনুর বিন্যাস (.menu ফাইল)"
 
-#: kdecore/kde-config.cpp:154
+#: kdecore/kde-config.cpp:155
+#, fuzzy
+#| msgid "Path to the autostart directory"
+msgid "XDG autostart directory"
+msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভকরণের জন্য ব্যবহৃত ডিরেক্টরির পাথ"
+
+#: kdecore/kde-config.cpp:156
 msgid "Temporary files (specific for both current host and current user)"
 msgstr "অস্থায়ী ফাইল (বর্তমান হোস্ট ও বর্তমান ব্যবহারকারীর জন্য সুনির্দিষ্ট)"
 
-#: kdecore/kde-config.cpp:155
+#: kdecore/kde-config.cpp:157
 msgid "UNIX Sockets (specific for both current host and current user)"
 msgstr "UNIX সকেট (বর্তমান হোস্ট ও বর্তমান ব্যবহারকারীর জন্য সুনির্দিষ্ট)"
 
-#: kdecore/kde-config.cpp:167
+#: kdecore/kde-config.cpp:169
 #, kde-format
 msgid "%1 - unknown type\n"
 msgstr "%1 - অজানা ধরন\n"
 
-#: kdecore/kde-config.cpp:229
+#: kdecore/kde-config.cpp:231
 #, kde-format
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - userpath-র ধরন অজ্ঞাত\n"
@@ -6372,8 +6384,8 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutseditor.cpp:500
-#: kdeui/dialogs/kshortcutseditor.cpp:516 kdeui/shortcuts/kglobalaccel.cpp:450
-#: kdeui/shortcuts/kglobalaccel.cpp:489
+#: kdeui/dialogs/kshortcutseditor.cpp:516 kdeui/shortcuts/kglobalaccel.cpp:493
+#: kdeui/shortcuts/kglobalaccel.cpp:532
 #: kdeui/widgets/kkeysequencewidget.cpp:179
 #: kdeui/widgets/kkeysequencewidget.cpp:261
 #: kdeui/widgets/kkeysequencewidget.cpp:639
@@ -7473,11 +7485,11 @@ msgstr "কলাম অনুসন্ধান"
 msgid "All Visible Columns"
 msgstr "সকল দৃশ্যমান কলাম"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:443
+#: kdeui/shortcuts/kglobalaccel.cpp:486
 msgid "Conflict with Global Shortcut"
 msgstr "সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:444
+#: kdeui/shortcuts/kglobalaccel.cpp:487
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -7485,24 +7497,24 @@ msgid ""
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:470
+#: kdeui/shortcuts/kglobalaccel.cpp:513
 #, kde-format
 msgid "The '%1' key combination is registered by application %2 for action %3:"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:477
+#: kdeui/shortcuts/kglobalaccel.cpp:520
 #, kde-format
 msgid "In context '%1' for action '%2'\n"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:481
+#: kdeui/shortcuts/kglobalaccel.cpp:524
 #, kde-format
 msgid ""
 "The '%1' key combination is registered by application %2.\n"
 "%3"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:487
+#: kdeui/shortcuts/kglobalaccel.cpp:530
 msgid "Conflict With Registered Global Shortcut"
 msgstr "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
