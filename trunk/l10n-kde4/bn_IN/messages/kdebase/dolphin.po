@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-02 09:56+0100\n"
+"POT-Creation-Date: 2009-03-04 11:12+0100\n"
 "PO-Revision-Date: 2008-07-07 02:25+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -514,6 +514,11 @@ msgctxt "@info:progress"
 msgid "Changing annotations"
 msgstr "টীকা পরিবর্তন করা যাবে"
 
+#: panels/information/informationpaneldialog.cpp:31
+msgctxt "@title:window"
+msgid "Information Panel"
+msgstr ""
+
 #: panels/information/commentwidget.cpp:55
 #, fuzzy
 #| msgctxt "@label"
@@ -538,7 +543,12 @@ msgctxt "@label"
 msgid "Change Tags..."
 msgstr "ট্যাগ পরিবর্তন..."
 
-#: panels/information/informationpanel.cpp:224
+#: panels/information/informationpanel.cpp:218
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr ""
+
+#: panels/information/informationpanel.cpp:244
 #, kde-format
 msgctxt "@info"
 msgid "%1 item selected"
@@ -546,29 +556,29 @@ msgid_plural "%1 items selected"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
 
-#: panels/information/informationpanel.cpp:401
+#: panels/information/informationpanel.cpp:419
 msgctxt "@label"
 msgid "Total size:"
 msgstr "সর্বমোট পরিমান:"
 
-#: panels/information/informationpanel.cpp:405
-#: panels/information/informationpanel.cpp:408
+#: panels/information/informationpanel.cpp:426
+#: panels/information/informationpanel.cpp:429
 msgctxt "@label"
 msgid "Type:"
 msgstr "ধরন:"
 
-#: panels/information/informationpanel.cpp:405
+#: panels/information/informationpanel.cpp:426
 msgctxt "@label"
 msgid "Folder"
 msgstr "ফোল্ডার"
 
-#: panels/information/informationpanel.cpp:406
-#: panels/information/informationpanel.cpp:411
+#: panels/information/informationpanel.cpp:427
+#: panels/information/informationpanel.cpp:432
 msgctxt "@label"
 msgid "Modified:"
 msgstr "পরিবর্তীত হয়েছে:"
 
-#: panels/information/informationpanel.cpp:410
+#: panels/information/informationpanel.cpp:431
 msgctxt "@label"
 msgid "Size:"
 msgstr "পরিমান:"
