@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-05 10:34+0100\n"
+"POT-Creation-Date: 2009-03-06 10:17+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -139,40 +139,46 @@ msgstr "ইনপুট কপি করুন"
 msgid "Edit Profile"
 msgstr "প্রোফাইল সম্পাদনা"
 
-#: EditProfileDialog.cpp:154 EditProfileDialog.cpp:159
+#: EditProfileDialog.cpp:154
+#, fuzzy, kde-format
+#| msgid "Edit Profile \"%1\""
+msgid "Editing %1 profiles: %2"
+msgstr "প্রোফাইল \"%1\" সম্পাদনা করুন"
+
+#: EditProfileDialog.cpp:157
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "প্রোফাইল \"%1\" সম্পাদনা করুন"
 
-#: EditProfileDialog.cpp:287
+#: EditProfileDialog.cpp:285
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা"
 
-#: EditProfileDialog.cpp:313
+#: EditProfileDialog.cpp:311
 msgid "Always Hide Tab Bar"
 msgstr "ট্যাব-বার সর্বদা আড়াল করা হবে"
 
-#: EditProfileDialog.cpp:314
+#: EditProfileDialog.cpp:312
 msgid "Show Tab Bar When Needed"
 msgstr "প্রয়োজনে ট্যাব-বার প্রদর্শন করা হবে"
 
-#: EditProfileDialog.cpp:315
+#: EditProfileDialog.cpp:313
 msgid "Always Show Tab Bar"
 msgstr "ট্যাব-বার সর্বদা প্রদর্শন করা হবে"
 
-#: EditProfileDialog.cpp:320
+#: EditProfileDialog.cpp:318
 msgid "Below Terminal Displays"
 msgstr "টার্মিন্যালের প্রদর্শনের নীচে"
 
-#: EditProfileDialog.cpp:321
+#: EditProfileDialog.cpp:319
 msgid "Above Terminal Displays"
 msgstr "টার্মিন্যালের প্রদর্শনের উপরেী"
 
-#: EditProfileDialog.cpp:417
+#: EditProfileDialog.cpp:415
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরি নির্বাচন করুন"
 
-#: EditProfileDialog.cpp:434
+#: EditProfileDialog.cpp:432
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -180,24 +186,24 @@ msgstr ""
 "এই রঙের বিন্যাসের সাথে স্বচ্ছ পটভূমি ব্যবহৃত হয়, কিন্তু আপনার ডেস্কটপে স্বচ্ছ পটভূমি "
 "সমর্থিত নয়"
 
-#: EditProfileDialog.cpp:600
+#: EditProfileDialog.cpp:598
 #, kde-format
 msgid "%1, size %2"
 msgstr "%1, মাপ %2"
 
-#: EditProfileDialog.cpp:713 EditProfileDialog.cpp:722
+#: EditProfileDialog.cpp:711 EditProfileDialog.cpp:720
 msgid "New Color Scheme"
 msgstr "নতুন রঙের বিন্যাস"
 
-#: EditProfileDialog.cpp:715
+#: EditProfileDialog.cpp:713
 msgid "Edit Color Scheme"
 msgstr "রঙের বিন্যাস সম্পাদনা করুন"
 
-#: EditProfileDialog.cpp:848 EditProfileDialog.cpp:859
+#: EditProfileDialog.cpp:846 EditProfileDialog.cpp:857
 msgid "New Key Binding List"
 msgstr "কি-বাইন্ডিংয়ের নতুন তালিকা"
 
-#: EditProfileDialog.cpp:850
+#: EditProfileDialog.cpp:848
 msgid "Edit Key Binding List"
 msgstr "কি-বাইন্ডিংয়ের তালিকা সম্পাদনা"
 
