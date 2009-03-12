@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-11 11:16+0100\n"
+"POT-Creation-Date: 2009-03-12 10:21+0100\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -40,7 +40,7 @@ msgstr "ড্যাশ-বোর্ড আড়াল করা হবে"
 msgid "Widget Dashboard"
 msgstr "উইজেট ড্যাশ-বোর্ড"
 
-#: dashboardview.cpp:142 plasmaapp.cpp:514
+#: dashboardview.cpp:142 plasmaapp.cpp:526
 msgid "Add Widgets"
 msgstr "উইজেট যোগ করুন"
 
@@ -159,6 +159,12 @@ msgstr "নীচে"
 #: plasmaapp.cpp:169
 msgid "Show Dashboard"
 msgstr "ড্যাশ-বোর্ড প্রদর্শন"
+
+#: plasmaapp.cpp:478
+#, fuzzy
+#| msgid "Next Activity"
+msgid "Add Activity"
+msgstr "পরবর্তী কাজ"
 
 #: positioningruler.cpp:462
 msgid "Move this slider to set the panel position"
