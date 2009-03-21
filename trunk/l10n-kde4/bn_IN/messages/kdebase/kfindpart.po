@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:58+0100\n"
+"POT-Creation-Date: 2009-03-21 11:05+0100\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -25,7 +25,7 @@ msgstr "ফাইল/ফোল্ডার অনুসন্ধান"
 msgid "Ready."
 msgstr "প্রস্তুত।"
 
-#: kfinddlg.cpp:114 kfinddlg.cpp:219
+#: kfinddlg.cpp:114 kfinddlg.cpp:218 kfinddlg.cpp:247
 #, kde-format
 msgid "one file found"
 msgid_plural "%1 files found"
@@ -335,97 +335,83 @@ msgstr "নির্ধারণ করা হবে"
 msgid "Do Not Set"
 msgstr "নির্ধারণ করা হবে না"
 
-#: kfwin.cpp:49
+#: kfwin.cpp:31
 msgid "Read-write"
 msgstr "পড়া-লেখা"
 
-#: kfwin.cpp:50
+#: kfwin.cpp:32
 msgid "Read-only"
 msgstr "শুধুমাত্র পাঠযোগ্য"
 
-#: kfwin.cpp:51
+#: kfwin.cpp:33
 msgid "Write-only"
 msgstr "শুধুমাত্র লেখার যোগ্য"
 
-#: kfwin.cpp:52
+#: kfwin.cpp:34
 msgid "Inaccessible"
 msgstr "ব্যবহারযোগ্য নয়"
 
-#: kfwin.cpp:116
+#: kfwin.cpp:112
 msgid "Name"
 msgstr "নাম"
 
-#: kfwin.cpp:117
+#: kfwin.cpp:112
 msgid "In Subfolder"
 msgstr "সাব-ফোল্ডারের অধীন"
 
-#: kfwin.cpp:118
+#: kfwin.cpp:112
 msgid "Size"
 msgstr "মাপ"
 
-#: kfwin.cpp:120
+#: kfwin.cpp:112
 msgid "Modified"
 msgstr "পরিবর্তনের সময়"
 
-#: kfwin.cpp:122
+#: kfwin.cpp:112
 msgid "Permissions"
 msgstr "অনুমতি"
 
-#: kfwin.cpp:125
+#: kfwin.cpp:112
 msgid "First Matching Line"
 msgstr "প্রারম্ভিক পংক্তির মিল"
 
-#: kfwin.cpp:194
+#: kfwin.cpp:216
+msgid "&Open containing folder(s)"
+msgstr ""
+
+#: kfwin.cpp:220
+#, fuzzy
+#| msgid "Delete"
+msgid "&Delete"
+msgstr "মুছে ফেলুন"
+
+#: kfwin.cpp:225
+msgid "&Move to Trash"
+msgstr ""
+
+#: kfwin.cpp:287
 msgid "Save Results As"
 msgstr "নতুন রূপে ফলাফল সংরক্ষণ করুন"
 
-#: kfwin.cpp:219
+#: kfwin.cpp:288
+msgid "HTML page"
+msgstr ""
+
+#: kfwin.cpp:288
+msgid "Text file"
+msgstr ""
+
+#: kfwin.cpp:308
 msgid "Unable to save results."
 msgstr "ফলাফল সংরক্ষণ করতে ব্যর্থ।"
 
-#: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
+#: kfwin.cpp:323
 msgid "KFind Results File"
 msgstr "KFind ফাইলের ফাইল"
 
-#: kfwin.cpp:259
+#: kfwin.cpp:346
 msgid "Results were saved to file\n"
 msgstr "ফাইলের মধ্যে ফলাফল সংরক্ষণ করা হয়েছে\n"
-
-#: kfwin.cpp:288
-#, kde-format
-msgid "Do you really want to delete the selected file?"
-msgid_plural "Do you really want to delete the %1 selected files?"
-msgstr[0] "নির্বাচিত ফাইলটি কি নিশ্চিতরূপে মুছে ফেলা হবে?"
-msgstr[1] "নির্বাচিত %1 ফাইলগুলি কি নিশ্চিতরূপে মুছে ফেলা হবে?"
-
-#: kfwin.cpp:410
-msgctxt "Menu item"
-msgid "Open"
-msgstr "খুলুন"
-
-#: kfwin.cpp:411
-msgid "Open Folder"
-msgstr "ফোল্ডার খুলুন"
-
-#: kfwin.cpp:413 kfwin.cpp:423
-msgid "Copy"
-msgstr "কপি করুন"
-
-#: kfwin.cpp:414 kfwin.cpp:424
-msgid "Delete"
-msgstr "মুছে ফেলুন"
-
-#: kfwin.cpp:416
-msgid "Open With..."
-msgstr "উল্লিখিত প্রোগ্রাম সহযোগে খুলুন..."
-
-#: kfwin.cpp:418
-msgid "Properties"
-msgstr "বিবিধ বৈশিষ্ট্য"
-
-#: kfwin.cpp:422
-msgid "Selected Files"
-msgstr "নির্বাচিত ফাইল"
 
 #: kquery.cpp:486
 msgid "Error while using locate"
@@ -532,3 +518,27 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#~ msgid "Do you really want to delete the selected file?"
+#~ msgid_plural "Do you really want to delete the %1 selected files?"
+#~ msgstr[0] "নির্বাচিত ফাইলটি কি নিশ্চিতরূপে মুছে ফেলা হবে?"
+#~ msgstr[1] "নির্বাচিত %1 ফাইলগুলি কি নিশ্চিতরূপে মুছে ফেলা হবে?"
+
+#~ msgctxt "Menu item"
+#~ msgid "Open"
+#~ msgstr "খুলুন"
+
+#~ msgid "Open Folder"
+#~ msgstr "ফোল্ডার খুলুন"
+
+#~ msgid "Copy"
+#~ msgstr "কপি করুন"
+
+#~ msgid "Open With..."
+#~ msgstr "উল্লিখিত প্রোগ্রাম সহযোগে খুলুন..."
+
+#~ msgid "Properties"
+#~ msgstr "বিবিধ বৈশিষ্ট্য"
+
+#~ msgid "Selected Files"
+#~ msgstr "নির্বাচিত ফাইল"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-20 10:08+0100\n"
+"POT-Creation-Date: 2009-03-21 11:06+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -45,16 +45,16 @@ msgstr "স্বত্বাধিকার ২০০৭ সেবাস্ট�
 msgid "Sebastian Trüg"
 msgstr "সেবাস্টিয়ান ট্রুগ"
 
-#: kcm/nepomukserverkcm.cpp:116
+#: kcm/nepomukserverkcm.cpp:115
 msgid "No Soprano Database backend available. Please check your installation."
 msgstr ""
 "কোনো Soprano ডাটাবেস ব্যাক-এন্ড পাওয়া যায়নি। অনুগ্রহ করে ইনস্টলেশন পরীক্ষা করুন।"
 
-#: kcm/nepomukserverkcm.cpp:117
+#: kcm/nepomukserverkcm.cpp:116
 msgid "Nepomuk cannot be started"
 msgstr "Nepomuk আরম্ভ করা সম্ভব নয়"
 
-#: kcm/nepomukserverkcm.cpp:125
+#: kcm/nepomukserverkcm.cpp:124
 msgid ""
 "The Nepomuk Server is not running. The settings will be used the next time "
 "the server is started."
@@ -62,11 +62,11 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। সার্ভার পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি "
 "প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:127 kcm/nepomukserverkcm.cpp:176
+#: kcm/nepomukserverkcm.cpp:126 kcm/nepomukserverkcm.cpp:175
 msgid "Nepomuk server not running"
 msgstr "Nepomuk সার্ভার বর্তমানে চলছে না।"
 
-#: kcm/nepomukserverkcm.cpp:174
+#: kcm/nepomukserverkcm.cpp:173
 msgid ""
 "The Nepomuk Server is not running. The settings have been saved and will be "
 "used the next time the server is started."
@@ -74,36 +74,36 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। বৈশিষ্ট্যগুলি সংরক্ষণ করা হয়েছে এবং সার্ভার "
 "পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:206
+#: kcm/nepomukserverkcm.cpp:205
 #, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Strigi ইন্ডেক্সারের সাথে যোগাযোগ করতে ব্যর্থ (%1)"
 
-#: kcm/nepomukserverkcm.cpp:209
+#: kcm/nepomukserverkcm.cpp:208
 msgctxt "@info_status"
 msgid "File indexer is suspended"
 msgstr "ফাইল ইন্ডেক্সার বর্তমানে স্থগিত রয়েছে"
 
-#: kcm/nepomukserverkcm.cpp:211
+#: kcm/nepomukserverkcm.cpp:210
 #, kde-format
 msgctxt "@info_status"
 msgid "Strigi is currently indexing files in folder %1"
 msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
 
-#: kcm/nepomukserverkcm.cpp:213
+#: kcm/nepomukserverkcm.cpp:212
 msgctxt "@info_status"
 msgid "File indexer is idle"
 msgstr "ফাইল ইন্ডেক্সার বর্তমানে কর্মহীন"
 
-#: kcm/nepomukserverkcm.cpp:216
+#: kcm/nepomukserverkcm.cpp:215
 msgctxt "@info_status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:220
+#: kcm/nepomukserverkcm.cpp:219
 msgctxt "@info_status"
 msgid "Strigi service not running."
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"

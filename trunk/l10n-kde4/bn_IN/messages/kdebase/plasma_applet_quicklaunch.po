@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_quicklaunch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-08 10:10+0100\n"
+"POT-Creation-Date: 2009-03-21 11:06+0100\n"
 "PO-Revision-Date: 2009-01-09 11:19+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: quicklaunchApplet.cpp:276
+#: quicklaunchApplet.cpp:288
 msgid "General"
 msgstr "সাধারণ"
 
-#: quicklaunchApplet.cpp:315
+#: quicklaunchApplet.cpp:329
 msgid "Add Icon..."
 msgstr "আইকন যোগ করুন..."
 
-#: quicklaunchApplet.cpp:324
+#: quicklaunchApplet.cpp:338
 msgid "Remove Icon"
 msgstr "আইকন মুছে ফেলুন"
 
@@ -33,7 +33,7 @@ msgstr "আইকন মুছে ফেলুন"
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchAdd)
 #. i18n: file: quicklaunchAdd.ui:16
 #. i18n: ectx: property (accessibleName), widget (QWidget, quicklaunchAdd)
-#: quicklaunchApplet.cpp:458 rc.cpp:3 rc.cpp:6
+#: quicklaunchApplet.cpp:477 rc.cpp:3 rc.cpp:6
 msgid "Add Shortcut"
 msgstr "শর্ট-কাট যোগ করুন"
 
@@ -43,34 +43,48 @@ msgstr "শর্ট-কাট যোগ করুন"
 msgid "New icon:"
 msgstr "নতুন আইকন:"
 
-#. i18n: file: quicklaunchConfig.ui:13
+#. i18n: file: quicklaunchConfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchConfig)
-#. i18n: file: quicklaunchConfig.ui:16
+#. i18n: file: quicklaunchConfig.ui:17
 #. i18n: ectx: property (accessibleName), widget (QWidget, quicklaunchConfig)
 #: rc.cpp:13 rc.cpp:16
 msgid "Configure QuickLaunch"
 msgstr "QuickLaunch কনফিগার করুন"
 
-#. i18n: file: quicklaunchConfig.ui:22
-#. i18n: ectx: property (text), widget (QLabel, lblRowNums)
-#: rc.cpp:19
-msgid "Maximum Rows:"
-msgstr "সর্বাধিক সারির সংখ্যা:"
-
-#. i18n: file: quicklaunchConfig.ui:32
-#. i18n: ectx: property (text), widget (QLabel, dialogrowLabel)
-#: rc.cpp:22
-msgid "Rows in the dialog:"
-msgstr "ডায়লগের মধ্যে উপস্থিত সারি সংখ্যা:"
-
-#. i18n: file: quicklaunchConfig.ui:52
+#. i18n: file: quicklaunchConfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:25
+#: rc.cpp:19
 msgid "Visible icons:"
 msgstr "দৃশ্যমান আইকন:"
 
-#. i18n: file: quicklaunchConfig.ui:68
+#. i18n: file: quicklaunchConfig.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:22
+msgid "Icon size:"
+msgstr ""
+
+#. i18n: file: quicklaunchConfig.ui:76
+#. i18n: ectx: property (suffix), widget (QSpinBox, iconSizeSpin)
+#. i18n: file: quicklaunchConfig.ui:119
+#. i18n: ectx: property (suffix), widget (QSpinBox, dialogIconSizeSpin)
+#: rc.cpp:25 rc.cpp:34
+msgid "px"
+msgstr ""
+
+#. i18n: file: quicklaunchConfig.ui:89
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, icons)
 #: rc.cpp:28
 msgid "Unlimited"
 msgstr "সীমাহীন"
+
+#. i18n: file: quicklaunchConfig.ui:109
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:31
+msgid "Dialog icon size:"
+msgstr ""
+
+#~ msgid "Maximum Rows:"
+#~ msgstr "সর্বাধিক সারির সংখ্যা:"
+
+#~ msgid "Rows in the dialog:"
+#~ msgstr "ডায়লগের মধ্যে উপস্থিত সারি সংখ্যা:"
