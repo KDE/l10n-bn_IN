@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-04 12:03+0100\n"
+"POT-Creation-Date: 2009-03-22 10:17+0100\n"
 "PO-Revision-Date: 2008-12-30 19:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -379,14 +379,6 @@ msgstr "ব্লকের মাপ"
 msgid "Stream Port (decimal)"
 msgstr ""
 
-#: base/info_hpux.cpp:550
-msgid "Ev Buffer Size"
-msgstr ""
-
-#: base/info_hpux.cpp:552
-msgid "Ext Number"
-msgstr ""
-
 #: base/info_linux.cpp:130
 msgid "DMA-Channel"
 msgstr "DMA-চ্যানেল"
@@ -508,7 +500,10 @@ msgid "block special"
 msgstr ""
 
 #: base/info_solaris.cpp:449
-msgid "Spectype:"
+#, fuzzy
+#| msgid "Spectype:"
+msgctxt "Can be either character special or block special"
+msgid "Special type:"
 msgstr "Spectype:"
 
 #: base/info_solaris.cpp:462
