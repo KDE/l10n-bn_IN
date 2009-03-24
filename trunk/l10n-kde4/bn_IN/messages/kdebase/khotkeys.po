@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-17 10:45+0100\n"
+"POT-Creation-Date: 2009-03-24 10:55+0100\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -103,7 +103,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
 #: rc.cpp:32 rc.cpp:215 kcm_hotkeys/hotkeys_context_menu.cpp:274
 #: kcm_hotkeys/hotkeys_context_menu.cpp:302
-#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:91
+#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:92
 msgid "Comment"
 msgstr "মন্তব্য"
 
@@ -522,7 +522,7 @@ msgstr "পরীক্ষা"
 #: kcm_hotkeys/hotkeys_context_menu.cpp:129
 #: kcm_hotkeys/hotkeys_context_menu.cpp:142
 #: kcm_hotkeys/hotkeys_context_menu.cpp:274
-#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:91
+#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:92
 msgid "New Group"
 msgstr "নতুন শ্রেণী"
 
@@ -578,15 +578,15 @@ msgstr "কর্ম"
 msgid "Failed to run qdbusviewer"
 msgstr "qdbusviewer সঞ্চালন করতে ব্যর্থ"
 
-#: kcm_hotkeys/hotkeys_model.cpp:387
+#: kcm_hotkeys/hotkeys_model.cpp:390
 msgid "Name"
 msgstr "নাম"
 
-#: kcm_hotkeys/hotkeys_model.cpp:391
+#: kcm_hotkeys/hotkeys_model.cpp:394
 msgid "Enabled"
 msgstr "সক্রিয়"
 
-#: kcm_hotkeys/hotkeys_model.cpp:394
+#: kcm_hotkeys/hotkeys_model.cpp:397
 msgid "Type"
 msgstr "ধরন"
 
@@ -598,15 +598,15 @@ msgstr "KDE Hotkeys কনফিগারেশন মডিউল"
 msgid "Copyright 2008 (c) Michael Jansen"
 msgstr "স্বত্বাধিকার ২০০৮ (c) মাইকেল জ্যানসেন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:108 update/update.cpp:41
+#: kcm_hotkeys/kcm_hotkeys.cpp:108
 msgid "Michael Jansen"
 msgstr "মাইকেল জ্যানসেন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:109 update/update.cpp:41
+#: kcm_hotkeys/kcm_hotkeys.cpp:109
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:308
+#: kcm_hotkeys/kcm_hotkeys.cpp:309
 #, fuzzy
 #| msgid ""
 #| "The current action has unsaved changes. If you continue those changes "
@@ -618,11 +618,11 @@ msgstr ""
 "বর্তমান কর্মের ফলে হওয়া কিছু পরিবর্তন এখনো সংরক্ষণ করা হয়নি। এগিয়ে গেলে এই সমস্ত "
 "পরিবর্তনগুলি হারিয়ে যাবে!"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:309
+#: kcm_hotkeys/kcm_hotkeys.cpp:310
 msgid "Save changes"
 msgstr "পরিবর্তন সংরক্ষণ করা হবে"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:334 kcm_hotkeys/kcm_hotkeys.cpp:356
+#: kcm_hotkeys/kcm_hotkeys.cpp:335 kcm_hotkeys/kcm_hotkeys.cpp:357
 msgid ""
 "Unable to contact khotkeys. Your changes are saved, but they could not be "
 "activated."
@@ -635,21 +635,6 @@ msgstr ""
 #: kcm_hotkeys/simple_action_data_widget.cpp:160
 msgid "Action"
 msgstr "কর্ম"
-
-#: update/update.cpp:36 update/update.cpp:38
-#, fuzzy
-#| msgid "KHotKeys Update"
-msgid "KHotKeys Update Helper"
-msgstr "KHotKeys আপডেট"
-
-#: update/update.cpp:40
-msgid "(C) 2003-2009 Lubos Lunak"
-msgstr ""
-
-#: update/update.cpp:46
-#, kde-format
-msgid "Id of the script to add to %1"
-msgstr "%1-এ যোগ করার উদ্দেশ্যে চিহ্নিত স্ক্রিপ্টের Id."
 
 #: libkhotkeysprivate/triggers/shortcut_trigger.cpp:134
 msgid "Shortcut trigger: "
@@ -721,7 +706,7 @@ msgstr "D-Bus: "
 msgid "Command/URL : "
 msgstr "কমান্ড/URL : "
 
-#: libkhotkeysprivate/actions/activate_window_action.cpp:80
+#: libkhotkeysprivate/actions/activate_window_action.cpp:82
 msgid "Activate window: "
 msgstr "উইন্ডো সক্রিয় করুন: "
 
@@ -729,26 +714,30 @@ msgstr "উইন্ডো সক্রিয় করুন: "
 msgid "Keyboard input: "
 msgstr "কি-বোর্ড থেকে প্রাপ্ত ইনপুট: "
 
-#: libkhotkeysprivate/settings.cpp:226
+#: libkhotkeysprivate/settings.cpp:245
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
 "want to import it again?"
 msgstr ""
 
-#: libkhotkeysprivate/settings.cpp:241
+#: libkhotkeysprivate/settings.cpp:260
 msgid ""
 "This \"actions\" file has no ImportId field and therefore it cannot be "
 "determined whether or not it has been imported already. Are you sure you "
 "want to import it?"
 msgstr ""
 
-#: libkhotkeysprivate/settings.cpp:532
-msgid "These entries were created using Menu Editor."
-msgstr ""
-
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
 msgstr ""
+
+#, fuzzy
+#~| msgid "KHotKeys Update"
+#~ msgid "KHotKeys Update Helper"
+#~ msgstr "KHotKeys আপডেট"
+
+#~ msgid "Id of the script to add to %1"
+#~ msgstr "%1-এ যোগ করার উদ্দেশ্যে চিহ্নিত স্ক্রিপ্টের Id."
 
 #~ msgid "KHotKeys update utility"
 #~ msgstr "KHotKeys আপডেটের ব্যবস্থা"

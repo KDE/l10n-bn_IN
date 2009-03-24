@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-22 10:18+0100\n"
+"POT-Creation-Date: 2009-03-24 10:55+0100\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -241,29 +241,33 @@ msgstr "আরম্ভ করুন"
 msgid "Application Launcher"
 msgstr "অ্যাপ্লিকেশন প্রারম্ভকারী"
 
-#: applet/applet.cpp:83
+#: applet/applet.cpp:85
 msgid "Kickoff Application Launcher"
 msgstr "অ্যাপ্লিকেশন প্রারম্ভকারী ব্যবস্থা আরম্ভ করুন"
 
-#: applet/applet.cpp:84
+#: applet/applet.cpp:86
 msgid ""
 "Favorites, applications, computer places, recently used items and desktop "
 "sessions"
 msgstr "পছন্দ, অ্যাপ্লিকেশন, কম্পিউটারের স্থান, সম্প্রতি ব্যবহৃত সামগ্রী ও ডেস্কটপ সেশান"
 
-#: applet/applet.cpp:107 simpleapplet/simpleapplet.cpp:308
+#: applet/applet.cpp:111 simpleapplet/simpleapplet.cpp:308
 msgid "Menu Editor"
 msgstr "মেনু সম্পাদন ব্যবস্থা"
 
-#: applet/applet.cpp:113
+#: applet/applet.cpp:117
 msgid "Switch to Classic Menu Style"
 msgstr "মেনুর পারম্পরিক বিন্যাসের পরিবর্তন করুন"
 
-#: applet/applet.cpp:147
+#: applet/applet.cpp:151 simpleapplet/simpleapplet.cpp:392
+msgid "Icon:"
+msgstr ""
+
+#: applet/applet.cpp:158
 msgid "Switch tabs on hover"
 msgstr ""
 
-#: applet/applet.cpp:154
+#: applet/applet.cpp:163
 msgid "General"
 msgstr "সাধারণ"
 
@@ -317,10 +321,6 @@ msgstr ""
 #| msgid "View:"
 msgid "View"
 msgstr "প্রদর্শন:"
-
-#: simpleapplet/simpleapplet.cpp:392
-msgid "Icon:"
-msgstr ""
 
 #: simpleapplet/simpleapplet.cpp:399
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"

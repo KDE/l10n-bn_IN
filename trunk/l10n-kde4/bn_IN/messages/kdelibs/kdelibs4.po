@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-22 10:16+0100\n"
+"POT-Creation-Date: 2009-03-24 10:53+0100\n"
 "PO-Revision-Date: 2008-10-23 11:15+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -3276,6 +3276,14 @@ msgstr "অনুগ্রহ করে সিস্টেম অ্যাডম
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "\"%1\" কনফিগারেশন ফাইলটির মধ্যে লেখা সম্ভব হবে না।\n"
 
+#: kdecore/network/klocalsocket_win.cpp:31
+#: kdecore/network/klocalsocket_win.cpp:36
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation not supported"
+msgstr "কর্ম সমর্থিত নয়"
+
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
@@ -3409,6 +3417,83 @@ msgstr "'ai_socktype' সমর্থিত নয়"
 #: kdecore/network/netsupp.cpp:902
 msgid "system error"
 msgstr "সিস্টেম জড়িত ত্রুটি"
+
+#: kdecore/network/klocalsocket_unix.cpp:178
+#: kdecore/network/klocalsocket_unix.cpp:246
+msgid "Specified socket path is invalid"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:187
+#: kdecore/network/klocalsocket_unix.cpp:234
+#: kdecore/network/klocalsocket_unix.cpp:255
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "The socket operation is not supported"
+msgstr "কর্ম সমর্থিত নয়"
+
+#: kdecore/network/klocalsocket_unix.cpp:200
+#, fuzzy
+#| msgctxt "Socket error code ConnectionRefused"
+#| msgid "connection actively refused"
+msgid "Connection refused"
+msgstr "সংযোগ সক্রিয়রূপে প্রত্যাখ্যান করা হয়েছে"
+
+#: kdecore/network/klocalsocket_unix.cpp:205
+#: kdecore/network/klocalsocket_unix.cpp:268
+msgid "Permission denied"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:209
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection timed out"
+msgstr "সংযোগের সময়সীমা উত্তীর্ণ হয়েছে"
+
+#: kdecore/network/klocalsocket_unix.cpp:213
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:475
+msgid "Unknown error"
+msgstr "অজানা ত্রুটি"
+
+#: kdecore/network/klocalsocket_unix.cpp:221
+#: kdecore/network/klocalsocket_unix.cpp:301
+msgid "Could not set non-blocking mode"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:272
+#, fuzzy
+#| msgctxt "Socket error code AddressInUse"
+#| msgid "address already in use"
+msgid "Address is already in use"
+msgstr "ঠিকানা বর্তমানে ব্যবহৃত হচ্ছে"
+
+#: kdecore/network/klocalsocket_unix.cpp:277
+msgid "Path cannot be used"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:281
+#, fuzzy
+#| msgid "No such interpreter \"%1\""
+msgid "No such file or directory"
+msgstr "ইন্টারপ্রেটাট \"%1\" অনুপস্থিত"
+
+#: kdecore/network/klocalsocket_unix.cpp:285
+#, fuzzy
+#| msgid "Path to the autostart directory"
+msgid "Not a directory"
+msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভকরণের জন্য ব্যবহৃত ডিরেক্টরির পাথ"
+
+#: kdecore/network/klocalsocket_unix.cpp:289
+msgid "Read-only filesystem"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:354
+#: kdecore/network/klocalsocket_unix.cpp:386
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown socket error"
+msgstr "অজানা ত্রুটি"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -11316,10 +11401,6 @@ msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
 #: nepomuk/core/resource.cpp:473
 msgid "Invalid type in Database"
 msgstr "ডাটাবেসের মধ্যে অবৈধ ধরন"
-
-#: nepomuk/core/resource.cpp:475
-msgid "Unknown error"
-msgstr "অজানা ত্রুটি"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:214
 msgid "Create New Tag..."
