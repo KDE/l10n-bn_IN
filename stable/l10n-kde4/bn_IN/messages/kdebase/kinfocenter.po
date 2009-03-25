@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-24 06:21+0100\n"
+"POT-Creation-Date: 2009-03-25 07:19+0100\n"
 "PO-Revision-Date: 2008-12-30 19:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -460,24 +460,16 @@ msgstr "ফ্ল্যাগ"
 msgid "Unable to run /sbin/mount."
 msgstr "/sbin/mount কমান্ড সঞ্চালন করতে ব্যর্থ।"
 
-#: base/info_osx.cpp:70
-#, kde-format
-msgid "Kernel is configured for %1 CPUs"
-msgstr "%1 CPU-র জন্য কার্নেল কনফিগার করা হয়েছে"
-
-#: base/info_osx.cpp:72
-#, kde-format
-msgid "CPU %1: %2"
-msgstr "CPU %1: %2"
-
 #: base/info_osx.cpp:121
-#, kde-format
-msgid "Device Name: %1"
+#, fuzzy
+#| msgid "Device Name: %1"
+msgid "Device Name"
 msgstr "ডিভাইসের নাম: %1"
 
-#: base/info_osx.cpp:129
-#, kde-format
-msgid "Manufacturer: %1"
+#: base/info_osx.cpp:131
+#, fuzzy
+#| msgid "Manufacturer: %1"
+msgid "Manufacturer"
 msgstr "নির্মাতা: %1"
 
 #: base/info_solaris.cpp:69
@@ -964,3 +956,9 @@ msgstr "%1 পরিচিতি"
 #, kde-format
 msgid "Report Bug on Module %1..."
 msgstr "মডিউল %1 সম্পর্কে বাগ দায়ের করুন..."
+
+#~ msgid "Kernel is configured for %1 CPUs"
+#~ msgstr "%1 CPU-র জন্য কার্নেল কনফিগার করা হয়েছে"
+
+#~ msgid "CPU %1: %2"
+#~ msgstr "CPU %1: %2"
