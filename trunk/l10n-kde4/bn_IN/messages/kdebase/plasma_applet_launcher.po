@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-24 10:55+0100\n"
+"POT-Creation-Date: 2009-03-31 10:41+0200\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ui/flipscrollview.cpp:138
+#: ui/flipscrollview.cpp:138 simpleapplet/simpleapplet.cpp:543
 msgid "All Applications"
 msgstr "সকল অ্যাপ্লিকেশন"
 
@@ -49,12 +49,12 @@ msgstr "বহিষ্কার"
 msgid "Safely Remove"
 msgstr "নিরাপদভাবে বের করে নিন"
 
-#: ui/launcher.cpp:159 simpleapplet/simpleapplet.cpp:185
+#: ui/launcher.cpp:159 simpleapplet/simpleapplet.cpp:189
 msgid "Leave"
 msgstr "প্রস্থান করুন"
 
 #: ui/launcher.cpp:170 core/favoritesmodel.cpp:44
-#: simpleapplet/simpleapplet.cpp:167
+#: simpleapplet/simpleapplet.cpp:171
 msgid "Favorites"
 msgstr "পছন্দ"
 
@@ -67,11 +67,11 @@ msgid "Sort Alphabetically (Z to A)"
 msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (Z থেকে A)"
 
 #: ui/launcher.cpp:199 core/recentlyusedmodel.cpp:115 core/systemmodel.cpp:88
-#: core/searchmodel.cpp:135 simpleapplet/simpleapplet.cpp:169
+#: core/searchmodel.cpp:135 simpleapplet/simpleapplet.cpp:173
 msgid "Applications"
 msgstr "অ্যাপ্লিকেশন"
 
-#: ui/launcher.cpp:211 simpleapplet/simpleapplet.cpp:171
+#: ui/launcher.cpp:211 simpleapplet/simpleapplet.cpp:175
 msgid "Recently Used"
 msgstr "সম্প্রতি ব্যবহৃত"
 
@@ -83,7 +83,7 @@ msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লি�
 msgid "Clear Recent Documents"
 msgstr "সম্প্রতি ব্যবহৃত নথিপত্রের তালিকা পরিস্কার করুন"
 
-#: ui/launcher.cpp:231 simpleapplet/simpleapplet.cpp:170
+#: ui/launcher.cpp:231 simpleapplet/simpleapplet.cpp:174
 msgid "Computer"
 msgstr "কম্পিউটার"
 
@@ -103,7 +103,7 @@ msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
 msgid "Search:"
 msgstr "অনুসন্ধান:"
 
-#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:184
+#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:188
 msgid "Logout"
 msgstr "লগ-আউট করুন"
 
@@ -115,11 +115,11 @@ msgstr "সেশান সমাপ্ত করুন"
 msgid "Lock"
 msgstr "লক করুন"
 
-#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:178
+#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:182
 msgid "Lock the screen"
 msgstr "পর্দা লক করুন"
 
-#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:176
+#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:180
 msgid "Switch User"
 msgstr "ব্যবহারকারী পরিবর্তন করুন"
 
@@ -127,7 +127,7 @@ msgstr "ব্যবহারকারী পরিবর্তন করুন"
 msgid "Start a parallel session as a different user"
 msgstr "ভিন্ন ব্যবহারকারীর জন্য একযোগে একটি পৃথক সেশান আরম্ভ করুন"
 
-#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:183
+#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:187
 msgid "Shutdown"
 msgstr "বন্ধ করুন"
 
@@ -137,7 +137,7 @@ msgstr "বন্ধ করুন"
 msgid "Turn off computer"
 msgstr "কম্পিউটার বন্ধ করুন"
 
-#: core/leavemodel.cpp:65 simpleapplet/simpleapplet.cpp:182
+#: core/leavemodel.cpp:65 simpleapplet/simpleapplet.cpp:186
 #, fuzzy
 #| msgctxt "Restart the computer"
 #| msgid "Restart"
@@ -151,7 +151,7 @@ msgstr "পুনরারম্ভ"
 msgid "Restart computer"
 msgstr "কম্পিউটার পুনরায় আরম্ভ করুন"
 
-#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:177
+#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:181
 msgid "Save Session"
 msgstr "সেশান সংরক্ষণ করুন"
 
@@ -159,7 +159,7 @@ msgstr "সেশান সংরক্ষণ করুন"
 msgid "Save current session for next login"
 msgstr "পরবর্তী লগ-ইনে প্রয়োগ করার জন্য বর্তমান সেশান সংরক্ষণ করুন"
 
-#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:179
+#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:183
 msgctxt "Puts the system on standby"
 msgid "Standby"
 msgstr "স্থগিত করুন"
@@ -168,11 +168,11 @@ msgstr "স্থগিত করুন"
 msgid "Pause without logging out"
 msgstr "লগ-আউট না করে স্থগিত করুন"
 
-#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:180
+#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:184
 msgid "Suspend to Disk"
 msgstr "ডিস্কে বিরত করুন"
 
-#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:181
+#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:185
 msgid "Suspend to RAM"
 msgstr "RAM-এ বিরত করুন"
 
@@ -212,7 +212,7 @@ msgstr "অপসারণযোগ্য সংরক্ষণস্থল"
 msgid "Storage"
 msgstr "সংরক্ষণস্থল"
 
-#: core/systemmodel.cpp:248 simpleapplet/simpleapplet.cpp:175
+#: core/systemmodel.cpp:248 simpleapplet/simpleapplet.cpp:179
 msgid "Run Command..."
 msgstr ""
 
@@ -251,7 +251,7 @@ msgid ""
 "sessions"
 msgstr "পছন্দ, অ্যাপ্লিকেশন, কম্পিউটারের স্থান, সম্প্রতি ব্যবহৃত সামগ্রী ও ডেস্কটপ সেশান"
 
-#: applet/applet.cpp:111 simpleapplet/simpleapplet.cpp:308
+#: applet/applet.cpp:111 simpleapplet/simpleapplet.cpp:313
 msgid "Menu Editor"
 msgstr "মেনু সম্পাদন ব্যবস্থা"
 
@@ -259,7 +259,7 @@ msgstr "মেনু সম্পাদন ব্যবস্থা"
 msgid "Switch to Classic Menu Style"
 msgstr "মেনুর পারম্পরিক বিন্যাসের পরিবর্তন করুন"
 
-#: applet/applet.cpp:151 simpleapplet/simpleapplet.cpp:392
+#: applet/applet.cpp:151 simpleapplet/simpleapplet.cpp:397
 msgid "Icon:"
 msgstr ""
 
@@ -281,40 +281,40 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: simpleapplet/simpleapplet.cpp:168
+#: simpleapplet/simpleapplet.cpp:172
 #, fuzzy
 #| msgctxt "@item:inlistbox View:"
 #| msgid "Bookmarks"
 msgid "Bookmarks"
 msgstr "বুকমার্ক"
 
-#: simpleapplet/simpleapplet.cpp:172
+#: simpleapplet/simpleapplet.cpp:176 simpleapplet/simpleapplet.cpp:559
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently Used Applications"
 msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
 
-#: simpleapplet/simpleapplet.cpp:173
+#: simpleapplet/simpleapplet.cpp:177 simpleapplet/simpleapplet.cpp:566
 #, fuzzy
 #| msgid "Recently Used"
 msgid "Recently Used Documents"
 msgstr "সম্প্রতি ব্যবহৃত"
 
-#: simpleapplet/simpleapplet.cpp:174
+#: simpleapplet/simpleapplet.cpp:178
 msgid "System Settings"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:241
+#: simpleapplet/simpleapplet.cpp:245
 #, fuzzy
 #| msgid "Application Launcher"
 msgid "Application Launcher Menu"
 msgstr "অ্যাপ্লিকেশন প্রারম্ভকারী"
 
-#: simpleapplet/simpleapplet.cpp:314
+#: simpleapplet/simpleapplet.cpp:319
 msgid "Switch to Kickoff Menu Style"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:386
+#: simpleapplet/simpleapplet.cpp:391
 #, fuzzy
 #| msgctxt ""
 #| "@label:listbox Which category of items to view in a KMenu-like menu"
@@ -322,46 +322,56 @@ msgstr ""
 msgid "View"
 msgstr "প্রদর্শন:"
 
-#: simpleapplet/simpleapplet.cpp:399
+#: simpleapplet/simpleapplet.cpp:404
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
 msgstr "বিন্যাস:"
 
-#: simpleapplet/simpleapplet.cpp:403
+#: simpleapplet/simpleapplet.cpp:408
 msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
 msgstr "শুধুমাত্র নাম"
 
-#: simpleapplet/simpleapplet.cpp:404
+#: simpleapplet/simpleapplet.cpp:409
 msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
 msgstr "শুধুমাত্র বিবরণ"
 
-#: simpleapplet/simpleapplet.cpp:405
+#: simpleapplet/simpleapplet.cpp:410
 msgctxt "@item:inlistbox Format:"
 msgid "Name Description"
 msgstr "নাম বিবরণ"
 
-#: simpleapplet/simpleapplet.cpp:406
+#: simpleapplet/simpleapplet.cpp:411
 msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
 msgstr "বিবরণ (নাম)"
 
-#: simpleapplet/simpleapplet.cpp:407
+#: simpleapplet/simpleapplet.cpp:412
 msgctxt "@item:inlistbox Format:"
 msgid "Name - Description"
 msgstr "নাম - বিবরণ"
 
-#: simpleapplet/simpleapplet.cpp:411
+#: simpleapplet/simpleapplet.cpp:416
 #, fuzzy
 #| msgid "Clear Recent Applications"
-msgid "Recently Used Applications:"
+msgid "Recently used applications:"
 msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
 
-#: simpleapplet/simpleapplet.cpp:421
+#: simpleapplet/simpleapplet.cpp:425
+msgid "Show menu titles:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:432
 #, fuzzy
 #| msgid "Applications"
 msgid "Options"
+msgstr "অ্যাপ্লিকেশন"
+
+#: simpleapplet/simpleapplet.cpp:545
+#, fuzzy
+#| msgid "Applications"
+msgid "Actions"
 msgstr "অ্যাপ্লিকেশন"
 
 #, fuzzy
