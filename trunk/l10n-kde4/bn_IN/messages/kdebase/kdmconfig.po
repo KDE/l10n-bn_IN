@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-13 10:18+0100\n"
+"POT-Creation-Date: 2009-04-01 11:16+0200\n"
 "PO-Revision-Date: 2008-07-10 17:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -793,11 +793,16 @@ msgid ""
 msgstr ""
 
 #: main.cpp:196
-msgid "General (&1)"
-msgstr "সাধারণ (&1)"
+#, fuzzy
+#| msgctxt "... font"
+#| msgid "&General:"
+msgid "&General"
+msgstr "সাধারণ: (&G)"
 
 #: main.cpp:202
-msgid "Dialog (&2)"
+#, fuzzy
+#| msgid "Dialog (&2)"
+msgid "&Dialog"
 msgstr "ডায়লগ (&2)"
 
 #: main.cpp:207
@@ -805,7 +810,9 @@ msgid "There is no login dialog window in themed mode."
 msgstr "থিম মোডে কোনো লগ-ইন ডায়লগ উইন্ডো উপস্থিত নেই।"
 
 #: main.cpp:213
-msgid "Background (&3)"
+#, fuzzy
+#| msgid "Background (&3)"
+msgid "&Background"
 msgstr "পটভূমি (&3)"
 
 #: main.cpp:218
@@ -813,23 +820,33 @@ msgid "The background cannot be configured separately in themed mode."
 msgstr "থিম মোড ব্যবহার করা হলে পটভূমি পৃথকভাবে কনফিগার করা সম্ভব নয়।"
 
 #: main.cpp:224
-msgid "Theme (&4)"
-msgstr "থিম (&4)"
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Theme"
+msgid "&Theme"
+msgstr "থিম"
 
 #: main.cpp:226
 msgid "Themed mode is disabled. See \"General\" tab."
 msgstr "থিম মোড নিষ্ক্রিয় রয়েছে। \"সাধারণ\" শীর্ষক ট্যাব দেখুন।"
 
 #: main.cpp:235
-msgid "Shutdown (&5)"
+#, fuzzy
+#| msgid "Shutdown (&5)"
+msgid "&Shutdown"
 msgstr "বন্ধ করুন (&5)"
 
 #: main.cpp:239
-msgid "Users (&6)"
-msgstr "ব্যবহারকারী (&6)"
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Users"
+msgid "&Users"
+msgstr "ব্যবহারকারী"
 
 #: main.cpp:249
-msgid "Convenience (&7)"
+#, fuzzy
+#| msgid "Convenience (&7)"
+msgid "&Convenience"
 msgstr "সুবিধা (&7)"
 
 #: positioner.cpp:100
@@ -848,3 +865,12 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#~ msgid "General (&1)"
+#~ msgstr "সাধারণ (&1)"
+
+#~ msgid "Theme (&4)"
+#~ msgstr "থিম (&4)"
+
+#~ msgid "Users (&6)"
+#~ msgstr "ব্যবহারকারী (&6)"
