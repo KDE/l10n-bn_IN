@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-04 07:06+0200\n"
+"POT-Creation-Date: 2009-04-05 06:19+0200\n"
 "PO-Revision-Date: 2008-10-23 11:15+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -2247,23 +2247,27 @@ msgstr "%1 - অজানা ধরন\n"
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - userpath-র ধরন অজ্ঞাত\n"
 
-#: kdecore/io/ksavefile.cpp:83
+#: kdecore/io/ksavefile.cpp:84
 msgid "No target filename has been given."
 msgstr "উদ্দিষ্ট ফাইলের নাম উল্লিখিত হয়নি।"
 
-#: kdecore/io/ksavefile.cpp:90
+#: kdecore/io/ksavefile.cpp:91
 msgid "Already opened."
 msgstr "বর্তমানে খোলা অবস্থায় রয়েছে।"
 
-#: kdecore/io/ksavefile.cpp:100
+#: kdecore/io/ksavefile.cpp:101
 msgid "Insufficient permissions in target directory."
 msgstr "উদ্দিষ্ট ডিরেক্টরি ব্যবহারের জন্য পর্যাপ্ত অনুমতি উপস্থিত নেই।"
 
-#: kdecore/io/ksavefile.cpp:110
+#: kdecore/io/ksavefile.cpp:111
 msgid "Unable to open temporary file."
 msgstr "অস্থায়ী ফাইল খুলতে ব্যর্থ।"
 
-#: kdecore/io/ksavefile.cpp:221
+#: kdecore/io/ksavefile.cpp:214
+msgid "Synchronization to disk failed"
+msgstr ""
+
+#: kdecore/io/ksavefile.cpp:239
 msgid "Error during rename."
 msgstr "নাম পরিবর্তনকালে ত্রুটি।"
 
