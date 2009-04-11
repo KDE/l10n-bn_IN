@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-06 11:01+0200\n"
+"POT-Creation-Date: 2009-04-11 11:50+0200\n"
 "PO-Revision-Date: 2008-07-07 02:25+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -1526,12 +1526,17 @@ msgctxt "@title:tab Status Bar settings"
 msgid "Status Bar"
 msgstr ""
 
-#: settings/previewssettingspage.cpp:59
+#: settings/previewssettingspage.cpp:61
+msgctxt "@label"
+msgid "Show previews for:"
+msgstr ""
+
+#: settings/previewssettingspage.cpp:72
 msgctxt "@label:slider"
 msgid "Maximum file size:"
 msgstr "ফাইলের সর্বোচ্চ পরিমাপ:"
 
-#: settings/previewssettingspage.cpp:81
+#: settings/previewssettingspage.cpp:94
 msgctxt "@option:check"
 msgid "Use thumbnails embedded in files"
 msgstr "ফাইলের থাম্বনেল দেখানো হবে"

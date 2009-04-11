@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-10 11:07+0200\n"
+"POT-Creation-Date: 2009-04-11 11:51+0200\n"
 "PO-Revision-Date: 2008-07-06 19:57+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -18,16 +18,22 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: kcmultiwidget.cpp:378
+#, fuzzy
+#| msgid ""
+#| "There are unsaved changes in the active module.\n"
+#| "Do you want to apply the changes or discard them?"
 msgid ""
-"There are unsaved changes in the active module.\n"
+"The current page has been modified.\n"
 "Do you want to apply the changes or discard them?"
 msgstr ""
 "সক্রিয় মডিউল-এ অসংরক্ষিত পরিবর্তন রয়েছে।\n"
 "আপনি কী সংশ্লিষ্ট পরিবর্তনগুলো প্রয়োগ করতে চান না বাতিল করতে চান?"
 
 #: kcmultiwidget.cpp:380
-msgid "Unsaved Changes"
-msgstr "অসংরক্ষিত পরিবর্তন"
+#, fuzzy
+#| msgid "System Settings"
+msgid "Apply Settings"
+msgstr "সইস্টেমের বৈশিষ্ট"
 
 #: main.cpp:36 main.cpp:37
 msgid "System Settings"
@@ -106,6 +112,9 @@ msgstr "রিয়া দাস"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mailtoria@gmail.com"
+
+#~ msgid "Unsaved Changes"
+#~ msgstr "অসংরক্ষিত পরিবর্তন"
 
 #~ msgid "Configure"
 #~ msgstr "কনফিগার"
