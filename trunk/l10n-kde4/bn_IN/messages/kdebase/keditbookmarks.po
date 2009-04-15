@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-04-15 11:59+0200\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -330,7 +330,7 @@ msgstr "স্থানীয় ফাইল"
 #. i18n: ectx: Menu (file)
 #. i18n: file: keditbookmarksui.rc:6
 #. i18n: ectx: Menu (file)
-#: rc.cpp:3 rc.cpp:36 rc.cpp:68 rc.cpp:89
+#: rc.cpp:3 rc.cpp:24 rc.cpp:56 rc.cpp:77
 msgid "&File"
 msgstr "ফাইল (&F)"
 
@@ -342,7 +342,7 @@ msgstr "ফাইল (&F)"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: keditbookmarksui.rc:32
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:6 rc.cpp:45 rc.cpp:71 rc.cpp:98
+#: rc.cpp:6 rc.cpp:33 rc.cpp:59 rc.cpp:86
 msgid "&Edit"
 msgstr "সম্পাদনা (&E)"
 
@@ -354,7 +354,7 @@ msgstr "সম্পাদনা (&E)"
 #. i18n: ectx: Menu (view)
 #. i18n: file: keditbookmarksui.rc:44
 #. i18n: ectx: Menu (view)
-#: rc.cpp:9 rc.cpp:48 rc.cpp:74 rc.cpp:101
+#: rc.cpp:9 rc.cpp:36 rc.cpp:62 rc.cpp:89
 msgid "&View"
 msgstr "প্রদর্শন (&V"
 
@@ -366,7 +366,7 @@ msgstr "প্রদর্শন (&V"
 #. i18n: ectx: Menu (folder)
 #. i18n: file: keditbookmarksui.rc:49
 #. i18n: ectx: Menu (folder)
-#: rc.cpp:12 rc.cpp:51 rc.cpp:77 rc.cpp:104
+#: rc.cpp:12 rc.cpp:39 rc.cpp:65 rc.cpp:92
 msgid "&Folder"
 msgstr "ফোল্ডার (&F)"
 
@@ -378,7 +378,7 @@ msgstr "ফোল্ডার (&F)"
 #. i18n: ectx: Menu (bookmark)
 #. i18n: file: keditbookmarksui.rc:58
 #. i18n: ectx: Menu (bookmark)
-#: rc.cpp:15 rc.cpp:54 rc.cpp:80 rc.cpp:107
+#: rc.cpp:15 rc.cpp:42 rc.cpp:68 rc.cpp:95
 msgid "&Bookmark"
 msgstr "বুকমার্ক (&B)"
 
@@ -390,7 +390,7 @@ msgstr "বুকমার্ক (&B)"
 #. i18n: ectx: Menu (settings)
 #. i18n: file: keditbookmarksui.rc:74
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:18 rc.cpp:60 rc.cpp:83 rc.cpp:113
+#: rc.cpp:18 rc.cpp:48 rc.cpp:71 rc.cpp:101
 msgid "&Settings"
 msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 
@@ -402,34 +402,34 @@ msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: keditbookmarksui.rc:81
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:21 rc.cpp:63 rc.cpp:86 rc.cpp:116
+#: rc.cpp:21 rc.cpp:51 rc.cpp:74 rc.cpp:104
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
 
 #. i18n: file: keditbookmarksui.rc:10
 #. i18n: ectx: Menu (import)
-#: rc.cpp:39 rc.cpp:92
+#: rc.cpp:27 rc.cpp:80
 msgid "&Import"
 msgstr "ইম্পোর্ট করুন (&I)"
 
 #. i18n: file: keditbookmarksui.rc:20
 #. i18n: ectx: Menu (export)
-#: rc.cpp:42 rc.cpp:95
+#: rc.cpp:30 rc.cpp:83
 msgid "&Export"
 msgstr "এক্সপোর্ট করুন (&E)"
 
 #. i18n: file: keditbookmarksui.rc:66
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:57 rc.cpp:110
+#: rc.cpp:45 rc.cpp:98
 msgid "&Tools"
 msgstr "সরঞ্জাম (&T)"
 
-#: rc.cpp:64
+#: rc.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
-#: rc.cpp:65
+#: rc.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
