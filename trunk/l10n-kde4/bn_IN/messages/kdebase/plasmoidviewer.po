@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-03 11:08+0200\n"
+"POT-Creation-Date: 2009-04-26 10:54+0200\n"
 "PO-Revision-Date: 2008-12-29 15:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -68,20 +68,19 @@ msgid "The size in KB to set the pixmap cache to"
 msgstr "কিলোবাইট অনুযায়ী পিক্সম্যাপ ক্যাশের মাপ নির্ধারণ করা হবে"
 
 #: main.cpp:70
-msgid "Name of applet to add (required)"
-msgstr "যোগ করার জন্য অ্যাপ্লেটের নাম (আবশ্যক)"
+msgid ""
+"Name of applet to view; may refer to the plugin name or be a path (absolute "
+"or relative) to a package. If not provided, then an attempt is made to load "
+"a package from the current directory."
+msgstr ""
 
-#: main.cpp:71
+#: main.cpp:73
 msgid "Optional arguments of the applet to add"
 msgstr "যোগ করার উদ্দেশ্যে চিহ্নিত ঐচ্ছিক আর্গুমেন্ট"
 
-#: main.cpp:95
+#: main.cpp:97
 msgid "No description available"
 msgstr "কোনো বর্ণনা উপলব্ধ নেই"
-
-#: main.cpp:113
-msgid "No applet name specified"
-msgstr "কোনো অ্যাপ্লেটের নাম উল্লিখিত হয়নি"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -92,3 +91,9 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runabh@gmail.com"
+
+#~ msgid "Name of applet to add (required)"
+#~ msgstr "যোগ করার জন্য অ্যাপ্লেটের নাম (আবশ্যক)"
+
+#~ msgid "No applet name specified"
+#~ msgstr "কোনো অ্যাপ্লেটের নাম উল্লিখিত হয়নি"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksplashthemes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-30 09:55+0100\n"
+"POT-Creation-Date: 2009-04-26 10:54+0200\n"
 "PO-Revision-Date: 2009-01-12 16:40+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: installer.cpp:128
+#: installer.cpp:127
 msgid "Get New Themes..."
 msgstr "নতুন থিম প্রাপ্ত করুন..."
 
-#: installer.cpp:129
+#: installer.cpp:128
 msgid "Get new themes from the Internet"
 msgstr "ইন্টারনেট থেকে নতুন থিম প্রাপ্ত করুন"
 
-#: installer.cpp:130
+#: installer.cpp:129
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of themes from the http://www.kde.org website. Clicking the "
@@ -36,15 +36,15 @@ msgstr ""
 "প্রদর্শিত 'ইনস্টল করুন' শীর্ষক বাটনটি ক্লিক করা হলে, সংশ্লিষ্ট থিমটি স্থানীয় মেশিনে "
 "ইনস্টল করা হবে।"
 
-#: installer.cpp:134
+#: installer.cpp:133
 msgid "Install Theme File..."
 msgstr "থিম ফাইল ইনস্টল করুন..."
 
-#: installer.cpp:135
+#: installer.cpp:134
 msgid "Install a theme archive file you already have locally"
 msgstr "স্থানীয় অবস্থানে উপস্থিত কোনো থিম আর্কাইভ ফাইল থেকে ইনস্টল করুন"
 
-#: installer.cpp:136
+#: installer.cpp:135
 msgid ""
 "If you already have a theme archive locally, this button will unpack it and "
 "make it available for KDE applications"
@@ -52,120 +52,120 @@ msgstr ""
 "এই বাটনের সাহায্যে, স্থানীয় মেশিনে উপস্থিত কোনো থিম আকাইভ ফাইল আন-প্যাক করা হবে "
 "ও KDE অ্যাপ্লিকেশনের সাথে ব্যবহারের জন্য উপলব্ধ করা হবে।"
 
-#: installer.cpp:140
+#: installer.cpp:139
 msgid "Remove Theme"
 msgstr "থিম মুছে ফেলুন"
 
-#: installer.cpp:141
+#: installer.cpp:140
 msgid "Remove the selected theme from your disk"
 msgstr "নির্বাচিত থিমটি ডিস্ক থেকে মুছে ফেলুন"
 
-#: installer.cpp:142
+#: installer.cpp:141
 msgid "This will remove the selected theme from your disk."
 msgstr "এর ফলে, নির্বাচিত থিমটি ডিস্ক থেকে মুছে ফেলা হবে।"
 
-#: installer.cpp:147
+#: installer.cpp:146
 msgid "Test Theme"
 msgstr "থিম পরীক্ষা করুন"
 
-#: installer.cpp:148
+#: installer.cpp:147
 msgid "Test the selected theme"
 msgstr "নির্বাচিত থিমটি পরীক্ষা করুন"
 
-#: installer.cpp:149
+#: installer.cpp:148
 msgid "This will test the selected theme."
 msgstr "এর ফলে, নির্বাচিত থিমটি পরীক্ষা করা হবে।"
 
-#: installer.cpp:364
+#: installer.cpp:361
 #, kde-format
 msgid "Delete folder %1 and its contents?"
 msgstr "%1 ফোল্ডার ও এর মধ্যে অন্তর্ভুক্ত সামগ্রী মুছে ফেলা হবে কি?"
 
-#: installer.cpp:364
+#: installer.cpp:361
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
-#: installer.cpp:371
+#: installer.cpp:368
 #, kde-format
 msgid "Failed to remove theme '%1'"
 msgstr "'%1' থিম মুছে ফেলতে ব্যর্থ"
 
-#: installer.cpp:396 installer.cpp:464
+#: installer.cpp:393 installer.cpp:461
 msgid "(Could not load theme)"
 msgstr "(থিম লোড করতে ব্যর্থ)"
 
-#: installer.cpp:428
+#: installer.cpp:425
 msgctxt "Unknown name"
 msgid "Unknown"
 msgstr "অজানা"
 
-#: installer.cpp:428
+#: installer.cpp:425
 #, kde-format
 msgid "<b>Name:</b> %1"
 msgstr "<b>নাম:</b> %1"
 
-#: installer.cpp:430
+#: installer.cpp:427
 msgctxt "Unknown description"
 msgid "Unknown"
 msgstr "অজানা"
 
-#: installer.cpp:430
+#: installer.cpp:427
 #, kde-format
 msgid "<b>Description:</b> %1"
 msgstr "<b>বিবরণ:</b> %1"
 
-#: installer.cpp:432
+#: installer.cpp:429
 msgctxt "Unknown version"
 msgid "Unknown"
 msgstr "অজানা"
 
-#: installer.cpp:432
+#: installer.cpp:429
 #, kde-format
 msgid "<b>Version:</b> %1"
 msgstr "<b>সংস্করণ:</b> %1"
 
-#: installer.cpp:434
+#: installer.cpp:431
 msgctxt "Unknown author"
 msgid "Unknown"
 msgstr "অজানা"
 
-#: installer.cpp:434
+#: installer.cpp:431
 #, kde-format
 msgid "<b>Author:</b> %1"
 msgstr "<b>নির্মাতা:</b> %1"
 
-#: installer.cpp:436
+#: installer.cpp:433
 msgctxt "Unknown homepage"
 msgid "Unknown"
 msgstr "অজানা"
 
-#: installer.cpp:436
+#: installer.cpp:433
 #, kde-format
 msgid "<b>Homepage:</b> %1"
 msgstr "<b>হোম-পেজ:</b> %1"
 
-#: installer.cpp:445
+#: installer.cpp:442
 #, kde-format
 msgid "This theme requires the plugin %1 which is not installed."
 msgstr "এই থিমের জন্য আবশ্যক %1 প্লাগ-ইনটি ইনস্টল করা হয়নি।"
 
-#: installer.cpp:453
+#: installer.cpp:450
 msgid "Could not load theme configuration file."
 msgstr "থিম কনফিগারেশন ফাইল লোড করা যায়নি।"
 
-#: installer.cpp:473
+#: installer.cpp:470
 msgid "No preview available."
 msgstr "পূর্বরূপের ঝলক উপলব্ধ নেই।"
 
-#: installer.cpp:497
+#: installer.cpp:494
 msgid "KSplash Theme Files"
 msgstr "KSplash থিম ফাইল"
 
-#: installer.cpp:498
+#: installer.cpp:495
 msgid "Add Theme"
 msgstr "থিম যোগ করুন"
 
-#: installer.cpp:551 installer.cpp:559 installer.cpp:567
+#: installer.cpp:548 installer.cpp:556 installer.cpp:564
 msgid "Failed to successfully test the splash screen."
 msgstr "স্প্ল্যাশ স্ক্রিন সাফল্যের সাথে পরীক্ষা করতে ব্যর্থ।"
 
