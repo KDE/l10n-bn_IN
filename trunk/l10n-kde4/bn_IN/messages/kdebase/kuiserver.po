@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuiserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-27 10:59+0200\n"
+"POT-Creation-Date: 2009-04-28 11:15+0200\n"
 "PO-Revision-Date: 2009-01-12 14:26+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -37,7 +37,7 @@ msgstr "%1, %2/s গতিতে প্রসেস করা হয়েছে"
 msgid "%1 processed"
 msgstr "%1 প্রসেস করা হয়েছে"
 
-#: progresslistdelegate.cpp:265 progresslistdelegate.cpp:301
+#: progresslistdelegate.cpp:265 progresslistdelegate.cpp:309
 msgid "Pause"
 msgstr "স্থগিত করুন"
 
@@ -45,7 +45,11 @@ msgstr "স্থগিত করুন"
 msgid "Cancel"
 msgstr "বাতিল"
 
-#: progresslistdelegate.cpp:305
+#: progresslistdelegate.cpp:267
+msgid "Clear"
+msgstr ""
+
+#: progresslistdelegate.cpp:313
 msgid "Resume"
 msgstr "পুনরারম্ভ"
 
@@ -131,74 +135,74 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: uiserver.cpp:112 uiserver.cpp:128
+#: uiserver.cpp:125 uiserver.cpp:141
 #, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1-টি ফাইল"
 msgstr[1] "%1-টি ফাইল"
 
-#: uiserver.cpp:115 uiserver.cpp:131
+#: uiserver.cpp:128 uiserver.cpp:144
 #, kde-format
 msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] "%1-টি ফোল্ডার"
 msgstr[1] "%1-টি ফোল্ডার"
 
-#: uiserver.cpp:195
+#: uiserver.cpp:208
 msgid "Configure..."
 msgstr "কনফিগার করুন..."
 
-#: uiserver.cpp:214
+#: uiserver.cpp:227
 msgid "Search"
 msgstr "অনুসন্ধান"
 
-#: uiserver.cpp:230
+#: uiserver.cpp:243
 msgid "In Progress"
 msgstr "চলমান"
 
-#: uiserver.cpp:297
+#: uiserver.cpp:310
 #, fuzzy
 #| msgid "Finished Jobs"
 msgid "Finished"
 msgstr "সমাপ্ত কর্ম"
 
-#: uiserver.cpp:326
+#: uiserver.cpp:339
 msgid "Behavior"
 msgstr "আচরণ"
 
-#: uiserver.cpp:362
+#: uiserver.cpp:375
 msgid "Progress Manager"
 msgstr "প্রগতি পরিচালনব্যবস্থা"
 
-#: uiserver.cpp:363
+#: uiserver.cpp:376
 msgid "KDE Progress Information UI Server"
 msgstr "KDE-র প্রসেস সংক্রান্ত তথ্যের UI সার্ভার"
 
-#: uiserver.cpp:364
+#: uiserver.cpp:377
 msgid "(C) 2000-2008, KDE Team"
 msgstr "(C) ২০০০-২০০৮, KDE দল"
 
-#: uiserver.cpp:365
+#: uiserver.cpp:378
 msgid "Rafael Fernández López"
 msgstr "রাফায়েল ফার্নান্ডেস লোপেজ"
 
-#: uiserver.cpp:365
+#: uiserver.cpp:378
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: uiserver.cpp:366
+#: uiserver.cpp:379
 msgid "David Faure"
 msgstr "ডেভিড ফেউরে"
 
-#: uiserver.cpp:366
+#: uiserver.cpp:379
 msgid "Former maintainer"
 msgstr "পূর্ববর্তী মেইন্টেনার"
 
-#: uiserver.cpp:367
+#: uiserver.cpp:380
 msgid "Matej Koss"
 msgstr "মাতেজ কোস"
 
-#: uiserver.cpp:367
+#: uiserver.cpp:380
 msgid "Developer"
 msgstr "ডিভেলপর"
