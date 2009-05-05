@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-28 11:16+0200\n"
+"POT-Creation-Date: 2009-05-05 11:20+0200\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -118,8 +118,10 @@ msgstr "সেশান সমাপ্ত করুন"
 msgid "Lock"
 msgstr "লক করুন"
 
-#: core/leavemodel.cpp:55
-msgid "Lock the screen"
+#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:182
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock Screen"
 msgstr "পর্দা লক করুন"
 
 #: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:180
@@ -151,7 +153,7 @@ msgstr "পুনরারম্ভ"
 #: core/leavemodel.cpp:67
 #, fuzzy
 #| msgid "Restart the computer"
-msgid "Restart computer"
+msgid "Restart Computer"
 msgstr "কম্পিউটার পুনরায় আরম্ভ করুন"
 
 #: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:181
@@ -311,12 +313,6 @@ msgstr "বুকমার্ক"
 msgid "System Settings"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:182
-#, fuzzy
-#| msgid "Lock the screen"
-msgid "Lock Screen"
-msgstr "পর্দা লক করুন"
-
 #: simpleapplet/simpleapplet.cpp:186
 #, fuzzy
 #| msgctxt "Restart the computer"
@@ -394,6 +390,9 @@ msgstr "অ্যাপ্লিকেশন"
 #| msgid "Applications"
 msgid "Actions"
 msgstr "অ্যাপ্লিকেশন"
+
+#~ msgid "Lock the screen"
+#~ msgstr "পর্দা লক করুন"
 
 #~ msgid "Known Applications"
 #~ msgstr "পরিচিত অ্যাপ্লিকেশন"
