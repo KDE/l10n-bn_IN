@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-20 06:24+0200\n"
+"POT-Creation-Date: 2009-05-11 07:03+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -309,390 +309,6 @@ msgstr "কি সংকলন"
 msgid "Output"
 msgstr "ফলাফল"
 
-#: MainWindow.cpp:223
-msgid "New &Tab"
-msgstr "নতুন ট্যাব (&T)"
-
-#: MainWindow.cpp:229
-msgid "New &Window"
-msgstr "নতুন উইন্ডো (&W)"
-
-#: MainWindow.cpp:234
-msgid "Remote Connection..."
-msgstr "দূরবর্তী সংযোগ..."
-
-#: MainWindow.cpp:245
-msgid "&Bookmarks"
-msgstr "বুকমার্ক (&B)"
-
-#: MainWindow.cpp:256
-msgid "Show Menu Bar"
-msgstr "মেনু বার প্রদর্শন করা হবে"
-
-#: MainWindow.cpp:278 Part.cpp:119
-msgid "Manage Profiles..."
-msgstr "প্রোফাইল ব্যবস্থাপনা..."
-
-#: MainWindow.cpp:349
-msgid "You have multiple tabs in this window, are you sure you want to quit?"
-msgstr ""
-"এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
-
-#: MainWindow.cpp:351 SessionController.cpp:601
-msgid "Confirm Close"
-msgstr "বন্ধ করার নিশ্চিতি"
-
-#: MainWindow.cpp:353
-msgid "Close Current Tab"
-msgstr "বর্তমান ট্যাব বন্ধ করুন"
-
-#: ManageProfilesDialog.cpp:48
-msgid "Manage Profiles"
-msgstr "প্রোফাইল ব্যবস্থাপনা"
-
-#: ManageProfilesDialog.cpp:200
-msgid "Show in Menu"
-msgstr "মেনুর মধ্যে প্রদর্শন করা হবে"
-
-#: ManageProfilesDialog.cpp:201
-msgid "Shortcut"
-msgstr "শর্ট-কাট"
-
-#: ManageProfilesDialog.cpp:293
-msgid "New Profile"
-msgstr "নতুন প্রোফাইল"
-
-#: Profile.cpp:143
-msgid "Shell"
-msgstr "Shell"
-
-#: ProfileList.cpp:48
-msgid "No profiles available"
-msgstr "কোনো প্রোফাইল উপলব্ধ নেই"
-
-#: RemoteConnectionDialog.cpp:39
-msgid "New Remote Connection"
-msgstr "নতুন দূরবর্তী সংযোগ"
-
-#: RemoteConnectionDialog.cpp:41
-msgid "Connect"
-msgstr "সংযোগ স্থাপন করুন"
-
-#: Session.cpp:317
-msgid "Could not find binary: "
-msgstr "বাইনারি পাওয়া যায়নি: "
-
-#: Session.cpp:326
-msgid "Warning: "
-msgstr "সতর্কবার্তা: "
-
-#: Session.cpp:367
-#, kde-format
-msgid ""
-"Could not find '%1', starting '%2' instead.  Please check your profile "
-"settings."
-msgstr ""
-"'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার "
-"প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
-
-#: Session.cpp:372
-msgid "Could not find an interactive shell to start."
-msgstr "আরম্ভ করার জন্য কোনো ইন্টারেক্টিভ শেল পাওয়া যায়নি।"
-
-#: Session.cpp:406
-#, kde-format
-msgid "Could not start program '%1' with arguments '%2'."
-msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্ট সহ আরম্ভ করা যায়নি।"
-
-#: Session.cpp:516
-#, kde-format
-msgid "Silence in session '%1'"
-msgstr "'%1' সেশানে নিরবতা"
-
-#: Session.cpp:551
-#, kde-format
-msgid "Bell in session '%1'"
-msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
-
-#: Session.cpp:562
-#, kde-format
-msgid "Activity in session '%1'"
-msgstr "'%1'-এ কর্ম"
-
-#: Session.cpp:700
-msgid "Finished"
-msgstr "সমাপ্ত"
-
-#: Session.cpp:709
-#, kde-format
-msgid "Program '%1' exited with status %2."
-msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
-
-#: Session.cpp:711
-#, kde-format
-msgid "Program '%1' crashed."
-msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
-
-#: Session.cpp:1028
-msgid "ZModem Progress"
-msgstr "ZModem-র প্রগতি"
-
-#: SessionController.cpp:378
-msgid "&Close Tab"
-msgstr "ট্যাব বন্ধ করুন (&C)"
-
-#: SessionController.cpp:384
-msgid "Open Browser Here"
-msgstr "এই স্থান থেকে ব্রাউজার খুলুন"
-
-#: SessionController.cpp:391
-msgid "&Copy"
-msgstr "কপি করুন (&C)"
-
-#: SessionController.cpp:395
-msgid "&Paste"
-msgstr "পেস্ট করুন (&P)"
-
-#: SessionController.cpp:408
-msgid "Paste Selection"
-msgstr "নির্বাচিত অংশ পেস্ট করুন"
-
-#: SessionController.cpp:414
-msgid "&Rename Tab..."
-msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
-
-#: SessionController.cpp:420
-msgid "Copy Input To..."
-msgstr ""
-
-#: SessionController.cpp:425
-msgid "C&lear Display"
-msgstr "প্রদর্শনক্ষেত্র পরিশ্রুত করুন (&l)"
-
-#: SessionController.cpp:430
-msgid "Clear && Reset"
-msgstr ""
-
-#: SessionController.cpp:435
-msgid "Monitor for &Activity"
-msgstr "কর্ম সঞ্চালন নিরীক্ষণ করুন (&A)"
-
-#: SessionController.cpp:440
-msgid "Monitor for &Silence"
-msgstr "নিষ্ক্রিয় অবস্থা নিরীক্ষণ করুন (&S)"
-
-#: SessionController.cpp:446
-msgid "Character Encoding"
-msgstr "ক্যারেক্টার এনকোডিং"
-
-#: SessionController.cpp:453
-msgid "Increase Text Size"
-msgstr "হরফের মাপ বৃদ্ধি করুন"
-
-#: SessionController.cpp:459
-msgid "Decrease Text Size"
-msgstr "হরফের মাপ হ্রাস করুন"
-
-#: SessionController.cpp:465
-msgid "Search Output..."
-msgstr "অনুসন্ধানের ফলাফল..."
-
-#: SessionController.cpp:474
-msgid "Find Next"
-msgstr "পরবর্তী উপস্থিতি অনুসন্ধান"
-
-#: SessionController.cpp:481
-msgid "Find Previous"
-msgstr "পূর্ববর্তী উপস্থিতি অনুসন্ধান"
-
-#: SessionController.cpp:487
-msgid "Save Output..."
-msgstr "ফলাফল সংরক্ষণ করুন..."
-
-#: SessionController.cpp:497
-msgid "Clear Scrollback"
-msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
-
-#: SessionController.cpp:501
-msgid "Clear Scrollback && Reset"
-msgstr ""
-
-#: SessionController.cpp:507
-msgid "Edit Current Profile..."
-msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
-
-#: SessionController.cpp:511
-msgid "Change Profile"
-msgstr "প্রোফাইল পরিবর্তন করুন"
-
-#: SessionController.cpp:551
-msgid "Rename Tab"
-msgstr "ট্যাবের নাম পরিবর্তন করুন"
-
-#: SessionController.cpp:552
-msgid "Enter new tab text:"
-msgstr ""
-
-#: SessionController.cpp:595
-msgid ""
-"A program is currently running in this session.  Are you sure you want to "
-"close it?"
-msgstr ""
-"বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
-"ইচ্ছুক?"
-
-#: SessionController.cpp:598
-#, kde-format
-msgid ""
-"The program '%1' is currently running in this session.  Are you sure you "
-"want to close it?"
-msgstr ""
-"বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
-"করতে ইচ্ছুক?"
-
-#: SessionController.cpp:1082
-#, kde-format
-msgid "Save Output From %1"
-msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
-
-#: SessionController.cpp:1093
-#, kde-format
-msgid "%1 is an invalid URL, the output could not be saved."
-msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
-
-#: SessionController.cpp:1182
-#, kde-format
-msgid ""
-"A problem occurred when saving the output.\n"
-"%1"
-msgstr ""
-"ফলাফল সংরক্ষণে সমস্যা।\n"
-"%1"
-
-#: SessionManager.cpp:856
-msgid "Number"
-msgstr "সংখ্যা"
-
-#: SessionManager.cpp:858
-msgid "Title"
-msgstr "শিরোনাম"
-
-#: TabTitleFormatAction.cpp:34
-msgid "Program Name"
-msgstr "প্রোগ্রামের নাম"
-
-#: TabTitleFormatAction.cpp:35
-msgid "Current Directory (Short)"
-msgstr "বর্তমান ডিরেক্টরি (সংক্ষিপ্ত)"
-
-#: TabTitleFormatAction.cpp:36
-msgid "Current Directory (Long)"
-msgstr "বর্তমান ডিরেক্টরি (বিস্তারিত)"
-
-#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
-msgid "Window Title Set by Shell"
-msgstr "শেল দ্বারা উইন্ডোর শিরোনাম নির্ধারণ করা হবে"
-
-#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
-msgid "Session number"
-msgstr "সেশানের সংখ্যা"
-
-#: TabTitleFormatAction.cpp:43
-msgid "User Name"
-msgstr "ব্যবহারকারীর নাম"
-
-#: TabTitleFormatAction.cpp:44
-msgid "Remote Host (Short)"
-msgstr "দূরবর্তী হোস্ট (সংক্ষিপ্ত)"
-
-#: TabTitleFormatAction.cpp:45
-msgid "Remote Host (Long)"
-msgstr "দূরবর্তী হোস্ট (বিস্তারিত)"
-
-#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
-msgid "Size: XXX x XXX"
-msgstr "মাপ: XXX x XXX"
-
-#: TerminalDisplay.cpp:1135
-#, kde-format
-msgid "Size: %1 x %2"
-msgstr "মাপ: %1 x %2"
-
-#: TerminalDisplay.cpp:2843
-msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
-msgstr ""
-
-#: ViewManager.cpp:129
-msgid "Next View"
-msgstr "পরবর্তী প্রদর্শন"
-
-#: ViewManager.cpp:130
-msgid "Previous View"
-msgstr "পূর্ববর্তী প্রদর্শন"
-
-#: ViewManager.cpp:131
-msgid "Next View Container"
-msgstr ""
-
-#: ViewManager.cpp:133
-msgid "Move View Left"
-msgstr ""
-
-#: ViewManager.cpp:134
-msgid "Move View Right"
-msgstr ""
-
-#: ViewManager.cpp:144
-msgctxt "@action:inmenu"
-msgid "Split View Left/Right"
-msgstr ""
-
-#: ViewManager.cpp:151
-msgctxt "@action:inmenu"
-msgid "Split View Top/Bottom"
-msgstr ""
-
-#: ViewManager.cpp:156
-msgctxt "@action:inmenu Close Active View"
-msgid "Close Active"
-msgstr ""
-
-#: ViewManager.cpp:165
-msgctxt "@action:inmenu Close Other Views"
-msgid "Close Others"
-msgstr "অন্যান্যগুলি বন্ধ করুন"
-
-#: ViewManager.cpp:175
-msgid "&Detach View"
-msgstr ""
-
-#: ViewManager.cpp:184
-msgctxt "@action:inmenu"
-msgid "Expand View"
-msgstr ""
-
-#: ViewManager.cpp:191
-msgctxt "@action:inmenu"
-msgid "Shrink View"
-msgstr ""
-
-#: ViewManager.cpp:211
-#, kde-format
-msgid "Switch to Tab %1"
-msgstr "%1 ট্যাবে পরিবর্তন করুন"
-
-#: Vt102Emulation.cpp:965
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-
-#: ZModemDialog.cpp:35
-msgid "&Stop"
-msgstr "বন্ধ করুন (&S)"
-
 #: main.cpp:63
 msgid "Konsole"
 msgstr "Konsole"
@@ -900,6 +516,67 @@ msgstr "লার্স নোল"
 #: main.cpp:205
 msgid "Thanks to many others.\n"
 msgstr "অ্যানান্য অনেককে অসংখ্যা ধন্যবাদন।\n"
+
+#: MainWindow.cpp:223
+msgid "New &Tab"
+msgstr "নতুন ট্যাব (&T)"
+
+#: MainWindow.cpp:229
+msgid "New &Window"
+msgstr "নতুন উইন্ডো (&W)"
+
+#: MainWindow.cpp:234
+msgid "Remote Connection..."
+msgstr "দূরবর্তী সংযোগ..."
+
+#: MainWindow.cpp:245
+msgid "&Bookmarks"
+msgstr "বুকমার্ক (&B)"
+
+#: MainWindow.cpp:256
+msgid "Show Menu Bar"
+msgstr "মেনু বার প্রদর্শন করা হবে"
+
+#: MainWindow.cpp:278 Part.cpp:119
+msgid "Manage Profiles..."
+msgstr "প্রোফাইল ব্যবস্থাপনা..."
+
+#: MainWindow.cpp:349
+msgid "You have multiple tabs in this window, are you sure you want to quit?"
+msgstr ""
+"এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
+
+#: MainWindow.cpp:351 SessionController.cpp:601
+msgid "Confirm Close"
+msgstr "বন্ধ করার নিশ্চিতি"
+
+#: MainWindow.cpp:353
+msgid "Close Current Tab"
+msgstr "বর্তমান ট্যাব বন্ধ করুন"
+
+#: ManageProfilesDialog.cpp:48
+msgid "Manage Profiles"
+msgstr "প্রোফাইল ব্যবস্থাপনা"
+
+#: ManageProfilesDialog.cpp:200
+msgid "Show in Menu"
+msgstr "মেনুর মধ্যে প্রদর্শন করা হবে"
+
+#: ManageProfilesDialog.cpp:201
+msgid "Shortcut"
+msgstr "শর্ট-কাট"
+
+#: ManageProfilesDialog.cpp:293
+msgid "New Profile"
+msgstr "নতুন প্রোফাইল"
+
+#: Profile.cpp:143
+msgid "Shell"
+msgstr "Shell"
+
+#: ProfileList.cpp:48
+msgid "No profiles available"
+msgstr "কোনো প্রোফাইল উপলব্ধ নেই"
 
 #. i18n: file: ColorSchemeEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1786,6 +1463,14 @@ msgstr "বিবিধ বৈশিষ্ট্য"
 msgid "Help"
 msgstr "সাহায্য"
 
+#: RemoteConnectionDialog.cpp:39
+msgid "New Remote Connection"
+msgstr "নতুন দূরবর্তী সংযোগ"
+
+#: RemoteConnectionDialog.cpp:41
+msgid "Connect"
+msgstr "সংযোগ স্থাপন করুন"
+
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
 msgstr "হালকা হলুদের উপর কালো"
@@ -1829,6 +1514,321 @@ msgstr "Solaris কনসোল"
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 টার্মিন্যাল"
+
+#: SessionController.cpp:378
+msgid "&Close Tab"
+msgstr "ট্যাব বন্ধ করুন (&C)"
+
+#: SessionController.cpp:384
+msgid "Open Browser Here"
+msgstr "এই স্থান থেকে ব্রাউজার খুলুন"
+
+#: SessionController.cpp:391
+msgid "&Copy"
+msgstr "কপি করুন (&C)"
+
+#: SessionController.cpp:395
+msgid "&Paste"
+msgstr "পেস্ট করুন (&P)"
+
+#: SessionController.cpp:408
+msgid "Paste Selection"
+msgstr "নির্বাচিত অংশ পেস্ট করুন"
+
+#: SessionController.cpp:414
+msgid "&Rename Tab..."
+msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
+
+#: SessionController.cpp:420
+msgid "Copy Input To..."
+msgstr ""
+
+#: SessionController.cpp:425
+msgid "C&lear Display"
+msgstr "প্রদর্শনক্ষেত্র পরিশ্রুত করুন (&l)"
+
+#: SessionController.cpp:430
+msgid "Clear && Reset"
+msgstr ""
+
+#: SessionController.cpp:435
+msgid "Monitor for &Activity"
+msgstr "কর্ম সঞ্চালন নিরীক্ষণ করুন (&A)"
+
+#: SessionController.cpp:440
+msgid "Monitor for &Silence"
+msgstr "নিষ্ক্রিয় অবস্থা নিরীক্ষণ করুন (&S)"
+
+#: SessionController.cpp:446
+msgid "Character Encoding"
+msgstr "ক্যারেক্টার এনকোডিং"
+
+#: SessionController.cpp:453
+msgid "Increase Text Size"
+msgstr "হরফের মাপ বৃদ্ধি করুন"
+
+#: SessionController.cpp:459
+msgid "Decrease Text Size"
+msgstr "হরফের মাপ হ্রাস করুন"
+
+#: SessionController.cpp:465
+msgid "Search Output..."
+msgstr "অনুসন্ধানের ফলাফল..."
+
+#: SessionController.cpp:474
+msgid "Find Next"
+msgstr "পরবর্তী উপস্থিতি অনুসন্ধান"
+
+#: SessionController.cpp:481
+msgid "Find Previous"
+msgstr "পূর্ববর্তী উপস্থিতি অনুসন্ধান"
+
+#: SessionController.cpp:487
+msgid "Save Output..."
+msgstr "ফলাফল সংরক্ষণ করুন..."
+
+#: SessionController.cpp:497
+msgid "Clear Scrollback"
+msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
+
+#: SessionController.cpp:501
+msgid "Clear Scrollback && Reset"
+msgstr ""
+
+#: SessionController.cpp:507
+msgid "Edit Current Profile..."
+msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
+
+#: SessionController.cpp:511
+msgid "Change Profile"
+msgstr "প্রোফাইল পরিবর্তন করুন"
+
+#: SessionController.cpp:551
+msgid "Rename Tab"
+msgstr "ট্যাবের নাম পরিবর্তন করুন"
+
+#: SessionController.cpp:552
+msgid "Enter new tab text:"
+msgstr ""
+
+#: SessionController.cpp:595
+msgid ""
+"A program is currently running in this session.  Are you sure you want to "
+"close it?"
+msgstr ""
+"বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
+"ইচ্ছুক?"
+
+#: SessionController.cpp:598
+#, kde-format
+msgid ""
+"The program '%1' is currently running in this session.  Are you sure you "
+"want to close it?"
+msgstr ""
+"বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
+"করতে ইচ্ছুক?"
+
+#: SessionController.cpp:1082
+#, kde-format
+msgid "Save Output From %1"
+msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
+
+#: SessionController.cpp:1093
+#, kde-format
+msgid "%1 is an invalid URL, the output could not be saved."
+msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
+
+#: SessionController.cpp:1182
+#, kde-format
+msgid ""
+"A problem occurred when saving the output.\n"
+"%1"
+msgstr ""
+"ফলাফল সংরক্ষণে সমস্যা।\n"
+"%1"
+
+#: Session.cpp:317
+msgid "Could not find binary: "
+msgstr "বাইনারি পাওয়া যায়নি: "
+
+#: Session.cpp:326
+msgid "Warning: "
+msgstr "সতর্কবার্তা: "
+
+#: Session.cpp:367
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+"'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার "
+"প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
+
+#: Session.cpp:372
+msgid "Could not find an interactive shell to start."
+msgstr "আরম্ভ করার জন্য কোনো ইন্টারেক্টিভ শেল পাওয়া যায়নি।"
+
+#: Session.cpp:406
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্ট সহ আরম্ভ করা যায়নি।"
+
+#: Session.cpp:516
+#, kde-format
+msgid "Silence in session '%1'"
+msgstr "'%1' সেশানে নিরবতা"
+
+#: Session.cpp:551
+#, kde-format
+msgid "Bell in session '%1'"
+msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
+
+#: Session.cpp:562
+#, kde-format
+msgid "Activity in session '%1'"
+msgstr "'%1'-এ কর্ম"
+
+#: Session.cpp:700
+msgid "Finished"
+msgstr "সমাপ্ত"
+
+#: Session.cpp:709
+#, kde-format
+msgid "Program '%1' exited with status %2."
+msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
+
+#: Session.cpp:711
+#, kde-format
+msgid "Program '%1' crashed."
+msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
+
+#: Session.cpp:1028
+msgid "ZModem Progress"
+msgstr "ZModem-র প্রগতি"
+
+#: SessionManager.cpp:856
+msgid "Number"
+msgstr "সংখ্যা"
+
+#: SessionManager.cpp:858
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: TabTitleFormatAction.cpp:34
+msgid "Program Name"
+msgstr "প্রোগ্রামের নাম"
+
+#: TabTitleFormatAction.cpp:35
+msgid "Current Directory (Short)"
+msgstr "বর্তমান ডিরেক্টরি (সংক্ষিপ্ত)"
+
+#: TabTitleFormatAction.cpp:36
+msgid "Current Directory (Long)"
+msgstr "বর্তমান ডিরেক্টরি (বিস্তারিত)"
+
+#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
+msgid "Window Title Set by Shell"
+msgstr "শেল দ্বারা উইন্ডোর শিরোনাম নির্ধারণ করা হবে"
+
+#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
+msgid "Session number"
+msgstr "সেশানের সংখ্যা"
+
+#: TabTitleFormatAction.cpp:43
+msgid "User Name"
+msgstr "ব্যবহারকারীর নাম"
+
+#: TabTitleFormatAction.cpp:44
+msgid "Remote Host (Short)"
+msgstr "দূরবর্তী হোস্ট (সংক্ষিপ্ত)"
+
+#: TabTitleFormatAction.cpp:45
+msgid "Remote Host (Long)"
+msgstr "দূরবর্তী হোস্ট (বিস্তারিত)"
+
+#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
+msgid "Size: XXX x XXX"
+msgstr "মাপ: XXX x XXX"
+
+#: TerminalDisplay.cpp:1135
+#, kde-format
+msgid "Size: %1 x %2"
+msgstr "মাপ: %1 x %2"
+
+#: TerminalDisplay.cpp:2843
+msgid ""
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+msgstr ""
+
+#: ViewManager.cpp:129
+msgid "Next View"
+msgstr "পরবর্তী প্রদর্শন"
+
+#: ViewManager.cpp:130
+msgid "Previous View"
+msgstr "পূর্ববর্তী প্রদর্শন"
+
+#: ViewManager.cpp:131
+msgid "Next View Container"
+msgstr ""
+
+#: ViewManager.cpp:133
+msgid "Move View Left"
+msgstr ""
+
+#: ViewManager.cpp:134
+msgid "Move View Right"
+msgstr ""
+
+#: ViewManager.cpp:144
+msgctxt "@action:inmenu"
+msgid "Split View Left/Right"
+msgstr ""
+
+#: ViewManager.cpp:151
+msgctxt "@action:inmenu"
+msgid "Split View Top/Bottom"
+msgstr ""
+
+#: ViewManager.cpp:156
+msgctxt "@action:inmenu Close Active View"
+msgid "Close Active"
+msgstr ""
+
+#: ViewManager.cpp:165
+msgctxt "@action:inmenu Close Other Views"
+msgid "Close Others"
+msgstr "অন্যান্যগুলি বন্ধ করুন"
+
+#: ViewManager.cpp:175
+msgid "&Detach View"
+msgstr ""
+
+#: ViewManager.cpp:184
+msgctxt "@action:inmenu"
+msgid "Expand View"
+msgstr ""
+
+#: ViewManager.cpp:191
+msgctxt "@action:inmenu"
+msgid "Shrink View"
+msgstr ""
+
+#: ViewManager.cpp:211
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr "%1 ট্যাবে পরিবর্তন করুন"
+
+#: Vt102Emulation.cpp:965
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+
+#: ZModemDialog.cpp:35
+msgid "&Stop"
+msgstr "বন্ধ করুন (&S)"
 
 #, fuzzy
 #~| msgid "New..."
