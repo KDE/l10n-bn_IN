@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-09 10:04+0000\n"
+"POT-Creation-Date: 2009-05-11 11:04+0000\n"
 "PO-Revision-Date: 2009-01-16 08:17+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -21,12 +21,15 @@ msgctxt "Comment"
 msgid "Instant Messenger with a D-Bus interface"
 msgstr "D-Bus ইন্টারফেসসহ ইনস্ট্যান্ট বার্তা আদান-প্রদান ব্যবস্থা"
 
-#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:1
-msgctxt "Name"
+#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Instant Messenger"
+msgctxt "Name|standard desktop component"
 msgid "Instant Messenger"
 msgstr "নাম"
 
-#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:76
+#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:77
 msgctxt "Comment"
 msgid ""
 "The instant messenger allows two-way chat between individuals and groups."
@@ -39,12 +42,15 @@ msgctxt "Comment"
 msgid "Text-to-Speech Service with a D-Bus interface"
 msgstr "D-Bus ইন্টারফেসের সাহায্যে উপলব্ধ টেক্সট-থেকে-শব্দ পরিসেবা"
 
-#: interfaces/ktexteditor/kcm_ktexteditor.desktop:1
-msgctxt "Name"
+#: interfaces/ktexteditor/kcm_ktexteditor.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Embedded Text Editor"
+msgctxt "Name|standard desktop component"
 msgid "Embedded Text Editor"
 msgstr "এমবেড করা টেক্সট এডিটর"
 
-#: interfaces/ktexteditor/kcm_ktexteditor.desktop:85
+#: interfaces/ktexteditor/kcm_ktexteditor.desktop:86
 msgctxt "Comment"
 msgid ""
 "The text editor service provides applications with a text viewer and editor. "
@@ -118,6 +124,11 @@ msgctxt "Comment"
 msgid "While saving check encoding of python files and add an encoding line"
 msgstr ""
 
+#: kate/plugins/timedate/ktexteditor_timedate_config.desktop:7
+msgctxt "Name"
+msgid "Format of Time & Date insertion"
+msgstr "সময় ও তারিখ সন্নিবেশের বিন্যাস"
+
 #: kate/plugins/timedate/ktexteditor_timedate.desktop:18
 msgctxt "Name"
 msgid "Time & Date"
@@ -127,11 +138,6 @@ msgstr "সময় ও তারিখ"
 msgctxt "Comment"
 msgid "Insert current Time & Date"
 msgstr "বর্তমান সময় ও তারিখ সন্নিবেশ করা হবে"
-
-#: kate/plugins/timedate/ktexteditor_timedate_config.desktop:7
-msgctxt "Name"
-msgid "Format of Time & Date insertion"
-msgstr "সময় ও তারিখ সন্নিবেশের বিন্যাস"
 
 #: kdecore/all_languages.desktop:2
 msgctxt "Name"
@@ -1086,6 +1092,11 @@ msgctxt "Name"
 msgid "Embedded Java Applet Viewer"
 msgstr "এমবেড করা Java Applet Viewer"
 
+#: khtml/khtmladaptorpart.desktop:2
+msgctxt "Name"
+msgid "KHTML Extension Adaptor"
+msgstr "KHTML Extension Adaptor"
+
 #: khtml/khtml.desktop:3
 msgctxt "Comment"
 msgid "Embeddable HTML viewing component"
@@ -1095,11 +1106,6 @@ msgstr "এমবেড করার যোগ্য HTML প্রদর্শ�
 msgctxt "Name"
 msgid "KHTML"
 msgstr "KHTML"
-
-#: khtml/khtmladaptorpart.desktop:2
-msgctxt "Name"
-msgid "KHTML Extension Adaptor"
-msgstr "KHTML Extension Adaptor"
 
 #: khtml/khtmlimage.desktop:3
 msgctxt "Comment"
@@ -1356,11 +1362,6 @@ msgctxt "Comment"
 msgid "Plugin for the Rename Dialog"
 msgstr "নাম পরিবর্তনের ডায়লগের জন্য প্লাগ-ইন"
 
-#: kio/tests/dummymeta.desktop:3
-msgctxt "Name"
-msgid "Dummy Meta"
-msgstr "ডামি মিটা"
-
 #: kioslave/http/http_cache_cleaner.desktop:3
 msgctxt "Name"
 msgid "HTTP Cache Cleaner"
@@ -1380,6 +1381,11 @@ msgstr "KDED Cookie Jar মডিউল"
 msgctxt "Comment"
 msgid "Keeps track of all cookies in the system"
 msgstr "সিস্টেম উপস্থিত সর্বধরনের কুকি সম্বন্ধে তথ্য নিরীক্ষণ করা হয়"
+
+#: kio/tests/dummymeta.desktop:3
+msgctxt "Name"
+msgid "Dummy Meta"
+msgstr "ডামি মিটা"
 
 #: knotify/tests/knotifytest.notifyrc:3
 msgctxt "Comment"
@@ -1476,6 +1482,11 @@ msgctxt "Comment"
 msgid "Plasma Animation Engine"
 msgstr "Plasma অ্যানিমেশন ইঞ্জিন"
 
+#: plasma/servicetypes/plasma-applet.desktop:5
+msgctxt "Comment"
+msgid "Plasma applet"
+msgstr "Plasma অ্যাপ্লেট"
+
 #: plasma/servicetypes/plasma-applet-extenderapplet.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -1490,11 +1501,6 @@ msgstr "শব্দ সম্পূর্ণকরণ"
 #| msgid "Plasma applet"
 msgctxt "Comment"
 msgid "Plasma scripting popup applet"
-msgstr "Plasma অ্যাপ্লেট"
-
-#: plasma/servicetypes/plasma-applet.desktop:5
-msgctxt "Comment"
-msgid "Plasma applet"
 msgstr "Plasma অ্যাপ্লেট"
 
 #: plasma/servicetypes/plasma-containment.desktop:5
