@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetattach\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-31 10:41+0200\n"
+"POT-Creation-Date: 2009-05-12 11:15+0200\n"
 "PO-Revision-Date: 2009-01-12 17:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: knetattach.cpp:53 knetattach.cpp:339
+#: knetattach.cpp:58 knetattach.cpp:344
 msgid "Save && C&onnect"
 msgstr "সংরক্ষণ করে সংযোগ করুন (&o)"
 
-#: knetattach.cpp:83
+#: knetattach.cpp:88
 msgid ""
 "Enter a name for this <i>WebFolder</i> as well as a server address, port and "
 "folder path to use and press the <b>Save & Connect</b> button."
@@ -29,7 +29,7 @@ msgstr ""
 "এই <i>ওয়েব ফোল্ডারের</i> নাম, সার্ভারের ঠিকানা, পোর্ট ও ব্যবহারযোগ্য ফোল্ডারের পাথ "
 "উল্লেখ করে, <b>সংরক্ষণ করে সংযোগ করুন</b> শীর্ষক বাটন ক্লিক করুন।"
 
-#: knetattach.cpp:85
+#: knetattach.cpp:90
 msgid ""
 "Enter a name for this <i>Secure shell connection</i> as well as a server "
 "address, port and folder path to use and press the <b>Save & Connect</b> "
@@ -38,7 +38,7 @@ msgstr ""
 "এই <i>সিকিউর শেল সংযোগের</i> নাম, সার্ভারের ঠিকানা, পোর্ট ও ব্যবহারযোগ্য "
 "ফোল্ডারের পাথ উল্লেখ করে, <b>সংরক্ষণ করে সংযোগ করুন</b> শীর্ষক বাটন ক্লিক করুন।"
 
-#: knetattach.cpp:87
+#: knetattach.cpp:92
 msgid ""
 "Enter a name for this <i>File Transfer Protocol connection</i> as well as a "
 "server address and folder path to use and press the <b>Save & Connect</b> "
@@ -48,7 +48,7 @@ msgstr ""
 "ব্যবহারযোগ্য ফোল্ডারের পাথ উল্লেখ করে, <b>সংরক্ষণ করে সংযোগ করুন</b> শীর্ষক বাটন "
 "ক্লিক করুন।"
 
-#: knetattach.cpp:89
+#: knetattach.cpp:94
 msgid ""
 "Enter a name for this <i>Microsoft Windows network drive</i> as well as a "
 "server address and folder path to use and press the <b>Save & Connect</b> "
@@ -58,13 +58,13 @@ msgstr ""
 "ব্যবহারযোগ্য ফোল্ডারের পাথ উল্লেখ করে, <b>সংরক্ষণ করে সংযোগ করুন</b> শীর্ষক বাটন "
 "ক্লিক করুন।"
 
-#: knetattach.cpp:214
+#: knetattach.cpp:219
 msgid "Unable to connect to server.  Please check your settings and try again."
 msgstr ""
 "সার্ভারের সাথে সংযোগ স্থাপন করতে ব্যর্থ।  অনুগ্রহ করে নির্ধারিত বৈশিষ্ট্যগুলি পরীক্ষা "
 "করে পুনরায় প্রচেষ্টা করুন।"
 
-#: knetattach.cpp:341
+#: knetattach.cpp:346
 msgid "C&onnect"
 msgstr "সংযোগ করুন (&o)"
 
@@ -90,43 +90,43 @@ msgstr "প্রধান নির্মাতা ও মেইন্টেন
 msgid "Network Folder Wizard"
 msgstr "নেটওয়ার্ক ফোল্ডার সংক্রান্ত উইজার্ড"
 
-#. i18n: file: knetattach.ui:22
+#. i18n: file: knetattach.ui:17
 #. i18n: ectx: attribute (title), widget (QWidget, _folderType)
 #: rc.cpp:6 rc.cpp:63
 msgid "Add Network Folder"
 msgstr "নেটওয়ার্ক ফোল্ডার যোগ করুন"
 
-#. i18n: file: knetattach.ui:40
+#. i18n: file: knetattach.ui:35
 #. i18n: ectx: property (text), widget (QRadioButton, _recent)
 #: rc.cpp:9 rc.cpp:66
 msgid "&Recent connection:"
 msgstr "সাম্প্রতিক সংযোগ: (&R)"
 
-#. i18n: file: knetattach.ui:47
+#. i18n: file: knetattach.ui:42
 #. i18n: ectx: property (text), widget (QRadioButton, _webfolder)
 #: rc.cpp:12 rc.cpp:69
 msgid "&WebFolder (webdav)"
 msgstr "ওয়েব-ফোল্ডার (webdav) (&W)"
 
-#. i18n: file: knetattach.ui:57
+#. i18n: file: knetattach.ui:52
 #. i18n: ectx: property (text), widget (QRadioButton, _fish)
 #: rc.cpp:15 rc.cpp:72
 msgid "&Secure shell (ssh)"
 msgstr "সিকিউর শেল (ssh) (&S)"
 
-#. i18n: file: knetattach.ui:86
+#. i18n: file: knetattach.ui:81
 #. i18n: ectx: property (text), widget (QRadioButton, _ftp)
 #: rc.cpp:18 rc.cpp:75
 msgid "FT&P"
 msgstr "FTP (&P)"
 
-#. i18n: file: knetattach.ui:93
+#. i18n: file: knetattach.ui:88
 #. i18n: ectx: property (text), widget (QRadioButton, _smb)
 #: rc.cpp:21 rc.cpp:78
 msgid "&Microsoft® Windows® network drive"
 msgstr "Microsoft® Windows® নেটওয়ার্ক ড্রাইভ (&M)"
 
-#. i18n: file: knetattach.ui:119
+#. i18n: file: knetattach.ui:114
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: rc.cpp:24 rc.cpp:81
 msgid ""
@@ -136,13 +136,13 @@ msgstr ""
 "সংযোগের উদ্দেশ্যে চিহ্নিত নেটওয়ার্ক ফোল্ডারের ধরন নির্বাচন করুন ও 'পরবর্তী' শীর্ষক "
 "বাটন ক্লিক করুন।"
 
-#. i18n: file: knetattach.ui:157
+#. i18n: file: knetattach.ui:152
 #. i18n: ectx: attribute (title), widget (QWidget, _folderParameters)
 #: rc.cpp:27 rc.cpp:84
 msgid "Network Folder Information"
 msgstr "নেটওয়ার্ক ফোল্ডার সংক্রান্ত তথ্য"
 
-#. i18n: file: knetattach.ui:166
+#. i18n: file: knetattach.ui:161
 #. i18n: ectx: property (text), widget (QLabel, _informationText)
 #: rc.cpp:31 rc.cpp:88
 #, no-c-format, kde-format
@@ -153,49 +153,49 @@ msgstr ""
 "<i>%1</i>-র নাম, সার্ভার ঠিকানা, পোর্ট ও ফোল্ডারের পাথ লিখুন ও 'পরবর্তী' শীর্ষক "
 "বাটন ক্লিক করুন।"
 
-#. i18n: file: knetattach.ui:195
+#. i18n: file: knetattach.ui:190
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
 #: rc.cpp:34 rc.cpp:91
 msgid "&Name:"
 msgstr "নাম: (&N)"
 
-#. i18n: file: knetattach.ui:233
+#. i18n: file: knetattach.ui:228
 #. i18n: ectx: property (text), widget (QLabel, _userText)
 #: rc.cpp:37 rc.cpp:94
 msgid "&User:"
 msgstr "ব্যবহারকারী: (&U)"
 
-#. i18n: file: knetattach.ui:249
+#. i18n: file: knetattach.ui:244
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:40 rc.cpp:97
 msgid "Se&rver:"
 msgstr "সার্ভার: (&r)"
 
-#. i18n: file: knetattach.ui:265
+#. i18n: file: knetattach.ui:260
 #. i18n: ectx: property (text), widget (QLabel, _portText)
 #: rc.cpp:43 rc.cpp:100
 msgid "&Port:"
 msgstr "পোর্ট: (&P)"
 
-#. i18n: file: knetattach.ui:301
+#. i18n: file: knetattach.ui:296
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: rc.cpp:46 rc.cpp:103
 msgid "&Folder:"
 msgstr "ফোল্ডার: (&F)"
 
-#. i18n: file: knetattach.ui:333
+#. i18n: file: knetattach.ui:328
 #. i18n: ectx: property (text), widget (QCheckBox, _createIcon)
 #: rc.cpp:49 rc.cpp:106
 msgid "Cr&eate an icon for this remote folder"
 msgstr "বর্তমানে দূরবর্তী ফোল্ডারের জন্য একটি আইকন নির্মাণ করুন (&e)"
 
-#. i18n: file: knetattach.ui:346
+#. i18n: file: knetattach.ui:341
 #. i18n: ectx: property (text), widget (QCheckBox, _useEncryption)
 #: rc.cpp:52 rc.cpp:109
 msgid "&Use encryption"
 msgstr "এনক্রিপশন ব্যবহার করা হবে (&U)"
 
-#. i18n: file: knetattach.ui:356
+#. i18n: file: knetattach.ui:351
 #. i18n: ectx: property (text), widget (QLabel, _encodingText)
 #: rc.cpp:55 rc.cpp:112
 msgid "Encoding:"
