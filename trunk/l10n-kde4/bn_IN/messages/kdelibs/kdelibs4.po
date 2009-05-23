@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-22 11:14+0200\n"
+"POT-Creation-Date: 2009-05-23 11:55+0200\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -171,7 +171,7 @@ msgstr "বিকল্প"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:122
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
-#. i18n: file: khtml/htmlpageinfo.ui:237
+#. i18n: file: khtml/htmlpageinfo.ui:246
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: rc.cpp:65 rc.cpp:435 khtml/ecma/debugger/localvariabledock.cpp:52
 #: khtml/java/kjavaappletviewer.cpp:139
@@ -990,31 +990,31 @@ msgstr "সাধারণ"
 msgid "URL:"
 msgstr "URL:"
 
-#. i18n: file: khtml/htmlpageinfo.ui:138
+#. i18n: file: khtml/htmlpageinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: rc.cpp:420
 msgid "Title:"
 msgstr "শিরোনাম:"
 
-#. i18n: file: khtml/htmlpageinfo.ui:154
+#. i18n: file: khtml/htmlpageinfo.ui:160
 #. i18n: ectx: property (text), widget (QLabel, _lmLabel)
 #: rc.cpp:423
 msgid "Last modified:"
 msgstr "সর্বশেষ পরিবর্তন:"
 
-#. i18n: file: khtml/htmlpageinfo.ui:170
+#. i18n: file: khtml/htmlpageinfo.ui:176
 #. i18n: ectx: property (text), widget (QLabel, _eLabel)
 #: rc.cpp:426
 msgid "Document encoding:"
 msgstr "ডকুমেন্টের এনকোডিং:"
 
-#. i18n: file: khtml/htmlpageinfo.ui:195
+#. i18n: file: khtml/htmlpageinfo.ui:204
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: rc.cpp:429
 msgid "HTTP Headers"
 msgstr "HTTP হেডার"
 
-#. i18n: file: khtml/htmlpageinfo.ui:232
+#. i18n: file: khtml/htmlpageinfo.ui:241
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: rc.cpp:432
 msgid "Property"
@@ -1059,43 +1059,43 @@ msgstr "পরিশ্রুত করুন (&l)"
 msgid "HTML Toolbar"
 msgstr "HTML টুল-বার"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:43
+#. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:462
 msgid "F&ind:"
 msgstr "অনুসন্ধান: (&i)"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:75
+#. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
 #: rc.cpp:465
 msgid "&Next"
 msgstr "পরবর্তী (&N)"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:85
+#. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:85
 #. i18n: ectx: property (text), widget (QToolButton, m_previous)
 #: rc.cpp:468 kdeui/dialogs/ktip.cpp:301
 msgid "&Previous"
 msgstr "পূর্ববর্তী (&P)"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:111
+#. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
 #: rc.cpp:471
 msgid "Opt&ions"
 msgstr "বিকল্প (&i)"
 
-#. i18n: file: khtml/html/storepassbar_base.ui:39
+#. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:39
 #. i18n: ectx: property (text), widget (QLabel, m_label)
-#: rc.cpp:474 khtml/html/storepassbar.cpp:59
+#: rc.cpp:474 khtml/ui/passwordbar/storepassbar.cpp:59
 msgid "Do you want to store this password?"
 msgstr "এই পাসওয়ার্ডটি সংরক্ষণ করা হবে কী?"
 
-#. i18n: file: khtml/html/storepassbar_base.ui:62
+#. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:62
 #. i18n: ectx: property (text), widget (QToolButton, m_store)
 #: rc.cpp:477
 msgid "&Store"
 msgstr "সংরক্ষণ করা হবে (&S)"
 
-#. i18n: file: khtml/html/storepassbar_base.ui:72
+#. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:72
 #. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
 #: rc.cpp:480
 #, fuzzy
@@ -1103,7 +1103,7 @@ msgstr "সংরক্ষণ করা হবে (&S)"
 msgid "Ne&ver store for this site"
 msgstr "বর্তমান সাইটের জন্য কদাপি নয় (&v)"
 
-#. i18n: file: khtml/html/storepassbar_base.ui:82
+#. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:82
 #. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
 #: rc.cpp:483
 #, fuzzy
@@ -7367,7 +7367,7 @@ msgstr "অনুসন্ধান"
 msgid "&Text to find:"
 msgstr "অনুসন্ধানযোগ্য টেক্সট: (&T)"
 
-#: kdeui/findreplace/kfinddialog.cpp:96 khtml/find/khtmlfindbar.cpp:56
+#: kdeui/findreplace/kfinddialog.cpp:96 khtml/ui/findbar/khtmlfindbar.cpp:56
 msgid "Regular e&xpression"
 msgstr ""
 
@@ -7391,15 +7391,15 @@ msgstr ""
 msgid "Insert Place&holder"
 msgstr ""
 
-#: kdeui/findreplace/kfinddialog.cpp:126 khtml/find/khtmlfindbar.cpp:48
+#: kdeui/findreplace/kfinddialog.cpp:126 khtml/ui/findbar/khtmlfindbar.cpp:48
 msgid "C&ase sensitive"
 msgstr "হরফের ছাঁদ সম্পর্কে সচেতন (&a)"
 
-#: kdeui/findreplace/kfinddialog.cpp:127 khtml/find/khtmlfindbar.cpp:50
+#: kdeui/findreplace/kfinddialog.cpp:127 khtml/ui/findbar/khtmlfindbar.cpp:50
 msgid "&Whole words only"
 msgstr "শুধুমাত্র সম্পূর্ণ শব্দ (&W)"
 
-#: kdeui/findreplace/kfinddialog.cpp:128 khtml/find/khtmlfindbar.cpp:52
+#: kdeui/findreplace/kfinddialog.cpp:128 khtml/ui/findbar/khtmlfindbar.cpp:52
 msgid "From c&ursor"
 msgstr "প্রারম্ভের কার্সার (&u)"
 
@@ -7407,7 +7407,7 @@ msgstr "প্রারম্ভের কার্সার (&u)"
 msgid "Find &backwards"
 msgstr "বিপরীত দিশায় অনুসন্ধান (&b)"
 
-#: kdeui/findreplace/kfinddialog.cpp:130 khtml/find/khtmlfindbar.cpp:54
+#: kdeui/findreplace/kfinddialog.cpp:130 khtml/ui/findbar/khtmlfindbar.cpp:54
 msgid "&Selected text"
 msgstr "নির্বাচিত টেক্সট (&S)"
 
@@ -10710,6 +10710,19 @@ msgstr "khtml রিগ্রেশন পরীক্ষণ ব্যবস্�
 msgid "Inactive"
 msgstr "নিষ্ক্রিয়"
 
+#: khtml/ui/findbar/khtmlfindbar.cpp:205
+msgid "Not found"
+msgstr "পাওয়া যায়নি"
+
+#: khtml/ui/findbar/khtmlfindbar.cpp:219
+msgid "No more matches for this search direction."
+msgstr ""
+
+#: khtml/ui/passwordbar/storepassbar.cpp:61
+#, kde-format
+msgid "Do you want to store this password for %1?"
+msgstr "আপনি কি নিশ্চিতরূপে %1-র জন্য এই পাসওয়ার্ড সংরক্ষণ করতে ইচ্ছুক?"
+
 #: khtml/xml/xml_tokenizer.cpp:333
 msgid "the document is not in the correct file format"
 msgstr "ডকুমেন্টে সঠিক ফাইল বিন্যাস ব্যবহৃত হয়নি"
@@ -10944,22 +10957,9 @@ msgstr "কল"
 msgid "Line"
 msgstr "রেখা"
 
-#: khtml/find/khtmlfindbar.cpp:205
-msgid "Not found"
-msgstr "পাওয়া যায়নি"
-
-#: khtml/find/khtmlfindbar.cpp:219
-msgid "No more matches for this search direction."
-msgstr ""
-
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "এটি একটি অনুসন্ধানযোগ্য ইন্ডেক্স। অনুগ্রহ করে অনুসন্ধানের উদ্দেশ্যে শব্দ লিখুন: "
-
-#: khtml/html/storepassbar.cpp:61
-#, kde-format
-msgid "Do you want to store this password for %1?"
-msgstr "আপনি কি নিশ্চিতরূপে %1-র জন্য এই পাসওয়ার্ড সংরক্ষণ করতে ইচ্ছুক?"
 
 #: khtml/html/html_formimpl.cpp:421
 msgid ""
@@ -11196,32 +11196,32 @@ msgstr ""
 msgid "KDEInit could not launch '%1'."
 msgstr "KDEInit দ্বারা '%1' লঞ্চ করা যায়নি"
 
-#: kinit/klauncher.cpp:736 kinit/klauncher.cpp:761 kinit/klauncher.cpp:776
+#: kinit/klauncher.cpp:736 kinit/klauncher.cpp:764 kinit/klauncher.cpp:779
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "পরিসেবা '%1' সন্ধান করা যায়নি।"
 
-#: kinit/klauncher.cpp:795
+#: kinit/klauncher.cpp:798
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr ""
 
-#: kinit/klauncher.cpp:797 kinit/klauncher.cpp:833
+#: kinit/klauncher.cpp:800 kinit/klauncher.cpp:836
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "'%1' পরিসেবা ত্রুটিপূর্ণ রূপে গঠিত হয়েছে।"
 
-#: kinit/klauncher.cpp:919
+#: kinit/klauncher.cpp:922
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 লঞ্চ করা হচ্ছে"
 
-#: kinit/klauncher.cpp:1121
+#: kinit/klauncher.cpp:1124
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "অজানা প্রোটোকল '%1'।\n"
 
-#: kinit/klauncher.cpp:1182
+#: kinit/klauncher.cpp:1185
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "'%1' লোড করতে সমস্যা।\n"
