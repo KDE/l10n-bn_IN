@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-27 10:59+0200\n"
+"POT-Creation-Date: 2009-05-31 11:43+0200\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -89,12 +89,12 @@ msgstr ""
 "%1 থেকে প্রাপ্ত বার্তা:\n"
 "%2"
 
-#: ksgrd/SensorShellAgent.cc:127
+#: ksgrd/SensorShellAgent.cc:126
 #, kde-format
 msgid "Could not run daemon program '%1'."
 msgstr "ডেমন প্রোগ্রাম '%1' সঞ্চালন করতে ব্যর্থ।"
 
-#: ksgrd/SensorShellAgent.cc:134
+#: ksgrd/SensorShellAgent.cc:133
 #, kde-format
 msgid "The daemon program '%1' failed."
 msgstr "ডেমন প্রোগ্রাম '%1' বিফল।"
@@ -478,11 +478,6 @@ msgstr "পূর্ণসংখ্যা মান"
 #: ksgrd/SensorManager.cc:165
 msgid "Floating Point Value"
 msgstr ""
-
-#: ksgrd/SensorManager.cc:260
-#, kde-format
-msgid "Connection to %1 has been lost."
-msgstr "%1-র সাথে সংযোগ বিচ্ছিন্ন হয়েছে।"
 
 #: ksgrd/SensorSocketAgent.cc:103
 #, kde-format
@@ -965,7 +960,7 @@ msgid "OK"
 msgstr "ঠিক আছে"
 
 #: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:182
-#: SensorDisplayLib/FancyPlotter.cc:341 SensorDisplayLib/FancyPlotter.cc:388
+#: SensorDisplayLib/FancyPlotter.cc:341 SensorDisplayLib/FancyPlotter.cc:390
 msgid "Error"
 msgstr "ত্রুটি"
 
@@ -997,7 +992,7 @@ msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:391
+#: SensorDisplayLib/FancyPlotter.cc:393
 #, kde-format
 msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
@@ -1318,11 +1313,11 @@ msgstr "ওয়ার্ক-শিটের শিরোনাম লিখুন
 msgid "Sensor Browser"
 msgstr "সেনসর ব্রাউজার"
 
-#: SensorBrowser.cc:437
+#: SensorBrowser.cc:438
 msgid "Drag sensors to empty cells of a worksheet "
 msgstr ""
 
-#: SensorBrowser.cc:438
+#: SensorBrowser.cc:439
 msgid ""
 "The sensor browser lists the connected hosts and the sensors that they "
 "provide. Click and drag sensors into drop zones of a worksheet. A display "
@@ -1463,6 +1458,9 @@ msgstr ""
 #: ksysguard.cc:548
 msgid "Optional worksheet files to load"
 msgstr "লোড করার জন্য চিহ্নিত ঐচ্ছিক ওয়ার্ক-শিট"
+
+#~ msgid "Connection to %1 has been lost."
+#~ msgstr "%1-র সাথে সংযোগ বিচ্ছিন্ন হয়েছে।"
 
 #~ msgid "&Title"
 #~ msgstr "শিরোনাম (&T)"
