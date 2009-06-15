@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwinstartmenu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-21 20:04+0200\n"
+"POT-Creation-Date: 2009-06-15 11:12+0200\n"
 "PO-Revision-Date: 2008-07-04 22:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -41,6 +41,12 @@ msgid ""
 msgstr ""
 "Start Menu এন্ট্রি ইনস্টল করুন (এই বিকল্পটি ব্যবহার না করা হলেও, ডিফল্টরূপে এই মান "
 "প্রয়োগ করা হবে)"
+
+#: main.cpp:49
+#, fuzzy
+#| msgid "Remove installed Start Menu entries"
+msgid "query root path of Start Menu entries"
+msgstr "ইনস্টল করা Start Menu এনট্রি সরিয়ে ফেলা হয়"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
