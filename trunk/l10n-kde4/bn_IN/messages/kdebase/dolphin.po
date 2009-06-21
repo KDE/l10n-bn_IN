@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-20 12:11+0200\n"
+"POT-Creation-Date: 2009-06-21 11:20+0200\n"
 "PO-Revision-Date: 2008-07-07 02:25+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -548,21 +548,13 @@ msgctxt "@info:progress"
 msgid "Changing annotations"
 msgstr "টীকা পরিবর্তন করা যাবে"
 
-#: panels/information/commentwidget.cpp:60
+#: panels/information/commentwidget.cpp:79
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add comment..."
 msgctxt "@label"
 msgid "Add Comment..."
 msgstr "মন্তব্য করা হবে..."
-
-#: panels/information/commentwidget.cpp:64
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change comment..."
-msgctxt "@label"
-msgid "Change Comment..."
-msgstr "মন্তব্য পরিবর্তন..."
 
 #: panels/information/resourcetaggingwidget.cpp:134
 #, fuzzy
@@ -655,16 +647,6 @@ msgstr ""
 #: panels/information/tagcloud.cpp:921
 #, kde-format
 msgid "Do you really want to delete tag '%1'?"
-msgstr ""
-
-#: panels/information/commenteditwidget.cpp:129
-msgctxt "@action:button"
-msgid "Save"
-msgstr ""
-
-#: panels/information/commenteditwidget.cpp:130
-msgctxt "@action:button"
-msgid "Cancel"
 msgstr ""
 
 #: panels/information/phononwidget.cpp:139
@@ -2279,6 +2261,13 @@ msgstr "বিস্তারিত বর্নণা"
 msgctxt "@action:inmenu View Mode"
 msgid "Columns"
 msgstr "কলাম"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Change comment..."
+#~ msgctxt "@label"
+#~ msgid "Change Comment..."
+#~ msgstr "মন্তব্য পরিবর্তন..."
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Move To Trash"
