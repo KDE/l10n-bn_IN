@@ -1,0 +1,110 @@
+# translation of plasma_scriptengine_qscript.po to Bengali INDIA
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_scriptengine_qscript\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-02 11:50+0200\n"
+"PO-Revision-Date: 2009-01-09 10:34+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: simplejavascriptapplet.cpp:518
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "i18n() takes at least one argument"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:534
+#, fuzzy
+#| msgid "Constructor takes at least 1 argument"
+msgid "i18nc() takes at least two arguments"
+msgstr "কনস্ট্রাক্টারের ক্ষেত্রে অন্তত ১-টি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:551
+#, fuzzy
+#| msgid "Constructor takes at least 1 argument"
+msgid "i18np() takes at least two arguments"
+msgstr "কনস্ট্রাক্টারের ক্ষেত্রে অন্তত ১-টি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:568
+#, fuzzy
+#| msgid "Constructor takes at least 1 argument"
+msgid "i18ncp() takes at least three arguments"
+msgstr "কনস্ট্রাক্টারের ক্ষেত্রে অন্তত ১-টি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:586
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "dataEngine() takes one argument"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:596 simplejavascriptapplet.cpp:621
+#: simplejavascriptapplet.cpp:787
+msgid "Could not extract the AppletObject"
+msgstr "AppletObject প্রাপ্ত করতে ব্যর্থ"
+
+#: simplejavascriptapplet.cpp:601 simplejavascriptapplet.cpp:626
+#: simplejavascriptapplet.cpp:792
+msgid "Could not extract the Applet"
+msgstr "Applet প্রাপ্ত করতে ব্যর্থ"
+
+#: simplejavascriptapplet.cpp:611
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "service() takes two arguments"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:639
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "loadui() takes one argument"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:645
+#, kde-format
+msgid "Unable to open '%1'"
+msgstr "'%1' খুলতে ব্যর্থ"
+
+#: simplejavascriptapplet.cpp:685 simplejavascriptapplet.cpp:718
+msgid "Constructor takes at least 1 argument"
+msgstr "কনস্ট্রাক্টারের ক্ষেত্রে অন্তত ১-টি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:769
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "CreateWidget takes one argument"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: simplejavascriptapplet.cpp:777
+msgid "The parent must be a QGraphicsWidget"
+msgstr "ঊর্ধ্বে QGraphicsWidget হওয়া আবশ্যক"
+
+#: simplejavascriptapplet.cpp:827
+#, kde-format
+msgid "This operation was not supported, %1"
+msgstr ""
+
+#: simplejavascriptapplet.cpp:834
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "print() takes one argument"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: qtgui/linearlayout.cpp:72
+msgid "LinearLayout requires a parent"
+msgstr ""
+
+#: qtgui/linearlayout.cpp:78
+#, fuzzy
+#| msgid "The parent must be a QGraphicsWidget"
+msgid "The parent must be a QGraphicsLayoutItem"
+msgstr "ঊর্ধ্বে QGraphicsWidget হওয়া আবশ্যক"
