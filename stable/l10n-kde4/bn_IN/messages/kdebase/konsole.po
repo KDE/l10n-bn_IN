@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-11 12:49+0200\n"
+"POT-Creation-Date: 2009-06-25 07:58+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -142,8 +142,10 @@ msgstr "প্রোফাইল সম্পাদনা"
 #: EditProfileDialog.cpp:149
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
-msgid "Editing %1 profiles: %2"
-msgstr "প্রোফাইল \"%1\" সম্পাদনা করুন"
+msgid "Editing profile: %2"
+msgid_plural "Editing %1 profiles: %2"
+msgstr[0] "প্রোফাইল \"%1\" সম্পাদনা করুন"
+msgstr[1] "প্রোফাইল \"%1\" সম্পাদনা করুন"
 
 #: EditProfileDialog.cpp:152
 #, kde-format
