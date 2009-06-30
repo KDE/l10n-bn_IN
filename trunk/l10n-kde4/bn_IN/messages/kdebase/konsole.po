@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-25 14:47+0200\n"
+"POT-Creation-Date: 2009-06-30 11:36+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -115,15 +115,15 @@ msgstr "নামবিহীন রঙের বিন্যাস"
 msgid "Accessible Color Scheme"
 msgstr "ব্যবহারযোগ্য রঙের বিন্যাস"
 
-#: ColorSchemeEditor.cpp:82 ManageProfilesDialog.cpp:222
+#: ColorSchemeEditor.cpp:83 ManageProfilesDialog.cpp:222
 msgid "Name"
 msgstr "নাম"
 
-#: ColorSchemeEditor.cpp:82
+#: ColorSchemeEditor.cpp:83
 msgid "Color"
 msgstr "রঙ"
 
-#: ColorSchemeEditor.cpp:102
+#: ColorSchemeEditor.cpp:103
 msgid ""
 "The background transparency setting will not be used because your desktop "
 "does not appear to support transparent windows."
@@ -152,35 +152,35 @@ msgstr[1] "প্রোফাইল \"%1\" সম্পাদনা করুন
 msgid "Edit Profile \"%1\""
 msgstr "প্রোফাইল \"%1\" সম্পাদনা করুন"
 
-#: EditProfileDialog.cpp:280
+#: EditProfileDialog.cpp:283
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা"
 
-#: EditProfileDialog.cpp:306
+#: EditProfileDialog.cpp:309
 msgid "Always Hide Tab Bar"
 msgstr "ট্যাব-বার সর্বদা আড়াল করা হবে"
 
-#: EditProfileDialog.cpp:307
+#: EditProfileDialog.cpp:310
 msgid "Show Tab Bar When Needed"
 msgstr "প্রয়োজনে ট্যাব-বার প্রদর্শন করা হবে"
 
-#: EditProfileDialog.cpp:308
+#: EditProfileDialog.cpp:311
 msgid "Always Show Tab Bar"
 msgstr "ট্যাব-বার সর্বদা প্রদর্শন করা হবে"
 
-#: EditProfileDialog.cpp:313
+#: EditProfileDialog.cpp:316
 msgid "Below Terminal Displays"
 msgstr "টার্মিন্যালের প্রদর্শনের নীচে"
 
-#: EditProfileDialog.cpp:314
+#: EditProfileDialog.cpp:317
 msgid "Above Terminal Displays"
 msgstr "টার্মিন্যালের প্রদর্শনের উপরেী"
 
-#: EditProfileDialog.cpp:410
+#: EditProfileDialog.cpp:413
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরি নির্বাচন করুন"
 
-#: EditProfileDialog.cpp:427
+#: EditProfileDialog.cpp:430
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -188,24 +188,24 @@ msgstr ""
 "এই রঙের বিন্যাসের সাথে স্বচ্ছ পটভূমি ব্যবহৃত হয়, কিন্তু আপনার ডেস্কটপে স্বচ্ছ পটভূমি "
 "সমর্থিত নয়"
 
-#: EditProfileDialog.cpp:593
+#: EditProfileDialog.cpp:596
 #, kde-format
 msgid "%1, size %2"
 msgstr "%1, মাপ %2"
 
-#: EditProfileDialog.cpp:706 EditProfileDialog.cpp:715
+#: EditProfileDialog.cpp:709 EditProfileDialog.cpp:718
 msgid "New Color Scheme"
 msgstr "নতুন রঙের বিন্যাস"
 
-#: EditProfileDialog.cpp:708
+#: EditProfileDialog.cpp:711
 msgid "Edit Color Scheme"
 msgstr "রঙের বিন্যাস সম্পাদনা করুন"
 
-#: EditProfileDialog.cpp:841 EditProfileDialog.cpp:852
+#: EditProfileDialog.cpp:844 EditProfileDialog.cpp:855
 msgid "New Key Binding List"
 msgstr "কি-বাইন্ডিংয়ের নতুন তালিকা"
 
-#: EditProfileDialog.cpp:843
+#: EditProfileDialog.cpp:846
 msgid "Edit Key Binding List"
 msgstr "কি-বাইন্ডিংয়ের তালিকা সম্পাদনা"
 
@@ -659,7 +659,7 @@ msgid "Profile name:"
 msgstr "প্রোফাইলের নাম:"
 
 #. i18n: file: EditProfileDialog.ui:65
-#. i18n: ectx: property (toolTip), widget (QLineEdit, profileNameEdit)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, profileNameEdit)
 #: rc.cpp:33 rc.cpp:430
 msgid "A descriptive name for the profile"
 msgstr "প্রোফাইলের বর্ণনামূলক নাম"
@@ -1172,7 +1172,7 @@ msgid "Word characters for double-click selection: "
 msgstr ""
 
 #. i18n: file: EditProfileDialog.ui:969
-#. i18n: ectx: property (toolTip), widget (QLineEdit, wordCharacterEdit)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, wordCharacterEdit)
 #: rc.cpp:286 rc.cpp:683
 msgid ""
 "Characters which are considered part of a word when double-clicking to "
