@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-28 07:02+0200\n"
-"PO-Revision-Date: 2009-01-05 17:52+0530\n"
+"PO-Revision-Date: 2009-07-03 16:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,28 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: aboutbugreportingdialog.cpp:34
-#, fuzzy
 #| msgid "&Bug Report"
 msgctxt "@title title of the dialog"
 msgid "About Bug Reporting"
-msgstr "বাগ সংক্রান্ত রিপোর্ট (&B)"
+msgstr "বাগ সংক্রান্ত রিপোর্টের পরিচিতি"
 
 #: aboutbugreportingdialog.cpp:48
 msgctxt "@title"
 msgid "Information about bug reporting"
-msgstr ""
+msgstr "বাগের সূচনা সংক্রান্ত তথ্য"
 
 #: aboutbugreportingdialog.cpp:50
 msgctxt "@info/rich"
 msgid "You can help us improve this software by filing a bug report."
-msgstr ""
+msgstr "বাগ রিপোর্ট দায়ের করে এই সফ্টওয়্যারটি উন্নত করতে সাহায্য করুন"
 
 #: aboutbugreportingdialog.cpp:51
 msgctxt "@info/rich"
 msgid ""
 "<note>It is safe to close this dialog. If you do not want to, you do not "
 "have to file a bug report.</note>"
-msgstr ""
+msgstr "<note>এই ডায়লগটি বন্ধ করা এখন নিরাপদ। বাগ রিপোর্ট দায়ের করতে আপনি বাধ্য নন।</note>"
 
 #: aboutbugreportingdialog.cpp:53
 msgctxt "@info/rich"
@@ -47,12 +46,12 @@ msgid ""
 "In order to generate a useful bug report we need some information about both "
 "the crash and your system. (You may also need to install some debug "
 "packages.)"
-msgstr ""
+msgstr "সহায়ক বাগ রিপোর্ট নির্মাণের জন্য আপনার সিস্টেম ও বিপর্যয় সম্পর্কে কিছু তথ্য জেনে নেওয়া প্রয়োজন। (কয়েকটি ডিবাগ প্যাকেজ ইনস্টল করাও প্রয়োজন হতে পারে।)"
 
 #: aboutbugreportingdialog.cpp:57
 msgctxt "@title"
 msgid "Bug Reporting Assistant Steps Guide"
-msgstr ""
+msgstr "বাগ রিপোর্ট দায়ের করার সহায়ক ব্যবস্থার নির্দেশিকা"
 
 #: aboutbugreportingdialog.cpp:59
 msgctxt "@info/rich"
@@ -65,7 +64,7 @@ msgstr ""
 #: aboutbugreportingdialog.cpp:65
 msgctxt "@title"
 msgid "Crash Information"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত তথ্য"
 
 #: aboutbugreportingdialog.cpp:67
 #, kde-format
@@ -89,7 +88,7 @@ msgstr ""
 #: drkonqibugreport.cpp:70
 msgctxt "@title"
 msgid "What do you know about the crash?"
-msgstr ""
+msgstr "বিপর্যয় সম্পর্কে কি তথ্য উপলব্ধ রয়েছে?"
 
 #: aboutbugreportingdialog.cpp:80
 msgctxt "@info/rich"
@@ -208,11 +207,10 @@ msgid ""
 msgstr ""
 
 #: aboutbugreportingdialog.cpp:137 drkonqibugreport.cpp:98
-#, fuzzy
 #| msgid "&Bug Report"
 msgctxt "@title"
 msgid "Bug Report Keywords"
-msgstr "বাগ সংক্রান্ত রিপোর্ট (&B)"
+msgstr "বাগ রিপোর্টের জন্য প্রাসঙ্গিক শব্দ"
 
 #: aboutbugreportingdialog.cpp:139
 msgctxt "@info/rich"
@@ -230,7 +228,7 @@ msgstr ""
 #: aboutbugreportingdialog.cpp:151 aboutbugreportingdialog.cpp:189
 msgctxt "@info/rich"
 msgid "<note>You should write in English.</note>"
-msgstr ""
+msgstr "<note>ইংরাজিতে লেখা আবশ্যক।</note>"
 
 #: aboutbugreportingdialog.cpp:154
 msgctxt "@title"
@@ -240,7 +238,7 @@ msgstr ""
 #: aboutbugreportingdialog.cpp:157
 msgctxt "@info/rich"
 msgid "This is an optional step."
-msgstr ""
+msgstr "এটি ঐচ্ছিক ধাপ।"
 
 #: aboutbugreportingdialog.cpp:158
 msgctxt "@info/rich"
@@ -289,7 +287,7 @@ msgstr ""
 #: aboutbugreportingdialog.cpp:183
 msgctxt "@title"
 msgid "Details of the Bug report"
-msgstr ""
+msgstr "বাগ রিপোর্টের বিবরণ"
 
 #: aboutbugreportingdialog.cpp:185
 msgctxt "@info/rich"
@@ -301,7 +299,7 @@ msgstr ""
 #: aboutbugreportingdialog.cpp:192 drkonqibugreport.cpp:124
 msgctxt "@title"
 msgid "Send Crash Report"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত রিপোর্ট পাঠিয়ে দিন"
 
 #: aboutbugreportingdialog.cpp:194
 msgctxt "@info/rich"
@@ -317,27 +315,27 @@ msgctxt "@info/rich"
 msgid ""
 "If the process fails, you can click <interface>Retry</interface> to try "
 "sending the bug report again."
-msgstr ""
+msgstr "এই প্রক্রিয়া বিফল হলে, <interface>পুনরায় প্রচেষ্টা</interface> টিপে পুনরায় বাগ রিপোর্ট পাঠানোর প্রচেষ্টা করুন।"
 
 #: bugzillalib.cpp:112
 msgctxt "@info"
 msgid "Unknown response from the server"
-msgstr ""
+msgstr "সার্ভার থেকে অজানা উত্তর প্রাপ্ত হয়েছে"
 
 #: bugzillalib.cpp:146
 msgctxt "@info"
 msgid "Invalid bug report: corrupted data"
-msgstr ""
+msgstr "বাগ রিপোর্ট বৈধ নয়: ক্ষতিগ্রস্ত তথ্য"
 
 #: bugzillalib.cpp:191
 msgctxt "@info"
 msgid "Invalid bug list: corrupted data"
-msgstr ""
+msgstr "বাগের তালিকা বৈধ নয়: ক্ষতিগ্রস্ত তথ্য"
 
 #: bugzillalib.cpp:262
 msgctxt "@info"
 msgid "Unknown error"
-msgstr ""
+msgstr "অজানা সমস্যা"
 
 #: drkonqiassistantpages_base.cpp:93
 msgctxt "@info"
@@ -349,17 +347,16 @@ msgstr ""
 #: drkonqiassistantpages_base.cpp:96
 msgctxt "@title:window"
 msgid "Crash Information is not useful enough"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত তথ্য পর্যাপ্তপরিমাণে সহায়ক নয়"
 
 #: drkonqiassistantpages_base.cpp:139 drkonqiassistantpages_bugzilla.cpp:807
 msgctxt "@action:button"
 msgid "Sho&w Contents of the Report"
-msgstr ""
+msgstr "রিপোর্টের মধ্যে উপস্থিত তথ্য প্রদর্শন করা হবে (&w)"
 
 #: drkonqiassistantpages_base.cpp:141 drkonqiassistantpages_bugzilla.cpp:809
 msgctxt "@info:tooltip"
-msgid ""
-"Use this button to show the generated report information about this crash."
+msgid "Use this button to show the generated report information about this crash."
 msgstr ""
 
 #: drkonqiassistantpages_base.cpp:171 drkonqiassistantpages_base.cpp:342
@@ -367,33 +364,33 @@ msgstr ""
 #, kde-format
 msgctxt "@info/plain"
 msgid "Report to %1"
-msgstr ""
+msgstr "%1-এ রিপোর্ট দায়ের করুন"
 
 #: drkonqiassistantpages_base.cpp:205
 msgctxt "@info"
 msgid "The automatically generated crash information is useful."
-msgstr ""
+msgstr "স্বয়ংক্রিয়ভাবে নির্মিত বিপর্যয় সংক্রান্ত তথ্য অত্যন্ত সহায়ক।"
 
 #: drkonqiassistantpages_base.cpp:211
 msgctxt "@info"
 msgid ""
 "The automatically generated crash information lacks some details but may be "
 "still be useful."
-msgstr ""
+msgstr "স্বয়ংক্রিয়ভাবে নির্মিত বিপর্যয় সংক্রান্ত তথ্যের মধ্যে কিছু বিবরণ অনুপস্থিত থাকা সত্ত্বেও এটি সহায়ক।"
 
 #: drkonqiassistantpages_base.cpp:219
 msgctxt "@info"
 msgid ""
 "The automatically generated crash information lacks important details and it "
 "is probably not helpful."
-msgstr ""
+msgstr "স্বয়ংক্রিয়ভাবে নির্মিত বিপর্যয় সংক্রান্ত তথ্যের মধ্যে গুরুত্বপূর্ণ তথ্য অনুপস্থিত রয়েছে এবং এটি সহায়ক নয়।"
 
 #: drkonqiassistantpages_base.cpp:228
 msgctxt "@info"
 msgid ""
 "The automatically generated crash information does not contain enough "
 "information to be helpful."
-msgstr ""
+msgstr "স্বয়ংক্রিয়ভাবে নির্মিত বিপর্যয় সংক্রান্ত তথ্যের মধ্যে কোনো সহায়ক তথ্য উপস্থিত নেই।"
 
 #: drkonqiassistantpages_base.cpp:231
 msgctxt "@info"
@@ -408,14 +405,14 @@ msgctxt "@info"
 msgid ""
 "You can provide crash details, and the developers can contact you if "
 "required."
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত বিবরণ উল্লেখ করতে পারেন ও প্রয়োজনে ডিভালপররা আপনার সাথে যোগাযোগ করবেন।"
 
 #: drkonqiassistantpages_base.cpp:249
 msgctxt "@info"
 msgid ""
 "You can provide crash details, but do not want developers to contact you for "
 "more information if required."
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত বিবরণ উল্লেখ করতে পারেন কিন্তু অধিক বিবরণ জানার জন্য ডিভালপরদেরকে আপনার সাথে যোগাযাগ করার অনুমতি প্রদান করতে ইচ্ছুক নন।"
 
 #: drkonqiassistantpages_base.cpp:255
 msgctxt "@info"
@@ -434,7 +431,7 @@ msgstr ""
 #: drkonqiassistantpages_base.cpp:270
 msgctxt "@info"
 msgid "This report is considered helpful."
-msgstr ""
+msgstr "এই রিপোর্টটি সহায়ক ধার্য করা হয়েছে"
 
 #: drkonqiassistantpages_base.cpp:275
 #, kde-format
@@ -464,7 +461,7 @@ msgstr ""
 #: drkonqiassistantpages_base.cpp:305
 msgctxt "@info"
 msgid "If you wish, you can go back and change your answers. "
-msgstr ""
+msgstr "প্রয়োজনে, পূর্ববর্তী ধাপে প্রত্যাবর্তন করে আপনার উত্তরগুলি পরিবর্তন করতে পারবেন। "
 
 #: drkonqiassistantpages_base.cpp:309
 #, kde-format
@@ -487,12 +484,12 @@ msgstr ""
 #: drkonqiassistantpages_base.cpp:368
 msgctxt "@title:window"
 msgid "Contents of the Report"
-msgstr ""
+msgstr "রিপোর্টের মধ্যে উপস্থিত তথ্য"
 
 #: drkonqiassistantpages_base.cpp:373 getbacktracewidget.cpp:65
 msgctxt "@action:button"
 msgid "&Save to File..."
-msgstr ""
+msgstr "ফাইলে সংরক্ষণ করুন...(&S)"
 
 #: drkonqiassistantpages_base.cpp:375
 msgctxt "@info:tooltip"
@@ -505,12 +502,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status '1' is replaced with \"bugs.kde.org\""
 msgid "You need to login with your %1 account in order to proceed."
-msgstr ""
+msgstr "এগিয়ে চলার জন্য আপনার %1 অ্যাকাউন্ট সহযোগে লগ-ইন করুন।"
 
 #: drkonqiassistantpages_bugzilla.cpp:57
 msgctxt "@action:button"
 msgid "Login"
-msgstr ""
+msgstr "লগ-ইন"
 
 #: drkonqiassistantpages_bugzilla.cpp:59
 msgctxt "@info:tooltip"
@@ -533,70 +530,69 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "Error when trying to login: <message>%1.</message>"
-msgstr ""
+msgstr "লগ-ইনের প্রচেষ্টাকালে সমস্যা দেখা দিয়েছে: <message>%1.</message>"
 
 #: drkonqiassistantpages_bugzilla.cpp:110
 #, kde-format
 msgctxt "@info:status the user is logged at the bugtracker site as USERNAME"
 msgid "Logged in at the KDE bug tracking system (%1) as: %2."
-msgstr ""
+msgstr "KDE-র বাগ অনুসরণ ব্যবস্থার (%1) মধ্যে চিহ্নিত পরিচয় সহ লগ-ইন করা হয়েছে: %2."
 
 #: drkonqiassistantpages_bugzilla.cpp:197
 #, kde-format
 msgctxt "@info:status '1' is a url, '2' the username"
 msgid "Performing login at %1 as %2..."
-msgstr ""
+msgstr "%1-এ %2 রূপে লগ-ইন করা হচ্ছে..."
 
 #: drkonqiassistantpages_bugzilla.cpp:219
 msgctxt "@info:status"
 msgid "Invalid username or password"
-msgstr ""
+msgstr "ব্যবহারকারীর নাম অথবা পাসওয়ার্ড বৈধ নয়"
 
 #: drkonqiassistantpages_bugzilla.cpp:322
 msgctxt "@action:button"
 msgid "Search for more reports"
-msgstr ""
+msgstr "অতিরিক্ত রিপোর্ট অনুসন্ধান করুন"
 
 #: drkonqiassistantpages_bugzilla.cpp:324
 msgctxt "@info:tooltip"
-msgid ""
-"Use this button to search for more similar bug reports on an earlier date."
+msgid "Use this button to search for more similar bug reports on an earlier date."
 msgstr ""
 
 #: drkonqiassistantpages_bugzilla.cpp:330
 msgctxt "@action:button"
 msgid "Retry search"
-msgstr ""
+msgstr "পুনরায় অনুসন্ধানের চেষ্টা"
 
 #: drkonqiassistantpages_bugzilla.cpp:332
 msgctxt "@info:tooltip"
 msgid "Use this button to retry the search that previously failed."
-msgstr ""
+msgstr "পূর্বে বিফল কোনো অনুসন্ধানে পুনরায় প্রচেষ্টার জন্য এই বাটনটি ব্যবহার করুন।"
 
 #: drkonqiassistantpages_bugzilla.cpp:336
 msgctxt "@action:button"
 msgid "Open selected report"
-msgstr ""
+msgstr "নির্বাচিত রিপোর্ট খুলুন"
 
 #: drkonqiassistantpages_bugzilla.cpp:338
 msgctxt "@info:tooltip"
 msgid "Use this button to view the information of the selected bug report."
-msgstr ""
+msgstr "নির্বাচিত বাগ রিপোর্টের মধ্যে উপস্থিত তথ্য প্রদর্শনের জন্য এই বাটনটি ব্যবহার করুন।"
 
 #: drkonqiassistantpages_bugzilla.cpp:342
 msgctxt "@action:button"
 msgid "Stop searching"
-msgstr ""
+msgstr "অনুসন্ধান বন্ধ করুন"
 
 #: drkonqiassistantpages_bugzilla.cpp:344
 msgctxt "@info:tooltip"
 msgid "Use this button to stop the current search."
-msgstr ""
+msgstr "বর্তমান অনুসন্ধান বন্ধ করার জন্য এই বাটনটি ব্যবহার করুন"
 
 #: drkonqiassistantpages_bugzilla.cpp:394
 msgctxt "@info:status"
 msgid "Error fetching the bug report list"
-msgstr ""
+msgstr "বাগ রিপোর্টের তালিকা প্রাপ্ত করতে সমস্যা"
 
 #: drkonqiassistantpages_bugzilla.cpp:396
 #, kde-format
@@ -604,7 +600,7 @@ msgctxt "@info/rich"
 msgid ""
 "Error fetching the bug report list<nl/><message>%1.</message><nl/>Please "
 "wait some time and try again."
-msgstr ""
+msgstr "বাগ রিপোর্টের তালিকা<nl/><message>%1.</message><nl/> প্রাপ্ত করতে ব্যর্থ। পুনরায় প্রচেষ্টা পদর্বে অনুগ্রহ করে কিছু সময় অপেক্ষা করুন।"
 
 #: drkonqiassistantpages_bugzilla.cpp:428
 #, kde-format
@@ -615,13 +611,13 @@ msgstr ""
 #: drkonqiassistantpages_bugzilla.cpp:480
 msgctxt "@info:status"
 msgid "Search stopped."
-msgstr ""
+msgstr "অনুসন্ধান বন্ধ হয়েছে।"
 
 #: drkonqiassistantpages_bugzilla.cpp:482
 #, kde-format
 msgctxt "@info:status"
 msgid "Search stopped. Showing results from %1 to %2"
-msgstr ""
+msgstr "অনুসন্ধান বন্ধ হয়েছে। %1 থেকে %2 অবধি ফলাফল প্রদর্শন করা হচ্ছে"
 
 #: drkonqiassistantpages_bugzilla.cpp:496
 #, kde-format
@@ -633,17 +629,17 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "Showing results from %1 to %2"
-msgstr ""
+msgstr "%1 থেকে %2 অবধি ফলাফল প্রদর্শন করা হচ্ছে"
 
 #: drkonqiassistantpages_bugzilla.cpp:554
 msgctxt "@info:status"
 msgid "Search Finished. No reports found."
-msgstr ""
+msgstr "অনুসন্ধান সমাপ্ত হয়েছে। কোনো রিপোর্ট পাওয়া যায়নি।"
 
 #: drkonqiassistantpages_bugzilla.cpp:578
 msgctxt "@title:window"
 msgid "Bug Description"
-msgstr ""
+msgstr "বাগের বিবরণ"
 
 #: drkonqiassistantpages_bugzilla.cpp:586
 msgctxt "@action:button"
@@ -659,11 +655,10 @@ msgid ""
 msgstr ""
 
 #: drkonqiassistantpages_bugzilla.cpp:616 getbacktracewidget.cpp:84
-#, fuzzy
 #| msgid "Loading symbols..."
 msgctxt "@info:status"
 msgid "Loading..."
-msgstr "সিম্বল লোড করা হচ্ছে..."
+msgstr "লোড করা হচ্ছে..."
 
 #: drkonqiassistantpages_bugzilla.cpp:619
 #, kde-format
@@ -675,53 +670,53 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "Loading information about bug <numid>%1</numid> from %2...."
-msgstr ""
+msgstr "বাগ <numid>%1</numid> সম্বন্ধীয় তথ্য %2 থেকে লোড করা হচ্ছে...."
 
 #: drkonqiassistantpages_bugzilla.cpp:645
 #, kde-format
 msgid "<strong>Bug ID:</strong> %1<br />"
-msgstr ""
+msgstr "<strong>বাগের ID:</strong> %1<br />"
 
 #: drkonqiassistantpages_bugzilla.cpp:646
 #, kde-format
 msgid "<strong>Product:</strong> %1/%2<br />"
-msgstr ""
+msgstr "<strong>উৎপাদন:</strong> %1/%2<br />"
 
 #: drkonqiassistantpages_bugzilla.cpp:648
 #, kde-format
 msgid "<strong>Short Description:</strong> %1<br />"
-msgstr ""
+msgstr "<strong>সংক্ষিপ্ত বিবরণ:</strong> %1<br />"
 
 #: drkonqiassistantpages_bugzilla.cpp:650
 #, kde-format
 msgid "<strong>Status:</strong> %1<br />"
-msgstr ""
+msgstr "<strong>অবস্থা:</strong> %1<br />"
 
 #: drkonqiassistantpages_bugzilla.cpp:651
 #, kde-format
 msgid "<strong>Resolution:</strong> %1<br />"
-msgstr ""
+msgstr "<strong>মীমাংসা:</strong> %1<br />"
 
 #: drkonqiassistantpages_bugzilla.cpp:652
 #, kde-format
 msgid "<strong>Full Description:</strong><br />%1"
-msgstr ""
+msgstr "<strong>সম্পূর্ণ বিবরণ:</strong><br />%1"
 
 #: drkonqiassistantpages_bugzilla.cpp:655
 #, kde-format
 msgid "<strong>Comments:</strong> %1"
-msgstr ""
+msgstr "<strong>মন্তব্য:</strong> %1"
 
 #: drkonqiassistantpages_bugzilla.cpp:662
 #, kde-format
 msgctxt "@info:status"
 msgid "Showing report <numid>%1</numid>"
-msgstr ""
+msgstr "রিপোর্ট <numid>%1</numid> প্রদর্শন করা হচ্ছে"
 
 #: drkonqiassistantpages_bugzilla.cpp:666
 msgctxt "@info"
 msgid "Invalid report data"
-msgstr ""
+msgstr "রিপোর্টের তথ্য বৈধ নয়"
 
 #: drkonqiassistantpages_bugzilla.cpp:679
 #, kde-format
@@ -734,22 +729,21 @@ msgstr ""
 #: drkonqiassistantpages_bugzilla.cpp:683
 msgctxt "@info"
 msgid "Error fetching the bug report"
-msgstr ""
+msgstr "বাগের রিপোর্ট প্রাপ্ত করতে ত্রুটি"
 
 #: drkonqiassistantpages_bugzilla.cpp:684
 msgctxt "@info:status"
 msgid "Error fetching the bug report"
-msgstr ""
+msgstr "বাগের রিপোর্ট প্রাপ্ত করতে ত্রুটি"
 
 #: drkonqiassistantpages_bugzilla.cpp:741
 msgctxt "@info"
 msgid "The title does not provide enough information."
-msgstr ""
+msgstr "শিরোনামের মধ্যে পর্যাপ্ত তথ্য উপলব্ধ নেই।"
 
 #: drkonqiassistantpages_bugzilla.cpp:743
 msgctxt "@info"
-msgid ""
-"The description about the crash details does not provide enough information."
+msgid "The description about the crash details does not provide enough information."
 msgstr ""
 
 #: drkonqiassistantpages_bugzilla.cpp:746
@@ -762,27 +756,27 @@ msgstr ""
 #: drkonqiassistantpages_bugzilla.cpp:750
 msgctxt "@info"
 msgid "Can you tell us more?"
-msgstr ""
+msgstr "অধিক বিবরণ উপলব্ধ রয়েছে কি?"
 
 #: drkonqiassistantpages_bugzilla.cpp:754
 msgctxt "@title:window"
 msgid "We need more information"
-msgstr ""
+msgstr "অধিক তথ্য প্রয়োজন"
 
 #: drkonqiassistantpages_bugzilla.cpp:764
 msgctxt "@info question"
 msgid "Are you ready to submit this report?"
-msgstr ""
+msgstr "রিপোর্ট দায়ের করতে প্রস্তুত কি?"
 
 #: drkonqiassistantpages_bugzilla.cpp:765
 msgctxt "@title:window"
 msgid "Are you sure?"
-msgstr ""
+msgstr "আপনি কি নিশ্চিত?"
 
 #: drkonqiassistantpages_bugzilla.cpp:801
 msgctxt "@action:button"
 msgid "Retry..."
-msgstr ""
+msgstr "পুনঃপ্রচেষ্টা..."
 
 #: drkonqiassistantpages_bugzilla.cpp:803
 msgctxt "@info:tooltip"
@@ -792,7 +786,7 @@ msgstr ""
 #: drkonqiassistantpages_bugzilla.cpp:832
 msgctxt "@info:status"
 msgid "Sending crash report... (please wait)"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত রিপোর্ট পাঠানো হচ্ছে... (অনুগ্রহ করে অপেক্ষা করুন)"
 
 #: drkonqiassistantpages_bugzilla.cpp:849
 #, kde-format
@@ -806,7 +800,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "Error sending the crash report:  <message>%1.</message>"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত রিপোর্ট পাঠাতে সমস্যা:  <message>%1.</message>"
 
 #: drkonqibugreport.cpp:40
 msgctxt "@title:window"
@@ -816,17 +810,17 @@ msgstr ""
 #: drkonqibugreport.cpp:52
 msgctxt "@title the introduction page"
 msgid "Introduction"
-msgstr ""
+msgstr "ভূমিকা"
 
 #: drkonqibugreport.cpp:61
 msgctxt "@title"
 msgid "Crash Information (Backtrace)"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত তথ্য (ব্যাক-ট্রেস)"
 
 #: drkonqibugreport.cpp:79
 msgctxt "@title"
 msgid "Crash Analysis Results"
-msgstr ""
+msgstr "বিপর্যয়ের বিশ্লেষণের ফলাফল"
 
 #: drkonqibugreport.cpp:107
 msgctxt "@title"
@@ -836,7 +830,7 @@ msgstr ""
 #: drkonqibugreport.cpp:116
 msgctxt "@title"
 msgid "Details of the Bug Report"
-msgstr ""
+msgstr "বাগ রিপোর্টের বিবরণ"
 
 #: drkonqibugreport.cpp:237
 msgctxt "@info"
@@ -851,51 +845,47 @@ msgid "Close Crash Reporting Assistant"
 msgstr ""
 
 #: drkonqi.cpp:188
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Backtrace saved to <filename>%1</filename>."
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
-msgstr "<filename>%1</filename> ফাইলের মধ্যে ব্যাক-ট্রেস সংরক্ষণ করা হয়েছে।"
+msgstr "<filename>%1</filename> ফাইলের মধ্যে রিপোর্ট সংরক্ষণ করা হয়েছে।"
 
 #: drkonqi.cpp:191
-#, fuzzy
 #| msgid "Cannot create a file to save the backtrace in"
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
-msgstr "ব্যাক-ট্রেস সংরক্ষণের জন্য কোনো ফাইল নির্মাণ করা যায়নি"
+msgstr "রিপোর্ট সংরক্ষণের জন্য কোনো ফাইল নির্মাণ করা যায়নি।"
 
 #: drkonqi.cpp:202
-#, fuzzy
 #| msgid "Select Filename"
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "ফাইলের নাম নির্বাচন করুন"
 
 #: drkonqi.cpp:216
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cannot open file <filename>%1</filename> for writing."
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "লেখার জন্য <filename>%1</filename> ফাইলটি খোলা যায়নি।"
 
 #: drkonqidialog.cpp:62
-#, fuzzy
 #| msgid "Generate"
 msgctxt "@title:tab general information"
 msgid "&General"
-msgstr "উৎপন্ন করা হবে"
+msgstr "সাধারণ (&G)"
 
 #: drkonqidialog.cpp:66
 msgctxt "@title:tab"
 msgid "&Developer Information"
-msgstr ""
+msgstr "ডিভেলপরদের তথ্য (&D)"
 
 #: drkonqidialog.cpp:87
 #, kde-format
 msgctxt "@info"
-msgid ""
-"<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
-msgstr ""
+msgid "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
+msgstr "<para>দুঃখিত, অপ্রত্যাশিতভাবে <application>%1</application> বন্ধ হয়েছে।</para>"
 
 #: drkonqidialog.cpp:92
 msgctxt "@info"
@@ -907,11 +897,10 @@ msgid ""
 msgstr ""
 
 #: drkonqidialog.cpp:121
-#, fuzzy
 #| msgid "Show details"
 msgctxt "@label"
 msgid "Details:"
-msgstr "বিবরণ প্রদর্শন করা হবে"
+msgstr "বিবরণ:"
 
 #: drkonqidialog.cpp:123
 #, kde-format
@@ -920,57 +909,58 @@ msgid ""
 "<para>Executable: <application>%1</application> PID: <numid>%2</numid> "
 "Signal: %3 (%4)</para>"
 msgstr ""
+"<para>এক্সেকিউটেবল: <application>%1</application> PID: <numid>%2</numid> "
+"সংকেত: %3 (%4)</para>"
 
 #: drkonqidialog.cpp:143
 msgctxt "@action:button"
 msgid "Report Bug"
-msgstr ""
+msgstr "বাগের রিপোর্ট দায়ের করুন"
 
 #: drkonqidialog.cpp:146
 msgctxt "@info:tooltip"
 msgid "Starts the bug report assistant."
-msgstr ""
+msgstr "বাগ রিপোর্ট দায়ের করার সহায়ক সামগ্রী আরম্ভ করে।"
 
 #: drkonqidialog.cpp:152
-#, fuzzy
 #| msgid "&Debugger"
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
 msgid "Debug"
-msgstr "ডিবাগার (&D)"
+msgstr "ডিবাগ করুন"
 
 #: drkonqidialog.cpp:153
 msgctxt "@info:tooltip"
 msgid "Starts a program to debug the crashed application."
-msgstr ""
+msgstr "বিপর্যস্ত অ্যাপ্লিকেশন ডিবাগ করার জন্য প্রোগ্রাম আরম্ভ করে।"
 
 #: drkonqidialog.cpp:162 drkonqidialog.cpp:231
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<application>%1</application>"
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in <application>%1</application>"
-msgstr "<application>%1</application>"
+msgstr "<application>%1</application>-এ ডিবাগ করুন"
 
 #: drkonqidialog.cpp:179
 msgctxt "@action:button"
 msgid "Restart Application"
-msgstr ""
+msgstr "অ্যাপ্লিকেশন পুনরায় আরম্ভ করুন"
 
 #: drkonqidialog.cpp:181
 msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
-msgstr ""
+msgstr "বিপর্যস্ত অ্যাপ্লিকেশন পুনরায় আরম্ভ করার জন্য এই বাটনটি ব্যবহার করুন।"
 
 #: drkonqidialog.cpp:187
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
-msgstr ""
+msgstr "এই ডায়লগটি বন্ধ করুন (বিপর্যয় সংক্রান্ত তথ্য হারিয়ে যাবে।)"
 
 #: getbacktracewidget.cpp:52
 msgctxt "@action:button"
 msgid "&Reload Crash Information"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ততথ্য পুনরায় লোড করা হবে (&R)"
 
 #: getbacktracewidget.cpp:53
 msgctxt "@info:tooltip"
@@ -981,16 +971,14 @@ msgid ""
 msgstr ""
 
 #: getbacktracewidget.cpp:59
-#, fuzzy
 #| msgid "C&opy"
 msgctxt "@action:button"
 msgid "&Copy"
-msgstr "কপি করুন (&o)"
+msgstr "কপি করুন (&C)"
 
 #: getbacktracewidget.cpp:60
 msgctxt "@info:tooltip"
-msgid ""
-"Use this button to copy the crash information (backtrace) to the clipboard."
+msgid "Use this button to copy the crash information (backtrace) to the clipboard."
 msgstr ""
 
 #: getbacktracewidget.cpp:67
@@ -1003,7 +991,7 @@ msgstr ""
 #: getbacktracewidget.cpp:88
 msgctxt "@info:status"
 msgid "Loading crash information... (this may take some time)"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত তথ্য লোড করা হচ্ছে... (এই কাজে কিছু সময় ব্যয় হতে পারে)"
 
 #: getbacktracewidget.cpp:132
 msgctxt "@info"
@@ -1015,7 +1003,7 @@ msgstr ""
 #: getbacktracewidget.cpp:136
 msgctxt "@info:status"
 msgid "The crash information could not be fetched."
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত তথ্য প্রাপ্ত করা সম্ভব হয়নি।"
 
 #: getbacktracewidget.cpp:138
 msgctxt "@info/rich"
@@ -1028,22 +1016,22 @@ msgstr ""
 #: getbacktracewidget.cpp:159
 msgctxt "@info"
 msgid "This crash information is useful"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত এই তথ্য অত্যন্ত সহায়ক"
 
 #: getbacktracewidget.cpp:162
 msgctxt "@info"
 msgid "This crash information may be useful"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত এই তথ্য কিছুমাত্রা সহায়ক হতে পারে"
 
 #: getbacktracewidget.cpp:165
 msgctxt "@info"
 msgid "This crash information is probably not useful"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত এই তথ্য সম্ভবত সহায়ক নয়"
 
 #: getbacktracewidget.cpp:168
 msgctxt "@info"
 msgid "This crash information is not useful"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত এই তথ্য সহায়ক নয়"
 
 #: getbacktracewidget.cpp:172
 msgctxt "@info"
@@ -1064,12 +1052,12 @@ msgstr ""
 #: getbacktracewidget.cpp:192
 msgctxt "@info:status"
 msgid "The debugger has quit unexpectedly."
-msgstr ""
+msgstr "অপ্রত্যাশিতভাবে ডিবাগার প্রোগ্রাম প্রস্থান করা হয়েছে।"
 
 #: getbacktracewidget.cpp:195 getbacktracewidget.cpp:208
 msgctxt "@info:status"
 msgid "The crash information could not be generated."
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত তথ্য উৎপন্ন করা যায়নি।"
 
 #: getbacktracewidget.cpp:198
 msgctxt "@info/rich"
@@ -1081,7 +1069,7 @@ msgstr ""
 #: getbacktracewidget.cpp:204
 msgctxt "@info:status"
 msgid "The debugger application is missing or could not be launched."
-msgstr ""
+msgstr "ডিবাগার অ্যাপ্লিকেশন সম্ভবত অনুপস্থিত অথবা আরম্ভ করা যায়নি।"
 
 #: getbacktracewidget.cpp:210
 #, kde-format
@@ -1092,7 +1080,6 @@ msgid ""
 msgstr ""
 
 #: krashconf.cpp:74
-#, fuzzy
 #| msgctxt "unknown application"
 #| msgid "unknown"
 msgctxt "@info unknown application"
@@ -1100,21 +1087,21 @@ msgid "unknown"
 msgstr "অজানা"
 
 #: krashconf.cpp:153
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<application>%1</application>"
 msgctxt "@info/rich"
 msgid "<application>%1</application>"
 msgstr "<application>%1</application>"
 
 #: krashconf.cpp:157 krashconf.cpp:164
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<command>%1</command>"
 msgctxt "@info/rich"
 msgid "<command>%1</command>"
 msgstr "<command>%1</command>"
 
 #: krashconf.cpp:170
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<filename>%1</filename>"
 msgctxt "@info/rich"
 msgid "<filename>%1</filename>"
@@ -1130,10 +1117,9 @@ msgstr "The KDE Crash Handler"
 
 #: main.cpp:60
 msgid "(C) 2000-2009, The DrKonqi Authors"
-msgstr ""
+msgstr "(C) ২০০০-২০০৯, DrKonqi-র নির্মাতাবৃন্দ"
 
 #: main.cpp:61
-#, fuzzy
 #| msgid "Hans Petter Bieker"
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
@@ -1142,83 +1128,73 @@ msgstr "হান্স পেটার বিইকার"
 #: main.cpp:63
 msgctxt "@info:credit"
 msgid "Dario Andres Rodriguez"
-msgstr ""
+msgstr "ডারিও আন্দ্রেস রডরিগেস"
 
 #: main.cpp:65
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
-msgstr ""
+msgstr "জর্জ কিয়াগিয়াডাকিস"
 
 #: main.cpp:67
 msgctxt "@info:credit"
 msgid "A. L. Spehr"
-msgstr ""
+msgstr "এ. এল. স্পেহর"
 
 #: main.cpp:74
-#, fuzzy
 #| msgid "The signal number that was caught"
 msgctxt "@info:shell"
 msgid "The signal number that was caught"
 msgstr "প্রাপ্ত সিগন্যাল সংখ্যা"
 
 #: main.cpp:75
-#, fuzzy
 #| msgid "Name of the program"
 msgctxt "@info:shell"
 msgid "Name of the program"
 msgstr "প্রোগ্রামের নাম"
 
 #: main.cpp:76
-#, fuzzy
 #| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "Path to the executable"
 msgstr "এক্সেকিউটেবলের পাথ"
 
 #: main.cpp:77
-#, fuzzy
 #| msgid "The version of the program"
 msgctxt "@info:shell"
 msgid "The version of the program"
 msgstr "প্রোগ্রামের সংস্করণ"
 
 #: main.cpp:78
-#, fuzzy
 #| msgid "The bug address to use"
 msgctxt "@info:shell"
 msgid "The bug address to use"
 msgstr "ব্যবহারযোগ্য বাগ ঠিকানা"
 
 #: main.cpp:79
-#, fuzzy
 #| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated name of the program"
 msgstr "প্রোগ্রামের অনুবাদিত নাম"
 
 #: main.cpp:80
-#, fuzzy
 #| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "The PID of the program"
 msgstr "প্রোগ্রামের PID"
 
 #: main.cpp:81
-#, fuzzy
 #| msgid "Startup ID of the program"
 msgctxt "@info:shell"
 msgid "Startup ID of the program"
 msgstr "প্রোগ্রামের প্রারম্ভিক ID"
 
 #: main.cpp:82
-#, fuzzy
 #| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "kdeinit দ্বারা এই প্রোগ্রাম আরম্ভ করা হয়েছে"
 
 #: main.cpp:83
-#, fuzzy
 #| msgid "Disable arbitrary disk access"
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
@@ -1250,7 +1226,7 @@ msgstr ""
 #: rc.cpp:8
 msgctxt "@option:check"
 msgid "Yes, I can give information about the crash."
-msgstr ""
+msgstr "হ্যাঁ, বিপর্যয় সংক্রান্ত তথ্য উপলব্ধ করা সম্ভব।"
 
 #. i18n: file: ui/assistantpage_bugawareness.ui:50
 #. i18n: ectx: property (text), widget (QLabel, m_developersCanContactReporterLabel)
@@ -1264,7 +1240,7 @@ msgstr ""
 #: rc.cpp:14
 msgctxt "@option:check"
 msgid "Yes, developers can contact me."
-msgstr ""
+msgstr "হ্যাঁ, ডিভেলপররা আমার সাথে যোগাযোগ করতে পারবেন।"
 
 #. i18n: file: ui/assistantpage_bugzilla_duplicates_dialog.ui:41
 #. i18n: ectx: property (text), widget (QLabel, m_backtraceTitleLabel)
@@ -1288,35 +1264,35 @@ msgstr ""
 #: rc.cpp:23
 msgctxt "@title:column"
 msgid "Bug ID"
-msgstr ""
+msgstr "বাগ ID"
 
 #. i18n: file: ui/assistantpage_bugzilla_duplicates.ui:45
 #. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
 #: rc.cpp:26
 msgctxt "@title:column"
 msgid "Description"
-msgstr ""
+msgstr "বিবরণ"
 
 #. i18n: file: ui/assistantpage_bugzilla_information.ui:17
 #. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
 #: rc.cpp:29
 msgctxt "@info/rich"
 msgid "Complete the bug report fields: <nl /><note>Use English.</note>"
-msgstr ""
+msgstr "বাগ রিপোর্টের ক্ষেত্রে মান পূরণ করুন: <nl /><note>ইংরাজি ব্যবহার করুন।</note>"
 
 #. i18n: file: ui/assistantpage_bugzilla_information.ui:27
 #. i18n: ectx: property (text), widget (QLabel, m_titleLabel)
 #: rc.cpp:32
 msgctxt "@label:textbox"
 msgid "Title of the bug report"
-msgstr ""
+msgstr "বাগ রিপোর্টের শিরোনাম"
 
 #. i18n: file: ui/assistantpage_bugzilla_information.ui:37
 #. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
 #: rc.cpp:35
 msgctxt "@label:textbox"
 msgid "Details about the crash"
-msgstr ""
+msgstr "বিপর্যয় সংক্রান্ত বিবরণ"
 
 #. i18n: file: ui/assistantpage_bugzilla_information.ui:60
 #. i18n: ectx: property (text), widget (QLabel, m_crashInfoLabel)
@@ -1325,7 +1301,7 @@ msgctxt "@info/rich"
 msgid ""
 "<note>The crash and system information will be automatically added to the "
 "bug report.</note>"
-msgstr ""
+msgstr "<note>বিপর্যয় ও সিস্টেম সংক্রান্ত তথ্যগুলি স্বয়ংক্রিয়ভাবে বাগ রিপোর্টের মধ্যে সংযোজন করা হবে।</note>"
 
 #. i18n: file: ui/assistantpage_bugzilla_keywords.ui:17
 #. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
@@ -1344,41 +1320,41 @@ msgstr ""
 #: rc.cpp:44
 msgctxt "@label:textbox bugzilla account username"
 msgid "Username:"
-msgstr ""
+msgstr "ব্যবহারকারীর নাম:"
 
 #. i18n: file: ui/assistantpage_bugzilla_login.ui:29
 #. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
 #: rc.cpp:47
 msgctxt "@label:textbox bugzilla account password"
 msgid "Password:"
-msgstr ""
+msgstr "পাসওয়ার্ড:"
 
 #. i18n: file: ui/assistantpage_bugzilla_login.ui:48
 #. i18n: ectx: property (text), widget (QCheckBox, m_savePasswordCheckBox)
 #: rc.cpp:50
 msgctxt "@option:check"
 msgid "Save login information using the KDE Wallet system"
-msgstr ""
+msgstr "KDE Wallet সিস্টেম ব্যবহার করে লগ-ইন সংক্রান্ত তথ্য সংরক্ষণ করুন"
 
 #. i18n: file: ui/assistantpage_bugzilla_send.ui:75
 #. i18n: ectx: property (text), widget (QCheckBox, m_launchPageOnFinish)
 #: rc.cpp:53
 msgctxt "@option:check"
 msgid "Open the bug report page when clicking the Finish button"
-msgstr ""
+msgstr "সমাপ্তির বাটন ক্লিক করা হলে বাগ রিপোর্টের পৃষ্ঠা প্রদর্শন করা হবে"
 
 #. i18n: file: ui/assistantpage_bugzilla_send.ui:98
 #. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
 #: rc.cpp:56
 msgctxt "@option:check"
 msgid "Restart the application when clicking the Finish button"
-msgstr ""
+msgstr "সমাপ্তির বাটন ক্লিক করা হলে অ্যাপ্লিকেশন পুনরারম্ভ করা হবে"
 
 #. i18n: file: ui/assistantpage_conclusions.ui:70
 #. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
 #: rc.cpp:59
 msgid "Restart the application when clicking the Finish button"
-msgstr ""
+msgstr "সমাপ্তির বাটন ক্লিক করা হলে অ্যাপ্লিকেশন পুনরারম্ভ করা হবে"
 
 #. i18n: file: ui/assistantpage_introduction.ui:17
 #. i18n: ectx: property (text), widget (QLabel, m_introductionLabel)
@@ -1399,75 +1375,3 @@ msgid ""
 "crashed.</placeholder>"
 msgstr ""
 
-#~ msgid "Could not generate a backtrace as the debugger '%1' was not found."
-#~ msgstr "'%1' ডিবাগার পাওয়া না যাওয়ার ফলে, ব্যাক-ট্রেস উৎপন্ন করা যায়নি।"
-
-#~ msgid "Application: %progname (%execname), signal %signame"
-#~ msgstr "অ্যাপ্লিকেশন: %progname (%execname), signal %signame"
-
-#~ msgctxt "debugging finished"
-#~ msgid "Backtrace loaded."
-#~ msgstr "ব্যাক-ট্রেস লোড করা হয়েছে।"
-
-#~ msgid ""
-#~ "A file named <filename>%1</filename> already exists. Are you sure you "
-#~ "want to overwrite it?"
-#~ msgstr ""
-#~ "<filename>%1</filename> নামক একটি ফাইল বর্তমানে উপস্থিত রয়েছে। আপনি কি "
-#~ "নিশ্চিতরূপে এটি নতুন করে লিখতে ইচ্ছুক?"
-
-#~ msgid "Overwrite File?"
-#~ msgstr "ফাইল নতুন করে লেখা হবে কি?"
-
-#~ msgid "&Overwrite"
-#~ msgstr "নতুন করে লেখা হবে (&O)"
-
-#~ msgid "Unable to create a valid backtrace."
-#~ msgstr "বৈধ ব্যাক-ট্রেস নির্মাণ করা যায়নি।"
-
-#~ msgid "Loading backtrace..."
-#~ msgstr "ব্যাক-ট্রেস লোড করা হচ্ছে..."
-
-#~ msgid ""
-#~ "The following options are enabled:\n"
-#~ "\n"
-#~ msgstr ""
-#~ "নিম্নলিখিত বিকল্পগুলি সক্রিয় করা হয়েছে:\n"
-#~ "\n"
-
-#~ msgid "Backtrace will not be created."
-#~ msgstr "ব্যাক-ট্রেস নির্মাণ করা হবে না।"
-
-#~ msgid "System configuration startup check disabled.\n"
-#~ msgstr "সিস্টেম কনফিগারেশনের প্রারম্ভিক পরীক্ষণ নিষ্ক্রিয় করা হয়েছে।\n"
-
-#~ msgid "You have to edit the description before the report can be sent."
-#~ msgstr "রিপোর্ট পাঠানোর পূর্বে, বিবরণ পরিবর্তন করা আবশ্যক।"
-
-#~ msgid "(C) 2000-2003, Hans Petter Bieker"
-#~ msgstr "(C) ২০০০-২০০৩, হান্স পেটার বিইকার"
-
-#~ msgid "A Fatal Error Occurred"
-#~ msgstr "গুরুতর ত্রুটি উৎপন্ন হয়েছে"
-
-#~ msgid ""
-#~ "<p style=\"margin-bottom: 6px;\"><b>Application crashed</b></p><p>The "
-#~ "program %appname crashed.</p>"
-#~ msgstr ""
-#~ "<p style=\"margin-bottom: 6px;\"><b>অ্যাপ্লিকেশন বিপর্যস্ত হয়েছে</b></p><p>%"
-#~ "appname নামক প্রোগ্রামটি বিপর্যস্ত হয়েছে।</p>"
-
-#~ msgid "Include Backtrace"
-#~ msgstr "ব্যাক-ট্রেস অন্তর্ভুক্ত করুন"
-
-#~ msgid "Do Not Generate"
-#~ msgstr "উৎপন্ন করা হবে না"
-
-#~ msgid "It was not possible to generate a backtrace."
-#~ msgstr "ব্যাক-ট্রেস উৎপন্ন করা সম্ভব হয়নি।"
-
-#~ msgid "Backtrace Not Possible"
-#~ msgstr "ব্যাক-ট্রেস করা সম্ভব নয়"
-
-#~ msgid "Please attach the following information to your bug report:"
-#~ msgstr "অনুগ্রহ করে, আপনার বাগ রিপোর্টের সাথে নিম্নলিখিত তথ্য যুক্ত করুন:"
