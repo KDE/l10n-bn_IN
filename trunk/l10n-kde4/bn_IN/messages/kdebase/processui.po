@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-15 11:12+0200\n"
+"POT-Creation-Date: 2009-07-05 11:40+0200\n"
 "PO-Revision-Date: 2008-10-22 19:48+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -67,69 +67,69 @@ msgid ""
 msgstr ""
 "<br/><i><font color=\"gray\">%1 প্রসেসের সাথে যুক্ত করা যায়নি</font></i><br/>"
 
-#: ksysguardprocesslist.cpp:152 ksysguardprocesslist.cpp:354
+#: ksysguardprocesslist.cpp:153 ksysguardprocesslist.cpp:354
 msgid "Renice Process..."
 msgid_plural "Renice Processes..."
 msgstr[0] "Renice প্রসেস..."
 msgstr[1] "Renice প্রসেস..."
 
-#: ksysguardprocesslist.cpp:153 ksysguardprocesslist.cpp:428
+#: ksysguardprocesslist.cpp:154 ksysguardprocesslist.cpp:428
 msgid "Jump to Parent Process"
 msgstr "ঊর্ধ্বতন প্রসেসে এগিয়ে চলুন"
 
-#: ksysguardprocesslist.cpp:155
+#: ksysguardprocesslist.cpp:156
 msgid "Jump to Process Debugging This One"
 msgstr "এটি ডিবাগ করে প্রসেসে এগিয়ে চলুন"
 
-#: ksysguardprocesslist.cpp:156
+#: ksysguardprocesslist.cpp:157
 msgid "Show Application Window"
 msgstr "অ্যাপ্লিকেশন উইন্ডো প্রদর্শিত হবে"
 
-#: ksysguardprocesslist.cpp:158
+#: ksysguardprocesslist.cpp:159
 #, fuzzy
 #| msgid "Monitor input and output"
 msgid "Monitor Input && Output"
 msgstr "ইনপুট ও আউটপুট নিরীক্ষণ করা হবে"
 
-#: ksysguardprocesslist.cpp:162
+#: ksysguardprocesslist.cpp:163
 msgid "Resume Stopped Process"
 msgstr "স্থগিত প্রসেস পুনরায় আরম্ভ করা হবে"
 
-#: ksysguardprocesslist.cpp:163 ksysguardprocesslist.cpp:355
+#: ksysguardprocesslist.cpp:164 ksysguardprocesslist.cpp:355
 msgid "Kill Process"
 msgid_plural "Kill Processes"
 msgstr[0] "প্রসেস kill করা হবে"
 msgstr[1] "প্রসেস kill করা হবে"
 
-#: ksysguardprocesslist.cpp:166
+#: ksysguardprocesslist.cpp:167
 msgid "Suspend (STOP)"
 msgstr "Suspend (STOP)"
 
-#: ksysguardprocesslist.cpp:167
+#: ksysguardprocesslist.cpp:168
 msgid "Continue (CONT)"
 msgstr "Continue (CONT)"
 
-#: ksysguardprocesslist.cpp:168
+#: ksysguardprocesslist.cpp:169
 msgid "Hangup (HUP)"
 msgstr "Hangup (HUP)"
 
-#: ksysguardprocesslist.cpp:169
+#: ksysguardprocesslist.cpp:170
 msgid "Interrupt (INT)"
 msgstr "Interrupt (INT)"
 
-#: ksysguardprocesslist.cpp:170
+#: ksysguardprocesslist.cpp:171
 msgid "Terminate (TERM)"
 msgstr "Terminate (TERM)"
 
-#: ksysguardprocesslist.cpp:171
+#: ksysguardprocesslist.cpp:172
 msgid "Kill (KILL)"
 msgstr "Kill (KILL)"
 
-#: ksysguardprocesslist.cpp:172
+#: ksysguardprocesslist.cpp:173
 msgid "User 1 (USR1)"
 msgstr "ইউসার ১ (USR1)"
 
-#: ksysguardprocesslist.cpp:173
+#: ksysguardprocesslist.cpp:174
 msgid "User 2 (USR2)"
 msgstr "ইউসার ২ (USR2)"
 
@@ -184,17 +184,17 @@ msgstr ""
 msgid "Show Tooltips"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:815 ksysguardprocesslist.cpp:1089
+#: ksysguardprocesslist.cpp:822 ksysguardprocesslist.cpp:1096
 msgid "You must select a process first."
 msgstr "প্রথমে একটি প্রসেস নির্বাচন করুন।"
 
-#: ksysguardprocesslist.cpp:892
+#: ksysguardprocesslist.cpp:899
 msgid ""
 "You do not have sufficient privileges to change the CPU scheduler. Aborting."
 msgstr ""
 "CPU সিডিউলার পরিবর্তন করার জন্য পর্যাপ্ত অধিকার আপনার নেই। কর্ম পরিত্যাগ করা হচ্ছে।"
 
-#: ksysguardprocesslist.cpp:900
+#: ksysguardprocesslist.cpp:907
 #, fuzzy
 #| msgid ""
 #| "You do not have sufficient privileges to change the CPU priority. Aborting"
@@ -204,7 +204,7 @@ msgstr ""
 "CPU-র গুরুত্বের মাপ পরিবর্তন করার জন্য পর্যাপ্ত অধিকার আপনার নেই। কর্ম পরিত্যাগ করা "
 "হচ্ছে।"
 
-#: ksysguardprocesslist.cpp:906
+#: ksysguardprocesslist.cpp:913
 #, fuzzy
 #| msgid ""
 #| "You do not have sufficient privileges to change the IO scheduler and "
@@ -216,21 +216,21 @@ msgstr ""
 "ইনপুট/আউপুট সিডিউলার ও গুরত্বের মাপ পরবর্তন করার জন্য পর্যাপ্ত অধিকার আপনার নেই। কর্ম "
 "পরিত্যাগ করা হচ্ছে।"
 
-#: ksysguardprocesslist.cpp:998
+#: ksysguardprocesslist.cpp:1005
 msgid "No."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1004
+#: ksysguardprocesslist.cpp:1011
 msgid "Could not find kdesu executable."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1009
+#: ksysguardprocesslist.cpp:1016
 msgid ""
 "Could not find setscheduler executable.  This should have been installed "
 "alongside system monitor."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1095
+#: ksysguardprocesslist.cpp:1102
 #, fuzzy, kde-format
 #| msgid "Do you want to kill the selected process?"
 #| msgid_plural "Do you want to kill the %1 selected processes?"
@@ -239,7 +239,7 @@ msgid_plural "Are you sure you want to kill these %1 processes?"
 msgstr[0] "আপনি কি নির্বাচিত প্রসেসটি kill করতে ইচ্ছুক?"
 msgstr[1] "আপনি কি %1-টি নির্বাচিত প্রসেসগুলি kill করতে ইচ্ছুক?"
 
-#: ksysguardprocesslist.cpp:1100
+#: ksysguardprocesslist.cpp:1107
 #, fuzzy, kde-format
 #| msgid "Kill Process"
 #| msgid_plural "Kill Processes"
@@ -248,11 +248,11 @@ msgid_plural "Kill %1 processes"
 msgstr[0] "প্রসেস kill করা হবে"
 msgstr[1] "প্রসেস kill করা হবে"
 
-#: ksysguardprocesslist.cpp:1101
+#: ksysguardprocesslist.cpp:1108
 msgid "Kill"
 msgstr "Kill করুন"
 
-#: ksysguardprocesslist.cpp:1121
+#: ksysguardprocesslist.cpp:1128
 #, fuzzy
 #| msgid ""
 #| "You do not have the permission to renice the process and there was a "
@@ -264,7 +264,7 @@ msgstr ""
 "প্রসেসটি renice করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1126
+#: ksysguardprocesslist.cpp:1133
 #, fuzzy
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -276,7 +276,7 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1131
+#: ksysguardprocesslist.cpp:1138
 #, fuzzy
 #| msgid ""
 #| "You do not have the permission to set the I/O priority and there was a "
@@ -1457,22 +1457,22 @@ msgctxt "process heading"
 msgid "Window Title"
 msgstr "উইন্ডোর শিরোনাম"
 
-#: ProcessModel.cc:1316
+#: ProcessModel.cc:1318
 #, kde-format
 msgid "%1 K"
 msgstr "%1 K"
 
-#: ProcessModel.cc:1317
+#: ProcessModel.cc:1319
 #, kde-format
 msgid "%1 M"
 msgstr "%1 M"
 
-#: ProcessModel.cc:1318
+#: ProcessModel.cc:1320
 #, kde-format
 msgid "%1 G"
 msgstr "%1 G"
 
-#: ProcessModel.cc:1319
+#: ProcessModel.cc:1321
 #, kde-format
 msgid "%1%"
 msgstr ""
