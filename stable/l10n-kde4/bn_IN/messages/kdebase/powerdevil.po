@@ -2,15 +2,15 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Runa Bhattacharjee <runab@redhat.com>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-05-19 11:25+0200\n"
-"PO-Revision-Date: 2008-12-30 15:12+0530\n"
+"PO-Revision-Date: 2009-07-06 15:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -60,7 +60,6 @@ msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
 #: daemon/PowerDevilDaemon.cpp:291
-#, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
 #| "Please check your system configuration"
@@ -72,43 +71,36 @@ msgstr ""
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
 #: daemon/PowerDevilDaemon.cpp:416
-#, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
 "The power adaptor has been plugged in. Any pending suspend actions have been "
 "canceled."
-msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
+msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে। অপেক্ষারত কোনো স্থগিতকরণ কর্ম বাতিল করা হয়েছে।"
 
 #: daemon/PowerDevilDaemon.cpp:419
-#, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
-msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
+msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে।"
 
 #: daemon/PowerDevilDaemon.cpp:425
-#, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
-msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
+msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে।"
 
 #: daemon/PowerDevilDaemon.cpp:582
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
 #| "seconds. Click here to block the process."
-msgid ""
-"Your battery level is critical, the computer will be halted in 1 second."
-msgid_plural ""
-"Your battery level is critical, the computer will be halted in %1 seconds."
+msgid "Your battery level is critical, the computer will be halted in 1 second."
+msgid_plural "Your battery level is critical, the computer will be halted in %1 seconds."
 msgstr[0] ""
-"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
-"করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
-msgstr[1] ""
-"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
-"করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, ১ সেকেন্ডের মধ্যে কম্পিউটার হল্ট"
+"করা হবে।"
+msgstr[1] "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার হল্ট করা হবে।"
 
 #: daemon/PowerDevilDaemon.cpp:593
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to disk "
 #| "in %1 seconds. Click here to block the process."
@@ -119,14 +111,14 @@ msgid_plural ""
 "Your battery level is critical, the computer will be suspended to disk in %1 "
 "seconds."
 msgstr[0] ""
-"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি "
-"ডিস্কে বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, ১ সেকেন্ডের মধ্যে কম্পিউটারটি "
+"ডিস্কে বিরত করা হবে।"
 msgstr[1] ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি "
-"ডিস্কে বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+"ডিস্কে বিরত করা হবে। "
 
 #: daemon/PowerDevilDaemon.cpp:604
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
 #| "in %1 seconds. Click here to block the process"
@@ -137,14 +129,14 @@ msgid_plural ""
 "Your battery level is critical, the computer will be suspended to RAM in %1 "
 "seconds."
 msgstr[0] ""
-"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
-"এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, ১ সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
+"এ বিরত করা হবে।"
 msgstr[1] ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
-"এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+"এ বিরত করা হবে।"
 
 #: daemon/PowerDevilDaemon.cpp:615
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC is going Standby in %1 "
 #| "seconds. Click here to block the process."
@@ -155,86 +147,68 @@ msgid_plural ""
 "Your battery level is critical, the computer will be put into standby in %1 "
 "seconds."
 msgstr[0] ""
-"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি "
-"স্থগিত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+"ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে ১ সেকেন্ডের মধ্যে কম্পিউটারটি "
+"স্থগিত করা হবে।"
 msgstr[1] ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি "
-"স্থগিত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+"স্থগিত করা হবে।"
 
 #: daemon/PowerDevilDaemon.cpp:624
-#, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
 #| "possible!"
 msgid "Your battery level is critical: save your work as soon as possible."
-msgstr ""
-"ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
+msgstr "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন।"
 
 #: daemon/PowerDevilDaemon.cpp:628
-#, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
-msgstr "ব্যাটারির ক্ষমতা সতর্কতামূলক পর্যায় উপস্থিত হয়েছে"
+msgstr "ব্যাটারির ক্ষমতা সতর্কতামূলক পর্যায় উপস্থিত হয়েছে।"
 
 #: daemon/PowerDevilDaemon.cpp:631
-#, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
-msgstr "ব্যাটারির ক্ষমতা অত্যন্ত কম"
+msgstr "ব্যাটারির ক্ষমতা অত্যন্ত কম।"
 
 #: daemon/PowerDevilDaemon.cpp:761
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The computer will be halted in %1 seconds. Click here to block the "
 #| "process."
 msgid "The computer will be halted in 1 second."
 msgid_plural "The computer will be halted in %1 seconds."
-msgstr[0] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
-msgstr[1] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
+msgstr[0] "১ সেকেন্ডের মধ্যে কম্পিউটার বন্ধ করা হবে।"
+msgstr[1] "%1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ করা হবে।"
 
 #: daemon/PowerDevilDaemon.cpp:781
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The computer will be suspended to disk in %1 seconds. Click here to block "
 #| "the process."
 msgid "The computer will be suspended to disk in 1 second."
 msgid_plural "The computer will be suspended to disk in %1 seconds."
-msgstr[0] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটারটি ডিস্কে বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে "
-"ক্লিক করুন।"
-msgstr[1] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটারটি ডিস্কে বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে "
-"ক্লিক করুন।"
+msgstr[0] "১ সেকেন্ডের মধ্যে কম্পিউটারটি ডিস্কে বিরত করা হবে।"
+msgstr[1] "%1 সেকেন্ডের মধ্যে কম্পিউটারটি ডিস্কে বিরত করা হবে।"
 
 #: daemon/PowerDevilDaemon.cpp:801
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The computer will be suspended to RAM in %1 seconds. Click here to block "
 #| "the process."
 msgid "The computer will be suspended to RAM in 1 second."
 msgid_plural "The computer will be suspended to RAM in %1 seconds."
-msgstr[0] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে "
-"ক্লিক করুন।"
-msgstr[1] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে "
-"ক্লিক করুন।"
+msgstr[0] "১ সেকেন্ডের মধ্যে কম্পিউটারটি RAM-এ বিরত করা হবে।"
+msgstr[1] "%1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-এ বিরত করা হবে।"
 
 #: daemon/PowerDevilDaemon.cpp:821
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The computer will be put into standby in %1 seconds. Click here to block "
 #| "the process."
 msgid "The computer will be put into standby in 1 second."
 msgid_plural "The computer will be put into standby in %1 seconds."
-msgstr[0] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটারটি স্থগিত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক "
-"করুন।"
-msgstr[1] ""
-"%1 সেকেন্ডের মধ্যে কম্পিউটারটি স্থগিত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক "
-"করুন।"
+msgstr[0] "১ সেকেন্ডের মধ্যে কম্পিউটারটি স্থগিত করা হবে।"
+msgstr[1] "%1 সেকেন্ডের মধ্যে কম্পিউটারটি স্থগিত করা হবে।"
 
 #: daemon/PowerDevilDaemon.cpp:926
 msgid "There was an error while suspending:"
@@ -246,14 +220,13 @@ msgstr "পর্দা লক করা হচ্ছে"
 
 #: daemon/PowerDevilDaemon.cpp:1126 daemon/PowerDevilDaemon.cpp:1154
 #: daemon/PowerDevilDaemon.cpp:1182
-#, fuzzy
 #| msgid "Actions"
 msgctxt "Interrupts the suspension/shutdown process"
 msgid "Abort Action"
-msgstr "কর্ম"
+msgstr "কর্ম পরিত্যাগ করুন"
 
 #: daemon/PowerDevilDaemon.cpp:1229
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
 #| "Please check your PowerDevil configuration."
@@ -261,7 +234,7 @@ msgid ""
 "The profile \"%1\" has been selected, but it does not exist.\n"
 "Please check your PowerDevil configuration."
 msgstr ""
-"অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে!\n"
+"অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে, কিন্তু এটি উপস্থিত নেই!\n"
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
 #: daemon/PowerDevilDaemon.cpp:1310
@@ -424,10 +397,9 @@ msgid ""
 msgstr ""
 
 #: kcmodule/CapabilitiesPage.cpp:309
-#, fuzzy
 #| msgid "Attempt loading Modules"
 msgid "Attempt to load modules"
-msgstr "মডিউল লোড করার প্রচেষ্টা করুন"
+msgstr "মডিউল লোড করার প্রচেষ্টা"
 
 #: kcmodule/CapabilitiesPage.cpp:310
 msgid "Do not display this warning again"
@@ -476,7 +448,6 @@ msgstr "মডিউল পাওয়া যায়নি"
 
 #: kcmodule/EditPage.cpp:100 kcmodule/EditPage.cpp:104
 #: kcmodule/EditPage.cpp:108 kcmodule/EditPage.cpp:113
-#, fuzzy
 #| msgid "Do nothing"
 msgid "Do Nothing"
 msgstr "কিছু করা হবে না"
@@ -489,10 +460,9 @@ msgstr "পর্দা লক করুন"
 #: kcmodule/EditPage.cpp:103 kcmodule/EditPage.cpp:107
 #: kcmodule/EditPage.cpp:111 kcmodule/EditPage.cpp:116
 msgid "Turn Off Screen"
-msgstr ""
+msgstr "পর্দা বন্ধ করুন"
 
 #: kcmodule/EditPage.cpp:112 kcmodule/EditPage.cpp:117
-#, fuzzy
 #| msgid "Prompt Log out dialog"
 msgid "Prompt Log Out dialog"
 msgstr "লগ-আউট ডায়লগ প্রদর্শন করা হবে"
@@ -517,10 +487,9 @@ msgid "Learn more about the Energy Star program"
 msgstr "Energy Star প্রোগ্রাম সম্পর্কে অধিক বিবরণ প্রাপ্ত করুন"
 
 #: kcmodule/EditPage.cpp:500
-#, fuzzy
 #| msgid "Please enter a name for the new profile"
 msgid "Please enter a name for the new profile:"
-msgstr "অনুগ্রহ করে নতুন প্রোফাইলের নাম লিখুন"
+msgstr "অনুগ্রহ করে নতুন প্রোফাইলের নাম লিখুন:"
 
 #: kcmodule/EditPage.cpp:502 kcmodule/EditPage.cpp:505
 #: kcmodule/EditPage.cpp:556 kcmodule/EditPage.cpp:559
@@ -533,19 +502,16 @@ msgid "Enter here the name for the profile you are creating"
 msgstr "নির্মাণযোগ্য প্রোফাইলের নাম এইখানে লিখুন"
 
 #: kcmodule/EditPage.cpp:554
-#, fuzzy
 #| msgid "Please enter a name for this profile"
 msgid "Please enter a name for this profile:"
-msgstr "অনুগ্রহ করে এই প্রোফাইলের নাম লিখুন"
+msgstr "অনুগ্রহ করে এই প্রোফাইলের নাম লিখুন:"
 
 #: kcmodule/EditPage.cpp:588
-#, fuzzy
 #| msgid "Import PowerDevil profiles"
 msgid "Import PowerDevil Profiles"
 msgstr "PowerDevil প্রোফাইল ইম্পোর্ট করুন"
 
 #: kcmodule/EditPage.cpp:613
-#, fuzzy
 #| msgid "Export PowerDevil profiles"
 msgid "Export PowerDevil Profiles"
 msgstr "PowerDevil প্রোফাইল এক্সপোর্ট করুন"
@@ -593,16 +559,15 @@ msgstr "কর্ম কনফিগার করুন"
 #. i18n: file: kcmodule/profileEditPage.ui:70
 #. i18n: ectx: property (text), widget (QCheckBox, disableCompositing)
 #: rc.cpp:14
-#, fuzzy
 #| msgid "Disable KWin compositing, if active"
 msgid "Disable desktop effects, if active"
-msgstr "KWin কম্পোসিটিং ব্যবস্থা সক্রিয় থাকলে তা নিষ্ক্রিয় করুন"
+msgstr "ডেস্কটপ ইফেক্ট সক্রিয় থাকলে তা নিষ্ক্রিয় করুন"
 
 #. i18n: file: kcmodule/profileEditPage.ui:77
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:17
 msgid "Activate automatic dimming"
-msgstr ""
+msgstr "স্বয়ংক্রিয়ভাবে উজ্জ্বলতা হ্রাস করার প্রক্রিয়া সক্রিয় করুন"
 
 #. i18n: file: kcmodule/profileEditPage.ui:83
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, dimDisplayOnIdle)
@@ -614,17 +579,16 @@ msgstr "সিস্টেমে কোনো কর্ম না হলে, স
 #. i18n: ectx: property (text), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:23
 msgid "Dim display when idle for more than"
-msgstr ""
+msgstr "চিহ্নিত সময়ের বেশি সময় কর্মবিহীন অবস্থায় থাকলে প্রদর্শনের উজ্জ্বলতা হ্রাস করা হবে"
 
 #. i18n: file: kcmodule/profileEditPage.ui:111
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, dimOnIdleTime)
 #: rc.cpp:26
-#, fuzzy
 #| msgctxt "Minutes"
 #| msgid "min"
 msgctxt "Minutes"
 msgid " min"
-msgstr "মিনিট"
+msgstr " মিনিট"
 
 #. i18n: file: kcmodule/profileEditPage.ui:127
 #. i18n: ectx: property (whatsThis), widget (QLabel, PoweredIdleLabel_2)
@@ -641,7 +605,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, PoweredIdleLabel_2)
 #: rc.cpp:32
 msgid "When the system is idle for more than"
-msgstr ""
+msgstr "চিহ্নিত সময়ের বেশি সময় সিস্টেমটি কর্মবিহীন অবস্থায় থাকলে"
 
 #. i18n: file: kcmodule/profileEditPage.ui:148
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, idleTime)
@@ -652,15 +616,13 @@ msgstr ""
 #. i18n: file: kcmodule/profileEditPage.ui:451
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSPowerOffTime)
 #: rc.cpp:35 rc.cpp:77 rc.cpp:83 rc.cpp:89
-#, fuzzy
 #| msgid "min"
 msgid " min"
-msgstr "মিনিট"
+msgstr " মিনিট"
 
 #. i18n: file: kcmodule/profileEditPage.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:41
-#, fuzzy
 #| msgid "When Laptop Lid Closed"
 msgid "When laptop lid closed"
 msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হলে"
@@ -669,12 +631,11 @@ msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হ�
 #. i18n: ectx: property (whatsThis), widget (KComboBox, laptopClosedCombo)
 #: rc.cpp:44
 msgid "This action will be performed when the laptop lid gets closed"
-msgstr ""
+msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হলে এই কর্ম সঞ্চালিত হবে"
 
 #. i18n: file: kcmodule/profileEditPage.ui:211
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:47
-#, fuzzy
 #| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বাটন টিপলে"
@@ -682,7 +643,6 @@ msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বা
 #. i18n: file: kcmodule/profileEditPage.ui:234
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:50
-#, fuzzy
 #| msgid "When Sleep Button pressed"
 msgid "When sleep button pressed"
 msgstr "নিদ্রার বাটন টিপলে"
@@ -697,7 +657,7 @@ msgstr "পর্দা"
 #. i18n: ectx: attribute (toolTip), widget (QWidget, page_3)
 #: rc.cpp:56
 msgid "Configure preferences for Screen Powersaving"
-msgstr ""
+msgstr "Screen Powersaving সংক্রান্ত পছন্দ কনফিগার করুন"
 
 #. i18n: file: kcmodule/profileEditPage.ui:288
 #. i18n: ectx: property (toolTip), widget (QLabel, PoweredBrightnessLabel_2)
@@ -710,10 +670,9 @@ msgstr ""
 #. i18n: file: kcmodule/profileEditPage.ui:291
 #. i18n: ectx: property (text), widget (QLabel, PoweredBrightnessLabel_2)
 #: rc.cpp:62
-#, fuzzy
 #| msgid "Brightness"
 msgid "Brightness:"
-msgstr "উজ্জ্বলতা"
+msgstr "উজ্জ্বলতা:"
 
 #. i18n: file: kcmodule/profileEditPage.ui:340
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSEnable)
@@ -735,19 +694,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSStandbyEnabled)
 #: rc.cpp:71
 msgid "&Standby after"
-msgstr ""
+msgstr "চিহ্নিত সময়ের পরে অপেক্ষারত অবস্থায় স্থাপন করা হবে (&S)"
 
 #. i18n: file: kcmodule/profileEditPage.ui:415
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSSuspendEnabled)
 #: rc.cpp:80
 msgid "S&uspend after"
-msgstr ""
+msgstr "চিহ্নিত সময়ের পরে স্থগিত করা হবে (&u)"
 
 #. i18n: file: kcmodule/profileEditPage.ui:438
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSPowerOffEnabled)
 #: rc.cpp:86
 msgid "&Power off after"
-msgstr ""
+msgstr "চিহ্নিত সময়ের পরে বিদ্যুৎ সরবরাহ বন্ধ করা হবে (&P)"
 
 #. i18n: file: kcmodule/profileEditPage.ui:485
 #. i18n: ectx: attribute (label), widget (QWidget, page_2)
@@ -787,15 +746,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: rc.cpp:110
 msgid "System powersaving scheme:"
-msgstr ""
+msgstr "সিস্টেমের বিদ্যুৎ সঞ্চয়ের স্কিম:"
 
 #. i18n: file: kcmodule/profileEditPage.ui:568
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:113
-#, fuzzy
 #| msgid "When Loading profile, execute"
 msgid "When loading profile execute:"
-msgstr "প্রোফাইল লোড করার সময় সঞ্চালন করা হবে"
+msgstr "প্রোফাইল লোড করার সময় সঞ্চালন করা হবে:"
 
 #. i18n: file: kcmodule/profileEditPage.ui:609
 #. i18n: ectx: property (text), widget (Line, line_5)
@@ -853,19 +811,19 @@ msgstr "বৈশিষ্ট্য ও প্রোফাইল"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, lockScreenOnResume)
 #: rc.cpp:144
 msgid "Locks screen when waking up from suspension"
-msgstr ""
+msgstr "স্থগিত অবস্থা থেকে পুনরায় জাগ্রত অবস্থায় স্থাপনকালে পর্দা লক করা হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:91
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, lockScreenOnResume)
 #: rc.cpp:147
 msgid "You will be asked for a password when resuming from sleep state"
-msgstr ""
+msgstr "নিদ্রিত অবস্থার পরে পুনরারম্ভের সময় পাসওয়ার্ড লেখঅর অনুরোধ জানানো হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:94
 #. i18n: ectx: property (text), widget (QCheckBox, lockScreenOnResume)
 #: rc.cpp:150
 msgid "Lock screen on resume"
-msgstr ""
+msgstr "পুনরারম্ভের সময় পর্দা লক করা হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:101
 #. i18n: ectx: property (text), widget (QCheckBox, enableDPMSBox)
@@ -914,10 +872,9 @@ msgstr "সতর্কতামূলক সূচনাব্যবস্থ�
 #. i18n: file: kcmodule/generalPage.ui:151
 #. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
 #: rc.cpp:174
-#, fuzzy
 #| msgid "Configure Notifications"
 msgid "Configure Notifications..."
-msgstr "সূচনাব্যবস্থা কনফিগার করুন"
+msgstr "সূচনাব্যবস্থা কনফিগার করুন..."
 
 #. i18n: file: kcmodule/generalPage.ui:173
 #. i18n: ectx: property (toolTip), widget (QCheckBox, suspendWait)
@@ -938,22 +895,20 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, suspendWait)
 #: rc.cpp:183
 msgid "Before doing a suspend action, wait"
-msgstr ""
+msgstr "স্থগিতকরণের কর্মের পূর্বে চিহ্নিত সময় অপেক্ষা করা হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:192
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, suspendWaitTime)
 #: rc.cpp:186
-#, fuzzy
 #| msgctxt "As in \"seconds\""
 #| msgid "sec"
 msgctxt "As in \"seconds\""
 msgid " sec"
-msgstr "সেকেন্ড"
+msgstr " সেকেন্ড"
 
 #. i18n: file: kcmodule/generalPage.ui:205
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: rc.cpp:189
-#, fuzzy
 #| msgid "Profiles assignment"
 msgid "Profile Assignment"
 msgstr "প্রোফাইল বরাদ্দকরণ"
@@ -967,7 +922,6 @@ msgstr "AC অ্যাডাপ্টার সংযুক্ত করা হ
 #. i18n: file: kcmodule/generalPage.ui:228
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:195
-#, fuzzy
 #| msgid "When on battery Power"
 msgid "When on battery power"
 msgstr "ব্যাটারি দ্বারা চালিত হলে"
@@ -982,7 +936,7 @@ msgstr "ব্যাটারির ক্ষমতা কম হলে"
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: rc.cpp:201
 msgid "When battery is at warning level"
-msgstr ""
+msgstr "ব্যাটারি সতর্কতামূলক অবস্থায় থাকলে"
 
 #. i18n: file: kcmodule/generalPage.ui:304
 #. i18n: ectx: attribute (label), widget (QWidget, page_2)
@@ -1000,7 +954,7 @@ msgstr "ব্যাটারির স্তর"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:210
 msgid "Battery is at low level at"
-msgstr ""
+msgstr "চিহ্নিত পরিমাণে ব্যাটারির মাত্রা কম মাত্রা ধার্য হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:332
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, lowSpin)
@@ -1012,7 +966,7 @@ msgstr "ব্যাটারের ক্ষমতা কম"
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, lowSpin)
 #: rc.cpp:216
 msgid "Battery will be considered low when it reaches this level"
-msgstr ""
+msgstr "চিহ্নিত পরিমাণে ব্যাটারির মাত্রা কম মাত্রা ধার্য হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:338
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, lowSpin)
@@ -1029,37 +983,37 @@ msgstr "%"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:223
 msgid "Battery is at warning level at"
-msgstr ""
+msgstr "চিহ্নিত পরিমাণে ব্যাটারির মাত্রা সতর্কতামূলক অবস্থায় ধার্য হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:361
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, warningSpin)
 #: rc.cpp:226
 msgid "Warning battery level"
-msgstr ""
+msgstr "ব্যাটারির সতর্কতামূলক মাত্রা"
 
 #. i18n: file: kcmodule/generalPage.ui:364
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, warningSpin)
 #: rc.cpp:229
 msgid "Battery will be considered at warning level when it reaches this level"
-msgstr ""
+msgstr "চিহ্নিত পরিমাণে ব্যাটারির মাত্রা সতর্কতামূলক অবস্থায় ধার্য হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:377
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:236
 msgid "Battery is at critical level at"
-msgstr ""
+msgstr "চিহ্নিত পরিমাণে ব্যাটারির মাত্রা গুরুতর অবস্থায় ধার্য হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:390
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:239
 msgid "Critical battery level"
-msgstr ""
+msgstr "ব্যাটারির গুরুতর মাত্রা"
 
 #. i18n: file: kcmodule/generalPage.ui:393
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:242
 msgid "Battery will be considered critical when it reaches this level"
-msgstr ""
+msgstr "চিহ্নিত পরিমাণে ব্যাটারির মাত্রা গুরুতর অবস্থায় ধার্য হবে"
 
 #. i18n: file: kcmodule/generalPage.ui:409
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -1082,7 +1036,6 @@ msgstr "সিস্টেমের ক্ষমতা"
 #. i18n: file: kcmodule/capabilitiesPage.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: rc.cpp:258
-#, fuzzy
 #| msgid "Number of CPU"
 msgid "Number of CPUs"
 msgstr "CPU সংখ্যা"
@@ -1121,7 +1074,7 @@ msgstr "CPU-র সমর্থিত নিয়ামনীতি"
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: rc.cpp:276
 msgid "Supported suspend methods"
-msgstr ""
+msgstr "স্থগিতকরণের সমর্থিত পদ্ধতি"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:159
 #. i18n: ectx: property (text), widget (QLabel, label_18)
@@ -1221,7 +1174,7 @@ msgstr "XTest সমর্থন"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #: rc.cpp:321
 msgid "Checks if ConsoleKit is active on your system"
-msgstr ""
+msgstr "সিস্টেমের মধ্যে ConsoleKit সক্রিয় কিনা পরীক্ষা করা হবে"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:280
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_6)
@@ -1236,7 +1189,5 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:327
 msgid "ConsoleKit Runtime Support"
-msgstr ""
+msgstr "ConsoleKit রান-টাইম সমর্থন"
 
-#~ msgid "Suspend to Ram"
-#~ msgstr "RAM-এ বিরত করুন"
