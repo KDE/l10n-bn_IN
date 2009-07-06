@@ -3,15 +3,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
-# Runa Bhattacharjee <runab@redhat.com>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-07-05 05:15+0000\n"
-"PO-Revision-Date: 2008-12-29 15:53+0530\n"
+"PO-Revision-Date: 2009-07-06 11:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -50,23 +50,20 @@ msgid "Columns"
 msgstr "কলাম"
 
 #: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:1
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
 msgctxt "Name"
 msgid "Dolphin General"
-msgstr "Dolphin প্রদর্শন"
+msgstr "Dolphin সাধারণ"
 
 #: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:50
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
 msgctxt "Comment"
 msgid "This service allows configuration of general Dolphin settings."
-msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
+msgstr "এই পরিসেবা দ্বারা Dolphin-র সাধারণ বৈশিষ্ট্যগুলি কনফিগার করা যাবে।"
 
 #: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:108
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "General"
 msgctxt "Name|Random file browsing settings."
@@ -74,52 +71,46 @@ msgid "General"
 msgstr "সাধারণ"
 
 #: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:150
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
 msgctxt "Comment"
 msgid "Configure general file manager settings"
-msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
+msgstr "ফাইল পরিচালন ব্যবস্থার সাধারণ বৈশিষ্ট্য কনফিগার করুন"
 
 #: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:1
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
 msgctxt "Name"
 msgid "Dolphin Navigation"
-msgstr "Dolphin প্রদর্শন"
+msgstr "Dolphin পরিদর্শন"
 
 #: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:50
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
 msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin navigation."
-msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
+msgstr "এই পরিসেবা দ্বারা Dolphin-র পরিদর্শন ব্যবস্থা কনফিগার করা যাবে।"
 
 #: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:107
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Navigation Panel"
 msgctxt "Name"
 msgid "Navigation"
-msgstr "পরিদর্শন করতে ব্যবহৃত প্যানেল"
+msgstr "পরিদর্শন"
 
 #: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:154
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
 msgctxt "Comment"
 msgid "Configure file manager navigation"
-msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
+msgstr "ফাইল পরিচালন পরিদর্শনের বৈশিষ্ট্য কনফিগার করুন"
 
 #: apps/dolphin/src/kcm/kcmdolphinservices.desktop:1
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
 msgctxt "Name"
 msgid "Dolphin Services"
-msgstr "Dolphin প্রদর্শন"
+msgstr "Dolphin পরিসেবা"
 
 #: apps/dolphin/src/kcm/kcmdolphinservices.desktop:59
 #: apps/konqueror/sidebar/trees/init/services.desktop:4
@@ -129,44 +120,39 @@ msgid "Services"
 msgstr "পরিসেবা"
 
 #: apps/dolphin/src/kcm/kcmdolphinservices.desktop:141
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
 msgctxt "Comment"
 msgid "Configure file manager services"
-msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
+msgstr "ফাইল পরিচালন পরিসেবার বৈশিষ্ট্য কনফিগার করুন"
 
 #: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:1
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
 msgctxt "Name"
 msgid "Dolphin View Modes"
-msgstr "Dolphin প্রদর্শন"
+msgstr "Dolphin প্রদর্শনের মোড"
 
 #: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:51
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
 msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin view modes."
-msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
+msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শনের মোড কনফিগার করা যাবে।"
 
 #: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:109
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Views"
 msgctxt "Name"
 msgid "View Modes"
-msgstr "প্রদর্শন ব্যবস্থা"
+msgstr "প্রদর্শনের মোড"
 
 #: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:159
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
 msgctxt "Comment"
 msgid "Configure file manager view modes"
-msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
+msgstr "ফাইল পরিচালন ব্যবস্থা প্রদর্শনের মোড কনফিগার করুন"
 
 #: apps/kappfinder/apps/Development/assistant.desktop:3
 msgctxt "Name"
@@ -338,8 +324,7 @@ msgstr "Alephone - No OpenGL"
 
 #: apps/kappfinder/apps/Games/Arcade/alephone.desktop:78
 msgctxt "Comment"
-msgid ""
-"An open source version of Marathon Infinity for SDL that has OpenGL disabled"
+msgid "An open source version of Marathon Infinity for SDL that has OpenGL disabled"
 msgstr "SDL-র Marathon Infinity-র ওপেন সোর্স সংস্করণ, Open GL নিষ্ক্রিয়"
 
 #: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:2
@@ -1823,12 +1808,11 @@ msgid "Project Manager"
 msgstr "প্রজেক্ট পরিচালনব্যবস্থা"
 
 #: apps/kappfinder/apps/Office/netscapeaddressbook.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Netscape Addressbook"
 msgctxt "Name"
 msgid "Netscape Address Book"
-msgstr "Netscape Addressbook"
+msgstr "Netscape ঠিকানা বই"
 
 #: apps/kappfinder/apps/Office/plan.desktop:2
 msgctxt "Name"
@@ -2572,20 +2556,18 @@ msgid "UserAgent Strings"
 msgstr "UserAgent-র পংক্তি"
 
 #: apps/konqueror/settings/kio/uasproviders/android10.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (Wget 1.5.3)"
 msgctxt "Name"
 msgid "UADescription (Android Phone 1.0)"
-msgstr "UADescription (Wget 1.5.3)"
+msgstr "UADescription (Android Phone 1.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/chrome10onwinnt51.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (Mozilla 1.7 on Windows XP)"
 msgctxt "Name"
 msgid "UADescription (Google Chrome 1.0 on Windows XP)"
-msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
+msgstr "UADescription (Windows XP-র মধ্যে Google Chrome 1.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/firefox20oncurrent.desktop:2
 msgctxt "Name"
@@ -2593,12 +2575,11 @@ msgid "UADescription (Firefox 2.0 on current)"
 msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/firefox30oncurrent.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (Firefox 2.0 on current)"
 msgctxt "Name"
 msgid "UADescription (Firefox 3.0 on current)"
-msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 3.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/googlebot.desktop:2
 msgctxt "Name"
@@ -2631,12 +2612,11 @@ msgid "UADescription (IE 6.0 on Win XP)"
 msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/ie70onwinnt51.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (IE 6.0 on Win XP)"
 msgctxt "Name"
 msgid "UADescription (IE 7.0 on Win XP)"
-msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
+msgstr "UADescription (Win XP-র মধ্যে IE 7.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/lynxoncurrent.desktop:2
 msgctxt "Name"
@@ -2684,12 +2664,11 @@ msgid "UADescription (Opera 9.00 on current)"
 msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
 
 #: apps/konqueror/settings/kio/uasproviders/op962oncurrent.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (Opera 9.00 on current)"
 msgctxt "Name"
 msgid "UADescription (Opera 9.62 on current)"
-msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.62)"
 
 #: apps/konqueror/settings/kio/uasproviders/safari20.desktop:2
 msgctxt "Name"
@@ -2697,20 +2676,18 @@ msgid "UADescription (Safari 2.0 on MacOS X)"
 msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/safari30oniphone.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (Safari 2.0 on MacOS X)"
 msgctxt "Name"
 msgid "UADescription (Safari 3.0 on iPhone)"
-msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
+msgstr "UADescription (iPhone-র মধ্যে Safari 3.0)"
 
 #: apps/konqueror/settings/kio/uasproviders/safari32.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (Safari 1.2 on MacOS X)"
 msgctxt "Name"
 msgid "UADescription (Safari 3.2 on MacOS X)"
-msgstr "UADescription (MacOS X-র মধ্যে Safari 1.2)"
+msgstr "UADescription (MacOS X-র মধ্যে Safari 3.2)"
 
 #: apps/konqueror/settings/kio/uasproviders/w3moncurrent.desktop:2
 msgctxt "Name"
@@ -2718,12 +2695,11 @@ msgid "UADescription (w3m 0.1.9)"
 msgstr "UADescription (w3m 0.1.9)"
 
 #: apps/konqueror/settings/kio/uasproviders/wgetoncurrent.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "UADescription (Wget 1.5.3)"
 msgctxt "Name"
 msgid "UADescription (Wget 1.11.4)"
-msgstr "UADescription (Wget 1.5.3)"
+msgstr "UADescription (Wget 1.11.4)"
 
 #: apps/konqueror/settings/kio/useragent.desktop:12
 msgctxt "Name"
@@ -2757,8 +2733,7 @@ msgstr "চেহারাছবি"
 #: apps/konqueror/settings/konq/webappearance.desktop:98
 msgctxt "Comment"
 msgid "You can configure how Konqueror looks as a file manager here"
-msgstr ""
-"ফাইল পরিচালন ব্যবস্থা হিসাবে Konqueror-র চেহারাছবি এইখানে কনফিগার করা যাবে"
+msgstr "ফাইল পরিচালন ব্যবস্থা হিসাবে Konqueror-র চেহারাছবি এইখানে কনফিগার করা যাবে"
 
 #: apps/konqueror/settings/konq/filebehavior.desktop:11
 #: apps/konqueror/settings/konq/webbehavior.desktop:12
@@ -2783,12 +2758,11 @@ msgid "Configure the stylesheets used to render web pages"
 msgstr "ওয়েব পেজ রেন্ডার করতে ব্যবহৃত স্টাইল-শিট কনফিগার করুন"
 
 #: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:100
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the fonts used on web pages"
 msgctxt "Comment"
 msgid "Configure how to display web pages"
-msgstr "ওয়েব পেজে ব্যবহৃত ফন্ট কনফিগার করুন"
+msgstr "ওয়েব পেজ প্রদর্শনের প্রক্রিয়া কনফিগার করুন"
 
 #: apps/konqueror/settings/konqhtml/khtml_behavior.desktop:12
 msgctxt "Name"
@@ -2811,11 +2785,9 @@ msgid "Configure Konqueror AdBlocK filters"
 msgstr "Konqueror AdBlocK ফিল্টার কনফিগার করুন"
 
 #: apps/konqueror/settings/konqhtml/khtml_general.desktop:13
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "General"
-msgctxt ""
-"Name|Konqeuror settings relevant to both web browsing and file management."
+msgctxt "Name|Konqeuror settings relevant to both web browsing and file management."
 msgid "General"
 msgstr "সাধারণ"
 
@@ -2936,7 +2908,7 @@ msgstr "FTP আর্কাইভ"
 #: apps/konqueror/sidebar/trees/init/remote/ftp/kde_ftp.desktop:5
 msgctxt "Name"
 msgid "KDE Official FTP"
-msgstr ""
+msgstr "KDE Official FTP"
 
 #: apps/konqueror/sidebar/trees/init/remote/web/apps_web.desktop:4
 msgctxt "Name"
@@ -3109,12 +3081,11 @@ msgid "Shortcut icon support"
 msgstr "শর্ট-কাট আইকন সমর্থন"
 
 #: apps/lib/konq/konqdndpopupmenuplugin.desktop:4
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Plugin for the Konqueror Popup Menu"
 msgctxt "Comment"
 msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
-msgstr "Konqueror পপ-আপ মেনুর প্লাগ-ইন"
+msgstr "Konqueror পপ-আপ মেনুর ড্র্যাগ-ও-ড্রপ প্লাগ-ইন"
 
 #: apps/lib/konq/konqpopupmenuplugin.desktop:4
 msgctxt "Comment"
@@ -3339,7 +3310,6 @@ msgid "Choose the default components for various services"
 msgstr "বিভিন্ন পরিসেবার সাথে ব্যবহারের উদ্দেশ্যে ডিফল্ট সামগ্রী নির্বাচন করুন"
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop:2
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Web Browser"
 msgctxt "Name|standard desktop component"
@@ -3354,7 +3324,6 @@ msgid ""
 msgstr ""
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:2
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "File Manager"
 msgctxt "Name|standard desktop component"
@@ -3370,7 +3339,6 @@ msgid ""
 msgstr ""
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Email Client"
 msgctxt "Name|standard desktop component"
@@ -3386,7 +3354,6 @@ msgid ""
 msgstr ""
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Terminal Emulator"
 msgctxt "Name|standard desktop component"
@@ -3402,7 +3369,6 @@ msgid ""
 msgstr ""
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
 msgctxt "Name|standard desktop component"
@@ -3428,8 +3394,7 @@ msgstr ""
 
 #: runtime/kcontrol/componentchooser/windowmanagers/compiz-custom.desktop:2
 msgctxt "Name"
-msgid ""
-"Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
+msgid "Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
 msgstr ""
 
 #: runtime/kcontrol/componentchooser/windowmanagers/compiz.desktop:2
@@ -3536,7 +3501,7 @@ msgstr "ফাইলের সাথে ব্যবহারযোগ্য অ
 #: runtime/kglobalaccel/kglobalaccel.desktop:10
 msgctxt "Name"
 msgid "KDED Global Shortcuts Server"
-msgstr ""
+msgstr "KDED গ্লোবাল শর্ট-কার সার্ভার"
 
 #: runtime/khelpcenter/Help.desktop:7
 msgctxt "Name"
@@ -3748,7 +3713,7 @@ msgstr "আবর্জনা"
 #: runtime/kioslave/desktop/directory.trash:74
 msgctxt "Comment"
 msgid "Contains removed files"
-msgstr ""
+msgstr "মুছে ফেলা ফাইল অন্তর্ভুক্ত রয়েছে"
 
 #: runtime/kioslave/fish/fish.protocol:14
 msgctxt "Description"
@@ -3766,20 +3731,18 @@ msgid "KManPart"
 msgstr "KManPart"
 
 #: runtime/kioslave/network/ioslave/network.protocol:8
-#, fuzzy
 #| msgctxt "Description"
 #| msgid "A kioslave for the FISH protocol"
 msgctxt "Description"
 msgid "A kioslave to browse the network"
-msgstr "FISH প্রোটোকলের জন্য একটি kioslave"
+msgstr "নেটওয়ার্ক ব্রাউজ করার জন্য একটি kioslave"
 
 #: runtime/kioslave/network/kded/networkwatcher.desktop:8
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Analyzer"
 msgctxt "Name"
 msgid "Network Watcher"
-msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
+msgstr "নেটওয়ার্ক নিরীক্ষণ ব্যবস্থা"
 
 #: runtime/kioslave/network/kded/networkwatcher.desktop:52
 msgctxt "Comment"
@@ -3809,20 +3772,18 @@ msgid "Cursor Files"
 msgstr "কার্সারের ফাইল"
 
 #: runtime/kioslave/thumbnail/desktopthumbnail.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop Effects"
 msgctxt "Name"
 msgid "Desktop Files"
-msgstr "ডেস্কটপ ইফেক্ট"
+msgstr "ডেস্কটপ ফাইল"
 
 #: runtime/kioslave/thumbnail/directorythumbnail.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
 msgctxt "Name"
 msgid "Directories"
-msgstr "ফাইল ও ডিরেক্টরি"
+msgstr "ডিরেক্টরি"
 
 #: runtime/kioslave/thumbnail/djvuthumbnail.desktop:3
 msgctxt "Name"
@@ -3932,7 +3893,7 @@ msgstr "Textcompletion: আংশিক মিল"
 #: runtime/knotify/kde.notifyrc:580
 msgctxt "Comment"
 msgid "There is more than one possible match"
-msgstr ""
+msgstr "একাধিক সম্ভাব্য মিল পাওয়া গিয়েছে"
 
 #: runtime/knotify/kde.notifyrc:655
 msgctxt "Name"
@@ -4342,8 +4303,7 @@ msgstr "AltaVista"
 #: runtime/kurifilter-plugins/ikws/searchproviders/altavista.desktop:26
 msgctxt "Query"
 msgid "http://www.altavista.com/cgi-bin/query?pg=q&kl=XX&stype=stext&q=\\\\{@}"
-msgstr ""
-"http://www.altavista.com/cgi-bin/query?pg=q&kl=XX&stype=stext&q=\\\\{@}"
+msgstr "http://www.altavista.com/cgi-bin/query?pg=q&kl=XX&stype=stext&q=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/amg.desktop:4
 msgctxt "Name"
@@ -4391,12 +4351,11 @@ msgid "KDE Bug Database Fulltext Search"
 msgstr "KDE বাগ ডাটাবেসে অনুসন্ধান - সম্পূর্ণ টেক্সট সহযোগে"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/bugft.desktop:82
-#, fuzzy
 #| msgctxt "Query"
 #| msgid "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 msgctxt "Query"
 msgid "http://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
-msgstr "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
+msgstr "http://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/bugno.desktop:3
 msgctxt "Name"
@@ -4404,12 +4363,11 @@ msgid "KDE Bug Database Bug Number Search"
 msgstr "KDE বাগ ডাটাবেসে অনুসন্ধান - বাগ সংখ্যা প্রয়োগ করে"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/bugno.desktop:84
-#, fuzzy
 #| msgctxt "Query"
 #| msgid "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 msgctxt "Query"
 msgid "https://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
-msgstr "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
+msgstr "https://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/call.desktop:5
 msgctxt "Name"
@@ -4480,10 +4438,8 @@ msgstr "CTAN - কম্প্রিহেনসিভ TeX আর্কাইভ
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:62
 msgctxt "Query"
-msgid ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-msgstr ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+msgid "http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+msgstr "http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/dbug.desktop:3
 msgctxt "Name"
@@ -4603,20 +4559,18 @@ msgid "http://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
 msgstr "http://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/ethicle.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "ickle"
 msgctxt "Name"
 msgid "Ethicle"
-msgstr "ickle"
+msgstr "Ethicle"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/ethicle.desktop:14
-#, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
 msgctxt "Query"
 msgid "http://www.ethicle.com/search.php?q=\\\\{@}"
-msgstr "http://info.alexa.com/search?q=\\\\{@}"
+msgstr "http://www.ethicle.com/search.php?q=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/excite.desktop:3
 msgctxt "Name"
@@ -4891,8 +4845,7 @@ msgstr "KataTudo"
 #: runtime/kurifilter-plugins/ikws/searchproviders/katatudo.desktop:20
 msgctxt "Query"
 msgid "http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
-msgstr ""
-"http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
+msgstr "http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/kde.desktop:6
 msgctxt "Name"
@@ -5087,10 +5040,8 @@ msgstr "PHP অনুসন্ধান"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/php.desktop:84
 msgctxt "Query"
-msgid ""
-"http://www.php.net/search.php?show=\\\\{mode,\"manual\"}&pattern=\\\\{@}"
-msgstr ""
-"http://www.php.net/search.php?show=\\\\{mode,\"manual\"}&pattern=\\\\{@}"
+msgid "http://www.php.net/search.php?show=\\\\{mode,\"manual\"}&pattern=\\\\{@}"
+msgstr "http://www.php.net/search.php?show=\\\\{mode,\"manual\"}&pattern=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/python.desktop:5
 msgctxt "Name"
@@ -5205,10 +5156,8 @@ msgstr "Technorati"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/technorati.desktop:20
 msgctxt "Query"
-msgid ""
-"http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
-msgstr ""
-"http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
+msgid "http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
+msgstr "http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/technoratitags.desktop:3
 msgctxt "Name"
@@ -5353,25 +5302,23 @@ msgid "Wallet Server"
 msgstr "Wallet সার্ভার"
 
 #: runtime/kwalletd/kwalletd.notifyrc:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "KDE Write Daemon"
 msgctxt "Comment"
 msgid "The KDE Wallet Daemon"
-msgstr "KDE Write ডেমন"
+msgstr "KDE Wallet ডেমন"
 
 #: runtime/kwalletd/kwalletd.notifyrc:50
 msgctxt "Name"
 msgid "kwalletd"
-msgstr ""
+msgstr "kwalletd"
 
 #: runtime/kwalletd/kwalletd.notifyrc:57
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Change Password"
 msgctxt "Name"
 msgid "Needs password"
-msgstr "পাসওয়ার্ড পরিবর্তন"
+msgstr "পাসওয়ার্ড প্রয়োজন"
 
 #: runtime/kwalletd/kwalletd.notifyrc:105
 msgctxt "Comment"
@@ -6386,7 +6333,7 @@ msgstr "স্লোভাকিয়া"
 #: runtime/l10n/sl/entry.desktop:2
 msgctxt "Name"
 msgid "Sierra Leone"
-msgstr ""
+msgstr "সিয়েরা লিওন"
 
 #: runtime/l10n/sm/entry.desktop:2
 msgctxt "Name"
@@ -6486,7 +6433,7 @@ msgstr "টোকেলাউ"
 #: runtime/l10n/tl/entry.desktop:2
 msgctxt "Name"
 msgid "Timor-Leste"
-msgstr ""
+msgstr "টিমোর-লেস্তে"
 
 #: runtime/l10n/tm/entry.desktop:2
 msgctxt "Name"
@@ -6736,20 +6683,18 @@ msgid "Graphics"
 msgstr "গ্রাফিক্স"
 
 #: runtime/menu/desktop/kde-internet-communication.directory:4
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Notification"
 msgctxt "Name"
 msgid "Communication"
-msgstr "সূচনা"
+msgstr "যোগাযোগ ব্যবস্থা"
 
 #: runtime/menu/desktop/kde-internet-connectivity.directory:4
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Network & Connectivity"
 msgctxt "Name"
 msgid "Connectivity"
-msgstr "নেটওয়ার্ক ও সংযোগ"
+msgstr "সংযোগ ব্যবস্থা"
 
 #: runtime/menu/desktop/kde-internet.directory:4
 msgctxt "Name"
@@ -6759,7 +6704,7 @@ msgstr "ইন্টারনেট"
 #: runtime/menu/desktop/kde-internet-download.directory:4
 msgctxt "Name"
 msgid "File download and sharing"
-msgstr ""
+msgstr "ফাইল ডাউনলোড ও যৌথ ব্যবহার"
 
 #: runtime/menu/desktop/kde-internet-terminal.directory:4
 #: runtime/menu/desktop/kde-system-terminal.directory:4
@@ -6945,8 +6890,7 @@ msgstr "NepomukQueryService"
 
 #: runtime/nepomuk/services/queryservice/nepomukqueryservice.desktop:44
 msgctxt "Comment"
-msgid ""
-"The Nepomuk Query Service provides an interface for persistent query folders"
+msgid "The Nepomuk Query Service provides an interface for persistent query folders"
 msgstr ""
 
 #: runtime/nepomuk/services/storage/nepomukstorage.desktop:7
@@ -6988,7 +6932,7 @@ msgstr ""
 #: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:368
 msgctxt "Name"
 msgid "Converting Nepomuk data"
-msgstr ""
+msgstr "Nepomuk-র তথ্য রূপান্তর করা হচ্ছে"
 
 #: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:426
 msgctxt "Comment"
@@ -6998,22 +6942,22 @@ msgstr ""
 #: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:485
 msgctxt "Name"
 msgid "Converting Nepomuk data failed"
-msgstr ""
+msgstr "Nepomuk তথ্য রূপান্তর করতে ব্যর্থ"
 
 #: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:543
 msgctxt "Comment"
 msgid "Converting Nepomuk data to a new backend failed"
-msgstr ""
+msgstr "নতুন ব্যাক-এন্ডের মধ্যে Nepomuk তথ্য রূপান্তর করতে ব্যর্থ"
 
 #: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:602
 msgctxt "Name"
 msgid "Converting Nepomuk data done"
-msgstr ""
+msgstr "Nepomuk-র তথ্য রূপান্তর করা হয়েছে"
 
 #: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:660
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
-msgstr ""
+msgstr "সাফল্যের সাথে নতুন ব্যাক-এন্ডের মধ্যে Nepomuk তথ্য রূপান্তর করা হয়েছে"
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.desktop:7
 msgctxt "Name"
@@ -7039,8 +6983,7 @@ msgstr ""
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:131
 msgctxt "Comment"
-msgid ""
-"Strigi started the initial indexing of local files for fast desktop searches"
+msgid "Strigi started the initial indexing of local files for fast desktop searches"
 msgstr ""
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:189
@@ -7050,8 +6993,7 @@ msgstr ""
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:252
 msgctxt "Comment"
-msgid ""
-"Strigi finished the initial indexing of local files for fast desktop searches"
+msgid "Strigi finished the initial indexing of local files for fast desktop searches"
 msgstr ""
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:310
@@ -7082,7 +7024,7 @@ msgstr "শব্দ ও ভিডিও কনফিগারেশন"
 #: runtime/phonon/kcm/xine/kcm_phononxine.desktop:11
 msgctxt "Name"
 msgid "Phonon Xine"
-msgstr ""
+msgstr "Phonon Xine"
 
 #: runtime/phonon/kcm/xine/kcm_phononxine.desktop:32
 msgctxt "Comment"
@@ -7121,8 +7063,7 @@ msgstr "অডিও ডিভাইসের ফল-ব্যাক"
 
 #: runtime/phonon/platform_kde/phonon.notifyrc:207
 msgctxt "Comment"
-msgid ""
-"Notification on automatic fallback if the preferred device is unavailable"
+msgid "Notification on automatic fallback if the preferred device is unavailable"
 msgstr ""
 
 #: runtime/pics/hicolor/index.theme:2
@@ -7156,68 +7097,60 @@ msgid "JavaScript Runner"
 msgstr "JavaScript Runner"
 
 #: runtime/plasma/scriptengines/javascript/tests/javascript-config-test/metadata.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "JavaScript Widget"
 msgctxt "Name"
 msgid "javascript-config-test"
-msgstr "JavaScript Widget"
+msgstr "javascript-config-test"
 
 #: runtime/plasma/scriptengines/javascript/tests/javascript-config-test/metadata.desktop:15
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "JavaScript Widget"
 msgctxt "Comment"
 msgid "Javascript config object test widget"
-msgstr "JavaScript Widget"
+msgstr "Javascript config object test widget"
 
 #: runtime/plasma/scriptengines/javascript/tests/script-digital-clock/metadata.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Digital Clock"
 msgctxt "Name"
 msgid "script-digital-clock"
-msgstr "ডিজিট্যাল ঘড়ি"
+msgstr "script-digital-clock"
 
 #: runtime/plasma/scriptengines/javascript/tests/script-digital-clock/metadata.desktop:21
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "JavaScript Widget"
 msgctxt "Comment"
 msgid "Javascript digital clock"
-msgstr "JavaScript Widget"
+msgstr "Javascript ডিজিট্যাল ঘড়ি"
 
 #: runtime/plasma/scriptengines/javascript/tests/script-mediaplayer/metadata.desktop:2
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Multimedia Player"
 msgctxt "Name"
 msgid "script-mediaplayer"
-msgstr "মাল্টি-মিডিয়া প্লেয়ার"
+msgstr "script-mediaplayer"
 
 #: runtime/plasma/scriptengines/javascript/tests/script-mediaplayer/metadata.desktop:17
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "JavaScript Widget"
 msgctxt "Comment"
 msgid "Javascript media player"
-msgstr "JavaScript Widget"
+msgstr "Javascript মিডিয়া প্লেয়ার"
 
 #: runtime/plasma/scriptengines/javascript/tests/script-nowplaying/metadata.desktop:2
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Multimedia Player"
 msgctxt "Name"
 msgid "script-nowplaying"
-msgstr "মাল্টি-মিডিয়া প্লেয়ার"
+msgstr "script-nowplaying"
 
 #: runtime/plasma/scriptengines/javascript/tests/script-nowplaying/metadata.desktop:20
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "JavaScript Widget"
 msgctxt "Comment"
 msgid "Javascript version current track playing"
-msgstr "JavaScript Widget"
+msgstr ""
 
 #: runtime/plasma/scriptengines/javascript/tests/tiger/metadata.desktop:3
 #: workspace/plasma/scriptengines/ruby/examples/applets/tiger/metadata.desktop:2
@@ -7231,20 +7164,18 @@ msgid "A Script Adaptor"
 msgstr ""
 
 #: runtime/platforms/win/config/platform.desktop:13
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Platinum"
 msgctxt "Name"
 msgid "Platform"
-msgstr "প্ল্যাটিনাম"
+msgstr "প্ল্যাটফর্ম"
 
 #: runtime/platforms/win/config/platform.desktop:54
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
 msgctxt "Comment"
 msgid "Windows Platform Manager"
-msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+msgstr "Windows প্ল্যাটফর্ম পরিচালন ব্যবস্থা"
 
 #: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:3
 msgctxt "Name"
@@ -7254,7 +7185,7 @@ msgstr "KDED Windows Start Menu মডিউল"
 #: runtime/renamedlgplugins/audio/renaudiodlg.desktop:3
 msgctxt "Name"
 msgid "Audio Preview"
-msgstr ""
+msgstr "অডিও প্রিভিউ"
 
 #: runtime/renamedlgplugins/images/renimagedlg.desktop:3
 msgctxt "Name"
@@ -7268,8 +7199,7 @@ msgstr ""
 
 #: runtime/solidautoeject/solidautoeject.desktop:43
 msgctxt "Comment"
-msgid ""
-"Allows to automatically release drives when their eject button is pushed"
+msgid "Allows to automatically release drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/soliduiserver/soliduiserver.desktop:8
@@ -7285,12 +7215,12 @@ msgstr ""
 #: workspace/kcontrol/access/kaccess.desktop:3
 msgctxt "Name"
 msgid "KDE Accessibility Tool"
-msgstr ""
+msgstr "KDE বিশেষ ব্যবহারের সামগ্রী"
 
 #: workspace/kcontrol/access/kaccess.notifyrc:3
 msgctxt "Comment"
 msgid "KDE Accessibility Tool"
-msgstr ""
+msgstr "KDE বিশেষ ব্যবহারের সামগ্রী"
 
 #: workspace/kcontrol/access/kaccess.notifyrc:86
 msgctxt "Name"
@@ -7299,8 +7229,7 @@ msgstr ""
 
 #: workspace/kcontrol/access/kaccess.notifyrc:156
 msgctxt "Comment"
-msgid ""
-"A modifier key (e.g. Shift or Ctrl) has changed its state and is now active"
+msgid "A modifier key (e.g. Shift or Ctrl) has changed its state and is now active"
 msgstr ""
 
 #: workspace/kcontrol/access/kaccess.notifyrc:226
@@ -7310,8 +7239,7 @@ msgstr ""
 
 #: workspace/kcontrol/access/kaccess.notifyrc:296
 msgctxt "Comment"
-msgid ""
-"A modifier key (e.g. Shift or Ctrl) has changed its state and is now inactive"
+msgid "A modifier key (e.g. Shift or Ctrl) has changed its state and is now inactive"
 msgstr ""
 
 #: workspace/kcontrol/access/kaccess.notifyrc:366
@@ -7438,12 +7366,12 @@ msgstr "তারিখ ও সময় সংক্রান্ত বৈশি�
 #: workspace/kcontrol/energy/energy.desktop:15
 msgctxt "Name"
 msgid "Power Control"
-msgstr ""
+msgstr "বিদ্যুৎ পরিচালনা"
 
 #: workspace/kcontrol/energy/energy.desktop:99
 msgctxt "Comment"
 msgid "Settings for display power management"
-msgstr ""
+msgstr "বিদ্যুৎ সরবরাহের পরিচালনব্যবস্থা প্রদর্শনের বৈশিষ্ট্য"
 
 #: workspace/kcontrol/fonts/fonts.desktop:14
 #: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
@@ -7593,17 +7521,17 @@ msgstr "UNIX স্কিম"
 #: workspace/kcontrol/keys/schemes/win3.kksrc:2
 msgctxt "Name"
 msgid "Windows Scheme (Without Win Key)"
-msgstr ""
+msgstr "Windows স্কিম (Win-কি বিনা)"
 
 #: workspace/kcontrol/keys/schemes/win4.kksrc:2
 msgctxt "Name"
 msgid "Windows Scheme (With Win Key)"
-msgstr ""
+msgstr "Windows স্কিম (Win-কি সহ)"
 
 #: workspace/kcontrol/keys/schemes/wm3.kksrc:2
 msgctxt "Name"
 msgid "WindowMaker (3 Modifier Keys)"
-msgstr ""
+msgstr "WindowMaker (৩-টি পরিবর্তক কি)"
 
 #: workspace/kcontrol/kfontinst/apps/installfont.desktop:7
 msgctxt "Name"
@@ -7669,7 +7597,7 @@ msgstr "কি-বোর্ড বিন্যাস"
 #: workspace/kcontrol/kxkb/plasma-applet-kxkb.desktop:2
 msgctxt "Name"
 msgid "Keyboard Map Tool"
-msgstr ""
+msgstr "কি-বোর্ড ম্যাপের সামগ্রী"
 
 #: workspace/kcontrol/launch/kcmlaunch.desktop:14
 msgctxt "Name"
@@ -7743,8 +7671,7 @@ msgstr "বিন্যাস"
 
 #: workspace/kcontrol/style/style.desktop:98
 msgctxt "Comment"
-msgid ""
-"Allows the manipulation of widget behavior and changing the Style for KDE"
+msgid "Allows the manipulation of widget behavior and changing the Style for KDE"
 msgstr ""
 
 #: workspace/kcontrol/xinerama/xinerama.desktop:17
@@ -7760,7 +7687,7 @@ msgstr "একাধিক মনিটর ব্যবহারের জন্
 #: workspace/kdm/kfrontend/pics/default_blue.jpg.desktop:3
 msgctxt "Name"
 msgid "Default Blue"
-msgstr ""
+msgstr "ডিফল্ট নীল"
 
 #: workspace/kdm/kfrontend/sessions/9wm.desktop:5
 msgctxt "Name"
@@ -8012,12 +7939,12 @@ msgstr ""
 #: workspace/kdm/kfrontend/sessions/matchbox.desktop:5
 msgctxt "Name"
 msgid "Matchbox"
-msgstr ""
+msgstr "Matchbox"
 
 #: workspace/kdm/kfrontend/sessions/matchbox.desktop:24
 msgctxt "Comment"
 msgid "A window manager for handheld devices"
-msgstr ""
+msgstr "হাতে ধারণযোগ্য ডিভাইসে ব্যবহারের উদ্দেশ্যে একটি উইন্ডো পরিচালন ব্যবস্থা"
 
 #: workspace/kdm/kfrontend/sessions/metacity.desktop:5
 msgctxt "Name"
@@ -8093,8 +8020,7 @@ msgstr "PWM"
 
 #: workspace/kdm/kfrontend/sessions/pwm.desktop:13
 msgctxt "Comment"
-msgid ""
-"A lightweight window manager able to attach multiple windows to one frame"
+msgid "A lightweight window manager able to attach multiple windows to one frame"
 msgstr ""
 
 #: workspace/kdm/kfrontend/sessions/qvwm.desktop:5
@@ -8134,8 +8060,7 @@ msgstr "Sawfish"
 
 #: workspace/kdm/kfrontend/sessions/sawfish.desktop:19
 msgctxt "Comment"
-msgid ""
-"An extensible window manager scriptable with an Emacs Lisp-like language"
+msgid "An extensible window manager scriptable with an Emacs Lisp-like language"
 msgstr ""
 
 #: workspace/kdm/kfrontend/sessions/twm.desktop:5
@@ -8245,12 +8170,11 @@ msgid "Theme with blue circles"
 msgstr "নীল বৃত্ত বিশিষ্ট থিম"
 
 #: workspace/kdm/kfrontend/themes/oxygen-air/KdmGreeterTheme.desktop:6
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Oxygen"
 msgctxt "Name"
 msgid "Oxygen-Air"
-msgstr "Oxygen"
+msgstr "Oxygen-Air"
 
 #: workspace/kdm/kfrontend/themes/oxygen/KdmGreeterTheme.desktop:32
 msgctxt "Description"
@@ -8271,23 +8195,21 @@ msgstr ""
 #: workspace/khotkeys/data/defaults.khotkeys:75
 msgctxt "Comment"
 msgid "Comment"
-msgstr ""
+msgstr "মন্তব্য"
 
 #: workspace/khotkeys/data/defaults.khotkeys:52
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Menu Editor"
 msgctxt "Name"
 msgid "KMenuEdit"
-msgstr "মেনু সম্পাদন ব্যবস্থা"
+msgstr "KMenuEdit"
 
 #: workspace/khotkeys/data/defaults.khotkeys:121
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "PHP Search"
 msgctxt "Name"
 msgid "Search"
-msgstr "PHP অনুসন্ধান"
+msgstr "অনুসন্ধান"
 
 #: workspace/khotkeys/data/defaults.khotkeys:180
 #: workspace/khotkeys/data/kde32b1.khotkeys:399
@@ -8299,7 +8221,7 @@ msgstr "PHP অনুসন্ধান"
 #: workspace/khotkeys/data/printscreen.khotkeys:278
 msgctxt "Comment"
 msgid "Simple_action"
-msgstr ""
+msgstr "Simple_action"
 
 #: workspace/khotkeys/data/kde32b1.khotkeys:5
 msgctxt "Comment"
@@ -8560,7 +8482,7 @@ msgstr ""
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:488
 msgctxt "Name"
 msgid "Stop Loading"
-msgstr ""
+msgstr "লোড করার কর্ম বন্ধ করা হবে"
 
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:633
 msgctxt "Comment"
@@ -8701,12 +8623,11 @@ msgid "Input Actions"
 msgstr "ইনপুট সংক্রান্ত কর্ম"
 
 #: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:90
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
 msgctxt "Comment"
 msgid "Configure Input Actions settings"
-msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
+msgstr "ইনপুট সংক্রান্ত কর্মের বৈশিষ্ট্য কনফিগার করুন"
 
 #: workspace/klipper/klipper.desktop:2
 msgctxt "Name"
@@ -9016,12 +8937,11 @@ msgstr ""
 
 #: workspace/kwin/effects/cube/cubeslide_config.desktop:9
 #: workspace/kwin/effects/cube/cubeslide.desktop:2
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Desktop Publishing"
 msgctxt "Name"
 msgid "Desktop Cube Animation"
-msgstr "ডেস্কটপ প্রকাশনা"
+msgstr "ডেস্কটপ কিউব অ্যানিমেশন"
 
 #: workspace/kwin/effects/cube/cubeslide.desktop:46
 msgctxt "Comment"
@@ -9081,12 +9001,11 @@ msgid "Make windows explode when they are closed"
 msgstr ""
 
 #: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "SaverDesktop"
 msgctxt "Name"
 msgid "Fade Desktop"
-msgstr "SaverDesktop"
+msgstr ""
 
 #: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:42
 msgctxt "Comment"
@@ -9121,17 +9040,15 @@ msgstr ""
 
 #: workspace/kwin/effects/flipswitch/flipswitch.desktop:57
 msgctxt "Comment"
-msgid ""
-"Flip through windows that are in a stack for the alt+tab window switcher"
+msgid "Flip through windows that are in a stack for the alt+tab window switcher"
 msgstr ""
 
 #: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Duplicate Window"
 msgctxt "Name"
 msgid "Highlight Window"
-msgstr "উইন্ডোর প্রতিলিপি"
+msgstr "উইন্ডো উজ্জ্বল করা হবে"
 
 #: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:47
 msgctxt "Comment"
@@ -9142,12 +9059,12 @@ msgstr ""
 #: workspace/kwin/effects/invert/invert.desktop:2
 msgctxt "Name"
 msgid "Invert"
-msgstr ""
+msgstr "বিপরীত"
 
 #: workspace/kwin/effects/invert/invert.desktop:73
 msgctxt "Comment"
 msgid "Inverts the color of the desktop and windows"
-msgstr ""
+msgstr "ডেস্কটপ ও উইন্ডোর রঙগুলি উল্টে দেওয়া হয়"
 
 #: workspace/kwin/effects/kwineffect.desktop:5
 msgctxt "Comment"
@@ -9262,17 +9179,15 @@ msgid "Make the entire desktop look sharper"
 msgstr ""
 
 #: workspace/kwin/effects/sheet/sheet.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Stylesheets"
 msgctxt "Name"
 msgid "Sheet"
-msgstr "স্টাইল-শিট"
+msgstr "শিট"
 
 #: workspace/kwin/effects/sheet/sheet.desktop:46
 msgctxt "Comment"
-msgid ""
-"Make modal dialogs smoothly fly in and out when they are shown or hidden"
+msgid "Make modal dialogs smoothly fly in and out when they are shown or hidden"
 msgstr ""
 
 #: workspace/kwin/effects/showfps/showfps_config.desktop:9
@@ -9317,12 +9232,11 @@ msgid "Slide windows across the screen when switching virtual desktops"
 msgstr ""
 
 #: workspace/kwin/effects/snaphelper/snaphelper.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Saint Helena"
 msgctxt "Name"
 msgid "Snap Helper"
-msgstr "সেন্ট হেলেনা"
+msgstr ""
 
 #: workspace/kwin/effects/snaphelper/snaphelper.desktop:42
 msgctxt "Comment"
@@ -9564,20 +9478,18 @@ msgid "Configure settings specifically for a window"
 msgstr "কোনো উইন্ডোর জন্য সুনির্দিষ্ট বৈশিষ্ট্য কনফিগার করুন"
 
 #: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:14
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen Saver"
 msgctxt "Name"
 msgid "Screen Edges"
-msgstr "স্ক্রিন-সেভার"
+msgstr "পর্দার প্রান্ত"
 
 #: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:60
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
 msgctxt "Comment"
 msgid "Configure active screen edges"
-msgstr "ওয়েব ক্যাশে সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
+msgstr "সক্রিয় পর্দার প্রান্তগুলি কনফিগার করুন"
 
 #: workspace/kwin/kwin.notifyrc:3
 msgctxt "Comment"
@@ -9986,8 +9898,7 @@ msgstr ""
 
 #: workspace/kwin/kwin.notifyrc:6140
 msgctxt "Comment"
-msgid ""
-"The compositing performance was too slow and compositing has been suspended"
+msgid "The compositing performance was too slow and compositing has been suspended"
 msgstr ""
 
 #: workspace/kwin/kwin.notifyrc:6193
@@ -10020,8 +9931,7 @@ msgstr "KDE Write ডেমন"
 #: workspace/kwrited/kwrited.desktop:82
 msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
-msgstr ""
-"write(1) অথবা wall(1) সহযোগে ব্যবহারকারীদের থেকে প্রাপ্ত বার্তার অপেক্ষা করা হবে"
+msgstr "write(1) অথবা wall(1) সহযোগে ব্যবহারকারীদের থেকে প্রাপ্ত বার্তার অপেক্ষা করা হবে"
 
 #: workspace/kwrited/kwrited.notifyrc:3
 msgctxt "Comment"
@@ -10031,7 +9941,7 @@ msgstr "KDE write ডেমন"
 #: workspace/kwrited/kwrited.notifyrc:66
 msgctxt "Name"
 msgid "New message received"
-msgstr ""
+msgstr "নতুন বার্তা প্রাপ্ত হয়েছে"
 
 #: workspace/kwrited/kwrited.notifyrc:123
 msgctxt "Comment"
@@ -10096,7 +10006,7 @@ msgstr ""
 #: workspace/plasma/applets/analog-clock/plasma-applet-analogclock.desktop:2
 msgctxt "Name"
 msgid "Analog Clock"
-msgstr ""
+msgstr "অ্যানালগ ঘড়ি"
 
 #: workspace/plasma/applets/analog-clock/plasma-applet-analogclock.desktop:80
 #: workspace/plasma/scriptengines/ruby/examples/applets/clock/metadata.desktop:61
@@ -10123,7 +10033,7 @@ msgstr "বর্ষপঞ্জি"
 #: workspace/plasma/applets/calendar/plasma-applet-calendar.desktop:65
 msgctxt "Comment"
 msgid "View and pick dates from the calendar"
-msgstr ""
+msgstr "বর্ষপঞ্জি দেখুন ও তারিখ নির্বাচন করুন"
 
 #: workspace/plasma/applets/devicenotifier/plasma-applet-devicenotifier.desktop:2
 msgctxt "Name"
@@ -10133,15 +10043,14 @@ msgstr "ডিভাইসের সূচনা ব্যবস্থা"
 #: workspace/plasma/applets/devicenotifier/plasma-applet-devicenotifier.desktop:65
 msgctxt "Comment"
 msgid "Notifications and access for new devices"
-msgstr ""
+msgstr "নতুন ডিভাইসের সূচনা ও ব্যবহার"
 
 #: workspace/plasma/applets/devicenotifier/test-predicate-openinwindow.desktop:7
-#, fuzzy
 #| msgctxt "Description"
 #| msgid "Open with &default Browser"
 msgctxt "Name"
 msgid "Open with File Manager"
-msgstr "ডিফল্ট ব্রাউজার সহযোগে প্রদর্শিত হবে (&d)"
+msgstr "ফাইল পরিচালনব্যবস্থা সহ খুলুন"
 
 #: workspace/plasma/applets/digital-clock/plasma-applet-digitalclock.desktop:2
 msgctxt "Name"
@@ -10151,7 +10060,7 @@ msgstr "ডিজিট্যাল ঘড়ি"
 #: workspace/plasma/applets/digital-clock/plasma-applet-digitalclock.desktop:80
 msgctxt "Comment"
 msgid "Time displayed in a digital format"
-msgstr ""
+msgstr "ডিজিট্যাল বিন্যাসে প্রদর্শিত সময়"
 
 #: workspace/plasma/applets/icon/plasma-applet-icon.desktop:2
 msgctxt "Name"
@@ -10191,7 +10100,7 @@ msgstr "লক/লগ-আউট করুন"
 #: workspace/plasma/applets/lock_logout/plasma-applet-lockout.desktop:76
 msgctxt "Comment"
 msgid "Lock the screen or log out"
-msgstr ""
+msgstr "পর্দা লক করুন অথবা লগ-আউট করুন"
 
 #: workspace/plasma/applets/pager/plasma-pager-default.desktop:2
 msgctxt "Name"
@@ -10201,7 +10110,7 @@ msgstr "পেজার"
 #: workspace/plasma/applets/pager/plasma-pager-default.desktop:65
 msgctxt "Comment"
 msgid "Switch between virtual desktops"
-msgstr ""
+msgstr "ভার্চুয়াল ডেস্কটপের মধ্যে অদলবদল করুন"
 
 #: workspace/plasma/applets/panelspacer/plasma-applet-panelspacer-internal.desktop:2
 msgctxt "Name"
@@ -10231,7 +10140,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_cpu.desktop:67
 msgctxt "Comment"
 msgid "A CPU usage monitor"
-msgstr ""
+msgstr "CPU ব্যবহারের নিরীক্ষণ ব্যবস্থা"
 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_hdd.desktop:3
 msgctxt "Name"
@@ -10241,7 +10150,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_hdd.desktop:67
 msgctxt "Comment"
 msgid "A hard disk usage monitor"
-msgstr ""
+msgstr "হার্ড-ডিস্ক ব্যবহারের নিরীক্ষণ ব্যবস্থা"
 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:3
 msgctxt "Name"
@@ -10251,7 +10160,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:67
 msgctxt "Comment"
 msgid "Show hardware info"
-msgstr ""
+msgstr "হার্ডওয়্যার সংক্রান্ত তথ্য প্রদর্শন করা হবে"
 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_net.desktop:3
 msgctxt "Name"
@@ -10261,20 +10170,19 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_net.desktop:67
 msgctxt "Comment"
 msgid "A network usage monitor"
-msgstr ""
+msgstr "নেটওয়ার্ক ব্যবহারের নিরীক্ষণ ব্যবস্থা"
 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "System Monitor - CPU"
 msgctxt "Name"
 msgid "System Monitor - RAM"
-msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা - CPU"
+msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা - RAM"
 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:46
 msgctxt "Comment"
 msgid "A RAM usage monitor"
-msgstr ""
+msgstr "RAM-র ব্যবহারের নিরীক্ষণ ব্যবস্থা"
 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_temperature.desktop:3
 msgctxt "Name"
@@ -10284,7 +10192,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা 
 #: workspace/plasma/applets/system-monitor/plasma-applet-sm_temperature.desktop:67
 msgctxt "Comment"
 msgid "A system temperature monitor"
-msgstr ""
+msgstr "সিস্টেমের তাপমাত্রা নিরীক্ষণ ব্যবস্থা"
 
 #: workspace/plasma/applets/system-monitor/plasma-applet-system-monitor.desktop:77
 msgctxt "Comment"
@@ -10292,12 +10200,11 @@ msgid "System monitoring applet"
 msgstr "সিস্টেম নিরীক্ষণের অ্যাপ্লেট"
 
 #: workspace/plasma/applets/systemtray/notificationitemwatcher/notificationitemwatcher.desktop:3
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
 msgctxt "Name"
 msgid "KDED Notification item watcher"
-msgstr "KDE Notification ডেমন"
+msgstr ""
 
 #: workspace/plasma/applets/systemtray/notificationitemwatcher/notificationitemwatcher.desktop:39
 msgctxt "Comment"
@@ -10319,12 +10226,12 @@ msgstr ""
 #: workspace/plasma/applets/tasks/plasma-tasks-default.desktop:2
 msgctxt "Name"
 msgid "Task Manager"
-msgstr ""
+msgstr "কর্ম পরিচালন ব্যবস্থা"
 
 #: workspace/plasma/applets/tasks/plasma-tasks-default.desktop:76
 msgctxt "Comment"
 msgid "Switch between running applications"
-msgstr ""
+msgstr "চলমান অ্যাপ্লিকেশনের মধ্যে অদলবদল"
 
 #: workspace/plasma/applets/trash/plasma-applet-trash.desktop:2
 msgctxt "Name"
@@ -10334,7 +10241,7 @@ msgstr ""
 #: workspace/plasma/applets/trash/plasma-applet-trash.desktop:71
 msgctxt "Comment"
 msgid "Access to deleted items"
-msgstr ""
+msgstr "মুছে ফেলা সামগ্রীর ব্যবহার"
 
 #: workspace/plasma/applets/webbrowser/plasma-applet-webbrowser.desktop:3
 msgctxt "Name"
@@ -10347,7 +10254,6 @@ msgid "A simple web browser"
 msgstr "একটি সাধারণ ওয়েব ব্রাউজার"
 
 #: workspace/plasma/containments/desktop/plasma-containment-desktop.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
 msgctxt "Name|plasma containment"
@@ -10377,15 +10283,14 @@ msgstr "SaverDesktop"
 #: workspace/plasma/dataengines/akonadi/plasma-engine-akonadi.desktop:2
 msgctxt "Name"
 msgid "Akonadi"
-msgstr ""
+msgstr "Akonadi"
 
 #: workspace/plasma/dataengines/akonadi/plasma-engine-akonadi.desktop:6
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Python data engine"
 msgctxt "Comment"
 msgid "Akonadi PIM data engine"
-msgstr "Python ডাটা ইঞ্জিন"
+msgstr "Akonadi PIM ডাটা ইঞ্জিন"
 
 #: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:2
 msgctxt "Name"
@@ -10398,12 +10303,11 @@ msgid "Application job updates (via kuiserver)"
 msgstr ""
 
 #: workspace/plasma/dataengines/calendar/plasma-dataengine-calendar.desktop:65
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Calendar Manager"
 msgctxt "Comment"
 msgid "Calendar data engine"
-msgstr "বর্ষপঞ্জি পরিচালন ব্যবস্থা"
+msgstr "বর্ষপঞ্জির ডাটা ইঞ্জিন"
 
 #: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:2
 msgctxt "Name"
@@ -10441,33 +10345,30 @@ msgid "Files and Directories"
 msgstr "ফাইল ও ডিরেক্টরি"
 
 #: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:66
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
 msgctxt "Comment"
 msgid "Information about files and directories."
-msgstr "ফাইল ও ডিরেক্টরি"
+msgstr "ফাইল ও ডিরেক্টরি সম্বন্ধীয় তথ্য"
 
 #: workspace/plasma/dataengines/geolocation/plasma-dataengine-geolocation.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Locations"
 msgctxt "Name"
 msgid "Geolocation"
-msgstr "অবস্থান"
+msgstr "ভৌগলিক অবস্থান"
 
 #: workspace/plasma/dataengines/geolocation/plasma-dataengine-geolocation.desktop:37
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Python data engine"
 msgctxt "Comment"
 msgid "Geolocation Data Engine"
-msgstr "Python ডাটা ইঞ্জিন"
+msgstr "ভৌগলিক অবস্থানের ডাটা ইঞ্জিন"
 
 #: workspace/plasma/dataengines/geolocation/plasma-geolocation-gps.desktop:2
 msgctxt "Name"
 msgid "Geolocation GPS"
-msgstr ""
+msgstr "ভৌগলিক অবস্থান GPS"
 
 #: workspace/plasma/dataengines/geolocation/plasma-geolocation-gps.desktop:34
 msgctxt "Comment"
@@ -10475,12 +10376,11 @@ msgid "Geolocation from GPS address."
 msgstr ""
 
 #: workspace/plasma/dataengines/geolocation/plasma-geolocation-ip.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Locations"
 msgctxt "Name"
 msgid "Geolocation IP"
-msgstr "অবস্থান"
+msgstr "ভৌগলিক অবস্থানের IP"
 
 #: workspace/plasma/dataengines/geolocation/plasma-geolocation-ip.desktop:35
 msgctxt "Comment"
@@ -10488,12 +10388,11 @@ msgid "Geolocation from IP address."
 msgstr ""
 
 #: workspace/plasma/dataengines/geolocation/plasma-geolocationprovider.desktop:4
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Locations"
 msgctxt "Comment"
 msgid "Plasma Geolocation Provider"
-msgstr "অবস্থান"
+msgstr "Plasma Geolocation উপলব্ধকারী"
 
 #: workspace/plasma/dataengines/hotplug/plasma-dataengine-hotplug.desktop:2
 msgctxt "Name"
@@ -10506,12 +10405,11 @@ msgid "Tracks hot-pluggable devices as they appear and disappear."
 msgstr ""
 
 #: workspace/plasma/dataengines/keystate/plasma-dataengine-keystate.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Keyboard & Mouse"
 msgctxt "Name"
 msgid "Keyboard and Mouse State"
-msgstr "কি-বোর্ড ও মাউস"
+msgstr "কি-বোর্ড ও মাউসের অবস্থা"
 
 #: workspace/plasma/dataengines/keystate/plasma-dataengine-keystate.desktop:40
 msgctxt "Comment"
@@ -10521,17 +10419,17 @@ msgstr ""
 #: workspace/plasma/dataengines/metadata/plasma-engine-metadata.desktop:2
 msgctxt "Name"
 msgid "Meta Data"
-msgstr ""
+msgstr "মিটা-ডাটা"
 
 #: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:2
 msgctxt "Name"
 msgid "Pointer Position"
-msgstr ""
+msgstr "পয়েন্টারের অবস্থান"
 
 #: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:61
 msgctxt "Comment"
 msgid "Mouse position and cursor"
-msgstr ""
+msgstr "মাউসের অবস্থান ও কার্সার"
 
 #: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:3
 msgctxt "Name"
@@ -10562,7 +10460,7 @@ msgstr ""
 #: workspace/plasma/runners/places/plasma-runner-places.desktop:2
 msgctxt "Name"
 msgid "Places"
-msgstr ""
+msgstr "অবস্থান"
 
 #: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:65
 msgctxt "Comment"
@@ -10570,7 +10468,6 @@ msgid "Places, as seen in the file manager and in file dialogs."
 msgstr ""
 
 #: workspace/plasma/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Power Management"
 msgctxt "Name|plasma data engine"
@@ -10600,15 +10497,14 @@ msgstr "ডিভাইস সংক্রান্ত তথ্য"
 #: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:66
 msgctxt "Comment"
 msgid "Device data via Solid"
-msgstr ""
+msgstr "Solid-র মাধ্যমে উপলব্ধ ডিভাইসের তথ্য"
 
 #: workspace/plasma/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:78
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Sound information"
 msgctxt "Comment"
 msgid "System status information"
-msgstr "আওয়াজ সংক্রান্ত তথ্য"
+msgstr "সিস্টেমের অবস্থা সংক্রান্ত তথ্য"
 
 #: workspace/plasma/dataengines/tasks/plasma-dataengine-tasks.desktop:2
 msgctxt "Name"
@@ -10618,7 +10514,7 @@ msgstr "উইন্ডো সংক্রান্ড তথ্য"
 #: workspace/plasma/dataengines/tasks/plasma-dataengine-tasks.desktop:65
 msgctxt "Comment"
 msgid "Information and management services for all available windows."
-msgstr ""
+msgstr "সকল উপলব্ধ উইন্ডোর জন্য তথ্য ও পরিচালনার পরিসেবা।"
 
 #: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:2
 #: workspace/plasma/scriptengines/ruby/examples/dataengines/time/metadata.desktop:2
@@ -10627,32 +10523,31 @@ msgid "Date and Time"
 msgstr "তারিখ ও সময়"
 
 #: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:67
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Date and time settings"
 msgctxt "Comment"
 msgid "Date and time by timezone"
-msgstr "তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
+msgstr "সময়ের অঞ্চল অনুযায়ী তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
 
 #: workspace/plasma/dataengines/weather/ions/ion-bbcukmet.desktop:2
 msgctxt "Name"
 msgid "BBC Weather from UK MET Office"
-msgstr ""
+msgstr "যুক্তরাজ্যের আবহাওয়া দফতর থেকে উপলব্ধ BBC-র আবহাওয়া বার্তা"
 
 #: workspace/plasma/dataengines/weather/ions/ion-bbcukmet.desktop:65
 msgctxt "Comment"
 msgid "XML Data from the UK MET Office"
-msgstr ""
+msgstr "যুক্তরাজ্যের আবহাওয়া দফতর থেকে উপলব্ধ XML তথ্য"
 
 #: workspace/plasma/dataengines/weather/ions/ion-envcan.desktop:2
 msgctxt "Name"
 msgid "Environment Canada"
-msgstr ""
+msgstr "এনভায়রনমেন্ট কানাডা"
 
 #: workspace/plasma/dataengines/weather/ions/ion-envcan.desktop:33
 msgctxt "Comment"
 msgid "XML Data from Environment Canada"
-msgstr ""
+msgstr "এনভায়রনমেন্ট কানাডা থেকে প্রাপ্ত XML তথ্য"
 
 #: workspace/plasma/dataengines/weather/ions/ion-noaa.desktop:2
 msgctxt "Name"
@@ -10672,10 +10567,9 @@ msgstr "আবহাওয়া"
 #: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:66
 msgctxt "Comment"
 msgid "Weather data from multiple online sources"
-msgstr ""
+msgstr "একাধিক অন-লাইন অবস্থান থেকে প্রাপ্ত আবহাওয়ার তথ্য"
 
 #: workspace/plasma/runners/bookmarks/plasma-runner-bookmarks.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Bookmarks"
 msgctxt "Name|plasma runner"
@@ -10736,12 +10630,12 @@ msgstr "PowerDevil"
 #: workspace/plasma/runners/recentdocuments/recentdocuments.desktop:2
 msgctxt "Name"
 msgid "Recent Documents"
-msgstr ""
+msgstr "সম্প্রতি ব্যবহৃত নথিপত্র"
 
 #: workspace/plasma/runners/services/plasma-runner-services.desktop:85
 msgctxt "Comment"
 msgid "Find applications, control panels and services"
-msgstr ""
+msgstr "অ্যাপ্লিকেশন, নিয়ন্ত্রণের প্যানেল ও পরিসেবা অনুসন্ধান করুন"
 
 #: workspace/plasma/runners/sessions/plasma-runner-sessions.desktop:2
 msgctxt "Name"
@@ -10764,7 +10658,6 @@ msgid "Executes shell commands"
 msgstr "শেল কমান্ড সঞ্চালনের জন্য প্রয়োগ হবে"
 
 #: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Shortcuts"
 msgctxt "Name|plasma runner"
@@ -10784,7 +10677,7 @@ msgstr "Google Gadgets"
 #: workspace/plasma/scriptengines/google_gadgets/plasma-packagestructure-googlegadgets.desktop:48
 msgctxt "Comment"
 msgid "Google Desktop Gadget"
-msgstr ""
+msgstr "Google Desktop Gadget"
 
 #: workspace/plasma/scriptengines/google_gadgets/plasma-scriptengine-googlegadgets.desktop:2
 msgctxt "Name"
@@ -10819,7 +10712,7 @@ msgstr "Python উইজেট"
 #: workspace/plasma/scriptengines/python/plasma-scriptengine-applet-python.desktop:59
 msgctxt "Comment"
 msgid "Plasma widget support written in Python"
-msgstr ""
+msgstr "Python সহযোগে নির্মিত Plasma উইজেট সমর্থন ব্যবস্থা"
 
 #: workspace/plasma/scriptengines/python/plasma-scriptengine-dataengine-python.desktop:2
 msgctxt "Name"
@@ -10829,7 +10722,7 @@ msgstr "Python ডাটা ইঞ্জিন"
 #: workspace/plasma/scriptengines/python/plasma-scriptengine-dataengine-python.desktop:59
 msgctxt "Comment"
 msgid "Plasma data engine support for Python"
-msgstr ""
+msgstr "Python-র জন্য সমর্থিত Plasma ডাটা ইঞ্জিন"
 
 #: workspace/plasma/scriptengines/qedjescript/plasma-appletscript-qedje.desktop:2
 msgctxt "Name"
@@ -10854,7 +10747,7 @@ msgstr "QEdje Gadget"
 #: workspace/plasma/scriptengines/ruby/examples/applets/clock/metadata.desktop:2
 msgctxt "Name"
 msgid "Ruby Analog Clock"
-msgstr ""
+msgstr "Ruby অ্যানালগ ঘড়ি"
 
 #: workspace/plasma/scriptengines/ruby/examples/applets/tiger/metadata.desktop:43
 msgctxt "Comment"
@@ -10869,7 +10762,7 @@ msgstr "Ruby ওয়েব ব্রাউজার"
 #: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia_albums/metadata.desktop:2
 msgctxt "Name"
 msgid "DBpedia queries"
-msgstr ""
+msgstr "DBpedia-র কোয়েরি"
 
 #: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia_albums/metadata.desktop:57
 msgctxt "Comment"
@@ -10931,22 +10824,22 @@ msgstr "ওয়েব উইজেট"
 #: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:64
 msgctxt "Comment"
 msgid "Webpage widget using HTML and JavaScript"
-msgstr ""
+msgstr "HTML ও JavaScript প্রয়োগকারী ওয়েব-পেজ উইজেট"
 
 #: workspace/plasma/shells/desktop/plasma-desktop.desktop:4
 msgctxt "Name"
 msgid "Plasma Desktop Workspace"
-msgstr ""
+msgstr "Plasma ডেস্কটপ কর্মক্ষেত্র"
 
 #: workspace/plasma/tools/desktopthemedetails/desktopthemedetails.desktop:12
 msgctxt "Name"
 msgid "Desktop Theme Details"
-msgstr ""
+msgstr "ডেস্কটপ থিমের বিবরণ"
 
 #: workspace/plasma/tools/desktopthemedetails/desktopthemedetails.desktop:72
 msgctxt "Comment"
 msgid "Customize individual desktop theme items"
-msgstr ""
+msgstr "ডেস্কটপ থিমের স্বত্বন্ত্র সামগ্রী স্বনির্ধারিত করুন"
 
 #: workspace/plasma/wallpapers/color/plasma-wallpaper-color.desktop:2
 msgctxt "Name"
@@ -10967,7 +10860,7 @@ msgstr "স্লাইড-শো"
 #: workspace/PolicyKit-kde/authorization/kcm_pkk_authorization.desktop:12
 msgctxt "Name"
 msgid "PolicyKit Authorization"
-msgstr ""
+msgstr "PolicyKit-র অনুমেদন"
 
 #: workspace/PolicyKit-kde/authorization/kcm_pkk_authorization.desktop:49
 msgctxt "Comment"
@@ -11051,7 +10944,7 @@ msgstr ""
 #: workspace/powerdevil/powerdevil.notifyrc:839
 msgctxt "Name"
 msgid "AC adaptor plugged in"
-msgstr ""
+msgstr "AC অ্যাডাপটার সংযোগ করা হয়েছে"
 
 #: workspace/powerdevil/powerdevil.notifyrc:900
 msgctxt "Comment"
@@ -11061,7 +10954,7 @@ msgstr ""
 #: workspace/powerdevil/powerdevil.notifyrc:967
 msgctxt "Name"
 msgid "AC adaptor unplugged"
-msgstr ""
+msgstr "AC অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
 
 #: workspace/powerdevil/powerdevil.notifyrc:1029
 msgctxt "Comment"
@@ -11071,22 +10964,22 @@ msgstr ""
 #: workspace/powerdevil/powerdevil.notifyrc:1096
 msgctxt "Name"
 msgid "Job error"
-msgstr ""
+msgstr "কর্ম সংক্রান্ত ত্রুটি"
 
 #: workspace/powerdevil/powerdevil.notifyrc:1156
 msgctxt "Comment"
 msgid "There was an error while performing a job"
-msgstr ""
+msgstr "কর্ম সঞ্চালনকালে ত্রুটি উৎপন্ন হয়েছে"
 
 #: workspace/powerdevil/powerdevil.notifyrc:1221
 msgctxt "Name"
 msgid "Profile Changed"
-msgstr ""
+msgstr "প্রোফাইল পরিবর্তিত হয়েছে"
 
 #: workspace/powerdevil/powerdevil.notifyrc:1281
 msgctxt "Comment"
 msgid "The profile was changed"
-msgstr ""
+msgstr "প্রোফাইল পরিবর্তিত হয়েছে"
 
 #: workspace/powerdevil/powerdevil.notifyrc:1345
 msgctxt "Name"
@@ -11103,12 +10996,12 @@ msgstr ""
 #: workspace/powerdevil/powerdevil.notifyrc:1454
 msgctxt "Name"
 msgid "Internal PowerDevil Error"
-msgstr ""
+msgstr "PowerDevil-র অভ্যন্তরীণ ত্রুটি"
 
 #: workspace/powerdevil/powerdevil.notifyrc:1512
 msgctxt "Comment"
 msgid "PowerDevil has triggered an internal error"
-msgstr ""
+msgstr "PowerDevil দ্বারা একটি অভ্যন্তরীণ ত্রুটি উৎপন্ন করা হয়েছে"
 
 #: workspace/powerdevil/powerdevil.notifyrc:1573
 msgctxt "Name"
@@ -11153,7 +11046,7 @@ msgstr ""
 #: workspace/solid/networking/kded/networkstatus.desktop:2
 msgctxt "Name"
 msgid "Network Status Daemon"
-msgstr ""
+msgstr "নেটওয়ার্কের অবস্থা সংক্রান্ত ডেমন"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:69
 msgctxt "Comment"
@@ -11170,7 +11063,7 @@ msgstr "NetworkManager"
 #: workspace/solid/networkmanager-0.6/solid_networkmanager.desktop:49
 msgctxt "Comment"
 msgid "Network management using the NetworkManager daemon"
-msgstr ""
+msgstr "NetworkManager ডেমন সহযোগে নেটওয়ার্ক পরিচালন ব্যবস্থা"
 
 #: workspace/solid/networkmanager-0.7/solid_networkmanager07.desktop:6
 msgctxt "Name"
@@ -11180,7 +11073,7 @@ msgstr "NetworkManager 0.7"
 #: workspace/solid/networkmanager-0.7/solid_networkmanager07.desktop:38
 msgctxt "Comment"
 msgid "Network management using the NetworkManager daemon, version 0.7"
-msgstr ""
+msgstr "NetworkManager ডেমন সংস্করণ ০.৭, সহযোগে নেটওয়ার্ক পরিচালন ব্যবস্থা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:3
 msgctxt "Name"
@@ -11211,97 +11104,89 @@ msgstr ""
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:95
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:184
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
 msgctxt "Name"
 msgid "Plugged"
-msgstr "Phluid"
+msgstr "প্লাগ করা হয়েছে"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
 msgctxt "Name"
 msgid "Audio Interface"
-msgstr "নেটওয়ার্ক ইন্টারফেস"
+msgstr "অডিও ইন্টারফেস"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:51
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:185
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
 msgctxt "Name"
 msgid "Device Type"
-msgstr "ডিভাইস"
+msgstr "ডিভাইসের ধরন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:98
 msgctxt "Name"
 msgid "Driver"
-msgstr ""
+msgstr "ড্রাইভার"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:141
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:50
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "DJ-Mixer and Player"
 msgctxt "Name"
 msgid "Driver Handle"
-msgstr "DJ-মিক্সার ও প্লেয়ার"
+msgstr "ড্রাইভারের হ্যান্ডেল"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:182
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Game"
 msgctxt "Name"
 msgid "Name"
-msgstr "খেলা"
+msgstr "নাম"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:273
 msgctxt "Name"
 msgid "Soundcard Type"
-msgstr ""
+msgstr "সাউন্ডকার্ডের ধরন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Battery Monitor"
 msgctxt "Name"
 msgid "Battery"
-msgstr "ব্যাটারি নিরীক্ষণ ব্যবস্থা"
+msgstr "ব্যাটারি"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:51
 msgctxt "Name"
 msgid "Charge Percent"
-msgstr ""
+msgstr "চার্জের পরিমাণের শতাংশ"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:95
 msgctxt "Name"
 msgid "Charge State"
-msgstr ""
+msgstr "চার্জের অবস্থা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:230
 msgctxt "Name"
 msgid "Rechargeable"
-msgstr ""
+msgstr "পুনরায় চার্জের যোগ্য"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:270
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:185
 msgctxt "Name"
 msgid "Type"
-msgstr ""
+msgstr "ধরন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:3
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Clock"
 msgctxt "Name"
 msgid "Block"
-msgstr "ঘড়ি"
+msgstr "ব্লক"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:48
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:50
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
 msgctxt "Name"
@@ -11309,28 +11194,25 @@ msgid "Device"
 msgstr "ডিভাইস"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:95
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
 msgctxt "Name"
 msgid "Major"
-msgstr "Moria"
+msgstr "মেজর"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:136
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
 msgctxt "Name"
 msgid "Minor"
-msgstr "Moria"
+msgstr "মাইনর"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Bhutan"
 msgctxt "Name"
 msgid "Button"
-msgstr "ভুটান"
+msgstr "বাটন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:57
 msgctxt "Name"
@@ -11340,66 +11222,59 @@ msgstr ""
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:144
 msgctxt "Name"
 msgid "State Value"
-msgstr ""
+msgstr "অবস্থাসূচক মান"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Cameroon"
 msgctxt "Name"
 msgid "Camera"
-msgstr "ক্যামেরুণ"
+msgstr "ক্যামেরা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:96
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:96
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:83
 msgctxt "Name"
 msgid "Supported Drivers"
-msgstr ""
+msgstr "সমর্থিত ড্রাইভার"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:142
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:142
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Protocols"
 msgctxt "Name"
 msgid "Supported Protocols"
-msgstr "প্রোটোকল"
+msgstr "সমর্থিত প্রোটোকল"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
 msgctxt "Name"
 msgid "Dvb Interface"
-msgstr "নেটওয়ার্ক ইন্টারফেস"
+msgstr "Dvb ইন্টারফেস"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:97
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Device Notifier"
 msgctxt "Name"
 msgid "Device Adapter"
-msgstr "ডিভাইসের সূচনা ব্যবস্থা"
+msgstr "ডিভাইস অ্যাডাপ্টার"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:141
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Help Index"
 msgctxt "Name"
 msgid "Device Index"
-msgstr "সহায়িকার ইন্ডেক্স"
+msgstr "ডিভাইসের ইন্ডেক্স"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-GenericInterface.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
 msgctxt "Name"
 msgid "Generic Interface"
-msgstr "নেটওয়ার্ক ইন্টারফেস"
+msgstr "সাধারণ ইন্টারফেস"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
 msgctxt "Name"
@@ -11409,286 +11284,263 @@ msgstr "নেটওয়ার্ক ইন্টারফেস"
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:51
 msgctxt "Name"
 msgid "Hw Address"
-msgstr ""
+msgstr "হার্ডওয়্যার ঠিকানা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:97
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Dice Game"
 msgctxt "Name"
 msgid "Iface Name"
-msgstr "পাশার খেলা"
+msgstr "ইন্টারফেসের নাম"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:142
 msgctxt "Name"
 msgid "Mac Address"
-msgstr ""
+msgstr "Mac ঠিকানা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:234
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Circles"
 msgctxt "Name"
 msgid "Wireless"
-msgstr "বৃত্ত"
+msgstr "বেতার"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:3
 msgctxt "Name"
 msgid "Optical Disc"
-msgstr ""
+msgstr "অপ্টিক্যাল ডিস্ক"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:52
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Appearance"
 msgctxt "Name"
 msgid "Appendable"
-msgstr "চেহারাছবি"
+msgstr "সংযোজনযোগ্য"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:96
 msgctxt "Name"
 msgid "Available Content"
-msgstr ""
+msgstr "উপলব্ধ সামগ্রী"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:140
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Plan"
 msgctxt "Name"
 msgid "Blank"
-msgstr "Plan"
+msgstr "ফাঁকা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:186
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Audacity"
 msgctxt "Name"
 msgid "Capacity"
-msgstr "Audacity"
+msgstr "ধারণক্ষমতা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:232
 msgctxt "Name"
 msgid "Disc Type"
-msgstr ""
+msgstr "ডিস্কের ধরন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:278
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:47
 msgctxt "Name"
 msgid "Fs Type"
-msgstr ""
+msgstr "ফাইল-সিস্টেমের ধরন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:323
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:92
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Iagno"
 msgctxt "Name"
 msgid "Ignored"
-msgstr "Iagno"
+msgstr "উপেক্ষিত"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:366
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:135
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Panel"
 msgctxt "Name"
 msgid "Label"
-msgstr "প্যানেল"
+msgstr "লেবেল"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:456
 msgctxt "Name"
 msgid "Rewritable"
-msgstr ""
+msgstr "পুনরায় লিখনযোগ্য"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:500
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:225
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Belize"
 msgctxt "Name"
 msgid "Size"
-msgstr "বেলিজে"
+msgstr "মাপ"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:547
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:272
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Pager"
 msgctxt "Name"
 msgid "Usage"
-msgstr "পেজার"
+msgstr "ব্যবহার"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:592
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:317
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
 msgctxt "Name"
 msgid "Uuid"
-msgstr "Phluid"
+msgstr "Uuid"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:3
 msgctxt "Name"
 msgid "Optical Drive"
-msgstr ""
+msgstr "অপ্টিক্যাল ড্রাইভ"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:50
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:47
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Belarus"
 msgctxt "Name"
 msgid "Bus"
-msgstr "বেলারুস"
+msgstr "বাস"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:84
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:81
 msgctxt "Name"
 msgid "Drive Type"
-msgstr ""
+msgstr "ড্রাইভের ধরন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:130
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:127
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Portugal"
 msgctxt "Name"
 msgid "Hotpluggable"
-msgstr "পোর্টুগাল"
+msgstr "হট-প্লাগ করার যোগ্য"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:215
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Spread Sheet"
 msgctxt "Name"
 msgid "Read Speed"
-msgstr "স্প্রেড-শিট"
+msgstr "পড়ার গতি"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:261
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:212
 msgctxt "Name"
 msgid "Removable"
-msgstr ""
+msgstr "অপসারণযোগ্য"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:304
 msgctxt "Name"
 msgid "Supported Media"
-msgstr ""
+msgstr "সমর্থিত মিডিয়া"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:348
 msgctxt "Name"
 msgid "Write Speed"
-msgstr ""
+msgstr "লেখার গতি"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:393
 msgctxt "Name"
 msgid "Write Speeds"
-msgstr ""
+msgstr "লেখার গতি"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:3
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Multimedia Player"
 msgctxt "Name"
 msgid "Portable Media Player"
-msgstr "মাল্টি-মিডিয়া প্লেয়ার"
+msgstr "পোর্টেবল মিডিয়া প্লেয়ার"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:88
 msgctxt "Name"
 msgid "Can Change Frequency"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি পরিবর্তন করা যাবে"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:132
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Input Actions"
 msgctxt "Name"
 msgid "Instruction Sets"
-msgstr "ইনপুট সংক্রান্ত কর্ম"
+msgstr "নির্দেশাবলী"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:175
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Mac Scheme"
 msgctxt "Name"
 msgid "Max Speed"
-msgstr "Mac স্কিম"
+msgstr "সর্বাধিক গতি"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:222
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Niue"
 msgctxt "Name"
 msgid "Number"
-msgstr "নিউ"
+msgstr "সংখ্যা"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:3
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
 msgctxt "Name"
 msgid "Serial Interface"
-msgstr "নেটওয়ার্ক ইন্টারফেস"
+msgstr "সিরিয়াল ইন্টারফেস"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:136
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Forte"
 msgctxt "Name"
 msgid "Port"
-msgstr "Forte"
+msgstr "পোর্ট"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:169
 msgctxt "Name"
 msgid "Serial Type"
-msgstr ""
+msgstr "সিরিয়ালের ধরন"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:3
-#, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Remote Access"
 msgctxt "Name"
 msgid "Storage Access"
-msgstr "দূরবর্তী অবস্থান থেকে ব্যবহারের সুবিধা"
+msgstr "সংগ্রহস্থলের ব্যবহার"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:48
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Accessibility"
 msgctxt "Name"
 msgid "Accessible"
-msgstr "বিশেষ ব্যবহারের সহায়তা"
+msgstr "ব্যবহারযোগ্য"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:90
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "File"
 msgctxt "Name"
 msgid "File Path"
-msgstr "ফাইল"
+msgstr "ফাইলের পাথ"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:3
 msgctxt "Name"
 msgid "Storage Drive"
-msgstr ""
+msgstr "সংগ্রহের ড্রাইভ"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:3
 msgctxt "Name"
 msgid "Storage Volume"
-msgstr ""
+msgstr "সংগ্রহের ভলিউম"
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:3
 msgctxt "Name"
 msgid "Video"
-msgstr ""
+msgstr "ভিডিও"
 
 #: workspace/solid/solid-actions-kcm/solid-actions.desktop:13
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Preset Actions"
 msgctxt "Name"
 msgid "Device Actions"
-msgstr "পূর্বনির্ধারিত কর্ম"
+msgstr "ডিভাই সংক্রান্ত কর্ম"
 
 #: workspace/solid/solid-actions-kcm/solid-actions.desktop:58
 msgctxt "Comment"
@@ -11700,7 +11552,7 @@ msgstr ""
 #: workspace/solid/wicd/solid_wicd.desktop:7
 msgctxt "Name"
 msgid "Wicd"
-msgstr ""
+msgstr "Wicd"
 
 #: workspace/solid/wicd/solid_wicd.desktop:11
 msgctxt "Comment"
@@ -11725,7 +11577,7 @@ msgstr ""
 #: workspace/systemsettings/categories/settings-advanced-user-settings.desktop:8
 msgctxt "Name"
 msgid "Advanced User Settings"
-msgstr ""
+msgstr "উন্নত ব্যবহারকারী সংক্রান্ত বৈশিষ্ট্য"
 
 #: workspace/systemsettings/categories/settings-bluetooth.desktop:8
 msgctxt "Name"
@@ -11738,7 +11590,6 @@ msgid "Computer Administration"
 msgstr "কম্পিউটার অ্যাডমিনিস্ট্রেশন"
 
 #: workspace/systemsettings/categories/settings-general.desktop:9
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "General"
 msgctxt "Name|Settings for common user needs (tab in System Settings)."
@@ -11788,7 +11639,7 @@ msgstr "যৌথ ব্যবহার"
 #: workspace/systemsettings/categories/systemsettingscategory.desktop:4
 msgctxt "Name"
 msgid "System Settings Category"
-msgstr ""
+msgstr "সিস্টেমের বৈশিষ্ট্য সংক্রান্ত বিভাগ"
 
 #: workspace/systemsettings/classic/settings-classic-view.desktop:9
 msgctxt "Name"
@@ -11801,20 +11652,18 @@ msgid "A Classic KDE 3 KControl style system settings view."
 msgstr ""
 
 #: workspace/systemsettings/core/systemsettingsview.desktop:4
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "System Settings"
 msgctxt "Name"
 msgid "System Settings View"
-msgstr "সিস্টেম সংক্রান্ত বৈশিষ্ট্য"
+msgstr "সিস্টেমের বৈশিষ্ট্যের প্রদর্শন"
 
 #: workspace/systemsettings/icons/settings-icon-view.desktop:9
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Font Viewer"
 msgctxt "Name"
 msgid "Icon View"
-msgstr "ফন্ট প্রদর্শক"
+msgstr "আইকনের প্রদর্শন"
 
 #: workspace/systemsettings/icons/settings-icon-view.desktop:60
 msgctxt "Comment"
@@ -11824,7 +11673,7 @@ msgstr ""
 #: workspace/wallpapers/Aghi/metadata.desktop:2
 msgctxt "Name"
 msgid "Aghi"
-msgstr ""
+msgstr "Aghi"
 
 #: workspace/wallpapers/Atra_Dot/metadata.desktop:2
 msgctxt "Name"
@@ -11847,12 +11696,11 @@ msgid "EOS"
 msgstr "EOS"
 
 #: workspace/wallpapers/Evening/metadata.desktop:2
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Benin"
 msgctxt "Name"
 msgid "Evening"
-msgstr "বেনিন"
+msgstr "বিকেল"
 
 #: workspace/wallpapers/Fields_of_Peace/metadata.desktop:2
 msgctxt "Name"
@@ -11894,240 +11742,3 @@ msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
 
-#~ msgctxt "Name"
-#~ msgid "Blue Curl"
-#~ msgstr "নীলাভ ঘূর্ণি"
-
-#~ msgctxt "Name"
-#~ msgid "Flower Drops"
-#~ msgstr "ফুলের ছোঁয়া"
-
-#~ msgctxt "Name"
-#~ msgid "File Manager"
-#~ msgstr "ফাইল পরিচালন ব্যবস্থা"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Mozilla 1.7 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Mozilla 1.7)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Mozilla 1.2.1 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Mozilla 1.2.1)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Mozilla 1.7 on Windows XP)"
-#~ msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
-
-#~ msgctxt "Name"
-#~ msgid "Developer"
-#~ msgstr "ডিভেলপর"
-
-#~ msgctxt "Comment"
-#~ msgid "Settings preferred for developers"
-#~ msgstr "ডিভেলপরদের ক্ষেত্রে পছন্দসই বৈশিষ্ট্য"
-
-#~ msgctxt "Name"
-#~ msgid ""
-#~ "The application %progname (%appname), pid %pid, crashed and caused the "
-#~ "signal %signum (%signame)."
-#~ msgstr ""
-#~ "%progname (%appname) অ্যাপ্লিকেশন, pid %pid, বিপর্যস্ত হয়েছে ও সিগন্যাল %"
-#~ "signum (%signame) উৎপন্ন হয়েছে।"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid ""
-#~| "You might want to fix your program. Take a look at the backtrace tab."
-#~ msgctxt "Name"
-#~ msgid ""
-#~ "You might want to fix your program. Take a look at the backtrace below."
-#~ msgstr "সম্ভবত প্রোগ্রাম সংশোধন করা প্রয়োজন। অনুগ্রহ করে backtrace ট্যাব দেখুন।"
-
-#~ msgctxt "Name"
-#~ msgid "SIGILL"
-#~ msgstr "SIGILL"
-
-#~ msgctxt "Comment"
-#~ msgid "Illegal instruction."
-#~ msgstr "অবৈধ নির্দেশ।"
-
-#~ msgctxt "Name"
-#~ msgid "SIGABRT"
-#~ msgstr "SIGABRT"
-
-#~ msgctxt "Comment"
-#~ msgid "Aborted."
-#~ msgstr "পরিত্যক্ত।"
-
-#~ msgctxt "Name"
-#~ msgid "SIGFPE"
-#~ msgstr "SIGFPE"
-
-#~ msgctxt "Comment"
-#~ msgid "Floating point exception."
-#~ msgstr "ফ্লোটিং পয়েন্ট এক্সেপশন।"
-
-#~ msgctxt "Name"
-#~ msgid "SIGSEGV"
-#~ msgstr "SIGSEGV"
-
-#~ msgctxt "Name"
-#~ msgid "Unknown"
-#~ msgstr "অজানা"
-
-#~ msgctxt "Comment"
-#~ msgid "This signal is unknown."
-#~ msgstr "অজানা সিগন্যাল"
-
-#~ msgctxt "Name"
-#~ msgid "End user"
-#~ msgstr "ব্যবহারকারী"
-
-#~ msgctxt "Comment"
-#~ msgid "Settings preferred for end users"
-#~ msgstr "ব্যবহারকারীদের জন্য পছন্দসই বৈশিষ্ট্য"
-
-#~ msgctxt "Comment"
-#~ msgid "Sorry, I do not know this signal."
-#~ msgstr "দুঃখিত, এই সিগন্যালটি পরিচিত নয়।"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows Shares"
-#~ msgctxt "Keywords"
-#~ msgid "Windows and Tasks"
-#~ msgstr "Windows শেয়ার"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Date and Time"
-#~ msgctxt "Keywords"
-#~ msgid "Date and Time"
-#~ msgstr "তারিখ ও সময়"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Sound information"
-#~ msgctxt "Keywords"
-#~ msgid "System Information"
-#~ msgstr "আওয়াজ সংক্রান্ত তথ্য"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System"
-#~ msgctxt "Keywords"
-#~ msgid "File System"
-#~ msgstr "সিস্টেম"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
-#~ msgctxt "Keywords"
-#~ msgid "Application Launchers"
-#~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
-#~ msgctxt "Keywords"
-#~ msgid "Online Services"
-#~ msgstr "Dolphin প্রদর্শন"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System"
-#~ msgctxt "Keywords"
-#~ msgid "System"
-#~ msgstr "সিস্টেম"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Utilities"
-#~ msgctxt "Keywords"
-#~ msgid "Utilities"
-#~ msgstr "বিবিধ সামগ্রী"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Examples"
-#~ msgctxt "Keywords"
-#~ msgid "Examples"
-#~ msgstr "উদাহরণ"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python Date and Time"
-#~ msgctxt "Keywords"
-#~ msgid "Python Date and Time"
-#~ msgstr "Python তারিখ ও সময়"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Applix"
-#~ msgctxt "Keywords"
-#~ msgid "Applet"
-#~ msgstr "Applix"
-
-#~ msgctxt "Comment"
-#~ msgid "Network information for Plasmoids"
-#~ msgstr "Plasmoids-র জন্য নেটওয়ার্ক সংক্রান্ত তথ্য"
-
-#~ msgctxt "Comment"
-#~ msgid "System information for Plasmoids"
-#~ msgstr "Plasmoids-র জন্য সিস্টেম সংক্রান্ত তথ্য"
-
-#, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://bugs.kde.org/simple_search.cgi?id=\\\\{1}+\\\\{2}+\\\\{3}+\\\\{4}+"
-#~| "\\\\{5}+\\\\{6}+\\\\{7}+\\\\{8}+\\\\{9}"
-#~ msgctxt "Query"
-#~ msgid ""
-#~ "http://bugs.kde.org/buglist.cgi?quicksearch=\\\\{1}+\\\\{2}+\\\\{3}+\\"
-#~ "\\{4}+\\\\{5}+\\\\{6}+\\\\{7}+\\\\{8}+\\\\{9}"
-#~ msgstr ""
-#~ "http://bugs.kde.org/simple_search.cgi?id=\\\\{1}+\\\\{2}+\\\\{3}+\\\\{4}+"
-#~ "\\\\{5}+\\\\{6}+\\\\{7}+\\\\{8}+\\\\{9}"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE write daemon"
-#~ msgctxt "Name"
-#~ msgid "KDED Systemtray daemon"
-#~ msgstr "KDE write ডেমন"
-
-#~ msgctxt "Name"
-#~ msgid "Remote Encoding Plugin"
-#~ msgstr "দূরবর্তী এনকোডিং প্লাগ-ইন"
-
-#~ msgctxt "Comment"
-#~ msgid "Remote Encoding Plugin for Konqueror"
-#~ msgstr "Konqueror-র জন্য দূরবর্তী এনকোডিং প্লাগ-ইন"
-
-#~ msgctxt "Comment"
-#~ msgid "Oxygen Team"
-#~ msgstr "Oxygen দল"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure Hotkey settings"
-#~ msgstr "হট-কি সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Firefox 1.5 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 1.5)"
-
-#~ msgctxt "Name"
-#~ msgid "Open with Dolphin"
-#~ msgstr "Dolphin সহযোগে খোলা হবে"
-
-#~ msgctxt "Comment"
-#~ msgid "WeatherEngine Ion"
-#~ msgstr "WeatherEngine Ion"
-
-#~ msgctxt "Name"
-#~ msgid "Colorado Farm"
-#~ msgstr "কোলোরাডোর ফার্ম"
-
-#~ msgctxt "Name"
-#~ msgid "Ruby Package Structure"
-#~ msgstr "Ruby প্যাকেজের গঠন"
