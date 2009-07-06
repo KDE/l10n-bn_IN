@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
-# Runa Bhattacharjee <runab@redhat.com>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-10 12:21+0200\n"
-"PO-Revision-Date: 2008-12-29 16:21+0530\n"
+"PO-Revision-Date: 2009-07-06 16:06+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,28 +24,24 @@ msgid "Unsorted"
 msgstr "অবিন্যাস্ত"
 
 #: folderview.cpp:506
-#, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Left to Right"
-msgstr "উপর থেকে নীচে"
+msgstr "উপর থেকে নীচে, বাঁদিক থেকে ডানদিকে"
 
 #: folderview.cpp:507
-#, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Right to Left"
-msgstr "উপর থেকে নীচে"
+msgstr "উপর থেকে নীচে, ডানদিক থেকে বাঁদিকে"
 
 #: folderview.cpp:508
-#, fuzzy
 #| msgid "Left to Right"
 msgid "Left to Right, Top to Bottom"
-msgstr "বাঁদিক থেকে ডানদিকে"
+msgstr "বাঁদিক থেকে ডানদিকে, উপর থেকে নীচে"
 
 #: folderview.cpp:509
-#, fuzzy
 #| msgid "Left to Right"
 msgid "Right to Left, Top to Bottom"
-msgstr "বাঁদিক থেকে ডানদিকে"
+msgstr "ডানদিক থেকে বাঁদিকে, উপর থেকে নীচে"
 
 #: folderview.cpp:547
 msgctxt ""
@@ -82,11 +78,11 @@ msgstr "নতুন করে লোড (&R)"
 
 #: folderview.cpp:1255
 msgid "&Refresh Desktop"
-msgstr ""
+msgstr "ডেস্কটপ নতুন করে প্রদর্শন (&R)"
 
 #: folderview.cpp:1255
 msgid "&Refresh View"
-msgstr ""
+msgstr "নতুন করে প্রদর্শন (&R)"
 
 #: folderview.cpp:1263 popupview.cpp:232
 msgid "&Rename"
@@ -102,19 +98,19 @@ msgstr "মুছে ফেলুন (&D)"
 
 #: folderview.cpp:1291
 msgid "Add Panel"
-msgstr ""
+msgstr "প্যানেল যোগ করুন"
 
 #: folderview.cpp:1315
 msgid "Run Command..."
-msgstr ""
+msgstr "কমান্ড সঞ্চালনা..."
 
 #: folderview.cpp:1319
 msgid "Lock Screen"
-msgstr ""
+msgstr "পর্দা লক করুন"
 
 #: folderview.cpp:1323
 msgid "Leave..."
-msgstr ""
+msgstr "প্রস্থান..."
 
 #: folderview.cpp:1333
 msgid "Align to Grid"
@@ -123,7 +119,7 @@ msgstr ""
 #: folderview.cpp:1338
 msgctxt "Icons on the desktop"
 msgid "Lock in Place"
-msgstr ""
+msgstr "চিহ্নিত স্থানে আটক করুন"
 
 #: folderview.cpp:1345
 msgctxt "Sort icons"
@@ -189,7 +185,7 @@ msgstr[1] "%1-টি ফাইল।"
 
 #: iconview.cpp:1840
 msgid "Set as &Wallpaper"
-msgstr ""
+msgstr "ওয়াল-পেপার রূপে ধার্য করুন (&W)"
 
 #. i18n: file: folderviewDisplayConfig.ui:24
 #. i18n: ectx: property (text), widget (QLabel, lblCustomLabel)
@@ -228,8 +224,7 @@ msgstr "ক্ষুদ্র"
 #. i18n: file: folderviewDisplayConfig.ui:95
 #. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
 #: rc.cpp:20
-msgid ""
-"Use this slider to increase or decrease the size of the icons in the view."
+msgid "Use this slider to increase or decrease the size of the icons in the view."
 msgstr ""
 
 #. i18n: file: folderviewDisplayConfig.ui:117
@@ -250,14 +245,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showPreviews)
 #: rc.cpp:29
 msgid "Show previews"
-msgstr ""
+msgstr "পূর্বদৃশ্য প্রদর্শন করা হবে"
 
 #. i18n: file: folderviewDisplayConfig.ui:154
 #. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
 #: rc.cpp:32
-msgid ""
-"Click this button to choose for which types of files previews will be shown."
-msgstr ""
+msgid "Click this button to choose for which types of files previews will be shown."
+msgstr "কোনো ধরনের ফাইলের পূর্বদৃশ্য প্রদর্শন করা হবে তা নির্ধারণের জন্য এই বাটন ক্লিক করুন।"
 
 #. i18n: file: folderviewDisplayConfig.ui:157
 #. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
@@ -283,7 +277,7 @@ msgstr "হরফের রং:"
 msgid ""
 "Click this button to choose the color which is used for the text labels in "
 "the view."
-msgstr ""
+msgstr "প্রদর্শন ক্ষেত্রের মধ্যে টেক্সট লেবেলের রং নির্বাচনের জন্য এই বাটন ক্লিক করুন।"
 
 #. i18n: file: folderviewDisplayConfig.ui:231
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -297,7 +291,7 @@ msgstr "পংক্তি সংখ্যা:"
 msgid ""
 "Use this control to choose how many lines of text will be shown below the "
 "icons."
-msgstr ""
+msgstr "আইকনের নীচে কতটি লেখার পংক্তি প্রদর্শন করা হবে তা নির্ধারণের জন্য এই নিয়ন্ত্রণ ব্যবস্থা প্রয়োগ করুন।"
 
 #. i18n: file: folderviewDisplayConfig.ui:284
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
@@ -317,19 +311,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, drawShadows)
 #: rc.cpp:60
 msgid "Show text shadows"
-msgstr ""
+msgstr "ছায়াসহ টেক্সট প্রদর্শন করা হবে"
 
 #. i18n: file: folderviewDisplayConfig.ui:297
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:63
 msgid "Icon Arrangement"
-msgstr ""
+msgstr "আইকনের বিন্যাস"
 
 #. i18n: file: folderviewDisplayConfig.ui:310
 #. i18n: ectx: property (text), widget (QLabel, flowLabel)
 #: rc.cpp:66
 msgid "Arrange icons:"
-msgstr ""
+msgstr "আইন বিন্যাস্ত করুন:"
 
 #. i18n: file: folderviewDisplayConfig.ui:323
 #. i18n: ectx: property (whatsThis), widget (QComboBox, flowCombo)
@@ -384,7 +378,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, lockInPlace)
 #: rc.cpp:91
 msgid "Lock icons in place"
-msgstr ""
+msgstr "চিহ্নিত স্থানে আইকন আটক করুন"
 
 #. i18n: file: folderviewFilterConfig.ui:34
 #. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
@@ -417,13 +411,13 @@ msgstr "সকল ফাইল প্রদর্শন করা হবে"
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
 #: rc.cpp:105
 msgid "Show Files Matching"
-msgstr ""
+msgstr "চিহ্নিত মানের সাথে মেলানো ফাইল প্রদর্শন করা হবে"
 
 #. i18n: file: folderviewFilterConfig.ui:51
 #. i18n: ectx: property (text), item, widget (QComboBox, filterType)
 #: rc.cpp:108
 msgid "Hide Files Matching"
-msgstr ""
+msgstr "চিহ্নিত মানের সাথে মেলানো ফাইল আড়াল করা হবে"
 
 #. i18n: file: folderviewFilterConfig.ui:138
 #. i18n: ectx: property (text), widget (QPushButton, selectAll)
@@ -453,13 +447,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:122
 msgid "<a href=\"null\">Cannot See Any Files?</a>"
-msgstr ""
+msgstr "<a href=\"null\">কোনো ফাইল দেখা যায়নি কি?</a>"
 
 #. i18n: file: folderviewFilterConfig.ui:184
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
 #: rc.cpp:125
 msgid "Search file type"
-msgstr ""
+msgstr "ফাইলের ধরন অনুসন্ধান করুন"
 
 #. i18n: file: folderviewFilterConfig.ui:194
 #. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
@@ -471,14 +465,13 @@ msgstr "ফাইলের ধরন:"
 #. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
 #: rc.cpp:131
 msgid "File name pattern:"
-msgstr ""
+msgstr "ফাইলের নামের বিন্যাস:"
 
 #. i18n: file: folderviewFilterConfig.ui:214
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
 #: rc.cpp:134
 msgid "Space-separated list of extensions, e.g. *.txt *.od*"
-msgstr ""
-"শূণ্যস্থান দ্বারা বিভাজিত, ফাইল এক্সটেনশনের তালিকা। উদাহরণস্বরূপ, *.txt * .od*"
+msgstr "শূণ্যস্থান দ্বারা বিভাজিত, ফাইল এক্সটেনশনের তালিকা। উদাহরণস্বরূপ, *.txt * .od*"
 
 #. i18n: file: folderviewFilterConfig.ui:217
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
@@ -494,7 +487,7 @@ msgstr ""
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
 #: rc.cpp:140
 msgid "Pattern filter"
-msgstr ""
+msgstr "বিন্যাসের ফিল্টার"
 
 #. i18n: file: folderviewLocationConfig.ui:16
 #. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
@@ -506,7 +499,7 @@ msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন ক
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)
 #: rc.cpp:146
 msgid "Show a place:"
-msgstr ""
+msgstr "একটি স্থান প্রদর্শন:"
 
 #. i18n: file: folderviewLocationConfig.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, showCustomFolder)
@@ -524,52 +517,51 @@ msgstr "এইখানে একটি পাথ অথবা URL লিখু�
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:155
 msgid "Check the file types you want icon previews for:"
-msgstr ""
+msgstr "আইকন দ্বারা পূর্বদৃশ্যের জন্য ফাইলের ধরন নির্বাচন করুন:"
 
 #: tooltipwidget.cpp:111
 msgctxt "Music"
 msgid "Artist:"
-msgstr ""
+msgstr "শিল্পী:"
 
 #: tooltipwidget.cpp:114
 msgctxt "Music"
 msgid "Title:"
-msgstr ""
+msgstr "শিরোনাম:"
 
 #: tooltipwidget.cpp:117
 msgctxt "Music"
 msgid "Album:"
-msgstr ""
+msgstr "সংকলন:"
 
 #: tooltipwidget.cpp:139
 #, kde-format
 msgid "1 MPixel"
 msgid_plural "%1 MPixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "১ মেগাপিক্সেল"
+msgstr[1] "%1 মেগাপিক্সেল"
 
 #: tooltipwidget.cpp:141
-#, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size:"
-msgstr "মাপ অনুযায়ী"
+msgstr "মাপ:"
 
 #: tooltipwidget.cpp:144
 msgid "Camera:"
-msgstr ""
+msgstr "ক্যামেরা:"
 
 #: tooltipwidget.cpp:148
 #, kde-format
 msgctxt "Length in millimeters"
 msgid "%1 mm"
-msgstr ""
+msgstr "%1 মিলিমিটার"
 
 #: tooltipwidget.cpp:151
 #, kde-format
 msgctxt "In photography"
 msgid "35 mm equivalent: %1 mm"
-msgstr ""
+msgstr "৩৫ মিলিমিটারের সমতূল্য: %1 mm"
 
 #: tooltipwidget.cpp:153
 msgctxt "On a camera"
@@ -579,51 +571,52 @@ msgstr ""
 #: tooltipwidget.cpp:163
 msgctxt "On a camera"
 msgid "Exposure Time:"
-msgstr ""
+msgstr "এক্সপোসারের সময়:"
 
 #: tooltipwidget.cpp:164
 #, kde-format
 msgctxt "Fraction of a second, or number of seconds"
 msgid "%1 s"
-msgstr ""
+msgstr "%1 সেকেন্ড"
 
 #: tooltipwidget.cpp:173
 msgctxt "On a camera"
 msgid "Aperture:"
-msgstr ""
+msgstr "অ্যাপারচার"
 
 #: tooltipwidget.cpp:177
 msgctxt "On a camera"
 msgid "ISO Speed:"
-msgstr ""
+msgstr "ISO-র গতি:"
 
 #: tooltipwidget.cpp:182
 msgid "Time:"
-msgstr ""
+msgstr "সময়:"
 
 #: tooltipwidget.cpp:190
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "1 page"
 msgid_plural "%1 pages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "১-টি পৃষ্ঠা"
+msgstr[1] "%1-টি পৃষ্ঠা"
 
 #: tooltipwidget.cpp:191
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 word"
 msgid_plural "%1 words"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "১-টি শব্দ"
+msgstr[1] "%1-টি শব্দ"
 
 #: tooltipwidget.cpp:231
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Inserted as %2 in the message below."
 #| msgid "1 file"
 #| msgid_plural "%1 files"
 msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
-msgstr[0] "একটি ফাইল"
-msgstr[1] "%1-টি ফাইল"
+msgstr[0] "১-টি বস্তু"
+msgstr[1] "%1-টি বস্তু"
+
