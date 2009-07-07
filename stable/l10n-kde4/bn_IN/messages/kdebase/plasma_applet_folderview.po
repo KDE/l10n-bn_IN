@@ -24,22 +24,18 @@ msgid "Unsorted"
 msgstr "অবিন্যাস্ত"
 
 #: folderview.cpp:506
-#| msgid "Top to Bottom"
 msgid "Top to Bottom, Left to Right"
 msgstr "উপর থেকে নীচে, বাঁদিক থেকে ডানদিকে"
 
 #: folderview.cpp:507
-#| msgid "Top to Bottom"
 msgid "Top to Bottom, Right to Left"
 msgstr "উপর থেকে নীচে, ডানদিক থেকে বাঁদিকে"
 
 #: folderview.cpp:508
-#| msgid "Left to Right"
 msgid "Left to Right, Top to Bottom"
 msgstr "বাঁদিক থেকে ডানদিকে, উপর থেকে নীচে"
 
 #: folderview.cpp:509
-#| msgid "Left to Right"
 msgid "Right to Left, Top to Bottom"
 msgstr "ডানদিক থেকে বাঁদিকে, উপর থেকে নীচে"
 
@@ -224,7 +220,8 @@ msgstr "ক্ষুদ্র"
 #. i18n: file: folderviewDisplayConfig.ui:95
 #. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
 #: rc.cpp:20
-msgid "Use this slider to increase or decrease the size of the icons in the view."
+msgid ""
+"Use this slider to increase or decrease the size of the icons in the view."
 msgstr ""
 
 #. i18n: file: folderviewDisplayConfig.ui:117
@@ -250,8 +247,10 @@ msgstr "পূর্বদৃশ্য প্রদর্শন করা হব
 #. i18n: file: folderviewDisplayConfig.ui:154
 #. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
 #: rc.cpp:32
-msgid "Click this button to choose for which types of files previews will be shown."
-msgstr "কোনো ধরনের ফাইলের পূর্বদৃশ্য প্রদর্শন করা হবে তা নির্ধারণের জন্য এই বাটন ক্লিক করুন।"
+msgid ""
+"Click this button to choose for which types of files previews will be shown."
+msgstr ""
+"কোনো ধরনের ফাইলের পূর্বদৃশ্য প্রদর্শন করা হবে তা নির্ধারণের জন্য এই বাটন ক্লিক করুন।"
 
 #. i18n: file: folderviewDisplayConfig.ui:157
 #. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
@@ -291,7 +290,9 @@ msgstr "পংক্তি সংখ্যা:"
 msgid ""
 "Use this control to choose how many lines of text will be shown below the "
 "icons."
-msgstr "আইকনের নীচে কতটি লেখার পংক্তি প্রদর্শন করা হবে তা নির্ধারণের জন্য এই নিয়ন্ত্রণ ব্যবস্থা প্রয়োগ করুন।"
+msgstr ""
+"আইকনের নীচে কতটি লেখার পংক্তি প্রদর্শন করা হবে তা নির্ধারণের জন্য এই নিয়ন্ত্রণ "
+"ব্যবস্থা প্রয়োগ করুন।"
 
 #. i18n: file: folderviewDisplayConfig.ui:284
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
@@ -471,7 +472,8 @@ msgstr "ফাইলের নামের বিন্যাস:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
 #: rc.cpp:134
 msgid "Space-separated list of extensions, e.g. *.txt *.od*"
-msgstr "শূণ্যস্থান দ্বারা বিভাজিত, ফাইল এক্সটেনশনের তালিকা। উদাহরণস্বরূপ, *.txt * .od*"
+msgstr ""
+"শূণ্যস্থান দ্বারা বিভাজিত, ফাইল এক্সটেনশনের তালিকা। উদাহরণস্বরূপ, *.txt * .od*"
 
 #. i18n: file: folderviewFilterConfig.ui:217
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
@@ -542,8 +544,6 @@ msgstr[0] "১ মেগাপিক্সেল"
 msgstr[1] "%1 মেগাপিক্সেল"
 
 #: tooltipwidget.cpp:141
-#| msgctxt "Sort icons"
-#| msgid "By Size"
 msgid "Size:"
 msgstr "মাপ:"
 
@@ -611,12 +611,8 @@ msgstr[1] "%1-টি শব্দ"
 
 #: tooltipwidget.cpp:231
 #, kde-format
-#| msgctxt "Inserted as %2 in the message below."
-#| msgid "1 file"
-#| msgid_plural "%1 files"
 msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "১-টি বস্তু"
 msgstr[1] "%1-টি বস্তু"
-
