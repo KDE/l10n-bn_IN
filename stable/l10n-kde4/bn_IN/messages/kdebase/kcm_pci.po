@@ -709,7 +709,6 @@ msgid "Yes"
 msgstr "হ্যাঁ"
 
 #: kpci_private.h:28
-#| msgid "None"
 msgid "No"
 msgstr "না"
 
@@ -722,7 +721,6 @@ msgid "Unclassified device"
 msgstr "শ্রেণী বহির্ভূত ডিভাইস"
 
 #: kpci_private.h:438 kpci_private.h:472
-#| msgid "Message control"
 msgid "Mass storage controller"
 msgstr ""
 
@@ -731,22 +729,18 @@ msgid "Network controller"
 msgstr "নেটওয়ার্ক নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:440 kpci_private.h:488
-#| msgid "Message control"
 msgid "Display controller"
 msgstr "প্রদর্শন নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:441 kpci_private.h:494
-#| msgid "Message control"
 msgid "Multimedia controller"
 msgstr "মাল্টিমিডিয়া নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:442 kpci_private.h:499
-#| msgid "Message control"
 msgid "Memory controller"
 msgstr "মেমরি নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:443 kpci_private.h:513 kpci_private.h:716
-#| msgid "Bridge status"
 msgid "Bridge"
 msgstr "ব্রিজ"
 
@@ -771,17 +765,14 @@ msgid "Processor"
 msgstr "প্রসেসর"
 
 #: kpci_private.h:449
-#| msgid "CardBus control"
 msgid "Serial bus controller"
 msgstr "সিরিয়াল বাস নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:450 kpci_private.h:573
-#| msgid "Message control"
 msgid "Wireless controller"
 msgstr "বেতার নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:451
-#| msgid "Bridge control"
 msgid "Intelligent controller"
 msgstr ""
 
@@ -798,7 +789,6 @@ msgid "Signal processing controller"
 msgstr "সিগন্যাল প্রসেসিং নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:455
-#| msgid "Device Subclass"
 msgid "Unknown device class"
 msgstr "ডিভাইসের অজানা শ্রেণী"
 
@@ -815,7 +805,6 @@ msgid "Unknown unclassified device"
 msgstr "শ্রেণীবহির্ভূত অজানা ডিভাইস"
 
 #: kpci_private.h:465
-#| msgid "Message control"
 msgid "SCSI storage controller"
 msgstr "SCSI সংগ্রহস্থলের নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -828,7 +817,6 @@ msgid "Floppy disk controller"
 msgstr "ফ্লপি ডিস্ক নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:468
-#| msgid "CardBus control"
 msgid "IPI bus controller"
 msgstr "IPI বাস নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -849,7 +837,6 @@ msgid "Unknown storage controller"
 msgstr "অজানা সংগ্রহস্থলের নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:475
-#| msgid "Bridge control"
 msgid "Ethernet controller"
 msgstr "ইথারনেট নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -870,7 +857,6 @@ msgid "ISDN controller"
 msgstr "ISDN নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:480
-#| msgid "Bridge control"
 msgid "WorldFip controller"
 msgstr "WorldFip নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -891,7 +877,6 @@ msgid "XGA compatible controller"
 msgstr "XGA-র সাথে সুসংগত নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:487
-#| msgid "Control"
 msgid "3D controller"
 msgstr "৩-ডি নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -916,7 +901,6 @@ msgid "Unknown multimedia controller"
 msgstr "অজানা মাল্টি-মিডিয়া নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:497
-#| msgid "Memory"
 msgid "RAM memory"
 msgstr "RAM মেমরি"
 
@@ -957,7 +941,6 @@ msgid "NuBus bridge"
 msgstr "NuBus ব্রিজ"
 
 #: kpci_private.h:509
-#| msgid "CardBus number"
 msgid "CardBus bridge"
 msgstr "CardBus ব্রিজ"
 
@@ -978,12 +961,10 @@ msgid "Unknown bridge"
 msgstr "অজানা ব্রিজ"
 
 #: kpci_private.h:516
-#| msgid "Bridge control"
 msgid "Serial controller"
 msgstr "সিরিয়াল নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:517
-#| msgid "Bridge control"
 msgid "Parallel controller"
 msgstr "প্যারালেল নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -1012,7 +993,6 @@ msgid "PIC"
 msgstr "PIC"
 
 #: kpci_private.h:526
-#| msgid "Message control"
 msgid "DMA controller"
 msgstr "DMA নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -1029,7 +1009,6 @@ msgid "PCI Hot-plug controller"
 msgstr "PCI হট-প্লাগ নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:530
-#| msgid "System error"
 msgid "System peripheral"
 msgstr ""
 
@@ -1038,7 +1017,6 @@ msgid "Unknown system peripheral"
 msgstr ""
 
 #: kpci_private.h:533
-#| msgid "CardBus control"
 msgid "Keyboard controller"
 msgstr "কি-বোর্ড নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -1047,12 +1025,10 @@ msgid "Digitizer Pen"
 msgstr "ডিজিটাইজার পেন"
 
 #: kpci_private.h:535
-#| msgid "Message control"
 msgid "Mouse controller"
 msgstr "মাউস নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:536
-#| msgid "CardBus control"
 msgid "Scanner controller"
 msgstr "স্ক্যানার নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -1089,7 +1065,6 @@ msgid "Alpha"
 msgstr "Alpha"
 
 #: kpci_private.h:549
-#| msgid "Power state"
 msgid "Power PC"
 msgstr "Power PC"
 
@@ -1118,7 +1093,6 @@ msgid "SSA"
 msgstr "SSA"
 
 #: kpci_private.h:557
-#| msgid "Bridge control"
 msgid "USB controller"
 msgstr "USB নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -1127,7 +1101,6 @@ msgid "Fibre channel"
 msgstr "ফাইবার চ্যানেল"
 
 #: kpci_private.h:559
-#| msgid "Bus"
 msgid "SMBus"
 msgstr "SMBus"
 
@@ -1160,7 +1133,6 @@ msgid "Consumer IR controller"
 msgstr ""
 
 #: kpci_private.h:568
-#| msgid "Control"
 msgid "RF controller"
 msgstr "RF নিয়ন্ত্রণ ব্যবস্থা"
 
@@ -1185,7 +1157,6 @@ msgid "Unknown wireless controller"
 msgstr "অজানা বেতার নিয়ন্ত্রণ ব্যবস্থা"
 
 #: kpci_private.h:576
-#| msgid "I/O"
 msgid "I2O"
 msgstr "I2O"
 
@@ -1286,7 +1257,6 @@ msgid "Primary bus towards host CPU"
 msgstr "হোস্ট CPU-র দিকে নির্দেশিত প্রধান বাস"
 
 #: kpci_private.h:617
-#| msgid "Secondary bus reset"
 msgid "Secondary bus towards host CPU"
 msgstr "হোস্ট CPU-র দিকে নির্দেশিত দ্বিতীয় বাস"
 
@@ -1427,7 +1397,6 @@ msgid "Unspecified"
 msgstr "অনির্দিষ্ট"
 
 #: kpci_private.h:666
-#| msgid "Device"
 msgid "USB Device"
 msgstr "USB ডিভাইস"
 
@@ -1468,7 +1437,6 @@ msgid "Vendor specific"
 msgstr "বিক্রেতা অনুযায়ী"
 
 #: kpci_private.h:687
-#| msgid "D1 support"
 msgid "Debug port"
 msgstr "ডিবাগ পোর্ট"
 
@@ -1481,12 +1449,10 @@ msgid "PCI hot-plug"
 msgstr "PCI হট-প্লাগ"
 
 #: kpci_private.h:690
-#| msgid "AGP"
 msgid "AGP x8"
 msgstr "AGP x8"
 
 #: kpci_private.h:691
-#| msgid " - device:"
 msgid "Secure device"
 msgstr "নিরাপদ ডিভাইস"
 
@@ -1511,7 +1477,6 @@ msgid "Slow"
 msgstr "ধীর"
 
 #: kpci_private.h:707
-#| msgid "32-bit"
 msgid "32 bit"
 msgstr "৩২ বিট"
 
@@ -1520,7 +1485,6 @@ msgid "Below 1M"
 msgstr "1M-র থেকে কম"
 
 #: kpci_private.h:709
-#| msgid "64-bit"
 msgid "64 bit"
 msgstr "৬৪ বিট"
 
@@ -1529,7 +1493,6 @@ msgid "Standard"
 msgstr "প্রমিত"
 
 #: kpci_private.h:717
-#| msgid "CardBus number"
 msgid "CardBus"
 msgstr "CardBus"
 
@@ -1644,4 +1607,3 @@ msgstr "১৬-টি ভেক্টর"
 #: kpci_private.h:775
 msgid "32 vectors"
 msgstr "৩২-টি ভেক্টর"
-
