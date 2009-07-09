@@ -18,10 +18,8 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: jobaction.cpp:30, kde-format
-#| msgctxt ""
-#| "%1 is the subject (can be anything) upon which the job is performed"
-#| msgid "The JobView for %1 can't be found"
+#: jobaction.cpp:30
+#, kde-format
 msgctxt "%1 is the subject (can be anything) upon which the job is performed"
 msgid "The JobView for %1 cannot be found"
 msgstr "%1-র ক্ষেত্রে JobView পাওয়া যায়নি"
@@ -29,5 +27,3 @@ msgstr "%1-র ক্ষেত্রে JobView পাওয়া যায়নি"
 #: jobaction.cpp:44
 msgid "Job canceled by user."
 msgstr "কাজটি ব্যবহারকারী বাতিল করেছেন।"
-
-
