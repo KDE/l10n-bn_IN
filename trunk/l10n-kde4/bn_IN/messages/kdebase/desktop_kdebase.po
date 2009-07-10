@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-09 10:27+0000\n"
+"POT-Creation-Date: 2009-07-10 10:06+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -3557,7 +3557,7 @@ msgctxt "Name"
 msgid "Application"
 msgstr "অ্যাপ্লিকেশন"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:8
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:78
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Manuals"
@@ -3565,7 +3565,7 @@ msgctxt "Comment"
 msgid "The application name"
 msgstr "অ্যাপ্লিকেশনের সহায়িকা"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:11
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:81
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -3573,12 +3573,12 @@ msgctxt "Name"
 msgid "Global Shortcut Registration"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:12
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:82
 msgctxt "Comment"
 msgid "A application registered new global shorcuts"
 msgstr ""
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:17
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:87
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -3586,7 +3586,7 @@ msgctxt "Name"
 msgid "Global Shortcut Triggered"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:18
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:88
 msgctxt "Comment"
 msgid "The user triggered a global shortcut"
 msgstr ""
@@ -8895,7 +8895,7 @@ msgctxt "Comment"
 msgid "The KDE Screen Saver"
 msgstr "স্ক্রিন-সেভার"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:14
+#: workspace/krunner/lock/kscreenlocker.notifyrc:17
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen Saver"
@@ -8903,7 +8903,7 @@ msgctxt "Name"
 msgid "Screen saver started"
 msgstr "স্ক্রিন-সেভার"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:23
+#: workspace/krunner/lock/kscreenlocker.notifyrc:29
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -8911,7 +8911,7 @@ msgctxt "Comment"
 msgid "The screen saver has been started"
 msgstr "আবর্জনা বর্জন করা হয়েছে"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:35
+#: workspace/krunner/lock/kscreenlocker.notifyrc:44
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen Saver"
@@ -8919,7 +8919,7 @@ msgctxt "Name"
 msgid "Screen locked"
 msgstr "স্ক্রিন-সেভার"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:44
+#: workspace/krunner/lock/kscreenlocker.notifyrc:56
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -8927,7 +8927,7 @@ msgctxt "Comment"
 msgid "The screen has been locked"
 msgstr "আবর্জনা বর্জন করা হয়েছে"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:56
+#: workspace/krunner/lock/kscreenlocker.notifyrc:71
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen Saver"
@@ -8935,17 +8935,17 @@ msgctxt "Name"
 msgid "Screen saver exited"
 msgstr "স্ক্রিন-সেভার"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:65
+#: workspace/krunner/lock/kscreenlocker.notifyrc:83
 msgctxt "Comment"
 msgid "The screen saver has finished"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:77
+#: workspace/krunner/lock/kscreenlocker.notifyrc:97
 msgctxt "Name"
 msgid "Screen unlocked"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:86
+#: workspace/krunner/lock/kscreenlocker.notifyrc:108
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -8953,12 +8953,12 @@ msgctxt "Comment"
 msgid "The screen has been unlocked"
 msgstr "আবর্জনা বর্জন করা হয়েছে"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:98
+#: workspace/krunner/lock/kscreenlocker.notifyrc:123
 msgctxt "Name"
 msgid "Screen unlock failed"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:107
+#: workspace/krunner/lock/kscreenlocker.notifyrc:134
 msgctxt "Comment"
 msgid "Failed attempt to unlock the screen"
 msgstr ""
@@ -9061,7 +9061,7 @@ msgctxt "Name"
 msgid "Example"
 msgstr "উদাহরণ"
 
-#: workspace/kwin/clients/aurorae/themes/example-deco/metadata.desktop:12
+#: workspace/kwin/clients/aurorae/themes/example-deco/metadata.desktop:14
 msgctxt "Comment"
 msgid "An example theme based on Air desktop theme"
 msgstr ""
@@ -9387,7 +9387,7 @@ msgctxt "Name"
 msgid "Resize Window"
 msgstr "নতুন উইন্ডো"
 
-#: workspace/kwin/effects/resize/resize.desktop:14
+#: workspace/kwin/effects/resize/resize.desktop:15
 msgctxt "Comment"
 msgid "Effect to outline geometry while resizing a window"
 msgstr ""
