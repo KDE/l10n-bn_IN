@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-06 11:01+0200\n"
+"POT-Creation-Date: 2009-07-16 11:33+0200\n"
 "PO-Revision-Date: 2008-11-26 19:19+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -170,8 +170,11 @@ msgid "Sw&itch User"
 msgstr "ব্যবহারকারী পরিবর্তন করুন (&i)"
 
 #: kgdialog.cpp:72
-msgid "Abort S&ession"
-msgstr "সেশান পরিত্যাগ করুন (&e)"
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Session"
+msgid "Canc&el Session"
+msgstr "সেশান"
 
 #: kgdialog.cpp:73
 msgid "R&estart X Server"
@@ -408,12 +411,14 @@ msgid "Location"
 msgstr "অবস্থান"
 
 #: kdmshutdown.cpp:671
-msgid "Abort pending shutdown:"
+msgid "Cancel pending shutdown:"
 msgstr ""
 
 #: kdmshutdown.cpp:672
-msgid "No permission to abort pending shutdown:"
-msgstr ""
+#, fuzzy
+#| msgid "No permission to abort active sessions:"
+msgid "No permission to cancel pending shutdown:"
+msgstr "সক্রিয় সেশান পরিত্যাগ করার অনুমতি উপস্থিত নেই:"
 
 #: kdmshutdown.cpp:678
 msgctxt "start of shutdown:"
@@ -604,3 +609,6 @@ msgstr "%1: %2"
 msgctxt "... host"
 msgid "X login on %1"
 msgstr ""
+
+#~ msgid "Abort S&ession"
+#~ msgstr "সেশান পরিত্যাগ করুন (&e)"

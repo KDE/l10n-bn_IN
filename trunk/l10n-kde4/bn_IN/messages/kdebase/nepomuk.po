@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-22 11:16+0200\n"
+"POT-Creation-Date: 2009-07-16 11:33+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -110,19 +110,11 @@ msgctxt ""
 msgid "or"
 msgstr "or"
 
-#: kioslaves/search/kio_nepomuksearch.cpp:68
+#: kioslaves/search/kio_nepomuksearch.cpp:75
 msgid "All Music Files"
 msgstr "সর্বধরনের সংগীত ফাইল"
 
-#: kioslaves/search/kio_nepomuksearch.cpp:77
-msgid "Today's Files"
-msgstr "আজকের ফাইল"
-
-#: kioslaves/search/kio_nepomuksearch.cpp:87
-msgid "Yesterday's Files"
-msgstr "গতকালের ফাইল"
-
-#: kioslaves/search/kio_nepomuksearch.cpp:90
+#: kioslaves/search/kio_nepomuksearch.cpp:78
 msgid "Recent Files"
 msgstr "সম্প্রতি ব্যবহৃত ফাইল"
 
@@ -292,21 +284,21 @@ msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: services/storage/repository.cpp:285
+#: services/storage/repository.cpp:275
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Nepomuk-র তথ্য একটি নতুন ব্যাক-এন্ডে পরিবর্তন করা হচ্ছে। এই কাজে কিছু সময় ব্যয় হতে "
 "পারে।"
 
-#: services/storage/repository.cpp:295
+#: services/storage/repository.cpp:285
 msgctxt "@info - notification message"
 msgid "Rebuilding Nepomuk full text search index for new features done."
 msgstr ""
 "নতুন বৈশিষ্ট্যের জন্য, Nepomuk-র সম্পূর্ণ টেক্সট ভিত্তিক অনুসন্ধানের ইন্ডেক্স পুনরায় "
 "নির্মাণ সমাপ্ত হয়েছে।"
 
-#: services/storage/repository.cpp:313
+#: services/storage/repository.cpp:303
 msgctxt "@info - notification message"
 msgid ""
 "Converting Nepomuk data to the new backend failed. Data may still be "
@@ -315,7 +307,7 @@ msgstr ""
 "Nepomuk-র তথ্য নতুন ব্যাক-এন্ডে রূপান্তর করতে ব্যর্থ। তথাপি, ব্যবহারকারী দ্বারা এই তথ্য "
 "পুনরুদ্ধার করা যাবে।"
 
-#: services/storage/repository.cpp:321
+#: services/storage/repository.cpp:311
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Nepomuk-র তথ্য সাফল্যের সাথে নতুন ব্যাক-এন্ডে রূপান্তর করা হয়েছে।"
@@ -390,15 +382,15 @@ msgstr "Strigi কনফিগার করুন"
 msgid "Nepomuk"
 msgstr "Nepomuk Server"
 
-#: services/strigi/statuswidget.cpp:51
+#: services/strigi/statuswidget.cpp:52
 msgid "Configure"
 msgstr "কনফিগার করুন"
 
-#: services/strigi/statuswidget.cpp:141
+#: services/strigi/statuswidget.cpp:143
 msgid "Calculation failed"
 msgstr "গণনা করতে ব্যর্থ"
 
-#: services/strigi/statuswidget.cpp:153
+#: services/strigi/statuswidget.cpp:155
 #, kde-format
 msgid "1 file in index"
 msgid_plural "%1 files in index"
@@ -451,6 +443,12 @@ msgstr "কোনো পরিসেবার নাম নির্ধারি
 #: servicestub/main.cpp:117
 msgid "Unknown service name:"
 msgstr "পরিসেবার নাম অজানা:"
+
+#~ msgid "Today's Files"
+#~ msgstr "আজকের ফাইল"
+
+#~ msgid "Yesterday's Files"
+#~ msgstr "গতকালের ফাইল"
 
 #~ msgctxt "@info_status"
 #~ msgid "File indexer is suspended"
