@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-01 12:44+0200\n"
+"POT-Creation-Date: 2009-07-21 11:49+0200\n"
 "PO-Revision-Date: 2008-12-31 16:02+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -65,50 +65,50 @@ msgid ""
 "sites without being prompted every time KDE receives a cookie.</p>"
 msgstr ""
 
-#: kcookiesmanagement.cpp:151 kcookiesmanagement.cpp:168
+#: kcookiesmanagement.cpp:150 kcookiesmanagement.cpp:167
 msgid "D-Bus Communication Error"
 msgstr "D-Bus যোগাযোগ সংক্রান্ত ত্রুটি"
 
-#: kcookiesmanagement.cpp:152
+#: kcookiesmanagement.cpp:151
 msgid "Unable to delete all the cookies as requested."
 msgstr "অনুরোধ অনুযায়ী সকল কুকি মুছে ফেলা যায়নি।"
 
-#: kcookiesmanagement.cpp:169
+#: kcookiesmanagement.cpp:168
 msgid "Unable to delete cookies as requested."
 msgstr "অনুরোধ অনুযায়ী কুকি মুছে ফেলা যায়নি।"
 
-#: kcookiesmanagement.cpp:241
+#: kcookiesmanagement.cpp:240
 #, fuzzy
 #| msgid "<h1>Cookies Management Quick Help</h1>"
 msgid "<h1>Cookie Management Quick Help</h1>"
 msgstr "<h1>কুকি পরিচালনা সংক্রান্ত দ্রুত সহায়তা</h1>"
 
-#: kcookiesmanagement.cpp:250
+#: kcookiesmanagement.cpp:249
 msgid "Information Lookup Failure"
 msgstr "তথ্য অনুসন্ধান করতে ব্যর্থ"
 
-#: kcookiesmanagement.cpp:251
+#: kcookiesmanagement.cpp:250
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr "কম্পিউটারের মধ্যে সংরক্ষিত কুকি সম্বন্ধে তথ্য প্রাপ্ত করতে ব্যর্থ।"
 
-#: kcookiesmanagement.cpp:341
+#: kcookiesmanagement.cpp:340
 msgid "End of session"
 msgstr "সেশানের সমাপ্তি"
 
-#: kcookiesmanagement.cpp:350
+#: kcookiesmanagement.cpp:349
 msgid "Yes"
 msgstr "হ্যাঁ"
 
-#: kcookiespolicies.cpp:179
+#: kcookiespolicies.cpp:178
 msgid "New Cookie Policy"
 msgstr "কুকি সংক্রান্ত নতুন নিয়ম"
 
-#: kcookiespolicies.cpp:218
+#: kcookiespolicies.cpp:217
 msgid "Change Cookie Policy"
 msgstr "কুকি সংক্রান্ত নিয়ম পরিবর্তন করুন"
 
-#: kcookiespolicies.cpp:243
+#: kcookiespolicies.cpp:242
 #, kde-format
 msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
@@ -117,21 +117,21 @@ msgstr ""
 "<qt><center><b>%1</b></center>-র জন্য বর্তমানে একটি নিয়ম উপস্থিত রয়েছে। আপনি কি "
 "এটি পরিবর্তন করতে ইচ্ছুক?</qt>"
 
-#: kcookiespolicies.cpp:247
+#: kcookiespolicies.cpp:246
 msgid "Duplicate Policy"
 msgstr ""
 
-#: kcookiespolicies.cpp:248 useragentdlg.cpp:215
+#: kcookiespolicies.cpp:247 useragentdlg.cpp:215
 msgid "Replace"
 msgstr "প্রতিস্থাপন করুন"
 
-#: kcookiespolicies.cpp:421
+#: kcookiespolicies.cpp:420
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
 
-#: kcookiespolicies.cpp:462
+#: kcookiespolicies.cpp:461
 msgid ""
 "<p><h1>Cookies</h1> Cookies contain information that Konqueror (or any other "
 "KDE application using the HTTP protocol) stores on your computer from a "
@@ -345,11 +345,11 @@ msgstr "LISa ডেমন (&L)"
 msgid "lan:/ Iosla&ve"
 msgstr "lan:/ Iosla&ve"
 
-#: netpref.cpp:31
+#: netpref.cpp:32
 msgid "Timeout Values"
 msgstr "সময়ের মেয়াদপূর্তীর মান"
 
-#: netpref.cpp:32
+#: netpref.cpp:33
 #, kde-format
 msgid ""
 "Here you can set timeout values. You might want to tweak them if your "
@@ -360,15 +360,15 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: netpref.cpp:44 netpref.cpp:50 netpref.cpp:56 netpref.cpp:62
+#: netpref.cpp:45 netpref.cpp:50 netpref.cpp:55 netpref.cpp:60
 msgid " sec"
 msgstr " সেকেন্ড"
 
-#: netpref.cpp:45
+#: netpref.cpp:47
 msgid "Soc&ket read:"
 msgstr "পাঠ হওয়া সকেট: (&k)"
 
-#: netpref.cpp:51
+#: netpref.cpp:52
 msgid "Pro&xy connect:"
 msgstr "প্রক্সি সংযোগ: (&x)"
 
@@ -376,36 +376,36 @@ msgstr "প্রক্সি সংযোগ: (&x)"
 msgid "Server co&nnect:"
 msgstr "সার্ভার সংযোগ: (&n)"
 
-#: netpref.cpp:63
+#: netpref.cpp:62
 msgid "&Server response:"
 msgstr "সার্ভারের প্রতিক্রিয়া: (&S)"
 
-#: netpref.cpp:67
+#: netpref.cpp:64
 msgid "FTP Options"
 msgstr "FTP সংক্রান্ত বিকল্প"
 
-#: netpref.cpp:71
+#: netpref.cpp:68
 msgid "Enable passive &mode (PASV)"
 msgstr "passive মোড (PASV) সক্রিয় করুন (&m)"
 
-#: netpref.cpp:72
+#: netpref.cpp:69
 msgid ""
 "Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
 "behind firewalls."
 msgstr ""
 
-#: netpref.cpp:78
+#: netpref.cpp:75
 msgid "Mark &partially uploaded files"
 msgstr "আংশিক আপলোড করা ফাইলগুলি চিহ্নিত করুন (&p)"
 
-#: netpref.cpp:79
+#: netpref.cpp:76
 msgid ""
 "<p>Marks partially uploaded FTP files.</p><p>When this option is enabled, "
 "partially uploaded files will have a \".part\" extension. This extension "
 "will be removed once the transfer is complete.</p>"
 msgstr ""
 
-#: netpref.cpp:147
+#: netpref.cpp:144
 msgid ""
 "<h1>Network Preferences</h1>Here you can define the behavior of KDE programs "
 "when using Internet and network connections. If you experience timeouts or "
@@ -1103,25 +1103,25 @@ msgstr ""
 msgid "A&utomatically detect proxy configuration"
 msgstr "স্বয়ংক্রিয়ভাবে প্রক্সি কনফিগারেশন সনাক্ত করা হবে (&u)"
 
-#. i18n: file: kproxydlg.ui:78
+#. i18n: file: kproxydlg.ui:75
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoScript)
 #: rc.cpp:344
 msgid "Use the specified proxy script URL to configure the proxy settings."
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:81
+#. i18n: file: kproxydlg.ui:78
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoScript)
 #: rc.cpp:347
 msgid "U&se proxy configuration URL:"
 msgstr "প্রক্সি কনফিগারেশনের URL ব্যবহার করা হবে: (&s)"
 
-#. i18n: file: kproxydlg.ui:97
+#. i18n: file: kproxydlg.ui:94
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, location)
 #: rc.cpp:350
 msgid "Enter the address for the proxy configuration script."
 msgstr "প্রক্সি কনফিগারেশন স্ক্রিপ্টের ঠিকানা লিখুন।"
 
-#. i18n: file: kproxydlg.ui:126
+#. i18n: file: kproxydlg.ui:120
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbEnvVar)
 #: rc.cpp:353
 msgid ""
@@ -1134,107 +1134,107 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:129
+#. i18n: file: kproxydlg.ui:123
 #. i18n: ectx: property (text), widget (QRadioButton, rbEnvVar)
 #: rc.cpp:359
 msgid "Use preset proxy environment &variables"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:139
+#. i18n: file: kproxydlg.ui:133
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbEnvSetup)
 #: rc.cpp:362
 msgid "Show the proxy environment variable configuration dialog."
 msgstr "প্রক্সির এনভায়রনমেন্ট ভেরিয়েবল কনফিগারেশনের ডায়লগ প্রদর্শন করা হবে।"
 
-#. i18n: file: kproxydlg.ui:142
+#. i18n: file: kproxydlg.ui:136
 #. i18n: ectx: property (text), widget (QPushButton, pbEnvSetup)
-#. i18n: file: kproxydlg.ui:184
+#. i18n: file: kproxydlg.ui:175
 #. i18n: ectx: property (text), widget (QPushButton, pbManSetup)
 #: rc.cpp:365 rc.cpp:377
 msgid "Setup..."
 msgstr "প্রস্তুতি..."
 
-#. i18n: file: kproxydlg.ui:168
+#. i18n: file: kproxydlg.ui:159
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbManual)
 #: rc.cpp:368
 msgid "Manually enter proxy server configuration information."
 msgstr "প্রক্সি কনফিগারেশনের তথ্য স্বয়ং লিখুন।"
 
-#. i18n: file: kproxydlg.ui:171
+#. i18n: file: kproxydlg.ui:162
 #. i18n: ectx: property (text), widget (QRadioButton, rbManual)
 #: rc.cpp:371
 msgid "&Manually specify the proxy settings"
 msgstr "প্রক্সির বৈশিষ্ট্যের মান স্বয়ং লিখুন (&M)"
 
-#. i18n: file: kproxydlg.ui:181
+#. i18n: file: kproxydlg.ui:172
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbManSetup)
 #: rc.cpp:374
 msgid "Show the manual proxy configuration dialog."
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:199
+#. i18n: file: kproxydlg.ui:190
 #. i18n: ectx: property (title), widget (QGroupBox, gbAuth)
 #: rc.cpp:380
 msgid "Authori&zation"
 msgstr "অনুমোদন (&z)"
 
-#. i18n: file: kproxydlg.ui:205
+#. i18n: file: kproxydlg.ui:196
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPrompt)
 #: rc.cpp:383
 msgid "Prompt for login information whenever it is required."
 msgstr "প্রয়োজন দেখা দিলে লগ-ইন সংক্রান্ত তথ্য উল্লেখ করার অনুরোধ জানানো হবে।"
 
-#. i18n: file: kproxydlg.ui:208
+#. i18n: file: kproxydlg.ui:199
 #. i18n: ectx: property (text), widget (QRadioButton, rbPrompt)
 #: rc.cpp:386
 msgid "Prompt as &needed"
 msgstr "প্রয়োজন অনুসারে অনুরোধ জানানো হবে (&n)"
 
-#. i18n: file: kproxydlg.ui:229
+#. i18n: file: kproxydlg.ui:217
 #. i18n: ectx: property (toolTip), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:389
 msgid "Use this login information."
 msgstr "লগ-ইন সংক্রান্ত এই তথ্য প্রয়োগ করা হবে।"
 
-#. i18n: file: kproxydlg.ui:232
+#. i18n: file: kproxydlg.ui:220
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:392
 msgid "Use information specified here to login into proxy servers as needed."
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:235
+#. i18n: file: kproxydlg.ui:223
 #. i18n: ectx: property (text), widget (QRadioButton, rbPresetLogin)
 #: rc.cpp:395
 msgid "Username:"
 msgstr "ব্যবহারকারীর নাম:"
 
-#. i18n: file: kproxydlg.ui:245
+#. i18n: file: kproxydlg.ui:233
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
 #: rc.cpp:398
 msgid "Login name."
 msgstr "লগ-ইন নাম।"
 
-#. i18n: file: kproxydlg.ui:255
+#. i18n: file: kproxydlg.ui:243
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
-#. i18n: file: kproxydlg.ui:274
+#. i18n: file: kproxydlg.ui:262
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
 #: rc.cpp:401 rc.cpp:407
 msgid "Login password."
 msgstr "লগ-ইন পাসওয়ার্ড।"
 
-#. i18n: file: kproxydlg.ui:258
+#. i18n: file: kproxydlg.ui:246
 #. i18n: ectx: property (text), widget (QLabel, lbPassword)
 #: rc.cpp:404
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
-#. i18n: file: kproxydlg.ui:292
+#. i18n: file: kproxydlg.ui:280
 #. i18n: ectx: property (title), widget (QGroupBox, gbOptions)
 #: rc.cpp:410
 msgid "O&ptions"
 msgstr "বিকল্প: (&p)"
 
-#. i18n: file: kproxydlg.ui:301
+#. i18n: file: kproxydlg.ui:289
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPersConn)
 #: rc.cpp:413
 msgid ""
@@ -1247,7 +1247,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. i18n: file: kproxydlg.ui:304
+#. i18n: file: kproxydlg.ui:292
 #. i18n: ectx: property (text), widget (QCheckBox, cbPersConn)
 #: rc.cpp:419
 msgid "Use persistent connections to proxy"
@@ -1660,19 +1660,19 @@ msgstr ""
 msgid "Real identification:"
 msgstr "সঠিক পরিচয়:"
 
-#: smbrodlg.cpp:48
+#: smbrodlg.cpp:46
 msgid "These settings apply to network browsing only."
 msgstr ""
 
-#: smbrodlg.cpp:52
+#: smbrodlg.cpp:50
 msgid "Default user name:"
 msgstr "ডিফল্ট ব্যবহারকারীর নাম:"
 
-#: smbrodlg.cpp:60
+#: smbrodlg.cpp:58
 msgid "Default password:"
 msgstr "ডিফল্ট পাসওয়ার্ড:"
 
-#: smbrodlg.cpp:179
+#: smbrodlg.cpp:177
 msgid ""
 "<p><h1>Windows Shares</h1>Konqueror is able to access shared Microsoft "
 "Windows file systems, if properly configured. If there is a specific "
