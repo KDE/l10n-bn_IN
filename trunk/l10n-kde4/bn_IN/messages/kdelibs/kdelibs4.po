@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-21 11:48+0200\n"
+"POT-Creation-Date: 2009-07-22 12:56+0200\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -1954,12 +1954,12 @@ msgstr "KDE-কে, হোস্ট-নেম পরিবর্তন সম্
 msgid "(c) 2001 Waldo Bastian"
 msgstr "(c) ২০০১ ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:646 khtml/khtml_global.cpp:212
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:642 khtml/khtml_global.cpp:212
 #: kconf_update/kconf_update.cpp:963
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:645 kded/kbuildsycoca.cpp:646
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:641 kded/kbuildsycoca.cpp:642
 #: kross/qts/main.cpp:63 kross/test/main.cpp:149 kross/console/main.cpp:102
 #: kde3support/kdeui/k3aboutdialog.cpp:184
 msgid "Author"
@@ -1985,7 +1985,7 @@ msgstr "KDE Daemon - প্রয়োজন অনুসারে Sycoca ডা�
 msgid "Check Sycoca database only once"
 msgstr "Sycoca ডাটাবেস শুধুমাত্র একবার পরীক্ষা করা হবে"
 
-#: kded/kbuildsycoca.cpp:413
+#: kded/kbuildsycoca.cpp:409
 #, kde-format
 msgid ""
 "Error creating database '%1'.\n"
@@ -1995,12 +1995,12 @@ msgstr ""
 "ডাটাবেস '%1' নির্মাণে সমস্য।\n"
 "ডিরেক্টরি ব্যবহারের অনুমতি এবং ডিস্কে অবশিষ্ট স্থান উপস্থিত রয়েছে কিনা পরীক্ষা করুন।\n"
 
-#: kded/kbuildsycoca.cpp:413 kded/kbuildsycoca.cpp:444
-#: kded/kbuildsycoca.cpp:642
+#: kded/kbuildsycoca.cpp:409 kded/kbuildsycoca.cpp:440
+#: kded/kbuildsycoca.cpp:638
 msgid "KBuildSycoca"
 msgstr "KBuildSycoca"
 
-#: kded/kbuildsycoca.cpp:444
+#: kded/kbuildsycoca.cpp:440
 #, kde-format
 msgid ""
 "Error writing database '%1'.\n"
@@ -2010,77 +2010,77 @@ msgstr ""
 "ডাটাবেস '%1'-এ লিখতে সমস্য।\n"
 "ডিরেক্টরি ব্যবহারের অনুমতি এবং ডিস্কে অবশিষ্ট স্থান উপস্থিত রয়েছে কিনা পরীক্ষা করুন।\n"
 
-#: kded/kbuildsycoca.cpp:643
+#: kded/kbuildsycoca.cpp:639
 msgid "Rebuilds the system configuration cache."
 msgstr "সিস্টেম কনফিগারেশন সংক্রান্ত ক্যাশে পুনরায় নির্মাণ করতে ব্যবহৃত হয়।"
 
-#: kded/kbuildsycoca.cpp:644
+#: kded/kbuildsycoca.cpp:640
 msgid "(c) 1999-2002 KDE Developers"
 msgstr "(c) ১৯৯৯-২০০২ KDE নির্মাতাবৃন্দ"
 
-#: kded/kbuildsycoca.cpp:645
+#: kded/kbuildsycoca.cpp:641
 msgid "David Faure"
 msgstr "ডেভিড ফেওরে"
 
-#: kded/kbuildsycoca.cpp:649
+#: kded/kbuildsycoca.cpp:645
 msgid "Do not signal applications to update"
 msgstr "আপডেট করার জন্য অ্যাপ্লিকেশনগুলিকে কোনো সংকেত জানানো হবে না"
 
-#: kded/kbuildsycoca.cpp:650
+#: kded/kbuildsycoca.cpp:646
 msgid "Disable incremental update, re-read everything"
 msgstr "ক্রমবর্ধমান আপডেট ব্যবস্থা নিষ্ক্রিয় করা হবে, সর্বধরনের তথ্য পুনরায় পাঠ করা হবে"
 
-#: kded/kbuildsycoca.cpp:651
+#: kded/kbuildsycoca.cpp:647
 msgid "Check file timestamps"
 msgstr "ফাইলে উপস্থিত সময়ের-চিহ্ন"
 
-#: kded/kbuildsycoca.cpp:652
+#: kded/kbuildsycoca.cpp:648
 msgid "Disable checking files (dangerous)"
 msgstr "ফাইল পরীক্ষণ নিষ্ক্রিয় করুন (বিপজ্জনক)"
 
-#: kded/kbuildsycoca.cpp:653
+#: kded/kbuildsycoca.cpp:649
 msgid "Create global database"
 msgstr "গ্লোবাল ডাটাবেস নির্মাণ করা হবে"
 
-#: kded/kbuildsycoca.cpp:654
+#: kded/kbuildsycoca.cpp:650
 msgid "Perform menu generation test run only"
 msgstr "শুধুমাত্র পরীক্ষামূলকভাবে মেনু নির্মাণ করা হবে"
 
-#: kded/kbuildsycoca.cpp:655
+#: kded/kbuildsycoca.cpp:651
 msgid "Track menu id for debug purposes"
 msgstr "ডিবাগ করার উদ্দেশ্যে মেনু id নিরীক্ষণ করা হবে"
 
-#: kded/kbuildsycoca.cpp:657
+#: kded/kbuildsycoca.cpp:653
 msgid "Silent - work without windows and stderr"
 msgstr "নিঃশব্দ (silent) - উইন্ডো ও stderr বিনা কর্ম সঞ্চালন"
 
-#: kded/kbuildsycoca.cpp:658
+#: kded/kbuildsycoca.cpp:654
 msgid "Show progress information (even if 'silent' mode is on)"
 msgstr ""
 "কর্মের প্রগতি সম্পর্কে তথ্য প্রদর্শন করা হবে ('নিঃশব্দ (silent)' মোড সক্রিয় হলেও)"
 
-#: kded/kbuildsycoca.cpp:683
+#: kded/kbuildsycoca.cpp:679
 msgid "Reloading KDE configuration, please wait..."
 msgstr "KDE সংক্রান্ত কনফিগারেশন পুনরায় লোড করা হচ্ছে, অনুগ্রহ করে প্রতীক্ষা করুন..."
 
-#: kded/kbuildsycoca.cpp:684
+#: kded/kbuildsycoca.cpp:680
 msgid "KDE Configuration Manager"
 msgstr "KDE Configuration Manager"
 
-#: kded/kbuildsycoca.cpp:686
+#: kded/kbuildsycoca.cpp:682
 msgid "Do you want to reload KDE configuration?"
 msgstr "KDE কনফিগারেশন পুনরায় লোড করা হবে কি?"
 
-#: kded/kbuildsycoca.cpp:686
+#: kded/kbuildsycoca.cpp:682
 msgctxt "Reload KDE configuration messagebox"
 msgid "Reload"
 msgstr "পুনরায় লোড করুন"
 
-#: kded/kbuildsycoca.cpp:686
+#: kded/kbuildsycoca.cpp:682
 msgid "Do Not Reload"
 msgstr "পুনরায় লোড করা হবে না"
 
-#: kded/kbuildsycoca.cpp:863
+#: kded/kbuildsycoca.cpp:859
 msgid "Configuration information reloaded successfully."
 msgstr "কনফিগারেশন সম্পর্কিত তথ্য সাফল্যের সাথে পুনরায় লোড করা হয়েছে।"
 
@@ -8476,7 +8476,7 @@ msgstr ""
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:854
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:575
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:580
 #, kde-format
 msgid "Desktop %1"
 msgstr "ডেস্কটপ %1"
