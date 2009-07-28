@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-24 06:15+0200\n"
+"POT-Creation-Date: 2009-07-28 06:33+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -56,12 +56,17 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
 
-#: revisioncontrolplugin.cpp:52
+#: revisioncontrolplugin.cpp:61
 msgctxt "@item:inmenu"
 msgid "SVN Update"
 msgstr ""
 
-#: revisioncontrolplugin.cpp:55
+#: revisioncontrolplugin.cpp:67
+msgctxt "@item:inmenu"
+msgid "Show Local SVN Changes"
+msgstr ""
+
+#: revisioncontrolplugin.cpp:72
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -69,18 +74,39 @@ msgctxt "@item:inmenu"
 msgid "SVN Commit..."
 msgstr "মন্তব্য করুন..."
 
-#: revisioncontrolplugin.cpp:59
+#: revisioncontrolplugin.cpp:78
 msgctxt "@item:inmenu"
 msgid "SVN Add"
 msgstr ""
 
-#: revisioncontrolplugin.cpp:63
+#: revisioncontrolplugin.cpp:84
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Delete"
 msgctxt "@item:inmenu"
 msgid "SVN Delete"
 msgstr "মুছে ফেলুন"
+
+#: revisioncontrolplugin.cpp:229
+msgctxt "@label"
+msgid "Description:"
+msgstr ""
+
+#: revisioncontrolplugin.cpp:233
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@title:window"
+msgid "SVN Commit"
+msgstr "মন্তব্য করুন..."
+
+#: revisioncontrolplugin.cpp:236
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Comment"
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "মন্তব্য"
 
 #: draganddrophelper.cpp:125
 msgctxt "@info:status"
@@ -97,19 +123,19 @@ msgctxt "@title:menu"
 msgid "Columns"
 msgstr "কলাম"
 
-#: dolphinview.cpp:585
+#: dolphinview.cpp:589
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
 
-#: dolphinview.cpp:586
+#: dolphinview.cpp:590
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> নির্বাচিত হয়েছে (%2)"
 
-#: dolphinview.cpp:590
+#: dolphinview.cpp:594
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -117,7 +143,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
 
-#: dolphinview.cpp:591
+#: dolphinview.cpp:595
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -125,29 +151,29 @@ msgid_plural "%1 Files selected"
 msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
 
-#: dolphinview.cpp:593
+#: dolphinview.cpp:597
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: dolphinview.cpp:596
+#: dolphinview.cpp:600
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1205
+#: dolphinview.cpp:1209
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: dolphinview.cpp:1266
+#: dolphinview.cpp:1270
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: dolphinview.cpp:1268
+#: dolphinview.cpp:1272
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -395,15 +421,13 @@ msgstr "অন্যান্য"
 
 #: dolphinmodel.cpp:107
 msgctxt "@item::intable"
-msgid "Latest"
+msgid "Normal"
 msgstr ""
 
 #: dolphinmodel.cpp:109
-#, fuzzy
-#| msgid "&Edit"
 msgctxt "@item::intable"
-msgid "Editing"
-msgstr "সম্পাদনা করুন (&E)"
+msgid "Locally modified"
+msgstr ""
 
 #: dolphinmodel.cpp:111
 msgctxt "@item::intable"
@@ -412,7 +436,7 @@ msgstr ""
 
 #: dolphinmodel.cpp:114
 msgctxt "@item::intable"
-msgid "Local"
+msgid "Unversioned"
 msgstr ""
 
 #: dolphinmodel.cpp:134
@@ -420,132 +444,132 @@ msgctxt "@title::column"
 msgid "Revision"
 msgstr ""
 
-#: dolphinmodel.cpp:221
+#: dolphinmodel.cpp:227
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "ফোল্ডার সমূহ"
 
-#: dolphinmodel.cpp:223
+#: dolphinmodel.cpp:229
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "ছোটো"
 
-#: dolphinmodel.cpp:225
+#: dolphinmodel.cpp:231
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: dolphinmodel.cpp:227
+#: dolphinmodel.cpp:233
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "বড়ো"
 
-#: dolphinmodel.cpp:257
+#: dolphinmodel.cpp:263
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "আজকে"
 
-#: dolphinmodel.cpp:258
+#: dolphinmodel.cpp:264
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "গতকাল"
 
-#: dolphinmodel.cpp:259
+#: dolphinmodel.cpp:265
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: dolphinmodel.cpp:263
+#: dolphinmodel.cpp:269
 msgctxt "@title:group Date"
 msgid "Last Week"
 msgstr "গত সপ্তাহ"
 
-#: dolphinmodel.cpp:266
+#: dolphinmodel.cpp:272
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "দুই সপ্তাহ অাগে"
 
-#: dolphinmodel.cpp:269
+#: dolphinmodel.cpp:275
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "তিন সপ্তাহ অাগে"
 
-#: dolphinmodel.cpp:273
+#: dolphinmodel.cpp:279
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "এই মাসের শুরুতে"
 
-#: dolphinmodel.cpp:282
+#: dolphinmodel.cpp:288
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "গতকাল (%B, %Y)"
 
-#: dolphinmodel.cpp:284
+#: dolphinmodel.cpp:290
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B, %Y)"
 
-#: dolphinmodel.cpp:286
+#: dolphinmodel.cpp:292
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Last Week (%B, %Y)"
 msgstr "গত সপ্তাহ (%B, %Y)"
 
-#: dolphinmodel.cpp:288
+#: dolphinmodel.cpp:294
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "দুই সপ্তাহ আগে (%B, %Y)"
 
-#: dolphinmodel.cpp:290
+#: dolphinmodel.cpp:296
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "তিন সপ্তাহ আগে (%B, %Y)"
 
-#: dolphinmodel.cpp:292
+#: dolphinmodel.cpp:298
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y এর গোড়ার দিকে"
 
-#: dolphinmodel.cpp:295
+#: dolphinmodel.cpp:301
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: dolphinmodel.cpp:310 dolphinmodel.cpp:322 dolphinmodel.cpp:334
+#: dolphinmodel.cpp:316 dolphinmodel.cpp:328 dolphinmodel.cpp:340
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "পড়া যাবে,"
 
-#: dolphinmodel.cpp:313 dolphinmodel.cpp:325 dolphinmodel.cpp:337
+#: dolphinmodel.cpp:319 dolphinmodel.cpp:331 dolphinmodel.cpp:343
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "লেখা যাবে,"
 
-#: dolphinmodel.cpp:316 dolphinmodel.cpp:328 dolphinmodel.cpp:340
+#: dolphinmodel.cpp:322 dolphinmodel.cpp:334 dolphinmodel.cpp:346
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "রান করবে"
 
-#: dolphinmodel.cpp:318 dolphinmodel.cpp:330 dolphinmodel.cpp:342
+#: dolphinmodel.cpp:324 dolphinmodel.cpp:336 dolphinmodel.cpp:348
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "নিশিদ্ধ"
 
-#: dolphinmodel.cpp:344
+#: dolphinmodel.cpp:350
 #, kde-format
 msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
@@ -2100,6 +2124,12 @@ msgstr "বিস্তারিত বর্নণা"
 msgctxt "@action:inmenu View Mode"
 msgid "Columns"
 msgstr "কলাম"
+
+#, fuzzy
+#~| msgid "&Edit"
+#~ msgctxt "@item::intable"
+#~ msgid "Editing"
+#~ msgstr "সম্পাদনা করুন (&E)"
 
 #~ msgctxt "@title:group Tags"
 #~ msgid "Not yet tagged"
