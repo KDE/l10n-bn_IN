@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-31 06:16+0200\n"
+"POT-Creation-Date: 2009-08-02 05:59+0200\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -712,7 +712,7 @@ msgstr "উদাহরণ, ssh -l root remote.host.org ksysguardd"
 msgid "Sheet %1"
 msgstr "শিট %1"
 
-#: Workspace.cc:166
+#: Workspace.cc:171
 #, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
@@ -721,27 +721,27 @@ msgstr ""
 "ট্যাব '%1'-র মধ্যে পরিবর্তিত তথ্য উপস্থিত রয়েছে।\n"
 "ট্যাব সংরক্ষণ করা হবে কি?"
 
-#: Workspace.cc:181
+#: Workspace.cc:186
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr "*.sgrd|Sensor Files (*.sgrd)"
 
-#: Workspace.cc:181
+#: Workspace.cc:186
 msgid "Select Tab File to Import"
 msgstr ""
 
-#: Workspace.cc:209 Workspace.cc:230
+#: Workspace.cc:214 Workspace.cc:235
 msgid "You do not have a tab that could be saved."
 msgstr "সংরক্ষণ করার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
 
-#: Workspace.cc:237
+#: Workspace.cc:242
 msgid "Export Tab"
 msgstr ""
 
-#: Workspace.cc:255
+#: Workspace.cc:260
 msgid "There are no tabs that could be deleted."
 msgstr "মুছে ফেলার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
 
-#: Workspace.cc:289
+#: Workspace.cc:294
 #, kde-format
 msgid ""
 "<qt>To propose the current custom tab as a new System Monitor tab, email "
@@ -750,7 +750,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: Workspace.cc:289
+#: Workspace.cc:294
 #, fuzzy
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
@@ -768,7 +768,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
-#: SensorDisplayLib/DancingBarsSettings.cc:58 rc.cpp:83 rc.cpp:98
+#: SensorDisplayLib/DancingBarsSettings.cc:58 rc.cpp:86 rc.cpp:101
 #: WorkSheetSettings.cc:51
 msgid "Title"
 msgstr "শিরোনাম"
@@ -776,7 +776,7 @@ msgstr "শিরোনাম"
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_title)
 #: SensorDisplayLib/DancingBarsSettings.cc:63
-#: SensorDisplayLib/FancyPlotterSettings.cc:72 rc.cpp:47
+#: SensorDisplayLib/FancyPlotterSettings.cc:72 rc.cpp:50
 msgid "Enter the title of the display here."
 msgstr "ডিসপ্লের শিরোনাম এইখানে লিখুন।"
 
@@ -814,7 +814,7 @@ msgstr "চেতাবনি"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:20
+#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:23
 msgid "Alarm for Minimum Value"
 msgstr "সর্বনিম্ন মানের চেতাবনি"
 
@@ -827,19 +827,19 @@ msgstr "চেতাবনি ব্যবস্থা সক্রিয় কর
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:56
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:26 rc.cpp:56
+#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:29 rc.cpp:59
 msgid "Enable the minimum value alarm."
 msgstr "সর্বনিম্ন মান সংক্রান্ত চেতাবনি সক্রিয় করুন।"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:69
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:29
+#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:32
 msgid "Lower limit:"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:95
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:32
+#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:35
 msgid "Alarm for Maximum Value"
 msgstr "সর্বোচ্চ মানের চেতাবনি"
 
@@ -847,13 +847,13 @@ msgstr "সর্বোচ্চ মানের চেতাবনি"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:115
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:38 rc.cpp:65
+#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:41 rc.cpp:68
 msgid "Enable the maximum value alarm."
 msgstr "সর্বোচ্চ মান সংক্রান্ত চেতাবনি সক্রিয় করুন।"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:133
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:41
+#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:44
 msgid "Upper limit:"
 msgstr ""
 
@@ -879,7 +879,7 @@ msgstr ""
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: SensorDisplayLib/DancingBarsSettings.cc:176 SensorDisplayLib/LogFile.cc:100
-#: rc.cpp:80 rc.cpp:95 rc.cpp:107 rc.cpp:122
+#: rc.cpp:83 rc.cpp:98 rc.cpp:110 rc.cpp:125
 msgid "Background color:"
 msgstr "পটভূমির রঙ:"
 
@@ -1035,7 +1035,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
-#: SensorDisplayLib/FancyPlotterSettings.cc:201 rc.cpp:86 rc.cpp:101
+#: SensorDisplayLib/FancyPlotterSettings.cc:201 rc.cpp:89 rc.cpp:104
 msgid "Colors"
 msgstr "রঙ"
 
@@ -1230,7 +1230,7 @@ msgstr "ফাইল লগ সংরক্ষণ সংক্রান্ত �
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cc:98 rc.cpp:119
+#: SensorDisplayLib/LogFile.cc:98 rc.cpp:122
 msgid "Foreground color:"
 msgstr ""
 
@@ -1271,31 +1271,39 @@ msgstr "ফাইল (&F)"
 msgid "&Edit"
 msgstr "সম্পাদনা (&E)"
 
-#. i18n: file: ksysguardui.rc:18
-#. i18n: ectx: Menu (settings)
+#. i18n: file: ksysguardui.rc:17
+#. i18n: ectx: Menu (view)
 #: rc.cpp:9
+#, fuzzy
+#| msgid "&File"
+msgid "&View"
+msgstr "ফাইল (&F)"
+
+#. i18n: file: ksysguardui.rc:20
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
 msgid "&Settings"
 msgstr "বৈশিষ্ট্যাবলী (&S)"
 
-#. i18n: file: ksysguardui.rc:21
+#. i18n: file: ksysguardui.rc:23
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:12
+#: rc.cpp:15
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
 
-#: rc.cpp:13
+#: rc.cpp:16
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
-#: rc.cpp:14
+#: rc.cpp:17
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
-#: rc.cpp:17
+#: rc.cpp:20
 msgid "File"
 msgstr "ফাইল"
 
@@ -1303,7 +1311,7 @@ msgstr "ফাইল"
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
-#: rc.cpp:23 rc.cpp:59
+#: rc.cpp:26 rc.cpp:62
 msgid "&Enable alarm"
 msgstr ""
 
@@ -1311,13 +1319,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:118
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
-#: rc.cpp:35 rc.cpp:68
+#: rc.cpp:38 rc.cpp:71
 msgid "E&nable alarm"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:44
+#: rc.cpp:47
 #, fuzzy
 #| msgid "Title:"
 msgid "&Title:"
@@ -1325,37 +1333,37 @@ msgstr "শিরোনাম:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
-#: rc.cpp:50
+#: rc.cpp:53
 msgid "Enable this to append the unit to the title of the display."
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
-#: rc.cpp:53
+#: rc.cpp:56
 msgid "&Show unit"
 msgstr "মানক প্রদর্শন (&S)"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: rc.cpp:62
+#: rc.cpp:65
 msgid "Lo&wer limit:"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:144
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: rc.cpp:71
+#: rc.cpp:74
 msgid "&Upper limit:"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:174
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:74
+#: rc.cpp:77
 msgid "Normal digit color:"
 msgstr "সাধারণ ডিজিট্যাল রঙ:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:201
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:77
+#: rc.cpp:80
 msgid "Alarm digit color:"
 msgstr ""
 
@@ -1363,31 +1371,31 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:89 rc.cpp:104
+#: rc.cpp:92 rc.cpp:107
 msgid "Text color:"
 msgstr "টেক্সটের রঙ:"
 
 #. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:92
+#: rc.cpp:95
 msgid "Grid color:"
 msgstr "গ্রিডের রঙ:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:110
+#: rc.cpp:113
 msgid "Alarm color:"
 msgstr ""
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:28
 #. i18n: ectx: attribute (title), widget (QWidget, textTab)
-#: rc.cpp:113
+#: rc.cpp:116
 msgid "&Text"
 msgstr "টেক্সট: (&T)"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:116
+#: rc.cpp:119
 #, fuzzy
 #| msgid "Title:"
 msgid "T&itle:"
@@ -1395,25 +1403,25 @@ msgstr "শিরোনাম:"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:154
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:125
+#: rc.cpp:128
 msgid "Fi&lter"
 msgstr "ফিল্টার: (&l)"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:175
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:128
+#: rc.cpp:131
 msgid "&Add"
 msgstr "যোগ করুন (&A)"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:182
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:131
+#: rc.cpp:134
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:189
 #. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:134
+#: rc.cpp:137
 msgid "&Change"
 msgstr "পরিবর্তন (&C)"
 
@@ -1421,31 +1429,31 @@ msgstr "পরিবর্তন (&C)"
 #. i18n: file: ./ProcessTable.sgrd:3
 #. i18n: tag display attribute title
 #. i18n: file: ./ProcessTable.sgrd:5
-#: rc.cpp:137 rc.cpp:140
+#: rc.cpp:140 rc.cpp:143
 msgid "Process Table"
 msgstr "প্রসেস টেবিল"
 
 #. i18n: tag WorkSheet attribute title
 #. i18n: file: ./SystemLoad2.sgrd:3
-#: rc.cpp:143
+#: rc.cpp:146
 msgid "System Load"
 msgstr "সিস্টেমের লোড"
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad2.sgrd:5
-#: rc.cpp:146
+#: rc.cpp:149
 msgid "CPU History"
 msgstr ""
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad2.sgrd:8
-#: rc.cpp:149
+#: rc.cpp:152
 msgid "Memory and Swap History"
 msgstr ""
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad2.sgrd:12
-#: rc.cpp:152
+#: rc.cpp:155
 msgid "Network History"
 msgstr "নেটওয়ার্ক সংক্রান্ত পূর্ববর্তী তথ্য"
 
@@ -1498,132 +1506,136 @@ msgstr ""
 msgid "KDE System Monitor"
 msgstr "KDE সিস্টেমে মনিটর"
 
-#: ksysguard.cc:157 ksysguard.cc:525
+#: ksysguard.cc:158 ksysguard.cc:527
 msgid "System Monitor"
 msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
-#: ksysguard.cc:158
-msgid "&New Tab..."
-msgstr ""
-
 #: ksysguard.cc:159
-msgid "Import Tab Fr&om File..."
+msgid "&Refresh Tab"
 msgstr ""
 
 #: ksysguard.cc:160
-msgid "Save Tab &As..."
+msgid "&New Tab..."
 msgstr ""
 
 #: ksysguard.cc:161
-msgid "&Close Tab"
+msgid "Import Tab Fr&om File..."
 msgstr ""
 
 #: ksysguard.cc:162
+msgid "Save Tab &As..."
+msgstr ""
+
+#: ksysguard.cc:163
+msgid "&Close Tab"
+msgstr ""
+
+#: ksysguard.cc:164
 msgid "Monitor &Remote Machine..."
 msgstr "দূরবর্তী মেশিন নিরীক্ষণ করুন...(&R)"
 
-#: ksysguard.cc:163
+#: ksysguard.cc:165
 msgid "&Download New Tabs..."
 msgstr "নতুন ট্যাব ডাউনলোড করুন...(&D)"
 
-#: ksysguard.cc:164
+#: ksysguard.cc:166
 #, fuzzy
 #| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
 msgstr "নতুন ট্যাব ডাউনলোড করুন...(&D)"
 
-#: ksysguard.cc:166
+#: ksysguard.cc:168
 msgid "Tab &Properties"
 msgstr "ট্যাব সংক্রান্ত বৈশিষ্ট্য (&P)"
 
-#: ksysguard.cc:355
+#: ksysguard.cc:357
 #, kde-format
 msgid " 1 process "
 msgid_plural " %1 processes "
 msgstr[0] " একটি প্রসেস"
 msgstr[1] " %1-টি প্রসেস"
 
-#: ksysguard.cc:439
+#: ksysguard.cc:441
 #, kde-format
 msgid " CPU: %1% "
 msgstr " CPU: %1% "
 
-#: ksysguard.cc:453
+#: ksysguard.cc:455
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
 msgstr " মেমরি: %1 / %2 "
 
-#: ksysguard.cc:480
+#: ksysguard.cc:482
 msgid " No swap space available "
 msgstr " swap-র কোনো স্থান উপলব্ধ নেই "
 
-#: ksysguard.cc:482
+#: ksysguard.cc:484
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
 msgstr " Swap: %1 / %2 "
 
-#: ksysguard.cc:527
+#: ksysguard.cc:529
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "(c) ১৯৯৬-২০০৮ KDE System Monitor নির্মাতাবৃন্দ"
 
-#: ksysguard.cc:528
+#: ksysguard.cc:530
 msgid "John Tapsell"
 msgstr "জন ট্যাপসেল"
 
-#: ksysguard.cc:528
+#: ksysguard.cc:530
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইনটেনার"
 
-#: ksysguard.cc:529
+#: ksysguard.cc:531
 msgid "Chris Schlaeger"
 msgstr "ক্রিস স্খলেগার"
 
-#: ksysguard.cc:529
+#: ksysguard.cc:531
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী মেইনটেনার"
 
-#: ksysguard.cc:530
+#: ksysguard.cc:532
 msgid "Greg Martyn"
 msgstr "গ্রেগ মার্টিন"
 
-#: ksysguard.cc:531
+#: ksysguard.cc:533
 msgid "Tobias Koenig"
 msgstr "টোবিয়াস কোনিগ"
 
-#: ksysguard.cc:532
+#: ksysguard.cc:534
 msgid "Nicolas Leclercq"
 msgstr "নিকোলাস লেকলার্ক"
 
-#: ksysguard.cc:533
+#: ksysguard.cc:535
 msgid "Alex Sanda"
 msgstr "অ্যালেক্স স্যান্ড্রা"
 
-#: ksysguard.cc:534
+#: ksysguard.cc:536
 msgid "Bernd Johannes Wuebben"
 msgstr "বার্নড জোহানেস উইবেন"
 
-#: ksysguard.cc:535
+#: ksysguard.cc:537
 msgid "Ralf Mueller"
 msgstr "রাল্ফ মুলার"
 
-#: ksysguard.cc:536
+#: ksysguard.cc:538
 msgid "Hamish Rodda"
 msgstr "হামিশ রোড্ডা"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:539
 msgid "Torsten Kasch"
 msgstr "টোর্সটেন কাশখ"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:539
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
 
-#: ksysguard.cc:546
+#: ksysguard.cc:548
 msgid "Optional worksheet files to load"
 msgstr "লোড করার জন্য চিহ্নিত ঐচ্ছিক ওয়ার্ক-শিট"
 
