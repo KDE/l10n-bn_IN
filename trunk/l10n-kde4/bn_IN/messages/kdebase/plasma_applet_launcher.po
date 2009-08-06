@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-01 11:32+0200\n"
+"POT-Creation-Date: 2009-08-06 06:18+0200\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -21,128 +21,128 @@ msgstr ""
 msgid "All Applications"
 msgstr "সকল অ্যাপ্লিকেশন"
 
-#: ui/contextmenufactory.cpp:82
+#: ui/contextmenufactory.cpp:81
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
-#: ui/contextmenufactory.cpp:129
+#: ui/contextmenufactory.cpp:128
 msgid "Remove From Favorites"
 msgstr "পছন্দের তালিকা থেকে সরিয়ে ফেলুন"
 
-#: ui/contextmenufactory.cpp:134
+#: ui/contextmenufactory.cpp:133
 msgid "Add to Favorites"
 msgstr "পছন্দের তালিকায় যোগ করুন"
 
-#: ui/contextmenufactory.cpp:165
+#: ui/contextmenufactory.cpp:164
 msgid "Add to Desktop"
 msgstr "ডেস্কটপে যোগ করুন"
 
-#: ui/contextmenufactory.cpp:172
+#: ui/contextmenufactory.cpp:171
 msgid "Add to Panel"
 msgstr "প্যানেলে যোগ করুন"
 
-#: ui/contextmenufactory.cpp:195
+#: ui/contextmenufactory.cpp:194
 msgid "Eject"
 msgstr "বহিষ্কার"
 
-#: ui/contextmenufactory.cpp:197
+#: ui/contextmenufactory.cpp:196
 msgid "Safely Remove"
 msgstr "নিরাপদভাবে বের করে নিন"
 
-#: ui/launcher.cpp:165 core/leavemodel.cpp:106
+#: ui/launcher.cpp:161 core/leavemodel.cpp:105
 #: simpleapplet/simpleapplet.cpp:189
 msgid "Leave"
 msgstr "প্রস্থান করুন"
 
-#: ui/launcher.cpp:177 core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:303
+#: ui/launcher.cpp:173 core/favoritesmodel.cpp:48 core/favoritesmodel.cpp:302
 #: simpleapplet/simpleapplet.cpp:171
 msgid "Favorites"
 msgstr "পছন্দ"
 
-#: ui/launcher.cpp:180
+#: ui/launcher.cpp:176
 msgid "Sort Alphabetically (A to Z)"
 msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (A থেকে Z)"
 
-#: ui/launcher.cpp:183
+#: ui/launcher.cpp:179
 msgid "Sort Alphabetically (Z to A)"
 msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (Z থেকে A)"
 
-#: ui/launcher.cpp:207 core/recentlyusedmodel.cpp:123 core/systemmodel.cpp:88
+#: ui/launcher.cpp:203 core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:82
 #: core/searchmodel.cpp:151 simpleapplet/simpleapplet.cpp:173
 msgid "Applications"
 msgstr "অ্যাপ্লিকেশন"
 
-#: ui/launcher.cpp:220 core/recentlyusedmodel.cpp:189
+#: ui/launcher.cpp:216 core/recentlyusedmodel.cpp:186
 #: simpleapplet/simpleapplet.cpp:175
 msgid "Recently Used"
 msgstr "সম্প্রতি ব্যবহৃত"
 
-#: ui/launcher.cpp:222
+#: ui/launcher.cpp:218
 msgid "Clear Recent Applications"
 msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
 
-#: ui/launcher.cpp:223
+#: ui/launcher.cpp:219
 msgid "Clear Recent Documents"
 msgstr "সম্প্রতি ব্যবহৃত নথিপত্রের তালিকা পরিস্কার করুন"
 
-#: ui/launcher.cpp:241 core/systemmodel.cpp:369
+#: ui/launcher.cpp:237 core/systemmodel.cpp:363
 #: simpleapplet/simpleapplet.cpp:174
 msgid "Computer"
 msgstr "কম্পিউটার"
 
-#: ui/launcher.cpp:525
+#: ui/launcher.cpp:521
 #, kde-format
 msgctxt "login name, hostname"
 msgid "User <b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
 
-#: ui/launcher.cpp:527
+#: ui/launcher.cpp:523
 #, kde-format
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
 
-#: ui/searchbar.cpp:72
+#: ui/searchbar.cpp:70
 msgid "Search:"
 msgstr "অনুসন্ধান:"
 
-#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:188
+#: core/leavemodel.cpp:48 simpleapplet/simpleapplet.cpp:188
 msgid "Logout"
 msgstr "লগ-আউট করুন"
 
-#: core/leavemodel.cpp:51
+#: core/leavemodel.cpp:50
 msgid "End session"
 msgstr "সেশান সমাপ্ত করুন"
 
-#: core/leavemodel.cpp:53
+#: core/leavemodel.cpp:52
 msgid "Lock"
 msgstr "লক করুন"
 
-#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:182
+#: core/leavemodel.cpp:54 simpleapplet/simpleapplet.cpp:182
 #, fuzzy
 #| msgid "Lock the screen"
 msgid "Lock Screen"
 msgstr "পর্দা লক করুন"
 
-#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:180
+#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:180
 msgid "Switch User"
 msgstr "ব্যবহারকারী পরিবর্তন করুন"
 
-#: core/leavemodel.cpp:59
+#: core/leavemodel.cpp:58
 msgid "Start a parallel session as a different user"
 msgstr "ভিন্ন ব্যবহারকারীর জন্য একযোগে একটি পৃথক সেশান আরম্ভ করুন"
 
-#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:187
+#: core/leavemodel.cpp:60 simpleapplet/simpleapplet.cpp:187
 msgid "Shutdown"
 msgstr "বন্ধ করুন"
 
-#: core/leavemodel.cpp:63
+#: core/leavemodel.cpp:62
 #, fuzzy
 #| msgid "Turn off the computer"
 msgid "Turn off computer"
 msgstr "কম্পিউটার বন্ধ করুন"
 
-#: core/leavemodel.cpp:65
+#: core/leavemodel.cpp:64
 #, fuzzy
 #| msgctxt "Restart the computer"
 #| msgid "Restart"
@@ -150,90 +150,90 @@ msgctxt "Restart computer"
 msgid "Restart"
 msgstr "পুনরারম্ভ"
 
-#: core/leavemodel.cpp:67
+#: core/leavemodel.cpp:66
 #, fuzzy
 #| msgid "Restart the computer"
 msgid "Restart Computer"
 msgstr "কম্পিউটার পুনরায় আরম্ভ করুন"
 
-#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:181
+#: core/leavemodel.cpp:68 simpleapplet/simpleapplet.cpp:181
 msgid "Save Session"
 msgstr "সেশান সংরক্ষণ করুন"
 
-#: core/leavemodel.cpp:71
+#: core/leavemodel.cpp:70
 msgid "Save current session for next login"
 msgstr "পরবর্তী লগ-ইনে প্রয়োগ করার জন্য বর্তমান সেশান সংরক্ষণ করুন"
 
-#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:183
+#: core/leavemodel.cpp:72 simpleapplet/simpleapplet.cpp:183
 msgctxt "Puts the system on standby"
 msgid "Standby"
 msgstr "স্থগিত করুন"
 
-#: core/leavemodel.cpp:75 core/leavemodel.cpp:79 core/leavemodel.cpp:83
+#: core/leavemodel.cpp:74 core/leavemodel.cpp:78 core/leavemodel.cpp:82
 msgid "Pause without logging out"
 msgstr "লগ-আউট না করে স্থগিত করুন"
 
-#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:184
+#: core/leavemodel.cpp:76 simpleapplet/simpleapplet.cpp:184
 msgid "Suspend to Disk"
 msgstr "ডিস্কে বিরত করুন"
 
-#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:185
+#: core/leavemodel.cpp:80 simpleapplet/simpleapplet.cpp:185
 msgid "Suspend to RAM"
 msgstr "RAM-এ বিরত করুন"
 
-#: core/leavemodel.cpp:118
+#: core/leavemodel.cpp:117
 msgid "Session"
 msgstr "সেশান"
 
-#: core/leavemodel.cpp:140
+#: core/leavemodel.cpp:139
 msgid "System"
 msgstr "সিস্টেম"
 
-#: core/models.cpp:122
+#: core/models.cpp:121
 msgid "Home Folder"
 msgstr "ব্যক্তিগত ফোল্ডার"
 
-#: core/models.cpp:125
+#: core/models.cpp:124
 msgid "Network Folders"
 msgstr "নেটওয়ার্ক ফোল্ডার"
 
-#: core/recentlyusedmodel.cpp:112 core/searchmodel.cpp:231
+#: core/recentlyusedmodel.cpp:109 core/searchmodel.cpp:231
 msgid "Documents"
 msgstr "নথিপত্র"
 
-#: core/recentlyusedmodel.cpp:191 simpleapplet/simpleapplet.cpp:177
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:177
 #, fuzzy
 #| msgid "Recently Used"
 msgid "Recently Used Documents"
 msgstr "সম্প্রতি ব্যবহৃত"
 
-#: core/recentlyusedmodel.cpp:193 simpleapplet/simpleapplet.cpp:176
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:176
 #, fuzzy
 #| msgid "Clear Recent Applications"
 msgid "Recently Used Applications"
 msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
 
-#: core/systemmodel.cpp:89
+#: core/systemmodel.cpp:83
 msgid "Places"
 msgstr "স্থান"
 
-#: core/systemmodel.cpp:90
+#: core/systemmodel.cpp:84
 msgid "Removable Storage"
 msgstr "অপসারণযোগ্য সংরক্ষণস্থল"
 
-#: core/systemmodel.cpp:91
+#: core/systemmodel.cpp:85
 msgid "Storage"
 msgstr "সংরক্ষণস্থল"
 
-#: core/systemmodel.cpp:248 simpleapplet/simpleapplet.cpp:179
+#: core/systemmodel.cpp:242 simpleapplet/simpleapplet.cpp:179
 msgid "Run Command..."
 msgstr ""
 
-#: core/systemmodel.cpp:252
+#: core/systemmodel.cpp:246
 msgid "Run a command or a search query"
 msgstr ""
 
-#: core/systemmodel.cpp:254
+#: core/systemmodel.cpp:248
 msgid "run:/"
 msgstr ""
 

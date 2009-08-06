@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-10 11:06+0200\n"
+"POT-Creation-Date: 2009-08-06 06:18+0200\n"
 "PO-Revision-Date: 2009-01-13 15:46+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -29,80 +29,80 @@ msgstr "symlink রূপে নির্মাণ করুন"
 msgid "Autostart only in KDE"
 msgstr "শুধুমাত্র KDE-র মধ্যে স্বয়ংক্রিয়রূপে আরম্ভ করা হবে"
 
-#: autostart.cpp:61
+#: autostart.cpp:57
 msgid "Name"
 msgstr "নাম"
 
-#: autostart.cpp:61
+#: autostart.cpp:57
 msgid "Command"
 msgstr "কমান্ড"
 
-#: autostart.cpp:61
+#: autostart.cpp:57
 msgid "Status"
 msgstr "অবস্থা"
 
-#: autostart.cpp:61
+#: autostart.cpp:57
 msgctxt ""
 "@title:column The name of the column that decides if the program is run on "
 "kde startup, on kde shutdown, etc"
 msgid "Run On"
 msgstr "সঞ্চালনের সময়"
 
-#: autostart.cpp:76
+#: autostart.cpp:72
 msgid "KDE Autostart Manager"
 msgstr "KDE Autostart পরিচালনব্যবস্থা"
 
-#: autostart.cpp:77
+#: autostart.cpp:73
 msgid "KDE Autostart Manager Control Panel Module"
 msgstr "KDE Autostart পরিচালনব্যবস্থার কনট্রোল প্যানেলের মডিউল"
 
-#: autostart.cpp:79
+#: autostart.cpp:75
 msgid "(c) 2006-2007-2008 Autostart Manager team"
 msgstr "(c) ২০০৬-২০০৭-২০০৮ Autostart পরিচালনব্যবস্থার দল"
 
-#: autostart.cpp:80
+#: autostart.cpp:76
 msgid "Stephen Leaf"
 msgstr "স্টেফান লিফ"
 
-#: autostart.cpp:81
+#: autostart.cpp:77
 msgid "Montel Laurent"
 msgstr "মন্টেল লরেন্ট"
 
-#: autostart.cpp:81
+#: autostart.cpp:77
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: autostart.cpp:111 autostart.cpp:125
+#: autostart.cpp:107 autostart.cpp:121
 msgctxt "The program won't be run"
 msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: autostart.cpp:113 autostart.cpp:125 autostartitem.cpp:72
+#: autostart.cpp:109 autostart.cpp:121 autostartitem.cpp:70
 msgctxt "The program will be run"
 msgid "Enabled"
 msgstr "সক্রিয়"
 
-#: autostart.cpp:150
+#: autostart.cpp:146
 msgid "Startup"
 msgstr "প্রারম্ভ"
 
-#: autostart.cpp:151
+#: autostart.cpp:147
 msgid "Shutdown"
 msgstr "বন্ধ"
 
-#: autostart.cpp:152
+#: autostart.cpp:148
 msgid "Pre-KDE startup"
 msgstr "KDE প্রারম্ভের পূর্বে"
 
-#: autostart.cpp:157
+#: autostart.cpp:153
 msgid "Desktop File"
 msgstr "ডেস্কটপ ফাইল"
 
-#: autostart.cpp:164
+#: autostart.cpp:160
 msgid "Script File"
 msgstr "স্ক্রিপ্ট ফাইল"
 
-#: autostart.cpp:380
+#: autostart.cpp:376
 msgid "KDE only reads files with sh extensions for setting up the environment."
 msgstr "পরিবেশ নির্ধারণের জন্য KDE দ্বারা শুধুমাত্র sh এক্সটেনশন বিশিষ্ট ফাইল পড়া হয়।"
 

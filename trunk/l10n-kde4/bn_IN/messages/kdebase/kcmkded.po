@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-22 12:57+0200\n"
+"POT-Creation-Date: 2009-08-06 06:18+0200\n"
 "PO-Revision-Date: 2009-01-13 17:47+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,23 +17,23 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kcmkded.cpp:73
+#: kcmkded.cpp:72
 msgid "kcmkded"
 msgstr "kcmkded"
 
-#: kcmkded.cpp:73
+#: kcmkded.cpp:72
 msgid "KDE Service Manager"
 msgstr "KDE Service Manager"
 
-#: kcmkded.cpp:75
+#: kcmkded.cpp:74
 msgid "(c) 2002 Daniel Molkentin"
 msgstr "(c) ২০০২ ড্যানিয়েল মোলকেন্টিন"
 
-#: kcmkded.cpp:76
+#: kcmkded.cpp:75
 msgid "Daniel Molkentin"
 msgstr "ড্যানিয়েল মোলকেন্টিন"
 
-#: kcmkded.cpp:79
+#: kcmkded.cpp:78
 msgid ""
 "<h1>Service Manager</h1><p>This module allows you to have an overview of all "
 "plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
@@ -45,80 +45,80 @@ msgid ""
 "not deactivate services if you do not know what you are doing.</b></p>"
 msgstr ""
 
-#: kcmkded.cpp:87
+#: kcmkded.cpp:86
 msgid "Running"
 msgstr "চলমান"
 
-#: kcmkded.cpp:88
+#: kcmkded.cpp:87
 msgid "Not running"
 msgstr "চলমান নয়"
 
-#: kcmkded.cpp:93
+#: kcmkded.cpp:92
 msgid "Load-on-Demand Services"
 msgstr "প্রয়োজনে লোড করার জন্য চিহ্নিত পরিসেবা"
 
-#: kcmkded.cpp:94
+#: kcmkded.cpp:93
 msgid ""
 "This is a list of available KDE services which will be started on demand. "
 "They are only listed for convenience, as you cannot manipulate these "
 "services."
 msgstr ""
 
-#: kcmkded.cpp:103 kcmkded.cpp:123
+#: kcmkded.cpp:102 kcmkded.cpp:122
 msgid "Service"
 msgstr "পরিসেবা"
 
-#: kcmkded.cpp:104 kcmkded.cpp:124
+#: kcmkded.cpp:103 kcmkded.cpp:123
 msgid "Status"
 msgstr "অবস্থা"
 
-#: kcmkded.cpp:105 kcmkded.cpp:125
+#: kcmkded.cpp:104 kcmkded.cpp:124
 msgid "Description"
 msgstr "বিবরণ"
 
-#: kcmkded.cpp:112
+#: kcmkded.cpp:111
 msgid "Startup Services"
 msgstr "প্রারম্ভিক পরিসেবা"
 
-#: kcmkded.cpp:113
+#: kcmkded.cpp:112
 msgid ""
 "This shows all KDE services that can be loaded on KDE startup. Checked "
 "services will be invoked on next startup. Be careful with deactivation of "
 "unknown services."
 msgstr ""
 
-#: kcmkded.cpp:122
+#: kcmkded.cpp:121
 msgid "Use"
 msgstr "ব্যবহার"
 
-#: kcmkded.cpp:133
+#: kcmkded.cpp:132
 msgid "Start"
 msgstr "আরম্ভ"
 
-#: kcmkded.cpp:134
+#: kcmkded.cpp:133
 msgid "Stop"
 msgstr "বন্ধ"
 
-#: kcmkded.cpp:309
+#: kcmkded.cpp:308
 msgid "Unable to contact KDED."
 msgstr "KDED-র সাথে সংযোগ স্থাপন করতে ব্যর্থ।"
 
-#: kcmkded.cpp:454
+#: kcmkded.cpp:453
 #, kde-format
 msgid "Unable to start server <em>%1</em>."
 msgstr "সার্ভার <em>%1</em> আরম্ভ করতে ব্যর্থ।"
 
-#: kcmkded.cpp:457
+#: kcmkded.cpp:456
 #, kde-format
 msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
 msgstr "পরিসেবা <em>%1</em> আরম্ভ করতে ব্যর্থ।<br /><br /><i>ত্রুটি: %2</i>"
 
-#: kcmkded.cpp:474
+#: kcmkded.cpp:473
 #, kde-format
 msgid "Unable to stop server <em>%1</em>."
 msgstr "সার্ভার <em>%1</em> বন্ধ করতে ব্যর্থ।"
 
-#: kcmkded.cpp:477
+#: kcmkded.cpp:476
 #, kde-format
 msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
 msgstr "পরিসেবা <em>%1</em> বন্ধ করতে ব্যর্থ।<br /><br /><i>ত্রুটি: %2</i>"
