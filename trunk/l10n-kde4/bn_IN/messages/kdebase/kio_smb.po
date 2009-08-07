@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-07 08:20+0200\n"
+"POT-Creation-Date: 2009-08-07 06:08+0200\n"
 "PO-Revision-Date: 2009-01-09 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kio_smb_auth.cpp:141
+#: kio_smb_auth.cpp:140
 #, kde-format
 msgid "<qt>Please enter authentication information for <b>%1</b></qt>"
 msgstr "<qt><b>%1</b>-র জন্য, অনুগ্রহ করে অনুমোদন সংক্রান্ত তথ্য লিখুন</qt>"
 
-#: kio_smb_auth.cpp:145
+#: kio_smb_auth.cpp:144
 #, kde-format
 msgid ""
 "Please enter authentication information for:\n"
@@ -33,15 +33,15 @@ msgstr ""
 "সার্ভার = %1\n"
 "শেয়ার = %2"
 
-#: kio_smb_auth.cpp:180
+#: kio_smb_auth.cpp:179
 msgid "libsmbclient failed to create context"
 msgstr "libsmbclient দ্বারা কনটেক্সট নির্মাণ করা যায়নি"
 
-#: kio_smb_auth.cpp:208
+#: kio_smb_auth.cpp:207
 msgid "libsmbclient failed to initialize context"
 msgstr "libsmbclient দ্বারা কনটেক্সট আরম্ভ করতে ব্যর্থ"
 
-#: kio_smb_browse.cpp:70
+#: kio_smb_browse.cpp:69
 #, kde-format
 msgid ""
 "%1:\n"
@@ -50,12 +50,12 @@ msgstr ""
 "%1:\n"
 "এটি ফাইল অথবা ডিরেক্টরি নয় এবং ধরন জানা নয়।"
 
-#: kio_smb_browse.cpp:111
+#: kio_smb_browse.cpp:110
 #, kde-format
 msgid "File does not exist: %1"
 msgstr "ফাইল উপস্থিত নেই: %1"
 
-#: kio_smb_browse.cpp:223
+#: kio_smb_browse.cpp:222
 msgid ""
 "Unable to find any workgroups in your local network. This might be caused by "
 "an enabled firewall."
@@ -63,37 +63,37 @@ msgstr ""
 "স্থানীয় নেটওয়ার্কের মধ্যে কোনো workgroup পাওয়া যায়নি। কোনো সক্রিয় ফায়ারওয়ালের "
 "ফলে এই সমস্যা দেখা দিতে পারে।"
 
-#: kio_smb_browse.cpp:230
+#: kio_smb_browse.cpp:229
 #, kde-format
 msgid "No media in device for %1"
 msgstr "%1-র জন্য ডিভাইসের মধ্যে কোনো মিডিয়া উপস্থিত নেই"
 
-#: kio_smb_browse.cpp:238
+#: kio_smb_browse.cpp:237
 #, kde-format
 msgid "Could not connect to host for %1"
 msgstr "%1-র জন্য হোস্টের সাথে সংযোগ স্থাপন করতে ব্যর্থ"
 
-#: kio_smb_browse.cpp:254
+#: kio_smb_browse.cpp:253
 #, kde-format
 msgid "Error while connecting to server responsible for %1"
 msgstr "%1-র জন্য ধার্য সার্ভারের সাথে সংযোগ স্থাপন করতে ত্রুটি।"
 
-#: kio_smb_browse.cpp:262
+#: kio_smb_browse.cpp:261
 msgid "Share could not be found on given server"
 msgstr "চিহ্নিত সার্ভারে কোনো শেয়ার পাওয়া যায়নি"
 
-#: kio_smb_browse.cpp:265
+#: kio_smb_browse.cpp:264
 msgid "BAD File descriptor"
 msgstr "BAD File descriptor"
 
-#: kio_smb_browse.cpp:272
+#: kio_smb_browse.cpp:271
 msgid ""
 "The given name could not be resolved to a unique server. Make sure your "
 "network is setup without any name conflicts between names used by Windows "
 "and by UNIX name resolution."
 msgstr ""
 
-#: kio_smb_browse.cpp:278
+#: kio_smb_browse.cpp:277
 msgid ""
 "libsmbclient reported an error, but did not specify what the problem is. "
 "This might indicate a severe problem with your network - but also might "
@@ -104,7 +104,7 @@ msgid ""
 "developers if they ask for it)"
 msgstr ""
 
-#: kio_smb_browse.cpp:289
+#: kio_smb_browse.cpp:288
 #, kde-format
 msgid "Unknown error condition in stat: %1"
 msgstr "stat-র মধ্যে অজ্ঞাত ত্রুটির পরিস্থিতি: %1"
