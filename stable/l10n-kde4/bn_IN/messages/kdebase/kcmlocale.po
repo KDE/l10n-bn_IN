@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-30 12:06+0200\n"
+"POT-Creation-Date: 2009-08-09 01:24+0200\n"
 "PO-Revision-Date: 2009-01-07 14:07+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -48,29 +48,29 @@ msgstr "ভাষা:"
 msgid "Remove"
 msgstr "মুছে ফেলুন"
 
-#: kcmlocale.cpp:212
+#: kcmlocale.cpp:222
 msgctxt "@item:intext Country"
 msgid "Not set (Generic English)"
 msgstr "নির্ধারিত নয় (সাধারণ ইংরাজি)"
 
-#: kcmlocale.cpp:213
+#: kcmlocale.cpp:223
 #, kde-format
 msgctxt "@info %1 is country name"
 msgid "<html>%1 (<a href=\"changeCountry\">change...</a>)</html>"
 msgstr "<html>%1 (<a href=\"changeCountry\">পরিবর্তন করুন...</a>)</html>"
 
-#: kcmlocale.cpp:218
+#: kcmlocale.cpp:228
 msgid "Add Language"
 msgstr "ভাষা যোগ করুন"
 
-#: kcmlocale.cpp:221
+#: kcmlocale.cpp:231
 msgid ""
 "This is where you live. KDE will use the defaults for this country or region."
 msgstr ""
 "আপনার অবস্থান এটি। KDE দ্বারা এই দেশ অথবা প্রদেশ সংক্রান্ত ডিফল্ট মান ব্যবহার করা "
 "হবে।"
 
-#: kcmlocale.cpp:224
+#: kcmlocale.cpp:234
 msgid ""
 "This will add a language to the list. If the language is already in the "
 "list, the old one will be moved instead."
@@ -78,11 +78,11 @@ msgstr ""
 "এর ফলে, তালিকার মধ্যে একটি ভাষা যোগ করা হবে। ভাষাটি পূর্বেই তালিকার মধ্যে উপস্থিত "
 "থাকলে, পুরোনো তথ্য মুছে নতুন তথ্য লেখা হবে।"
 
-#: kcmlocale.cpp:228
+#: kcmlocale.cpp:238
 msgid "This will remove the highlighted language from the list."
 msgstr "এর ফলে, তালিকার মধ্যে নির্বাচিত ভাষাটি মুছে ফেলা হবে।"
 
-#: kcmlocale.cpp:231
+#: kcmlocale.cpp:241
 msgid ""
 "KDE programs will be displayed in the first available language in this "
 "list.\n"
@@ -91,7 +91,7 @@ msgstr ""
 "এই তালিকায় উপস্থিত প্রথম উপলব্ধ ভাষা প্রয়োগ করে KDE প্রোগ্রামগুলি প্রদর্শন করা হবে।\n"
 "কোনো ভাষা উপলব্ধ না থাকলে, মার্কিনি ইংরাজি ব্যবহার করা হবে।"
 
-#: kcmlocale.cpp:238
+#: kcmlocale.cpp:248
 msgid ""
 "Here you can choose your country or region. The settings for languages, "
 "numbers etc. will automatically switch to the corresponding values."
@@ -99,7 +99,7 @@ msgstr ""
 "এইখানে, আপনার দেশ অথবা প্রদেশ নির্বাচন করা যাবে। ভাষা, সংখ্যা প্রভৃতি বিষয়ক "
 "বৈশিষ্ট্যগুলির ক্ষেত্রে স্বয়ংক্রিয়ভাবে সংশ্লিষ্টা মান প্রয়োগ করা হবে।"
 
-#: kcmlocale.cpp:245
+#: kcmlocale.cpp:255
 msgid ""
 "<p>Here you can choose the languages that will be used by KDE. If the first "
 "language in the list is not available, the second will be used, etc. If only "
