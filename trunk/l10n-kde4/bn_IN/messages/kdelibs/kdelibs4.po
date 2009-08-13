@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-12 07:10+0200\n"
+"POT-Creation-Date: 2009-08-13 06:21+0200\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -6696,20 +6696,20 @@ msgstr "%1"
 msgid "&Try"
 msgstr "প্রচেষ্টা করুন (&T)"
 
-#: kdeui/dialogs/kdialog.cpp:425
+#: kdeui/dialogs/kdialog.cpp:424
 msgid "modified"
 msgstr "পরিবর্তিত"
 
-#: kdeui/dialogs/kdialog.cpp:435
+#: kdeui/dialogs/kdialog.cpp:434
 msgctxt "Document/application separator in titlebar"
 msgid " – "
 msgstr " – "
 
-#: kdeui/dialogs/kdialog.cpp:805
+#: kdeui/dialogs/kdialog.cpp:804
 msgid "&Details"
 msgstr "বিবরণ (&D)"
 
-#: kdeui/dialogs/kdialog.cpp:951
+#: kdeui/dialogs/kdialog.cpp:950
 msgid "Get help..."
 msgstr "সহায়তা প্রাপ্ত করুন..."
 
@@ -6736,66 +6736,66 @@ msgstr "টুল-বারের ডিফল্ট মান রি-সেট 
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
-#: kdeui/dialogs/kedittoolbar.cpp:827
+#: kdeui/dialogs/kedittoolbar.cpp:829
 msgid "&Toolbar:"
 msgstr "টুল-বার: (&T)"
 
-#: kdeui/dialogs/kedittoolbar.cpp:842
+#: kdeui/dialogs/kedittoolbar.cpp:844
 msgid "A&vailable actions:"
 msgstr "উপলব্ধ করুন: (&v)"
 
-#: kdeui/dialogs/kedittoolbar.cpp:857 kdeui/dialogs/kedittoolbar.cpp:876
+#: kdeui/dialogs/kedittoolbar.cpp:859 kdeui/dialogs/kedittoolbar.cpp:878
 #, fuzzy
 #| msgid "File"
 msgid "Filter"
 msgstr "ফাইল"
 
-#: kdeui/dialogs/kedittoolbar.cpp:860
+#: kdeui/dialogs/kedittoolbar.cpp:862
 msgid "Curr&ent actions:"
 msgstr "বর্তমান কর্ম: (&e)"
 
-#: kdeui/dialogs/kedittoolbar.cpp:879
+#: kdeui/dialogs/kedittoolbar.cpp:881
 msgid "Change &Icon..."
 msgstr "আইকন পরিবর্তন করুন...(&I)"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1032
+#: kdeui/dialogs/kedittoolbar.cpp:1034
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1053
+#: kdeui/dialogs/kedittoolbar.cpp:1055
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:1055
+#: kdeui/dialogs/kedittoolbar.cpp:1057
 msgid "<Merge>"
 msgstr "<Merge>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1057
+#: kdeui/dialogs/kedittoolbar.cpp:1059
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Merge %1>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1063
+#: kdeui/dialogs/kedittoolbar.cpp:1065
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:1064
+#: kdeui/dialogs/kedittoolbar.cpp:1066
 #, kde-format
 msgid "ActionList: %1"
 msgstr "ActionList: %1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1164 kdeui/dialogs/kedittoolbar.cpp:1191
+#: kdeui/dialogs/kedittoolbar.cpp:1166 kdeui/dialogs/kedittoolbar.cpp:1193
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1446
+#: kdeui/dialogs/kedittoolbar.cpp:1448
 msgid "Change Icon"
 msgstr "আইকন পরিবর্তন করুন"
 
@@ -11547,32 +11547,32 @@ msgstr "Scriptfile"
 msgid "Level of safety of the Ruby interpreter"
 msgstr "Ruby ইন্টারপ্রেটারের ক্ষেত্রে নিরাপত্তার মাত্রা"
 
-#: kross/core/action.cpp:456
+#: kross/core/action.cpp:455
 #, kde-format
 msgid "Scriptfile \"%1\" does not exist."
 msgstr "\"%1\" স্ক্রিপ্ট-ফাইল বর্তমানে অনুপস্থিত"
 
-#: kross/core/action.cpp:460
+#: kross/core/action.cpp:459
 #, kde-format
 msgid "Failed to determine interpreter for scriptfile \"%1\""
 msgstr "scriptfile \"%1\"-র জন্য ইন্টারপ্রেটার নির্ধারণ করতে ব্যর্থ"
 
-#: kross/core/action.cpp:464
+#: kross/core/action.cpp:463
 #, kde-format
 msgid "Failed to open scriptfile \"%1\""
 msgstr "scriptfile \"%1\" খুলতে ব্যর্থ"
 
-#: kross/core/action.cpp:475
+#: kross/core/action.cpp:474
 #, kde-format
 msgid "Failed to load interpreter \"%1\""
 msgstr "ইন্টারপ্রেটার \"%1\" লোড করতে ব্যর্থ"
 
-#: kross/core/action.cpp:477
+#: kross/core/action.cpp:476
 #, kde-format
 msgid "No such interpreter \"%1\""
 msgstr "ইন্টারপ্রেটাট \"%1\" অনুপস্থিত"
 
-#: kross/core/action.cpp:483
+#: kross/core/action.cpp:482
 #, kde-format
 msgid "Failed to create script for interpreter \"%1\""
 msgstr "ইন্টারপ্রেটার \"%1\"-র জন্য স্ক্রিপ্ট নির্মাণ করতে ব্যর্থ"

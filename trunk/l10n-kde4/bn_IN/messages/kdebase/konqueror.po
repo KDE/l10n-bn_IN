@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-21 11:49+0200\n"
+"POT-Creation-Date: 2009-08-13 06:22+0200\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1267,18 +1267,15 @@ msgstr[1] " দিন"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:75
 #: sidebar/trees/history_module/kcmhistory.cpp:80
-msgid "Minutes"
-msgstr "মিনিট"
+#: sidebar/trees/history_module/kcmhistory.cpp:213
+#: sidebar/trees/history_module/kcmhistory.cpp:225
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:77
 #: sidebar/trees/history_module/kcmhistory.cpp:82
-msgid "Days"
-msgstr "দিন"
-
-#: sidebar/trees/history_module/kcmhistory.cpp:196
-msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
-msgstr ""
-
 #: sidebar/trees/history_module/kcmhistory.cpp:211
 #: sidebar/trees/history_module/kcmhistory.cpp:223
 msgid "Day"
@@ -1286,12 +1283,9 @@ msgid_plural "Days"
 msgstr[0] "দিন"
 msgstr[1] "দিন"
 
-#: sidebar/trees/history_module/kcmhistory.cpp:213
-#: sidebar/trees/history_module/kcmhistory.cpp:225
-msgid "Minute"
-msgid_plural "Minutes"
-msgstr[0] "মিনিট"
-msgstr[1] "মিনিট"
+#: sidebar/trees/history_module/kcmhistory.cpp:196
+msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+msgstr ""
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:424
 #, kde-format
@@ -2323,6 +2317,12 @@ msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#~ msgid "Minutes"
+#~ msgstr "মিনিট"
+
+#~ msgid "Days"
+#~ msgstr "দিন"
 
 #~ msgid "Your sidebar is not functional or unavailable."
 #~ msgstr "সাইড-বার কার্যকরী নয় অথবা উপলব্ধ নয়।"
