@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-27 10:59+0200\n"
+"POT-Creation-Date: 2009-08-17 01:19+0200\n"
 "PO-Revision-Date: 2008-12-29 15:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -38,29 +38,29 @@ msgstr "KDE-র অংশবিশেষ:"
 msgid "All Components"
 msgstr "KDE-র অংশবিশেষ:"
 
-#: kglobalshortcutseditor.cpp:116
+#: kglobalshortcutseditor.cpp:168
 #, fuzzy
 #| msgid "Import Scheme..."
 msgid "Import Scheme..."
 msgstr "স্কিম ইম্পোর্ট করুন..."
 
-#: kglobalshortcutseditor.cpp:117
+#: kglobalshortcutseditor.cpp:169
 #, fuzzy
 #| msgid "Export Scheme..."
 msgid "Export Scheme..."
 msgstr "স্কিম এক্সপোর্ট করুন..."
 
-#: kglobalshortcutseditor.cpp:118
+#: kglobalshortcutseditor.cpp:170
 msgid "Set All Shortcuts to None"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:119
+#: kglobalshortcutseditor.cpp:171
 #, fuzzy
 #| msgid "KDE component:"
 msgid "Remove Component"
 msgstr "KDE-র অংশবিশেষ:"
 
-#: kglobalshortcutseditor.cpp:282
+#: kglobalshortcutseditor.cpp:331
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
@@ -68,22 +68,22 @@ msgstr ""
 "বর্তমান স্কিম সংরক্ষণ না করে অন্য একটি স্কিম লোড করা হলে, সম্প্রতি করা পরিবর্তনগুলি "
 "হারিয়ে যাবে।"
 
-#: kglobalshortcutseditor.cpp:283
+#: kglobalshortcutseditor.cpp:332
 #, fuzzy
 #| msgid "Load Shortcurt Scheme"
 msgid "Load Shortcut Scheme"
 msgstr "শর্ট-কাট স্কিম লোড করুন"
 
-#: kglobalshortcutseditor.cpp:284
+#: kglobalshortcutseditor.cpp:333
 msgid "Load"
 msgstr "লোড করুন"
 
-#: kglobalshortcutseditor.cpp:297
+#: kglobalshortcutseditor.cpp:346
 #, kde-format
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "এই ফাইলটি (%1) উপস্থিত নেই। শুধুমাত্র স্থানীয় ফাইল নির্বাচন করা যাবে।"
 
-#: kglobalshortcutseditor.cpp:325 kglobalshortcutseditor.cpp:348
+#: kglobalshortcutseditor.cpp:374 kglobalshortcutseditor.cpp:397
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -92,11 +92,11 @@ msgstr ""
 "বার্তা: %1\n"
 "ত্রুটি: %2"
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:353
+#: kglobalshortcutseditor.cpp:379 kglobalshortcutseditor.cpp:402
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE গ্লোবাল শর্ট-কাট ডেমনের সাথে সংযোগ স্থাপন করতে ব্যর্থ\n"
 
-#: kglobalshortcutseditor.cpp:462
+#: kglobalshortcutseditor.cpp:511
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -105,13 +105,13 @@ msgid ""
 "they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:464 kglobalshortcutseditor.cpp:474
+#: kglobalshortcutseditor.cpp:513 kglobalshortcutseditor.cpp:523
 #, fuzzy
 #| msgid "KDE component:"
 msgid "Remove component"
 msgstr "KDE-র অংশবিশেষ:"
 
-#: kglobalshortcutseditor.cpp:470
+#: kglobalshortcutseditor.cpp:519
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
