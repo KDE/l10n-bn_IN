@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-19 11:25+0200\n"
+"POT-Creation-Date: 2009-08-30 01:23+0200\n"
 "PO-Revision-Date: 2009-07-06 15:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -39,27 +39,27 @@ msgstr ""
 msgid "Grabber Widget Based"
 msgstr "Grabber উইজেট ভিত্তিক"
 
-#: daemon/PowerDevilDaemon.cpp:144
+#: daemon/PowerDevilDaemon.cpp:145
 msgid "PowerDevil"
 msgstr "PowerDevil"
 
-#: daemon/PowerDevilDaemon.cpp:145
+#: daemon/PowerDevilDaemon.cpp:146
 msgid "A Power Management tool for KDE4"
 msgstr "KDE4-র সাথে ব্যবহারযোগ্য বিদ্যুৎ পরিচালন ব্যবস্থা"
 
-#: daemon/PowerDevilDaemon.cpp:146
+#: daemon/PowerDevilDaemon.cpp:147
 msgid "(c) 2008 Dario Freddi"
 msgstr "(c) ২০০৮ ডারিও ফ্রেডি"
 
-#: daemon/PowerDevilDaemon.cpp:149 kcmodule/PowerDevilKCM.cpp:59
+#: daemon/PowerDevilDaemon.cpp:150 kcmodule/PowerDevilKCM.cpp:59
 msgid "Dario Freddi"
 msgstr "ডারিও ফ্রেডি"
 
-#: daemon/PowerDevilDaemon.cpp:149
+#: daemon/PowerDevilDaemon.cpp:150
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: daemon/PowerDevilDaemon.cpp:291
+#: daemon/PowerDevilDaemon.cpp:292
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
@@ -67,7 +67,7 @@ msgstr ""
 "ব্যাটারি প্রেক্ষাপটের সাথে সংযোগ স্থাপন করা যায়নি!\n"
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
-#: daemon/PowerDevilDaemon.cpp:416
+#: daemon/PowerDevilDaemon.cpp:415
 msgid ""
 "The power adaptor has been plugged in. Any pending suspend actions have been "
 "canceled."
@@ -75,11 +75,11 @@ msgstr ""
 "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে। অপেক্ষারত কোনো স্থগিতকরণ কর্ম বাতিল "
 "করা হয়েছে।"
 
-#: daemon/PowerDevilDaemon.cpp:419
+#: daemon/PowerDevilDaemon.cpp:418
 msgid "The power adaptor has been plugged in."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে।"
 
-#: daemon/PowerDevilDaemon.cpp:425
+#: daemon/PowerDevilDaemon.cpp:424
 msgid "The power adaptor has been unplugged."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে।"
 
@@ -186,17 +186,17 @@ msgstr[1] "%1 সেকেন্ডের মধ্যে কম্পিউট�
 msgid "There was an error while suspending:"
 msgstr "সিস্টেম স্থগিত করতে সমস্যা:"
 
-#: daemon/PowerDevilDaemon.cpp:1112
+#: daemon/PowerDevilDaemon.cpp:1113
 msgid "The screen is being locked"
 msgstr "পর্দা লক করা হচ্ছে"
 
-#: daemon/PowerDevilDaemon.cpp:1126 daemon/PowerDevilDaemon.cpp:1154
-#: daemon/PowerDevilDaemon.cpp:1182
+#: daemon/PowerDevilDaemon.cpp:1127 daemon/PowerDevilDaemon.cpp:1155
+#: daemon/PowerDevilDaemon.cpp:1183
 msgctxt "Interrupts the suspension/shutdown process"
 msgid "Abort Action"
 msgstr "কর্ম পরিত্যাগ করুন"
 
-#: daemon/PowerDevilDaemon.cpp:1229
+#: daemon/PowerDevilDaemon.cpp:1230
 #, kde-format
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist.\n"
@@ -205,51 +205,51 @@ msgstr ""
 "অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে, কিন্তু এটি উপস্থিত নেই!\n"
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
-#: daemon/PowerDevilDaemon.cpp:1310
+#: daemon/PowerDevilDaemon.cpp:1311
 #, kde-format
 msgid "Profile changed to \"%1\""
 msgstr "\"%1\"-এ প্রোফাইল পরিবর্তিত হয়েছে"
 
-#: daemon/PowerDevilDaemon.cpp:1342 kcmodule/CapabilitiesPage.cpp:153
+#: daemon/PowerDevilDaemon.cpp:1343 kcmodule/CapabilitiesPage.cpp:153
 #: kcmodule/CapabilitiesPage.cpp:300 kcmodule/EditPage.cpp:150
 msgid "Performance"
 msgstr "কর্মক্ষমতা"
 
-#: daemon/PowerDevilDaemon.cpp:1346 kcmodule/CapabilitiesPage.cpp:157
+#: daemon/PowerDevilDaemon.cpp:1347 kcmodule/CapabilitiesPage.cpp:157
 #: kcmodule/EditPage.cpp:156
 msgid "Dynamic (ondemand)"
 msgstr "পরিবর্তনশীল (প্রয়োজন অনুসারে)"
 
-#: daemon/PowerDevilDaemon.cpp:1350 kcmodule/CapabilitiesPage.cpp:161
+#: daemon/PowerDevilDaemon.cpp:1351 kcmodule/CapabilitiesPage.cpp:161
 #: kcmodule/EditPage.cpp:160
 msgid "Dynamic (conservative)"
 msgstr "পরিবর্তনশীল (রক্ষণশীল)"
 
-#: daemon/PowerDevilDaemon.cpp:1354 kcmodule/CapabilitiesPage.cpp:165
+#: daemon/PowerDevilDaemon.cpp:1355 kcmodule/CapabilitiesPage.cpp:165
 #: kcmodule/EditPage.cpp:165
 msgid "Powersave"
 msgstr "পাওয়ার-সেভ"
 
-#: daemon/PowerDevilDaemon.cpp:1358 kcmodule/CapabilitiesPage.cpp:169
+#: daemon/PowerDevilDaemon.cpp:1359 kcmodule/CapabilitiesPage.cpp:169
 #: kcmodule/EditPage.cpp:170
 msgid "Userspace"
 msgstr "ইউজার-স্পেস"
 
-#: daemon/PowerDevilDaemon.cpp:1371 kcmodule/GeneralPage.cpp:66
+#: daemon/PowerDevilDaemon.cpp:1372 kcmodule/GeneralPage.cpp:66
 #: kcmodule/CapabilitiesPage.cpp:129 kcmodule/EditPage.cpp:127
 #: kcmodule/EditPage.cpp:128 kcmodule/EditPage.cpp:129
 #: kcmodule/EditPage.cpp:130
 msgid "Suspend to Disk"
 msgstr "ডিস্কে বিরত করুন"
 
-#: daemon/PowerDevilDaemon.cpp:1375 kcmodule/GeneralPage.cpp:70
+#: daemon/PowerDevilDaemon.cpp:1376 kcmodule/GeneralPage.cpp:70
 #: kcmodule/CapabilitiesPage.cpp:133 kcmodule/EditPage.cpp:134
 #: kcmodule/EditPage.cpp:135 kcmodule/EditPage.cpp:136
 #: kcmodule/EditPage.cpp:137
 msgid "Suspend to RAM"
 msgstr "RAM-এ বিরত করুন"
 
-#: daemon/PowerDevilDaemon.cpp:1379 kcmodule/GeneralPage.cpp:74
+#: daemon/PowerDevilDaemon.cpp:1380 kcmodule/GeneralPage.cpp:74
 #: kcmodule/CapabilitiesPage.cpp:137 kcmodule/EditPage.cpp:141
 #: kcmodule/EditPage.cpp:142 kcmodule/EditPage.cpp:143
 #: kcmodule/EditPage.cpp:144
