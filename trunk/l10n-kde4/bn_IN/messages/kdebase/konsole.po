@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-30 06:00+0200\n"
+"POT-Creation-Date: 2009-08-31 06:07+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -225,7 +225,7 @@ msgstr "ই-মেইল প্রাপক..."
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করুন"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:501
+#: HistorySizeDialog.cpp:51 SessionController.cpp:499
 msgid "Scrollback Options"
 msgstr "স্ক্রোল-ব্যাক সংক্রান্ত বিকল্প"
 
@@ -570,7 +570,7 @@ msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:348 SessionController.cpp:606
+#: MainWindow.cpp:348 SessionController.cpp:604
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
@@ -1580,99 +1580,99 @@ msgstr "Solaris কনসোল"
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 টার্মিন্যাল"
 
-#: SessionController.cpp:386
+#: SessionController.cpp:384
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: SessionController.cpp:392
+#: SessionController.cpp:390
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:399
+#: SessionController.cpp:397
 msgid "&Copy"
 msgstr "কপি করুন (&C)"
 
-#: SessionController.cpp:403
+#: SessionController.cpp:401
 msgid "&Paste"
 msgstr "পেস্ট করুন (&P)"
 
-#: SessionController.cpp:416
+#: SessionController.cpp:414
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: SessionController.cpp:422
+#: SessionController.cpp:420
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:428
+#: SessionController.cpp:426
 msgid "Copy Input To..."
 msgstr ""
 
-#: SessionController.cpp:433
+#: SessionController.cpp:431
 msgid "Clear && Reset"
 msgstr ""
 
-#: SessionController.cpp:438
+#: SessionController.cpp:436
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:444
+#: SessionController.cpp:442
 msgid "Monitor for &Activity"
 msgstr "কর্ম সঞ্চালন নিরীক্ষণ করুন (&A)"
 
-#: SessionController.cpp:449
+#: SessionController.cpp:447
 msgid "Monitor for &Silence"
 msgstr "নিষ্ক্রিয় অবস্থা নিরীক্ষণ করুন (&S)"
 
-#: SessionController.cpp:455
+#: SessionController.cpp:453
 msgid "Character Encoding"
 msgstr "ক্যারেক্টার এনকোডিং"
 
-#: SessionController.cpp:462
+#: SessionController.cpp:460
 msgid "Increase Text Size"
 msgstr "হরফের মাপ বৃদ্ধি করুন"
 
-#: SessionController.cpp:468
+#: SessionController.cpp:466
 msgid "Decrease Text Size"
 msgstr "হরফের মাপ হ্রাস করুন"
 
-#: SessionController.cpp:474
+#: SessionController.cpp:472
 msgid "Search Output..."
 msgstr "অনুসন্ধানের ফলাফল..."
 
-#: SessionController.cpp:483
+#: SessionController.cpp:481
 msgid "Find Next"
 msgstr "পরবর্তী উপস্থিতি অনুসন্ধান"
 
-#: SessionController.cpp:490
+#: SessionController.cpp:488
 msgid "Find Previous"
 msgstr "পূর্ববর্তী উপস্থিতি অনুসন্ধান"
 
-#: SessionController.cpp:496
+#: SessionController.cpp:494
 msgid "Save Output..."
 msgstr "ফলাফল সংরক্ষণ করুন..."
 
-#: SessionController.cpp:506
+#: SessionController.cpp:504
 msgid "Clear Scrollback && Reset"
 msgstr ""
 
-#: SessionController.cpp:512
+#: SessionController.cpp:510
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
 
-#: SessionController.cpp:516
+#: SessionController.cpp:514
 msgid "Change Profile"
 msgstr "প্রোফাইল পরিবর্তন করুন"
 
-#: SessionController.cpp:556
+#: SessionController.cpp:554
 msgid "Rename Tab"
 msgstr "ট্যাবের নাম পরিবর্তন করুন"
 
-#: SessionController.cpp:557
+#: SessionController.cpp:555
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:600
+#: SessionController.cpp:598
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -1680,7 +1680,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:603
+#: SessionController.cpp:601
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1689,42 +1689,42 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1070
+#: SessionController.cpp:1068
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1079
+#: SessionController.cpp:1077
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgstr ""
 
-#: SessionController.cpp:1091
+#: SessionController.cpp:1089
 msgid "<p>The current session already has a ZModem file transfer in progress."
 msgstr ""
 
-#: SessionController.cpp:1100
+#: SessionController.cpp:1098
 msgid ""
 "<p>No suitable ZModem software was found on this system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgstr ""
 
-#: SessionController.cpp:1106
+#: SessionController.cpp:1104
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1169
+#: SessionController.cpp:1176
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1180
+#: SessionController.cpp:1187
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1269
+#: SessionController.cpp:1276
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"

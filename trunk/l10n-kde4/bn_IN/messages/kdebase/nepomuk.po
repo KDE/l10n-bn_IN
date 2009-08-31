@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-21 05:58+0200\n"
+"POT-Creation-Date: 2009-08-31 06:07+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -371,27 +371,28 @@ msgctxt "@info:status"
 msgid "File indexer is idle"
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে কর্মহীন"
 
-#: services/strigi/systray.cpp:42
-msgid "Strigi File Indexing"
-msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
+#: services/strigi/systray.cpp:40 services/strigi/systray.cpp:43
+#: services/strigi/systray.cpp:76
+msgid "Search Service"
+msgstr ""
 
-#: services/strigi/systray.cpp:44 services/strigi/systray.cpp:45
-msgid "Suspend Strigi Indexing"
+#: services/strigi/systray.cpp:45 services/strigi/systray.cpp:46
+#, fuzzy
+#| msgid "Suspend Strigi Indexing"
+msgid "Suspend File Indexing"
 msgstr "Strigi ইন্ডেক্স ব্যবস্থা বিরত করুন"
 
-#: services/strigi/systray.cpp:46
-msgid "Suspend or resume the Strigi file indexer manually"
+#: services/strigi/systray.cpp:47
+#, fuzzy
+#| msgid "Suspend or resume the Strigi file indexer manually"
+msgid "Suspend or resume the file indexer manually"
 msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থাটি স্বয়ং বিরত অথবা পুনরারম্ভ করুন"
 
-#: services/strigi/systray.cpp:51
-msgid "Configure Strigi"
-msgstr "Strigi কনফিগার করুন"
-
-#: services/strigi/systray.cpp:75
+#: services/strigi/systray.cpp:52
 #, fuzzy
-#| msgid "Nepomuk Server"
-msgid "Nepomuk"
-msgstr "Nepomuk Server"
+#| msgid "Strigi Desktop File Indexer"
+msgid "Configure File Indexer"
+msgstr "Strigi ডেস্কটপ ফাইল ইন্ডেক্সার"
 
 #: services/strigi/statuswidget.cpp:52
 msgid "Configure"
@@ -454,6 +455,17 @@ msgstr "কোনো পরিসেবার নাম নির্ধারি
 #: servicestub/main.cpp:117
 msgid "Unknown service name:"
 msgstr "পরিসেবার নাম অজানা:"
+
+#~ msgid "Strigi File Indexing"
+#~ msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
+
+#~ msgid "Configure Strigi"
+#~ msgstr "Strigi কনফিগার করুন"
+
+#, fuzzy
+#~| msgid "Nepomuk Server"
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk Server"
 
 #~ msgid "Today's Files"
 #~ msgstr "আজকের ফাইল"
