@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-24 01:23+0200\n"
+"POT-Creation-Date: 2009-09-01 01:21+0200\n"
 "PO-Revision-Date: 2009-01-12 11:36+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -53,11 +53,7 @@ msgstr "মাউন্ট পয়েন্ট"
 msgid "Name"
 msgstr "নাম"
 
-#: hdd.cpp:86
-msgid "Partitions"
-msgstr "পার্টিশন"
-
-#: hdd.cpp:94
+#: hdd.cpp:84
 #, fuzzy
 #| msgid "minutes"
 msgid " minute"
@@ -65,16 +61,20 @@ msgid_plural " minutes"
 msgstr[0] "মিনিট"
 msgstr[1] "মিনিট"
 
-#: hdd.cpp:135
+#: hdd.cpp:86
+msgid "Partitions"
+msgstr "পার্টিশন"
+
+#: hdd.cpp:129
 msgctxt "the root filesystem"
 msgid "root"
 msgstr "root"
 
-#: hdd.cpp:142
+#: hdd.cpp:136
 msgid "Unknown filesystem"
 msgstr "অজানা ফাইল-সিস্টেম"
 
-#: hdd.cpp:152
+#: hdd.cpp:146
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
