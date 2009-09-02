@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:07+0200\n"
+"POT-Creation-Date: 2009-09-02 07:22+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -410,33 +410,41 @@ msgstr[0] "ইন্ডেক্সের মধ্যে ১-টি ফাই�
 msgstr[1] "ইন্ডেক্সের মধ্যে %1-টি ফাইল"
 
 #: services/strigi/eventmonitor.cpp:70
-msgid ""
-"Strigi file indexing started. Indexing all files for fast desktop searches "
-"may take a while."
+#, fuzzy
+#| msgid ""
+#| "Strigi file indexing started. Indexing all files for fast desktop "
+#| "searches may take a while."
+msgid "Indexing files for fast searching. This process may take a while."
 msgstr ""
 "Strigi ফাইল ইন্ডেক্স ব্যবস্থা আরম্ভ করা হয়েছে। দ্রুত ডেস্কটপ অনুসন্ধানের জন্য সকল ফাইল "
 "ইন্ডেক্স করা হচ্ছে এবং এই কাজে কিছু সময় ব্যয় হতে পারে।"
 
 #: services/strigi/eventmonitor.cpp:99 services/strigi/eventmonitor.cpp:130
-msgid "Resuming Strigi file indexing."
-msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা পুনরায় আরম্ভ করা হচ্ছে।"
+msgid "Resuming indexing of files for fast searching."
+msgstr ""
 
 #: services/strigi/eventmonitor.cpp:106
-msgid "Suspending Strigi file indexing to preserve resources."
+#, fuzzy
+#| msgid "Suspending Strigi file indexing to preserve resources."
+msgid "Suspending the indexing of files to preserve resources."
 msgstr "সিস্টেমের রিসোর্স সংরক্ষণের জন্য Strigi ফাইল ইন্ডেক্স কর্ম বিরত করা হচ্ছে।"
 
 #: services/strigi/eventmonitor.cpp:121
-#, kde-format
-msgid ""
-"Local disk space is running low (%1 left). Suspending Strigi file indexing."
+#, fuzzy, kde-format
+#| msgid ""
+#| "Local disk space is running low (%1 left). Suspending Strigi file "
+#| "indexing."
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
 msgstr ""
 "স্থানীয় ডিস্কের স্থান অতিমাত্রায় হ্রাস হয়েছে (%1 অবশিষ্ট)। Strigi ফাইল ইন্ডেক্স "
 "ব্যবস্থা বিরত করা হচ্ছে।"
 
 #: services/strigi/eventmonitor.cpp:147
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-msgid "Initial Desktop Search file indexing finished in %1"
+msgid "Initial indexing of files for fast searching finished in %1"
 msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
 
 #: servicestub/main.cpp:67 servicestub/main.cpp:69
@@ -455,6 +463,9 @@ msgstr "কোনো পরিসেবার নাম নির্ধারি
 #: servicestub/main.cpp:117
 msgid "Unknown service name:"
 msgstr "পরিসেবার নাম অজানা:"
+
+#~ msgid "Resuming Strigi file indexing."
+#~ msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা পুনরায় আরম্ভ করা হচ্ছে।"
 
 #~ msgid "Strigi File Indexing"
 #~ msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা"

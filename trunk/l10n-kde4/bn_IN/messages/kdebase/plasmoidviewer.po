@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-29 11:56+0200\n"
+"POT-Creation-Date: 2009-09-02 07:23+0200\n"
 "PO-Revision-Date: 2008-12-29 15:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,40 +18,40 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: main.cpp:46
+#: main.cpp:48
 msgid "Run Plasma widgets in their own window"
 msgstr "Plasma উইজেটগুলি তাদের নিজস্ব উইন্ডোর মধ্যে সঞ্চালন করা হবে"
 
-#: main.cpp:50
+#: main.cpp:83
 msgid "Plasma Widget Viewer"
 msgstr "Plasma উইজেট প্রদর্শনব্যবস্থা"
 
-#: main.cpp:52
+#: main.cpp:85
 msgid "2007-2008, Frerich Raabe"
 msgstr "২০০৭-২০০৮, ফ্রেরিখ রাবি"
 
-#: main.cpp:54
+#: main.cpp:87
 msgid "Frerich Raabe"
 msgstr "ফ্রেরিখ রাবি"
 
-#: main.cpp:55
+#: main.cpp:88
 msgid "Original author"
 msgstr "প্রথম নির্মাতা"
 
-#: main.cpp:62
+#: main.cpp:95
 msgid "Name of the containment plugin"
 msgstr ""
 
-#: main.cpp:64
+#: main.cpp:97
 msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
 msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
 msgstr "ব্যবহারযোগ্য formfactor (horizontal, vertical, mediacenter অথবা planar)"
 
-#: main.cpp:65
+#: main.cpp:98
 msgid "Displays a list of known applets"
 msgstr "জ্ঞাত অ্যাপ্লেটের তালিকা প্রদর্শন করা হবে"
 
-#: main.cpp:67
+#: main.cpp:100
 msgctxt ""
 "Do not translate floating, desktop, fullscreen, top, bottom, left nor right"
 msgid ""
@@ -59,30 +59,34 @@ msgid ""
 "fullscreen, top, bottom, left, right)"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:102
 msgid "The size in KB to set the pixmap cache to"
 msgstr "কিলোবাইট অনুযায়ী পিক্সম্যাপ ক্যাশের মাপ নির্ধারণ করা হবে"
 
-#: main.cpp:71
+#: main.cpp:104
 msgid "Desktop SVG theme to use"
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:106
 msgid "Name of the wallpaper plugin"
 msgstr "ওয়াল-পেপার প্লাগ-ইনের নাম"
 
-#: main.cpp:74
+#: main.cpp:107
 msgid ""
 "Name of applet to view; may refer to the plugin name or be a path (absolute "
 "or relative) to a package. If not provided, then an attempt is made to load "
 "a package from the current directory."
 msgstr ""
 
-#: main.cpp:77
+#: main.cpp:110
 msgid "Optional arguments of the applet to add"
 msgstr "যোগ করার উদ্দেশ্যে চিহ্নিত ঐচ্ছিক আর্গুমেন্ট"
 
-#: main.cpp:101
+#: main.cpp:111
+msgid "List zeroconf announced remote widgets"
+msgstr ""
+
+#: main.cpp:135
 msgid "No description available"
 msgstr "কোনো বর্ণনা উপলব্ধ নেই"
 
