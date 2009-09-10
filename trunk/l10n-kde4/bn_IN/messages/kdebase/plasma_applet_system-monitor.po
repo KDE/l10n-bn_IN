@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-09 07:28+0200\n"
+"POT-Creation-Date: 2009-09-10 06:21+0200\n"
 "PO-Revision-Date: 2009-01-12 11:36+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -25,7 +25,7 @@ msgstr "CPU"
 msgid "total"
 msgstr ""
 
-#: cpu.cpp:180 net.cpp:191 ram.cpp:179 temperature.cpp:102
+#: cpu.cpp:180 net.cpp:190 ram.cpp:179 temperature.cpp:109
 #, fuzzy
 #| msgid "seconds"
 msgid " second"
@@ -37,19 +37,19 @@ msgstr[1] "সেকেন্ড"
 msgid "CPUs"
 msgstr "CPU-গুলি"
 
-#: hdd.cpp:52
+#: hdd.cpp:55
 msgid "Disk Space"
 msgstr "ডিস্কের স্থান"
 
-#: hdd.cpp:61
+#: hdd.cpp:81
 msgid "Mount Point"
 msgstr "মাউন্ট পয়েন্ট"
 
-#: hdd.cpp:62 temperature.cpp:82
+#: hdd.cpp:82 temperature.cpp:91
 msgid "Name"
 msgstr "নাম"
 
-#: hdd.cpp:85
+#: hdd.cpp:106
 #, fuzzy
 #| msgid "minutes"
 msgid " minute"
@@ -57,30 +57,30 @@ msgid_plural " minutes"
 msgstr[0] "মিনিট"
 msgstr[1] "মিনিট"
 
-#: hdd.cpp:87
+#: hdd.cpp:108
 msgid "Partitions"
 msgstr "পার্টিশন"
 
-#: hdd.cpp:130
+#: hdd.cpp:160
 msgctxt "the root filesystem"
 msgid "root"
 msgstr "root"
 
-#: hdd.cpp:137
+#: hdd.cpp:166
 msgid "Unknown filesystem"
 msgstr "অজানা ফাইল-সিস্টেম"
 
-#: hdd.cpp:153
+#: hdd.cpp:181
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
 msgstr "%1 (ব্যবহারযোগ্য নয়)"
 
-#: hdd.cpp:275
+#: hdd.cpp:303
 msgid "File System"
 msgstr ""
 
-#: hdd.cpp:276
+#: hdd.cpp:304
 msgid "Raid"
 msgstr ""
 
@@ -104,13 +104,13 @@ msgstr "অডিও"
 msgid "Network"
 msgstr "নেটওয়ার্ক"
 
-#: net.cpp:174
+#: net.cpp:173
 #, fuzzy
 #| msgid "Network interface"
 msgid "Network Interface"
 msgstr "নেটওয়ার্ক ইন্টারফেস"
 
-#: net.cpp:192
+#: net.cpp:191
 msgid "Interfaces"
 msgstr "ইন্টারফেস"
 
@@ -175,20 +175,24 @@ msgstr ""
 msgid "&Available temperatures:"
 msgstr "উপলব্ধ তাপমাত্রা: (&A)"
 
-#: temperature.cpp:50 temperature.cpp:104
+#: temperature.cpp:58 temperature.cpp:111
 msgid "Temperature"
 msgstr "তাপমাত্রা"
 
-#: temperature.cpp:81
+#: temperature.cpp:90
 msgid "Sensor"
 msgstr "সেনসর"
 
-#: temperature.cpp:238
+#: temperature.cpp:235
+msgid "\\u00b0"
+msgstr ""
+
+#: temperature.cpp:248
 #, kde-format
 msgid "%1 °C"
 msgstr "%1 °C"
 
-#: temperature.cpp:240
+#: temperature.cpp:250
 #, kde-format
 msgid "%1 °F"
 msgstr "%1 °F"
