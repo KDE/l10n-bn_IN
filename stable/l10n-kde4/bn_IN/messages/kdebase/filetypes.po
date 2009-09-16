@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-03 11:04+0200\n"
+"POT-Creation-Date: 2009-09-16 15:27+0200\n"
 "PO-Revision-Date: 2009-07-06 12:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -63,7 +63,7 @@ msgid ""
 "text files."
 msgstr ""
 
-#: filetypedetails.cpp:110 filetypesview.cpp:121 kservicelistwidget.cpp:129
+#: filetypedetails.cpp:110 filetypesview.cpp:122 kservicelistwidget.cpp:129
 msgid "Add..."
 msgstr "যোগ করুন..."
 
@@ -150,22 +150,22 @@ msgid ""
 "examining the contents of the file.</p>"
 msgstr ""
 
-#: filetypesview.cpp:91
+#: filetypesview.cpp:92
 msgid "Find file type or filename pattern"
 msgstr "ফাইলের ধরন অথবা ফাইলের নামে বিন্যাস অনুসন্ধান করা হবে"
 
-#: filetypesview.cpp:97
+#: filetypesview.cpp:98
 msgid ""
 "Enter a part of a filename pattern, and only file types with a matching file "
 "pattern will appear in the list. Alternatively, enter a part of a file type "
 "name as it appears in the list."
 msgstr ""
 
-#: filetypesview.cpp:105
+#: filetypesview.cpp:106
 msgid "Known Types"
 msgstr "জ্ঞাত ধরনগুলি"
 
-#: filetypesview.cpp:112
+#: filetypesview.cpp:113
 msgid ""
 "Here you can see a hierarchical list of the file types which are known on "
 "your system. Click on the '+' sign to expand a category, or the '-' sign to "
@@ -173,27 +173,27 @@ msgid ""
 "the information for that file type using the controls on the right."
 msgstr ""
 
-#: filetypesview.cpp:126
+#: filetypesview.cpp:127
 msgid "Click here to add a new file type."
 msgstr "নতুন ধরনের ফাইল যোগ করার জন্য এইখানে ক্লিক করুন।"
 
-#: filetypesview.cpp:128 filetypesview.cpp:389
+#: filetypesview.cpp:129 filetypesview.cpp:390
 msgid "&Remove"
 msgstr "মুছে ফেলুন (&R)"
 
-#: filetypesview.cpp:155
+#: filetypesview.cpp:156
 msgid "Select a file type by name or by extension"
 msgstr "নাম অথবা এক্সটেনশন অনুযায়ী ফাইলের ধরন নির্বাচন করুন"
 
-#: filetypesview.cpp:385
+#: filetypesview.cpp:386
 msgid "&Revert"
 msgstr "পূর্বাবস্থা (&R)"
 
-#: filetypesview.cpp:386
+#: filetypesview.cpp:387
 msgid "Revert this file type to its initial system-wide definition"
 msgstr ""
 
-#: filetypesview.cpp:387
+#: filetypesview.cpp:388
 msgid ""
 "Click here to revert this file type to its initial system-wide definition, "
 "which undoes any changes made to the file type. Note that system-wide file "
@@ -202,11 +202,11 @@ msgid ""
 "from file contents can still end up using them)."
 msgstr ""
 
-#: filetypesview.cpp:390
+#: filetypesview.cpp:391
 msgid "Delete this file type definition completely"
 msgstr ""
 
-#: filetypesview.cpp:391
+#: filetypesview.cpp:392
 msgid ""
 "Click here to delete this file type definition completely. This is only "
 "possible for user-defined file types. System-wide file types cannot be "
