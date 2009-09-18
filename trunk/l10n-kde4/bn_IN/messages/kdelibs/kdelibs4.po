@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-17 06:20+0200\n"
+"POT-Creation-Date: 2009-09-18 06:12+0200\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -7965,11 +7965,11 @@ msgstr "অন্তিম স্থান থেকে অনুসন্ধা
 msgid "Continue from the beginning?"
 msgstr "প্রারম্ভিক স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
 
-#: kdeui/itemviews/kfilterproxysearchline.cpp:72
-#: kdeui/itemviews/ktreewidgetsearchline.cpp:605
-#: kde3support/kdeui/k3listviewsearchline.cpp:557
-msgid "S&earch:"
-msgstr "অনুসন্ধান:(&e)"
+#: kdeui/itemviews/kfilterproxysearchline.cpp:73
+#, fuzzy
+#| msgid "&Search"
+msgid "Search"
+msgstr "অনুসন্ধান (&S)"
 
 #: kdeui/itemviews/ktreewidgetsearchline.cpp:424
 #: kde3support/kdeui/k3listviewsearchline.cpp:287
@@ -7980,6 +7980,11 @@ msgstr "কলাম অনুসন্ধান"
 #: kde3support/kdeui/k3listviewsearchline.cpp:290
 msgid "All Visible Columns"
 msgstr "সকল দৃশ্যমান কলাম"
+
+#: kdeui/itemviews/ktreewidgetsearchline.cpp:605
+#: kde3support/kdeui/k3listviewsearchline.cpp:557
+msgid "S&earch:"
+msgstr "অনুসন্ধান:(&e)"
 
 #: kdeui/shortcuts/kglobalaccel.cpp:494
 msgid "Conflict with Global Shortcut"
