@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-16 11:33+0200\n"
+"POT-Creation-Date: 2009-09-21 05:58+0200\n"
 "PO-Revision-Date: 2008-11-26 19:19+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -75,7 +75,7 @@ msgctxt "@action:button"
 msgid "&Refresh"
 msgstr "নতুন করে প্রদর্শন (&R)"
 
-#: kchooser.cpp:100 kgreeter.cpp:796
+#: kchooser.cpp:100 kgreeter.cpp:797
 msgctxt "@action:button"
 msgid "&Menu"
 msgstr "মেনু (&M)"
@@ -111,45 +111,45 @@ msgctxt "@item:inmenu session type"
 msgid "%1 (previous)"
 msgstr "%1 (পূর্ববর্তী)"
 
-#: kgreeter.cpp:615
+#: kgreeter.cpp:616
 #, kde-format
 msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
 msgstr ""
 
-#: kgreeter.cpp:738
+#: kgreeter.cpp:739
 msgid "Warning: this is an unsecured session"
 msgstr "সতর্কবার্তা: এই সেশানটি সুরক্ষিত নয়"
 
-#: kgreeter.cpp:740
+#: kgreeter.cpp:741
 msgid ""
 "This display requires no X authorization.\n"
 "This means that anybody can connect to it,\n"
 "open windows on it or intercept your input."
 msgstr ""
 
-#: kgreeter.cpp:793
+#: kgreeter.cpp:794
 msgctxt "@action:button"
 msgid "L&ogin"
 msgstr "লগ-ইন (&o)"
 
-#: kgreeter.cpp:827 kgreeter.cpp:960
+#: kgreeter.cpp:828 kgreeter.cpp:961
 msgctxt "@title:menu"
 msgid "Session &Type"
 msgstr "সেশানের ধরন (&T)"
 
-#: kgreeter.cpp:832 kgreeter.cpp:966
+#: kgreeter.cpp:833 kgreeter.cpp:967
 msgctxt "@title:menu"
 msgid "&Authentication Method"
 msgstr "অনুমোদনের পদ্ধতি (&A)"
 
-#: kgreeter.cpp:837 kgreeter.cpp:971
+#: kgreeter.cpp:838 kgreeter.cpp:972
 msgctxt "@action:inmenu"
 msgid "&Remote Login"
 msgstr "দূরবর্তী লগ-ইন (&R)"
 
-#: kgreeter.cpp:911 kgverify.cpp:1053
+#: kgreeter.cpp:912 kgverify.cpp:1074
 msgid "Login failed"
 msgstr "লগ-ইন করতে ব্যর্থ"
 
@@ -198,11 +198,11 @@ msgctxt "session (location)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kgverify.cpp:181
+#: kgverify.cpp:186
 msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr ""
 
-#: kgverify.cpp:462
+#: kgverify.cpp:484
 #, kde-format
 msgid ""
 "Logging in %1...\n"
@@ -211,23 +211,23 @@ msgstr ""
 "%1 লগ-ইন করা হচ্ছে...\n"
 "\n"
 
-#: kgverify.cpp:466
+#: kgverify.cpp:488
 msgid "You are required to change your password immediately (password aged)."
 msgstr ""
 
-#: kgverify.cpp:467
+#: kgverify.cpp:489
 msgid "You are required to change your password immediately (root enforced)."
 msgstr ""
 
-#: kgverify.cpp:468
+#: kgverify.cpp:490
 msgid "You are not allowed to login at the moment."
 msgstr "এই মুহূর্তে লগ-ইন করা সম্ভব নয়।"
 
-#: kgverify.cpp:469
+#: kgverify.cpp:491
 msgid "Home folder not available."
 msgstr "ব্যক্তিগত (home) ফোল্ডার বর্তমানে উপলব্ধ নেই।"
 
-#: kgverify.cpp:470
+#: kgverify.cpp:492
 msgid ""
 "Logins are not allowed at the moment.\n"
 "Try again later."
@@ -235,77 +235,77 @@ msgstr ""
 "এই মুহূর্তে লগ-ইন করা সম্ভব নয়।\n"
 "পরে কোনো সময় পুনরায় চেষ্টা করুন।"
 
-#: kgverify.cpp:471
+#: kgverify.cpp:493
 msgid "Your login shell is not listed in /etc/shells."
 msgstr "/etc/shells-র মধ্যে আপনার লগ-ইন শেল উপস্থিত নেই।"
 
-#: kgverify.cpp:472
+#: kgverify.cpp:494
 msgid "Root logins are not allowed."
 msgstr "Root পরিচয়ে লগ-ইন করার অনুমতি নেই।"
 
-#: kgverify.cpp:473
+#: kgverify.cpp:495
 msgid "Your account has expired; please contact your system administrator."
 msgstr ""
 
-#: kgverify.cpp:483
+#: kgverify.cpp:505
 msgid ""
 "A critical error occurred.\n"
 "Please look at KDM's logfile(s) for more information\n"
 "or contact your system administrator."
 msgstr ""
 
-#: kgverify.cpp:508
+#: kgverify.cpp:530
 #, kde-format
 msgid "Your account expires tomorrow."
 msgid_plural "Your account expires in %1 days."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kgverify.cpp:510
+#: kgverify.cpp:532
 msgid "Your account expires today."
 msgstr ""
 
-#: kgverify.cpp:516
+#: kgverify.cpp:538
 #, kde-format
 msgid "Your password expires tomorrow."
 msgid_plural "Your password expires in %1 days."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kgverify.cpp:518
+#: kgverify.cpp:540
 msgid "Your password expires today."
 msgstr ""
 
-#: kgverify.cpp:593 kgverify.cpp:1054
+#: kgverify.cpp:615 kgverify.cpp:1075
 msgid "Authentication failed"
 msgstr "অনুমোদন করতে ব্যর্থ"
 
-#: kgverify.cpp:740
+#: kgverify.cpp:767
 #, kde-format
 msgid "Authenticated user (%1) does not match requested user (%2).\n"
 msgstr ""
 
-#: kgverify.cpp:1035
+#: kgverify.cpp:1056
 #, kde-format
 msgid "Automatic login in 1 second..."
 msgid_plural "Automatic login in %1 seconds..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kgverify.cpp:1047
+#: kgverify.cpp:1068
 msgid "Warning: Caps Lock is on"
 msgstr ""
 
-#: kgverify.cpp:1051
+#: kgverify.cpp:1072
 msgid "Change failed"
 msgstr "পরিবর্তন করতে ব্যর্থ"
 
-#: kgverify.cpp:1104
+#: kgverify.cpp:1125
 #, kde-format
 msgid "Theme not usable with authentication method '%1'."
 msgstr ""
 
-#: kgverify.cpp:1141
+#: kgverify.cpp:1162
 msgctxt "@title:window"
 msgid "<qt><b>Changing authentication token</b></qt>"
 msgstr "<qt><b>অনুমোদনের টোকেন পরিবর্তন করা হচ্ছে</b></qt>"
