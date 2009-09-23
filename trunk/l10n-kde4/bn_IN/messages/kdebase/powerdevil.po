@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-30 06:01+0200\n"
+"POT-Creation-Date: 2009-09-23 07:13+0200\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -43,7 +43,7 @@ msgstr "(c) ২০০৮ ডারিও ফ্রেডি"
 msgid "Dario Freddi"
 msgstr "ডারিও ফ্রেডি"
 
-#: daemon/PowerDevilDaemon.cpp:140
+#: daemon/PowerDevilDaemon.cpp:140 kcmodule/PowerDevilKCM.cpp:59
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
@@ -343,10 +343,6 @@ msgid ""
 msgstr ""
 "এই মডিউল সহযোগে, ডেমন কনফিগার করুন, বিদ্যুৎ সংরক্ষণের প্রোফাইল নির্মাণ ও সম্পাদনা "
 "করুন ও সিস্টেমের ক্ষমতা দেখুন।"
-
-#: kcmodule/PowerDevilKCM.cpp:59
-msgid "Main Developer"
-msgstr "প্রধান নির্মাতা"
 
 #: kcmodule/PowerDevilKCM.cpp:64
 msgid ""
@@ -1169,6 +1165,9 @@ msgstr ""
 #: rc.cpp:305
 msgid "ConsoleKit Runtime Support"
 msgstr ""
+
+#~ msgid "Main Developer"
+#~ msgstr "প্রধান নির্মাতা"
 
 #~ msgid "XSync Based (recommended)"
 #~ msgstr "XSync ভিত্তিক (প্রস্তাবিত)"
