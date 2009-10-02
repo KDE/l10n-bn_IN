@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-01 05:51+0200\n"
+"POT-Creation-Date: 2009-10-02 06:04+0200\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -25,7 +25,7 @@ msgstr "ড্যাশ-বোর্ড আড়াল করা হবে"
 msgid "Widget Dashboard"
 msgstr "উইজেট ড্যাশ-বোর্ড"
 
-#: desktopcorona.cpp:140
+#: desktopcorona.cpp:141
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
@@ -110,7 +110,7 @@ msgstr "তাঁর অবদানের স্মরণে, ১৯৩৭-১�
 msgid "Panel Alignment"
 msgstr "প্যানেলের দিশা"
 
-#: panelcontroller.cpp:143 panelcontroller.cpp:398
+#: panelcontroller.cpp:143 panelcontroller.cpp:399
 msgid "Left"
 msgstr "বাঁদিকে"
 
@@ -118,7 +118,7 @@ msgstr "বাঁদিকে"
 msgid "Center"
 msgstr "কেন্দ্রস্থিত"
 
-#: panelcontroller.cpp:154 panelcontroller.cpp:399
+#: panelcontroller.cpp:154 panelcontroller.cpp:400
 msgid "Right"
 msgstr "ডানদিকে"
 
@@ -150,7 +150,7 @@ msgstr "উইন্ডো দ্বারা আড়াল করা হবে"
 msgid "Screen Edge"
 msgstr "পর্দার প্রান্ত"
 
-#: panelcontroller.cpp:195 panelcontroller.cpp:395
+#: panelcontroller.cpp:195 panelcontroller.cpp:396
 msgid "Height"
 msgstr "উচ্চতা"
 
@@ -166,53 +166,43 @@ msgstr "প্যানেলের সর্বোচ্চ মাপ"
 msgid "Close this configuration window"
 msgstr "এই কনফিগারেশন উইন্ডো বন্ধ করুন"
 
-#: panelcontroller.cpp:271
+#: panelcontroller.cpp:272
 msgid "Add Spacer"
 msgstr ""
 
-#: panelcontroller.cpp:384
+#: panelcontroller.cpp:385
 msgid "Width"
 msgstr "প্রস্থ"
 
-#: panelcontroller.cpp:387
+#: panelcontroller.cpp:388
 msgid "Top"
 msgstr "উপরে"
 
-#: panelcontroller.cpp:388
+#: panelcontroller.cpp:389
 msgid "Bottom"
 msgstr "নীচে"
 
-#: plasmaapp.cpp:222
+#: plasmaapp.cpp:223
 msgid "Show Dashboard"
 msgstr "ড্যাশ-বোর্ড প্রদর্শন"
 
-#: plasmaapp.cpp:584
+#: plasmaapp.cpp:593
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Add Activity"
 msgstr "পরবর্তী কাজ"
 
-#: plasmaapp.cpp:593
+#: plasmaapp.cpp:602
 msgid "Zoom Out"
 msgstr ""
 
-#: plasmaapp.cpp:958
-msgid "Configure Plasma..."
-msgstr ""
-
-#: plasmaapp.cpp:976
-#, fuzzy
-#| msgid "Desktop Settings"
-msgid "Plasma Settings"
-msgstr "ডেস্কটপ সংক্রান্ত বৈশিষ্ট্য"
-
-#: plasmaapp.cpp:1116
+#: plasmaapp.cpp:1083
 #, kde-format
 msgid ""
 "A new widget has become available on the network:<br><b>%1</b> - </i>%2</i>"
 msgstr ""
 
-#: plasmaapp.cpp:1118
+#: plasmaapp.cpp:1085
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Add to current activity"
@@ -230,37 +220,25 @@ msgstr "এই স্লাইডার সহযোগে প্যানেল
 msgid "Move this slider to set the minimum panel size"
 msgstr "এই স্লাইডার সহযোগে প্যানেলের সর্বনিম্ন মাপ নির্ধারণ করুন"
 
-#. i18n: file: globaloptions.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3 rc.cpp:17
-msgid "Different activity for each desktop"
-msgstr ""
-
-#. i18n: file: globaloptions.ui:31
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:6 rc.cpp:20
-msgid "Use a separate dashboard"
-msgstr ""
-
-#: rc.cpp:7
+#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
-#: rc.cpp:8
+#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #. i18n: file: data/plasma-shell-desktop.kcfg:10
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:11
+#: rc.cpp:5
 msgid "The font to use on the desktop"
 msgstr ""
 
 #. i18n: file: data/plasma-shell-desktop.kcfg:15
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:14
+#: rc.cpp:8
 msgid ""
 "Set to true if each virtual desktop should get its own, unique Plasma view."
 msgstr ""
@@ -294,6 +272,11 @@ msgid ""
 "Backtrace:\n"
 "%3"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Desktop Settings"
+#~ msgid "Plasma Settings"
+#~ msgstr "ডেস্কটপ সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
 #~| msgid "Center"
