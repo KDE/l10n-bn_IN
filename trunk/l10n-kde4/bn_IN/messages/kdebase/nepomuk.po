@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-28 06:14+0200\n"
+"POT-Creation-Date: 2009-10-06 05:59+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -81,14 +81,17 @@ msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Strigi ইন্ডেক্সারের সাথে যোগাযোগ করতে ব্যর্থ (%1)"
 
 #: kcm/nepomukserverkcm.cpp:259
-msgctxt "@info_status"
+msgctxt "@info:status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
 
 #: kcm/nepomukserverkcm.cpp:263
-msgctxt "@info_status"
+#, fuzzy
+#| msgctxt "@info_status"
+#| msgid "Strigi service not running."
+msgctxt "@info:status"
 msgid "Strigi service not running."
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
 
