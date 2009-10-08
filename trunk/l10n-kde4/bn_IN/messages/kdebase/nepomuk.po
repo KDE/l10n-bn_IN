@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-06 05:59+0200\n"
+"POT-Creation-Date: 2009-10-08 06:08+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -41,7 +41,7 @@ msgstr "Nepomuk কনফিগারেশন মডিউল"
 msgid "Copyright 2007 Sebastian Trüg"
 msgstr "স্বত্বাধিকার ২০০৭ সেবাস্টিয়ান ট্রুগ"
 
-#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:74
+#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:75
 msgid "Sebastian Trüg"
 msgstr "সেবাস্টিয়ান ট্রুগ"
 
@@ -294,25 +294,25 @@ msgstr "Nepomuk Server - Nepomuk সংরক্ষণস্থল ও পরি
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
 
-#: server/main.cpp:96 servicestub/main.cpp:74
+#: server/main.cpp:96 servicestub/main.cpp:75
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: services/storage/repository.cpp:274
+#: services/storage/repository.cpp:282
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Nepomuk-র তথ্য একটি নতুন ব্যাক-এন্ডে পরিবর্তন করা হচ্ছে। এই কাজে কিছু সময় ব্যয় হতে "
 "পারে।"
 
-#: services/storage/repository.cpp:285
+#: services/storage/repository.cpp:293
 msgctxt "@info - notification message"
 msgid "Rebuilding Nepomuk full text search index for new features done."
 msgstr ""
 "নতুন বৈশিষ্ট্যের জন্য, Nepomuk-র সম্পূর্ণ টেক্সট ভিত্তিক অনুসন্ধানের ইন্ডেক্স পুনরায় "
 "নির্মাণ সমাপ্ত হয়েছে।"
 
-#: services/storage/repository.cpp:304
+#: services/storage/repository.cpp:314
 msgctxt "@info - notification message"
 msgid ""
 "Converting Nepomuk data to the new backend failed. Data may still be "
@@ -321,12 +321,12 @@ msgstr ""
 "Nepomuk-র তথ্য নতুন ব্যাক-এন্ডে রূপান্তর করতে ব্যর্থ। তথাপি, ব্যবহারকারী দ্বারা এই তথ্য "
 "পুনরুদ্ধার করা যাবে।"
 
-#: services/storage/repository.cpp:312
+#: services/storage/repository.cpp:322
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Nepomuk-র তথ্য সাফল্যের সাথে নতুন ব্যাক-এন্ডে রূপান্তর করা হয়েছে।"
 
-#: services/storage/repository.cpp:375
+#: services/storage/repository.cpp:385
 msgctxt "@info - notification message"
 msgid ""
 "Rebuilding Nepomuk full text search index for new features. This will only "
@@ -335,13 +335,20 @@ msgstr ""
 "নতুন বৈশিষ্ট্যের জন্য, Nepomuk-র সম্পূর্ণ টেক্সট ভিত্তিক অনুসন্ধানের ইন্ডেক্স পুনরায় "
 "নির্মাণ করা হচ্ছে। এই কাজ শুধুমাত্র একবার করা হবে ও এর জন্য কিছু সময় ব্যয় হবে।"
 
-#: services/storage/modelcopyjob.cpp:43
+#: services/storage/modelcopyjob.cpp:124
+#, fuzzy
+#| msgid "Converting Nepomuk database"
+msgctxt "@title job"
 msgid "Converting Nepomuk database"
 msgstr "Nepomuk ডাটাবেস রূপান্তর করা হচ্ছে"
 
-#: services/storage/modelcopyjob.cpp:78
-msgid "Some data was lost in the conversion."
-msgstr "রূপান্তর করার সময় কিছু তথ্য হারিয়ে গিয়েছে।"
+#: services/storage/modelcopyjob.cpp:125
+msgid "Old backend"
+msgstr ""
+
+#: services/storage/modelcopyjob.cpp:126
+msgid "New backend"
+msgstr ""
 
 #: services/ontologyloader/ontologyloader.cpp:116
 #, kde-format
@@ -454,18 +461,21 @@ msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কট
 msgid "Nepomuk Service Stub"
 msgstr "Nepomuk পরিসেবার স্টাব"
 
-#: servicestub/main.cpp:77
+#: servicestub/main.cpp:78
 msgctxt "@info:shell"
 msgid "Service to start"
 msgstr "আরম্ভ করার উদ্দেশ্যে চিহ্নিত পরিসেবা"
 
-#: servicestub/main.cpp:93
+#: servicestub/main.cpp:94
 msgid "No service name specified"
 msgstr "কোনো পরিসেবার নাম নির্ধারিত হয়নি"
 
-#: servicestub/main.cpp:117
+#: servicestub/main.cpp:118
 msgid "Unknown service name:"
 msgstr "পরিসেবার নাম অজানা:"
+
+#~ msgid "Some data was lost in the conversion."
+#~ msgstr "রূপান্তর করার সময় কিছু তথ্য হারিয়ে গিয়েছে।"
 
 #~ msgid "Resuming Strigi file indexing."
 #~ msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা পুনরায় আরম্ভ করা হচ্ছে।"
