@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-05 06:07+0200\n"
+"POT-Creation-Date: 2009-10-09 06:16+0200\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -451,6 +451,10 @@ msgstr "মুছে ফেলুন"
 #: kcmfontinst/JobRunner.cpp:295
 msgid "Disabling"
 msgstr "নিষ্ক্রিয় করা হচ্ছে"
+
+#: kcmfontinst/JobRunner.cpp:333
+msgid "Updating font configuration. Please wait..."
+msgstr "ফন্ট কনফিগারেশন আপডেট করা হচ্ছে। অনুগ্রহ করে অপেক্ষা করুন..."
 
 #: kcmfontinst/JobRunner.cpp:402
 msgid "Sorry, failed to start backend."
@@ -2145,9 +2149,6 @@ msgstr "ইয়ি"
 
 #~ msgid "Copying"
 #~ msgstr "কপি করা হচ্ছে"
-
-#~ msgid "Updating font configuration. Please wait..."
-#~ msgstr "ফন্ট কনফিগারেশন আপডেট করা হচ্ছে। অনুগ্রহ করে অপেক্ষা করুন..."
 
 #~ msgid "Installing %1"
 #~ msgstr "%1 ইনস্টল করা হচ্ছে"
