@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-12 06:27+0200\n"
+"POT-Creation-Date: 2009-10-14 06:36+0200\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -2001,8 +2001,8 @@ msgstr ""
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">(এই মুহূর্ত অবধি অজানা)</p></body></html>"
 
-#: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:835
-#: kdeui/dialogs/kmessagebox.cpp:868 khtml/rendering/render_form.cpp:750
+#: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:830
+#: kdeui/dialogs/kmessagebox.cpp:862 khtml/rendering/render_form.cpp:750
 msgid "Error"
 msgstr "ত্রুটি"
 
@@ -6684,34 +6684,34 @@ msgstr "."
 msgid "Details"
 msgstr "বিবরণ"
 
-#: kdeui/dialogs/kmessagebox.cpp:457 kdeui/dialogs/kmessagebox.cpp:519
+#: kdeui/dialogs/kmessagebox.cpp:457 kdeui/dialogs/kmessagebox.cpp:518
 msgid "Question"
 msgstr "প্রশ্ন"
 
-#: kdeui/dialogs/kmessagebox.cpp:475 kdeui/dialogs/kmessagebox.cpp:538
-#: kdeui/dialogs/kmessagebox.cpp:626 kdeui/dialogs/kmessagebox.cpp:707
-#: kdeui/dialogs/kmessagebox.cpp:795
+#: kdeui/dialogs/kmessagebox.cpp:474 kdeui/dialogs/kmessagebox.cpp:536
+#: kdeui/dialogs/kmessagebox.cpp:623 kdeui/dialogs/kmessagebox.cpp:703
+#: kdeui/dialogs/kmessagebox.cpp:790
 msgid "Do not ask again"
 msgstr "পুনরায় জিজ্ঞাসা করা হবে না"
 
-#: kdeui/dialogs/kmessagebox.cpp:608 kdeui/dialogs/kmessagebox.cpp:689
-#: kdeui/dialogs/kmessagebox.cpp:777
+#: kdeui/dialogs/kmessagebox.cpp:606 kdeui/dialogs/kmessagebox.cpp:686
+#: kdeui/dialogs/kmessagebox.cpp:773
 msgid "Warning"
 msgstr "সতর্কবাণী"
 
-#: kdeui/dialogs/kmessagebox.cpp:914 kdeui/dialogs/kmessagebox.cpp:945
+#: kdeui/dialogs/kmessagebox.cpp:907 kdeui/dialogs/kmessagebox.cpp:937
 msgid "Sorry"
 msgstr "দুঃখিত"
 
-#: kdeui/dialogs/kmessagebox.cpp:991
+#: kdeui/dialogs/kmessagebox.cpp:982
 msgid "Information"
 msgstr "তথ্য"
 
-#: kdeui/dialogs/kmessagebox.cpp:1009
+#: kdeui/dialogs/kmessagebox.cpp:999
 msgid "Do not show this message again"
 msgstr "পুনরায় এই বার্তা প্রদর্শন করা হবে না"
 
-#: kdeui/dialogs/kmessagebox.cpp:1054
+#: kdeui/dialogs/kmessagebox.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:87
 #: kdeui/widgets/khelpmenu.cpp:264 kde3support/kdeui/k3aboutdialog.cpp:1045
 #, kde-format
@@ -10259,7 +10259,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr "KHTML লাইব্রেরি সহযোগে নির্মিত একটি সরল ওয়েব ব্রাউজার"
 
 #: khtml/khtml_run.cpp:95 khtml/khtml_part.cpp:3728 khtml/khtml_part.cpp:3938
-#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:455
+#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:395
 msgid "Save As"
 msgstr "নতুন রূপে সংরক্ষণ"
 
@@ -10525,12 +10525,12 @@ msgstr "ফাইল নতুন করে লেখা হবে কি?"
 msgid "Overwrite"
 msgstr "নতুন করে লেখা হবে"
 
-#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:426
+#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:366
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "$PATH-র মধ্যে Download Manager (%1) পাওয়া যায়নি "
 
-#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:427
+#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:367
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -11998,6 +11998,76 @@ msgstr "ইন্টারনেটে অনুসন্ধান"
 msgid "&Search"
 msgstr "অনুসন্ধান (&S)"
 
+#: kparts/browseropenorsavequestion.cpp:91
+#, fuzzy, kde-format
+#| msgid "Name: "
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "নাম: "
+
+#: kparts/browseropenorsavequestion.cpp:92
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr ""
+
+#: kparts/browseropenorsavequestion.cpp:102
+#, fuzzy, kde-format
+#| msgid "Re: %1"
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr "পুনরাবৃত্তি: %1"
+
+#: kparts/browseropenorsavequestion.cpp:109
+#, fuzzy
+#| msgid "Do not show this message again"
+msgctxt "@label:checkbox"
+msgid "Do not ask again for files of this type"
+msgstr "পুনরায় এই বার্তা প্রদর্শন করা হবে না"
+
+#: kparts/browseropenorsavequestion.cpp:142
+#: kparts/browseropenorsavequestion.cpp:212
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "'%1' সহযোগে খুলুন (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:188
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "'%1' সহযোগে খুলুন (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:199
+#: kparts/browseropenorsavequestion.cpp:277
+#, fuzzy, kde-format
+#| msgid "Open '%1'"
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "'%1' খুলুন"
+
+#: kparts/browseropenorsavequestion.cpp:207
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
+
+#: kparts/browseropenorsavequestion.cpp:218
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
+
+#: kparts/browseropenorsavequestion.cpp:274
+#, fuzzy
+#| msgid "&Open"
+msgctxt "@label:button"
+msgid "&Open"
+msgstr "খুলুন (&O)"
+
 #: kparts/part.cpp:757
 msgid "Untitled"
 msgstr "শিরোনামবিহীন"
@@ -12023,41 +12093,6 @@ msgstr "আপনি কি নিশ্চিতরূপে '%1' সঞ্চ�
 #: kparts/browserrun.cpp:311
 msgid "Execute File?"
 msgstr "ফাইল সঞ্চালিত হবে কি?"
-
-#: kparts/browserrun.cpp:329
-#, kde-format
-msgid ""
-"Open '%2'?\n"
-"Type: %1"
-msgstr ""
-"'%2' খোলা হবে কি?\n"
-"ধরন: %1"
-
-#: kparts/browserrun.cpp:331
-#, kde-format
-msgid ""
-"Open '%3'?\n"
-"Name: %2\n"
-"Type: %1"
-msgstr ""
-"'%3' খোলা হবে কি?\n"
-"নাম: %2\n"
-"ধরন: %1"
-
-#: kparts/browserrun.cpp:343
-#, kde-format
-msgid "&Open with '%1'"
-msgstr "'%1' সহযোগে খুলুন (&O)"
-
-#: kparts/browserrun.cpp:345
-#, fuzzy
-#| msgid "&Open With..."
-msgid "&Open with..."
-msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
-
-#: kparts/browserrun.cpp:389
-msgid "&Open"
-msgstr "খুলুন (&O)"
 
 #: kutils/kcmoduleloader.cpp:75
 #, kde-format
@@ -13143,6 +13178,22 @@ msgstr "দিনের উপদেশ (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
+
+#~ msgid ""
+#~ "Open '%2'?\n"
+#~ "Type: %1"
+#~ msgstr ""
+#~ "'%2' খোলা হবে কি?\n"
+#~ "ধরন: %1"
+
+#~ msgid ""
+#~ "Open '%3'?\n"
+#~ "Name: %2\n"
+#~ "Type: %1"
+#~ msgstr ""
+#~ "'%3' খোলা হবে কি?\n"
+#~ "নাম: %2\n"
+#~ "ধরন: %1"
 
 #~ msgid "Path for the trash can"
 #~ msgstr "আবর্জনার বাক্স নির্দেশকারী পাথ"
