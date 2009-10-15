@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-14 06:36+0200\n"
+"POT-Creation-Date: 2009-10-15 06:13+0200\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -6386,7 +6386,7 @@ msgstr "অনুসন্ধান"
 msgid "Cut"
 msgstr "কাট করুন"
 
-#: kdeui/util/kkeyserver_x11.cpp:113 kdeui/dialogs/kshortcutsdialog.cpp:120
+#: kdeui/util/kkeyserver_x11.cpp:113 kdeui/dialogs/kshortcutsdialog.cpp:124
 msgid "Print"
 msgstr "প্রিন্ট করুন"
 
@@ -6479,11 +6479,11 @@ msgid ""
 "one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:118
+#: kdeui/dialogs/kshortcutsdialog.cpp:122
 msgid "Configure Shortcuts"
 msgstr "শর্টকাট কনফিগার করুন"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:125
+#: kdeui/dialogs/kshortcutsdialog.cpp:129
 msgid "Reset to Defaults"
 msgstr "ডিফল্ট মান পুনরায় স্থাপন করা হবে"
 
@@ -6852,6 +6852,30 @@ msgstr "আইকন পরিবর্তন করুন"
 #| msgid "Link Text:"
 msgid "Icon Te&xt:"
 msgstr "লিঙ্কের টেক্সট:"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:66
+#, fuzzy
+#| msgid "Pages"
+msgid "All Pages"
+msgstr "পৃষ্ঠা"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:67
+#, fuzzy
+#| msgid "Pages"
+msgid "Odd Pages"
+msgstr "পৃষ্ঠা"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:68
+#, fuzzy
+#| msgid "Pages"
+msgid "Even Pages"
+msgstr "পৃষ্ঠা"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:79
+#, fuzzy
+#| msgid "Pages Per Sheet"
+msgid "Page Set"
+msgstr "প্রতি পাতায় পৃষ্ঠা সংখ্যা"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:127
 #: kdeui/widgets/kcharselectdata.cpp:644
@@ -7321,7 +7345,7 @@ msgstr "KDE দলে যোগদান করুন (&J)"
 msgid "&Support KDE"
 msgstr "KDE-কে সমর্থন করুন (&S)"
 
-#: kdeui/dialogs/kdeprintdialog.cpp:53
+#: kdeui/dialogs/kdeprintdialog.cpp:73
 msgctxt "@title:window"
 msgid "Print"
 msgstr "প্রিন্ট করুন"
@@ -12021,7 +12045,7 @@ msgstr "পুনরাবৃত্তি: %1"
 #, fuzzy
 #| msgid "Do not show this message again"
 msgctxt "@label:checkbox"
-msgid "Do not ask again for files of this type"
+msgid "Remember action for files of this type"
 msgstr "পুনরায় এই বার্তা প্রদর্শন করা হবে না"
 
 #: kparts/browseropenorsavequestion.cpp:142
