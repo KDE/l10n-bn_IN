@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-25 05:40+0100\n"
+"POT-Creation-Date: 2009-10-26 06:23+0100\n"
 "PO-Revision-Date: 2009-01-05 17:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -616,12 +616,12 @@ msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
 msgstr ""
 
-#: drkonqidialog.cpp:185
+#: drkonqidialog.cpp:186
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
 msgstr ""
 
-#: drkonqidialog.cpp:196
+#: drkonqidialog.cpp:197
 #, fuzzy, kde-format
 #| msgid "<application>%1</application>"
 msgctxt "@action:inmenu 1 is the debugger name"
@@ -731,6 +731,13 @@ msgstr "kdeinit দ্বারা এই প্রোগ্রাম আরম�
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
 msgstr "ডিস্কের যথেচ্ছ ব্যবহার নিষ্ক্রিয় করুন"
+
+#: main.cpp:84
+#, fuzzy
+#| msgid "The program was started by kdeinit"
+msgctxt "@info:shell"
+msgid "The program has already been restarted"
+msgstr "kdeinit দ্বারা এই প্রোগ্রাম আরম্ভ করা হয়েছে"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
