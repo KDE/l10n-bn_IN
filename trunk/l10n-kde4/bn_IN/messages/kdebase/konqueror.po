@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-30 06:16+0100\n"
+"POT-Creation-Date: 2009-10-31 06:20+0100\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -550,8 +550,7 @@ msgstr "নতুন রূপে সংরক্ষণ..."
 msgid "Manage..."
 msgstr "ব্যবস্থাপনা..."
 
-#: src/konqmainwindow.cpp:3507 src/konqhistorydialog.cpp:77
-#: sidebar/trees/history_module/history_module.cpp:88
+#: src/konqmainwindow.cpp:3507
 msgid "New &Window"
 msgstr "নতুন উইন্ডো (&W)"
 
@@ -918,7 +917,8 @@ msgstr "বর্তমান উইন্ডোর মধ্যে প্রদ
 msgid "Open the document in current window"
 msgstr "বর্তমান উইন্ডোর মধ্যে এই নথিটি প্রদর্শন করা হবে"
 
-#: src/konqmainwindow.cpp:4638 sidebar/web_module/web_module.h:54
+#: src/konqmainwindow.cpp:4638 src/konqhistoryview.cpp:58
+#: sidebar/web_module/web_module.h:54
 msgid "Open in New &Window"
 msgstr "নতুন উইন্ডোর মধ্যে প্রদর্শন করা হবে (&W)"
 
@@ -1041,7 +1041,6 @@ msgid "Session exists. Overwrite?"
 msgstr ""
 
 #: src/konqhistorymodel.cpp:137
-#: sidebar/trees/history_module/history_item.cpp:120
 #, kde-format
 msgid ""
 "<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
@@ -1051,64 +1050,20 @@ msgstr ""
 "3<br />পরিদর্শন সংখ্যা: %4</qt>"
 
 #: src/konqhistorymodel.cpp:232
-#: sidebar/trees/history_module/history_module.h:62
 msgid "Miscellaneous"
 msgstr "বিবিধ"
 
-#: src/konqhistorydialog.cpp:51
+#: src/konqhistorydialog.cpp:43
 #, fuzzy
 #| msgid "Clear History"
+msgctxt "@title:window"
 msgid "History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
 
-#: src/konqhistorydialog.cpp:81
-#: sidebar/trees/history_module/history_module.cpp:92
-msgid "&Remove Entry"
-msgstr ""
-
-#: src/konqhistorydialog.cpp:85
-#: sidebar/trees/history_module/history_module.cpp:96
-msgid "C&lear History"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
-
-#: src/konqhistorydialog.cpp:89
-#: sidebar/trees/history_module/history_module.cpp:100
-msgid "&Preferences..."
-msgstr "পছন্দ...(&P)"
-
-#: src/konqhistorydialog.cpp:96
-#: sidebar/trees/history_module/history_module.cpp:107
-msgid "By &Name"
-msgstr "নাম অনুসারে (&N)"
-
-#: src/konqhistorydialog.cpp:102
-#: sidebar/trees/history_module/history_module.cpp:113
-msgid "By &Date"
-msgstr "তারিখ অনুসারে (&D)"
-
-#: src/konqhistorydialog.cpp:113 src/konqhistorydialog.cpp:168
-#: sidebar/trees/history_module/history_module.cpp:261
+#: src/konqhistorydialog.cpp:58 src/konqhistoryview.cpp:123
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
 msgid "Sort"
 msgstr "ক্রমবিন্যাস"
-
-#: src/konqhistorydialog.cpp:126
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
-
-#: src/konqhistorydialog.cpp:214
-#: sidebar/trees/history_module/history_module.cpp:370
-#: sidebar/trees/history_module/kcmhistory.cpp:252
-msgid "Do you really want to clear the entire history?"
-msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
-
-#: src/konqhistorydialog.cpp:215
-#: sidebar/trees/history_module/history_module.cpp:372
-#: sidebar/trees/history_module/kcmhistory.cpp:254
-msgid "Clear History?"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলা হবে কি?"
 
 #: src/konqview.cpp:1314
 msgid ""
@@ -1189,6 +1144,40 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "স্থগিত"
 
+#: src/konqhistoryview.cpp:62
+msgid "&Remove Entry"
+msgstr ""
+
+#: src/konqhistoryview.cpp:66
+msgid "C&lear History"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
+
+#: src/konqhistoryview.cpp:70
+msgid "&Preferences..."
+msgstr "পছন্দ...(&P)"
+
+#: src/konqhistoryview.cpp:77
+msgid "By &Name"
+msgstr "নাম অনুসারে (&N)"
+
+#: src/konqhistoryview.cpp:83
+msgid "By &Date"
+msgstr "তারিখ অনুসারে (&D)"
+
+#: src/konqhistoryview.cpp:93
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
+
+#: src/konqhistoryview.cpp:150 sidebar/history_module/kcmhistory.cpp:251
+msgid "Do you really want to clear the entire history?"
+msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
+
+#: src/konqhistoryview.cpp:151 sidebar/history_module/kcmhistory.cpp:253
+msgid "Clear History?"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলা হবে কি?"
+
 #: src/konqguiclients.cpp:66
 #, kde-format
 msgid "Preview &in %1"
@@ -1259,6 +1248,48 @@ msgstr "প্রদর্শনের জন্য চিহ্নিত অব
 msgid "SideBar Test Plugin"
 msgstr ""
 
+#: sidebar/history_module/history_module.cpp:106
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "History Sidebar Module"
+msgstr "ওয়েবের সাইড-বার"
+
+#: sidebar/history_module/history_module.cpp:129
+#, fuzzy
+#| msgid "Clear History"
+msgctxt "@title:tab"
+msgid "History"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
+
+#: sidebar/history_module/kcmhistory.cpp:68
+msgid " day"
+msgid_plural " days"
+msgstr[0] " দিন"
+msgstr[1] " দিন"
+
+#: sidebar/history_module/kcmhistory.cpp:74
+#: sidebar/history_module/kcmhistory.cpp:79
+#: sidebar/history_module/kcmhistory.cpp:212
+#: sidebar/history_module/kcmhistory.cpp:224
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"
+
+#: sidebar/history_module/kcmhistory.cpp:76
+#: sidebar/history_module/kcmhistory.cpp:81
+#: sidebar/history_module/kcmhistory.cpp:210
+#: sidebar/history_module/kcmhistory.cpp:222
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "দিন"
+msgstr[1] "দিন"
+
+#: sidebar/history_module/kcmhistory.cpp:195
+msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+msgstr ""
+
 #: sidebar/trees/konqsidebar_tree.cpp:192
 #: sidebar/web_module/web_module.cpp:251
 #, fuzzy
@@ -1276,34 +1307,6 @@ msgstr ""
 #: sidebar/trees/konqsidebar_tree.cpp:193
 msgctxt "@title:window"
 msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/trees/history_module/kcmhistory.cpp:69
-msgid " day"
-msgid_plural " days"
-msgstr[0] " দিন"
-msgstr[1] " দিন"
-
-#: sidebar/trees/history_module/kcmhistory.cpp:75
-#: sidebar/trees/history_module/kcmhistory.cpp:80
-#: sidebar/trees/history_module/kcmhistory.cpp:213
-#: sidebar/trees/history_module/kcmhistory.cpp:225
-msgid "Minute"
-msgid_plural "Minutes"
-msgstr[0] "মিনিট"
-msgstr[1] "মিনিট"
-
-#: sidebar/trees/history_module/kcmhistory.cpp:77
-#: sidebar/trees/history_module/kcmhistory.cpp:82
-#: sidebar/trees/history_module/kcmhistory.cpp:211
-#: sidebar/trees/history_module/kcmhistory.cpp:223
-msgid "Day"
-msgid_plural "Days"
-msgstr[0] "দিন"
-msgstr[1] "দিন"
-
-#: sidebar/trees/history_module/kcmhistory.cpp:196
-msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
 msgstr ""
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:414
@@ -1778,7 +1781,7 @@ msgstr "সাধারণ বৈশিষ্ট্য"
 msgid "Feature"
 msgstr "বৈশিষ্ট্য"
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:128
+#. i18n: file: sidebar/history_module/history_dlg.ui:128
 #. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
 #: about/konq_aboutpage.cc:234 rc.cpp:92
 msgid "Details"
@@ -2128,51 +2131,51 @@ msgstr "সহজে পুনরুদ্ধার করার জন্য �
 msgid "&Session name:"
 msgstr "সেশানের নাম: (&S)"
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:16
+#. i18n: file: sidebar/history_module/history_dlg.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
 #: rc.cpp:68
 msgid "Limits"
 msgstr "সীমা"
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:38
+#. i18n: file: sidebar/history_module/history_dlg.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
 #: rc.cpp:71
 msgid "URLs e&xpire after"
 msgstr "চিহ্নিত সময়ের পরে URL-র মেয়াদ উত্তীর্ণ করা হবে (&x)"
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:48
+#. i18n: file: sidebar/history_module/history_dlg.ui:48
 #. i18n: ectx: property (text), widget (QLabel, lEntries)
 #: rc.cpp:74
 msgid "Maximum &number of URLs:"
 msgstr "সর্বাধিক URL সংখ্যা: (&n)"
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:67
+#. i18n: file: sidebar/history_module/history_dlg.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
 #: rc.cpp:77
 msgid "Custom Fonts For"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:82
+#. i18n: file: sidebar/history_module/history_dlg.ui:82
 #. i18n: ectx: property (text), widget (QLabel, lbNewer)
 #: rc.cpp:80
 msgid "URLs newer than"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:98
+#. i18n: file: sidebar/history_module/history_dlg.ui:98
 #. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:118
+#. i18n: file: sidebar/history_module/history_dlg.ui:118
 #. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
 #: rc.cpp:83 rc.cpp:89
 msgid "Choose Font..."
 msgstr "ফন্ট নির্বাচন করুন..."
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:105
+#. i18n: file: sidebar/history_module/history_dlg.ui:105
 #. i18n: ectx: property (text), widget (QLabel, lbOlder)
 #: rc.cpp:86
 msgid "URLs older than"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:134
+#. i18n: file: sidebar/history_module/history_dlg.ui:134
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
 #: rc.cpp:95
 msgid ""
@@ -2180,13 +2183,13 @@ msgid ""
 "visits, in addition to the URL"
 msgstr ""
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:137
+#. i18n: file: sidebar/history_module/history_dlg.ui:137
 #. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
 #: rc.cpp:98
 msgid "Detailed tooltips"
 msgstr "বিস্তারিত বর্ণনা বিশিষ্ট টুল-টিপ"
 
-#. i18n: file: sidebar/trees/history_module/history_dlg.ui:149
+#. i18n: file: sidebar/history_module/history_dlg.ui:149
 #. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
 #: rc.cpp:101
 msgid "Clear History"
