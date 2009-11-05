@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-04 07:07+0100\n"
+"POT-Creation-Date: 2009-11-05 06:16+0100\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -4288,19 +4288,19 @@ msgstr "NEC SOCKS ক্লায়েন্ট"
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS ক্লায়েন্ট"
 
-#: kdecore/kernel/kcmdlineargs.cpp:274
+#: kdecore/kernel/kcmdlineargs.cpp:276
 msgid "Use the X-server display 'displayname'"
 msgstr "X-server ডিসপ্লে 'displayname' ব্যবহার করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:276
+#: kdecore/kernel/kcmdlineargs.cpp:278
 msgid "Use the QWS display 'displayname'"
 msgstr "QWS ডিসপ্লে 'displayname' ব্যবহার করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:279
+#: kdecore/kernel/kcmdlineargs.cpp:281
 msgid "Restore the application for the given 'sessionId'"
 msgstr "উল্লিখিত 'sessionId'-র জন্য অ্যাপ্লিকেশন পুনরুদ্ধার করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:280
+#: kdecore/kernel/kcmdlineargs.cpp:282
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
@@ -4308,7 +4308,7 @@ msgstr ""
 "এর ফলে, অ্যাপ্লিকেশন দ্বারা একটি ৮-বিট প্রদর্শন\n"
 "ক্ষেত্রের মধ্যে নিজস্ব রঙের ম্যাপ ইনস্টল করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:281
+#: kdecore/kernel/kcmdlineargs.cpp:283
 msgid ""
 "Limits the number of colors allocated in the color\n"
 "cube on an 8-bit display, if the application is\n"
@@ -4316,11 +4316,11 @@ msgid ""
 "specification"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:282
+#: kdecore/kernel/kcmdlineargs.cpp:284
 msgid "tells Qt to never grab the mouse or the keyboard"
 msgstr "Qt দ্বারা কখনো মাউস অথবা কি-বোর্ডের অধিকার গ্রহণ করা হবে না"
 
-#: kdecore/kernel/kcmdlineargs.cpp:283
+#: kdecore/kernel/kcmdlineargs.cpp:285
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
@@ -4328,15 +4328,15 @@ msgstr ""
 "ডিবাগারের মধ্যে সঞ্চালিত হলে পরোক্ষভাবে\n"
 "-nograb নির্ধারিত হতে পারে। উপেক্ষা করার জন্য -dograb প্রয়োগ করুন"
 
-#: kdecore/kernel/kcmdlineargs.cpp:284
+#: kdecore/kernel/kcmdlineargs.cpp:286
 msgid "switches to synchronous mode for debugging"
 msgstr "ডিবাগ করার জন্য সিংক্রোনাস মোডে পরিবর্তন করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:286
+#: kdecore/kernel/kcmdlineargs.cpp:288
 msgid "defines the application font"
 msgstr "অ্যাপ্লিকেশন ফন্ট নির্ধারিত করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:288
+#: kdecore/kernel/kcmdlineargs.cpp:290
 msgid ""
 "sets the default background color and an\n"
 "application palette (light and dark shades are\n"
@@ -4346,23 +4346,23 @@ msgstr ""
 "প্যালেট নির্ধারণ করা হয় (হালকা ও গাঢ় রঙ\n"
 "গণনা করা হয়)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:290
+#: kdecore/kernel/kcmdlineargs.cpp:292
 msgid "sets the default foreground color"
 msgstr "অগ্রভূমিতে ব্যবহার করার জন্য ডিফল্ট রং নির্ধারণ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:292
+#: kdecore/kernel/kcmdlineargs.cpp:294
 msgid "sets the default button color"
 msgstr "বাটনে ব্যবহারের জন্য ডিফল্ট রং নির্ধারণ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:293
+#: kdecore/kernel/kcmdlineargs.cpp:295
 msgid "sets the application name"
 msgstr "অ্যাপ্লিকেশনের নাম নির্ধারণ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:294
+#: kdecore/kernel/kcmdlineargs.cpp:296
 msgid "sets the application title (caption)"
 msgstr "অ্যাপ্লিকেশনের শিরোনাম নির্ধারণ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:296
+#: kdecore/kernel/kcmdlineargs.cpp:298
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
@@ -4370,7 +4370,7 @@ msgstr ""
 "৮-বিট ডিসপ্লের ক্ষেত্রে অ্যাপ্লিকেশন দ্বারা TrueColor ভিসুয়াল\n"
 "ব্যবহার করতে বাধ্য করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:297
+#: kdecore/kernel/kcmdlineargs.cpp:299
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -4380,57 +4380,57 @@ msgstr ""
 "হল onthespot, overthespot, offthespot ও\n"
 "root"
 
-#: kdecore/kernel/kcmdlineargs.cpp:298
+#: kdecore/kernel/kcmdlineargs.cpp:300
 msgid "set XIM server"
 msgstr "XIM সার্ভার নির্ধারণ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:299
+#: kdecore/kernel/kcmdlineargs.cpp:301
 msgid "disable XIM"
 msgstr "XIM নিষ্ক্রিয় করুন"
 
-#: kdecore/kernel/kcmdlineargs.cpp:302
+#: kdecore/kernel/kcmdlineargs.cpp:304
 msgid "forces the application to run as QWS Server"
 msgstr "QWS সার্ভার রূপে বাধ্যমূলকভাবে অ্যাপ্লিকেশনটি চালানো হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:304
+#: kdecore/kernel/kcmdlineargs.cpp:306
 msgid "mirrors the whole layout of widgets"
 msgstr "সম্পূর্ণ উইজেট বিন্যাস অনুকরণ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:305
+#: kdecore/kernel/kcmdlineargs.cpp:307
 msgid "applies the Qt stylesheet to the application widgets"
 msgstr "অ্যাপ্লিকেশন উইজেটের জন্য Qt স্টাইল-শিট প্রয়োগ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:310
+#: kdecore/kernel/kcmdlineargs.cpp:312
 msgid ""
 "use a different graphics system instead of the default one, options are "
 "raster and opengl (experimental)"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:312
+#: kdecore/kernel/kcmdlineargs.cpp:314
 msgid "Use 'caption' as name in the titlebar"
 msgstr "টাইটেল-বারের উপর 'caption' ব্যবহার করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:313
+#: kdecore/kernel/kcmdlineargs.cpp:315
 msgid "Use 'icon' as the application icon"
 msgstr "অ্যাপ্লিকেশন আইকন রূপে 'icon' ব্যবহার করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:314
+#: kdecore/kernel/kcmdlineargs.cpp:316
 msgid "Use alternative configuration file"
 msgstr "বিকল্প কনফিগারেশন ফাইল ব্যবহার করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:315
+#: kdecore/kernel/kcmdlineargs.cpp:317
 msgid "Disable crash handler, to get core dumps"
 msgstr "কোর ডাম্প প্রাপ্ত করার জন্য, ক্র্যাশ হ্যান্ডলার নিষ্ক্রিয় করুন"
 
-#: kdecore/kernel/kcmdlineargs.cpp:317
+#: kdecore/kernel/kcmdlineargs.cpp:319
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "WM_NET-র সাথে সুসংগত windowmanager-র জন্য অপেক্ষা করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:319
+#: kdecore/kernel/kcmdlineargs.cpp:321
 msgid "sets the application GUI style"
 msgstr "অ্যাপ্লিকেশনের GUI বিন্যাস নির্ধারণ করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:320
+#: kdecore/kernel/kcmdlineargs.cpp:322
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
 "format"
@@ -4438,30 +4438,30 @@ msgstr ""
 "মূল উইজেটের ক্লায়েন্ট জ্যামিতি নির্ধারণ করা হয় - আর্গুমেন্টের বিন্যাস জানার জন্য man X "
 "দেখুন"
 
-#: kdecore/kernel/kcmdlineargs.cpp:438
+#: kdecore/kernel/kcmdlineargs.cpp:440
 msgid "KDE Application"
 msgstr "KDE অ্যাপ্লিকেশন"
 
-#: kdecore/kernel/kcmdlineargs.cpp:495
+#: kdecore/kernel/kcmdlineargs.cpp:499
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4752
+#: kdecore/kernel/kcmdlineargs.cpp:502 khtml/khtml_part.cpp:4752
 msgid "KDE"
 msgstr "KDE"
 
-#: kdecore/kernel/kcmdlineargs.cpp:809 kdecore/kernel/kcmdlineargs.cpp:829
+#: kdecore/kernel/kcmdlineargs.cpp:813 kdecore/kernel/kcmdlineargs.cpp:833
 #, kde-format
 msgid "Unknown option '%1'."
 msgstr "অজানা বিকল্প '%1'।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:837
+#: kdecore/kernel/kcmdlineargs.cpp:841
 #, kde-format
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "'%1' অনুপস্থিত।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:897
+#: kdecore/kernel/kcmdlineargs.cpp:901
 #, kde-format
 msgctxt ""
 "@info:shell message on appcmd --version; %3 application name, other %n "
@@ -4472,7 +4472,7 @@ msgid ""
 "%3: %4\n"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:922
+#: kdecore/kernel/kcmdlineargs.cpp:926
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -4482,44 +4482,44 @@ msgstr ""
 "%1 লিখেছেন\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:925
+#: kdecore/kernel/kcmdlineargs.cpp:929
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "এই অ্যাপ্লিকেশনের নির্মাতা অজ্ঞাত থাকতে ইচ্ছুক।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:932
+#: kdecore/kernel/kcmdlineargs.cpp:936
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "অনুগ্রহ করে http://bugs.kde.org-এ বাগ দায়ের করুন।\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:934
+#: kdecore/kernel/kcmdlineargs.cpp:938
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "অনুগ্রহ করে %1-এ বাগ দায়ের করুন।\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:959
+#: kdecore/kernel/kcmdlineargs.cpp:963
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "অপ্রত্যাশিত আর্গুমেন্ট '%1'।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1076
+#: kdecore/kernel/kcmdlineargs.cpp:1080
 msgid "Use --help to get a list of available command line options."
 msgstr ""
 "কমান্ড-লাইন থেকে ব্যবহারযোগ্য সকল উপলব্ধ বিকল্পের তালিকা দেখতে --help ব্যবহার করুন।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1099
+#: kdecore/kernel/kcmdlineargs.cpp:1103
 msgid "[options] "
 msgstr "[বিকল্প] "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1106
+#: kdecore/kernel/kcmdlineargs.cpp:1110
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-বিকল্প]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1127
+#: kdecore/kernel/kcmdlineargs.cpp:1131
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "ব্যবহার প্রণালী: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1130
+#: kdecore/kernel/kcmdlineargs.cpp:1134
 msgid ""
 "\n"
 "Generic options:\n"
@@ -4527,36 +4527,36 @@ msgstr ""
 "\n"
 "সাধারণ বিকল্প:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1132
+#: kdecore/kernel/kcmdlineargs.cpp:1136
 msgid "Show help about options"
 msgstr "বিবিধ বিকল্প সম্বন্ধীয় সাহায্যে প্রদর্শন করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1140
+#: kdecore/kernel/kcmdlineargs.cpp:1144
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "%1-র জন্য সুনির্দিষ্ট সাহায্য প্রদর্শন করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1147
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 msgid "Show all options"
 msgstr "সকল বিকল্প প্রদর্শন করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1148
+#: kdecore/kernel/kcmdlineargs.cpp:1152
 msgid "Show author information"
 msgstr "লেখকের পরিচিত প্রদর্শন করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1149
+#: kdecore/kernel/kcmdlineargs.cpp:1153
 msgid "Show version information"
 msgstr "সংস্করণ সংক্রান্ত তথ্য প্রদর্শন করা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1150
+#: kdecore/kernel/kcmdlineargs.cpp:1154
 msgid "Show license information"
 msgstr "লাইসেন্স সংক্রান্ত তথ্য প্রদর্শন করা হয়"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1151
+#: kdecore/kernel/kcmdlineargs.cpp:1155
 msgid "End of options"
 msgstr "বিকল্পের সমাপ্তি"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1172
+#: kdecore/kernel/kcmdlineargs.cpp:1176
 #, kde-format
 msgid ""
 "\n"
@@ -4565,7 +4565,7 @@ msgstr ""
 "\n"
 "%1 বিকল্প:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1174
+#: kdecore/kernel/kcmdlineargs.cpp:1178
 msgid ""
 "\n"
 "Options:\n"
@@ -4573,7 +4573,7 @@ msgstr ""
 "\n"
 "বিকল্প:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1232
+#: kdecore/kernel/kcmdlineargs.cpp:1236
 msgid ""
 "\n"
 "Arguments:\n"
@@ -4581,11 +4581,11 @@ msgstr ""
 "\n"
 "আর্গুমেন্ট:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1588
+#: kdecore/kernel/kcmdlineargs.cpp:1592
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "ব্যবহারের পরে, অ্যাপ্লিকেশন দ্বারা খোলা ফাইল/URL-গুলি মুছে ফেলা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1589
+#: kdecore/kernel/kcmdlineargs.cpp:1593
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
@@ -9344,9 +9344,12 @@ msgid "Middle Eastern Scripts"
 msgstr "মধ্যপ্রাচ্যের লিপী"
 
 #: kdeui/widgets/kcharselect-translation.cpp:26
+#, fuzzy
+#| msgctxt "KCharSelect section name"
+#| msgid "South East Asian Scripts"
 msgctxt "KCharSelect section name"
-msgid "Indic Scripts"
-msgstr "ভারতীয় লিপী"
+msgid "South Asian Scripts"
+msgstr "দক্ষিণ-পূর্ব এশিয়ার লিপী"
 
 #: kdeui/widgets/kcharselect-translation.cpp:27
 msgctxt "KCharSelect section name"
@@ -9485,546 +9488,719 @@ msgid "NKo"
 msgstr "নকো"
 
 #: kdeui/widgets/kcharselect-translation.cpp:54
+#, fuzzy
+#| msgid "Ramadan"
+msgctxt "KCharselect unicode block name"
+msgid "Samaritan"
+msgstr "রামাদান"
+
+#: kdeui/widgets/kcharselect-translation.cpp:55
 msgctxt "KCharselect unicode block name"
 msgid "Devanagari"
 msgstr "দেবনাগরি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:55
+#: kdeui/widgets/kcharselect-translation.cpp:56
 msgctxt "KCharselect unicode block name"
 msgid "Bengali"
 msgstr "বাংলা"
 
-#: kdeui/widgets/kcharselect-translation.cpp:56
+#: kdeui/widgets/kcharselect-translation.cpp:57
 msgctxt "KCharselect unicode block name"
 msgid "Gurmukhi"
 msgstr "গুরুমুখী"
 
-#: kdeui/widgets/kcharselect-translation.cpp:57
+#: kdeui/widgets/kcharselect-translation.cpp:58
 msgctxt "KCharselect unicode block name"
 msgid "Gujarati"
 msgstr "গুজরাতি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:58
+#: kdeui/widgets/kcharselect-translation.cpp:59
 msgctxt "KCharselect unicode block name"
 msgid "Oriya"
 msgstr "ওড়িয়া"
 
-#: kdeui/widgets/kcharselect-translation.cpp:59
+#: kdeui/widgets/kcharselect-translation.cpp:60
 msgctxt "KCharselect unicode block name"
 msgid "Tamil"
 msgstr "তামিল"
 
-#: kdeui/widgets/kcharselect-translation.cpp:60
+#: kdeui/widgets/kcharselect-translation.cpp:61
 msgctxt "KCharselect unicode block name"
 msgid "Telugu"
 msgstr "তেলুগু"
 
-#: kdeui/widgets/kcharselect-translation.cpp:61
+#: kdeui/widgets/kcharselect-translation.cpp:62
 msgctxt "KCharselect unicode block name"
 msgid "Kannada"
 msgstr "কন্নড়"
 
-#: kdeui/widgets/kcharselect-translation.cpp:62
+#: kdeui/widgets/kcharselect-translation.cpp:63
 msgctxt "KCharselect unicode block name"
 msgid "Malayalam"
 msgstr "মালায়ালাম"
 
-#: kdeui/widgets/kcharselect-translation.cpp:63
+#: kdeui/widgets/kcharselect-translation.cpp:64
 msgctxt "KCharselect unicode block name"
 msgid "Sinhala"
 msgstr "সিংহলি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:64
+#: kdeui/widgets/kcharselect-translation.cpp:65
 msgctxt "KCharselect unicode block name"
 msgid "Thai"
 msgstr "থাই"
 
-#: kdeui/widgets/kcharselect-translation.cpp:65
+#: kdeui/widgets/kcharselect-translation.cpp:66
 msgctxt "KCharselect unicode block name"
 msgid "Lao"
 msgstr "লাও"
 
-#: kdeui/widgets/kcharselect-translation.cpp:66
+#: kdeui/widgets/kcharselect-translation.cpp:67
 msgctxt "KCharselect unicode block name"
 msgid "Tibetan"
 msgstr "তিব্বতি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:67
+#: kdeui/widgets/kcharselect-translation.cpp:68
 msgctxt "KCharselect unicode block name"
 msgid "Myanmar"
 msgstr "মায়ানমার"
 
-#: kdeui/widgets/kcharselect-translation.cpp:68
+#: kdeui/widgets/kcharselect-translation.cpp:69
 msgctxt "KCharselect unicode block name"
 msgid "Georgian"
 msgstr "জর্জিয়ান"
 
-#: kdeui/widgets/kcharselect-translation.cpp:69
+#: kdeui/widgets/kcharselect-translation.cpp:70
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Jamo"
 msgstr "হাঙ্গুল জামো"
 
-#: kdeui/widgets/kcharselect-translation.cpp:70
+#: kdeui/widgets/kcharselect-translation.cpp:71
 msgctxt "KCharselect unicode block name"
 msgid "Ethiopic"
 msgstr "ইথিওপিক"
 
-#: kdeui/widgets/kcharselect-translation.cpp:71
+#: kdeui/widgets/kcharselect-translation.cpp:72
 msgctxt "KCharselect unicode block name"
 msgid "Ethiopic Supplement"
 msgstr "ইথিওপিক সাপ্লিমেন্ট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:72
+#: kdeui/widgets/kcharselect-translation.cpp:73
 msgctxt "KCharselect unicode block name"
 msgid "Cherokee"
 msgstr "চেরোকি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:73
+#: kdeui/widgets/kcharselect-translation.cpp:74
 msgctxt "KCharselect unicode block name"
 msgid "Unified Canadian Aboriginal Syllabics"
 msgstr "ইউনিফাইল কানাডিয়ান অ্যাবোরিজিনাল শব্দাংশ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:74
+#: kdeui/widgets/kcharselect-translation.cpp:75
 msgctxt "KCharselect unicode block name"
 msgid "Ogham"
 msgstr "ওগহ্যাম"
 
-#: kdeui/widgets/kcharselect-translation.cpp:75
+#: kdeui/widgets/kcharselect-translation.cpp:76
 msgctxt "KCharselect unicode block name"
 msgid "Runic"
 msgstr "রুনিক"
 
-#: kdeui/widgets/kcharselect-translation.cpp:76
+#: kdeui/widgets/kcharselect-translation.cpp:77
 msgctxt "KCharselect unicode block name"
 msgid "Tagalog"
 msgstr "টাগালগ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:77
+#: kdeui/widgets/kcharselect-translation.cpp:78
 msgctxt "KCharselect unicode block name"
 msgid "Hanunoo"
 msgstr "হানুনু"
 
-#: kdeui/widgets/kcharselect-translation.cpp:78
+#: kdeui/widgets/kcharselect-translation.cpp:79
 msgctxt "KCharselect unicode block name"
 msgid "Buhid"
 msgstr "বুহিদ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:79
+#: kdeui/widgets/kcharselect-translation.cpp:80
 msgctxt "KCharselect unicode block name"
 msgid "Tagbanwa"
 msgstr "টাগবানওয়া"
 
-#: kdeui/widgets/kcharselect-translation.cpp:80
+#: kdeui/widgets/kcharselect-translation.cpp:81
 msgctxt "KCharselect unicode block name"
 msgid "Khmer"
 msgstr "খমের"
 
-#: kdeui/widgets/kcharselect-translation.cpp:81
+#: kdeui/widgets/kcharselect-translation.cpp:82
 msgctxt "KCharselect unicode block name"
 msgid "Mongolian"
 msgstr "মঙ্গোলিয়ান"
 
-#: kdeui/widgets/kcharselect-translation.cpp:82
+#: kdeui/widgets/kcharselect-translation.cpp:83
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Unified Canadian Aboriginal Syllabics"
+msgctxt "KCharselect unicode block name"
+msgid "Unified Canadian Aboriginal Syllabics Extended"
+msgstr "ইউনিফাইল কানাডিয়ান অ্যাবোরিজিনাল শব্দাংশ"
+
+#: kdeui/widgets/kcharselect-translation.cpp:84
 msgctxt "KCharselect unicode block name"
 msgid "Limbu"
 msgstr "লিম্বু"
 
-#: kdeui/widgets/kcharselect-translation.cpp:83
+#: kdeui/widgets/kcharselect-translation.cpp:85
 msgctxt "KCharselect unicode block name"
 msgid "Tai Le"
 msgstr "তাই লি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:84
+#: kdeui/widgets/kcharselect-translation.cpp:86
 msgctxt "KCharselect unicode block name"
 msgid "New Tai Lue"
 msgstr "নতুন তাই লি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:85
+#: kdeui/widgets/kcharselect-translation.cpp:87
 msgctxt "KCharselect unicode block name"
 msgid "Khmer Symbols"
 msgstr "খমের চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:86
+#: kdeui/widgets/kcharselect-translation.cpp:88
 msgctxt "KCharselect unicode block name"
 msgid "Buginese"
 msgstr "বুগিনিস"
 
-#: kdeui/widgets/kcharselect-translation.cpp:87
+#: kdeui/widgets/kcharselect-translation.cpp:89
+msgctxt "KCharselect unicode block name"
+msgid "Tai Tham"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:90
 msgctxt "KCharselect unicode block name"
 msgid "Balinese"
 msgstr "বালিনিস"
 
-#: kdeui/widgets/kcharselect-translation.cpp:88
+#: kdeui/widgets/kcharselect-translation.cpp:91
+#, fuzzy
+#| msgid "Sunday"
+msgctxt "KCharselect unicode block name"
+msgid "Sundanese"
+msgstr "রবিবার"
+
+#: kdeui/widgets/kcharselect-translation.cpp:92
+msgctxt "KCharselect unicode block name"
+msgid "Lepcha"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:93
+msgctxt "KCharselect unicode block name"
+msgid "Ol Chiki"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:94
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Phonetic Extensions"
+msgctxt "KCharselect unicode block name"
+msgid "Vedic Extensions"
+msgstr "ফোনেটিক (ধ্বন্যাত্মক) এক্সেটনশন"
+
+#: kdeui/widgets/kcharselect-translation.cpp:95
 msgctxt "KCharselect unicode block name"
 msgid "Phonetic Extensions"
 msgstr "ফোনেটিক (ধ্বন্যাত্মক) এক্সেটনশন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:89
+#: kdeui/widgets/kcharselect-translation.cpp:96
 msgctxt "KCharselect unicode block name"
 msgid "Phonetic Extensions Supplement"
 msgstr "ফোনেটিক (ধ্বন্যাত্মক) এক্সেটনশন সাপ্লিমেন্ট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:90
+#: kdeui/widgets/kcharselect-translation.cpp:97
 msgctxt "KCharselect unicode block name"
 msgid "Combining Diacritical Marks Supplement"
 msgstr "সংযুক্তকারী ধ্বনি-নির্দেশক চিহ্ন সাপ্লিমেন্ট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:91
+#: kdeui/widgets/kcharselect-translation.cpp:98
 msgctxt "KCharselect unicode block name"
 msgid "Latin Extended Additional"
 msgstr "লাতিন এক্সটেন্ডেড অ্যাডিশনেল"
 
-#: kdeui/widgets/kcharselect-translation.cpp:92
+#: kdeui/widgets/kcharselect-translation.cpp:99
 msgctxt "KCharselect unicode block name"
 msgid "Greek Extended"
 msgstr "গ্রিক এক্সটেন্ডেড"
 
-#: kdeui/widgets/kcharselect-translation.cpp:93
+#: kdeui/widgets/kcharselect-translation.cpp:100
 msgctxt "KCharselect unicode block name"
 msgid "General Punctuation"
 msgstr "সাধারণ যতিচিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:94
+#: kdeui/widgets/kcharselect-translation.cpp:101
 msgctxt "KCharselect unicode block name"
 msgid "Superscripts and Subscripts"
 msgstr "সুপার-স্ক্রিপ্ট ও সাব-স্ক্রিপ্ট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:95
+#: kdeui/widgets/kcharselect-translation.cpp:102
 msgctxt "KCharselect unicode block name"
 msgid "Currency Symbols"
 msgstr "মুদ্রা চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:96
+#: kdeui/widgets/kcharselect-translation.cpp:103
 msgctxt "KCharselect unicode block name"
 msgid "Combining Diacritical Marks for Symbols"
 msgstr "সংকেতের সাথে ব্যবহারযোগ্য সংযুক্তকারী ধ্বনি-নির্দেশক চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:97
+#: kdeui/widgets/kcharselect-translation.cpp:104
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Letter-Like Symbols"
 msgctxt "KCharselect unicode block name"
-msgid "Letter-Like Symbols"
+msgid "Letterlike Symbols"
 msgstr "অক্ষরের অনুরূপ চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:98
+#: kdeui/widgets/kcharselect-translation.cpp:105
 msgctxt "KCharselect unicode block name"
 msgid "Number Forms"
 msgstr "সংখ্যা রূপ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:99
+#: kdeui/widgets/kcharselect-translation.cpp:106
 msgctxt "KCharselect unicode block name"
 msgid "Arrows"
 msgstr "তীরচিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:100
+#: kdeui/widgets/kcharselect-translation.cpp:107
 msgctxt "KCharselect unicode block name"
 msgid "Mathematical Operators"
 msgstr "গাণিতিক সংকেত"
 
-#: kdeui/widgets/kcharselect-translation.cpp:101
+#: kdeui/widgets/kcharselect-translation.cpp:108
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Technical"
 msgstr "বিবিধ প্রযুক্তি সংক্রান্ত চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:102
+#: kdeui/widgets/kcharselect-translation.cpp:109
 msgctxt "KCharselect unicode block name"
 msgid "Control Pictures"
 msgstr "নিয়ন্ত্রণ সংক্রান্ত চিত্র"
 
-#: kdeui/widgets/kcharselect-translation.cpp:103
+#: kdeui/widgets/kcharselect-translation.cpp:110
 msgctxt "KCharselect unicode block name"
 msgid "Optical Character Recognition"
 msgstr "অপটিকাল ক্যারেকটর রিকোগনিশান"
 
-#: kdeui/widgets/kcharselect-translation.cpp:104
+#: kdeui/widgets/kcharselect-translation.cpp:111
 msgctxt "KCharselect unicode block name"
 msgid "Enclosed Alphanumerics"
 msgstr "এনক্লোসড আল্ফানিউমেরিক"
 
-#: kdeui/widgets/kcharselect-translation.cpp:105
+#: kdeui/widgets/kcharselect-translation.cpp:112
 msgctxt "KCharselect unicode block name"
 msgid "Box Drawing"
 msgstr "বাক্স আবদ্ধ ছবি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:106
+#: kdeui/widgets/kcharselect-translation.cpp:113
 msgctxt "KCharselect unicode block name"
 msgid "Block Elements"
 msgstr "ব্লক এলিমেন্ট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:107
+#: kdeui/widgets/kcharselect-translation.cpp:114
 msgctxt "KCharselect unicode block name"
 msgid "Geometric Shapes"
 msgstr "জ্যামিতিক আকৃতি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:108
+#: kdeui/widgets/kcharselect-translation.cpp:115
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Symbols"
 msgstr "বিবিধ চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:109
+#: kdeui/widgets/kcharselect-translation.cpp:116
 msgctxt "KCharselect unicode block name"
 msgid "Dingbats"
 msgstr "Dingbats"
 
-#: kdeui/widgets/kcharselect-translation.cpp:110
+#: kdeui/widgets/kcharselect-translation.cpp:117
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Mathematical Symbols-A"
 msgstr "বিবিধ গাণিতিক চিহ্ন-A"
 
-#: kdeui/widgets/kcharselect-translation.cpp:111
+#: kdeui/widgets/kcharselect-translation.cpp:118
 msgctxt "KCharselect unicode block name"
 msgid "Supplemental Arrows-A"
 msgstr "অতিরিক্ত তীরচিহ্ন-A"
 
-#: kdeui/widgets/kcharselect-translation.cpp:112
+#: kdeui/widgets/kcharselect-translation.cpp:119
 msgctxt "KCharselect unicode block name"
 msgid "Braille Patterns"
 msgstr "ব্রেইল চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:113
+#: kdeui/widgets/kcharselect-translation.cpp:120
 msgctxt "KCharselect unicode block name"
 msgid "Supplemental Arrows-B"
 msgstr "অতিরিক্ত তীরচিহ্ন-B"
 
-#: kdeui/widgets/kcharselect-translation.cpp:114
+#: kdeui/widgets/kcharselect-translation.cpp:121
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Mathematical Symbols-B"
 msgstr "বিবিধ গাণিকিত চিহ্ন-B"
 
-#: kdeui/widgets/kcharselect-translation.cpp:115
+#: kdeui/widgets/kcharselect-translation.cpp:122
 msgctxt "KCharselect unicode block name"
 msgid "Supplemental Mathematical Operators"
 msgstr "অতিরিক্ত গাণিতিক সংকেত"
 
-#: kdeui/widgets/kcharselect-translation.cpp:116
+#: kdeui/widgets/kcharselect-translation.cpp:123
 msgctxt "KCharselect unicode block name"
 msgid "Miscellaneous Symbols and Arrows"
 msgstr "বিভিন্ন চিহ্ন এবং তীরচিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:117
+#: kdeui/widgets/kcharselect-translation.cpp:124
 msgctxt "KCharselect unicode block name"
 msgid "Glagolitic"
 msgstr "গ্লাগোলিটিক"
 
-#: kdeui/widgets/kcharselect-translation.cpp:118
+#: kdeui/widgets/kcharselect-translation.cpp:125
 msgctxt "KCharselect unicode block name"
 msgid "Latin Extended-C"
 msgstr "লাতিন এক্সটেন্ডেড-C"
 
-#: kdeui/widgets/kcharselect-translation.cpp:119
+#: kdeui/widgets/kcharselect-translation.cpp:126
 msgctxt "KCharselect unicode block name"
 msgid "Coptic"
 msgstr "কপটিক"
 
-#: kdeui/widgets/kcharselect-translation.cpp:120
+#: kdeui/widgets/kcharselect-translation.cpp:127
 msgctxt "KCharselect unicode block name"
 msgid "Georgian Supplement"
 msgstr "জর্জিয়ান সাপ্লিমেন্ট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:121
+#: kdeui/widgets/kcharselect-translation.cpp:128
 msgctxt "KCharselect unicode block name"
 msgid "Tifinagh"
 msgstr "টিফিনাগ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:122
+#: kdeui/widgets/kcharselect-translation.cpp:129
 msgctxt "KCharselect unicode block name"
 msgid "Ethiopic Extended"
 msgstr "ইথিওপিক এক্সটেন্ডেড"
 
-#: kdeui/widgets/kcharselect-translation.cpp:123
+#: kdeui/widgets/kcharselect-translation.cpp:130
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Latin Extended-A"
+msgctxt "KCharselect unicode block name"
+msgid "Cyrillic Extended-A"
+msgstr "লাতিন এক্সটেনডেড-A"
+
+#: kdeui/widgets/kcharselect-translation.cpp:131
 msgctxt "KCharselect unicode block name"
 msgid "Supplemental Punctuation"
 msgstr "অতিরিক্ত যতিচিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:124
+#: kdeui/widgets/kcharselect-translation.cpp:132
 msgctxt "KCharselect unicode block name"
 msgid "CJK Radicals Supplement"
 msgstr "CJK রেডিক্যাল সাপ্লিমেন্ট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:125
+#: kdeui/widgets/kcharselect-translation.cpp:133
 msgctxt "KCharselect unicode block name"
 msgid "Kangxi Radicals"
 msgstr "কাংজি রেডিক্যাল"
 
-#: kdeui/widgets/kcharselect-translation.cpp:126
+#: kdeui/widgets/kcharselect-translation.cpp:134
 msgctxt "KCharselect unicode block name"
 msgid "Ideographic Description Characters"
 msgstr "বিস্তারিত ভাবসংকেত অক্ষর"
 
-#: kdeui/widgets/kcharselect-translation.cpp:127
+#: kdeui/widgets/kcharselect-translation.cpp:135
 msgctxt "KCharselect unicode block name"
 msgid "CJK Symbols and Punctuation"
 msgstr "CJK চিহ্ন ও যতিচিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:128
+#: kdeui/widgets/kcharselect-translation.cpp:136
 msgctxt "KCharselect unicode block name"
 msgid "Hiragana"
 msgstr "হিরাগানা"
 
-#: kdeui/widgets/kcharselect-translation.cpp:129
+#: kdeui/widgets/kcharselect-translation.cpp:137
 msgctxt "KCharselect unicode block name"
 msgid "Katakana"
 msgstr "কাতাকানা"
 
-#: kdeui/widgets/kcharselect-translation.cpp:130
+#: kdeui/widgets/kcharselect-translation.cpp:138
 msgctxt "KCharselect unicode block name"
 msgid "Bopomofo"
 msgstr "বোপোমোফো"
 
-#: kdeui/widgets/kcharselect-translation.cpp:131
+#: kdeui/widgets/kcharselect-translation.cpp:139
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Compatibility Jamo"
 msgstr "হাংগুল কম্পেটিবিলিটি জামো"
 
-#: kdeui/widgets/kcharselect-translation.cpp:132
+#: kdeui/widgets/kcharselect-translation.cpp:140
 msgctxt "KCharselect unicode block name"
 msgid "Kanbun"
 msgstr "কানবুন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:133
+#: kdeui/widgets/kcharselect-translation.cpp:141
 msgctxt "KCharselect unicode block name"
 msgid "Bopomofo Extended"
 msgstr "বোপোমোফো এক্সটেন্ডেড"
 
-#: kdeui/widgets/kcharselect-translation.cpp:134
+#: kdeui/widgets/kcharselect-translation.cpp:142
 msgctxt "KCharselect unicode block name"
 msgid "CJK Strokes"
 msgstr "CJK স্ট্রোকস"
 
-#: kdeui/widgets/kcharselect-translation.cpp:135
+#: kdeui/widgets/kcharselect-translation.cpp:143
 msgctxt "KCharselect unicode block name"
 msgid "Katakana Phonetic Extensions"
 msgstr "কাটাকানা ধ্বন্যাত্মক এক্সটেনশন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:136
+#: kdeui/widgets/kcharselect-translation.cpp:144
 msgctxt "KCharselect unicode block name"
 msgid "Enclosed CJK Letters and Months"
 msgstr "এনক্লোসড CJK অক্ষর ও মাস"
 
-#: kdeui/widgets/kcharselect-translation.cpp:137
+#: kdeui/widgets/kcharselect-translation.cpp:145
 msgctxt "KCharselect unicode block name"
 msgid "CJK Compatibility"
 msgstr "CJK সামঞ্জস্য"
 
-#: kdeui/widgets/kcharselect-translation.cpp:138
+#: kdeui/widgets/kcharselect-translation.cpp:146
 msgctxt "KCharselect unicode block name"
 msgid "CJK Unified Ideographs Extension A"
 msgstr "CJK ইউনিফাইড ভাবসংকেত এক্সটেনশন A"
 
-#: kdeui/widgets/kcharselect-translation.cpp:139
+#: kdeui/widgets/kcharselect-translation.cpp:147
 msgctxt "KCharselect unicode block name"
 msgid "Yijing Hexagram Symbols"
 msgstr "ইজিং হেক্সাগ্রাম চিহ্ন"
 
-#: kdeui/widgets/kcharselect-translation.cpp:140
+#: kdeui/widgets/kcharselect-translation.cpp:148
 msgctxt "KCharselect unicode block name"
 msgid "CJK Unified Ideographs"
 msgstr "CJK ইউনিফাইড ভাবসংকেত"
 
-#: kdeui/widgets/kcharselect-translation.cpp:141
+#: kdeui/widgets/kcharselect-translation.cpp:149
 msgctxt "KCharselect unicode block name"
 msgid "Yi Syllables"
 msgstr "ইয়ি ধ্বনি-নির্দেশক"
 
-#: kdeui/widgets/kcharselect-translation.cpp:142
+#: kdeui/widgets/kcharselect-translation.cpp:150
 msgctxt "KCharselect unicode block name"
 msgid "Yi Radicals"
 msgstr "ইয়ি রেডিক্যাল"
 
-#: kdeui/widgets/kcharselect-translation.cpp:143
+#: kdeui/widgets/kcharselect-translation.cpp:151
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Limbu"
+msgctxt "KCharselect unicode block name"
+msgid "Lisu"
+msgstr "লিম্বু"
+
+#: kdeui/widgets/kcharselect-translation.cpp:152
+#, fuzzy
+#| msgctxt "of Farvardin short"
+#| msgid "of Far"
+msgctxt "KCharselect unicode block name"
+msgid "Vai"
+msgstr "ফার"
+
+#: kdeui/widgets/kcharselect-translation.cpp:153
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Latin Extended-B"
+msgctxt "KCharselect unicode block name"
+msgid "Cyrillic Extended-B"
+msgstr "লাতিন এক্সটেনডেড-B"
+
+#: kdeui/widgets/kcharselect-translation.cpp:154
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "KCharselect unicode block name"
+msgid "Bamum"
+msgstr "তামুজ"
+
+#: kdeui/widgets/kcharselect-translation.cpp:155
 msgctxt "KCharselect unicode block name"
 msgid "Modifier Tone Letters"
 msgstr "ধ্বনি পরিবর্তনকারী অক্ষর"
 
-#: kdeui/widgets/kcharselect-translation.cpp:144
+#: kdeui/widgets/kcharselect-translation.cpp:156
 msgctxt "KCharselect unicode block name"
 msgid "Latin Extended-D"
 msgstr "লাতিন এক্সটেন্ডেড-D"
 
-#: kdeui/widgets/kcharselect-translation.cpp:145
+#: kdeui/widgets/kcharselect-translation.cpp:157
 msgctxt "KCharselect unicode block name"
 msgid "Syloti Nagri"
 msgstr "সিলোটি নাগরি"
 
-#: kdeui/widgets/kcharselect-translation.cpp:146
+#: kdeui/widgets/kcharselect-translation.cpp:158
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Number Forms"
+msgctxt "KCharselect unicode block name"
+msgid "Common Indic Number Forms"
+msgstr "সংখ্যা রূপ"
+
+#: kdeui/widgets/kcharselect-translation.cpp:159
 msgctxt "KCharselect unicode block name"
 msgid "Phags-pa"
 msgstr "ফাগস-পা"
 
-#: kdeui/widgets/kcharselect-translation.cpp:147
+#: kdeui/widgets/kcharselect-translation.cpp:160
+msgctxt "KCharselect unicode block name"
+msgid "Saurashtra"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:161
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Devanagari"
+msgctxt "KCharselect unicode block name"
+msgid "Devanagari Extended"
+msgstr "দেবনাগরি"
+
+#: kdeui/widgets/kcharselect-translation.cpp:162
+msgctxt "KCharselect unicode block name"
+msgid "Kayah Li"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:163
+msgctxt "KCharselect unicode block name"
+msgid "Rejang"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:164
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Latin Extended-A"
+msgctxt "KCharselect unicode block name"
+msgid "Hangul Jamo Extended-A"
+msgstr "লাতিন এক্সটেনডেড-A"
+
+#: kdeui/widgets/kcharselect-translation.cpp:165
+#, fuzzy
+#| msgctxt "@item Text character set"
+#| msgid "Japanese"
+msgctxt "KCharselect unicode block name"
+msgid "Javanese"
+msgstr "জাপানি"
+
+#: kdeui/widgets/kcharselect-translation.cpp:166
+#, fuzzy
+#| msgid "Kha"
+msgctxt "KCharselect unicode block name"
+msgid "Cham"
+msgstr "খা"
+
+#: kdeui/widgets/kcharselect-translation.cpp:167
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Latin Extended-A"
+msgctxt "KCharselect unicode block name"
+msgid "Myanmar Extended-A"
+msgstr "লাতিন এক্সটেনডেড-A"
+
+#: kdeui/widgets/kcharselect-translation.cpp:168
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Tai Le"
+msgctxt "KCharselect unicode block name"
+msgid "Tai Viet"
+msgstr "তাই লি"
+
+#: kdeui/widgets/kcharselect-translation.cpp:169
+msgctxt "KCharselect unicode block name"
+msgid "Meetei Mayek"
+msgstr ""
+
+#: kdeui/widgets/kcharselect-translation.cpp:170
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Syllables"
 msgstr "হাঙ্গুল ধ্বনি-নির্দেশক"
 
-#: kdeui/widgets/kcharselect-translation.cpp:148
+#: kdeui/widgets/kcharselect-translation.cpp:171
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Latin Extended-B"
+msgctxt "KCharselect unicode block name"
+msgid "Hangul Jamo Extended-B"
+msgstr "লাতিন এক্সটেনডেড-B"
+
+#: kdeui/widgets/kcharselect-translation.cpp:172
 msgctxt "KCharselect unicode block name"
 msgid "High Surrogates"
 msgstr "উচ্চ সারোগেট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:149
+#: kdeui/widgets/kcharselect-translation.cpp:173
 msgctxt "KCharselect unicode block name"
 msgid "High Private Use Surrogates"
 msgstr "উচ্চ ব্যক্তিগত ব্যবহারের সারোগেট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:150
+#: kdeui/widgets/kcharselect-translation.cpp:174
 msgctxt "KCharselect unicode block name"
 msgid "Low Surrogates"
 msgstr "নিম্ন সারোগেট"
 
-#: kdeui/widgets/kcharselect-translation.cpp:151
+#: kdeui/widgets/kcharselect-translation.cpp:175
 msgctxt "KCharselect unicode block name"
 msgid "Private Use Area"
 msgstr "ব্যক্তিগত ব্যবহারের ক্ষেত্র"
 
-#: kdeui/widgets/kcharselect-translation.cpp:152
+#: kdeui/widgets/kcharselect-translation.cpp:176
 msgctxt "KCharselect unicode block name"
 msgid "CJK Compatibility Ideographs"
 msgstr "CJK সামঞ্জস্যের ভাবসংকেত"
 
-#: kdeui/widgets/kcharselect-translation.cpp:153
+#: kdeui/widgets/kcharselect-translation.cpp:177
 msgctxt "KCharselect unicode block name"
 msgid "Alphabetic Presentation Forms"
 msgstr "আল্ফাবেটিক রূপে বিন্যাস"
 
-#: kdeui/widgets/kcharselect-translation.cpp:154
+#: kdeui/widgets/kcharselect-translation.cpp:178
 msgctxt "KCharselect unicode block name"
 msgid "Arabic Presentation Forms-A"
 msgstr "আরবি রূপে বিন্যাস-A"
 
-#: kdeui/widgets/kcharselect-translation.cpp:155
+#: kdeui/widgets/kcharselect-translation.cpp:179
 msgctxt "KCharselect unicode block name"
 msgid "Variation Selectors"
 msgstr "পরিবর্তন নির্বাচনকারী"
 
-#: kdeui/widgets/kcharselect-translation.cpp:156
+#: kdeui/widgets/kcharselect-translation.cpp:180
 msgctxt "KCharselect unicode block name"
 msgid "Vertical Forms"
 msgstr "উলম্ব বিন্যাস"
 
-#: kdeui/widgets/kcharselect-translation.cpp:157
+#: kdeui/widgets/kcharselect-translation.cpp:181
 msgctxt "KCharselect unicode block name"
 msgid "Combining Half Marks"
 msgstr "সংযুক্তকারী অর্ধ-রূপ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:158
+#: kdeui/widgets/kcharselect-translation.cpp:182
 msgctxt "KCharselect unicode block name"
 msgid "CJK Compatibility Forms"
 msgstr "CJK সামঞ্জস্যের বিন্যাস"
 
-#: kdeui/widgets/kcharselect-translation.cpp:159
+#: kdeui/widgets/kcharselect-translation.cpp:183
 msgctxt "KCharselect unicode block name"
 msgid "Small Form Variants"
 msgstr "ক্ষুদ্র রূপ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:160
+#: kdeui/widgets/kcharselect-translation.cpp:184
 msgctxt "KCharselect unicode block name"
 msgid "Arabic Presentation Forms-B"
 msgstr "আরবি রূপে বিন্যাস-B"
 
-#: kdeui/widgets/kcharselect-translation.cpp:161
+#: kdeui/widgets/kcharselect-translation.cpp:185
+#, fuzzy
+#| msgctxt "KCharselect unicode block name"
+#| msgid "Half-Width and Full-Width Forms"
 msgctxt "KCharselect unicode block name"
-msgid "Half-Width and Full-Width Forms"
+msgid "Halfwidth and Fullwidth Forms"
 msgstr "অর্ধমাপ ও পূর্ণমাপ রূপ"
 
-#: kdeui/widgets/kcharselect-translation.cpp:162
+#: kdeui/widgets/kcharselect-translation.cpp:186
 msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr "বিশেষ"
@@ -13666,6 +13842,10 @@ msgstr "দিনের উপদেশ (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
+
+#~ msgctxt "KCharSelect section name"
+#~ msgid "Indic Scripts"
+#~ msgstr "ভারতীয় লিপী"
 
 #, fuzzy
 #~| msgctxt "@action"
