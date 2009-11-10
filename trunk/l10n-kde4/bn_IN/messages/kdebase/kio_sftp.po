@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-06 05:50+0100\n"
+"POT-Creation-Date: 2009-11-10 06:08+0100\n"
 "PO-Revision-Date: 2009-01-09 17:56+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,28 +17,28 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kio_sftp.cpp:178 kio_sftp.cpp:182 kio_sftp.cpp:445 kio_sftp.cpp:620
+#: kio_sftp.cpp:197 kio_sftp.cpp:201 kio_sftp.cpp:483 kio_sftp.cpp:650
 msgid "SFTP Login"
 msgstr "SFTP লগ-ইন"
 
-#: kio_sftp.cpp:193
+#: kio_sftp.cpp:212
 msgid "Use the username input field to answer this question."
 msgstr ""
 
-#: kio_sftp.cpp:429
+#: kio_sftp.cpp:467
 #, kde-format
 msgid "Opening SFTP connection to host %1:%2"
 msgstr "%1:%2 হোস্টের সাথে SFTP সংযোগ স্থাপন করা হচ্ছে"
 
-#: kio_sftp.cpp:433
+#: kio_sftp.cpp:471
 msgid "No hostname specified"
 msgstr "কোনো হোস্ট-নেম উল্লিখিত হয়নি"
 
-#: kio_sftp.cpp:447
+#: kio_sftp.cpp:485
 msgid "site:"
 msgstr "সাইট:"
 
-#: kio_sftp.cpp:543
+#: kio_sftp.cpp:573
 #, kde-format
 msgid ""
 "The host key for this server was not found, but another type of key exists.\n"
@@ -48,7 +48,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kio_sftp.cpp:554
+#: kio_sftp.cpp:584
 #, kde-format
 msgid ""
 "The host key for the server %1 has changed.\n"
@@ -60,11 +60,11 @@ msgid ""
 "%3"
 msgstr ""
 
-#: kio_sftp.cpp:566
+#: kio_sftp.cpp:596
 msgid "Warning: Cannot verify host's identity."
 msgstr "সতর্কবার্তা: হোস্টের পরিচয় যাচাই করা যায়নি।"
 
-#: kio_sftp.cpp:567
+#: kio_sftp.cpp:597
 #, kde-format
 msgid ""
 "The authenticity of host %1 cannot be established.\n"
@@ -72,29 +72,29 @@ msgid ""
 "Are you sure you want to continue connecting?"
 msgstr ""
 
-#: kio_sftp.cpp:598 kio_sftp.cpp:613 kio_sftp.cpp:652 kio_sftp.cpp:666
+#: kio_sftp.cpp:628 kio_sftp.cpp:643 kio_sftp.cpp:682 kio_sftp.cpp:696
 msgid "Authentication failed."
 msgstr "পরিচয় প্রমাণ করতে ব্যর্থ।"
 
-#: kio_sftp.cpp:621
+#: kio_sftp.cpp:651
 msgid "Please enter your username and password."
 msgstr "অনুগ্রহ করে ব্যবহারকারীর নাম ও পাসওয়ার্ড লিখুন।"
 
-#: kio_sftp.cpp:626
+#: kio_sftp.cpp:656
 msgid "Incorrect username or password"
 msgstr "ব্যবহারকারী নাম অথবা পাসওয়ার্ড সঠিক নয়"
 
-#: kio_sftp.cpp:679
+#: kio_sftp.cpp:709
 msgid ""
 "Unable to request the SFTP subsystem. Make sure SFTP is enabled on the "
 "server."
 msgstr ""
 
-#: kio_sftp.cpp:687
+#: kio_sftp.cpp:717
 msgid "Could not initialize the SFTP session."
 msgstr ""
 
-#: kio_sftp.cpp:692
+#: kio_sftp.cpp:722
 #, kde-format
 msgid "Successfully connected to %1"
 msgstr "%1-র সাথে সাফল্যের সাথে সংযোগ করা হয়েছে"
