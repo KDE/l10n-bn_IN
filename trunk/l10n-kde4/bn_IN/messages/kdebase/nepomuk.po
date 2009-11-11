@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-05 06:17+0100\n"
+"POT-Creation-Date: 2009-11-11 06:20+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -95,30 +95,12 @@ msgctxt "@info:status"
 msgid "Strigi service not running."
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
 
-#: libnepomukquery/queryparser.cpp:156
-msgctxt ""
-"Boolean AND keyword in desktop search strings. You can add several variants "
-"separated by spaces, e.g. retain the English one alongside the translation; "
-"keywords are not case sensitive. Make sure there is no conflict with the OR "
-"keyword."
-msgid "and"
-msgstr "and"
-
-#: libnepomukquery/queryparser.cpp:160
-msgctxt ""
-"Boolean OR keyword in desktop search strings. You can add several variants "
-"separated by spaces, e.g. retain the English one alongside the translation; "
-"keywords are not case sensitive. Make sure there is no conflict with the AND "
-"keyword."
-msgid "or"
-msgstr "or"
-
-#: kioslaves/search/kio_nepomuksearch.cpp:147
+#: kioslaves/search/kio_nepomuksearch.cpp:135
 msgid ""
 "The Nepomuk system is not activated. Unable to answer queries without it."
 msgstr ""
 
-#: kioslaves/search/kio_nepomuksearch.cpp:151
+#: kioslaves/search/kio_nepomuksearch.cpp:139
 msgid ""
 "The Nepomuk query service is not running. Unable to answer queries without "
 "it."
@@ -308,7 +290,17 @@ msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: services/storage/repository.cpp:301
+#: services/storage/repository.cpp:129
+#, kde-format
+msgctxt "@info - notification message"
+msgid ""
+"Nepomuk data is stored in the '%1' Soprano backend instead of the Virtuoso "
+"RDF server. This will have strong effects on the performance of the system "
+"and prevent core features such as the desktop search not to work properly. "
+"It is highly recommended to install the Virtuoso Soprano plugin."
+msgstr ""
+
+#: services/storage/repository.cpp:231
 #, kde-format
 msgctxt "@info - notification message"
 msgid ""
@@ -317,21 +309,14 @@ msgid ""
 "disabled until the situation has been resolved manually."
 msgstr ""
 
-#: services/storage/repository.cpp:337
+#: services/storage/repository.cpp:265
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Nepomuk-র তথ্য একটি নতুন ব্যাক-এন্ডে পরিবর্তন করা হচ্ছে। এই কাজে কিছু সময় ব্যয় হতে "
 "পারে।"
 
-#: services/storage/repository.cpp:348
-msgctxt "@info - notification message"
-msgid "Rebuilding Nepomuk full text search index for new features done."
-msgstr ""
-"নতুন বৈশিষ্ট্যের জন্য, Nepomuk-র সম্পূর্ণ টেক্সট ভিত্তিক অনুসন্ধানের ইন্ডেক্স পুনরায় "
-"নির্মাণ সমাপ্ত হয়েছে।"
-
-#: services/storage/repository.cpp:369
+#: services/storage/repository.cpp:278
 #, fuzzy
 #| msgctxt "@info - notification message"
 #| msgid ""
@@ -345,19 +330,10 @@ msgstr ""
 "Nepomuk-র তথ্য নতুন ব্যাক-এন্ডে রূপান্তর করতে ব্যর্থ। তথাপি, ব্যবহারকারী দ্বারা এই তথ্য "
 "পুনরুদ্ধার করা যাবে।"
 
-#: services/storage/repository.cpp:383
+#: services/storage/repository.cpp:292
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Nepomuk-র তথ্য সাফল্যের সাথে নতুন ব্যাক-এন্ডে রূপান্তর করা হয়েছে।"
-
-#: services/storage/repository.cpp:443
-msgctxt "@info - notification message"
-msgid ""
-"Rebuilding Nepomuk full text search index for new features. This will only "
-"be done once and might take a while."
-msgstr ""
-"নতুন বৈশিষ্ট্যের জন্য, Nepomuk-র সম্পূর্ণ টেক্সট ভিত্তিক অনুসন্ধানের ইন্ডেক্স পুনরায় "
-"নির্মাণ করা হচ্ছে। এই কাজ শুধুমাত্র একবার করা হবে ও এর জন্য কিছু সময় ব্যয় হবে।"
 
 #: services/storage/modelcopyjob.cpp:127
 #, fuzzy
@@ -497,6 +473,36 @@ msgstr "কোনো পরিসেবার নাম নির্ধারি
 #: servicestub/main.cpp:118
 msgid "Unknown service name:"
 msgstr "পরিসেবার নাম অজানা:"
+
+#~ msgctxt ""
+#~ "Boolean AND keyword in desktop search strings. You can add several "
+#~ "variants separated by spaces, e.g. retain the English one alongside the "
+#~ "translation; keywords are not case sensitive. Make sure there is no "
+#~ "conflict with the OR keyword."
+#~ msgid "and"
+#~ msgstr "and"
+
+#~ msgctxt ""
+#~ "Boolean OR keyword in desktop search strings. You can add several "
+#~ "variants separated by spaces, e.g. retain the English one alongside the "
+#~ "translation; keywords are not case sensitive. Make sure there is no "
+#~ "conflict with the AND keyword."
+#~ msgid "or"
+#~ msgstr "or"
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Rebuilding Nepomuk full text search index for new features done."
+#~ msgstr ""
+#~ "নতুন বৈশিষ্ট্যের জন্য, Nepomuk-র সম্পূর্ণ টেক্সট ভিত্তিক অনুসন্ধানের ইন্ডেক্স পুনরায় "
+#~ "নির্মাণ সমাপ্ত হয়েছে।"
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Rebuilding Nepomuk full text search index for new features. This will "
+#~ "only be done once and might take a while."
+#~ msgstr ""
+#~ "নতুন বৈশিষ্ট্যের জন্য, Nepomuk-র সম্পূর্ণ টেক্সট ভিত্তিক অনুসন্ধানের ইন্ডেক্স পুনরায় "
+#~ "নির্মাণ করা হচ্ছে। এই কাজ শুধুমাত্র একবার করা হবে ও এর জন্য কিছু সময় ব্যয় হবে।"
 
 #~ msgid "All Music Files"
 #~ msgstr "সর্বধরনের সংগীত ফাইল"
