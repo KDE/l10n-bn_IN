@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-11 06:18+0100\n"
+"POT-Creation-Date: 2009-11-12 06:10+0100\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -8164,7 +8164,7 @@ msgstr "পুনরায় এই বার্তা প্রদর্শন �
 msgid "About %1"
 msgstr "%1 পরিচিতি"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:141
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:163
 msgid "Configure"
 msgstr "কনফিগার করুন"
 
@@ -11848,25 +11848,20 @@ msgstr "টেক্সট উচ্চারণ"
 msgid "Starting KTTSD Failed"
 msgstr "KTTSD আরম্ভ করতে ব্যর্থ"
 
-#: kdeui/widgets/ktextedit.cpp:633 kdeui/widgets/ktextedit.cpp:644
-#, kde-format
-msgid "Suggestions for %1"
-msgstr "%1-র জন্য প্রস্তাবিত শব্দের তালিকা"
-
-#: kdeui/widgets/ktextedit.cpp:635
-msgid "Ignore"
-msgstr "উপেক্ষা করুন"
-
-#: kdeui/widgets/ktextedit.cpp:636
-msgid "Add to Dictionary"
-msgstr "অভিধানে যোগ করুন"
-
-#: kdeui/widgets/ktextedit.cpp:638 kdeui/widgets/ktextedit.cpp:640
+#: kdeui/widgets/ktextedit.cpp:627
 #, kde-format
 msgid "No suggestions for %1"
 msgstr "%1-র জন্য কোনো প্রস্তাবিত শব্দ নেই"
 
-#: kdeui/widgets/ktextedit.cpp:791
+#: kdeui/widgets/ktextedit.cpp:638
+msgid "Ignore"
+msgstr "উপেক্ষা করুন"
+
+#: kdeui/widgets/ktextedit.cpp:639
+msgid "Add to Dictionary"
+msgstr "অভিধানে যোগ করুন"
+
+#: kdeui/widgets/ktextedit.cpp:784
 msgid "Nothing to spell check."
 msgstr "বানান পরীক্ষা করার জন্য কিছু উপস্থিত নেই।"
 
@@ -14821,6 +14816,9 @@ msgstr "দিনের উপদেশ (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
+
+#~ msgid "Suggestions for %1"
+#~ msgstr "%1-র জন্য প্রস্তাবিত শব্দের তালিকা"
 
 #~ msgid "Download New %1"
 #~ msgstr "নতুন %1 ডাউনলোড করুন"
