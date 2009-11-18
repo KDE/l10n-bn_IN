@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-15 05:57+0100\n"
+"POT-Creation-Date: 2009-11-18 06:35+0100\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -89,13 +89,13 @@ msgstr "উইন্ডোগুলি পরিদর্শন করুন (�
 #: kwinbindings.cpp:57
 #, fuzzy
 #| msgid "Walk Through Windows"
-msgid "Walk Through Grouped Windows"
+msgid "Walk Through Window Tabs"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন"
 
 #: kwinbindings.cpp:58
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Grouped Windows (Reverse)"
+msgid "Walk Through Window Tabs (Reverse)"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
 #: kwinbindings.cpp:59
@@ -766,7 +766,7 @@ msgstr "বন্ধ করুন (&C)"
 #: useractions.cpp:307
 #, fuzzy
 #| msgid "Switch to Screen 0"
-msgid "Switch to group window"
+msgid "Switch to window tab"
 msgstr "পর্দা ০-তে পরিবর্তন করুন"
 
 #: useractions.cpp:348
@@ -953,6 +953,21 @@ msgstr "%1 লাইব্রেরি, KWin প্লাগ-ইন নয়।"
 #: tabbox/clientmodel.cpp:57
 msgid "*** No Windows ***"
 msgstr "*** উইন্ডো অনুপস্থিত ***"
+
+#, fuzzy
+#~| msgid "Walk Through Windows"
+#~ msgid "Walk Through Grouped Windows"
+#~ msgstr "উইন্ডোগুলি পরিদর্শন করুন"
+
+#, fuzzy
+#~| msgid "Walk Through Windows (Reverse)"
+#~ msgid "Walk Through Grouped Windows (Reverse)"
+#~ msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
+
+#, fuzzy
+#~| msgid "Switch to Screen 0"
+#~ msgid "Switch to group window"
+#~ msgstr "পর্দা ০-তে পরিবর্তন করুন"
 
 #~ msgid "kwin: failure during initialization; aborting"
 #~ msgstr "kwin: আরম্ভ করতে ব্যর্থ; পরিত্যাগ করা হচ্ছে"
