@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_phononserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-11 12:49+0200\n"
+"POT-Creation-Date: 2009-11-20 06:09+0100\n"
 "PO-Revision-Date: 2009-01-09 16:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -30,20 +30,8 @@ msgid "OSS"
 msgstr "OSS"
 
 #: audiodeviceaccess.cpp:48
-msgid "PulseAudio"
-msgstr "PulseAudio"
-
-#: audiodeviceaccess.cpp:50
 msgid "Jack"
 msgstr "Jack"
-
-#: audiodeviceaccess.cpp:52
-msgid "ESD"
-msgstr "ESD"
-
-#: audiodeviceaccess.cpp:54
-msgid "aRts"
-msgstr "aRts"
 
 #: audiodevice.cpp:60
 msgid ""
@@ -70,37 +58,37 @@ msgstr ""
 "<html>নিম্নলিখিত ডিভাইসগুলি সহ প্রচেষ্টা করা হবে ও প্রথম কার্যকরী ডিভাইস প্রয়োগ করা "
 "হবে: <ol>%1</ol></html>"
 
-#: phononserver.cpp:213
+#: phononserver.cpp:209
 #, kde-format
 msgctxt "%1 is the sound card name, %2 is the description in case it exists"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: phononserver.cpp:748
+#: phononserver.cpp:555
 #, kde-format
 msgid "Output: %1"
 msgstr "আউটপুট: %1"
 
-#: phononserver.cpp:749
+#: phononserver.cpp:556
 #, kde-format
 msgid "Capture: %1"
 msgstr "ক্যাপচার: %1"
 
-#: phononserver.cpp:1011
+#: phononserver.cpp:812
 msgid "Removed Sound Devices"
 msgstr "অপসারিত শব্দের ডিভাইস"
 
-#: phononserver.cpp:1017
+#: phononserver.cpp:818
 msgid "Forget about the sound devices."
 msgstr "শব্দের ডিভাইস সংক্রান্ত তথ্য স্মরণে রাখা হবে না।"
 
-#: phononserver.cpp:1021
+#: phononserver.cpp:822
 msgctxt ""
 "short string for a button, it opens the Phonon page of System Settings"
 msgid "Manage Devices"
 msgstr "ডিভাইস পরিচালনব্যবস্থা"
 
-#: phononserver.cpp:1023
+#: phononserver.cpp:824
 msgid ""
 "Open the System Settings page for sound device configuration where you can "
 "manually remove disconnected devices from the cache."
@@ -108,7 +96,7 @@ msgstr ""
 "শব্দের ডিভাইস কনফিগারেশনের জন্য সিস্টেমের বৈশিষ্ট্যের পেজ খুলুন ও বিচ্ছিন্নি ডিভাইস "
 "সংক্রান্ত তথ্য স্বয়ং ক্যাশে থেকে মুছে ফেলতে পারেন।"
 
-#: phononserver.cpp:1030
+#: phononserver.cpp:831
 #, kde-format
 msgid ""
 "<html><p>KDE detected that one or more internal sound devices were removed.</"
@@ -121,6 +109,15 @@ msgstr ""
 "হবে কি?</b></p><p>নিম্নলিখিত তালিকার মধ্যে উপস্থিত ডিভাইসগুলি KDE-র মতে, অপসারণ "
 "করা যাবে:<ul><li>%1</li></ul></p></html>"
 
-#: phononserver.cpp:1035
+#: phononserver.cpp:836
 msgid "Do not ask again for these devices"
 msgstr "এই ডিসভাইগুলি সম্পর্কে পুনরায় জিজ্ঞাসা করা হবে না"
+
+#~ msgid "PulseAudio"
+#~ msgstr "PulseAudio"
+
+#~ msgid "ESD"
+#~ msgstr "ESD"
+
+#~ msgid "aRts"
+#~ msgstr "aRts"
