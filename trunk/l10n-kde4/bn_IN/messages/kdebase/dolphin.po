@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-22 06:12+0100\n"
+"POT-Creation-Date: 2009-11-23 06:14+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1136,16 +1136,37 @@ msgstr "প্রাকদর্শন দেখান"
 msgid "Show hidden files"
 msgstr "গোপন ফাইলগুলো দেখান"
 
+#. i18n: file: search/dolphin_searchsettings.kcfg:7
+#. i18n: ectx: label, entry (Location), group (Search)
+#: rc.cpp:95
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgid "Location"
+msgstr "অবস্থান:"
+
+#. i18n: file: search/dolphin_searchsettings.kcfg:11
+#. i18n: ectx: label, entry (What), group (Search)
+#: rc.cpp:98
+msgid "What"
+msgstr ""
+
+#. i18n: file: search/dolphin_searchsettings.kcfg:15
+#. i18n: ectx: label, entry (Criterions), group (Search)
+#: rc.cpp:101
+msgid "Criterions"
+msgstr ""
+
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:11
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:95
+#: rc.cpp:104
 msgctxt "@label"
 msgid "Show hidden files"
 msgstr "গোপন ফাইলগুলো দেখান"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:98
+#: rc.cpp:107
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled hidden files, such as those starting with a '.', "
@@ -1155,14 +1176,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
 #. i18n: ectx: label, entry (ViewMode), group (Dolphin)
-#: rc.cpp:101
+#: rc.cpp:110
 msgctxt "@label"
 msgid "View Mode"
 msgstr "দেখার মোড"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
 #. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: rc.cpp:104
+#: rc.cpp:113
 msgctxt "@info:whatsthis"
 msgid ""
 "This option controls the style of the view. Currently supported values "
@@ -1173,14 +1194,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
 #. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:107
+#: rc.cpp:116
 msgctxt "@label"
 msgid "Show preview"
 msgstr "প্রাকদর্শন দেখান"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:28
 #. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:110
+#: rc.cpp:119
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, a preview of the file content is shown as an "
@@ -1189,14 +1210,14 @@ msgstr "এই অপশনটা সক্রিয় করলে, ফাইল�
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:33
 #. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:113
+#: rc.cpp:122
 msgctxt "@label"
 msgid "Categorized Sorting"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
 #. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:116
+#: rc.cpp:125
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, the sorted items are summarized by their "
@@ -1205,14 +1226,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:39
 #. i18n: ectx: label, entry (Sorting), group (Dolphin)
-#: rc.cpp:119
+#: rc.cpp:128
 msgctxt "@label"
 msgid "Sort files by"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
 #. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
-#: rc.cpp:122
+#: rc.cpp:131
 msgctxt "@info:whatsthis"
 msgid ""
 "This option defines which attribute (name, size, date, etc.) sorting is "
@@ -1221,35 +1242,35 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: rc.cpp:125
+#: rc.cpp:134
 msgctxt "@label"
 msgid "Order in which to sort files"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
 #. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
-#: rc.cpp:128
+#: rc.cpp:137
 msgctxt "@label"
 msgid "Show folders first when sorting files and folders"
 msgstr "ফাইল এবং ফোল্ডার সাজানোর সময় ফোল্ডার প্রথমে দেখাবে"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:59
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:131
+#: rc.cpp:140
 msgctxt "@label"
 msgid "Additional information"
 msgstr "অতিরিক্ত তথ্য"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:64
 #. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: rc.cpp:134
+#: rc.cpp:143
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr "শেষবারে য়ে বৈশিষ্ট্যাবলী পরিবর্তিত হয়েছে"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:65
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:137
+#: rc.cpp:146
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "শেষ সময় যখন এই বৈশিষ্ট্যাবলী ব্যবহারকারীর পরিবর্তন করেছিলো।"
@@ -1260,7 +1281,7 @@ msgstr "শেষ সময় যখন এই বৈশিষ্ট্যাব�
 #. i18n: ectx: label, entry (FontFamily), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:9
 #. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
-#: rc.cpp:140 rc.cpp:173 rc.cpp:203
+#: rc.cpp:149 rc.cpp:182 rc.cpp:212
 msgid "Font family"
 msgstr "ফন্টের ধরন"
 
@@ -1270,7 +1291,7 @@ msgstr "ফন্টের ধরন"
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:13
 #. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
-#: rc.cpp:143 rc.cpp:170 rc.cpp:206
+#: rc.cpp:152 rc.cpp:179 rc.cpp:215
 msgid "Use system font"
 msgstr "সিস্টেম ফন্ট ব্যবহৃত হবে"
 
@@ -1280,7 +1301,7 @@ msgstr "সিস্টেম ফন্ট ব্যবহৃত হবে"
 #. i18n: ectx: label, entry (FontSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:17
 #. i18n: ectx: label, entry (FontSize), group (ColumnMode)
-#: rc.cpp:146 rc.cpp:176 rc.cpp:209
+#: rc.cpp:155 rc.cpp:185 rc.cpp:218
 msgid "Font size"
 msgstr "ফন্টের অাকার"
 
@@ -1290,7 +1311,7 @@ msgstr "ফন্টের অাকার"
 #. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:21
 #. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
-#: rc.cpp:149 rc.cpp:179 rc.cpp:212
+#: rc.cpp:158 rc.cpp:188 rc.cpp:221
 msgid "Italic"
 msgstr "ইটালিক"
 
@@ -1300,7 +1321,7 @@ msgstr "ইটালিক"
 #. i18n: ectx: label, entry (FontWeight), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:25
 #. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
-#: rc.cpp:152 rc.cpp:182 rc.cpp:215
+#: rc.cpp:161 rc.cpp:191 rc.cpp:224
 msgid "Font weight"
 msgstr "ফন্টের ওজন"
 
@@ -1310,7 +1331,7 @@ msgstr "ফন্টের ওজন"
 #. i18n: ectx: label, entry (IconSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:29
 #. i18n: ectx: label, entry (IconSize), group (ColumnMode)
-#: rc.cpp:155 rc.cpp:194 rc.cpp:218
+#: rc.cpp:164 rc.cpp:203 rc.cpp:227
 msgid "Icon size"
 msgstr "অাইকনের অাকার"
 
@@ -1320,163 +1341,163 @@ msgstr "অাইকনের অাকার"
 #. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:33
 #. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
-#: rc.cpp:158 rc.cpp:200 rc.cpp:221
+#: rc.cpp:167 rc.cpp:209 rc.cpp:230
 msgid "Preview size"
 msgstr "প্রাকদর্শন অাকার"
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:37
 #. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
-#: rc.cpp:161
+#: rc.cpp:170
 msgid "Expandable folders"
 msgstr "বৃদ্ধিমান ফোল্ডার"
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:41
 #. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
-#: rc.cpp:164
+#: rc.cpp:173
 msgid "Position of columns"
 msgstr ""
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:10
 #. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:167
+#: rc.cpp:176
 msgid "Arrangement"
 msgstr "সুসজ্জায়ন"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:34
 #. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:185
+#: rc.cpp:194
 msgid "Item height"
 msgstr ""
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:42
 #. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:188
+#: rc.cpp:197
 msgid "Item width"
 msgstr "অাইটেমের প্রস্থ"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:50
 #. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:191
+#: rc.cpp:200
 msgid "Grid spacing"
 msgstr "গ্রিডের মধ্যে ফাঁকা জায়গা"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:58
 #. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:197
+#: rc.cpp:206
 msgid "Number of textlines"
 msgstr "টেক্স্ট লাইনের সংখ্যা"
 
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:37
 #. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
-#: rc.cpp:224
+#: rc.cpp:233
 msgid "Column width"
 msgstr "কলামের প্রস্থ"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:9
 #. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:227
+#: rc.cpp:236
 msgid "Should the URL be editable for the user"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:13
 #. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:230
+#: rc.cpp:239
 msgid "Text completion mode of the URL Navigator"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:17
 #. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:233
+#: rc.cpp:242
 msgid "Should the full path be shown inside the location bar"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:21
 #. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:236
+#: rc.cpp:245
 msgid "Is the application started the first time"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:25
 #. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:239
+#: rc.cpp:248
 msgid "Home URL"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:29
 #. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:242
+#: rc.cpp:251
 msgid "Split the view into two panes"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:33
 #. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:245
+#: rc.cpp:254
 msgid "Should the filter bar be shown"
 msgstr "ফিল্টার বার দেখানো হবে কিনা"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:37
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:248
+#: rc.cpp:257
 msgid "Should the view properties be used for all directories"
 msgstr "সব ডিরেক্টারির জন্যে দেখার বৈশিষ্টাবলী দেখানো হবে কিনা"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:41
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:251
+#: rc.cpp:260
 msgid "Browse through archives"
 msgstr "অার্কাইভগুলো ব্রাউজ করুন"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:45
 #. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:254
+#: rc.cpp:263
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:49
 #. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:257
+#: rc.cpp:266
 msgid "Rename inline"
 msgstr "inline নাম পরিবর্তন"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:53
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:260
+#: rc.cpp:269
 msgid "Show selection toggle"
 msgstr "নির্বাচনের অদলবদল দেখাও"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:57
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:263
+#: rc.cpp:272
 msgid "Show tooltips"
 msgstr "টুলের সম্যন্ধে দেখাও"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:61
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:266
+#: rc.cpp:275
 msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgstr "'কপি' এবং 'মুভ' কমান্ড দেখাও কনটেক্স্ট মেনুতে"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:65
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:269
+#: rc.cpp:278
 msgid "Timestamp since when the view properties are valid"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:68
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:272
+#: rc.cpp:281
 msgid "Use auto-expanding folders for all view types"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:72
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:275
+#: rc.cpp:284
 msgid "Show zoom slider in the statusbar"
 msgstr "জুম স্লাইডার দেখাও স্ট্যাটাসবারে"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:76
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:278
+#: rc.cpp:287
 msgid "Show the space information in the statusbar"
 msgstr ""
 
