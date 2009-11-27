@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_sessions\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-06 06:18+0200\n"
+"POT-Creation-Date: 2009-11-27 06:04+0100\n"
 "PO-Revision-Date: 2009-01-09 12:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: sessionrunner.cpp:41 sessionrunner.cpp:68
+#: sessionrunner.cpp:41 sessionrunner.cpp:72
 msgctxt "log out command"
 msgid "logout"
 msgstr "logout"
@@ -26,7 +26,7 @@ msgstr "logout"
 msgid "Logs out, exiting the current desktop session"
 msgstr ""
 
-#: sessionrunner.cpp:43 sessionrunner.cpp:86
+#: sessionrunner.cpp:43 sessionrunner.cpp:90
 msgctxt "shutdown computer command"
 msgid "shutdown"
 msgstr "shutdown"
@@ -37,7 +37,7 @@ msgstr "shutdown"
 msgid "Turns off the computer"
 msgstr "কম্পিউটার বন্ধ করুন"
 
-#: sessionrunner.cpp:45 sessionrunner.cpp:94
+#: sessionrunner.cpp:45 sessionrunner.cpp:98
 msgctxt "lock screen command"
 msgid "lock"
 msgstr "lock"
@@ -46,7 +46,7 @@ msgstr "lock"
 msgid "Locks the current sessions and starts the screen saver"
 msgstr ""
 
-#: sessionrunner.cpp:48 sessionrunner.cpp:77
+#: sessionrunner.cpp:48 sessionrunner.cpp:81
 msgctxt "restart computer command"
 msgid "restart"
 msgstr "restart"
@@ -57,7 +57,7 @@ msgstr "restart"
 msgid "Reboots the computer"
 msgstr "কম্পিউটার পুনরারম্ভ করুন"
 
-#: sessionrunner.cpp:49 sessionrunner.cpp:78
+#: sessionrunner.cpp:49 sessionrunner.cpp:82
 msgctxt "restart computer command"
 msgid "reboot"
 msgstr "reboot"
@@ -76,7 +76,7 @@ msgid ""
 "sessions if :q: is not provided"
 msgstr ""
 
-#: sessionrunner.cpp:56 sessionrunner.cpp:147
+#: sessionrunner.cpp:56 sessionrunner.cpp:151
 msgid "switch user"
 msgstr "ব্যবহারকারী পরিবর্তন করুন"
 
@@ -84,41 +84,45 @@ msgstr "ব্যবহারকারী পরিবর্তন করুন"
 msgid "Starts a new session as a different user"
 msgstr ""
 
-#: sessionrunner.cpp:58 sessionrunner.cpp:148
+#: sessionrunner.cpp:58 sessionrunner.cpp:152
 msgid "new session"
 msgstr "নতুন সেশান"
 
-#: sessionrunner.cpp:69
+#: sessionrunner.cpp:62
+msgid "Lists all sessions"
+msgstr ""
+
+#: sessionrunner.cpp:73
 msgid "log out"
 msgstr "লগ-আউট করুন"
 
-#: sessionrunner.cpp:71
+#: sessionrunner.cpp:75
 msgctxt "log out command"
 msgid "Logout"
 msgstr "Logout"
 
-#: sessionrunner.cpp:80
+#: sessionrunner.cpp:84
 msgid "Restart the computer"
 msgstr "কম্পিউটার পুনরারম্ভ করুন"
 
-#: sessionrunner.cpp:88
+#: sessionrunner.cpp:92
 msgid "Shutdown the computer"
 msgstr "কম্পিউটার বন্ধ করুন"
 
-#: sessionrunner.cpp:96
+#: sessionrunner.cpp:100
 msgid "Lock the screen"
 msgstr "পর্দা লক করুন"
 
-#: sessionrunner.cpp:123
+#: sessionrunner.cpp:127
 msgctxt "switch user command"
 msgid "switch"
 msgstr "switch"
 
-#: sessionrunner.cpp:157
+#: sessionrunner.cpp:161
 msgid "New Session"
 msgstr "নতুন সেশান"
 
-#: sessionrunner.cpp:252
+#: sessionrunner.cpp:256
 #, kde-format
 msgid ""
 "<p>You have chosen to open another desktop session.<br />The current session "
@@ -129,10 +133,10 @@ msgid ""
 "Panel and Desktop menus have actions for switching between sessions.</p>"
 msgstr ""
 
-#: sessionrunner.cpp:263
+#: sessionrunner.cpp:267
 msgid "Warning - New Session"
 msgstr "সতর্কবার্তা - নতুন সেশান"
 
-#: sessionrunner.cpp:264
+#: sessionrunner.cpp:268
 msgid "&Start New Session"
 msgstr "নতুন সেশান আরম্ভ করুন (&S)"
