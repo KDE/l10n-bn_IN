@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-26 06:12+0100\n"
+"POT-Creation-Date: 2009-11-29 06:12+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -45,16 +45,16 @@ msgstr "স্বত্বাধিকার ২০০৭ সেবাস্ট�
 msgid "Sebastian Trüg"
 msgstr "সেবাস্টিয়ান ট্রুগ"
 
-#: kcm/nepomukserverkcm.cpp:142
+#: kcm/nepomukserverkcm.cpp:144
 msgid "No Soprano Database backend available. Please check your installation."
 msgstr ""
 "কোনো Soprano ডাটাবেস ব্যাক-এন্ড পাওয়া যায়নি। অনুগ্রহ করে ইনস্টলেশন পরীক্ষা করুন।"
 
-#: kcm/nepomukserverkcm.cpp:143
+#: kcm/nepomukserverkcm.cpp:145
 msgid "Nepomuk cannot be started"
 msgstr "Nepomuk আরম্ভ করা সম্ভব নয়"
 
-#: kcm/nepomukserverkcm.cpp:151
+#: kcm/nepomukserverkcm.cpp:153
 msgid ""
 "The Nepomuk Server is not running. The settings will be used the next time "
 "the server is started."
@@ -62,11 +62,11 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। সার্ভার পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি "
 "প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:153 kcm/nepomukserverkcm.cpp:228
+#: kcm/nepomukserverkcm.cpp:155 kcm/nepomukserverkcm.cpp:230
 msgid "Nepomuk server not running"
 msgstr "Nepomuk সার্ভার বর্তমানে চলছে না।"
 
-#: kcm/nepomukserverkcm.cpp:226
+#: kcm/nepomukserverkcm.cpp:228
 msgid ""
 "The Nepomuk Server is not running. The settings have been saved and will be "
 "used the next time the server is started."
@@ -74,20 +74,20 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। বৈশিষ্ট্যগুলি সংরক্ষণ করা হয়েছে এবং সার্ভার "
 "পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:255
+#: kcm/nepomukserverkcm.cpp:257
 #, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Strigi ইন্ডেক্সারের সাথে যোগাযোগ করতে ব্যর্থ (%1)"
 
-#: kcm/nepomukserverkcm.cpp:265
+#: kcm/nepomukserverkcm.cpp:267
 msgctxt "@info:status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:269
+#: kcm/nepomukserverkcm.cpp:271
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
