@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-03 06:11+0100\n"
+"POT-Creation-Date: 2009-12-04 06:04+0100\n"
 "PO-Revision-Date: 2009-01-08 20:32+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -217,7 +217,7 @@ msgstr "সক্রিয় করুন (&A)"
 msgid "Start &New Session"
 msgstr "নতুন সেশান আরম্ভ করুন (&N)"
 
-#: krunnerdialog.cpp:67 krunnerapp.cpp:126
+#: krunnerdialog.cpp:67 krunnerapp.cpp:123
 msgid "Run Command"
 msgstr "কমান্ড সঞ্চালনা"
 
@@ -382,55 +382,54 @@ msgid ""
 "suspend them."
 msgstr ""
 
-#: krunnerapp.cpp:131
+#: krunnerapp.cpp:128
 msgid "Run Command on clipboard contents"
 msgstr ""
 
-#: krunnerapp.cpp:137
+#: krunnerapp.cpp:134
 msgid "Show System Activity"
 msgstr "সিস্টেমের কর্ম সংক্রান্ত তথ্য প্রদর্শন করা হবে"
 
-#: krunnerapp.cpp:149
+#: krunnerapp.cpp:146
 msgid "Switch User"
 msgstr "ব্যবহারকারী পরিবর্তন করুন"
 
-#: krunnerapp.cpp:156
+#: krunnerapp.cpp:153
 msgid "Lock Session"
 msgstr "সেশান লক করুন"
 
-#: krunnerapp.cpp:164
+#: krunnerapp.cpp:161
 msgid "Log Out"
 msgstr "লগ আউট করুন"
 
-#: krunnerapp.cpp:169
+#: krunnerapp.cpp:166
 msgid "Log Out Without Confirmation"
 msgstr "নিশ্চিতি বিনা লগ-আউট করুন"
 
-#: krunnerapp.cpp:174
+#: krunnerapp.cpp:171
 msgid "Halt Without Confirmation"
 msgstr "নিশ্চিতি বিনা কর্ম স্থগিত করুন"
 
-#: krunnerapp.cpp:179
+#: krunnerapp.cpp:176
 msgid "Reboot Without Confirmation"
 msgstr "নিশ্চিতি বিনা পুনরারম্ভ করুন"
 
-#: krunnerapp.cpp:213
+#: krunnerapp.cpp:210
 #, kde-format
 msgctxt "Run krunner restricting the search only to runner %1"
 msgid "Run Command (runner \"%1\" only)"
 msgstr ""
 
-#: krunnerapp.cpp:279
-msgid "System Activity"
-msgstr "সিস্টেমের কর্ম"
-
-#: krunnerapp.cpp:418
+#: krunnerapp.cpp:366
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
 "pressing Ctrl+Alt+Backspace; note, however, that your current session will "
 "not be saved with a forced shutdown."
 msgstr ""
+
+#~ msgid "System Activity"
+#~ msgstr "সিস্টেমের কর্ম"
 
 #~ msgid "KRunner Settings"
 #~ msgstr "KRunner সংক্রান্ত বৈশিষ্ট্য"
