@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-04 06:04+0100\n"
+"POT-Creation-Date: 2009-12-08 06:24+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -62,11 +62,11 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। সার্ভার পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি "
 "প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:155 kcm/nepomukserverkcm.cpp:230
+#: kcm/nepomukserverkcm.cpp:155 kcm/nepomukserverkcm.cpp:232
 msgid "Nepomuk server not running"
 msgstr "Nepomuk সার্ভার বর্তমানে চলছে না।"
 
-#: kcm/nepomukserverkcm.cpp:228
+#: kcm/nepomukserverkcm.cpp:230
 msgid ""
 "The Nepomuk Server is not running. The settings have been saved and will be "
 "used the next time the server is started."
@@ -74,20 +74,20 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। বৈশিষ্ট্যগুলি সংরক্ষণ করা হয়েছে এবং সার্ভার "
 "পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:257
+#: kcm/nepomukserverkcm.cpp:259
 #, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Strigi ইন্ডেক্সারের সাথে যোগাযোগ করতে ব্যর্থ (%1)"
 
-#: kcm/nepomukserverkcm.cpp:267
+#: kcm/nepomukserverkcm.cpp:269
 msgctxt "@info:status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:271
+#: kcm/nepomukserverkcm.cpp:273
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
@@ -435,50 +435,50 @@ msgstr ""
 msgid "Parsing of file %1 failed (%2)"
 msgstr "ফাইল %1 পার্স করতে ব্যর্থ (%2)"
 
-#: services/strigi/strigiservice.cpp:161
+#: services/strigi/strigiservice.cpp:163
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
 msgid "File indexer is suspended"
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে বিরত রয়েছে"
 
-#: services/strigi/strigiservice.cpp:163
+#: services/strigi/strigiservice.cpp:165
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files in folder %1"
 msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
 
-#: services/strigi/strigiservice.cpp:165
+#: services/strigi/strigiservice.cpp:167
 msgctxt "@info:status"
 msgid "Checking file system for new files"
 msgstr ""
 
-#: services/strigi/strigiservice.cpp:167
+#: services/strigi/strigiservice.cpp:169
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
 msgid "File indexer is idle"
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে কর্মহীন"
 
-#: services/strigi/systray.cpp:40 services/strigi/systray.cpp:43
-#: services/strigi/systray.cpp:76
+#: services/strigi/systray.cpp:41 services/strigi/systray.cpp:44
+#: services/strigi/systray.cpp:77
 msgid "Search Service"
 msgstr ""
 
-#: services/strigi/systray.cpp:45 services/strigi/systray.cpp:46
+#: services/strigi/systray.cpp:46 services/strigi/systray.cpp:47
 #, fuzzy
 #| msgid "Suspend Strigi Indexing"
 msgid "Suspend File Indexing"
 msgstr "Strigi ইন্ডেক্স ব্যবস্থা বিরত করুন"
 
-#: services/strigi/systray.cpp:47
+#: services/strigi/systray.cpp:48
 #, fuzzy
 #| msgid "Suspend or resume the Strigi file indexer manually"
 msgid "Suspend or resume the file indexer manually"
 msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থাটি স্বয়ং বিরত অথবা পুনরারম্ভ করুন"
 
-#: services/strigi/systray.cpp:52
+#: services/strigi/systray.cpp:53
 #, fuzzy
 #| msgid "Strigi Desktop File Indexer"
 msgid "Configure File Indexer"
