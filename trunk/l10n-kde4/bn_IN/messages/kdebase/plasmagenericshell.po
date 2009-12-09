@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-05 06:16+0100\n"
+"POT-Creation-Date: 2009-12-09 07:53+0100\n"
 "PO-Revision-Date: 2009-01-12 11:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -163,40 +163,118 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
+#: widgetsExplorer/appletsfiltering.cpp:185
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Term"
+msgstr "অনুসন্ধানযোগ্য পংক্তি এইখানে লিখুন"
+
+#: widgetsExplorer/appletsfiltering.cpp:192
+#: widgetsExplorer/appletsfiltering.cpp:193
+msgid "Get New Widgets"
+msgstr "নতুন উইজেট প্রাপ্ত করুন"
+
+#: widgetsExplorer/appletsfiltering.cpp:309
+msgid "Download New Plasma Widgets"
+msgstr "নতুন Plasma উইজেট ডাউনলোড করুন"
+
+#: widgetsExplorer/appletsfiltering.cpp:321
+#, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "নতুন %1 ডাউনলোড করুন"
+
+#: widgetsExplorer/appletsfiltering.cpp:331
+msgid "Install Widget From Local File..."
+msgstr "স্থানীয় ফাইল থেকে উইজেট ইনস্টল করুন..."
+
+#: widgetsExplorer/applettooltip.cpp:120
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall Widget"
+msgstr "নতুন উইজেট ইনস্টল করুন"
+
+#: widgetsExplorer/applettooltip.cpp:176
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:182
+msgid "Author:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:191
+msgid "Website:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:195
+msgid "License:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:202
+msgid "Unknown Applet"
+msgstr ""
+
+#: widgetsExplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "ফিল্টার"
+
+#: widgetsExplorer/openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr ""
+"ইনস্টল করার জন্য চিহ্নিত উইজেটের শ্রেণী, নিম্নলিখিত তালিকা থেকে নির্বাচন করুন।"
+
+#: widgetsExplorer/openwidgetassistant.cpp:56
+msgid "Plasmoid: Native plasma widget"
+msgstr "Plasmoid: নেটিভ plasma উইজেট"
+
+#: widgetsExplorer/openwidgetassistant.cpp:77
+msgid "Install New Widget From File"
+msgstr "ফাইল থেকে নতুন উইজেট ইনস্টল করুন"
+
+#: widgetsExplorer/openwidgetassistant.cpp:82
+msgid "Select File"
+msgstr "ফাইল নির্বাচন করুন"
+
+#: widgetsExplorer/openwidgetassistant.cpp:176
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr "আবশ্যক ইনস্টলার %1 লোড করতে ব্যর্থ। উৎপন্ন ত্রুটি: %2"
+
+#: widgetsExplorer/openwidgetassistant.cpp:179
+#: widgetsExplorer/openwidgetassistant.cpp:191
+msgid "Installation Failure"
+msgstr "ইনস্টলেশন ব্যর্থ"
+
+#: widgetsExplorer/openwidgetassistant.cpp:190
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "%1 প্যাকেজ ইনস্টল করতে ব্যর্থ।"
+
+#: widgetsExplorer/plasmaappletitemmodel.cpp:183
+msgid "Containments"
+msgstr ""
+
+#: widgetsExplorer/widgetexplorer.cpp:120
+msgid "All Widgets"
+msgstr "সর্বধরনের উইজেট"
+
+#: widgetsExplorer/widgetexplorer.cpp:124
+msgid "Running"
+msgstr ""
+
+#: widgetsExplorer/widgetexplorer.cpp:128
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories:"
+msgstr "শ্রেণী:"
+
 #, fuzzy
 #~| msgid "Add Widget"
 #~ msgid "Add Trigger"
 #~ msgstr "উইজেট যোগ করুন"
-
-#~ msgid "Select the type of widget to install from the list below."
-#~ msgstr ""
-#~ "ইনস্টল করার জন্য চিহ্নিত উইজেটের শ্রেণী, নিম্নলিখিত তালিকা থেকে নির্বাচন করুন।"
-
-#~ msgid "Plasmoid: Native plasma widget"
-#~ msgstr "Plasmoid: নেটিভ plasma উইজেট"
-
-#~ msgid "Install New Widget From File"
-#~ msgstr "ফাইল থেকে নতুন উইজেট ইনস্টল করুন"
-
-#~ msgid "Select File"
-#~ msgstr "ফাইল নির্বাচন করুন"
-
-#~ msgid "Could not load the required installer %1. The error given was: %2"
-#~ msgstr "আবশ্যক ইনস্টলার %1 লোড করতে ব্যর্থ। উৎপন্ন ত্রুটি: %2"
-
-#~ msgid "Installation Failure"
-#~ msgstr "ইনস্টলেশন ব্যর্থ"
-
-#~ msgid "Installing the package %1 failed."
-#~ msgstr "%1 প্যাকেজ ইনস্টল করতে ব্যর্থ।"
-
-#, fuzzy
-#~| msgid "Categories:"
-#~ msgid "Category:"
-#~ msgstr "শ্রেণী:"
-
-#~ msgid "All Widgets"
-#~ msgstr "সর্বধরনের উইজেট"
 
 #~ msgctxt ""
 #~ "%1 is the entity (person, staff, organization...) which recommends the "
@@ -213,26 +291,8 @@ msgstr "runab@redhat.com"
 #~ msgid "Currently Running Widgets"
 #~ msgstr "বর্তমানে চলমান উইজেট"
 
-#~ msgid "Download New Plasma Widgets"
-#~ msgstr "নতুন Plasma উইজেট ডাউনলোড করুন"
-
-#~ msgctxt ""
-#~ "%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-"
-#~ "*.desktop files"
-#~ msgid "Download New %1"
-#~ msgstr "নতুন %1 ডাউনলোড করুন"
-
-#~ msgid "Install Widget From Local File..."
-#~ msgstr "স্থানীয় ফাইল থেকে উইজেট ইনস্টল করুন..."
-
 #~ msgid "Widgets"
 #~ msgstr "উইজেট"
-
-#~ msgid "Install New Widgets"
-#~ msgstr "নতুন উইজেট ইনস্টল করুন"
-
-#~ msgid "Get New Widgets"
-#~ msgstr "নতুন উইজেট প্রাপ্ত করুন"
 
 #~ msgid "Close the dialog"
 #~ msgstr "ডায়লগ বন্ধ করুন"
@@ -265,9 +325,3 @@ msgstr "runab@redhat.com"
 #~ "<qt><b>নতুন উইজেট প্রাপ্ত করুন</b> নির্বাচন করা হলে, ইন্টারনেট থেকে সরাসরি "
 #~ "উইজেট ডাউনলোড করার জন্য একটি উইন্ডো প্রদর্শন করা হবে।  'ফাইল থেকে ইনস্টল করুন' "
 #~ "নির্বাচন করা হলে ডিস্কের মধ্যে উপস্থিত ফাইল থেকে নতুন উইজেট যোগ করা যাবে।</qt>"
-
-#~ msgid "Enter search phrase here"
-#~ msgstr "অনুসন্ধানযোগ্য পংক্তি এইখানে লিখুন"
-
-#~ msgid "Filters"
-#~ msgstr "ফিল্টার"
