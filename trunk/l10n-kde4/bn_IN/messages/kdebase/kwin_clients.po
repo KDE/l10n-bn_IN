@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_clients\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-08 06:24+0100\n"
+"POT-Creation-Date: 2009-12-15 06:04+0100\n"
 "PO-Revision-Date: 2008-12-30 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 
 #: b2/b2client.cpp:406 keramik/keramik.cpp:1032
-#: kwmtheme/kwmthemeclient.cpp:309 tabstrip/tabstripdecoration.cpp:65
+#: kwmtheme/kwmthemeclient.cpp:309 tabstrip/tabstripdecoration.cpp:55
 #: oxygen/oxygenclient.cpp:233
 msgid "Menu"
 msgstr "মেনু"
@@ -96,26 +96,26 @@ msgid "On all desktops"
 msgstr "সকল ডেস্কটপে প্রযোজ্য"
 
 #: b2/b2client.cpp:409 keramik/keramik.cpp:1062
-#: kwmtheme/kwmthemeclient.cpp:329 tabstrip/tabstripdecoration.cpp:59
+#: kwmtheme/kwmthemeclient.cpp:329 tabstrip/tabstripdecoration.cpp:49
 #: oxygen/oxygenclient.cpp:239
 msgid "Minimize"
 msgstr "আড়াল করুন"
 
 #: b2/b2client.cpp:409 b2/b2client.cpp:904 keramik/keramik.cpp:1071
 #: keramik/keramik.cpp:1415 kwmtheme/kwmthemeclient.cpp:337
-#: kwmtheme/kwmthemeclient.cpp:790 tabstrip/tabstripdecoration.cpp:56
+#: kwmtheme/kwmthemeclient.cpp:790 tabstrip/tabstripdecoration.cpp:46
 #: oxygen/oxygenclient.cpp:242
 msgid "Maximize"
 msgstr "বড় করুন"
 
 #: b2/b2client.cpp:410 keramik/keramik.cpp:1080
-#: kwmtheme/kwmthemeclient.cpp:345 tabstrip/tabstripdecoration.cpp:62
+#: kwmtheme/kwmthemeclient.cpp:345 tabstrip/tabstripdecoration.cpp:52
 #: oxygen/oxygenclient.cpp:245
 msgid "Close"
 msgstr "বন্ধ করুন"
 
 #: b2/b2client.cpp:410 keramik/keramik.cpp:1053
-#: tabstrip/tabstripdecoration.cpp:53 oxygen/oxygenclient.cpp:236
+#: tabstrip/tabstripdecoration.cpp:43 oxygen/oxygenclient.cpp:236
 msgid "Help"
 msgstr "সাহায্য"
 
@@ -125,7 +125,7 @@ msgid "Unshade"
 msgstr "ছায়াবিহীন"
 
 #: b2/b2client.cpp:411 b2/b2client.cpp:936 keramik/keramik.cpp:1108
-#: keramik/keramik.cpp:1436 tabstrip/tabstripdecoration.cpp:77
+#: keramik/keramik.cpp:1436 tabstrip/tabstripdecoration.cpp:67
 msgid "Shade"
 msgstr "ছায়াবৃত"
 
@@ -221,21 +221,21 @@ msgstr "নতুন KWM থিম ইনস্টল করতে ব্যব�
 msgid "Path to a theme config file"
 msgstr "থিম কনফিগ ফাইলের পাথ"
 
-#: tabstrip/tabstripdecoration.cpp:68
+#: tabstrip/tabstripdecoration.cpp:58
 #, fuzzy
 #| msgid "On All Desktops"
 msgid "All Desktops"
 msgstr "সকল ডেস্কটপে"
 
-#: tabstrip/tabstripdecoration.cpp:71
+#: tabstrip/tabstripdecoration.cpp:61
 msgid "Above"
 msgstr ""
 
-#: tabstrip/tabstripdecoration.cpp:74
+#: tabstrip/tabstripdecoration.cpp:64
 msgid "Below"
 msgstr ""
 
-#: tabstrip/tabstripdecoration.cpp:173
+#: tabstrip/tabstripdecoration.cpp:165
 #, fuzzy
 #| msgid "Close"
 msgid "Close Item"
@@ -243,7 +243,7 @@ msgstr "বন্ধ করুন"
 
 #. i18n: file: tabstrip/config/tabstripconfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, TabstripConfigUi)
-#: tabstrip/tabstripdecoration.cpp:219 rc.cpp:32
+#: tabstrip/tabstripdecoration.cpp:212 rc.cpp:32
 msgid "Tabstrip"
 msgstr ""
 
