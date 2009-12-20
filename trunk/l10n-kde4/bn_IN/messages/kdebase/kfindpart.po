@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-11 06:17+0200\n"
+"POT-Creation-Date: 2009-12-20 06:12+0100\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -218,96 +218,42 @@ msgstr "নিম্নলিখিত সময়ের মধ্যে নির
 msgid "&between"
 msgstr "প্রারম্ভিক সময় (&b)"
 
-#: kftabdlg.cpp:175 kftabdlg.cpp:868
-#, fuzzy
-#| msgid "&during the previous"
-msgctxt "&during the previous day(s)"
-msgid "&during the previous"
-msgid_plural "&during the previous"
-msgstr[0] "পূর্ববর্তী (&d)"
-msgstr[1] "পূর্ববর্তী (&d)"
-
 #: kftabdlg.cpp:176
 msgid "and"
 msgstr "ও চিহ্নিত সময়ের মধ্যে"
 
-#: kftabdlg.cpp:180 kftabdlg.cpp:869
-#, fuzzy
-#| msgid "minute(s)"
-msgctxt "use date ranges to search files by modified time"
-msgid "minute"
-msgid_plural "minutes"
-msgstr[0] "মিনিটের মধ্যে"
-msgstr[1] "মিনিটের মধ্যে"
-
-#: kftabdlg.cpp:181 kftabdlg.cpp:870
-#, fuzzy
-#| msgid "hour(s)"
-msgctxt "use date ranges to search files by modified time"
-msgid "hour"
-msgid_plural "hours"
-msgstr[0] "ঘন্টার মধ্যে"
-msgstr[1] "ঘন্টার মধ্যে"
-
-#: kftabdlg.cpp:182 kftabdlg.cpp:871
-#, fuzzy
-#| msgid "day(s)"
-msgctxt "use date ranges to search files by modified time"
-msgid "day"
-msgid_plural "days"
-msgstr[0] "দিনের মধ্যে"
-msgstr[1] "দিনের মধ্যে"
-
-#: kftabdlg.cpp:183 kftabdlg.cpp:872
-#, fuzzy
-#| msgid "month(s)"
-msgctxt "use date ranges to search files by modified time"
-msgid "month"
-msgid_plural "months"
-msgstr[0] "মাসের মধ্যে"
-msgstr[1] "মাসের মধ্যে"
-
-#: kftabdlg.cpp:184 kftabdlg.cpp:873
-#, fuzzy
-#| msgid "year(s)"
-msgctxt "use date ranges to search files by modified time"
-msgid "year"
-msgid_plural "years"
-msgstr[0] "বৎসরের মধ্যে"
-msgstr[1] "বৎসরের মধ্যে"
-
-#: kftabdlg.cpp:200
+#: kftabdlg.cpp:197
 msgid "File &size is:"
 msgstr "ফাইলের মাপ: (&s)"
 
-#: kftabdlg.cpp:213
+#: kftabdlg.cpp:210
 msgid "Files owned by &user:"
 msgstr "উল্লিখিত ব্যবহারকারীর মালিকানাধীন ফাইল: (&u)"
 
-#: kftabdlg.cpp:218
+#: kftabdlg.cpp:215
 msgid "Owned by &group:"
 msgstr "উল্লিখিত দলের মালিকানাধীন: (&g)"
 
-#: kftabdlg.cpp:221
+#: kftabdlg.cpp:218
 #, fuzzy
 #| msgid "(none)"
 msgctxt "file size isn't considered in the search"
 msgid "(none)"
 msgstr "(শূণ্য)"
 
-#: kftabdlg.cpp:222
+#: kftabdlg.cpp:219
 msgid "At Least"
 msgstr "অন্তত"
 
-#: kftabdlg.cpp:223
+#: kftabdlg.cpp:220
 msgid "At Most"
 msgstr "সর্বাধিক"
 
-#: kftabdlg.cpp:224
+#: kftabdlg.cpp:221
 msgid "Equal To"
 msgstr "চিহ্নিত মাপের সমান"
 
-#: kftabdlg.cpp:226 kftabdlg.cpp:878
+#: kftabdlg.cpp:223 kftabdlg.cpp:889
 #, fuzzy
 #| msgid "Bytes"
 msgid "Byte"
@@ -315,30 +261,30 @@ msgid_plural "Bytes"
 msgstr[0] "বাইট"
 msgstr[1] "বাইট"
 
-#: kftabdlg.cpp:227
+#: kftabdlg.cpp:224
 msgid "KiB"
 msgstr "কিবিবাইট"
 
-#: kftabdlg.cpp:228
+#: kftabdlg.cpp:225
 msgid "MiB"
 msgstr "মেবিবাইট"
 
-#: kftabdlg.cpp:229
+#: kftabdlg.cpp:226
 msgid "GiB"
 msgstr "গিবিবাইট"
 
-#: kftabdlg.cpp:295
+#: kftabdlg.cpp:293
 #, fuzzy
 #| msgid "File &type:"
 msgctxt "label for the file type combobox"
 msgid "File &type:"
 msgstr "ফাইলের প্রকৃতি: (&t)"
 
-#: kftabdlg.cpp:300
+#: kftabdlg.cpp:298
 msgid "C&ontaining text:"
 msgstr "উল্লিখিত লেখা সহ: (&o)"
 
-#: kftabdlg.cpp:306
+#: kftabdlg.cpp:304
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
@@ -348,19 +294,19 @@ msgstr ""
 "উপরোক্ত তালিকার মধ্যে উপস্থিত সর্বধরনের ফাইলের ক্ষেত্রে এই বিকল্প প্রযোজ্য নয়। অনুগ্রহ "
 "করে, সমর্থিত ফাইলের ধরন জানার জন্য সংশ্লিষ্ট নথিপত্র পড়ুন।</qt>"
 
-#: kftabdlg.cpp:314
+#: kftabdlg.cpp:312
 msgid "Case s&ensitive"
 msgstr "হরফের ছাঁদ সম্পর্কে সচেতন: (&e)"
 
-#: kftabdlg.cpp:315
+#: kftabdlg.cpp:313
 msgid "Include &binary files"
 msgstr "বাইনারি ফাইল অন্তর্ভুক্ত করা হবে (&b)"
 
-#: kftabdlg.cpp:316
+#: kftabdlg.cpp:314
 msgid "Regular e&xpression"
 msgstr "রেগুলার এক্সপ্রেশন (&x)"
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:317
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
@@ -368,74 +314,74 @@ msgstr ""
 "<qt>এই বিকল্পের সাহায্যে, লেখা বিহীন অন্যান্য ধরনের ফাইলগুলিও অনুসন্ধান করা হয় "
 "(যেমন, প্রোগ্রাম ফাইল ও ছবি)।</qt>"
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:325
 msgid "&Edit..."
 msgstr "সম্পাদনা...(&E)"
 
-#: kftabdlg.cpp:333
+#: kftabdlg.cpp:331
 msgid "fo&r:"
 msgstr "অনুসন্ধান করা হবে: (&r)"
 
-#: kftabdlg.cpp:335
+#: kftabdlg.cpp:333
 msgid "Search &metainfo sections:"
 msgstr "metainfo বিভাগে: (&m)"
 
-#: kftabdlg.cpp:339
+#: kftabdlg.cpp:337
 msgid "All Files & Folders"
 msgstr "সকল ফাইল ও ফোল্ডার"
 
-#: kftabdlg.cpp:340
+#: kftabdlg.cpp:338
 msgid "Files"
 msgstr "ফাইল"
 
-#: kftabdlg.cpp:341
+#: kftabdlg.cpp:339
 msgid "Folders"
 msgstr "ফোল্ডার"
 
-#: kftabdlg.cpp:342
+#: kftabdlg.cpp:340
 msgid "Symbolic Links"
 msgstr "সিম্বলিক লিংক"
 
-#: kftabdlg.cpp:343
+#: kftabdlg.cpp:341
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "বিশেষ ফাইল (সকেট, ডিভাইস ফাইল, ...)"
 
-#: kftabdlg.cpp:344
+#: kftabdlg.cpp:342
 msgid "Executable Files"
 msgstr "এক্সেকিউটেবল ফাইল"
 
-#: kftabdlg.cpp:345
+#: kftabdlg.cpp:343
 msgid "SUID Executable Files"
 msgstr "SUID দ্বারা এক্সেকিউটেবল ফাইল"
 
-#: kftabdlg.cpp:346
+#: kftabdlg.cpp:344
 msgid "All Images"
 msgstr "সর্বধরনের ছবির ফাইল"
 
-#: kftabdlg.cpp:347
+#: kftabdlg.cpp:345
 msgid "All Video"
 msgstr "সর্বধরনের ভিডিও ফাইল"
 
-#: kftabdlg.cpp:348
+#: kftabdlg.cpp:346
 msgid "All Sounds"
 msgstr "সর্বধরনের শব্দের ফাইল"
 
-#: kftabdlg.cpp:399
+#: kftabdlg.cpp:397
 msgid "Name/&Location"
 msgstr "নাম/অবস্থান (&L)"
 
-#: kftabdlg.cpp:400
+#: kftabdlg.cpp:398
 #, fuzzy
 #| msgid "C&ontents"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr "বিষয়বস্তু (&o)"
 
-#: kftabdlg.cpp:401
+#: kftabdlg.cpp:399
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
-#: kftabdlg.cpp:406
+#: kftabdlg.cpp:404
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
 "examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
@@ -443,44 +389,100 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:414
+#: kftabdlg.cpp:412
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
 "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:607
+#: kftabdlg.cpp:605
 msgid "Unable to search within a period which is less than a minute."
 msgstr "এক মিনিটের কম সময়ের মধ্যে পরিবর্তিত ফাইল অনুসন্ধান করতে ব্যর্থ।"
 
-#: kftabdlg.cpp:618
+#: kftabdlg.cpp:616
 msgid "The date is not valid."
 msgstr "তারিখ বৈধ নয়।"
 
-#: kftabdlg.cpp:620
+#: kftabdlg.cpp:618
 msgid "Invalid date range."
 msgstr "তারিখের সীমা বৈধ নয়।"
 
-#: kftabdlg.cpp:622
+#: kftabdlg.cpp:620
 msgid "Unable to search dates in the future."
 msgstr "ভবিষ্যতের তারিখ অনুসন্ধান করতে ব্যর্থ।"
 
-#: kftabdlg.cpp:684
+#: kftabdlg.cpp:682
 msgid "Size is too big. Set maximum size value?"
 msgstr "অত্যাধিক বড় মাপ। সর্বাধিক মাপ নির্ধারণ করা হবে কি?"
 
-#: kftabdlg.cpp:684
+#: kftabdlg.cpp:682
 msgid "Error"
 msgstr "ত্রুটি"
 
-#: kftabdlg.cpp:684
+#: kftabdlg.cpp:682
 msgid "Set"
 msgstr "নির্ধারণ করা হবে"
 
-#: kftabdlg.cpp:684
+#: kftabdlg.cpp:682
 msgid "Do Not Set"
 msgstr "নির্ধারণ করা হবে না"
+
+#: kftabdlg.cpp:879
+#, fuzzy
+#| msgid "&during the previous"
+msgctxt ""
+"during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
+"minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
+msgid "&during the previous"
+msgid_plural "&during the previous"
+msgstr[0] "পূর্ববর্তী (&d)"
+msgstr[1] "পূর্ববর্তী (&d)"
+
+#: kftabdlg.cpp:880
+#, fuzzy
+#| msgid "minute(s)"
+msgctxt "use date ranges to search files by modified time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "মিনিটের মধ্যে"
+msgstr[1] "মিনিটের মধ্যে"
+
+#: kftabdlg.cpp:881
+#, fuzzy
+#| msgid "hour(s)"
+msgctxt "use date ranges to search files by modified time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ঘন্টার মধ্যে"
+msgstr[1] "ঘন্টার মধ্যে"
+
+#: kftabdlg.cpp:882
+#, fuzzy
+#| msgid "day(s)"
+msgctxt "use date ranges to search files by modified time"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "দিনের মধ্যে"
+msgstr[1] "দিনের মধ্যে"
+
+#: kftabdlg.cpp:883
+#, fuzzy
+#| msgid "month(s)"
+msgctxt "use date ranges to search files by modified time"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "মাসের মধ্যে"
+msgstr[1] "মাসের মধ্যে"
+
+#: kftabdlg.cpp:884
+#, fuzzy
+#| msgid "year(s)"
+msgctxt "use date ranges to search files by modified time"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "বৎসরের মধ্যে"
+msgstr[1] "বৎসরের মধ্যে"
 
 #: kquery.cpp:552
 msgid "Error while using locate"
