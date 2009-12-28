@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-12-24 06:01+0100\n"
-"PO-Revision-Date: 2009-04-23 14:51+0530\n"
+"PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +38,6 @@ msgstr "এডিটর নির্বাচন ব্যবস্থা"
 #. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:19
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: rc.cpp:8
-#, fuzzy
 #| msgid ""
 #| "Please choose the default text editing component that you wish to use in "
 #| "this application. If you choose <B>System Default</B>, the application "
@@ -198,23 +197,20 @@ msgstr "অনুগ্রহ করে নিজের সম্বন্ধে
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:46
 #. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
 #: rc.cpp:71
-#, fuzzy
 #| msgid "Provider: %1"
 msgid "Provider:"
-msgstr "উপলব্ধকারী: %1"
+msgstr "উপলব্ধকারী:"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:63
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #: rc.cpp:74
-#, fuzzy
 #| msgid "Character:"
 msgid "Category:"
-msgstr "অক্ষর:"
+msgstr "শ্রেণী:"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:82
 #. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
 #: rc.cpp:77
-#, fuzzy
 #| msgctxt "@action"
 #| msgid "New"
 msgid "Newest"
@@ -223,10 +219,9 @@ msgstr "নতুন"
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:92
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
 #: rc.cpp:80
-#, fuzzy
 #| msgid "Rating: "
 msgid "Rating"
-msgstr "গুরুত্বের মান:"
+msgstr "গুরুত্বের মান"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:99
 #. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
@@ -237,75 +232,66 @@ msgstr "সর্বাধিকবার ডাউনলোড করা হয়
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:106
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
 #: rc.cpp:86
-#, fuzzy
 #| msgid "Install"
 msgid "Installed"
-msgstr "ইনস্টল করুন"
+msgstr "ইনস্টল করা"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:164
 #. i18n: ectx: property (text), widget (QLabel, orderLabel)
 #: rc.cpp:89
-#, fuzzy
 #| msgid "&Order by:"
 msgid "Order by:"
-msgstr "ক্রমবিন্যাসের প্রণালী:(&O)"
+msgstr "ক্রমবিন্যাসের প্রণালী:"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:174
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:92
-#, fuzzy
 #| msgid "S&earch:"
 msgid "Search:"
-msgstr "অনুসন্ধান:(&e)"
+msgstr "অনুসন্ধান:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:31
 #. i18n: ectx: property (text), widget (QLabel, uploadingLabel)
 #: rc.cpp:101
-#, fuzzy
 #| msgid "Download"
 msgid "Uploading file:"
-msgstr "ডাউনলোড করা হবে"
+msgstr "ফাইল আপলোড করা হবে:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:47
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: rc.cpp:104
-#, fuzzy
 #| msgid "Server: %1"
 msgid "Server:"
-msgstr "সার্ভার: %1"
+msgstr "সার্ভার:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:63
 #. i18n: ectx: property (text), widget (QLabel, mServerNameLabel)
 #: rc.cpp:107
-#, fuzzy
 #| msgid "Provider information"
 msgid "Loading Server Information..."
-msgstr "উপলব্ধকারীর তথ্য"
+msgstr "সার্ভারের তথ্য লোড করা হচ্ছে..."
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:85
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: rc.cpp:110
-#, fuzzy
 #| msgid "Please give some information about yourself."
 msgid "Please fill out the information about your upload in English."
-msgstr "অনুগ্রহ করে নিজের সম্বন্ধে কিছু লিখুন।"
+msgstr "আপলোড করা তথ্য সম্বন্ধে অনুগ্রহ করে ইংরাজিতে লিখুন।"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:92
 #. i18n: ectx: property (title), widget (QGroupBox, uploadGroup)
 #: rc.cpp:113 knewstuff/knewstuff3/uploaddialog.cpp:301
-#, fuzzy
 #| msgctxt "Reload KDE configuration messagebox"
 #| msgid "Reload"
 msgid "Upload"
-msgstr "পুনরায় লোড করুন"
+msgstr "আপলোড করুন"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:165
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: rc.cpp:134
-#, fuzzy
 #| msgid "Preview URL:"
 msgid "Preview Image:"
-msgstr "পূর্বরূপ প্রদর্শনের URL:"
+msgstr "ছবির পূর্বদৃশ্য:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:181
 #. i18n: ectx: property (text), widget (QLabel, label_8)
@@ -316,28 +302,25 @@ msgstr "বিবরণ:"
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:219
 #. i18n: ectx: property (text), widget (QCheckBox, priceCheckBox)
 #: rc.cpp:140
-#, fuzzy
 #| msgid "Ne&ver for This Site"
 msgid "Set a price for this item"
-msgstr "বর্তমান সাইটের জন্য কদাপি নয় (&v)"
+msgstr "এই বস্তুর জন্য একটি দাম ধার্য করুন"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:242
 #. i18n: ectx: property (text), widget (QLabel, priceLabel)
 #: rc.cpp:143
-#, fuzzy
 #| msgctxt "The source url of a job"
 #| msgid "Source:"
 msgid "Price:"
-msgstr "উৎসস্থল:"
+msgstr "দাম:"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, EntryDetailsDialog)
 #: rc.cpp:146
-#, fuzzy
 #| msgctxt "Email sender address"
 #| msgid "From:"
 msgid "Form"
-msgstr "প্রেরক:"
+msgstr "ফর্ম"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:64
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -350,35 +333,33 @@ msgstr "বিবরণ"
 #. i18n: ectx: property (text), widget (QLabel, homepageLabel)
 #: rc.cpp:155
 msgid "<a href=\"http://opendesktop.org\">Visit Homepage</a>"
-msgstr ""
+msgstr "<a href=\"http://opendesktop.org\">হোম পেজ পরিদর্শন করুন</a>"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:125
 #. i18n: ectx: property (title), widget (QGroupBox, previewSmallGroup)
 #: rc.cpp:158
-#, fuzzy
 #| msgid "No Preview"
 msgid "Previews"
-msgstr "প্রিন্টের পূর্বরূপ অনুপস্থিত"
+msgstr "পূর্বদৃশ্য"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:184
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:161
-#, fuzzy
 #| msgid "Comment"
 msgid "Community"
-msgstr "মন্তব্য"
+msgstr "সম্প্রদায়"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:205
 #. i18n: ectx: property (text), widget (QPushButton, voteGoodButton)
 #: rc.cpp:164
 msgid "I like this"
-msgstr ""
+msgstr "এটি আমার পছন্দ"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:212
 #. i18n: ectx: property (text), widget (QPushButton, voteBadButton)
 #: rc.cpp:167
 msgid "I do not like this"
-msgstr ""
+msgstr "এটি আমার পছন্দ নয়"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:221
 #. i18n: ectx: property (text), widget (QPushButton, becomeFanButton)
@@ -476,7 +457,6 @@ msgstr "কর্ম নিয়ন্ত্রণ"
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, jobHoldLabel)
 #: rc.cpp:206
-#, fuzzy
 #| msgid "Scheduled Printing:"
 msgid "Scheduled printing:"
 msgstr "নির্ধারিত প্রিন্ট কর্ম:"
@@ -484,15 +464,13 @@ msgstr "নির্ধারিত প্রিন্ট কর্ম:"
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:38
 #. i18n: ectx: property (text), widget (QLabel, jobBillingLabel)
 #: rc.cpp:209
-#, fuzzy
 #| msgid "Billing Information:"
 msgid "Billing information:"
-msgstr "বিল সংক্রান্ত তথ্য"
+msgstr "বিল সংক্রান্ত তথ্য:"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, jobPriorityLabel)
 #: rc.cpp:212
-#, fuzzy
 #| msgid "Job Priority:"
 msgid "Job priority:"
 msgstr "কর্মের গুরুত্ব:"
@@ -729,10 +707,9 @@ msgstr "পটভূমিতে বানান পরীক্ষণ ব্য
 #. i18n: file: kdeui/sonnet/configui.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkerEnabledByDefaultCB)
 #: rc.cpp:320
-#, fuzzy
 #| msgid "As-you-type spell checking enabled."
 msgid "&Automatic spell checking enabled by default"
-msgstr "টাইপ-করার-সময়-বানান-পরীক্ষণ সক্রিয় করা হয়েছে।"
+msgstr "ডিফল্টরূপে বানান-পরীক্ষণ সক্রিয় করা হয়েছে। (&A)"
 
 #. i18n: file: kdeui/sonnet/configui.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipUpperCB)
@@ -1214,20 +1191,17 @@ msgstr "স্থগিত"
 #. i18n: file: khtml/test_regression_gui.ui:147
 #. i18n: ectx: property (whatsThis), widget (QPushButton, saveLogButton)
 #: rc.cpp:519 rc.cpp:522
-#, fuzzy
 #| msgid ""
 #| "You may select a file where the log content is stored, before the "
 #| "regression testing started."
 msgid ""
 "You may select a file where the log content is stored, before the regression "
 "testing is started."
-msgstr ""
-"রিগ্রেশন পরীক্ষণ আরম্ভের পূর্বে, লগ সংরক্ষণের জন্য একটি ফাইল নির্বাচন করা যাবে।"
+msgstr "রিগ্রেশন পরীক্ষণ আরম্ভের পূর্বে, লগ সংরক্ষণের জন্য একটি ফাইল নির্বাচন করা যাবে।"
 
 #. i18n: file: khtml/test_regression_gui.ui:150
 #. i18n: ectx: property (text), widget (QPushButton, saveLogButton)
 #: rc.cpp:525
-#, fuzzy
 #| msgid "Output to file..."
 msgid "Output to File..."
 msgstr "ফলাফল ফাইলে সংরক্ষণ করা হবে..."
@@ -1235,7 +1209,6 @@ msgstr "ফলাফল ফাইলে সংরক্ষণ করা হব�
 #. i18n: file: khtml/test_regression_gui.ui:162
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
 #: rc.cpp:528
-#, fuzzy
 #| msgid "Regression testing status"
 msgid "Regression Testing Status"
 msgstr "রিগ্রেশন পরীক্ষণের অবস্থা"
@@ -1261,7 +1234,6 @@ msgstr "পরীক্ষা"
 #. i18n: file: khtml/test_regression_gui.ui:238
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:540
-#, fuzzy
 #| msgid "Only run JS tests"
 msgid "Only Run JS Tests"
 msgstr "শুধুমাত্র JS পরীক্ষা সঞ্চালিত হবে"
@@ -1269,7 +1241,6 @@ msgstr "শুধুমাত্র JS পরীক্ষা সঞ্চাল�
 #. i18n: file: khtml/test_regression_gui.ui:246
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:543
-#, fuzzy
 #| msgid "Only run HTML tests"
 msgid "Only Run HTML Tests"
 msgstr "শুধুমাত্র HTML পরীক্ষা সঞ্চালিত হবে"
@@ -1277,7 +1248,6 @@ msgstr "শুধুমাত্র HTML পরীক্ষা সঞ্চা�
 #. i18n: file: khtml/test_regression_gui.ui:254
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:546
-#, fuzzy
 #| msgid "Do not suppress debug output"
 msgid "Do Not Suppress Debug Output"
 msgstr "ডিবাগ থেকে প্রাপ্ত ফলাফল আড়াল করা হবে না"
@@ -1291,7 +1261,6 @@ msgstr "Xvfb ব্যবহার করা হবে না"
 #. i18n: file: khtml/test_regression_gui.ui:267
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:552
-#, fuzzy
 #| msgid "Run tests..."
 msgid "Run Tests..."
 msgstr "পরীক্ষা সঞ্চালন করা হবে..."
@@ -1299,7 +1268,6 @@ msgstr "পরীক্ষা সঞ্চালন করা হবে..."
 #. i18n: file: khtml/test_regression_gui.ui:272
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:555
-#, fuzzy
 #| msgid "Run single test..."
 msgid "Run Single Test..."
 msgstr "একটি পরীক্ষা সঞ্চালন করা হবে..."
@@ -1307,7 +1275,6 @@ msgstr "একটি পরীক্ষা সঞ্চালন করা হ�
 #. i18n: file: khtml/test_regression_gui.ui:277
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:558
-#, fuzzy
 #| msgid "Specify tests directory..."
 msgid "Specify tests Directory..."
 msgstr "পরীক্ষার ডিরেক্টরি উল্লেখ করুন..."
@@ -1315,7 +1282,6 @@ msgstr "পরীক্ষার ডিরেক্টরি উল্লেখ 
 #. i18n: file: khtml/test_regression_gui.ui:282
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:561
-#, fuzzy
 #| msgid "Specify khtml directory..."
 msgid "Specify khtml Directory..."
 msgstr "khtml ডিরেক্টরি উল্লেখ করুন..."
@@ -1323,7 +1289,6 @@ msgstr "khtml ডিরেক্টরি উল্লেখ করুন..."
 #. i18n: file: khtml/test_regression_gui.ui:287
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #: rc.cpp:564
-#, fuzzy
 #| msgid "Specify output directory..."
 msgid "Specify Output Directory..."
 msgstr "আউটপুট ডিরেক্টরি উল্লেখ করুন..."
@@ -1455,7 +1420,6 @@ msgstr "সংরক্ষণ করা হবে (&S)"
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:72
 #. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
 #: rc.cpp:639
-#, fuzzy
 #| msgid "Ne&ver for This Site"
 msgid "Ne&ver store for this site"
 msgstr "বর্তমান সাইটের জন্য কদাপি নয় (&v)"
@@ -1463,10 +1427,9 @@ msgstr "বর্তমান সাইটের জন্য কদাপি �
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:82
 #. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
 #: rc.cpp:642
-#, fuzzy
 #| msgid "Do not show this message again"
 msgid "Do &not store this time"
-msgstr "পুনরায় এই বার্তা প্রদর্শন করা হবে না"
+msgstr "এই মুহূর্তে সংরক্ষণ করা হবে না (&n)"
 
 #. i18n: file: kross/test/testguiform.ui:44
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -1579,7 +1542,6 @@ msgstr ""
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:123
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:700
-#, fuzzy
 #| msgid "Speak event message"
 msgid "Speak Event Message"
 msgstr "ইভেন্ট সম্বন্ধীয় বার্তা উচ্চারণ"
@@ -1587,7 +1549,6 @@ msgstr "ইভেন্ট সম্বন্ধীয় বার্তা উচ
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:128
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:703
-#, fuzzy
 #| msgid "Speak event name"
 msgid "Speak Event Name"
 msgstr "ইভেন্টের নাম উচ্চারণ"
@@ -1595,7 +1556,6 @@ msgstr "ইভেন্টের নাম উচ্চারণ"
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:133
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
 #: rc.cpp:706
-#, fuzzy
 #| msgid "Speak custom text"
 msgid "Speak Custom Text"
 msgstr "স্বনির্ধারিত টেক্সট উচ্চারণ"
@@ -1624,8 +1584,7 @@ msgstr "ব্যবহারযোগ্য উইজেট বিন্যা�
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
-msgstr ""
-"উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
+msgstr "উইজেট বিন্যাসের নাম, উদাহরণস্বরূপ \"keramik\" অথবা \"plastik\"। উদ্ধৃতিচিহ্ন বিনা।"
 
 #. i18n: file: kutils/kdeglobals.kcfg:30
 #. i18n: ectx: label, entry, group (General)
@@ -1639,8 +1598,7 @@ msgstr "সিস্টেমের স্পিকার ব্যবহার 
 msgid ""
 "Whether the ordinary PC speaker should be used instead of KDE's own "
 "notifications system."
-msgstr ""
-"KDE-র নিজস্ব সূচনাব্যবস্থার পরিবর্তে PC-র সাধারণ স্পিকার ব্যবহার করা হবে কিনা।"
+msgstr "KDE-র নিজস্ব সূচনাব্যবস্থার পরিবর্তে PC-র সাধারণ স্পিকার ব্যবহার করা হবে কিনা।"
 
 #. i18n: file: kutils/kdeglobals.kcfg:35
 #. i18n: ectx: label, entry, group (General)
@@ -1807,8 +1765,7 @@ msgstr "গতিনির্দেশক-বার প্রদর্শন ক
 #. i18n: file: kutils/kdeglobals.kcfg:406
 #. i18n: ectx: whatsthis, entry (Show Speedbar), group (KFileDialog Settings)
 #: rc.cpp:805
-msgid ""
-"Whether the shortcut icons to the left in the file dialog should be shown"
+msgid "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr "ফাইল ডায়লগের মধ্যে বাঁদিকের অংশে শর্ট-কাট আইকন প্রদর্শন করা হবে কি না"
 
 #. i18n: file: kutils/kdeglobals.kcfg:425
@@ -1820,8 +1777,7 @@ msgstr "দেশের নাম"
 #. i18n: file: kutils/kdeglobals.kcfg:426
 #. i18n: ectx: whatsthis, entry, group (Locale)
 #: rc.cpp:811
-msgid ""
-"Used to determine how to display numbers, currency and time/date, for example"
+msgid "Used to determine how to display numbers, currency and time/date, for example"
 msgstr "সংখ্যা, মুদ্রা, সময়/তারিখ প্রভৃতি প্রদর্শনের বিন্যাস নির্ধারণের জন্য ব্যবহৃত"
 
 #. i18n: file: kutils/kdeglobals.kcfg:430
@@ -1852,8 +1808,7 @@ msgstr "স্বয়ংক্রিয় কর্ম প্রারম্ভক�
 #. i18n: ectx: whatsthis, entry, group (Paths)
 #: rc.cpp:826
 msgid "Path to the directory containing executables to be run on session login"
-msgstr ""
-"সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
+msgstr "সেশানে লগ-ইন করার সময় সঞ্চালনযোগ্য এক্সেকিউটেবল ফাইল ধারণকারী ডিরেক্টরির পাথ"
 
 #. i18n: file: kutils/kdeglobals.kcfg:487
 #. i18n: ectx: label, entry, group (Socks)
@@ -2121,7 +2076,6 @@ msgstr ""
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:39
 #. i18n: ectx: property (text), widget (QCheckBox, cbLog)
 #: rc.cpp:1091
-#, fuzzy
 #| msgid "Log Thread Activity"
 msgid "Log thread activity"
 msgstr "থ্রেড সংক্রান্ত কাজের লগ"
@@ -2359,8 +2313,7 @@ msgstr "নিঃশব্দ (silent) - উইন্ডো ও stderr বিন
 
 #: kded/kbuildsycoca.cpp:651
 msgid "Show progress information (even if 'silent' mode is on)"
-msgstr ""
-"কর্মের প্রগতি সম্পর্কে তথ্য প্রদর্শন করা হবে ('নিঃশব্দ (silent)' মোড সক্রিয় হলেও)"
+msgstr "কর্মের প্রগতি সম্পর্কে তথ্য প্রদর্শন করা হবে ('নিঃশব্দ (silent)' মোড সক্রিয় হলেও)"
 
 #: kded/kbuildsycoca.cpp:677
 msgid "Reloading KDE configuration, please wait..."
@@ -2636,19 +2589,19 @@ msgstr "নাম পরিবর্তনকালে ত্রুটি।"
 #: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:101
 #, kde-format
 msgid "DBus Backend error: connection to helper failed. %1"
-msgstr ""
+msgstr "DBus ব্যাক-এন্ড সংক্রান্ত ত্রুটি: সহায়কের সাথে সংযোগ স্থাপন করতে বিফল। %1"
 
 #: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:125
 #, kde-format
 msgid ""
 "DBus Backend error: could not contact the helper. Connection error: %1. "
 "Message error: %2"
-msgstr ""
+msgstr "DBus ব্যাক-এন্ড সংক্রান্ত ত্রুটি: সহায়কের সাথে সংযোগ স্থাপন করতে বিফল। সংযোগ সংক্রান্ত ত্রুটি: %1। বার্তার ত্রুটি: %2"
 
 #: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:135
 #, kde-format
 msgid "DBus Backend error: received corrupt data from helper %1 %2"
-msgstr ""
+msgstr "DBus ব্যাক-এন্ড সংক্রান্ত ত্রুটি: সহায়কের থেকে ত্রুটিপূর্ণ তথ্য প্রাপ্ত হয়েছে %1 %2"
 
 #: kdecore/util/klibloader.cpp:98
 #, kde-format
@@ -2682,30 +2635,25 @@ msgid "KLibLoader: Unknown error"
 msgstr "KLibLoader: অজানা ত্রুটি"
 
 #: kdecore/util/kpluginloader.cpp:141 kdecore/util/kpluginloader.cpp:174
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Could not find 'kdemain' in '%1'.\n"
 #| "%2"
 msgid "Could not find plugin '%1' for application '%2'"
-msgstr ""
-"'%1'-র মধ্যে 'kdemain' পাওয়া যায়নি।\n"
-"%2"
+msgstr "'%1' প্লাগ-ইনটি '%2' অ্যাপ্লিকেশনের জন্য পাওয়া যায়নি"
 
 #: kdecore/util/kpluginloader.cpp:160
-#, fuzzy
 #| msgid "Specified socket path is invalid"
 msgid "The provided service is not valid"
-msgstr "সকেটের নির্ধারিত পাথ বৈধ নয়"
+msgstr "উপলব্ধ পরিসেবাটি বৈধ নয়"
 
 #: kdecore/util/kpluginloader.cpp:166
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The service '%1' provides no library or the Library key is missing in "
 #| "the .desktop file."
 msgid "The service '%1' provides no library or the Library key is missing in "
-msgstr ""
-"'%1' পরিসেবা দ্বারা কোনো লাইব্রেরি উপলব্ধ করা হয় না অথবা .desktop ফাইলের মধ্যে "
-"Library-কি অনুপস্থিত।"
+msgstr "'%1' পরিসেবা দ্বারা কোনো লাইব্রেরি উপলব্ধ করা হয় না অথবা চিহ্নিত স্থানে Library-কি অনুপস্থিত "
 
 #: kdecore/util/kpluginloader.cpp:213
 #, kde-format
@@ -2818,7 +2766,6 @@ msgid "remote host closed connection"
 msgstr "দূরবর্তী হোস্ট দ্বারা সংযোগ বিচ্ছিন্ন করা হয়েছে"
 
 #: kdecore/network/ktcpsocket.cpp:153
-#, fuzzy
 #| msgid "no error"
 msgctxt "SSL error"
 msgid "No error"
@@ -2827,40 +2774,38 @@ msgstr "ত্রুটি বিহীন"
 #: kdecore/network/ktcpsocket.cpp:155
 msgctxt "SSL error"
 msgid "The certificate authority's certificate is invalid"
-msgstr ""
+msgstr "সার্টিফিকেট অথোরিটির সার্টিফিকেটটি বৈধ নয়"
 
 #: kdecore/network/ktcpsocket.cpp:157
 msgctxt "SSL error"
 msgid "The certificate has expired"
-msgstr ""
+msgstr "সার্টিফিকেটের মেয়াদ উত্তীর্ণ হয়েছে"
 
 #: kdecore/network/ktcpsocket.cpp:159
-#, fuzzy
 #| msgid "Specified socket path is invalid"
 msgctxt "SSL error"
 msgid "The certificate is invalid"
-msgstr "সকেটের নির্ধারিত পাথ বৈধ নয়"
+msgstr "সার্টিফিকেটটি বৈধ নয়"
 
 #: kdecore/network/ktcpsocket.cpp:161
 msgctxt "SSL error"
 msgid "The certificate is not signed by any trusted certificate authority"
-msgstr ""
+msgstr "সার্টিফিকেটটি কোনো বিশ্বস্ত সার্টিফিকেট অথোরিটি দ্বারা স্বাক্ষরিত হয়নি"
 
 #: kdecore/network/ktcpsocket.cpp:163
 msgctxt "SSL error"
 msgid "The certificate has been revoked"
-msgstr ""
+msgstr "সার্টিফিকেট প্রত্যাহার করা হয়েছে"
 
 #: kdecore/network/ktcpsocket.cpp:165
 msgctxt "SSL error"
 msgid "The certificate is unsuitable for this purpose"
-msgstr ""
+msgstr "এই কাজের জন্য এই সার্টিফিকেটটি প্রযোজ্য নয়"
 
 #: kdecore/network/ktcpsocket.cpp:167
 msgctxt "SSL error"
-msgid ""
-"The root certificate authority's certificate is not trusted for this purpose"
-msgstr ""
+msgid "The root certificate authority's certificate is not trusted for this purpose"
+msgstr "এই কাজের জন্য root সার্টিফিকেট অথোরিটির সার্টিফিকেট বিশ্বস্ত নয়"
 
 #: kdecore/network/ktcpsocket.cpp:169
 msgctxt "SSL error"
@@ -2872,25 +2817,24 @@ msgstr ""
 #: kdecore/network/ktcpsocket.cpp:171
 msgctxt "SSL error"
 msgid "The peer did not present any certificate"
-msgstr ""
+msgstr "পিয়ার দ্বারা কোনো সার্টিফিকেট পেশ করা হয়নি"
 
 #: kdecore/network/ktcpsocket.cpp:173
 msgctxt "SSL error"
 msgid "The certificate does not apply to the given host"
-msgstr ""
+msgstr "চিহ্নিত হোস্টের জন্য সার্টিফিকেট প্রযোজ্য নয়"
 
 #: kdecore/network/ktcpsocket.cpp:175
 msgctxt "SSL error"
 msgid "The certificate cannot be verified for internal reasons"
-msgstr ""
+msgstr "অভ্যন্তরীণ কারণে সার্টিফিকেট পরীক্ষা করা সম্ভব নয়"
 
 #: kdecore/network/ktcpsocket.cpp:177
 msgctxt "SSL error"
 msgid "The certificate chain is too long"
-msgstr ""
+msgstr "সার্টিফিকেট চেইন অত্যাধিক লম্বা"
 
 #: kdecore/network/ktcpsocket.cpp:180
-#, fuzzy
 #| msgid "Unknown error"
 msgctxt "SSL error"
 msgid "Unknown error"
@@ -2976,7 +2920,7 @@ msgstr "অজানা ত্রুটি"
 #: kdecore/network/klocalsocket_unix.cpp:221
 #: kdecore/network/klocalsocket_unix.cpp:301
 msgid "Could not set non-blocking mode"
-msgstr ""
+msgstr "নন-ব্লকিং মোড নির্ধারণ করতে ব্যর্থ"
 
 #: kdecore/network/klocalsocket_unix.cpp:272
 msgid "Address is already in use"
@@ -3193,7 +3137,6 @@ msgid "sets the application GUI style"
 msgstr "অ্যাপ্লিকেশনের GUI বিন্যাস নির্ধারণ করা হয়"
 
 #: kdecore/kernel/kcmdlineargs.cpp:318
-#, fuzzy
 #| msgid ""
 #| "sets the client geometry of the main widget - see man X for the argument "
 #| "format"
@@ -3202,7 +3145,7 @@ msgid ""
 "format (usually WidthxHeight+XPos+YPos)"
 msgstr ""
 "মূল উইজেটের ক্লায়েন্ট জ্যামিতি নির্ধারণ করা হয় - আর্গুমেন্টের বিন্যাস জানার জন্য man X "
-"দেখুন"
+"দেখুন (সাধারণত প্রস্থxউচ্চতা+XPos+YPos)"
 
 #: kdecore/kernel/kcmdlineargs.cpp:436
 msgid "KDE Application"
@@ -3237,6 +3180,9 @@ msgid ""
 "KDE Development Platform: %2\n"
 "%3: %4\n"
 msgstr ""
+"Qt: %1\n"
+"KDE Development Platform: %2\n"
+"%3: %4\n"
 
 #: kdecore/kernel/kcmdlineargs.cpp:922
 #, kde-format
@@ -3268,8 +3214,7 @@ msgstr "অপ্রত্যাশিত আর্গুমেন্ট '%1'।
 
 #: kdecore/kernel/kcmdlineargs.cpp:1076
 msgid "Use --help to get a list of available command line options."
-msgstr ""
-"কমান্ড-লাইন থেকে ব্যবহারযোগ্য সকল উপলব্ধ বিকল্পের তালিকা দেখতে --help ব্যবহার করুন।"
+msgstr "কমান্ড-লাইন থেকে ব্যবহারযোগ্য সকল উপলব্ধ বিকল্পের তালিকা দেখতে --help ব্যবহার করুন।"
 
 #: kdecore/kernel/kcmdlineargs.cpp:1099
 msgid "[options] "
@@ -3723,7 +3668,7 @@ msgstr "নিষ্ক্রিয় করুন"
 #: kdecore/localization/kencodingprober.cpp:274
 msgctxt "@item Text character set"
 msgid "Universal"
-msgstr ""
+msgstr "ইউনিভার্সাল"
 
 #: kdecore/localization/kencodingprober.cpp:238
 #: kdecore/localization/kencodingprober.cpp:316
@@ -3846,20 +3791,18 @@ msgid "Thai"
 msgstr "থাই"
 
 #: kdecore/localization/klocale.cpp:1028
-#, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Arabic"
 msgctxt "digit set"
 msgid "Arabic-Indic"
-msgstr "আরবি"
+msgstr "আরবি-ইন্ডিক"
 
 #: kdecore/localization/klocale.cpp:1031
 msgctxt "digit set"
 msgid "Eastern Arabic-Indic"
-msgstr ""
+msgstr "পূর্বীয় আরবি-ইন্ডিক"
 
 #: kdecore/localization/klocale.cpp:1034
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Devanagari"
 msgctxt "digit set"
@@ -3867,7 +3810,6 @@ msgid "Devenagari"
 msgstr "দেবনাগরি"
 
 #: kdecore/localization/klocale.cpp:1037
-#, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Arabic"
 msgctxt "digit set"
@@ -3875,7 +3817,7 @@ msgid "Arabic"
 msgstr "আরবি"
 
 #: kdecore/localization/klocale.cpp:1042
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "dictionary name. %1-language and %2-country name"
 #| msgid "%1 (%2)"
 msgctxt "name of digit set with digit string, e.g. 'Arabic (0123456789)'"
@@ -3884,7 +3826,7 @@ msgstr "%1 (%2)"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1455
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "size in bytes"
 msgid "%1 B"
@@ -3892,226 +3834,226 @@ msgstr "%1 B"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1460
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "size in 1000 bytes"
 msgid "%1 kB"
-msgstr "%1 B"
+msgstr "%1 কিলোবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1462
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 MiB"
 msgctxt "size in 10^6 bytes"
 msgid "%1 MB"
-msgstr "%1 MiB"
+msgstr "%1 মেগাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1464
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 GiB"
 msgctxt "size in 10^9 bytes"
 msgid "%1 GB"
-msgstr "%1 GiB"
+msgstr "%1 গিগাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1466
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 TiB"
 msgctxt "size in 10^12 bytes"
 msgid "%1 TB"
-msgstr "%1 TiB"
+msgstr "%1 টেরাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1468
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "size in 10^15 bytes"
 msgid "%1 PB"
-msgstr "%1 B"
+msgstr "%1 পিটাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1470
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "size in 10^18 bytes"
 msgid "%1 EB"
-msgstr "%1 B"
+msgstr "%1 এক্সাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1472
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "size in 10^21 bytes"
 msgid "%1 ZB"
-msgstr "%1 B"
+msgstr "%1 জেটাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1474
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "size in 10^24 bytes"
 msgid "%1 YB"
-msgstr "%1 B"
+msgstr "%1 ইয়োটাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1479
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 KiB"
 msgctxt "memory size in 1024 bytes"
 msgid "%1 KB"
-msgstr "%1 KiB"
+msgstr "%1 কিলেবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1481
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 MiB"
 msgctxt "memory size in 2^20 bytes"
 msgid "%1 MB"
-msgstr "%1 MiB"
+msgstr "%1 মেগাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1483
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 GiB"
 msgctxt "memory size in 2^30 bytes"
 msgid "%1 GB"
-msgstr "%1 GiB"
+msgstr "%1 গিগাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1485
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 TiB"
 msgctxt "memory size in 2^40 bytes"
 msgid "%1 TB"
-msgstr "%1 TiB"
+msgstr "%1 টেরাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1487
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "memory size in 2^40 bytes"
 msgid "%1 PB"
-msgstr "%1 B"
+msgstr "%1 পিটাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1489
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "memory size in 2^50 bytes"
 msgid "%1 EB"
-msgstr "%1 B"
+msgstr "%1 এক্সাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1491
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "memory size in 2^60 bytes"
 msgid "%1 ZB"
-msgstr "%1 B"
+msgstr "%1 জেটাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1493
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 B"
 msgctxt "memory size in 2^70 bytes"
 msgid "%1 YB"
-msgstr "%1 B"
+msgstr "%1 ইয়োটাবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1499
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 KiB"
 msgctxt "size in 1024 bytes"
 msgid "%1 KiB"
-msgstr "%1 KiB"
+msgstr "%1 কিবিবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1501
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 MiB"
 msgctxt "size in 2^20 bytes"
 msgid "%1 MiB"
-msgstr "%1 MiB"
+msgstr "%1 মিবিবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1503
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 GiB"
 msgctxt "size in 2^30 bytes"
 msgid "%1 GiB"
-msgstr "%1 GiB"
+msgstr "%1 গিবিবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1505
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 TiB"
 msgctxt "size in 2^40 bytes"
 msgid "%1 TiB"
-msgstr "%1 TiB"
+msgstr "%1 টিবিবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1507
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 TiB"
 msgctxt "size in 2^40 bytes"
 msgid "%1 PiB"
-msgstr "%1 TiB"
+msgstr "%1 পেবিবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1509
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 TiB"
 msgctxt "size in 2^50 bytes"
 msgid "%1 EiB"
-msgstr "%1 TiB"
+msgstr "%1 এক্সবিবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1511
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 TiB"
 msgctxt "size in 2^60 bytes"
 msgid "%1 ZiB"
-msgstr "%1 TiB"
+msgstr "%1 জেবিবাইট"
 
 #. i18n: Dumb message, avoid any markup or scripting.
 #: kdecore/localization/klocale.cpp:1513
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 TiB"
 msgctxt "size in 2^70 bytes"
 msgid "%1 YiB"
-msgstr "%1 TiB"
+msgstr "%1 ইয়োবিবাইট"
 
 #: kdecore/localization/klocale.cpp:1599
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 days"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 msgid "%1 days"
 msgstr "%1 দিন"
 
 #: kdecore/localization/klocale.cpp:1602
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 hours"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 msgid "%1 hours"
 msgstr "%1 ঘন্টা"
 
 #: kdecore/localization/klocale.cpp:1605
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 minutes"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 msgid "%1 minutes"
 msgstr "%1 মিনিট"
 
 #: kdecore/localization/klocale.cpp:1608
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 seconds"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 msgid "%1 seconds"
 msgstr "%1 সেকেন্ড"
 
 #: kdecore/localization/klocale.cpp:1611
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 milliseconds"
 msgctxt "@item:intext"
 msgid "%1 millisecond"
@@ -4842,12 +4784,12 @@ msgstr "পে-লোড"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:65
 #: knewstuff/knewstuff3/uploaddialog.cpp:126
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Program name followed by 'Add On Installer'"
 #| msgid "%1 Add-On Installer"
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
-msgstr "%1 অতিরিক্ত ইনস্টলার"
+msgstr "%1 অতিরিক্ত আপলোডার"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:92
 #: knewstuff/knewstuff3/uploaddialog.cpp:220
@@ -4903,10 +4845,9 @@ msgstr "পুনরাবৃত্তি: %1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
 #: knewstuff/knewstuff3/downloaddialog_p.cpp:68
-#, fuzzy
 #| msgid "Timeout. Check Internet connection!"
 msgid "Timeout. Check Internet connection."
-msgstr "সময়সীমা উত্তীর্ণ হয়েছে। অনুগ্রহ করে, ইন্টারনেট সংযোগ পরীক্ষা করুন!"
+msgstr "সময়সীমা উত্তীর্ণ হয়েছে। অনুগ্রহ করে, ইন্টারনেট সংযোগ পরীক্ষা করুন।"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
 msgid "Entries failed to load"
@@ -5120,10 +5061,9 @@ msgstr "মতামত লিখুন"
 
 #: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
 #: knewstuff/knewstuff3/knewstuffbutton.cpp:48
-#, fuzzy
 #| msgid "Download New Stuff"
 msgid "Download New Stuff..."
-msgstr "নতুন জিনিস ডাউনলোড করুন"
+msgstr "নতুন জিনিস ডাউনলোড করুন..."
 
 #: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
 #, kde-format
@@ -5204,165 +5144,147 @@ msgstr ""
 "<i>gpg</i> ইনস্টল করা হয়েছে কি না। অন্যথা, সামগ্রী স্বাক্ষর করা সম্ভব হবে না।</qt>"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Rating: %1"
 msgctxt "Label showing the file name of a file that is about to be uploaded"
 msgid "Uploading: %1"
-msgstr "গুরুত্বের মান: %1"
+msgstr "আপলোড করা হচ্ছে: %1"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:122
-#, fuzzy
 #| msgid "&Replace..."
 msgid "Upload..."
-msgstr "প্রতিস্থাপন...(&R)"
+msgstr "আপলোড করুন..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:130
-#, fuzzy
 #| msgid "Provider information"
 msgid "Fetching provider information..."
-msgstr "উপলব্ধকারীর তথ্য"
+msgstr "উপলব্ধকারীর তথ্য প্রাপ্ত করা হচ্ছে..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:215
-#, fuzzy
 #| msgid "The rating could not be submitted."
 msgid "Provider could not be initialized."
-msgstr "গুরুত্বের হার সংক্রান্ত তথ্য দায়ের করা যায়নি।"
+msgstr "উপলব্ধকারী আরম্ভ করতে ব্যর্থ।"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:227
 msgid "Creating Content on Server..."
-msgstr ""
+msgstr "সার্ভারের মধ্যে তথ্য নির্মাণ..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:268
 msgid "There was a network error."
-msgstr ""
+msgstr "নেটওয়ার্কের ত্রুটি দেখা দিয়েছে।"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:268
 #: knewstuff/knewstuff3/uploaddialog.cpp:273
-#, fuzzy
 #| msgid "Download"
 msgid "Uploading Failed"
-msgstr "ডাউনলোড করা হবে"
+msgstr "আপলোড করতে ব্যর্থ"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:273
-#, fuzzy
 #| msgid "Communication error"
 msgid "Authentication error."
-msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
+msgstr "অনুমোদন সংক্রান্ত ত্রুটি।"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:279
-#, fuzzy
 #| msgid "Loading Preview"
 msgid "Uploading preview and content..."
-msgstr "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
+msgstr "পূর্বদৃশ্য ও বিষয়বস্তু আপলোড করা হচ্ছে..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:288
 msgid "Uploading content..."
-msgstr ""
+msgstr "বিষয়বস্তু আপলোড করা হচ্ছে..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:292
-#, fuzzy
 #| msgid "Loading Preview"
 msgid "Uploading preview image and content..."
-msgstr "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
+msgstr "পূর্বদৃশ্যের ছবি ও বিষয়বস্তু আপলোড করা হচ্ছে..."
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:301
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "File %1 not found."
 msgid "File not found: %1"
-msgstr "ফাইল %1 পাওয়া যায়নি।"
+msgstr "ফাইল পাওয়া যায়নি: %1"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:325
 msgid "Content Added"
-msgstr ""
+msgstr "বিষয়বস্তু যোগ করা হয়েছে"
 
 #: knewstuff/knewstuff3/uploaddialog.cpp:325
-#, fuzzy
 #| msgid "Page loaded."
 msgid "File Uploaded"
-msgstr "পেজ লোড করা হয়েছে"
+msgstr "ফাইল লোড করা হয়েছে"
 
 #: knewstuff/knewstuff3/downloaddialog_p.cpp:197
-#, fuzzy
 #| msgid "Provider: %1"
 msgid "All Providers"
-msgstr "উপলব্ধকারী: %1"
+msgstr "সকল উপলব্ধকারী"
 
 #: knewstuff/knewstuff3/downloaddialog_p.cpp:204
-#, fuzzy
 #| msgid "Pages"
 msgid "All Categories"
-msgstr "পৃষ্ঠা"
+msgstr "সকল শ্রেণী"
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:69
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Suggestions for %1"
 msgid "Details for %1"
-msgstr "%1-র জন্য প্রস্তাবিত শব্দের তালিকা"
+msgstr "%1-র বিবরণ"
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:77
-#, fuzzy
 #| msgid "Homepage"
 msgctxt "A link to the description of this Get Hot New Stuff item"
 msgid "Visit homepage..."
-msgstr "হোম পেজ"
+msgstr "হোম পেজ পরিদর্শন করুন"
 
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:107
 #: knewstuff/knewstuff3/ui/itemsmodel.cpp:141
-#, fuzzy
 #| msgid "Loading Preview"
 msgid "Loading preview..."
-msgstr "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
+msgstr "পূর্বদৃশ্যের উদ্দেশ্যে লোড করা হচ্ছে..."
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:175
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:177
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@interface/rich"
 #| msgid "<i>%1</i>"
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
-msgstr "<i>%1</i>"
+msgstr "<i>%1</i> দ্বারা"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:223
-#, fuzzy
 #| msgid "Install"
 msgid "Install again"
-msgstr "ইনস্টল করুন"
+msgstr "পুনরায় ইনস্টল করুন"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:228
-#, fuzzy
 #| msgid "Install"
 msgid "Installing"
-msgstr "ইনস্টল করুন"
+msgstr "ইনস্টল করা হচ্ছে"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:233
-#, fuzzy
 #| msgid "Update"
 msgid "Updating"
-msgstr "আপডেট করুন"
+msgstr "আপডেট করা হচ্ছে"
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:246
-#, fuzzy
 #| msgid "Details"
 msgid "Details..."
-msgstr "বিবরণ"
+msgstr "বিবরণ..."
 
 #: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:253
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Rating: %1"
 msgid "Rating: %1%"
-msgstr "গুরুত্বের মান: %1"
+msgstr "গুরুত্বের মান: %1%"
 
 #: knewstuff/knewstuff3/core/installation.cpp:484
-#, fuzzy
 #| msgid "Overwrite File?"
 msgid "Overwrite existing file?"
 msgstr "ফাইল নতুন করে লেখা হবে কি?"
 
 #: knewstuff/knewstuff3/core/installation.cpp:484
-#, fuzzy
 #| msgid "Download"
 msgid "Download File:"
-msgstr "ডাউনলোড করা হবে"
+msgstr "ফাইল ডাউনলোড করুন:"
 
 #: knewstuff/knewstuff3/core/engine.cpp:245
 #, kde-format
@@ -5372,22 +5294,22 @@ msgstr ""
 #: knewstuff/knewstuff3/core/engine.cpp:282
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
-msgstr ""
+msgstr "চিহ্নিত ফাইল: %1 থেকে উপলব্ধকারীদের তথ্য লোড করতে ব্যর্থ"
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:314
-#, fuzzy
 #| msgid "Could not construct value"
 msgid "Could not get account balance."
-msgstr "মান গঠন করতে ব্যর্থ"
+msgstr ""
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:326
 #, kde-format
-msgctxt ""
-"the price of a download item, parameter 1 is the currency, 2 is the price"
+msgctxt "the price of a download item, parameter 1 is the currency, 2 is the price"
 msgid ""
 "This items costs %1 %2.\n"
 "Do you want to buy it?"
 msgstr ""
+"এই বস্তুগুলির দাম %1 %2।\n"
+"এইগুলি কিনতে ইচ্ছুক কি?"
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:337
 #, kde-format
@@ -5398,30 +5320,27 @@ msgid ""
 msgstr ""
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:350
-#, fuzzy
 #| msgid "Could not create temporary file."
 msgid "Could not get download link."
-msgstr "অস্থায়ী ফাইল নির্মাণ করতে সমস্য।"
+msgstr "ডাউনলোড করার লিংক প্রাপ্র করতে ব্যর্থ।"
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:383
 msgid "Your vote was successful."
 msgstr ""
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:385
-#, fuzzy
 #| msgid "Download"
 msgid "Voting failed."
-msgstr "ডাউনলোড করা হবে"
+msgstr ""
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:401
 msgid "You are now a fan."
 msgstr ""
 
 #: knewstuff/knewstuff3/attica/atticaprovider.cpp:403
-#, fuzzy
 #| msgid "Could not create temporary file."
 msgid "Could not make you a fan."
-msgstr "অস্থায়ী ফাইল নির্মাণ করতে সমস্য।"
+msgstr ""
 
 #: kdewebkit/kwebpage.cpp:197 khtml/khtml_ext.cpp:933
 msgid "Overwrite File?"
@@ -5607,12 +5526,10 @@ msgid "Discard changes"
 msgstr "পরিবর্তন বর্জন করা হবে"
 
 #: kdeui/util/kstandardguiitem.cpp:131
-#, fuzzy
 #| msgid ""
 #| "Pressing this button will discard all recent changes made in this dialog"
-msgid ""
-"Pressing this button will discard all recent changes made in this dialog."
-msgstr "এই বাটন টেপা হলে, বর্তমান ডায়লগে করা সকল পরিবর্তনগুলি বর্জন করা হবে"
+msgid "Pressing this button will discard all recent changes made in this dialog."
+msgstr "এই বাটন টেপা হলে, বর্তমান ডায়লগে করা সকল পরিবর্তনগুলি বর্জন করা হবে।"
 
 #: kdeui/util/kstandardguiitem.cpp:137 kdeui/actions/kstandardaction_p.h:46
 msgid "&Save"
@@ -5750,7 +5667,7 @@ msgstr "এগিয়ে চলুন (&o)"
 
 #: kdeui/util/kstandardguiitem.cpp:237
 msgid "Continue operation"
-msgstr ""
+msgstr "কর্মে এগিয়ে চলুন"
 
 #: kdeui/util/kstandardguiitem.cpp:242
 msgid "&Delete"
@@ -5976,7 +5893,7 @@ msgstr ""
 msgid ""
 "The current shortcut scheme is modified. Save before switching to the new "
 "one?"
-msgstr ""
+msgstr "বর্তমান শর্ট-কাট স্কিম পরিবর্তিত হয়েছে। নতুন স্কিম প্রয়োগ করার পূর্বে এটি সংরক্ষণ করা হবে কি?"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:122
 msgid "Configure Shortcuts"
@@ -6043,7 +5960,7 @@ msgstr "চিহ্নিত স্থানে এক্সপোর্ট ক
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:171
 msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr ""
+msgstr "অবস্থান বৈধ না হওয়ার ফলে শর্ট-কাট স্কিম এক্সপোর্ট করতে ব্যর্থ।"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:167
 msgid "Left to Right, Top to Bottom"
@@ -6280,10 +6197,9 @@ msgid "A&vailable actions:"
 msgstr "উপলব্ধ করুন: (&v)"
 
 #: kdeui/dialogs/kedittoolbar.cpp:861 kdeui/dialogs/kedittoolbar.cpp:880
-#, fuzzy
 #| msgid "File"
 msgid "Filter"
-msgstr "ফাইল"
+msgstr "ফিল্টার"
 
 #: kdeui/dialogs/kedittoolbar.cpp:864
 msgid "Curr&ent actions:"
@@ -6294,10 +6210,9 @@ msgid "Change &Icon..."
 msgstr "আইকন পরিবর্তন করুন...(&I)"
 
 #: kdeui/dialogs/kedittoolbar.cpp:893
-#, fuzzy
 #| msgid "Change &Icon..."
 msgid "Change Te&xt..."
-msgstr "আইকন পরিবর্তন করুন...(&I)"
+msgstr "টেক্সট পরিবর্তন করুন...(&x)"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1044
 #, kde-format
@@ -6306,8 +6221,7 @@ msgid "%1"
 msgstr "%1"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1065
-msgid ""
-"This element will be replaced with all the elements of an embedded component."
+msgid "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
 #: kdeui/dialogs/kedittoolbar.cpp:1067
@@ -6341,40 +6255,34 @@ msgid "Change Icon"
 msgstr "আইকন পরিবর্তন করুন"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1493
-#, fuzzy
 #| msgid "Change Icon"
 msgid "Change Text"
-msgstr "আইকন পরিবর্তন করুন"
+msgstr "টেক্সট পটিবর্তন করুন"
 
 #: kdeui/dialogs/kedittoolbar.cpp:1493
-#, fuzzy
 #| msgid "Link Text:"
 msgid "Icon Te&xt:"
-msgstr "লিঙ্কের টেক্সট:"
+msgstr "আইকন টেক্সট: (&x)"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:66
-#, fuzzy
 #| msgid "Pages"
 msgid "All Pages"
-msgstr "পৃষ্ঠা"
+msgstr "সকল পৃষ্ঠা"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:67
-#, fuzzy
 #| msgid "Pages"
 msgid "Odd Pages"
-msgstr "পৃষ্ঠা"
+msgstr "বেজোড় সংখ্যক পৃষ্ঠা"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:68
-#, fuzzy
 #| msgid "Pages"
 msgid "Even Pages"
-msgstr "পৃষ্ঠা"
+msgstr "জোড় সংখ্যক পৃষ্ঠা"
 
 #: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:79
-#, fuzzy
 #| msgid "Pages Per Sheet"
 msgid "Page Set"
-msgstr "প্রতি পাতায় পৃষ্ঠা সংখ্যা"
+msgstr "পৃষ্ঠা নির্ধারণ"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:127
 #: kdeui/widgets/kcharselectdata.cpp:644
@@ -6434,18 +6342,15 @@ msgid ""
 msgstr "<qt>কোনো তথ্য উপলব্ধ নেই।<br />উল্লিখিত KAboutData অবজেক্ট অনুপস্থিত।</qt>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:107
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
 #| "3</html>"
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />KDE %3 "
-"ব্যবহারকারী</html>"
+msgid "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+msgstr "<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />&nbsp;</html>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:111
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
 #| "3</html>"
@@ -6456,8 +6361,8 @@ msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
 "Development Platform %3</html>"
 msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />KDE %3 "
-"ব্যবহারকারী</html>"
+"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />KDE "
+"Development Platform %3 প্রয়োগকারী</html>"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:145
 #, kde-format
@@ -6498,7 +6403,7 @@ msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr "অনুগ্রহ করে <a href=\"mailto:%1\">%2</a>-এ বাগ দায়ের করুন।\n"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:194
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
 msgctxt "@item Author name in about dialog"
@@ -6506,7 +6411,7 @@ msgid "%1"
 msgstr "%1"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:219
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
 msgctxt "@item Contributor name in about dialog."
@@ -6576,10 +6481,8 @@ msgid "Submit Bug Report"
 msgstr "বাগ রিপোর্ট জমা করুন"
 
 #: kdeui/dialogs/kbugreport.cpp:129
-msgid ""
-"Your email address. If incorrect, use the Configure Email button to change it"
-msgstr ""
-"আপনার ই-মেইল ঠিকানা। ভুল হলে 'ই-মেইন কনফিগার করুন' বাটন টিপে তা পরিবর্তন করুন"
+msgid "Your email address. If incorrect, use the Configure Email button to change it"
+msgstr "আপনার ই-মেইল ঠিকানা। ভুল হলে 'ই-মেইন কনফিগার করুন' বাটন টিপে তা পরিবর্তন করুন"
 
 #: kdeui/dialogs/kbugreport.cpp:130
 msgctxt "Email sender address"
@@ -6633,10 +6536,9 @@ msgstr ""
 "নিন এই অ্যাপ্লিকেশনের কোনো নতুন সংস্করণ উপলব্ধ রয়েছে কি না।"
 
 #: kdeui/dialogs/kbugreport.cpp:202
-#, fuzzy
 #| msgid "no version set (programmer error!)"
 msgid "no version set (programmer error)"
-msgstr "কোনো সংস্করণ নির্ধারিত হয়নি (প্রোগ্রামারের ত্রুটি!)"
+msgstr "কোনো সংস্করণ নির্ধারিত হয়নি (প্রোগ্রামারের ত্রুটি)"
 
 #: kdeui/dialogs/kbugreport.cpp:213
 msgid "OS:"
@@ -6732,7 +6634,6 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kbugreport.cpp:447
-#, fuzzy
 #| msgid ""
 #| "Unable to send the bug report.\n"
 #| "Please submit a bug report manually...\n"
@@ -6782,7 +6683,7 @@ msgid "About KDE"
 msgstr "KDE পরিচিতি"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:46
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
 #| "b></html>"
@@ -6790,8 +6691,8 @@ msgid ""
 "<html><font size=\"5\">KDE - Be Free!</font><br /><b>Platform Version %1</"
 "b></html>"
 msgstr ""
-"<html><font size=\"5\">K Desktop Environment</font><br /><b>সংস্করণ %1</b></"
-"html>"
+"<html><font size=\"5\">KDE - Be Free!</font><br /><b>প্ল্যাটফর্ম সংস্করণ %1</"
+"b></html>"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:56
 msgid ""
@@ -6856,10 +6757,9 @@ msgid "&Report Bugs or Wishes"
 msgstr "বাগ অথবা আকাঙ্ক্ষিত বৈশিষ্ট্য সংক্রান্ত তথ্য জানান (&R)"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:128
-#, fuzzy
 #| msgid "&Join the KDE Team"
 msgid "&Join KDE"
-msgstr "KDE দলে যোগদান করুন (&J)"
+msgstr "KDE-তে যোগদান করুন (&J)"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:129
 msgid "&Support KDE"
@@ -6914,8 +6814,7 @@ msgstr "বিকল্প ভাষা:"
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
-msgstr ""
-"এই অ্যাপ্লিকেশনের জন্য অন্যান্য কোনো ভাষা ব্যবহারের আগে চিহ্নিত ভাষা প্রয়োগ করা হবে।"
+msgstr "এই অ্যাপ্লিকেশনের জন্য অন্যান্য কোনো ভাষা ব্যবহারের আগে চিহ্নিত ভাষা প্রয়োগ করা হবে।"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:313
 msgid ""
@@ -7094,8 +6993,7 @@ msgstr "আপেক্ষিক"
 
 #: kdeui/fonts/kfontchooser.cpp:322
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
-msgstr ""
-"পরিবেশের সাথে সুসংগত <br /><i>সুনির্দিষ্ট</i> অথবা <i>আপেক্ষিক</i><br />ফন্টের মাপ"
+msgstr "পরিবেশের সাথে সুসংগত <br /><i>সুনির্দিষ্ট</i> অথবা <i>আপেক্ষিক</i><br />ফন্টের মাপ"
 
 #: kdeui/fonts/kfontchooser.cpp:324
 msgid ""
@@ -7208,7 +7106,7 @@ msgstr "অনুসন্ধানযোগ্য টেক্সট: (&T)"
 
 #: kdeui/findreplace/kfinddialog.cpp:96 khtml/ui/findbar/khtmlfindbar.cpp:56
 msgid "Regular e&xpression"
-msgstr ""
+msgstr "রেগুলার এক্সপ্রেশন (&x)"
 
 #: kdeui/findreplace/kfinddialog.cpp:97
 msgid "&Edit..."
@@ -7276,8 +7174,7 @@ msgid ""
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:214
-msgid ""
-"Enter a pattern to search for, or select a previous pattern from the list."
+msgid "Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
 
 #: kdeui/findreplace/kfinddialog.cpp:217
@@ -7518,10 +7415,9 @@ msgid "Continue from the beginning?"
 msgstr "প্রারম্ভিক স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
 
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
-#, fuzzy
 #| msgid "&Search"
 msgid "Search"
-msgstr "অনুসন্ধান (&S)"
+msgstr "অনুসন্ধান"
 
 #: kdeui/itemviews/ktreewidgetsearchline.cpp:424
 #: kde3support/kdeui/k3listviewsearchline.cpp:287
@@ -7947,7 +7843,7 @@ msgstr "সংরক্ষণ সংক্রান্ত বিকল্প"
 #: kdeui/shortcuts/kstandardshortcut.cpp:171
 msgctxt "@action"
 msgid "Key Bindings"
-msgstr ""
+msgstr "কি বাইন্ডিং"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:172
 msgctxt "@action"
@@ -8031,13 +7927,11 @@ msgid "Internally added if launched from Finder"
 msgstr ""
 
 #: kdeui/actions/krecentfilesaction.cpp:80
-#, fuzzy
 #| msgid "No entries"
 msgid "No Entries"
 msgstr "কোনো এনট্রি উপস্থিত নেই"
 
 #: kdeui/actions/krecentfilesaction.cpp:84
-#, fuzzy
 #| msgid "Clear list"
 msgid "Clear List"
 msgstr "তালিকার তথ্য মুছে ফেলা হবে"
@@ -8128,11 +8022,10 @@ msgid "&Finished"
 msgstr "সমাপ্ত (&F)"
 
 #: kdeui/sonnet/dialog.cpp:226
-#, fuzzy
 #| msgid "Spell check stopped."
 msgctxt "progress label"
 msgid "Spell checking in progress..."
-msgstr "বানান পরীক্ষণ বন্ধ করা হয়েছে।"
+msgstr "বানান পরীক্ষণ চলছে..."
 
 #: kdeui/sonnet/dialog.cpp:247
 msgid "Spell check stopped."
@@ -8159,8 +8052,7 @@ msgstr "টাইপ-করার-সময়-বানান-পরীক্ষ�
 #: kdeui/sonnet/highlighter.cpp:243
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
-msgstr ""
-"বানানে অত্যাধিক পরিমাণ ত্রুটি। টাইপ-করার-সময়-বানান-পরীক্ষণ নিষ্ক্রিয় করা হয়েছে।"
+msgstr "বানানে অত্যাধিক পরিমাণ ত্রুটি। টাইপ-করার-সময়-বানান-পরীক্ষণ নিষ্ক্রিয় করা হয়েছে।"
 
 #: kdeui/sonnet/highlighter.cpp:266
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
@@ -8180,10 +8072,9 @@ msgid "No text"
 msgstr "কোনো টেক্সট নেই"
 
 #: kdeui/xmlgui/ktoolbarhandler.cpp:97
-#, fuzzy
 #| msgid "Toolbars"
 msgid "Toolbars Shown"
-msgstr "টুল-বার"
+msgstr "প্রদর্শিত টুল-বার"
 
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
@@ -8191,13 +8082,12 @@ msgstr "নাম বিহীন"
 
 #: kdeui/widgets/kcmodule.cpp:171
 msgid "You will be asked to authenticate before saving"
-msgstr ""
+msgstr "সংরক্ষণের পূর্বে পরিচয় প্রমাণ করার অনুরোধ জানানো হবে"
 
 #: kdeui/widgets/kcmodule.cpp:175
-#, fuzzy
 #| msgid "Do you want to reload KDE configuration?"
 msgid "You are not allowed to save the configuration"
-msgstr "KDE কনফিগারেশন পুনরায় লোড করা হবে কি?"
+msgstr "কনফিগারেশন সংরক্ষণের জন্য আপনি অধিকারপ্রাপ্ত নন"
 
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
@@ -8366,12 +8256,11 @@ msgid "Middle Eastern Scripts"
 msgstr "মধ্যপ্রাচ্যের লিপী"
 
 #: kdeui/widgets/kcharselect-translation.cpp:26
-#, fuzzy
 #| msgctxt "KCharSelect section name"
 #| msgid "South East Asian Scripts"
 msgctxt "KCharSelect section name"
 msgid "South Asian Scripts"
-msgstr "দক্ষিণ-পূর্ব এশিয়ার লিপী"
+msgstr "দক্ষিণ এশিয়ার লিপী"
 
 #: kdeui/widgets/kcharselect-translation.cpp:27
 msgctxt "KCharSelect section name"
@@ -8510,11 +8399,10 @@ msgid "NKo"
 msgstr "নকো"
 
 #: kdeui/widgets/kcharselect-translation.cpp:54
-#, fuzzy
 #| msgid "Ramadan"
 msgctxt "KCharselect unicode block name"
 msgid "Samaritan"
-msgstr "রামাদান"
+msgstr "সামারিটান"
 
 #: kdeui/widgets/kcharselect-translation.cpp:55
 msgctxt "KCharselect unicode block name"
@@ -8657,12 +8545,11 @@ msgid "Mongolian"
 msgstr "মঙ্গোলিয়ান"
 
 #: kdeui/widgets/kcharselect-translation.cpp:83
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Unified Canadian Aboriginal Syllabics"
 msgctxt "KCharselect unicode block name"
 msgid "Unified Canadian Aboriginal Syllabics Extended"
-msgstr "ইউনিফাইল কানাডিয়ান অ্যাবোরিজিনাল শব্দাংশ"
+msgstr "ইউনিফাইল কানাডিয়ান অ্যাবোরিজিনাল শব্দাংশ এক্সটেন্ডেড"
 
 #: kdeui/widgets/kcharselect-translation.cpp:84
 msgctxt "KCharselect unicode block name"
@@ -8692,7 +8579,7 @@ msgstr "বুগিনিস"
 #: kdeui/widgets/kcharselect-translation.cpp:89
 msgctxt "KCharselect unicode block name"
 msgid "Tai Tham"
-msgstr ""
+msgstr "তাই থাম"
 
 #: kdeui/widgets/kcharselect-translation.cpp:90
 msgctxt "KCharselect unicode block name"
@@ -8700,29 +8587,27 @@ msgid "Balinese"
 msgstr "বালিনিস"
 
 #: kdeui/widgets/kcharselect-translation.cpp:91
-#, fuzzy
 #| msgid "Sunday"
 msgctxt "KCharselect unicode block name"
 msgid "Sundanese"
-msgstr "রবিবার"
+msgstr "সুদানিস"
 
 #: kdeui/widgets/kcharselect-translation.cpp:92
 msgctxt "KCharselect unicode block name"
 msgid "Lepcha"
-msgstr ""
+msgstr "লেপচা"
 
 #: kdeui/widgets/kcharselect-translation.cpp:93
 msgctxt "KCharselect unicode block name"
 msgid "Ol Chiki"
-msgstr ""
+msgstr "ঔ চিকি"
 
 #: kdeui/widgets/kcharselect-translation.cpp:94
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Phonetic Extensions"
 msgctxt "KCharselect unicode block name"
 msgid "Vedic Extensions"
-msgstr "ফোনেটিক (ধ্বন্যাত্মক) এক্সেটনশন"
+msgstr "ভেদিক এক্সেটনশন"
 
 #: kdeui/widgets/kcharselect-translation.cpp:95
 msgctxt "KCharselect unicode block name"
@@ -8770,7 +8655,6 @@ msgid "Combining Diacritical Marks for Symbols"
 msgstr "সংকেতের সাথে ব্যবহারযোগ্য সংযুক্তকারী ধ্বনি-নির্দেশক চিহ্ন"
 
 #: kdeui/widgets/kcharselect-translation.cpp:104
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Letter-Like Symbols"
 msgctxt "KCharselect unicode block name"
@@ -8903,12 +8787,11 @@ msgid "Ethiopic Extended"
 msgstr "ইথিওপিক এক্সটেন্ডেড"
 
 #: kdeui/widgets/kcharselect-translation.cpp:130
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Latin Extended-A"
 msgctxt "KCharselect unicode block name"
 msgid "Cyrillic Extended-A"
-msgstr "লাতিন এক্সটেনডেড-A"
+msgstr "সিরিলিক এক্সটেনডেড-A"
 
 #: kdeui/widgets/kcharselect-translation.cpp:131
 msgctxt "KCharselect unicode block name"
@@ -9011,35 +8894,31 @@ msgid "Yi Radicals"
 msgstr "ইয়ি রেডিক্যাল"
 
 #: kdeui/widgets/kcharselect-translation.cpp:151
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Limbu"
 msgctxt "KCharselect unicode block name"
 msgid "Lisu"
-msgstr "লিম্বু"
+msgstr "লিসু"
 
 #: kdeui/widgets/kcharselect-translation.cpp:152
-#, fuzzy
 #| msgctxt "of Farvardin short"
 #| msgid "of Far"
 msgctxt "KCharselect unicode block name"
 msgid "Vai"
-msgstr "ফার"
+msgstr "ওয়াই"
 
 #: kdeui/widgets/kcharselect-translation.cpp:153
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Latin Extended-B"
 msgctxt "KCharselect unicode block name"
 msgid "Cyrillic Extended-B"
-msgstr "লাতিন এক্সটেনডেড-B"
+msgstr "সিরিলিক এক্সটেনডেড-B"
 
 #: kdeui/widgets/kcharselect-translation.cpp:154
-#, fuzzy
 #| msgid "Tamuz"
 msgctxt "KCharselect unicode block name"
 msgid "Bamum"
-msgstr "তামুজ"
+msgstr "বামুম"
 
 #: kdeui/widgets/kcharselect-translation.cpp:155
 msgctxt "KCharselect unicode block name"
@@ -9057,12 +8936,11 @@ msgid "Syloti Nagri"
 msgstr "সিলোটি নাগরি"
 
 #: kdeui/widgets/kcharselect-translation.cpp:158
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Number Forms"
 msgctxt "KCharselect unicode block name"
 msgid "Common Indic Number Forms"
-msgstr "সংখ্যা রূপ"
+msgstr "সাধারণ ইন্ডিক সংখ্যার রূপ"
 
 #: kdeui/widgets/kcharselect-translation.cpp:159
 msgctxt "KCharselect unicode block name"
@@ -9072,69 +8950,63 @@ msgstr "ফাগস-পা"
 #: kdeui/widgets/kcharselect-translation.cpp:160
 msgctxt "KCharselect unicode block name"
 msgid "Saurashtra"
-msgstr ""
+msgstr "সৌরাষ্ট্র"
 
 #: kdeui/widgets/kcharselect-translation.cpp:161
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Devanagari"
 msgctxt "KCharselect unicode block name"
 msgid "Devanagari Extended"
-msgstr "দেবনাগরি"
+msgstr "দেবনাগরি এক্সটেন্ডেড"
 
 #: kdeui/widgets/kcharselect-translation.cpp:162
 msgctxt "KCharselect unicode block name"
 msgid "Kayah Li"
-msgstr ""
+msgstr "কায়াহ লি"
 
 #: kdeui/widgets/kcharselect-translation.cpp:163
 msgctxt "KCharselect unicode block name"
 msgid "Rejang"
-msgstr ""
+msgstr "রেজাং"
 
 #: kdeui/widgets/kcharselect-translation.cpp:164
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Latin Extended-A"
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Jamo Extended-A"
-msgstr "লাতিন এক্সটেনডেড-A"
+msgstr "হাংগুল জামো এক্সটেনডেড-A"
 
 #: kdeui/widgets/kcharselect-translation.cpp:165
-#, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Japanese"
 msgctxt "KCharselect unicode block name"
 msgid "Javanese"
-msgstr "জাপানি"
+msgstr "জাভানিস"
 
 #: kdeui/widgets/kcharselect-translation.cpp:166
-#, fuzzy
 #| msgid "Kha"
 msgctxt "KCharselect unicode block name"
 msgid "Cham"
-msgstr "খা"
+msgstr "চাম"
 
 #: kdeui/widgets/kcharselect-translation.cpp:167
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Latin Extended-A"
 msgctxt "KCharselect unicode block name"
 msgid "Myanmar Extended-A"
-msgstr "লাতিন এক্সটেনডেড-A"
+msgstr "মিয়ানমার এক্সটেনডেড-A"
 
 #: kdeui/widgets/kcharselect-translation.cpp:168
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Tai Le"
 msgctxt "KCharselect unicode block name"
 msgid "Tai Viet"
-msgstr "তাই লি"
+msgstr "তাই ভিয়েট"
 
 #: kdeui/widgets/kcharselect-translation.cpp:169
 msgctxt "KCharselect unicode block name"
 msgid "Meetei Mayek"
-msgstr ""
+msgstr "মেতেই মায়েক"
 
 #: kdeui/widgets/kcharselect-translation.cpp:170
 msgctxt "KCharselect unicode block name"
@@ -9142,12 +9014,11 @@ msgid "Hangul Syllables"
 msgstr "হাঙ্গুল ধ্বনি-নির্দেশক"
 
 #: kdeui/widgets/kcharselect-translation.cpp:171
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Latin Extended-B"
 msgctxt "KCharselect unicode block name"
 msgid "Hangul Jamo Extended-B"
-msgstr "লাতিন এক্সটেনডেড-B"
+msgstr "হাংগুল জামো এক্সটেনডেড-B"
 
 #: kdeui/widgets/kcharselect-translation.cpp:172
 msgctxt "KCharselect unicode block name"
@@ -9215,7 +9086,6 @@ msgid "Arabic Presentation Forms-B"
 msgstr "আরবি রূপে বিন্যাস-B"
 
 #: kdeui/widgets/kcharselect-translation.cpp:185
-#, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Half-Width and Full-Width Forms"
 msgctxt "KCharselect unicode block name"
@@ -9648,13 +9518,11 @@ msgctxt ""
 "%1 is the number of conflicts (hidden), %2 is the key sequence of the "
 "shortcut that is problematic"
 msgid "The shortcut '%2' conflicts with the following key combination:\n"
-msgid_plural ""
-"The shortcut '%2' conflicts with the following key combinations:\n"
+msgid_plural "The shortcut '%2' conflicts with the following key combinations:\n"
 msgstr[0] ""
 msgstr[1] ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:182
-#, fuzzy
 #| msgid "Conflict With Registered Global Shortcut"
 msgctxt "%1 is the number of shortcuts with which there is a conflict"
 msgid "Conflict with Registered Global Shortcut"
@@ -9663,7 +9531,6 @@ msgstr[0] "নিবন্ধিত সার্বজনীন শর্ট-ক
 msgstr[1] "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:254
-#, fuzzy
 #| msgid "Shortcut conflict"
 msgctxt "%1 is the number of conflicts"
 msgid "Shortcut Conflict"
@@ -9672,14 +9539,12 @@ msgstr[0] "শর্ট-কাট সংক্রান্ত দ্বন্দ
 msgstr[1] "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:258
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Could not find 'kdemain' in '%1'.\n"
 #| "%2"
 msgid "Shortcut '%1' for action '%2'\n"
-msgstr ""
-"'%1'-র মধ্যে 'kdemain' পাওয়া যায়নি।\n"
-"%2"
+msgstr "'%1' শর্ট-কাট, '%2' কর্মের জন্য নিবন্ধিত\n"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:263
 #, kde-format
@@ -9713,10 +9578,9 @@ msgid ""
 msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:520
-#, fuzzy
 #| msgid "New Web Shortcut"
 msgid "Reserved Shortcut"
-msgstr "নতুন ওয়েব শর্ট-কাট"
+msgstr "সংরক্ষিত শর্ট-কাট"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:521
 msgid ""
@@ -9744,7 +9608,7 @@ msgstr "ইনপুট"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:744
 msgid "The key you just pressed is not supported by Qt."
-msgstr ""
+msgstr "টেপা কি-টি Qt-র মধ্যে সমর্থিত হয় না।"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:745
 msgid "Unsupported Key"
@@ -9771,7 +9635,6 @@ msgid "Clear &History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&H)"
 
 #: kdeui/widgets/khistorycombobox.cpp:317
-#, fuzzy
 #| msgid "No further item in the history."
 msgid "No further items in the history."
 msgstr "পূর্ববর্তী তথ্যের তালিকায় কোনো আর তথ্য উপস্থিত নেই।"
@@ -9815,10 +9678,9 @@ msgid "About &KDE"
 msgstr "KDE পরিচিতি (&K)"
 
 #: kdeui/widgets/ktoolbar.cpp:268
-#, fuzzy
 #| msgid "Toolbar Menu"
 msgid "Toolbar Settings"
-msgstr "টুল-বার মেনু"
+msgstr "টুল-বার সংক্রান্ত বৈশিষ্ট্য"
 
 #: kdeui/widgets/ktoolbar.cpp:270
 msgid "Orientation"
@@ -9894,10 +9756,9 @@ msgid "Huge (%1x%2)"
 msgstr "বৃহৎ (%1x%2)"
 
 #: kdeui/widgets/ktoolbar.cpp:362
-#, fuzzy
 #| msgid "Lock Toolbars"
 msgid "Lock Toolbar Positions"
-msgstr "টুল-বার লক করা হবে"
+msgstr "টুল-বারের অবস্থান লক করা হবে"
 
 #: kdeui/widgets/ktoolbar.cpp:1220
 #, kde-format
@@ -10062,16 +9923,14 @@ msgid "Only run .html tests"
 msgstr "শুধুমাত্র .html পরীক্ষা করা হবে।"
 
 #: khtml/test_regression.cpp:632
-#, fuzzy
 #| msgid "Put output in <directory> instead of <base_dir>/output"
 msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr "<base_dir>/output-র পরিবর্তে <directory>-র মধ্যে ফলাফল সংরক্ষণ করা হয়"
+msgstr "&lt;base_dir&gt;/output-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ করা হয়"
 
 #: khtml/test_regression.cpp:634
-#, fuzzy
 #| msgid "Put output in <directory> instead of <base_dir>/output"
 msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr "<base_dir>/output-র পরিবর্তে <directory>-র মধ্যে ফলাফল সংরক্ষণ করা হয়"
+msgstr "&lt;base_dir&gt;/baseline-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ করা হয়"
 
 #: khtml/test_regression.cpp:635
 msgid ""
@@ -10093,7 +9952,7 @@ msgstr "TestRegression"
 
 #: khtml/test_regression.cpp:639
 msgid "Regression tester for khtml"
-msgstr ""
+msgstr "khtml-র জন্য রিগ্রেশন পরীক্ষণ ব্যবস্থা"
 
 #: khtml/khtml_global.cpp:207
 msgid "KHTML"
@@ -10259,8 +10118,7 @@ msgstr "URL উল্লেখ করুন:"
 
 #: khtml/khtml_ext.cpp:933
 #, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 "\"%1\" নামক একটি ফাইল বর্তমানে উপস্থিত রয়েছে। আপনি কি নিশ্চিতরূপে তা মুছে ফেলতে "
 "ইচ্ছুক?"
@@ -10420,11 +10278,11 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:444
 msgid "Find Text as You Type"
-msgstr ""
+msgstr "টাইপ করার সময় টেক্সট অনুসন্ধান করা হবে"
 
 #: khtml/khtml_part.cpp:449
 msgid "Find Links as You Type"
-msgstr ""
+msgstr "টাইপ করার সময় লিংক অনুসন্ধান করা হবে"
 
 #: khtml/khtml_part.cpp:470
 msgid ""
@@ -10542,7 +10400,7 @@ msgid "%1 (Link)"
 msgstr "%1 (লিঙ্ক)"
 
 #: khtml/khtml_part.cpp:3601
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%2 (%1 bytes)"
 msgid "%2 (%1 byte)"
 msgid_plural "%2 (%1 bytes)"
@@ -10682,8 +10540,7 @@ msgstr "নিরাপত্তা সংক্রান্ত সতর্ক�
 #: khtml/khtml_part.cpp:6694
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
-msgstr ""
-"<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
+msgstr "<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
 
 #: khtml/khtml_part.cpp:6695 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
@@ -10858,7 +10715,6 @@ msgid "Basic Page Style"
 msgstr "পৃষ্ঠার মূল বিন্যাস"
 
 #: khtml/ecma/kjs_binding.cpp:184
-#, fuzzy
 #| msgid ""
 #| "A script on this page is causing KHTML to freeze. If it continues to run, "
 #| "other applications may become less responsive.\n"
@@ -10870,17 +10726,16 @@ msgid ""
 msgstr ""
 "এই পেজ-র মধ্যে উপস্থিত একটি স্ক্রিপ্টের ফলে KHTML বন্ধ হয়ে যাচ্ছে। স্ক্রিপ্টটি চলমান "
 "থাকলে, অন্যান্য অ্যাপ্লিকেশনও প্রভাবিত হতে পারে।\n"
-"এই স্ক্রিপ্ট পরিত্যাগ করা হবে কি?"
+"এই স্ক্রিপ্ট বন্ধ করা হবে কি?"
 
 #: khtml/ecma/kjs_binding.cpp:184
 msgid "JavaScript"
 msgstr "JavaScript"
 
 #: khtml/ecma/kjs_binding.cpp:184
-#, fuzzy
 #| msgid "Open Script"
 msgid "&Stop Script"
-msgstr "স্ক্রিপ্ট খুলুন"
+msgstr "স্ক্রিপ্ট বন্ধ করুন (&S)"
 
 #: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2115
 msgid "Confirmation: JavaScript Popup"
@@ -11116,7 +10971,6 @@ msgid "Send Confirmation"
 msgstr "নিশ্চিতি বার্তা প্রেরণ করুন"
 
 #: khtml/html/html_formimpl.cpp:440
-#, fuzzy
 #| msgid "&Send Files"
 msgid "&Send File"
 msgid_plural "&Send Files"
@@ -11254,15 +11108,15 @@ msgstr "নতুন ওয়েব শর্ট-কাট"
 #: khtml/rendering/render_form.cpp:750
 #, kde-format
 msgid "%1 is already assigned to %2"
-msgstr ""
+msgstr "%1 বর্তমানে %2-র জন্য বরাদ্দ করা হয়েছে"
 
 #: khtml/rendering/render_form.cpp:795
 msgid "Search &provider name:"
-msgstr ""
+msgstr "উপলব্ধকারীর নাম অনুসন্ধান করুন: (&p)"
 
 #: khtml/rendering/render_form.cpp:797
 msgid "New search provider"
-msgstr ""
+msgstr "নতুন অনুসন্ধান উপলব্ধকারী"
 
 #: khtml/rendering/render_form.cpp:802
 msgid "UR&I shortcuts:"
@@ -11486,10 +11340,9 @@ msgid "Test the Kross framework!"
 msgstr "Kross ফ্রেমওয়ার্ক পরীক্ষা করুন!"
 
 #: kross/modules/form.cpp:303
-#, fuzzy
 #| msgid "Cancel"
 msgid "Cancel?"
-msgstr "বাতিল"
+msgstr "বাতিল করা হবে কি?"
 
 #: knotify/config/knotifyconfigwidget.cpp:107
 msgid "Configure Notifications"
@@ -11616,28 +11469,24 @@ msgid "Nepomuk Resource Class Generator"
 msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:53
-#, fuzzy
 #| msgid "(C) 2005-2007 Sebastian Sauer"
 msgid "(c) 2006-2009, Sebastian Trüg"
-msgstr "(C) ২০০৫-২০০৭ সেবাস্তিয়ান সওয়ার"
+msgstr "(C) ২০০৬-২০০৯ সেবাস্তিয়ান ট্রুগ"
 
 #: nepomuk/rcgen/rcgen.cpp:56
-#, fuzzy
 #| msgid "Sebastian Sauer"
 msgid "Sebastian Trüg"
-msgstr "সেবাস্তিয়ান সওয়ার"
+msgstr "সেবাস্তিয়ান ট্রুগ"
 
 #: nepomuk/rcgen/rcgen.cpp:56
-#, fuzzy
 #| msgid "MainWindow"
 msgid "Maintainer"
-msgstr "MainWindow"
+msgstr "মেইন্টেনার"
 
 #: nepomuk/rcgen/rcgen.cpp:57
-#, fuzzy
 #| msgid "Tobias Anton"
 msgid "Tobias Koenig"
-msgstr "টোবিয়াস অ্যান্টন"
+msgstr "টোবিয়াস কোয়েনিগ"
 
 #: nepomuk/rcgen/rcgen.cpp:57
 msgid "Major cleanup - Personal hero of maintainer"
@@ -11662,13 +11511,11 @@ msgid "List all includes (deprecated)."
 msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:68
-msgid ""
-"List all header files that will be generated via the --writeall command."
+msgid "List all header files that will be generated via the --writeall command."
 msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:69
-msgid ""
-"List all source files that will be generated via the --writeall command."
+msgid "List all source files that will be generated via the --writeall command."
 msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:70
@@ -11713,7 +11560,6 @@ msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
 
 #: nepomuk/query/queryparser.cpp:342
-#, fuzzy
 #| msgid "Esfand"
 msgctxt ""
 "Boolean AND keyword in desktop search strings. You can add several variants "
@@ -11721,10 +11567,9 @@ msgctxt ""
 "keywords are not case sensitive. Make sure there is no conflict with the OR "
 "keyword."
 msgid "and"
-msgstr "এস্ফান্দ"
+msgstr "and"
 
 #: nepomuk/query/queryparser.cpp:351
-#, fuzzy
 #| msgctxt "Mordad short"
 #| msgid "Mor"
 msgctxt ""
@@ -11733,7 +11578,7 @@ msgctxt ""
 "keywords are not case sensitive. Make sure there is no conflict with the AND "
 "keyword."
 msgid "or"
-msgstr "মোর"
+msgstr "or"
 
 #: kparts/browserextension.cpp:645
 #, kde-format
@@ -11749,74 +11594,70 @@ msgid "&Search"
 msgstr "অনুসন্ধান (&S)"
 
 #: kparts/browseropenorsavequestion.cpp:100
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Re: %1"
 msgctxt "@label Type of file"
 msgid "Type: %1"
-msgstr "পুনরাবৃত্তি: %1"
+msgstr "ধরন: %1"
 
 #: kparts/browseropenorsavequestion.cpp:107
-#, fuzzy
 #| msgid "Do not show this message again"
 msgctxt "@label:checkbox"
 msgid "Remember action for files of this type"
-msgstr "পুনরায় এই বার্তা প্রদর্শন করা হবে না"
+msgstr "এই প্রকৃতির ফাইলের জন্য সঞ্চালনযোগ্য কর্ম মনে রাখা হবে"
 
 #: kparts/browseropenorsavequestion.cpp:140
 #: kparts/browseropenorsavequestion.cpp:210
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Open with '%1'"
 msgctxt "@label:button"
 msgid "&Open with %1"
-msgstr "'%1' সহযোগে খুলুন (&O)"
+msgstr "%1 সহযোগে খুলুন (&O)"
 
 #: kparts/browseropenorsavequestion.cpp:186
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Open with '%1'"
 msgctxt "@action:inmenu"
 msgid "Open &with %1"
-msgstr "'%1' সহযোগে খুলুন (&O)"
+msgstr "%1 সহযোগে খুলুন (&w)"
 
 #: kparts/browseropenorsavequestion.cpp:197
 #: kparts/browseropenorsavequestion.cpp:274
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open '%1'"
 msgctxt "@info"
 msgid "Open '%1'?"
-msgstr "'%1' খুলুন"
+msgstr "'%1' খোলা হবে কি?"
 
 #: kparts/browseropenorsavequestion.cpp:206
-#, fuzzy
 #| msgid "&Open With..."
 msgctxt "@label:button"
 msgid "&Open with..."
 msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
 
 #: kparts/browseropenorsavequestion.cpp:214
-#, fuzzy
 #| msgid "&Open With..."
 msgctxt "@label:button"
 msgid "&Open with"
-msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
+msgstr "চিহ্নিত সামগ্রী সহ খুলুন (&O)"
 
 #: kparts/browseropenorsavequestion.cpp:271
-#, fuzzy
 #| msgid "&Open"
 msgctxt "@label:button"
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
 #: kparts/browseropenorsavequestion.cpp:292
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Name: "
 msgctxt "@label File name"
 msgid "Name: %1"
-msgstr "নাম: "
+msgstr "নাম: %1"
 
 #: kparts/browseropenorsavequestion.cpp:293
 msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
-msgstr ""
+msgstr "সার্ভার দ্বারা এই ফাইলের নাম প্রস্তাবিত হয়েছে"
 
 #: kparts/part.cpp:757
 msgid "Untitled"
@@ -11850,7 +11691,7 @@ msgid "The module %1 could not be found."
 msgstr "মডিউল %1 পাওয়া যায়নি।"
 
 #: kutils/kcmoduleloader.cpp:76
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
 #| "p></qt>"
@@ -11878,15 +11719,14 @@ msgid "The module %1 is not a valid configuration module."
 msgstr "%1 মডিউলটি বৈধ কনফিগারেশন মডিউল নয়।"
 
 #: kutils/kcmoduleloader.cpp:133
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
 #| "library.</qt>"
 msgid ""
 "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
 "qt>"
-msgstr ""
-"<qt>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 দ্বারা কোনো লাইব্রেরি নির্দেশিত হয়নি।</qt>"
+msgstr "<qt>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 দ্বারা কোনো লাইব্রেরি নির্দেশিত হয়নি।</qt>"
 
 #: kutils/kcmoduleloader.cpp:152
 msgid "There was an error loading the module."
@@ -12069,14 +11909,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:414
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgctxt ""
 "%1 is 'the slot asked for foo arguments', %2 is 'but there are only bar "
 "available'"
 msgid "%1, %2."
-msgstr "%1 %2"
+msgstr "%1, %2."
 
 #: kjsembed/kjsembed/qobject_binding.cpp:613
 #, kde-format
@@ -12221,7 +12061,7 @@ msgstr "library দ্বারা %1 নয় শুধুমাত্র ১-ট
 
 #: kjsembed/kjsembed/builtins.cpp:154
 msgid "Alert"
-msgstr ""
+msgstr "সর্তকবার্তা"
 
 #: kjsembed/kjsembed/builtins.cpp:165
 msgid "Confirm"
@@ -12603,8 +12443,7 @@ msgstr "ক্রমবর্ধমান বানানপরীক্ষণ"
 
 #: kde3support/kunittest/modrunner.cpp:41
 msgid "A command-line application that can be used to run KUnitTest modules."
-msgstr ""
-"KUnitTest মডিউল সঞ্চালনের উদ্দেশ্যে কমান্ড-লাইন থেকে ব্যবহারযোগ্য অ্যাপ্লিকেশন।"
+msgstr "KUnitTest মডিউল সঞ্চালনের উদ্দেশ্যে কমান্ড-লাইন থেকে ব্যবহারযোগ্য অ্যাপ্লিকেশন।"
 
 #: kde3support/kunittest/modrunner.cpp:46
 msgid "Only run modules whose filenames match the regexp."
@@ -12619,8 +12458,7 @@ msgstr ""
 "জন্য query বিকল্পটি প্রয়োগ করুন।"
 
 #: kde3support/kunittest/modrunner.cpp:48
-msgid ""
-"Disables debug capturing. You typically use this option when you use the GUI."
+msgid "Disables debug capturing. You typically use this option when you use the GUI."
 msgstr ""
 "ডিবাগ থেকে তথ্য প্রাপ্তি নিষ্ক্রিয় করা হয়। GUI ব্যবহারকালে এই বিকল্পটি সাধারণত "
 "ব্যবহার করা হয়।"
@@ -12673,7 +12511,7 @@ msgid "Named Colors"
 msgstr "নামাঙ্কিত রঙ"
 
 #: kdeui/colors/kcolordialog.cpp:709
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Unable to read X11 RGB color strings. The following file location(s) were "
 #| "examined:\n"
@@ -12690,8 +12528,10 @@ msgid_plural ""
 "%2"
 msgstr[0] ""
 "X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
+"%2"
 msgstr[1] ""
 "X11 RGB রঙ বর্ণনাকারী পংক্তি পড়া যায়নি। নিম্নলিখিত অবস্থানে পরীক্ষা করা হয়েছিল:\n"
+"%2"
 
 #: kdeui/colors/kcolordialog.cpp:991
 msgid "Select Color"
@@ -12946,1820 +12786,3 @@ msgstr "দিনের উপদেশ (&D)"
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
 
-#~ msgctxt "of January"
-#~ msgid "of Jan"
-#~ msgstr "জানুয়ারি"
-
-#~ msgctxt "of February"
-#~ msgid "of Feb"
-#~ msgstr "ফেব্রুয়ারি"
-
-#~ msgctxt "of March"
-#~ msgid "of Mar"
-#~ msgstr "মার্চ"
-
-#~ msgctxt "of April"
-#~ msgid "of Apr"
-#~ msgstr "এপ্রিল"
-
-#~ msgctxt "of May short"
-#~ msgid "of May"
-#~ msgstr "মে"
-
-#~ msgctxt "of June"
-#~ msgid "of Jun"
-#~ msgstr "জুন"
-
-#~ msgctxt "of July"
-#~ msgid "of Jul"
-#~ msgstr "জুলাই"
-
-#~ msgctxt "of August"
-#~ msgid "of Aug"
-#~ msgstr "আগস্ট"
-
-#~ msgctxt "of September"
-#~ msgid "of Sep"
-#~ msgstr "সেপ্টেম্বর"
-
-#~ msgctxt "of October"
-#~ msgid "of Oct"
-#~ msgstr "অক্টোবর"
-
-#~ msgctxt "of November"
-#~ msgid "of Nov"
-#~ msgstr "নভেম্বর"
-
-#~ msgctxt "of December"
-#~ msgid "of Dec"
-#~ msgstr "ডিসেম্বর"
-
-#~ msgid "of January"
-#~ msgstr "জানুয়ারি"
-
-#~ msgid "of February"
-#~ msgstr "ফেব্রুয়ারি"
-
-#~ msgid "of March"
-#~ msgstr "মার্চ"
-
-#~ msgid "of April"
-#~ msgstr "এপ্রিল"
-
-#~ msgctxt "of May long"
-#~ msgid "of May"
-#~ msgstr "মে"
-
-#~ msgid "of June"
-#~ msgstr "জুন"
-
-#~ msgid "of July"
-#~ msgstr "জুলাই"
-
-#~ msgid "of August"
-#~ msgstr "আগস্ট"
-
-#~ msgid "of September"
-#~ msgstr "সেপ্টেম্বর"
-
-#~ msgid "of October"
-#~ msgstr "অক্টোবর"
-
-#~ msgid "of November"
-#~ msgstr "নভেম্বর"
-
-#~ msgid "of December"
-#~ msgstr "ডিসেম্বর"
-
-#~ msgctxt "January"
-#~ msgid "Jan"
-#~ msgstr "জানুয়ারি"
-
-#~ msgctxt "February"
-#~ msgid "Feb"
-#~ msgstr "ফেব্রুয়ারি"
-
-#~ msgctxt "March"
-#~ msgid "Mar"
-#~ msgstr "মার্চ"
-
-#~ msgctxt "April"
-#~ msgid "Apr"
-#~ msgstr "এপ্রিল"
-
-#~ msgctxt "May short"
-#~ msgid "May"
-#~ msgstr "মে"
-
-#~ msgctxt "June"
-#~ msgid "Jun"
-#~ msgstr "জুন"
-
-#~ msgctxt "July"
-#~ msgid "Jul"
-#~ msgstr "জুলাই"
-
-#~ msgctxt "August"
-#~ msgid "Aug"
-#~ msgstr "আগস্ট"
-
-#~ msgctxt "September"
-#~ msgid "Sep"
-#~ msgstr "সেপ্টেম্বর"
-
-#~ msgctxt "October"
-#~ msgid "Oct"
-#~ msgstr "অক্টোবর"
-
-#~ msgctxt "November"
-#~ msgid "Nov"
-#~ msgstr "নভেম্বর"
-
-#~ msgctxt "December"
-#~ msgid "Dec"
-#~ msgstr "ডিসেম্বর"
-
-#~ msgid "January"
-#~ msgstr "জানুয়ারি"
-
-#~ msgid "February"
-#~ msgstr "ফেব্রুয়ারি"
-
-#~ msgctxt "March long"
-#~ msgid "March"
-#~ msgstr "মার্চ"
-
-#~ msgid "April"
-#~ msgstr "এপ্রিল"
-
-#~ msgctxt "May long"
-#~ msgid "May"
-#~ msgstr "মে"
-
-#~ msgid "June"
-#~ msgstr "জুন"
-
-#~ msgid "July"
-#~ msgstr "জুলাই"
-
-#~ msgctxt "August long"
-#~ msgid "August"
-#~ msgstr "আগস্ট"
-
-#~ msgid "September"
-#~ msgstr "সেপ্টেম্বর"
-
-#~ msgid "October"
-#~ msgstr "অক্টোবর"
-
-#~ msgid "November"
-#~ msgstr "নভেম্বর"
-
-#~ msgid "December"
-#~ msgstr "ডিসেম্বর"
-
-#~ msgctxt "Monday"
-#~ msgid "Mon"
-#~ msgstr "সোম"
-
-#~ msgctxt "Tuesday"
-#~ msgid "Tue"
-#~ msgstr "মঙ্গল"
-
-#~ msgctxt "Wednesday"
-#~ msgid "Wed"
-#~ msgstr "বুধ"
-
-#~ msgctxt "Thursday"
-#~ msgid "Thu"
-#~ msgstr "বৃহঃ"
-
-#~ msgctxt "Friday"
-#~ msgid "Fri"
-#~ msgstr "শুক্র"
-
-#~ msgctxt "Saturday"
-#~ msgid "Sat"
-#~ msgstr "শনি"
-
-#~ msgctxt "Sunday"
-#~ msgid "Sun"
-#~ msgstr "রবি"
-
-#~ msgid "Monday"
-#~ msgstr "সোমবার"
-
-#~ msgid "Tuesday"
-#~ msgstr "মঙ্গলবার"
-
-#~ msgid "Wednesday"
-#~ msgstr "বুধবার"
-
-#~ msgid "Thursday"
-#~ msgstr "বৃহস্পতিবার"
-
-#~ msgid "Friday"
-#~ msgstr "শুক্রবার"
-
-#~ msgid "Saturday"
-#~ msgstr "শনিবার"
-
-#~ msgid "Sunday"
-#~ msgstr "রবিবার"
-
-#, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
-#~ msgctxt "Indian National month 1 - ShortNamePossessive"
-#~ msgid "of Cha"
-#~ msgstr "শাহ"
-
-#, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
-#~ msgctxt "Indian National month 2 - ShortNamePossessive"
-#~ msgid "of Vai"
-#~ msgstr "ফার"
-
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
-#~ msgctxt "Indian National month 3 - ShortNamePossessive"
-#~ msgid "of Jya"
-#~ msgstr "জানুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
-#~ msgctxt "Indian National month 4 - ShortNamePossessive"
-#~ msgid "of Āsh"
-#~ msgstr "খো"
-
-#, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
-#~ msgctxt "Indian National month 5 - ShortNamePossessive"
-#~ msgid "of Shr"
-#~ msgstr "শাহ"
-
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
-#~ msgctxt "Indian National month 6 - ShortNamePossessive"
-#~ msgid "of Bhā"
-#~ msgstr "বাহ"
-
-#, fuzzy
-#~| msgctxt "of Esfand short"
-#~| msgid "of Esf"
-#~ msgctxt "Indian National month 7 - ShortNamePossessive"
-#~ msgid "of Āsw"
-#~ msgstr "এস্ফ"
-
-#, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
-#~ msgctxt "Indian National month 8 - ShortNamePossessive"
-#~ msgid "of Kār"
-#~ msgstr "ফার"
-
-#, fuzzy
-#~| msgctxt "of April"
-#~| msgid "of Apr"
-#~ msgctxt "Indian National month 9 - ShortNamePossessive"
-#~ msgid "of Agr"
-#~ msgstr "এপ্রিল"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Indian National month 10 - ShortNamePossessive"
-#~ msgid "of Pau"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
-#~ msgctxt "Indian National month 11 - ShortNamePossessive"
-#~ msgid "of Māg"
-#~ msgstr "মোর"
-
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
-#~ msgctxt "Indian National month 12 - ShortNamePossessive"
-#~ msgid "of Phā"
-#~ msgstr "খো"
-
-#, fuzzy
-#~| msgid "of Muharram"
-#~ msgctxt "Indian National month 1 - LongNamePossessive"
-#~ msgid "of Chaitra"
-#~ msgstr "মুহর্‌রম"
-
-#, fuzzy
-#~| msgid "of Nisan"
-#~ msgctxt "Indian National month 3 - LongNamePossessive"
-#~ msgid "of Jyaishtha"
-#~ msgstr "নিশান"
-
-#, fuzzy
-#~| msgid "of Shvat"
-#~ msgctxt "Indian National month 5 - LongNamePossessive"
-#~ msgid "of Shrāvana"
-#~ msgstr "শ্‌বাট"
-
-#, fuzzy
-#~| msgid "of Khordad"
-#~ msgctxt "Indian National month 6 - LongNamePossessive"
-#~ msgid "of Bhādrapad"
-#~ msgstr "খোর্দাদ"
-
-#, fuzzy
-#~| msgid "of Heshvan"
-#~ msgctxt "Indian National month 7 - LongNamePossessive"
-#~ msgid "of Āshwin"
-#~ msgstr "হেশবান"
-
-#, fuzzy
-#~| msgid "of Bahman"
-#~ msgctxt "Indian National month 9 - LongNamePossessive"
-#~ msgid "of Agrahayana"
-#~ msgstr "বাহমান"
-
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
-#~ msgctxt "Indian National month 10 - LongNamePossessive"
-#~ msgid "of Paush"
-#~ msgstr "বাহ"
-
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
-#~ msgctxt "Indian National month 11 - LongNamePossessive"
-#~ msgid "of Māgh"
-#~ msgstr "মেহ"
-
-#, fuzzy
-#~| msgid "Kha"
-#~ msgctxt "Indian National month 1 - ShortName"
-#~ msgid "Cha"
-#~ msgstr "খা"
-
-#, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
-#~ msgctxt "Indian National month 3 - ShortName"
-#~ msgid "Jya"
-#~ msgstr "জানুয়ারি"
-
-#, fuzzy
-#~| msgctxt "Shahrivar short"
-#~| msgid "Sha"
-#~ msgctxt "Indian National month 5 - ShortName"
-#~ msgid "Shr"
-#~ msgstr "শাহ"
-
-#, fuzzy
-#~| msgid "Arb"
-#~ msgctxt "Indian National month 9 - ShortName"
-#~ msgid "Agr"
-#~ msgstr "আর্ব"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Indian National month 10 - ShortName"
-#~ msgid "Pau"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Thaana"
-#~ msgctxt "Indian National month 9 - LongName"
-#~ msgid "Agrahayana"
-#~ msgstr "থানা"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Indian National month 10 - LongName"
-#~ msgid "Paush"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgctxt "Jumee short"
-#~| msgid "Jom"
-#~ msgctxt "Indian National weekday 1 - ShortDayName"
-#~ msgid "Som"
-#~ msgstr "জোন"
-
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Buhid"
-#~ msgctxt "Indian National weekday 3 - ShortDayName"
-#~ msgid "Bud"
-#~ msgstr "বুহিদ"
-
-#, fuzzy
-#~| msgctxt "Sunday"
-#~| msgid "Sun"
-#~ msgctxt "Indian National weekday 5 - ShortDayName"
-#~ msgid "Suk"
-#~ msgstr "রবি"
-
-#, fuzzy
-#~| msgid "Sivan"
-#~ msgctxt "Indian National weekday 6 - ShortDayName"
-#~ msgid "San"
-#~ msgstr "শিভান"
-
-#~ msgid "of Muharram"
-#~ msgstr "মুহর্‌রম"
-
-#~ msgid "of Safar"
-#~ msgstr "সফর"
-
-#~ msgid "of R. Awal"
-#~ msgstr "র অওয়াল"
-
-#~ msgid "of R. Thaani"
-#~ msgstr "র থানি"
-
-#~ msgid "of J. Awal"
-#~ msgstr "জ অওয়াল"
-
-#~ msgid "of J. Thaani"
-#~ msgstr "জ থানি"
-
-#~ msgid "of Rajab"
-#~ msgstr "রাজব"
-
-#~ msgid "of Sha`ban"
-#~ msgstr "শাহবান"
-
-#~ msgid "of Ramadan"
-#~ msgstr "রামাদান"
-
-#~ msgid "of Shawwal"
-#~ msgstr "শাহওয়াল"
-
-#~ msgid "of Qi`dah"
-#~ msgstr "খিদাহ"
-
-#~ msgid "of Hijjah"
-#~ msgstr "হিজ্জাহ"
-
-#~ msgid "of Rabi` al-Awal"
-#~ msgstr "রাবি অল অওয়াল"
-
-#~ msgid "of Rabi` al-Thaani"
-#~ msgstr "রাবি অল থানি"
-
-#~ msgid "of Jumaada al-Awal"
-#~ msgstr "জুমাদা অল অওয়াল"
-
-#~ msgid "of Jumaada al-Thaani"
-#~ msgstr "জুমাদা অল থানি"
-
-#~ msgid "of Thu al-Qi`dah"
-#~ msgstr "থু অল খিদাহ"
-
-#~ msgid "of Thu al-Hijjah"
-#~ msgstr "থু অল হিজ্জাহ"
-
-#~ msgid "Muharram"
-#~ msgstr "মুহর্‌রম"
-
-#~ msgid "Safar"
-#~ msgstr "সফর"
-
-#~ msgid "R. Awal"
-#~ msgstr "র অওয়াল"
-
-#~ msgid "R. Thaani"
-#~ msgstr "র থানি"
-
-#~ msgid "J. Awal"
-#~ msgstr "জ অওয়াল"
-
-#~ msgid "J. Thaani"
-#~ msgstr "জ থানি"
-
-#~ msgid "Rajab"
-#~ msgstr "রাজব"
-
-#~ msgid "Sha`ban"
-#~ msgstr "শাহবান"
-
-#~ msgid "Ramadan"
-#~ msgstr "রামাদান"
-
-#~ msgid "Shawwal"
-#~ msgstr "শাহওয়াল"
-
-#~ msgid "Qi`dah"
-#~ msgstr "খিদাহ"
-
-#~ msgid "Hijjah"
-#~ msgstr "হিজ্জাহ"
-
-#~ msgid "Rabi` al-Awal"
-#~ msgstr "রাবি অল অওয়াল"
-
-#~ msgid "Rabi` al-Thaani"
-#~ msgstr "রাবি অল থানি"
-
-#~ msgid "Jumaada al-Awal"
-#~ msgstr "জুমাদা অল অওয়াল"
-
-#~ msgid "Jumaada al-Thaani"
-#~ msgstr "জুমাদা অল থানি"
-
-#~ msgid "Thu al-Qi`dah"
-#~ msgstr "থু অল খিদাহ"
-
-#~ msgid "Thu al-Hijjah"
-#~ msgstr "থু অল হিজ্জাহ"
-
-#~ msgid "Ith"
-#~ msgstr "ইথ"
-
-#~ msgid "Thl"
-#~ msgstr "থল"
-
-#~ msgid "Arb"
-#~ msgstr "আর্ব"
-
-#~ msgid "Kha"
-#~ msgstr "খা"
-
-#~ msgid "Jum"
-#~ msgstr "জুম"
-
-#~ msgid "Sab"
-#~ msgstr "সব"
-
-#~ msgid "Ahd"
-#~ msgstr "আহদ"
-
-#~ msgid "Yaum al-Ithnain"
-#~ msgstr "ইয়াম আল ইথনেইন"
-
-#~ msgid "Yau al-Thulatha"
-#~ msgstr "ইয়াউ আল থুলাথা"
-
-#~ msgid "Yaum al-Arbi'a"
-#~ msgstr "ইয়াম আল আর্বিয়া"
-
-#~ msgid "Yaum al-Khamees"
-#~ msgstr "ইয়াম অল খামিস"
-
-#~ msgid "Yaum al-Jumma"
-#~ msgstr "ইয়াম অল জুম্মা"
-
-#~ msgid "Yaum al-Sabt"
-#~ msgstr "ইয়াম অল সাব্‌ট"
-
-#~ msgid "Yaum al-Ahad"
-#~ msgstr "ইয়াম অল আহাদ"
-
-#~ msgctxt "of Farvardin short"
-#~ msgid "of Far"
-#~ msgstr "ফার"
-
-#~ msgctxt "of Ordibehesht short"
-#~ msgid "of Ord"
-#~ msgstr "ওর্দ"
-
-#~ msgctxt "of Khordad short"
-#~ msgid "of Kho"
-#~ msgstr "খো"
-
-#~ msgctxt "of Tir short"
-#~ msgid "of Tir"
-#~ msgstr "টির"
-
-#~ msgctxt "of Mordad short"
-#~ msgid "of Mor"
-#~ msgstr "মোর"
-
-#~ msgctxt "of Shahrivar short"
-#~ msgid "of Sha"
-#~ msgstr "শাহ"
-
-#~ msgctxt "of Mehr short"
-#~ msgid "of Meh"
-#~ msgstr "মেহ"
-
-#~ msgctxt "of Aban short"
-#~ msgid "of Aba"
-#~ msgstr "আবা"
-
-#~ msgctxt "of Azar short"
-#~ msgid "of Aza"
-#~ msgstr "আজা"
-
-#~ msgctxt "of Dei short"
-#~ msgid "of Dei"
-#~ msgstr "ডেই"
-
-#~ msgctxt "of Bahman short"
-#~ msgid "of Bah"
-#~ msgstr "বাহ"
-
-#~ msgctxt "of Esfand short"
-#~ msgid "of Esf"
-#~ msgstr "এস্ফ"
-
-#~ msgctxt "Farvardin short"
-#~ msgid "Far"
-#~ msgstr "ফার"
-
-#~ msgctxt "Ordibehesht short"
-#~ msgid "Ord"
-#~ msgstr "ওর্দ"
-
-#~ msgctxt "Khordad short"
-#~ msgid "Kho"
-#~ msgstr "খো"
-
-#~ msgctxt "Tir short"
-#~ msgid "Tir"
-#~ msgstr "টির"
-
-#~ msgctxt "Mordad short"
-#~ msgid "Mor"
-#~ msgstr "মোর"
-
-#~ msgctxt "Shahrivar short"
-#~ msgid "Sha"
-#~ msgstr "শাহ"
-
-#~ msgctxt "Mehr short"
-#~ msgid "Meh"
-#~ msgstr "মেহ"
-
-#~ msgctxt "Aban short"
-#~ msgid "Aba"
-#~ msgstr "আবা"
-
-#~ msgctxt "Azar short"
-#~ msgid "Aza"
-#~ msgstr "আজা"
-
-#~ msgctxt "Dei short"
-#~ msgid "Dei"
-#~ msgstr "ডেই"
-
-#~ msgctxt "Bahman short"
-#~ msgid "Bah"
-#~ msgstr "বাহ"
-
-#~ msgctxt "Esfand"
-#~ msgid "Esf"
-#~ msgstr "এস্ফ"
-
-#~ msgid "of Farvardin"
-#~ msgstr "ফার্ভাদিয়ান"
-
-#~ msgid "of Ordibehesht"
-#~ msgstr "ওর্দিবেহেস্ট"
-
-#~ msgid "of Khordad"
-#~ msgstr "খোর্দাদ"
-
-#~ msgctxt "of Tir long"
-#~ msgid "of Tir"
-#~ msgstr "টির লং"
-
-#~ msgid "of Mordad"
-#~ msgstr "মোর্দাদ"
-
-#~ msgid "of Shahrivar"
-#~ msgstr "শাহরিহভার"
-
-#~ msgid "of Mehr"
-#~ msgstr "মেহর"
-
-#~ msgid "of Aban"
-#~ msgstr "আবান"
-
-#~ msgid "of Azar"
-#~ msgstr "আজার"
-
-#~ msgctxt "of Dei long"
-#~ msgid "of Dei"
-#~ msgstr "ডেই লং"
-
-#~ msgid "of Bahman"
-#~ msgstr "বাহমান"
-
-#~ msgid "of Esfand"
-#~ msgstr "এস্ফান্দ"
-
-#~ msgid "Farvardin"
-#~ msgstr "ফার্ভাদিয়ান"
-
-#~ msgid "Ordibehesht"
-#~ msgstr "ওর্দিবেহেস্ট"
-
-#~ msgid "Khordad"
-#~ msgstr "খোর্দাদ"
-
-#~ msgctxt "Tir long"
-#~ msgid "Tir"
-#~ msgstr "টির লং"
-
-#~ msgid "Mordad"
-#~ msgstr "মোর্দাদ"
-
-#~ msgid "Shahrivar"
-#~ msgstr "শাহরিহভার"
-
-#~ msgid "Mehr"
-#~ msgstr "মেহর"
-
-#~ msgid "Aban"
-#~ msgstr "আবান"
-
-#~ msgid "Azar"
-#~ msgstr "আজার"
-
-#~ msgctxt "Dei long"
-#~ msgid "Dei"
-#~ msgstr "ডেই লং"
-
-#~ msgid "Bahman"
-#~ msgstr "বাহমান"
-
-#~ msgid "Esfand"
-#~ msgstr "এস্ফান্দ"
-
-#~ msgctxt "Do shanbe short"
-#~ msgid "2sh"
-#~ msgstr "দো শাহ"
-
-#~ msgctxt "Se shanbe short"
-#~ msgid "3sh"
-#~ msgstr "সে শাহ"
-
-#~ msgctxt "Chahar shanbe short"
-#~ msgid "4sh"
-#~ msgstr "চাহার শাহ"
-
-#~ msgctxt "Panj shanbe short"
-#~ msgid "5sh"
-#~ msgstr "পঞ্জ শাহ"
-
-#~ msgctxt "Jumee short"
-#~ msgid "Jom"
-#~ msgstr "জোন"
-
-#~ msgctxt "Shanbe short"
-#~ msgid "shn"
-#~ msgstr "শনবে"
-
-#~ msgctxt "Yek-shanbe short"
-#~ msgid "1sh"
-#~ msgstr "ইয়েক শাহ"
-
-#~ msgid "Do shanbe"
-#~ msgstr "দো শাহনবে"
-
-#~ msgid "Se shanbe"
-#~ msgstr "সে শাহনবে"
-
-#~ msgid "Chahar shanbe"
-#~ msgstr "চাহার শাহনবে"
-
-#~ msgid "Panj shanbe"
-#~ msgstr "পঞ্জ শাহনবে"
-
-#~ msgid "Jumee"
-#~ msgstr "জুমি"
-
-#~ msgid "Shanbe"
-#~ msgstr "শাহনবে"
-
-#~ msgid "Yek-shanbe"
-#~ msgstr "ইয়েক-শাহনবে"
-
-#~ msgid "of Tishrey"
-#~ msgstr "টিশরে"
-
-#~ msgid "of Heshvan"
-#~ msgstr "হেশবান"
-
-#~ msgid "of Kislev"
-#~ msgstr "কিশলেভ"
-
-#~ msgid "of Tevet"
-#~ msgstr "টেভেট"
-
-#~ msgid "of Shvat"
-#~ msgstr "শ্‌বাট"
-
-#~ msgid "of Adar"
-#~ msgstr "আডার"
-
-#~ msgid "of Nisan"
-#~ msgstr "নিশান"
-
-#~ msgid "of Iyar"
-#~ msgstr "ইয়ার"
-
-#~ msgid "of Sivan"
-#~ msgstr "শিভান"
-
-#~ msgid "of Tamuz"
-#~ msgstr "তামুজ"
-
-#~ msgid "of Av"
-#~ msgstr "আভ"
-
-#~ msgid "of Elul"
-#~ msgstr "ইলুল"
-
-#~ msgid "of Adar I"
-#~ msgstr "আডার I"
-
-#~ msgid "of Adar II"
-#~ msgstr "আডার II"
-
-#~ msgid "Tishrey"
-#~ msgstr "টিশরে"
-
-#~ msgid "Heshvan"
-#~ msgstr "হেশবান"
-
-#~ msgid "Kislev"
-#~ msgstr "কিশলেভ"
-
-#~ msgid "Tevet"
-#~ msgstr "টেভেট"
-
-#~ msgid "Shvat"
-#~ msgstr "শ্‌বাট"
-
-#~ msgid "Adar"
-#~ msgstr "আডার"
-
-#~ msgid "Nisan"
-#~ msgstr "নিশান"
-
-#~ msgid "Iyar"
-#~ msgstr "ইয়ার"
-
-#~ msgid "Sivan"
-#~ msgstr "শিভান"
-
-#~ msgid "Tamuz"
-#~ msgstr "তামুজ"
-
-#~ msgid "Av"
-#~ msgstr "আভ"
-
-#~ msgid "Elul"
-#~ msgstr "ইলুল"
-
-#~ msgid "Adar I"
-#~ msgstr "আডার I"
-
-#~ msgid "Adar II"
-#~ msgstr "আডার II"
-
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Coptic"
-#~ msgctxt "@item Calendar system"
-#~ msgid "Coptic"
-#~ msgstr "কপটিক"
-
-#, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Ethiopic"
-#~ msgctxt "@item Calendar system"
-#~ msgid "Ethiopian"
-#~ msgstr "ইথিওপিক"
-
-#~ msgctxt "@item Calendar system"
-#~ msgid "Gregorian"
-#~ msgstr "গ্রেগোরিয়ান"
-
-#, fuzzy
-#~| msgctxt "@item Calendar system"
-#~| msgid "Gregorian"
-#~ msgctxt "@item Calendar system"
-#~ msgid "Gregorian (Proleptic)"
-#~ msgstr "গ্রেগোরিয়ান"
-
-#~ msgctxt "@item Calendar system"
-#~ msgid "Hebrew"
-#~ msgstr "হিব্রু"
-
-#~ msgctxt "@item Calendar system"
-#~ msgid "Hijri"
-#~ msgstr "হিজরি"
-
-#~ msgctxt "@item Calendar system"
-#~ msgid "Jalali"
-#~ msgstr "জালালি"
-
-#, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
-#~ msgctxt "@item Calendar system"
-#~ msgid "Julian"
-#~ msgstr "জানুয়ারি"
-
-#~ msgctxt "@item Calendar system"
-#~ msgid "Invalid Calendar Type"
-#~ msgstr "বর্ষপঞ্জির ধরন বৈধ নয়"
-
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
-#~ msgctxt "Coptic month 1 - ShortNamePossessive"
-#~ msgid "of Tho"
-#~ msgstr "খো"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Coptic month 2 - ShortNamePossessive"
-#~ msgid "of Pao"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgid "of Shvat"
-#~ msgctxt "Coptic month 3 - ShortNamePossessive"
-#~ msgid "of Hat"
-#~ msgstr "শ্‌বাট"
-
-#, fuzzy
-#~| msgid "of Nisan"
-#~ msgctxt "Coptic month 4 - ShortNamePossessive"
-#~ msgid "of Kia"
-#~ msgstr "নিশান"
-
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
-#~ msgctxt "Coptic month 5 - ShortNamePossessive"
-#~ msgid "of Tob"
-#~ msgstr "ফেব্রুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
-#~ msgctxt "Coptic month 6 - ShortNamePossessive"
-#~ msgid "of Mes"
-#~ msgstr "মেহ"
-
-#, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
-#~ msgctxt "Coptic month 7 - ShortNamePossessive"
-#~ msgid "of Par"
-#~ msgstr "মার্চ"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Coptic month 8 - ShortNamePossessive"
-#~ msgid "of Pam"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
-#~ msgctxt "Coptic month 9 - ShortNamePossessive"
-#~ msgid "of Pas"
-#~ msgstr "বাহ"
-
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
-#~ msgctxt "Coptic month 10 - ShortNamePossessive"
-#~ msgid "of Pan"
-#~ msgstr "জানুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
-#~ msgctxt "Coptic month 11 - ShortNamePossessive"
-#~ msgid "of Epe"
-#~ msgstr "ফেব্রুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
-#~ msgctxt "Coptic month 12 - ShortNamePossessive"
-#~ msgid "of Meo"
-#~ msgstr "মোর"
-
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
-#~ msgctxt "Coptic month 13 - ShortNamePossessive"
-#~ msgid "of Kou"
-#~ msgstr "খো"
-
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
-#~ msgctxt "Coptic month 1 - LongNamePossessive"
-#~ msgid "of Thoout"
-#~ msgstr "খো"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Coptic month 2 - LongNamePossessive"
-#~ msgid "of Paope"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgid "of Hijjah"
-#~ msgctxt "Coptic month 3 - LongNamePossessive"
-#~ msgid "of Hathor"
-#~ msgstr "হিজ্জাহ"
-
-#, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
-#~ msgctxt "Coptic month 4 - LongNamePossessive"
-#~ msgid "of Kiahk"
-#~ msgstr "খো"
-
-#, fuzzy
-#~| msgid "of October"
-#~ msgctxt "Coptic month 5 - LongNamePossessive"
-#~ msgid "of Tobe"
-#~ msgstr "অক্টোবর"
-
-#, fuzzy
-#~| msgid "of Mehr"
-#~ msgctxt "Coptic month 6 - LongNamePossessive"
-#~ msgid "of Meshir"
-#~ msgstr "মেহর"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Coptic month 8 - LongNamePossessive"
-#~ msgid "of Parmoute"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
-#~ msgctxt "Coptic month 9 - LongNamePossessive"
-#~ msgid "of Pashons"
-#~ msgstr "বাহ"
-
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
-#~ msgctxt "Coptic month 10 - LongNamePossessive"
-#~ msgid "of Paone"
-#~ msgstr "জানুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
-#~ msgctxt "Coptic month 11 - LongNamePossessive"
-#~ msgid "of Epep"
-#~ msgstr "সেপ্টেম্বর"
-
-#, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
-#~ msgctxt "Coptic month 12 - LongNamePossessive"
-#~ msgid "of Mesore"
-#~ msgstr "মোর"
-
-#, fuzzy
-#~| msgid "Thl"
-#~ msgctxt "Coptic month 1 - ShortName"
-#~ msgid "Tho"
-#~ msgstr "থল"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Coptic month 2 - ShortName"
-#~ msgid "Pao"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgctxt "Saturday"
-#~| msgid "Sat"
-#~ msgctxt "Coptic month 3 - ShortName"
-#~ msgid "Hat"
-#~ msgstr "শনি"
-
-#, fuzzy
-#~| msgid "Kha"
-#~ msgctxt "Coptic month 4 - ShortName"
-#~ msgid "Kia"
-#~ msgstr "খা"
-
-#, fuzzy
-#~| msgid "Job"
-#~ msgctxt "Coptic month 5 - ShortName"
-#~ msgid "Tob"
-#~ msgstr "কর্ম"
-
-#, fuzzy
-#~| msgid "Yes"
-#~ msgctxt "Coptic month 6 - ShortName"
-#~ msgid "Mes"
-#~ msgstr "হ্যাঁ"
-
-#, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
-#~ msgctxt "Coptic month 7 - ShortName"
-#~ msgid "Par"
-#~ msgstr "মার্চ"
-
-#, fuzzy
-#~| msgid "am"
-#~ msgctxt "Coptic month 8 - ShortName"
-#~ msgid "Pam"
-#~ msgstr "পূর্বাহ্ন"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgctxt "Coptic month 9 - ShortName"
-#~ msgid "Pas"
-#~ msgstr "পৃষ্ঠা"
-
-#, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
-#~ msgctxt "Coptic month 10 - ShortName"
-#~ msgid "Pan"
-#~ msgstr "জানুয়ারি"
-
-#, fuzzy
-#~| msgid "Escape"
-#~ msgctxt "Coptic month 11 - ShortName"
-#~ msgid "Epe"
-#~ msgstr "Escape"
-
-#, fuzzy
-#~| msgctxt "Monday"
-#~| msgid "Mon"
-#~ msgctxt "Coptic month 12 - ShortName"
-#~ msgid "Meo"
-#~ msgstr "সোম"
-
-#, fuzzy
-#~| msgctxt "Khordad short"
-#~| msgid "Kho"
-#~ msgctxt "Coptic month 13 - ShortName"
-#~ msgid "Kou"
-#~ msgstr "খো"
-
-#, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
-#~ msgctxt "Coptic month 1 - LongName"
-#~ msgid "Thoout"
-#~ msgstr "বৃহঃ"
-
-#, fuzzy
-#~| msgid "Property"
-#~ msgctxt "Coptic month 2 - LongName"
-#~ msgid "Paope"
-#~ msgstr "বৈশিষ্ট্য"
-
-#, fuzzy
-#~| msgid "Author"
-#~ msgctxt "Coptic month 3 - LongName"
-#~ msgid "Hathor"
-#~ msgstr "লেখক"
-
-#, fuzzy
-#~| msgid "Mehr"
-#~ msgctxt "Coptic month 6 - LongName"
-#~ msgid "Meshir"
-#~ msgstr "মেহর"
-
-#, fuzzy
-#~| msgid "Parameter"
-#~ msgctxt "Coptic month 7 - LongName"
-#~ msgid "Paremhotep"
-#~ msgstr "পরামিতি"
-
-#, fuzzy
-#~| msgid "Parameter"
-#~ msgctxt "Coptic month 8 - LongName"
-#~ msgid "Parmoute"
-#~ msgstr "পরামিতি"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Coptic month 9 - LongName"
-#~ msgid "Pashons"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgctxt "No border line"
-#~| msgid "None"
-#~ msgctxt "Coptic month 10 - LongName"
-#~ msgid "Paone"
-#~ msgstr "শূণ্য"
-
-#, fuzzy
-#~| msgid "Escape"
-#~ msgctxt "Coptic month 11 - LongName"
-#~ msgid "Epep"
-#~ msgstr "Escape"
-
-#, fuzzy
-#~| msgid "&Restore"
-#~ msgctxt "Coptic month 12 - LongName"
-#~ msgid "Mesore"
-#~ msgstr "পুনরুদ্ধার (&R)"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgctxt "Coptic weekday 1 - ShortDayName"
-#~ msgid "Pes"
-#~ msgstr "পৃষ্ঠা"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Coptic weekday 2 - ShortDayName"
-#~ msgid "Psh"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Coptic weekday 6 - ShortDayName"
-#~ msgid "Psa"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Coptic weekday 1 - LongDayName"
-#~ msgid "Pesnau"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "Coptic weekday 2 - LongDayName"
-#~ msgid "Pshoment"
-#~ msgstr "মন্তব্য"
-
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
-#~ msgctxt "Ethiopian month 1 - ShortNamePossessive"
-#~ msgid "of Mes"
-#~ msgstr "মেহ"
-
-#, fuzzy
-#~| msgid "of Tevet"
-#~ msgctxt "Ethiopian month 2 - ShortNamePossessive"
-#~ msgid "of Teq"
-#~ msgstr "টেভেট"
-
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
-#~ msgctxt "Ethiopian month 3 - ShortNamePossessive"
-#~ msgid "of Hed"
-#~ msgstr "ফেব্রুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
-#~ msgctxt "Ethiopian month 4 - ShortNamePossessive"
-#~ msgid "of Tah"
-#~ msgstr "বাহ"
-
-#, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
-#~ msgctxt "Ethiopian month 5 - ShortNamePossessive"
-#~ msgid "of Ter"
-#~ msgstr "টির"
-
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
-#~ msgctxt "Ethiopian month 6 - ShortNamePossessive"
-#~ msgid "of Yak"
-#~ msgstr "জানুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
-#~ msgctxt "Ethiopian month 7 - ShortNamePossessive"
-#~ msgid "of Mag"
-#~ msgstr "মার্চ"
-
-#, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
-#~ msgctxt "Ethiopian month 8 - ShortNamePossessive"
-#~ msgid "of Miy"
-#~ msgstr "মে"
-
-#, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
-#~ msgctxt "Ethiopian month 9 - ShortNamePossessive"
-#~ msgid "of Gen"
-#~ msgstr "জানুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
-#~ msgctxt "Ethiopian month 10 - ShortNamePossessive"
-#~ msgid "of Sen"
-#~ msgstr "সেপ্টেম্বর"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Ethiopian month 11 - ShortNamePossessive"
-#~ msgid "of Ham"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
-#~ msgctxt "Ethiopian month 12 - ShortNamePossessive"
-#~ msgid "of Neh"
-#~ msgstr "মেহ"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Ethiopian month 13 - ShortNamePossessive"
-#~ msgid "of Pag"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgid "of Mehr"
-#~ msgctxt "Ethiopian month 1 - LongNamePossessive"
-#~ msgid "of Meskerem"
-#~ msgstr "মেহর"
-
-#, fuzzy
-#~| msgid "of Tevet"
-#~ msgctxt "Ethiopian month 2 - LongNamePossessive"
-#~ msgid "of Tequemt"
-#~ msgstr "টেভেট"
-
-#, fuzzy
-#~| msgid "of Adar"
-#~ msgctxt "Ethiopian month 3 - LongNamePossessive"
-#~ msgid "of Hedar"
-#~ msgstr "আডার"
-
-#, fuzzy
-#~| msgid "of Bahman"
-#~ msgctxt "Ethiopian month 4 - LongNamePossessive"
-#~ msgid "of Tahsas"
-#~ msgstr "বাহমান"
-
-#, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
-#~ msgctxt "Ethiopian month 5 - LongNamePossessive"
-#~ msgid "of Ter"
-#~ msgstr "টির"
-
-#, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
-#~ msgctxt "Ethiopian month 6 - LongNamePossessive"
-#~ msgid "of Yakatit"
-#~ msgstr "ফার"
-
-#, fuzzy
-#~| msgid "of Rajab"
-#~ msgctxt "Ethiopian month 7 - LongNamePossessive"
-#~ msgid "of Magabit"
-#~ msgstr "রাজব"
-
-#, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
-#~ msgctxt "Ethiopian month 8 - LongNamePossessive"
-#~ msgid "of Miyazya"
-#~ msgstr "মে"
-
-#, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
-#~ msgctxt "Ethiopian month 9 - LongNamePossessive"
-#~ msgid "of Genbot"
-#~ msgstr "ফেব্রুয়ারি"
-
-#, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
-#~ msgctxt "Ethiopian month 10 - LongNamePossessive"
-#~ msgid "of Sene"
-#~ msgstr "সেপ্টেম্বর"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Ethiopian month 11 - LongNamePossessive"
-#~ msgid "of Hamle"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
-#~ msgctxt "Ethiopian month 12 - LongNamePossessive"
-#~ msgid "of Nehase"
-#~ msgstr "শাহ"
-
-#, fuzzy
-#~| msgid "of Tamuz"
-#~ msgctxt "Ethiopian month 13 - LongNamePossessive"
-#~ msgid "of Pagumen"
-#~ msgstr "তামুজ"
-
-#, fuzzy
-#~| msgid "Yes"
-#~ msgctxt "Ethiopian month 1 - ShortName"
-#~ msgid "Mes"
-#~ msgstr "হ্যাঁ"
-
-#, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
-#~ msgctxt "Ethiopian month 2 - ShortName"
-#~ msgid "Teq"
-#~ msgstr "মঙ্গল"
-
-#, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
-#~ msgctxt "Ethiopian month 3 - ShortName"
-#~ msgid "Hed"
-#~ msgstr "বুধ"
-
-#, fuzzy
-#~| msgid "Thl"
-#~ msgctxt "Ethiopian month 4 - ShortName"
-#~ msgid "Tah"
-#~ msgstr "থল"
-
-#, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
-#~ msgctxt "Ethiopian month 5 - ShortName"
-#~ msgid "Ter"
-#~ msgstr "মঙ্গল"
-
-#, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
-#~ msgctxt "Ethiopian month 7 - ShortName"
-#~ msgid "Mag"
-#~ msgstr "মার্চ"
-
-#, fuzzy
-#~| msgctxt "May short"
-#~| msgid "May"
-#~ msgctxt "Ethiopian month 8 - ShortName"
-#~ msgid "Miy"
-#~ msgstr "মে"
-
-#, fuzzy
-#~| msgid "Green:"
-#~ msgctxt "Ethiopian month 9 - ShortName"
-#~ msgid "Gen"
-#~ msgstr "সবুজ:"
-
-#, fuzzy
-#~| msgid "&Send"
-#~ msgctxt "Ethiopian month 10 - ShortName"
-#~ msgid "Sen"
-#~ msgstr "পাঠিয়ে দিন (&S)"
-
-#, fuzzy
-#~| msgid "am"
-#~ msgctxt "Ethiopian month 11 - ShortName"
-#~ msgid "Ham"
-#~ msgstr "পূর্বাহ্ন"
-
-#, fuzzy
-#~| msgctxt "Mehr short"
-#~| msgid "Meh"
-#~ msgctxt "Ethiopian month 12 - ShortName"
-#~ msgid "Neh"
-#~ msgstr "মেহ"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgctxt "Ethiopian month 13 - ShortName"
-#~ msgid "Pag"
-#~ msgstr "পৃষ্ঠা"
-
-#, fuzzy
-#~| msgid "Tevet"
-#~ msgctxt "Ethiopian month 2 - LongName"
-#~ msgid "Tequemt"
-#~ msgstr "টেভেট"
-
-#, fuzzy
-#~| msgid "Adar"
-#~ msgctxt "Ethiopian month 3 - LongName"
-#~ msgid "Hedar"
-#~ msgstr "আডার"
-
-#, fuzzy
-#~| msgid "Task"
-#~ msgctxt "Ethiopian month 4 - LongName"
-#~ msgid "Tahsas"
-#~ msgstr "কর্ম"
-
-#, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
-#~ msgctxt "Ethiopian month 5 - LongName"
-#~ msgid "Ter"
-#~ msgstr "মঙ্গল"
-
-#, fuzzy
-#~| msgid "&Send"
-#~ msgctxt "Ethiopian month 10 - LongName"
-#~ msgid "Sene"
-#~ msgstr "পাঠিয়ে দিন (&S)"
-
-#, fuzzy
-#~| msgid "Name"
-#~ msgctxt "Ethiopian month 11 - LongName"
-#~ msgid "Hamle"
-#~ msgstr "নাম"
-
-#, fuzzy
-#~| msgid "Name"
-#~ msgctxt "Ethiopian month 12 - LongName"
-#~ msgid "Nehase"
-#~ msgstr "নাম"
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgctxt "Ethiopian month 13 - LongName"
-#~ msgid "Pagumen"
-#~ msgstr "পৃষ্ঠা"
-
-#, fuzzy
-#~| msgctxt "September"
-#~| msgid "Sep"
-#~ msgctxt "Ethiopian weekday 1 - ShortDayName"
-#~ msgid "Seg"
-#~ msgstr "সেপ্টেম্বর"
-
-#, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
-#~ msgctxt "Ethiopian weekday 2 - ShortDayName"
-#~ msgid "Mak"
-#~ msgstr "মার্চ"
-
-#, fuzzy
-#~| msgid "Job"
-#~ msgctxt "Ethiopian weekday 3 - ShortDayName"
-#~ msgid "Rob"
-#~ msgstr "কর্ম"
-
-#, fuzzy
-#~| msgid "am"
-#~ msgctxt "Ethiopian weekday 4 - ShortDayName"
-#~ msgid "Ham"
-#~ msgstr "পূর্বাহ্ন"
-
-#, fuzzy
-#~| msgid "Arb"
-#~ msgctxt "Ethiopian weekday 5 - ShortDayName"
-#~ msgid "Arb"
-#~ msgstr "আর্ব"
-
-#, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
-#~ msgctxt "Ethiopian weekday 6 - ShortDayName"
-#~ msgid "Qed"
-#~ msgstr "বুধ"
-
-#, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
-#~ msgctxt "Ethiopian weekday 7 - ShortDayName"
-#~ msgid "Ehu"
-#~ msgstr "বৃহঃ"
-
-#, fuzzy
-#~| msgid "&Send"
-#~ msgctxt "Ethiopian weekday 1 - LongDayName"
-#~ msgid "Segno"
-#~ msgstr "পাঠিয়ে দিন (&S)"
-
-#, fuzzy
-#~| msgid "Job"
-#~ msgctxt "Ethiopian weekday 3 - LongDayName"
-#~ msgid "Rob"
-#~ msgstr "কর্ম"
-
-#, fuzzy
-#~| msgid "Pause"
-#~ msgctxt "Ethiopian weekday 4 - LongDayName"
-#~ msgid "Hamus"
-#~ msgstr "স্থগিত"
-
-#, fuzzy
-#~| msgid "Arb"
-#~ msgctxt "Ethiopian weekday 5 - LongDayName"
-#~ msgid "Arb"
-#~ msgstr "আর্ব"
-
-#, fuzzy
-#~| msgid "Name"
-#~ msgctxt "Ethiopian weekday 6 - LongDayName"
-#~ msgid "Qedame"
-#~ msgstr "নাম"
-
-#, fuzzy
-#~| msgid "Most Downloads"
-#~ msgctxt "Sorting order of the list of items in get hot new stuff"
-#~ msgid "Most Downloads"
-#~ msgstr "সর্বাধিকবার ডাউনলোড করা হয়েছে"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgctxt "Sorting order of the list of items in get hot new stuff"
-#~ msgid "Installed only"
-#~ msgstr "ইনস্টল করুন"
-
-#, fuzzy
-#~| msgid "Download New Stuff"
-#~ msgid "Download New Stuff"
-#~ msgstr "নতুন জিনিস ডাউনলোড করুন"
-
-#~ msgid "Download New %1"
-#~ msgstr "নতুন %1 ডাউনলোড করুন"
-
-#~ msgid ""
-#~ "The slot asked for %1 arguments but there are only %2 arguments available."
-#~ msgstr ""
-#~ "slot দ্বারা %1 আর্গুমেন্ট অনুরোধ করা হয়েছে কিন্তু শুধুমাত্র %2 আর্গুমেন্ট উপস্থিত রয়েছে।"
-
-#~ msgid ""
-#~ "<qt><p>This word was considered to be an \"unknown word\" because it does "
-#~ "not match any entry in the dictionary currently in use. It may also be a "
-#~ "word in a foreign language.</p>\n"
-#~ "<p>If the word is not misspelled, you may add it to the dictionary by "
-#~ "clicking <b>Add to Dictionary</b>. If you don't want to add the unknown "
-#~ "word to the dictionary, but you want to leave it unchanged, click "
-#~ "<b>Ignore</b> or <b>Ignore All</b>.</p>\n"
-#~ "<p>However, if the word is misspelled, you can try to find the correct "
-#~ "replacement in the list below. If you cannot find a replacement there, "
-#~ "you may type it in the text box below, and click <b>Replace</b> or "
-#~ "<b>Replace All</b>.</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt><p>বর্তমানে ব্যবহৃত অভিধানের মধ্যে এই শব্দটির জন্য কোনো তথ্য উপস্থিত না থাকার "
-#~ "ফলে এটিকে \"অজানা শব্দ\" রূপে ধার্য করা হয়েছে। এই শব্দটি কোনো ভিন্ন ভাষার "
-#~ "মধ্যেও উপস্থিত থাকতে পারে।</p>\n"
-#~ "<p>শব্দটির বানান ভুল না হলে, <b>অভিধানে যোগ করা হবে</b> ক্লিক করে শব্দটিকে "
-#~ "অভিধানের মধ্যে অন্তর্ভুক্ত করুন। অজানা শব্দটি অভিধানে অন্তর্ভুক্ত না করেও এটি "
-#~ "অপরিবর্তিত রাখতে হলে <b>অগ্রাহ্য করা হবে</b> অথবা <b>সমগ্র অগ্রাহ্য করা হবে</"
-#~ "b>।</p>\n"
-#~ "<p>শব্দটির বানান সঠিক না হলে, নীচের তালিকা থেকে সঠিক বানান নির্বাচন করতে "
-#~ "পারবেন। যথাযত বিকল্প অনুপস্থিত থাকলে, নীচে উপস্থিত টেক্সট বক্সের মধ্যে  প্রযোজ্য "
-#~ "শব্দটি লিখে <b>প্রতিস্থাপন</b> অথবা <b>সমস্ত প্রতিস্থাপন</b> ক্লিক করুন।</p>\n"
-#~ "</qt>"
-
-#~ msgid "Conflict With Registered Global Shortcut(s)"
-#~ msgstr "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
-
-#~ msgid "Shortcut Conflict(s)"
-#~ msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
-
-#~ msgid "tagcloudtest"
-#~ msgstr "tagcloudtest"
-
-#, fuzzy
-#~| msgid "Unlock Toolbars"
-#~ msgid "Unlock Toolbar Positions"
-#~ msgstr "টুল-বার আন-লক করুন"
-
-#~ msgctxt "KCharSelect section name"
-#~ msgid "Indic Scripts"
-#~ msgstr "ভারতীয় লিপী"
-
-#, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Save"
-#~ msgid "Save"
-#~ msgstr "সংরক্ষণ করুন"
-
-#, fuzzy
-#~| msgid "Action"
-#~ msgid "Long Action"
-#~ msgstr "কর্ম"
-
-#, fuzzy
-#~| msgid "Open"
-#~ msgctxt "The open file menu entry"
-#~ msgid "Open"
-#~ msgstr "খুলুন"
-
-#, fuzzy
-#~| msgid "Test"
-#~ msgid "KIdleTest"
-#~ msgstr "পরীক্ষা করুন"
-
-#, fuzzy
-#~| msgid "David Faure"
-#~ msgid "Dario Freddi"
-#~ msgstr "ডেভিড ফেওরে"
-
-#~ msgid "(c) 2009 Harald Fernengel"
-#~ msgstr "(c) ২০০৯ হ্যারাল্ড ফার্নেনগেল"
-
-#~ msgid ""
-#~ "Open '%2'?\n"
-#~ "Type: %1"
-#~ msgstr ""
-#~ "'%2' খোলা হবে কি?\n"
-#~ "ধরন: %1"
-
-#~ msgid ""
-#~ "Open '%3'?\n"
-#~ "Name: %2\n"
-#~ "Type: %1"
-#~ msgstr ""
-#~ "'%3' খোলা হবে কি?\n"
-#~ "নাম: %2\n"
-#~ "ধরন: %1"
-
-#~ msgid "Path for the trash can"
-#~ msgstr "আবর্জনার বাক্স নির্দেশকারী পাথ"
-
-#~ msgid "Path to the desktop directory"
-#~ msgstr "ডেস্কটপ ডিরেক্টরি নির্দেশকারী পাথ"
-
-#~ msgid "Directory where the files on the desktop are stored"
-#~ msgstr "চিহ্নিত ডিরেক্টরির মধ্যে ডেস্কটপের উপরে অবস্থিত ফাইলগুলি সংরক্ষিত হয়"
-
-#~ msgid "Path to documents folder"
-#~ msgstr "ডকুমেন্ট ফোল্ডার নির্দেশকারী পাথ"
-
-#~ msgid ""
-#~ "<b>Changes in this section require root access.</b><br />On applying your "
-#~ "changes you will have to supply your root password."
-#~ msgstr ""
-#~ "<b>এই বিভাগে পরিবর্তন করার জন্য root ব্যবহারকারীর অধিকার উপস্থিত থাকা আবশ্যক।</"
-#~ "b><br />পরিবর্তনগুলি প্রয়োগ করার জন্য root ব্যবহারকারীর পাসওয়ার্ড লেখার অনুরোধ "
-#~ "জানানো হবে।"
-
-#~ msgid ""
-#~ "This section requires special permissions, probably for system-wide "
-#~ "changes; therefore, it is required that you provide the root password to "
-#~ "be able to change the module's properties. If you cannot provide the "
-#~ "password, the changes of the module cannot be saved "
-#~ msgstr ""
-#~ "এই বিভাগের মাধ্যমে সিস্টেম ব্যাপী পরিবর্তন করা যাবে এবং এই কারণে বিশেষ অনুমতির "
-#~ "উপস্থিতি আবশ্যক। মডিউলের বৈশিষ্ট্যাবলী পরিবর্তন করার জন্য root পাসওয়ার্ড উল্লেখ "
-#~ "করা আবশ্যক। root পাসওয়ার্ড উল্লেখ না করা হলে, মডিউলের মধ্যে করা পরিবর্তনগুলি "
-#~ "সংরক্ষণ করা হবে না।"
-
-#~ msgid "&Abort"
-#~ msgstr "পরিত্যাগ করা হবে (&A)"
-
-#~ msgid "Abort?"
-#~ msgstr "পরিত্যাগ করা হবে কি?"
-
-#~ msgctxt ""
-#~ "Hot new stuff offers to Download New Data. Apps can fill in an individual "
-#~ "string here, but Data is the default. This is in an action that gets "
-#~ "displayed in the menu or toolbar for example."
-#~ msgid "Download New Data..."
-#~ msgstr "নতুন তথ্য ডাউনলোড করুন..."
-
-#~ msgid "0 B"
-#~ msgstr "0 B"
-
-#~ msgctxt ""
-#~ "Dear Translator! Translate this string to the string 'LTR' in left-to-"
-#~ "right languages (as English) or to 'RTL' in right-to-left languages (such "
-#~ "as Hebrew and Arabic) to get proper widget layout."
-#~ msgid "LTR"
-#~ msgstr "LTR"
-
-#~ msgctxt "number-format:integer"
-#~ msgid "us"
-#~ msgstr "us"
-
-#~ msgctxt "number-format:real"
-#~ msgid "us"
-#~ msgstr "us"
-
-#~ msgid "Do &Not Store"
-#~ msgstr "সংরক্ষণ করা হবে না (&N)"
