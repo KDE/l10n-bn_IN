@@ -96,20 +96,26 @@ msgstr "অনুমোদন প্রদান করা হবে"
 msgid ""
 "<b><big>Granting a negative authorization for the <i>%1</i> action requires "
 "more information</big></b>"
-msgstr "<b><big><i>%1</i> কর্মের জন্য নেতিবাচক অনুমোদন প্রদান করার উদ্দেশ্যে অধিক বিবরণ উল্লেখ করা আবশ্যক</big></b>"
+msgstr ""
+"<b><big><i>%1</i> কর্মের জন্য নেতিবাচক অনুমোদন প্রদান করার উদ্দেশ্যে অধিক বিবরণ "
+"উল্লেখ করা আবশ্যক</big></b>"
 
 #: PkKBlockGrantAuth.cpp:63
 #, kde-format
 msgid ""
 "<b><big>Granting an authorization for the <i>%1</i> action requires more "
 "information</big></b>"
-msgstr "<b><big><i>%1</i> কর্মের জন্য অনুমোদন প্রদান করার উদ্দেশ্যে অধিক বিবরণ উল্লেখ করা আবশ্যক</big></b>"
+msgstr ""
+"<b><big><i>%1</i> কর্মের জন্য অনুমোদন প্রদান করার উদ্দেশ্যে অধিক বিবরণ উল্লেখ করা "
+"আবশ্যক</big></b>"
 
 #: PkKBlockGrantAuth.cpp:67
 msgid ""
 "Select the user to block for the action and, optionally, any constraints on "
 "the negative authorization that you are about to grant."
-msgstr "এই কাজের জন্য যে ব্যবহারকারীকে প্রতিরোধ করা হবে ও প্রদান করার উদ্দেশ্যে চিহ্নিত নেতিবাচক অনুমোদনের জন্য অতিরিক্ত সীমারেখা ঐচ্ছিকরূপে নির্বাচন করুন।"
+msgstr ""
+"এই কাজের জন্য যে ব্যবহারকারীকে প্রতিরোধ করা হবে ও প্রদান করার উদ্দেশ্যে চিহ্নিত "
+"নেতিবাচক অনুমোদনের জন্য অতিরিক্ত সীমারেখা ঐচ্ছিকরূপে নির্বাচন করুন।"
 
 #. i18n: file: PkKBlockGrantAuth.ui:77
 #. i18n: ectx: property (text), widget (QLabel, instructionsL)
@@ -117,7 +123,9 @@ msgstr "এই কাজের জন্য যে ব্যবহারকা�
 msgid ""
 "Select the beneficiary and, optionally, how to constrain the authorization "
 "that you are about to grant."
-msgstr "সুবিধা অর্জনকারী ব্যবহারকারী ও প্রদান করার উদ্দেশ্যে চিহ্নিত অনুমোদনের জন্য অতিরিক্ত সীমারেখা ঐচ্ছিকরূপে নির্বাচন করুন।"
+msgstr ""
+"সুবিধা অর্জনকারী ব্যবহারকারী ও প্রদান করার উদ্দেশ্যে চিহ্নিত অনুমোদনের জন্য অতিরিক্ত "
+"সীমারেখা ঐচ্ছিকরূপে নির্বাচন করুন।"
 
 #: PkKBlockGrantAuth.cpp:73
 msgid "Select the user that will receive the negative authorization."
@@ -481,4 +489,3 @@ msgstr "%1 প্রোগ্রাম হওয়া আবশ্যক"
 #, kde-format
 msgid "Must be SELinux Context %1"
 msgstr "SELinux কনটেক্সট %1 হওয়া আবশ্যক"
-
