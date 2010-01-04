@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-11-21 06:19+0100\n"
-"PO-Revision-Date: 2008-07-10 17:04+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
-"Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
+"PO-Revision-Date: 2010-01-04 11:25+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +32,7 @@ msgstr ""
 
 #: kdm-conv.cpp:49
 msgid "<big><b><center>Attention<br/>Read help</center></b></big>"
-msgstr ""
+msgstr "<big><b><center>সতর্কতামূলক বার্তা<br/>সহায়িকা পড়ুন</center></b></big>"
 
 #: kdm-conv.cpp:59
 msgid "Enable Au&to-Login"
@@ -86,12 +87,11 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:101
-#, fuzzy
 #| msgctxt "@option:radio preselected user"
 #| msgid "Specif&y"
 msgctxt "@option:radio preselected user"
 msgid "Specifi&ed:"
-msgstr "নির্ধারণ করুন (&y)"
+msgstr "নির্ধরিত: (&e)"
 
 #: kdm-conv.cpp:103
 msgid ""
@@ -280,11 +280,11 @@ msgstr "শুধুমাত্র KDM দ্বারা ব্যবহার
 
 #: kdm-gen.cpp:92
 msgid "Color sche&me:"
-msgstr ""
+msgstr "রঙের বিন্যাস: (&m)"
 
 #: kdm-gen.cpp:94
 msgid "You can choose a basic Color Scheme here that will be used by KDM only."
-msgstr ""
+msgstr "শুধুমাত্র KDM-র সাথে ব্যবহারযোগ্য রঙের মৌলিক বিন্যাস এইখানে নির্বাচন করা যাবে।"
 
 #: kdm-gen.cpp:97
 msgctxt "@title:group"
@@ -319,8 +319,7 @@ msgstr "ব্যর্থতা: (&F)"
 
 #: kdm-gen.cpp:117
 msgid "This changes the font which is used for the login manager's greeting."
-msgstr ""
-"লগ-ইন পরিচালন ব্যবস্থার অভিবাদন বার্তার জন্য ব্যবহৃত ফন্ট এর ফলে পরিবর্তন করা হবে।"
+msgstr "লগ-ইন পরিচালন ব্যবস্থার অভিবাদন বার্তার জন্য ব্যবহৃত ফন্ট এর ফলে পরিবর্তন করা হবে।"
 
 #: kdm-gen.cpp:119
 msgctxt "font for ..."
@@ -420,7 +419,7 @@ msgstr "বুট পরিচালন ব্যবস্থা:"
 
 #: kdm-shut.cpp:104
 msgid "Enable boot options in the \"Shutdown...\" dialog."
-msgstr ""
+msgstr "\"বন্ধ করুন...\" শীর্ষক ডায়লগের মধ্যে বুট সংক্রান্ত বিকল্পগুলি সক্রিয় করুন।"
 
 #: kdm-theme.cpp:74
 msgctxt "@title:column"
@@ -442,7 +441,7 @@ msgstr ""
 
 #: kdm-theme.cpp:87
 msgid "This is a screen shot of what KDM will look like."
-msgstr ""
+msgstr "KDM-র সম্ভাব্য চেহারার একটি স্ক্রিন-শট।"
 
 #: kdm-theme.cpp:95
 msgid "This contains information about the selected theme."
@@ -529,8 +528,7 @@ msgid "Remove themes?"
 msgstr "থিম মুছে ফেলা হবে কি?"
 
 #: kdm-users.cpp:94
-msgid ""
-"User 'nobody' does not exist. Displaying user images will not work in KDM."
+msgid "User 'nobody' does not exist. Displaying user images will not work in KDM."
 msgstr ""
 "'nobody' নামক কোনো ব্যবহারকারী উপস্থিত নেই। KDM-র মধ্যে ব্যবহারকারীদের ছবি "
 "প্রদর্শন করা যাবে না।"
@@ -696,10 +694,8 @@ msgid "R&eset"
 msgstr "রি-সেট করুন (&e)"
 
 #: kdm-users.cpp:237
-msgid ""
-"Click this button to make KDM use the default image for the selected user."
-msgstr ""
-"নির্বাচিত ব্যবহারকারীর জন্য KDM-এ ডিফল্ট ছবি ব্যবহারের জন্য এই বাটন ক্লিক করুন।"
+msgid "Click this button to make KDM use the default image for the selected user."
+msgstr "নির্বাচিত ব্যবহারকারীর জন্য KDM-এ ডিফল্ট ছবি ব্যবহারের জন্য এই বাটন ক্লিক করুন।"
 
 #: kdm-users.cpp:340
 msgid "Save image as default?"
@@ -792,61 +788,54 @@ msgid ""
 msgstr ""
 
 #: main.cpp:196
-#, fuzzy
 #| msgctxt "... font"
 #| msgid "&General:"
 msgid "&General"
-msgstr "সাধারণ: (&G)"
+msgstr "সাধারণ (&G)"
 
 #: main.cpp:202
-#, fuzzy
 #| msgid "Dialog (&2)"
 msgid "&Dialog"
-msgstr "ডায়লগ (&2)"
+msgstr "ডায়লগ (&D)"
 
 #: main.cpp:207
 msgid "There is no login dialog window in themed mode."
 msgstr "থিম মোডে কোনো লগ-ইন ডায়লগ উইন্ডো উপস্থিত নেই।"
 
 #: main.cpp:213
-#, fuzzy
 #| msgid "Background (&3)"
 msgid "&Background"
-msgstr "পটভূমি (&3)"
+msgstr "পটভূমি (&B)"
 
 #: main.cpp:218
 msgid "The background cannot be configured separately in themed mode."
 msgstr "থিম মোড ব্যবহার করা হলে পটভূমি পৃথকভাবে কনফিগার করা সম্ভব নয়।"
 
 #: main.cpp:224
-#, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Theme"
 msgid "&Theme"
-msgstr "থিম"
+msgstr "থিম (&T)"
 
 #: main.cpp:226
 msgid "Themed mode is disabled. See \"General\" tab."
 msgstr "থিম মোড নিষ্ক্রিয় রয়েছে। \"সাধারণ\" শীর্ষক ট্যাব দেখুন।"
 
 #: main.cpp:235
-#, fuzzy
 #| msgid "Shutdown (&5)"
 msgid "&Shutdown"
-msgstr "বন্ধ করুন (&5)"
+msgstr "বন্ধ করুন (&S)"
 
 #: main.cpp:239
-#, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Users"
 msgid "&Users"
-msgstr "ব্যবহারকারী"
+msgstr "ব্যবহারকারী (&U)"
 
 #: main.cpp:249
-#, fuzzy
 #| msgid "Convenience (&7)"
 msgid "&Convenience"
-msgstr "সুবিধা (&7)"
+msgstr "সুবিধা (&C)"
 
 #: positioner.cpp:99
 msgid ""
@@ -865,14 +854,3 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#~ msgid "Us&er:"
-#~ msgstr "ব্যবহারকারী: (&e)"
-
-#~ msgid "General (&1)"
-#~ msgstr "সাধারণ (&1)"
-
-#~ msgid "Theme (&4)"
-#~ msgstr "থিম (&4)"
-
-#~ msgid "Users (&6)"
-#~ msgstr "ব্যবহারকারী (&6)"
