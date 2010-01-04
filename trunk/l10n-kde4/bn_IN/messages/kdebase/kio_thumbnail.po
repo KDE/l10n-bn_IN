@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_thumbnail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-09-05 06:29+0200\n"
-"PO-Revision-Date: 2008-07-06 01:10+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
-"Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
+"PO-Revision-Date: 2010-01-04 11:28+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,10 +41,9 @@ msgid "No or invalid size specified."
 msgstr "ফাইলে মাপ উল্লিখিত হয়নি অথবা মান বৈধ নয়।"
 
 #: thumbnail.cpp:251
-#, fuzzy
 #| msgid "Cannot create thumbnail for %1"
 msgid "Cannot create thumbnail for directory"
-msgstr "%1-র থাম্‌ব-নেইল নির্মাণ করতে ব্যর্থ"
+msgstr "ডিরেক্টরির জন্য থাম্‌ব-নেইল নির্মাণ করতে ব্যর্থ"
 
 #: thumbnail.cpp:263
 msgid "No plugin specified."
@@ -75,3 +75,4 @@ msgstr "শেয়ার করা মেমরির অংশ %1, সংযু�
 #: thumbnail.cpp:377
 msgid "Image is too big for the shared memory segment"
 msgstr "ছবিটির মাপ, শেয়ার করার মেমরির অংশে অন্তর্ভুক্ত করার জন্য অত্যন্ত বড়"
+
