@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-24 06:12+0100\n"
+"POT-Creation-Date: 2010-01-30 06:11+0100\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,51 +18,51 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: battery.cpp:264
+#: battery.cpp:265
 msgid "General"
 msgstr "সাধারণ"
 
-#: battery.cpp:420
+#: battery.cpp:421
 msgid "Screen Brightness"
 msgstr "পর্দার উজ্জ্বলতা"
 
-#: battery.cpp:444
+#: battery.cpp:445
 msgid "Power Profile"
 msgstr "বিদ্যুৎ ব্যবস্থা সংক্রান্ত প্রোফাইল"
 
-#: battery.cpp:477
+#: battery.cpp:478
 msgid "Sleep"
 msgstr "নিদ্রিত অবস্থা"
 
-#: battery.cpp:491
+#: battery.cpp:492
 msgid "Hibernate"
 msgstr "হাইবারনেট"
 
-#: battery.cpp:505
+#: battery.cpp:506
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "বিদ্যুৎ পরিচালনা"
 
-#: battery.cpp:527
+#: battery.cpp:528
 msgid "Power Management"
 msgstr "বিদ্যুৎ পরিচালনা"
 
-#: battery.cpp:581
+#: battery.cpp:582
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "Battery:"
 msgstr "<b>ব্যাটারি:</b> উপস্থিত নেই<br />"
 
-#: battery.cpp:584
+#: battery.cpp:585 battery.cpp:602
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>ব্যাটারি:</b> %1% (সম্পূর্ণ চার্জ করা হয়েছে)<br />"
 
-#: battery.cpp:586
+#: battery.cpp:587
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
@@ -70,61 +70,46 @@ msgctxt "Shown when a time estimate is not available"
 msgid "%1% (discharging)"
 msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
 
-#: battery.cpp:588
+#: battery.cpp:589 battery.cpp:606
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:591 battery.cpp:629
+#: battery.cpp:592 battery.cpp:628
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:599
+#: battery.cpp:600
 #, fuzzy, kde-format
-#| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#| msgctxt "Battery is not plugged in"
+#| msgid "<b>Battery:</b> not present<br />"
 msgctxt "Placeholder is the battery ID"
-msgid "<b>Battery %1:</b>"
-msgstr "<b>ব্যাটারি %1:</b> %2% (চার্জ করা হয়েছে)<br />"
+msgid "Battery %1:"
+msgstr "<b>ব্যাটারি:</b> উপস্থিত নেই<br />"
 
-#: battery.cpp:601
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-msgctxt "state of battery"
-msgid "%1% (charged)"
-msgstr "<b>ব্যাটারি:</b> %1% (সম্পূর্ণ চার্জ করা হয়েছে)<br />"
-
-#: battery.cpp:603
+#: battery.cpp:604
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgctxt "state of battery"
 msgid "%1% (discharging)"
 msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
 
-#: battery.cpp:605
-#, fuzzy, kde-format
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgctxt "state of battery"
-msgid "%1% (charging)"
-msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
-
-#: battery.cpp:609
+#: battery.cpp:610
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
 msgid "AC Adapter:"
 msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়েছে"
 
-#: battery.cpp:611
+#: battery.cpp:612
 msgid "Plugged in "
 msgstr ""
 
-#: battery.cpp:613
+#: battery.cpp:614
 msgid "Not plugged in"
 msgstr ""
 
-#: battery.cpp:628
+#: battery.cpp:627
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
@@ -148,6 +133,32 @@ msgstr ""
 #: rc.cpp:9 rc.cpp:18
 msgid "Show the state for &each battery present"
 msgstr "উপস্থিত সকল ব্যাটারির অবস্থা প্রদর্শন করা হবে (&e)"
+
+#, fuzzy
+#~| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#~ msgctxt "Placeholder is the battery ID"
+#~ msgid "<b>Battery %1:</b>"
+#~ msgstr "<b>ব্যাটারি %1:</b> %2% (চার্জ করা হয়েছে)<br />"
+
+#, fuzzy
+#~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charged)"
+#~ msgstr "<b>ব্যাটারি:</b> %1% (সম্পূর্ণ চার্জ করা হয়েছে)<br />"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (discharging)"
+#~ msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charging)"
+#~ msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
 
 #, fuzzy
 #~| msgid "More..."
