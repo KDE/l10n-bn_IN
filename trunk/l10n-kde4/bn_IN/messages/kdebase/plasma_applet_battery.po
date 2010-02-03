@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-30 06:11+0100\n"
+"POT-Creation-Date: 2010-02-03 06:29+0100\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -115,6 +115,12 @@ msgstr ""
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "<b>Battery:</b> "
 msgstr "<b>ব্যাটারি:</b> উপস্থিত নেই<br />"
+
+#: battery.cpp:916
+#, kde-format
+msgctxt "overlay on the battery, needs to be really tiny"
+msgid "%1%"
+msgstr ""
 
 #. i18n: file: batteryConfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
