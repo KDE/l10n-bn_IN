@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-06 08:20+0100\n"
+"POT-Creation-Date: 2010-02-05 02:26+0100\n"
 "PO-Revision-Date: 2009-01-08 20:32+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -171,18 +171,18 @@ msgstr "<b>আন-লক করতে ব্যর্থ</b>"
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr "<b>সতর্কবার্তা: Caps Lock সক্রিয় আছে</b>"
 
-#: lock/lockdlg.cc:423
+#: lock/lockdlg.cc:427
 #, kde-format
 msgid ""
 "Cannot unlock the session because the authentication system failed to work;\n"
 "you must kill kscreenlocker (pid %1) manually."
 msgstr ""
 
-#: lock/lockdlg.cc:513
+#: lock/lockdlg.cc:517
 msgid "&Start New Session"
 msgstr "নতুন সেশান আরম্ভ করুন (&S)"
 
-#: lock/lockdlg.cc:521
+#: lock/lockdlg.cc:525
 #, kde-format
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
@@ -196,26 +196,30 @@ msgid ""
 "between sessions."
 msgstr ""
 
-#: lock/lockdlg.cc:534
+#: lock/lockdlg.cc:538
 msgid "&Do not ask again"
 msgstr "পুনরায় জিজ্ঞাসা করা হবে না (&D)"
 
-#: lock/lockdlg.cc:590
+#: lock/lockdlg.cc:594
 msgid "Session"
 msgstr "সেশান"
 
-#: lock/lockdlg.cc:590
+#: lock/lockdlg.cc:594
 msgid "Location"
 msgstr "অবস্থান"
 
-#: lock/lockdlg.cc:618
+#: lock/lockdlg.cc:622
 msgctxt "session"
 msgid "&Activate"
 msgstr "সক্রিয় করুন (&A)"
 
-#: lock/lockdlg.cc:627
+#: lock/lockdlg.cc:631
 msgid "Start &New Session"
 msgstr "নতুন সেশান আরম্ভ করুন (&N)"
+
+#: ksystemactivitydialog.cpp:39
+msgid "System Activity"
+msgstr "সিস্টেমের কর্ম"
 
 #: krunnerdialog.cpp:67 krunnerapp.cpp:124
 msgid "Run Command"
@@ -381,10 +385,6 @@ msgid ""
 "       actually perform useful computations, so it is not desirable to "
 "suspend them."
 msgstr ""
-
-#: ksystemactivitydialog.h:28
-msgid "System Activity"
-msgstr "সিস্টেমের কর্ম"
 
 #: krunnerapp.cpp:129
 msgid "Run Command on clipboard contents"

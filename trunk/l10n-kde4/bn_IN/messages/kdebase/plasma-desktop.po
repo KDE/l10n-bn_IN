@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-04 06:31+0100\n"
+"POT-Creation-Date: 2010-02-05 02:26+0100\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -25,11 +25,11 @@ msgstr "ড্যাশ-বোর্ড আড়াল করা হবে"
 msgid "Widget Dashboard"
 msgstr "উইজেট ড্যাশ-বোর্ড"
 
-#: desktopcorona.cpp:81 desktopcorona.cpp:87
+#: desktopcorona.cpp:82 desktopcorona.cpp:88
 msgid "Add Panel"
 msgstr ""
 
-#: desktopcorona.cpp:184
+#: desktopcorona.cpp:197
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
@@ -41,72 +41,72 @@ msgstr "পরবর্তী কাজ"
 msgid "Previous Activity"
 msgstr "পূর্ববর্তী কাজ"
 
-#: interactiveconsole.cpp:59
+#: interactiveconsole.cpp:60
 msgid "&Execute"
 msgstr ""
 
-#: interactiveconsole.cpp:62
+#: interactiveconsole.cpp:63
 #, fuzzy
 #| msgid "Desktop Settings"
 msgid "Desktop Shell Scripting Console"
 msgstr "ডেস্কটপ সংক্রান্ত বৈশিষ্ট্য"
 
-#: interactiveconsole.cpp:69
+#: interactiveconsole.cpp:70
 #, fuzzy
 #| msgid "Monitor"
 msgid "Editor"
 msgstr "মনিটর"
 
-#: interactiveconsole.cpp:116
+#: interactiveconsole.cpp:117
 msgid "Output"
 msgstr ""
 
-#: interactiveconsole.cpp:166
+#: interactiveconsole.cpp:167
 #, kde-format
 msgid "Unable to load script file <b>%1</b>"
 msgstr ""
 
-#: interactiveconsole.cpp:199 interactiveconsole.cpp:263
+#: interactiveconsole.cpp:200 interactiveconsole.cpp:264
 msgid "Open Script File"
 msgstr ""
 
-#: interactiveconsole.cpp:333
+#: interactiveconsole.cpp:334
 #, kde-format
 msgid "Executing script at %1"
 msgstr ""
 
-#: interactiveconsole.cpp:353
+#: interactiveconsole.cpp:355
 #, no-c-format, kde-format
 msgid "Runtime: %1ms"
 msgstr ""
 
-#: main.cpp:39
+#: main.cpp:42
 msgid "The KDE desktop, panels and widgets workspace application."
 msgstr "KDE ডেস্কটপ, প্যানেল ও উইজেট কর্মক্ষেত্রের অ্যাপ্লিকেশন।"
 
-#: main.cpp:97
+#: main.cpp:102
 msgid "Plasma Workspace"
 msgstr "Plasma কর্মক্ষেত্র"
 
-#: main.cpp:99
+#: main.cpp:104
 #, fuzzy
 #| msgid "Copyright 2006-2007, The KDE Team"
 msgid "Copyright 2006-2009, The KDE Team"
 msgstr "স্বত্বাধিকার ২০০৬-২০০৭, KDE দল"
 
-#: main.cpp:100
+#: main.cpp:105
 msgid "Aaron J. Seigo"
 msgstr "অ্যারন জে.সেইগো"
 
-#: main.cpp:101
+#: main.cpp:106
 msgid "Author and maintainer"
 msgstr "নির্মাতা ও মেইন্টেনার"
 
-#: main.cpp:103
+#: main.cpp:108
 msgid "John Lions"
 msgstr "জন লায়ন্স"
 
-#: main.cpp:104
+#: main.cpp:109
 msgid "In memory of his contributions, 1937-1998."
 msgstr "তাঁর অবদানের স্মরণে, ১৯৩৭-১৯৯৮।"
 
@@ -186,27 +186,23 @@ msgstr "উপরে"
 msgid "Bottom"
 msgstr "নীচে"
 
-#: plasmaapp.cpp:228
+#: plasmaapp.cpp:227
 msgid "Show Dashboard"
 msgstr "ড্যাশ-বোর্ড প্রদর্শন"
 
-#: plasmaapp.cpp:664
+#: plasmaapp.cpp:661
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Add Activity"
 msgstr "পরবর্তী কাজ"
 
-#: plasmaapp.cpp:671
-msgid "Zoom Out"
-msgstr ""
-
-#: plasmaapp.cpp:1183
+#: plasmaapp.cpp:1027
 #, kde-format
 msgid ""
 "A new widget has become available on the network:<br><b>%1</b> - <i>%2</i>"
 msgstr ""
 
-#: plasmaapp.cpp:1185
+#: plasmaapp.cpp:1029
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Add to current activity"
@@ -247,28 +243,28 @@ msgid ""
 "Set to true if each virtual desktop should get its own, unique Plasma view."
 msgstr ""
 
-#: scripting/containment.cpp:175
+#: scripting/containment.cpp:115
 msgid "widgetById requires an id"
 msgstr ""
 
-#: scripting/containment.cpp:199
+#: scripting/containment.cpp:140
 msgid "widgetById requires a name of a widget or a widget object"
 msgstr ""
 
-#: scripting/scriptengine.cpp:84 scripting/scriptengine.cpp:234
+#: scripting/scriptengine.cpp:59 scripting/scriptengine.cpp:174
 msgid "activityById requires an id"
 msgstr ""
 
-#: scripting/scriptengine.cpp:101
+#: scripting/scriptengine.cpp:76
 msgid "activityForScreen requires a screen id"
 msgstr ""
 
-#: scripting/scriptengine.cpp:135
+#: scripting/scriptengine.cpp:111
 #, kde-format
 msgid "Could not find a plugin for %1 named %2."
 msgstr ""
 
-#: scripting/scriptengine.cpp:299
+#: scripting/scriptengine.cpp:239
 #, kde-format
 msgid ""
 "Error: %1 at line %2\n"
