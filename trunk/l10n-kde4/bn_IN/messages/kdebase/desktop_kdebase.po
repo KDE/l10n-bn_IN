@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-19 06:15+0000\n"
+"POT-Creation-Date: 2010-02-20 06:18+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -3243,7 +3243,7 @@ msgctxt "Name"
 msgid "Open Collaboration Services provider"
 msgstr ""
 
-#: runtime/attica/kcm/kcm_attica.desktop:25
+#: runtime/attica/kcm/kcm_attica.desktop:26
 msgctxt "Comment"
 msgid "Manage Open Collaboration Services providers"
 msgstr ""
@@ -3255,7 +3255,7 @@ msgid "Air"
 msgstr "বাতাস"
 
 #: runtime/desktoptheme/air/metadata.desktop:71
-#: workspace/plasma/netbook/desktoptheme/air-netbook/metadata.desktop:49
+#: workspace/plasma/netbook/desktoptheme/air-netbook/metadata.desktop:50
 msgctxt "Comment"
 msgid "A breath of fresh air"
 msgstr ""
@@ -10242,13 +10242,13 @@ msgctxt "Comment"
 msgid "Configure Input Actions settings"
 msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
-#: workspace/kinfocenter/devinfo/kcm_devinfo.desktop:10
+#: workspace/kinfocenter/devinfo/devinfo.desktop:10
 #: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
 msgctxt "Name"
 msgid "Device Information"
 msgstr "ডিভাইস সংক্রান্ত তথ্য"
 
-#: workspace/kinfocenter/devinfo/kcm_devinfo.desktop:29
+#: workspace/kinfocenter/devinfo/devinfo.desktop:29
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Device Information"
@@ -10305,16 +10305,6 @@ msgstr "SCSI"
 msgctxt "Comment"
 msgid "SCSI information"
 msgstr "SCSI সংক্রান্ত তথ্য"
-
-#: workspace/kinfocenter/info/sound.desktop:13
-msgctxt "Name"
-msgid "Sound"
-msgstr "আওয়াজ"
-
-#: workspace/kinfocenter/info/sound.desktop:103
-msgctxt "Comment"
-msgid "Sound information"
-msgstr "আওয়াজ সংক্রান্ত তথ্য"
 
 #: workspace/kinfocenter/info/xserver.desktop:13
 msgctxt "Name"
@@ -12098,7 +12088,7 @@ msgstr "প্যানেল"
 
 #: workspace/plasma/desktop/containments/panel/plasma-containment-panel.desktop:89
 #: workspace/plasma/netbook/containments/netpanel/plasma-containment-midpanel.desktop:64
-#: workspace/plasma/netbook/containments/netpanel/plasma-containment-netpanel.desktop:52
+#: workspace/plasma/netbook/containments/netpanel/plasma-containment-netpanel.desktop:53
 msgctxt "Comment"
 msgid "A containment for a panel"
 msgstr ""
@@ -12272,7 +12262,7 @@ msgctxt "Name"
 msgid "CPU Monitor"
 msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_cpu.desktop:17
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_cpu.desktop:18
 msgctxt "Comment"
 msgid "A CPU usage monitor"
 msgstr ""
@@ -12282,7 +12272,7 @@ msgctxt "Name"
 msgid "Hard Disk Status"
 msgstr ""
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hdd.desktop:17
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hdd.desktop:18
 msgctxt "Comment"
 msgid "A hard disk usage monitor"
 msgstr ""
@@ -12295,7 +12285,7 @@ msgctxt "Name"
 msgid "Hardware Info"
 msgstr "হার্ডওয়্যার"
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:17
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:18
 msgctxt "Comment"
 msgid "Show hardware info"
 msgstr ""
@@ -12321,7 +12311,7 @@ msgctxt "Name"
 msgid "Memory Status"
 msgstr "Samba-র অবস্থা"
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_ram.desktop:17
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_ram.desktop:18
 msgctxt "Comment"
 msgid "A RAM usage monitor"
 msgstr ""
@@ -12331,7 +12321,7 @@ msgctxt "Name"
 msgid "Hardware Temperature"
 msgstr ""
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_temperature.desktop:17
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_temperature.desktop:18
 msgctxt "Comment"
 msgid "A system temperature monitor"
 msgstr ""
@@ -12443,7 +12433,7 @@ msgctxt "Name"
 msgid "Switch Window"
 msgstr "নতুন উইন্ডো"
 
-#: workspace/plasma/generic/containmentactions/switchwindow/plasma-containmentactions-switchwindow.desktop:56
+#: workspace/plasma/generic/containmentactions/switchwindow/plasma-containmentactions-switchwindow.desktop:57
 msgctxt "Comment"
 msgid "Show a list of windows to switch to"
 msgstr ""
@@ -12458,7 +12448,7 @@ msgctxt "Name"
 msgid "Akonadi"
 msgstr ""
 
-#: workspace/plasma/generic/dataengines/akonadi/plasma-engine-akonadi.desktop:60
+#: workspace/plasma/generic/dataengines/akonadi/plasma-engine-akonadi.desktop:61
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Python data engine"
@@ -12484,7 +12474,7 @@ msgctxt "Name"
 msgid "Application Information"
 msgstr "অ্যাপ্লিকেশনের সূচনাবার্তা"
 
-#: workspace/plasma/generic/dataengines/apps/plasma-dataengine-apps.desktop:55
+#: workspace/plasma/generic/dataengines/apps/plasma-dataengine-apps.desktop:56
 msgctxt "Comment"
 msgid "Information and launching of all applications in the app menu."
 msgstr ""
@@ -12548,7 +12538,7 @@ msgctxt "Name"
 msgid "Geolocation"
 msgstr "অবস্থান"
 
-#: workspace/plasma/generic/dataengines/geolocation/plasma-dataengine-geolocation.desktop:60
+#: workspace/plasma/generic/dataengines/geolocation/plasma-dataengine-geolocation.desktop:61
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Python data engine"
@@ -12561,7 +12551,7 @@ msgctxt "Name"
 msgid "Geolocation GPS"
 msgstr ""
 
-#: workspace/plasma/generic/dataengines/geolocation/plasma-geolocation-gps.desktop:59
+#: workspace/plasma/generic/dataengines/geolocation/plasma-geolocation-gps.desktop:60
 msgctxt "Comment"
 msgid "Geolocation from GPS address."
 msgstr ""
@@ -12574,7 +12564,7 @@ msgctxt "Name"
 msgid "Geolocation IP"
 msgstr "অবস্থান"
 
-#: workspace/plasma/generic/dataengines/geolocation/plasma-geolocation-ip.desktop:59
+#: workspace/plasma/generic/dataengines/geolocation/plasma-geolocation-ip.desktop:60
 msgctxt "Comment"
 msgid "Geolocation from IP address."
 msgstr ""
@@ -12605,7 +12595,7 @@ msgctxt "Name"
 msgid "Keyboard and Mouse State"
 msgstr "কি-বোর্ড ও মাউস"
 
-#: workspace/plasma/generic/dataengines/keystate/plasma-dataengine-keystate.desktop:60
+#: workspace/plasma/generic/dataengines/keystate/plasma-dataengine-keystate.desktop:61
 msgctxt "Comment"
 msgid "Keyboard modifier and mouse buttons states"
 msgstr ""
@@ -12674,7 +12664,7 @@ msgctxt "Name|plasma data engine"
 msgid "Power Management"
 msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
 
-#: workspace/plasma/generic/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:62
+#: workspace/plasma/generic/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:63
 msgctxt "Comment"
 msgid "Battery, AC, sleep and PowerDevil information."
 msgstr ""
@@ -12760,7 +12750,7 @@ msgctxt "Name"
 msgid "wetter.com"
 msgstr ""
 
-#: workspace/plasma/generic/dataengines/weather/ions/wetter.com/ion-wettercom.desktop:50
+#: workspace/plasma/generic/dataengines/weather/ions/wetter.com/ion-wettercom.desktop:51
 msgctxt "Comment"
 msgid "Weather forecast by wetter.com"
 msgstr ""
@@ -12783,7 +12773,7 @@ msgctxt "Name|plasma runner"
 msgid "Bookmarks"
 msgstr "বুকমার্ক"
 
-#: workspace/plasma/generic/runners/bookmarks/plasma-runner-bookmarks.desktop:62
+#: workspace/plasma/generic/runners/bookmarks/plasma-runner-bookmarks.desktop:63
 msgctxt "Comment"
 msgid "Find and open bookmarks"
 msgstr "বুকমার্ক অনুসন্ধান করুন ও খুলুন"
@@ -12814,7 +12804,7 @@ msgctxt "Name"
 msgid "Terminate Applications"
 msgstr "টার্মিন্যাল অ্যাপ্লিকেশন"
 
-#: workspace/plasma/generic/runners/kill/plasma-runner-kill.desktop:54
+#: workspace/plasma/generic/runners/kill/plasma-runner-kill.desktop:55
 msgctxt "Comment"
 msgid "Stop applications that are currently running"
 msgstr ""
@@ -12893,7 +12883,7 @@ msgctxt "Name|plasma runner"
 msgid "Devices"
 msgstr "ডিভাইস"
 
-#: workspace/plasma/generic/runners/solid/plasma-runner-solid.desktop:51
+#: workspace/plasma/generic/runners/solid/plasma-runner-solid.desktop:52
 msgctxt "Comment"
 msgid "Manage removable devices"
 msgstr ""
@@ -12906,7 +12896,7 @@ msgctxt "Name|plasma runner"
 msgid "Web Shortcuts"
 msgstr "ওয়েব শর্ট-কাট"
 
-#: workspace/plasma/generic/runners/webshortcuts/plasma-runner-webshortcuts.desktop:62
+#: workspace/plasma/generic/runners/webshortcuts/plasma-runner-webshortcuts.desktop:63
 msgctxt "Comment"
 msgid "Allows user to use Konqueror's Web shortcuts"
 msgstr ""
@@ -12919,7 +12909,7 @@ msgctxt "Name|plasma runner"
 msgid "Windows"
 msgstr "উইন্ডো"
 
-#: workspace/plasma/generic/runners/windows/plasma-runner-windows.desktop:57
+#: workspace/plasma/generic/runners/windows/plasma-runner-windows.desktop:58
 msgctxt "Comment"
 msgid "List windows and desktops and switch them"
 msgstr ""
@@ -12972,7 +12962,7 @@ msgctxt "Name"
 msgid "Python Runner"
 msgstr "Python ডাটা ইঞ্জিন"
 
-#: workspace/plasma/generic/scriptengines/python/plasma-scriptengine-runner-python.desktop:41
+#: workspace/plasma/generic/scriptengines/python/plasma-scriptengine-runner-python.desktop:42
 msgctxt "Comment"
 msgid "Plasma Runner support for Python"
 msgstr ""
@@ -12982,7 +12972,7 @@ msgctxt "Name"
 msgid "Python wallpaper"
 msgstr ""
 
-#: workspace/plasma/generic/scriptengines/python/plasma-scriptengine-wallpaper-python.desktop:48
+#: workspace/plasma/generic/scriptengines/python/plasma-scriptengine-wallpaper-python.desktop:49
 msgctxt "Comment"
 msgid "Plasma wallpaper support for Python"
 msgstr ""
@@ -13083,7 +13073,7 @@ msgctxt "Name"
 msgid "Current Application Control"
 msgstr "অতিরিক্ত অ্যাপ্লিকেশন"
 
-#: workspace/plasma/netbook/applets/currentappcontrol/plasma-applet-currentappcontrol.desktop:51
+#: workspace/plasma/netbook/applets/currentappcontrol/plasma-applet-currentappcontrol.desktop:52
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Control for Jack"
@@ -13099,7 +13089,7 @@ msgctxt "Name"
 msgid "Search Box"
 msgstr "PHP অনুসন্ধান"
 
-#: workspace/plasma/netbook/applets/searchbox/plasma-applet-searchbox.desktop:53
+#: workspace/plasma/netbook/applets/searchbox/plasma-applet-searchbox.desktop:54
 msgctxt "Comment"
 msgid "Search Box for a given RunnerManager"
 msgstr ""
@@ -13122,7 +13112,7 @@ msgctxt "Name"
 msgid "Newspaper activity"
 msgstr "নেটওয়ার্ক ও সংযোগ"
 
-#: workspace/plasma/netbook/containments/newspaper/plasma-containment-newspaper.desktop:52
+#: workspace/plasma/netbook/containments/newspaper/plasma-containment-newspaper.desktop:53
 msgctxt "Comment"
 msgid "An activity that puts widgets on two columns"
 msgstr ""
@@ -13135,7 +13125,7 @@ msgctxt "Name"
 msgid "Search and Launch Containment"
 msgstr "সার্চ-ইঞ্জিন"
 
-#: workspace/plasma/netbook/containments/sal/plasma-containment-sal.desktop:49
+#: workspace/plasma/netbook/containments/sal/plasma-containment-sal.desktop:50
 msgctxt "Comment"
 msgid "Special Containment with Launcher"
 msgstr ""
@@ -13148,7 +13138,7 @@ msgctxt "Name"
 msgid "Plasma Search and Launch menu"
 msgstr "সার্চ-ইঞ্জিন"
 
-#: workspace/plasma/netbook/containments/sal/plasma-sal-menu.desktop:52
+#: workspace/plasma/netbook/containments/sal/plasma-sal-menu.desktop:53
 msgctxt "Comment"
 msgid "Menu entry for The Plasma search and launch activity"
 msgstr ""
@@ -13169,7 +13159,7 @@ msgctxt "Name"
 msgid "Contacts"
 msgstr "ফন্ট"
 
-#: workspace/plasma/netbook/containments/sal/services/plasma-sal-contacts.desktop:54
+#: workspace/plasma/netbook/containments/sal/services/plasma-sal-contacts.desktop:55
 msgctxt "Comment"
 msgid "List all your contacts"
 msgstr ""
@@ -13225,7 +13215,7 @@ msgctxt "Name"
 msgid "Search and Launch Engine"
 msgstr "সার্চ-ইঞ্জিন"
 
-#: workspace/plasma/netbook/dataengines/searchlaunch/plasma-engine-searchlaunch.desktop:53
+#: workspace/plasma/netbook/dataengines/searchlaunch/plasma-engine-searchlaunch.desktop:54
 msgctxt "Comment"
 msgid "Engine to handle queries to SAL containment"
 msgstr ""
@@ -13240,7 +13230,7 @@ msgctxt "Name"
 msgid "Plasma Netbook"
 msgstr ""
 
-#: workspace/plasma/netbook/shell/plasma-netbook.desktop:52
+#: workspace/plasma/netbook/shell/plasma-netbook.desktop:53
 msgctxt "Comment"
 msgid "Workspace shell for netbook devices."
 msgstr ""
@@ -13454,7 +13444,7 @@ msgctxt "Name"
 msgid "Lirc"
 msgstr "Licq"
 
-#: workspace/solid/lirc/solid_lirc.desktop:62
+#: workspace/solid/lirc/solid_lirc.desktop:63
 msgctxt "Comment"
 msgid "Linux Infrared Remote Control"
 msgstr ""
@@ -13537,7 +13527,7 @@ msgstr "Phluid"
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:196
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:313
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:252
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SmartCardReader.desktop:121
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SmartCardReader.desktop:122
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:192
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:321
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:447
@@ -14024,7 +14014,7 @@ msgctxt "Name"
 msgid "Classic Tree View"
 msgstr ""
 
-#: workspace/systemsettings/classic/settings-classic-view.desktop:70
+#: workspace/systemsettings/classic/settings-classic-view.desktop:71
 msgctxt "Comment"
 msgid "A Classic KDE 3 KControl style system settings view."
 msgstr ""
@@ -14053,7 +14043,7 @@ msgctxt "Name"
 msgid "Icon View"
 msgstr "ফন্ট প্রদর্শক"
 
-#: workspace/systemsettings/icons/settings-icon-view.desktop:77
+#: workspace/systemsettings/icons/settings-icon-view.desktop:78
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
@@ -14128,6 +14118,14 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Sound"
+#~ msgstr "আওয়াজ"
+
+#~ msgctxt "Comment"
+#~ msgid "Sound information"
+#~ msgstr "আওয়াজ সংক্রান্ত তথ্য"
 
 #~ msgctxt "Name"
 #~ msgid "Devices"
