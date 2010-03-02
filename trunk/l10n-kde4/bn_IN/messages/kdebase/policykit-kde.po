@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: policykit-kde\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-11 12:50+0200\n"
+"POT-Creation-Date: 2010-03-02 04:19+0100\n"
 "PO-Revision-Date: 2009-12-28 18:02+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -33,7 +33,7 @@ msgstr "%1-র পাসওয়ার্ড:"
 
 #. i18n: file: AuthDialog.ui:100
 #. i18n: ectx: property (text), widget (QLabel, lblPassword)
-#: AuthDialog.cpp:134 rc.cpp:30 rc.cpp:50
+#: AuthDialog.cpp:134 rc.cpp:30 rc.cpp:68
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
@@ -56,7 +56,7 @@ msgstr "এই সেশানের জন্য অনুমোদন মন�
 
 #. i18n: file: AuthDialog.ui:120
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemember)
-#: AuthDialog.cpp:167 rc.cpp:33 rc.cpp:53
+#: AuthDialog.cpp:167 rc.cpp:33 rc.cpp:71
 msgid "Remember authorization"
 msgstr "অনুমোদন মনে রাখা হবে"
 
@@ -133,12 +133,6 @@ msgstr "%1 সম্পাদনা করার জন্য ক্লিক �
 msgid "Click to open %1"
 msgstr "%1 খোলার জন্য ক্লিক করুন"
 
-#: policykitkde.cpp:111
-msgid "Another client is already authenticating, please try again later."
-msgstr ""
-"একটি পৃথক ক্লায়েন্ট দ্বারা বর্তমানে অনুমোদন করা হচ্ছে, অনুগ্রহ করে কিছুক্ষণ পরে পুনরায় "
-"প্রচেষ্টা করুন।"
-
 #: main.cpp:31 main.cpp:32
 msgid "PolicyKit-KDE"
 msgstr "PolicyKit-KDE"
@@ -191,6 +185,12 @@ msgstr "ডির্ক মুয়েলার"
 msgid "Original Author"
 msgstr "মূল লেখক"
 
+#: policykitkde.cpp:111
+msgid "Another client is already authenticating, please try again later."
+msgstr ""
+"একটি পৃথক ক্লায়েন্ট দ্বারা বর্তমানে অনুমোদন করা হচ্ছে, অনুগ্রহ করে কিছুক্ষণ পরে পুনরায় "
+"প্রচেষ্টা করুন।"
+
 #. i18n: file: authdetails.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: authdetails.ui:76
@@ -199,7 +199,7 @@ msgstr "মূল লেখক"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: authdetails.ui:76
 #. i18n: ectx: property (text), widget (QLabel, app_label)
-#: rc.cpp:3 rc.cpp:18 rc.cpp:59 rc.cpp:74
+#: rc.cpp:3 rc.cpp:18 rc.cpp:41 rc.cpp:56
 msgid "Application:"
 msgstr "অ্যাপ্লিকেশন:"
 
@@ -211,7 +211,7 @@ msgstr "অ্যাপ্লিকেশন:"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: authdetails.ui:56
 #. i18n: ectx: property (text), widget (KUrlLabel, action_label)
-#: rc.cpp:6 rc.cpp:15 rc.cpp:62 rc.cpp:71
+#: rc.cpp:6 rc.cpp:15 rc.cpp:44 rc.cpp:53
 msgid "Action:"
 msgstr "কর্ম:"
 
@@ -223,31 +223,31 @@ msgstr "কর্ম:"
 #. i18n: ectx: property (text), widget (QLabel, vendorL)
 #. i18n: file: authdetails.ui:43
 #. i18n: ectx: property (text), widget (KUrlLabel, vendorUL)
-#: rc.cpp:9 rc.cpp:12 rc.cpp:65 rc.cpp:68
+#: rc.cpp:9 rc.cpp:12 rc.cpp:47 rc.cpp:50
 msgid "Vendor:"
 msgstr "বিক্রেতা:"
 
 #. i18n: file: AuthDialog.ui:30
 #. i18n: ectx: property (text), widget (QLabel, lblPixmap)
-#: rc.cpp:21 rc.cpp:41
+#: rc.cpp:21 rc.cpp:59
 msgid "Lock Icon here"
 msgstr "এইখানে আইকন লক করা হবে"
 
 #. i18n: file: AuthDialog.ui:66
 #. i18n: ectx: property (text), widget (QLabel, lblHeader)
-#: rc.cpp:24 rc.cpp:44
+#: rc.cpp:24 rc.cpp:62
 msgid "<b>Header is here!</b>"
 msgstr "<b>হেডার এইখানে উপস্থিত রয়েছে!</b>"
 
 #. i18n: file: AuthDialog.ui:85
 #. i18n: ectx: property (text), widget (QLabel, lblContent)
-#: rc.cpp:27 rc.cpp:47
+#: rc.cpp:27 rc.cpp:65
 msgid "<i>Content</i>"
 msgstr "<i>বিষয়বস্তু</i>"
 
 #. i18n: file: AuthDialog.ui:130
 #. i18n: ectx: property (text), widget (QCheckBox, cbSessionOnly)
-#: rc.cpp:36 rc.cpp:56
+#: rc.cpp:36 rc.cpp:74
 msgid "For this session only"
 msgstr "শুধুমাত্র এই সেশানের জন্য"
 
