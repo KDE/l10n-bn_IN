@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-23 06:14+0100\n"
+"POT-Creation-Date: 2010-03-19 04:54+0100\n"
 "PO-Revision-Date: 2009-01-09 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Unknown error condition in stat: %1"
 msgstr "stat-র মধ্যে অজ্ঞাত ত্রুটির পরিস্থিতি: %1"
 
-#: kio_smb_mount.cpp:125 kio_smb_mount.cpp:166
+#: kio_smb_mount.cpp:109 kio_smb_mount.cpp:145
 msgid ""
 "\n"
 "Make sure that the samba package is installed properly on your system."
@@ -118,7 +118,7 @@ msgstr ""
 "অনুগ্রহ করে পরীক্ষা করুন, সিস্টেমের মধ্যে samba প্যাকেজ সঠিকরূপে ইনস্টল করা হয়েছে কি "
 "না।"
 
-#: kio_smb_mount.cpp:135
+#: kio_smb_mount.cpp:122
 #, kde-format
 msgid ""
 "Mounting of share \"%1\" from host \"%2\" by user \"%3\" failed.\n"
@@ -127,7 +127,7 @@ msgstr ""
 "\"%1\" শেয়ারটি, \"%2\" হোস্ট থেকে \"%3\" ব্যবহারকারী দ্বারা মাউন্ট করতে ব্যর্থ।\n"
 "%4"
 
-#: kio_smb_mount.cpp:176
+#: kio_smb_mount.cpp:158
 #, kde-format
 msgid ""
 "Unmounting of mountpoint \"%1\" failed.\n"
