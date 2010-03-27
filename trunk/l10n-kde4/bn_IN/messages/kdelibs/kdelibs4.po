@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-26 04:36+0100\n"
+"POT-Creation-Date: 2010-03-27 04:20+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -651,7 +651,8 @@ msgstr "আপলোড করুন"
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:235
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
-#: rc.cpp:288 rc.cpp:426 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:135
+#: rc.cpp:288 rc.cpp:426 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:128
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:229
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
 msgid "Update"
@@ -689,7 +690,7 @@ msgstr "বিবরণ:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:223
 #. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
-#: rc.cpp:303 knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:132
+#: rc.cpp:303 knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:135
 #, fuzzy
 #| msgid "Changelog"
 msgid "Changelog:"
@@ -950,8 +951,10 @@ msgstr "<a href=\"http://opendesktop.org\">হোম পেজ পরিদর�
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:225
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: rc.cpp:423 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:150
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:160
+#: rc.cpp:423 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:143
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:153
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:244
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:254
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:65
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:144
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:149
@@ -965,7 +968,8 @@ msgstr "ইনস্টল করুন"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:245
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
-#: rc.cpp:429 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:131
+#: rc.cpp:429 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:124
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:225
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:66
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:133
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
@@ -2997,8 +3001,8 @@ msgid "Download New Stuff..."
 msgstr "নতুন জিনিস ডাউনলোড করুন..."
 
 #: knewstuff/knewstuff3/downloaddialog.cpp:81
-#: knewstuff/knewstuff3/downloadwidget.cpp:203
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:67
+#: knewstuff/knewstuff3/downloadwidget.cpp:205
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:70
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
 msgid "Get Hot New Stuff"
@@ -3011,53 +3015,53 @@ msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
 msgstr "%1 অতিরিক্ত ইনস্টলার"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:117
+#: knewstuff/knewstuff3/downloadwidget.cpp:119
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
 msgid "Timeout. Check Internet connection."
 msgstr "সময়সীমা উত্তীর্ণ হয়েছে। অনুগ্রহ করে, ইন্টারনেট সংযোগ পরীক্ষা করুন।"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:175
+#: knewstuff/knewstuff3/downloadwidget.cpp:177
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
 #, kde-format
 msgid "Server: %1"
 msgstr "সার্ভার: %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:176
+#: knewstuff/knewstuff3/downloadwidget.cpp:178
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
 #, kde-format
 msgid "<br />Provider: %1"
 msgstr "<br />উপলব্ধকারী: %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:177
+#: knewstuff/knewstuff3/downloadwidget.cpp:179
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
 #, kde-format
 msgid "<br />Version: %1"
 msgstr "<br />সংস্করণ: %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:181
+#: knewstuff/knewstuff3/downloadwidget.cpp:183
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
 msgid "Provider information"
 msgstr "উপলব্ধকারীর তথ্য"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:192
+#: knewstuff/knewstuff3/downloadwidget.cpp:194
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
 #, kde-format
 msgid "Could not install %1"
 msgstr "%1 ইনস্টল করতে ব্যর্থ"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:193
+#: knewstuff/knewstuff3/downloadwidget.cpp:195
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
 msgid "Get Hot New Stuff!"
 msgstr ""
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:246
+#: knewstuff/knewstuff3/downloadwidget.cpp:259
 msgid "All Providers"
 msgstr "সকল উপলব্ধকারী"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:253
+#: knewstuff/knewstuff3/downloadwidget.cpp:266
 msgid "All Categories"
 msgstr "সকল শ্রেণী"
 
@@ -3124,7 +3128,7 @@ msgid "Could not load get hot new stuff providers from file: %1"
 msgstr ""
 
 #: knewstuff/knewstuff3/core/engine.cpp:209
-#: knewstuff/knewstuff3/core/engine.cpp:457
+#: knewstuff/knewstuff3/core/engine.cpp:460
 #, fuzzy
 #| msgid "Loading Applet"
 msgid "Loading data"
@@ -3139,13 +3143,13 @@ msgstr ""
 msgid "Loading of providers from file: %1 failed"
 msgstr "চিহ্নিত ফাইল: %1 থেকে উপলব্ধকারীদের তথ্য লোড করতে ব্যর্থ"
 
-#: knewstuff/knewstuff3/core/engine.cpp:419
+#: knewstuff/knewstuff3/core/engine.cpp:422
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
 #, kde-format
 msgid "Re: %1"
 msgstr "পুনরাবৃত্তি: %1"
 
-#: knewstuff/knewstuff3/core/engine.cpp:459
+#: knewstuff/knewstuff3/core/engine.cpp:462
 #, fuzzy, kde-format
 #| msgid "Loading Preview"
 msgid "Loading one preview"
@@ -3153,15 +3157,11 @@ msgid_plural "Loading %1 previews"
 msgstr[0] "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
 msgstr[1] "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
 
-#: knewstuff/knewstuff3/core/engine.cpp:461
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:140
+#: knewstuff/knewstuff3/core/engine.cpp:464
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:133
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:234
 msgid "Installing"
 msgstr "ইনস্টল করা হচ্ছে"
-
-#: knewstuff/knewstuff3/core/engine.cpp:463
-#: khtml/ecma/debugger/debugwindow.cpp:272
-msgid "Ready"
-msgstr "প্রস্তুত"
 
 #: knewstuff/knewstuff3/core/security.cpp:75
 #: knewstuff/knewstuff2/core/security.cpp:75
@@ -3214,7 +3214,7 @@ msgstr ""
 "<qt>ফাইল স্বাক্ষর করার জন্য <i>gpg</i> আরম্ভ করা যায়নি। অনুগ্রহ করে পরীক্ষা করুন "
 "<i>gpg</i> ইনস্টল করা হয়েছে কি না। অন্যথা, সামগ্রী স্বাক্ষর করা সম্ভব হবে না।</qt>"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:312
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:314
 #, kde-format
 msgctxt ""
 "the price of a download item, parameter 1 is the currency, 2 is the price"
@@ -3225,7 +3225,7 @@ msgstr ""
 "এই বস্তুগুলির দাম %1 %2।\n"
 "এইগুলি কিনতে ইচ্ছুক কি?"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:324
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:326
 #, kde-format
 msgid ""
 "Your account balance is too low:\n"
@@ -3233,75 +3233,82 @@ msgid ""
 "Price: %2"
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:367
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:369
 #, fuzzy
 #| msgid "No text was replaced."
 msgctxt "voting for an item (good/bad)"
 msgid "Your vote was recorded."
 msgstr "কোনো টেক্সট প্রতিস্থাপন করা হয়নি।"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:383
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:385
 msgid "You are now a fan."
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:394
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:396
 #, kde-format
 msgid "Network error. (%1)"
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:398
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:400
 msgid "Too many requests to server. Please try again in a few minutes."
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:400
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:402
 #, kde-format
 msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr ""
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:120
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:123
 #, kde-format
 msgid "Details for %1"
 msgstr "%1-র বিবরণ"
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:137
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:140
 msgctxt "A link to the description of this Get Hot New Stuff item"
 msgid "Visit homepage..."
 msgstr "হোম পেজ পরিদর্শন করুন"
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:158
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:162
 msgid "Loading preview..."
 msgstr "পূর্বদৃশ্যের উদ্দেশ্যে লোড করা হচ্ছে..."
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:145
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:138
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:239
 msgid "Updating"
 msgstr "আপডেট করা হচ্ছে"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:155
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:148
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:249
 #, fuzzy
 #| msgid "Install again"
 msgid "Install Again"
 msgstr "পুনরায় ইনস্টল করুন"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:182
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:175
 msgid "Details..."
 msgstr "বিবরণ..."
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:231
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:233
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:235
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:224
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:226
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:228
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:165
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:167
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:169
 #, kde-format
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "<i>%1</i> দ্বারা"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:249
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:242
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:191
 #, kde-format
 msgid "1 fan"
 msgid_plural "%1 fans"
 msgstr[0] ""
 msgstr[1] ""
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:252
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:245
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:194
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "1 download"
@@ -3309,12 +3316,14 @@ msgid_plural "%1 downloads"
 msgstr[0] "ডাউনলোড করা হবে"
 msgstr[1] "ডাউনলোড করা হবে"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:271
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:264
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:115
 #, kde-format
 msgid "Rating: %1%"
 msgstr "গুরুত্বের মান: %1%"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:322
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:315
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:311
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
 msgid "Loading Preview"
 msgstr "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
@@ -7061,6 +7070,10 @@ msgstr "ডিবাগ করুন (&D)"
 #: khtml/ecma/debugger/debugwindow.cpp:266
 msgid "Close source"
 msgstr "উৎস বন্ধ করুন"
+
+#: khtml/ecma/debugger/debugwindow.cpp:272
+msgid "Ready"
+msgstr "প্রস্তুত"
 
 #: khtml/ecma/debugger/debugwindow.cpp:621
 #, kde-format
