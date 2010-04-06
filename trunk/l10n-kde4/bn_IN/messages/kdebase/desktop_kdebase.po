@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-03 03:05+0000\n"
+"POT-Creation-Date: 2010-04-06 02:58+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -320,7 +320,7 @@ msgctxt "Name"
 msgid "Bookmark Editor"
 msgstr "বুকমার্ক টুল-বার"
 
-#: apps/keditbookmarks/keditbookmarks.desktop:26
+#: apps/keditbookmarks/keditbookmarks.desktop:27
 msgctxt "Comment"
 msgid "Bookmark Organizer and Editor"
 msgstr ""
@@ -392,7 +392,7 @@ msgctxt "Name"
 msgid "Konqueror Browser Preloader"
 msgstr "KDED Konqueror প্রি-লোডার মডিউল"
 
-#: apps/konqueror/preloader/konqy_preloader.desktop:23
+#: apps/konqueror/preloader/konqy_preloader.desktop:24
 msgctxt "Comment"
 msgid "Reduces Konqueror startup time"
 msgstr "Konqueror আরম্ভ করতে ব্যবহৃত সময় হ্রাস করে"
@@ -1573,18 +1573,18 @@ msgctxt "Comment"
 msgid "Global Keyboard Shortcuts"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:24
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:25
 msgctxt "Name"
 msgid "kglobalaccel"
 msgstr ""
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:87
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:88
 #: runtime/phonon/platform_kde/phonon.notifyrc:25
 msgctxt "Name"
 msgid "Application"
 msgstr "অ্যাপ্লিকেশন"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:164
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:165
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Manuals"
@@ -1592,7 +1592,7 @@ msgctxt "Comment"
 msgid "The application name"
 msgstr "অ্যাপ্লিকেশনের সহায়িকা"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:225
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:226
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -1600,12 +1600,12 @@ msgctxt "Name"
 msgid "Global Shortcut Registration"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:283
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:284
 msgctxt "Comment"
 msgid "An application registered new global shortcuts."
 msgstr ""
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:344
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:345
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -1613,7 +1613,7 @@ msgctxt "Name"
 msgid "Global Shortcut Triggered"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:398
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:399
 msgctxt "Comment"
 msgid "The user triggered a global shortcut"
 msgstr ""
@@ -1821,7 +1821,7 @@ msgctxt "Name"
 msgid "Directory Watcher"
 msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
 
-#: runtime/kioslave/desktop/desktopnotifier.desktop:31
+#: runtime/kioslave/desktop/desktopnotifier.desktop:32
 msgctxt "Comment"
 msgid "Monitors directories for changes"
 msgstr ""
@@ -1942,8 +1942,8 @@ msgstr "HTML ফাইল"
 
 #: runtime/kioslave/thumbnail/imagethumbnail.desktop:3
 msgctxt "Name"
-msgid "Images"
-msgstr "ছবি"
+msgid "Images (GIF, PNG, BMP, ...)"
+msgstr ""
 
 #: runtime/kioslave/thumbnail/jpegthumbnail.desktop:3
 #, fuzzy
@@ -10125,7 +10125,7 @@ msgctxt "Comment"
 msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr ""
 
-#: workspace/libs/kephal/kded_kephal/kephal.desktop:10
+#: workspace/libs/kephal/service/kephal.desktop:10
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -10133,7 +10133,7 @@ msgctxt "Name"
 msgid "Display Management"
 msgstr "ফাইল পরিচালনা"
 
-#: workspace/libs/kephal/kded_kephal/kephal.desktop:30
+#: workspace/libs/kephal/service/kephal.desktop:30
 msgctxt "Comment"
 msgid "Manages displays and video outputs"
 msgstr ""
@@ -12148,7 +12148,7 @@ msgctxt "Name"
 msgid "Status Notifier Manager"
 msgstr "KDE Notification ডেমন"
 
-#: workspace/statusnotifierwatcher/statusnotifierwatcher.desktop:21
+#: workspace/statusnotifierwatcher/statusnotifierwatcher.desktop:22
 msgctxt "Comment"
 msgid "Manages services that provide status notifier user interfaces"
 msgstr ""
@@ -12340,6 +12340,10 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Images"
+#~ msgstr "ছবি"
 
 #, fuzzy
 #~| msgctxt "Name"
