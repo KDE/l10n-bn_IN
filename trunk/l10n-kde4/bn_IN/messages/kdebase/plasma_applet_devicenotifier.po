@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-27 04:22+0100\n"
+"POT-Creation-Date: 2010-04-12 04:29+0200\n"
 "PO-Revision-Date: 2008-07-04 12:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -47,27 +47,27 @@ msgstr ""
 msgid "Unmounting..."
 msgstr ""
 
-#: devicenotifier.cpp:202
+#: devicenotifier.cpp:203
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
 msgstr[0] "চিহ্নিত ডিভাইসের জন্য ১-টি কর্ম"
 msgstr[1] "চিহ্নিত ডিভাইসের জন্য %1-টি কর্ম"
 
-#: devicenotifier.cpp:271
+#: devicenotifier.cpp:272
 msgid "No devices available."
 msgstr ""
 
-#: devicenotifier.cpp:275
+#: devicenotifier.cpp:276
 #, kde-format
 msgid "Most recent device: %1"
 msgstr ""
 
-#: devicenotifier.cpp:377
+#: devicenotifier.cpp:378
 msgid "Display"
 msgstr ""
 
-#: devicenotifier.cpp:380
+#: devicenotifier.cpp:381
 msgid "Automounting"
 msgstr ""
 
@@ -75,19 +75,19 @@ msgstr ""
 msgid "Show hidden devices"
 msgstr ""
 
-#: notifierdialog.cpp:519
-#, fuzzy
+#: notifierdialog.cpp:574
+#, fuzzy, kde-format
 #| msgid ""
 #| "Cannot unmount the device.\n"
 #| "One or more files on this device are open within an application."
 msgid ""
-"Could not unmount the device.\n"
+"Could not unmount device %1.\n"
 "One or more files on this device are open within an application."
 msgstr ""
 "ডিভাইস আন-মাউন্ট করা যায়নি।\n"
 "কোনো অ্যাপ্লিকেশনের মধ্যে এই ডিভাইসের এক অথবা একাধিক ফাইল খোলা রয়েছে।"
 
-#: notifierdialog.cpp:538
+#: notifierdialog.cpp:593
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -95,21 +95,22 @@ msgstr ""
 "ডিস্ক বের করা যায়নি।\n"
 "কোনো অ্যাপ্লিকেশনের মধ্যে এই ডিস্কের এক অথবা একাধিক ফাইল খোলা রয়েছে।"
 
-#: notifierdialog.cpp:553
-msgid "Cannot mount the disc."
+#: notifierdialog.cpp:613
+#, kde-format
+msgid "Could not mount device %1."
 msgstr ""
 
-#: notifierdialog.cpp:762
+#: notifierdialog.cpp:822
 #, kde-format
 msgctxt "Hide a device"
 msgid "Hide %1"
 msgstr ""
 
-#: notifierdialog.cpp:826
+#: notifierdialog.cpp:886
 msgid "Available Devices"
 msgstr ""
 
-#: notifierdialog.cpp:828
+#: notifierdialog.cpp:888
 msgid "No Devices Available"
 msgstr ""
 
