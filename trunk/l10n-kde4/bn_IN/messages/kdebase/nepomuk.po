@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-11 05:10+0200\n"
+"POT-Creation-Date: 2010-04-14 04:49+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -284,7 +284,7 @@ msgstr "Nepomuk Server - Nepomuk সংরক্ষণস্থল ও পরি
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
 
-#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:88 servicestub/main.cpp:75
+#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:89 servicestub/main.cpp:75
 msgid "Sebastian Trüg"
 msgstr "সেবাস্টিয়ান ট্রুগ"
 
@@ -292,24 +292,24 @@ msgstr "সেবাস্টিয়ান ট্রুগ"
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: kcm/nepomukserverkcm.cpp:85
+#: kcm/nepomukserverkcm.cpp:86
 msgid "Nepomuk Configuration Module"
 msgstr "Nepomuk কনফিগারেশন মডিউল"
 
-#: kcm/nepomukserverkcm.cpp:87
+#: kcm/nepomukserverkcm.cpp:88
 msgid "Copyright 2007 Sebastian Trüg"
 msgstr "স্বত্বাধিকার ২০০৭ সেবাস্টিয়ান ট্রুগ"
 
-#: kcm/nepomukserverkcm.cpp:143
+#: kcm/nepomukserverkcm.cpp:149
 msgid "No Soprano Database backend available. Please check your installation."
 msgstr ""
 "কোনো Soprano ডাটাবেস ব্যাক-এন্ড পাওয়া যায়নি। অনুগ্রহ করে ইনস্টলেশন পরীক্ষা করুন।"
 
-#: kcm/nepomukserverkcm.cpp:144
+#: kcm/nepomukserverkcm.cpp:150
 msgid "Nepomuk cannot be started"
 msgstr "Nepomuk আরম্ভ করা সম্ভব নয়"
 
-#: kcm/nepomukserverkcm.cpp:152
+#: kcm/nepomukserverkcm.cpp:158
 msgid ""
 "The Nepomuk Server is not running. The settings will be used the next time "
 "the server is started."
@@ -317,11 +317,11 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। সার্ভার পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি "
 "প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:154 kcm/nepomukserverkcm.cpp:231
+#: kcm/nepomukserverkcm.cpp:160 kcm/nepomukserverkcm.cpp:237
 msgid "Nepomuk server not running"
 msgstr "Nepomuk সার্ভার বর্তমানে চলছে না।"
 
-#: kcm/nepomukserverkcm.cpp:229
+#: kcm/nepomukserverkcm.cpp:235
 msgid ""
 "The Nepomuk Server is not running. The settings have been saved and will be "
 "used the next time the server is started."
@@ -329,20 +329,20 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। বৈশিষ্ট্যগুলি সংরক্ষণ করা হয়েছে এবং সার্ভার "
 "পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:258
+#: kcm/nepomukserverkcm.cpp:264
 #, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Strigi ইন্ডেক্সারের সাথে যোগাযোগ করতে ব্যর্থ (%1)"
 
-#: kcm/nepomukserverkcm.cpp:268
+#: kcm/nepomukserverkcm.cpp:274
 msgctxt "@info:status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:272
+#: kcm/nepomukserverkcm.cpp:278
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
