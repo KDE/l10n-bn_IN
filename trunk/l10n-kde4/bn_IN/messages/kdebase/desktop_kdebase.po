@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-19 02:58+0000\n"
+"POT-Creation-Date: 2010-04-20 03:30+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1520,7 +1520,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "সূচনাবার্তা"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:16
+#: runtime/kcontrol/knotify/kcmnotify.desktop:18
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "সিস্টেম সংক্রান্ত সূচনাবার্তা কনফিগারেশন"
@@ -6563,7 +6563,7 @@ msgctxt "Name"
 msgid "Phonon"
 msgstr "GPhoto"
 
-#: runtime/phonon/kcm/kcm_phonon.desktop:103
+#: runtime/phonon/kcm/kcm_phonon.desktop:15
 msgctxt "Comment"
 msgid "Sound and Video Configuration"
 msgstr "শব্দ ও ভিডিও কনফিগারেশন"
@@ -6926,13 +6926,13 @@ msgctxt "Comment"
 msgid "Font settings"
 msgstr "ফন্ট সংক্রান্ত বৈশিষ্ট্য"
 
-#: workspace/kcontrol/hardware/display/display.desktop:12
+#: workspace/kcontrol/hardware/display/display.desktop:11
 msgctxt "Name"
 msgid "Display"
 msgstr "প্রদর্শন"
 
-#: workspace/kcontrol/hardware/display/display.desktop:100
-#: workspace/systemsettings/categories/settings-display.desktop:96
+#: workspace/kcontrol/hardware/display/display.desktop:99
+#: workspace/systemsettings/categories/settings-display.desktop:10
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
@@ -7015,7 +7015,7 @@ msgctxt "Name"
 msgid "Login Screen"
 msgstr "PrintScreen"
 
-#: workspace/kcontrol/kdm/kdm.desktop:105
+#: workspace/kcontrol/kdm/kdm.desktop:19
 msgctxt "Comment"
 msgid "Configure the login manager (KDM)"
 msgstr "লগ-ইন পরিচালন ব্যবস্থা (KDM) কনফিগার করুন"
@@ -8233,21 +8233,13 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "ওয়েব শর্ট-কাট"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:15
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:17
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
 msgctxt "Comment"
 msgid "Configure Input Actions settings"
 msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
-
-#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Input Devices"
-msgstr "ডিভাইস"
 
 #: workspace/kinfocenter/devinfo/devinfo.desktop:10
 #: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
@@ -8643,7 +8635,7 @@ msgctxt "Name"
 msgid "Session Management"
 msgstr "সেশান পরিচালন ব্যবস্থা"
 
-#: workspace/ksmserver/kcm/kcmsmserver.desktop:100
+#: workspace/ksmserver/kcm/kcmsmserver.desktop:16
 msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "সেশান পরিচালন ব্যবস্থা ও লগ-আউটের বৈশিষ্ট্য কনফিগার করুন"
@@ -9580,7 +9572,7 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "উইন্ডো সংক্রান্ড তথ্য"
 
-#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:94
+#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:17
 msgctxt "Comment"
 msgid "Configure the look and feel of window titles"
 msgstr "উইন্ডোর শিরোনামের চেহারাছবি কনফিগার করতে ব্যবহৃত হয়"
@@ -9593,7 +9585,7 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "ডেস্কটপ"
 
-#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:99
+#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:17
 msgctxt "Comment"
 msgid "You can configure how many virtual desktops there are."
 msgstr "ভার্চুয়াল ডেস্কটপের সংখ্যা কনফিগার করা যাবে।"
@@ -9657,7 +9649,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "উইন্ডো বন্ধ করুন"
 
-#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:90
+#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:17
 msgctxt "Comment"
 msgid "Configure settings specifically for a window"
 msgstr "কোনো উইন্ডোর জন্য সুনির্দিষ্ট বৈশিষ্ট্য কনফিগার করুন"
@@ -9683,7 +9675,7 @@ msgctxt "Name"
 msgid "Task Switcher"
 msgstr ""
 
-#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:66
+#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the behavior of Java and JavaScript"
@@ -10499,7 +10491,6 @@ msgid "Lock the screen or log out"
 msgstr ""
 
 #: workspace/plasma/generic/applets/notifications/plasma-applet-notifications.desktop:2
-#: workspace/systemsettings/categories/settings-notifications.desktop:8
 msgctxt "Name"
 msgid "Notifications"
 msgstr "সূচনাবার্তা"
@@ -11704,12 +11695,12 @@ msgstr ""
 #: workspace/solid/kcm/kcm_solid.desktop:12
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "USB Devices"
+#| msgid "Information Message"
 msgctxt "Name"
-msgid "Solid Backend"
-msgstr "USB ডিভাইস"
+msgid "Information Sources"
+msgstr "তথ্যসূচক বার্তা"
 
-#: workspace/solid/kcm/kcm_solid.desktop:14
+#: workspace/solid/kcm/kcm_solid.desktop:13
 msgctxt "Comment"
 msgid "Hardware Integration Configuration with Solid"
 msgstr ""
@@ -12274,18 +12265,18 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "ফাইল পরিচালনা"
 
-#: workspace/systemsettings/categories/settings-general.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "General"
-msgctxt "Name|Settings for common user needs (tab in System Settings)."
-msgid "General"
-msgstr "সাধারণ"
-
 #: workspace/systemsettings/categories/settings-hardware.desktop:9
 msgctxt "Name"
 msgid "Hardware"
 msgstr "হার্ডওয়্যার"
+
+#: workspace/systemsettings/categories/settings-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "Input Devices"
+msgstr "ডিভাইস"
 
 #: workspace/systemsettings/categories/settings-locale.desktop:8
 #, fuzzy
@@ -12303,14 +12294,6 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "হারানো প্রাপ্তি"
 
-#: workspace/systemsettings/categories/settings-main-input-devices.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Main Input Devices"
-msgstr "ডিভাইস"
-
 #: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -12323,14 +12306,6 @@ msgstr "নেটওয়ার্ক ও সংযোগ"
 msgctxt "Name"
 msgid "Network Settings"
 msgstr "নেটওয়ার্ক সংক্রান্ত বৈশিষ্ট্য"
-
-#: workspace/systemsettings/categories/settings-other-input-devices.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Other Input Devices"
-msgstr "ডিভাইস"
 
 #: workspace/systemsettings/categories/settings-permissions.desktop:8
 #, fuzzy
@@ -12504,6 +12479,34 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "USB Devices"
+#~ msgctxt "Name"
+#~ msgid "Solid Backend"
+#~ msgstr "USB ডিভাইস"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "General"
+#~ msgctxt "Name|Settings for common user needs (tab in System Settings)."
+#~ msgid "General"
+#~ msgstr "সাধারণ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Devices"
+#~ msgctxt "Name"
+#~ msgid "Main Input Devices"
+#~ msgstr "ডিভাইস"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Devices"
+#~ msgctxt "Name"
+#~ msgid "Other Input Devices"
+#~ msgstr "ডিভাইস"
 
 #~ msgctxt "Name"
 #~ msgid "Login Manager"
