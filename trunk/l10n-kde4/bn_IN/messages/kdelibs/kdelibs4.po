@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-20 05:04+0200\n"
+"POT-Creation-Date: 2010-04-22 00:31+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -2475,26 +2475,86 @@ msgstr "অজানা ত্রুটি"
 msgid "Changing annotations"
 msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:201
-msgid "Create New Tag..."
+#: nepomuk/core/ui/kedittagsdialog.cpp:48
+#, fuzzy
+#| msgid "Change Text"
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "টেক্সট পটিবর্তন করুন"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:49
+#, fuzzy
+#| msgid "Odd Pages"
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "বেজোড় সংখ্যক পৃষ্ঠা"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:58
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr ""
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:71
+#, fuzzy
+#| msgid "Create New Tag..."
+msgctxt "@label"
+msgid "Create new tag:"
 msgstr "নতুন ট্যাগ নির্মাণ করুন"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:207
-msgid "New Tag"
-msgstr "নতুন ট্যাগ"
+#: nepomuk/core/ui/kedittagsdialog.cpp:93
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "মুছে ফেলুন"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:207
-msgid "Please insert the name of the new tag:"
-msgstr "অনুগ্রহ করে নতুন ট্যাগের নাম লিখুন:"
-
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:216
+#: nepomuk/core/ui/kedittagsdialog.cpp:205
 #, kde-format
-msgid "The tag %1 already exists"
-msgstr "ট্যাগ %1 বর্তমানে উপস্থিত"
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
+msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:216
-msgid "Tag Exists"
-msgstr "ট্যাগ উপস্থিত রয়েছে"
+#: nepomuk/core/ui/kedittagsdialog.cpp:207
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "মুছে ফেলুন"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:208
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "মুছে ফেলুন"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:209
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: nepomuk/core/ui/tagwidget.cpp:60
+#, fuzzy
+#| msgid "Show all options"
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "সকল বিকল্প প্রদর্শন করা হবে"
+
+#: nepomuk/core/ui/tagwidget.cpp:102
+#, fuzzy
+#| msgid "Add..."
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "যোগ করুন..."
+
+#: nepomuk/core/ui/tagwidget.cpp:102
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "আইকন পরিবর্তন করুন...(&I)"
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
@@ -6934,7 +6994,7 @@ msgstr[1] "ফাইল প্রেরণ করুন (&S)"
 msgid "Key Generator"
 msgstr "কি নির্মাণ ব্যবস্থা"
 
-#: khtml/html/html_objectimpl.cpp:604
+#: khtml/html/html_objectimpl.cpp:605
 #, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
@@ -6943,15 +7003,15 @@ msgstr ""
 "'%1'-র জন্য প্লাগ-ইন পাওয়া যায়নি।\n"
 "%2 থেকে ডাউনলোড করা হবে কি?"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Missing Plugin"
 msgstr "অনুপস্থিত প্লাগ-ইন"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Download"
 msgstr "ডাউনলোড করা হবে"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Do Not Download"
 msgstr "ডাউনলোড করা হবে না"
 
@@ -10154,7 +10214,7 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "স্বয়ংক্রিয় সনাক্তকরণ"
 
-#: kdeui/windowmanagement/kwindowsystem_x11.cpp:854
+#: kdeui/windowmanagement/kwindowsystem_x11.cpp:858
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:587
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
@@ -12870,10 +12930,17 @@ msgstr "এটি কী? (&T)"
 msgid "Tip of the &Day"
 msgstr "দিনের উপদেশ (&D)"
 
-#, fuzzy
-#~| msgid "Change &Icon..."
-#~ msgid "Change..."
-#~ msgstr "আইকন পরিবর্তন করুন...(&I)"
+#~ msgid "New Tag"
+#~ msgstr "নতুন ট্যাগ"
+
+#~ msgid "Please insert the name of the new tag:"
+#~ msgstr "অনুগ্রহ করে নতুন ট্যাগের নাম লিখুন:"
+
+#~ msgid "The tag %1 already exists"
+#~ msgstr "ট্যাগ %1 বর্তমানে উপস্থিত"
+
+#~ msgid "Tag Exists"
+#~ msgstr "ট্যাগ উপস্থিত রয়েছে"
 
 #~ msgctxt "A link to the description of this Get Hot New Stuff item"
 #~ msgid "Visit homepage..."
