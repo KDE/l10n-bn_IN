@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-18 04:46+0200\n"
+"POT-Creation-Date: 2010-04-23 04:54+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1643,7 +1643,7 @@ msgid "&None"
 msgstr ""
 
 #: SessionController.cpp:459
-msgid "Clear && Reset"
+msgid "Clear and Reset"
 msgstr ""
 
 #: SessionController.cpp:464
@@ -1687,8 +1687,10 @@ msgid "Save Output..."
 msgstr "ফলাফল সংরক্ষণ করুন..."
 
 #: SessionController.cpp:532
-msgid "Clear Scrollback && Reset"
-msgstr ""
+#, fuzzy
+#| msgid "Clear Scrollback"
+msgid "Clear Scrollback and Reset"
+msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
 
 #: SessionController.cpp:538
 msgid "Edit Current Profile..."
@@ -1978,6 +1980,3 @@ msgstr "বন্ধ করুন (&S)"
 
 #~ msgid "C&lear Display"
 #~ msgstr "প্রদর্শনক্ষেত্র পরিশ্রুত করুন (&l)"
-
-#~ msgid "Clear Scrollback"
-#~ msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
