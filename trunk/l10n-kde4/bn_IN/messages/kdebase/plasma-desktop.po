@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-24 04:52+0200\n"
+"POT-Creation-Date: 2010-04-25 04:53+0200\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -190,23 +190,23 @@ msgstr "উপরে"
 msgid "Bottom"
 msgstr "নীচে"
 
-#: plasmaapp.cpp:230
+#: plasmaapp.cpp:231
 msgid "Show Dashboard"
 msgstr "ড্যাশ-বোর্ড প্রদর্শন"
 
-#: plasmaapp.cpp:665
+#: plasmaapp.cpp:695
 #, fuzzy
 #| msgid "Next Activity"
-msgid "Add Activity"
+msgid "Activities..."
 msgstr "পরবর্তী কাজ"
 
-#: plasmaapp.cpp:1067
+#: plasmaapp.cpp:1100
 #, kde-format
 msgid ""
 "A new widget has become available on the network:<br><b>%1</b> - <i>%2</i>"
 msgstr ""
 
-#: plasmaapp.cpp:1069
+#: plasmaapp.cpp:1102
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Add to current activity"
@@ -248,6 +248,11 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~| msgid "Next Activity"
+#~ msgid "Add Activity"
+#~ msgstr "পরবর্তী কাজ"
+
+#, fuzzy
 #~| msgid "Desktop Settings"
 #~ msgid "Plasma Settings"
 #~ msgstr "ডেস্কটপ সংক্রান্ত বৈশিষ্ট্য"
@@ -272,11 +277,6 @@ msgstr ""
 
 #~ msgid "Wallpaper"
 #~ msgstr "পটভূমির ছবি"
-
-#, fuzzy
-#~| msgid "Next Activity"
-#~ msgid "Activity"
-#~ msgstr "পরবর্তী কাজ"
 
 #~ msgid ""
 #~ "This picture of a monitor contains a preview of what the current settings "
