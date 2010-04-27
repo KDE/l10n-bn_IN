@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-25 04:52+0200\n"
+"POT-Creation-Date: 2010-04-27 05:15+0200\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -191,16 +191,11 @@ msgstr "*.xbel|Galeon বুকমার্ক ফাইল (*.xbel)"
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|KDE বুকমার্ক ফাইল (*.xml)"
 
-#: updater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
-msgstr ""
-
-#: favicons.cpp:57 testlink.cpp:97
+#: favicons.cpp:56 testlink.cpp:97
 msgid "OK"
 msgstr "ঠিক আছে"
 
-#: favicons.cpp:73
+#: favicons.cpp:72
 msgid "Updating favicon..."
 msgstr "ফেভ-আইকন আপডেট করা হচ্ছে..."
 
@@ -534,6 +529,11 @@ msgstr "বস্তু কপি করুন"
 #: kbookmarkmodel/commands.cpp:513
 msgid "Move Items"
 msgstr "বস্তু স্থানান্তর করুন"
+
+#: faviconupdater.cpp:87
+#, kde-format
+msgid "%1; no HTML component found (%2)"
+msgstr ""
 
 #. i18n: file: keditbookmarks-genui.rc:6
 #. i18n: ectx: Menu (file)
