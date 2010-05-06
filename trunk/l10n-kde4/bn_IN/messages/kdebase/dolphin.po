@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-05 04:49+0200\n"
+"POT-Creation-Date: 2010-05-06 04:54+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -218,9 +218,11 @@ msgid "Show previews for"
 msgstr "প্রাকদর্শন দেখান"
 
 #: settings/previewssettingspage.cpp:74
+#, fuzzy
+#| msgid "Show preview"
 msgctxt "@title:group"
-msgid "Don't create previews for"
-msgstr ""
+msgid "Do not create previews for"
+msgstr "প্রাকদর্শন দেখান"
 
 #: settings/previewssettingspage.cpp:77
 msgctxt "@label Don't create previews for: <Local files above:> XX MByte"
