@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-10 04:41+0200\n"
 "PO-Revision-Date: 2009-01-05 12:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -159,13 +159,15 @@ msgid "&Edit Contents..."
 msgstr "তথ্য সম্পাদনা...(&E)"
 
 #: klipper.cpp:213
-msgid "Next history item"
-msgstr ""
+#, fuzzy
+#| msgid "C&lipboard history size:"
+msgid "Next History Item"
+msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
 #: klipper.cpp:217
 #, fuzzy
 #| msgid "C&lipboard history size:"
-msgid "Previous history item"
+msgid "Previous History Item"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
 #: klipper.cpp:222
@@ -499,19 +501,15 @@ msgstr "ছবি অগ্রাহ্য করা হবে"
 #: rc.cpp:79 rc.cpp:245
 #, fuzzy
 #| msgid "Pre&vent empty clipboard"
-msgid "Selection and clipboard"
+msgid "Selection and Clipboard"
 msgstr "ক্লিপবোর্ড ফাঁকা রাখতে দেওয়া হবে না (&v)"
 
 #. i18n: file: generalconfig.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#. i18n: file: klipper.kcfg:29
-#. i18n: ectx: label, entry (IgnoreSelection), group (General)
-#. i18n: file: generalconfig.ui:65
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#: rc.cpp:82 rc.cpp:115 rc.cpp:248
+#: rc.cpp:82 rc.cpp:248
 #, fuzzy
 #| msgid "&Ignore selection"
-msgid "Ignore Selection"
+msgid "Ignore selection"
 msgstr "নির্বাচন অগ্রাহ্য করা হবে (&I)"
 
 #. i18n: file: generalconfig.ui:72
@@ -580,6 +578,14 @@ msgid ""
 msgstr ""
 "এই বিকল্পটি নির্বাচন করা হলে, ক্লিপ-বোর্ড কখনো ফাঁকা রাখা হবে না। উদাহরণ, কোনো "
 "অ্যাপ্লিকেশন বন্ধ করা হলে, ক্লিপ-বো র্ড সাধারণত ফাঁকা করা হবে।"
+
+#. i18n: file: klipper.kcfg:29
+#. i18n: ectx: label, entry (IgnoreSelection), group (General)
+#: rc.cpp:115
+#, fuzzy
+#| msgid "&Ignore selection"
+msgid "Ignore Selection"
+msgstr "নির্বাচন অগ্রাহ্য করা হবে (&I)"
 
 #. i18n: file: klipper.kcfg:31
 #. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)

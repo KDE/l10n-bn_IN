@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-06 04:55+0200\n"
+"POT-Creation-Date: 2010-05-10 04:41+0200\n"
 "PO-Revision-Date: 2008-10-22 19:48+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -97,7 +97,7 @@ msgid ""
 "any time."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:411
+#: ksysguardprocesslist.cpp:411 ksysguardprocesslist.cpp:1249
 #, fuzzy
 #| msgid "Own Processes"
 msgid "End Process"
@@ -285,15 +285,6 @@ msgid_plural ""
 "lost"
 msgstr[0] "আপনি কি নির্বাচিত প্রসেসটি kill করতে ইচ্ছুক?"
 msgstr[1] "আপনি কি %1-টি নির্বাচিত প্রসেসগুলি kill করতে ইচ্ছুক?"
-
-#: ksysguardprocesslist.cpp:1249
-#, fuzzy, kde-format
-#| msgid "Kill Process"
-#| msgid_plural "Kill Processes"
-msgid "End process"
-msgid_plural "End %1 processes"
-msgstr[0] "প্রসেস kill করা হবে"
-msgstr[1] "প্রসেস kill করা হবে"
 
 #: ksysguardprocesslist.cpp:1250
 msgid "End"
@@ -1755,6 +1746,14 @@ msgstr "নিম্ন পরিমাণ গুরুত্ব"
 msgctxt "Scheduler"
 msgid "Interactive"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Kill Process"
+#~| msgid_plural "Kill Processes"
+#~ msgid "End process"
+#~ msgid_plural "End %1 processes"
+#~ msgstr[0] "প্রসেস kill করা হবে"
+#~ msgstr[1] "প্রসেস kill করা হবে"
 
 #, fuzzy
 #~| msgid "<qt>Scheduler priority: %1"
