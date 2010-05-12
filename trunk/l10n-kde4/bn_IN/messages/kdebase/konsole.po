@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-06 04:54+0200\n"
+"POT-Creation-Date: 2010-05-12 04:54+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -584,7 +584,7 @@ msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:378 SessionController.cpp:597
+#: MainWindow.cpp:378 SessionController.cpp:601
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
@@ -1490,15 +1490,15 @@ msgstr "runab@redhat.com"
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করুন"
 
-#. i18n: file: ../desktop/sessionui.rc:37
+#. i18n: file: ../desktop/sessionui.rc:38
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr "ডিবাগ করুন"
 
-#. i18n: file: ../desktop/sessionui.rc:56
+#. i18n: file: ../desktop/sessionui.rc:57
 #. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/partui.rc:25
+#. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
 #: rc.cpp:855 rc.cpp:861
 msgid "&Change Profile"
@@ -1682,25 +1682,31 @@ msgstr "প্রোফাইল ব্যবস্থাপনা..."
 msgid "Clear Scrollback"
 msgstr "স্ক্রোল-ব্যাক"
 
-#: SessionController.cpp:502
+#: SessionController.cpp:500
+#, fuzzy
+#| msgid "Clear Scrollback"
+msgid "Clear Scrollback and Reset"
+msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
+
+#: SessionController.cpp:506
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:505
+#: SessionController.cpp:509
 msgid "Change Profile"
 msgstr "প্রোফাইল পরিবর্তন করুন"
 
-#: SessionController.cpp:547
+#: SessionController.cpp:551
 msgid "Rename Tab"
 msgstr "ট্যাবের নাম পরিবর্তন করুন"
 
-#: SessionController.cpp:548
+#: SessionController.cpp:552
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:591
+#: SessionController.cpp:595
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -1708,7 +1714,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:594
+#: SessionController.cpp:598
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1717,43 +1723,43 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1139
+#: SessionController.cpp:1151
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1148
+#: SessionController.cpp:1160
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1160
+#: SessionController.cpp:1172
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1169
+#: SessionController.cpp:1181
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1175
+#: SessionController.cpp:1187
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1247
+#: SessionController.cpp:1259
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1270
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1347
+#: SessionController.cpp:1359
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1984,11 +1990,6 @@ msgstr "বন্ধ করুন (&S)"
 
 #~ msgid "Character Encoding"
 #~ msgstr "ক্যারেক্টার এনকোডিং"
-
-#, fuzzy
-#~| msgid "Clear Scrollback"
-#~ msgid "Clear Scrollback and Reset"
-#~ msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
 
 #~ msgid "Edit Current Profile..."
 #~ msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
