@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-12 04:54+0200\n"
+"POT-Creation-Date: 2010-05-13 04:47+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1191,13 +1191,13 @@ msgstr "টার্মিন্যালের মধ্যে উভয় দি
 msgid "Mouse Interaction"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:959
+#. i18n: file: EditProfileDialog.ui:962
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: rc.cpp:283 rc.cpp:686
-msgid "Word characters for double-click selection: "
+msgid "Characters considered part of a word when double clicking: "
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:969
+#. i18n: file: EditProfileDialog.ui:972
 #. i18n: ectx: property (toolTip), widget (KLineEdit, wordCharacterEdit)
 #: rc.cpp:286 rc.cpp:689
 msgid ""
@@ -1205,113 +1205,113 @@ msgid ""
 "select whole words in the terminal"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:978
+#. i18n: file: EditProfileDialog.ui:981
 #. i18n: ectx: property (text), widget (QCheckBox, tripleClickMode)
 #: rc.cpp:289 rc.cpp:692
 msgid "Triple click selects from current word forward"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:981
+#. i18n: file: EditProfileDialog.ui:984
 #. i18n: ectx: property (toolTip), widget (QCheckBox, tripleClickMode)
 #: rc.cpp:292 rc.cpp:695
 msgid ""
 "All characters from the current word to the end of line will be selected."
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:991
+#. i18n: file: EditProfileDialog.ui:994
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
 #: rc.cpp:295 rc.cpp:698
 msgid "Cursor"
 msgstr "কার্সার"
 
-#. i18n: file: EditProfileDialog.ui:1006
+#. i18n: file: EditProfileDialog.ui:1009
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
 #: rc.cpp:298 rc.cpp:701
 msgid "Make the cursor blink regularly"
 msgstr "নিয়মিতরূপে কার্সারে ঝলকানি হবে"
 
-#. i18n: file: EditProfileDialog.ui:1009
+#. i18n: file: EditProfileDialog.ui:1012
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
 #: rc.cpp:301 rc.cpp:704
 msgid "Blinking cursor"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:1018
+#. i18n: file: EditProfileDialog.ui:1021
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: rc.cpp:304 rc.cpp:707
 msgid "Cursor shape:"
 msgstr "কার্সারের আকার:"
 
-#. i18n: file: EditProfileDialog.ui:1025
+#. i18n: file: EditProfileDialog.ui:1028
 #. i18n: ectx: property (toolTip), widget (QComboBox, cursorShapeCombo)
 #: rc.cpp:307 rc.cpp:710
 msgid "Change the shape of the cursor"
 msgstr "কার্সারের আকার পরিবর্তন করুন"
 
-#. i18n: file: EditProfileDialog.ui:1029
+#. i18n: file: EditProfileDialog.ui:1032
 #. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
 #: rc.cpp:310 rc.cpp:713
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:1034
+#. i18n: file: EditProfileDialog.ui:1037
 #. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
 #: rc.cpp:313 rc.cpp:716
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:1039
+#. i18n: file: EditProfileDialog.ui:1042
 #. i18n: ectx: property (text), item, widget (QComboBox, cursorShapeCombo)
 #: rc.cpp:316 rc.cpp:719
 msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr ""
 
-#. i18n: file: EditProfileDialog.ui:1068
+#. i18n: file: EditProfileDialog.ui:1071
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
 #: rc.cpp:319 rc.cpp:722
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "কার্সারের তলায় উপস্থিত অক্ষরের রঙ অনুয়ায়ী কার্সারের রঙ পরিবর্তিত হবে।"
 
-#. i18n: file: EditProfileDialog.ui:1071
+#. i18n: file: EditProfileDialog.ui:1074
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
 #: rc.cpp:322 rc.cpp:725
 msgid "Set cursor color to match current character"
 msgstr "বর্তমান অক্ষরের রঙ অনুযায়ী কার্সারের রঙ নির্ধারণ করা হবে"
 
-#. i18n: file: EditProfileDialog.ui:1086
+#. i18n: file: EditProfileDialog.ui:1089
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
 #: rc.cpp:325 rc.cpp:728
 msgid "Use a custom, fixed color for the cursor"
 msgstr "কার্সারের জন্য স্বনির্ধারিত স্থায়ী রঙ প্রয়োগ করুন"
 
-#. i18n: file: EditProfileDialog.ui:1089
+#. i18n: file: EditProfileDialog.ui:1092
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
 #: rc.cpp:328 rc.cpp:731
 msgid "Custom cursor color:"
 msgstr "কার্সারের স্বনির্ধারিত রঙ"
 
-#. i18n: file: EditProfileDialog.ui:1102
+#. i18n: file: EditProfileDialog.ui:1105
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
 #: rc.cpp:331 rc.cpp:734
 msgid "Select the color used to draw the cursor"
 msgstr "কার্সার আঁকার জন্য ব্যবহৃত রঙ নির্বাচক করুন"
 
-#. i18n: file: EditProfileDialog.ui:1130
+#. i18n: file: EditProfileDialog.ui:1133
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
 #: rc.cpp:334 rc.cpp:737
 msgid "Encoding"
 msgstr "এনকোডিং"
 
-#. i18n: file: EditProfileDialog.ui:1139
+#. i18n: file: EditProfileDialog.ui:1142
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: rc.cpp:337 rc.cpp:740
 msgid "Default character encoding:"
 msgstr "ডিফল্ট ক্যারেক্টার এনকোডিং:"
 
-#. i18n: file: EditProfileDialog.ui:1159
+#. i18n: file: EditProfileDialog.ui:1162
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
 #: rc.cpp:341 rc.cpp:744
 msgid "Select"
@@ -1768,18 +1768,18 @@ msgstr ""
 "ফলাফল সংরক্ষণে সমস্যা।\n"
 "%1"
 
-#: Session.cpp:333
+#: Session.cpp:367
 msgid "Could not find binary: "
 msgstr "বাইনারি পাওয়া যায়নি: "
 
-#: Session.cpp:342
+#: Session.cpp:376
 #, fuzzy
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "সতর্কবার্তা: "
 
-#: Session.cpp:383
+#: Session.cpp:430
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -1788,48 +1788,48 @@ msgstr ""
 "'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার "
 "প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
 
-#: Session.cpp:388
+#: Session.cpp:435
 msgid "Could not find an interactive shell to start."
 msgstr "আরম্ভ করার জন্য কোনো ইন্টারেক্টিভ শেল পাওয়া যায়নি।"
 
-#: Session.cpp:422
+#: Session.cpp:471
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্ট সহ আরম্ভ করা যায়নি।"
 
-#: Session.cpp:532
+#: Session.cpp:581
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "'%1' সেশানে নিরবতা"
 
-#: Session.cpp:567
+#: Session.cpp:616
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
 
-#: Session.cpp:578
+#: Session.cpp:627
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "'%1'-এ কর্ম"
 
-#: Session.cpp:722
+#: Session.cpp:771
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: Session.cpp:731
+#: Session.cpp:780
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: Session.cpp:733
+#: Session.cpp:782
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: Session.cpp:1049
+#: Session.cpp:1098
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
