@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 04:41+0200\n"
+"POT-Creation-Date: 2010-05-14 04:46+0200\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -62,10 +62,16 @@ msgid "Power Profile:"
 msgstr "বিদ্যুৎ ব্যবস্থা সংক্রান্ত প্রোফাইল"
 
 #: battery.cpp:547
+#, fuzzy
+#| msgid "Sleep"
+msgctxt "Suspend the computer to RAM; translation should be short"
 msgid "Sleep"
 msgstr "নিদ্রিত অবস্থা"
 
 #: battery.cpp:561
+#, fuzzy
+#| msgid "Hibernate"
+msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "হাইবারনেট"
 
