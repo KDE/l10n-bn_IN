@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-14 04:45+0200\n"
+"POT-Creation-Date: 2010-05-15 04:51+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -40,7 +40,7 @@ msgstr "ট্যাগ পরিবর্তন করুন..."
 #: panels/information/informationpanelcontent.cpp:300
 #: settings/behaviorsettingspage.cpp:198
 msgctxt "@label::textbox"
-msgid "Configure which data should be shown in the tooltip."
+msgid "Select which data should be shown in the tooltip."
 msgstr ""
 
 #: panels/information/phononwidget.cpp:139
@@ -112,7 +112,7 @@ msgstr ""
 
 #: settings/servicessettingspage.cpp:55
 msgctxt "@label:textbox"
-msgid "Configure which services should be shown in the context menu."
+msgid "Select which services should be shown in the context menu."
 msgstr ""
 
 #: settings/servicessettingspage.cpp:65
@@ -417,39 +417,14 @@ msgctxt "@info:progress"
 msgid "Folders: %1"
 msgstr "ফোল্ডারের সংখ্যা: %1"
 
-#: settings/additionalinfodialog.cpp:38
+#: settings/additionalinfodialog.cpp:35
 msgctxt "@title:window"
 msgid "Additional Information"
 msgstr ""
 
-#: settings/additionalinfodialog.cpp:44
-msgctxt "@option:check Additional Information"
-msgid "Size"
-msgstr ""
-
 #: settings/additionalinfodialog.cpp:45
-msgctxt "@option:check Additional Information"
-msgid "Date"
-msgstr ""
-
-#: settings/additionalinfodialog.cpp:46
-msgctxt "@option:check Additional Information"
-msgid "Permissions"
-msgstr ""
-
-#: settings/additionalinfodialog.cpp:47
-msgctxt "@option:check Additional Information"
-msgid "Owner"
-msgstr ""
-
-#: settings/additionalinfodialog.cpp:48
-msgctxt "@option:check Additional Information"
-msgid "Group"
-msgstr ""
-
-#: settings/additionalinfodialog.cpp:49
-msgctxt "@option:check Additional Information"
-msgid "Type"
+msgctxt "@label"
+msgid "Select which additional information should be shown."
 msgstr ""
 
 #: settings/viewpropertiesdialog.cpp:78
@@ -717,7 +692,7 @@ msgstr ""
 
 #: settings/filemetadataconfigurationdialog.cpp:39
 msgctxt "@label::textbox"
-msgid "Configure which data should be shown"
+msgid "Select which data should be shown"
 msgstr ""
 
 #: search/searchcriterionvalue.cpp:130
@@ -1272,7 +1247,7 @@ msgctxt "@action:inmenu View"
 msgid "Sort By"
 msgstr "সাজান"
 
-#: dolphinviewactionhandler.cpp:187 dolphinviewactionhandler.cpp:221
+#: dolphinviewactionhandler.cpp:187 dolphinviewactionhandler.cpp:220
 #, fuzzy
 #| msgctxt "@title:menu"
 #| msgid "Additional Information"
@@ -1295,12 +1270,12 @@ msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "প্রদর্শনের বৈশিষ্টাবলী সম্পাদন..."
 
-#: dolphinviewactionhandler.cpp:209
+#: dolphinviewactionhandler.cpp:208
 msgctxt "@action:inmenu Tools"
 msgid "Find File..."
 msgstr "ফাইল অনুসন্ধান..."
 
-#: dolphinviewactionhandler.cpp:246
+#: dolphinviewactionhandler.cpp:245
 msgctxt "@action:inmenu Sort By"
 msgid "Name"
 msgstr ""
@@ -1919,17 +1894,17 @@ msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1093
+#: dolphinview.cpp:1094
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: dolphinview.cpp:1178
+#: dolphinview.cpp:1179
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: dolphinview.cpp:1180
+#: dolphinview.cpp:1181
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -2439,7 +2414,7 @@ msgstr ""
 msgid "Criteria"
 msgstr ""
 
-#: additionalinfomanager.cpp:82
+#: additionalinfoaccessor.cpp:99
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Size"
@@ -2447,7 +2422,7 @@ msgctxt "@label"
 msgid "Size"
 msgstr "পরিমান"
 
-#: additionalinfomanager.cpp:83
+#: additionalinfoaccessor.cpp:100
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Date"
@@ -2455,22 +2430,22 @@ msgctxt "@label"
 msgid "Date"
 msgstr "তারিখ"
 
-#: additionalinfomanager.cpp:84
+#: additionalinfoaccessor.cpp:101
 msgctxt "@label"
 msgid "Permissions"
 msgstr ""
 
-#: additionalinfomanager.cpp:85
+#: additionalinfoaccessor.cpp:102
 msgctxt "@label"
 msgid "Owner"
 msgstr ""
 
-#: additionalinfomanager.cpp:86
+#: additionalinfoaccessor.cpp:103
 msgctxt "@label"
 msgid "Group"
 msgstr ""
 
-#: additionalinfomanager.cpp:87
+#: additionalinfoaccessor.cpp:104
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Type"
@@ -2478,7 +2453,7 @@ msgctxt "@label"
 msgid "Type"
 msgstr "ধরন"
 
-#: additionalinfomanager.cpp:88
+#: additionalinfoaccessor.cpp:105
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -2486,7 +2461,7 @@ msgctxt "@label"
 msgid "Destination"
 msgstr "ডকুমেনটেশন"
 
-#: additionalinfomanager.cpp:89
+#: additionalinfoaccessor.cpp:106
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
