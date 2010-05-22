@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-21 04:36+0200\n"
+"POT-Creation-Date: 2010-05-22 04:46+0200\n"
 "PO-Revision-Date: 2009-01-08 20:32+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,20 +17,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: interfaces/quicksand/qs_dialog.cpp:53 interfaces/quicksand/qs_dialog.cpp:54
+#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
 #: interfaces/default/interface.cpp:84 interfaces/default/interface.cpp:85
 msgid "Settings"
 msgstr "বিবিধ বৈশিষ্ট্য"
 
-#: interfaces/quicksand/qs_dialog.cpp:86
+#: interfaces/quicksand/qs_dialog.cpp:108
 msgid "Actions"
 msgstr "কর্ম"
 
-#: interfaces/quicksand/qs_matchview.cpp:175
+#: interfaces/quicksand/qs_dialog.cpp:317 interfaces/default/interface.cpp:253
+#, fuzzy, kde-format
+#| msgid "%1: %2"
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1: %2"
+
+#: interfaces/quicksand/qs_matchview.cpp:190
 msgid "Type to search."
 msgstr ""
 
-#: interfaces/quicksand/qs_matchview.cpp:260
+#: interfaces/quicksand/qs_matchview.cpp:273
 #, fuzzy, kde-format
 #| msgid "items"
 msgid "1 item"
@@ -38,7 +45,7 @@ msgid_plural "%1 items"
 msgstr[0] "বস্তু"
 msgstr[1] "বস্তু"
 
-#: interfaces/quicksand/qs_matchview.cpp:262
+#: interfaces/quicksand/qs_matchview.cpp:275
 #, fuzzy, kde-format
 #| msgid "actions"
 msgid "1 action"
@@ -46,11 +53,11 @@ msgid_plural "%1 actions"
 msgstr[0] "কর্ম"
 msgstr[1] "কর্ম"
 
-#: interfaces/quicksand/qs_matchview.cpp:347
+#: interfaces/quicksand/qs_matchview.cpp:360
 msgid "Loading..."
 msgstr "লোড করা হচ্ছে..."
 
-#: interfaces/quicksand/qs_matchview.cpp:431
+#: interfaces/quicksand/qs_matchview.cpp:445
 msgid "No results found."
 msgstr "কোনো ফলাফল পাওয়া যায়নি"
 
@@ -68,13 +75,6 @@ msgstr ""
 #: interfaces/default/interface.cpp:107
 msgid "Information on using this application"
 msgstr ""
-
-#: interfaces/default/interface.cpp:253
-#, fuzzy, kde-format
-#| msgid "%1: %2"
-msgctxt "tooltip, shortcut"
-msgid "%1 (%2)"
-msgstr "%1: %2"
 
 #: interfaces/default/interface.cpp:403
 #, kde-format
@@ -267,11 +267,11 @@ msgstr ""
 msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
-#: configdialog.cpp:76
+#: configdialog.cpp:81
 msgid "User Interface"
 msgstr "ইউজার ইন্টারফেস"
 
-#: configdialog.cpp:82
+#: configdialog.cpp:87
 msgid "Available Features"
 msgstr "উপলব্ধ বৈশিষ্ট্য"
 
