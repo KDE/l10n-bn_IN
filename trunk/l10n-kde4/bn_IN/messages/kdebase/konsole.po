@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-13 04:47+0200\n"
+"POT-Creation-Date: 2010-05-26 04:55+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -616,9 +616,11 @@ msgstr "নতুন প্রোফাইল"
 msgid "Shell"
 msgstr "Shell"
 
-#: ProfileList.cpp:48
-msgid "No profiles available"
-msgstr "কোনো প্রোফাইল উপলব্ধ নেই"
+#: ProfileList.cpp:49
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "Default profile"
+msgstr "প্রোফাইল মুছে ফেলুন"
 
 #. i18n: file: ColorSchemeEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1980,10 +1982,8 @@ msgstr ""
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
 
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "&Default Profile"
-#~ msgstr "প্রোফাইল মুছে ফেলুন"
+#~ msgid "No profiles available"
+#~ msgstr "কোনো প্রোফাইল উপলব্ধ নেই"
 
 #~ msgid "Show Menu Bar"
 #~ msgstr "মেনু বার প্রদর্শন করা হবে"
