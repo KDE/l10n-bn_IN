@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-27 04:51+0200\n"
 "PO-Revision-Date: 2008-07-06 12:19+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -23,19 +23,19 @@ msgstr ""
 msgid "Change your Face"
 msgstr "ফেস-এর আইকন পরিবর্তন করুন"
 
-#: chfacedlg.cpp:74
+#: chfacedlg.cpp:75
 msgid "&Acquire Image..."
 msgstr "ছবি নির্ধারন করুন... (&A)"
 
-#: chfacedlg.cpp:94
+#: chfacedlg.cpp:95
 msgid "(Custom)"
 msgstr "(স্বনির্ধরিত)"
 
-#: chfacedlg.cpp:113 main.cpp:262
+#: chfacedlg.cpp:114 main.cpp:262
 msgid "There was an error loading the image."
 msgstr "ছবি লোড করার সময় ত্রুটি দেখা দিয়েছে।"
 
-#: chfacedlg.cpp:131 chfacedlg.cpp:167
+#: chfacedlg.cpp:132 chfacedlg.cpp:168
 #, kde-format
 msgid ""
 "There was an error saving the image:\n"
@@ -44,11 +44,11 @@ msgstr ""
 "ছবি সংরক্ষিণ করতে সমস্যা হয়েছে:\n"
 "%1"
 
-#: chfacedlg.cpp:142
+#: chfacedlg.cpp:143
 msgid "&Save copy in custom faces folder for future use"
 msgstr "পরবর্তীকালে ব্যবহারের জন্য কপি করে সংরক্ষণ করুন কাসটম ফেসেস ফোল্ডারে (&S)"
 
-#: chfacedlg.cpp:148
+#: chfacedlg.cpp:149
 msgid "Choose Image"
 msgstr "ছবি নির্বাচন করুন"
 
@@ -183,51 +183,45 @@ msgstr ""
 "অনুগ্রহ করে চিহ্নিত এক্সটেনশনগুলি সহ ফাইল ব্যবহার করুন:\n"
 "%2"
 
-#. i18n: file: faceDlg.ui:24
+#. i18n: file: faceDlg.ui:25
 #. i18n: ectx: property (text), widget (QLabel, header)
 #: rc.cpp:3
 msgid "Select a new face:"
 msgstr "এক নতুন ফেস নির্বাচন করুন:"
 
-#. i18n: file: faceDlg.ui:49
-#. i18n: ectx: property (text), widget (QPushButton, browseBtn)
-#: rc.cpp:6
-msgid "Custom Image..."
-msgstr "স্বনির্বাচিত ছবি..."
-
 #. i18n: file: kcm_useraccount.kcfg:24
 #. i18n: ectx: label, entry (FaceSize), group (X-*-Greeter)
-#: rc.cpp:9
+#: rc.cpp:6
 msgid "The size of login images"
 msgstr "লগইন ছবির মাপ"
 
 #. i18n: file: kcm_useraccount.kcfg:28
 #. i18n: ectx: label, entry (DefaultFile), group (X-*-Greeter)
-#: rc.cpp:12
+#: rc.cpp:9
 msgid "The default image file"
 msgstr "ডিফল্ট ছবির ফাইল"
 
 #. i18n: file: kcm_useraccount.kcfg:32
 #. i18n: ectx: label, entry (CustomFaceFile), group (X-*-Greeter)
-#: rc.cpp:15
+#: rc.cpp:12
 msgid "The filename of the user's custom image file"
 msgstr "ব্যবহারকারী স্বনির্বাচিত ছবির ফাইলের নাম"
 
 #. i18n: file: kcm_useraccount.kcfg:36
 #. i18n: ectx: label, entry (FaceFile), group (X-*-Greeter)
-#: rc.cpp:18
+#: rc.cpp:15
 msgid "The user's login image"
 msgstr "ব্যবহারকারী লগইন ছবি"
 
 #. i18n: file: kcm_useraccount_pass.kcfg:9
 #. i18n: ectx: label, entry (EchoMode), group (Passwords)
-#: rc.cpp:21
+#: rc.cpp:18
 msgid "Password echo type"
 msgstr "পাসওয়ার্ড প্রদর্শনের ধরণ"
 
 #. i18n: file: main_widget.ui:44
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnChangeFace)
-#: rc.cpp:24
+#: rc.cpp:21
 #, fuzzy
 #| msgid "Change your Face"
 msgid "Change your image"
@@ -235,7 +229,7 @@ msgstr "ফেস-এর আইকন পরিবর্তন করুন"
 
 #. i18n: file: main_widget.ui:72
 #. i18n: ectx: property (text), widget (QLabel, lblClickButtonInfo)
-#: rc.cpp:27
+#: rc.cpp:24
 #, fuzzy
 #| msgid "<i>(Click the button to change your image)</i>"
 msgid "<i>Click to change your image</i>"
@@ -243,55 +237,55 @@ msgstr "<i>(বাটন ক্লিক করে আপনার ছবি প
 
 #. i18n: file: main_widget.ui:87
 #. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
-#: rc.cpp:30
+#: rc.cpp:27
 msgid "Change Password..."
 msgstr "পাসওয়ার্ড পরিবর্তন..."
 
 #. i18n: file: main_widget.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
-#: rc.cpp:33
+#: rc.cpp:30
 msgid "User Information"
 msgstr "ব্যবহারকারী পরিচিতি"
 
 #. i18n: file: main_widget.ui:122
 #. i18n: ectx: property (text), widget (QLabel, lblRealName)
-#: rc.cpp:36
+#: rc.cpp:33
 msgid "&Name:"
 msgstr "নাম: (&N)"
 
 #. i18n: file: main_widget.ui:145
 #. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
-#: rc.cpp:39
+#: rc.cpp:36
 msgid "&Organization:"
 msgstr "সংস্থা: (&O)"
 
 #. i18n: file: main_widget.ui:168
 #. i18n: ectx: property (text), widget (QLabel, lblEmail)
-#: rc.cpp:42
+#: rc.cpp:39
 msgid "&Email address:"
 msgstr "ই-মেইল ঠিকানা: (&E)"
 
 #. i18n: file: main_widget.ui:191
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:45
+#: rc.cpp:42
 msgid "&SMTP server:"
 msgstr " SMTP সার্ভার: (&S)"
 
 #. i18n: file: main_widget.ui:214
 #. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
-#: rc.cpp:48
+#: rc.cpp:45
 msgid "User ID:"
 msgstr "ব্যবহারকারী ID:"
 
 #. i18n: file: main_widget.ui:240
 #. i18n: ectx: property (title), widget (KButtonGroup, kcfg_EchoMode)
-#: rc.cpp:51
+#: rc.cpp:48
 msgid "At Password Prompt"
 msgstr "পাসওয়ার্ড প্রম্পট-এ"
 
 #. i18n: file: main_widget.ui:246
 #. i18n: ectx: property (text), widget (QRadioButton, rdbOneStar)
-#: rc.cpp:54
+#: rc.cpp:51
 #, fuzzy
 #| msgid "Show one star for each letter"
 msgid "Show one bullet for each letter"
@@ -299,7 +293,7 @@ msgstr "প্রতিটি অক্ষরের জন্য একটি �
 
 #. i18n: file: main_widget.ui:253
 #. i18n: ectx: property (text), widget (QRadioButton, rdbThreeStars)
-#: rc.cpp:57
+#: rc.cpp:54
 #, fuzzy
 #| msgid "Show three stars for each letter"
 msgid "Show three bullets for each letter"
@@ -307,19 +301,22 @@ msgstr "প্রতিটি অক্ষরের জন্য তিনটি
 
 #. i18n: file: main_widget.ui:260
 #. i18n: ectx: property (text), widget (QRadioButton, rdbShowPassword)
-#: rc.cpp:60
+#: rc.cpp:57
 msgid "Show nothing"
 msgstr "কিছুই প্রদর্শন হবে না"
 
-#: rc.cpp:61
+#: rc.cpp:58
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রিয়া দাস"
 
-#: rc.cpp:62
+#: rc.cpp:59
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mailtoria@gmail.com"
+
+#~ msgid "Custom Image..."
+#~ msgstr "স্বনির্বাচিত ছবি..."
 
 #~ msgid "kcm_useraccount"
 #~ msgstr "kcm_useraccount"

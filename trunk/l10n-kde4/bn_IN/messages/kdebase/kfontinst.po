@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-27 04:51+0200\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -119,19 +119,19 @@ msgstr "প্রদর্শনযোগ্য URL"
 msgid "Duplicate Fonts"
 msgstr "ফন্টের প্রতিলিপি"
 
-#: kcmfontinst/DuplicatesDialog.cpp:102
+#: kcmfontinst/DuplicatesDialog.cpp:101
 msgid "Scanning for duplicate fonts. Please wait..."
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:125
+#: kcmfontinst/DuplicatesDialog.cpp:124
 msgid "No duplicate fonts found."
 msgstr "কোনো ফন্টের প্রতিলিপি পাওয়া যায়নি"
 
-#: kcmfontinst/DuplicatesDialog.cpp:132
+#: kcmfontinst/DuplicatesDialog.cpp:131
 msgid "Delete Marked Files"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:134
+#: kcmfontinst/DuplicatesDialog.cpp:133
 #, fuzzy, kde-format
 #| msgid "%1 duplicate fonts found."
 msgid "%1 duplicate font found."
@@ -139,7 +139,7 @@ msgid_plural "%1 duplicate fonts found."
 msgstr[0] "ফন্টের %1-টি প্রতিলিপি পাওয়া গিয়েছে।"
 msgstr[1] "ফন্টের %1-টি প্রতিলিপি পাওয়া গিয়েছে।"
 
-#: kcmfontinst/DuplicatesDialog.cpp:223
+#: kcmfontinst/DuplicatesDialog.cpp:222
 #, kde-format
 msgid ""
 "Are you sure you wish to delete:\n"
@@ -148,59 +148,59 @@ msgstr ""
 "নিশ্চিতরূপে মুছে ফেলা হবে কি:\n"
 "%1"
 
-#: kcmfontinst/DuplicatesDialog.cpp:225
+#: kcmfontinst/DuplicatesDialog.cpp:224
 msgid "Are you sure you wish to delete:"
 msgstr "নিশ্চিতরূপে মুছে ফেলা হবে কি:"
 
-#: kcmfontinst/DuplicatesDialog.cpp:249
+#: kcmfontinst/DuplicatesDialog.cpp:248
 #, fuzzy
 #| msgid "Abort font scan?"
 msgid "Cancel font scan?"
 msgstr "ফন্ট অনুসন্ধান পরিত্যাগ করা হবে কি?"
 
-#: kcmfontinst/DuplicatesDialog.cpp:251
+#: kcmfontinst/DuplicatesDialog.cpp:250
 #, fuzzy
 #| msgid "Cancel"
 msgid "Canceling..."
 msgstr "বাতিল"
 
-#: kcmfontinst/DuplicatesDialog.cpp:409
+#: kcmfontinst/DuplicatesDialog.cpp:408
 msgid "Font/File"
 msgstr "ফন্ট/ফাইল"
 
-#: kcmfontinst/DuplicatesDialog.cpp:411
+#: kcmfontinst/DuplicatesDialog.cpp:410
 msgid "Size"
 msgstr "মাপ"
 
-#: kcmfontinst/DuplicatesDialog.cpp:412
+#: kcmfontinst/DuplicatesDialog.cpp:411
 msgid "Date"
 msgstr "তারিখ"
 
-#: kcmfontinst/DuplicatesDialog.cpp:413
+#: kcmfontinst/DuplicatesDialog.cpp:412
 msgid "Links To"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:425 kcmfontinst/FontList.cpp:1397
+#: kcmfontinst/DuplicatesDialog.cpp:424 kcmfontinst/FontList.cpp:1397
 msgid "Open in Font Viewer"
 msgstr "ফন্ট প্রদর্শন ব্যবস্থায় খোলা হবে"
 
-#: kcmfontinst/DuplicatesDialog.cpp:427
+#: kcmfontinst/DuplicatesDialog.cpp:426
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
-#: kcmfontinst/DuplicatesDialog.cpp:430
+#: kcmfontinst/DuplicatesDialog.cpp:429
 #, fuzzy
 #| msgid "Mark for Deletion..."
 msgid "Unmark for Deletion"
 msgstr "মুছে ফেলার চিহ্নিত..."
 
-#: kcmfontinst/DuplicatesDialog.cpp:432
+#: kcmfontinst/DuplicatesDialog.cpp:431
 #, fuzzy
 #| msgid "Mark for Deletion..."
 msgid "Mark for Deletion"
 msgstr "মুছে ফেলার চিহ্নিত..."
 
-#: kcmfontinst/DuplicatesDialog.cpp:532 kcmfontinst/FontList.cpp:1817
+#: kcmfontinst/DuplicatesDialog.cpp:531 kcmfontinst/FontList.cpp:1817
 #, kde-format
 msgid "Open all %1 fonts in font viewer?"
 msgstr "সকল %1-টি ফন্ট, ফন্ট প্রদর্শন ব্যবস্থা খোলা হবে কি?"
@@ -406,87 +406,87 @@ msgstr ""
 msgid "Move to system folder."
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:178
+#: kcmfontinst/JobRunner.cpp:177
 #, fuzzy
 #| msgid "Are you sure you wish to cancel?"
 msgid "<h3>Cancel?</h3><p>Are you sure you wish to cancel?</p>"
 msgstr "আপনি কি নিশ্চিতরূপে বাতিল করতে ইচ্ছুক?"
 
-#: kcmfontinst/JobRunner.cpp:193
+#: kcmfontinst/JobRunner.cpp:192
 msgid ""
 "<h3>Finished</h3><p>Please note that any open applications will need to be "
 "restarted in order for any changes to be noticed.</p>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:201
+#: kcmfontinst/JobRunner.cpp:200
 msgid "Do not show this message again"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:276
+#: kcmfontinst/JobRunner.cpp:275
 msgid "Installing"
 msgstr "ইনস্টল করা হচ্ছে"
 
-#: kcmfontinst/JobRunner.cpp:279
+#: kcmfontinst/JobRunner.cpp:278
 msgid "Uninstalling"
 msgstr "আন-ইনস্টল করা হচ্ছে"
 
-#: kcmfontinst/JobRunner.cpp:282
+#: kcmfontinst/JobRunner.cpp:281
 msgid "Enabling"
 msgstr "সক্রিয় করা হচ্ছে"
 
-#: kcmfontinst/JobRunner.cpp:285
+#: kcmfontinst/JobRunner.cpp:284
 msgid "Moving"
 msgstr "স্থানান্তর করা হচ্ছে"
 
-#: kcmfontinst/JobRunner.cpp:288
+#: kcmfontinst/JobRunner.cpp:287
 msgid "Updating"
 msgstr "আপডেট করা হচ্ছে"
 
-#: kcmfontinst/JobRunner.cpp:291
+#: kcmfontinst/JobRunner.cpp:290
 #, fuzzy
 #| msgid "Remove"
 msgid "Removing"
 msgstr "মুছে ফেলুন"
 
-#: kcmfontinst/JobRunner.cpp:295
+#: kcmfontinst/JobRunner.cpp:294
 msgid "Disabling"
 msgstr "নিষ্ক্রিয় করা হচ্ছে"
 
-#: kcmfontinst/JobRunner.cpp:333
+#: kcmfontinst/JobRunner.cpp:332
 msgid "Updating font configuration. Please wait..."
 msgstr "ফন্ট কনফিগারেশন আপডেট করা হচ্ছে। অনুগ্রহ করে অপেক্ষা করুন..."
 
-#: kcmfontinst/JobRunner.cpp:402
+#: kcmfontinst/JobRunner.cpp:401
 msgid "Unable to start backend."
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:412
+#: kcmfontinst/JobRunner.cpp:411
 msgid "Backend died, but has been restarted. Please try again."
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:590 kcmfontinst/JobRunner.cpp:599
+#: kcmfontinst/JobRunner.cpp:589 kcmfontinst/JobRunner.cpp:598
 msgid "<h3>Error</h3>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:592
+#: kcmfontinst/JobRunner.cpp:591
 msgid "Skip"
 msgstr "উপেক্ষা করুন"
 
-#: kcmfontinst/JobRunner.cpp:593
+#: kcmfontinst/JobRunner.cpp:592
 msgid "AutoSkip"
 msgstr "অটো-স্কিপ"
 
-#: kcmfontinst/JobRunner.cpp:660
+#: kcmfontinst/JobRunner.cpp:659
 #, kde-format
 msgid "Failed to download <i>%1</i>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:662
+#: kcmfontinst/JobRunner.cpp:661
 #, kde-format
 msgid "System backend died. Please try again.<br><i>%1</i>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:664
+#: kcmfontinst/JobRunner.cpp:663
 #, fuzzy, kde-format
 #| msgid ""
 #| "You cannot install bitmap fonts, as these have been disabled on your "
@@ -496,7 +496,7 @@ msgid ""
 msgstr ""
 "সিস্টেমের মধ্যে বিট-ম্যাপ ফন্ট নিষ্ক্রিয় হওয়ার ফলে, বিট-ম্যাপ ফন্ট ইনস্টল করা সম্ভব নয়।"
 
-#: kcmfontinst/JobRunner.cpp:666
+#: kcmfontinst/JobRunner.cpp:665
 #, fuzzy, kde-format
 #| msgid ""
 #| "File %1 contains the font:\n"
@@ -510,51 +510,51 @@ msgstr ""
 "%2\n"
 "এই নামের একটি ফন্ট বর্তমানে ইনস্টল করা আছে।\n"
 
-#: kcmfontinst/JobRunner.cpp:669
+#: kcmfontinst/JobRunner.cpp:668
 #, kde-format
 msgid "<i>%1</i> is not a font."
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:671
+#: kcmfontinst/JobRunner.cpp:670
 #, fuzzy, kde-format
 #| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with <i>%1</i>"
 msgstr "%1-র সাথে যুক্ত অতিরিক্ত ফাইল অনুসন্ধান করা হচ্ছে"
 
-#: kcmfontinst/JobRunner.cpp:673
+#: kcmfontinst/JobRunner.cpp:672
 #, kde-format
 msgid "Failed to start the system daemon.<br><i>%1</i>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:675
+#: kcmfontinst/JobRunner.cpp:674
 #, fuzzy, kde-format
 #| msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
 msgid "<i>%1</i> already exists."
 msgstr "<qt><b>'%1'</b> নামক একটি দল বর্তমানে উপস্থিত রয়েছে।</qt>"
 
-#: kcmfontinst/JobRunner.cpp:677
+#: kcmfontinst/JobRunner.cpp:676
 #, kde-format
 msgid "<i>%1</i> does not exist."
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:679
+#: kcmfontinst/JobRunner.cpp:678
 #, kde-format
 msgid "Permission denied.<br><i>%1</i>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:681
+#: kcmfontinst/JobRunner.cpp:680
 #, fuzzy, kde-format
 #| msgid "Authorization Failed"
 msgid "Unsupported action.<br><i>%1</i>"
 msgstr "অনুমোদন ব্যর্থ"
 
-#: kcmfontinst/JobRunner.cpp:683
+#: kcmfontinst/JobRunner.cpp:682
 #, fuzzy, kde-format
 #| msgid "Authorization Failed"
 msgid "Authentication failed.<br><i>%1</i>"
 msgstr "অনুমোদন ব্যর্থ"
 
-#: kcmfontinst/JobRunner.cpp:685
+#: kcmfontinst/JobRunner.cpp:684
 #, kde-format
 msgid "Unexpected error whilst processing: <i>%1</i>"
 msgstr ""
@@ -929,31 +929,31 @@ msgstr "ফন্ট(গুলি) নিষ্ক্রিয় করা হচ�
 msgid "Print Font Samples"
 msgstr "ফন্টের নমূনা প্রিন্ট করুন"
 
-#: kcmfontinst/PrintDialog.cpp:48
+#: kcmfontinst/PrintDialog.cpp:47
 msgid "Select size to print font:"
 msgstr "ফন্ট প্রিন্ট করার জন্য মাপ নির্বাচন করুন:"
 
-#: kcmfontinst/PrintDialog.cpp:52
+#: kcmfontinst/PrintDialog.cpp:51
 msgid "Waterfall"
 msgstr "Waterfall"
 
-#: kcmfontinst/PrintDialog.cpp:53
+#: kcmfontinst/PrintDialog.cpp:52
 msgid "12pt"
 msgstr "১২pt"
 
-#: kcmfontinst/PrintDialog.cpp:54
+#: kcmfontinst/PrintDialog.cpp:53
 msgid "18pt"
 msgstr "১৮pt"
 
-#: kcmfontinst/PrintDialog.cpp:55
+#: kcmfontinst/PrintDialog.cpp:54
 msgid "24pt"
 msgstr "২৪pt"
 
-#: kcmfontinst/PrintDialog.cpp:56
+#: kcmfontinst/PrintDialog.cpp:55
 msgid "36pt"
 msgstr "৩৬pt"
 
-#: kcmfontinst/PrintDialog.cpp:57
+#: kcmfontinst/PrintDialog.cpp:56
 msgid "48pt"
 msgstr "৪৮pt"
 
