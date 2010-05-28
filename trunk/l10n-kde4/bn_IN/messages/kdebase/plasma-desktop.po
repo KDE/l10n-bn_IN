@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-27 04:52+0200\n"
+"POT-Creation-Date: 2010-05-28 05:03+0200\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -37,21 +37,21 @@ msgstr "ড্যাশ-বোর্ড আড়াল করা হবে"
 msgid "Widget Dashboard"
 msgstr "উইজেট ড্যাশ-বোর্ড"
 
-#: desktopcorona.cpp:127 desktopcorona.cpp:133
-msgid "Add Panel"
-msgstr ""
-
-#: desktopcorona.cpp:528 plasmaapp.cpp:1264
-msgid "unnamed"
-msgstr ""
-
-#: desktopview.cpp:156
+#: desktopcorona.cpp:98
 msgid "Next Activity"
 msgstr "পরবর্তী কাজ"
 
-#: desktopview.cpp:160
+#: desktopcorona.cpp:104
 msgid "Previous Activity"
 msgstr "পূর্ববর্তী কাজ"
+
+#: desktopcorona.cpp:142 desktopcorona.cpp:148
+msgid "Add Panel"
+msgstr ""
+
+#: desktopcorona.cpp:543 plasmaapp.cpp:1259
+msgid "unnamed"
+msgstr ""
 
 #: interactiveconsole.cpp:63
 msgid "&Execute"
@@ -212,19 +212,19 @@ msgstr "ড্যাশ-বোর্ড প্রদর্শন"
 msgid "Activities..."
 msgstr "পরবর্তী কাজ"
 
-#: plasmaapp.cpp:1101
+#: plasmaapp.cpp:1096
 #, kde-format
 msgctxt "%1 is the activity name"
 msgid "copy of %1"
 msgstr ""
 
-#: plasmaapp.cpp:1233
+#: plasmaapp.cpp:1228
 #, kde-format
 msgid ""
 "A new widget has become available on the network:<br><b>%1</b> - <i>%2</i>"
 msgstr ""
 
-#: plasmaapp.cpp:1235
+#: plasmaapp.cpp:1230
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Add to current activity"
