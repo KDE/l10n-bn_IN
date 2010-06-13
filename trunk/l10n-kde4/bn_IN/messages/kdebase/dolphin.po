@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-31 04:58+0200\n"
+"POT-Creation-Date: 2010-06-13 04:44+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 0.3\n"
 
-#: panels/information/informationpanelcontent.cpp:235
+#: panels/information/informationpanelcontent.cpp:236
 #, kde-format
 msgctxt "@info"
 msgid "%1 item selected"
@@ -24,12 +24,12 @@ msgid_plural "%1 items selected"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
 
-#: panels/information/informationpanelcontent.cpp:276
+#: panels/information/informationpanelcontent.cpp:277
 msgctxt "@action:inmenu"
 msgid "Preview"
 msgstr "প্রাকদর্শন"
 
-#: panels/information/informationpanelcontent.cpp:281
+#: panels/information/informationpanelcontent.cpp:282
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Change Tags..."
@@ -37,7 +37,7 @@ msgctxt "@action:inmenu"
 msgid "Configure..."
 msgstr "ট্যাগ পরিবর্তন করুন..."
 
-#: panels/information/informationpanelcontent.cpp:298
+#: panels/information/informationpanelcontent.cpp:299
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel."
 msgstr ""
@@ -1914,7 +1914,7 @@ msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "'%1' জায়গাটা সঠিক নয়।"
 
-#: dolphinviewcontainer.cpp:285
+#: dolphinviewcontainer.cpp:284
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -1922,27 +1922,27 @@ msgctxt "@info"
 msgid "Searching..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:293
+#: dolphinviewcontainer.cpp:292
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ফোল্ডার খোলা হচ্ছে..."
 
-#: dolphinviewcontainer.cpp:308
+#: dolphinviewcontainer.cpp:307
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:404
+#: dolphinviewcontainer.cpp:403
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:416
+#: dolphinviewcontainer.cpp:415
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:423
+#: dolphinviewcontainer.cpp:422
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "অবৈধ প্রোটোকল"
