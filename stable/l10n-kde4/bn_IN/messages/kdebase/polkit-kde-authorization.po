@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polkit-kde-authorization\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-06-29 02:39+0200\n"
 "PO-Revision-Date: 2009-12-28 15:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -100,10 +100,6 @@ msgstr "লুকাস অ্যাপেলহান্স"
 #: KcmPkKAuthorization.cpp:46 main.cpp:45
 msgid "Trever Fischer"
 msgstr "ট্রেভের ফিশার"
-
-#: PkKAuthorization.cpp:47
-msgid "Failed to initialize PolicyKit context"
-msgstr "PolicyKit কনটেক্সট আরম্ভ করতে ব্যর্থ"
 
 #: ExplicitAuthorizationsModel.cpp:55
 msgid "User"
@@ -201,6 +197,10 @@ msgstr "%1 প্রোগ্রাম হওয়া আবশ্যক"
 #, kde-format
 msgid "Must be SELinux Context %1"
 msgstr "SELinux কনটেক্সট %1 হওয়া আবশ্যক"
+
+#: PkKAuthorization.cpp:47
+msgid "Failed to initialize PolicyKit context"
+msgstr "PolicyKit কনটেক্সট আরম্ভ করতে ব্যর্থ"
 
 #: PkKBlockGrantAuth.cpp:56
 msgid "Grant Negative Authorization"
