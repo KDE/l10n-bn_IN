@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-11 04:57+0200\n"
+"POT-Creation-Date: 2010-07-26 05:17+0200\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -22,11 +22,15 @@ msgid "PowerDevil"
 msgstr "PowerDevil"
 
 #: daemon/PowerDevilDaemon.cpp:142
-msgid "A Power Management tool for KDE4"
+#, fuzzy
+#| msgid "A Power Management tool for KDE4"
+msgid "A Power Management tool"
 msgstr "KDE4-র সাথে ব্যবহারযোগ্য বিদ্যুৎ পরিচালন ব্যবস্থা"
 
-#: daemon/PowerDevilDaemon.cpp:143
-msgid "(c) 2008 Dario Freddi"
+#: daemon/PowerDevilDaemon.cpp:143 kcmodule/PowerDevilKCM.cpp:54
+#, fuzzy
+#| msgid "(c) 2008 Dario Freddi"
+msgid "Copyright © 2008–2011 Dario Freddi"
 msgstr "(c) ২০০৮ ডারিও ফ্রেডি"
 
 #: daemon/PowerDevilDaemon.cpp:146 kcmodule/PowerDevilKCM.cpp:59
@@ -315,14 +319,14 @@ msgstr "PowerDevil কনফিগারেশন"
 msgid "A configurator for PowerDevil"
 msgstr "PowerDevil কনফিগারেশন ব্যবস্থা"
 
-#: kcmodule/PowerDevilKCM.cpp:54
-msgid "(c), 2008 Dario Freddi"
-msgstr "(c), ২০০৮ ডারিও ফ্রেডি"
-
 #: kcmodule/PowerDevilKCM.cpp:55
+#, fuzzy
+#| msgid ""
+#| "From this module, you can configure the Daemon, create and edit "
+#| "powersaving profiles, and see your system's capabilities."
 msgid ""
 "From this module, you can configure the Daemon, create and edit powersaving "
-"profiles, and see your system's capabilities."
+"profiles, and see your system’s capabilities."
 msgstr ""
 "এই মডিউল সহযোগে, ডেমন কনফিগার করুন, বিদ্যুৎ সংরক্ষণের প্রোফাইল নির্মাণ ও সম্পাদনা "
 "করুন ও সিস্টেমের ক্ষমতা দেখুন।"
@@ -331,11 +335,11 @@ msgstr ""
 msgid ""
 "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
 "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
-"started upon KDE startup.</p> <p>PowerDevil has 2 levels of configuration: a "
+"started upon startup.</p> <p>PowerDevil has two levels of configuration: a "
 "general one, that is always applied, and a profile-based one, that lets you "
 "configure a specific behavior in every situation. You can also have a look "
 "at your system capabilities in the last tab. To get you started, first "
-"configure the options in the first 2 tabs. Then switch to the fourth one, "
+"configure the options in the first two tabs. Then switch to the fourth one, "
 "and create/edit your profiles. Last but not least, assign your profiles in "
 "the third Tab. You do not have to restart PowerDevil, just click \"Apply\", "
 "and you are done.</p>"
@@ -948,6 +952,9 @@ msgid ""
 "The configuration module can not be started, since there seems to be a "
 "problem with the PowerDevil Daemon. Read below for more details"
 msgstr ""
+
+#~ msgid "(c), 2008 Dario Freddi"
+#~ msgstr "(c), ২০০৮ ডারিও ফ্রেডি"
 
 #~ msgid "Scheme support"
 #~ msgstr "স্কিম সমর্থন ব্যবস্থা"
