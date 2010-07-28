@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-26 05:17+0200\n"
+"POT-Creation-Date: 2010-07-28 05:08+0200\n"
 "PO-Revision-Date: 2008-12-31 18:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: application.cpp:59 navigator.cpp:448
+#: application.cpp:59 navigator.cpp:440
 msgid "KDE Help Center"
 msgstr "KDE Help Center"
 
@@ -407,14 +407,6 @@ msgstr "সূচিপত্রে প্রত্যাবর্তন কর�
 msgid "&Last Search Result"
 msgstr "সর্বশেষ অনুসন্ধানের ফলাফল (&L)"
 
-#: mainwindow.cpp:261
-msgid "Build Search Index..."
-msgstr "অনুসন্ধানের ইন্ডেক্স নির্মাণ করুন..."
-
-#: mainwindow.cpp:267
-msgid "Show Search Error Log"
-msgstr "অনুসন্ধানের ত্রুটির লগ প্রদর্শন করা হবে"
-
 #: mainwindow.cpp:274
 msgid "Configure Fonts..."
 msgstr "ফন্ট কনফিগার করুন..."
@@ -427,40 +419,40 @@ msgstr "ফন্টের মাপ বৃদ্ধি করুন"
 msgid "Decrease Font Sizes"
 msgstr "ফন্টের মাপ হ্রাস করুন"
 
-#: navigator.cpp:117
+#: navigator.cpp:114
 msgid "&Search"
 msgstr "অনুসন্ধান (&S)"
 
-#: navigator.cpp:174
+#: navigator.cpp:170
 msgid "&Contents"
 msgstr "সূচি (&C)"
 
-#: navigator.cpp:187
+#: navigator.cpp:184
 msgid "Search Options"
 msgstr "অনুসন্ধানের বিকল্প"
 
-#: navigator.cpp:195
+#: navigator.cpp:193
 msgid "G&lossary"
 msgstr "শব্দকোষ (&l)"
 
-#: navigator.cpp:447
+#: navigator.cpp:439
 msgid "Start Page"
 msgstr "প্রারম্ভিক পৃষ্ঠা"
 
-#: navigator.cpp:535
+#: navigator.cpp:529
 msgid "Unable to run search program."
 msgstr "অনুসন্ধানের প্রোগ্রাম সঞ্চালন করতে ব্যর্থ।"
 
-#: navigator.cpp:575
+#: navigator.cpp:571
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr ""
 "অনুসন্ধানের ইন্ডেক্স বর্তমানে উপস্থিত নেই। আপনি কি এখন ইন্ডেক্স তৈরি করতে ইচ্ছুক?"
 
-#: navigator.cpp:579
+#: navigator.cpp:575
 msgid "Create"
 msgstr "নির্মাণ করা হবে"
 
-#: navigator.cpp:580
+#: navigator.cpp:576
 msgid "Do Not Create"
 msgstr "নির্মাণ করা হবে না"
 
@@ -488,25 +480,25 @@ msgstr "বর্তমানে দৃশ্যমান চলাচলের 
 msgid "&File"
 msgstr "ফাইল (&F)"
 
-#. i18n: file: khelpcenterui.rc:12
+#. i18n: file: khelpcenterui.rc:10
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:15
 msgid "&Edit"
 msgstr "সম্পাদনা (&E)"
 
-#. i18n: file: khelpcenterui.rc:20
+#. i18n: file: khelpcenterui.rc:18
 #. i18n: ectx: Menu (view)
 #: rc.cpp:18
 msgid "&View"
 msgstr "প্রদর্শন (&V)"
 
-#. i18n: file: khelpcenterui.rc:25
+#. i18n: file: khelpcenterui.rc:23
 #. i18n: ectx: Menu (go)
 #: rc.cpp:21
 msgid "&Go"
 msgstr "গন্তব্য (&G)"
 
-#. i18n: file: khelpcenterui.rc:40
+#. i18n: file: khelpcenterui.rc:37
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:24
 msgid "Main Toolbar"
@@ -593,39 +585,45 @@ msgstr "সর্বাধিক ফলাফল: (&r)"
 msgid "&Scope selection:"
 msgstr ""
 
-#: searchwidget.cpp:110
+#: searchwidget.cpp:109
 msgid "Scope"
 msgstr ""
 
-#: searchwidget.cpp:113
+#: searchwidget.cpp:112
 msgid "Build Search &Index..."
 msgstr "অনুসন্ধানের ইন্ডেক্স নির্মাণ করুন... (&I)"
 
-#: searchwidget.cpp:368
+#: searchwidget.cpp:367
 msgctxt "Label for searching documentation using custom (user defined) scope"
 msgid "Custom"
 msgstr "স্বনির্ধারিত"
 
-#: searchwidget.cpp:370
+#: searchwidget.cpp:369
 msgctxt "Label for searching documentation using default search scope"
 msgid "Default"
 msgstr "ডিফল্ট মান"
 
-#: searchwidget.cpp:372
+#: searchwidget.cpp:371
 msgctxt "Label for searching documentation in all subsections"
 msgid "All"
 msgstr "সমগ্র"
 
-#: searchwidget.cpp:374
+#: searchwidget.cpp:373
 msgctxt "Label for scope that deselects all search subsections"
 msgid "None"
 msgstr "শূণ্য"
 
-#: searchwidget.cpp:376
+#: searchwidget.cpp:375
 msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "অজানা"
 
-#: view.cpp:211
+#: view.cpp:212
 msgid "Copy Link Address"
 msgstr "লিঙ্কের ঠিকানা কপি করুন"
+
+#~ msgid "Build Search Index..."
+#~ msgstr "অনুসন্ধানের ইন্ডেক্স নির্মাণ করুন..."
+
+#~ msgid "Show Search Error Log"
+#~ msgstr "অনুসন্ধানের ত্রুটির লগ প্রদর্শন করা হবে"
