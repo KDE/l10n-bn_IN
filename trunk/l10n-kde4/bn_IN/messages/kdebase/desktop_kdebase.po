@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-16 03:19+0000\n"
+"POT-Creation-Date: 2010-08-18 03:41+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -196,7 +196,7 @@ msgctxt "Name"
 msgid "Bookmark Editor"
 msgstr "বুকমার্ক টুল-বার"
 
-#: apps/keditbookmarks/keditbookmarks.desktop:57
+#: apps/keditbookmarks/keditbookmarks.desktop:58
 msgctxt "Comment"
 msgid "Bookmark Organizer and Editor"
 msgstr ""
@@ -268,7 +268,7 @@ msgctxt "Name"
 msgid "Konqueror Browser Preloader"
 msgstr "KDED Konqueror প্রি-লোডার মডিউল"
 
-#: apps/konqueror/preloader/konqy_preloader.desktop:54
+#: apps/konqueror/preloader/konqy_preloader.desktop:55
 msgctxt "Comment"
 msgid "Reduces Konqueror startup time"
 msgstr "Konqueror আরম্ভ করতে ব্যবহৃত সময় হ্রাস করে"
@@ -1194,7 +1194,7 @@ msgctxt "Name"
 msgid "Activity Manager"
 msgstr "পরিসেবা পরিচালনব্যবস্থা"
 
-#: runtime/activitymanager/activitymanager.desktop:60
+#: runtime/activitymanager/activitymanager.desktop:61
 msgctxt "Comment"
 msgid "The activity management backend"
 msgstr ""
@@ -1207,7 +1207,7 @@ msgctxt "Name"
 msgid "Social Desktop"
 msgstr "ডেস্কটপ"
 
-#: runtime/attica/kcm/kcm_attica.desktop:61
+#: runtime/attica/kcm/kcm_attica.desktop:62
 msgctxt "Comment"
 msgid "Manage Social Desktop Providers"
 msgstr ""
@@ -1416,7 +1416,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "সূচনাবার্তা"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:62
+#: runtime/kcontrol/knotify/kcmnotify.desktop:63
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "সিস্টেম সংক্রান্ত সূচনাবার্তা কনফিগারেশন"
@@ -1474,18 +1474,18 @@ msgctxt "Comment"
 msgid "Global Keyboard Shortcuts"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:55
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:56
 msgctxt "Name"
 msgid "kglobalaccel"
 msgstr ""
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:123
-#: runtime/phonon/platform_kde/phonon.notifyrc:52
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:124
+#: runtime/phonon/platform_kde/phonon.notifyrc:53
 msgctxt "Name"
 msgid "Application"
 msgstr "অ্যাপ্লিকেশন"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:201
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:202
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Manuals"
@@ -1493,7 +1493,7 @@ msgctxt "Comment"
 msgid "The application name"
 msgstr "অ্যাপ্লিকেশনের সহায়িকা"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:266
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:267
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -1501,12 +1501,12 @@ msgctxt "Name"
 msgid "Global Shortcut Registration"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:328
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:329
 msgctxt "Comment"
 msgid "An application registered new global shortcuts."
 msgstr ""
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:392
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:393
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -1514,7 +1514,7 @@ msgctxt "Name"
 msgid "Global Shortcut Triggered"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: runtime/kglobalaccel/kglobalaccel.notifyrc:452
+#: runtime/kglobalaccel/kglobalaccel.notifyrc:453
 msgctxt "Comment"
 msgid "The user triggered a global shortcut"
 msgstr ""
@@ -1680,7 +1680,7 @@ msgctxt "Name"
 msgid "Directory Watcher"
 msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
 
-#: runtime/kioslave/desktop/desktopnotifier.desktop:60
+#: runtime/kioslave/desktop/desktopnotifier.desktop:61
 msgctxt "Comment"
 msgid "Monitors directories for changes"
 msgstr ""
@@ -1740,7 +1740,7 @@ msgctxt "Name"
 msgid "Remote URL Change Notifier"
 msgstr ""
 
-#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:49
+#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:50
 msgctxt "Comment"
 msgid "Provides change notification for network folders"
 msgstr ""
@@ -1873,17 +1873,17 @@ msgctxt "Name"
 msgid "Hardware notifications"
 msgstr "সূচনাবার্তা"
 
-#: runtime/knotify/hardwarenotifications.notifyrc:49
+#: runtime/knotify/hardwarenotifications.notifyrc:50
 msgctxt "Comment"
 msgid "Notifications triggered by solid"
 msgstr ""
 
-#: runtime/knotify/hardwarenotifications.notifyrc:96
+#: runtime/knotify/hardwarenotifications.notifyrc:98
 msgctxt "Name"
 msgid "Mount or unmount error"
 msgstr ""
 
-#: runtime/knotify/hardwarenotifications.notifyrc:142
+#: runtime/knotify/hardwarenotifications.notifyrc:145
 msgctxt "Comment"
 msgid "There has been a problem mounting or unmounting a device"
 msgstr ""
@@ -1947,7 +1947,7 @@ msgid "There was a serious error causing the program to exit"
 msgstr "একটি মারাত্মক ত্রুটির ফলে প্রোগ্রামটি বন্ধ করতে বাধ্য হয়েছে"
 
 #: runtime/knotify/kde.notifyrc:847
-#: workspace/powerdevil/powerdevil.notifyrc:276
+#: workspace/powerdevil/powerdevil.notifyrc:277
 msgctxt "Name"
 msgid "Notification"
 msgstr "সূচনা"
@@ -1958,8 +1958,8 @@ msgid "Something special happened in the program"
 msgstr "প্রোগ্রামের মধ্যে বিশেষ কিছু ঘটেছে"
 
 #: runtime/knotify/kde.notifyrc:1010
-#: workspace/freespacenotifier/freespacenotifier.notifyrc:88
-#: workspace/powerdevil/powerdevil.notifyrc:123
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:90
+#: workspace/powerdevil/powerdevil.notifyrc:124
 msgctxt "Name"
 msgid "Warning"
 msgstr "সতর্কবার্তা"
@@ -2089,7 +2089,7 @@ msgctxt "Name"
 msgid "Password Caching"
 msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
 
-#: runtime/kpasswdserver/kpasswdserver.desktop:52
+#: runtime/kpasswdserver/kpasswdserver.desktop:53
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Password caching support"
@@ -2105,7 +2105,7 @@ msgctxt "Name"
 msgid "Time Zone"
 msgstr "KDE Time Zone ডেমন"
 
-#: runtime/ktimezoned/ktimezoned.desktop:61
+#: runtime/ktimezoned/ktimezoned.desktop:62
 msgctxt "Comment"
 msgid "Provides the system's time zone to applications"
 msgstr ""
@@ -2148,7 +2148,7 @@ msgctxt "Name"
 msgid "7Digital"
 msgstr "ডিজিট্যাল ঘড়ি"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/7digital.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/7digital.desktop:54
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
@@ -2186,7 +2186,7 @@ msgctxt "Name"
 msgid "Amazon"
 msgstr "ওমান"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/amazon.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/amazon.desktop:54
 msgctxt "Query"
 msgid ""
 "http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias=aps&field-keywords=\\"
@@ -2198,7 +2198,7 @@ msgctxt "Name"
 msgid "Amazon MP3"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/amazon_mp3.desktop:55
+#: runtime/kurifilter-plugins/ikws/searchproviders/amazon_mp3.desktop:56
 msgctxt "Query"
 msgid ""
 "http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias=digital-music&field-"
@@ -2240,7 +2240,7 @@ msgctxt "Name"
 msgid "Baidu"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/baidu.desktop:19
+#: runtime/kurifilter-plugins/ikws/searchproviders/baidu.desktop:20
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.dict.cc/?s=\\\\{@}"
@@ -2253,7 +2253,7 @@ msgctxt "Name"
 msgid "Beolingus Online Dictionary"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/beolingus.desktop:54
+#: runtime/kurifilter-plugins/ikws/searchproviders/beolingus.desktop:55
 msgctxt "Query"
 msgid ""
 "http://dict.tu-chemnitz.de/dings.cgi?"
@@ -2269,7 +2269,7 @@ msgctxt "Name"
 msgid "Bing"
 msgstr "বেনিন"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/bing.desktop:18
+#: runtime/kurifilter-plugins/ikws/searchproviders/bing.desktop:19
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2282,7 +2282,7 @@ msgctxt "Name"
 msgid "Blip.tv"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/blip.desktop:54
+#: runtime/kurifilter-plugins/ikws/searchproviders/blip.desktop:55
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2480,7 +2480,7 @@ msgctxt "Name"
 msgid "Duck Duck Go"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/duckduckgo.desktop:49
+#: runtime/kurifilter-plugins/ikws/searchproviders/duckduckgo.desktop:50
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dx.doi.org/\\\\{@}"
@@ -2493,7 +2493,7 @@ msgctxt "Name"
 msgid "Duck Duck Go Info"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/duckduckgo_info.desktop:47
+#: runtime/kurifilter-plugins/ikws/searchproviders/duckduckgo_info.desktop:48
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dx.doi.org/\\\\{@}"
@@ -2506,7 +2506,7 @@ msgctxt "Name"
 msgid "Duck Duck Go Shopping"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/duckduckgo_shopping.desktop:47
+#: runtime/kurifilter-plugins/ikws/searchproviders/duckduckgo_shopping.desktop:48
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dx.doi.org/\\\\{@}"
@@ -2522,7 +2522,7 @@ msgctxt "Name"
 msgid "Ecosia search engine"
 msgstr "সার্চ-ইঞ্জিন"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/ecosia.desktop:54
+#: runtime/kurifilter-plugins/ikws/searchproviders/ecosia.desktop:55
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2599,7 +2599,7 @@ msgctxt "Name"
 msgid "Facebook"
 msgstr "Faces"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/facebook.desktop:55
+#: runtime/kurifilter-plugins/ikws/searchproviders/facebook.desktop:56
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2622,7 +2622,7 @@ msgctxt "Name"
 msgid "Flickr Creative Commons"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/flickrcc.desktop:50
+#: runtime/kurifilter-plugins/ikws/searchproviders/flickrcc.desktop:51
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2635,7 +2635,7 @@ msgctxt "Name"
 msgid "Flickr"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/flickr.desktop:56
+#: runtime/kurifilter-plugins/ikws/searchproviders/flickr.desktop:57
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2713,7 +2713,7 @@ msgctxt "Name"
 msgid "GitHub"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/github.desktop:54
+#: runtime/kurifilter-plugins/ikws/searchproviders/github.desktop:55
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2729,7 +2729,7 @@ msgctxt "Name"
 msgid "Gitorious"
 msgstr "এডিটর"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/gitorious.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/gitorious.desktop:54
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2767,7 +2767,7 @@ msgctxt "Name"
 msgid "Google Code"
 msgstr "Google মুভিস"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/google_code.desktop:52
+#: runtime/kurifilter-plugins/ikws/searchproviders/google_code.desktop:53
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://froogle.google.com/froogle?q=\\\\{@}"
@@ -2827,7 +2827,7 @@ msgctxt "Name"
 msgid "Google Maps"
 msgstr "Google Groups (গ্রুপ)"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/google_maps.desktop:55
+#: runtime/kurifilter-plugins/ikws/searchproviders/google_maps.desktop:56
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -2913,7 +2913,7 @@ msgctxt "Name"
 msgid "Identi.ca Groups"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/identica_groups.desktop:54
+#: runtime/kurifilter-plugins/ikws/searchproviders/identica_groups.desktop:55
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2926,7 +2926,7 @@ msgctxt "Name"
 msgid "Identi.ca Notices"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/identica_notices.desktop:49
+#: runtime/kurifilter-plugins/ikws/searchproviders/identica_notices.desktop:50
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://freshmeat.net/search/?q=\\\\{@}"
@@ -2939,7 +2939,7 @@ msgctxt "Name"
 msgid "Identi.ca People"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/identica_people.desktop:50
+#: runtime/kurifilter-plugins/ikws/searchproviders/identica_people.desktop:51
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -2978,7 +2978,7 @@ msgctxt "Name"
 msgid "Jamendo"
 msgstr "Jamin"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/jamendo.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/jamendo.desktop:54
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -3039,7 +3039,7 @@ msgctxt "Name"
 msgid "KDE Forums"
 msgstr "KDE-র কর্মক্ষমতা"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/kde_forums.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/kde_forums.desktop:54
 msgctxt "Query"
 msgid ""
 "http://forum.kde.org/search.php?keywords=\\\\{@}"
@@ -3054,7 +3054,7 @@ msgctxt "Name"
 msgid "KDE Look"
 msgstr "KDE 2"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/kde_look.desktop:52
+#: runtime/kurifilter-plugins/ikws/searchproviders/kde_look.desktop:53
 #, fuzzy
 #| msgctxt "Query"
 #| msgid ""
@@ -3071,7 +3071,7 @@ msgctxt "Name"
 msgid "KDE TechBase"
 msgstr "KDE-র খবরাখবর"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/kde_techbase.desktop:51
+#: runtime/kurifilter-plugins/ikws/searchproviders/kde_techbase.desktop:52
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
@@ -3087,7 +3087,7 @@ msgctxt "Name"
 msgid "KDE UserBase"
 msgstr "KDE ব্যবহারকারীদের জন্য সহায়িকা"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/kde_userbase.desktop:51
+#: runtime/kurifilter-plugins/ikws/searchproviders/kde_userbase.desktop:52
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
@@ -3123,7 +3123,7 @@ msgctxt "Name"
 msgid "Magnatune"
 msgstr "ভানুয়াটু"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/magnatune.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/magnatune.desktop:54
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -3265,7 +3265,7 @@ msgctxt "Name"
 msgid "openDesktop.org"
 msgstr "ডেস্কটপ"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/opendesktop.desktop:30
+#: runtime/kurifilter-plugins/ikws/searchproviders/opendesktop.desktop:31
 #, fuzzy
 #| msgctxt "Query"
 #| msgid ""
@@ -3445,7 +3445,7 @@ msgctxt "Name"
 msgid "Urban Dictionary"
 msgstr "অভিধান"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/urbandictionary.desktop:52
+#: runtime/kurifilter-plugins/ikws/searchproviders/urbandictionary.desktop:53
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.hyperdictionary.com/search.aspx?define=\\\\{@}"
@@ -3475,7 +3475,7 @@ msgctxt "Name"
 msgid "Vimeo"
 msgstr "Vivisimo"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/vimeo.desktop:52
+#: runtime/kurifilter-plugins/ikws/searchproviders/vimeo.desktop:53
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dict.leo.org/?search=\\\\{@}"
@@ -3522,7 +3522,7 @@ msgctxt "Name"
 msgid "Wikia"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/wikia.desktop:55
+#: runtime/kurifilter-plugins/ikws/searchproviders/wikia.desktop:56
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
@@ -3579,7 +3579,7 @@ msgctxt "Name"
 msgid "Yahoo"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo.desktop:56
+#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo.desktop:57
 msgctxt "Query"
 msgid ""
 "http://search.yahoo.com/search?toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-701&p=\\"
@@ -3594,7 +3594,7 @@ msgctxt "Name"
 msgid "Yahoo Images"
 msgstr "ছবি"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_image.desktop:54
+#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_image.desktop:55
 msgctxt "Query"
 msgid ""
 "http://images.search.yahoo.com/search/images;_ylt=A0geuy0K6JZLsVkB4m1XNyoA?"
@@ -3606,7 +3606,7 @@ msgctxt "Name"
 msgid "Yahoo Local"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_local.desktop:51
+#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_local.desktop:52
 msgctxt "Query"
 msgid ""
 "http://local.yahoo.com/results?stx=\\\\{@}&ei=UTF-8&fr=yfp-t-701&fr2=tab-img"
@@ -3617,7 +3617,7 @@ msgctxt "Name"
 msgid "Yahoo Shopping"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_shopping.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_shopping.desktop:54
 msgctxt "Query"
 msgid ""
 "http://shopping.yahoo.com/search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;"
@@ -3630,7 +3630,7 @@ msgctxt "Name"
 msgid "Yahoo Video"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_video.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/yahoo_video.desktop:54
 msgctxt "Query"
 msgid ""
 "http://video.search.yahoo.com/search/video;_ylt=A0WTb_3a6JZLSHwAK7.JzbkF?"
@@ -3642,7 +3642,7 @@ msgctxt "Name"
 msgid "YouTube"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/youtube.desktop:53
+#: runtime/kurifilter-plugins/ikws/searchproviders/youtube.desktop:54
 msgctxt "Query"
 msgid "http://www.youtube.com/results?search_query=\\\\{@}&search_type=&aq=f"
 msgstr ""
@@ -3675,12 +3675,12 @@ msgctxt "Comment"
 msgid "Wallet"
 msgstr "Wallet সার্ভার"
 
-#: runtime/kwalletd/kwalletd.notifyrc:53
+#: runtime/kwalletd/kwalletd.notifyrc:54
 msgctxt "Name"
 msgid "kwalletd"
 msgstr ""
 
-#: runtime/kwalletd/kwalletd.notifyrc:121
+#: runtime/kwalletd/kwalletd.notifyrc:122
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Change Password"
@@ -3688,7 +3688,7 @@ msgctxt "Name"
 msgid "Needs password"
 msgstr "পাসওয়ার্ড পরিবর্তন"
 
-#: runtime/kwalletd/kwalletd.notifyrc:187
+#: runtime/kwalletd/kwalletd.notifyrc:188
 msgctxt "Comment"
 msgid "The KDE Wallet Daemon requests a password"
 msgstr ""
@@ -6685,7 +6685,7 @@ msgctxt "Name"
 msgid "Semantic Data Storage"
 msgstr "Nepomuk ডাটা সংরক্ষণব্যবস্থা"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:49
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:50
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
@@ -6693,42 +6693,42 @@ msgctxt "Comment"
 msgid "Semantic Desktop"
 msgstr "ডেস্কটপ"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:96
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:98
 msgctxt "Name"
 msgid "Failed to start Nepomuk"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:156
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:158
 msgctxt "Comment"
 msgid "The Nepomuk Semantic Desktop system could not be started"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:213
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:215
 msgctxt "Name"
 msgid "Converting Nepomuk data"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:285
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:287
 msgctxt "Comment"
 msgid "All Nepomuk data is converted to a new storage backend"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:358
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:360
 msgctxt "Name"
 msgid "Converting Nepomuk data failed"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:430
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:432
 msgctxt "Comment"
 msgid "Converting Nepomuk data to a new backend failed"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:503
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:505
 msgctxt "Name"
 msgid "Converting Nepomuk data done"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:575
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:577
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
 msgstr ""
@@ -6753,43 +6753,43 @@ msgctxt "Comment"
 msgid "Desktop Search"
 msgstr "ডেস্কটপে অনুসন্ধান"
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:52
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:53
 msgctxt "Name"
 msgid "Initial Indexing started"
 msgstr ""
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:126
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:127
 msgctxt "Comment"
 msgid "Indexing of local files for fast searches has started."
 msgstr ""
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:184
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:185
 msgctxt "Name"
 msgid "Initial Indexing finished"
 msgstr ""
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:257
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:258
 msgctxt "Comment"
 msgid ""
 "The initial indexing of local files for fast desktop searches has completed."
 msgstr ""
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:316
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:317
 msgctxt "Name"
 msgid "Indexing suspended"
 msgstr ""
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:389
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:390
 msgctxt "Comment"
 msgid "File indexing has been suspended by the search service."
 msgstr ""
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:446
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:447
 msgctxt "Name"
 msgid "Indexing resumed"
 msgstr ""
 
-#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:519
+#: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:520
 msgctxt "Comment"
 msgid "File indexing has been resumed by the search service."
 msgstr ""
@@ -6802,7 +6802,7 @@ msgctxt "Name"
 msgid "Phonon"
 msgstr "GPhoto"
 
-#: runtime/phonon/kcm/kcm_phonon.desktop:59
+#: runtime/phonon/kcm/kcm_phonon.desktop:60
 msgctxt "Comment"
 msgid "Sound and Video Configuration"
 msgstr "শব্দ ও ভিডিও কনফিগারেশন"
@@ -6825,7 +6825,7 @@ msgctxt "Name"
 msgid "Sound Policy"
 msgstr "সাউন্ড প্রসেসর"
 
-#: runtime/phonon/kded-module/phononserver.desktop:54
+#: runtime/phonon/kded-module/phononserver.desktop:55
 msgctxt "Comment"
 msgid "Provides sound system policy to applications"
 msgstr ""
@@ -6843,12 +6843,12 @@ msgctxt "Comment"
 msgid "Multimedia System"
 msgstr "মাল্টি-মিডিয়া প্লেয়ার"
 
-#: runtime/phonon/platform_kde/phonon.notifyrc:133
+#: runtime/phonon/platform_kde/phonon.notifyrc:134
 msgctxt "Name"
 msgid "Audio Device Fallback"
 msgstr "অডিও ডিভাইসের ফল-ব্যাক"
 
-#: runtime/phonon/platform_kde/phonon.notifyrc:205
+#: runtime/phonon/platform_kde/phonon.notifyrc:206
 msgctxt "Comment"
 msgid ""
 "Notification on automatic fallback if the preferred device is unavailable"
@@ -6872,7 +6872,7 @@ msgctxt "Name"
 msgid "Newspaper Activity"
 msgstr "নেটওয়ার্ক ও সংযোগ"
 
-#: runtime/plasma/containments/newspaper/plasma-containment-newspaper.desktop:43
+#: runtime/plasma/containments/newspaper/plasma-containment-newspaper.desktop:44
 msgctxt "Comment"
 msgid "An activity that puts widgets on two columns"
 msgstr ""
@@ -6882,7 +6882,7 @@ msgctxt "Name"
 msgid "Save remote widgets' policies"
 msgstr ""
 
-#: runtime/plasma/remotewidgetshelper/kcm_remotewidgets.actions:41
+#: runtime/plasma/remotewidgetshelper/kcm_remotewidgets.actions:42
 msgctxt "Description"
 msgid "Prevents the system from saving remote plasma widgets' policies"
 msgstr ""
@@ -6903,7 +6903,7 @@ msgctxt "Name"
 msgid "Javascript Addon"
 msgstr "Java ও JavaScript"
 
-#: runtime/plasma/scriptengines/javascript/data/plasma-packagestructure-javascript-addon.desktop:10
+#: runtime/plasma/scriptengines/javascript/data/plasma-packagestructure-javascript-addon.desktop:12
 msgctxt "Comment"
 msgid "Addons for Javascript Plasma plugins"
 msgstr ""
@@ -6977,7 +6977,7 @@ msgctxt "Name"
 msgid "Drive Ejector"
 msgstr ""
 
-#: runtime/solidautoeject/solidautoeject.desktop:52
+#: runtime/solidautoeject/solidautoeject.desktop:53
 msgctxt "Comment"
 msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
@@ -7014,7 +7014,7 @@ msgctxt "Name"
 msgid "Hardware Detection"
 msgstr "হার্ডওয়্যার"
 
-#: runtime/soliduiserver/soliduiserver.desktop:54
+#: runtime/soliduiserver/soliduiserver.desktop:55
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
@@ -7027,7 +7027,7 @@ msgctxt "Name"
 msgid "Free Space Notifier"
 msgstr "ডিভাইসের সূচনা ব্যবস্থা"
 
-#: workspace/freespacenotifier/freespacenotifier.desktop:45
+#: workspace/freespacenotifier/freespacenotifier.desktop:46
 msgctxt "Comment"
 msgid "Warns when running out of space on your home folder"
 msgstr ""
@@ -7040,23 +7040,23 @@ msgctxt "Comment"
 msgid "KDE Free Space Notifier Daemon"
 msgstr "KDE Notification ডেমন"
 
-#: workspace/freespacenotifier/freespacenotifier.notifyrc:45
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:46
 msgctxt "Name"
 msgid "Low Disk Space"
 msgstr ""
 
-#: workspace/freespacenotifier/freespacenotifier.notifyrc:171
-#: workspace/powerdevil/powerdevil.notifyrc:206
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:173
+#: workspace/powerdevil/powerdevil.notifyrc:207
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr ""
 
-#: workspace/freespacenotifier/freespacenotifier.notifyrc:241
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:243
 msgctxt "Name"
 msgid "Running low on disk space"
 msgstr ""
 
-#: workspace/freespacenotifier/freespacenotifier.notifyrc:280
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:283
 msgctxt "Comment"
 msgid "You are running low on disk space"
 msgstr ""
@@ -7248,7 +7248,7 @@ msgctxt "Name"
 msgid "Desktop Theme"
 msgstr "ডেস্কটপ"
 
-#: workspace/kcontrol/desktoptheme/desktoptheme.desktop:57
+#: workspace/kcontrol/desktoptheme/desktoptheme.desktop:58
 msgctxt "Comment"
 msgid "Customize the desktop theme"
 msgstr ""
@@ -7353,7 +7353,7 @@ msgctxt "Name"
 msgid "Login Manager Control Module"
 msgstr "তারিখ ও সময়"
 
-#: workspace/kcontrol/kdm/kcmkdm_actions.actions:47
+#: workspace/kcontrol/kdm/kcmkdm_actions.actions:48
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Date and time settings"
@@ -7361,30 +7361,30 @@ msgctxt "Name"
 msgid "Save the Login Manager settings"
 msgstr "তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
 
-#: workspace/kcontrol/kdm/kcmkdm_actions.actions:89
+#: workspace/kcontrol/kdm/kcmkdm_actions.actions:91
 msgctxt "Description"
 msgid ""
 "Administrator authorization is required to change the Login Manager settings"
 msgstr ""
 
-#: workspace/kcontrol/kdm/kcmkdm_actions.actions:133
+#: workspace/kcontrol/kdm/kcmkdm_actions.actions:136
 msgctxt "Name"
 msgid "Manage user images shown in the Login Manager"
 msgstr ""
 
-#: workspace/kcontrol/kdm/kcmkdm_actions.actions:173
+#: workspace/kcontrol/kdm/kcmkdm_actions.actions:177
 msgctxt "Description"
 msgid ""
 "Administrator authorization is required to manage user images for the Login "
 "Manager"
 msgstr ""
 
-#: workspace/kcontrol/kdm/kcmkdm_actions.actions:217
+#: workspace/kcontrol/kdm/kcmkdm_actions.actions:222
 msgctxt "Name"
 msgid "Manage themes for the Login Manager"
 msgstr ""
 
-#: workspace/kcontrol/kdm/kcmkdm_actions.actions:257
+#: workspace/kcontrol/kdm/kcmkdm_actions.actions:263
 msgctxt "Description"
 msgid ""
 "Administrator authorization is required to manage themes for the Login "
@@ -7906,7 +7906,7 @@ msgctxt "Name"
 msgid "LXDE"
 msgstr ""
 
-#: workspace/kdm/kfrontend/sessions/lxde.desktop:50
+#: workspace/kdm/kfrontend/sessions/lxde.desktop:51
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The UNIX Desktop Environment"
@@ -8578,7 +8578,7 @@ msgid "Press, move down, release."
 msgstr ""
 
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:3451
-#: workspace/kwin/kwin.notifyrc:3554
+#: workspace/kwin/kwin.notifyrc:3555
 msgctxt "Name"
 msgid "New Window"
 msgstr "নতুন উইন্ডো"
@@ -8616,7 +8616,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "ওয়েব শর্ট-কাট"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:57
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:58
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
@@ -8642,7 +8642,7 @@ msgctxt "Name"
 msgid "Device Viewer"
 msgstr "ছবি প্রদর্শন ব্যবস্থা"
 
-#: workspace/kinfocenter/Modules/devinfo/devinfo.desktop:57
+#: workspace/kinfocenter/Modules/devinfo/devinfo.desktop:58
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Picture Viewer"
@@ -8695,7 +8695,7 @@ msgctxt "Name"
 msgid "Summary"
 msgstr ""
 
-#: workspace/kinfocenter/Modules/infosummary/kcm_infosummary.desktop:59
+#: workspace/kinfocenter/Modules/infosummary/kcm_infosummary.desktop:60
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Hardware"
@@ -9024,7 +9024,7 @@ msgctxt "Name"
 msgid "Session Management"
 msgstr "সেশান পরিচালন ব্যবস্থা"
 
-#: workspace/ksmserver/kcm/kcmsmserver.desktop:58
+#: workspace/ksmserver/kcm/kcmsmserver.desktop:59
 msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "সেশান পরিচালন ব্যবস্থা ও লগ-আউটের বৈশিষ্ট্য কনফিগার করুন"
@@ -9271,22 +9271,22 @@ msgctxt "Comment"
 msgid "System Monitor"
 msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:51
+#: workspace/ksysguard/example/ksysguard.notifyrc:52
 msgctxt "Name"
 msgid "Pattern Matched"
 msgstr ""
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:127
+#: workspace/ksysguard/example/ksysguard.notifyrc:128
 msgctxt "Comment"
 msgid "Search pattern matched"
 msgstr ""
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:207
+#: workspace/ksysguard/example/ksysguard.notifyrc:208
 msgctxt "Name"
 msgid "Sensor Alarm"
 msgstr ""
 
-#: workspace/ksysguard/example/ksysguard.notifyrc:283
+#: workspace/ksysguard/example/ksysguard.notifyrc:284
 msgctxt "Comment"
 msgid "Sensor exceeded critical limit"
 msgstr ""
@@ -9552,7 +9552,7 @@ msgctxt "Name"
 msgid "Glide"
 msgstr "Glines"
 
-#: workspace/kwin/effects/glide/glide.desktop:42
+#: workspace/kwin/effects/glide/glide.desktop:43
 msgctxt "Comment"
 msgid "Windows Glide Effect as they are open and closed"
 msgstr ""
@@ -9692,7 +9692,7 @@ msgctxt "Name"
 msgid "Screenshot"
 msgstr "স্ক্রিন-সেভার"
 
-#: workspace/kwin/effects/screenshot/screenshot.desktop:15
+#: workspace/kwin/effects/screenshot/screenshot.desktop:16
 msgctxt "Comment"
 msgid "Saves screenshot of active window into the home directory"
 msgstr ""
@@ -10000,7 +10000,7 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "উইন্ডো সংক্রান্ড তথ্য"
 
-#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:57
+#: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:58
 msgctxt "Comment"
 msgid "Configure the look and feel of window titles"
 msgstr "উইন্ডোর শিরোনামের চেহারাছবি কনফিগার করতে ব্যবহৃত হয়"
@@ -10013,7 +10013,7 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "ডেস্কটপ"
 
-#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:60
+#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:61
 msgctxt "Comment"
 msgid "You can configure how many virtual desktops there are."
 msgstr "ভার্চুয়াল ডেস্কটপের সংখ্যা কনফিগার করা যাবে।"
@@ -10076,7 +10076,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "উইন্ডো বন্ধ করুন"
 
-#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:57
+#: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:58
 msgctxt "Comment"
 msgid "Configure settings specifically for a window"
 msgstr "কোনো উইন্ডোর জন্য সুনির্দিষ্ট বৈশিষ্ট্য কনফিগার করুন"
@@ -10102,7 +10102,7 @@ msgctxt "Name"
 msgid "Task Switcher"
 msgstr ""
 
-#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:55
+#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:56
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the behavior of Java and JavaScript"
@@ -10118,438 +10118,438 @@ msgctxt "Comment"
 msgid "KWin Window Manager"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
-#: workspace/kwin/kwin.notifyrc:50
+#: workspace/kwin/kwin.notifyrc:51
 msgctxt "Name"
 msgid "Change to Desktop 1"
 msgstr "ডেস্কটপ ১-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:134
+#: workspace/kwin/kwin.notifyrc:135
 msgctxt "Comment"
 msgid "Virtual desktop one is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ এক নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:219
+#: workspace/kwin/kwin.notifyrc:220
 msgctxt "Name"
 msgid "Change to Desktop 2"
 msgstr "ডেস্কটপ ২-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:303
+#: workspace/kwin/kwin.notifyrc:304
 msgctxt "Comment"
 msgid "Virtual desktop two is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ দুই নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:389
+#: workspace/kwin/kwin.notifyrc:390
 msgctxt "Name"
 msgid "Change to Desktop 3"
 msgstr "ডেস্কটপ ৩-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:473
+#: workspace/kwin/kwin.notifyrc:474
 msgctxt "Comment"
 msgid "Virtual desktop three is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ তিন নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:559
+#: workspace/kwin/kwin.notifyrc:560
 msgctxt "Name"
 msgid "Change to Desktop 4"
 msgstr "ডেস্কটপ ৪-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:643
+#: workspace/kwin/kwin.notifyrc:644
 msgctxt "Comment"
 msgid "Virtual desktop four is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ চার নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:728
+#: workspace/kwin/kwin.notifyrc:729
 msgctxt "Name"
 msgid "Change to Desktop 5"
 msgstr "ডেস্কটপ ৫-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:812
+#: workspace/kwin/kwin.notifyrc:813
 msgctxt "Comment"
 msgid "Virtual desktop five is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ পাঁচ নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:898
+#: workspace/kwin/kwin.notifyrc:899
 msgctxt "Name"
 msgid "Change to Desktop 6"
 msgstr "ডেস্কটপ ৬-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:982
+#: workspace/kwin/kwin.notifyrc:983
 msgctxt "Comment"
 msgid "Virtual desktop six is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ ছয় নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:1066
+#: workspace/kwin/kwin.notifyrc:1067
 msgctxt "Name"
 msgid "Change to Desktop 7"
 msgstr "ডেস্কটপ ৭-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:1150
+#: workspace/kwin/kwin.notifyrc:1151
 msgctxt "Comment"
 msgid "Virtual desktop seven is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ সাত নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:1236
+#: workspace/kwin/kwin.notifyrc:1237
 msgctxt "Name"
 msgid "Change to Desktop 8"
 msgstr "ডেস্কটপ ৮-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:1320
+#: workspace/kwin/kwin.notifyrc:1321
 msgctxt "Comment"
 msgid "Virtual desktop eight is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ আট নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:1406
+#: workspace/kwin/kwin.notifyrc:1407
 msgctxt "Name"
 msgid "Change to Desktop 9"
 msgstr "ডেস্কটপ ৯-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:1488
+#: workspace/kwin/kwin.notifyrc:1489
 msgctxt "Comment"
 msgid "Virtual desktop nine is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ নয় নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:1572
+#: workspace/kwin/kwin.notifyrc:1573
 msgctxt "Name"
 msgid "Change to Desktop 10"
 msgstr "ডেস্কটপ ১০-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:1654
+#: workspace/kwin/kwin.notifyrc:1655
 msgctxt "Comment"
 msgid "Virtual desktop ten is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ দশ নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:1738
+#: workspace/kwin/kwin.notifyrc:1739
 msgctxt "Name"
 msgid "Change to Desktop 11"
 msgstr "ডেস্কটপ ১১-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:1820
+#: workspace/kwin/kwin.notifyrc:1821
 msgctxt "Comment"
 msgid "Virtual desktop eleven is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ এগারো নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:1903
+#: workspace/kwin/kwin.notifyrc:1904
 msgctxt "Name"
 msgid "Change to Desktop 12"
 msgstr "ডেস্কটপ ১২-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:1985
+#: workspace/kwin/kwin.notifyrc:1986
 msgctxt "Comment"
 msgid "Virtual desktop twelve is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ বারো নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:2068
+#: workspace/kwin/kwin.notifyrc:2069
 msgctxt "Name"
 msgid "Change to Desktop 13"
 msgstr "ডেস্কটপ ১৩-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:2150
+#: workspace/kwin/kwin.notifyrc:2151
 msgctxt "Comment"
 msgid "Virtual desktop thirteen is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ তেরো নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:2234
+#: workspace/kwin/kwin.notifyrc:2235
 msgctxt "Name"
 msgid "Change to Desktop 14"
 msgstr "ডেস্কটপ ১৪-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:2316
+#: workspace/kwin/kwin.notifyrc:2317
 msgctxt "Comment"
 msgid "Virtual desktop fourteen is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ চোদ্দ নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:2399
+#: workspace/kwin/kwin.notifyrc:2400
 msgctxt "Name"
 msgid "Change to Desktop 15"
 msgstr "ডেস্কটপ ১৫-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:2481
+#: workspace/kwin/kwin.notifyrc:2482
 msgctxt "Comment"
 msgid "Virtual desktop fifteen is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ পনেরো নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:2565
+#: workspace/kwin/kwin.notifyrc:2566
 msgctxt "Name"
 msgid "Change to Desktop 16"
 msgstr "ডেস্কটপ ১৬-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:2647
+#: workspace/kwin/kwin.notifyrc:2648
 msgctxt "Comment"
 msgid "Virtual desktop sixteen is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ ষোল নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:2731
+#: workspace/kwin/kwin.notifyrc:2732
 msgctxt "Name"
 msgid "Change to Desktop 17"
 msgstr "ডেস্কটপ ১৭-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:2813
+#: workspace/kwin/kwin.notifyrc:2814
 msgctxt "Comment"
 msgid "Virtual desktop seventeen is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ সতেরো নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:2896
+#: workspace/kwin/kwin.notifyrc:2897
 msgctxt "Name"
 msgid "Change to Desktop 18"
 msgstr "ডেস্কটপ ১৮-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:2978
+#: workspace/kwin/kwin.notifyrc:2979
 msgctxt "Comment"
 msgid "Virtual desktop eighteen is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ আঠারো নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:3062
+#: workspace/kwin/kwin.notifyrc:3063
 msgctxt "Name"
 msgid "Change to Desktop 19"
 msgstr "ডেস্কটপ ১৯-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:3144
+#: workspace/kwin/kwin.notifyrc:3145
 msgctxt "Comment"
 msgid "Virtual desktop nineteen is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ উনিশ নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:3228
+#: workspace/kwin/kwin.notifyrc:3229
 msgctxt "Name"
 msgid "Change to Desktop 20"
 msgstr "ডেস্কটপ ২০-এ পরিবর্তন করুন"
 
-#: workspace/kwin/kwin.notifyrc:3310
+#: workspace/kwin/kwin.notifyrc:3311
 msgctxt "Comment"
 msgid "Virtual desktop twenty is selected"
 msgstr "ভার্চুয়াল ডেস্কটপ কুড়ি নির্বাচিত হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:3394
+#: workspace/kwin/kwin.notifyrc:3395
 msgctxt "Name"
 msgid "Activate Window"
 msgstr "উইন্ডো সক্রিয় করুন"
 
-#: workspace/kwin/kwin.notifyrc:3474
+#: workspace/kwin/kwin.notifyrc:3475
 msgctxt "Comment"
 msgid "Another window is activated"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:3642
+#: workspace/kwin/kwin.notifyrc:3643
 msgctxt "Comment"
 msgid "New window"
 msgstr "নতুন উইন্ডো"
 
-#: workspace/kwin/kwin.notifyrc:3728
+#: workspace/kwin/kwin.notifyrc:3729
 msgctxt "Name"
 msgid "Delete Window"
 msgstr "উইন্ডো মুছে ফেলুন"
 
-#: workspace/kwin/kwin.notifyrc:3807
+#: workspace/kwin/kwin.notifyrc:3808
 msgctxt "Comment"
 msgid "Delete window"
 msgstr "উইন্ডো মুছে ফেলুন"
 
-#: workspace/kwin/kwin.notifyrc:3891
+#: workspace/kwin/kwin.notifyrc:3892
 msgctxt "Name"
 msgid "Window Close"
 msgstr "উইন্ডো বন্ধ করুন"
 
-#: workspace/kwin/kwin.notifyrc:3972
+#: workspace/kwin/kwin.notifyrc:3973
 msgctxt "Comment"
 msgid "A window closes"
 msgstr "একটি উইন্ডো বন্ধ করা হয়"
 
-#: workspace/kwin/kwin.notifyrc:4058
+#: workspace/kwin/kwin.notifyrc:4059
 msgctxt "Name"
 msgid "Window Shade Up"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4134
+#: workspace/kwin/kwin.notifyrc:4135
 msgctxt "Comment"
 msgid "A window is shaded up"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4212
+#: workspace/kwin/kwin.notifyrc:4213
 msgctxt "Name"
 msgid "Window Shade Down"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4287
+#: workspace/kwin/kwin.notifyrc:4288
 msgctxt "Comment"
 msgid "A window is shaded down"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4363
+#: workspace/kwin/kwin.notifyrc:4364
 msgctxt "Name"
 msgid "Window Minimize"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4442
+#: workspace/kwin/kwin.notifyrc:4443
 msgctxt "Comment"
 msgid "A window is minimized"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4525
+#: workspace/kwin/kwin.notifyrc:4526
 msgctxt "Name"
 msgid "Window Unminimize"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4600
+#: workspace/kwin/kwin.notifyrc:4601
 msgctxt "Comment"
 msgid "A Window is restored"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4682
+#: workspace/kwin/kwin.notifyrc:4683
 msgctxt "Name"
 msgid "Window Maximize"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4762
+#: workspace/kwin/kwin.notifyrc:4763
 msgctxt "Comment"
 msgid "A window is maximized"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4845
+#: workspace/kwin/kwin.notifyrc:4846
 msgctxt "Name"
 msgid "Window Unmaximize"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:4923
+#: workspace/kwin/kwin.notifyrc:4924
 msgctxt "Comment"
 msgid "A window loses maximization"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5002
+#: workspace/kwin/kwin.notifyrc:5003
 msgctxt "Name"
 msgid "Window on All Desktops"
 msgstr "সকল ডেস্কটপের উপর উইন্ডো স্থাপনা"
 
-#: workspace/kwin/kwin.notifyrc:5078
+#: workspace/kwin/kwin.notifyrc:5079
 msgctxt "Comment"
 msgid "A window is made visible on all desktops"
 msgstr "উইন্ডোটি সকল ডেস্কটপের উপর প্রদর্শিত হবে"
 
-#: workspace/kwin/kwin.notifyrc:5160
+#: workspace/kwin/kwin.notifyrc:5161
 msgctxt "Name"
 msgid "Window Not on All Desktops"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5234
+#: workspace/kwin/kwin.notifyrc:5235
 msgctxt "Comment"
 msgid "A Window is no longer visible on all desktops"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5314
+#: workspace/kwin/kwin.notifyrc:5315
 msgctxt "Name"
 msgid "New Dialog"
 msgstr "নতুন ডায়লগ"
 
-#: workspace/kwin/kwin.notifyrc:5398
+#: workspace/kwin/kwin.notifyrc:5399
 msgctxt "Comment"
 msgid "Transient window (a dialog) appears"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5473
+#: workspace/kwin/kwin.notifyrc:5474
 msgctxt "Name"
 msgid "Delete Dialog"
 msgstr "ডায়লগ মুছে ফেলুন"
 
-#: workspace/kwin/kwin.notifyrc:5555
+#: workspace/kwin/kwin.notifyrc:5556
 msgctxt "Comment"
 msgid "Transient window (a dialog) is removed"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5631
+#: workspace/kwin/kwin.notifyrc:5632
 msgctxt "Name"
 msgid "Window Move Start"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5709
+#: workspace/kwin/kwin.notifyrc:5710
 msgctxt "Comment"
 msgid "A window has begun moving"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5786
+#: workspace/kwin/kwin.notifyrc:5787
 msgctxt "Name"
 msgid "Window Move End"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5864
+#: workspace/kwin/kwin.notifyrc:5865
 msgctxt "Comment"
 msgid "A window has completed its moving"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5941
+#: workspace/kwin/kwin.notifyrc:5942
 msgctxt "Name"
 msgid "Window Resize Start"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6019
+#: workspace/kwin/kwin.notifyrc:6020
 msgctxt "Comment"
 msgid "A window has begun resizing"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6096
+#: workspace/kwin/kwin.notifyrc:6097
 msgctxt "Name"
 msgid "Window Resize End"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6174
+#: workspace/kwin/kwin.notifyrc:6175
 msgctxt "Comment"
 msgid "A window has finished resizing"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6251
+#: workspace/kwin/kwin.notifyrc:6252
 msgctxt "Name"
 msgid "Window on Current Desktop Demands Attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6320
+#: workspace/kwin/kwin.notifyrc:6321
 msgctxt "Comment"
 msgid "A window on the current virtual desktop demands attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6393
+#: workspace/kwin/kwin.notifyrc:6394
 msgctxt "Name"
 msgid "Window on Other Desktop Demands Attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6462
+#: workspace/kwin/kwin.notifyrc:6463
 msgctxt "Comment"
 msgid "A window on an inactive virtual desktop demands attention"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6532
+#: workspace/kwin/kwin.notifyrc:6533
 msgctxt "Name"
 msgid "Compositing Performance Is Slow"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6594
+#: workspace/kwin/kwin.notifyrc:6595
 msgctxt "Comment"
 msgid ""
 "The compositing performance was too slow and compositing has been suspended"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6657
+#: workspace/kwin/kwin.notifyrc:6658
 msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6715
+#: workspace/kwin/kwin.notifyrc:6716
 msgctxt "Comment"
 msgid "Another application has requested to suspend compositing."
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6772
+#: workspace/kwin/kwin.notifyrc:6773
 msgctxt "Name"
 msgid "Effects not supported"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6833
+#: workspace/kwin/kwin.notifyrc:6834
 msgctxt "Comment"
 msgid "Some effects are not supported by backend or hardware."
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6892
+#: workspace/kwin/kwin.notifyrc:6893
 msgctxt "Name"
 msgid "Tiling Enabled"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6928
+#: workspace/kwin/kwin.notifyrc:6929
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -10557,22 +10557,22 @@ msgctxt "Comment"
 msgid "Tiling mode has been enabled"
 msgstr "আবর্জনা বর্জন করা হয়েছে"
 
-#: workspace/kwin/kwin.notifyrc:6966
+#: workspace/kwin/kwin.notifyrc:6967
 msgctxt "Name"
 msgid "Tiling Disabled"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:7002
+#: workspace/kwin/kwin.notifyrc:7003
 msgctxt "Comment"
 msgid "Tiling mode has been disabled"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:7041
+#: workspace/kwin/kwin.notifyrc:7042
 msgctxt "Name"
 msgid "Tiling Layout Changed"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:7077
+#: workspace/kwin/kwin.notifyrc:7078
 msgctxt "Comment"
 msgid "Tiling Layout has been changed"
 msgstr ""
@@ -12051,47 +12051,47 @@ msgctxt "Comment"
 msgid "Power Management"
 msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
 
-#: workspace/powerdevil/powerdevil.notifyrc:358
+#: workspace/powerdevil/powerdevil.notifyrc:359
 msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:430
+#: workspace/powerdevil/powerdevil.notifyrc:431
 msgctxt "Name"
 msgid "Critical notification"
 msgstr "গুরুত্বপূর্ণ সূচনাবার্তা"
 
-#: workspace/powerdevil/powerdevil.notifyrc:502
+#: workspace/powerdevil/powerdevil.notifyrc:503
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:575
+#: workspace/powerdevil/powerdevil.notifyrc:576
 msgctxt "Name"
 msgid "Low Battery"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:645
+#: workspace/powerdevil/powerdevil.notifyrc:646
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:723
+#: workspace/powerdevil/powerdevil.notifyrc:724
 msgctxt "Name"
 msgid "Battery at warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:795
+#: workspace/powerdevil/powerdevil.notifyrc:796
 msgctxt "Comment"
 msgid "Your battery has reached warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:873
+#: workspace/powerdevil/powerdevil.notifyrc:874
 msgctxt "Name"
 msgid "Battery at critical level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:945
+#: workspace/powerdevil/powerdevil.notifyrc:946
 msgctxt "Comment"
 msgid ""
 "Your battery has reached critical level. This notification triggers a "
@@ -12099,74 +12099,74 @@ msgid ""
 "to leave that on."
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1015
+#: workspace/powerdevil/powerdevil.notifyrc:1016
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1087
+#: workspace/powerdevil/powerdevil.notifyrc:1088
 msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1165
+#: workspace/powerdevil/powerdevil.notifyrc:1166
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1237
+#: workspace/powerdevil/powerdevil.notifyrc:1238
 msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1315
+#: workspace/powerdevil/powerdevil.notifyrc:1316
 msgctxt "Name"
 msgid "Job error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1387
+#: workspace/powerdevil/powerdevil.notifyrc:1388
 msgctxt "Comment"
 msgid "There was an error while performing a job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1461
+#: workspace/powerdevil/powerdevil.notifyrc:1462
 msgctxt "Name"
 msgid "Profile Changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1533
+#: workspace/powerdevil/powerdevil.notifyrc:1534
 msgctxt "Comment"
 msgid "The profile was changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1610
+#: workspace/powerdevil/powerdevil.notifyrc:1611
 msgctxt "Name"
 msgid "Performing a suspension job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1678
+#: workspace/powerdevil/powerdevil.notifyrc:1679
 msgctxt "Comment"
 msgid ""
 "This notification is displayed when a suspension job is about to be done, "
 "and it triggers a countdown. Hence, it is strongly advised to leave it on."
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1744
+#: workspace/powerdevil/powerdevil.notifyrc:1745
 msgctxt "Name"
 msgid "Internal PowerDevil Error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1813
+#: workspace/powerdevil/powerdevil.notifyrc:1814
 msgctxt "Comment"
 msgid "PowerDevil has triggered an internal error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1885
+#: workspace/powerdevil/powerdevil.notifyrc:1886
 msgctxt "Name"
 msgid "Suspension inhibited"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:1950
+#: workspace/powerdevil/powerdevil.notifyrc:1951
 msgctxt "Comment"
 msgid "The suspension has been inhibited because an application requested it"
 msgstr ""
@@ -12215,7 +12215,7 @@ msgctxt "Name"
 msgid "ModemManager 0.4"
 msgstr "NetworkManager 0.7"
 
-#: workspace/solid/modemmanager-0.4/solid_modemmanager04.desktop:31
+#: workspace/solid/modemmanager-0.4/solid_modemmanager04.desktop:32
 msgctxt "Comment"
 msgid "Network management using the ModemManager daemon, version 0.4"
 msgstr ""
@@ -12228,7 +12228,7 @@ msgctxt "Name"
 msgid "Network Status"
 msgstr "নেটওয়ার্ক সংক্রান্ত বৈশিষ্ট্য"
 
-#: workspace/solid/networking/kded/networkstatus.desktop:49
+#: workspace/solid/networking/kded/networkstatus.desktop:50
 msgctxt "Comment"
 msgid ""
 "Tracks status of network interfaces and provides notification to "
