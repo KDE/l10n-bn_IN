@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetattach\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-08-22 05:43+0200\n"
 "PO-Revision-Date: 2009-01-12 17:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -84,21 +84,31 @@ msgstr "জর্জ স্টাইকোস"
 msgid "Primary author and maintainer"
 msgstr "প্রধান নির্মাতা ও মেইন্টেনার"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
+
 #. i18n: file: knetattach.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWizard, KNetAttach)
-#: rc.cpp:3 rc.cpp:60
+#: rc.cpp:5
 msgid "Network Folder Wizard"
 msgstr "নেটওয়ার্ক ফোল্ডার সংক্রান্ত উইজার্ড"
 
 #. i18n: file: knetattach.ui:18
 #. i18n: ectx: property (title), widget (QWizardPage, _folderType)
-#: rc.cpp:6 rc.cpp:63
+#: rc.cpp:8
 msgid "Add Network Folder"
 msgstr "নেটওয়ার্ক ফোল্ডার যোগ করুন"
 
 #. i18n: file: knetattach.ui:24
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:9 rc.cpp:66
+#: rc.cpp:11
 msgid ""
 "Select the type of network folder you wish to connect to and press the Next "
 "button."
@@ -108,43 +118,43 @@ msgstr ""
 
 #. i18n: file: knetattach.ui:65
 #. i18n: ectx: property (text), widget (QRadioButton, _recent)
-#: rc.cpp:12 rc.cpp:69
+#: rc.cpp:14
 msgid "&Recent connection:"
 msgstr "সাম্প্রতিক সংযোগ: (&R)"
 
 #. i18n: file: knetattach.ui:72
 #. i18n: ectx: property (text), widget (QRadioButton, _webfolder)
-#: rc.cpp:15 rc.cpp:72
+#: rc.cpp:17
 msgid "&WebFolder (webdav)"
 msgstr "ওয়েব-ফোল্ডার (webdav) (&W)"
 
 #. i18n: file: knetattach.ui:82
 #. i18n: ectx: property (text), widget (QRadioButton, _fish)
-#: rc.cpp:18 rc.cpp:75
+#: rc.cpp:20
 msgid "&Secure shell (ssh)"
 msgstr "সিকিউর শেল (ssh) (&S)"
 
 #. i18n: file: knetattach.ui:111
 #. i18n: ectx: property (text), widget (QRadioButton, _ftp)
-#: rc.cpp:21 rc.cpp:78
+#: rc.cpp:23
 msgid "FT&P"
 msgstr "FTP (&P)"
 
 #. i18n: file: knetattach.ui:118
 #. i18n: ectx: property (text), widget (QRadioButton, _smb)
-#: rc.cpp:24 rc.cpp:81
+#: rc.cpp:26
 msgid "&Microsoft® Windows® network drive"
 msgstr "Microsoft® Windows® নেটওয়ার্ক ড্রাইভ (&M)"
 
 #. i18n: file: knetattach.ui:145
 #. i18n: ectx: property (title), widget (QWizardPage, _folderParameters)
-#: rc.cpp:27 rc.cpp:84
+#: rc.cpp:29
 msgid "Network Folder Information"
 msgstr "নেটওয়ার্ক ফোল্ডার সংক্রান্ত তথ্য"
 
 #. i18n: file: knetattach.ui:151
 #. i18n: ectx: property (text), widget (QLabel, _informationText)
-#: rc.cpp:31 rc.cpp:88
+#: rc.cpp:33
 #, no-c-format, kde-format
 msgid ""
 "Enter a name for this <i>%1</i> as well as the server address, port and "
@@ -155,58 +165,48 @@ msgstr ""
 
 #. i18n: file: knetattach.ui:180
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
-#: rc.cpp:34 rc.cpp:91
+#: rc.cpp:36
 msgid "&Name:"
 msgstr "নাম: (&N)"
 
 #. i18n: file: knetattach.ui:199
 #. i18n: ectx: property (text), widget (QLabel, _userText)
-#: rc.cpp:37 rc.cpp:94
+#: rc.cpp:39
 msgid "&User:"
 msgstr "ব্যবহারকারী: (&U)"
 
 #. i18n: file: knetattach.ui:225
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:40 rc.cpp:97
+#: rc.cpp:42
 msgid "Se&rver:"
 msgstr "সার্ভার: (&r)"
 
 #. i18n: file: knetattach.ui:251
 #. i18n: ectx: property (text), widget (QLabel, _portText)
-#: rc.cpp:43 rc.cpp:100
+#: rc.cpp:45
 msgid "&Port:"
 msgstr "পোর্ট: (&P)"
 
 #. i18n: file: knetattach.ui:286
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:46 rc.cpp:103
+#: rc.cpp:48
 msgid "&Folder:"
 msgstr "ফোল্ডার: (&F)"
 
 #. i18n: file: knetattach.ui:308
 #. i18n: ectx: property (text), widget (QLabel, _encodingText)
-#: rc.cpp:49 rc.cpp:106
+#: rc.cpp:51
 msgid "Encoding:"
 msgstr "এনকোডিং:"
 
 #. i18n: file: knetattach.ui:324
 #. i18n: ectx: property (text), widget (QCheckBox, _createIcon)
-#: rc.cpp:52 rc.cpp:109
+#: rc.cpp:54
 msgid "Cr&eate an icon for this remote folder"
 msgstr "বর্তমানে দূরবর্তী ফোল্ডারের জন্য একটি আইকন নির্মাণ করুন (&e)"
 
 #. i18n: file: knetattach.ui:334
 #. i18n: ectx: property (text), widget (QCheckBox, _useEncryption)
-#: rc.cpp:55 rc.cpp:112
+#: rc.cpp:57
 msgid "&Use encryption"
 msgstr "এনক্রিপশন ব্যবহার করা হবে (&U)"
-
-#: rc.cpp:56
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-#: rc.cpp:57
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"

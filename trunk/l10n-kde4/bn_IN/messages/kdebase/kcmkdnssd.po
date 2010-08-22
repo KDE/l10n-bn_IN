@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkdnssd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-08-22 05:43+0200\n"
 "PO-Revision-Date: 2008-06-24 17:01+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -29,9 +29,19 @@ msgstr "(C) ২০০৪-২০০৭ ইয়াকুব স্টাকোস�
 msgid "Setup services browsing with ZeroConf"
 msgstr "ZeroConf সহযোগে পরিসেবা ব্রাউজ করার ক্ষমতা নির্ধারণ করুন"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@fedoraproject.org"
+
 #. i18n: file: configdialog.ui:46
 #. i18n: ectx: property (whatsThis), widget (KEditListBox, kcfg_DomainList)
-#: rc.cpp:3
+#: rc.cpp:5
 msgid ""
 "List of Internet domains that will be browsed for services in addition to "
 "default domain (typically local network). "
@@ -41,19 +51,9 @@ msgstr ""
 
 #. i18n: file: configdialog.ui:49
 #. i18n: ectx: property (title), widget (KEditListBox, kcfg_DomainList)
-#: rc.cpp:6
+#: rc.cpp:8
 msgid "Additional Domains"
 msgstr "অতিরিক্ত ডোমেইন"
-
-#: rc.cpp:7
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-#: rc.cpp:8
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@fedoraproject.org"
 
 #~ msgid "kcm_kdnssd"
 #~ msgstr "kcm_kdnssd"
