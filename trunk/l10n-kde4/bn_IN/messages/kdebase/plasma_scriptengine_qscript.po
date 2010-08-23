@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-10 06:03+0200\n"
+"POT-Creation-Date: 2010-08-23 05:29+0200\n"
 "PO-Revision-Date: 2009-01-09 10:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,6 +16,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: common/javascriptaddonpackagestructure.cpp:30
+#: common/javascriptaddonpackagestructure.cpp:40
+msgid "Main Script File"
+msgstr ""
+
+#: common/scriptenv.cpp:119
+#, fuzzy, kde-format
+#| msgid "Unable to open '%1'"
+msgid "Unable to load script file: %1"
+msgstr "'%1' খুলতে ব্যর্থ"
+
+#: common/scriptenv.cpp:353
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "debug takes one argument"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: common/scriptenv.cpp:363
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "print() takes one argument"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: common/scriptenv.cpp:373
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "listAddons takes one argument: addon type"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "loadAddon takes two arguments: addon type and addon name to load"
+msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
+
+#: common/scriptenv.cpp:416
+#, kde-format
+msgid "Failed to find Addon %1 of type %1"
+msgstr ""
+
+#: common/scriptenv.cpp:427
+#, fuzzy, kde-format
+#| msgid "Unable to open '%1'"
+msgid "Failed to open script file for Addon %1: %2"
+msgstr "'%1' খুলতে ব্যর্থ"
 
 #: dataengine/javascriptdataengine.cpp:110
 #, fuzzy
@@ -110,52 +156,6 @@ msgstr "'%1' খুলতে ব্যর্থ"
 #: plasmoid/simplejavascriptapplet.cpp:742
 msgid "Constructor takes at least 1 argument"
 msgstr "কনস্ট্রাক্টারের ক্ষেত্রে অন্তত ১-টি আর্গুমেন্ট আবশ্যক"
-
-#: common/javascriptaddonpackagestructure.cpp:30
-#: common/javascriptaddonpackagestructure.cpp:40
-msgid "Main Script File"
-msgstr ""
-
-#: common/scriptenv.cpp:119
-#, fuzzy, kde-format
-#| msgid "Unable to open '%1'"
-msgid "Unable to load script file: %1"
-msgstr "'%1' খুলতে ব্যর্থ"
-
-#: common/scriptenv.cpp:353
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "debug takes one argument"
-msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
-
-#: common/scriptenv.cpp:363
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "print() takes one argument"
-msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
-
-#: common/scriptenv.cpp:373
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "listAddons takes one argument: addon type"
-msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
-
-#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "loadAddon takes two arguments: addon type and addon name to load"
-msgstr "প্রিন্টের ক্ষেত্রে একটি আর্গুমেন্ট আবশ্যক"
-
-#: common/scriptenv.cpp:416
-#, kde-format
-msgid "Failed to find Addon %1 of type %1"
-msgstr ""
-
-#: common/scriptenv.cpp:427
-#, fuzzy, kde-format
-#| msgid "Unable to open '%1'"
-msgid "Failed to open script file for Addon %1: %2"
-msgstr "'%1' খুলতে ব্যর্থ"
 
 #, fuzzy
 #~| msgid "The parent must be a QGraphicsWidget"
