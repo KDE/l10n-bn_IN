@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-15 05:08+0200\n"
+"POT-Creation-Date: 2010-09-07 02:28+0200\n"
 "PO-Revision-Date: 2008-09-20 01:30+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -148,65 +148,65 @@ msgstr ""
 "প্যাকেজ root-র সুনির্দিষ্ট পাথ। পাথের তথ্য উপলব্ধ না করা হলে, বর্তমান KDE সেশানের "
 "ক্ষেত্রে প্রযোজ্য প্রমিত ডিরেক্টরির মধ্যে তথ্য খোঁজা হবে।"
 
-#: main.cpp:182 main.cpp:214
+#: main.cpp:182 main.cpp:219
 #, fuzzy
 #| msgid "wallpaper"
 msgctxt "package type"
 msgid "wallpaper"
 msgstr "ওয়াল-পেপার"
 
-#: main.cpp:206
+#: main.cpp:209
 #, fuzzy
 #| msgid "plasmoid"
 msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid (প্লাসময়েড)"
 
-#: main.cpp:212
+#: main.cpp:216
 #, fuzzy
 #| msgid "theme"
 msgctxt "package type"
 msgid "theme"
 msgstr "থিম"
 
-#: main.cpp:216
+#: main.cpp:222
 #, fuzzy
 #| msgid "dataengine"
 msgctxt "package type"
 msgid "dataengine"
 msgstr "dataengine (ডাটা-ইঞ্জিন)"
 
-#: main.cpp:220
+#: main.cpp:227
 #, fuzzy
 #| msgid "runner"
 msgctxt "package type"
 msgid "runner"
 msgstr "runner (রানার)"
 
-#: main.cpp:224
+#: main.cpp:232
 #, fuzzy
 #| msgid "wallpaper"
 msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr "ওয়াল-পেপার"
 
-#: main.cpp:228
+#: main.cpp:237
 msgctxt "package type"
 msgid "layout-template"
 msgstr ""
 
-#: main.cpp:236
+#: main.cpp:246
 #, fuzzy, kde-format
 #| msgid "Could not find a suitable installer for package of type"
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "এই ধরনের প্যাকেজের জন্য উপযুক্ত ইনস্টলার পাওয়া যায়নি"
 
-#: main.cpp:245
+#: main.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "%1 ধরনের প্যাকেজের জন্য ইনস্টলার লোড করা যায়নি। উল্লিখিত ত্রুটি: %2"
 
-#: main.cpp:264
+#: main.cpp:275
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -215,32 +215,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: main.cpp:289
+#: main.cpp:300
 #, kde-format
 msgid "Successfully removed %1"
 msgstr ""
 
-#: main.cpp:291
+#: main.cpp:302
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr ""
 
-#: main.cpp:296
+#: main.cpp:307
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr ""
 
-#: main.cpp:301
+#: main.cpp:312
 #, kde-format
 msgid "Successfully installed %1"
 msgstr ""
 
-#: main.cpp:303
+#: main.cpp:314
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr ""
 
-#: main.cpp:309
+#: main.cpp:320
 #, fuzzy
 #| msgid "One of install, remove or list is required."
 msgctxt ""
