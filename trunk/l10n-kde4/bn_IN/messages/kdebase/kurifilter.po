@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kurifilter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-16 04:53+0200\n"
+"POT-Creation-Date: 2010-09-08 06:54+0200\n"
 "PO-Revision-Date: 2009-01-12 13:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -39,6 +39,16 @@ msgid ""
 "specified search engine by simply typing them into applications, such as "
 "Konqueror, that have built-in support for such a feature.</p>"
 msgstr ""
+
+#: kuriikwsfilter.cpp:116
+msgid "No preferred search providers were found."
+msgstr ""
+
+#: kuriikwsfilter.cpp:135
+#, fuzzy
+#| msgid "Modify a search provider."
+msgid "No search providers were found."
+msgstr "অনুসন্ধান ব্যবস্থা পরিবর্তন করুন।"
 
 #: kurisearchfilter.cpp:87
 msgid "Search F&ilters"
