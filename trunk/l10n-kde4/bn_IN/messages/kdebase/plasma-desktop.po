@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-11 05:56+0200\n"
+"POT-Creation-Date: 2010-09-19 06:03+0200\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: activity.cpp:114
-#, kde-format
-msgctxt "%1 is the name of the activity"
-msgid "Do you really want to remove %1?"
-msgstr ""
-
-#: activity.cpp:115
-#, kde-format
-msgctxt "@title:window %1 is the name of the activity"
-msgid "Remove %1"
-msgstr ""
 
 #: controllerwindow.cpp:397
 #, fuzzy
@@ -283,6 +271,20 @@ msgstr ""
 #: rc.cpp:8
 msgid ""
 "Set to true if each virtual desktop should get its own, unique Plasma view."
+msgstr ""
+
+#: activitymanager/activityicon.cpp:191
+#, fuzzy
+#| msgid "Next Activity"
+msgid "Remove activity?"
+msgstr "পরবর্তী কাজ"
+
+#: activitymanager/activityicon.cpp:196
+msgid "Confirm Removal"
+msgstr ""
+
+#: activitymanager/activityicon.cpp:201
+msgid "Cancel Removal"
 msgstr ""
 
 #: activitymanager/filterbar.cpp:52
