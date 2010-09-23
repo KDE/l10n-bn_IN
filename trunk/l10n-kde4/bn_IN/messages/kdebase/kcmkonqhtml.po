@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 06:58+0200\n"
+"POT-Creation-Date: 2010-09-23 06:08+0200\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -444,31 +444,31 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: generalopts.cpp:53
+#: generalopts.cpp:56
 msgid "Tabbed Browsing"
 msgstr "ট্যাব সহযোগে ব্রাউজের ব্যবস্থা"
 
-#: generalopts.cpp:79
+#: generalopts.cpp:82
 msgctxt "@label:listbox"
 msgid "When &Konqueror starts:"
 msgstr "Konqueror আরম্ভ কালে: (&K)"
 
-#: generalopts.cpp:84
+#: generalopts.cpp:86
 msgctxt "@item:inlistbox"
 msgid "Show Introduction Page"
 msgstr "প্রারম্ভিক পেজ প্রদর্শন করা হবে"
 
-#: generalopts.cpp:85
+#: generalopts.cpp:87
 msgctxt "@item:inlistbox"
 msgid "Show My Home Page"
 msgstr "হোম পেজ প্রদর্শন করা হবে"
 
-#: generalopts.cpp:86
+#: generalopts.cpp:88
 msgctxt "@item:inlistbox"
 msgid "Show Blank Page"
 msgstr "ফাঁকা পৃষ্ঠা প্রদর্শন করা হবে"
 
-#: generalopts.cpp:87
+#: generalopts.cpp:89
 msgctxt "@item:inlistbox"
 msgid "Show My Bookmarks"
 msgstr "ব্যবহারকারীর বুকমার্কগুলি প্রদর্শন করা হবে"
@@ -477,15 +477,19 @@ msgstr "ব্যবহারকারীর বুকমার্কগুল�
 msgid "Home page:"
 msgstr "হোম পেজ:"
 
-#: generalopts.cpp:101
+#: generalopts.cpp:100
 msgid "Select Home Page"
 msgstr "হোম পেজ নির্বাচন করুন"
 
-#: generalopts.cpp:108
+#: generalopts.cpp:105
 msgid ""
 "This is the URL of the web page where Konqueror (as web browser) will jump "
 "to when the \"Home\" button is pressed. When Konqueror is started as a file "
 "manager, that button makes it jump to your local home folder instead."
+msgstr ""
+
+#: generalopts.cpp:115
+msgid "Default web browser engine:"
 msgstr ""
 
 #: htmlopts.cpp:45
