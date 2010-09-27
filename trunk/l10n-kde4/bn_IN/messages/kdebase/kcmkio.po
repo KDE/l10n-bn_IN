@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-20 06:04+0200\n"
+"POT-Creation-Date: 2010-09-27 06:04+0200\n"
 "PO-Revision-Date: 2008-12-31 16:02+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -331,8 +331,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: netpref.cpp:45 netpref.cpp:50 netpref.cpp:55 netpref.cpp:60
-msgid " sec"
-msgstr " সেকেন্ড"
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " সেকেন্ড"
+msgstr[1] " সেকেন্ড"
 
 #: netpref.cpp:47
 msgid "Soc&ket read:"
