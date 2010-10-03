@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-01 04:39+0000\n"
+"POT-Creation-Date: 2010-10-03 04:40+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -10730,6 +10730,7 @@ msgid "Network Management Backend"
 msgstr ""
 
 #: workspace/libs/solid/control/solidpowermanager.desktop:5
+#: workspace/powerdevil/daemon/backends/powerdevilbackend.desktop:5
 msgctxt "Comment"
 msgid "Power Management Backend"
 msgstr ""
@@ -12202,6 +12203,108 @@ msgctxt "Comment"
 msgid "Set up policies for applications using PolicyKit"
 msgstr ""
 
+#: workspace/powerdevil/daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:6
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Display Settings"
+msgctxt "Name"
+msgid "Display Brightness"
+msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:7
+msgctxt "Comment"
+msgid "Basic Controls for brightness"
+msgstr ""
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevildimdisplayaction.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Display"
+msgctxt "Name"
+msgid "Dim Display"
+msgstr "প্রদর্শন"
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevildimdisplayaction.desktop:7
+msgctxt "Comment"
+msgid "Dims gradually the display on a time basis"
+msgstr ""
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevildisabledesktopeffectsaction.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Effects"
+msgctxt "Name"
+msgid "Disable Desktop Effects"
+msgstr "ডেস্কটপ ইফেক্ট"
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevildisabledesktopeffectsaction.desktop:7
+msgctxt "Comment"
+msgid "Temporary disables KWin's desktop effects"
+msgstr ""
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevilrunscriptaction.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CGI Scripts"
+msgctxt "Name"
+msgid "Run Script"
+msgstr "CGI স্ক্রিপ্ট"
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevilrunscriptaction.desktop:7
+msgctxt "Comment"
+msgid "Runs a custom script"
+msgstr ""
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevilsuspendsessionaction.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Sessions"
+msgctxt "Name"
+msgid "Suspend Session"
+msgstr "ডেস্কটপের সেশান"
+
+#: workspace/powerdevil/daemon/actions/bundled/powerdevilsuspendsessionaction.desktop:7
+msgctxt "Comment"
+msgid "Suspends the session"
+msgstr ""
+
+#: workspace/powerdevil/daemon/actions/dpms/powerdevildpmsaction.desktop:6
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen Saver Settings"
+msgctxt "Name"
+msgid "Screen Energy Saving"
+msgstr "স্ক্রিন-সেভার সংক্রান্ত বৈশিষ্ট্য"
+
+#: workspace/powerdevil/daemon/actions/dpms/powerdevildpmsaction.desktop:7
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Font settings"
+msgctxt "Comment"
+msgid "Controls DPMS settings"
+msgstr "ফন্ট সংক্রান্ত বৈশিষ্ট্য"
+
+#: workspace/powerdevil/daemon/actions/powerdevilaction.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Management"
+msgctxt "Comment"
+msgid "Power Management Action Extension"
+msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
+
+#: workspace/powerdevil/daemon/backends/hal/powerdevilhalbackend.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PowerDevil"
+msgctxt "Name"
+msgid "HAL PowerDevil Backend"
+msgstr "PowerDevil"
+
+#: workspace/powerdevil/daemon/backends/hal/powerdevilhalbackend.desktop:8
+msgctxt "Comment"
+msgid "Use KDE Power Management system through freedesktop.org HAL daemon"
+msgstr ""
+
 #: workspace/powerdevil/daemon/powerdevil.desktop:11
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
 msgctxt "Name"
@@ -12217,6 +12320,22 @@ msgstr ""
 msgctxt "Comment"
 msgid "Display brightness, suspend and power profile settings"
 msgstr ""
+
+#: workspace/powerdevil/kcmodule/powerdevilprofilesconfig.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Flower Drops"
+msgctxt "Name"
+msgid "Power Profiles"
+msgstr "ফুলের ছোঁয়া"
+
+#: workspace/powerdevil/kcmodule/powerdevilprofilesconfig.desktop:15
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure file manager settings"
+msgctxt "Comment"
+msgid "Configure Power Management Profiles"
+msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
 #: workspace/powerdevil/powerdevil.notifyrc:73
 #, fuzzy
@@ -15357,10 +15476,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Blue Curl"
 #~ msgstr "নীলাভ ঘূর্ণি"
-
-#~ msgctxt "Name"
-#~ msgid "Flower Drops"
-#~ msgstr "ফুলের ছোঁয়া"
 
 #~ msgctxt "Name"
 #~ msgid "File Manager"
