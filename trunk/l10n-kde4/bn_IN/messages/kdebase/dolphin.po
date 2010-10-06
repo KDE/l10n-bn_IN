@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-23 06:08+0200\n"
+"POT-Creation-Date: 2010-10-06 06:18+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1449,12 +1449,12 @@ msgstr "প্লেসেসে এ্যাড করা হবে"
 
 #: dolphincontextmenu.cpp:259
 msgctxt "@action:inmenu"
-msgid "Open Parent Folder in New Window"
+msgid "Open Path in New Window"
 msgstr ""
 
 #: dolphincontextmenu.cpp:265
 msgctxt "@action:inmenu"
-msgid "Open Parent Folder in New Tab"
+msgid "Open Path in New Tab"
 msgstr ""
 
 #: dolphincontextmenu.cpp:431
@@ -1885,19 +1885,19 @@ msgctxt "@label"
 msgid "Path"
 msgstr "পেস্ট"
 
-#: views/dolphinview.cpp:510
+#: views/dolphinview.cpp:500
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:511
+#: views/dolphinview.cpp:501
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> নির্বাচিত হয়েছে (%2)"
 
-#: views/dolphinview.cpp:515
+#: views/dolphinview.cpp:505
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1905,7 +1905,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:516
+#: views/dolphinview.cpp:506
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1913,29 +1913,29 @@ msgid_plural "%1 Files selected"
 msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:518
+#: views/dolphinview.cpp:508
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:521
+#: views/dolphinview.cpp:511
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1098
+#: views/dolphinview.cpp:1023
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1186
+#: views/dolphinview.cpp:1111
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1188
+#: views/dolphinview.cpp:1113
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -2269,33 +2269,33 @@ msgctxt "@info"
 msgid "Columns view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: views/renamedialog.cpp:41
+#: views/renamedialog.cpp:54
 msgctxt "@title:window"
 msgid "Rename Item"
 msgstr "অাইটেমের নাম পরিবর্তন"
 
-#: views/renamedialog.cpp:42
+#: views/renamedialog.cpp:55
 msgctxt "@title:window"
 msgid "Rename Items"
 msgstr "অাইটেম সমূহের নাম পরিবর্তন"
 
-#: views/renamedialog.cpp:46
+#: views/renamedialog.cpp:59
 msgctxt "@action:button"
 msgid "&Rename"
 msgstr "নাম পরিবর্তন (&R)"
 
-#: views/renamedialog.cpp:56
+#: views/renamedialog.cpp:69
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the item <filename>%1</filename> to:"
 msgstr "অাইটেম <filename>%1</filename> নাম পরিবর্তন:"
 
-#: views/renamedialog.cpp:59
+#: views/renamedialog.cpp:72
 msgctxt "@info:status"
 msgid "New name #"
 msgstr "নতুন নাম #"
 
-#: views/renamedialog.cpp:61
+#: views/renamedialog.cpp:74
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the %1 selected item to:"
@@ -2303,21 +2303,10 @@ msgid_plural "Rename the %1 selected items to:"
 msgstr[0] "%1 অাইটেমের নাম পরিবর্তন:"
 msgstr[1] "%1 অাইটেম সমূহের নাম পরিবর্তন:"
 
-#: views/renamedialog.cpp:108
+#: views/renamedialog.cpp:121
 msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
-
-#: views/renamedialog.cpp:123
-msgctxt "@info:status"
-msgid ""
-"The new name is empty. A name with at least one character must be entered."
-msgstr "নতুন নামটা খালি। অন্তত নামে একটা অক্ষর থাকা অাবশ্যক।"
-
-#: views/renamedialog.cpp:126
-msgctxt "@info:status"
-msgid "The name must contain at least one # character."
-msgstr "নামে অন্তত একটা # থাকা অাবশ্যক"
 
 #: views/selectiontoggle.cpp:142
 msgctxt "@info:tooltip"
@@ -2338,6 +2327,15 @@ msgstr "ফিল্টার বার অদৃশ্য হবে"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "The new name is empty. A name with at least one character must be entered."
+#~ msgstr "নতুন নামটা খালি। অন্তত নামে একটা অক্ষর থাকা অাবশ্যক।"
+
+#~ msgctxt "@info:status"
+#~ msgid "The name must contain at least one # character."
+#~ msgstr "নামে অন্তত একটা # থাকা অাবশ্যক"
 
 #~ msgctxt "@title:menu"
 #~ msgid "View Mode"
