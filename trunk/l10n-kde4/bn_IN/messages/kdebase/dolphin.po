@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-09 06:10+0200\n"
+"POT-Creation-Date: 2010-10-10 05:55+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -80,7 +80,7 @@ msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "মুছে ফেলুন"
 
-#: panels/folders/treeviewcontextmenu.cpp:112 dolphincontextmenu.cpp:352
+#: panels/folders/treeviewcontextmenu.cpp:112 dolphincontextmenu.cpp:353
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
@@ -1412,7 +1412,7 @@ msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "অাবর্জনার বাক্স খালি করা হবে"
 
-#: dolphincontextmenu.cpp:168 dolphincontextmenu.cpp:347
+#: dolphincontextmenu.cpp:168 dolphincontextmenu.cpp:333
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr "প্লেসেসে এ্যাড করা হবে"
@@ -1457,7 +1457,7 @@ msgctxt "@action:inmenu"
 msgid "Open Path in New Tab"
 msgstr ""
 
-#: dolphincontextmenu.cpp:432
+#: dolphincontextmenu.cpp:433
 msgctxt "@action:inmenu"
 msgid "Paste Into Folder"
 msgstr "ফোল্ডারে পেস্ট করা হবে"
@@ -1830,6 +1830,11 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "অতিরিক্ত তথ্য"
 
+#: views/dolphincolumnview.cpp:88
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
+
 #: views/additionalinfoaccessor.cpp:105
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
@@ -1925,17 +1930,17 @@ msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1023
+#: views/dolphinview.cpp:1028
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1111
+#: views/dolphinview.cpp:1116
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1113
+#: views/dolphinview.cpp:1118
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -1966,12 +1971,12 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
 
-#: views/dolphindetailsview.cpp:157
+#: views/dolphindetailsview.cpp:147
 msgctxt "@option:check"
 msgid "Expandable Folders"
 msgstr "বৃদ্ধিমান ফোল্ডার"
 
-#: views/dolphindetailsview.cpp:613
+#: views/dolphindetailsview.cpp:379
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "কলাম"
