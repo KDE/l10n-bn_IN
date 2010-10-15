@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-09 06:11+0200\n"
+"POT-Creation-Date: 2010-10-15 06:16+0200\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -350,6 +350,12 @@ msgstr ""
 #| msgid "Disable KWin compositing, if active"
 msgid "Disable effects"
 msgstr "KWin কম্পোসিটিং ব্যবস্থা সক্রিয় থাকলে তা নিষ্ক্রিয় করুন"
+
+#: daemon/backends/upower/upowersuspendjob.cpp:70
+#, fuzzy
+#| msgid "Supported schemes"
+msgid "Unsupported suspend method"
+msgstr "সমর্থিত স্কিম"
 
 #: daemon/kdedpowerdevil.cpp:48
 #, fuzzy
@@ -950,9 +956,6 @@ msgstr ""
 
 #~ msgid "Scheme support"
 #~ msgstr "স্কিম সমর্থন ব্যবস্থা"
-
-#~ msgid "Supported schemes"
-#~ msgstr "সমর্থিত স্কিম"
 
 #~ msgid "Performance"
 #~ msgstr "কর্মক্ষমতা"
