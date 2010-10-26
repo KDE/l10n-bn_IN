@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-25 05:38+0200\n"
+"POT-Creation-Date: 2010-10-26 06:47+0200\n"
 "PO-Revision-Date: 2010-01-04 11:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -137,7 +137,7 @@ msgid ""
 "that group."
 msgstr ""
 
-#: kdm-conv.cpp:168 kdm-shut.cpp:93
+#: kdm-conv.cpp:168 kdm-shut.cpp:95
 msgctxt "@title:group"
 msgid "Miscellaneous"
 msgstr "বিবিধ"
@@ -338,36 +338,36 @@ msgstr ""
 "এই বক্স নির্বাচন করা হলে ও ব্যবহৃত X-Server-র জন্য Xft এক্সটেনশন উপস্থিত থাকলে, লগ-"
 "ইন ডায়ল বক্সের মধ্যে প্রয়োগ হওয়া ফন্টগুলি অ্যান্টি-অ্যালায়েস (অর্থাৎ মসৃণ) করা হবে।"
 
-#: kdm-shut.cpp:43
+#: kdm-shut.cpp:45
 msgid "Allow Shutdown"
 msgstr "বন্ধ করার অনুমতিপ্রাপ্ত"
 
-#: kdm-shut.cpp:47
+#: kdm-shut.cpp:49
 msgctxt "shutdown request origin"
 msgid "&Local:"
 msgstr "স্থানীয়: (&L)"
 
-#: kdm-shut.cpp:49 kdm-shut.cpp:57
+#: kdm-shut.cpp:51 kdm-shut.cpp:59
 msgctxt "@item:inlistbox allow shutdown"
 msgid "Everybody"
 msgstr "সকল"
 
-#: kdm-shut.cpp:50 kdm-shut.cpp:58
+#: kdm-shut.cpp:52 kdm-shut.cpp:60
 msgctxt "@item:inlistbox allow shutdown"
 msgid "Only Root"
 msgstr "শুধুমাত্র Root"
 
-#: kdm-shut.cpp:51 kdm-shut.cpp:59
+#: kdm-shut.cpp:53 kdm-shut.cpp:61
 msgctxt "@item:inlistbox allow shutdown"
 msgid "Nobody"
 msgstr "কেউ না"
 
-#: kdm-shut.cpp:55
+#: kdm-shut.cpp:57
 msgctxt "shutdown request origin"
 msgid "&Remote:"
 msgstr "দূরবর্তী: (&R)"
 
-#: kdm-shut.cpp:62
+#: kdm-shut.cpp:64
 msgid ""
 "Here you can select who is allowed to shutdown the computer using KDM. You "
 "can specify different values for local (console) and remote displays. "
@@ -377,47 +377,47 @@ msgid ""
 "nobody can shutdown the computer using KDM</li></ul>"
 msgstr ""
 
-#: kdm-shut.cpp:72
+#: kdm-shut.cpp:74
 msgctxt "@title:group shell commands for shutdown"
 msgid "Commands"
 msgstr "কমান্ড"
 
-#: kdm-shut.cpp:75
+#: kdm-shut.cpp:77
 msgctxt "command for ..."
 msgid "H&alt:"
 msgstr "স্থগিত করুন: (&a)"
 
-#: kdm-shut.cpp:79
+#: kdm-shut.cpp:81
 msgid "Command to initiate the system halt. Typical value: /sbin/halt"
 msgstr "সিস্টেমে কর্ম স্থগিত করতে ব্যবহৃত কমান্ড। সাধারণত: /sbin/halt"
 
-#: kdm-shut.cpp:84
+#: kdm-shut.cpp:86
 msgctxt "command for ..."
 msgid "Reb&oot:"
 msgstr "পুনরায় বুট: (&o)"
 
-#: kdm-shut.cpp:88
+#: kdm-shut.cpp:90
 msgid "Command to initiate the system reboot. Typical value: /sbin/reboot"
 msgstr "সিস্টেম পুনরায় বুট করার জন্য ব্যবহৃত কমান্ড। সাধারণত: /sbin/reboot"
 
-#: kdm-shut.cpp:96
+#: kdm-shut.cpp:98
 msgctxt "boot manager"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kdm-shut.cpp:97
+#: kdm-shut.cpp:99
 msgid "Grub"
 msgstr "Grub"
 
-#: kdm-shut.cpp:99
+#: kdm-shut.cpp:101
 msgid "Lilo"
 msgstr "Lilo"
 
-#: kdm-shut.cpp:101
+#: kdm-shut.cpp:103
 msgid "Boot manager:"
 msgstr "বুট পরিচালন ব্যবস্থা:"
 
-#: kdm-shut.cpp:104
+#: kdm-shut.cpp:106
 msgid "Enable boot options in the \"Shutdown...\" dialog."
 msgstr "\"বন্ধ করুন...\" শীর্ষক ডায়লগের মধ্যে বুট সংক্রান্ত বিকল্পগুলি সক্রিয় করুন।"
 
