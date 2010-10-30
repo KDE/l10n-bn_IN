@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-28 06:08+0200\n"
+"POT-Creation-Date: 2010-10-30 06:12+0200\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,16 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: SuspensionLockHandler.cpp:75
-#, kde-format
-msgid ""
-"The application %1 is inhibiting suspension for the following reason:\n"
-"%2"
-msgstr ""
-"নিম্নলিখিত কারণের ফলে %1 অ্যাপ্লিকেশন দ্বারা সিস্টেম স্থগিত করতে বাধা সৃষ্টি করা "
-"হচ্ছে:\n"
-"%2"
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:57
 #: actions/bundled/suspendsessionconfig.cpp:71
@@ -166,17 +156,23 @@ msgstr "ডারিও ফ্রেডি"
 msgid "Developer"
 msgstr "প্রধান নির্মাতা"
 
-#: powerdevilcore.cpp:159
+#: powerdevilcore.cpp:78
+msgid ""
+"No valid Power Management backend plugins were found. A new installation "
+"might solve this problem."
+msgstr ""
+
+#: powerdevilcore.cpp:173
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:166
+#: powerdevilcore.cpp:180
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:242
+#: powerdevilcore.cpp:256
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -188,14 +184,14 @@ msgstr ""
 "অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে!\n"
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
-#: powerdevilcore.cpp:255
+#: powerdevilcore.cpp:269
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:284
+#: powerdevilcore.cpp:298
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -207,7 +203,7 @@ msgstr ""
 "ব্যাটারি প্রেক্ষাপটের সাথে সংযোগ স্থাপন করা যায়নি!\n"
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
-#: powerdevilcore.cpp:340
+#: powerdevilcore.cpp:354
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -215,19 +211,27 @@ msgid ""
 "been cancelled"
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:342
+#: powerdevilcore.cpp:356
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:345
+#: powerdevilcore.cpp:359
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
 
-#: powerdevilcore.cpp:376
+#: powerdevilcore.cpp:365
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+
+#: powerdevilcore.cpp:392
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -238,7 +242,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:381
+#: powerdevilcore.cpp:397
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -250,7 +254,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:386
+#: powerdevilcore.cpp:402
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -261,7 +265,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
 "এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:391
+#: powerdevilcore.cpp:407
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -270,13 +274,13 @@ msgid "Your battery level is critical: save your work as soon as possible."
 msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
 
-#: powerdevilcore.cpp:397
+#: powerdevilcore.cpp:413
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "ব্যাটারির ক্ষমতা সতর্কতামূলক পর্যায় উপস্থিত হয়েছে"
 
-#: powerdevilcore.cpp:402
+#: powerdevilcore.cpp:418
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
@@ -310,6 +314,14 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#~ msgid ""
+#~ "The application %1 is inhibiting suspension for the following reason:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "নিম্নলিখিত কারণের ফলে %1 অ্যাপ্লিকেশন দ্বারা সিস্টেম স্থগিত করতে বাধা সৃষ্টি করা "
+#~ "হচ্ছে:\n"
+#~ "%2"
 
 #~ msgid "PowerDevil"
 #~ msgstr "PowerDevil"
