@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-10-31 05:13+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -2669,12 +2669,24 @@ msgctxt "@label"
 msgid "Change..."
 msgstr "আইকন পরিবর্তন করুন...(&I)"
 
-#: nepomuk/utils/resourcemodel.cpp:113
+#: nepomuk/utils/resourcemodel.cpp:149
 #, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Miscellaneous Symbols"
 msgid "Miscellaneous"
 msgstr "বিবিধ চিহ্ন"
+
+#: nepomuk/utils/resourcemodel.cpp:175
+#, fuzzy
+#| msgid "&Restore"
+msgid "Resource"
+msgstr "পুনরুদ্ধার (&R)"
+
+#: nepomuk/utils/resourcemodel.cpp:177
+#, fuzzy
+#| msgid "Service types"
+msgid "Resource Type"
+msgstr "পরিসেবার ধরন"
 
 #: nepomuk/utils/searchwidget.cpp:99
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
@@ -6468,15 +6480,15 @@ msgstr "Testkhtml"
 msgid "a basic web browser using the KHTML library"
 msgstr "KHTML লাইব্রেরি সহযোগে নির্মিত একটি সরল ওয়েব ব্রাউজার"
 
-#: khtml/khtml_settings.cpp:238
+#: khtml/khtml_settings.cpp:235
 msgid "Accept"
 msgstr "গ্রহণ করা হবে"
 
-#: khtml/khtml_settings.cpp:239
+#: khtml/khtml_settings.cpp:236
 msgid "Reject"
 msgstr "প্রত্যাখ্যান করা হবে"
 
-#: khtml/khtml_settings.cpp:919
+#: khtml/khtml_settings.cpp:916
 msgid "Filter error"
 msgstr "ফিল্টার সংক্রান্ত ত্রুটি"
 
