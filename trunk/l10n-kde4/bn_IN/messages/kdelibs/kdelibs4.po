@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-03 06:22+0100\n"
+"POT-Creation-Date: 2010-11-04 06:23+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -3140,7 +3140,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "বৈশিষ্ট্য"
 
-#: kutils/kcmultidialog.cpp:219 kdeui/dialogs/kconfigdialog.cpp:69
+#: kutils/kcmultidialog.cpp:221 kdeui/dialogs/kconfigdialog.cpp:69
 msgid "Configure"
 msgstr "কনফিগার করুন"
 
@@ -4672,7 +4672,7 @@ msgstr ""
 "D-Bus-র মাধ্যমে KLauncher অবধি পৌছনো যায়নি। %1 কল করতে ত্রুটি:\n"
 "%2\n"
 
-#: kdecore/kernel/ktoolinvocation.cpp:298
+#: kdecore/kernel/ktoolinvocation.cpp:302
 #, kde-format
 msgid ""
 "Could not launch the KDE Help Center:\n"
@@ -4683,7 +4683,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:299
+#: kdecore/kernel/ktoolinvocation.cpp:303
 msgid "Could not Launch Help Center"
 msgstr "সহায়তা ব্যবস্থা আরম্ভ করতে ব্যর্থ"
 
@@ -6449,12 +6449,12 @@ msgstr ""
 "'%1' পরিসেবা দ্বারা কোনো লাইব্রেরি উপলব্ধ করা হয় না অথবা চিহ্নিত স্থানে Library-"
 "কি অনুপস্থিত "
 
-#: kdecore/util/kpluginloader.cpp:214
+#: kdecore/util/kpluginloader.cpp:215
 #, kde-format
 msgid "The library %1 does not offer a KDE 4 compatible factory."
 msgstr "%1 লাইব্রেরি দ্বারা, KDE 4-র সাথে সুসংগত ফ্যাক্টরি উপলব্ধ করা হয় না।"
 
-#: kdecore/util/kpluginloader.cpp:242
+#: kdecore/util/kpluginloader.cpp:243
 #, kde-format
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "'%1' প্লাগ-ইন দ্বারা বিসংগত KDE লাইব্রেরি ব্যবহার করা হয় (%2)।"
@@ -10725,11 +10725,11 @@ msgstr "উপরে স্থানান্তর (&U)"
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kdeui/widgets/kcmodule.cpp:181
+#: kdeui/widgets/kcmodule.cpp:182
 msgid "You will be asked to authenticate before saving"
 msgstr "সংরক্ষণের পূর্বে পরিচয় প্রমাণ করার অনুরোধ জানানো হবে"
 
-#: kdeui/widgets/kcmodule.cpp:185
+#: kdeui/widgets/kcmodule.cpp:186
 msgid "You are not allowed to save the configuration"
 msgstr "কনফিগারেশন সংরক্ষণের জন্য আপনি অধিকারপ্রাপ্ত নন"
 
