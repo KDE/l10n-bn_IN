@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-04 06:23+0100\n"
+"POT-Creation-Date: 2010-11-05 06:07+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -1168,7 +1168,7 @@ msgstr "বৈশিষ্ট্য"
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:122
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
 #: rc.cpp:549 rc.cpp:916 khtml/ecma/debugger/localvariabledock.cpp:52
-#: khtml/java/kjavaappletviewer.cpp:139
+#: khtml/java/kjavaappletviewer.cpp:144
 msgid "Value"
 msgstr "মান"
 
@@ -1380,7 +1380,7 @@ msgstr "এই মুহূর্তে সংরক্ষণ করা হব�
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:49
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
-#: rc.cpp:654 rc.cpp:666 rc.cpp:1063 rc.cpp:1075
+#: rc.cpp:654 rc.cpp:666 rc.cpp:1066 rc.cpp:1078
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
@@ -1410,7 +1410,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:36
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:660 rc.cpp:1069
+#: rc.cpp:660 rc.cpp:1072
 msgid "Unknown word:"
 msgstr "অজানা শব্দ:"
 
@@ -1418,7 +1418,7 @@ msgstr "অজানা শব্দ:"
 #. i18n: ectx: property (toolTip), widget (QLabel, m_unknownWord)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:43
 #. i18n: ectx: property (toolTip), widget (QLabel, m_unknownWord)
-#: rc.cpp:663 rc.cpp:1072
+#: rc.cpp:663 rc.cpp:1075
 msgid "Unknown word"
 msgstr "অজানা শব্দ"
 
@@ -1426,7 +1426,7 @@ msgstr "অজানা শব্দ"
 #. i18n: ectx: property (text), widget (QLabel, m_unknownWord)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:52
 #. i18n: ectx: property (text), widget (QLabel, m_unknownWord)
-#: rc.cpp:672 rc.cpp:1081
+#: rc.cpp:672 rc.cpp:1084
 msgid "<b>misspelled</b>"
 msgstr "<b>ভুল বানান</b>"
 
@@ -1438,7 +1438,7 @@ msgstr "<b>ভুল বানান</b>"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:176
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_language)
-#: rc.cpp:675 rc.cpp:770 rc.cpp:1084 rc.cpp:1142
+#: rc.cpp:675 rc.cpp:770 rc.cpp:1087 rc.cpp:1145
 msgid ""
 "<qt>\n"
 "<p>Select the language of the document you are proofing here.</p>\n"
@@ -1449,7 +1449,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:680 rc.cpp:1089
+#: rc.cpp:680 rc.cpp:1092
 msgid "&Language:"
 msgstr "ভাষা: (&L)"
 
@@ -1457,7 +1457,7 @@ msgstr "ভাষা: (&L)"
 #. i18n: ectx: property (toolTip), widget (QLabel, m_contextLabel)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:74
 #. i18n: ectx: property (toolTip), widget (QLabel, m_contextLabel)
-#: rc.cpp:683 rc.cpp:1092
+#: rc.cpp:683 rc.cpp:1095
 msgid "Text excerpt showing the unknown word in its context."
 msgstr "অজানা শব্দের প্রসঙ্গ নির্দেশকারী লেখার অংশ।"
 
@@ -1465,7 +1465,7 @@ msgstr "অজানা শব্দের প্রসঙ্গ নির্দ
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_contextLabel)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:79
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_contextLabel)
-#: rc.cpp:686 rc.cpp:1095
+#: rc.cpp:686 rc.cpp:1098
 msgid ""
 "<qt>\n"
 "<p>Here you can see a text excerpt showing the unknown word in its context. "
@@ -1479,7 +1479,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_contextLabel)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_contextLabel)
-#: rc.cpp:691 rc.cpp:1100
+#: rc.cpp:691 rc.cpp:1103
 msgid "... the <b>misspelled</b> word shown in context ..."
 msgstr "... প্রসঙ্গ অনুসারে প্রদর্শিত শব্দের <b>ভুল বানান</b> ..."
 
@@ -1487,7 +1487,7 @@ msgstr "... প্রসঙ্গ অনুসারে প্রদর্শি
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:98
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
-#: rc.cpp:694 rc.cpp:1103
+#: rc.cpp:694 rc.cpp:1106
 msgid ""
 "<qt>\n"
 "<p>The unknown word was detected and considered unknown because it is not "
@@ -1503,7 +1503,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:101
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
-#: rc.cpp:700 rc.cpp:1109
+#: rc.cpp:700 rc.cpp:1112
 msgid "<< Add to Dictionary"
 msgstr "<< অভিধানে যোগ করুন"
 
@@ -1511,7 +1511,7 @@ msgstr "<< অভিধানে যোগ করুন"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:212
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceAllBtn)
-#: rc.cpp:703 rc.cpp:1158
+#: rc.cpp:703 rc.cpp:1161
 msgid ""
 "<qt>\n"
 "<p>Click here to replace all occurrences of the unknown text with the text "
@@ -1527,7 +1527,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:215
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceAllBtn)
-#: rc.cpp:708 rc.cpp:1163
+#: rc.cpp:708 rc.cpp:1166
 msgid "R&eplace All"
 msgstr "সমস্ত প্রতিস্থাপন করা হবে (&e)"
 
@@ -1535,7 +1535,7 @@ msgstr "সমস্ত প্রতিস্থাপন করা হবে (&
 #. i18n: ectx: property (toolTip), widget (Q3ListView, m_suggestions)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:124
 #. i18n: ectx: property (toolTip), widget (QListView, m_suggestions)
-#: rc.cpp:711 rc.cpp:1112
+#: rc.cpp:711 rc.cpp:1115
 msgid "Suggestion List"
 msgstr "প্রস্তাবিত শব্দের তালিকা"
 
@@ -1543,7 +1543,7 @@ msgstr "প্রস্তাবিত শব্দের তালিকা"
 #. i18n: ectx: property (whatsThis), widget (Q3ListView, m_suggestions)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:130
 #. i18n: ectx: property (whatsThis), widget (QListView, m_suggestions)
-#: rc.cpp:714 rc.cpp:1115
+#: rc.cpp:714 rc.cpp:1118
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should check if the correction for "
@@ -1567,7 +1567,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (Q3ListView, m_suggestions)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:137
 #. i18n: ectx: property (text), widget (QListView, m_suggestions)
-#: rc.cpp:720 rc.cpp:1121
+#: rc.cpp:720 rc.cpp:1124
 msgid "Suggested Words"
 msgstr "প্রস্তাবিত শব্দ"
 
@@ -1575,7 +1575,7 @@ msgstr "প্রস্তাবিত শব্দ"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:200
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceBtn)
-#: rc.cpp:723 rc.cpp:1150
+#: rc.cpp:723 rc.cpp:1153
 msgid ""
 "<qt>\n"
 "<p>Click here to replace this occurrence of the unknown text with the text "
@@ -1591,7 +1591,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:203
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
-#: rc.cpp:728 rc.cpp:1155 kdeui/findreplace/kfinddialog.cpp:198
+#: rc.cpp:728 rc.cpp:1158 kdeui/findreplace/kfinddialog.cpp:198
 msgid "&Replace"
 msgstr "প্রতিস্থাপন (&R)"
 
@@ -1603,7 +1603,7 @@ msgstr "প্রতিস্থাপন (&R)"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:164
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_replacement)
-#: rc.cpp:731 rc.cpp:758 rc.cpp:1124 rc.cpp:1133
+#: rc.cpp:731 rc.cpp:758 rc.cpp:1127 rc.cpp:1136
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should type the correction for "
@@ -1624,7 +1624,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:151
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:737 rc.cpp:1130
+#: rc.cpp:737 rc.cpp:1133
 msgid "Replace &with:"
 msgstr "প্রতিস্থাপনে ব্যবহৃত শব্দ: (&w)"
 
@@ -1632,7 +1632,7 @@ msgstr "প্রতিস্থাপনে ব্যবহৃত শব্দ:
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:225
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipBtn)
-#: rc.cpp:740 rc.cpp:1166
+#: rc.cpp:740 rc.cpp:1169
 msgid ""
 "<qt>\n"
 "<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
@@ -1651,7 +1651,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:228
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: rc.cpp:746 rc.cpp:1172
+#: rc.cpp:746 rc.cpp:1175
 msgid "&Ignore"
 msgstr "উপেক্ষা করুন (&I)"
 
@@ -1661,7 +1661,7 @@ msgstr "উপেক্ষা করুন (&I)"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:251
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_autoCorrect)
-#: rc.cpp:749 rc.cpp:1175 rc.cpp:1184
+#: rc.cpp:749 rc.cpp:1178 rc.cpp:1187
 msgid ""
 "<qt>\n"
 "<p>Click here to let all occurrences of the unknown word remain as they are."
@@ -1681,7 +1681,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_skipAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:241
 #. i18n: ectx: property (text), widget (QPushButton, m_skipAllBtn)
-#: rc.cpp:755 rc.cpp:1181
+#: rc.cpp:755 rc.cpp:1184
 msgid "I&gnore All"
 msgstr "সমস্ত উপেক্ষা করা হবে (&g)"
 
@@ -1689,7 +1689,7 @@ msgstr "সমস্ত উপেক্ষা করা হবে (&g)"
 #. i18n: ectx: property (text), widget (QPushButton, m_suggestBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, m_suggestBtn)
-#: rc.cpp:764 rc.cpp:1147
+#: rc.cpp:764 rc.cpp:1150
 msgid "S&uggest"
 msgstr "প্রস্তাবনা (&u)"
 
@@ -1697,7 +1697,7 @@ msgstr "প্রস্তাবনা (&u)"
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_language)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:171
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_language)
-#: rc.cpp:767 rc.cpp:1139
+#: rc.cpp:767 rc.cpp:1142
 msgid "Language Selection"
 msgstr "ভাষা নির্বাচন"
 
@@ -2206,8 +2206,10 @@ msgid "Default language:"
 msgstr "ডিফল্ট ভাষা:"
 
 #. i18n: file: kdeui/sonnet/configui.ui:79
-#. i18n: ectx: property (title), widget (KEditListBox, m_ignoreListBox)
-#: rc.cpp:1060
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: kdeui/sonnet/configui.ui:85
+#. i18n: ectx: property (title), widget (KEditListWidget, m_ignoreListBox)
+#: rc.cpp:1060 rc.cpp:1063
 #, fuzzy
 #| msgid "Suggested Words"
 msgid "Ignored Words"
@@ -2215,19 +2217,19 @@ msgstr "প্রস্তাবিত শব্দ"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:254
 #. i18n: ectx: property (text), widget (QPushButton, m_autoCorrect)
-#: rc.cpp:1190
+#: rc.cpp:1193
 msgid "Autocorrect"
 msgstr "স্বয়ং সংশোধন"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:1193 kdeui/dialogs/kshortcutseditor.cpp:644
+#: rc.cpp:1196 kdeui/dialogs/kshortcutseditor.cpp:648
 msgid "Main:"
 msgstr "প্রধান:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:1196 kdeui/dialogs/kshortcutseditor.cpp:645
+#: rc.cpp:1199 kdeui/dialogs/kshortcutseditor.cpp:649
 msgid "Alternate:"
 msgstr "বিকল্প:"
 
@@ -2474,19 +2476,19 @@ msgctxt ""
 msgid "or"
 msgstr "or"
 
-#: nepomuk/core/resource.cpp:499
+#: nepomuk/core/resource.cpp:515
 msgid "Success"
 msgstr "সফল"
 
-#: nepomuk/core/resource.cpp:501
+#: nepomuk/core/resource.cpp:517
 msgid "Communication error"
 msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
 
-#: nepomuk/core/resource.cpp:503
+#: nepomuk/core/resource.cpp:519
 msgid "Invalid type in Database"
 msgstr "ডাটাবেসের মধ্যে অবৈধ ধরন"
 
-#: nepomuk/core/resource.cpp:505 kdecore/network/klocalsocket_unix.cpp:213
+#: nepomuk/core/resource.cpp:521 kdecore/network/klocalsocket_unix.cpp:213
 #: kdecore/network/klocalsocket_unix.cpp:293
 msgid "Unknown error"
 msgstr "অজানা ত্রুটি"
@@ -2908,42 +2910,42 @@ msgctxt "option:radio A filter on the rating of a resource"
 msgid "Max Rating"
 msgstr "গুরুত্বের মান"
 
-#: kinit/klauncher.cpp:563
+#: kinit/klauncher.cpp:562
 #, kde-format
 msgid "KDEInit could not launch '%1'."
 msgstr "KDEInit দ্বারা '%1' লঞ্চ করা যায়নি"
 
-#: kinit/klauncher.cpp:736 kinit/klauncher.cpp:765 kinit/klauncher.cpp:780
+#: kinit/klauncher.cpp:737 kinit/klauncher.cpp:766 kinit/klauncher.cpp:781
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "পরিসেবা '%1' সন্ধান করা যায়নি।"
 
-#: kinit/klauncher.cpp:799
+#: kinit/klauncher.cpp:800
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr ""
 
-#: kinit/klauncher.cpp:801 kinit/klauncher.cpp:837
+#: kinit/klauncher.cpp:802 kinit/klauncher.cpp:838
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "'%1' পরিসেবা ত্রুটিপূর্ণ রূপে গঠিত হয়েছে।"
 
-#: kinit/klauncher.cpp:923
+#: kinit/klauncher.cpp:924
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 লঞ্চ করা হচ্ছে"
 
-#: kinit/klauncher.cpp:1126
+#: kinit/klauncher.cpp:1128
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "অজানা প্রোটোকল '%1'।\n"
 
-#: kinit/klauncher.cpp:1187
+#: kinit/klauncher.cpp:1189
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "'%1' লোড করতে সমস্যা।\n"
 
-#: kinit/kinit.cpp:524
+#: kinit/kinit.cpp:525
 msgid ""
 "Unable to start new process.\n"
 "The system may have reached the maximum number of open files possible or the "
@@ -2953,7 +2955,7 @@ msgstr ""
 "সম্ভবত, সিস্টেমের ক্ষেত্রে অনুমোদিত সর্বাধিক সংখ্যক ফাইল খোলা অবস্থায় রয়েছে অথবা "
 "আপনার ব্যবহারের জন্য অনুমোদিত ফাইলের সংখ্যা হয়েছে।"
 
-#: kinit/kinit.cpp:543
+#: kinit/kinit.cpp:544
 msgid ""
 "Unable to create new process.\n"
 "The system may have reached the maximum number of processes possible or the "
@@ -2963,12 +2965,12 @@ msgstr ""
 "সম্ভবত সিস্টেমের মধ্যে সর্বোচ্চ সংখ্যক প্রসেস অথবা আপনার ক্ষেত্রে সর্বোচ্চ অনুমোদিত "
 "সংখ্যক প্রসেস বর্তমানে চলছে।"
 
-#: kinit/kinit.cpp:639
+#: kinit/kinit.cpp:640
 #, kde-format
 msgid "Could not find '%1' executable."
 msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
 
-#: kinit/kinit.cpp:657
+#: kinit/kinit.cpp:658
 #, kde-format
 msgid ""
 "Could not open library '%1'.\n"
@@ -2977,7 +2979,7 @@ msgstr ""
 "লাইব্রেরি '%1' খোলা যায়নি।\n"
 "%2"
 
-#: kinit/kinit.cpp:703
+#: kinit/kinit.cpp:704
 #, kde-format
 msgid ""
 "Could not find 'kdemain' in '%1'.\n"
@@ -3169,12 +3171,12 @@ msgstr ""
 "<qt><p>সম্ভবত মডিউল দ্বারা কনফিগার হওয়া হার্ডওয়্যার/সফ্টওয়্যার উপলব্ধ নয় অথবা "
 "অ্যাডমিনিস্ট্রেটর দ্বারা মডিউল নিষ্ক্রিয় করা হয়েছে।</p></qt>"
 
-#: kutils/kcmoduleloader.cpp:132
+#: kutils/kcmoduleloader.cpp:134
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "%1 মডিউলটি বৈধ কনফিগারেশন মডিউল নয়।"
 
-#: kutils/kcmoduleloader.cpp:133
+#: kutils/kcmoduleloader.cpp:135
 #, kde-format
 msgid ""
 "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
@@ -3182,11 +3184,11 @@ msgid ""
 msgstr ""
 "<qt>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 দ্বারা কোনো লাইব্রেরি নির্দেশিত হয়নি।</qt>"
 
-#: kutils/kcmoduleloader.cpp:152
+#: kutils/kcmoduleloader.cpp:150
 msgid "There was an error loading the module."
 msgstr "মডিউল লোড করতে সমস্যা।"
 
-#: kutils/kcmoduleloader.cpp:152
+#: kutils/kcmoduleloader.cpp:150
 #, kde-format
 msgid ""
 "<qt>The diagnosis is:<br />%1<p>Possible reasons:</p><ul><li>An error "
@@ -3197,7 +3199,7 @@ msgid ""
 "p></qt>"
 msgstr ""
 
-#: kutils/kcmoduleloader.cpp:167
+#: kutils/kcmoduleloader.cpp:166
 msgid ""
 "<qt><p>Possible reasons:<ul><li>An error occurred during your last KDE "
 "upgrade leaving an orphaned control module</li><li>You have old third party "
@@ -3912,7 +3914,7 @@ msgid "Name"
 msgstr "নাম"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
-#: kdeui/dialogs/kshortcutseditor.cpp:669
+#: kdeui/dialogs/kshortcutseditor.cpp:673
 msgid "Description"
 msgstr "বিবরণ"
 
@@ -4734,8 +4736,8 @@ msgstr ""
 "করা হয়নি।"
 
 #: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:301
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:303
 #: kdecore/localization/kencodingdetector.cpp:1149
 #: kdecore/localization/kencodingdetector.cpp:1232
 msgctxt "@item Text character set"
@@ -4743,8 +4745,8 @@ msgid "Western European"
 msgstr "পশ্চিত ইউরোপিয়ান"
 
 #: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:283
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:285
 #: kdecore/localization/kencodingdetector.cpp:1151
 #: kdecore/localization/kencodingdetector.cpp:1214
 msgctxt "@item Text character set"
@@ -4752,8 +4754,8 @@ msgid "Central European"
 msgstr "মধ্য ইউরোপিয়ান"
 
 #: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:280
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:282
 #: kdecore/localization/kencodingdetector.cpp:1161
 #: kdecore/localization/kencodingdetector.cpp:1211
 msgctxt "@item Text character set"
@@ -4766,8 +4768,8 @@ msgid "South-Eastern Europe"
 msgstr "দক্ষিণ-পূর্ব ইউরোপ"
 
 #: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:298
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:300
 #: kdecore/localization/kencodingdetector.cpp:1157
 #: kdecore/localization/kencodingdetector.cpp:1229
 msgctxt "@item Text character set"
@@ -4775,8 +4777,8 @@ msgid "Turkish"
 msgstr "তুর্কি"
 
 #: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingprober.cpp:240
-#: kdecore/localization/kencodingprober.cpp:286
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:288
 #: kdecore/localization/kencodingdetector.cpp:1147
 #: kdecore/localization/kencodingdetector.cpp:1217
 msgctxt "@item Text character set"
@@ -4784,31 +4786,31 @@ msgid "Cyrillic"
 msgstr "সিরিলিক"
 
 #: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:304
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:306
 #: kdecore/localization/kencodingdetector.cpp:1235
 msgctxt "@item Text character set"
 msgid "Chinese Traditional"
 msgstr "পারম্পরিক চীনা"
 
 #: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:307
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:309
 #: kdecore/localization/kencodingdetector.cpp:1238
 msgctxt "@item Text character set"
 msgid "Chinese Simplified"
 msgstr "সরলিকৃত চীনা"
 
 #: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingprober.cpp:310
+#: kdecore/localization/kencodingprober.cpp:312
 #: kdecore/localization/kencodingdetector.cpp:1241
 msgctxt "@item Text character set"
 msgid "Korean"
 msgstr "কোরিয়ান"
 
 #: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:295
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:297
 #: kdecore/localization/kencodingdetector.cpp:1159
 #: kdecore/localization/kencodingdetector.cpp:1226
 msgctxt "@item Text character set"
@@ -4816,8 +4818,8 @@ msgid "Japanese"
 msgstr "জাপানি"
 
 #: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:289
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:291
 #: kdecore/localization/kencodingdetector.cpp:1153
 #: kdecore/localization/kencodingdetector.cpp:1220
 msgctxt "@item Text character set"
@@ -4825,8 +4827,8 @@ msgid "Greek"
 msgstr "গ্রিক"
 
 #: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:277
+#: kdecore/localization/kencodingprober.cpp:262
+#: kdecore/localization/kencodingprober.cpp:279
 #: kdecore/localization/kencodingdetector.cpp:1163
 #: kdecore/localization/kencodingdetector.cpp:1208
 msgctxt "@item Text character set"
@@ -4834,8 +4836,8 @@ msgid "Arabic"
 msgstr "আরবি"
 
 #: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:292
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:294
 #: kdecore/localization/kencodingdetector.cpp:1155
 #: kdecore/localization/kencodingdetector.cpp:1223
 msgctxt "@item Text character set"
@@ -4843,15 +4845,15 @@ msgid "Hebrew"
 msgstr "হিব্রু"
 
 #: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingprober.cpp:313
+#: kdecore/localization/kencodingprober.cpp:315
 #: kdecore/localization/kencodingdetector.cpp:1244
 msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "থাই"
 
 #: kdecore/localization/kcharsets.cpp:206
-#: kdecore/localization/kencodingprober.cpp:238
-#: kdecore/localization/kencodingprober.cpp:316
+#: kdecore/localization/kencodingprober.cpp:240
+#: kdecore/localization/kencodingprober.cpp:318
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
 msgctxt "@item Text character set"
@@ -4864,37 +4866,37 @@ msgid "Northern Saami"
 msgstr "উত্তর সামি"
 
 #: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:651
+#: kdecore/localization/kcharsets.cpp:652
 msgctxt "@item Text character set"
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kdecore/localization/kcharsets.cpp:660
+#: kdecore/localization/kcharsets.cpp:662
 #, kde-format
 msgctxt "@item %1 character set, %2 encoding"
 msgid "%1 ( %2 )"
 msgstr "%1 ( %2 )"
 
-#: kdecore/localization/kcharsets.cpp:663
+#: kdecore/localization/kcharsets.cpp:665
 #, kde-format
 msgctxt "@item"
 msgid "Other encoding (%1)"
 msgstr "অন্যান্য এনকোডিং (%1)"
 
-#: kdecore/localization/kcharsets.cpp:689
+#: kdecore/localization/kcharsets.cpp:691
 #, kde-format
 msgctxt "@item Text encoding: %1 character set, %2 encoding"
 msgid "%1 ( %2 )"
 msgstr "%1 ( %2 )"
 
-#: kdecore/localization/kencodingprober.cpp:234
-#: kdecore/localization/kencodingprober.cpp:271
+#: kdecore/localization/kencodingprober.cpp:236
+#: kdecore/localization/kencodingprober.cpp:273
 msgctxt "@item Text character set"
 msgid "Disabled"
 msgstr "নিষ্ক্রিয় করুন"
 
-#: kdecore/localization/kencodingprober.cpp:236
-#: kdecore/localization/kencodingprober.cpp:274
+#: kdecore/localization/kencodingprober.cpp:238
+#: kdecore/localization/kencodingprober.cpp:276
 msgctxt "@item Text character set"
 msgid "Universal"
 msgstr "ইউনিভার্সাল"
@@ -6246,7 +6248,7 @@ msgstr ""
 msgid "DBus Backend error: received corrupt data from helper %1 %2"
 msgstr "DBus ব্যাক-এন্ড সংক্রান্ত ত্রুটি: সহায়কের থেকে ত্রুটিপূর্ণ তথ্য প্রাপ্ত হয়েছে %1 %2"
 
-#: kdecore/config/kconfig.cpp:688
+#: kdecore/config/kconfig.cpp:692
 msgid "Please contact your system administrator."
 msgstr "অনুগ্রহ করে সিস্টেম অ্যাডমিনিস্ট্রটরের সাথে যোগাযোগ করুন।"
 
@@ -6498,7 +6500,7 @@ msgid "Filter error"
 msgstr "ফিল্টার সংক্রান্ত ত্রুটি"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3710 khtml/khtml_part.cpp:3939
-#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:415
+#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:419
 msgid "Save As"
 msgstr "নতুন রূপে সংরক্ষণ"
 
@@ -6772,12 +6774,12 @@ msgstr "ফাইল নতুন করে লেখা হবে কি?"
 msgid "Overwrite"
 msgstr "নতুন করে লেখা হবে"
 
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:386
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:390
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "$PATH-র মধ্যে Download Manager (%1) পাওয়া যায়নি "
 
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:387
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:391
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -7370,7 +7372,7 @@ msgstr[1] "ফাইল প্রেরণ করুন (&S)"
 msgid "Key Generator"
 msgstr "কি নির্মাণ ব্যবস্থা"
 
-#: khtml/html/html_objectimpl.cpp:604
+#: khtml/html/html_objectimpl.cpp:610
 #, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
@@ -7379,15 +7381,15 @@ msgstr ""
 "'%1'-র জন্য প্লাগ-ইন পাওয়া যায়নি।\n"
 "%2 থেকে ডাউনলোড করা হবে কি?"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:611
 msgid "Missing Plugin"
 msgstr "অনুপস্থিত প্লাগ-ইন"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:611
 msgid "Download"
 msgstr "ডাউনলোড করা হবে"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:611
 msgid "Do Not Download"
 msgstr "ডাউনলোড করা হবে না"
 
@@ -7665,27 +7667,27 @@ msgstr "অ্যাপ্লেট \"%1\" আরম্ভ করা হয়ে�
 msgid "Applet \"%1\" stopped"
 msgstr "অ্যাপ্লেট \"%1\" বন্ধ করা হয়েছে"
 
-#: khtml/java/kjavaappletviewer.cpp:128
+#: khtml/java/kjavaappletviewer.cpp:133
 msgid "Applet Parameters"
 msgstr "অ্যাপ্লেটের পরামিতি"
 
-#: khtml/java/kjavaappletviewer.cpp:138
+#: khtml/java/kjavaappletviewer.cpp:143
 msgid "Parameter"
 msgstr "পরামিতি"
 
-#: khtml/java/kjavaappletviewer.cpp:142
+#: khtml/java/kjavaappletviewer.cpp:147
 msgid "Class"
 msgstr "ক্লাস"
 
-#: khtml/java/kjavaappletviewer.cpp:148
+#: khtml/java/kjavaappletviewer.cpp:153
 msgid "Base URL"
 msgstr "বেস URL"
 
-#: khtml/java/kjavaappletviewer.cpp:154
+#: khtml/java/kjavaappletviewer.cpp:159
 msgid "Archives"
 msgstr "আর্কাইভ"
 
-#: khtml/java/kjavaappletviewer.cpp:474
+#: khtml/java/kjavaappletviewer.cpp:479
 msgid "KDE Java Applet Plugin"
 msgstr "KDE Java Applet Plugin"
 
@@ -8655,11 +8657,11 @@ msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr "সার্ভার দ্বারা এই ফাইলের নাম প্রস্তাবিত হয়েছে"
 
-#: kparts/part.cpp:813
+#: kparts/part.cpp:817
 msgid "Untitled"
 msgstr "শিরোনামবিহীন"
 
-#: kparts/part.cpp:819
+#: kparts/part.cpp:823
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -8668,7 +8670,7 @@ msgstr ""
 "\"%1\" ডকুমেন্টে কিছু পরিবর্তন করা হয়েছে।\n"
 "পরিবর্তনগুলি সংরক্ষণ করা হবে কি বর্জন করা হবে?"
 
-#: kparts/part.cpp:821
+#: kparts/part.cpp:825
 msgid "Close Document"
 msgstr "ডকুমেন্ট বন্ধ করুন"
 
@@ -8694,15 +8696,15 @@ msgstr "ইন্টারনেটে অনুসন্ধান"
 msgid "&Search"
 msgstr "অনুসন্ধান (&S)"
 
-#: kded/kded.cpp:835
+#: kded/kded.cpp:842
 msgid "KDE Daemon"
 msgstr "KDE Daemon"
 
-#: kded/kded.cpp:837
+#: kded/kded.cpp:844
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "KDE Daemon - প্রয়োজন অনুসারে Sycoca ডাটাবেস আপডেট আরম্ভ করতে ব্যবহৃত"
 
-#: kded/kded.cpp:840
+#: kded/kded.cpp:847
 msgid "Check Sycoca database only once"
 msgstr "Sycoca ডাটাবেস শুধুমাত্র একবার পরীক্ষা করা হবে"
 
@@ -8841,49 +8843,49 @@ msgstr ""
 msgid "Unknown"
 msgstr "অজানা"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:566
-#: kdeui/dialogs/kshortcutseditor.cpp:582
+#: kdeui/dialogs/kshortcutseditor.cpp:570
+#: kdeui/dialogs/kshortcutseditor.cpp:586
 msgid "Key Conflict"
 msgstr "কি-র মধ্যে দ্বন্দ্ব"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:567
+#: kdeui/dialogs/kshortcutseditor.cpp:571
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:571
-#: kdeui/dialogs/kshortcutseditor.cpp:587 kdeui/shortcuts/kglobalaccel.cpp:531
-#: kdeui/shortcuts/kglobalaccel.cpp:570
+#: kdeui/dialogs/kshortcutseditor.cpp:575
+#: kdeui/dialogs/kshortcutseditor.cpp:591 kdeui/shortcuts/kglobalaccel.cpp:546
+#: kdeui/shortcuts/kglobalaccel.cpp:586
 #: kdeui/widgets/kkeysequencewidget.cpp:184
 #: kdeui/widgets/kkeysequencewidget.cpp:273
-#: kdeui/widgets/kkeysequencewidget.cpp:667
+#: kdeui/widgets/kkeysequencewidget.cpp:669
 msgid "Reassign"
 msgstr "পুনরায় নির্ধারণ"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:583
+#: kdeui/dialogs/kshortcutseditor.cpp:587
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:626
+#: kdeui/dialogs/kshortcutseditor.cpp:630
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1-র শর্ট-কাট"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:646
+#: kdeui/dialogs/kshortcutseditor.cpp:650
 msgid "Global:"
 msgstr "সার্বজনীন:"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:661
+#: kdeui/dialogs/kshortcutseditor.cpp:665
 msgid "Action Name"
 msgstr "কর্মের নাম"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:665
+#: kdeui/dialogs/kshortcutseditor.cpp:669
 msgid "Shortcuts"
 msgstr "শর্ট-কাট"
 
@@ -9554,7 +9556,7 @@ msgstr "ডিফল্ট মান:"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:60
 #: kdeui/dialogs/kshortcuteditwidget.cpp:63
-#: kdeui/widgets/kkeysequencewidget.cpp:701
+#: kdeui/widgets/kkeysequencewidget.cpp:703
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "শূণ্য"
@@ -10049,11 +10051,11 @@ msgstr " স্থগিত "
 msgid " %1/s "
 msgstr " %1/s "
 
-#: kdeui/shortcuts/kglobalaccel.cpp:524
+#: kdeui/shortcuts/kglobalaccel.cpp:539
 msgid "Conflict with Global Shortcut"
 msgstr "সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:525
+#: kdeui/shortcuts/kglobalaccel.cpp:540
 #, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -10061,24 +10063,24 @@ msgid ""
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:551
+#: kdeui/shortcuts/kglobalaccel.cpp:567
 #, kde-format
 msgid "The '%1' key combination is registered by application %2 for action %3:"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:558
+#: kdeui/shortcuts/kglobalaccel.cpp:574
 #, kde-format
 msgid "In context '%1' for action '%2'\n"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:562
+#: kdeui/shortcuts/kglobalaccel.cpp:578
 #, kde-format
 msgid ""
 "The '%1' key combination is registered by application %2.\n"
 "%3"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:568
+#: kdeui/shortcuts/kglobalaccel.cpp:584
 msgid "Conflict With Registered Global Shortcut"
 msgstr "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
@@ -10568,39 +10570,39 @@ msgctxt "show help"
 msgid "&Help"
 msgstr "সাহায্য (&H)"
 
-#: kdeui/actions/kstandardaction.cpp:516 kdeui/actions/kstandardaction.cpp:540
+#: kdeui/actions/kstandardaction.cpp:517 kdeui/actions/kstandardaction.cpp:542
 #: kdeui/actions/kstandardaction_p.h:98
 msgid "Show &Menubar"
 msgstr "মেনুবার প্রদর্শন (&M)"
 
-#: kdeui/actions/kstandardaction.cpp:522 kdeui/actions/kstandardaction.cpp:547
+#: kdeui/actions/kstandardaction.cpp:523 kdeui/actions/kstandardaction.cpp:549
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr ""
 
-#: kdeui/actions/kstandardaction.cpp:541
+#: kdeui/actions/kstandardaction.cpp:543
 #, fuzzy
 #| msgid "Show &Menubar"
 msgid "Hide Menubar"
 msgstr "মেনুবার প্রদর্শন (&M)"
 
-#: kdeui/actions/kstandardaction.cpp:566 kdeui/actions/kstandardaction_p.h:100
+#: kdeui/actions/kstandardaction.cpp:569 kdeui/actions/kstandardaction_p.h:100
 msgid "Show St&atusbar"
 msgstr "স্ট্যাটাস-বার প্রদর্শন (&a)"
 
-#: kdeui/actions/kstandardaction.cpp:569 kdeui/actions/kstandardaction.cpp:592
+#: kdeui/actions/kstandardaction.cpp:572 kdeui/actions/kstandardaction.cpp:596
 msgid ""
 "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
 "bottom of the window used for status information."
 msgstr ""
 
-#: kdeui/actions/kstandardaction.cpp:587
+#: kdeui/actions/kstandardaction.cpp:591
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Show Statusbar"
 msgid "Show Statusbar"
 msgstr "স্ট্যাটাস-বার প্রদর্শন"
 
-#: kdeui/actions/kstandardaction.cpp:588
+#: kdeui/actions/kstandardaction.cpp:592
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Show Statusbar"
@@ -11758,94 +11760,94 @@ msgstr "নির্বাচিত: (&S)"
 msgid "without name"
 msgstr "নাম বিহীন"
 
-#: kdeui/widgets/ktoolbar.cpp:268
+#: kdeui/widgets/ktoolbar.cpp:272
 msgid "Toolbar Settings"
 msgstr "টুল-বার সংক্রান্ত বৈশিষ্ট্য"
 
-#: kdeui/widgets/ktoolbar.cpp:270
+#: kdeui/widgets/ktoolbar.cpp:274
 msgid "Orientation"
 msgstr "দিশা"
 
-#: kdeui/widgets/ktoolbar.cpp:272
+#: kdeui/widgets/ktoolbar.cpp:276
 msgctxt "toolbar position string"
 msgid "Top"
 msgstr "উপরে"
 
-#: kdeui/widgets/ktoolbar.cpp:274
+#: kdeui/widgets/ktoolbar.cpp:278
 msgctxt "toolbar position string"
 msgid "Left"
 msgstr "বাঁদিকে"
 
-#: kdeui/widgets/ktoolbar.cpp:275
+#: kdeui/widgets/ktoolbar.cpp:279
 msgctxt "toolbar position string"
 msgid "Right"
 msgstr "ডানদিকে"
 
-#: kdeui/widgets/ktoolbar.cpp:276
+#: kdeui/widgets/ktoolbar.cpp:280
 msgctxt "toolbar position string"
 msgid "Bottom"
 msgstr "নীচে"
 
-#: kdeui/widgets/ktoolbar.cpp:284
+#: kdeui/widgets/ktoolbar.cpp:288
 msgid "Text Position"
 msgstr "টেক্সটের অবস্থান"
 
-#: kdeui/widgets/ktoolbar.cpp:286
+#: kdeui/widgets/ktoolbar.cpp:290
 msgid "Icons Only"
 msgstr "শুধুমাত্র আইকন"
 
-#: kdeui/widgets/ktoolbar.cpp:287
+#: kdeui/widgets/ktoolbar.cpp:291
 msgid "Text Only"
 msgstr "শুধুমাত্র টেক্সট"
 
-#: kdeui/widgets/ktoolbar.cpp:288
+#: kdeui/widgets/ktoolbar.cpp:292
 msgid "Text Alongside Icons"
 msgstr "আইকনের পাশে টেক্সট"
 
-#: kdeui/widgets/ktoolbar.cpp:289
+#: kdeui/widgets/ktoolbar.cpp:293
 msgid "Text Under Icons"
 msgstr "আইকনের নীচে টেক্সট"
 
-#: kdeui/widgets/ktoolbar.cpp:297
+#: kdeui/widgets/ktoolbar.cpp:301
 msgid "Icon Size"
 msgstr "আইকনের মাপ"
 
-#: kdeui/widgets/ktoolbar.cpp:299
+#: kdeui/widgets/ktoolbar.cpp:303
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "ডিফল্ট মান"
 
-#: kdeui/widgets/ktoolbar.cpp:316 kdeui/widgets/ktoolbar.cpp:336
+#: kdeui/widgets/ktoolbar.cpp:320 kdeui/widgets/ktoolbar.cpp:340
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr "ছোট (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:318 kdeui/widgets/ktoolbar.cpp:338
+#: kdeui/widgets/ktoolbar.cpp:322 kdeui/widgets/ktoolbar.cpp:342
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr "মাঝারি (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:320 kdeui/widgets/ktoolbar.cpp:340
+#: kdeui/widgets/ktoolbar.cpp:324 kdeui/widgets/ktoolbar.cpp:344
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr "বড় (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:322 kdeui/widgets/ktoolbar.cpp:342
+#: kdeui/widgets/ktoolbar.cpp:326 kdeui/widgets/ktoolbar.cpp:346
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr "বৃহৎ (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:362
+#: kdeui/widgets/ktoolbar.cpp:366
 msgid "Lock Toolbar Positions"
 msgstr "টুল-বারের অবস্থান লক করা হবে"
 
-#: kdeui/widgets/ktoolbar.cpp:1222
+#: kdeui/widgets/ktoolbar.cpp:1232
 #, kde-format
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/widgets/ktoolbar.cpp:1223
+#: kdeui/widgets/ktoolbar.cpp:1233
 #, kde-format
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
@@ -11914,47 +11916,47 @@ msgstr "একটি বৎসর নির্বাচন করুন"
 msgid "Select the current day"
 msgstr "আজকের দিন নির্বাচন করুন"
 
-#: kdeui/widgets/klineedit.cpp:292
+#: kdeui/widgets/klineedit.cpp:296
 msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
 msgstr "পরিশ্রুত করুন (&l)"
 
-#: kdeui/widgets/klineedit.cpp:1177
+#: kdeui/widgets/klineedit.cpp:1181
 msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "রঙ নির্বাচন করুন"
 
-#: kdeui/widgets/klineedit.cpp:1184
+#: kdeui/widgets/klineedit.cpp:1188
 msgctxt "@item:inmenu Text Completion"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kdeui/widgets/klineedit.cpp:1185
+#: kdeui/widgets/klineedit.cpp:1189
 msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
 msgstr "ব্যবহারকারী দ্বারা"
 
-#: kdeui/widgets/klineedit.cpp:1186
+#: kdeui/widgets/klineedit.cpp:1190
 msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
 msgstr "স্বয়ংক্রিয়"
 
-#: kdeui/widgets/klineedit.cpp:1187
+#: kdeui/widgets/klineedit.cpp:1191
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List"
 msgstr "ড্রপ-ডাউন তালিকা"
 
-#: kdeui/widgets/klineedit.cpp:1188
+#: kdeui/widgets/klineedit.cpp:1192
 msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
 msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
 
-#: kdeui/widgets/klineedit.cpp:1189
+#: kdeui/widgets/klineedit.cpp:1193
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "ড্রপ-ডাউন তালিকা && স্বয়ংক্রিয়"
 
-#: kdeui/widgets/klineedit.cpp:1220
+#: kdeui/widgets/klineedit.cpp:1224
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "ডিফল্ট মান"
@@ -12158,145 +12160,145 @@ msgstr "প্রদেশ"
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kdeui/widgets/kcharselect.cpp:334 kdeui/widgets/kcharselect.cpp:336
+#: kdeui/widgets/kcharselect.cpp:336 kdeui/widgets/kcharselect.cpp:338
 msgid "Enter a search term or character here"
 msgstr "অনুসন্ধানের জন্য কোনো অভিব্যক্তি অথবা অক্ষর এখানে লিখুন"
 
-#: kdeui/widgets/kcharselect.cpp:354
+#: kdeui/widgets/kcharselect.cpp:356
 msgctxt "Goes to previous character"
 msgid "Previous in History"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:356
+#: kdeui/widgets/kcharselect.cpp:358
 msgid "Previous Character in History"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:361
+#: kdeui/widgets/kcharselect.cpp:363
 msgctxt "Goes to next character"
 msgid "Next in History"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:363
+#: kdeui/widgets/kcharselect.cpp:365
 msgid "Next Character in History"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:371
+#: kdeui/widgets/kcharselect.cpp:373
 msgid "Select a category"
 msgstr "একটি বিভাগ নির্বাচন করুন"
 
-#: kdeui/widgets/kcharselect.cpp:374
+#: kdeui/widgets/kcharselect.cpp:376
 msgid "Select a block to be displayed"
 msgstr "প্রদর্শনের উদ্দেশ্যে একটি ব্লক নির্বাচন করুন"
 
-#: kdeui/widgets/kcharselect.cpp:387
+#: kdeui/widgets/kcharselect.cpp:389
 msgid "Set font"
 msgstr "ফন্ট নির্ধারণ করুন"
 
-#: kdeui/widgets/kcharselect.cpp:394
+#: kdeui/widgets/kcharselect.cpp:396
 msgid "Set font size"
 msgstr "ফন্টের মান নির্ধারণ করুন"
 
-#: kdeui/widgets/kcharselect.cpp:625
+#: kdeui/widgets/kcharselect.cpp:627
 msgid "Character:"
 msgstr "অক্ষর:"
 
-#: kdeui/widgets/kcharselect.cpp:631
+#: kdeui/widgets/kcharselect.cpp:633
 msgid "Name: "
 msgstr "নাম: "
 
-#: kdeui/widgets/kcharselect.cpp:639
+#: kdeui/widgets/kcharselect.cpp:641
 msgid "Annotations and Cross References"
 msgstr "টীকা ও প্রতিনির্দেশ"
 
-#: kdeui/widgets/kcharselect.cpp:643
+#: kdeui/widgets/kcharselect.cpp:645
 msgid "Alias names:"
 msgstr "উপনাম:"
 
-#: kdeui/widgets/kcharselect.cpp:651
+#: kdeui/widgets/kcharselect.cpp:653
 msgid "Notes:"
 msgstr "নোট:"
 
-#: kdeui/widgets/kcharselect.cpp:659
+#: kdeui/widgets/kcharselect.cpp:661
 msgid "See also:"
 msgstr "অতিরিক্ত তথ্য:"
 
-#: kdeui/widgets/kcharselect.cpp:671
+#: kdeui/widgets/kcharselect.cpp:673
 msgid "Equivalents:"
 msgstr "সমতুল্য:"
 
-#: kdeui/widgets/kcharselect.cpp:679
+#: kdeui/widgets/kcharselect.cpp:681
 msgid "Approximate equivalents:"
 msgstr "কিছুমাত্রায় সমতুল্য:"
 
-#: kdeui/widgets/kcharselect.cpp:688
+#: kdeui/widgets/kcharselect.cpp:690
 msgid "CJK Ideograph Information"
 msgstr "CJK ভাবসংকেত তথ্য"
 
-#: kdeui/widgets/kcharselect.cpp:691
+#: kdeui/widgets/kcharselect.cpp:693
 msgid "Definition in English: "
 msgstr "ইংরাজি ব্যাখ্যা:"
 
-#: kdeui/widgets/kcharselect.cpp:696
+#: kdeui/widgets/kcharselect.cpp:698
 msgid "Mandarin Pronunciation: "
 msgstr "ম্যান্ডারিন উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:701
+#: kdeui/widgets/kcharselect.cpp:703
 msgid "Cantonese Pronunciation: "
 msgstr "ক্যান্টোনিস উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:706
+#: kdeui/widgets/kcharselect.cpp:708
 msgid "Japanese On Pronunciation: "
 msgstr "জাপানি ওন উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:711
+#: kdeui/widgets/kcharselect.cpp:713
 msgid "Japanese Kun Pronunciation: "
 msgstr "জাপানি কুন উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:716
+#: kdeui/widgets/kcharselect.cpp:718
 msgid "Tang Pronunciation: "
 msgstr "ট্যাং উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:721
+#: kdeui/widgets/kcharselect.cpp:723
 msgid "Korean Pronunciation: "
 msgstr "কোরিয়ান উচ্চারণ: "
 
-#: kdeui/widgets/kcharselect.cpp:727
+#: kdeui/widgets/kcharselect.cpp:729
 msgid "General Character Properties"
 msgstr "অক্ষরের সাধারণ বৈশিষ্ট্য"
 
-#: kdeui/widgets/kcharselect.cpp:728
+#: kdeui/widgets/kcharselect.cpp:730
 msgid "Block: "
 msgstr "ব্লক: "
 
-#: kdeui/widgets/kcharselect.cpp:729
+#: kdeui/widgets/kcharselect.cpp:731
 msgid "Unicode category: "
 msgstr "ইউনিকোড শ্রেণী: "
 
-#: kdeui/widgets/kcharselect.cpp:733
+#: kdeui/widgets/kcharselect.cpp:735
 msgid "Various Useful Representations"
 msgstr "বিভিন্ন সহায়ক বর্ণনা"
 
-#: kdeui/widgets/kcharselect.cpp:734
+#: kdeui/widgets/kcharselect.cpp:736
 msgid "UTF-8:"
 msgstr "UTF-8:"
 
-#: kdeui/widgets/kcharselect.cpp:737
+#: kdeui/widgets/kcharselect.cpp:739
 msgid "UTF-16: "
 msgstr "UTF-16: "
 
-#: kdeui/widgets/kcharselect.cpp:738
+#: kdeui/widgets/kcharselect.cpp:740
 msgid "C octal escaped UTF-8: "
 msgstr "C octal escaped UTF-8: "
 
-#: kdeui/widgets/kcharselect.cpp:741
+#: kdeui/widgets/kcharselect.cpp:743
 msgid "XML decimal entity:"
 msgstr "XML দশমিক এনটিটি:"
 
-#: kdeui/widgets/kcharselect.cpp:870
+#: kdeui/widgets/kcharselect.cpp:872
 msgid "Unicode code point:"
 msgstr "ইউনিকোড কোডের পয়েন্ট:"
 
-#: kdeui/widgets/kcharselect.cpp:871
+#: kdeui/widgets/kcharselect.cpp:873
 msgctxt "Character"
 msgid "In decimal:"
 msgstr "দশমিকে:"
@@ -12367,22 +12369,22 @@ msgid ""
 "Example for Ctrl+a: hold the Ctrl key and press a."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:520
+#: kdeui/widgets/kkeysequencewidget.cpp:522
 msgid "Reserved Shortcut"
 msgstr "সংরক্ষিত শর্ট-কাট"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:521
+#: kdeui/widgets/kkeysequencewidget.cpp:523
 msgid ""
 "The F12 key is reserved on Windows, so cannot be used for a global "
 "shortcut.\n"
 "Please choose another one."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:661
+#: kdeui/widgets/kkeysequencewidget.cpp:663
 msgid "Conflict with Standard Application Shortcut"
 msgstr "অ্যাপ্লিকেশনের প্রমিত শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:662
+#: kdeui/widgets/kkeysequencewidget.cpp:664
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -12390,16 +12392,16 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:694
+#: kdeui/widgets/kkeysequencewidget.cpp:696
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ইনপুট"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:744
+#: kdeui/widgets/kkeysequencewidget.cpp:746
 msgid "The key you just pressed is not supported by Qt."
 msgstr "টেপা কি-টি Qt-র মধ্যে সমর্থিত হয় না।"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:745
+#: kdeui/widgets/kkeysequencewidget.cpp:747
 msgid "Unsupported Key"
 msgstr "অসমর্থিত-কি"
 
@@ -13195,7 +13197,7 @@ msgstr "TETest"
 msgid "No such function \"%1\""
 msgstr "ফাংশান \"%1\" অনুপস্থিত"
 
-#: kdecore/services/kservice.h:543
+#: kdecore/services/kservice.h:553
 #, kde-format
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
