@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-09 06:59+0100\n"
+"POT-Creation-Date: 2010-11-10 06:10+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -287,7 +287,7 @@ msgstr "Nepomuk Server - Nepomuk সংরক্ষণস্থল ও পরি
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
 
-#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:113 servicestub/main.cpp:77
+#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:111 servicestub/main.cpp:77
 msgid "Sebastian Trüg"
 msgstr "সেবাস্টিয়ান ট্রুগ"
 
@@ -295,37 +295,37 @@ msgstr "সেবাস্টিয়ান ট্রুগ"
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: kcm/nepomukserverkcm.cpp:91
+#: kcm/nepomukserverkcm.cpp:90
 msgctxt "'Home' as in 'Home path', i.e. /home/username"
 msgid "Home"
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:92
+#: kcm/nepomukserverkcm.cpp:91
 #, kde-format
 msgid "<strong><filename>%1</filename></strong>"
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:94
+#: kcm/nepomukserverkcm.cpp:93
 msgid "some subfolders excluded"
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:110
+#: kcm/nepomukserverkcm.cpp:108
 msgid "Nepomuk Configuration Module"
 msgstr "Nepomuk কনফিগারেশন মডিউল"
 
-#: kcm/nepomukserverkcm.cpp:112
+#: kcm/nepomukserverkcm.cpp:110
 #, fuzzy
 #| msgid "Copyright 2007 Sebastian Trüg"
 msgid "Copyright 2007-2010 Sebastian Trüg"
 msgstr "স্বত্বাধিকার ২০০৭ সেবাস্টিয়ান ট্রুগ"
 
-#: kcm/nepomukserverkcm.cpp:164
+#: kcm/nepomukserverkcm.cpp:162
 msgid ""
 "The Nepomuk installation is not complete. No Nepomuk settings can be "
 "provided."
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:267
+#: kcm/nepomukserverkcm.cpp:265
 #, fuzzy
 #| msgid ""
 #| "The Nepomuk Server is not running. The settings have been saved and will "
@@ -337,38 +337,38 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। বৈশিষ্ট্যগুলি সংরক্ষণ করা হয়েছে এবং সার্ভার "
 "পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি প্রয়োগ করা হবে।"
 
-#: kcm/nepomukserverkcm.cpp:269
+#: kcm/nepomukserverkcm.cpp:267
 msgid "Nepomuk server not running"
 msgstr "Nepomuk সার্ভার বর্তমানে চলছে না।"
 
-#: kcm/nepomukserverkcm.cpp:311
+#: kcm/nepomukserverkcm.cpp:309
 #, fuzzy
 #| msgid "Nepomuk store size:"
 msgctxt "@info:status"
 msgid "Nepomuk system is active"
 msgstr "Nepomuk সংরক্ষণস্থলের মাপ:"
 
-#: kcm/nepomukserverkcm.cpp:314
+#: kcm/nepomukserverkcm.cpp:312
 #, fuzzy
 #| msgid "Nepomuk store size:"
 msgctxt "@info:status"
 msgid "Nepomuk system is inactive"
 msgstr "Nepomuk সংরক্ষণস্থলের মাপ:"
 
-#: kcm/nepomukserverkcm.cpp:326
+#: kcm/nepomukserverkcm.cpp:324
 #, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "Strigi ইন্ডেক্সারের সাথে যোগাযোগ করতে ব্যর্থ (%1)"
 
-#: kcm/nepomukserverkcm.cpp:336
+#: kcm/nepomukserverkcm.cpp:334
 msgctxt "@info:status"
 msgid ""
 "Strigi service failed to initialize, most likely due to an installation "
 "problem."
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:340
+#: kcm/nepomukserverkcm.cpp:338
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
@@ -376,11 +376,11 @@ msgctxt "@info:status"
 msgid "Strigi service not running."
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
 
-#: kcm/nepomukserverkcm.cpp:362
+#: kcm/nepomukserverkcm.cpp:360
 msgid "Custom root folder query"
 msgstr ""
 
-#: kcm/nepomukserverkcm.cpp:363
+#: kcm/nepomukserverkcm.cpp:361
 msgid "Please enter a query to be listed in the root folder"
 msgstr ""
 
@@ -400,11 +400,11 @@ msgstr ""
 "<filename>%1</filename><nl/> (ডেস্কটপ অনুসন্ধানের জন্য ইন্ডেক্স <emphasis>করা হবে "
 "না</emphasis>)"
 
-#: kcm/statuswidget.cpp:100
+#: kcm/statuswidget.cpp:99
 msgid "Calculation failed"
 msgstr "গণনা করতে ব্যর্থ"
 
-#: kcm/statuswidget.cpp:111
+#: kcm/statuswidget.cpp:110
 #, kde-format
 msgid "1 file in index"
 msgid_plural "%1 files in index"
@@ -510,9 +510,9 @@ msgstr "Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:187
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#. i18n: file: kcm/indexfolderselectionwidget.ui:19
+#. i18n: file: kcm/indexfolderselectionwidget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:35 rc.cpp:154
+#: rc.cpp:35 rc.cpp:151
 msgid ""
 "Select the local folders that contain files to be indexed for fast desktop "
 "searches"
@@ -737,49 +737,46 @@ msgstr "গণনা করা হচ্ছে..."
 msgid "Nepomuk store size:"
 msgstr "Nepomuk সংরক্ষণস্থলের মাপ:"
 
-#. i18n: file: kcm/indexfolderselectionwidget.ui:7
-#. i18n: ectx: property (windowTitle), widget (QWidget, IndexFolderSelectionWidget)
-#: rc.cpp:148
-#, fuzzy
-#| msgctxt ""
-#| "Boolean OR keyword in desktop search strings. You can add several "
-#| "variants separated by spaces, e.g. retain the English one alongside the "
-#| "translation; keywords are not case sensitive. Make sure there is no "
-#| "conflict with the AND keyword."
-#| msgid "or"
-msgid "Form"
-msgstr "or"
-
-#. i18n: file: kcm/indexfolderselectionwidget.ui:13
+#. i18n: file: kcm/indexfolderselectionwidget.ui:10
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:151
+#: rc.cpp:148
 msgid "Strigi Index Folders"
 msgstr "Strigi ইন্ডেক্স ফোল্ডার"
 
-#. i18n: file: kcm/indexfolderselectionwidget.ui:32
+#. i18n: file: kcm/indexfolderselectionwidget.ui:29
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
-#: rc.cpp:157
+#: rc.cpp:154
 msgid "Check to be able to select hidden folders"
 msgstr ""
 
-#. i18n: file: kcm/indexfolderselectionwidget.ui:35
+#. i18n: file: kcm/indexfolderselectionwidget.ui:32
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
-#: rc.cpp:160
+#: rc.cpp:157
 msgid "Show hidden folders"
 msgstr ""
 
-#. i18n: file: kcm/indexfolderselectionwidget.ui:45
+#. i18n: file: kcm/indexfolderselectionwidget.ui:42
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:163
+#: rc.cpp:160
 msgid "Strigi Index Exclude Filters"
 msgstr "Strigi ইন্ডেক্স থেকে অগ্রাহ্য করতে ব্যবহৃত ফিল্টার"
 
-#. i18n: file: kcm/indexfolderselectionwidget.ui:51
+#. i18n: file: kcm/indexfolderselectionwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:166
+#: rc.cpp:163
 msgid ""
 "Select expressions to exclude files from indexing by matching their filenames"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Boolean OR keyword in desktop search strings. You can add several "
+#~| "variants separated by spaces, e.g. retain the English one alongside the "
+#~| "translation; keywords are not case sensitive. Make sure there is no "
+#~| "conflict with the AND keyword."
+#~| msgid "or"
+#~ msgid "Form"
+#~ msgstr "or"
 
 #, fuzzy
 #~| msgid "Suspend Strigi Indexing"

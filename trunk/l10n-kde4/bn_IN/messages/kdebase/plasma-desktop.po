@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-09 06:59+0100\n"
+"POT-Creation-Date: 2010-11-10 06:10+0100\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -44,8 +44,11 @@ msgid "Add Panel"
 msgstr ""
 
 #: desktopcorona.cpp:566 desktopcorona.cpp:596 plasmaapp.cpp:1326
-msgid "unnamed"
-msgstr ""
+#: activitymanager/filterbar.cpp:72
+#, fuzzy
+#| msgid "Next Activity"
+msgid "New Activity"
+msgstr "পরবর্তী কাজ"
 
 #: interactiveconsole.cpp:67
 msgid "&Execute"
@@ -296,14 +299,14 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: activitymanager/activityicon.cpp:305
+#: activitymanager/activityicon.cpp:304
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Configure activity"
 msgstr "পরবর্তী কাজ"
 
-#: activitymanager/activityicon.cpp:321 activitymanager/activityicon.cpp:331
-#: activitymanager/activityicon.cpp:335
+#: activitymanager/activityicon.cpp:321 activitymanager/activityicon.cpp:332
+#: activitymanager/activityicon.cpp:336
 #, fuzzy
 #| msgid "Desktop Activity"
 msgid "Stop activity"
@@ -316,12 +319,6 @@ msgstr ""
 #: activitymanager/filterbar.cpp:67
 msgid "Add Widgets"
 msgstr "উইজেট যোগ করুন"
-
-#: activitymanager/filterbar.cpp:72
-#, fuzzy
-#| msgid "Next Activity"
-msgid "New Activity"
-msgstr "পরবর্তী কাজ"
 
 #: activitymanager/filterbar.cpp:168
 #, fuzzy
