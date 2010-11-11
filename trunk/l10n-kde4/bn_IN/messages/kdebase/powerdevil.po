@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-10 06:11+0100\n"
+"POT-Creation-Date: 2010-11-11 06:13+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:57
-#: actions/bundled/suspendsessionconfig.cpp:74
+#: actions/bundled/suspendsessionconfig.cpp:73
 #: actions/bundled/runscriptconfig.cpp:78
 #: actions/bundled/disabledesktopeffectsconfig.cpp:67
 #: actions/bundled/dimdisplayconfig.cpp:61
@@ -37,33 +37,28 @@ msgid "Level"
 msgstr ""
 
 #: actions/bundled/suspendsessionconfig.cpp:78
-#: actions/bundled/handlebuttoneventsconfig.cpp:78
-msgid "Do nothing"
-msgstr "কিছু করা হবে না"
-
-#: actions/bundled/suspendsessionconfig.cpp:80
-#: actions/bundled/handlebuttoneventsconfig.cpp:80
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:83
-#: actions/bundled/handlebuttoneventsconfig.cpp:83
+#: actions/bundled/suspendsessionconfig.cpp:81
+#: actions/bundled/handlebuttoneventsconfig.cpp:80
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:85
-#: actions/bundled/handlebuttoneventsconfig.cpp:85
+#: actions/bundled/suspendsessionconfig.cpp:83
+#: actions/bundled/handlebuttoneventsconfig.cpp:82
 msgid "Shutdown"
 msgstr "বন্ধ করুন"
 
-#: actions/bundled/suspendsessionconfig.cpp:86
-#: actions/bundled/handlebuttoneventsconfig.cpp:86
+#: actions/bundled/suspendsessionconfig.cpp:84
+#: actions/bundled/handlebuttoneventsconfig.cpp:83
 #, fuzzy
 #| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "পর্দা লক করুন"
 
-#: actions/bundled/suspendsessionconfig.cpp:95
+#: actions/bundled/suspendsessionconfig.cpp:93
 #: actions/bundled/runscriptconfig.cpp:81
 #: actions/bundled/runscriptconfig.cpp:102
 #: actions/bundled/disabledesktopeffectsconfig.cpp:70
@@ -97,33 +92,31 @@ msgstr ""
 msgid "Disable effects"
 msgstr "KWin কম্পোসিটিং ব্যবস্থা সক্রিয় থাকলে তা নিষ্ক্রিয় করুন"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:88
+#: actions/bundled/handlebuttoneventsconfig.cpp:75
+msgid "Do nothing"
+msgstr "কিছু করা হবে না"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:85
 #, fuzzy
 #| msgid "Prompt Log out dialog"
 msgid "Prompt log out dialog"
 msgstr "লগ-আউট ডায়লগ প্রদর্শন করা হবে"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:90
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
 msgid "Turn off screen"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/handlebuttoneventsconfig.cpp:95
 #, fuzzy
 #| msgid "When Laptop Lid Closed"
 msgid "When laptop lid closed"
 msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হলে"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:100
+#: actions/bundled/handlebuttoneventsconfig.cpp:96
 #, fuzzy
 #| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বাটন টিপলে"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:101
-#, fuzzy
-#| msgid "When Sleep Button pressed"
-msgid "When sleep button pressed"
-msgstr "নিদ্রার বাটন টিপলে"
 
 #: backends/upower/upowersuspendjob.cpp:76
 #, fuzzy
@@ -161,17 +154,54 @@ msgid ""
 "might solve this problem."
 msgstr ""
 
-#: powerdevilcore.cpp:173
+#: powerdevilcore.cpp:176
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:180
+#: powerdevilcore.cpp:183
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:256
+#: powerdevilcore.cpp:190
+msgctxt "Global shortcut"
+msgid "Sleep"
+msgstr ""
+
+#: powerdevilcore.cpp:197
+msgctxt "Global shortcut"
+msgid "Hibernate"
+msgstr ""
+
+#: powerdevilcore.cpp:211
+#, kde-format
+msgid ""
+"Your battery capacity is %2%. This means your battery is broken and needs a "
+"replacement. Please contact your hardware vendor for more details."
+msgid_plural ""
+"One of your batteries (ID %3) has a capacity of %2%. This means it is broken "
+"and needs a replacement. Please contact your hardware vendor for more "
+"details."
+msgstr[0] ""
+msgstr[1] ""
+
+#: powerdevilcore.cpp:224
+#, kde-format
+msgid ""
+"Your battery might have been recalled by %2. Usually, when vendors recall "
+"the hardware, it is because of factory defects which are usually eligible "
+"for a free repair or substitution. Please check <a href=\"%3\">%2's website</"
+"a> toverify if your battery is faulted."
+msgid_plural ""
+"One of your batteries (ID %4) might have been recalled by %2. Usually, when "
+"vendors recall the hardware, it is because of factory defects which are "
+"usually eligible for a free repair or substitution. Please check <a href=\"%3"
+"\">%2's website</a> toverify if your battery is faulted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: powerdevilcore.cpp:308
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -183,14 +213,14 @@ msgstr ""
 "অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে!\n"
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
-#: powerdevilcore.cpp:269
+#: powerdevilcore.cpp:321
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:308
+#: powerdevilcore.cpp:360
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -202,7 +232,7 @@ msgstr ""
 "ব্যাটারি প্রেক্ষাপটের সাথে সংযোগ স্থাপন করা যায়নি!\n"
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
-#: powerdevilcore.cpp:364
+#: powerdevilcore.cpp:416
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -210,19 +240,19 @@ msgid ""
 "been cancelled"
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:366
+#: powerdevilcore.cpp:418
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:369
+#: powerdevilcore.cpp:421
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
 
-#: powerdevilcore.cpp:375
+#: powerdevilcore.cpp:427
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -230,7 +260,7 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:402
+#: powerdevilcore.cpp:454
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -241,7 +271,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:407
+#: powerdevilcore.cpp:459
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -253,7 +283,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:412
+#: powerdevilcore.cpp:464
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -264,7 +294,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
 "এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:417
+#: powerdevilcore.cpp:469
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -273,13 +303,13 @@ msgid "Your battery level is critical: save your work as soon as possible."
 msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
 
-#: powerdevilcore.cpp:423
+#: powerdevilcore.cpp:475
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "ব্যাটারির ক্ষমতা সতর্কতামূলক পর্যায় উপস্থিত হয়েছে"
 
-#: powerdevilcore.cpp:428
+#: powerdevilcore.cpp:480
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
@@ -313,6 +343,11 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#, fuzzy
+#~| msgid "When Sleep Button pressed"
+#~ msgid "When sleep button pressed"
+#~ msgstr "নিদ্রার বাটন টিপলে"
 
 #, fuzzy
 #~| msgid "Main Developer"
