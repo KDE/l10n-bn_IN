@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-27 05:43+0200\n"
+"POT-Creation-Date: 2010-11-12 06:33+0100\n"
 "PO-Revision-Date: 2008-12-29 15:40+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,67 +18,71 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: taskactions.cpp:112
+#: taskactions.cpp:119
 msgid "Mi&nimize"
 msgstr "আড়াল করুন (&n)"
 
-#: taskactions.cpp:123
+#: taskactions.cpp:130
 msgid "Ma&ximize"
 msgstr "বড় করুন (&x)"
 
-#: taskactions.cpp:133
+#: taskactions.cpp:140
 msgid "&Shade"
 msgstr "ছায়াবৃত (&S)"
 
-#: taskactions.cpp:144
+#: taskactions.cpp:151
 msgid "Re&size"
 msgstr "মাপ পরিবর্তন (&s)"
 
-#: taskactions.cpp:153
+#: taskactions.cpp:160
 msgid "&Move"
 msgstr "স্থানান্তরণ (&M)"
 
-#: taskactions.cpp:162
+#: taskactions.cpp:169
 msgid "&Close"
 msgstr "বন্ধ করুন (&C)"
 
-#: taskactions.cpp:195
+#: taskactions.cpp:202
 msgid "&To Current Desktop"
 msgstr "বর্তমান ডেস্কটপে স্থানান্তরণ (&T)"
 
-#: taskactions.cpp:216
+#: taskactions.cpp:223
 msgid "&All Desktops"
 msgstr "সকল ডেস্কটপে স্থাপন করুন (&A)"
 
-#: taskactions.cpp:238
+#: taskactions.cpp:245
 msgid "To &Desktop"
 msgstr "পৃথক ডেস্কটপে স্থানান্তরণ (&D)"
 
-#: taskactions.cpp:251
+#: taskactions.cpp:258
 msgid "Keep &Above Others"
 msgstr "সব থেকে উপরের স্থানে স্থাপন করা হবে (&A)"
 
-#: taskactions.cpp:261
+#: taskactions.cpp:268
 msgid "Keep &Below Others"
 msgstr "সব থেকে নীচে স্থাপন করা হবে (&B)"
 
-#: taskactions.cpp:271
+#: taskactions.cpp:278
 msgid "&Fullscreen"
 msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন (&F)"
 
-#: taskactions.cpp:281
+#: taskactions.cpp:288
 msgid "Ad&vanced"
 msgstr "উন্নত বৈশিষ্ট্য (&v)"
 
-#: taskactions.cpp:292
+#: taskactions.cpp:299
 msgid "&Leave Group"
 msgstr "দল থেকে প্রস্থান করুন (&L)"
 
-#: taskactions.cpp:307
+#: taskactions.cpp:313
+msgid "&Pin Task"
+msgstr ""
+
+#: taskactions.cpp:359
 msgid "&Edit Group"
 msgstr "দলের তথ্য সম্পাদনা করুন (&E)"
 
-#: task.cpp:222
+#: task.cpp:229
 msgctxt "marks that a task has been modified"
 msgid "modified"
 msgstr "পরিবর্তিত"
