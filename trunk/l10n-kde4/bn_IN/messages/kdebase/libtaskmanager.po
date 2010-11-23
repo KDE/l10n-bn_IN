@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-22 06:25+0100\n"
+"POT-Creation-Date: 2010-11-23 07:12+0100\n"
 "PO-Revision-Date: 2008-12-29 15:40+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -43,7 +43,9 @@ msgid "&Close"
 msgstr "বন্ধ করুন (&C)"
 
 #: taskactions.cpp:202
-msgid "&To Current Desktop"
+#, fuzzy
+#| msgid "&To Current Desktop"
+msgid "Move &To Current Desktop"
 msgstr "বর্তমান ডেস্কটপে স্থানান্তরণ (&T)"
 
 #: taskactions.cpp:223
@@ -51,7 +53,9 @@ msgid "&All Desktops"
 msgstr "সকল ডেস্কটপে স্থাপন করুন (&A)"
 
 #: taskactions.cpp:245
-msgid "To &Desktop"
+#, fuzzy
+#| msgid "To &Desktop"
+msgid "Move To &Desktop"
 msgstr "পৃথক ডেস্কটপে স্থানান্তরণ (&D)"
 
 #: taskactions.cpp:258
@@ -70,19 +74,20 @@ msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্
 msgid "Ad&vanced"
 msgstr "উন্নত বৈশিষ্ট্য (&v)"
 
-#: taskactions.cpp:299
+#: taskactions.cpp:312
 msgid "&Leave Group"
 msgstr "দল থেকে প্রস্থান করুন (&L)"
 
-#: taskactions.cpp:319
-msgid "Remove this Launcher"
+#: taskactions.cpp:333
+msgid "Remove This Launcher"
 msgstr ""
 
-#: taskactions.cpp:321
-msgid "&Pin Task"
+#: taskactions.cpp:335
+#, kde-format
+msgid "&Show A Launcher For %1 When It Is Not Running"
 msgstr ""
 
-#: taskactions.cpp:363
+#: taskactions.cpp:377
 msgid "&Edit Group"
 msgstr "দলের তথ্য সম্পাদনা করুন (&E)"
 
