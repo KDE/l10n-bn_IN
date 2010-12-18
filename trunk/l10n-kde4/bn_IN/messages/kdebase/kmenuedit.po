@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-12 06:33+0100\n"
+"POT-Creation-Date: 2010-12-18 02:18+0100\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -65,7 +65,7 @@ msgstr "মন্তব্য: (&C)"
 msgid "Co&mmand:"
 msgstr "কমান্ড: (&m)"
 
-#: basictab.cpp:147 preferencesdlg.cpp:72
+#: basictab.cpp:147 preferencesdlg.cpp:36
 msgid "General"
 msgstr "সাধারণ"
 
@@ -188,19 +188,15 @@ msgstr "পূর্বে নির্বাচনের জন্য চিহ
 msgid "Could not write to %1"
 msgstr "%1-এ লেখা যায়নি"
 
-#: preferencesdlg.cpp:36
+#: preferencesdlg.cpp:41
 msgid "Spell Checking"
 msgstr "বানান পরীক্ষণ"
 
-#: preferencesdlg.cpp:37
+#: preferencesdlg.cpp:42
 msgid "Spell checking Options"
 msgstr "বানান পরীক্ষণ সংক্রান্ত বিকল্প"
 
-#: preferencesdlg.cpp:42
-msgid "Misc"
-msgstr "বিবিধ"
-
-#: preferencesdlg.cpp:75
+#: preferencesdlg.cpp:73
 msgid "Show hidden entries"
 msgstr "আড়াল করা এনট্রি প্রদর্শন করা হবে"
 
@@ -268,3 +264,6 @@ msgid ""
 msgstr ""
 "সিস্টেম মেনু পুনরুদ্ধার করা হবে কি? সতর্কবার্তা: এর ফলে, স্বনির্ধারিত সকল মেনু মুছে "
 "ফেলা হবে।"
+
+#~ msgid "Misc"
+#~ msgstr "বিবিধ"
