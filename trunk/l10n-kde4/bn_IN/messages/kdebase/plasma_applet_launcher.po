@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-11 06:13+0100\n"
+"POT-Creation-Date: 2010-12-26 02:55+0100\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -313,34 +313,6 @@ msgstr "সকল অ্যাপ্লিকেশন"
 msgid "Documents"
 msgstr "নথিপত্র"
 
-#: ui/launcher.cpp:178
-msgid "Sort Alphabetically (A to Z)"
-msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (A থেকে Z)"
-
-#: ui/launcher.cpp:181
-msgid "Sort Alphabetically (Z to A)"
-msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (Z থেকে A)"
-
-#: ui/launcher.cpp:220
-msgid "Clear Recent Applications"
-msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
-
-#: ui/launcher.cpp:221
-msgid "Clear Recent Documents"
-msgstr "সম্প্রতি ব্যবহৃত নথিপত্রের তালিকা পরিস্কার করুন"
-
-#: ui/launcher.cpp:528
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
-
-#: ui/launcher.cpp:530
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
-
 #: ui/contextmenufactory.cpp:83
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
@@ -368,6 +340,34 @@ msgstr "বহিষ্কার"
 #: ui/contextmenufactory.cpp:230
 msgid "Safely Remove"
 msgstr "নিরাপদভাবে বের করে নিন"
+
+#: ui/launcher.cpp:178
+msgid "Sort Alphabetically (A to Z)"
+msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (A থেকে Z)"
+
+#: ui/launcher.cpp:181
+msgid "Sort Alphabetically (Z to A)"
+msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (Z থেকে A)"
+
+#: ui/launcher.cpp:220
+msgid "Clear Recent Applications"
+msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
+
+#: ui/launcher.cpp:221
+msgid "Clear Recent Documents"
+msgstr "সম্প্রতি ব্যবহৃত নথিপত্রের তালিকা পরিস্কার করুন"
+
+#: ui/launcher.cpp:528
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
+
+#: ui/launcher.cpp:530
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
 
 #: ui/searchbar.cpp:70
 #, fuzzy
