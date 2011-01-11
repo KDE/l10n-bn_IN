@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-11 02:36+0100\n"
 "PO-Revision-Date: 2008-11-26 19:19+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -358,13 +358,6 @@ msgctxt "... host"
 msgid "X login on %1"
 msgstr ""
 
-#: kdmconfig.cpp:131
-msgctxt ""
-"@item:intext substitution for an undefined %X placeholder wrongly given in "
-"the config file 'kdmrc', telling the user to fix it"
-msgid "[fix kdmrc]"
-msgstr "[fix kdmrc]"
-
 #: krootimage.cpp:330
 msgid "KRootImage"
 msgstr "KRootImage"
@@ -376,6 +369,13 @@ msgstr ""
 #: krootimage.cpp:334
 msgid "Name of the configuration file"
 msgstr "কনফিগারেশন ফাইলের নাম"
+
+#: kdmconfig.cpp:131
+msgctxt ""
+"@item:intext substitution for an undefined %X placeholder wrongly given in "
+"the config file 'kdmrc', telling the user to fix it"
+msgid "[fix kdmrc]"
+msgstr "[fix kdmrc]"
 
 #: kgreeter.cpp:482
 msgctxt "@item:inlistbox session type"
@@ -445,18 +445,6 @@ msgstr "দূরবর্তী লগ-ইন (&R)"
 msgid "Login failed"
 msgstr "লগ-ইন করতে ব্যর্থ"
 
-#: kconsole.cpp:70
-msgid "*** Cannot connect to console log ***"
-msgstr "*** কনসোল লগের সাথে সংযোগ করতে ব্যর্থ ***"
-
-#: kconsole.cpp:154
-msgid ""
-"\n"
-"*** Lost connection with console log ***"
-msgstr ""
-"\n"
-"*** কনসোলের লগের সাথে সংযোগ করতে ব্যর্থ ***"
-
 #: kchooser.cpp:59
 msgctxt "@action:inmenu"
 msgid "&Local Login"
@@ -505,6 +493,18 @@ msgstr "<unknown>"
 #, kde-format
 msgid "Unknown host %1"
 msgstr "অজানা হোস্ট %1"
+
+#: kconsole.cpp:70
+msgid "*** Cannot connect to console log ***"
+msgstr "*** কনসোল লগের সাথে সংযোগ করতে ব্যর্থ ***"
+
+#: kconsole.cpp:154
+msgid ""
+"\n"
+"*** Lost connection with console log ***"
+msgstr ""
+"\n"
+"*** কনসোলের লগের সাথে সংযোগ করতে ব্যর্থ ***"
 
 #: kgverify.cpp:187
 msgid "No greeter widget plugin loaded. Check the configuration."

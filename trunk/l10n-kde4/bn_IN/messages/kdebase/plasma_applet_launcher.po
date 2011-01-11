@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-11 02:36+0100\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -64,30 +64,30 @@ msgstr ""
 msgid "Run Command..."
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:202 core/leavemodel.cpp:56
+#: simpleapplet/simpleapplet.cpp:202 core/leavemodel.cpp:57
 msgid "Switch User"
 msgstr "ব্যবহারকারী পরিবর্তন করুন"
 
-#: simpleapplet/simpleapplet.cpp:203 core/leavemodel.cpp:68
+#: simpleapplet/simpleapplet.cpp:203 core/leavemodel.cpp:69
 msgid "Save Session"
 msgstr "সেশান সংরক্ষণ করুন"
 
-#: simpleapplet/simpleapplet.cpp:204 core/leavemodel.cpp:54
+#: simpleapplet/simpleapplet.cpp:204 core/leavemodel.cpp:55
 #, fuzzy
 #| msgid "Lock the screen"
 msgid "Lock Screen"
 msgstr "পর্দা লক করুন"
 
-#: simpleapplet/simpleapplet.cpp:205 core/leavemodel.cpp:72
+#: simpleapplet/simpleapplet.cpp:205 core/leavemodel.cpp:73
 msgctxt "Puts the system on standby"
 msgid "Standby"
 msgstr "স্থগিত করুন"
 
-#: simpleapplet/simpleapplet.cpp:206 core/leavemodel.cpp:76
+#: simpleapplet/simpleapplet.cpp:206 core/leavemodel.cpp:77
 msgid "Hibernate"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:207 core/leavemodel.cpp:80
+#: simpleapplet/simpleapplet.cpp:207 core/leavemodel.cpp:81
 msgid "Sleep"
 msgstr ""
 
@@ -99,19 +99,19 @@ msgctxt "Restart Computer"
 msgid "Restart"
 msgstr "পুনরারম্ভ"
 
-#: simpleapplet/simpleapplet.cpp:209 core/leavemodel.cpp:60
+#: simpleapplet/simpleapplet.cpp:209 core/leavemodel.cpp:61
 #, fuzzy
 #| msgid "Shutdown"
 msgid "Shut down"
 msgstr "বন্ধ করুন"
 
-#: simpleapplet/simpleapplet.cpp:210 core/leavemodel.cpp:48
+#: simpleapplet/simpleapplet.cpp:210 core/leavemodel.cpp:49
 #, fuzzy
 #| msgid "Logout"
 msgid "Log out"
 msgstr "লগ-আউট করুন"
 
-#: simpleapplet/simpleapplet.cpp:211 core/leavemodel.cpp:105
+#: simpleapplet/simpleapplet.cpp:211 core/leavemodel.cpp:106
 #: ui/launcher.cpp:163
 msgid "Leave"
 msgstr "প্রস্থান করুন"
@@ -235,25 +235,25 @@ msgstr "সংরক্ষণস্থল"
 msgid "Run a command or a search query"
 msgstr ""
 
-#: core/leavemodel.cpp:50
+#: core/leavemodel.cpp:51
 msgid "End session"
 msgstr "সেশান সমাপ্ত করুন"
 
-#: core/leavemodel.cpp:52
+#: core/leavemodel.cpp:53
 msgid "Lock"
 msgstr "লক করুন"
 
-#: core/leavemodel.cpp:58
+#: core/leavemodel.cpp:59
 msgid "Start a parallel session as a different user"
 msgstr "ভিন্ন ব্যবহারকারীর জন্য একযোগে একটি পৃথক সেশান আরম্ভ করুন"
 
-#: core/leavemodel.cpp:62
+#: core/leavemodel.cpp:63
 #, fuzzy
 #| msgid "Turn off the computer"
 msgid "Turn off computer"
 msgstr "কম্পিউটার বন্ধ করুন"
 
-#: core/leavemodel.cpp:64
+#: core/leavemodel.cpp:65
 #, fuzzy
 #| msgctxt "Restart the computer"
 #| msgid "Restart"
@@ -261,35 +261,35 @@ msgctxt "Restart computer"
 msgid "Restart"
 msgstr "পুনরারম্ভ"
 
-#: core/leavemodel.cpp:66
+#: core/leavemodel.cpp:67
 #, fuzzy
 #| msgid "Restart the computer"
 msgid "Restart Computer"
 msgstr "কম্পিউটার পুনরায় আরম্ভ করুন"
 
-#: core/leavemodel.cpp:70
+#: core/leavemodel.cpp:71
 msgid "Save current session for next login"
 msgstr "পরবর্তী লগ-ইনে প্রয়োগ করার জন্য বর্তমান সেশান সংরক্ষণ করুন"
 
-#: core/leavemodel.cpp:74
+#: core/leavemodel.cpp:75
 msgid "Pause without logging out"
 msgstr "লগ-আউট না করে স্থগিত করুন"
 
-#: core/leavemodel.cpp:78
+#: core/leavemodel.cpp:79
 #, fuzzy
 #| msgid "Suspend to Disk"
 msgid "Suspend to disk"
 msgstr "ডিস্কে বিরত করুন"
 
-#: core/leavemodel.cpp:82
+#: core/leavemodel.cpp:83
 msgid "Suspend to RAM"
 msgstr "RAM-এ বিরত করুন"
 
-#: core/leavemodel.cpp:117
+#: core/leavemodel.cpp:118
 msgid "Session"
 msgstr "সেশান"
 
-#: core/leavemodel.cpp:139
+#: core/leavemodel.cpp:146
 msgid "System"
 msgstr "সিস্টেম"
 
@@ -312,34 +312,6 @@ msgstr "সকল অ্যাপ্লিকেশন"
 #: core/recentlyusedmodel.cpp:109
 msgid "Documents"
 msgstr "নথিপত্র"
-
-#: ui/contextmenufactory.cpp:83
-msgid "Advanced"
-msgstr "উন্নত বৈশিষ্ট্য"
-
-#: ui/contextmenufactory.cpp:158
-msgid "Remove From Favorites"
-msgstr "পছন্দের তালিকা থেকে সরিয়ে ফেলুন"
-
-#: ui/contextmenufactory.cpp:163
-msgid "Add to Favorites"
-msgstr "পছন্দের তালিকায় যোগ করুন"
-
-#: ui/contextmenufactory.cpp:195
-msgid "Add to Desktop"
-msgstr "ডেস্কটপে যোগ করুন"
-
-#: ui/contextmenufactory.cpp:203
-msgid "Add to Panel"
-msgstr "প্যানেলে যোগ করুন"
-
-#: ui/contextmenufactory.cpp:228
-msgid "Eject"
-msgstr "বহিষ্কার"
-
-#: ui/contextmenufactory.cpp:230
-msgid "Safely Remove"
-msgstr "নিরাপদভাবে বের করে নিন"
 
 #: ui/launcher.cpp:178
 msgid "Sort Alphabetically (A to Z)"
@@ -368,6 +340,34 @@ msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
+
+#: ui/contextmenufactory.cpp:83
+msgid "Advanced"
+msgstr "উন্নত বৈশিষ্ট্য"
+
+#: ui/contextmenufactory.cpp:158
+msgid "Remove From Favorites"
+msgstr "পছন্দের তালিকা থেকে সরিয়ে ফেলুন"
+
+#: ui/contextmenufactory.cpp:163
+msgid "Add to Favorites"
+msgstr "পছন্দের তালিকায় যোগ করুন"
+
+#: ui/contextmenufactory.cpp:195
+msgid "Add to Desktop"
+msgstr "ডেস্কটপে যোগ করুন"
+
+#: ui/contextmenufactory.cpp:203
+msgid "Add to Panel"
+msgstr "প্যানেলে যোগ করুন"
+
+#: ui/contextmenufactory.cpp:228
+msgid "Eject"
+msgstr "বহিষ্কার"
+
+#: ui/contextmenufactory.cpp:230
+msgid "Safely Remove"
+msgstr "নিরাপদভাবে বের করে নিন"
 
 #: ui/searchbar.cpp:70
 #, fuzzy

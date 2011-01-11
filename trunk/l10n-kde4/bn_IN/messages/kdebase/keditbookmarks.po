@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-11 02:35+0100\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,99 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: kbookmarkmodel/model.cpp:118
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "বুকমার্ক"
-
-#: kbookmarkmodel/model.cpp:222
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "নাম:"
-
-#: kbookmarkmodel/model.cpp:226
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "অবস্থান:"
-
-#: kbookmarkmodel/model.cpp:230
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "মন্তব্য"
-
-#: kbookmarkmodel/model.cpp:234
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "অবস্থা"
-
-#: kbookmarkmodel/commands.cpp:68
-msgid "Insert Separator"
-msgstr "বিভাজন রেখার যোগ করুন"
-
-#: kbookmarkmodel/commands.cpp:77
-msgid "Create Bookmark"
-msgstr "বুকমার্ক নির্মাণ করুন"
-
-#: kbookmarkmodel/commands.cpp:86
-msgid "Create Folder"
-msgstr "ফোল্ডার নির্মাণ করুন"
-
-#: kbookmarkmodel/commands.cpp:95
-#, kde-format
-msgid "Copy %1"
-msgstr "%1 কপি করুন"
-
-#: kbookmarkmodel/commands.cpp:183
-#, fuzzy
-#| msgid "%1 Change"
-msgid "Icon Change"
-msgstr "%1 পরিবর্তন"
-
-#: kbookmarkmodel/commands.cpp:185
-#, fuzzy
-#| msgid "%1 Change"
-msgid "Title Change"
-msgstr "%1 পরিবর্তন"
-
-#: kbookmarkmodel/commands.cpp:187
-#, fuzzy
-#| msgid "%1 Change"
-msgid "URL Change"
-msgstr "%1 পরিবর্তন"
-
-#: kbookmarkmodel/commands.cpp:189
-#, fuzzy
-#| msgid "Comment"
-msgid "Comment Change"
-msgstr "মন্তব্য"
-
-#: kbookmarkmodel/commands.cpp:359
-#, kde-format
-msgid "Move %1"
-msgstr "%1 স্থানান্তর করুন"
-
-#: kbookmarkmodel/commands.cpp:476
-msgid "Set as Bookmark Toolbar"
-msgstr "বুকমার্ক টুলবার রূপে নির্ধারণ করুন"
-
-#: kbookmarkmodel/commands.cpp:512
-msgid "Copy Items"
-msgstr "বস্তু কপি করুন"
-
-#: kbookmarkmodel/commands.cpp:513
-msgid "Move Items"
-msgstr "বস্তু স্থানান্তর করুন"
 
 #: kebsearchline.cpp:273
 msgid "Search Columns"
@@ -296,30 +203,6 @@ msgstr "*.xbel|Galeon বুকমার্ক ফাইল (*.xbel)"
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|KDE বুকমার্ক ফাইল (*.xml)"
 
-#: bookmarkinfowidget.cpp:246
-msgid "Name:"
-msgstr "নাম:"
-
-#: bookmarkinfowidget.cpp:254
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: bookmarkinfowidget.cpp:262
-msgid "Comment:"
-msgstr "মন্তব্য:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "First viewed:"
-msgstr "প্রথম দর্শন:"
-
-#: bookmarkinfowidget.cpp:272
-msgid "Viewed last:"
-msgstr "সর্বশেষ দর্শন:"
-
-#: bookmarkinfowidget.cpp:275
-msgid "Times visited:"
-msgstr "পরিদর্শনের সংখ্যা:"
-
 #: favicons.cpp:56 testlink.cpp:97
 msgid "OK"
 msgstr "ঠিক আছে"
@@ -328,10 +211,29 @@ msgstr "ঠিক আছে"
 msgid "Updating favicon..."
 msgstr "ফেভ-আইকন আপডেট করা হচ্ছে..."
 
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr "KBookmarkMerger"
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
 msgstr ""
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr "স্বত্বাধিকার © ২০০৫ ফ্রেরিখ রাবে"
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr "ফ্রেরিখ রাবে"
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "মূল নির্মাতা"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr "অতিরিক্ত বুকমার্ক অনুসন্ধানের জন্য চিহ্নিত বুকমার্ক"
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -487,30 +389,6 @@ msgstr "অদ্যাক্ষর অনুযায়ী ক্রমবিন�
 msgid "Delete Items"
 msgstr "বস্তু মুছে ফেলুন"
 
-#: kbookmarkmerger.cpp:39
-msgid "KBookmarkMerger"
-msgstr "KBookmarkMerger"
-
-#: kbookmarkmerger.cpp:40
-msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
-msgstr ""
-
-#: kbookmarkmerger.cpp:42
-msgid "Copyright © 2005 Frerich Raabe"
-msgstr "স্বত্বাধিকার © ২০০৫ ফ্রেরিখ রাবে"
-
-#: kbookmarkmerger.cpp:43
-msgid "Frerich Raabe"
-msgstr "ফ্রেরিখ রাবে"
-
-#: kbookmarkmerger.cpp:43
-msgid "Original author"
-msgstr "মূল নির্মাতা"
-
-#: kbookmarkmerger.cpp:49
-msgid "Directory to scan for extra bookmarks"
-msgstr "অতিরিক্ত বুকমার্ক অনুসন্ধানের জন্য চিহ্নিত বুকমার্ক"
-
 #: importers.h:102
 msgid "Galeon"
 msgstr "Galeon"
@@ -542,6 +420,128 @@ msgstr "My Bookmarks"
 #: testlink.cpp:76
 msgid "Checking..."
 msgstr "পরীক্ষা করা হচ্ছে..."
+
+#: bookmarkinfowidget.cpp:246
+msgid "Name:"
+msgstr "নাম:"
+
+#: bookmarkinfowidget.cpp:254
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: bookmarkinfowidget.cpp:262
+msgid "Comment:"
+msgstr "মন্তব্য:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "First viewed:"
+msgstr "প্রথম দর্শন:"
+
+#: bookmarkinfowidget.cpp:272
+msgid "Viewed last:"
+msgstr "সর্বশেষ দর্শন:"
+
+#: bookmarkinfowidget.cpp:275
+msgid "Times visited:"
+msgstr "পরিদর্শনের সংখ্যা:"
+
+#: kbookmarkmodel/model.cpp:118
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "বুকমার্ক"
+
+#: kbookmarkmodel/model.cpp:222
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "নাম:"
+
+#: kbookmarkmodel/model.cpp:226
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "অবস্থান:"
+
+#: kbookmarkmodel/model.cpp:230
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "মন্তব্য"
+
+#: kbookmarkmodel/model.cpp:234
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "অবস্থা"
+
+#: kbookmarkmodel/commands.cpp:68
+msgid "Insert Separator"
+msgstr "বিভাজন রেখার যোগ করুন"
+
+#: kbookmarkmodel/commands.cpp:77
+msgid "Create Bookmark"
+msgstr "বুকমার্ক নির্মাণ করুন"
+
+#: kbookmarkmodel/commands.cpp:86
+msgid "Create Folder"
+msgstr "ফোল্ডার নির্মাণ করুন"
+
+#: kbookmarkmodel/commands.cpp:95
+#, kde-format
+msgid "Copy %1"
+msgstr "%1 কপি করুন"
+
+#: kbookmarkmodel/commands.cpp:183
+#, fuzzy
+#| msgid "%1 Change"
+msgid "Icon Change"
+msgstr "%1 পরিবর্তন"
+
+#: kbookmarkmodel/commands.cpp:185
+#, fuzzy
+#| msgid "%1 Change"
+msgid "Title Change"
+msgstr "%1 পরিবর্তন"
+
+#: kbookmarkmodel/commands.cpp:187
+#, fuzzy
+#| msgid "%1 Change"
+msgid "URL Change"
+msgstr "%1 পরিবর্তন"
+
+#: kbookmarkmodel/commands.cpp:189
+#, fuzzy
+#| msgid "Comment"
+msgid "Comment Change"
+msgstr "মন্তব্য"
+
+#: kbookmarkmodel/commands.cpp:359
+#, kde-format
+msgid "Move %1"
+msgstr "%1 স্থানান্তর করুন"
+
+#: kbookmarkmodel/commands.cpp:476
+msgid "Set as Bookmark Toolbar"
+msgstr "বুকমার্ক টুলবার রূপে নির্ধারণ করুন"
+
+#: kbookmarkmodel/commands.cpp:512
+msgid "Copy Items"
+msgstr "বস্তু কপি করুন"
+
+#: kbookmarkmodel/commands.cpp:513
+msgid "Move Items"
+msgstr "বস্তু স্থানান্তর করুন"
+
+#: faviconupdater.cpp:87
+#, kde-format
+msgid "%1; no HTML component found (%2)"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
