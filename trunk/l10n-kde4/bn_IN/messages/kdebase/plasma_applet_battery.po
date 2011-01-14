@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:36+0100\n"
+"POT-Creation-Date: 2011-01-14 02:20+0100\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -53,20 +53,20 @@ msgstr ""
 msgid "General"
 msgstr "সাধারণ"
 
-#: battery.cpp:529
+#: battery.cpp:531
 #, fuzzy
 #| msgid "Time remaining: <b>%1</b><br />"
 msgctxt "Label for remaining time"
 msgid "Time Remaining:"
 msgstr "অবশিষ্ট সময়: <b>%1</b><br />"
 
-#: battery.cpp:550
+#: battery.cpp:551
 #, fuzzy
 #| msgid "Power Profile"
 msgid "Power Profile:"
 msgstr "বিদ্যুৎ ব্যবস্থা সংক্রান্ত প্রোফাইল"
 
-#: battery.cpp:565
+#: battery.cpp:566
 #, fuzzy
 #| msgid "Screen Brightness"
 msgid "Screen Brightness:"
@@ -86,48 +86,48 @@ msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "হাইবারনেট"
 
-#: battery.cpp:608
+#: battery.cpp:609
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "বিদ্যুৎ পরিচালনা"
 
-#: battery.cpp:610
+#: battery.cpp:611
 msgid "Power save settings"
 msgstr ""
 
-#: battery.cpp:675
+#: battery.cpp:667
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>ব্যাটারি:</b> %1% (সম্পূর্ণ চার্জ করা হয়েছে)<br />"
 
-#: battery.cpp:677
+#: battery.cpp:669
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "%1% (discharging)"
 msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
 
-#: battery.cpp:679
+#: battery.cpp:671
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:683
+#: battery.cpp:675
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:699 battery.cpp:737
+#: battery.cpp:691 battery.cpp:724
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "Battery:"
 msgstr "<b>ব্যাটারি:</b> উপস্থিত নেই<br />"
 
-#: battery.cpp:706
+#: battery.cpp:698
 #, fuzzy, kde-format
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
@@ -135,34 +135,28 @@ msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr "<b>ব্যাটারি:</b> উপস্থিত নেই<br />"
 
-#: battery.cpp:714
+#: battery.cpp:705
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
 msgid "AC Adapter:"
 msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়েছে"
 
-#: battery.cpp:717
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Plugged in"
-msgid "AC Adapter: "
-msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়েছে"
-
-#: battery.cpp:720
+#: battery.cpp:707
 msgid "<b>Plugged in</b>"
 msgstr ""
 
-#: battery.cpp:722
+#: battery.cpp:709
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Not plugged in"
 msgid "<b>Not plugged in</b>"
 msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়নি"
 
-#: battery.cpp:738
+#: battery.cpp:725
 msgctxt "Battery is not plugged in"
 msgid "<b>Not present</b>"
 msgstr ""
 
-#: battery.cpp:994 battery.cpp:1025 battery.cpp:1037
+#: battery.cpp:981 battery.cpp:1012 battery.cpp:1024
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
@@ -185,6 +179,11 @@ msgstr ""
 #: rc.cpp:9
 msgid "Show the state for &each battery present"
 msgstr "উপস্থিত সকল ব্যাটারির অবস্থা প্রদর্শন করা হবে (&e)"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Plugged in"
+#~ msgid "AC Adapter: "
+#~ msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়েছে"
 
 #~ msgid "Power Management"
 #~ msgstr "বিদ্যুৎ পরিচালনা"
