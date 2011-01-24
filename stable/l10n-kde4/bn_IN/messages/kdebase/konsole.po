@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-24 11:28+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -590,16 +590,16 @@ msgstr "বুকমার্ক (&B)"
 msgid "Configure Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: MainWindow.cpp:384
+#: MainWindow.cpp:381
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:386 SessionController.cpp:598
+#: MainWindow.cpp:383 SessionController.cpp:598
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: MainWindow.cpp:388
+#: MainWindow.cpp:385
 msgid "Close Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
@@ -1585,12 +1585,6 @@ msgstr "বিবিধ বৈশিষ্ট্য"
 msgid "Help"
 msgstr "সাহায্য"
 
-#. i18n: file: ../desktop/konsoleui.rc:45
-#. i18n: ectx: Menu (new-tab)
-#: rc.cpp:481
-msgid "New &Tab"
-msgstr "নতুন ট্যাব (&T)"
-
 #: RemoteConnectionDialog.cpp:39
 msgid "New Remote Connection"
 msgstr "নতুন দূরবর্তী সংযোগ"
@@ -2015,6 +2009,9 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
+
+#~ msgid "New &Tab"
+#~ msgstr "নতুন ট্যাব (&T)"
 
 #, fuzzy
 #~| msgid "Set the selected profile as the default for new terminal sessions"
