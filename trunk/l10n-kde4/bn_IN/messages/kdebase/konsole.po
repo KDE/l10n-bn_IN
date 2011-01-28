@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-24 02:47+0100\n"
+"POT-Creation-Date: 2011-01-28 02:44+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1920,24 +1920,17 @@ msgid ""
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: ViewContainer.cpp:491
+#: ViewContainer.cpp:492
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr ""
 
-#: ViewContainer.cpp:495
+#: ViewContainer.cpp:496
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
-
-#: ViewContainer.cpp:499
-#, fuzzy
-#| msgid "&Close Tab"
-msgctxt "@action:inmenu"
-msgid "&Close Tab"
-msgstr "ট্যাব বন্ধ করুন (&C)"
 
 #: ViewManager.cpp:138
 msgid "Next View"
@@ -2009,6 +2002,12 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
+
+#, fuzzy
+#~| msgid "&Close Tab"
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Close Tab"
+#~ msgstr "ট্যাব বন্ধ করুন (&C)"
 
 #~ msgid "New &Tab"
 #~ msgstr "নতুন ট্যাব (&T)"
