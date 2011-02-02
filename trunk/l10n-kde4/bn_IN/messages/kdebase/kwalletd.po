@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:43+0200\n"
+"POT-Creation-Date: 2011-02-02 03:06+0100\n"
 "PO-Revision-Date: 2009-01-02 17:05+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -272,35 +272,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#. i18n: file: kwalletwizardpagepassword.ui:16
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: kbetterthankdialogbase.ui:50
+#. i18n: ectx: property (text), widget (KPushButton, _allowOnce)
 #: rc.cpp:5
-msgid ""
-"Various applications may attempt to use the KDE wallet to store passwords or "
-"other information such as web form data and cookies.  If you would like "
-"these applications to use the wallet, you must enable it now and choose a "
-"password.  The password you choose <i>cannot</i> be recovered if it is lost, "
-"and will allow anyone who knows it to obtain all the information contained "
-"in the wallet."
-msgstr ""
+msgid "Allow &Once"
+msgstr "একবার অনুমতি প্রদান করা হবে (&O)"
 
-#. i18n: file: kwalletwizardpagepassword.ui:29
-#. i18n: ectx: property (text), widget (QCheckBox, _useWallet)
+#. i18n: file: kbetterthankdialogbase.ui:60
+#. i18n: ectx: property (text), widget (KPushButton, _allowAlways)
 #: rc.cpp:8
-msgid "Yes, I wish to use the KDE wallet to store my personal information."
-msgstr "হ্যাঁ, ব্যক্তিগত তথ্য সংরক্ষণের জন্য আমি KDE wallet ব্যবহার করতে ইচ্ছুক।"
+msgid "Allow &Always"
+msgstr "প্রতিবার অনুমতি প্রদান করা হবে (&A)"
 
-#. i18n: file: kwalletwizardpagepassword.ui:88
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: file: kbetterthankdialogbase.ui:67
+#. i18n: ectx: property (text), widget (KPushButton, _deny)
 #: rc.cpp:11
-msgid "Enter a new password:"
-msgstr "নতুন পাসওয়ার্ড লিখুন:"
+msgid "&Deny"
+msgstr "প্রত্যাখ্যান করা হবে (&D)"
 
-#. i18n: file: kwalletwizardpagepassword.ui:104
-#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#. i18n: file: kbetterthankdialogbase.ui:74
+#. i18n: ectx: property (text), widget (KPushButton, _denyForever)
 #: rc.cpp:14
-msgid "Verify password:"
-msgstr "পাসওয়ার্ড নিশ্চিত করুন:"
+msgid "Deny &Forever"
+msgstr "স্থায়ীভাবে প্রত্যাখ্যান করা হবে (&F)"
 
 #. i18n: file: kwalletwizardpageexplanation.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
@@ -368,26 +362,32 @@ msgstr "কর্মহীন ওয়ালেট স্বয়ংক্রিয়�
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr "স্থানীয় পাসওয়ার্ড ও নেটওয়ার্ক পাসওয়ার্ডগুলি পৃথক ওয়ালেট ফাইলে সংরক্ষণ করুন"
 
-#. i18n: file: kbetterthankdialogbase.ui:50
-#. i18n: ectx: property (text), widget (KPushButton, _allowOnce)
+#. i18n: file: kwalletwizardpagepassword.ui:16
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: rc.cpp:41
-msgid "Allow &Once"
-msgstr "একবার অনুমতি প্রদান করা হবে (&O)"
+msgid ""
+"Various applications may attempt to use the KDE wallet to store passwords or "
+"other information such as web form data and cookies.  If you would like "
+"these applications to use the wallet, you must enable it now and choose a "
+"password.  The password you choose <i>cannot</i> be recovered if it is lost, "
+"and will allow anyone who knows it to obtain all the information contained "
+"in the wallet."
+msgstr ""
 
-#. i18n: file: kbetterthankdialogbase.ui:60
-#. i18n: ectx: property (text), widget (KPushButton, _allowAlways)
+#. i18n: file: kwalletwizardpagepassword.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, _useWallet)
 #: rc.cpp:44
-msgid "Allow &Always"
-msgstr "প্রতিবার অনুমতি প্রদান করা হবে (&A)"
+msgid "Yes, I wish to use the KDE wallet to store my personal information."
+msgstr "হ্যাঁ, ব্যক্তিগত তথ্য সংরক্ষণের জন্য আমি KDE wallet ব্যবহার করতে ইচ্ছুক।"
 
-#. i18n: file: kbetterthankdialogbase.ui:67
-#. i18n: ectx: property (text), widget (KPushButton, _deny)
+#. i18n: file: kwalletwizardpagepassword.ui:88
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: rc.cpp:47
-msgid "&Deny"
-msgstr "প্রত্যাখ্যান করা হবে (&D)"
+msgid "Enter a new password:"
+msgstr "নতুন পাসওয়ার্ড লিখুন:"
 
-#. i18n: file: kbetterthankdialogbase.ui:74
-#. i18n: ectx: property (text), widget (KPushButton, _denyForever)
+#. i18n: file: kwalletwizardpagepassword.ui:104
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: rc.cpp:50
-msgid "Deny &Forever"
-msgstr "স্থায়ীভাবে প্রত্যাখ্যান করা হবে (&F)"
+msgid "Verify password:"
+msgstr "পাসওয়ার্ড নিশ্চিত করুন:"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:35+0100\n"
+"POT-Creation-Date: 2011-02-02 03:06+0100\n"
 "PO-Revision-Date: 2008-12-29 15:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,28 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: kio_trash_win.cpp:228 kio_trash.cpp:140
-msgid "This file is already in the trash bin."
-msgstr "ফাইলটি পূর্বেই আবর্জনার বাক্সে স্থানান্তর করা হয়েছে।"
-
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr ""
-
-#: kio_trash_win.cpp:252 kio_trash.cpp:228
-msgid "Internal error in copyOrMove, should never happen"
-msgstr ""
-
-#: trashimpl.cpp:1125
-msgid ""
-"The trash has reached its maximum size!\n"
-"Cleanup the trash manually."
-msgstr ""
-
-#: trashimpl.cpp:1136
-msgid "The file is too large to be trashed."
-msgstr "ফাইলটির অত্যাধিক বৃহৎ মাপের ফলে আবর্জনার বাক্সে স্থানান্তর করা সম্ভব নয়।"
 
 #: kcmtrash.cpp:120
 msgid "Byte"
@@ -164,6 +142,18 @@ msgstr ""
 "অবস্থানে পুনরায় স্থাপন করা সম্ভব হবে না। ডিরেক্টরিটি নতুন করে নির্মাণ করে এই কর্ম "
 "পুনরায় প্রচেষ্টা করুন অথবা, বস্তুটিকে অন্য কোনো স্থানে টেনে নিয়ে পুনরুদ্ধার করুন।"
 
+#: kio_trash.cpp:140 kio_trash_win.cpp:228
+msgid "This file is already in the trash bin."
+msgstr "ফাইলটি পূর্বেই আবর্জনার বাক্সে স্থানান্তর করা হয়েছে।"
+
+#: kio_trash.cpp:228 kio_trash_win.cpp:252
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
+
+#: kio_trash_win.cpp:241
+msgid "not supported"
+msgstr ""
+
 #: ktrash.cpp:32
 msgid "ktrash"
 msgstr "ktrash"
@@ -189,3 +179,13 @@ msgstr "আবর্জনার মধ্যে স্থানান্তর 
 #: ktrash.cpp:42
 msgid "Ignored"
 msgstr "উপেক্ষিত"
+
+#: trashimpl.cpp:1125
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+
+#: trashimpl.cpp:1136
+msgid "The file is too large to be trashed."
+msgstr "ফাইলটির অত্যাধিক বৃহৎ মাপের ফলে আবর্জনার বাক্সে স্থানান্তর করা সম্ভব নয়।"
