@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-02-02 12:17+0100\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,6 +16,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:4972
+#: src/konqmainwindow.cpp:5032
+msgid "no name"
+msgstr "নাম বিহীন"
+
+#: src/konqextensionmanager.cpp:54
+msgid "Configure"
+msgstr "কনফিগার করুন"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "এক্সটেনশন"
 
 #: src/konqfactory.cpp:90
 #, kde-format
@@ -296,6 +310,159 @@ msgstr "নির্মাতা (AdBlock ফিল্টার)"
 #: src/konqfactory.cpp:272
 msgid "Eduardo Robles Elvira"
 msgstr "এডুয়ার্ডো রোবেল্স এলভিরা"
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr "প্রদর্শন বন্ধ করুন"
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr "স্থগিত"
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "%1-র মধ্যে ঝলক প্রদর্শন করা হবে (&i)"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 প্রদর্শন করুন"
+
+#: src/konqhistorydialog.cpp:45
+#, fuzzy
+#| msgid "Clear History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
+
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "ক্রমবিন্যাস"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
+"3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />সর্বশেষ পরিদর্শিত: %2<br />প্রথম পরিদর্শন: %"
+"3<br />পরিদর্শন সংখ্যা: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "বিবিধ"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4499
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "নতুন উইন্ডোর মধ্যে প্রদর্শন করা হবে (&W)"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "নতুন ট্যাবের মধ্যে খুলুন"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "লিংক দ্বারা চিহ্নিত অবস্থা কপি করুন"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr ""
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "পছন্দ...(&P)"
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "নাম অনুসারে (&N)"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "তারিখ অনুসারে (&D)"
+
+#: src/konqhistoryview.cpp:111
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+msgid "Clear History?"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলা হবে কি?"
+
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "ডিফল্ট উইন্ডো বিনা আরম্ভ করা হবে"
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "খোলার জন্য চিহ্নিত প্রোফাইল"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "উপলব্ধ প্রোফাইলের তালিকা"
+
+#: src/konqmain.cpp:104
+msgid "List available sessions"
+msgstr "উপলব্ধ সেশানের তালিকা"
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr "খোলার জন্য চিহ্নিত সেশান"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr ""
+
+#: src/konqmain.cpp:110
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+
+#: src/konqmain.cpp:112
+msgid "Location to open"
+msgstr "প্রদর্শনের জন্য চিহ্নিত অবস্থান"
 
 #: src/konqmainwindow.cpp:557
 msgctxt "@title:tab"
@@ -829,11 +996,6 @@ msgstr "বর্তমান উইন্ডোর মধ্যে প্রদ
 msgid "Open the document in current window"
 msgstr "বর্তমান উইন্ডোর মধ্যে এই নথিটি প্রদর্শন করা হবে"
 
-#: src/konqmainwindow.cpp:4499 src/konqhistoryview.cpp:62
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "নতুন উইন্ডোর মধ্যে প্রদর্শন করা হবে (&W)"
-
 #: src/konqmainwindow.cpp:4500
 msgid "Open the document in a new window"
 msgstr "নতুন উইন্ডোর মধ্যে এই নথিটি প্রদর্শন করা হবে"
@@ -890,11 +1052,6 @@ msgstr ""
 "এই পেজের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
 "উইন্ডোটি বন্ধ করা হলে, এই পরিবর্তনগুলি মুছে যাবে।"
 
-#: src/konqmainwindow.cpp:4972 src/konqmainwindow.cpp:5032
-#: src/konqclosedwindowsmanager.cpp:418
-msgid "no name"
-msgstr "নাম বিহীন"
-
 #: src/konqmainwindow.cpp:5099
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
@@ -924,44 +1081,17 @@ msgid ""
 "with %1, but it cannot handle this file type."
 msgstr ""
 
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr ""
+#: src/konqprofiledlg.cpp:111
+msgid "Profile Management"
+msgstr "প্রোফাইল পরিচালন ব্যবস্থা"
 
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr ""
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "প্রোফাইলের নাম পরিবর্তন (&R)"
 
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
-"3<br />Number of times visited: %4</qt>"
-msgstr ""
-"<qt><center><b>%1</b></center><hr />সর্বশেষ পরিদর্শিত: %2<br />প্রথম পরিদর্শন: %"
-"3<br />পরিদর্শন সংখ্যা: %4</qt>"
-
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "বিবিধ"
-
-#: src/konqextensionmanager.cpp:54
-msgid "Configure"
-msgstr "কনফিগার করুন"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "এক্সটেনশন"
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "প্রোফাইল মুছে ফেলুন (&D)"
 
 #: src/konqsessiondlg.cpp:77
 msgid "Manage Sessions"
@@ -991,51 +1121,6 @@ msgstr ""
 msgid "Session exists. Overwrite?"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1404
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
-"প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
-
-#: src/konqviewmanager.cpp:1407
-msgid "Load View Profile"
-msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
-
-#: src/konqviewmanager.cpp:1419
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
-"প্রোফাইল লোড করা হলে এই পরিবর্তনগুলি মুছে যাবে।"
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "%1-র মধ্যে ঝলক প্রদর্শন করা হবে (&i)"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 প্রদর্শন করুন"
-
-#: src/konqview.cpp:1199
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-
-#: src/konqview.cpp:1201
-msgid "Warning"
-msgstr "সতর্কবার্তা"
-
-#: src/konqview.cpp:1201
-msgid "Resend"
-msgstr "পুনরায় পাঠানো হবে"
-
 #: src/konqsessionmanager.cpp:330
 #, fuzzy
 #| msgid "Konqueror didn't close correctly. Would you like to restore session?"
@@ -1059,120 +1144,6 @@ msgstr "সেশান পুনরুদ্ধার করা হবে ন�
 #: src/konqsessionmanager.cpp:335
 msgid "Ask Me Later"
 msgstr "পরে জিজ্ঞাসা করা হবে"
-
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr "প্রদর্শন বন্ধ করুন"
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr "স্থগিত"
-
-#: src/konqmain.cpp:96
-#, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "ডিফল্ট উইন্ডো বিনা আরম্ভ করা হবে"
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "খোলার জন্য চিহ্নিত প্রোফাইল"
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "উপলব্ধ প্রোফাইলের তালিকা"
-
-#: src/konqmain.cpp:104
-msgid "List available sessions"
-msgstr "উপলব্ধ সেশানের তালিকা"
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr "খোলার জন্য চিহ্নিত সেশান"
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-
-#: src/konqmain.cpp:110
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-
-#: src/konqmain.cpp:112
-msgid "Location to open"
-msgstr "প্রদর্শনের জন্য চিহ্নিত অবস্থান"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "নতুন ট্যাবের মধ্যে খুলুন"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "লিংক দ্বারা চিহ্নিত অবস্থা কপি করুন"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr ""
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "পছন্দ...(&P)"
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "নাম অনুসারে (&N)"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "তারিখ অনুসারে (&D)"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
-
-#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "ক্রমবিন্যাস"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলা হবে কি?"
 
 #: src/konqtabs.cpp:66
 msgid ""
@@ -1211,186 +1182,53 @@ msgstr "ট্যাব বিচ্ছিন্ন করুন (&e)"
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
-
-#: src/konqprofiledlg.cpp:111
-msgid "Profile Management"
-msgstr "প্রোফাইল পরিচালন ব্যবস্থা"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "প্রোফাইলের নাম পরিবর্তন (&R)"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "প্রোফাইল মুছে ফেলুন (&D)"
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr "লিংক খুলুন (&O)"
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
 msgstr ""
 
-#: sidebar/web_module/web_module.cpp:137
-msgid "Set Refresh Timeout (0 disables)"
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
 msgstr ""
 
-#: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " মিনিট"
-
-#: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " সেকেন্ড"
-
-#: sidebar/web_module/web_module.cpp:280
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "ওয়েবের সাইড-বার"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "নাম:"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-msgctxt "@label"
-msgid "Path or URL:"
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
 msgstr ""
 
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-msgid "Add Bookmark"
-msgstr "বুকমার্ক যোগ করুন"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
-msgid "&Create New Folder"
-msgstr "নতুন ফোল্ডার নির্মাণ করুন (&C)"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr "ফোল্ডার মুছে ফেলুন"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
-msgid "Delete Bookmark"
-msgstr "বুকমার্ক মুছে ফেলুন"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "বৈশিষ্ট্যাবলী"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "নতুন উইন্ডোর মধ্যে খুলুন"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
-msgid "Open Folder in Tabs"
-msgstr "ট্যাবের মধ্যে ফোল্ডার খুলুন"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "লিংক দ্বারা চিহ্নিত অবস্থা কপি করুন"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
-#, kde-format
+#: src/konqview.cpp:1199
 msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
 msgstr ""
-"আপনি কি নিশ্চিতরূপে নিম্নলিখিত বুকমার্ক ফোল্ডার মুছে ফেলতে ইচ্ছুক\n"
-"\"%1\"?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
-#, kde-format
+#: src/konqview.cpp:1201
+msgid "Warning"
+msgstr "সতর্কবার্তা"
+
+#: src/konqview.cpp:1201
+msgid "Resend"
+msgstr "পুনরায় পাঠানো হবে"
+
+#: src/konqviewmanager.cpp:1404
 msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
 msgstr ""
-"আপনি কি নিশ্চিতরূপে নিম্নলিখিত বুকমার্ক\n"
-"\"%1\"?"
+"বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
+"প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
-msgid "Bookmark Folder Deletion"
+#: src/konqviewmanager.cpp:1407
+msgid "Load View Profile"
+msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
+
+#: src/konqviewmanager.cpp:1419
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
 msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
-msgid "Bookmark Deletion"
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
-msgid "Bookmark Properties"
-msgstr "বুকমার্ক সংক্রান্ত বৈশিষ্ট্য"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
-msgid "&Update"
-msgstr "আপডেট করুন (&U)"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
-msgid "Name:"
-msgstr "নাম:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr "নতুন ফোল্ডার নির্মাণ করুন...(&C)"
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "নাম পরিবর্তন"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr "লিংক মুছে ফেলুন"
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-msgid "Create New Folder"
-msgstr "নতুন ফোল্ডার নির্মাণ করুন"
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "ফোল্ডারের নাম লিখুন:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
+"এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
+"প্রোফাইল লোড করা হলে এই পরিবর্তনগুলি মুছে যাবে।"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
@@ -1540,6 +1378,168 @@ msgstr "মুছে ফেলুন"
 #| msgid "Web Sidebar"
 msgid "Web module"
 msgstr "ওয়েবের সাইড-বার"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
+msgid "&Create New Folder"
+msgstr "নতুন ফোল্ডার নির্মাণ করুন (&C)"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr "ফোল্ডার মুছে ফেলুন"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
+msgid "Delete Bookmark"
+msgstr "বুকমার্ক মুছে ফেলুন"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "বৈশিষ্ট্যাবলী"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "নতুন উইন্ডোর মধ্যে খুলুন"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
+msgid "Open Folder in Tabs"
+msgstr "ট্যাবের মধ্যে ফোল্ডার খুলুন"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "লিংক দ্বারা চিহ্নিত অবস্থা কপি করুন"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"আপনি কি নিশ্চিতরূপে নিম্নলিখিত বুকমার্ক ফোল্ডার মুছে ফেলতে ইচ্ছুক\n"
+"\"%1\"?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"আপনি কি নিশ্চিতরূপে নিম্নলিখিত বুকমার্ক\n"
+"\"%1\"?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+msgid "Bookmark Folder Deletion"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+msgid "Bookmark Deletion"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+msgid "Bookmark Properties"
+msgstr "বুকমার্ক সংক্রান্ত বৈশিষ্ট্য"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+msgid "&Update"
+msgstr "আপডেট করুন (&U)"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+msgid "Name:"
+msgstr "নাম:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+msgid "Add Bookmark"
+msgstr "বুকমার্ক যোগ করুন"
+
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr "নতুন ফোল্ডার নির্মাণ করুন...(&C)"
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+msgid "Move to Trash"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "নাম পরিবর্তন"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr "লিংক মুছে ফেলুন"
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+msgid "Create New Folder"
+msgstr "নতুন ফোল্ডার নির্মাণ করুন"
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "ফোল্ডারের নাম লিখুন:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "নাম:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "লিংক খুলুন (&O)"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:137
+msgid "Set Refresh Timeout (0 disables)"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:145
+msgid " min"
+msgstr " মিনিট"
+
+#: sidebar/web_module/web_module.cpp:148
+msgid " sec"
+msgstr " সেকেন্ড"
+
+#: sidebar/web_module/web_module.cpp:280
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "ওয়েবের সাইড-বার"
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137

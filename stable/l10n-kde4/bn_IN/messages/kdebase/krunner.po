@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-29 02:13+0100\n"
+"POT-Creation-Date: 2011-02-02 12:18+0100\n"
 "PO-Revision-Date: 2009-01-08 20:32+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,21 +17,46 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
+#: configdialog.cpp:52
+msgid "Plugins"
+msgstr "প্লাগ-ইন"
+
+#: configdialog.cpp:81
+msgid "User Interface"
+msgstr "ইউজার ইন্টারফেস"
+
+#: configdialog.cpp:87
+msgid "Available Features"
+msgstr "উপলব্ধ বৈশিষ্ট্য"
+
 #: interfaces/default/interface.cpp:85 interfaces/default/interface.cpp:86
+#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
 msgid "Settings"
 msgstr "বিবিধ বৈশিষ্ট্য"
 
-#: interfaces/quicksand/qs_dialog.cpp:108
-msgid "Actions"
-msgstr "কর্ম"
+#: interfaces/default/interface.cpp:107
+msgid "Help"
+msgstr ""
 
-#: interfaces/quicksand/qs_dialog.cpp:317 interfaces/default/interface.cpp:259
+#: interfaces/default/interface.cpp:108
+msgid "Information on using this application"
+msgstr ""
+
+#: interfaces/default/interface.cpp:259 interfaces/quicksand/qs_dialog.cpp:317
 #, fuzzy, kde-format
 #| msgid "%1: %2"
 msgctxt "tooltip, shortcut"
 msgid "%1 (%2)"
 msgstr "%1: %2"
+
+#: interfaces/default/interface.cpp:409
+#, kde-format
+msgid "(From %1, %2)"
+msgstr ""
+
+#: interfaces/quicksand/qs_dialog.cpp:108
+msgid "Actions"
+msgstr "কর্ম"
 
 #: interfaces/quicksand/qs_matchview.cpp:193
 msgid "Type to search."
@@ -68,18 +93,57 @@ msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%1 %2"
 
-#: interfaces/default/interface.cpp:107
-msgid "Help"
+#: krunnerapp.cpp:128 krunnerdialog.cpp:69
+msgid "Run Command"
+msgstr "কমান্ড সঞ্চালনা"
+
+#: krunnerapp.cpp:133
+msgid "Run Command on clipboard contents"
 msgstr ""
 
-#: interfaces/default/interface.cpp:108
-msgid "Information on using this application"
-msgstr ""
+#: krunnerapp.cpp:139
+msgid "Show System Activity"
+msgstr "সিস্টেমের কর্ম সংক্রান্ত তথ্য প্রদর্শন করা হবে"
 
-#: interfaces/default/interface.cpp:409
+#: krunnerapp.cpp:145
+msgid "Switch User"
+msgstr "ব্যবহারকারী পরিবর্তন করুন"
+
+#: krunnerapp.cpp:155
+msgid "Lock Session"
+msgstr "সেশান লক করুন"
+
+#: krunnerapp.cpp:195
 #, kde-format
-msgid "(From %1, %2)"
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
 msgstr ""
+
+#: ksystemactivitydialog.cpp:39
+msgid "System Activity"
+msgstr "সিস্টেমের কর্ম"
+
+#: lock/autologout.cc:38
+msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+msgstr "<qt><nobr><b>স্বয়ংক্রিয়ভাবে লগ-আউট ব্যবস্থা</b></nobr></qt>"
+
+#: lock/autologout.cc:39
+msgid ""
+"<qt>To prevent being logged out, resume using this session by moving the "
+"mouse or pressing a key.</qt>"
+msgstr ""
+
+#: lock/autologout.cc:44
+msgid "Time Remaining:"
+msgstr "অবশিষ্ট সময়:"
+
+#: lock/autologout.cc:77
+#, kde-format
+msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+msgid_plural ""
+"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] "<qt><nobr>১ সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে লগ-আউট করা হবে</nobr></qt>"
+msgstr[1] "<qt><nobr>%1 সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে লগ-আউট করা হবে</nobr></qt>"
 
 #: lock/lockdlg.cc:100
 msgid "<nobr><b>The session is locked</b></nobr><br />"
@@ -152,27 +216,22 @@ msgstr "সক্রিয় করুন (&A)"
 msgid "Start &New Session"
 msgstr "নতুন সেশান আরম্ভ করুন (&N)"
 
-#: lock/autologout.cc:38
-msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
-msgstr "<qt><nobr><b>স্বয়ংক্রিয়ভাবে লগ-আউট ব্যবস্থা</b></nobr></qt>"
+#: lock/lockprocess.cc:830
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr "আন-লক করার উপায় না থাকার ফলে, সেশান লক করা হবে না:\n"
 
-#: lock/autologout.cc:39
-msgid ""
-"<qt>To prevent being logged out, resume using this session by moving the "
-"mouse or pressing a key.</qt>"
+#: lock/lockprocess.cc:834
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "<i>kcheckpass</i> আরম্ভ করা সম্ভব নয়।"
+
+#: lock/lockprocess.cc:835
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
 msgstr ""
+"<i>kcheckpass</i> সঞ্চালন করতে সক্ষম নয়। সম্ভবত setuid root নির্ধারিত হয়নি।"
 
-#: lock/autologout.cc:44
-msgid "Time Remaining:"
-msgstr "অবশিষ্ট সময়:"
-
-#: lock/autologout.cc:77
-#, kde-format
-msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
-msgid_plural ""
-"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
-msgstr[0] "<qt><nobr>১ সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে লগ-আউট করা হবে</nobr></qt>"
-msgstr[1] "<qt><nobr>%1 সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে লগ-আউট করা হবে</nobr></qt>"
+#: lock/lockprocess.cc:898
+msgid "No appropriate greeter plugin configured."
+msgstr ""
 
 #: lock/main.cc:61
 msgid "KDE Screen Locker"
@@ -208,27 +267,6 @@ msgstr "কনফিগার করা জন্য plasma আন-লক কর
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:830
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr "আন-লক করার উপায় না থাকার ফলে, সেশান লক করা হবে না:\n"
-
-#: lock/lockprocess.cc:834
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "<i>kcheckpass</i> আরম্ভ করা সম্ভব নয়।"
-
-#: lock/lockprocess.cc:835
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr ""
-"<i>kcheckpass</i> সঞ্চালন করতে সক্ষম নয়। সম্ভবত setuid root নির্ধারিত হয়নি।"
-
-#: lock/lockprocess.cc:898
-msgid "No appropriate greeter plugin configured."
-msgstr ""
-
-#: krunnerdialog.cpp:69 krunnerapp.cpp:128
-msgid "Run Command"
-msgstr "কমান্ড সঞ্চালনা"
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr "KDE-র কমান্ড সঞ্চালনার প্রেক্ষাপট"
@@ -248,44 +286,6 @@ msgstr "অ্যারন জে. সেইগো"
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr "নির্মাতা ও মেইন্টেনার"
-
-#: krunnerapp.cpp:133
-msgid "Run Command on clipboard contents"
-msgstr ""
-
-#: krunnerapp.cpp:139
-msgid "Show System Activity"
-msgstr "সিস্টেমের কর্ম সংক্রান্ত তথ্য প্রদর্শন করা হবে"
-
-#: krunnerapp.cpp:145
-msgid "Switch User"
-msgstr "ব্যবহারকারী পরিবর্তন করুন"
-
-#: krunnerapp.cpp:155
-msgid "Lock Session"
-msgstr "সেশান লক করুন"
-
-#: krunnerapp.cpp:195
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr ""
-
-#: configdialog.cpp:52
-msgid "Plugins"
-msgstr "প্লাগ-ইন"
-
-#: configdialog.cpp:81
-msgid "User Interface"
-msgstr "ইউজার ইন্টারফেস"
-
-#: configdialog.cpp:87
-msgid "Available Features"
-msgstr "উপলব্ধ বৈশিষ্ট্য"
-
-#: ksystemactivitydialog.cpp:39
-msgid "System Activity"
-msgstr "সিস্টেমের কর্ম"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
