@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:17+0100\n"
+"POT-Creation-Date: 2011-02-03 11:05+0100\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -171,30 +171,6 @@ msgstr "অদ্যাক্ষর অনুযায়ী ক্রমবিন�
 msgid "Delete Items"
 msgstr "বস্তু মুছে ফেলুন"
 
-#: bookmarkinfowidget.cpp:246
-msgid "Name:"
-msgstr "নাম:"
-
-#: bookmarkinfowidget.cpp:254
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: bookmarkinfowidget.cpp:262
-msgid "Comment:"
-msgstr "মন্তব্য:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "First viewed:"
-msgstr "প্রথম দর্শন:"
-
-#: bookmarkinfowidget.cpp:272
-msgid "Viewed last:"
-msgstr "সর্বশেষ দর্শন:"
-
-#: bookmarkinfowidget.cpp:275
-msgid "Times visited:"
-msgstr "পরিদর্শনের সংখ্যা:"
-
 #: exporters.cpp:48
 msgid "My Bookmarks"
 msgstr "My Bookmarks"
@@ -338,52 +314,52 @@ msgstr "%1 পরিবর্তন"
 msgid "Comment Change"
 msgstr "মন্তব্য"
 
-#: kbookmarkmodel/commands.cpp:359
+#: kbookmarkmodel/commands.cpp:364
 #, kde-format
 msgid "Move %1"
 msgstr "%1 স্থানান্তর করুন"
 
-#: kbookmarkmodel/commands.cpp:476
+#: kbookmarkmodel/commands.cpp:481
 msgid "Set as Bookmark Toolbar"
 msgstr "বুকমার্ক টুলবার রূপে নির্ধারণ করুন"
 
-#: kbookmarkmodel/commands.cpp:512
+#: kbookmarkmodel/commands.cpp:517
 msgid "Copy Items"
 msgstr "বস্তু কপি করুন"
 
-#: kbookmarkmodel/commands.cpp:513
+#: kbookmarkmodel/commands.cpp:518
 msgid "Move Items"
 msgstr "বস্তু স্থানান্তর করুন"
 
-#: kbookmarkmodel/model.cpp:118
+#: kbookmarkmodel/model.cpp:116
 #, fuzzy
 #| msgid "Bookmarks"
 msgctxt "name of the container of all browser bookmarks"
 msgid "Bookmarks"
 msgstr "বুকমার্ক"
 
-#: kbookmarkmodel/model.cpp:222
+#: kbookmarkmodel/model.cpp:220
 #, fuzzy
 #| msgid "Name:"
 msgctxt "@title:column name of a bookmark"
 msgid "Name"
 msgstr "নাম:"
 
-#: kbookmarkmodel/model.cpp:226
+#: kbookmarkmodel/model.cpp:224
 #, fuzzy
 #| msgid "Location:"
 msgctxt "@title:column name of a bookmark"
 msgid "Location"
 msgstr "অবস্থান:"
 
-#: kbookmarkmodel/model.cpp:230
+#: kbookmarkmodel/model.cpp:228
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@title:column comment for a bookmark"
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kbookmarkmodel/model.cpp:234
+#: kbookmarkmodel/model.cpp:232
 #, fuzzy
 #| msgid "Status"
 msgctxt "@title:column status of a bookmark"
@@ -542,6 +518,30 @@ msgstr "শুধুমাত্র একটি --import বিকল্প উ
 #: testlink.cpp:76
 msgid "Checking..."
 msgstr "পরীক্ষা করা হচ্ছে..."
+
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "নাম:"
+
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr "মন্তব্য:"
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr "প্রথম দর্শন:"
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr "সর্বশেষ দর্শন:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr "পরিদর্শনের সংখ্যা:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
