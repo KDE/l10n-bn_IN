@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-03 11:05+0100\n"
+"POT-Creation-Date: 2011-02-04 10:21+0100\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -170,6 +170,30 @@ msgstr "অদ্যাক্ষর অনুযায়ী ক্রমবিন�
 #: actionsimpl.cpp:526
 msgid "Delete Items"
 msgstr "বস্তু মুছে ফেলুন"
+
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "নাম:"
+
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr "মন্তব্য:"
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr "প্রথম দর্শন:"
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr "সর্বশেষ দর্শন:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr "পরিদর্শনের সংখ্যা:"
 
 #: exporters.cpp:48
 msgid "My Bookmarks"
@@ -518,30 +542,6 @@ msgstr "শুধুমাত্র একটি --import বিকল্প উ
 #: testlink.cpp:76
 msgid "Checking..."
 msgstr "পরীক্ষা করা হচ্ছে..."
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "নাম:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr "মন্তব্য:"
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr "প্রথম দর্শন:"
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr "সর্বশেষ দর্শন:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
-msgstr "পরিদর্শনের সংখ্যা:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
