@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-18 03:30+0100\n"
+"POT-Creation-Date: 2011-02-21 03:38+0100\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -790,13 +790,13 @@ msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "চিহ্নিত ডেস্কটপে স্থানান্তর (&D)"
 
-#: tiling.cpp:74
+#: tiling.cpp:73
 #, fuzzy
 #| msgid "Disabled"
 msgid "Tiling Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: tiling.cpp:78
+#: tiling.cpp:77
 msgid "Tiling Enabled"
 msgstr ""
 
@@ -1038,86 +1038,59 @@ msgstr ""
 msgid "&Terminate Application %1"
 msgstr ""
 
-#: lib/kcommondecoration.cpp:291
-#, fuzzy, kde-format
-#| msgid "<center><b>%1 preview</b></center>"
-msgid "<center><b>%1</b></center>"
-msgstr "<center><b>%1 প্রদর্শনের ঝলক</b></center>"
-
-#: lib/kcommondecoration.cpp:381
-msgid "Menu"
-msgstr "মেনু"
-
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:607
-msgid "Not on all desktops"
-msgstr "সকল ডেস্কটপে নয়"
-
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:608
-msgid "On all desktops"
-msgstr "সকল ডেস্কটপের মধ্যে"
-
-#: lib/kcommondecoration.cpp:412
-msgid "Help"
-msgstr "সাহায্য"
-
-#: lib/kcommondecoration.cpp:425
-msgid "Minimize"
-msgstr "আড়াল করুন"
-
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:595
-msgid "Restore"
-msgstr "পূর্ববর্তী মাপ"
-
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:594
-msgid "Maximize"
-msgstr "বড় করুন"
-
-#: lib/kcommondecoration.cpp:455
-msgid "Close"
-msgstr "বন্ধ করুন"
-
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
-msgid "Do not keep above others"
-msgstr "সকল উইন্ডোর উপরে নয়"
-
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
-#: lib/kcommondecoration.cpp:669
-msgid "Keep above others"
-msgstr "সকল উইন্ডোর উপরে"
-
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:663
-msgid "Do not keep below others"
-msgstr "অন্যান্য উইন্ডোর নীচে নয়"
-
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:654
-#: lib/kcommondecoration.cpp:663
-msgid "Keep below others"
-msgstr "অন্যান্য উইন্ডোর নীচে"
-
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:619
-msgid "Unshade"
-msgstr "ছায়াবিহীন"
-
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:620
-msgid "Shade"
-msgstr "ছায়াবৃত"
-
-#: lib/kdecoration_plugins_p.cpp:128
-msgid "No window decoration plugin library was found."
-msgstr ""
-
-#: lib/kdecoration_plugins_p.cpp:153
-msgid "The default decoration plugin is corrupt and could not be loaded."
-msgstr ""
-
-#: lib/kdecoration_plugins_p.cpp:165 lib/kdecoration_plugins_p.cpp:170
-#, kde-format
-msgid "The library %1 is not a KWin plugin."
-msgstr "%1 লাইব্রেরি, KWin প্লাগ-ইন নয়।"
-
 #: tabbox/clientmodel.cpp:56
 msgid "*** No Windows ***"
 msgstr "*** উইন্ডো অনুপস্থিত ***"
+
+#, fuzzy
+#~| msgid "<center><b>%1 preview</b></center>"
+#~ msgid "<center><b>%1</b></center>"
+#~ msgstr "<center><b>%1 প্রদর্শনের ঝলক</b></center>"
+
+#~ msgid "Menu"
+#~ msgstr "মেনু"
+
+#~ msgid "Not on all desktops"
+#~ msgstr "সকল ডেস্কটপে নয়"
+
+#~ msgid "On all desktops"
+#~ msgstr "সকল ডেস্কটপের মধ্যে"
+
+#~ msgid "Help"
+#~ msgstr "সাহায্য"
+
+#~ msgid "Minimize"
+#~ msgstr "আড়াল করুন"
+
+#~ msgid "Restore"
+#~ msgstr "পূর্ববর্তী মাপ"
+
+#~ msgid "Maximize"
+#~ msgstr "বড় করুন"
+
+#~ msgid "Close"
+#~ msgstr "বন্ধ করুন"
+
+#~ msgid "Do not keep above others"
+#~ msgstr "সকল উইন্ডোর উপরে নয়"
+
+#~ msgid "Keep above others"
+#~ msgstr "সকল উইন্ডোর উপরে"
+
+#~ msgid "Do not keep below others"
+#~ msgstr "অন্যান্য উইন্ডোর নীচে নয়"
+
+#~ msgid "Keep below others"
+#~ msgstr "অন্যান্য উইন্ডোর নীচে"
+
+#~ msgid "Unshade"
+#~ msgstr "ছায়াবিহীন"
+
+#~ msgid "Shade"
+#~ msgstr "ছায়াবৃত"
+
+#~ msgid "The library %1 is not a KWin plugin."
+#~ msgstr "%1 লাইব্রেরি, KWin প্লাগ-ইন নয়।"
 
 #, fuzzy
 #~| msgid "Left"
