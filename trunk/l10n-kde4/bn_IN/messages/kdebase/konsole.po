@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-03 03:32+0100\n"
+"POT-Creation-Date: 2011-03-04 03:30+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -268,73 +268,70 @@ msgstr "বর্তমান প্রোফাইল সম্পাদনা.
 msgid "lines"
 msgstr "পংক্তি"
 
-#: IncrementalSearchBar.cpp:53
+#: IncrementalSearchBar.cpp:52
 msgid "Close the search bar"
 msgstr "অনুসন্ধানের বার বন্ধ করুন"
 
-#: IncrementalSearchBar.cpp:58
+#: IncrementalSearchBar.cpp:57
 msgid "Find:"
 msgstr "অনুসন্ধান:"
 
-#: IncrementalSearchBar.cpp:63
+#: IncrementalSearchBar.cpp:62
 msgid "Enter the text to search for here"
 msgstr "অনুসন্ধানের উদ্দেশ্যে এইখানে তথ্য লিখুন"
 
-#: IncrementalSearchBar.cpp:82
+#: IncrementalSearchBar.cpp:81
 #, fuzzy
 #| msgid "Next"
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "পরবর্তী"
 
-#: IncrementalSearchBar.cpp:86
+#: IncrementalSearchBar.cpp:84
 msgid "Find the next match for the current search phrase"
 msgstr "চিহ্নিত তথ্যের পরবর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:91
+#: IncrementalSearchBar.cpp:89
 #, fuzzy
 #| msgid "Previous"
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "পূর্ববর্তী"
 
-#: IncrementalSearchBar.cpp:95
+#: IncrementalSearchBar.cpp:92
 msgid "Find the previous match for the current search phrase"
 msgstr "চিহ্নিত তথ্যের পূর্ববর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:100
-msgid "Highlight all"
-msgstr "সকল উপস্থিতি উজ্জ্বল করা হবে"
+#: IncrementalSearchBar.cpp:97
+msgctxt "@action:button Display options menu"
+msgid "Options"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:102
-msgid "Sets whether matching text should be highlighted"
-msgstr "চিহ্নিত তথ্যের সকল উপস্থিতি উজ্জ্বলিত করা হবে কি না নির্ধারণ করা হয়"
+msgid "Display the options menu"
+msgstr ""
 
-#: IncrementalSearchBar.cpp:110
-msgid "Match case"
-msgstr "হরফের ছাঁদ মেলানো হবে"
+#: IncrementalSearchBar.cpp:115
+msgid "Case sensitive"
+msgstr ""
 
-#: IncrementalSearchBar.cpp:112
+#: IncrementalSearchBar.cpp:117
 msgid "Sets whether the search is case sensitive"
 msgstr "হরফের ছাঁদ মেলানো হবে কি না নির্ধারণ করতে ব্যবহৃত হয়"
 
-#: IncrementalSearchBar.cpp:118
+#: IncrementalSearchBar.cpp:121
 msgid "Match regular expression"
 msgstr "রেগুলার এক্সপ্রেশন মেলানো হবে"
 
-#: IncrementalSearchBar.cpp:120
-msgid ""
-"Sets whether the search phrase is interpreted as normal text or as a regular "
-"expression"
-msgstr ""
+#: IncrementalSearchBar.cpp:126
+#, fuzzy
+#| msgid "Highlight all"
+msgid "Highlight all matches"
+msgstr "সকল উপস্থিতি উজ্জ্বল করা হবে"
 
-#: IncrementalSearchBar.cpp:246
-msgid "Search reached bottom, continued from top."
-msgstr ""
-
-#: IncrementalSearchBar.cpp:251
-msgid "Search reached top, continued from bottom."
-msgstr ""
+#: IncrementalSearchBar.cpp:128
+msgid "Sets whether matching text should be highlighted"
+msgstr "চিহ্নিত তথ্যের সকল উপস্থিতি উজ্জ্বলিত করা হবে কি না নির্ধারণ করা হয়"
 
 #: KeyBindingEditor.cpp:49
 msgid "Key Combination"
@@ -1757,43 +1754,43 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1157
+#: SessionController.cpp:1159
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1166
+#: SessionController.cpp:1168
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1178
+#: SessionController.cpp:1180
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1187
+#: SessionController.cpp:1189
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1193
+#: SessionController.cpp:1195
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1265
+#: SessionController.cpp:1267
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1276
+#: SessionController.cpp:1278
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1365
+#: SessionController.cpp:1367
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2006,6 +2003,9 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
+
+#~ msgid "Match case"
+#~ msgstr "হরফের ছাঁদ মেলানো হবে"
 
 #, fuzzy
 #~| msgid "&Close Tab"
