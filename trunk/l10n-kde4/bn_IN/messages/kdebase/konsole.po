@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-04 03:30+0100\n"
+"POT-Creation-Date: 2011-03-05 03:48+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -591,16 +591,16 @@ msgstr "বুকমার্ক (&B)"
 msgid "Configure Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: MainWindow.cpp:383
+#: MainWindow.cpp:393
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:385 SessionController.cpp:604
+#: MainWindow.cpp:395 SessionController.cpp:604
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: MainWindow.cpp:387
+#: MainWindow.cpp:397
 msgid "Close Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
@@ -1934,23 +1934,27 @@ msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
 #: ViewManager.cpp:138
-msgid "Next View"
-msgstr "পরবর্তী প্রদর্শন"
+#, fuzzy
+#| msgid "New &Tab"
+msgid "Next Tab"
+msgstr "নতুন ট্যাব (&T)"
 
 #: ViewManager.cpp:139
-msgid "Previous View"
-msgstr "পূর্ববর্তী প্রদর্শন"
+#, fuzzy
+#| msgid "Previous"
+msgid "Previous Tab"
+msgstr "পূর্ববর্তী"
 
 #: ViewManager.cpp:140
 msgid "Next View Container"
 msgstr ""
 
 #: ViewManager.cpp:142
-msgid "Move View Left"
+msgid "Move Tab Left"
 msgstr ""
 
 #: ViewManager.cpp:143
-msgid "Move View Right"
+msgid "Move Tab Right"
 msgstr ""
 
 #: ViewManager.cpp:153
@@ -2003,6 +2007,12 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
+
+#~ msgid "Next View"
+#~ msgstr "পরবর্তী প্রদর্শন"
+
+#~ msgid "Previous View"
+#~ msgstr "পূর্ববর্তী প্রদর্শন"
 
 #~ msgid "Match case"
 #~ msgstr "হরফের ছাঁদ মেলানো হবে"
