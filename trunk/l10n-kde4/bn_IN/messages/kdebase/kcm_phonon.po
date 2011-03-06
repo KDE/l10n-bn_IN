@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:35+0100\n"
+"POT-Creation-Date: 2011-03-06 03:30+0100\n"
 "PO-Revision-Date: 2009-01-13 11:36+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,54 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: devicepreference.cpp:75
-msgid "Audio Output"
-msgstr "অডিও আউটপুট"
-
-#: devicepreference.cpp:75
-msgid "Audio Capture"
-msgstr "অডিও ক্যাপচার"
-
-#: devicepreference.cpp:111
-msgid "Play a test sound on the selected device"
-msgstr "নির্বাচিত ডিভাইসের মধ্যে পরীক্ষামূলক একটি শব্দ বাজান"
-
-#: devicepreference.cpp:132 devicepreference.cpp:139
-msgid ""
-"Defines the default ordering of devices which can be overridden by "
-"individual categories."
-msgstr ""
-"ডিভাইসের ডিফল্ট অনুক্রম নির্ধারণ করতে ব্যবহৃত হয়। পৃথক শ্রেণী দ্বারা এই অনুক্রম অগ্রাহ্য "
-"করা হতে পারে।"
-
-#: devicepreference.cpp:213
-msgid "Default Output Device Preference"
-msgstr "ডিফল্ট আউপুট ডিভাইস সংক্রান্ত পছন্দ"
-
-#: devicepreference.cpp:215
-msgid "Default Capture Device Preference"
-msgstr "ডিফল্ট ক্যাপচার ডিভাইস সংক্রান্ত পছন্দ"
-
-#: devicepreference.cpp:219
-#, kde-format
-msgid "Output Device Preference for the '%1' Category"
-msgstr "'%1' শ্রেণীর জন্য আউটপুট ডিভাইস সংক্রান্ত পছন্দ"
-
-#: devicepreference.cpp:221
-#, kde-format
-msgid "Capture Device Preference for the '%1' Category"
-msgstr "'%1' শ্রেণীর জন্য ক্যাপচার ডিভাইস সংক্রান্ত পছন্দ"
-
-#: devicepreference.cpp:507
-msgid ""
-"Apply the currently shown device preference list to the following other "
-"audio output categories:"
-msgstr ""
-
-#: devicepreference.cpp:514
-msgid "Default/Unspecified Category"
-msgstr "ডিফল্ট/অনির্ধারিত শ্রেণী"
 
 #: main.cpp:43
 msgid "Phonon Configuration Module"
@@ -144,6 +96,82 @@ msgstr ""
 #: testspeakerwidget.cpp:154
 msgid "Unknown Channel"
 msgstr ""
+
+#: devicepreference.cpp:103
+msgid "Audio Output"
+msgstr "অডিও আউটপুট"
+
+#: devicepreference.cpp:106
+msgid "Audio Capture"
+msgstr "অডিও ক্যাপচার"
+
+#: devicepreference.cpp:109
+#, fuzzy
+#| msgid "Audio Capture"
+msgid "Video Capture"
+msgstr "অডিও ক্যাপচার"
+
+#: devicepreference.cpp:112
+msgid "Invalid"
+msgstr ""
+
+#: devicepreference.cpp:150
+msgid "Play a test sound on the selected device"
+msgstr "নির্বাচিত ডিভাইসের মধ্যে পরীক্ষামূলক একটি শব্দ বাজান"
+
+#: devicepreference.cpp:171 devicepreference.cpp:178 devicepreference.cpp:185
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"ডিভাইসের ডিফল্ট অনুক্রম নির্ধারণ করতে ব্যবহৃত হয়। পৃথক শ্রেণী দ্বারা এই অনুক্রম অগ্রাহ্য "
+"করা হতে পারে।"
+
+#: devicepreference.cpp:284
+#, fuzzy
+#| msgid "Default Output Device Preference"
+msgid "Default Audio Output Device Preference"
+msgstr "ডিফল্ট আউপুট ডিভাইস সংক্রান্ত পছন্দ"
+
+#: devicepreference.cpp:287
+#, fuzzy
+#| msgid "Default Capture Device Preference"
+msgid "Default Audio Capture Device Preference"
+msgstr "ডিফল্ট ক্যাপচার ডিভাইস সংক্রান্ত পছন্দ"
+
+#: devicepreference.cpp:290
+#, fuzzy
+#| msgid "Default Capture Device Preference"
+msgid "Default Video Capture Device Preference"
+msgstr "ডিফল্ট ক্যাপচার ডিভাইস সংক্রান্ত পছন্দ"
+
+#: devicepreference.cpp:297
+#, fuzzy, kde-format
+#| msgid "Output Device Preference for the '%1' Category"
+msgid "Audio Output Device Preference for the '%1' Category"
+msgstr "'%1' শ্রেণীর জন্য আউটপুট ডিভাইস সংক্রান্ত পছন্দ"
+
+#: devicepreference.cpp:301
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Audio Capture Device Preference for the '%1' Category"
+msgstr "'%1' শ্রেণীর জন্য ক্যাপচার ডিভাইস সংক্রান্ত পছন্দ"
+
+#: devicepreference.cpp:305
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Video Capture Device Preference for the '%1' Category "
+msgstr "'%1' শ্রেণীর জন্য ক্যাপচার ডিভাইস সংক্রান্ত পছন্দ"
+
+#: devicepreference.cpp:726
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio output categories:"
+msgstr ""
+
+#: devicepreference.cpp:736
+msgid "Default/Unspecified Category"
+msgstr "ডিফল্ট/অনির্ধারিত শ্রেণী"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
