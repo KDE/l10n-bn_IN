@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 03:43+0100\n"
+"POT-Creation-Date: 2011-03-18 03:37+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -4951,6 +4951,34 @@ msgstr "কর্ম সমর্থিত নয়"
 msgid "Timed out trying to connect to remote host"
 msgstr "দূরবর্তী হোস্টের সাথে সংযোগ স্থাপন করতে সময়সীমা উত্তীর্ণ হয়েছে"
 
+#: kdecore/network/netsupp.cpp:892
+msgid "address family for nodename not supported"
+msgstr "nodename-র ক্ষেত্রে চিহ্নিত অ্যাড্রেস সংকলন সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:894
+msgid "invalid value for 'ai_flags'"
+msgstr "'ai_flags'-র মান বৈধ নয়"
+
+#: kdecore/network/netsupp.cpp:896
+msgid "'ai_family' not supported"
+msgstr "'ai_family' সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:898
+msgid "no address associated with nodename"
+msgstr "nodename-র সাথে কোনো ঠিকানা যুক্ত নয়"
+
+#: kdecore/network/netsupp.cpp:900
+msgid "servname not supported for ai_socktype"
+msgstr "ai_socktype-র জন্য servname সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "'ai_socktype' not supported"
+msgstr "'ai_socktype' সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:902
+msgid "system error"
+msgstr "সিস্টেম জড়িত ত্রুটি"
+
 #: kdecore/network/ktcpsocket.cpp:152
 msgctxt "SSL error"
 msgid "No error"
@@ -5023,34 +5051,6 @@ msgstr "সার্টিফিকেট চেইন অত্যাধিক 
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "অজানা ত্রুটি"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "nodename-র ক্ষেত্রে চিহ্নিত অ্যাড্রেস সংকলন সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "'ai_flags'-র মান বৈধ নয়"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "'ai_family' সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "nodename-র সাথে কোনো ঠিকানা যুক্ত নয়"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "ai_socktype-র জন্য servname সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "'ai_socktype' সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "সিস্টেম জড়িত ত্রুটি"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, kde-format
