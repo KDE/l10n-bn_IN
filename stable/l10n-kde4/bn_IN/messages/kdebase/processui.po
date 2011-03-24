@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-27 10:53+0100\n"
+"POT-Creation-Date: 2011-03-24 12:18+0100\n"
 "PO-Revision-Date: 2008-10-22 19:48+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -207,17 +207,17 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1019 ksysguardprocesslist.cpp:1238
+#: ksysguardprocesslist.cpp:1021 ksysguardprocesslist.cpp:1248
 msgid "You must select a process first."
 msgstr "প্রথমে একটি প্রসেস নির্বাচন করুন।"
 
-#: ksysguardprocesslist.cpp:1099
+#: ksysguardprocesslist.cpp:1109
 msgid ""
 "You do not have sufficient privileges to change the CPU scheduler. Aborting."
 msgstr ""
 "CPU সিডিউলার পরিবর্তন করার জন্য পর্যাপ্ত অধিকার আপনার নেই। কর্ম পরিত্যাগ করা হচ্ছে।"
 
-#: ksysguardprocesslist.cpp:1108
+#: ksysguardprocesslist.cpp:1118
 #, fuzzy
 #| msgid ""
 #| "You do not have sufficient privileges to change the CPU priority. Aborting"
@@ -227,7 +227,7 @@ msgstr ""
 "CPU-র গুরুত্বের মাপ পরিবর্তন করার জন্য পর্যাপ্ত অধিকার আপনার নেই। কর্ম পরিত্যাগ করা "
 "হচ্ছে।"
 
-#: ksysguardprocesslist.cpp:1115
+#: ksysguardprocesslist.cpp:1125
 #, fuzzy
 #| msgid ""
 #| "You do not have sufficient privileges to change the IO scheduler and "
@@ -239,7 +239,7 @@ msgstr ""
 "ইনপুট/আউপুট সিডিউলার ও গুরত্বের মাপ পরবর্তন করার জন্য পর্যাপ্ত অধিকার আপনার নেই। কর্ম "
 "পরিত্যাগ করা হচ্ছে।"
 
-#: ksysguardprocesslist.cpp:1152
+#: ksysguardprocesslist.cpp:1162
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -251,7 +251,7 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1184
+#: ksysguardprocesslist.cpp:1194
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -263,7 +263,7 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1214
+#: ksysguardprocesslist.cpp:1224
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -275,7 +275,7 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1244
+#: ksysguardprocesslist.cpp:1254
 #, fuzzy, kde-format
 #| msgid "Do you want to kill the selected process?"
 #| msgid_plural "Do you want to kill the %1 selected processes?"
@@ -287,7 +287,7 @@ msgid_plural ""
 msgstr[0] "আপনি কি নির্বাচিত প্রসেসটি kill করতে ইচ্ছুক?"
 msgstr[1] "আপনি কি %1-টি নির্বাচিত প্রসেসগুলি kill করতে ইচ্ছুক?"
 
-#: ksysguardprocesslist.cpp:1249
+#: ksysguardprocesslist.cpp:1259
 #, fuzzy, kde-format
 #| msgid "Own Processes"
 msgctxt "Dialog title"
@@ -296,7 +296,7 @@ msgid_plural "End %1 Processes"
 msgstr[0] "নিজস্ব প্রসেস"
 msgstr[1] "নিজস্ব প্রসেস"
 
-#: ksysguardprocesslist.cpp:1250
+#: ksysguardprocesslist.cpp:1260
 msgid "End"
 msgstr ""
 
