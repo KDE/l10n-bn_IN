@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-19 03:39+0100\n"
+"POT-Creation-Date: 2011-03-25 03:42+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -10070,15 +10070,6 @@ msgstr "ছবি - %1x%2 পিক্সেল"
 msgid "Done."
 msgstr "সমাপ্ত।"
 
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
-
-#: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4761
-#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
-msgid "Submit"
-msgstr "জমা করুন"
-
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
 msgstr "tests, basedir ও output ডিরেক্টরি ধারণকরারী ডিরেক্টরি।"
@@ -10551,6 +10542,11 @@ msgid ""
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
 
+#: khtml/khtml_part.cpp:4761 khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839
+#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
+msgid "Submit"
+msgstr "জমা করুন"
+
 #: khtml/khtml_part.cpp:4814
 msgid ""
 "This site attempted to attach a file from your computer in the form "
@@ -10639,6 +10635,10 @@ msgstr "প্রত্যাখ্যান করা হবে"
 #: khtml/khtml_settings.cpp:916
 msgid "Filter error"
 msgstr "ফিল্টার সংক্রান্ত ত্রুটি"
+
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
