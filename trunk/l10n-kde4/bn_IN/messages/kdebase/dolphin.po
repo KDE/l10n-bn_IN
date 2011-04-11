@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-09 03:45+0200\n"
+"POT-Creation-Date: 2011-04-11 03:48+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,47 +26,47 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
 
-#: panels/folders/treeviewcontextmenu.cpp:59
+#: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "কাট"
 
-#: panels/folders/treeviewcontextmenu.cpp:63
+#: panels/folders/treeviewcontextmenu.cpp:62
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "কপি"
 
-#: panels/folders/treeviewcontextmenu.cpp:66
+#: panels/folders/treeviewcontextmenu.cpp:65
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "পেস্ট"
 
-#: panels/folders/treeviewcontextmenu.cpp:78
+#: panels/folders/treeviewcontextmenu.cpp:77
 msgctxt "@action:inmenu"
 msgid "Rename..."
 msgstr "নাম পরিবর্তন করুন..."
 
-#: panels/folders/treeviewcontextmenu.cpp:92
+#: panels/folders/treeviewcontextmenu.cpp:91
 msgctxt "@action:inmenu"
 msgid "Move to Trash"
 msgstr "অাবর্জনার বাক্সে সরানো হবে"
 
-#: panels/folders/treeviewcontextmenu.cpp:102
+#: panels/folders/treeviewcontextmenu.cpp:101
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "মুছে ফেলুন"
 
-#: panels/folders/treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:368
+#: panels/folders/treeviewcontextmenu.cpp:110
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
-#: panels/folders/treeviewcontextmenu.cpp:119
+#: panels/folders/treeviewcontextmenu.cpp:118
 msgctxt "@action:inmenu"
 msgid "Show Hidden Files"
 msgstr "গোপন ফাইলগুলো দেখান"
 
-#: panels/folders/treeviewcontextmenu.cpp:125
+#: panels/folders/treeviewcontextmenu.cpp:124
 msgctxt "@action:inmenu"
 msgid "Automatic Scrolling"
 msgstr ""
@@ -1029,7 +1029,7 @@ msgctxt "@info"
 msgid "Columns view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: views/dolphincolumnview.cpp:88
+#: views/dolphincolumnview.cpp:89
 msgctxt "@info:tooltip"
 msgid "Resize column"
 msgstr ""
@@ -1339,90 +1339,6 @@ msgctxt "@info:tooltip"
 msgid "Select Item"
 msgstr ""
 
-#: dolphinpart.cpp:148
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
-
-#: dolphinpart.cpp:152
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:157
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:163
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr ""
-
-#: dolphinpart.cpp:167 dolphinmainwindow.cpp:1652
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr ""
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "অ্যাপলিকেশন (&l)"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "বিন্যাস (&i)"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "অাবর্জনার বাক্স"
-
-#: dolphinpart.cpp:192
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "স্বচালিত"
-
-#: dolphinpart.cpp:199
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "টার্মিনাল খুলুন (&T)"
-
-#: dolphinpart.cpp:269
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Dolphin Part"
-
-#: dolphinpart.cpp:458
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@title:window"
-msgid "Select"
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:459
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:465
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr ""
-
-#: dolphinpart.cpp:466
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -1542,77 +1458,6 @@ msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "অবৈধ প্রোটোকল"
 
-#: dolphincontextmenu.cpp:170
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "অাবর্জনার বাক্স খালি করা হবে"
-
-#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:347
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "প্লেসেসে এ্যাড করা হবে"
-
-#: dolphincontextmenu.cpp:192
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "অাপনি নিশ্চিতভাবে আবর্জনার বাক্স খালি করতে চান? সব জিনিস মুছে যাবে।"
-
-#: dolphincontextmenu.cpp:196
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "অাবর্জনার বাক্স খালি করা হবে"
-
-#: dolphincontextmenu.cpp:205
-msgctxt "@label"
-msgid "Trash"
-msgstr "অাবর্জনার বাক্স"
-
-#: dolphincontextmenu.cpp:215
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "পুনরুদ্ধার"
-
-#: dolphincontextmenu.cpp:254 dolphinmainwindow.cpp:1600
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "নতুন তৈরি করুন"
-
-#: dolphincontextmenu.cpp:267
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "প্লেসেসে এ্যাড করা হবে"
-
-#: dolphincontextmenu.cpp:274
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr ""
-
-#: dolphincontextmenu.cpp:280
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr ""
-
-#: dolphincontextmenu.cpp:452
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ফোল্ডারে পেস্ট করা হবে"
-
-#: dolphincontextmenu.cpp:564
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "অাবর্জনার বাক্সে সরানো হবে"
-
-#: dolphincontextmenu.cpp:567
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "মুছে ফেলা হবে"
-
 #: dolphinmainwindow.cpp:249
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -1719,6 +1564,11 @@ msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
 
+#: dolphinmainwindow.cpp:1600 dolphincontextmenu.cpp:254
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "নতুন তৈরি করুন"
+
 #: dolphinmainwindow.cpp:1607
 msgctxt "@action:inmenu File"
 msgid "New &Window"
@@ -1745,6 +1595,11 @@ msgstr "পেস্ট"
 #: dolphinmainwindow.cpp:1647
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1652 dolphinpart.cpp:168
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
 msgstr ""
 
 #: dolphinmainwindow.cpp:1665
@@ -1906,6 +1761,156 @@ msgstr ""
 msgctxt "@info"
 msgid "Split view"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
+
+#: dolphincontextmenu.cpp:170
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "অাবর্জনার বাক্স খালি করা হবে"
+
+#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:347
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "প্লেসেসে এ্যাড করা হবে"
+
+#: dolphincontextmenu.cpp:192
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "অাপনি নিশ্চিতভাবে আবর্জনার বাক্স খালি করতে চান? সব জিনিস মুছে যাবে।"
+
+#: dolphincontextmenu.cpp:196
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "অাবর্জনার বাক্স খালি করা হবে"
+
+#: dolphincontextmenu.cpp:205
+msgctxt "@label"
+msgid "Trash"
+msgstr "অাবর্জনার বাক্স"
+
+#: dolphincontextmenu.cpp:215
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "পুনরুদ্ধার"
+
+#: dolphincontextmenu.cpp:267
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "প্লেসেসে এ্যাড করা হবে"
+
+#: dolphincontextmenu.cpp:274
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr ""
+
+#: dolphincontextmenu.cpp:280
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr ""
+
+#: dolphincontextmenu.cpp:446
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ফোল্ডারে পেস্ট করা হবে"
+
+#: dolphincontextmenu.cpp:558
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "অাবর্জনার বাক্সে সরানো হবে"
+
+#: dolphincontextmenu.cpp:561
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "মুছে ফেলা হবে"
+
+#: dolphinpart.cpp:149
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
+
+#: dolphinpart.cpp:153
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:158
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:164
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr ""
+
+#: dolphinpart.cpp:181
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "অ্যাপলিকেশন (&l)"
+
+#: dolphinpart.cpp:184
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
+
+#: dolphinpart.cpp:187
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "বিন্যাস (&i)"
+
+#: dolphinpart.cpp:190
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "অাবর্জনার বাক্স"
+
+#: dolphinpart.cpp:193
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "স্বচালিত"
+
+#: dolphinpart.cpp:198
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "ফাইল অনুসন্ধান..."
+
+#: dolphinpart.cpp:206
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "টার্মিনাল খুলুন (&T)"
+
+#: dolphinpart.cpp:275
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Dolphin Part"
+
+#: dolphinpart.cpp:464
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@title:window"
+msgid "Select"
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:465
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:471
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:472
+msgid "Unselect all items matching this pattern:"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2542,10 +2547,6 @@ msgstr "মুখ্য টুলবার"
 #~ msgctxt "@label:textbox"
 #~ msgid "Search..."
 #~ msgstr "অনুসন্ধান..."
-
-#~ msgctxt "@action:inmenu Tools"
-#~ msgid "Find File..."
-#~ msgstr "ফাইল অনুসন্ধান..."
 
 #~ msgctxt "@action:inmenu Tools"
 #~ msgid "Show Search Bar"
