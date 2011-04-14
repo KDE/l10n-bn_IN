@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_standard_actions\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2011-04-14 03:55+0200\n"
 "PO-Revision-Date: 2009-01-09 16:09+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,11 +17,25 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: standard_actions_module.cpp:135
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: standard_actions_module.cpp:67
+msgid "Standard Shortcuts"
+msgstr ""
+
+#: standard_actions_module.cpp:161
 msgid "Standard Actions successfully saved"
 msgstr "সাধারণ কর্মগুলি সাফল্যের সাথে সংরক্ষণ করা হয়েছে"
 
-#: standard_actions_module.cpp:137
+#: standard_actions_module.cpp:163
 #, fuzzy
 #| msgid ""
 #| "The changes have been saved. Please consider:<ul><li>Applications need to "
