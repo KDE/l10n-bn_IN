@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:05+0100\n"
+"POT-Creation-Date: 2011-04-20 03:45+0200\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -89,7 +89,7 @@ msgstr ""
 msgid "A&nimations:"
 msgstr "অ্যানিমেশন: (&n)"
 
-#: appearance.cpp:104 htmlopts.cpp:119
+#: appearance.cpp:104 htmlopts.cpp:120
 msgctxt "@title:group"
 msgid "Miscellaneous"
 msgstr "বিবিধ"
@@ -492,7 +492,7 @@ msgstr ""
 msgid "Default web browser engine:"
 msgstr ""
 
-#: htmlopts.cpp:45
+#: htmlopts.cpp:46
 msgid ""
 "<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
 "functionality. Please note that the file manager functionality has to be "
@@ -501,60 +501,60 @@ msgid ""
 "loads. It is usually not necessary to change anything here."
 msgstr ""
 
-#: htmlopts.cpp:53
+#: htmlopts.cpp:54
 msgid "Boo&kmarks"
 msgstr "বুকমার্ক (&k)"
 
-#: htmlopts.cpp:56
+#: htmlopts.cpp:57
 msgid "Ask for name and folder when adding bookmarks"
 msgstr "বুকমার্ক যোগ করার সময় নাম ও ফোল্ডার উল্লেখ করার অনুরোধ জানানো হবে"
 
-#: htmlopts.cpp:59
+#: htmlopts.cpp:60
 msgid ""
 "If this box is checked, Konqueror will allow you to change the title of the "
 "bookmark and choose a folder in which to store it when you add a new "
 "bookmark."
 msgstr ""
 
-#: htmlopts.cpp:65
+#: htmlopts.cpp:66
 msgid "Show only marked bookmarks in bookmark toolbar"
 msgstr "বুকমার্ক টুল-বারের মধ্যে শুধুমাত্র চিহ্নিত বুকমার্কগুলি প্রদর্শন করা হবে"
 
-#: htmlopts.cpp:67
+#: htmlopts.cpp:68
 msgid ""
 "If this box is checked, Konqueror will show only those bookmarks in the "
 "bookmark toolbar which you have marked to do so in the bookmark editor."
 msgstr ""
 
-#: htmlopts.cpp:74
+#: htmlopts.cpp:75
 msgid "Form Com&pletion"
 msgstr "ফর্মের তথ্য পূর্ণ করার ব্যবস্থা (&p)"
 
-#: htmlopts.cpp:78
+#: htmlopts.cpp:79
 msgid ""
 "If this box is checked, Konqueror will remember the data you enter in web "
 "forms and suggest it in similar fields for all forms."
 msgstr ""
 
-#: htmlopts.cpp:84
+#: htmlopts.cpp:85
 msgid "&Maximum completions:"
 msgstr "সর্বাধিক মান: (&M)"
 
-#: htmlopts.cpp:86
+#: htmlopts.cpp:87
 msgid ""
 "Here you can select how many values Konqueror will remember for a form field."
 msgstr ""
 "ফর্মের একটি ক্ষেত্রের জন্য Konqueror দ্বারা সর্বাধিক যে সংখ্যক মান স্মরণে রাখা হবে।"
 
-#: htmlopts.cpp:93
+#: htmlopts.cpp:94
 msgid "Mouse Beha&vior"
 msgstr "মাউসের আচরণ (&v)"
 
-#: htmlopts.cpp:96
+#: htmlopts.cpp:97
 msgid "Chan&ge cursor over links"
 msgstr "লিংকের উপর কার্সার পরিবর্তন করা হবে (&g)"
 
-#: htmlopts.cpp:98
+#: htmlopts.cpp:99
 msgid ""
 "If this option is set, the shape of the cursor will change (usually to a "
 "hand) if it is moved over a hyperlink."
@@ -562,11 +562,11 @@ msgstr ""
 "এই বিকল্পটির মান ধার্য করা হলে, হাইপার-লিংকের উপর কার্সার স্থাপন করা হলে "
 "কার্সারের আকার পরিবর্তিত হবে (সাধারণত হাত চিহ্ন ব্যবহার করা হবে)।"
 
-#: htmlopts.cpp:102
+#: htmlopts.cpp:103
 msgid "M&iddle click opens URL in selection"
 msgstr "মাঝের বাটন ক্লিক করা হলে, নির্বাচিত URL প্রদর্শন করা হবে (&i)"
 
-#: htmlopts.cpp:105
+#: htmlopts.cpp:106
 msgid ""
 "If this box is checked, you can open the URL in the selection by middle "
 "clicking on a Konqueror view."
@@ -574,36 +574,46 @@ msgstr ""
 "এই মানটি নির্বাচিত হলে, মাউসের মাঝের বাটন ক্লিক করা হলে Konqueror-র "
 "প্রদর্শনক্ষেত্রে নির্বাচিত URL-টি প্রদর্শন করা হবে।"
 
-#: htmlopts.cpp:109
+#: htmlopts.cpp:110
 msgid "Right click goes &back in history"
 msgstr ""
 
-#: htmlopts.cpp:112
+#: htmlopts.cpp:113
 msgid ""
 "If this box is checked, you can go back in history by right clicking on a "
 "Konqueror view. To access the context menu, press the right mouse button and "
 "move."
 msgstr ""
 
-#: htmlopts.cpp:123
+#: htmlopts.cpp:124
 msgid "Allow automatic delayed &reloading/redirecting"
 msgstr ""
 
-#: htmlopts.cpp:124
+#: htmlopts.cpp:125
 msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
 msgstr ""
 
-#: htmlopts.cpp:132
+#: htmlopts.cpp:131
 msgid "Enable Access Ke&y activation with Ctrl key"
 msgstr ""
 
-#: htmlopts.cpp:133
+#: htmlopts.cpp:132
 msgid ""
 "Pressing the Ctrl key when viewing webpages activates Access Keys. "
 "Unchecking this box will disable this accessibility feature. (Konqueror "
 "needs to be restarted for this change to take effect.)"
+msgstr ""
+
+#: htmlopts.cpp:136
+msgid "Send the DNT header to tell web sites you do not want to be tracked"
+msgstr ""
+
+#: htmlopts.cpp:137
+msgid ""
+"Check this box if you want to inform a web site that you do not want your "
+"web browsing habits tracked."
 msgstr ""
 
 #: javaopts.cpp:78
