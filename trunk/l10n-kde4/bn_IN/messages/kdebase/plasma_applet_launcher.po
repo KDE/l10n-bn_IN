@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-05 03:53+0200\n"
+"POT-Creation-Date: 2011-04-22 03:49+0200\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -48,108 +48,6 @@ msgstr "সাধারণ"
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
 msgid "Favorites"
 msgstr "পছন্দ"
-
-#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
-#, fuzzy
-#| msgid "Logout"
-msgid "Log out"
-msgstr "লগ-আউট করুন"
-
-#: core/leavemodel.cpp:51
-msgid "End session"
-msgstr "সেশান সমাপ্ত করুন"
-
-#: core/leavemodel.cpp:53
-msgid "Lock"
-msgstr "লক করুন"
-
-#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:204
-#, fuzzy
-#| msgid "Lock the screen"
-msgid "Lock Screen"
-msgstr "পর্দা লক করুন"
-
-#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:202
-msgid "Switch User"
-msgstr "ব্যবহারকারী পরিবর্তন করুন"
-
-#: core/leavemodel.cpp:59
-msgid "Start a parallel session as a different user"
-msgstr "ভিন্ন ব্যবহারকারীর জন্য একযোগে একটি পৃথক সেশান আরম্ভ করুন"
-
-#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:209
-#, fuzzy
-#| msgid "Shutdown"
-msgid "Shut down"
-msgstr "বন্ধ করুন"
-
-#: core/leavemodel.cpp:63
-#, fuzzy
-#| msgid "Turn off the computer"
-msgid "Turn off computer"
-msgstr "কম্পিউটার বন্ধ করুন"
-
-#: core/leavemodel.cpp:65
-#, fuzzy
-#| msgctxt "Restart the computer"
-#| msgid "Restart"
-msgctxt "Restart computer"
-msgid "Restart"
-msgstr "পুনরারম্ভ"
-
-#: core/leavemodel.cpp:67
-#, fuzzy
-#| msgid "Restart the computer"
-msgid "Restart Computer"
-msgstr "কম্পিউটার পুনরায় আরম্ভ করুন"
-
-#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:203
-msgid "Save Session"
-msgstr "সেশান সংরক্ষণ করুন"
-
-#: core/leavemodel.cpp:71
-msgid "Save current session for next login"
-msgstr "পরবর্তী লগ-ইনে প্রয়োগ করার জন্য বর্তমান সেশান সংরক্ষণ করুন"
-
-#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:205
-msgctxt "Puts the system on standby"
-msgid "Standby"
-msgstr "স্থগিত করুন"
-
-#: core/leavemodel.cpp:75
-msgid "Pause without logging out"
-msgstr "লগ-আউট না করে স্থগিত করুন"
-
-#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:206
-msgid "Hibernate"
-msgstr ""
-
-#: core/leavemodel.cpp:79
-#, fuzzy
-#| msgid "Suspend to Disk"
-msgid "Suspend to disk"
-msgstr "ডিস্কে বিরত করুন"
-
-#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:207
-msgid "Sleep"
-msgstr ""
-
-#: core/leavemodel.cpp:83
-msgid "Suspend to RAM"
-msgstr "RAM-এ বিরত করুন"
-
-#: core/leavemodel.cpp:106 simpleapplet/simpleapplet.cpp:211
-#: ui/launcher.cpp:163
-msgid "Leave"
-msgstr "প্রস্থান করুন"
-
-#: core/leavemodel.cpp:118
-msgid "Session"
-msgstr "সেশান"
-
-#: core/leavemodel.cpp:146
-msgid "System"
-msgstr "সিস্টেম"
 
 #: core/models.cpp:121
 msgid "Home Folder"
@@ -218,6 +116,110 @@ msgstr ""
 msgid "All Applications"
 msgstr "সকল অ্যাপ্লিকেশন"
 
+#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
+#, fuzzy
+#| msgid "Logout"
+msgid "Log out"
+msgstr "লগ-আউট করুন"
+
+#: core/leavemodel.cpp:51
+msgid "End session"
+msgstr "সেশান সমাপ্ত করুন"
+
+#: core/leavemodel.cpp:53
+msgid "Lock"
+msgstr "লক করুন"
+
+#: core/leavemodel.cpp:55
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock screen"
+msgstr "পর্দা লক করুন"
+
+#: core/leavemodel.cpp:57
+#, fuzzy
+#| msgid "Switch User"
+msgid "Switch user"
+msgstr "ব্যবহারকারী পরিবর্তন করুন"
+
+#: core/leavemodel.cpp:59
+msgid "Start a parallel session as a different user"
+msgstr "ভিন্ন ব্যবহারকারীর জন্য একযোগে একটি পৃথক সেশান আরম্ভ করুন"
+
+#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:209
+#, fuzzy
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "বন্ধ করুন"
+
+#: core/leavemodel.cpp:63
+#, fuzzy
+#| msgid "Turn off the computer"
+msgid "Turn off computer"
+msgstr "কম্পিউটার বন্ধ করুন"
+
+#: core/leavemodel.cpp:65
+#, fuzzy
+#| msgctxt "Restart the computer"
+#| msgid "Restart"
+msgctxt "Restart computer"
+msgid "Restart"
+msgstr "পুনরারম্ভ"
+
+#: core/leavemodel.cpp:67
+#, fuzzy
+#| msgid "Restart the computer"
+msgid "Restart computer"
+msgstr "কম্পিউটার পুনরায় আরম্ভ করুন"
+
+#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:203
+msgid "Save Session"
+msgstr "সেশান সংরক্ষণ করুন"
+
+#: core/leavemodel.cpp:71
+msgid "Save current session for next login"
+msgstr "পরবর্তী লগ-ইনে প্রয়োগ করার জন্য বর্তমান সেশান সংরক্ষণ করুন"
+
+#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:205
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "স্থগিত করুন"
+
+#: core/leavemodel.cpp:75
+msgid "Pause without logging out"
+msgstr "লগ-আউট না করে স্থগিত করুন"
+
+#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:206
+msgid "Hibernate"
+msgstr ""
+
+#: core/leavemodel.cpp:79
+#, fuzzy
+#| msgid "Suspend to Disk"
+msgid "Suspend to disk"
+msgstr "ডিস্কে বিরত করুন"
+
+#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:207
+msgid "Sleep"
+msgstr ""
+
+#: core/leavemodel.cpp:83
+msgid "Suspend to RAM"
+msgstr "RAM-এ বিরত করুন"
+
+#: core/leavemodel.cpp:106 simpleapplet/simpleapplet.cpp:211
+#: ui/launcher.cpp:163
+msgid "Leave"
+msgstr "প্রস্থান করুন"
+
+#: core/leavemodel.cpp:118
+msgid "Session"
+msgstr "সেশান"
+
+#: core/leavemodel.cpp:146
+msgid "System"
+msgstr "সিস্টেম"
+
 #: main.cpp:32
 msgid "Kickoff"
 msgstr "আরম্ভ করুন"
@@ -236,6 +238,16 @@ msgstr "বুকমার্ক"
 #: simpleapplet/simpleapplet.cpp:200
 msgid "System Settings"
 msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:202
+msgid "Switch User"
+msgstr "ব্যবহারকারী পরিবর্তন করুন"
+
+#: simpleapplet/simpleapplet.cpp:204
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock Screen"
+msgstr "পর্দা লক করুন"
 
 #: simpleapplet/simpleapplet.cpp:208
 #, fuzzy
