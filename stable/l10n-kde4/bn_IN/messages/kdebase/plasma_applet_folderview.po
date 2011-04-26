@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:17+0100\n"
+"POT-Creation-Date: 2011-04-26 15:01+0200\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,137 +18,137 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: folderview.cpp:618
+#: folderview.cpp:619
 msgctxt "Sort Icons"
 msgid "Unsorted"
 msgstr "অবিন্যাস্ত"
 
-#: folderview.cpp:625
+#: folderview.cpp:626
 #, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Left to Right"
 msgstr "উপর থেকে নীচে"
 
-#: folderview.cpp:626
+#: folderview.cpp:627
 #, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Right to Left"
 msgstr "উপর থেকে নীচে"
 
-#: folderview.cpp:627
+#: folderview.cpp:628
 #, fuzzy
 #| msgid "Left to Right"
 msgid "Left to Right, Top to Bottom"
 msgstr "বাঁদিক থেকে ডানদিকে"
 
-#: folderview.cpp:628
+#: folderview.cpp:629
 #, fuzzy
 #| msgid "Left to Right"
 msgid "Right to Left, Top to Bottom"
 msgstr "বাঁদিক থেকে ডানদিকে"
 
-#: folderview.cpp:661
+#: folderview.cpp:662
 msgctxt ""
 "Title of the page that lets the user choose which location should the "
 "folderview show"
 msgid "Location"
 msgstr "অবস্থান"
 
-#: folderview.cpp:662
+#: folderview.cpp:663
 msgctxt ""
 "Title of the page that lets the user choose how the folderview should be "
 "shown"
 msgid "Display"
 msgstr "প্রদর্শন"
 
-#: folderview.cpp:663
+#: folderview.cpp:664
 msgctxt ""
 "Title of the page that lets the user choose how to filter the folderview "
 "contents"
 msgid "Filter"
 msgstr "ফিল্টার"
 
-#: folderview.cpp:1176
+#: folderview.cpp:1177
 msgid "&Paste"
 msgstr "পেস্ট করুন (&P)"
 
-#: folderview.cpp:1354
+#: folderview.cpp:1355
 msgid "Desktop Folder"
 msgstr "ডেস্কটপ ফোল্ডার"
 
-#: folderview.cpp:1422
+#: folderview.cpp:1423
 msgid "&Reload"
 msgstr "নতুন করে লোড (&R)"
 
-#: folderview.cpp:1425
+#: folderview.cpp:1426
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: folderview.cpp:1425
+#: folderview.cpp:1426
 msgid "&Refresh View"
 msgstr ""
 
-#: folderview.cpp:1433 popupview.cpp:258
+#: folderview.cpp:1434 popupview.cpp:258
 msgid "&Rename"
 msgstr "নাম পরিবর্তন (&R)"
 
-#: folderview.cpp:1438 popupview.cpp:262
+#: folderview.cpp:1439 popupview.cpp:262
 msgid "&Move to Trash"
 msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
-#: folderview.cpp:1444 popupview.cpp:267
+#: folderview.cpp:1445 popupview.cpp:267
 msgid "&Empty Trash Bin"
 msgstr ""
 
-#: folderview.cpp:1449 popupview.cpp:272
+#: folderview.cpp:1450 popupview.cpp:272
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
-#: folderview.cpp:1468
+#: folderview.cpp:1469
 msgid "Align to Grid"
 msgstr ""
 
-#: folderview.cpp:1473
+#: folderview.cpp:1474
 msgctxt "Icons on the desktop"
 msgid "Lock in Place"
 msgstr ""
 
-#: folderview.cpp:1480
+#: folderview.cpp:1481
 msgctxt "Sort icons"
 msgid "By Name"
 msgstr "নাম অনুযায়ী"
 
-#: folderview.cpp:1481
+#: folderview.cpp:1482
 msgctxt "Sort icons"
 msgid "By Size"
 msgstr "মাপ অনুযায়ী"
 
-#: folderview.cpp:1482
+#: folderview.cpp:1483
 msgctxt "Sort icons"
 msgid "By Type"
 msgstr "ধরন অনুযায়ী"
 
-#: folderview.cpp:1483
+#: folderview.cpp:1484
 msgctxt "Sort icons"
 msgid "By Date"
 msgstr "তারিখ অনুযায়ী"
 
-#: folderview.cpp:1497
+#: folderview.cpp:1498
 msgctxt "Sort icons"
 msgid "Folders First"
 msgstr "প্রথমে ফোল্ডার"
 
-#: folderview.cpp:1502
+#: folderview.cpp:1503
 msgid "Sort Icons"
 msgstr "আইকন সুবিন্যাস্ত করুন"
 
 #. i18n: file: folderviewDisplayConfig.ui:104
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: folderview.cpp:1516 rc.cpp:17
+#: folderview.cpp:1517 rc.cpp:17
 msgid "Icons"
 msgstr "আইকন"
 
-#: folderview.cpp:1925
+#: folderview.cpp:1926
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "1 folder"
@@ -156,7 +156,7 @@ msgid_plural "%1 folders"
 msgstr[0] "একটি ফোল্ডার"
 msgstr[1] "%1-টি ফোল্ডার"
 
-#: folderview.cpp:1926
+#: folderview.cpp:1927
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 file"
@@ -164,13 +164,13 @@ msgid_plural "%1 files"
 msgstr[0] "একটি ফাইল"
 msgstr[1] "%1-টি ফাইল"
 
-#: folderview.cpp:1930 tooltipwidget.cpp:197
+#: folderview.cpp:1931 tooltipwidget.cpp:197
 #, kde-format
 msgctxt "%1 and %2 are the messages translated above."
 msgid "%1, %2."
 msgstr "%1, %2।"
 
-#: folderview.cpp:1932
+#: folderview.cpp:1933
 #, kde-format
 msgid "1 file."
 msgid_plural "%1 files."
