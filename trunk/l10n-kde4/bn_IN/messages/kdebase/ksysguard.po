@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-26 03:37+0100\n"
+"POT-Creation-Date: 2011-04-27 03:48+0200\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -305,15 +305,6 @@ msgstr "অবস্থা"
 msgid "Label"
 msgstr "লেবেল"
 
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-
 #: SensorDisplayLib/ListView.cpp:45
 #, fuzzy, kde-format
 #| msgctxt "a percentage"
@@ -590,6 +581,15 @@ msgstr "উপরে স্থানান্তর"
 #: SensorDisplayLib/FancyPlotterSettings.cpp:241
 msgid "Move Down"
 msgstr "নীচে স্থানান্তর"
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
 
 #: ksgrd/SensorAgent.cpp:109
 #, kde-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:06+0100\n"
+"POT-Creation-Date: 2011-04-27 03:48+0200\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -785,10 +785,6 @@ msgstr ""
 msgid "Action"
 msgstr "কর্ম"
 
-#: libkhotkeysprivate/actions/activate_window_action.cpp:91
-msgid "Activate window: "
-msgstr "উইন্ডো সক্রিয় করুন: "
-
 #: libkhotkeysprivate/actions/command_url_action.cpp:79
 msgid "Command/URL : "
 msgstr "কমান্ড/URL : "
@@ -819,6 +815,10 @@ msgstr ""
 #: libkhotkeysprivate/actions/menuentry_action.cpp:115
 msgid "Menu entry: "
 msgstr "মেনুর এনট্রি: "
+
+#: libkhotkeysprivate/actions/activate_window_action.cpp:91
+msgid "Activate window: "
+msgstr "উইন্ডো সক্রিয় করুন: "
 
 #: libkhotkeysprivate/conditions/active_window_condition.cpp:82
 msgid "Active window: "

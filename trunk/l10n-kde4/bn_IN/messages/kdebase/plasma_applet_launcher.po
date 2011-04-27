@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-22 03:49+0200\n"
+"POT-Creation-Date: 2011-04-27 03:49+0200\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -45,7 +45,7 @@ msgid "General"
 msgstr "সাধারণ"
 
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:120 ui/launcher.cpp:190
 msgid "Favorites"
 msgstr "পছন্দ"
 
@@ -62,12 +62,12 @@ msgid "Documents"
 msgstr "নথিপত্র"
 
 #: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:122 ui/launcher.cpp:233
 msgid "Applications"
 msgstr "অ্যাপ্লিকেশন"
 
 #: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:119 ui/launcher.cpp:218
+#: ui/launcher.cpp:123 ui/launcher.cpp:246
 msgid "Recently Used"
 msgstr "সম্প্রতি ব্যবহৃত"
 
@@ -104,7 +104,7 @@ msgid "Run a command or a search query"
 msgstr ""
 
 #: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:118 ui/launcher.cpp:239
+#: ui/launcher.cpp:122 ui/launcher.cpp:267
 msgid "Computer"
 msgstr "কম্পিউটার"
 
@@ -112,7 +112,7 @@ msgstr "কম্পিউটার"
 msgid "Games"
 msgstr ""
 
-#: core/applicationmodel.cpp:429 ui/flipscrollview.cpp:138
+#: core/applicationmodel.cpp:429 ui/flipscrollview.cpp:145 ui/launcher.cpp:970
 msgid "All Applications"
 msgstr "সকল অ্যাপ্লিকেশন"
 
@@ -208,7 +208,7 @@ msgid "Suspend to RAM"
 msgstr "RAM-এ বিরত করুন"
 
 #: core/leavemodel.cpp:106 simpleapplet/simpleapplet.cpp:211
-#: ui/launcher.cpp:163
+#: ui/launcher.cpp:178
 msgid "Leave"
 msgstr "প্রস্থান করুন"
 
@@ -333,34 +333,6 @@ msgstr "অ্যাপ্লিকেশন"
 msgid "Actions"
 msgstr "অ্যাপ্লিকেশন"
 
-#: ui/launcher.cpp:178
-msgid "Sort Alphabetically (A to Z)"
-msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (A থেকে Z)"
-
-#: ui/launcher.cpp:181
-msgid "Sort Alphabetically (Z to A)"
-msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (Z থেকে A)"
-
-#: ui/launcher.cpp:220
-msgid "Clear Recent Applications"
-msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
-
-#: ui/launcher.cpp:221
-msgid "Clear Recent Documents"
-msgstr "সম্প্রতি ব্যবহৃত নথিপত্রের তালিকা পরিস্কার করুন"
-
-#: ui/launcher.cpp:528
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
-
-#: ui/launcher.cpp:530
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
-
 #: ui/searchbar.cpp:70
 #, fuzzy
 #| msgid "Search:"
@@ -399,6 +371,34 @@ msgstr "বহিষ্কার"
 #: ui/contextmenufactory.cpp:263
 msgid "Safely Remove"
 msgstr "নিরাপদভাবে বের করে নিন"
+
+#: ui/launcher.cpp:193
+msgid "Sort Alphabetically (A to Z)"
+msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (A থেকে Z)"
+
+#: ui/launcher.cpp:196
+msgid "Sort Alphabetically (Z to A)"
+msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (Z থেকে A)"
+
+#: ui/launcher.cpp:248
+msgid "Clear Recent Applications"
+msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
+
+#: ui/launcher.cpp:249
+msgid "Clear Recent Documents"
+msgstr "সম্প্রতি ব্যবহৃত নথিপত্রের তালিকা পরিস্কার করুন"
+
+#: ui/launcher.cpp:557
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
+
+#: ui/launcher.cpp:559
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
