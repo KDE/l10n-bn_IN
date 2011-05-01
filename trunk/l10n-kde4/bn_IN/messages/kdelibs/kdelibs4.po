@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-27 04:02+0200\n"
+"POT-Creation-Date: 2011-05-01 04:12+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -2437,70 +2437,6 @@ msgstr "কলাম সংখ্যা %1"
 msgid "S&earch:"
 msgstr "অনুসন্ধান:(&e)"
 
-#: kde3support/kdeui/k3passworddialog.cpp:358
-msgid "&Password:"
-msgstr "পাসওয়ার্ড: (&P)"
-
-#: kde3support/kdeui/k3passworddialog.cpp:376
-msgid "&Keep password"
-msgstr "পাসওয়ার্ড বজায় রাখা হবে (&K)"
-
-#: kde3support/kdeui/k3passworddialog.cpp:414
-#: kdeui/dialogs/knewpassworddialog.cpp:76
-msgid ""
-"The password strength meter gives an indication of the security of the "
-"password you have entered.  To improve the strength of the password, try:\n"
-" - using a longer password;\n"
-" - using a mixture of upper- and lower-case letters;\n"
-" - using numbers or symbols, such as #, as well as letters."
-msgstr ""
-
-#: kde3support/kdeui/k3passworddialog.cpp:499
-#: kdeui/dialogs/knewpassworddialog.cpp:236
-msgid "You entered two different passwords. Please try again."
-msgstr "আপনি দুটি ভিন্ন পাসওয়ার্ড লিখেছেন। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
-
-#: kde3support/kdeui/k3passworddialog.cpp:506
-#: kdeui/dialogs/knewpassworddialog.cpp:245
-msgid ""
-"The password you have entered has a low strength. To improve the strength of "
-"the password, try:\n"
-" - using a longer password;\n"
-" - using a mixture of upper- and lower-case letters;\n"
-" - using numbers or symbols as well as letters.\n"
-"\n"
-"Would you like to use this password anyway?"
-msgstr ""
-
-#: kde3support/kdeui/k3passworddialog.cpp:514
-#: kdeui/dialogs/knewpassworddialog.cpp:253
-msgid "Low Password Strength"
-msgstr "পাসওয়ার্ডের নিরাপত্তা অত্যন্ত ক্ষীণ"
-
-#: kde3support/kdeui/k3passworddialog.cpp:562
-#: kde3support/kdeui/k3passworddialog.cpp:566
-#: kde3support/kdeui/k3passworddialog.cpp:587
-msgid "Password Input"
-msgstr "পাসওয়ার্ড ইনপুট"
-
-#: kde3support/kdeui/k3passworddialog.cpp:617
-#: kdeui/dialogs/knewpassworddialog.cpp:166
-msgid "Password is empty"
-msgstr "পাসওয়ার্ডটি ফাঁকা"
-
-#: kde3support/kdeui/k3passworddialog.cpp:620
-#: kdeui/dialogs/knewpassworddialog.cpp:171
-#, kde-format
-msgid "Password must be at least 1 character long"
-msgid_plural "Password must be at least %1 characters long"
-msgstr[0] "পাসওয়ার্ড অন্তত ১-টি অক্ষর বিশিষ্ট হওয়া আবশ্যক"
-msgstr[1] "পাসওয়ার্ড অন্তত %1-টি অক্ষর বিশিষ্ট হওয়া আবশ্যক"
-
-#: kde3support/kdeui/k3passworddialog.cpp:622
-#: kdeui/dialogs/knewpassworddialog.cpp:175
-msgid "Passwords match"
-msgstr "পাসওয়ার্ডে মিল"
-
 #: kde3support/kdeui/k3sconfig.cpp:110
 msgctxt "@option:check"
 msgid "Do Spellchecking"
@@ -2773,6 +2709,70 @@ msgstr "পূর্ববর্তী (&B)"
 msgctxt "Opposite to Back"
 msgid "&Next"
 msgstr "পরবর্তী (&N)"
+
+#: kde3support/kdeui/k3passworddialog.cpp:358
+msgid "&Password:"
+msgstr "পাসওয়ার্ড: (&P)"
+
+#: kde3support/kdeui/k3passworddialog.cpp:376
+msgid "&Keep password"
+msgstr "পাসওয়ার্ড বজায় রাখা হবে (&K)"
+
+#: kde3support/kdeui/k3passworddialog.cpp:414
+#: kdeui/dialogs/knewpassworddialog.cpp:76
+msgid ""
+"The password strength meter gives an indication of the security of the "
+"password you have entered.  To improve the strength of the password, try:\n"
+" - using a longer password;\n"
+" - using a mixture of upper- and lower-case letters;\n"
+" - using numbers or symbols, such as #, as well as letters."
+msgstr ""
+
+#: kde3support/kdeui/k3passworddialog.cpp:499
+#: kdeui/dialogs/knewpassworddialog.cpp:236
+msgid "You entered two different passwords. Please try again."
+msgstr "আপনি দুটি ভিন্ন পাসওয়ার্ড লিখেছেন। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।"
+
+#: kde3support/kdeui/k3passworddialog.cpp:506
+#: kdeui/dialogs/knewpassworddialog.cpp:245
+msgid ""
+"The password you have entered has a low strength. To improve the strength of "
+"the password, try:\n"
+" - using a longer password;\n"
+" - using a mixture of upper- and lower-case letters;\n"
+" - using numbers or symbols as well as letters.\n"
+"\n"
+"Would you like to use this password anyway?"
+msgstr ""
+
+#: kde3support/kdeui/k3passworddialog.cpp:514
+#: kdeui/dialogs/knewpassworddialog.cpp:253
+msgid "Low Password Strength"
+msgstr "পাসওয়ার্ডের নিরাপত্তা অত্যন্ত ক্ষীণ"
+
+#: kde3support/kdeui/k3passworddialog.cpp:562
+#: kde3support/kdeui/k3passworddialog.cpp:566
+#: kde3support/kdeui/k3passworddialog.cpp:587
+msgid "Password Input"
+msgstr "পাসওয়ার্ড ইনপুট"
+
+#: kde3support/kdeui/k3passworddialog.cpp:617
+#: kdeui/dialogs/knewpassworddialog.cpp:166
+msgid "Password is empty"
+msgstr "পাসওয়ার্ডটি ফাঁকা"
+
+#: kde3support/kdeui/k3passworddialog.cpp:620
+#: kdeui/dialogs/knewpassworddialog.cpp:171
+#, kde-format
+msgid "Password must be at least 1 character long"
+msgid_plural "Password must be at least %1 characters long"
+msgstr[0] "পাসওয়ার্ড অন্তত ১-টি অক্ষর বিশিষ্ট হওয়া আবশ্যক"
+msgstr[1] "পাসওয়ার্ড অন্তত %1-টি অক্ষর বিশিষ্ট হওয়া আবশ্যক"
+
+#: kde3support/kdeui/k3passworddialog.cpp:622
+#: kdeui/dialogs/knewpassworddialog.cpp:175
+msgid "Passwords match"
+msgstr "পাসওয়ার্ডে মিল"
 
 #: kde3support/kio/kfile/k3fileview.cpp:123
 msgid "Unknown View"
@@ -12834,80 +12834,6 @@ msgctxt "@label"
 msgid "Change..."
 msgstr "আইকন পরিবর্তন করুন...(&I)"
 
-#: nepomuk/utils/datefacet.cpp:119
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Anytime"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:121
-#, fuzzy
-#| msgid "Today"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Today"
-msgstr "আজ"
-
-#: nepomuk/utils/datefacet.cpp:123
-#, fuzzy
-#| msgid "Yesterday"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Yesterday"
-msgstr "গতকাল"
-
-#: nepomuk/utils/datefacet.cpp:125
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "This Week"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:127
-#, fuzzy
-#| msgid "&Last Page"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Last Week"
-msgstr "অন্তিম পৃষ্ঠা (&L)"
-
-#: nepomuk/utils/datefacet.cpp:129
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "This Month"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:131
-#, fuzzy
-#| msgid "Next month"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Last Month"
-msgstr "পরবর্তী মাস"
-
-#: nepomuk/utils/datefacet.cpp:133
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "This Year"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:135
-#, fuzzy
-#| msgid "&Last Page"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Last Year"
-msgstr "অন্তিম পৃষ্ঠা (&L)"
-
-#: nepomuk/utils/datefacet.cpp:137
-#, fuzzy
-#| msgctxt "Custom color"
-#| msgid "Custom..."
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources "
-"that will open a dialog to choose a date range"
-msgid "Custom..."
-msgstr "স্বনির্ধারিত..."
-
 #: nepomuk/utils/daterangeselectionwidget.cpp:201
 msgid "This Week"
 msgstr ""
@@ -13085,6 +13011,80 @@ msgstr "ফাইল"
 msgctxt "@option:check Do filter on type - show everything but files"
 msgid "Other"
 msgstr "অন্যান্য"
+
+#: nepomuk/utils/datefacet.cpp:119
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Anytime"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:121
+#, fuzzy
+#| msgid "Today"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Today"
+msgstr "আজ"
+
+#: nepomuk/utils/datefacet.cpp:123
+#, fuzzy
+#| msgid "Yesterday"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Yesterday"
+msgstr "গতকাল"
+
+#: nepomuk/utils/datefacet.cpp:125
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "This Week"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:127
+#, fuzzy
+#| msgid "&Last Page"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Last Week"
+msgstr "অন্তিম পৃষ্ঠা (&L)"
+
+#: nepomuk/utils/datefacet.cpp:129
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "This Month"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:131
+#, fuzzy
+#| msgid "Next month"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Last Month"
+msgstr "পরবর্তী মাস"
+
+#: nepomuk/utils/datefacet.cpp:133
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "This Year"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:135
+#, fuzzy
+#| msgid "&Last Page"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Last Year"
+msgstr "অন্তিম পৃষ্ঠা (&L)"
+
+#: nepomuk/utils/datefacet.cpp:137
+#, fuzzy
+#| msgctxt "Custom color"
+#| msgid "Custom..."
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources "
+"that will open a dialog to choose a date range"
+msgid "Custom..."
+msgstr "স্বনির্ধারিত..."
 
 #: kdeui/colors/kcolorcombo.cpp:352
 msgctxt "Custom color"
