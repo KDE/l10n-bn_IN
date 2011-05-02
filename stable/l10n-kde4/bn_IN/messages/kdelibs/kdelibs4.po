@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-24 13:22+0200\n"
+"POT-Creation-Date: 2011-05-02 13:47+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -11113,6 +11113,14 @@ msgstr ""
 "'%1'-র মধ্যে 'kdemain' পাওয়া যায়নি।\n"
 "%2"
 
+#: kinit/klauncher_main.cpp:62
+msgid ""
+"klauncher: This program is not supposed to be started manually.\n"
+"klauncher: It is started automatically by kdeinit4.\n"
+msgstr ""
+"klauncher: এই প্রোগ্রামটি ব্যবহারকারী দ্বারা আরম্ভ করা সম্ভব নয়।\n"
+"klauncher: kdeinit4 দ্বারা এটি স্বয়ংক্রিয় রূপে আরম্ভ করা হয়।\n"
+
 #: kinit/klauncher.cpp:564
 #, kde-format
 msgid "KDEInit could not launch '%1'."
@@ -11147,14 +11155,6 @@ msgstr "অজানা প্রোটোকল '%1'।\n"
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "'%1' লোড করতে সমস্যা।\n"
-
-#: kinit/klauncher_main.cpp:62
-msgid ""
-"klauncher: This program is not supposed to be started manually.\n"
-"klauncher: It is started automatically by kdeinit4.\n"
-msgstr ""
-"klauncher: এই প্রোগ্রামটি ব্যবহারকারী দ্বারা আরম্ভ করা সম্ভব নয়।\n"
-"klauncher: kdeinit4 দ্বারা এটি স্বয়ংক্রিয় রূপে আরম্ভ করা হয়।\n"
 
 #: kjs/object.cpp:554
 msgid "Evaluation error"
