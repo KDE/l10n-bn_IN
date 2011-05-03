@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 12:26+0100\n"
+"POT-Creation-Date: 2011-05-03 15:14+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,34 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: strigiservice.cpp:159
-#, fuzzy
-#| msgid "File indexer is suspended"
-msgctxt "@info:status"
-msgid "File indexer is suspended"
-msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে বিরত রয়েছে"
-
-#: strigiservice.cpp:163
-#, fuzzy
-#| msgid "Strigi is currently indexing files in folder %1"
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files"
-msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
-
-#: strigiservice.cpp:165
-#, fuzzy, kde-format
-#| msgid "Strigi is currently indexing files in folder %1"
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1"
-msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
-
-#: strigiservice.cpp:168
-#, fuzzy
-#| msgid "File indexer is idle"
-msgctxt "@info:status"
-msgid "File indexer is idle"
-msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে কর্মহীন"
 
 #: eventmonitor.cpp:69
 #, fuzzy
@@ -82,6 +54,34 @@ msgstr ""
 msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
 msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
+
+#: strigiservice.cpp:159
+#, fuzzy
+#| msgid "File indexer is suspended"
+msgctxt "@info:status"
+msgid "File indexer is suspended"
+msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে বিরত রয়েছে"
+
+#: strigiservice.cpp:163
+#, fuzzy
+#| msgid "Strigi is currently indexing files in folder %1"
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files"
+msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
+
+#: strigiservice.cpp:165
+#, fuzzy, kde-format
+#| msgid "Strigi is currently indexing files in folder %1"
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1"
+msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
+
+#: strigiservice.cpp:168
+#, fuzzy
+#| msgid "File indexer is idle"
+msgctxt "@info:status"
+msgid "File indexer is idle"
+msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে কর্মহীন"
 
 #~ msgctxt "@info - notification message"
 #~ msgid "Converting Nepomuk data to a new backend. This might take a while."
