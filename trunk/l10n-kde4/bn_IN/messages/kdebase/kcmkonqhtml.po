@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-20 03:45+0200\n"
+"POT-Creation-Date: 2011-05-10 04:07+0200\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -478,6 +478,9 @@ msgid "Home page:"
 msgstr "হোম পেজ:"
 
 #: generalopts.cpp:100
+#, fuzzy
+#| msgid "Select Home Page"
+msgctxt "@title:window"
 msgid "Select Home Page"
 msgstr "হোম পেজ নির্বাচন করুন"
 
@@ -731,10 +734,16 @@ msgid "Doma&in-Specific"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট (&i)"
 
 #: javaopts.cpp:321
+#, fuzzy
+#| msgid "New Java Policy"
+msgctxt "@title:window"
 msgid "New Java Policy"
 msgstr "Java-র নতুন নিয়ম"
 
 #: javaopts.cpp:324
+#, fuzzy
+#| msgid "Change Java Policy"
+msgctxt "@title:window"
 msgid "Change Java Policy"
 msgstr "Java-র নিয়ম পরিবর্তন করুন"
 
@@ -824,10 +833,16 @@ msgid "Do&main-Specific"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট (&m)"
 
 #: jsopts.cpp:214
+#, fuzzy
+#| msgid "New JavaScript Policy"
+msgctxt "@title:window"
 msgid "New JavaScript Policy"
 msgstr "JavaScript সম্পর্কিত নতুন নীতি"
 
 #: jsopts.cpp:217
+#, fuzzy
+#| msgid "Change JavaScript Policy"
+msgctxt "@title:window"
 msgid "Change JavaScript Policy"
 msgstr "JavaScript সম্পর্কিত নীতি পরিবর্তন করুন"
 
@@ -1094,6 +1109,9 @@ msgid "Domain-Specific Settin&gs"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট বৈশিষ্ট্য (&g)"
 
 #: pluginopts.cpp:123 pluginopts.cpp:631
+#, fuzzy
+#| msgid "Domain-Specific Policies"
+msgctxt "@title:window"
 msgid "Domain-Specific Policies"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট নীতি"
 
@@ -1195,6 +1213,7 @@ msgid "Scanning for plugins"
 msgstr "প্লাগ-ইন অনুসন্ধান করা হচ্ছে"
 
 #: pluginopts.cpp:387
+msgctxt "@title:window"
 msgid "Select Plugin Scan Folder"
 msgstr ""
 
@@ -1223,10 +1242,16 @@ msgid "Doma&in-Specific"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট (&i)"
 
 #: pluginopts.cpp:677
+#, fuzzy
+#| msgid "New Plugin Policy"
+msgctxt "@title:window"
 msgid "New Plugin Policy"
 msgstr "প্লাগ-ইন সংক্রান্ত নতুন নীতি"
 
 #: pluginopts.cpp:680
+#, fuzzy
+#| msgid "Change Plugin Policy"
+msgctxt "@title:window"
 msgid "Change Plugin Policy"
 msgstr "প্লাগ-ইন সংক্রান্ত নীতি পরিবর্তন করুন"
 
