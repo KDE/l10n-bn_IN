@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:44+0200\n"
+"POT-Creation-Date: 2011-05-12 04:10+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -32,19 +32,38 @@ msgstr ""
 msgid "New backend"
 msgstr ""
 
+#: test/fakedatamanagementservice.cpp:123
+#: test/fakedatamanagementservice.cpp:125
+msgid "Fake Data Management Service"
+msgstr ""
+
+#: test/fakedatamanagementservice.cpp:127
+#, fuzzy
+#| msgid "(c) 2008, Sebastian Trüg"
+msgid "(c) 2011, Sebastian Trüg"
+msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Sebastian Trüg"
+msgstr "সেবাস্টিয়ান ট্রুগ"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Maintainer"
+msgstr "মেইন্টেনার"
+
 #: ontologyloader.cpp:135
 #, kde-format
 msgid "Parsing of file %1 failed (%2)"
 msgstr "ফাইল %1 পার্স করতে ব্যর্থ (%2)"
 
-#: repository.cpp:104
+#: repository.cpp:110
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
 "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
 msgstr ""
 
-#: repository.cpp:116
+#: repository.cpp:122
 msgctxt "@info - notification message"
 msgid ""
 "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
@@ -52,7 +71,7 @@ msgid ""
 "Nepomuk."
 msgstr ""
 
-#: repository.cpp:239
+#: repository.cpp:257
 #, kde-format
 msgctxt "@info - notification message"
 msgid ""
@@ -61,14 +80,14 @@ msgid ""
 "disabled until the situation has been resolved manually."
 msgstr ""
 
-#: repository.cpp:273
+#: repository.cpp:291
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr ""
 "Nepomuk-র তথ্য একটি নতুন ব্যাক-এন্ডে পরিবর্তন করা হচ্ছে। এই কাজে কিছু সময় ব্যয় হতে "
 "পারে।"
 
-#: repository.cpp:286
+#: repository.cpp:304
 #, fuzzy
 #| msgctxt "@info - notification message"
 #| msgid ""
@@ -82,10 +101,20 @@ msgstr ""
 "Nepomuk-র তথ্য নতুন ব্যাক-এন্ডে রূপান্তর করতে ব্যর্থ। তথাপি, ব্যবহারকারী দ্বারা এই তথ্য "
 "পুনরুদ্ধার করা যাবে।"
 
-#: repository.cpp:300
+#: repository.cpp:318
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Nepomuk-র তথ্য সাফল্যের সাথে নতুন ব্যাক-এন্ডে রূপান্তর করা হয়েছে।"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
 
 #, fuzzy
 #~| msgid "File indexer is suspended"
@@ -152,20 +181,11 @@ msgstr "Nepomuk-র তথ্য সাফল্যের সাথে নতু
 #~ msgid "NepomukBackup"
 #~ msgstr "Nepomuk Server"
 
-#~ msgid "Maintainer"
-#~ msgstr "মেইন্টেনার"
-
-#~ msgid "Sebastian Trüg"
-#~ msgstr "সেবাস্টিয়ান ট্রুগ"
-
 #~ msgid "Nepomuk Server"
 #~ msgstr "Nepomuk Server"
 
 #~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
 #~ msgstr "Nepomuk Server - Nepomuk সংরক্ষণস্থল ও পরিসেবা পরিচালনা করতে ব্যবহৃত হয়"
-
-#~ msgid "(c) 2008, Sebastian Trüg"
-#~ msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
 
 #~ msgid "Nepomuk Configuration Module"
 #~ msgstr "Nepomuk কনফিগারেশন মডিউল"
@@ -252,14 +272,6 @@ msgstr "Nepomuk-র তথ্য সাফল্যের সাথে নতু
 
 #~ msgid "Unknown service name:"
 #~ msgstr "পরিসেবার নাম অজানা:"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "রুণা ভট্টাচার্য্য"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "runab@redhat.com"
 
 #, fuzzy
 #~| msgctxt ""
