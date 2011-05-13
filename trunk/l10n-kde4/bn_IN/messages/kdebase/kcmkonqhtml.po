@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:09+0200\n"
+"POT-Creation-Date: 2011-05-13 03:56+0200\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -640,8 +640,12 @@ msgid "Shu&tdown applet server when inactive for more than"
 msgstr "উল্লিখিত সময় অবধি নিষ্ক্রিয় থাকলে অ্যাপ্লেট সার্ভার বন্ধ করা হবে (&t)"
 
 #: javaopts.cpp:113
-msgid " sec"
-msgstr " সেকেন্ড"
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " সেকেন্ড"
+msgstr[1] " সেকেন্ড"
 
 #: javaopts.cpp:119
 msgid "&Path to Java executable, or 'java':"
