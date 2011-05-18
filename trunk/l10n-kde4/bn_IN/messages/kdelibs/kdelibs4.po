@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-17 04:19+0200\n"
+"POT-Creation-Date: 2011-05-18 04:04+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -5959,7 +5959,7 @@ msgid "Reset Toolbars"
 msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1845
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
@@ -7688,12 +7688,6 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "KDE পরিচিতি"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
-msgid "Spell Checking Configuration"
-msgstr "নিশ্চিতি বার্তা প্রেরণ করুন"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -7721,6 +7715,12 @@ msgstr "বানান পরীক্ষণ বাতিল করা হয়�
 #: kdeui/sonnet/dialog.cpp:441 kdeui/sonnet/dialog.cpp:445
 msgid "Spell check complete."
 msgstr "বানান পরীক্ষণ সমাপ্ত।"
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Send Confirmation"
+msgid "Spell Checking Configuration"
+msgstr "নিশ্চিতি বার্তা প্রেরণ করুন"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -10241,68 +10241,6 @@ msgstr "ছবি - %1x%2 পিক্সেল"
 msgid "Done."
 msgstr "সমাপ্ত।"
 
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr "tests, basedir ও output ডিরেক্টরি ধারণকরারী ডিরেক্টরি।"
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr "ডিবাগ থেকে প্রাপ্ত ফলাফল আড়াল করা হবে না"
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr ""
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr "পরীক্ষা চলাকালে উইন্ডো প্রদর্শন করা হবে না"
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr "শুধুমাত্র একটি পরীক্ষা করা হবে। একাধিক বিকল্প প্রয়োগ করা যাবে।"
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr "শুধুমাত্র .js পরীক্ষা করা হবে।"
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr "শুধুমাত্র .html পরীক্ষা করা হবে।"
-
-#: khtml/test_regression.cpp:632
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-"&lt;base_dir&gt;/output-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ করা "
-"হয়"
-
-#: khtml/test_regression.cpp:634
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr ""
-"&lt;base_dir&gt;/baseline-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ "
-"করা হয়"
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-"tests, basedir ও output ডিরেক্টরি ধারণকারী ডিরেক্টরি। -b নির্ধারিত না হলে এটি "
-"গ্রহণযোগ্য।"
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-
-#: khtml/test_regression.cpp:638
-msgid "TestRegression"
-msgstr "TestRegression"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr "khtml-র জন্য রিগ্রেশন পরীক্ষণ ব্যবস্থা"
-
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr "TestRegressionGui"
@@ -10310,44 +10248,6 @@ msgstr "TestRegressionGui"
 #: khtml/test_regression_gui_main.cpp:35
 msgid "GUI for the khtml regression tester"
 msgstr "khtml রিগ্রেশন পরীক্ষণ ব্যবস্থার GUI"
-
-#: khtml/test_regression_gui_window.cpp:76
-msgid "Available Tests: 0"
-msgstr "উপলব্ধ পরীক্ষা: 0"
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr "অনুগ্রহ করে একটি বৈধ 'khtmltests/regression/' ডিরেক্টরি সনাক্ত করুন।"
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr "অনুগ্রহ করে একটি বৈধ 'khtml/' বিল্ড ডিরেক্টরি সনাক্ত করুন।"
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr "উপলব্ধ পরীক্ষা: %1 (উপেক্ষিত: %2)"
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "এগিয়ে চলুন"
-
-#: khtml/test_regression_gui_window.cpp:632
-msgid "Cannot find testregression executable."
-msgstr "testregression এক্সেকিউটেবল পাওয়া যায়নি।"
-
-#: khtml/test_regression_gui_window.cpp:1102
-msgid "Run test..."
-msgstr "পরীক্ষণ আরম্ভ করা হবে..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-msgid "Add to ignores..."
-msgstr "অগ্রাহ্যের তালিকায় যোগ করা হবে..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
-msgstr "অগ্রাহ্যের তালিকা থেকে মুছে ফেলা হবে..."
 
 #: khtml/testkhtml.cpp:39
 msgid "URL to open"
@@ -10378,7 +10278,7 @@ msgid "Access Keys activated"
 msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4764
-#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
+#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
 msgid "Submit"
 msgstr "জমা করুন"
 
@@ -10811,6 +10711,106 @@ msgstr ""
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "JavaScript-র নতুন উইন্ডো সংক্রান্ত নিয়মনীতি কনফিগার করুন...&C"
 
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr "tests, basedir ও output ডিরেক্টরি ধারণকরারী ডিরেক্টরি।"
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr "ডিবাগ থেকে প্রাপ্ত ফলাফল আড়াল করা হবে না"
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr ""
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr "পরীক্ষা চলাকালে উইন্ডো প্রদর্শন করা হবে না"
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr "শুধুমাত্র একটি পরীক্ষা করা হবে। একাধিক বিকল্প প্রয়োগ করা যাবে।"
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr "শুধুমাত্র .js পরীক্ষা করা হবে।"
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr "শুধুমাত্র .html পরীক্ষা করা হবে।"
+
+#: khtml/test_regression.cpp:632
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+"&lt;base_dir&gt;/output-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ করা "
+"হয়"
+
+#: khtml/test_regression.cpp:634
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr ""
+"&lt;base_dir&gt;/baseline-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ "
+"করা হয়"
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+"tests, basedir ও output ডিরেক্টরি ধারণকারী ডিরেক্টরি। -b নির্ধারিত না হলে এটি "
+"গ্রহণযোগ্য।"
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+
+#: khtml/test_regression.cpp:638
+msgid "TestRegression"
+msgstr "TestRegression"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr "khtml-র জন্য রিগ্রেশন পরীক্ষণ ব্যবস্থা"
+
+#: khtml/test_regression_gui_window.cpp:76
+msgid "Available Tests: 0"
+msgstr "উপলব্ধ পরীক্ষা: 0"
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr "অনুগ্রহ করে একটি বৈধ 'khtmltests/regression/' ডিরেক্টরি সনাক্ত করুন।"
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr "অনুগ্রহ করে একটি বৈধ 'khtml/' বিল্ড ডিরেক্টরি সনাক্ত করুন।"
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr "উপলব্ধ পরীক্ষা: %1 (উপেক্ষিত: %2)"
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "এগিয়ে চলুন"
+
+#: khtml/test_regression_gui_window.cpp:632
+msgid "Cannot find testregression executable."
+msgstr "testregression এক্সেকিউটেবল পাওয়া যায়নি।"
+
+#: khtml/test_regression_gui_window.cpp:1102
+msgid "Run test..."
+msgstr "পরীক্ষণ আরম্ভ করা হবে..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+msgid "Add to ignores..."
+msgstr "অগ্রাহ্যের তালিকায় যোগ করা হবে..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr "অগ্রাহ্যের তালিকা থেকে মুছে ফেলা হবে..."
+
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
 "A script on this page is causing KHTML to freeze. If it continues to run, "
@@ -10829,7 +10829,7 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "স্ক্রিপ্ট বন্ধ করুন (&S)"
 
-#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2161
 msgid "Confirmation: JavaScript Popup"
 msgstr "নিশ্চায়ন: JavaScript পপ-আপ"
 
@@ -10846,11 +10846,11 @@ msgid ""
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Allow"
 msgstr "অনুমতি প্রদান করা হবে"
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Do Not Allow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
@@ -10888,14 +10888,14 @@ msgstr "সন্নিবেশ করুন"
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_html.cpp:2176
+#: khtml/ecma/kjs_html.cpp:2163
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
 
-#: khtml/ecma/kjs_html.cpp:2179
+#: khtml/ecma/kjs_html.cpp:2166
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11089,7 +11089,7 @@ msgid_plural "&Send Files"
 msgstr[0] "ফাইল প্রেরণ করুন (&S)"
 msgstr[1] "ফাইল প্রেরণ করুন (&S)"
 
-#: khtml/html/html_formimpl.cpp:2701
+#: khtml/html/html_formimpl.cpp:2717
 msgid "Key Generator"
 msgstr "কি নির্মাণ ব্যবস্থা"
 
