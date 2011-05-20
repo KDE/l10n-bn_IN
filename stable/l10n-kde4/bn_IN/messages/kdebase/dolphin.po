@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-02 13:35+0200\n"
+"POT-Creation-Date: 2011-05-20 13:30+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1272,6 +1272,11 @@ msgctxt "@info:tooltip"
 msgid "Resize column"
 msgstr ""
 
+#: views/draganddrophelper.cpp:108
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
+
 #: views/dolphinview.cpp:491
 #, kde-format
 msgctxt "@info:status"
@@ -1312,26 +1317,21 @@ msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1022
+#: views/dolphinview.cpp:1026
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1124
+#: views/dolphinview.cpp:1128
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1126
+#: views/dolphinview.cpp:1130
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "'%1' জায়গাটা সঠিক নয়।"
-
-#: views/draganddrophelper.cpp:108
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
 
 #: dolphinpart.cpp:166
 msgctxt "@action:inmenu Edit"
