@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-05 03:50+0200\n"
+"POT-Creation-Date: 2011-05-31 04:15+0200\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -43,7 +43,7 @@ msgstr "পূর্ববর্তী কাজ"
 msgid "Add Panel"
 msgstr ""
 
-#: desktopcorona.cpp:617 desktopcorona.cpp:647
+#: desktopcorona.cpp:617 desktopcorona.cpp:647 plasmaapp.cpp:1387
 #, fuzzy
 #| msgid "Next Activity"
 msgctxt "Default name for a new activity"
@@ -263,13 +263,6 @@ msgstr "পরবর্তী কাজ"
 msgid "Add to current activity"
 msgstr "পরবর্তী কাজ"
 
-#: plasmaapp.cpp:1387
-#, fuzzy
-#| msgid "Next Activity"
-msgctxt "Action used to create a new activity"
-msgid "New Activity"
-msgstr "পরবর্তী কাজ"
-
 #: plasmaapp.cpp:1412
 msgid "Run applications"
 msgstr ""
@@ -394,6 +387,12 @@ msgstr "পরবর্তী কাজ"
 #| msgid "New Theme..."
 msgid "Get New Templates..."
 msgstr "নতুন থিম..."
+
+#, fuzzy
+#~| msgid "Next Activity"
+#~ msgctxt "Action used to create a new activity"
+#~ msgid "New Activity"
+#~ msgstr "পরবর্তী কাজ"
 
 #, fuzzy
 #~| msgid "Next Activity"

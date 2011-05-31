@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-10 04:09+0200\n"
+"POT-Creation-Date: 2011-05-31 04:15+0200\n"
 "PO-Revision-Date: 2009-01-09 11:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -16,16 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ui/taskarea.cpp:523
-#, fuzzy
-#| msgid "Visible icons:"
-msgid "Hide icons"
-msgstr "দৃশ্যমান আইকন:"
-
-#: ui/taskarea.cpp:525
-msgid "Show hidden icons"
-msgstr ""
 
 #: ui/applet.cpp:469
 msgid "Display"
@@ -97,6 +87,16 @@ msgctxt ""
 "Extra items to be manually added in the systray, such as little Plasma "
 "widgets"
 msgid "Extra Items"
+msgstr ""
+
+#: ui/taskarea.cpp:495
+#, fuzzy
+#| msgid "Visible icons:"
+msgid "Hide icons"
+msgstr "দৃশ্যমান আইকন:"
+
+#: ui/taskarea.cpp:497
+msgid "Show hidden icons"
 msgstr ""
 
 #. i18n: file: ui/autohide.ui:39
