@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-05 04:23+0200\n"
+"POT-Creation-Date: 2011-06-06 04:17+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -5569,190 +5569,6 @@ msgstr "পরবর্তী"
 msgid "Finish"
 msgstr "সমাপ্ত"
 
-#: kdeui/dialogs/kbugreport.cpp:92 kdeui/dialogs/kbugreport.cpp:116
-msgid "Submit Bug Report"
-msgstr "বাগ রিপোর্ট জমা করুন"
-
-#: kdeui/dialogs/kbugreport.cpp:128
-msgid ""
-"Your email address. If incorrect, use the Configure Email button to change it"
-msgstr ""
-"আপনার ই-মেইল ঠিকানা। ভুল হলে 'ই-মেইন কনফিগার করুন' বাটন টিপে তা পরিবর্তন করুন"
-
-#: kdeui/dialogs/kbugreport.cpp:129
-msgctxt "Email sender address"
-msgid "From:"
-msgstr "প্রেরক:"
-
-#: kdeui/dialogs/kbugreport.cpp:138
-msgid "Configure Email..."
-msgstr "ই-মেইল কনফিগার করুন..."
-
-#: kdeui/dialogs/kbugreport.cpp:145
-msgid "The email address this bug report is sent to."
-msgstr "এই বাগ-রিপোর্টটি যে ই-মেইল ঠিকানায় প্রেরিত হয়েছে।"
-
-#: kdeui/dialogs/kbugreport.cpp:146
-msgctxt "Email receiver address"
-msgid "To:"
-msgstr "প্রাপক:"
-
-#: kdeui/dialogs/kbugreport.cpp:154
-msgid "&Send"
-msgstr "পাঠিয়ে দিন (&S)"
-
-#: kdeui/dialogs/kbugreport.cpp:154
-msgid "Send bug report."
-msgstr "বাগ রিপোর্ট পাঠিয়ে দিন।"
-
-#: kdeui/dialogs/kbugreport.cpp:155
-#, kde-format
-msgid "Send this bug report to %1."
-msgstr "এই বাগ রিপোর্টটি %1-এ পাঠিয়ে দিন।"
-
-#: kdeui/dialogs/kbugreport.cpp:165
-msgid ""
-"The application for which you wish to submit a bug report - if incorrect, "
-"please use the Report Bug menu item of the correct application"
-msgstr ""
-"যে অ্যাপ্লিকেশনের জন্য বাগ রিপোর্ট দায়ের করা হচ্ছে - সঠিক না হলে, অনুগ্রহ করে 'বাগ "
-"রিপোর্ট দায়ের করুন' শীর্ষক মেনু থেকে যথাযত অ্যাপ্লিকেশন নির্বাচন করুন"
-
-#: kdeui/dialogs/kbugreport.cpp:166
-msgid "Application: "
-msgstr "অ্যাপ্লিকেশন: "
-
-#: kdeui/dialogs/kbugreport.cpp:194
-msgid ""
-"The version of this application - please make sure that no newer version is "
-"available before sending a bug report"
-msgstr ""
-"অ্যাপ্লিকেশনের সংস্করণ সংখ্যা - বাগ রিপোর্ট দায়ের করার আগে অনুগ্রহ করে পরীক্ষা করে "
-"নিন এই অ্যাপ্লিকেশনের কোনো নতুন সংস্করণ উপলব্ধ রয়েছে কি না।"
-
-#: kdeui/dialogs/kbugreport.cpp:201
-msgid "no version set (programmer error)"
-msgstr "কোনো সংস্করণ নির্ধারিত হয়নি (প্রোগ্রামারের ত্রুটি)"
-
-#: kdeui/dialogs/kbugreport.cpp:212
-msgid "OS:"
-msgstr "অপারেটিং সিস্টেম:"
-
-#: kdeui/dialogs/kbugreport.cpp:225
-msgid "Compiler:"
-msgstr "কম্পাইলার:"
-
-#: kdeui/dialogs/kbugreport.cpp:234
-msgid "Se&verity"
-msgstr "গুরুত্ব: (&v)"
-
-#: kdeui/dialogs/kbugreport.cpp:236
-msgid "Critical"
-msgstr "মারাত্মক"
-
-#: kdeui/dialogs/kbugreport.cpp:236
-msgid "Grave"
-msgstr "গুরুতর"
-
-#: kdeui/dialogs/kbugreport.cpp:236
-msgctxt "normal severity"
-msgid "Normal"
-msgstr "স্বাভাবিক"
-
-#: kdeui/dialogs/kbugreport.cpp:236
-msgid "Wishlist"
-msgstr "আকাঙ্ক্ষিত"
-
-#: kdeui/dialogs/kbugreport.cpp:236
-msgid "Translation"
-msgstr "অনুবাদ"
-
-#: kdeui/dialogs/kbugreport.cpp:253
-msgid "S&ubject: "
-msgstr "প্রসঙ্গ: (&u)"
-
-#: kdeui/dialogs/kbugreport.cpp:261
-msgid ""
-"Enter the text (in English if possible) that you wish to submit for the bug "
-"report.\n"
-"If you press \"Send\", a mail message will be sent to the maintainer of this "
-"program.\n"
-msgstr ""
-
-#: kdeui/dialogs/kbugreport.cpp:284
-msgid ""
-"<qt>To submit a bug report, click on the button below. This will open a web "
-"browser window on <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
-"where you will find a form to fill in. The information displayed above will "
-"be transferred to that server.</qt>"
-msgstr ""
-"<qt>বাগ রিপোর্ট দায়ের করার জন্য নিম্নলিখিত বাটন ক্লিক করুন। এর ফলে <a href="
-"\"http://bugs.kde.org\">http://bugs.kde.org</a> প্রদর্শনকারী একটি ওয়েব ব্রাউজার "
-"উইন্ডো খোলা হবে। উপরোক্ত তথ্যগুলি সংশ্লিষ্ট সার্ভারে প্রেরিত হবে।</qt>"
-
-#: kdeui/dialogs/kbugreport.cpp:298
-msgid "&Launch Bug Report Wizard"
-msgstr "বাগ রিপোর্ট প্রস্তুতির উইজার্ড আরম্ভ করুন (&L)"
-
-#: kdeui/dialogs/kbugreport.cpp:349
-msgctxt "unknown program name"
-msgid "unknown"
-msgstr "অজানা"
-
-#: kdeui/dialogs/kbugreport.cpp:417
-msgid ""
-"You must specify both a subject and a description before the report can be "
-"sent."
-msgstr "রিপোর্ট দায়ের করার জন্য প্রসঙ্গ ও বিবরণ উল্লেখ করা আবশ্যক।"
-
-#: kdeui/dialogs/kbugreport.cpp:427
-msgid ""
-"<p>You chose the severity <b>Critical</b>. Please note that this severity is "
-"intended only for bugs that:</p><ul><li>break unrelated software on the "
-"system (or the whole system)</li><li>cause serious data loss</"
-"li><li>introduce a security hole on the system where the affected package is "
-"installed</li></ul>\n"
-"<p>Does the bug you are reporting cause any of the above damage? If it does "
-"not, please select a lower severity. Thank you.</p>"
-msgstr ""
-
-#: kdeui/dialogs/kbugreport.cpp:438
-msgid ""
-"<p>You chose the severity <b>Grave</b>. Please note that this severity is "
-"intended only for bugs that:</p><ul><li>make the package in question "
-"unusable or mostly so</li><li>cause data loss</li><li>introduce a security "
-"hole allowing access to the accounts of users who use the affected package</"
-"li></ul>\n"
-"<p>Does the bug you are reporting cause any of the above damage? If it does "
-"not, please select a lower severity. Thank you.</p>"
-msgstr ""
-
-#: kdeui/dialogs/kbugreport.cpp:452
-msgid ""
-"Unable to send the bug report.\n"
-"Please submit a bug report manually....\n"
-"See http://bugs.kde.org/ for instructions."
-msgstr ""
-"বাগ রিপোর্ট পাঠাতে ব্যর্থ।\n"
-"অনুগ্রহ করে বাগ রিপোর্ট স্বয়ং দায়ের করুন...\n"
-"নির্দেশাবলীর জন্য http://bugs.kde.org/ দেখুন।"
-
-#: kdeui/dialogs/kbugreport.cpp:460
-msgid "Bug report sent, thank you for your input."
-msgstr "বাগ রিপোর্ট পাঠানো হয়েছে। আপনার মতামত জানানোর জন্য ধন্যবাদ।"
-
-#: kdeui/dialogs/kbugreport.cpp:469
-msgid ""
-"Close and discard\n"
-"edited message?"
-msgstr ""
-"পরিবর্তিত বার্তা বন্ধ\n"
-"করে বর্জন করা হবে কি?"
-
-#: kdeui/dialogs/kbugreport.cpp:470
-msgid "Close Message"
-msgstr "বার্তা বন্ধ করা হবে"
-
 #: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:208
 msgid "Configure"
 msgstr "কনফিগার করুন"
@@ -6453,6 +6269,190 @@ msgstr ""
 msgctxt "A type of link."
 msgid "Homepage"
 msgstr "হোম পেজ"
+
+#: kdeui/dialogs/kbugreport.cpp:92 kdeui/dialogs/kbugreport.cpp:116
+msgid "Submit Bug Report"
+msgstr "বাগ রিপোর্ট জমা করুন"
+
+#: kdeui/dialogs/kbugreport.cpp:128
+msgid ""
+"Your email address. If incorrect, use the Configure Email button to change it"
+msgstr ""
+"আপনার ই-মেইল ঠিকানা। ভুল হলে 'ই-মেইন কনফিগার করুন' বাটন টিপে তা পরিবর্তন করুন"
+
+#: kdeui/dialogs/kbugreport.cpp:129
+msgctxt "Email sender address"
+msgid "From:"
+msgstr "প্রেরক:"
+
+#: kdeui/dialogs/kbugreport.cpp:138
+msgid "Configure Email..."
+msgstr "ই-মেইল কনফিগার করুন..."
+
+#: kdeui/dialogs/kbugreport.cpp:145
+msgid "The email address this bug report is sent to."
+msgstr "এই বাগ-রিপোর্টটি যে ই-মেইল ঠিকানায় প্রেরিত হয়েছে।"
+
+#: kdeui/dialogs/kbugreport.cpp:146
+msgctxt "Email receiver address"
+msgid "To:"
+msgstr "প্রাপক:"
+
+#: kdeui/dialogs/kbugreport.cpp:154
+msgid "&Send"
+msgstr "পাঠিয়ে দিন (&S)"
+
+#: kdeui/dialogs/kbugreport.cpp:154
+msgid "Send bug report."
+msgstr "বাগ রিপোর্ট পাঠিয়ে দিন।"
+
+#: kdeui/dialogs/kbugreport.cpp:155
+#, kde-format
+msgid "Send this bug report to %1."
+msgstr "এই বাগ রিপোর্টটি %1-এ পাঠিয়ে দিন।"
+
+#: kdeui/dialogs/kbugreport.cpp:165
+msgid ""
+"The application for which you wish to submit a bug report - if incorrect, "
+"please use the Report Bug menu item of the correct application"
+msgstr ""
+"যে অ্যাপ্লিকেশনের জন্য বাগ রিপোর্ট দায়ের করা হচ্ছে - সঠিক না হলে, অনুগ্রহ করে 'বাগ "
+"রিপোর্ট দায়ের করুন' শীর্ষক মেনু থেকে যথাযত অ্যাপ্লিকেশন নির্বাচন করুন"
+
+#: kdeui/dialogs/kbugreport.cpp:166
+msgid "Application: "
+msgstr "অ্যাপ্লিকেশন: "
+
+#: kdeui/dialogs/kbugreport.cpp:194
+msgid ""
+"The version of this application - please make sure that no newer version is "
+"available before sending a bug report"
+msgstr ""
+"অ্যাপ্লিকেশনের সংস্করণ সংখ্যা - বাগ রিপোর্ট দায়ের করার আগে অনুগ্রহ করে পরীক্ষা করে "
+"নিন এই অ্যাপ্লিকেশনের কোনো নতুন সংস্করণ উপলব্ধ রয়েছে কি না।"
+
+#: kdeui/dialogs/kbugreport.cpp:201
+msgid "no version set (programmer error)"
+msgstr "কোনো সংস্করণ নির্ধারিত হয়নি (প্রোগ্রামারের ত্রুটি)"
+
+#: kdeui/dialogs/kbugreport.cpp:212
+msgid "OS:"
+msgstr "অপারেটিং সিস্টেম:"
+
+#: kdeui/dialogs/kbugreport.cpp:225
+msgid "Compiler:"
+msgstr "কম্পাইলার:"
+
+#: kdeui/dialogs/kbugreport.cpp:234
+msgid "Se&verity"
+msgstr "গুরুত্ব: (&v)"
+
+#: kdeui/dialogs/kbugreport.cpp:236
+msgid "Critical"
+msgstr "মারাত্মক"
+
+#: kdeui/dialogs/kbugreport.cpp:236
+msgid "Grave"
+msgstr "গুরুতর"
+
+#: kdeui/dialogs/kbugreport.cpp:236
+msgctxt "normal severity"
+msgid "Normal"
+msgstr "স্বাভাবিক"
+
+#: kdeui/dialogs/kbugreport.cpp:236
+msgid "Wishlist"
+msgstr "আকাঙ্ক্ষিত"
+
+#: kdeui/dialogs/kbugreport.cpp:236
+msgid "Translation"
+msgstr "অনুবাদ"
+
+#: kdeui/dialogs/kbugreport.cpp:253
+msgid "S&ubject: "
+msgstr "প্রসঙ্গ: (&u)"
+
+#: kdeui/dialogs/kbugreport.cpp:261
+msgid ""
+"Enter the text (in English if possible) that you wish to submit for the bug "
+"report.\n"
+"If you press \"Send\", a mail message will be sent to the maintainer of this "
+"program.\n"
+msgstr ""
+
+#: kdeui/dialogs/kbugreport.cpp:284
+msgid ""
+"<qt>To submit a bug report, click on the button below. This will open a web "
+"browser window on <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
+"where you will find a form to fill in. The information displayed above will "
+"be transferred to that server.</qt>"
+msgstr ""
+"<qt>বাগ রিপোর্ট দায়ের করার জন্য নিম্নলিখিত বাটন ক্লিক করুন। এর ফলে <a href="
+"\"http://bugs.kde.org\">http://bugs.kde.org</a> প্রদর্শনকারী একটি ওয়েব ব্রাউজার "
+"উইন্ডো খোলা হবে। উপরোক্ত তথ্যগুলি সংশ্লিষ্ট সার্ভারে প্রেরিত হবে।</qt>"
+
+#: kdeui/dialogs/kbugreport.cpp:298
+msgid "&Launch Bug Report Wizard"
+msgstr "বাগ রিপোর্ট প্রস্তুতির উইজার্ড আরম্ভ করুন (&L)"
+
+#: kdeui/dialogs/kbugreport.cpp:349
+msgctxt "unknown program name"
+msgid "unknown"
+msgstr "অজানা"
+
+#: kdeui/dialogs/kbugreport.cpp:417
+msgid ""
+"You must specify both a subject and a description before the report can be "
+"sent."
+msgstr "রিপোর্ট দায়ের করার জন্য প্রসঙ্গ ও বিবরণ উল্লেখ করা আবশ্যক।"
+
+#: kdeui/dialogs/kbugreport.cpp:427
+msgid ""
+"<p>You chose the severity <b>Critical</b>. Please note that this severity is "
+"intended only for bugs that:</p><ul><li>break unrelated software on the "
+"system (or the whole system)</li><li>cause serious data loss</"
+"li><li>introduce a security hole on the system where the affected package is "
+"installed</li></ul>\n"
+"<p>Does the bug you are reporting cause any of the above damage? If it does "
+"not, please select a lower severity. Thank you.</p>"
+msgstr ""
+
+#: kdeui/dialogs/kbugreport.cpp:438
+msgid ""
+"<p>You chose the severity <b>Grave</b>. Please note that this severity is "
+"intended only for bugs that:</p><ul><li>make the package in question "
+"unusable or mostly so</li><li>cause data loss</li><li>introduce a security "
+"hole allowing access to the accounts of users who use the affected package</"
+"li></ul>\n"
+"<p>Does the bug you are reporting cause any of the above damage? If it does "
+"not, please select a lower severity. Thank you.</p>"
+msgstr ""
+
+#: kdeui/dialogs/kbugreport.cpp:452
+msgid ""
+"Unable to send the bug report.\n"
+"Please submit a bug report manually....\n"
+"See http://bugs.kde.org/ for instructions."
+msgstr ""
+"বাগ রিপোর্ট পাঠাতে ব্যর্থ।\n"
+"অনুগ্রহ করে বাগ রিপোর্ট স্বয়ং দায়ের করুন...\n"
+"নির্দেশাবলীর জন্য http://bugs.kde.org/ দেখুন।"
+
+#: kdeui/dialogs/kbugreport.cpp:460
+msgid "Bug report sent, thank you for your input."
+msgstr "বাগ রিপোর্ট পাঠানো হয়েছে। আপনার মতামত জানানোর জন্য ধন্যবাদ।"
+
+#: kdeui/dialogs/kbugreport.cpp:469
+msgid ""
+"Close and discard\n"
+"edited message?"
+msgstr ""
+"পরিবর্তিত বার্তা বন্ধ\n"
+"করে বর্জন করা হবে কি?"
+
+#: kdeui/dialogs/kbugreport.cpp:470
+msgid "Close Message"
+msgstr "বার্তা বন্ধ করা হবে"
 
 #: kdeui/findreplace/kfind.cpp:50
 msgid "Find Next"
@@ -9907,10 +9907,10 @@ msgstr ""
 msgid "The time you entered is invalid"
 msgstr "সার্টিফিকেটটি বৈধ নয়"
 
-#: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
-#: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:597
-#: kdeui/windowmanagement/kwindowsystem_x11.cpp:858
+#: kdeui/windowmanagement/kwindowsystem_mac.cpp:563
+#: kdeui/windowmanagement/kwindowsystem_qws.cpp:176
+#: kdeui/windowmanagement/kwindowsystem_x11.cpp:856
 #, kde-format
 msgid "Desktop %1"
 msgstr "ডেস্কটপ %1"
