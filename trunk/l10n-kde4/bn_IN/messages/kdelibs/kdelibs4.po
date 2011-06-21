@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-16 04:13+0200\n"
+"POT-Creation-Date: 2011-06-21 04:32+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -9771,7 +9771,7 @@ msgstr "পরবর্তী মাস"
 #, fuzzy
 #| msgid "Next year"
 msgctxt "@option next week"
-msgid "Next week"
+msgid "Next Week"
 msgstr "পরবর্তী বৎসর"
 
 #: kdeui/widgets/kdatecombobox.cpp:146
@@ -9797,7 +9797,7 @@ msgstr "গতকাল"
 #, fuzzy
 #| msgid "&Last Page"
 msgctxt "@option last week"
-msgid "Last week"
+msgid "Last Week"
 msgstr "অন্তিম পৃষ্ঠা (&L)"
 
 #: kdeui/widgets/kdatecombobox.cpp:150
@@ -9825,6 +9825,7 @@ msgstr "কোনো টেক্সট নেই"
 #, fuzzy
 #| msgctxt "SSL error"
 #| msgid "The certificate is invalid"
+msgctxt "@info"
 msgid "The date you entered is invalid"
 msgstr "সার্টিফিকেটটি বৈধ নয়"
 
@@ -9841,37 +9842,42 @@ msgid "Date cannot be later than %1"
 msgstr ""
 
 #: kdeui/widgets/kdatetimeedit.cpp:195
+msgctxt "UTC time zone"
 msgid "UTC"
 msgstr ""
 
 #: kdeui/widgets/kdatetimeedit.cpp:196
 #, fuzzy
 #| msgid "Rating"
+msgctxt "No specific time zone"
 msgid "Floating"
 msgstr "গুরুত্বের মান"
 
 #: kdeui/widgets/kdatetimeedit.cpp:243
+msgctxt "@info"
 msgid "The entered date and time is before the minimum allowed date and time."
 msgstr ""
 
 #: kdeui/widgets/kdatetimeedit.cpp:253
+msgctxt "@info"
 msgid "The entered date and time is after the maximum allowed date and time."
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:246
+#: kdeui/widgets/ktimecombobox.cpp:259
 #, fuzzy
 #| msgctxt "SSL error"
 #| msgid "The certificate is invalid"
+msgctxt "@info"
 msgid "The time you entered is invalid"
 msgstr "সার্টিফিকেটটি বৈধ নয়"
 
-#: kdeui/widgets/ktimecombobox.cpp:249
+#: kdeui/widgets/ktimecombobox.cpp:262
 #, kde-format
 msgctxt "@info"
 msgid "Time cannot be earlier than %1"
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:256
+#: kdeui/widgets/ktimecombobox.cpp:269
 #, kde-format
 msgctxt "@info"
 msgid "Time cannot be later than %1"
@@ -13539,16 +13545,22 @@ msgid "pm"
 msgstr "অপরাহ্ন"
 
 #, fuzzy
+#~| msgid "Next year"
+#~ msgctxt "@option next week"
+#~ msgid "Next week"
+#~ msgstr "পরবর্তী বৎসর"
+
+#, fuzzy
+#~| msgid "&Last Page"
+#~ msgctxt "@option last week"
+#~ msgid "Last week"
+#~ msgstr "অন্তিম পৃষ্ঠা (&L)"
+
+#, fuzzy
 #~| msgid "Today"
 #~ msgctxt "@info/plain"
 #~ msgid "today"
 #~ msgstr "আজ"
-
-#, fuzzy
-#~| msgid "Next year"
-#~ msgctxt "@option next week"
-#~ msgid "Next Week"
-#~ msgstr "পরবর্তী বৎসর"
 
 #, fuzzy
 #~| msgid "Show &Menubar"
