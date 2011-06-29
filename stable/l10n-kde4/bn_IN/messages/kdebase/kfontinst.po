@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-28 02:12+0200\n"
+"POT-Creation-Date: 2011-06-29 02:05+0200\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -180,7 +180,7 @@ msgstr "তারিখ"
 msgid "Links To"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:424 kcmfontinst/FontList.cpp:1402
+#: kcmfontinst/DuplicatesDialog.cpp:424 kcmfontinst/FontList.cpp:1394
 msgid "Open in Font Viewer"
 msgstr "ফন্ট প্রদর্শন ব্যবস্থায় খোলা হবে"
 
@@ -200,7 +200,7 @@ msgstr "মুছে ফেলার চিহ্নিত..."
 msgid "Mark for Deletion"
 msgstr "মুছে ফেলার চিহ্নিত..."
 
-#: kcmfontinst/DuplicatesDialog.cpp:531 kcmfontinst/FontList.cpp:1838
+#: kcmfontinst/DuplicatesDialog.cpp:531 kcmfontinst/FontList.cpp:1832
 #, kde-format
 msgid "Open all %1 fonts in font viewer?"
 msgstr "সকল %1-টি ফন্ট, ফন্ট প্রদর্শন ব্যবস্থা খোলা হবে কি?"
@@ -264,35 +264,35 @@ msgid ""
 "li><li>Bold</li><li>Bold Italic</li><li>Italic</li></ul></li></ul>"
 msgstr ""
 
-#: kcmfontinst/FontList.cpp:1027 kcmfontinst/FontList.cpp:1051
+#: kcmfontinst/FontList.cpp:1019 kcmfontinst/FontList.cpp:1043
 #, kde-format
 msgid "...plus %1 more"
 msgstr "...এবং %1 বেশি"
 
-#: kcmfontinst/FontList.cpp:1079
+#: kcmfontinst/FontList.cpp:1071
 #, kde-format
 msgid "%1 [%2]"
 msgstr "%1 [%2]"
 
-#: kcmfontinst/FontList.cpp:1392 kcmfontinst/KCmFontInst.cpp:301
+#: kcmfontinst/FontList.cpp:1384 kcmfontinst/KCmFontInst.cpp:301
 msgid "Delete"
 msgstr "মুছে ফেলুন"
 
-#: kcmfontinst/FontList.cpp:1395 kcmfontinst/GroupList.cpp:832
+#: kcmfontinst/FontList.cpp:1387 kcmfontinst/GroupList.cpp:832
 #: kcmfontinst/KCmFontInst.cpp:1165 kcmfontinst/KCmFontInst.cpp:1189
 msgid "Enable"
 msgstr "সক্রিয় করুন"
 
-#: kcmfontinst/FontList.cpp:1397 kcmfontinst/GroupList.cpp:834
+#: kcmfontinst/FontList.cpp:1389 kcmfontinst/GroupList.cpp:834
 #: kcmfontinst/KCmFontInst.cpp:1166 kcmfontinst/KCmFontInst.cpp:1190
 msgid "Disable"
 msgstr "নিষ্ক্রিয় করুন"
 
-#: kcmfontinst/FontList.cpp:1400 kcmfontinst/GroupList.cpp:839
+#: kcmfontinst/FontList.cpp:1392 kcmfontinst/GroupList.cpp:839
 msgid "Print..."
 msgstr "প্রিন্ট করুন..."
 
-#: kcmfontinst/FontList.cpp:1405
+#: kcmfontinst/FontList.cpp:1397
 msgid "Reload"
 msgstr "নতুন করে প্রদর্শন"
 
@@ -1054,46 +1054,46 @@ msgstr "%1-র সাথে যুক্ত অতিরিক্ত ফাই�
 msgid "Unknown"
 msgstr "অজানা"
 
-#: lib/FcEngine.cpp:748
+#: lib/FcEngine.cpp:754
 msgctxt "First letter of the alphabet (in upper then lower case)"
 msgid "Aa"
 msgstr "অ"
 
-#: lib/FcEngine.cpp:750
+#: lib/FcEngine.cpp:756
 msgctxt ""
 "All letters of the alphabet (in upper/lower case pairs), followed by numbers"
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
 msgstr "অআইইউঊঋএঐওঔকখগঘঙচছজঝঞটঠডড়ঢঢ়ণতথদধনপফবভমযরলশষসহয়"
 
-#: lib/FcEngine.cpp:934
+#: lib/FcEngine.cpp:938
 msgid "No characters found."
 msgstr "কোনো অক্ষর পাওয়া যায়নি।"
 
-#: lib/FcEngine.cpp:971
+#: lib/FcEngine.cpp:976
 msgctxt "A sentence that uses all of the letters of the alphabet"
 msgid "The quick brown fox jumps over the lazy dog"
 msgstr ""
 
-#: lib/FcEngine.cpp:976
+#: lib/FcEngine.cpp:981
 msgctxt "All of the letters of the alphabet, uppercase"
 msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 msgstr "অআইইউঊঋএঐওঔকখগঘঙচছজঝঞটঠডড়ঢঢ়ণতথদধনপফবভমযরলশষসহয়"
 
-#: lib/FcEngine.cpp:981
+#: lib/FcEngine.cpp:986
 msgctxt "All of the letters of the alphabet, lowercase"
 msgid "abcdefghijklmnopqrstuvwxyz"
 msgstr "অআইইউঊঋএঐওঔকখগঘঙচছজঝঞটঠডড়ঢঢ়ণতথদধনপফবভমযরলশষসহয়"
 
-#: lib/FcEngine.cpp:986
+#: lib/FcEngine.cpp:991
 msgctxt "Numbers and characters"
 msgid "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 msgstr "০১২৩৪৫৬৭৮৯.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 
-#: lib/FcEngine.cpp:1383
+#: lib/FcEngine.cpp:1388
 msgid "ERROR: Could not determine font's name."
 msgstr "ত্রুটি: ফন্টের নাম নির্ধারণ করা সম্ভব হয়নি।"
 
-#: lib/FcEngine.cpp:1387
+#: lib/FcEngine.cpp:1392
 #, kde-format
 msgid "%2 [1 pixel]"
 msgid_plural "%2 [%1 pixels]"
