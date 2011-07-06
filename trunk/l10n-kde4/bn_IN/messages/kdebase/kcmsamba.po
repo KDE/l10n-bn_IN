@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-20 06:25+0100\n"
+"POT-Creation-Date: 2011-07-06 04:17+0200\n"
 "PO-Revision-Date: 2008-11-26 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kcmsambaimports.cpp:44 ksmbstatus.cpp:51
+#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
 msgid "Type"
 msgstr "ধরন"
 
-#: kcmsambaimports.cpp:45
+#: kcmsambaimports.cpp:43
 msgid "Resource"
 msgstr "সামগ্রী"
 
-#: kcmsambaimports.cpp:46
+#: kcmsambaimports.cpp:43
 msgid "Mounted Under"
 msgstr "মাউন্টের স্থান"
 
-#: kcmsambaimports.cpp:48
+#: kcmsambaimports.cpp:45
 msgid ""
 "This list shows the Samba and NFS shared resources mounted on your system "
 "from other hosts. The \"Type\" column tells you whether the mounted resource "
@@ -118,19 +118,19 @@ msgstr ""
 "এই পৃষ্ঠায় প্রদর্শিত তথ্য নতুন করে লেখার জন্য এইখানে ক্লিক করুন। samba দ্বারা লগ করা "
 "ইভেন্টগুলি প্রাপ্ত করার জন্য (উপরোক্ত) লগ ফাইল পড়া হবে।"
 
-#: kcmsambalog.cpp:88
+#: kcmsambalog.cpp:88 kcmsambalog.cpp:89
 msgid "Date & Time"
 msgstr "তারিখ ও সময়"
 
-#: kcmsambalog.cpp:89 kcmsambastatistics.cpp:65
+#: kcmsambalog.cpp:88 kcmsambalog.cpp:89 kcmsambastatistics.cpp:64
 msgid "Event"
 msgstr "ইভেন্ট"
 
-#: kcmsambalog.cpp:90 kcmsambastatistics.cpp:66
+#: kcmsambalog.cpp:88 kcmsambalog.cpp:90 kcmsambastatistics.cpp:64
 msgid "Service/File"
 msgstr "পরিসেবা/ফাইল"
 
-#: kcmsambalog.cpp:91 kcmsambastatistics.cpp:67
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:64
 msgid "Host/User"
 msgstr "হোস্ট/ব্যবহারকারী"
 
@@ -145,7 +145,7 @@ msgid ""
 "be read and the list refreshed.</p>"
 msgstr ""
 
-#: kcmsambalog.cpp:204 kcmsambastatistics.cpp:150 kcmsambastatistics.cpp:198
+#: kcmsambalog.cpp:204 kcmsambastatistics.cpp:147 kcmsambastatistics.cpp:212
 msgid "CONNECTION OPENED"
 msgstr "সংযোগ আরম্ভ করা হয়েছে"
 
@@ -206,61 +206,61 @@ msgstr "হোস্টের বিস্তারিত তথ্য প্র
 msgid "Nr"
 msgstr "Nr"
 
-#: kcmsambastatistics.cpp:68
+#: kcmsambastatistics.cpp:64
 msgid "Hits"
 msgstr "হিট"
 
-#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:139
+#: kcmsambastatistics.cpp:68 kcmsambastatistics.cpp:135
 msgid "Connection"
 msgstr "সংযোগ"
 
-#: kcmsambastatistics.cpp:73
+#: kcmsambastatistics.cpp:69
 msgid "File Access"
 msgstr "ফাইলের ব্যবহার"
 
-#: kcmsambastatistics.cpp:129
+#: kcmsambastatistics.cpp:125
 #, kde-format
 msgid "Connections: %1"
 msgstr "সংযোগ: %1"
 
-#: kcmsambastatistics.cpp:130
+#: kcmsambastatistics.cpp:126
 #, kde-format
 msgid "File accesses: %1"
 msgstr "ফাইলের ব্যবহার: %1"
 
-#: kcmsambastatistics.cpp:163 kcmsambastatistics.cpp:201
+#: kcmsambastatistics.cpp:160 kcmsambastatistics.cpp:215
 msgid "FILE OPENED"
 msgstr "খোলা ফাইল"
 
-#: ksmbstatus.cpp:52
+#: ksmbstatus.cpp:51
 msgid "Service"
 msgstr "পরিসেবা"
 
-#: ksmbstatus.cpp:53
+#: ksmbstatus.cpp:51
 msgid "Accessed From"
 msgstr "ব্যবহারের স্থান"
 
-#: ksmbstatus.cpp:54
+#: ksmbstatus.cpp:52
 msgid "UID"
 msgstr "UID"
 
-#: ksmbstatus.cpp:55
+#: ksmbstatus.cpp:52
 msgid "GID"
 msgstr "GID"
 
-#: ksmbstatus.cpp:56
+#: ksmbstatus.cpp:52
 msgid "PID"
 msgstr "PID"
 
-#: ksmbstatus.cpp:57
+#: ksmbstatus.cpp:52
 msgid "Open Files"
 msgstr "খোলা ফাইল"
 
-#: ksmbstatus.cpp:158
+#: ksmbstatus.cpp:156
 msgid "Error: Unable to run smbstatus"
 msgstr "ত্রুটি: smbstatus সঞ্চালন করতে ব্যর্থ"
 
-#: ksmbstatus.cpp:160
+#: ksmbstatus.cpp:178
 msgid "Error: Unable to open configuration file \"smb.conf\""
 msgstr "ত্রুটি: কনফিগারেশন ফাইল \"smb.conf\" খুলতে ব্যর্থ"
 
