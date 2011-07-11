@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-10 04:01+0200\n"
+"POT-Creation-Date: 2011-07-11 04:53+0200\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -436,14 +436,14 @@ msgstr ""
 msgid "Previous Layout"
 msgstr ""
 
-#: main.cpp:179
+#: main.cpp:182
 msgid ""
 "kwin: it looks like there's already a window manager running. kwin not "
 "started.\n"
 msgstr ""
 "kwin: সম্ভবত একটি উইন্ডো পরিচালন ব্যবস্থা বর্তমানে চলছে। kwin আরম্ভ করা হয়নি।\n"
 
-#: main.cpp:207
+#: main.cpp:210
 msgid ""
 "KWin is unstable.\n"
 "It seems to have crashed several times in a row.\n"
@@ -453,7 +453,7 @@ msgstr ""
 "একাধিকবার বিপর্যস্ত হয়েছে।\n"
 "আপনি কোনো পৃথক উইন্ডো পরিচালন ব্যবস্থা নির্বাচন করতে পারেন:"
 
-#: main.cpp:264
+#: main.cpp:267
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
@@ -461,55 +461,55 @@ msgstr ""
 "kwin: পরিচালন ব্যবস্থা ধার্য করতে ব্যর্থ, একটি পৃথক উইন্ডো পরিচালনব্যবস্থা বর্তমানে "
 "চলছে কি? (--replace প্রয়োগের প্রচেষ্টা করুন)\n"
 
-#: main.cpp:395
+#: main.cpp:398
 msgid "KDE window manager"
 msgstr "KDE উইন্ডো পরিচালন ব্যবস্থা"
 
-#: main.cpp:455 killer/killer.cpp:40
+#: main.cpp:458 killer/killer.cpp:40
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:459
+#: main.cpp:462
 msgid "(c) 1999-2008, The KDE Developers"
 msgstr "(c) ১৯৯৯-২০০৮, KDE-র নির্মাতা বৃন্দ"
 
-#: main.cpp:460
+#: main.cpp:463
 msgid "Matthias Ettrich"
 msgstr "ম্যাথায়েস এট্রিখ"
 
-#: main.cpp:461
+#: main.cpp:464
 msgid "Cristian Tibirna"
 msgstr "ক্রিস্টিয়্যান টিবির্না"
 
-#: main.cpp:462
+#: main.cpp:465
 msgid "Daniel M. Duley"
 msgstr "ড্যানিয়েল এম. ডুলি"
 
-#: main.cpp:463
+#: main.cpp:466
 msgid "Luboš Luňák"
 msgstr "লুবোস লুনাক"
 
-#: main.cpp:464
+#: main.cpp:467
 msgid "Martin Gräßlin"
 msgstr ""
 
-#: main.cpp:464
+#: main.cpp:467
 msgid "Maintainer"
 msgstr "নির্মাণকারী"
 
-#: main.cpp:469
+#: main.cpp:472
 msgid "Disable configuration options"
 msgstr "কনফিগারেশন সংক্রান্ত বিকল্প নিষ্ক্রিয় করা হবে"
 
-#: main.cpp:470
+#: main.cpp:473
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "ICCCM2.0-র সাথে সুসংগত বর্তমানে চলমান উইন্ডো পরিচালনব্যবস্থা প্রতিস্থাপন করুন"
 
-#: main.cpp:471
+#: main.cpp:474
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "KWin n সংখ্যক বার বিপর্যস্ত হওয়ার ইঙ্গিত প্রদর্শন করা হবে"
 
-#: main.cpp:472
+#: main.cpp:476
 msgid "Load the script testing dialog"
 msgstr ""
 
@@ -740,12 +740,12 @@ msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
-#: workspace.cpp:1051 workspace.cpp:1073
+#: workspace.cpp:1053 workspace.cpp:1075
 #, kde-format
 msgid "Desktop %1"
 msgstr "ডেস্কটপ %1"
 
-#: workspace.cpp:1829
+#: workspace.cpp:1831
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -754,7 +754,7 @@ msgid ""
 "keyboard shortcut."
 msgstr ""
 
-#: workspace.cpp:1841
+#: workspace.cpp:1843
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"

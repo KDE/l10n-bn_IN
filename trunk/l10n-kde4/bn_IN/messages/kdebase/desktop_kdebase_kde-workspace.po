@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-10 03:04+0000\n"
+"POT-Creation-Date: 2011-07-11 03:53+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -863,6 +863,29 @@ msgstr "Ion"
 #: kdm/kfrontend/sessions/ion.desktop:93
 msgctxt "Comment"
 msgid "A keyboard-friendly window manager with tiled windows, based on PWM"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Performance"
+msgctxt "Name"
+msgid "KDE Plasma Workspace"
+msgstr "KDE-র কর্মক্ষমতা"
+
+#: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:7
+msgctxt "Comment"
+msgid "The desktop made by KDE"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:6
+msgctxt "Name"
+msgid "KDE Plasma Workspace (failsafe session)"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:7
+msgctxt "Comment"
+msgid "The desktop made by KDE (failsafe session)"
 msgstr ""
 
 #: kdm/kfrontend/sessions/larswm.desktop:5
@@ -5054,7 +5077,7 @@ msgctxt "Comment"
 msgid "A containment for a panel"
 msgstr ""
 
-#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:53
+#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:54
 msgctxt "Comment"
 msgid "Full screen application launcher with search interface"
 msgstr ""
@@ -7752,13 +7775,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Hardware notifications"
 #~ msgstr "সূচনাবার্তা"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Performance"
-#~ msgctxt "Comment"
-#~ msgid "KDE Workspace"
-#~ msgstr "KDE-র কর্মক্ষমতা"
 
 #~ msgctxt "Name"
 #~ msgid "Trash: Emptied"
