@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-22 03:49+0200\n"
+"POT-Creation-Date: 2011-07-17 04:02+0200\n"
 "PO-Revision-Date: 2010-01-04 11:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -257,40 +257,46 @@ msgid "Appearance"
 msgstr "চেহারাছবি"
 
 #: kdm-gen.cpp:70
-msgid "&Use themed greeter"
-msgstr "থিমসহ অভিবাদন পদ্ধতি ব্যবহার করা হবে (&U)"
+msgid ""
+"&Use themed greeter\n"
+"(Warning: poor accessibility)"
+msgstr ""
 
 #: kdm-gen.cpp:73
-msgid "Enable this if you would like to use a themed Login Manager."
-msgstr "থিম সহ লগ-ইন পরিচালনব্যবস্থা ব্যবহার করতে ইচ্ছুক হলে, এই বৈশিষ্ট্য সক্রিয় করুন।"
+msgid ""
+"Enable this if you would like to use a themed Login Manager.<br>Note that "
+"the themed greeter is challenged accessibility-wise (keyboard usage), and "
+"themes may lack support for features like a user list or alternative "
+"authentication methods."
+msgstr ""
 
-#: kdm-gen.cpp:77 kdm-gen.cpp:88 kdm-users.cpp:114
+#: kdm-gen.cpp:80 kdm-gen.cpp:91 kdm-users.cpp:114
 msgid "<placeholder>default</placeholder>"
 msgstr "<placeholder>ডিফল্ট মান</placeholder>"
 
-#: kdm-gen.cpp:82
+#: kdm-gen.cpp:85
 msgid "GUI s&tyle:"
 msgstr "GUI-র বিন্যাস: (&t)"
 
-#: kdm-gen.cpp:84
+#: kdm-gen.cpp:87
 msgid "You can choose a basic GUI style here that will be used by KDM only."
 msgstr "শুধুমাত্র KDM দ্বারা ব্যবহারযোগ্য একটি সাদামাটা GUI বিন্যাস নির্বাচন করুন।"
 
-#: kdm-gen.cpp:92
+#: kdm-gen.cpp:95
 msgid "Color sche&me:"
 msgstr "রঙের বিন্যাস: (&m)"
 
-#: kdm-gen.cpp:94
+#: kdm-gen.cpp:97
 msgid "You can choose a basic Color Scheme here that will be used by KDM only."
 msgstr ""
 "শুধুমাত্র KDM-র সাথে ব্যবহারযোগ্য রঙের মৌলিক বিন্যাস এইখানে নির্বাচন করা যাবে।"
 
-#: kdm-gen.cpp:97
+#: kdm-gen.cpp:100
 msgctxt "@title:group"
 msgid "Fonts"
 msgstr "ফন্ট"
 
-#: kdm-gen.cpp:104
+#: kdm-gen.cpp:107
 msgid ""
 "This changes the font which is used for all the text in the login manager "
 "except for the greeting and failure messages."
@@ -298,12 +304,12 @@ msgstr ""
 "এর ফলে অভিবাদন ও বিফলতার বার্তা ব্যতীত লগ-ইন পর্দায় অন্যান্য টেক্সট প্রদর্শনের জন্য "
 "ব্যবহৃত ফন্ট পরিবর্তিত হবে"
 
-#: kdm-gen.cpp:107
+#: kdm-gen.cpp:110
 msgctxt "... font"
 msgid "&General:"
 msgstr "সাধারণ: (&G)"
 
-#: kdm-gen.cpp:111
+#: kdm-gen.cpp:114
 msgid ""
 "This changes the font which is used for failure messages in the login "
 "manager."
@@ -311,26 +317,26 @@ msgstr ""
 "লগ-ইন পরিচালন ব্যবস্থার মধ্যে বিফলতা সংক্রান্ত বার্তা প্রদর্শনের জন্য ব্যবহৃত ফন্ট এর "
 "ফলে পরিবর্তন করা হয়।"
 
-#: kdm-gen.cpp:113
+#: kdm-gen.cpp:116
 msgctxt "font for ..."
 msgid "&Failure:"
 msgstr "ব্যর্থতা: (&F)"
 
-#: kdm-gen.cpp:117
+#: kdm-gen.cpp:120
 msgid "This changes the font which is used for the login manager's greeting."
 msgstr ""
 "লগ-ইন পরিচালন ব্যবস্থার অভিবাদন বার্তার জন্য ব্যবহৃত ফন্ট এর ফলে পরিবর্তন করা হবে।"
 
-#: kdm-gen.cpp:119
+#: kdm-gen.cpp:122
 msgctxt "font for ..."
 msgid "Gree&ting:"
 msgstr "অভিবাদন: (&t)"
 
-#: kdm-gen.cpp:121
+#: kdm-gen.cpp:124
 msgid "Use anti-aliasing for fonts"
 msgstr "ফন্টের জন্য অ্যান্ট-অ্যালায়েসিং ব্যবহার করা হবে"
 
-#: kdm-gen.cpp:123
+#: kdm-gen.cpp:126
 msgid ""
 "If you check this box and your X-Server has the Xft extension, fonts will be "
 "antialiased (smoothed) in the login dialog."
@@ -927,3 +933,10 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#~ msgid "&Use themed greeter"
+#~ msgstr "থিমসহ অভিবাদন পদ্ধতি ব্যবহার করা হবে (&U)"
+
+#~ msgid "Enable this if you would like to use a themed Login Manager."
+#~ msgstr ""
+#~ "থিম সহ লগ-ইন পরিচালনব্যবস্থা ব্যবহার করতে ইচ্ছুক হলে, এই বৈশিষ্ট্য সক্রিয় করুন।"
