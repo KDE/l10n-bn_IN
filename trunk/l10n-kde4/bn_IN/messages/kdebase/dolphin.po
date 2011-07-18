@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-11 04:52+0200\n"
+"POT-Creation-Date: 2011-07-18 04:11+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1684,237 +1684,6 @@ msgctxt "@info"
 msgid "Split view"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: dolphinpart.cpp:149
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
-
-#: dolphinpart.cpp:153
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:158
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:164
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr ""
-
-#: dolphinpart.cpp:181
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "অ্যাপলিকেশন (&l)"
-
-#: dolphinpart.cpp:184
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
-
-#: dolphinpart.cpp:187
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "বিন্যাস (&i)"
-
-#: dolphinpart.cpp:190
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "অাবর্জনার বাক্স"
-
-#: dolphinpart.cpp:193
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "স্বচালিত"
-
-#: dolphinpart.cpp:198
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "ফাইল অনুসন্ধান..."
-
-#: dolphinpart.cpp:206
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "টার্মিনাল খুলুন (&T)"
-
-#: dolphinpart.cpp:275
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Dolphin Part"
-
-#: dolphinpart.cpp:464
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@title:window"
-msgid "Select"
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:465
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:471
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr ""
-
-#: dolphinpart.cpp:472
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "Dolphin"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "ফাইল ম্যানেজার"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2009 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2011 Peter Penz"
-msgstr "(C) ২০০৬-২০০৯ পিটার পেন্জ"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "পিটার পেন্জ"
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer"
-msgstr "মেন্টেনার ও ডেভেলাপার"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "ডেভিড ফওর"
-
-#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "ডেভেলাপার"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "অ্যরন জে. সিয়েগো"
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "রাফেল ফারন্যন্ডেজ লোপেজ"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "কেভিন ওটেন্স"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "হোল্গার ফ্রেথার"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "ম্যাক্স ব্লেজজ্যাক"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "মাইকেল অ্যাস্টিন"
-
-#: main.cpp:63
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "ডকুমেনটেশন"
-
-#: main.cpp:73
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:75
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:76
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "যে ডকুমেন্টটা খুলতে হবে"
-
-#: dolphincontextmenu.cpp:170
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "অাবর্জনার বাক্স খালি করা হবে"
-
-#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:338
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "প্লেসেসে এ্যাড করা হবে"
-
-#: dolphincontextmenu.cpp:196
-msgctxt "@label"
-msgid "Trash"
-msgstr "অাবর্জনার বাক্স"
-
-#: dolphincontextmenu.cpp:206
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "পুনরুদ্ধার"
-
-#: dolphincontextmenu.cpp:258
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "প্লেসেসে এ্যাড করা হবে"
-
-#: dolphincontextmenu.cpp:265
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr ""
-
-#: dolphincontextmenu.cpp:271
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr ""
-
-#: dolphincontextmenu.cpp:437
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ফোল্ডারে পেস্ট করা হবে"
-
-#: dolphincontextmenu.cpp:549
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "অাবর্জনার বাক্সে সরানো হবে"
-
-#: dolphincontextmenu.cpp:552
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "মুছে ফেলা হবে"
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -2403,6 +2172,237 @@ msgstr "অবস্থান:"
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "মুখ্য টুলবার"
+
+#: dolphinpart.cpp:149
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
+
+#: dolphinpart.cpp:153
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:158
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:164
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr ""
+
+#: dolphinpart.cpp:181
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "অ্যাপলিকেশন (&l)"
+
+#: dolphinpart.cpp:184
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
+
+#: dolphinpart.cpp:187
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "বিন্যাস (&i)"
+
+#: dolphinpart.cpp:190
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "অাবর্জনার বাক্স"
+
+#: dolphinpart.cpp:193
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "স্বচালিত"
+
+#: dolphinpart.cpp:198
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "ফাইল অনুসন্ধান..."
+
+#: dolphinpart.cpp:206
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "টার্মিনাল খুলুন (&T)"
+
+#: dolphinpart.cpp:275
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Dolphin Part"
+
+#: dolphinpart.cpp:464
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@title:window"
+msgid "Select"
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:465
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:471
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:472
+msgid "Unselect all items matching this pattern:"
+msgstr ""
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "ফাইল ম্যানেজার"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2009 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2011 Peter Penz"
+msgstr "(C) ২০০৬-২০০৯ পিটার পেন্জ"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "পিটার পেন্জ"
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer"
+msgstr "মেন্টেনার ও ডেভেলাপার"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "ডেভিড ফওর"
+
+#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "ডেভেলাপার"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "অ্যরন জে. সিয়েগো"
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "রাফেল ফারন্যন্ডেজ লোপেজ"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "কেভিন ওটেন্স"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "হোল্গার ফ্রেথার"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "ম্যাক্স ব্লেজজ্যাক"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "মাইকেল অ্যাস্টিন"
+
+#: main.cpp:63
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "ডকুমেনটেশন"
+
+#: main.cpp:73
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:75
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:76
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "যে ডকুমেন্টটা খুলতে হবে"
+
+#: dolphincontextmenu.cpp:170
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "অাবর্জনার বাক্স খালি করা হবে"
+
+#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:338
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "প্লেসেসে এ্যাড করা হবে"
+
+#: dolphincontextmenu.cpp:196
+msgctxt "@label"
+msgid "Trash"
+msgstr "অাবর্জনার বাক্স"
+
+#: dolphincontextmenu.cpp:206
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "পুনরুদ্ধার"
+
+#: dolphincontextmenu.cpp:258
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "প্লেসেসে এ্যাড করা হবে"
+
+#: dolphincontextmenu.cpp:265
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr ""
+
+#: dolphincontextmenu.cpp:271
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr ""
+
+#: dolphincontextmenu.cpp:437
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ফোল্ডারে পেস্ট করা হবে"
+
+#: dolphincontextmenu.cpp:549
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "অাবর্জনার বাক্সে সরানো হবে"
+
+#: dolphincontextmenu.cpp:552
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "মুছে ফেলা হবে"
 
 #~ msgctxt "@info"
 #~ msgid "Do you really want to empty the Trash? All items will be deleted."
