@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-10 04:01+0200\n"
+"POT-Creation-Date: 2011-07-19 04:19+0200\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -732,13 +732,13 @@ msgstr "স্থানান্তর করুন"
 
 #: kcmfontinst/KCmFontInst.cpp:731
 #, fuzzy, kde-format
-#| msgid "Do you really want to move this font?"
-#| msgid_plural "Do you really want to move these %1 fonts?"
-msgid "Do you really want to move this font?"
+#| msgid "<p>Do you really want to move</p><p>'<b>%1</b>'?</p>"
+msgid ""
+"<p>Do you really want to move this font from <i>%2</i> to <i>%3</i>?</p>"
 msgid_plural ""
-"<p>Do you really want to move these %1 fonts from <i>%2</i> to <i>%3</i>?"
-msgstr[0] "আপনি কি নিশ্চিতরূপে এই ফন্টটি স্থানান্তর করতে ইচ্ছুক?"
-msgstr[1] "আপনি কি নিশ্চিতরূপে এই %1-টি ফন্ট স্থানান্তর করতে ইচ্ছুক?"
+"<p>Do you really want to move these %1 fonts from <i>%2</i> to <i>%3</i>?</p>"
+msgstr[0] "<p>আপনি কি নিশ্চিতরূপে </p><p>'<b>%1</b>' স্থানান্তর করতে ইচ্ছুক?</p>"
+msgstr[1] "<p>আপনি কি নিশ্চিতরূপে </p><p>'<b>%1</b>' স্থানান্তর করতে ইচ্ছুক?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:736
 msgid "Move Fonts"
@@ -2105,6 +2105,15 @@ msgid "Yi"
 msgstr "ইয়ি"
 
 #, fuzzy
+#~| msgid "Do you really want to move this font?"
+#~| msgid_plural "Do you really want to move these %1 fonts?"
+#~ msgid "Do you really want to move this font?"
+#~ msgid_plural ""
+#~ "<p>Do you really want to move these %1 fonts from <i>%2</i> to <i>%3</i>?"
+#~ msgstr[0] "আপনি কি নিশ্চিতরূপে এই ফন্টটি স্থানান্তর করতে ইচ্ছুক?"
+#~ msgstr[1] "আপনি কি নিশ্চিতরূপে এই %1-টি ফন্ট স্থানান্তর করতে ইচ্ছুক?"
+
+#, fuzzy
 #~| msgid "Print..."
 #~ msgid "Starting..."
 #~ msgstr "প্রিন্ট করুন..."
@@ -2116,16 +2125,6 @@ msgstr "ইয়ি"
 
 #~ msgid "Failed to locate font printer."
 #~ msgstr "ফন্ট প্রিন্টার সনাক্র করতে ব্যর্থ।"
-
-#, fuzzy
-#~| msgid "<p>Do you really want to move</p><p>'<b>%1</b>'?</p>"
-#~ msgid ""
-#~ "<p>Do you really want to move this font from <i>%2</i> to <i>%3</i>?</p>"
-#~ msgid_plural ""
-#~ "<p>Do you really want to move these %1 fonts from <i>%2</i> to <i>%3</i>?"
-#~ "</p>"
-#~ msgstr[0] "<p>আপনি কি নিশ্চিতরূপে </p><p>'<b>%1</b>' স্থানান্তর করতে ইচ্ছুক?</p>"
-#~ msgstr[1] "<p>আপনি কি নিশ্চিতরূপে </p><p>'<b>%1</b>' স্থানান্তর করতে ইচ্ছুক?</p>"
 
 #~ msgid "Move Here"
 #~ msgstr "এইখানে স্থানান্তর করুন"
