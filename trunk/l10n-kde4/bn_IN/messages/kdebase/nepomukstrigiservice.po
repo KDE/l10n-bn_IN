@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-06 04:16+0200\n"
+"POT-Creation-Date: 2011-07-29 04:00+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -109,35 +109,36 @@ msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কট
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
-msgid "File indexer is suspended"
+msgid "File indexer is suspended."
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে বিরত রয়েছে"
 
 #: strigiservice.cpp:164
 #, fuzzy
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files"
-msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
+msgid "Indexing files for desktop search."
+msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
 
 #: strigiservice.cpp:168
 #, fuzzy, kde-format
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgid "Indexed files:"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1"
-msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
+msgid "Indexing files in %1"
+msgstr "ইন্ডেক্স করা ফাইল:"
 
 #: strigiservice.cpp:170
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1 (%2)"
+msgid "Indexing files in %1 (%2)"
 msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
 
 #: strigiservice.cpp:174
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
-msgid "File indexer is idle"
+msgid "File indexer is idle."
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে কর্মহীন"
 
 #: rc.cpp:1
@@ -149,6 +150,18 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files"
+#~ msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "Strigi দ্বারা বর্তমানে %1 ফোল্ডারের ফাইল ইন্ডেক্স করা হচ্ছে"
 
 #~ msgctxt "@info - notification message"
 #~ msgid "Converting Nepomuk data to a new backend. This might take a while."
@@ -364,9 +377,6 @@ msgstr "runab@redhat.com"
 #~| msgid "Nepomuk store size:"
 #~ msgid "Nepomuk Repository Details"
 #~ msgstr "Nepomuk সংরক্ষণস্থলের মাপ:"
-
-#~ msgid "Indexed files:"
-#~ msgstr "ইন্ডেক্স করা ফাইল:"
 
 #~ msgid "Calculating..."
 #~ msgstr "গণনা করা হচ্ছে..."
