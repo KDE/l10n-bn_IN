@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-29 04:00+0200\n"
+"POT-Creation-Date: 2011-08-02 05:32+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,17 +42,6 @@ msgctxt ""
 "index for desktop search"
 msgid "Customizing Index Folders"
 msgstr "Strigi ইন্ডেক্স ফোল্ডার"
-
-#: statuswidget.cpp:99
-msgid "Calculation failed"
-msgstr "গণনা করতে ব্যর্থ"
-
-#: statuswidget.cpp:110
-#, kde-format
-msgid "1 file in index"
-msgid_plural "%1 files in index"
-msgstr[0] "ইন্ডেক্সের মধ্যে ১-টি ফাইল"
-msgstr[1] "ইন্ডেক্সের মধ্যে %1-টি ফাইল"
 
 #: nepomukserverkcm.cpp:95
 msgctxt "'Home' as in 'Home path', i.e. /home/username"
@@ -181,6 +171,17 @@ msgstr ""
 #: nepomukserverkcm.cpp:478
 msgid "Please enter a query to be listed in the root folder"
 msgstr ""
+
+#: statuswidget.cpp:100
+msgid "Calculation failed"
+msgstr "গণনা করতে ব্যর্থ"
+
+#: statuswidget.cpp:111
+#, kde-format
+msgid "1 file in index"
+msgid_plural "%1 files in index"
+msgstr[0] "ইন্ডেক্সের মধ্যে ১-টি ফাইল"
+msgstr[1] "ইন্ডেক্সের মধ্যে %1-টি ফাইল"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

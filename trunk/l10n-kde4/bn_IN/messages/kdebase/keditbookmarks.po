@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 03:56+0200\n"
+"POT-Creation-Date: 2011-08-02 05:23+0200\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,11 +29,6 @@ msgstr "ঠিক আছে"
 #: favicons.cpp:72
 msgid "Updating favicon..."
 msgstr "ফেভ-আইকন আপডেট করা হচ্ছে..."
-
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
-msgstr ""
 
 #: importers.h:102
 msgid "Galeon"
@@ -201,52 +197,6 @@ msgctxt "(qtundo-format)"
 msgid "Move Items"
 msgstr "বস্তু স্থানান্তর করুন"
 
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr "অনুসন্ধানের কলাম"
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr "সকল দৃশ্যমান কলাম"
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr "কলাম সংখ্যা %1"
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr "অনুসন্ধান: (&e)"
-
-#: testlink.cpp:76
-msgid "Checking..."
-msgstr "পরীক্ষা করা হচ্ছে..."
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "নাম:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr "মন্তব্য:"
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr "প্রথম দর্শন:"
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr "সর্বশেষ দর্শন:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
-msgstr "পরিদর্শনের সংখ্যা:"
-
 #: main.cpp:68
 #, kde-format
 msgid ""
@@ -380,6 +330,47 @@ msgstr "শুধুমাত্র একটি --export বিকল্প উ
 #: main.cpp:171
 msgid "You may only specify a single --import option."
 msgstr "শুধুমাত্র একটি --import বিকল্প উল্লেখ করা যাবে।"
+
+#: importers.cpp:56
+#, fuzzy, kde-format
+#| msgid "Import %1 Bookmarks"
+msgctxt "(qtundo-format)"
+msgid "Import %1 Bookmarks"
+msgstr "%1 বুকমার্ক ইম্পোর্ট করুন"
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "%1 বুকমার্ক"
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr ""
+"নতুন সাব-ফোল্ডার রূপে ইম্পোর্ট করা হবে নাকি বর্তমানে উপস্থিত সকল বুকমার্ক মুছে ফেলা "
+"হবে?"
+
+#: importers.cpp:93
+#, fuzzy, kde-format
+#| msgid "%1 Import"
+msgctxt "@title:window"
+msgid "%1 Import"
+msgstr "%1 ইম্পোর্ট করুন"
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr "নতুন ফোল্ডার রূপে"
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "প্রতিস্থাপন"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|Galeon বুকমার্ক ফাইল (*.xbel)"
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|KDE বুকমার্ক ফাইল (*.xml)"
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -557,46 +548,56 @@ msgctxt "(qtundo-format)"
 msgid "Delete Items"
 msgstr "বস্তু মুছে ফেলুন"
 
-#: importers.cpp:56
-#, fuzzy, kde-format
-#| msgid "Import %1 Bookmarks"
-msgctxt "(qtundo-format)"
-msgid "Import %1 Bookmarks"
-msgstr "%1 বুকমার্ক ইম্পোর্ট করুন"
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "নাম:"
 
-#: importers.cpp:60
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr "মন্তব্য:"
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr "প্রথম দর্শন:"
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr "সর্বশেষ দর্শন:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr "পরিদর্শনের সংখ্যা:"
+
+#: faviconupdater.cpp:87
 #, kde-format
-msgid "%1 Bookmarks"
-msgstr "%1 বুকমার্ক"
-
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgid "%1; no HTML component found (%2)"
 msgstr ""
-"নতুন সাব-ফোল্ডার রূপে ইম্পোর্ট করা হবে নাকি বর্তমানে উপস্থিত সকল বুকমার্ক মুছে ফেলা "
-"হবে?"
 
-#: importers.cpp:93
-#, fuzzy, kde-format
-#| msgid "%1 Import"
-msgctxt "@title:window"
-msgid "%1 Import"
-msgstr "%1 ইম্পোর্ট করুন"
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr "অনুসন্ধানের কলাম"
 
-#: importers.cpp:94
-msgid "As New Folder"
-msgstr "নতুন ফোল্ডার রূপে"
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr "সকল দৃশ্যমান কলাম"
 
-#: importers.cpp:94
-msgid "Replace"
-msgstr "প্রতিস্থাপন"
+#: kebsearchline.cpp:285
+#, kde-format
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "কলাম সংখ্যা %1"
 
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr "*.xbel|Galeon বুকমার্ক ফাইল (*.xbel)"
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr "অনুসন্ধান: (&e)"
 
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr "*.xml|KDE বুকমার্ক ফাইল (*.xml)"
+#: testlink.cpp:76
+msgid "Checking..."
+msgstr "পরীক্ষা করা হচ্ছে..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
