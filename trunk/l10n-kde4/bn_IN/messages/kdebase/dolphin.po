@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-09 03:44+0200\n"
+"POT-Creation-Date: 2011-08-10 03:22+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -192,61 +192,6 @@ msgctxt "@label:textbox"
 msgid "Find:"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:56
-msgctxt "@title:group"
-msgid "View Properties"
-msgstr "প্রদর্শনের বৈশিষ্টাবলী"
-
-#: settings/general/behaviorsettingspage.cpp:59
-msgctxt "@option:radio"
-msgid "Remember view properties for each folder"
-msgstr "প্রত্যেকটা ফোল্ডারের প্রদর্শনের বৈশিষ্টাবলী সংরক্ষিত হবে"
-
-#: settings/general/behaviorsettingspage.cpp:61
-msgctxt "@option:radio"
-msgid "Use common view properties for all folders"
-msgstr "সব ফোল্ডার প্রদর্শনের জন্যে একই বৈশিষ্টাবলী ব্যবহৃত হবে"
-
-#: settings/general/behaviorsettingspage.cpp:68
-msgctxt "@title:group"
-msgid "Ask For Confirmation When"
-msgstr "ব্যবহারকারীর অনুমোদন জন্যে জিজ্ঞেস করবে যখন"
-
-#: settings/general/behaviorsettingspage.cpp:71
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Moving files or folders to trash"
-msgstr "ফাইল ও ফোল্ডারগুলো অাবর্জনার বাক্সে ফেলা হচ্ছে"
-
-#: settings/general/behaviorsettingspage.cpp:73
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Deleting files or folders"
-msgstr "ফাইল ও ফোল্ডারগুলো মুছে ফেলা হচ্ছে"
-
-#: settings/general/behaviorsettingspage.cpp:75
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Closing windows with multiple tabs"
-msgstr ""
-
-#: settings/general/behaviorsettingspage.cpp:83
-msgctxt "@option:check"
-msgid "Rename inline"
-msgstr "নাম পরিবর্তন করবে"
-
-#: settings/general/behaviorsettingspage.cpp:86
-msgctxt "@option:check"
-msgid "Show tooltips"
-msgstr "টুলের সম্যন্ধে দেখানো হবে"
-
-#: settings/general/behaviorsettingspage.cpp:89
-msgctxt "@option:check"
-msgid "Show selection marker"
-msgstr "নির্বাচনের মার্কার দেখাও"
-
-#: settings/general/behaviorsettingspage.cpp:92
-msgctxt "option:check"
-msgid "Natural sorting of items"
-msgstr ""
-
 #: settings/general/contextmenusettingspage.cpp:43
 msgctxt "@option:check"
 msgid "Show 'Delete' command"
@@ -318,6 +263,61 @@ msgstr ""
 #: settings/general/previewssettingspage.cpp:101
 msgctxt "@label Don't create previews for: <Remote files above:> XX MByte"
 msgid "Remote files above:"
+msgstr ""
+
+#: settings/general/behaviorsettingspage.cpp:56
+msgctxt "@title:group"
+msgid "View Properties"
+msgstr "প্রদর্শনের বৈশিষ্টাবলী"
+
+#: settings/general/behaviorsettingspage.cpp:59
+msgctxt "@option:radio"
+msgid "Remember view properties for each folder"
+msgstr "প্রত্যেকটা ফোল্ডারের প্রদর্শনের বৈশিষ্টাবলী সংরক্ষিত হবে"
+
+#: settings/general/behaviorsettingspage.cpp:61
+msgctxt "@option:radio"
+msgid "Use common view properties for all folders"
+msgstr "সব ফোল্ডার প্রদর্শনের জন্যে একই বৈশিষ্টাবলী ব্যবহৃত হবে"
+
+#: settings/general/behaviorsettingspage.cpp:68
+msgctxt "@title:group"
+msgid "Ask For Confirmation When"
+msgstr "ব্যবহারকারীর অনুমোদন জন্যে জিজ্ঞেস করবে যখন"
+
+#: settings/general/behaviorsettingspage.cpp:71
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Moving files or folders to trash"
+msgstr "ফাইল ও ফোল্ডারগুলো অাবর্জনার বাক্সে ফেলা হচ্ছে"
+
+#: settings/general/behaviorsettingspage.cpp:73
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Deleting files or folders"
+msgstr "ফাইল ও ফোল্ডারগুলো মুছে ফেলা হচ্ছে"
+
+#: settings/general/behaviorsettingspage.cpp:75
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Closing windows with multiple tabs"
+msgstr ""
+
+#: settings/general/behaviorsettingspage.cpp:83
+msgctxt "@option:check"
+msgid "Rename inline"
+msgstr "নাম পরিবর্তন করবে"
+
+#: settings/general/behaviorsettingspage.cpp:86
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "টুলের সম্যন্ধে দেখানো হবে"
+
+#: settings/general/behaviorsettingspage.cpp:89
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "নির্বাচনের মার্কার দেখাও"
+
+#: settings/general/behaviorsettingspage.cpp:92
+msgctxt "option:check"
+msgid "Natural sorting of items"
 msgstr ""
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:58
@@ -996,6 +996,62 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "অজানা পরিমান"
 
+#: views/dolphinview.cpp:466
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:467
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> নির্বাচিত হয়েছে (%2)"
+
+#: views/dolphinview.cpp:471
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:472
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:474
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:477
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:959
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "মুছে ফেলা শেষ হলো।"
+
+#: views/dolphinview.cpp:1011
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
+
+#: views/dolphinview.cpp:1013
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "'%1' জায়গাটা সঠিক নয়।"
+
 #: views/renamedialog.cpp:54
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -1034,62 +1090,6 @@ msgstr[1] "%1 অাইটেম সমূহের নাম পরিবর্
 msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
-
-#: views/dolphinview.cpp:472
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:473
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> নির্বাচিত হয়েছে (%2)"
-
-#: views/dolphinview.cpp:477
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:478
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:480
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:483
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:941
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "মুছে ফেলা শেষ হলো।"
-
-#: views/dolphinview.cpp:1059
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
-
-#: views/dolphinview.cpp:1061
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "'%1' জায়গাটা সঠিক নয়।"
 
 #: dolphinpart.cpp:147
 msgctxt "@action:inmenu Edit"
@@ -1185,15 +1185,7 @@ msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:619
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Documentation"
-msgctxt "@item:intable"
-msgid "No destination"
-msgstr "ডকুমেনটেশন"
-
-#: kitemviews/kfileitemlistwidget.cpp:634
+#: kitemviews/kfileitemlistwidget.cpp:640
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -1203,6 +1195,14 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
+
+#: kitemviews/kfileitemmodel.cpp:622
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@item:intable"
+msgid "No destination"
+msgstr "ডকুমেনটেশন"
 
 #: dolphinmainwindow.cpp:339
 msgctxt "@info:status"
