@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:38+0200\n"
+"POT-Creation-Date: 2011-08-18 03:37+0200\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -57,57 +57,6 @@ msgstr "ব্যক্তিগত ফোল্ডার"
 #: core/models.cpp:124
 msgid "Network Folders"
 msgstr "নেটওয়ার্ক ফোল্ডার"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "নথিপত্র"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "অ্যাপ্লিকেশন"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "সম্প্রতি ব্যবহৃত"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "সম্প্রতি ব্যবহৃত"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
-
-#: core/systemmodel.cpp:85
-msgid "Places"
-msgstr "স্থান"
-
-#: core/systemmodel.cpp:86
-msgid "Removable Storage"
-msgstr "অপসারণযোগ্য সংরক্ষণস্থল"
-
-#: core/systemmodel.cpp:87
-msgid "Storage"
-msgstr "সংরক্ষণস্থল"
-
-#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr ""
-
-#: core/systemmodel.cpp:219
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:123 ui/launcher.cpp:270
-msgid "Computer"
-msgstr "কম্পিউটার"
 
 #: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -220,6 +169,57 @@ msgstr ""
 #: core/applicationmodel.cpp:429 ui/launcher.cpp:975
 msgid "All Applications"
 msgstr "সকল অ্যাপ্লিকেশন"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "নথিপত্র"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "অ্যাপ্লিকেশন"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "সম্প্রতি ব্যবহৃত"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "সম্প্রতি ব্যবহৃত"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "সম্প্রতি ব্যবহৃত অ্যাপ্লিকেশনের তালিকা পরিস্কার করুন"
+
+#: core/systemmodel.cpp:85
+msgid "Places"
+msgstr "স্থান"
+
+#: core/systemmodel.cpp:86
+msgid "Removable Storage"
+msgstr "অপসারণযোগ্য সংরক্ষণস্থল"
+
+#: core/systemmodel.cpp:87
+msgid "Storage"
+msgstr "সংরক্ষণস্থল"
+
+#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr ""
+
+#: core/systemmodel.cpp:219
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "কম্পিউটার"
 
 #: main.cpp:32
 msgid "Kickoff"
