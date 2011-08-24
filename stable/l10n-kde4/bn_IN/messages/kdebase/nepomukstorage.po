@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-23 16:55+0200\n"
+"POT-Creation-Date: 2011-08-24 10:36+0200\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -83,11 +83,6 @@ msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "Nepomuk-র তথ্য সাফল্যের সাথে নতুন ব্যাক-এন্ডে রূপান্তর করা হয়েছে।"
 
-#: ontologyloader.cpp:134
-#, kde-format
-msgid "Parsing of file %1 failed (%2)"
-msgstr "ফাইল %1 পার্স করতে ব্যর্থ (%2)"
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -97,6 +92,11 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#: ontologyloader.cpp:134
+#, kde-format
+msgid "Parsing of file %1 failed (%2)"
+msgstr "ফাইল %1 পার্স করতে ব্যর্থ (%2)"
 
 #, fuzzy
 #~| msgid "(c) 2008, Sebastian Trüg"
