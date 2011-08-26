@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:46+0200\n"
+"POT-Creation-Date: 2011-08-26 10:27+0200\n"
 "PO-Revision-Date: 2009-01-09 17:56+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kio_sftp.cpp:200 kio_sftp.cpp:204 kio_sftp.cpp:668
+#: kio_sftp.cpp:200 kio_sftp.cpp:204 kio_sftp.cpp:667
 msgid "SFTP Login"
 msgstr "SFTP লগ-ইন"
 
@@ -30,54 +30,54 @@ msgstr ""
 msgid "Could not allocate callbacks"
 msgstr ""
 
-#: kio_sftp.cpp:468
+#: kio_sftp.cpp:465
 #, kde-format
 msgid "Opening SFTP connection to host %1:%2"
 msgstr "%1:%2 হোস্টের সাথে SFTP সংযোগ স্থাপন করা হচ্ছে"
 
-#: kio_sftp.cpp:472
+#: kio_sftp.cpp:469
 #, fuzzy
 #| msgid "No hostname specified"
 msgid "No hostname specified."
 msgstr "কোনো হোস্ট-নেম উল্লিখিত হয়নি"
 
-#: kio_sftp.cpp:502
+#: kio_sftp.cpp:501
 msgid "Could not create a new SSH session."
 msgstr ""
 
-#: kio_sftp.cpp:511 kio_sftp.cpp:516
+#: kio_sftp.cpp:510 kio_sftp.cpp:515
 #, fuzzy
 #| msgid "Could not read SFTP packet"
 msgid "Could not set a timeout."
 msgstr "SFTP প্যাকেট পড়তে ব্যর্থ"
 
-#: kio_sftp.cpp:523 kio_sftp.cpp:529
+#: kio_sftp.cpp:522 kio_sftp.cpp:528
 msgid "Could not set compression."
 msgstr ""
 
-#: kio_sftp.cpp:536
+#: kio_sftp.cpp:535
 msgid "Could not set host."
 msgstr ""
 
-#: kio_sftp.cpp:543
+#: kio_sftp.cpp:542
 #, fuzzy
 #| msgid "Could not read SFTP packet"
 msgid "Could not set port."
 msgstr "SFTP প্যাকেট পড়তে ব্যর্থ"
 
-#: kio_sftp.cpp:552
+#: kio_sftp.cpp:551
 msgid "Could not set username."
 msgstr ""
 
-#: kio_sftp.cpp:561
+#: kio_sftp.cpp:560
 msgid "Could not set log verbosity."
 msgstr ""
 
-#: kio_sftp.cpp:569
+#: kio_sftp.cpp:568
 msgid "Could not parse the config file."
 msgstr ""
 
-#: kio_sftp.cpp:604
+#: kio_sftp.cpp:603
 #, kde-format
 msgid ""
 "The host key for this server was not found, but another type of key exists.\n"
@@ -87,7 +87,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kio_sftp.cpp:615
+#: kio_sftp.cpp:614
 #, kde-format
 msgid ""
 "The host key for the server %1 has changed.\n"
@@ -99,11 +99,11 @@ msgid ""
 "%3"
 msgstr ""
 
-#: kio_sftp.cpp:628
+#: kio_sftp.cpp:627
 msgid "Warning: Cannot verify host's identity."
 msgstr "সতর্কবার্তা: হোস্টের পরিচয় যাচাই করা যায়নি।"
 
-#: kio_sftp.cpp:629
+#: kio_sftp.cpp:628
 #, kde-format
 msgid ""
 "The authenticity of host %1 cannot be established.\n"
@@ -111,45 +111,45 @@ msgid ""
 "Are you sure you want to continue connecting?"
 msgstr ""
 
-#: kio_sftp.cpp:660 kio_sftp.cpp:680 kio_sftp.cpp:694 kio_sftp.cpp:736
+#: kio_sftp.cpp:659 kio_sftp.cpp:679 kio_sftp.cpp:693 kio_sftp.cpp:739
 msgid "Authentication failed."
 msgstr "পরিচয় প্রমাণ করতে ব্যর্থ।"
 
-#: kio_sftp.cpp:669
+#: kio_sftp.cpp:668
 msgid "Please enter your username and password."
 msgstr "অনুগ্রহ করে ব্যবহারকারীর নাম ও পাসওয়ার্ড লিখুন।"
 
-#: kio_sftp.cpp:671
+#: kio_sftp.cpp:670
 msgid "site:"
 msgstr "সাইট:"
 
-#: kio_sftp.cpp:711
+#: kio_sftp.cpp:710
 msgid "Incorrect username or password"
 msgstr "ব্যবহারকারী নাম অথবা পাসওয়ার্ড সঠিক নয়"
 
-#: kio_sftp.cpp:749
+#: kio_sftp.cpp:752
 msgid ""
 "Unable to request the SFTP subsystem. Make sure SFTP is enabled on the "
 "server."
 msgstr ""
 
-#: kio_sftp.cpp:757
+#: kio_sftp.cpp:760
 msgid "Could not initialize the SFTP session."
 msgstr ""
 
-#: kio_sftp.cpp:762
+#: kio_sftp.cpp:765
 #, kde-format
 msgid "Successfully connected to %1"
 msgstr "%1-র সাথে সাফল্যের সাথে সংযোগ করা হয়েছে"
 
-#: kio_sftp.cpp:1283
+#: kio_sftp.cpp:1291
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
 "%1"
 msgstr ""
 
-#: kio_sftp.cpp:1456
+#: kio_sftp.cpp:1464
 #, fuzzy, kde-format
 #| msgid "Could not read SFTP packet"
 msgid "Could not read link: %1"
