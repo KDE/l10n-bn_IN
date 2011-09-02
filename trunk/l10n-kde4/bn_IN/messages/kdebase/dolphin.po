@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-31 03:07+0200\n"
+"POT-Creation-Date: 2011-09-02 03:31+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -886,21 +886,63 @@ msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:992
+#: views/dolphinview.cpp:995
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1044
+#: views/dolphinview.cpp:1047
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1046
+#: views/dolphinview.cpp:1049
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "'%1' জায়গাটা সঠিক নয়।"
+
+#: views/renamedialog.cpp:57
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "অাইটেমের নাম পরিবর্তন"
+
+#: views/renamedialog.cpp:58
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "অাইটেম সমূহের নাম পরিবর্তন"
+
+#: views/renamedialog.cpp:62
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "নাম পরিবর্তন (&R)"
+
+#: views/renamedialog.cpp:72
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "অাইটেম <filename>%1</filename> নাম পরিবর্তন:"
+
+#: views/renamedialog.cpp:75
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "নতুন নাম #"
+
+#: views/renamedialog.cpp:77
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "%1 অাইটেমের নাম পরিবর্তন:"
+msgstr[1] "%1 অাইটেম সমূহের নাম পরিবর্তন:"
+
+#: views/renamedialog.cpp:106
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "(# will be replaced by ascending numbers)"
+msgctxt "@info"
+msgid "# will be replaced by ascending numbers starting with:"
+msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
 
 #: views/dolphinviewactionhandler.cpp:92
 msgctxt "@action"
@@ -1063,49 +1105,7 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "অজানা পরিমান"
 
-#: views/renamedialog.cpp:57
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "অাইটেমের নাম পরিবর্তন"
-
-#: views/renamedialog.cpp:58
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "অাইটেম সমূহের নাম পরিবর্তন"
-
-#: views/renamedialog.cpp:62
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "নাম পরিবর্তন (&R)"
-
-#: views/renamedialog.cpp:72
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "অাইটেম <filename>%1</filename> নাম পরিবর্তন:"
-
-#: views/renamedialog.cpp:75
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "নতুন নাম #"
-
-#: views/renamedialog.cpp:77
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "%1 অাইটেমের নাম পরিবর্তন:"
-msgstr[1] "%1 অাইটেম সমূহের নাম পরিবর্তন:"
-
-#: views/renamedialog.cpp:124
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "(# will be replaced by ascending numbers)"
-msgctxt "@info"
-msgid "# will be replaced by ascending numbers starting with:"
-msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
-
-#: kitemviews/kfileitemmodel.cpp:680
+#: kitemviews/kfileitemmodel.cpp:669
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
