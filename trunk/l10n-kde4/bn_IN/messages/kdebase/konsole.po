@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-04 04:03+0200\n"
+"POT-Creation-Date: 2011-09-05 03:38+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -172,6 +172,10 @@ msgstr[1] "প্রোফাইল \"%1\" সম্পাদনা করুন
 msgid "Edit Profile \"%1\""
 msgstr "প্রোফাইল \"%1\" সম্পাদনা করুন"
 
+#: EditProfileDialog.cpp:301
+msgid "One environment varible per line"
+msgstr ""
+
 #: EditProfileDialog.cpp:303
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা"
@@ -196,11 +200,11 @@ msgstr "টার্মিন্যালের প্রদর্শনের �
 msgid "Above Terminal Displays"
 msgstr "টার্মিন্যালের প্রদর্শনের উপরেী"
 
-#: EditProfileDialog.cpp:443
+#: EditProfileDialog.cpp:444
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরি নির্বাচন করুন"
 
-#: EditProfileDialog.cpp:460
+#: EditProfileDialog.cpp:461
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"

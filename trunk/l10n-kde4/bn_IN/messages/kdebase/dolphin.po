@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-03 03:05+0200\n"
+"POT-Creation-Date: 2011-09-05 03:35+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -789,11 +789,6 @@ msgstr "রিলোড"
 msgid "Default"
 msgstr "ডিফল্ট"
 
-#: views/draganddrophelper.cpp:108
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
-
 #: views/additionalinfoaccessor.cpp:99
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
@@ -848,62 +843,6 @@ msgstr "ডকুমেনটেশন"
 msgctxt "@label"
 msgid "Path"
 msgstr "পেস্ট"
-
-#: views/dolphinview.cpp:479
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:480
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> নির্বাচিত হয়েছে (%2)"
-
-#: views/dolphinview.cpp:484
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:485
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:487
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:490
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:995
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "মুছে ফেলা শেষ হলো।"
-
-#: views/dolphinview.cpp:1047
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
-
-#: views/dolphinview.cpp:1049
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "'%1' জায়গাটা সঠিক নয়।"
 
 #: views/renamedialog.cpp:57
 msgctxt "@title:window"
@@ -1084,6 +1023,67 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
+#: views/dolphinview.cpp:483
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:484
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> নির্বাচিত হয়েছে (%2)"
+
+#: views/dolphinview.cpp:488
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:489
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:491
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:494
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1012
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "মুছে ফেলা শেষ হলো।"
+
+#: views/dolphinview.cpp:1064
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
+
+#: views/dolphinview.cpp:1066
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "'%1' জায়গাটা সঠিক নয়।"
+
+#: views/draganddrophelper.cpp:50
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
+
 #: views/versioncontrol/versioncontrolobserver.cpp:188
 #, fuzzy
 #| msgctxt "@label"
@@ -1108,7 +1108,7 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "অজানা পরিমান"
 
-#: kitemviews/kfileitemmodel.cpp:669
+#: kitemviews/kfileitemmodel.cpp:675
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
