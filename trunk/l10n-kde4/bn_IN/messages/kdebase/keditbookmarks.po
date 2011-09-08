@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:23+0200\n"
+"POT-Creation-Date: 2011-09-08 03:52+0200\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,360 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: exporters.cpp:48
-msgid "My Bookmarks"
-msgstr "My Bookmarks"
-
-#: favicons.cpp:56 testlink.cpp:97
-msgid "OK"
-msgstr "ঠিক আছে"
-
-#: favicons.cpp:72
-msgid "Updating favicon..."
-msgstr "ফেভ-আইকন আপডেট করা হচ্ছে..."
-
-#: importers.h:102
-msgid "Galeon"
-msgstr "Galeon"
-
-#: importers.h:112
-msgid "KDE"
-msgstr "KDE"
-
-#: importers.h:133
-msgid "Netscape"
-msgstr "Netscape"
-
-#: importers.h:143
-msgid "Mozilla"
-msgstr "Mozilla"
-
-#: importers.h:153
-msgid "IE"
-msgstr "IE"
-
-#: importers.h:165
-msgid "Opera"
-msgstr "Opera"
-
-#: kbookmarkmerger.cpp:39
-msgid "KBookmarkMerger"
-msgstr "KBookmarkMerger"
-
-#: kbookmarkmerger.cpp:40
-msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
-msgstr ""
-
-#: kbookmarkmerger.cpp:42
-msgid "Copyright © 2005 Frerich Raabe"
-msgstr "স্বত্বাধিকার © ২০০৫ ফ্রেরিখ রাবে"
-
-#: kbookmarkmerger.cpp:43
-msgid "Frerich Raabe"
-msgstr "ফ্রেরিখ রাবে"
-
-#: kbookmarkmerger.cpp:43
-msgid "Original author"
-msgstr "মূল নির্মাতা"
-
-#: kbookmarkmerger.cpp:49
-msgid "Directory to scan for extra bookmarks"
-msgstr "অতিরিক্ত বুকমার্ক অনুসন্ধানের জন্য চিহ্নিত বুকমার্ক"
-
-#: kbookmarkmodel/model.cpp:116
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "বুকমার্ক"
-
-#: kbookmarkmodel/model.cpp:220
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "নাম:"
-
-#: kbookmarkmodel/model.cpp:224
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "অবস্থান:"
-
-#: kbookmarkmodel/model.cpp:228
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "মন্তব্য"
-
-#: kbookmarkmodel/model.cpp:232
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "অবস্থা"
-
-#: kbookmarkmodel/commands.cpp:68
-#, fuzzy
-#| msgid "Insert Separator"
-msgctxt "(qtundo-format)"
-msgid "Insert Separator"
-msgstr "বিভাজন রেখার যোগ করুন"
-
-#: kbookmarkmodel/commands.cpp:77
-#, fuzzy
-#| msgid "Create Bookmark"
-msgctxt "(qtundo-format)"
-msgid "Create Bookmark"
-msgstr "বুকমার্ক নির্মাণ করুন"
-
-#: kbookmarkmodel/commands.cpp:86
-#, fuzzy
-#| msgid "Create Folder"
-msgctxt "(qtundo-format)"
-msgid "Create Folder"
-msgstr "ফোল্ডার নির্মাণ করুন"
-
-#: kbookmarkmodel/commands.cpp:95
-#, fuzzy, kde-format
-#| msgid "Copy %1"
-msgctxt "(qtundo-format)"
-msgid "Copy %1"
-msgstr "%1 কপি করুন"
-
-#: kbookmarkmodel/commands.cpp:183
-#, fuzzy
-#| msgid "%1 Change"
-msgctxt "(qtundo-format)"
-msgid "Icon Change"
-msgstr "%1 পরিবর্তন"
-
-#: kbookmarkmodel/commands.cpp:185
-#, fuzzy
-#| msgid "%1 Change"
-msgctxt "(qtundo-format)"
-msgid "Title Change"
-msgstr "%1 পরিবর্তন"
-
-#: kbookmarkmodel/commands.cpp:187
-#, fuzzy
-#| msgid "%1 Change"
-msgctxt "(qtundo-format)"
-msgid "URL Change"
-msgstr "%1 পরিবর্তন"
-
-#: kbookmarkmodel/commands.cpp:189
-#, fuzzy
-#| msgid "Comment"
-msgctxt "(qtundo-format)"
-msgid "Comment Change"
-msgstr "মন্তব্য"
-
-#: kbookmarkmodel/commands.cpp:364
-#, fuzzy, kde-format
-#| msgid "Move %1"
-msgctxt "(qtundo-format)"
-msgid "Move %1"
-msgstr "%1 স্থানান্তর করুন"
-
-#: kbookmarkmodel/commands.cpp:481
-#, fuzzy
-#| msgid "Set as Bookmark Toolbar"
-msgctxt "(qtundo-format)"
-msgid "Set as Bookmark Toolbar"
-msgstr "বুকমার্ক টুলবার রূপে নির্ধারণ করুন"
-
-#: kbookmarkmodel/commands.cpp:517
-#, fuzzy
-#| msgid "Copy Items"
-msgctxt "(qtundo-format)"
-msgid "Copy Items"
-msgstr "বস্তু কপি করুন"
-
-#: kbookmarkmodel/commands.cpp:518
-#, fuzzy
-#| msgid "Move Items"
-msgctxt "(qtundo-format)"
-msgid "Move Items"
-msgstr "বস্তু স্থানান্তর করুন"
-
-#: main.cpp:68
-#, kde-format
-msgid ""
-"Another instance of %1 is already running. Do you really want to open "
-"another instance or continue work in the same instance?\n"
-"Please note that, unfortunately, duplicate views are read-only."
-msgstr ""
-
-#: main.cpp:71
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "সতর্কবার্তা"
-
-#: main.cpp:72
-msgid "Run Another"
-msgstr "একটি পৃথক সঞ্চালন করা হবে"
-
-#: main.cpp:73
-msgid "Continue in Same"
-msgstr "এটি মধ্যে চালানো হবে"
-
-#: main.cpp:96
-msgid "Bookmark Editor"
-msgstr "বুকমার্ক পরিচালন ব্যবস্থা"
-
-#: main.cpp:97
-msgid "Bookmark Organizer and Editor"
-msgstr "বুকমার্ক পরিচালনা ও সম্পাদন ব্যবস্থা"
-
-#: main.cpp:99
-msgid "Copyright 2000-2007, KDE developers"
-msgstr "স্বত্বাধিকার ২০০০-২০০৭, KDE-র নির্মাতাবৃন্দ"
-
-#: main.cpp:100
-msgid "David Faure"
-msgstr "ডেভিড ফেউরে"
-
-#: main.cpp:100
-msgid "Initial author"
-msgstr "মূল নির্মাতা"
-
-#: main.cpp:101
-msgid "Alexander Kellett"
-msgstr "আলেক্সান্ডার কেলেট"
-
-#: main.cpp:101
-msgid "Author"
-msgstr "নির্মাতা"
-
-#: main.cpp:108
-msgid "Import bookmarks from a file in Mozilla format"
-msgstr "Mozilla বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
-
-#: main.cpp:109
-msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
-msgstr ""
-"Netscape (4.x ও পূর্ববর্তী সংস্করণের) বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
-
-#: main.cpp:110
-msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
-msgstr ""
-"Internet Explorer-র Favorites বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
-
-#: main.cpp:111
-msgid "Import bookmarks from a file in Opera format"
-msgstr "Opera বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
-
-#: main.cpp:112
-#, fuzzy
-#| msgid "Import bookmarks from a file in Opera format"
-msgid "Import bookmarks from a file in KDE2 format"
-msgstr "Opera বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
-
-#: main.cpp:113
-#, fuzzy
-#| msgid "Import bookmarks from a file in Opera format"
-msgid "Import bookmarks from a file in Galeon format"
-msgstr "Opera বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
-
-#: main.cpp:114
-msgid "Export bookmarks to a file in Mozilla format"
-msgstr "Mozilla বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
-
-#: main.cpp:115
-msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
-msgstr "Netscape (4.x প পূর্ববর্তী সংস্করণের) বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
-
-#: main.cpp:116
-msgid "Export bookmarks to a file in a printable HTML format"
-msgstr "প্রিন্ট করার যোগ্য HTML বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
-
-#: main.cpp:117
-msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
-msgstr "Internet Explorer-র Favorites বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
-
-#: main.cpp:118
-msgid "Export bookmarks to a file in Opera format"
-msgstr "Opera বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
-
-#: main.cpp:119
-msgid "Open at the given position in the bookmarks file"
-msgstr "বুকমার্ক ফাইলের কোনো সুনির্দিষ্ট অবস্থানে খোলা হবে"
-
-#: main.cpp:120
-msgid "Set the user-readable caption, for example \"Konsole\""
-msgstr "ব্যবহারকারীদের দ্বারা পাঠযোগ্য শিরোনাম নির্ধারণ করা হবে, যেমন \"Konsole\""
-
-#: main.cpp:121
-msgid "Hide all browser related functions"
-msgstr "ব্রাউজার সংক্রান্ত সকল কর্ম আড়াল করা হবে"
-
-#: main.cpp:122
-msgid ""
-"A unique name that represents this bookmark collection, usually the "
-"kinstance name.\n"
-"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
-"KFileDialog bookmarks, etc.\n"
-"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
-msgstr ""
-
-#: main.cpp:125
-msgid "File to edit"
-msgstr "সম্পাদনযোগ্য ফাইল"
-
-#: main.cpp:166
-msgid "You may only specify a single --export option."
-msgstr "শুধুমাত্র একটি --export বিকল্প উল্লেখ করা যাবে।"
-
-#: main.cpp:171
-msgid "You may only specify a single --import option."
-msgstr "শুধুমাত্র একটি --import বিকল্প উল্লেখ করা যাবে।"
-
-#: importers.cpp:56
-#, fuzzy, kde-format
-#| msgid "Import %1 Bookmarks"
-msgctxt "(qtundo-format)"
-msgid "Import %1 Bookmarks"
-msgstr "%1 বুকমার্ক ইম্পোর্ট করুন"
-
-#: importers.cpp:60
-#, kde-format
-msgid "%1 Bookmarks"
-msgstr "%1 বুকমার্ক"
-
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
-msgstr ""
-"নতুন সাব-ফোল্ডার রূপে ইম্পোর্ট করা হবে নাকি বর্তমানে উপস্থিত সকল বুকমার্ক মুছে ফেলা "
-"হবে?"
-
-#: importers.cpp:93
-#, fuzzy, kde-format
-#| msgid "%1 Import"
-msgctxt "@title:window"
-msgid "%1 Import"
-msgstr "%1 ইম্পোর্ট করুন"
-
-#: importers.cpp:94
-msgid "As New Folder"
-msgstr "নতুন ফোল্ডার রূপে"
-
-#: importers.cpp:94
-msgid "Replace"
-msgstr "প্রতিস্থাপন"
-
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr "*.xbel|Galeon বুকমার্ক ফাইল (*.xbel)"
-
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr "*.xml|KDE বুকমার্ক ফাইল (*.xml)"
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -572,10 +218,230 @@ msgstr "সর্বশেষ দর্শন:"
 msgid "Times visited:"
 msgstr "পরিদর্শনের সংখ্যা:"
 
+#: exporters.cpp:48
+msgid "My Bookmarks"
+msgstr "My Bookmarks"
+
+#: favicons.cpp:56 testlink.cpp:97
+msgid "OK"
+msgstr "ঠিক আছে"
+
+#: favicons.cpp:72
+msgid "Updating favicon..."
+msgstr "ফেভ-আইকন আপডেট করা হচ্ছে..."
+
 #: faviconupdater.cpp:87
 #, kde-format
 msgid "%1; no HTML component found (%2)"
 msgstr ""
+
+#: importers.cpp:56
+#, fuzzy, kde-format
+#| msgid "Import %1 Bookmarks"
+msgctxt "(qtundo-format)"
+msgid "Import %1 Bookmarks"
+msgstr "%1 বুকমার্ক ইম্পোর্ট করুন"
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "%1 বুকমার্ক"
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr ""
+"নতুন সাব-ফোল্ডার রূপে ইম্পোর্ট করা হবে নাকি বর্তমানে উপস্থিত সকল বুকমার্ক মুছে ফেলা "
+"হবে?"
+
+#: importers.cpp:93
+#, fuzzy, kde-format
+#| msgid "%1 Import"
+msgctxt "@title:window"
+msgid "%1 Import"
+msgstr "%1 ইম্পোর্ট করুন"
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr "নতুন ফোল্ডার রূপে"
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "প্রতিস্থাপন"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|Galeon বুকমার্ক ফাইল (*.xbel)"
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|KDE বুকমার্ক ফাইল (*.xml)"
+
+#: importers.h:102
+msgid "Galeon"
+msgstr "Galeon"
+
+#: importers.h:112
+msgid "KDE"
+msgstr "KDE"
+
+#: importers.h:133
+msgid "Netscape"
+msgstr "Netscape"
+
+#: importers.h:143
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: importers.h:153
+msgid "IE"
+msgstr "IE"
+
+#: importers.h:165
+msgid "Opera"
+msgstr "Opera"
+
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr "KBookmarkMerger"
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr "স্বত্বাধিকার © ২০০৫ ফ্রেরিখ রাবে"
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr "ফ্রেরিখ রাবে"
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "মূল নির্মাতা"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr "অতিরিক্ত বুকমার্ক অনুসন্ধানের জন্য চিহ্নিত বুকমার্ক"
+
+#: kbookmarkmodel/commands.cpp:68
+#, fuzzy
+#| msgid "Insert Separator"
+msgctxt "(qtundo-format)"
+msgid "Insert Separator"
+msgstr "বিভাজন রেখার যোগ করুন"
+
+#: kbookmarkmodel/commands.cpp:77
+#, fuzzy
+#| msgid "Create Bookmark"
+msgctxt "(qtundo-format)"
+msgid "Create Bookmark"
+msgstr "বুকমার্ক নির্মাণ করুন"
+
+#: kbookmarkmodel/commands.cpp:86
+#, fuzzy
+#| msgid "Create Folder"
+msgctxt "(qtundo-format)"
+msgid "Create Folder"
+msgstr "ফোল্ডার নির্মাণ করুন"
+
+#: kbookmarkmodel/commands.cpp:95
+#, fuzzy, kde-format
+#| msgid "Copy %1"
+msgctxt "(qtundo-format)"
+msgid "Copy %1"
+msgstr "%1 কপি করুন"
+
+#: kbookmarkmodel/commands.cpp:183
+#, fuzzy
+#| msgid "%1 Change"
+msgctxt "(qtundo-format)"
+msgid "Icon Change"
+msgstr "%1 পরিবর্তন"
+
+#: kbookmarkmodel/commands.cpp:185
+#, fuzzy
+#| msgid "%1 Change"
+msgctxt "(qtundo-format)"
+msgid "Title Change"
+msgstr "%1 পরিবর্তন"
+
+#: kbookmarkmodel/commands.cpp:187
+#, fuzzy
+#| msgid "%1 Change"
+msgctxt "(qtundo-format)"
+msgid "URL Change"
+msgstr "%1 পরিবর্তন"
+
+#: kbookmarkmodel/commands.cpp:189
+#, fuzzy
+#| msgid "Comment"
+msgctxt "(qtundo-format)"
+msgid "Comment Change"
+msgstr "মন্তব্য"
+
+#: kbookmarkmodel/commands.cpp:364
+#, fuzzy, kde-format
+#| msgid "Move %1"
+msgctxt "(qtundo-format)"
+msgid "Move %1"
+msgstr "%1 স্থানান্তর করুন"
+
+#: kbookmarkmodel/commands.cpp:481
+#, fuzzy
+#| msgid "Set as Bookmark Toolbar"
+msgctxt "(qtundo-format)"
+msgid "Set as Bookmark Toolbar"
+msgstr "বুকমার্ক টুলবার রূপে নির্ধারণ করুন"
+
+#: kbookmarkmodel/commands.cpp:517
+#, fuzzy
+#| msgid "Copy Items"
+msgctxt "(qtundo-format)"
+msgid "Copy Items"
+msgstr "বস্তু কপি করুন"
+
+#: kbookmarkmodel/commands.cpp:518
+#, fuzzy
+#| msgid "Move Items"
+msgctxt "(qtundo-format)"
+msgid "Move Items"
+msgstr "বস্তু স্থানান্তর করুন"
+
+#: kbookmarkmodel/model.cpp:116
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "বুকমার্ক"
+
+#: kbookmarkmodel/model.cpp:220
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "নাম:"
+
+#: kbookmarkmodel/model.cpp:224
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "অবস্থান:"
+
+#: kbookmarkmodel/model.cpp:228
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "মন্তব্য"
+
+#: kbookmarkmodel/model.cpp:232
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "অবস্থা"
 
 #: kebsearchline.cpp:273
 msgid "Search Columns"
@@ -594,6 +460,140 @@ msgstr "কলাম সংখ্যা %1"
 #: kebsearchline.cpp:680
 msgid "S&earch:"
 msgstr "অনুসন্ধান: (&e)"
+
+#: main.cpp:68
+#, kde-format
+msgid ""
+"Another instance of %1 is already running. Do you really want to open "
+"another instance or continue work in the same instance?\n"
+"Please note that, unfortunately, duplicate views are read-only."
+msgstr ""
+
+#: main.cpp:71
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "সতর্কবার্তা"
+
+#: main.cpp:72
+msgid "Run Another"
+msgstr "একটি পৃথক সঞ্চালন করা হবে"
+
+#: main.cpp:73
+msgid "Continue in Same"
+msgstr "এটি মধ্যে চালানো হবে"
+
+#: main.cpp:96
+msgid "Bookmark Editor"
+msgstr "বুকমার্ক পরিচালন ব্যবস্থা"
+
+#: main.cpp:97
+msgid "Bookmark Organizer and Editor"
+msgstr "বুকমার্ক পরিচালনা ও সম্পাদন ব্যবস্থা"
+
+#: main.cpp:99
+msgid "Copyright 2000-2007, KDE developers"
+msgstr "স্বত্বাধিকার ২০০০-২০০৭, KDE-র নির্মাতাবৃন্দ"
+
+#: main.cpp:100
+msgid "David Faure"
+msgstr "ডেভিড ফেউরে"
+
+#: main.cpp:100
+msgid "Initial author"
+msgstr "মূল নির্মাতা"
+
+#: main.cpp:101
+msgid "Alexander Kellett"
+msgstr "আলেক্সান্ডার কেলেট"
+
+#: main.cpp:101
+msgid "Author"
+msgstr "নির্মাতা"
+
+#: main.cpp:108
+msgid "Import bookmarks from a file in Mozilla format"
+msgstr "Mozilla বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
+
+#: main.cpp:109
+msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
+msgstr ""
+"Netscape (4.x ও পূর্ববর্তী সংস্করণের) বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
+
+#: main.cpp:110
+msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
+msgstr ""
+"Internet Explorer-র Favorites বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
+
+#: main.cpp:111
+msgid "Import bookmarks from a file in Opera format"
+msgstr "Opera বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
+
+#: main.cpp:112
+#, fuzzy
+#| msgid "Import bookmarks from a file in Opera format"
+msgid "Import bookmarks from a file in KDE2 format"
+msgstr "Opera বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
+
+#: main.cpp:113
+#, fuzzy
+#| msgid "Import bookmarks from a file in Opera format"
+msgid "Import bookmarks from a file in Galeon format"
+msgstr "Opera বিন্যাসে উপস্থিত ফাইল থেকে বুকমার্ক ইম্পোর্ট করুন"
+
+#: main.cpp:114
+msgid "Export bookmarks to a file in Mozilla format"
+msgstr "Mozilla বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
+
+#: main.cpp:115
+msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
+msgstr "Netscape (4.x প পূর্ববর্তী সংস্করণের) বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
+
+#: main.cpp:116
+msgid "Export bookmarks to a file in a printable HTML format"
+msgstr "প্রিন্ট করার যোগ্য HTML বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
+
+#: main.cpp:117
+msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
+msgstr "Internet Explorer-র Favorites বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
+
+#: main.cpp:118
+msgid "Export bookmarks to a file in Opera format"
+msgstr "Opera বিন্যাসের ফাইলে বুকমার্ক এক্সপোর্ট করুন"
+
+#: main.cpp:119
+msgid "Open at the given position in the bookmarks file"
+msgstr "বুকমার্ক ফাইলের কোনো সুনির্দিষ্ট অবস্থানে খোলা হবে"
+
+#: main.cpp:120
+msgid "Set the user-readable caption, for example \"Konsole\""
+msgstr "ব্যবহারকারীদের দ্বারা পাঠযোগ্য শিরোনাম নির্ধারণ করা হবে, যেমন \"Konsole\""
+
+#: main.cpp:121
+msgid "Hide all browser related functions"
+msgstr "ব্রাউজার সংক্রান্ত সকল কর্ম আড়াল করা হবে"
+
+#: main.cpp:122
+msgid ""
+"A unique name that represents this bookmark collection, usually the "
+"kinstance name.\n"
+"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
+"KFileDialog bookmarks, etc.\n"
+"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
+msgstr ""
+
+#: main.cpp:125
+msgid "File to edit"
+msgstr "সম্পাদনযোগ্য ফাইল"
+
+#: main.cpp:166
+msgid "You may only specify a single --export option."
+msgstr "শুধুমাত্র একটি --export বিকল্প উল্লেখ করা যাবে।"
+
+#: main.cpp:171
+msgid "You may only specify a single --import option."
+msgstr "শুধুমাত্র একটি --import বিকল্প উল্লেখ করা যাবে।"
 
 #: testlink.cpp:76
 msgid "Checking..."
