@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:47+0200\n"
+"POT-Creation-Date: 2011-09-09 11:37+0200\n"
 "PO-Revision-Date: 2009-01-12 11:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: backgrounddialog.cpp:211
+msgid "Desktop Settings"
+msgstr ""
+
+#: backgrounddialog.cpp:216
+msgid "View"
+msgstr ""
+
+#: backgrounddialog.cpp:224
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+
+#: backgrounddialog.cpp:246
+msgid "Mouse Actions"
+msgstr ""
 
 #: mouseinputbutton.cpp:33
 #, fuzzy
@@ -102,10 +120,6 @@ msgstr ""
 msgid "Configure Plugin"
 msgstr ""
 
-#: scripting/layouttemplatepackagestructure.cpp:30
-msgid "Main Script File"
-msgstr ""
-
 #: scripting/containment.cpp:171
 msgid "widgetById requires an id"
 msgstr ""
@@ -128,6 +142,10 @@ msgstr ""
 
 #: scripting/i18n.cpp:97
 msgid "i18ncp() takes at least three arguments"
+msgstr ""
+
+#: scripting/layouttemplatepackagestructure.cpp:30
+msgid "Main Script File"
 msgstr ""
 
 #: scripting/scriptengine.cpp:77 scripting/scriptengine.cpp:193
@@ -156,6 +174,41 @@ msgid ""
 "Backtrace:\n"
 "%3"
 msgstr ""
+
+#: widgetsexplorer/appletsfiltering.cpp:55
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories"
+msgstr "শ্রেণী:"
+
+#: widgetsexplorer/appletsfiltering.cpp:161
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Term"
+msgstr "অনুসন্ধানযোগ্য পংক্তি এইখানে লিখুন"
+
+#: widgetsexplorer/appletsfiltering.cpp:166
+#: widgetsexplorer/appletsfiltering.cpp:168
+#, fuzzy
+#| msgid "Get New Widgets"
+msgid "Get New Widgets..."
+msgstr "নতুন উইজেট প্রাপ্ত করুন"
+
+#: widgetsexplorer/appletsfiltering.cpp:309
+msgid "Download New Plasma Widgets"
+msgstr "নতুন Plasma উইজেট ডাউনলোড করুন"
+
+#: widgetsexplorer/appletsfiltering.cpp:321
+#, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "নতুন %1 ডাউনলোড করুন"
+
+#: widgetsexplorer/appletsfiltering.cpp:331
+msgid "Install Widget From Local File..."
+msgstr "স্থানীয় ফাইল থেকে উইজেট ইনস্টল করুন..."
 
 #: widgetsexplorer/applettooltip.cpp:124
 #, fuzzy
@@ -223,6 +276,10 @@ msgstr "ইনস্টলেশন ব্যর্থ"
 msgid "Installing the package %1 failed."
 msgstr "%1 প্যাকেজ ইনস্টল করতে ব্যর্থ।"
 
+#: widgetsexplorer/plasmaappletitemmodel.cpp:194
+msgid "Containments"
+msgstr ""
+
 #: widgetsexplorer/widgetexplorer.cpp:115
 msgid "All Widgets"
 msgstr "সর্বধরনের উইজেট"
@@ -236,63 +293,6 @@ msgstr ""
 #| msgid "Categories:"
 msgid "Categories:"
 msgstr "শ্রেণী:"
-
-#: widgetsexplorer/appletsfiltering.cpp:55
-#, fuzzy
-#| msgid "Categories:"
-msgid "Categories"
-msgstr "শ্রেণী:"
-
-#: widgetsexplorer/appletsfiltering.cpp:161
-#, fuzzy
-#| msgid "Enter search phrase here"
-msgid "Enter Search Term"
-msgstr "অনুসন্ধানযোগ্য পংক্তি এইখানে লিখুন"
-
-#: widgetsexplorer/appletsfiltering.cpp:166
-#: widgetsexplorer/appletsfiltering.cpp:168
-#, fuzzy
-#| msgid "Get New Widgets"
-msgid "Get New Widgets..."
-msgstr "নতুন উইজেট প্রাপ্ত করুন"
-
-#: widgetsexplorer/appletsfiltering.cpp:309
-msgid "Download New Plasma Widgets"
-msgstr "নতুন Plasma উইজেট ডাউনলোড করুন"
-
-#: widgetsexplorer/appletsfiltering.cpp:321
-#, kde-format
-msgctxt ""
-"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
-"desktop files"
-msgid "Download New %1"
-msgstr "নতুন %1 ডাউনলোড করুন"
-
-#: widgetsexplorer/appletsfiltering.cpp:331
-msgid "Install Widget From Local File..."
-msgstr "স্থানীয় ফাইল থেকে উইজেট ইনস্টল করুন..."
-
-#: widgetsexplorer/plasmaappletitemmodel.cpp:194
-msgid "Containments"
-msgstr ""
-
-#: backgrounddialog.cpp:211
-msgid "Desktop Settings"
-msgstr ""
-
-#: backgrounddialog.cpp:216
-msgid "View"
-msgstr ""
-
-#: backgrounddialog.cpp:224
-msgid ""
-"This picture of a monitor contains a preview of what the current settings "
-"will look like on your desktop."
-msgstr ""
-
-#: backgrounddialog.cpp:246
-msgid "Mouse Actions"
-msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

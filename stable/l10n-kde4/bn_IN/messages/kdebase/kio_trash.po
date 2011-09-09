@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:46+0200\n"
+"POT-Creation-Date: 2011-09-09 11:35+0200\n"
 "PO-Revision-Date: 2008-12-29 15:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -125,16 +125,34 @@ msgid ""
 "instead of automatically deleting files.</para>"
 msgstr ""
 
-#: kio_trash_win.cpp:228 kio_trash.cpp:140
+#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:307 kio_trash.cpp:339
+#: kio_trash.cpp:505 kio_trash.cpp:517
+#, kde-format
+msgid "Malformed URL %1"
+msgstr "ত্রুটিপূর্ণ URL %1"
+
+#: kio_trash.cpp:111
+#, kde-format
+msgid ""
+"The directory %1 does not exist anymore, so it is not possible to restore "
+"this item to its original location. You can either recreate that directory "
+"and use the restore operation again, or drag the item anywhere else to "
+"restore it."
+msgstr ""
+"%1 নামক ডিরেক্টরিটি বর্তমানে উপস্থিত নেই। এর ফলে এই বস্তুটিকে সেটির পূর্ববর্তী "
+"অবস্থানে পুনরায় স্থাপন করা সম্ভব হবে না। ডিরেক্টরিটি নতুন করে নির্মাণ করে এই কর্ম "
+"পুনরায় প্রচেষ্টা করুন অথবা, বস্তুটিকে অন্য কোনো স্থানে টেনে নিয়ে পুনরুদ্ধার করুন।"
+
+#: kio_trash.cpp:140 kio_trash_win.cpp:228
 msgid "This file is already in the trash bin."
 msgstr "ফাইলটি পূর্বেই আবর্জনার বাক্সে স্থানান্তর করা হয়েছে।"
 
-#: kio_trash_win.cpp:241
-msgid "not supported"
+#: kio_trash.cpp:228 kio_trash_win.cpp:252
+msgid "Internal error in copyOrMove, should never happen"
 msgstr ""
 
-#: kio_trash_win.cpp:252 kio_trash.cpp:228
-msgid "Internal error in copyOrMove, should never happen"
+#: kio_trash_win.cpp:241
+msgid "not supported"
 msgstr ""
 
 #: ktrash.cpp:32
@@ -172,21 +190,3 @@ msgstr ""
 #: trashimpl.cpp:1136
 msgid "The file is too large to be trashed."
 msgstr "ফাইলটির অত্যাধিক বৃহৎ মাপের ফলে আবর্জনার বাক্সে স্থানান্তর করা সম্ভব নয়।"
-
-#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:307 kio_trash.cpp:339
-#: kio_trash.cpp:505 kio_trash.cpp:517
-#, kde-format
-msgid "Malformed URL %1"
-msgstr "ত্রুটিপূর্ণ URL %1"
-
-#: kio_trash.cpp:111
-#, kde-format
-msgid ""
-"The directory %1 does not exist anymore, so it is not possible to restore "
-"this item to its original location. You can either recreate that directory "
-"and use the restore operation again, or drag the item anywhere else to "
-"restore it."
-msgstr ""
-"%1 নামক ডিরেক্টরিটি বর্তমানে উপস্থিত নেই। এর ফলে এই বস্তুটিকে সেটির পূর্ববর্তী "
-"অবস্থানে পুনরায় স্থাপন করা সম্ভব হবে না। ডিরেক্টরিটি নতুন করে নির্মাণ করে এই কর্ম "
-"পুনরায় প্রচেষ্টা করুন অথবা, বস্তুটিকে অন্য কোনো স্থানে টেনে নিয়ে পুনরুদ্ধার করুন।"
