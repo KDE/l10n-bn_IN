@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-19 03:32+0200\n"
+"POT-Creation-Date: 2011-09-21 03:19+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -504,12 +504,12 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
 
-#: kitemviews/kfileitemlistview.cpp:442
+#: kitemviews/kfileitemlistview.cpp:435
 msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemlistwidget.cpp:673
+#: kitemviews/kfileitemlistwidget.cpp:652
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -520,7 +520,70 @@ msgid_plural "%1 items"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
 
-#: kitemviews/kfileitemmodel.cpp:822
+#: kitemviews/kfileitemmodel.cpp:220
+#, fuzzy
+#| msgctxt "@label Tag name"
+#| msgid "Name:"
+msgctxt "@item:intable"
+msgid "Name"
+msgstr "নাম:"
+
+#: kitemviews/kfileitemmodel.cpp:221
+#, fuzzy
+#| msgctxt "@action:inmenu Additional information"
+#| msgid "Size"
+msgctxt "@item:intable"
+msgid "Size"
+msgstr "পরিমান"
+
+#: kitemviews/kfileitemmodel.cpp:222
+#, fuzzy
+#| msgctxt "@action:inmenu Additional information"
+#| msgid "Date"
+msgctxt "@item:intable"
+msgid "Date"
+msgstr "তারিখ"
+
+#: kitemviews/kfileitemmodel.cpp:223
+msgctxt "@item:intable"
+msgid "Permissions"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:224
+msgctxt "@item:intable"
+msgid "Owner"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:225
+msgctxt "@item:intable"
+msgid "Group"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:226
+#, fuzzy
+#| msgctxt "@action:inmenu Additional information"
+#| msgid "Type"
+msgctxt "@item:intable"
+msgid "Type"
+msgstr "ধরন"
+
+#: kitemviews/kfileitemmodel.cpp:227
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@item:intable"
+msgid "Destination"
+msgstr "ডকুমেনটেশন"
+
+#: kitemviews/kfileitemmodel.cpp:228
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Paste"
+msgctxt "@item:intable"
+msgid "Path"
+msgstr "পেস্ট"
+
+#: kitemviews/kfileitemmodel.cpp:846
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1644,19 +1707,19 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "অতিরিক্ত তথ্য"
 
-#: views/dolphinview.cpp:498
+#: views/dolphinview.cpp:496
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:499
+#: views/dolphinview.cpp:497
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> নির্বাচিত হয়েছে (%2)"
 
-#: views/dolphinview.cpp:503
+#: views/dolphinview.cpp:501
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1664,7 +1727,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:504
+#: views/dolphinview.cpp:502
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1672,29 +1735,29 @@ msgid_plural "%1 Files selected"
 msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:506
+#: views/dolphinview.cpp:504
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:509
+#: views/dolphinview.cpp:507
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1043
+#: views/dolphinview.cpp:1041
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1095
+#: views/dolphinview.cpp:1093
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1097
+#: views/dolphinview.cpp:1095
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -2502,13 +2565,6 @@ msgstr ""
 #~ msgctxt "@label"
 #~ msgid "Rating:"
 #~ msgstr "রেটিং"
-
-#, fuzzy
-#~| msgctxt "@label Tag name"
-#~| msgid "Name:"
-#~ msgctxt "@label"
-#~ msgid "Name:"
-#~ msgstr "নাম:"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Search..."
