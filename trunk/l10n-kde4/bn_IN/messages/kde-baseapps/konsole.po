@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-22 03:38+0200\n"
+"POT-Creation-Date: 2011-09-25 03:56+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -610,40 +610,40 @@ msgstr "লার্স নোল"
 msgid "Thanks to many others.\n"
 msgstr "অ্যানান্য অনেককে অসংখ্যা ধন্যবাদন।\n"
 
-#: MainWindow.cpp:252
+#: MainWindow.cpp:254
 #, fuzzy
 #| msgid "New &Tab"
 msgid "&New Tab"
 msgstr "নতুন ট্যাব (&T)"
 
-#: MainWindow.cpp:261
+#: MainWindow.cpp:263
 msgid "New &Window"
 msgstr "নতুন উইন্ডো (&W)"
 
-#: MainWindow.cpp:272
+#: MainWindow.cpp:274
 msgid "&Bookmarks"
 msgstr "বুকমার্ক (&B)"
 
-#: MainWindow.cpp:299 Part.cpp:101
+#: MainWindow.cpp:297 Part.cpp:101
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: MainWindow.cpp:305
+#: MainWindow.cpp:303
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:402
+#: MainWindow.cpp:420
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:404 SessionController.cpp:642
+#: MainWindow.cpp:422 SessionController.cpp:642
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: MainWindow.cpp:406
+#: MainWindow.cpp:424
 msgid "Close Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
@@ -1602,12 +1602,14 @@ msgid "S&crollback"
 msgstr "স্ক্রোল-ব্যাক (&c)"
 
 #. i18n: file: ../desktop/partui.rc:26
-#. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/sessionui.rc:62
-#. i18n: ectx: Menu (change-profile)
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
 #: rc.cpp:461 rc.cpp:470
-msgid "&Change Profile"
-msgstr "প্রোফাইল পরিবর্তন করুন (&C)"
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "&Switch Profile"
+msgstr "প্রোফাইল সম্পাদনা"
 
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
@@ -1617,7 +1619,7 @@ msgstr "প্রোফাইল পরিবর্তন করুন (&C)"
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করুন"
 
-#. i18n: file: ../desktop/sessionui.rc:43
+#. i18n: file: ../desktop/sessionui.rc:44
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:467
 msgid "Debug"
@@ -1773,8 +1775,10 @@ msgid "Configure Current Profile..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
 #: SessionController.cpp:547
-msgid "Change Profile"
-msgstr "প্রোফাইল পরিবর্তন করুন"
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "Switch Profile"
+msgstr "প্রোফাইল সম্পাদনা"
 
 #: SessionController.cpp:636
 msgid ""
@@ -1986,19 +1990,19 @@ msgid ""
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: ViewContainer.cpp:494
+#: ViewContainer.cpp:499
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr ""
 
-#: ViewContainer.cpp:498
+#: ViewContainer.cpp:503
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: ViewContainer.cpp:502
+#: ViewContainer.cpp:507
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
@@ -2018,54 +2022,60 @@ msgid "Previous Tab"
 msgstr "পূর্ববর্তী"
 
 #: ViewManager.cpp:140
+#, fuzzy
+#| msgid "Switch to Tab %1"
+msgid "Switch to Last Tab"
+msgstr "%1 ট্যাবে পরিবর্তন করুন"
+
+#: ViewManager.cpp:141
 msgid "Next View Container"
 msgstr ""
 
-#: ViewManager.cpp:142
+#: ViewManager.cpp:143
 msgid "Move Tab Left"
 msgstr ""
 
-#: ViewManager.cpp:143
+#: ViewManager.cpp:144
 msgid "Move Tab Right"
 msgstr ""
 
-#: ViewManager.cpp:153
+#: ViewManager.cpp:154
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr ""
 
-#: ViewManager.cpp:160
+#: ViewManager.cpp:161
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr ""
 
-#: ViewManager.cpp:165
+#: ViewManager.cpp:166
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr ""
 
-#: ViewManager.cpp:174
+#: ViewManager.cpp:175
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "অন্যান্যগুলি বন্ধ করুন"
 
-#: ViewManager.cpp:184
+#: ViewManager.cpp:185
 #, fuzzy
 #| msgid "Close Current Tab"
 msgid "D&etach Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: ViewManager.cpp:193
+#: ViewManager.cpp:194
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr ""
 
-#: ViewManager.cpp:200
+#: ViewManager.cpp:201
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr ""
 
-#: ViewManager.cpp:220
+#: ViewManager.cpp:222
 #, kde-format
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
@@ -2079,6 +2089,12 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
+
+#~ msgid "&Change Profile"
+#~ msgstr "প্রোফাইল পরিবর্তন করুন (&C)"
+
+#~ msgid "Change Profile"
+#~ msgstr "প্রোফাইল পরিবর্তন করুন"
 
 #~ msgid "Maintainer"
 #~ msgstr "মেইন্টেনার"
