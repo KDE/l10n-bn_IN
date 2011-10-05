@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-04 04:23+0200\n"
+"POT-Creation-Date: 2011-10-05 03:48+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -148,6 +148,7 @@ msgstr ""
 "বৈশিষ্ট্য প্রয়োগ করা হবে না।"
 
 #: ColorSchemeEditor.cpp:144
+msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
@@ -2063,30 +2064,38 @@ msgstr "ট্যাব বন্ধ করুন (&C)"
 #: ViewManager.cpp:137
 #, fuzzy
 #| msgid "New &Tab"
+msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "নতুন ট্যাব (&T)"
 
 #: ViewManager.cpp:138
 #, fuzzy
 #| msgid "Previous"
+msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "পূর্ববর্তী"
 
 #: ViewManager.cpp:139
 #, fuzzy
 #| msgid "Switch to Tab %1"
+msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
 #: ViewManager.cpp:140
+#, fuzzy
+#| msgid "Next View"
+msgctxt "@action Shortcut entry"
 msgid "Next View Container"
-msgstr ""
+msgstr "পরবর্তী প্রদর্শন"
 
 #: ViewManager.cpp:142
+msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr ""
 
 #: ViewManager.cpp:143
+msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr ""
 
@@ -2113,6 +2122,7 @@ msgstr "অন্যান্যগুলি বন্ধ করুন"
 #: ViewManager.cpp:184
 #, fuzzy
 #| msgid "Close Current Tab"
+msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
@@ -2127,7 +2137,9 @@ msgid "Shrink View"
 msgstr ""
 
 #: ViewManager.cpp:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Switch to Tab %1"
+msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
@@ -2193,9 +2205,6 @@ msgstr "বন্ধ করুন (&S)"
 
 #~ msgid "Connect"
 #~ msgstr "সংযোগ স্থাপন করুন"
-
-#~ msgid "Next View"
-#~ msgstr "পরবর্তী প্রদর্শন"
 
 #~ msgid "Previous View"
 #~ msgstr "পূর্ববর্তী প্রদর্শন"
