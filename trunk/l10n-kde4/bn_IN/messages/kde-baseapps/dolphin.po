@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-09 04:08+0200\n"
+"POT-Creation-Date: 2011-10-10 03:36+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1347,6 +1347,128 @@ msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "মুছে ফেলা হবে"
 
+#: dolphinpart.cpp:147
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
+
+#: dolphinpart.cpp:151
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:156
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:162
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr ""
+
+#: dolphinpart.cpp:166 dolphinmainwindow.cpp:1633
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr ""
+
+#: dolphinpart.cpp:179
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "অ্যাপলিকেশন (&l)"
+
+#: dolphinpart.cpp:182
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
+
+#: dolphinpart.cpp:185
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "বিন্যাস (&i)"
+
+#: dolphinpart.cpp:188
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "অাবর্জনার বাক্স"
+
+#: dolphinpart.cpp:191
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "স্বচালিত"
+
+#: dolphinpart.cpp:196
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "ফাইল অনুসন্ধান..."
+
+#: dolphinpart.cpp:204
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "টার্মিনাল খুলুন (&T)"
+
+#: dolphinpart.cpp:273
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Dolphin Part"
+
+#: dolphinpart.cpp:463
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@title:window"
+msgid "Select"
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:464
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:470
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:471
+msgid "Unselect all items matching this pattern:"
+msgstr ""
+
+#: dolphinviewcontainer.cpp:338
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "ফোল্ডার খোলা হচ্ছে..."
+
+#: dolphinviewcontainer.cpp:349
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@info"
+msgid "Searching..."
+msgstr "অনুসন্ধান..."
+
+#: dolphinviewcontainer.cpp:369
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:508
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
+
+#: dolphinviewcontainer.cpp:520
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
+
+#: dolphinviewcontainer.cpp:527
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "অবৈধ প্রোটোকল"
+
 #: dolphinmainwindow.cpp:346
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -1377,12 +1499,12 @@ msgctxt "@info:status"
 msgid "Created folder."
 msgstr ""
 
-#: dolphinmainwindow.cpp:444
+#: dolphinmainwindow.cpp:445
 msgctxt "@info"
 msgid "Go back"
 msgstr ""
 
-#: dolphinmainwindow.cpp:450
+#: dolphinmainwindow.cpp:451
 msgctxt "@info"
 msgid "Go forward"
 msgstr ""
@@ -1479,11 +1601,6 @@ msgstr "পেস্ট"
 #: dolphinmainwindow.cpp:1628
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1633 dolphinpart.cpp:166
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
 msgstr ""
 
 #: dolphinmainwindow.cpp:1646
@@ -1645,123 +1762,6 @@ msgstr ""
 msgctxt "@info"
 msgid "Split view"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
-
-#: dolphinpart.cpp:147
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
-
-#: dolphinpart.cpp:151
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:156
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:162
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr ""
-
-#: dolphinpart.cpp:179
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "অ্যাপলিকেশন (&l)"
-
-#: dolphinpart.cpp:182
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
-
-#: dolphinpart.cpp:185
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "বিন্যাস (&i)"
-
-#: dolphinpart.cpp:188
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "অাবর্জনার বাক্স"
-
-#: dolphinpart.cpp:191
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "স্বচালিত"
-
-#: dolphinpart.cpp:196
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "ফাইল অনুসন্ধান..."
-
-#: dolphinpart.cpp:204
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "টার্মিনাল খুলুন (&T)"
-
-#: dolphinpart.cpp:273
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Dolphin Part"
-
-#: dolphinpart.cpp:463
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@title:window"
-msgid "Select"
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:464
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:470
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr ""
-
-#: dolphinpart.cpp:471
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
-#: dolphinviewcontainer.cpp:338
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "ফোল্ডার খোলা হচ্ছে..."
-
-#: dolphinviewcontainer.cpp:349
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@info"
-msgid "Searching..."
-msgstr "অনুসন্ধান..."
-
-#: dolphinviewcontainer.cpp:369
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:508
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
-
-#: dolphinviewcontainer.cpp:520
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
-
-#: dolphinviewcontainer.cpp:527
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "অবৈধ প্রোটোকল"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
