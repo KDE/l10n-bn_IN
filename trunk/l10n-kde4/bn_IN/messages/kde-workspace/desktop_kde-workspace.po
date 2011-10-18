@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-02 02:57+0000\n"
+"POT-Creation-Date: 2011-10-18 06:22+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -5432,37 +5432,53 @@ msgctxt "Comment"
 msgid "Battery, Display and CPU power management and notification"
 msgstr ""
 
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:13
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Color settings"
-msgctxt "Name"
-msgid "Global settings"
-msgstr "রঙ সংক্রান্ত বৈশিষ্ট্য"
-
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:67
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure file manager settings"
-msgctxt "Comment"
-msgid "Configure global Power Management settings"
-msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
-
-#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:13
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:14
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Flower Drops"
+#| msgid "Service Manager"
 msgctxt "Name"
-msgid "Power Profiles"
-msgstr "ফুলের ছোঁয়া"
+msgid "Activity settings"
+msgstr "পরিসেবা পরিচালনব্যবস্থা"
 
-#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:66
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:16
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
 msgctxt "Comment"
-msgid "Configure Power Management Profiles"
+msgid "Configure per-activity Power Management settings"
 msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
+
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Font settings"
+msgctxt "Name"
+msgid "Advanced settings"
+msgstr "ফন্ট সংক্রান্ত বৈশিষ্ট্য"
+
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure file manager settings"
+msgctxt "Comment"
+msgid "Configure advanced Power Management settings"
+msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
+
+#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen Saver Settings"
+msgctxt "Name"
+msgid "Energy Saving Settings"
+msgstr "স্ক্রিন-সেভার সংক্রান্ত বৈশিষ্ট্য"
+
+#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure trash settings"
+msgctxt "Comment"
+msgid "Configure Energy Saving Settings"
+msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #: powerdevil/powerdevil.notifyrc:2
 #, fuzzy
@@ -6327,6 +6343,27 @@ msgstr "ফন্ট প্রদর্শক"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Color settings"
+#~ msgctxt "Name"
+#~ msgid "Global settings"
+#~ msgstr "রঙ সংক্রান্ত বৈশিষ্ট্য"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Flower Drops"
+#~ msgctxt "Name"
+#~ msgid "Power Profiles"
+#~ msgstr "ফুলের ছোঁয়া"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure file manager settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure Power Management Profiles"
+#~ msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -7755,10 +7792,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the trash."
 #~ msgstr "এই পরিসেবা দ্বারা আবর্জনার বাক্স কনফিগার করা যাবে।"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure trash settings"
-#~ msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #~ msgctxt "ExtraNames"
 #~ msgid "Original Path,Deletion Date"

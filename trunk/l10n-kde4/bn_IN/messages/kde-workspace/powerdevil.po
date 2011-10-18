@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-04 05:26+0200\n"
+"POT-Creation-Date: 2011-10-18 05:53+0200\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -39,54 +39,6 @@ msgstr "মিনিট"
 msgid "After"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:77
-msgid "Do nothing"
-msgstr "কিছু করা হবে না"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:79
-#: actions/bundled/suspendsessionconfig.cpp:80
-msgid "Sleep"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:82
-#: actions/bundled/suspendsessionconfig.cpp:83
-msgid "Hibernate"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:84
-#: actions/bundled/suspendsessionconfig.cpp:85
-msgid "Shutdown"
-msgstr "বন্ধ করুন"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:85
-#: actions/bundled/suspendsessionconfig.cpp:86
-#, fuzzy
-#| msgid "Lock Screen"
-msgid "Lock screen"
-msgstr "পর্দা লক করুন"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:87
-#, fuzzy
-#| msgid "Prompt Log out dialog"
-msgid "Prompt log out dialog"
-msgstr "লগ-আউট ডায়লগ প্রদর্শন করা হবে"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:89
-msgid "Turn off screen"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:97
-#, fuzzy
-#| msgid "When Laptop Lid Closed"
-msgid "When laptop lid closed"
-msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হলে"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:98
-#, fuzzy
-#| msgid "When Power Button pressed"
-msgid "When power button pressed"
-msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বাটন টিপলে"
-
 #: actions/bundled/runscriptconfig.cpp:70
 msgid "Script"
 msgstr ""
@@ -108,6 +60,54 @@ msgstr ""
 #: actions/bundled/suspendsession.cpp:114
 msgid "The screen is being locked"
 msgstr "পর্দা লক করা হচ্ছে"
+
+#: actions/bundled/suspendsessionconfig.cpp:80
+#: actions/bundled/handlebuttoneventsconfig.cpp:79
+msgid "Sleep"
+msgstr ""
+
+#: actions/bundled/suspendsessionconfig.cpp:83
+#: actions/bundled/handlebuttoneventsconfig.cpp:82
+msgid "Hibernate"
+msgstr ""
+
+#: actions/bundled/suspendsessionconfig.cpp:85
+#: actions/bundled/handlebuttoneventsconfig.cpp:84
+msgid "Shutdown"
+msgstr "বন্ধ করুন"
+
+#: actions/bundled/suspendsessionconfig.cpp:86
+#: actions/bundled/handlebuttoneventsconfig.cpp:85
+#, fuzzy
+#| msgid "Lock Screen"
+msgid "Lock screen"
+msgstr "পর্দা লক করুন"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
+msgid "Do nothing"
+msgstr "কিছু করা হবে না"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#, fuzzy
+#| msgid "Prompt Log out dialog"
+msgid "Prompt log out dialog"
+msgstr "লগ-আউট ডায়লগ প্রদর্শন করা হবে"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:89
+msgid "Turn off screen"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:100
+#, fuzzy
+#| msgid "When Laptop Lid Closed"
+msgid "When laptop lid closed"
+msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হলে"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:101
+#, fuzzy
+#| msgid "When Power Button pressed"
+msgid "When power button pressed"
+msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বাটন টিপলে"
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 msgid "Switch off after"
@@ -143,47 +143,47 @@ msgstr "ডারিও ফ্রেডি"
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: powerdevilcore.cpp:70
+#: powerdevilcore.cpp:73
 msgid ""
 "No valid Power Management backend plugins are available. A new installation "
 "might solve this problem."
 msgstr ""
 
-#: powerdevilcore.cpp:98
+#: powerdevilcore.cpp:101
 msgid ""
 "Your Power Profiles have been updated to be used with the new KDE Power "
 "Management System. You can tweak them or generate a new set of defaults from "
 "System Settings."
 msgstr ""
 
-#: powerdevilcore.cpp:153
+#: powerdevilcore.cpp:158
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:158
+#: powerdevilcore.cpp:163
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:163
+#: powerdevilcore.cpp:168
 msgctxt "Global shortcut"
 msgid "Sleep"
 msgstr ""
 
-#: powerdevilcore.cpp:168
+#: powerdevilcore.cpp:173
 msgctxt "Global shortcut"
 msgid "Hibernate"
 msgstr ""
 
-#: powerdevilcore.cpp:187
+#: powerdevilcore.cpp:192
 #, kde-format
 msgid ""
 "Your battery capacity is %1%. This means your battery is broken and needs a "
 "replacement. Please contact your hardware vendor for more details."
 msgstr ""
 
-#: powerdevilcore.cpp:193
+#: powerdevilcore.cpp:196
 #, kde-format
 msgid ""
 "One of your batteries (ID %2) has a capacity of %1%. This means it is broken "
@@ -191,7 +191,7 @@ msgid ""
 "details."
 msgstr ""
 
-#: powerdevilcore.cpp:206
+#: powerdevilcore.cpp:210
 #, kde-format
 msgid ""
 "Your battery might have been recalled by %1. Usually, when vendors recall "
@@ -200,7 +200,7 @@ msgid ""
 "a> to verify if your battery is faulted."
 msgstr ""
 
-#: powerdevilcore.cpp:214
+#: powerdevilcore.cpp:215
 #, kde-format
 msgid ""
 "One of your batteries (ID %3) might have been recalled by %1. Usually, when "
@@ -209,26 +209,7 @@ msgid ""
 "\"%2\">%1's website</a> to verify if your battery is faulted."
 msgstr ""
 
-#: powerdevilcore.cpp:264
-#, fuzzy
-#| msgid "Performance"
-msgctxt "Name of a power profile"
-msgid "Performance"
-msgstr "কর্মক্ষমতা"
-
-#: powerdevilcore.cpp:266
-#, fuzzy
-#| msgid "Powersave"
-msgctxt "Name of a power profile"
-msgid "Powersave"
-msgstr "পাওয়ার-সেভ"
-
-#: powerdevilcore.cpp:268
-msgctxt "Name of a power profile"
-msgid "Aggressive powersave"
-msgstr ""
-
-#: powerdevilcore.cpp:332
+#: powerdevilcore.cpp:339
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -240,14 +221,26 @@ msgstr ""
 "অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে!\n"
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
-#: powerdevilcore.cpp:345
+#: powerdevilcore.cpp:374
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:387
+#: powerdevilcore.cpp:401 powerdevilcore.cpp:413
+msgid "Activity Manager"
+msgstr ""
+
+#: powerdevilcore.cpp:402
+msgid "This activity's policies prevent the system from suspending"
+msgstr ""
+
+#: powerdevilcore.cpp:414
+msgid "This activity's policies prevent screen power management"
+msgstr ""
+
+#: powerdevilcore.cpp:450
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -259,7 +252,7 @@ msgstr ""
 "ব্যাটারি প্রেক্ষাপটের সাথে সংযোগ স্থাপন করা যায়নি!\n"
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
-#: powerdevilcore.cpp:435
+#: powerdevilcore.cpp:498
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -267,19 +260,19 @@ msgid ""
 "been canceled."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:437
+#: powerdevilcore.cpp:500
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:440
+#: powerdevilcore.cpp:503
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
 
-#: powerdevilcore.cpp:446
+#: powerdevilcore.cpp:509
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -287,7 +280,7 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:473
+#: powerdevilcore.cpp:536
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -298,7 +291,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:479
+#: powerdevilcore.cpp:542
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -310,7 +303,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:485
+#: powerdevilcore.cpp:548
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -321,7 +314,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
 "এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:491
+#: powerdevilcore.cpp:554
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -330,13 +323,7 @@ msgid "Your battery level is critical: save your work as soon as possible."
 msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
 
-#: powerdevilcore.cpp:497
-#, fuzzy
-#| msgid "Your battery has reached warning level"
-msgid "Your battery has reached the warning level."
-msgstr "ব্যাটারির ক্ষমতা সতর্কতামূলক পর্যায় উপস্থিত হয়েছে"
-
-#: powerdevilcore.cpp:502
+#: powerdevilcore.cpp:560
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
@@ -351,6 +338,23 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
+
+#, fuzzy
+#~| msgid "Performance"
+#~ msgctxt "Name of a power profile"
+#~ msgid "Performance"
+#~ msgstr "কর্মক্ষমতা"
+
+#, fuzzy
+#~| msgid "Powersave"
+#~ msgctxt "Name of a power profile"
+#~ msgid "Powersave"
+#~ msgstr "পাওয়ার-সেভ"
+
+#, fuzzy
+#~| msgid "Your battery has reached warning level"
+#~ msgid "Your battery has reached the warning level."
+#~ msgstr "ব্যাটারির ক্ষমতা সতর্কতামূলক পর্যায় উপস্থিত হয়েছে"
 
 #, fuzzy
 #~| msgid "Disable KWin compositing, if active"

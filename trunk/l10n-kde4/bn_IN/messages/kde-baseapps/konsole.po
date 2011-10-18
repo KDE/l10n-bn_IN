@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-17 03:33+0200\n"
+"POT-Creation-Date: 2011-10-18 04:50+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -729,28 +729,28 @@ msgctxt "@title:window"
 msgid "Manage Profiles"
 msgstr "প্রোফাইল ব্যবস্থাপনা"
 
-#: ManageProfilesDialog.cpp:237
+#: ManageProfilesDialog.cpp:235
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column Profile label"
 msgid "Name"
 msgstr "নাম"
 
-#: ManageProfilesDialog.cpp:238
+#: ManageProfilesDialog.cpp:236
 #, fuzzy
 #| msgid "Show in Menu"
 msgctxt "@title:column Display profile in file menu"
 msgid "Show in Menu"
 msgstr "মেনুর মধ্যে প্রদর্শন করা হবে"
 
-#: ManageProfilesDialog.cpp:239
+#: ManageProfilesDialog.cpp:237
 #, fuzzy
 #| msgid "Shortcut"
 msgctxt "@title:column Profile shortcut text"
 msgid "Shortcut"
 msgstr "শর্ট-কাট"
 
-#: ManageProfilesDialog.cpp:367
+#: ManageProfilesDialog.cpp:370
 #, fuzzy
 #| msgid "New Profile"
 msgctxt "@item This will be used as part of the file name"
@@ -1618,13 +1618,13 @@ msgid "Output:"
 msgstr "ফলাফল:"
 
 #. i18n: file: ManageProfilesDialog.ui:20
-#. i18n: ectx: property (toolTip), widget (QPushButton, newSessionButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, newProfileButton)
 #: rc.cpp:410
 msgid "Create a new profile based upon the selected profile"
 msgstr "নির্বাচিত প্রোফাইলের উপর ভিত্তি করে একটি নতুন প্রোফাইল নির্বাচন করুন"
 
 #. i18n: file: ManageProfilesDialog.ui:23
-#. i18n: ectx: property (text), widget (QPushButton, newSessionButton)
+#. i18n: ectx: property (text), widget (QPushButton, newProfileButton)
 #: rc.cpp:413
 #, fuzzy
 #| msgid "New Profile..."
@@ -1632,13 +1632,13 @@ msgid "&New Profile..."
 msgstr "নতুন প্রোফাইল..."
 
 #. i18n: file: ManageProfilesDialog.ui:33
-#. i18n: ectx: property (toolTip), widget (QPushButton, editSessionButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, editProfileButton)
 #: rc.cpp:416
 msgid "Edit the selected profile(s)"
 msgstr "নির্বাচিত প্রোফাইল(গুলি) সম্পাদনা করুন"
 
 #. i18n: file: ManageProfilesDialog.ui:36
-#. i18n: ectx: property (text), widget (QPushButton, editSessionButton)
+#. i18n: ectx: property (text), widget (QPushButton, editProfileButton)
 #: rc.cpp:419
 #, fuzzy
 #| msgid "Edit Profile..."
@@ -1646,13 +1646,13 @@ msgid "&Edit Profile..."
 msgstr "প্রোফাইল সম্পাদনা..."
 
 #. i18n: file: ManageProfilesDialog.ui:46
-#. i18n: ectx: property (toolTip), widget (QPushButton, deleteSessionButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteProfileButton)
 #: rc.cpp:422
 msgid "Delete the selected profile(s)"
 msgstr "নির্বাচিত প্রোফাইল(গুলি) মুছে ফেলুন"
 
 #. i18n: file: ManageProfilesDialog.ui:49
-#. i18n: ectx: property (text), widget (QPushButton, deleteSessionButton)
+#. i18n: ectx: property (text), widget (QPushButton, deleteProfileButton)
 #: rc.cpp:425
 #, fuzzy
 #| msgid "Delete Profile"
@@ -2107,22 +2107,22 @@ msgstr "দূরবর্তী হোস্ট (সংক্ষিপ্ত)"
 msgid "Remote Host (Long): %H"
 msgstr "দূরবর্তী হোস্ট (বিস্তারিত)"
 
-#: TerminalDisplay.cpp:1110 TerminalDisplay.cpp:1111
+#: TerminalDisplay.cpp:1116 TerminalDisplay.cpp:1117
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1121
+#: TerminalDisplay.cpp:1127
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:2887
+#: TerminalDisplay.cpp:2893
 #, fuzzy
 #| msgid "&Paste"
 msgid "&Paste as text"
 msgstr "পেস্ট করুন (&P)"
 
-#: TerminalDisplay.cpp:2947
+#: TerminalDisplay.cpp:2953
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
