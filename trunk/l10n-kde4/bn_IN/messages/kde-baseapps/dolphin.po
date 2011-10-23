@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-19 03:46+0200\n"
+"POT-Creation-Date: 2011-10-23 03:58+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -27,6 +27,11 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
 
+#: kitemviews/kfileitemlistview.cpp:480
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
+
 #: kitemviews/kfileitemlistwidget.cpp:197
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -38,7 +43,7 @@ msgid_plural "%1 items"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
 
-#: kitemviews/kfileitemmodel.cpp:207
+#: kitemviews/kfileitemmodel.cpp:208
 #, fuzzy
 #| msgctxt "@label Tag name"
 #| msgid "Name:"
@@ -46,7 +51,7 @@ msgctxt "@item:intable"
 msgid "Name"
 msgstr "নাম:"
 
-#: kitemviews/kfileitemmodel.cpp:208
+#: kitemviews/kfileitemmodel.cpp:209
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Size"
@@ -54,7 +59,7 @@ msgctxt "@item:intable"
 msgid "Size"
 msgstr "পরিমান"
 
-#: kitemviews/kfileitemmodel.cpp:209
+#: kitemviews/kfileitemmodel.cpp:210
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Date"
@@ -62,22 +67,22 @@ msgctxt "@item:intable"
 msgid "Date"
 msgstr "তারিখ"
 
-#: kitemviews/kfileitemmodel.cpp:210
+#: kitemviews/kfileitemmodel.cpp:211
 msgctxt "@item:intable"
 msgid "Permissions"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:211
+#: kitemviews/kfileitemmodel.cpp:212
 msgctxt "@item:intable"
 msgid "Owner"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:212
+#: kitemviews/kfileitemmodel.cpp:213
 msgctxt "@item:intable"
 msgid "Group"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:213
+#: kitemviews/kfileitemmodel.cpp:214
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Type"
@@ -85,7 +90,7 @@ msgctxt "@item:intable"
 msgid "Type"
 msgstr "ধরন"
 
-#: kitemviews/kfileitemmodel.cpp:214
+#: kitemviews/kfileitemmodel.cpp:215
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -93,7 +98,7 @@ msgctxt "@item:intable"
 msgid "Destination"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:215
+#: kitemviews/kfileitemmodel.cpp:216
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -101,7 +106,7 @@ msgctxt "@item:intable"
 msgid "Path"
 msgstr "পেস্ট"
 
-#: kitemviews/kfileitemmodel.cpp:871
+#: kitemviews/kfileitemmodel.cpp:897
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -109,10 +114,18 @@ msgctxt "@item:intable"
 msgid "No destination"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemlistview.cpp:480
-msgctxt "@item:intable"
-msgid "items"
+#: kitemviews/kfileitemmodel.cpp:1187
+msgctxt "@title:group"
+msgid "Numerics"
 msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1202
+#, fuzzy
+#| msgctxt "@title:group Name"
+#| msgid "Others"
+msgctxt "@title:group"
+msgid "Others"
+msgstr "অন্যান্য"
 
 #: main.cpp:35
 msgctxt "@title"
@@ -2272,10 +2285,6 @@ msgstr "শেষ সময় যখন এই বৈশিষ্ট্যাব�
 #~ msgctxt "@action:inmenu View Mode"
 #~ msgid "Columns"
 #~ msgstr "কলাম"
-
-#~ msgctxt "@title:group Name"
-#~ msgid "Others"
-#~ msgstr "অন্যান্য"
 
 #, fuzzy
 #~| msgctxt "@info:credit"
