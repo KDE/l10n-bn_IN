@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 04:01+0200\n"
+"POT-Creation-Date: 2011-10-26 04:18+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -340,33 +340,35 @@ msgstr "ই-মেইল প্রাপক..."
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করুন"
 
-#: HistorySizeDialog.cpp:51
-msgid "Scrollback Options"
-msgstr "স্ক্রোল-ব্যাক সংক্রান্ত বিকল্প"
+#: HistorySizeDialog.cpp:49
+#, fuzzy
+#| msgid "S&crollback"
+msgid "Adjust Scrollback"
+msgstr "স্ক্রোল-ব্যাক (&c)"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:60
 msgid "No scrollback"
 msgstr "স্ক্রোল-ব্যাক অনুপস্থিত"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:61
 msgid "Fixed size scrollback: "
 msgstr "স্ক্রোল-ব্যাকের নির্ধারিত মাপ: "
 
 #. i18n: file: EditProfileDialog.ui:757
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:236
+#: HistorySizeDialog.cpp:62 rc.cpp:236
 msgid "Unlimited scrollback"
 msgstr "সীমাহীন স্ক্রোল-ব্যাক"
 
-#: HistorySizeDialog.cpp:88
+#: HistorySizeDialog.cpp:86
 msgid "lines"
 msgstr "পংক্তি"
 
-#: HistorySizeDialog.cpp:95
-#, fuzzy
-#| msgid "Edit Current Profile..."
-msgid "Save to current profile"
-msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
+#: HistorySizeDialog.cpp:93
+msgid ""
+"<span style=\"color:gray;\"><center><bold>The adjustment is only temporary.</"
+"bold></center></span>"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:52
 msgid "Close the search bar"
@@ -714,7 +716,7 @@ msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
+#: MainWindow.cpp:422 SessionController.cpp:639 SessionController.cpp:665
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
@@ -1673,9 +1675,61 @@ msgstr "নির্বাচিত প্রোফাইলটি নতুন 
 msgid "&Set as Default"
 msgstr "ডিফল্ট মান রূপে নির্ধারণ করুন"
 
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:458
+msgid "File"
+msgstr "ফাইল"
+
+#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:461
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: ectx: Menu (view)
+#: rc.cpp:464
+msgid "View"
+msgstr "প্রদর্শন"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:467
+msgid "Split View"
+msgstr ""
+
+#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:470
+msgid "Settings"
+msgstr "বিবিধ বৈশিষ্ট্য"
+
+#. i18n: file: ../desktop/konsoleui.rc:44
+#. i18n: ectx: Menu (help)
+#: rc.cpp:473
+msgid "Help"
+msgstr "সাহায্য"
+
+#. i18n: file: ../desktop/partui.rc:7
+#. i18n: ectx: Menu (history)
+#: rc.cpp:476
+msgid "S&crollback"
+msgstr "স্ক্রোল-ব্যাক (&c)"
+
+#. i18n: file: ../desktop/partui.rc:23
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
+#: rc.cpp:479 rc.cpp:488
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "&Switch Profile"
+msgstr "প্রোফাইল সম্পাদনা"
+
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:458
+#: rc.cpp:482
 #, fuzzy
 #| msgid "Copy Input"
 msgid "Copy Input To"
@@ -1683,61 +1737,9 @@ msgstr "ইনপুট কপি করুন"
 
 #. i18n: file: ../desktop/sessionui.rc:44
 #. i18n: ectx: Menu (debug)
-#: rc.cpp:461
+#: rc.cpp:485
 msgid "Debug"
 msgstr "ডিবাগ করুন"
-
-#. i18n: file: ../desktop/sessionui.rc:63
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:464 rc.cpp:488
-#, fuzzy
-#| msgid "Edit Profile"
-msgid "&Switch Profile"
-msgstr "প্রোফাইল সম্পাদনা"
-
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:467
-msgid "File"
-msgstr "ফাইল"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:470
-msgid "Edit"
-msgstr "সম্পাদনা"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:473
-msgid "View"
-msgstr "প্রদর্শন"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:476
-msgid "Split View"
-msgstr ""
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:479
-msgid "Settings"
-msgstr "বিবিধ বৈশিষ্ট্য"
-
-#. i18n: file: ../desktop/konsoleui.rc:44
-#. i18n: ectx: Menu (help)
-#: rc.cpp:482
-msgid "Help"
-msgstr "সাহায্য"
-
-#. i18n: file: ../desktop/partui.rc:7
-#. i18n: ectx: Menu (history)
-#: rc.cpp:485
-msgid "S&crollback"
-msgstr "স্ক্রোল-ব্যাক (&c)"
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -1867,34 +1869,34 @@ msgstr "ফলাফল সংরক্ষণ করুন..."
 #: SessionController.cpp:532
 #, fuzzy
 #| msgid "Manage Profiles..."
-msgid "Configure Scrollback..."
+msgid "Adjust Scrollback..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:536
+#: SessionController.cpp:537
 #, fuzzy
 #| msgid "Scrollback"
 msgid "Clear Scrollback"
 msgstr "স্ক্রোল-ব্যাক"
 
-#: SessionController.cpp:540
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Clear Scrollback"
 msgid "Clear Scrollback and Reset"
 msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
 
-#: SessionController.cpp:546
+#: SessionController.cpp:547
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:549
+#: SessionController.cpp:550
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা"
 
-#: SessionController.cpp:632
+#: SessionController.cpp:633
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -1902,7 +1904,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:635
+#: SessionController.cpp:636
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1911,7 +1913,7 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:658
+#: SessionController.cpp:659
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1923,7 +1925,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:661
+#: SessionController.cpp:662
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1935,43 +1937,43 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1240
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1267
+#: SessionController.cpp:1249
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1279
+#: SessionController.cpp:1261
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1288
+#: SessionController.cpp:1270
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1276
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1366
+#: SessionController.cpp:1348
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1377
+#: SessionController.cpp:1359
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1455
+#: SessionController.cpp:1437
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2238,6 +2240,14 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
+
+#~ msgid "Scrollback Options"
+#~ msgstr "স্ক্রোল-ব্যাক সংক্রান্ত বিকল্প"
+
+#, fuzzy
+#~| msgid "Edit Current Profile..."
+#~ msgid "Save to current profile"
+#~ msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
 
 #, fuzzy
 #~| msgid "Manage Profiles..."
