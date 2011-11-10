@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2011-11-10 04:04+0100\n"
 "PO-Revision-Date: 2008-09-20 01:30+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -107,12 +107,19 @@ msgid "Original author"
 msgstr "মূল লেখক"
 
 #: main.cpp:184
+#, fuzzy
+#| msgid "Install the package at <path>"
+msgctxt "Do not translate <path>"
+msgid "Generate a SHA1 hash for the package at <path>"
+msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
+
+#: main.cpp:186
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
 "ইনস্টল বা অপসারণের ক্ষেত্রে, সকল ব্যবহারকারীর জন্য ইনস্টল করা প্যাকেজগুলি প্রভাবিত "
 "হবে।"
 
-#: main.cpp:190
+#: main.cpp:192
 #, fuzzy
 #| msgid ""
 #| "The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
@@ -128,36 +135,36 @@ msgstr ""
 "প্যাকেজের ধরন, যেমন থিম, ওয়াল-পেপার, plasmoid (প্লাসময়েড), DataEngine (ডাটা-"
 "ইঞ্জিন), Runner (রানার), ইত্যাদি।"
 
-#: main.cpp:194
+#: main.cpp:196
 #, fuzzy
 #| msgid "Install the package at <path>"
 msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
-#: main.cpp:196
+#: main.cpp:198
 #, fuzzy
 #| msgid "Install the package at <path>"
 msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
-#: main.cpp:198
+#: main.cpp:200
 msgid "List installed packages"
 msgstr "ইনস্টল হওয়া প্যাকেজগুলি তালিকাভুক্ত করুন"
 
-#: main.cpp:199
+#: main.cpp:201
 msgid "lists all known Package types that can be installed"
 msgstr ""
 
-#: main.cpp:201
+#: main.cpp:203
 #, fuzzy
 #| msgid "Remove the package named <name>"
 msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "<name> নামক প্যাকেজটি অপসারণ করুন"
 
-#: main.cpp:203
+#: main.cpp:205
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -165,65 +172,75 @@ msgstr ""
 "প্যাকেজ root-র সুনির্দিষ্ট পাথ। পাথের তথ্য উপলব্ধ না করা হলে, বর্তমান KDE সেশানের "
 "ক্ষেত্রে প্রযোজ্য প্রমিত ডিরেক্টরির মধ্যে তথ্য খোঁজা হবে।"
 
-#: main.cpp:236 main.cpp:273
+#: main.cpp:218
+#, kde-format
+msgid "Failed to generate a Package hash for %1"
+msgstr ""
+
+#: main.cpp:222
+#, kde-format
+msgid "SHA1 hash for Package at %1: '%2'"
+msgstr ""
+
+#: main.cpp:253 main.cpp:290
 #, fuzzy
 #| msgid "wallpaper"
 msgctxt "package type"
 msgid "wallpaper"
 msgstr "ওয়াল-পেপার"
 
-#: main.cpp:263
+#: main.cpp:280
 #, fuzzy
 #| msgid "plasmoid"
 msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid (প্লাসময়েড)"
 
-#: main.cpp:270
+#: main.cpp:287
 #, fuzzy
 #| msgid "theme"
 msgctxt "package type"
 msgid "theme"
 msgstr "থিম"
 
-#: main.cpp:276
+#: main.cpp:293
 #, fuzzy
 #| msgid "dataengine"
 msgctxt "package type"
 msgid "dataengine"
 msgstr "dataengine (ডাটা-ইঞ্জিন)"
 
-#: main.cpp:281
+#: main.cpp:298
 #, fuzzy
 #| msgid "runner"
 msgctxt "package type"
 msgid "runner"
 msgstr "runner (রানার)"
 
-#: main.cpp:286
+#: main.cpp:303
 #, fuzzy
 #| msgid "wallpaper"
 msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr "ওয়াল-পেপার"
 
-#: main.cpp:291
+#: main.cpp:308
 msgctxt "package type"
 msgid "layout-template"
 msgstr ""
 
-#: main.cpp:300
+#: main.cpp:317
 #, fuzzy, kde-format
 #| msgid "Could not find a suitable installer for package of type"
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "এই ধরনের প্যাকেজের জন্য উপযুক্ত ইনস্টলার পাওয়া যায়নি"
 
-#: main.cpp:309
+#: main.cpp:326
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "%1 ধরনের প্যাকেজের জন্য ইনস্টলার লোড করা যায়নি। উল্লিখিত ত্রুটি: %2"
 
-#: main.cpp:329
+#: main.cpp:346
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -232,32 +249,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: main.cpp:354
+#: main.cpp:371
 #, kde-format
 msgid "Successfully removed %1"
 msgstr ""
 
-#: main.cpp:356
+#: main.cpp:373
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr ""
 
-#: main.cpp:361
+#: main.cpp:378
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr ""
 
-#: main.cpp:366
+#: main.cpp:383
 #, kde-format
 msgid "Successfully installed %1"
 msgstr ""
 
-#: main.cpp:368
+#: main.cpp:385
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr ""
 
-#: main.cpp:374
+#: main.cpp:391
 #, fuzzy
 #| msgid "One of install, remove or list is required."
 msgctxt ""

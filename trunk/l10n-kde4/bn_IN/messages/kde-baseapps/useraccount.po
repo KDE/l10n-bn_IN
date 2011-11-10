@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:23+0200\n"
+"POT-Creation-Date: 2011-11-10 03:41+0100\n"
 "PO-Revision-Date: 2008-07-06 12:19+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -35,7 +35,7 @@ msgstr "ছবি নির্ধারন করুন... (&A)"
 msgid "(Custom)"
 msgstr "(স্বনির্ধরিত)"
 
-#: chfacedlg.cpp:114 main.cpp:274
+#: chfacedlg.cpp:114 main.cpp:228
 msgid "There was an error loading the image."
 msgstr "ছবি লোড করার সময় ত্রুটি দেখা দিয়েছে।"
 
@@ -146,20 +146,20 @@ msgstr ""
 "প্রোগ্রাম চলানো যাচ্ছে না: প্রোগ্রামের অন্তরের 'kdepasswd' পাওয়া যায়নি। আপনি আপনার "
 "পাসওয়ার্ড পরিবর্তন করতে পারবেন না।"
 
-#: main.cpp:218
+#: main.cpp:175
 msgid "Please enter your password in order to save your settings:"
 msgstr ""
 "আপনার নির্বাচিত বৈশিষ্ট্যগুলি সংরক্ষণ করার জন্য অনুগ্রহ করে আপনার পাসওয়ার্ড লিখুন:"
 
-#: main.cpp:221
+#: main.cpp:178
 msgid "You must enter your password in order to change your information."
 msgstr "আপনার পরিচিতি পরিবর্তন করার জন্য আপনাকে পাসওয়ার্ড দিতে হবে।"
 
-#: main.cpp:231
+#: main.cpp:188
 msgid "You must enter a correct password."
 msgstr "আপনার সঠিক পাসওয়ার্ড লেখা আবশ্যক হবে।"
 
-#: main.cpp:235
+#: main.cpp:192
 #, fuzzy, kde-format
 #| msgid ""
 #| "An error occurred and your password has probably not been changed. The "
@@ -174,16 +174,12 @@ msgstr ""
 "সংক্রান্ত বার্তা:\n"
 "%1"
 
-#: main.cpp:255
+#: main.cpp:212
 #, kde-format
 msgid "There was an error saving the image: %1"
 msgstr "ছবি সংরক্ষণ করা যাচ্ছে না: %1"
 
-#: main.cpp:288 main.cpp:322
-msgid "Your administrator has disallowed changing your image."
-msgstr "আপনার অ্যাডমিনিসট্রেটর আপনাকে ছবি পরিবর্তনের প্রয়োজনীয় অনুমতি প্রদান করেননি।"
-
-#: main.cpp:355
+#: main.cpp:296
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"
@@ -325,6 +321,10 @@ msgstr "ব্যবহারকারী লগইন ছবি"
 #: rc.cpp:61
 msgid "Password echo type"
 msgstr "পাসওয়ার্ড প্রদর্শনের ধরণ"
+
+#~ msgid "Your administrator has disallowed changing your image."
+#~ msgstr ""
+#~ "আপনার অ্যাডমিনিসট্রেটর আপনাকে ছবি পরিবর্তনের প্রয়োজনীয় অনুমতি প্রদান করেননি।"
 
 #~ msgid "Custom Image..."
 #~ msgstr "স্বনির্বাচিত ছবি..."
