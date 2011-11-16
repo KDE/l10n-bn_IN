@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-08 05:01+0100\n"
+"POT-Creation-Date: 2011-11-16 04:10+0100\n"
 "PO-Revision-Date: 2009-01-02 17:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -74,7 +74,7 @@ msgid "Refresh: "
 msgstr "পুনরায় লোড:"
 
 #: krandrtray.cpp:225 krandrtray.cpp:512 legacyrandrconfig.cpp:274
-#: legacyrandrscreen.cpp:246 outputconfig.cpp:486
+#: legacyrandrscreen.cpp:246 outputconfig.cpp:501
 #, kde-format
 msgid "%1 Hz"
 msgstr "%1 হার্টজ"
@@ -212,51 +212,51 @@ msgstr "উল্লেখযোগ্য সংশোধন, মাল্টি
 msgid "Application is being auto-started at KDE session start"
 msgstr "KDE সেশান আরম্ভের সময় অ্যাপ্লিকেশন স্বয়ংক্রিয়ভাবে আরম্ভ করা হবে"
 
-#: outputconfig.cpp:222
+#: outputconfig.cpp:229
 msgid "Left of"
 msgstr "বাঁদিকে"
 
-#: outputconfig.cpp:223
+#: outputconfig.cpp:230
 msgid "Right of"
 msgstr "ডানদিকে"
 
-#: outputconfig.cpp:224
+#: outputconfig.cpp:231
 msgctxt "Output is placed above another one"
 msgid "Above"
 msgstr "উপরে"
 
-#: outputconfig.cpp:225
+#: outputconfig.cpp:232
 msgctxt "Output is placed below another one"
 msgid "Below"
 msgstr "নীচে"
 
-#: outputconfig.cpp:226
+#: outputconfig.cpp:233
 msgid "Clone of"
 msgstr "প্রতিলিপি"
 
-#: outputconfig.cpp:227
+#: outputconfig.cpp:234
 msgctxt "Fixed, abitrary position"
 msgid "Absolute"
 msgstr "সুনিশ্চিত"
 
-#: outputconfig.cpp:230
+#: outputconfig.cpp:237
 msgid "No relative position"
 msgstr "কোনো আপেক্ষিত অবস্থান নেই"
 
-#: outputconfig.cpp:435
+#: outputconfig.cpp:450
 #, fuzzy
 #| msgid "Disabled"
 msgctxt "Screen size"
 msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: outputconfig.cpp:441
+#: outputconfig.cpp:456
 #, kde-format
 msgctxt "Automatic screen size (native resolution)"
 msgid "%1 (Auto)"
 msgstr "%1 (স্বয়ংক্রিয়)"
 
-#: outputconfig.cpp:479
+#: outputconfig.cpp:494
 #, fuzzy
 #| msgctxt "Automatic configuration"
 #| msgid "Auto"
