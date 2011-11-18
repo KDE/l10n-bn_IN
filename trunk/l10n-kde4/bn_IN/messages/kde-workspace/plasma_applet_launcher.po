@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-31 04:19+0100\n"
+"POT-Creation-Date: 2011-11-18 04:53+0100\n"
 "PO-Revision-Date: 2008-12-30 15:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -49,7 +49,7 @@ msgstr "সাধারণ"
 msgid "Games"
 msgstr ""
 
-#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "সকল অ্যাপ্লিকেশন"
 
@@ -111,6 +111,11 @@ msgstr ""
 #: ui/launcher.cpp:123 ui/launcher.cpp:270
 msgid "Computer"
 msgstr "কম্পিউটার"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "পছন্দ"
 
 #: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -215,11 +220,6 @@ msgstr "সেশান"
 #: core/leavemodel.cpp:149
 msgid "System"
 msgstr "সিস্টেম"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "পছন্দ"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -369,6 +369,13 @@ msgstr "বহিষ্কার"
 msgid "Safely Remove"
 msgstr "নিরাপদভাবে বের করে নিন"
 
+#: ui/searchbar.cpp:70
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "অনুসন্ধান:"
+
 #: ui/launcher.cpp:194
 msgid "Sort Alphabetically (A to Z)"
 msgstr "অদ্যাক্ষর দ্বারা ক্রমবিন্যাস নির্ধারণ করুন (A থেকে Z)"
@@ -396,13 +403,6 @@ msgstr "<b>%1</b> ব্যবহারকারী, <b>%2</b>-র উপর"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b>, <b>%3</b>-র উপর"
-
-#: ui/searchbar.cpp:70
-#, fuzzy
-#| msgid "Search:"
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "অনুসন্ধান:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
