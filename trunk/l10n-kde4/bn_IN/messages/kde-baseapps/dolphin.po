@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-30 04:20+0100\n"
+"POT-Creation-Date: 2011-12-06 05:12+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,6 +26,11 @@ msgstr "ফিল্টার বার অদৃশ্য হবে"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
+
+#: kitemviews/kfileitemlistview.cpp:558
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
 
 #: kitemviews/kfileitemmodel.cpp:233
 #, fuzzy
@@ -114,7 +119,7 @@ msgctxt "@item:intable"
 msgid "Rating"
 msgstr "রেটিং"
 
-#: kitemviews/kfileitemmodel.cpp:1044
+#: kitemviews/kfileitemmodel.cpp:1066
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -122,12 +127,12 @@ msgctxt "@item:intable"
 msgid "No destination"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1428
+#: kitemviews/kfileitemmodel.cpp:1450
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1445
+#: kitemviews/kfileitemmodel.cpp:1467
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -135,147 +140,142 @@ msgctxt "@title:group"
 msgid "Others"
 msgstr "অন্যান্য"
 
-#: kitemviews/kfileitemmodel.cpp:1477
+#: kitemviews/kfileitemmodel.cpp:1499
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "ফোল্ডার সমূহ"
 
-#: kitemviews/kfileitemmodel.cpp:1479
+#: kitemviews/kfileitemmodel.cpp:1501
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "ছোটো"
 
-#: kitemviews/kfileitemmodel.cpp:1481
+#: kitemviews/kfileitemmodel.cpp:1503
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: kitemviews/kfileitemmodel.cpp:1483
+#: kitemviews/kfileitemmodel.cpp:1505
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "বড়ো"
 
-#: kitemviews/kfileitemmodel.cpp:1543
+#: kitemviews/kfileitemmodel.cpp:1565
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "আজকে"
 
-#: kitemviews/kfileitemmodel.cpp:1544
+#: kitemviews/kfileitemmodel.cpp:1566
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "গতকাল"
 
-#: kitemviews/kfileitemmodel.cpp:1545
+#: kitemviews/kfileitemmodel.cpp:1567
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1549
+#: kitemviews/kfileitemmodel.cpp:1571
 msgctxt "@title:group Date"
 msgid "Last Week"
 msgstr "গত সপ্তাহ"
 
-#: kitemviews/kfileitemmodel.cpp:1552
+#: kitemviews/kfileitemmodel.cpp:1574
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "দুই সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1555
+#: kitemviews/kfileitemmodel.cpp:1577
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "তিন সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1559
+#: kitemviews/kfileitemmodel.cpp:1581
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "এই মাসের শুরুতে"
 
-#: kitemviews/kfileitemmodel.cpp:1568
+#: kitemviews/kfileitemmodel.cpp:1590
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "গতকাল (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1570
+#: kitemviews/kfileitemmodel.cpp:1592
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1572
+#: kitemviews/kfileitemmodel.cpp:1594
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Last Week (%B, %Y)"
 msgstr "গত সপ্তাহ (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1574
+#: kitemviews/kfileitemmodel.cpp:1596
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "দুই সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1576
+#: kitemviews/kfileitemmodel.cpp:1598
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "তিন সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1578
+#: kitemviews/kfileitemmodel.cpp:1600
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y এর গোড়ার দিকে"
 
-#: kitemviews/kfileitemmodel.cpp:1581
+#: kitemviews/kfileitemmodel.cpp:1603
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1620 kitemviews/kfileitemmodel.cpp:1633
-#: kitemviews/kfileitemmodel.cpp:1646
+#: kitemviews/kfileitemmodel.cpp:1642 kitemviews/kfileitemmodel.cpp:1655
+#: kitemviews/kfileitemmodel.cpp:1668
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "পড়া যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1623 kitemviews/kfileitemmodel.cpp:1636
-#: kitemviews/kfileitemmodel.cpp:1649
+#: kitemviews/kfileitemmodel.cpp:1645 kitemviews/kfileitemmodel.cpp:1658
+#: kitemviews/kfileitemmodel.cpp:1671
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "লেখা যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1626 kitemviews/kfileitemmodel.cpp:1639
-#: kitemviews/kfileitemmodel.cpp:1652
+#: kitemviews/kfileitemmodel.cpp:1648 kitemviews/kfileitemmodel.cpp:1661
+#: kitemviews/kfileitemmodel.cpp:1674
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "রান করবে"
 
-#: kitemviews/kfileitemmodel.cpp:1628 kitemviews/kfileitemmodel.cpp:1641
-#: kitemviews/kfileitemmodel.cpp:1654
+#: kitemviews/kfileitemmodel.cpp:1650 kitemviews/kfileitemmodel.cpp:1663
+#: kitemviews/kfileitemmodel.cpp:1676
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "নিশিদ্ধ"
 
-#: kitemviews/kfileitemmodel.cpp:1656
+#: kitemviews/kfileitemmodel.cpp:1678
 #, fuzzy, kde-format
 #| msgctxt "@title:group Files and folders by permissions"
 #| msgid "(User: %1) (Group: %2) (Others: %3)"
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(ব্যবহারকারী: %1) (গ্রুপ: %2) (অন্যান্য: %3)"
-
-#: kitemviews/kfileitemlistview.cpp:558
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
 
 #: kitemviews/kfileitemlistwidget.cpp:234
 #, fuzzy
@@ -1016,11 +1016,11 @@ msgstr "%1 খালি অাছে"
 msgid "Zoom slider"
 msgstr "জুম স্লাইডার দেখাও"
 
-#: statusbar/dolphinstatusbar.cpp:85
+#: statusbar/dolphinstatusbar.cpp:86
 msgid "Stop"
 msgstr ""
 
-#: statusbar/dolphinstatusbar.cpp:272
+#: statusbar/dolphinstatusbar.cpp:273
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Confirmation"
@@ -1028,12 +1028,12 @@ msgctxt "@action:inmenu"
 msgid "Copy Information Message"
 msgstr "অনুমোদন "
 
-#: statusbar/dolphinstatusbar.cpp:275
+#: statusbar/dolphinstatusbar.cpp:276
 msgctxt "@action:inmenu"
 msgid "Copy Error Message"
 msgstr ""
 
-#: statusbar/dolphinstatusbar.cpp:280
+#: statusbar/dolphinstatusbar.cpp:281
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Show zoom slider"
@@ -1041,7 +1041,7 @@ msgctxt "@action:inmenu"
 msgid "Show Zoom Slider"
 msgstr "জুম স্লাইডার দেখাও"
 
-#: statusbar/dolphinstatusbar.cpp:284
+#: statusbar/dolphinstatusbar.cpp:285
 #, fuzzy
 #| msgctxt "@title:menu"
 #| msgid "Additional Information"
@@ -1049,7 +1049,7 @@ msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "অধিক তথ্য"
 
-#: statusbar/dolphinstatusbar.cpp:366
+#: statusbar/dolphinstatusbar.cpp:374
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -1384,17 +1384,17 @@ msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1061
+#: views/dolphinview.cpp:1062
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1113
+#: views/dolphinview.cpp:1114
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1115
+#: views/dolphinview.cpp:1116
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
