@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-06 05:12+0100\n"
+"POT-Creation-Date: 2011-12-07 03:15+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -385,7 +385,7 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
 
-#: panels/search/searchpanel.cpp:139
+#: panels/search/searchpanel.cpp:140
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Small"
@@ -393,7 +393,7 @@ msgctxt "option:check Refers to a filter on image size"
 msgid "Small"
 msgstr "ছোটো"
 
-#: panels/search/searchpanel.cpp:141
+#: panels/search/searchpanel.cpp:142
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Medium"
@@ -401,7 +401,7 @@ msgctxt "option:check Refers to a filter on image size"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: panels/search/searchpanel.cpp:144
+#: panels/search/searchpanel.cpp:145
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Large"
@@ -1132,11 +1132,6 @@ msgstr "রিলোড"
 msgid "Default"
 msgstr "ডিফল্ট"
 
-#: views/draganddrophelper.cpp:50
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
-
 #: views/renamedialog.cpp:57
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -1399,6 +1394,11 @@ msgstr "এই জায়গাটা ইতেমধ্যেই খালি।
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "'%1' জায়গাটা সঠিক নয়।"
+
+#: views/draganddrophelper.cpp:49
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
 
 #: main.cpp:35
 msgctxt "@title"
