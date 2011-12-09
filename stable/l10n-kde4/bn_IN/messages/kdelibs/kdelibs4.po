@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-07 10:55+0100\n"
+"POT-Creation-Date: 2011-12-09 11:08+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -787,7 +787,7 @@ msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:188
 msgid "&Help"
 msgstr "সাহায্য (&H)"
 
@@ -2356,7 +2356,7 @@ msgstr "(প্রতীকচিহ্ন অনুপস্থিত)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:290
 #, kde-format
 msgid "About %1"
 msgstr "%1 পরিচিতি"
@@ -9298,32 +9298,6 @@ msgstr "উপরে স্থানান্তর (&U)"
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
-#, kde-format
-msgid "%1 &Handbook"
-msgstr "%1 হ্যান্ড-বুক (&H)"
-
-#: kdeui/widgets/khelpmenu.cpp:162
-msgid "What's &This"
-msgstr "এটি কী (&T)"
-
-#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
-msgid "&Report Bug..."
-msgstr "বাগ রিপোর্ট দায়ের করুন...(&R)"
-
-#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
-msgid "Switch Application &Language..."
-msgstr "অ্যাপ্লিকেশনের ভাষা পরিবর্তন করুন...(&L)"
-
-#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
-#, kde-format
-msgid "&About %1"
-msgstr "%1 পরিচিতি (&A)"
-
-#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
-msgid "About &KDE"
-msgstr "KDE পরিচিতি (&K)"
-
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&H)"
@@ -13550,6 +13524,11 @@ msgstr "টুলবার কনফিগার করুন... (&b)"
 msgid "Configure &Notifications..."
 msgstr "সূচনাবার্তা কনফিগার করুন... (&N)"
 
+#: kdeui/actions/kstandardaction_p.h:111
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "%1 হ্যান্ড-বুক (&H)"
+
 #: kdeui/actions/kstandardaction_p.h:112
 msgid "What's &This?"
 msgstr "এটি কী? (&T)"
@@ -13557,6 +13536,23 @@ msgstr "এটি কী? (&T)"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "দিনের উপদেশ (&D)"
+
+#: kdeui/actions/kstandardaction_p.h:114
+msgid "&Report Bug..."
+msgstr "বাগ রিপোর্ট দায়ের করুন...(&R)"
+
+#: kdeui/actions/kstandardaction_p.h:115
+msgid "Switch Application &Language..."
+msgstr "অ্যাপ্লিকেশনের ভাষা পরিবর্তন করুন...(&L)"
+
+#: kdeui/actions/kstandardaction_p.h:116
+#, kde-format
+msgid "&About %1"
+msgstr "%1 পরিচিতি (&A)"
+
+#: kdeui/actions/kstandardaction_p.h:117
+msgid "About &KDE"
+msgstr "KDE পরিচিতি (&K)"
 
 #: kross/qts/values_p.h:69
 #, kde-format
@@ -13571,6 +13567,9 @@ msgstr "পূর্বাহ্ন"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "অপরাহ্ন"
+
+#~ msgid "What's &This"
+#~ msgstr "এটি কী (&T)"
 
 #, fuzzy
 #~| msgid "&OK"
