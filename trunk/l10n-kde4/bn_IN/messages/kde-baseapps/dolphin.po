@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-11 03:23+0100\n"
+"POT-Creation-Date: 2011-12-12 03:24+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1327,13 +1327,18 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: views/dolphinview.cpp:500
+#: views/draganddrophelper.cpp:49
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
+
+#: views/dolphinview.cpp:506
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:503
+#: views/dolphinview.cpp:509
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1341,7 +1346,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:504
+#: views/dolphinview.cpp:510
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1349,7 +1354,7 @@ msgid_plural "%1 Files selected"
 msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:508
+#: views/dolphinview.cpp:514
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Folder"
@@ -1359,7 +1364,7 @@ msgid_plural "%1 Folders"
 msgstr[0] "ফোল্ডার"
 msgstr[1] "ফোল্ডার"
 
-#: views/dolphinview.cpp:509
+#: views/dolphinview.cpp:515
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
@@ -1367,38 +1372,33 @@ msgid_plural "%1 Files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:513
+#: views/dolphinview.cpp:519
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:516
+#: views/dolphinview.cpp:522
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1057
+#: views/dolphinview.cpp:1063
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1109
+#: views/dolphinview.cpp:1138
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1111
+#: views/dolphinview.cpp:1140
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "'%1' জায়গাটা সঠিক নয়।"
-
-#: views/draganddrophelper.cpp:49
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
 
 #: main.cpp:35
 msgctxt "@title"
