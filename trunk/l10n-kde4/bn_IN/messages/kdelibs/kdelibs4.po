@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-02 04:24+0100\n"
+"POT-Creation-Date: 2011-12-21 04:41+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -787,7 +787,7 @@ msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:188
 msgid "&Help"
 msgstr "সাহায্য (&H)"
 
@@ -2075,7 +2075,7 @@ msgstr "জমা করুন"
 
 #. i18n: file: nepomuk/utils/daterangeselectionwidget.ui:81
 #. i18n: ectx: property (text), widget (QToolButton, m_rangesButton)
-#: rc.cpp:1109 kdecore/localization/klocale_kde.cpp:2517
+#: rc.cpp:1109 kdecore/localization/klocale_kde.cpp:2523
 #: nepomuk/utils/daterangeselectionwidget.cpp:193
 msgid "Today"
 msgstr "আজ"
@@ -2356,7 +2356,7 @@ msgstr "(প্রতীকচিহ্ন অনুপস্থিত)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:290
 #, kde-format
 msgid "About %1"
 msgstr "%1 পরিচিতি"
@@ -4703,49 +4703,49 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 ও %2"
 
-#: kdecore/localization/klocale_kde.cpp:2462
+#: kdecore/localization/klocale_kde.cpp:2468
 msgctxt "Before Noon KLocale::LongName"
 msgid "Ante Meridiem"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2463
+#: kdecore/localization/klocale_kde.cpp:2469
 msgctxt "Before Noon KLocale::ShortName"
 msgid "AM"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2464
+#: kdecore/localization/klocale_kde.cpp:2470
 #, fuzzy
 #| msgid "AC"
 msgctxt "Before Noon KLocale::NarrowName"
 msgid "A"
 msgstr "AC"
 
-#: kdecore/localization/klocale_kde.cpp:2467
+#: kdecore/localization/klocale_kde.cpp:2473
 msgctxt "After Noon KLocale::LongName"
 msgid "Post Meridiem"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2468
+#: kdecore/localization/klocale_kde.cpp:2474
 msgctxt "After Noon KLocale::ShortName"
 msgid "PM"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2469
+#: kdecore/localization/klocale_kde.cpp:2475
 msgctxt "After Noon KLocale::NarrowName"
 msgid "P"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2520
+#: kdecore/localization/klocale_kde.cpp:2526
 msgid "Yesterday"
 msgstr "গতকাল"
 
-#: kdecore/localization/klocale_kde.cpp:2536
+#: kdecore/localization/klocale_kde.cpp:2542
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale_kde.cpp:2576
+#: kdecore/localization/klocale_kde.cpp:2582
 #, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -5361,14 +5361,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "স্বয়ংক্রিয় সনাক্তকরণ"
 
-#: kdeui/actions/krecentfilesaction.cpp:80
-msgid "No Entries"
-msgstr "কোনো এনট্রি উপস্থিত নেই"
-
-#: kdeui/actions/krecentfilesaction.cpp:84
-msgid "Clear List"
-msgstr "তালিকার তথ্য মুছে ফেলা হবে"
-
 #: kdeui/actions/ktogglefullscreenaction.cpp:48
 #: kdeui/actions/ktogglefullscreenaction.cpp:55
 #: kdeui/actions/ktogglefullscreenaction.cpp:85
@@ -5401,6 +5393,14 @@ msgstr ""
 #: kdeui/actions/kaction.cpp:126
 msgid "Ambiguous shortcut detected"
 msgstr ""
+
+#: kdeui/actions/krecentfilesaction.cpp:81
+msgid "No Entries"
+msgstr "কোনো এনট্রি উপস্থিত নেই"
+
+#: kdeui/actions/krecentfilesaction.cpp:85
+msgid "Clear List"
+msgstr "তালিকার তথ্য মুছে ফেলা হবে"
 
 #: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
 msgctxt "go back"
@@ -5436,8 +5436,8 @@ msgstr "স্ট্যাটাস-বার প্রদর্শন (&a)"
 
 #: kdeui/actions/kstandardaction.cpp:542
 msgid ""
-"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
-"window used for status information.</p>"
+"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
+"bottom of the window used for status information."
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
@@ -6961,12 +6961,18 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "ব্যবহারযোগ্য ফন্টের বিন্যাস এইখানে নির্বাচন করা যাবে।"
 
-#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:639
+#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:623
+#: kdeui/fonts/kfontchooser.cpp:640
+msgctxt "@item font"
+msgid "Regular"
+msgstr "স্বাভাবিক"
+
+#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:644
 msgctxt "@item font"
 msgid "Italic"
 msgstr "তেরছা"
 
-#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:640
+#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:645
 msgctxt "@item font"
 msgid "Oblique"
 msgstr ""
@@ -7025,7 +7031,7 @@ msgstr "প্রকৃত ফন্ট"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:625
+#: kdeui/fonts/kfontchooser.cpp:630
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -7189,24 +7195,24 @@ msgid "Minimize"
 msgstr "সর্বনিম্ন মাপ"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:487
-#: kdeui/notifications/kstatusnotifieritem.cpp:925
+#: kdeui/notifications/kstatusnotifieritem.cpp:488
+#: kdeui/notifications/kstatusnotifieritem.cpp:926
 msgid "&Minimize"
 msgstr "সর্বনিম্ন মাপ (&M)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:923
+#: kdeui/notifications/kstatusnotifieritem.cpp:924
 msgid "&Restore"
 msgstr "পুনরুদ্ধার (&R)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:933
+#: kdeui/notifications/kstatusnotifieritem.cpp:934
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>আপনি কি নিশ্চিতরূপে <b>%1</b> থেকে প্রস্থান করতে ইচ্ছুক?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:936
+#: kdeui/notifications/kstatusnotifieritem.cpp:937
 msgid "Confirm Quit From System Tray"
 msgstr "সিস্টেম ট্রে থেকে প্রস্থান করার সময় নিশ্চিত করা হবে"
 
@@ -9232,31 +9238,65 @@ msgstr "উপরে স্থানান্তর (&U)"
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
-#, kde-format
-msgid "%1 &Handbook"
-msgstr "%1 হ্যান্ড-বুক (&H)"
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "১"
 
-#: kdeui/widgets/khelpmenu.cpp:162
-msgid "What's &This"
-msgstr "এটি কী (&T)"
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "পরিশ্রুত করুন (&l)"
 
-#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
-msgid "&Report Bug..."
-msgstr "বাগ রিপোর্ট দায়ের করুন...(&R)"
+#: kdeui/widgets/klineedit.cpp:1216
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "রঙ নির্বাচন করুন"
 
-#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
-msgid "Switch Application &Language..."
-msgstr "অ্যাপ্লিকেশনের ভাষা পরিবর্তন করুন...(&L)"
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "শূণ্য"
 
-#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
-#, kde-format
-msgid "&About %1"
-msgstr "%1 পরিচিতি (&A)"
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "ব্যবহারকারী দ্বারা"
 
-#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
-msgid "About &KDE"
-msgstr "KDE পরিচিতি (&K)"
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "স্বয়ংক্রিয়"
+
+#: kdeui/widgets/klineedit.cpp:1226
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "ড্রপ-ডাউন তালিকা"
+
+#: kdeui/widgets/klineedit.cpp:1227
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
+
+#: kdeui/widgets/klineedit.cpp:1228
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "ড্রপ-ডাউন তালিকা && স্বয়ংক্রিয়"
+
+#: kdeui/widgets/klineedit.cpp:1259
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "ডিফল্ট মান"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
@@ -9371,66 +9411,6 @@ msgstr "অসমর্থিত-কি"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "নাম বিহীন"
-
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "১"
-
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "পরিশ্রুত করুন (&l)"
-
-#: kdeui/widgets/klineedit.cpp:1213
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "রঙ নির্বাচন করুন"
-
-#: kdeui/widgets/klineedit.cpp:1220
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "শূণ্য"
-
-#: kdeui/widgets/klineedit.cpp:1221
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "ব্যবহারকারী দ্বারা"
-
-#: kdeui/widgets/klineedit.cpp:1222
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "স্বয়ংক্রিয়"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "ড্রপ-ডাউন তালিকা"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
-
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "ড্রপ-ডাউন তালিকা && স্বয়ংক্রিয়"
-
-#: kdeui/widgets/klineedit.cpp:1256
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "ডিফল্ট মান"
 
 #: kdeui/widgets/ktextedit.cpp:527
 msgid "Speak Text"
@@ -10781,6 +10761,10 @@ msgstr ""
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "JavaScript-র নতুন উইন্ডো সংক্রান্ত নিয়মনীতি কনফিগার করুন...&C"
 
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
+
 #: khtml/khtmlimage.cpp:202
 #, kde-format
 msgid "%1 (%2 - %3x%4 Pixels)"
@@ -10804,10 +10788,6 @@ msgstr "ছবি - %1x%2 পিক্সেল"
 #: khtml/khtmlimage.cpp:217
 msgid "Done."
 msgstr "সমাপ্ত।"
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
@@ -12376,63 +12356,6 @@ msgstr "আপনি কি নিশ্চিতরূপে '%1' সঞ্চ�
 msgid "Execute File?"
 msgstr "ফাইল সঞ্চালিত হবে কি?"
 
-#: kparts/browseropenorsavequestion.cpp:100
-#, kde-format
-msgctxt "@label Type of file"
-msgid "Type: %1"
-msgstr "ধরন: %1"
-
-#: kparts/browseropenorsavequestion.cpp:108
-msgctxt "@label:checkbox"
-msgid "Remember action for files of this type"
-msgstr "এই প্রকৃতির ফাইলের জন্য সঞ্চালনযোগ্য কর্ম মনে রাখা হবে"
-
-#: kparts/browseropenorsavequestion.cpp:139
-#: kparts/browseropenorsavequestion.cpp:214
-#, kde-format
-msgctxt "@label:button"
-msgid "&Open with %1"
-msgstr "%1 সহযোগে খুলুন (&O)"
-
-#: kparts/browseropenorsavequestion.cpp:188
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open &with %1"
-msgstr "%1 সহযোগে খুলুন (&w)"
-
-#: kparts/browseropenorsavequestion.cpp:199
-#: kparts/browseropenorsavequestion.cpp:293
-#, kde-format
-msgctxt "@info"
-msgid "Open '%1'?"
-msgstr "'%1' খোলা হবে কি?"
-
-#: kparts/browseropenorsavequestion.cpp:203
-msgctxt "@label:button"
-msgid "&Open with..."
-msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
-
-#: kparts/browseropenorsavequestion.cpp:223
-msgctxt "@label:button"
-msgid "&Open with"
-msgstr "চিহ্নিত সামগ্রী সহ খুলুন (&O)"
-
-#: kparts/browseropenorsavequestion.cpp:290
-msgctxt "@label:button"
-msgid "&Open"
-msgstr "খুলুন (&O)"
-
-#: kparts/browseropenorsavequestion.cpp:315
-#, kde-format
-msgctxt "@label File name"
-msgid "Name: %1"
-msgstr "নাম: %1"
-
-#: kparts/browseropenorsavequestion.cpp:317
-msgctxt "@info:whatsthis"
-msgid "This is the file name suggested by the server"
-msgstr "সার্ভার দ্বারা এই ফাইলের নাম প্রস্তাবিত হয়েছে"
-
 #: kparts/part.cpp:815
 msgid "Untitled"
 msgstr "শিরোনামবিহীন"
@@ -12449,6 +12372,63 @@ msgstr ""
 #: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "ডকুমেন্ট বন্ধ করুন"
+
+#: kparts/browseropenorsavequestion.cpp:100
+#, kde-format
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr "ধরন: %1"
+
+#: kparts/browseropenorsavequestion.cpp:108
+msgctxt "@label:checkbox"
+msgid "Remember action for files of this type"
+msgstr "এই প্রকৃতির ফাইলের জন্য সঞ্চালনযোগ্য কর্ম মনে রাখা হবে"
+
+#: kparts/browseropenorsavequestion.cpp:139
+#: kparts/browseropenorsavequestion.cpp:215
+#, kde-format
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "%1 সহযোগে খুলুন (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:189
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "%1 সহযোগে খুলুন (&w)"
+
+#: kparts/browseropenorsavequestion.cpp:200
+#: kparts/browseropenorsavequestion.cpp:294
+#, kde-format
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "'%1' খোলা হবে কি?"
+
+#: kparts/browseropenorsavequestion.cpp:204
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
+
+#: kparts/browseropenorsavequestion.cpp:224
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "চিহ্নিত সামগ্রী সহ খুলুন (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:291
+msgctxt "@label:button"
+msgid "&Open"
+msgstr "খুলুন (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:316
+#, kde-format
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "নাম: %1"
+
+#: kparts/browseropenorsavequestion.cpp:318
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr "সার্ভার দ্বারা এই ফাইলের নাম প্রস্তাবিত হয়েছে"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
@@ -12750,7 +12730,7 @@ msgstr[1] ""
 msgid "Search Plugins"
 msgstr "প্লাগ-ইন অনুসন্ধান"
 
-#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
+#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "Used only for plugins"
@@ -13022,7 +13002,7 @@ msgctxt "@option:check A filter on file type - media video"
 msgid "Video"
 msgstr "প্রদর্শন (&V)"
 
-#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:74
+#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:73
 #, fuzzy
 #| msgid "Pages"
 msgctxt "@option:check A filter on file type"
@@ -13195,42 +13175,42 @@ msgstr "স্বনির্ধারিত..."
 msgid "Enter Search Terms..."
 msgstr "অনুসন্ধানের উদ্দেশ্যে এই স্থানে তথ্য লিখুন"
 
-#: nepomuk/utils/typefacet.cpp:81
+#: nepomuk/utils/typefacet.cpp:80
 #, fuzzy
 #| msgid "Contact author"
 msgctxt "@option:check A filter on resource type"
 msgid "Contacts"
 msgstr "লেখকের সাথে যোগাযোগ করুন"
 
-#: nepomuk/utils/typefacet.cpp:83
+#: nepomuk/utils/typefacet.cpp:82
 #, fuzzy
 #| msgid "Email"
 msgctxt "@option:check A filter on resource type"
 msgid "Emails"
 msgstr "ই-মেইল"
 
-#: nepomuk/utils/typefacet.cpp:85
+#: nepomuk/utils/typefacet.cpp:84
 #, fuzzy
 #| msgid "Task"
 msgctxt "@option:check A filter on resource type"
 msgid "Tasks"
 msgstr "কর্ম"
 
-#: nepomuk/utils/typefacet.cpp:87
+#: nepomuk/utils/typefacet.cpp:86
 #, fuzzy
 #| msgid "Task"
 msgctxt "@option:check A filter on resource type"
 msgid "Tags"
 msgstr "কর্ম"
 
-#: nepomuk/utils/typefacet.cpp:221 nepomuk/utils/typefacet.cpp:230
+#: nepomuk/utils/typefacet.cpp:220 nepomuk/utils/typefacet.cpp:229
 #, fuzzy
 #| msgid "File"
 msgctxt "@option:check Do filter on type - show only files"
 msgid "Files"
 msgstr "ফাইল"
 
-#: nepomuk/utils/typefacet.cpp:223 nepomuk/utils/typefacet.cpp:232
+#: nepomuk/utils/typefacet.cpp:222 nepomuk/utils/typefacet.cpp:231
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Other"
@@ -13544,6 +13524,11 @@ msgstr "টুলবার কনফিগার করুন... (&b)"
 msgid "Configure &Notifications..."
 msgstr "সূচনাবার্তা কনফিগার করুন... (&N)"
 
+#: kdeui/actions/kstandardaction_p.h:111
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "%1 হ্যান্ড-বুক (&H)"
+
 #: kdeui/actions/kstandardaction_p.h:112
 msgid "What's &This?"
 msgstr "এটি কী? (&T)"
@@ -13551,6 +13536,23 @@ msgstr "এটি কী? (&T)"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "দিনের উপদেশ (&D)"
+
+#: kdeui/actions/kstandardaction_p.h:114
+msgid "&Report Bug..."
+msgstr "বাগ রিপোর্ট দায়ের করুন...(&R)"
+
+#: kdeui/actions/kstandardaction_p.h:115
+msgid "Switch Application &Language..."
+msgstr "অ্যাপ্লিকেশনের ভাষা পরিবর্তন করুন...(&L)"
+
+#: kdeui/actions/kstandardaction_p.h:116
+#, kde-format
+msgid "&About %1"
+msgstr "%1 পরিচিতি (&A)"
+
+#: kdeui/actions/kstandardaction_p.h:117
+msgid "About &KDE"
+msgstr "KDE পরিচিতি (&K)"
 
 #: kross/qts/values_p.h:69
 #, kde-format
@@ -13566,9 +13568,8 @@ msgstr "পূর্বাহ্ন"
 msgid "pm"
 msgstr "অপরাহ্ন"
 
-#~ msgctxt "@item font"
-#~ msgid "Regular"
-#~ msgstr "স্বাভাবিক"
+#~ msgid "What's &This"
+#~ msgstr "এটি কী (&T)"
 
 #, fuzzy
 #~| msgid "Next year"
