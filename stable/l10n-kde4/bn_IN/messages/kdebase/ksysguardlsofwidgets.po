@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguardlsofwidgets\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-21 11:33+0100\n"
+"POT-Creation-Date: 2011-12-22 13:32+0100\n"
 "PO-Revision-Date: 2009-01-09 12:33+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,10 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: LsofSearchWidget.cpp:36
-msgid "Renice Process"
-msgstr "Renice প্রসেস"
 
 #: lsof.cpp:21
 msgctxt "Short for File Descriptor"
@@ -36,6 +32,10 @@ msgstr "প্রকৃতি"
 #: lsof.cpp:21
 msgid "Object"
 msgstr "অবজেক্ট"
+
+#: LsofSearchWidget.cpp:36
+msgid "Renice Process"
+msgstr "Renice প্রসেস"
 
 #. i18n: file: LsofSearchWidget.ui:23
 #. i18n: ectx: property (text), widget (KLsofWidget, klsofwidget)

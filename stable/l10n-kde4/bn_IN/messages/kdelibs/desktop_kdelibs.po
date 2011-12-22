@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-21 10:45+0000\n"
+"POT-Creation-Date: 2011-12-22 12:39+0000\n"
 "PO-Revision-Date: 2009-01-16 08:17+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1092,6 +1092,11 @@ msgctxt "Name"
 msgid "Embedded Java Applet Viewer"
 msgstr "এমবেড করা Java Applet Viewer"
 
+#: khtml/khtmladaptorpart.desktop:2
+msgctxt "Name"
+msgid "KHTML Extension Adaptor"
+msgstr "KHTML Extension Adaptor"
+
 #: khtml/khtml.desktop:3
 msgctxt "Comment"
 msgid "Embeddable HTML viewing component"
@@ -1101,11 +1106,6 @@ msgstr "এমবেড করার যোগ্য HTML প্রদর্শ�
 msgctxt "Name"
 msgid "KHTML"
 msgstr "KHTML"
-
-#: khtml/khtmladaptorpart.desktop:2
-msgctxt "Name"
-msgid "KHTML Extension Adaptor"
-msgstr "KHTML Extension Adaptor"
 
 #: khtml/khtmlimage.desktop:3
 msgctxt "Comment"
@@ -1276,11 +1276,6 @@ msgctxt "Comment"
 msgid "Plugin for the Rename Dialog"
 msgstr "নাম পরিবর্তনের ডায়লগের জন্য প্লাগ-ইন"
 
-#: kio/tests/dummymeta.desktop:3
-msgctxt "Name"
-msgid "Dummy Meta"
-msgstr "ডামি মিটা"
-
 #: kioslave/http/http_cache_cleaner.desktop:3
 msgctxt "Name"
 msgid "HTTP Cache Cleaner"
@@ -1303,6 +1298,11 @@ msgstr "KDED Cookie Jar মডিউল"
 msgctxt "Comment"
 msgid "Stores network cookies"
 msgstr ""
+
+#: kio/tests/dummymeta.desktop:3
+msgctxt "Name"
+msgid "Dummy Meta"
+msgstr "ডামি মিটা"
 
 #: knotify/tests/knotifytest.notifyrc:3
 msgctxt "Comment"
@@ -1418,6 +1418,11 @@ msgctxt "Comment"
 msgid "Plasma Animation Engine"
 msgstr "Plasma অ্যানিমেশন ইঞ্জিন"
 
+#: plasma/data/servicetypes/plasma-applet.desktop:5
+msgctxt "Comment"
+msgid "Plasma applet"
+msgstr "Plasma অ্যাপ্লেট"
+
 #: plasma/data/servicetypes/plasma-applet-popupapplet.desktop:5
 #, fuzzy
 #| msgctxt "Comment"
@@ -1426,19 +1431,14 @@ msgctxt "Comment"
 msgid "Plasma scripting popup applet"
 msgstr "Plasma অ্যাপ্লেট"
 
-#: plasma/data/servicetypes/plasma-applet.desktop:5
+#: plasma/data/servicetypes/plasma-containmentactions.desktop:5
 msgctxt "Comment"
-msgid "Plasma applet"
-msgstr "Plasma অ্যাপ্লেট"
+msgid "Plasma ContainmentActions"
+msgstr ""
 
 #: plasma/data/servicetypes/plasma-containment.desktop:5
 msgctxt "Comment"
 msgid "Plasma applet container and background painter"
-msgstr ""
-
-#: plasma/data/servicetypes/plasma-containmentactions.desktop:5
-msgctxt "Comment"
-msgid "Plasma ContainmentActions"
 msgstr ""
 
 #: plasma/data/servicetypes/plasma-dataengine.desktop:5
