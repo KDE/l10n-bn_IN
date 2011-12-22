@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-21 04:36+0100\n"
+"POT-Creation-Date: 2011-12-22 04:51+0100\n"
 "PO-Revision-Date: 2008-12-29 15:40+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -122,11 +122,6 @@ msgstr ""
 msgid "Launcher:"
 msgstr ""
 
-#: task.cpp:237
-msgctxt "marks that a task has been modified"
-msgid "modified"
-msgstr "পরিবর্তিত"
-
 #: taskactions.cpp:168
 msgid "Mi&nimize"
 msgstr "আড়াল করুন (&n)"
@@ -208,6 +203,11 @@ msgstr ""
 #: taskactions.cpp:504
 msgid "&Edit Group"
 msgstr "দলের তথ্য সম্পাদনা করুন (&E)"
+
+#: task.cpp:237
+msgctxt "marks that a task has been modified"
+msgid "modified"
+msgstr "পরিবর্তিত"
 
 #: strategies/manualgroupingstrategy.cpp:77
 msgid "Leave Group"
