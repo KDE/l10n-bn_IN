@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-07 04:06+0100\n"
+"POT-Creation-Date: 2012-01-03 06:18+0100\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Window '%1' demands attention."
 msgstr "উইন্ডো '%1' থেকে চেতাবনী প্রাপ্ত হয়েছে।"
 
-#: composite.cpp:262
+#: composite.cpp:271
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -394,51 +394,51 @@ msgstr ""
 msgid "KDE window manager"
 msgstr "KDE উইন্ডো পরিচালন ব্যবস্থা"
 
-#: main.cpp:457 killer/killer.cpp:40
+#: main.cpp:473 killer/killer.cpp:40
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:461
+#: main.cpp:477
 msgid "(c) 1999-2008, The KDE Developers"
 msgstr "(c) ১৯৯৯-২০০৮, KDE-র নির্মাতা বৃন্দ"
 
-#: main.cpp:462
+#: main.cpp:478
 msgid "Matthias Ettrich"
 msgstr "ম্যাথায়েস এট্রিখ"
 
-#: main.cpp:463
+#: main.cpp:479
 msgid "Cristian Tibirna"
 msgstr "ক্রিস্টিয়্যান টিবির্না"
 
-#: main.cpp:464
+#: main.cpp:480
 msgid "Daniel M. Duley"
 msgstr "ড্যানিয়েল এম. ডুলি"
 
-#: main.cpp:465
+#: main.cpp:481
 msgid "Luboš Luňák"
 msgstr "লুবোস লুনাক"
 
-#: main.cpp:466
+#: main.cpp:482
 msgid "Martin Gräßlin"
 msgstr ""
 
-#: main.cpp:466
+#: main.cpp:482
 msgid "Maintainer"
 msgstr "নির্মাণকারী"
 
-#: main.cpp:471
+#: main.cpp:487
 msgid "Disable configuration options"
 msgstr "কনফিগারেশন সংক্রান্ত বিকল্প নিষ্ক্রিয় করা হবে"
 
-#: main.cpp:472
+#: main.cpp:488
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "ICCCM2.0-র সাথে সুসংগত বর্তমানে চলমান উইন্ডো পরিচালনব্যবস্থা প্রতিস্থাপন করুন"
 
-#: main.cpp:473
+#: main.cpp:489
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "KWin n সংখ্যক বার বিপর্যস্ত হওয়ার ইঙ্গিত প্রদর্শন করা হবে"
 
-#: main.cpp:475
+#: main.cpp:491
 msgid "Load the script testing dialog"
 msgstr ""
 
@@ -612,12 +612,12 @@ msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
-#: workspace.cpp:1089 workspace.cpp:1121
+#: workspace.cpp:1103 workspace.cpp:1135
 #, kde-format
 msgid "Desktop %1"
 msgstr "ডেস্কটপ %1"
 
-#: workspace.cpp:1904
+#: workspace.cpp:1918
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -626,7 +626,7 @@ msgid ""
 "keyboard shortcut."
 msgstr ""
 
-#: workspace.cpp:1916
+#: workspace.cpp:1930
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
