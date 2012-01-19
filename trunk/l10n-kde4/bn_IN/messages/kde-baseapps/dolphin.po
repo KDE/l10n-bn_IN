@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-18 04:14+0100\n"
+"POT-Creation-Date: 2012-01-19 03:45+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1120,18 +1120,6 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "অজানা পরিমান"
 
-#: views/dolphinremoteencoding.cpp:53
-msgid "Select Remote Charset"
-msgstr "দূরবর্তী অক্ষরমালা নির্বাচন করুন"
-
-#: views/dolphinremoteencoding.cpp:117
-msgid "Reload"
-msgstr "রিলোড"
-
-#: views/dolphinremoteencoding.cpp:118
-msgid "Default"
-msgstr "ডিফল্ট"
-
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
 #| msgctxt "@label"
@@ -1228,6 +1216,18 @@ msgstr "এই জায়গাটা ইতেমধ্যেই খালি।
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "'%1' জায়গাটা সঠিক নয়।"
+
+#: views/dolphinremoteencoding.cpp:53
+msgid "Select Remote Charset"
+msgstr "দূরবর্তী অক্ষরমালা নির্বাচন করুন"
+
+#: views/dolphinremoteencoding.cpp:117
+msgid "Reload"
+msgstr "রিলোড"
+
+#: views/dolphinremoteencoding.cpp:118
+msgid "Default"
+msgstr "ডিফল্ট"
 
 #: views/dolphinviewactionhandler.cpp:92
 msgctxt "@action"
