@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-18 04:36+0100\n"
+"POT-Creation-Date: 2012-01-29 13:35+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -78,6 +78,11 @@ msgstr "বন্ধ করুন"
 msgid "Lock screen"
 msgstr "পর্দা লক করুন"
 
+#: actions/bundled/brightnesscontrolconfig.cpp:63
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr ""
+
 #: actions/bundled/handlebuttoneventsconfig.cpp:77
 msgid "Do nothing"
 msgstr "কিছু করা হবে না"
@@ -103,11 +108,6 @@ msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হ�
 #| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বাটন টিপলে"
-
-#: actions/bundled/brightnesscontrolconfig.cpp:63
-msgctxt "Brightness level, label for the slider"
-msgid "Level"
-msgstr ""
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 msgid "Switch off after"
