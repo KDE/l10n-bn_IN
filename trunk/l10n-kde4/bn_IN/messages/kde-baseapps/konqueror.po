@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:12+0100\n"
+"POT-Creation-Date: 2012-01-30 05:14+0100\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -566,50 +566,6 @@ msgstr ""
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
-"প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4985
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "নিশ্চায়ন"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
-"প্রোফাইল লোড করা হলে এই পরিবর্তনগুলি মুছে যাবে।"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2534 src/konqmainwindow.cpp:5020
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "পরিবর্তন বর্জন করা হবে কি?"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5020
-msgid "&Discard Changes"
-msgstr "পরিবর্তন বর্জন করা হবে কি? (&D)"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -644,6 +600,23 @@ msgid ""
 msgstr ""
 "এই পেজের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
 "পেজ পুনরায় লোড করা হলে, এই পরিবর্তনগুলি মুছে যাবে।"
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2534
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "পরিবর্তন বর্জন করা হবে কি?"
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2535
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
+msgstr "পরিবর্তন বর্জন করা হবে কি? (&D)"
 
 #: src/konqmainwindow.cpp:1743
 msgid "File Management"
@@ -1185,6 +1158,13 @@ msgid ""
 msgstr ""
 "বর্তমান উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে। আপনি কি নিশ্চিতরূপে বন্ধ করতে ইচ্ছুক?"
 
+#: src/konqmainwindow.cpp:4985 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "নিশ্চায়ন"
+
 #: src/konqmainwindow.cpp:4987
 msgid "C&lose Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন (&l)"
@@ -1273,6 +1253,26 @@ msgstr "ট্যাব বিচ্ছিন্ন করুন (&e)"
 #: src/konqtabs.cpp:491
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
+"প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
+"প্রোফাইল লোড করা হলে এই পরিবর্তনগুলি মুছে যাবে।"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
