@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-03 04:24+0100\n"
+"POT-Creation-Date: 2012-02-04 04:37+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -27,7 +27,7 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
 
-#: kitemviews/kfileitemlistwidget.cpp:235
+#: kitemviews/kfileitemlistwidget.cpp:237
 #, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Unknown size"
@@ -35,7 +35,7 @@ msgctxt "@item:intable"
 msgid "Unknown"
 msgstr "অজানা পরিমান"
 
-#: kitemviews/kfileitemlistwidget.cpp:238
+#: kitemviews/kfileitemlistwidget.cpp:239
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -45,11 +45,6 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
-
-#: kitemviews/kfileitemlistview.cpp:565
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
 
 #: kitemviews/kfileitemmodel.cpp:268
 #, fuzzy
@@ -146,12 +141,12 @@ msgctxt "@item:intable"
 msgid "No destination"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1645
+#: kitemviews/kfileitemmodel.cpp:1653
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1662
+#: kitemviews/kfileitemmodel.cpp:1670
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -159,142 +154,147 @@ msgctxt "@title:group"
 msgid "Others"
 msgstr "অন্যান্য"
 
-#: kitemviews/kfileitemmodel.cpp:1694
+#: kitemviews/kfileitemmodel.cpp:1702
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "ফোল্ডার সমূহ"
 
-#: kitemviews/kfileitemmodel.cpp:1696
+#: kitemviews/kfileitemmodel.cpp:1704
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "ছোটো"
 
-#: kitemviews/kfileitemmodel.cpp:1698
+#: kitemviews/kfileitemmodel.cpp:1706
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: kitemviews/kfileitemmodel.cpp:1700
+#: kitemviews/kfileitemmodel.cpp:1708
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "বড়ো"
 
-#: kitemviews/kfileitemmodel.cpp:1760
+#: kitemviews/kfileitemmodel.cpp:1768
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "আজকে"
 
-#: kitemviews/kfileitemmodel.cpp:1761
+#: kitemviews/kfileitemmodel.cpp:1769
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "গতকাল"
 
-#: kitemviews/kfileitemmodel.cpp:1762
+#: kitemviews/kfileitemmodel.cpp:1770
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1766
+#: kitemviews/kfileitemmodel.cpp:1774
 msgctxt "@title:group Date"
 msgid "Last Week"
 msgstr "গত সপ্তাহ"
 
-#: kitemviews/kfileitemmodel.cpp:1769
+#: kitemviews/kfileitemmodel.cpp:1777
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "দুই সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1772
+#: kitemviews/kfileitemmodel.cpp:1780
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "তিন সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1776
+#: kitemviews/kfileitemmodel.cpp:1784
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "এই মাসের শুরুতে"
 
-#: kitemviews/kfileitemmodel.cpp:1785
+#: kitemviews/kfileitemmodel.cpp:1793
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "গতকাল (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1787
+#: kitemviews/kfileitemmodel.cpp:1795
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1789
+#: kitemviews/kfileitemmodel.cpp:1797
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Last Week (%B, %Y)"
 msgstr "গত সপ্তাহ (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1791
+#: kitemviews/kfileitemmodel.cpp:1799
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "দুই সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1793
+#: kitemviews/kfileitemmodel.cpp:1801
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "তিন সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1795
+#: kitemviews/kfileitemmodel.cpp:1803
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y এর গোড়ার দিকে"
 
-#: kitemviews/kfileitemmodel.cpp:1798
+#: kitemviews/kfileitemmodel.cpp:1806
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1837 kitemviews/kfileitemmodel.cpp:1850
-#: kitemviews/kfileitemmodel.cpp:1863
+#: kitemviews/kfileitemmodel.cpp:1845 kitemviews/kfileitemmodel.cpp:1858
+#: kitemviews/kfileitemmodel.cpp:1871
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "পড়া যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1840 kitemviews/kfileitemmodel.cpp:1853
-#: kitemviews/kfileitemmodel.cpp:1866
+#: kitemviews/kfileitemmodel.cpp:1848 kitemviews/kfileitemmodel.cpp:1861
+#: kitemviews/kfileitemmodel.cpp:1874
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "লেখা যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1843 kitemviews/kfileitemmodel.cpp:1856
-#: kitemviews/kfileitemmodel.cpp:1869
+#: kitemviews/kfileitemmodel.cpp:1851 kitemviews/kfileitemmodel.cpp:1864
+#: kitemviews/kfileitemmodel.cpp:1877
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "রান করবে"
 
-#: kitemviews/kfileitemmodel.cpp:1845 kitemviews/kfileitemmodel.cpp:1858
-#: kitemviews/kfileitemmodel.cpp:1871
+#: kitemviews/kfileitemmodel.cpp:1853 kitemviews/kfileitemmodel.cpp:1866
+#: kitemviews/kfileitemmodel.cpp:1879
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "নিশিদ্ধ"
 
-#: kitemviews/kfileitemmodel.cpp:1873
+#: kitemviews/kfileitemmodel.cpp:1881
 #, fuzzy, kde-format
 #| msgctxt "@title:group Files and folders by permissions"
 #| msgid "(User: %1) (Group: %2) (Others: %3)"
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(ব্যবহারকারী: %1) (গ্রুপ: %2) (অন্যান্য: %3)"
+
+#: kitemviews/kfileitemlistview.cpp:565
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
@@ -1972,25 +1972,17 @@ msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:437
-#, fuzzy, kde-format
-#| msgctxt "@info:status files (size)"
-#| msgid "%1 (%2)"
-msgctxt "@info:status filename (type)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: dolphinviewcontainer.cpp:517
+#: dolphinviewcontainer.cpp:512
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:529
+#: dolphinviewcontainer.cpp:524
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:536
+#: dolphinviewcontainer.cpp:531
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "অবৈধ প্রোটোকল"
@@ -2450,6 +2442,13 @@ msgstr "টুল"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Dolphin টুলবার"
+
+#, fuzzy
+#~| msgctxt "@info:status files (size)"
+#~| msgid "%1 (%2)"
+#~ msgctxt "@info:status filename (type)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
 
 #~ msgctxt "@option:check"
 #~ msgid "Rename inline"
