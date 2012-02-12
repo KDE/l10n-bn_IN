@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_lib\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:38+0200\n"
+"POT-Creation-Date: 2012-02-12 04:18+0100\n"
 "PO-Revision-Date: 2009-01-09 12:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kdecoration_plugins_p.cpp:109
+#, fuzzy
+#| msgid "No window decoration plugin library was found."
+msgid "Loading of window decoration plugin library disabled in configuration."
+msgstr "উইন্ডোর সাজসজ্জার জন্য কোনো প্লাগ-ইন লাইব্রেরি পাওয়া যায়নি।"
+
+#: kdecoration_plugins_p.cpp:129
+msgid "No window decoration plugin library was found."
+msgstr "উইন্ডোর সাজসজ্জার জন্য কোনো প্লাগ-ইন লাইব্রেরি পাওয়া যায়নি।"
+
+#: kdecoration_plugins_p.cpp:154
+msgid "The default decoration plugin is corrupt and could not be loaded."
+msgstr "উইন্ডোর সাজসজ্জার জন্য উপস্থিত ডিফল্ট প্লাগ-ইনটি ক্ষতিগ্রস্ত ও লোড করা যায়নি।"
+
+#: kdecoration_plugins_p.cpp:166 kdecoration_plugins_p.cpp:171
+#, kde-format
+msgid "The library %1 is not a KWin plugin."
+msgstr "%1 লাইব্রেরিটি, KWin প্লাগ-ইন নয়।"
 
 #: kcommondecoration.cpp:291
 #, fuzzy, kde-format
@@ -81,22 +100,3 @@ msgstr "ছায়াবিহীন"
 #: kcommondecoration.cpp:501 kcommondecoration.cpp:620
 msgid "Shade"
 msgstr "ছায়াবৃত"
-
-#: kdecoration_plugins_p.cpp:109
-#, fuzzy
-#| msgid "No window decoration plugin library was found."
-msgid "Loading of window decoration plugin library disabled in configuration."
-msgstr "উইন্ডোর সাজসজ্জার জন্য কোনো প্লাগ-ইন লাইব্রেরি পাওয়া যায়নি।"
-
-#: kdecoration_plugins_p.cpp:129
-msgid "No window decoration plugin library was found."
-msgstr "উইন্ডোর সাজসজ্জার জন্য কোনো প্লাগ-ইন লাইব্রেরি পাওয়া যায়নি।"
-
-#: kdecoration_plugins_p.cpp:154
-msgid "The default decoration plugin is corrupt and could not be loaded."
-msgstr "উইন্ডোর সাজসজ্জার জন্য উপস্থিত ডিফল্ট প্লাগ-ইনটি ক্ষতিগ্রস্ত ও লোড করা যায়নি।"
-
-#: kdecoration_plugins_p.cpp:166 kdecoration_plugins_p.cpp:171
-#, kde-format
-msgid "The library %1 is not a KWin plugin."
-msgstr "%1 লাইব্রেরিটি, KWin প্লাগ-ইন নয়।"
