@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-15 04:05+0100\n"
+"POT-Creation-Date: 2012-02-16 04:14+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -720,7 +720,7 @@ msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:436 SessionController.cpp:618 SessionController.cpp:643
+#: MainWindow.cpp:436 SessionController.cpp:628 SessionController.cpp:653
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
@@ -1873,110 +1873,110 @@ msgstr "Solaris কনসোল"
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 টার্মিন্যাল"
 
-#: SessionController.cpp:270
+#: SessionController.cpp:280
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:404
+#: SessionController.cpp:414
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: SessionController.cpp:410
+#: SessionController.cpp:420
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:426
+#: SessionController.cpp:436
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: SessionController.cpp:430
+#: SessionController.cpp:440
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "সমগ্র নির্বাচন"
 
-#: SessionController.cpp:437
+#: SessionController.cpp:447
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:443
+#: SessionController.cpp:453
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:448
+#: SessionController.cpp:458
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:454
+#: SessionController.cpp:464
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:460
+#: SessionController.cpp:470
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:465
+#: SessionController.cpp:475
 msgid "Monitor for &Activity"
 msgstr "কর্ম সঞ্চালন নিরীক্ষণ করুন (&A)"
 
-#: SessionController.cpp:470
+#: SessionController.cpp:480
 msgid "Monitor for &Silence"
 msgstr "নিষ্ক্রিয় অবস্থা নিরীক্ষণ করুন (&S)"
 
-#: SessionController.cpp:476
+#: SessionController.cpp:486
 #, fuzzy
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "এনকোডিং"
 
-#: SessionController.cpp:484
+#: SessionController.cpp:494
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:492
+#: SessionController.cpp:502
 msgid "Shrink Font"
 msgstr ""
 
-#: SessionController.cpp:510
+#: SessionController.cpp:520
 #, fuzzy
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "ফলাফল সংরক্ষণ করুন..."
 
-#: SessionController.cpp:513
+#: SessionController.cpp:523
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:518
+#: SessionController.cpp:528
 #, fuzzy
 #| msgid "Scrollback"
 msgid "Clear Scrollback"
 msgstr "স্ক্রোল-ব্যাক"
 
-#: SessionController.cpp:522
+#: SessionController.cpp:532
 #, fuzzy
 #| msgid "Clear Scrollback"
 msgid "Clear Scrollback and Reset"
 msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
 
-#: SessionController.cpp:528
+#: SessionController.cpp:538
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:531
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা"
 
-#: SessionController.cpp:612
+#: SessionController.cpp:622
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -1984,7 +1984,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:615
+#: SessionController.cpp:625
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1993,7 +1993,7 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:637
+#: SessionController.cpp:647
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2005,7 +2005,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:640
+#: SessionController.cpp:650
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2315,7 +2315,7 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: Vt102Emulation.cpp:1048
+#: Vt102Emulation.cpp:1047
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
