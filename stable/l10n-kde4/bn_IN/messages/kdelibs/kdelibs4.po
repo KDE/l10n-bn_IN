@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-18 12:23+0100\n"
+"POT-Creation-Date: 2012-02-21 18:24+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -5621,10 +5621,6 @@ msgstr "KDE-তে যোগদান করুন (&J)"
 msgid "&Support KDE"
 msgstr "KDE-কে সমর্থন করুন (&S)"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:208
-msgid "Configure"
-msgstr "কনফিগার করুন"
-
 #: kdeui/dialogs/kedittoolbar.cpp:58
 msgid "--- separator ---"
 msgstr "--- বিভাজন রেখা ---"
@@ -6023,6 +6019,10 @@ msgstr "প্রারম্ভকালে উপেদশ প্রদর্�
 msgctxt "Opposite to Previous"
 msgid "&Next"
 msgstr "পরবর্তী (&N)"
+
+#: kdeui/dialogs/kconfigdialog.cpp:43 kutils/kcmultidialog.cpp:208
+msgid "Configure"
+msgstr "কনফিগার করুন"
 
 #: kdeui/dialogs/kshortcutseditoritem.cpp:45
 #, kde-format
