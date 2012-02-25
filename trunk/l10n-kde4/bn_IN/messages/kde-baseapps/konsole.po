@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-24 04:15+0100\n"
+"POT-Creation-Date: 2012-02-25 04:25+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -202,7 +202,7 @@ msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "রঙ"
 
-#: ColorSchemeEditor.cpp:86
+#: ColorSchemeEditor.cpp:90
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -215,12 +215,12 @@ msgstr ""
 "ব্যবহৃত ডেস্কটপ দ্বারা স্বচ্ছ উইন্ডো সমর্থিত না হওয়ার ফলে, পটভূমির স্বচ্ছতা নির্ধারণের "
 "বৈশিষ্ট্য প্রয়োগ করা হবে না।"
 
-#: ColorSchemeEditor.cpp:123
+#: ColorSchemeEditor.cpp:127
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:200
+#: ColorSchemeEditor.cpp:204
 msgid "Click to choose different color"
 msgstr ""
 
@@ -249,45 +249,45 @@ msgstr[1] "প্রোফাইল \"%1\" সম্পাদনা করুন
 msgid "Edit Profile \"%1\""
 msgstr "প্রোফাইল \"%1\" সম্পাদনা করুন"
 
-#: EditProfileDialog.cpp:247
+#: EditProfileDialog.cpp:251
 #, fuzzy
 #| msgid "Profile name:"
 msgid "Profile name is empty."
 msgstr "প্রোফাইলের নাম:"
 
-#: EditProfileDialog.cpp:308
+#: EditProfileDialog.cpp:312
 msgid "One environment variable per line"
 msgstr ""
 
-#: EditProfileDialog.cpp:310
+#: EditProfileDialog.cpp:314
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা"
 
-#: EditProfileDialog.cpp:332
+#: EditProfileDialog.cpp:336
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: EditProfileDialog.cpp:420
+#: EditProfileDialog.cpp:424
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরি নির্বাচন করুন"
 
-#: EditProfileDialog.cpp:602
+#: EditProfileDialog.cpp:609
 #, kde-format
 msgid "%1, size %2"
 msgstr "%1, মাপ %2"
 
-#: EditProfileDialog.cpp:711 EditProfileDialog.cpp:720
+#: EditProfileDialog.cpp:718 EditProfileDialog.cpp:727
 msgid "New Color Scheme"
 msgstr "নতুন রঙের বিন্যাস"
 
-#: EditProfileDialog.cpp:713
+#: EditProfileDialog.cpp:720
 msgid "Edit Color Scheme"
 msgstr "রঙের বিন্যাস সম্পাদনা করুন"
 
-#: EditProfileDialog.cpp:784
+#: EditProfileDialog.cpp:791
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -295,21 +295,21 @@ msgstr ""
 "এই রঙের বিন্যাসের সাথে স্বচ্ছ পটভূমি ব্যবহৃত হয়, কিন্তু আপনার ডেস্কটপে স্বচ্ছ পটভূমি "
 "সমর্থিত নয়"
 
-#: EditProfileDialog.cpp:789
+#: EditProfileDialog.cpp:796
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:894 EditProfileDialog.cpp:905
+#: EditProfileDialog.cpp:901 EditProfileDialog.cpp:912
 msgid "New Key Binding List"
 msgstr "কি-বাইন্ডিংয়ের নতুন তালিকা"
 
-#: EditProfileDialog.cpp:896
+#: EditProfileDialog.cpp:903
 msgid "Edit Key Binding List"
 msgstr "কি-বাইন্ডিংয়ের তালিকা সম্পাদনা"
 
-#: EditProfileDialog.cpp:984 HistorySizeDialog.cpp:77
+#: EditProfileDialog.cpp:991 HistorySizeDialog.cpp:77
 #, fuzzy
 #| msgid "lines"
 msgctxt "Unit of scrollback"
@@ -318,7 +318,7 @@ msgid_plural " lines"
 msgstr[0] "পংক্তি"
 msgstr[1] "পংক্তি"
 
-#: EditProfileDialog.cpp:1165
+#: EditProfileDialog.cpp:1172
 msgid "--- Type anything in this box ---"
 msgstr ""
 
@@ -2099,39 +2099,39 @@ msgstr "আরম্ভ করার জন্য কোনো ইন্টা�
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্ট সহ আরম্ভ করা যায়নি।"
 
-#: Session.cpp:579
+#: Session.cpp:580
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "'%1' সেশানে নিরবতা"
 
-#: Session.cpp:626
+#: Session.cpp:627
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
 
-#: Session.cpp:629
+#: Session.cpp:630
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "'%1'-এ কর্ম"
 
-#: Session.cpp:794
+#: Session.cpp:795
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: Session.cpp:808 Session.cpp:820
+#: Session.cpp:809 Session.cpp:821
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: Session.cpp:810
+#: Session.cpp:811
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: Session.cpp:1142
+#: Session.cpp:1143
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
