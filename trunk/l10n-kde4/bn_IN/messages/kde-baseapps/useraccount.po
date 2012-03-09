@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-10 03:41+0100\n"
+"POT-Creation-Date: 2012-03-09 04:13+0100\n"
 "PO-Revision-Date: 2008-07-06 12:19+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -27,19 +27,29 @@ msgctxt "@title:window"
 msgid "Change your Face"
 msgstr "ফেস-এর আইকন পরিবর্তন করুন"
 
-#: chfacedlg.cpp:75
+#: chfacedlg.cpp:60
+msgid "Custom Image..."
+msgstr "স্বনির্বাচিত ছবি..."
+
+#: chfacedlg.cpp:61
+#, fuzzy
+#| msgid "Choose Image"
+msgid "Remove Image"
+msgstr "ছবি নির্বাচন করুন"
+
+#: chfacedlg.cpp:78
 msgid "&Acquire Image..."
 msgstr "ছবি নির্ধারন করুন... (&A)"
 
-#: chfacedlg.cpp:95
+#: chfacedlg.cpp:98
 msgid "(Custom)"
 msgstr "(স্বনির্ধরিত)"
 
-#: chfacedlg.cpp:114 main.cpp:228
+#: chfacedlg.cpp:117
 msgid "There was an error loading the image."
 msgstr "ছবি লোড করার সময় ত্রুটি দেখা দিয়েছে।"
 
-#: chfacedlg.cpp:132 chfacedlg.cpp:168
+#: chfacedlg.cpp:135 chfacedlg.cpp:177
 #, kde-format
 msgid ""
 "There was an error saving the image:\n"
@@ -48,11 +58,11 @@ msgstr ""
 "ছবি সংরক্ষিণ করতে সমস্যা হয়েছে:\n"
 "%1"
 
-#: chfacedlg.cpp:143
+#: chfacedlg.cpp:146
 msgid "&Save copy in custom faces folder for future use"
 msgstr "পরবর্তীকালে ব্যবহারের জন্য কপি করে সংরক্ষণ করুন কাসটম ফেসেস ফোল্ডারে (&S)"
 
-#: chfacedlg.cpp:149
+#: chfacedlg.cpp:152
 #, fuzzy
 #| msgid "Choose Image"
 msgctxt "@title:window"
@@ -179,7 +189,13 @@ msgstr ""
 msgid "There was an error saving the image: %1"
 msgstr "ছবি সংরক্ষণ করা যাচ্ছে না: %1"
 
-#: main.cpp:296
+#: main.cpp:218
+#, fuzzy, kde-format
+#| msgid "There was an error saving the image: %1"
+msgid "There was an error deleting the image: %1"
+msgstr "ছবি সংরক্ষণ করা যাচ্ছে না: %1"
+
+#: main.cpp:297
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"
@@ -325,9 +341,6 @@ msgstr "পাসওয়ার্ড প্রদর্শনের ধরণ"
 #~ msgid "Your administrator has disallowed changing your image."
 #~ msgstr ""
 #~ "আপনার অ্যাডমিনিসট্রেটর আপনাকে ছবি পরিবর্তনের প্রয়োজনীয় অনুমতি প্রদান করেননি।"
-
-#~ msgid "Custom Image..."
-#~ msgstr "স্বনির্বাচিত ছবি..."
 
 #~ msgid "kcm_useraccount"
 #~ msgstr "kcm_useraccount"
