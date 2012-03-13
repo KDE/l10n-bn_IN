@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-12 03:51+0100\n"
+"POT-Creation-Date: 2012-03-13 05:05+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2242,18 +2242,18 @@ msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: ViewContainer.cpp:455
+#: ViewContainer.cpp:457
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: ViewContainer.cpp:461
+#: ViewContainer.cpp:463
 msgid "Open a new tab"
 msgstr ""
 
-#: ViewContainer.cpp:466
+#: ViewContainer.cpp:468
 #, fuzzy
 #| msgid "Close Current Tab"
 msgid "Close the current tab"
@@ -2317,22 +2317,22 @@ msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "অন্যান্যগুলি বন্ধ করুন"
 
-#: ViewManager.cpp:194
+#: ViewManager.cpp:193
+msgctxt "@action:inmenu"
+msgid "Expand View"
+msgstr ""
+
+#: ViewManager.cpp:201
+msgctxt "@action:inmenu"
+msgid "Shrink View"
+msgstr ""
+
+#: ViewManager.cpp:211
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
-
-#: ViewManager.cpp:203
-msgctxt "@action:inmenu"
-msgid "Expand View"
-msgstr ""
-
-#: ViewManager.cpp:211
-msgctxt "@action:inmenu"
-msgid "Shrink View"
-msgstr ""
 
 #: ViewManager.cpp:232
 #, fuzzy, kde-format
