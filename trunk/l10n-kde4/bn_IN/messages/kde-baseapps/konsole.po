@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-14 04:03+0100\n"
+"POT-Creation-Date: 2012-03-16 04:04+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -732,7 +732,7 @@ msgstr[0] ""
 msgstr[1] ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:524 SessionController.cpp:676 SessionController.cpp:701
+#: MainWindow.cpp:524 SessionController.cpp:674 SessionController.cpp:699
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
@@ -1913,92 +1913,92 @@ msgstr "নির্বাচিত অংশ পেস্ট করুন"
 msgid "&Select All"
 msgstr "সমগ্র নির্বাচন"
 
-#: SessionController.cpp:476
+#: SessionController.cpp:474
 #, fuzzy
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "ফলাফল সংরক্ষণ করুন..."
 
-#: SessionController.cpp:479
+#: SessionController.cpp:477
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:483
+#: SessionController.cpp:481
 #, fuzzy
 #| msgid "Scrollback"
 msgid "Clear Scrollback"
 msgstr "স্ক্রোল-ব্যাক"
 
-#: SessionController.cpp:487
+#: SessionController.cpp:485
 #, fuzzy
 #| msgid "Clear Scrollback"
 msgid "Clear Scrollback and Reset"
 msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
 
-#: SessionController.cpp:493
+#: SessionController.cpp:491
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
 
-#: SessionController.cpp:496
+#: SessionController.cpp:494
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা"
 
-#: SessionController.cpp:510
+#: SessionController.cpp:508
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:516
+#: SessionController.cpp:514
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:523
+#: SessionController.cpp:521
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:529
+#: SessionController.cpp:527
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:537
+#: SessionController.cpp:535
 #, fuzzy
 #| msgid "Copy Input"
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করুন"
 
-#: SessionController.cpp:544
+#: SessionController.cpp:542
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:549
+#: SessionController.cpp:547
 msgid "Monitor for &Activity"
 msgstr "কর্ম সঞ্চালন নিরীক্ষণ করুন (&A)"
 
-#: SessionController.cpp:554
+#: SessionController.cpp:552
 msgid "Monitor for &Silence"
 msgstr "নিষ্ক্রিয় অবস্থা নিরীক্ষণ করুন (&S)"
 
-#: SessionController.cpp:560
+#: SessionController.cpp:558
 #, fuzzy
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "এনকোডিং"
 
-#: SessionController.cpp:568
+#: SessionController.cpp:566
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:576
+#: SessionController.cpp:574
 msgid "Shrink Font"
 msgstr ""
 
-#: SessionController.cpp:670
+#: SessionController.cpp:668
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -2006,7 +2006,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:673
+#: SessionController.cpp:671
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -2015,7 +2015,7 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:695
+#: SessionController.cpp:693
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2027,7 +2027,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:698
+#: SessionController.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2039,43 +2039,43 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1251
+#: SessionController.cpp:1249
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1259
+#: SessionController.cpp:1257
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1271
+#: SessionController.cpp:1269
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1280
+#: SessionController.cpp:1278
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1286
+#: SessionController.cpp:1284
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1354
+#: SessionController.cpp:1352
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1365
+#: SessionController.cpp:1363
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1441
+#: SessionController.cpp:1439
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2236,30 +2236,30 @@ msgstr "নির্বাচিত অংশ পেস্ট করুন"
 msgid "Change &Directory To"
 msgstr ""
 
-#: ViewContainer.cpp:447
+#: ViewContainer.cpp:445
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr ""
 
-#: ViewContainer.cpp:451
+#: ViewContainer.cpp:449
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: ViewContainer.cpp:457
+#: ViewContainer.cpp:455
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: ViewContainer.cpp:463
+#: ViewContainer.cpp:461
 msgid "Open a new tab"
 msgstr ""
 
-#: ViewContainer.cpp:468
+#: ViewContainer.cpp:466
 #, fuzzy
 #| msgid "Close Current Tab"
 msgid "Close the current tab"
