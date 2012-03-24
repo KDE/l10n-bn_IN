@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-22 03:52+0100\n"
+"POT-Creation-Date: 2012-03-24 04:40+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -355,11 +355,6 @@ msgctxt "@label"
 msgid "Group"
 msgstr ""
 
-#: kitemviews/kfileitemlistview.cpp:559
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
-
 #: kitemviews/kfileitemlistwidget.cpp:248
 #, fuzzy
 #| msgctxt "@info:status"
@@ -378,6 +373,11 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
+
+#: kitemviews/kfileitemlistview.cpp:559
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
@@ -1263,74 +1263,6 @@ msgstr "রিলোড"
 msgid "Default"
 msgstr "ডিফল্ট"
 
-#: views/dolphinview.cpp:519
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:522
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:523
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:527
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "ফোল্ডার"
-msgstr[1] "ফোল্ডার"
-
-#: views/dolphinview.cpp:528
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: views/dolphinview.cpp:532
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:535
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:1117
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "মুছে ফেলা শেষ হলো।"
-
-#: views/dolphinview.cpp:1205
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
-
-#: views/dolphinview.cpp:1207
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "'%1' জায়গাটা সঠিক নয়।"
-
 #: views/draganddrophelper.cpp:34
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
@@ -1385,6 +1317,88 @@ msgstr[1] "%1 অাইটেম সমূহের নাম পরিবর্
 msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
+
+#: views/dolphinview.cpp:522
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:525
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:526
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:530
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Folder"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "ফোল্ডার"
+msgstr[1] "ফোল্ডার"
+
+#: views/dolphinview.cpp:531
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:535
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:538
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:821
+#, fuzzy
+#| msgid "Column width"
+msgctxt "@action:inmenu"
+msgid "Automatic Column Widths"
+msgstr "কলামের প্রস্থ"
+
+#: views/dolphinview.cpp:826
+#, fuzzy
+#| msgid "Column width"
+msgctxt "@action:inmenu"
+msgid "Custom Column Widths"
+msgstr "কলামের প্রস্থ"
+
+#: views/dolphinview.cpp:1182
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "মুছে ফেলা শেষ হলো।"
+
+#: views/dolphinview.cpp:1270
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
+
+#: views/dolphinview.cpp:1272
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "'%1' জায়গাটা সঠিক নয়।"
 
 #: dolphincontextmenu.cpp:173
 msgctxt "@action:inmenu"
@@ -2372,22 +2386,31 @@ msgid "Visible roles"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:66
-#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#. i18n: ectx: label, entry (HeaderColumnWidths), group (Dolphin)
 #: rc.cpp:217
+#, fuzzy
+#| msgid "Column width"
+msgctxt "@label"
+msgid "Header column widths"
+msgstr "কলামের প্রস্থ"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:71
+#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#: rc.cpp:220
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr "শেষবারে য়ে বৈশিষ্ট্যাবলী পরিবর্তিত হয়েছে"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:67
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:72
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:220
+#: rc.cpp:223
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "শেষ সময় যখন এই বৈশিষ্ট্যাবলী ব্যবহারকারীর পরিবর্তন করেছিলো।"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:72
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:77
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:223
+#: rc.cpp:226
 #, fuzzy
 #| msgctxt "@title:menu"
 #| msgid "Additional Information"
@@ -2397,13 +2420,13 @@ msgstr "অধিক তথ্য"
 
 #. i18n: file: dolphinpart.rc:4
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:230
+#: rc.cpp:233
 msgid "&Edit"
 msgstr "সম্পাদনা করুন (&E)"
 
 #. i18n: file: dolphinpart.rc:14
 #. i18n: ectx: Menu (selection)
-#: rc.cpp:233
+#: rc.cpp:236
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -2413,26 +2436,26 @@ msgstr "অনুসন্ধান..."
 
 #. i18n: file: dolphinpart.rc:23
 #. i18n: ectx: Menu (view)
-#: rc.cpp:236
+#: rc.cpp:239
 msgid "&View"
 msgstr "দেখুন (&V)"
 
 #. i18n: file: dolphinpart.rc:32
 #. i18n: ectx: Menu (go)
-#: rc.cpp:239
+#: rc.cpp:242
 msgid "&Go"
 msgstr "যাও (&G)"
 
 #. i18n: file: dolphinpart.rc:40
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:242
+#: rc.cpp:245
 msgctxt "@title:menu"
 msgid "Tools"
 msgstr "টুল"
 
 #. i18n: file: dolphinpart.rc:48
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:245
+#: rc.cpp:248
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Dolphin টুলবার"
@@ -2579,9 +2602,6 @@ msgstr "Dolphin টুলবার"
 
 #~ msgid "Show preview"
 #~ msgstr "প্রাকদর্শন দেখান"
-
-#~ msgid "Column width"
-#~ msgstr "কলামের প্রস্থ"
 
 #~ msgctxt "@label"
 #~ msgid "Show hidden files"
