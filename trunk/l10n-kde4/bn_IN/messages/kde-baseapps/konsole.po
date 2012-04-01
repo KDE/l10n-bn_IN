@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-30 05:05+0200\n"
+"POT-Creation-Date: 2012-04-01 04:29+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -711,6 +711,7 @@ msgid "Manage Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা"
 
 #: MainWindow.cpp:330
+msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
@@ -735,6 +736,9 @@ msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
 #: MainWindow.cpp:525
+#, fuzzy
+#| msgid "Close Current Tab"
+msgctxt "@action:button"
 msgid "Close Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
