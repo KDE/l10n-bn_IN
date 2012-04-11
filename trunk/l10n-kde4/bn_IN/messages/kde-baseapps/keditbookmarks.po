@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-08 03:52+0200\n"
+"POT-Creation-Date: 2012-04-11 04:15+0200\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,206 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: actionsimpl.cpp:97
-msgid "&Delete"
-msgstr "মুছে ফেলুন (&D)"
-
-#: actionsimpl.cpp:103
-msgid "Rename"
-msgstr "নাম পরিবর্তন"
-
-#: actionsimpl.cpp:109
-#, fuzzy
-#| msgid "C&hange URL"
-msgid "C&hange Location"
-msgstr "URL পরিবর্তন করুন (&h)"
-
-#: actionsimpl.cpp:115
-msgid "C&hange Comment"
-msgstr "মন্তব্য পরিবর্তন করুন (&h)"
-
-#: actionsimpl.cpp:121
-msgid "Chan&ge Icon..."
-msgstr "আইকন পরিবর্তন করুন...(&g)"
-
-#: actionsimpl.cpp:125
-msgid "Update Favicon"
-msgstr "ফেভ-আইকন আপডেট করুন"
-
-#: actionsimpl.cpp:129
-msgid "Recursive Sort"
-msgstr "রিকার্সিভ ক্রমবিন্যাস"
-
-#: actionsimpl.cpp:134
-msgid "&New Folder..."
-msgstr "নতুন ফোল্ডার...(&N)"
-
-#: actionsimpl.cpp:140
-msgid "&New Bookmark"
-msgstr "নতুন বুকমার্ক (&N)"
-
-#: actionsimpl.cpp:144
-msgid "&Insert Separator"
-msgstr "বিভাজন রেখা যোগ করুন (&I)"
-
-#: actionsimpl.cpp:149
-msgid "&Sort Alphabetically"
-msgstr "অদ্যাক্ষর অনুযায়ী ক্রমবিন্যাস (&S)"
-
-#: actionsimpl.cpp:154
-msgid "Set as T&oolbar Folder"
-msgstr "টুল-বার ফোল্ডার রূপে নির্ধারণ করুন (&o)"
-
-#: actionsimpl.cpp:158
-msgid "&Expand All Folders"
-msgstr "সকল ফোল্ডার প্রসারণ করুন (&E)"
-
-#: actionsimpl.cpp:162
-msgid "Collapse &All Folders"
-msgstr "সকল ফোল্ডার সংকুচন করুন (&A)"
-
-#: actionsimpl.cpp:167
-msgid "&Open in Konqueror"
-msgstr "Konqueror-এ খুলুন (&O)"
-
-#: actionsimpl.cpp:172
-msgid "Check &Status"
-msgstr "অবস্থা পরীক্ষা করুন (&S)"
-
-#: actionsimpl.cpp:176
-msgid "Check Status: &All"
-msgstr "অবস্থা পরীক্ষা করুন: সকল (&A)"
-
-#: actionsimpl.cpp:180
-msgid "Update All &Favicons"
-msgstr "সকল ফেভ-আইকন আপডেট করুন (&F)"
-
-#: actionsimpl.cpp:184
-msgid "Cancel &Checks"
-msgstr "পরীক্ষা বাতিল করুন (&C)"
-
-#: actionsimpl.cpp:188
-msgid "Cancel &Favicon Updates"
-msgstr "ফেভ-আইকন আপডেট বাতিল করুন (&F)"
-
-#: actionsimpl.cpp:194
-msgid "Import &Netscape Bookmarks..."
-msgstr "Netscape বুকমার্ক ইম্পোর্ট করুন...(&N)"
-
-#: actionsimpl.cpp:200
-msgid "Import &Opera Bookmarks..."
-msgstr "Opera বুকমার্ক ইম্পোর্ট করুন...(&O)"
-
-#: actionsimpl.cpp:210
-msgid "Import &Galeon Bookmarks..."
-msgstr "Galeon বুকমার্ক ইম্পোর্ট করুন...(&G)"
-
-#: actionsimpl.cpp:216
-msgid "Import &KDE 2 or KDE 3 Bookmarks..."
-msgstr "KDE 2 অথবা KDE 3 বুকমার্ক ইম্পোর্ট করুন...(&K)"
-
-#: actionsimpl.cpp:222
-msgid "Import &Internet Explorer Bookmarks..."
-msgstr "Internet Explorer বুকমার্ক ইম্পোর্ট করুন...(&I)"
-
-#: actionsimpl.cpp:228
-msgid "Import &Mozilla Bookmarks..."
-msgstr "Mozilla বুকমার্ক ইম্পোর্ট করুন...(&M)"
-
-#: actionsimpl.cpp:233
-msgid "Export &Netscape Bookmarks"
-msgstr "Netscape বুকমার্ক এক্সপোর্ট করুন (&N)"
-
-#: actionsimpl.cpp:238
-msgid "Export &Opera Bookmarks..."
-msgstr "Opera বুকমার্ক এক্সপোর্ট করুন...(&O)"
-
-#: actionsimpl.cpp:243
-msgid "Export &HTML Bookmarks..."
-msgstr "HTML বুকমার্ক এক্সপোর্ট করুন...(&H)"
-
-#: actionsimpl.cpp:247
-msgid "Export &Internet Explorer Bookmarks..."
-msgstr "Internet Explorer বুকমার্ক এক্সপোর্ট করুন...(&I)"
-
-#: actionsimpl.cpp:252
-msgid "Export &Mozilla Bookmarks..."
-msgstr "Mozilla বুকমার্ক এক্সপোর্ট করুন...(&M)"
-
-#: actionsimpl.cpp:298
-msgid "*.html|HTML Bookmark Listing"
-msgstr "*.html|HTML-এ বুকমার্কের তালিকা"
-
-#: actionsimpl.cpp:342
-#, fuzzy
-#| msgid "Cut Items"
-msgctxt "(qtundo-format)"
-msgid "Cut Items"
-msgstr "বস্তু কাট করুন"
-
-#: actionsimpl.cpp:367
-#, fuzzy
-#| msgid "Paste"
-msgctxt "(qtundo-format)"
-msgid "Paste"
-msgstr "পেস্ট করুন"
-
-#: actionsimpl.cpp:377
-#, fuzzy
-#| msgid "Create New Bookmark Folder"
-msgctxt "@title:window"
-msgid "Create New Bookmark Folder"
-msgstr "নতুন বুকমার্ক ফোল্ডার নির্মাণ করুন"
-
-#: actionsimpl.cpp:378
-msgid "New folder:"
-msgstr "নতুন ফোল্ডার:"
-
-#: actionsimpl.cpp:504
-#, fuzzy
-#| msgid "Recursive Sort"
-msgctxt "(qtundo-format)"
-msgid "Recursive Sort"
-msgstr "রিকার্সিভ ক্রমবিন্যাস"
-
-#: actionsimpl.cpp:518
-#, fuzzy
-#| msgid "Sort Alphabetically"
-msgctxt "(qtundo-format)"
-msgid "Sort Alphabetically"
-msgstr "অদ্যাক্ষর অনুযায়ী ক্রমবিন্যাস"
-
-#: actionsimpl.cpp:526
-#, fuzzy
-#| msgid "Delete Items"
-msgctxt "(qtundo-format)"
-msgid "Delete Items"
-msgstr "বস্তু মুছে ফেলুন"
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "নাম:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr "মন্তব্য:"
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr "প্রথম দর্শন:"
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr "সর্বশেষ দর্শন:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
-msgstr "পরিদর্শনের সংখ্যা:"
 
 #: exporters.cpp:48
 msgid "My Bookmarks"
@@ -443,24 +243,6 @@ msgctxt "@title:column status of a bookmark"
 msgid "Status"
 msgstr "অবস্থা"
 
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr "অনুসন্ধানের কলাম"
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr "সকল দৃশ্যমান কলাম"
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr "কলাম সংখ্যা %1"
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr "অনুসন্ধান: (&e)"
-
 #: main.cpp:68
 #, kde-format
 msgid ""
@@ -598,6 +380,224 @@ msgstr "শুধুমাত্র একটি --import বিকল্প উ
 #: testlink.cpp:76
 msgid "Checking..."
 msgstr "পরীক্ষা করা হচ্ছে..."
+
+#: actionsimpl.cpp:97
+msgid "&Delete"
+msgstr "মুছে ফেলুন (&D)"
+
+#: actionsimpl.cpp:103
+msgid "Rename"
+msgstr "নাম পরিবর্তন"
+
+#: actionsimpl.cpp:109
+#, fuzzy
+#| msgid "C&hange URL"
+msgid "C&hange Location"
+msgstr "URL পরিবর্তন করুন (&h)"
+
+#: actionsimpl.cpp:115
+msgid "C&hange Comment"
+msgstr "মন্তব্য পরিবর্তন করুন (&h)"
+
+#: actionsimpl.cpp:121
+msgid "Chan&ge Icon..."
+msgstr "আইকন পরিবর্তন করুন...(&g)"
+
+#: actionsimpl.cpp:125
+msgid "Update Favicon"
+msgstr "ফেভ-আইকন আপডেট করুন"
+
+#: actionsimpl.cpp:129
+msgid "Recursive Sort"
+msgstr "রিকার্সিভ ক্রমবিন্যাস"
+
+#: actionsimpl.cpp:134
+msgid "&New Folder..."
+msgstr "নতুন ফোল্ডার...(&N)"
+
+#: actionsimpl.cpp:140
+msgid "&New Bookmark"
+msgstr "নতুন বুকমার্ক (&N)"
+
+#: actionsimpl.cpp:144
+msgid "&Insert Separator"
+msgstr "বিভাজন রেখা যোগ করুন (&I)"
+
+#: actionsimpl.cpp:149
+msgid "&Sort Alphabetically"
+msgstr "অদ্যাক্ষর অনুযায়ী ক্রমবিন্যাস (&S)"
+
+#: actionsimpl.cpp:154
+msgid "Set as T&oolbar Folder"
+msgstr "টুল-বার ফোল্ডার রূপে নির্ধারণ করুন (&o)"
+
+#: actionsimpl.cpp:158
+msgid "&Expand All Folders"
+msgstr "সকল ফোল্ডার প্রসারণ করুন (&E)"
+
+#: actionsimpl.cpp:162
+msgid "Collapse &All Folders"
+msgstr "সকল ফোল্ডার সংকুচন করুন (&A)"
+
+#: actionsimpl.cpp:167
+msgid "&Open in Konqueror"
+msgstr "Konqueror-এ খুলুন (&O)"
+
+#: actionsimpl.cpp:172
+msgid "Check &Status"
+msgstr "অবস্থা পরীক্ষা করুন (&S)"
+
+#: actionsimpl.cpp:176
+msgid "Check Status: &All"
+msgstr "অবস্থা পরীক্ষা করুন: সকল (&A)"
+
+#: actionsimpl.cpp:180
+msgid "Update All &Favicons"
+msgstr "সকল ফেভ-আইকন আপডেট করুন (&F)"
+
+#: actionsimpl.cpp:184
+msgid "Cancel &Checks"
+msgstr "পরীক্ষা বাতিল করুন (&C)"
+
+#: actionsimpl.cpp:188
+msgid "Cancel &Favicon Updates"
+msgstr "ফেভ-আইকন আপডেট বাতিল করুন (&F)"
+
+#: actionsimpl.cpp:194
+msgid "Import &Netscape Bookmarks..."
+msgstr "Netscape বুকমার্ক ইম্পোর্ট করুন...(&N)"
+
+#: actionsimpl.cpp:200
+msgid "Import &Opera Bookmarks..."
+msgstr "Opera বুকমার্ক ইম্পোর্ট করুন...(&O)"
+
+#: actionsimpl.cpp:210
+msgid "Import &Galeon Bookmarks..."
+msgstr "Galeon বুকমার্ক ইম্পোর্ট করুন...(&G)"
+
+#: actionsimpl.cpp:216
+msgid "Import &KDE 2 or KDE 3 Bookmarks..."
+msgstr "KDE 2 অথবা KDE 3 বুকমার্ক ইম্পোর্ট করুন...(&K)"
+
+#: actionsimpl.cpp:222
+msgid "Import &Internet Explorer Bookmarks..."
+msgstr "Internet Explorer বুকমার্ক ইম্পোর্ট করুন...(&I)"
+
+#: actionsimpl.cpp:228
+msgid "Import &Mozilla Bookmarks..."
+msgstr "Mozilla বুকমার্ক ইম্পোর্ট করুন...(&M)"
+
+#: actionsimpl.cpp:233
+msgid "Export &Netscape Bookmarks"
+msgstr "Netscape বুকমার্ক এক্সপোর্ট করুন (&N)"
+
+#: actionsimpl.cpp:238
+msgid "Export &Opera Bookmarks..."
+msgstr "Opera বুকমার্ক এক্সপোর্ট করুন...(&O)"
+
+#: actionsimpl.cpp:243
+msgid "Export &HTML Bookmarks..."
+msgstr "HTML বুকমার্ক এক্সপোর্ট করুন...(&H)"
+
+#: actionsimpl.cpp:247
+msgid "Export &Internet Explorer Bookmarks..."
+msgstr "Internet Explorer বুকমার্ক এক্সপোর্ট করুন...(&I)"
+
+#: actionsimpl.cpp:252
+msgid "Export &Mozilla Bookmarks..."
+msgstr "Mozilla বুকমার্ক এক্সপোর্ট করুন...(&M)"
+
+#: actionsimpl.cpp:298
+msgid "*.html|HTML Bookmark Listing"
+msgstr "*.html|HTML-এ বুকমার্কের তালিকা"
+
+#: actionsimpl.cpp:342
+#, fuzzy
+#| msgid "Cut Items"
+msgctxt "(qtundo-format)"
+msgid "Cut Items"
+msgstr "বস্তু কাট করুন"
+
+#: actionsimpl.cpp:367
+#, fuzzy
+#| msgid "Paste"
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr "পেস্ট করুন"
+
+#: actionsimpl.cpp:377
+#, fuzzy
+#| msgid "Create New Bookmark Folder"
+msgctxt "@title:window"
+msgid "Create New Bookmark Folder"
+msgstr "নতুন বুকমার্ক ফোল্ডার নির্মাণ করুন"
+
+#: actionsimpl.cpp:378
+msgid "New folder:"
+msgstr "নতুন ফোল্ডার:"
+
+#: actionsimpl.cpp:504
+#, fuzzy
+#| msgid "Recursive Sort"
+msgctxt "(qtundo-format)"
+msgid "Recursive Sort"
+msgstr "রিকার্সিভ ক্রমবিন্যাস"
+
+#: actionsimpl.cpp:518
+#, fuzzy
+#| msgid "Sort Alphabetically"
+msgctxt "(qtundo-format)"
+msgid "Sort Alphabetically"
+msgstr "অদ্যাক্ষর অনুযায়ী ক্রমবিন্যাস"
+
+#: actionsimpl.cpp:526
+#, fuzzy
+#| msgid "Delete Items"
+msgctxt "(qtundo-format)"
+msgid "Delete Items"
+msgstr "বস্তু মুছে ফেলুন"
+
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "নাম:"
+
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr "মন্তব্য:"
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr "প্রথম দর্শন:"
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr "সর্বশেষ দর্শন:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr "পরিদর্শনের সংখ্যা:"
+
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr "অনুসন্ধানের কলাম"
+
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr "সকল দৃশ্যমান কলাম"
+
+#: kebsearchline.cpp:285
+#, kde-format
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "কলাম সংখ্যা %1"
+
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr "অনুসন্ধান: (&e)"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
