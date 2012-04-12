@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-11 04:15+0200\n"
+"POT-Creation-Date: 2012-04-12 04:33+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -27,7 +27,7 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার"
 
-#: kitemviews/kfileitemlistwidget.cpp:1068
+#: kitemviews/kfileitemlistwidget.cpp:1085
 #, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Unknown size"
@@ -35,7 +35,7 @@ msgctxt "@item:intable"
 msgid "Unknown"
 msgstr "অজানা পরিমান"
 
-#: kitemviews/kfileitemlistwidget.cpp:1070
+#: kitemviews/kfileitemlistwidget.cpp:1087
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -46,52 +46,12 @@ msgid_plural "%1 items"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
 
-#: kitemviews/knepomukrolesprovider.cpp:168
-msgctxt "@item:intable Image orientation"
-msgid "Unchanged"
-msgstr ""
-
-#: kitemviews/knepomukrolesprovider.cpp:169
-msgctxt "@item:intable Image orientation"
-msgid "Horizontally flipped"
-msgstr ""
-
-#: kitemviews/knepomukrolesprovider.cpp:170
-msgctxt "@item:intable image orientation"
-msgid "180° rotated"
-msgstr ""
-
-#: kitemviews/knepomukrolesprovider.cpp:171
-msgctxt "@item:intable image orientation"
-msgid "Vertically flipped"
-msgstr ""
-
-#: kitemviews/knepomukrolesprovider.cpp:172
-msgctxt "@item:intable image orientation"
-msgid "Transposed"
-msgstr ""
-
-#: kitemviews/knepomukrolesprovider.cpp:173
-msgctxt "@item:intable image orientation"
-msgid "90° rotated"
-msgstr ""
-
-#: kitemviews/knepomukrolesprovider.cpp:174
-msgctxt "@item:intable image orientation"
-msgid "Transversed"
-msgstr ""
-
-#: kitemviews/knepomukrolesprovider.cpp:175
-msgctxt "@item:intable image orientation"
-msgid "270° rotated"
-msgstr ""
-
-#: kitemviews/kfileitemmodel.cpp:1539
+#: kitemviews/kfileitemmodel.cpp:1540
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1556
+#: kitemviews/kfileitemmodel.cpp:1557
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -99,136 +59,136 @@ msgctxt "@title:group"
 msgid "Others"
 msgstr "অন্যান্য"
 
-#: kitemviews/kfileitemmodel.cpp:1588
+#: kitemviews/kfileitemmodel.cpp:1589
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "ফোল্ডার সমূহ"
 
-#: kitemviews/kfileitemmodel.cpp:1590
+#: kitemviews/kfileitemmodel.cpp:1591
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "ছোটো"
 
-#: kitemviews/kfileitemmodel.cpp:1592
+#: kitemviews/kfileitemmodel.cpp:1593
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: kitemviews/kfileitemmodel.cpp:1594
+#: kitemviews/kfileitemmodel.cpp:1595
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "বড়ো"
 
-#: kitemviews/kfileitemmodel.cpp:1654
+#: kitemviews/kfileitemmodel.cpp:1655
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "আজকে"
 
-#: kitemviews/kfileitemmodel.cpp:1655
+#: kitemviews/kfileitemmodel.cpp:1656
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "গতকাল"
 
-#: kitemviews/kfileitemmodel.cpp:1656
+#: kitemviews/kfileitemmodel.cpp:1657
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1660
+#: kitemviews/kfileitemmodel.cpp:1661
 msgctxt "@title:group Date"
 msgid "Last Week"
 msgstr "গত সপ্তাহ"
 
-#: kitemviews/kfileitemmodel.cpp:1663
+#: kitemviews/kfileitemmodel.cpp:1664
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "দুই সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1666
+#: kitemviews/kfileitemmodel.cpp:1667
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "তিন সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1670
+#: kitemviews/kfileitemmodel.cpp:1671
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "এই মাসের শুরুতে"
 
-#: kitemviews/kfileitemmodel.cpp:1679
+#: kitemviews/kfileitemmodel.cpp:1680
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "গতকাল (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1681
+#: kitemviews/kfileitemmodel.cpp:1682
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1683
+#: kitemviews/kfileitemmodel.cpp:1684
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Last Week (%B, %Y)"
 msgstr "গত সপ্তাহ (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1685
+#: kitemviews/kfileitemmodel.cpp:1686
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "দুই সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1687
+#: kitemviews/kfileitemmodel.cpp:1688
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "তিন সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1689
+#: kitemviews/kfileitemmodel.cpp:1690
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y এর গোড়ার দিকে"
 
-#: kitemviews/kfileitemmodel.cpp:1692
+#: kitemviews/kfileitemmodel.cpp:1693
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1731 kitemviews/kfileitemmodel.cpp:1744
-#: kitemviews/kfileitemmodel.cpp:1757
+#: kitemviews/kfileitemmodel.cpp:1732 kitemviews/kfileitemmodel.cpp:1745
+#: kitemviews/kfileitemmodel.cpp:1758
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "পড়া যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1734 kitemviews/kfileitemmodel.cpp:1747
-#: kitemviews/kfileitemmodel.cpp:1760
+#: kitemviews/kfileitemmodel.cpp:1735 kitemviews/kfileitemmodel.cpp:1748
+#: kitemviews/kfileitemmodel.cpp:1761
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "লেখা যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1737 kitemviews/kfileitemmodel.cpp:1750
-#: kitemviews/kfileitemmodel.cpp:1763
+#: kitemviews/kfileitemmodel.cpp:1738 kitemviews/kfileitemmodel.cpp:1751
+#: kitemviews/kfileitemmodel.cpp:1764
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "রান করবে"
 
-#: kitemviews/kfileitemmodel.cpp:1739 kitemviews/kfileitemmodel.cpp:1752
-#: kitemviews/kfileitemmodel.cpp:1765
+#: kitemviews/kfileitemmodel.cpp:1740 kitemviews/kfileitemmodel.cpp:1753
+#: kitemviews/kfileitemmodel.cpp:1766
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "নিশিদ্ধ"
 
-#: kitemviews/kfileitemmodel.cpp:1767
+#: kitemviews/kfileitemmodel.cpp:1768
 #, fuzzy, kde-format
 #| msgctxt "@title:group Files and folders by permissions"
 #| msgid "(User: %1) (Group: %2) (Others: %3)"
@@ -236,7 +196,7 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(ব্যবহারকারী: %1) (গ্রুপ: %2) (অন্যান্য: %3)"
 
-#: kitemviews/kfileitemmodel.cpp:1873
+#: kitemviews/kfileitemmodel.cpp:1874
 #, fuzzy
 #| msgctxt "@label Tag name"
 #| msgid "Name:"
@@ -244,7 +204,7 @@ msgctxt "@label"
 msgid "Name"
 msgstr "নাম:"
 
-#: kitemviews/kfileitemmodel.cpp:1874
+#: kitemviews/kfileitemmodel.cpp:1875
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Size"
@@ -252,7 +212,7 @@ msgctxt "@label"
 msgid "Size"
 msgstr "পরিমান"
 
-#: kitemviews/kfileitemmodel.cpp:1875
+#: kitemviews/kfileitemmodel.cpp:1876
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Date"
@@ -260,7 +220,7 @@ msgctxt "@label"
 msgid "Date"
 msgstr "তারিখ"
 
-#: kitemviews/kfileitemmodel.cpp:1876
+#: kitemviews/kfileitemmodel.cpp:1877
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Type"
@@ -268,7 +228,7 @@ msgctxt "@label"
 msgid "Type"
 msgstr "ধরন"
 
-#: kitemviews/kfileitemmodel.cpp:1877
+#: kitemviews/kfileitemmodel.cpp:1878
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Rating"
@@ -276,7 +236,7 @@ msgctxt "@label"
 msgid "Rating"
 msgstr "রেটিং"
 
-#: kitemviews/kfileitemmodel.cpp:1878
+#: kitemviews/kfileitemmodel.cpp:1879
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Tags"
@@ -284,7 +244,7 @@ msgctxt "@label"
 msgid "Tags"
 msgstr "ট্যাগ"
 
-#: kitemviews/kfileitemmodel.cpp:1879
+#: kitemviews/kfileitemmodel.cpp:1880
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Comment"
@@ -292,12 +252,12 @@ msgctxt "@label"
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kitemviews/kfileitemmodel.cpp:1880
+#: kitemviews/kfileitemmodel.cpp:1881
 msgctxt "@label"
 msgid "Word Count"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1880 kitemviews/kfileitemmodel.cpp:1881
+#: kitemviews/kfileitemmodel.cpp:1881 kitemviews/kfileitemmodel.cpp:1882
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -305,12 +265,12 @@ msgctxt "@label"
 msgid "Document"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1881
+#: kitemviews/kfileitemmodel.cpp:1882
 msgctxt "@label"
 msgid "Line Count"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1882
+#: kitemviews/kfileitemmodel.cpp:1883
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -318,12 +278,12 @@ msgctxt "@label"
 msgid "Image Size"
 msgstr "ফাইলের প্রাকদর্শন"
 
-#: kitemviews/kfileitemmodel.cpp:1882 kitemviews/kfileitemmodel.cpp:1883
+#: kitemviews/kfileitemmodel.cpp:1883 kitemviews/kfileitemmodel.cpp:1884
 msgctxt "@label"
 msgid "Image"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1883
+#: kitemviews/kfileitemmodel.cpp:1884
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -331,23 +291,23 @@ msgctxt "@label"
 msgid "Orientation"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1884
+#: kitemviews/kfileitemmodel.cpp:1885
 msgctxt "@label"
 msgid "Artist"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1884 kitemviews/kfileitemmodel.cpp:1885
-#: kitemviews/kfileitemmodel.cpp:1886 kitemviews/kfileitemmodel.cpp:1887
+#: kitemviews/kfileitemmodel.cpp:1885 kitemviews/kfileitemmodel.cpp:1886
+#: kitemviews/kfileitemmodel.cpp:1887 kitemviews/kfileitemmodel.cpp:1888
 msgctxt "@label"
 msgid "Music"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1885
+#: kitemviews/kfileitemmodel.cpp:1886
 msgctxt "@label"
 msgid "Album"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1886
+#: kitemviews/kfileitemmodel.cpp:1887
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -355,12 +315,12 @@ msgctxt "@label"
 msgid "Duration"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1887
+#: kitemviews/kfileitemmodel.cpp:1888
 msgctxt "@label"
 msgid "Track"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1888
+#: kitemviews/kfileitemmodel.cpp:1889
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -368,9 +328,9 @@ msgctxt "@label"
 msgid "Path"
 msgstr "পেস্ট"
 
-#: kitemviews/kfileitemmodel.cpp:1888 kitemviews/kfileitemmodel.cpp:1889
-#: kitemviews/kfileitemmodel.cpp:1890 kitemviews/kfileitemmodel.cpp:1891
-#: kitemviews/kfileitemmodel.cpp:1892 kitemviews/kfileitemmodel.cpp:1893
+#: kitemviews/kfileitemmodel.cpp:1889 kitemviews/kfileitemmodel.cpp:1890
+#: kitemviews/kfileitemmodel.cpp:1891 kitemviews/kfileitemmodel.cpp:1892
+#: kitemviews/kfileitemmodel.cpp:1893 kitemviews/kfileitemmodel.cpp:1894
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -378,7 +338,7 @@ msgctxt "@label"
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kitemviews/kfileitemmodel.cpp:1889
+#: kitemviews/kfileitemmodel.cpp:1890
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -386,24 +346,72 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1890
+#: kitemviews/kfileitemmodel.cpp:1891
 msgctxt "@label"
 msgid "Copied From"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1891
+#: kitemviews/kfileitemmodel.cpp:1892
 msgctxt "@label"
 msgid "Permissions"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1892
+#: kitemviews/kfileitemmodel.cpp:1893
 msgctxt "@label"
 msgid "Owner"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1893
+#: kitemviews/kfileitemmodel.cpp:1894
 msgctxt "@label"
 msgid "User Group"
+msgstr ""
+
+#: kitemviews/private/kfileitemmodeldirlister.cpp:38
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "অজানা পরিমান"
+
+#: kitemviews/private/knepomukrolesprovider.cpp:168
+msgctxt "@item:intable Image orientation"
+msgid "Unchanged"
+msgstr ""
+
+#: kitemviews/private/knepomukrolesprovider.cpp:169
+msgctxt "@item:intable Image orientation"
+msgid "Horizontally flipped"
+msgstr ""
+
+#: kitemviews/private/knepomukrolesprovider.cpp:170
+msgctxt "@item:intable image orientation"
+msgid "180° rotated"
+msgstr ""
+
+#: kitemviews/private/knepomukrolesprovider.cpp:171
+msgctxt "@item:intable image orientation"
+msgid "Vertically flipped"
+msgstr ""
+
+#: kitemviews/private/knepomukrolesprovider.cpp:172
+msgctxt "@item:intable image orientation"
+msgid "Transposed"
+msgstr ""
+
+#: kitemviews/private/knepomukrolesprovider.cpp:173
+msgctxt "@item:intable image orientation"
+msgid "90° rotated"
+msgstr ""
+
+#: kitemviews/private/knepomukrolesprovider.cpp:174
+msgctxt "@item:intable image orientation"
+msgid "Transversed"
+msgstr ""
+
+#: kitemviews/private/knepomukrolesprovider.cpp:175
+msgctxt "@item:intable image orientation"
+msgid "270° rotated"
 msgstr ""
 
 #: panels/folders/treeviewcontextmenu.cpp:58
@@ -1127,13 +1135,95 @@ msgid_plural "Size: %1 pixels"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphindirlister.cpp:41
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
+#: views/dolphinview.cpp:517
+#, kde-format
 msgctxt "@info:status"
-msgid "Unknown error."
-msgstr "অজানা পরিমান"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:520
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:521
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
+msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
+
+#: views/dolphinview.cpp:525
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Folder"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "ফোল্ডার"
+msgstr[1] "ফোল্ডার"
+
+#: views/dolphinview.cpp:526
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:530
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:534
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:540
+#, fuzzy
+#| msgctxt "@action:inmenu Sort"
+#| msgid "Folders First"
+msgctxt "@info:status"
+msgid "0 Folders, 0 Files"
+msgstr "ফোল্ডার প্রথমে"
+
+#: views/dolphinview.cpp:837
+#, fuzzy
+#| msgid "Column width"
+msgctxt "@action:inmenu"
+msgid "Automatic Column Widths"
+msgstr "কলামের প্রস্থ"
+
+#: views/dolphinview.cpp:842
+#, fuzzy
+#| msgid "Column width"
+msgctxt "@action:inmenu"
+msgid "Custom Column Widths"
+msgstr "কলামের প্রস্থ"
+
+#: views/dolphinview.cpp:1222
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "মুছে ফেলা শেষ হলো।"
+
+#: views/dolphinview.cpp:1304
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
+
+#: views/dolphinview.cpp:1306
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "'%1' জায়গাটা সঠিক নয়।"
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
@@ -1349,640 +1439,12 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
 
-#: views/dolphinview.cpp:529
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:532
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:533
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
-msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
-
-#: views/dolphinview.cpp:537
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "ফোল্ডার"
-msgstr[1] "ফোল্ডার"
-
-#: views/dolphinview.cpp:538
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: views/dolphinview.cpp:542
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:546
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:846
-#, fuzzy
-#| msgid "Column width"
-msgctxt "@action:inmenu"
-msgid "Automatic Column Widths"
-msgstr "কলামের প্রস্থ"
-
-#: views/dolphinview.cpp:851
-#, fuzzy
-#| msgid "Column width"
-msgctxt "@action:inmenu"
-msgid "Custom Column Widths"
-msgstr "কলামের প্রস্থ"
-
-#: views/dolphinview.cpp:1219
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "মুছে ফেলা শেষ হলো।"
-
-#: views/dolphinview.cpp:1307
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
-
-#: views/dolphinview.cpp:1309
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "'%1' জায়গাটা সঠিক নয়।"
-
-#: dolphincontextmenu.cpp:173
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "অাবর্জনার বাক্স খালি করা হবে"
-
-#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "প্লেসেসে এ্যাড করা হবে"
-
-#: dolphincontextmenu.cpp:199
-msgctxt "@label"
-msgid "Trash"
-msgstr "অাবর্জনার বাক্স"
-
-#: dolphincontextmenu.cpp:209
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "পুনরুদ্ধার"
-
-#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1567
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "নতুন তৈরি করুন"
-
-#: dolphincontextmenu.cpp:261
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "প্লেসেসে এ্যাড করা হবে"
-
-#: dolphincontextmenu.cpp:268
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr ""
-
-#: dolphincontextmenu.cpp:274
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr ""
-
-#: dolphincontextmenu.cpp:440
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "ফোল্ডারে পেস্ট করা হবে"
-
-#: dolphincontextmenu.cpp:551
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "অাবর্জনার বাক্সে সরানো হবে"
-
-#: dolphincontextmenu.cpp:554
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "মুছে ফেলা হবে"
-
-#: dolphinpart.cpp:145
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
-
-#: dolphinpart.cpp:149
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:154
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:160
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr ""
-
-#: dolphinpart.cpp:164 dolphinmainwindow.cpp:1619
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr ""
-
-#: dolphinpart.cpp:177
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "অ্যাপলিকেশন (&l)"
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "বিন্যাস (&i)"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "অাবর্জনার বাক্স"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "স্বচালিত"
-
-#: dolphinpart.cpp:194
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "ফাইল অনুসন্ধান..."
-
-#: dolphinpart.cpp:202
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "টার্মিনাল খুলুন (&T)"
-
-#: dolphinpart.cpp:271
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Dolphin Part"
-
-#: dolphinpart.cpp:461
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@title:window"
-msgid "Select"
-msgstr "অনুসন্ধান..."
-
-#: dolphinpart.cpp:462
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:468
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr ""
-
-#: dolphinpart.cpp:469
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "Dolphin"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "ফাইল ম্যানেজার"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2009 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2012 Peter Penz"
-msgstr "(C) ২০০৬-২০০৯ পিটার পেন্জ"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "পিটার পেন্জ"
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer"
-msgstr "মেন্টেনার ও ডেভেলাপার"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "Frank Reininghaus"
-msgstr ""
-
-#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
-#: main.cpp:63 main.cpp:66
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "ডেভেলাপার"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "ডেভিড ফওর"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "অ্যরন জে. সিয়েগো"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "রাফেল ফারন্যন্ডেজ লোপেজ"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "কেভিন ওটেন্স"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "হোল্গার ফ্রেথার"
-
-#: main.cpp:65
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "ম্যাক্স ব্লেজজ্যাক"
-
-#: main.cpp:68
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "মাইকেল অ্যাস্টিন"
-
-#: main.cpp:69
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "ডকুমেনটেশন"
-
-#: main.cpp:79
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:81
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:82
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "যে ডকুমেন্টটা খুলতে হবে"
-
-#: dolphinmainwindow.cpp:334
-msgctxt "@info:status"
-msgid "Successfully copied."
-msgstr ""
-
-#: dolphinmainwindow.cpp:338
-msgctxt "@info:status"
-msgid "Successfully moved."
-msgstr ""
-
-#: dolphinmainwindow.cpp:342
-msgctxt "@info:status"
-msgid "Successfully linked."
-msgstr ""
-
-#: dolphinmainwindow.cpp:346
-msgctxt "@info:status"
-msgid "Successfully moved to trash."
-msgstr ""
-
-#: dolphinmainwindow.cpp:350
-msgctxt "@info:status"
-msgid "Successfully renamed."
-msgstr ""
-
-#: dolphinmainwindow.cpp:355
-msgctxt "@info:status"
-msgid "Created folder."
-msgstr ""
-
-#: dolphinmainwindow.cpp:433
-msgctxt "@info"
-msgid "Go back"
-msgstr ""
-
-#: dolphinmainwindow.cpp:439
-msgctxt "@info"
-msgid "Go forward"
-msgstr ""
-
-#: dolphinmainwindow.cpp:601
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "অনুমোদন "
-
-#: dolphinmainwindow.cpp:605
-msgid "C&lose Current Tab"
-msgstr "বর্তমান ট্যাব বন্ধ করুন (&l)"
-
-#: dolphinmainwindow.cpp:613
-msgid ""
-"You have multiple tabs open in this window, are you sure you want to quit?"
-msgstr ""
-
-#: dolphinmainwindow.cpp:615
-msgid "Do not ask again"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1219
-msgctxt "@action:inmenu"
-msgid "New Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1222
-msgctxt "@action:inmenu"
-msgid "Detach Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1224
-msgctxt "@action:inmenu"
-msgid "Close Other Tabs"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1226
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1452
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Location:"
-msgctxt "@action:inmenu"
-msgid "Location Bar"
-msgstr "অবস্থান:"
-
-#: dolphinmainwindow.cpp:1460
-#, fuzzy
-#| msgid "&Go"
-msgctxt "@action:inmenu"
-msgid "Go"
-msgstr "যাও (&G)"
-
-#: dolphinmainwindow.cpp:1470
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Tools"
-msgctxt "@action:inmenu"
-msgid "Tools"
-msgstr "টুল"
-
-#: dolphinmainwindow.cpp:1484
-msgctxt "@action:inmenu"
-msgid "Help"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1574
-msgctxt "@action:inmenu File"
-msgid "New &Window"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1580
-msgctxt "@action:inmenu File"
-msgid "New Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1586
-msgctxt "@action:inmenu File"
-msgid "Close Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1609
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Paste"
-msgctxt "@action:inmenu Edit"
-msgid "Paste"
-msgstr "পেস্ট"
-
-#: dolphinmainwindow.cpp:1614
-msgctxt "@action:inmenu Edit"
-msgid "Select All"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1632
-msgctxt "@action:inmenu View"
-msgid "Reload"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1638
-msgctxt "@action:inmenu View"
-msgid "Stop"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1639
-#, fuzzy
-#| msgid "Show rating"
-msgctxt "@info"
-msgid "Stop loading"
-msgstr "রেটিং দেখান"
-
-#: dolphinmainwindow.cpp:1644
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Editable Location"
-msgstr "সম্পাদনশিল লোকেশান"
-
-#: dolphinmainwindow.cpp:1649
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Replace Location"
-msgstr "অবস্থান পরিবর্তন"
-
-#: dolphinmainwindow.cpp:1660
-msgid "Recently Closed Tabs"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1666
-msgid "Empty Recently Closed Tabs"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1684
-msgctxt "@action:inmenu Tools"
-msgid "Show Filter Bar"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1690
-msgctxt "@action:inmenu Tools"
-msgid "Compare Files"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1696
-msgctxt "@action:inmenu Tools"
-msgid "Open Terminal"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1717
-msgctxt "@action:inmenu"
-msgid "Activate Next Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1722
-msgctxt "@action:inmenu"
-msgid "Activate Previous Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1728
-msgctxt "@action:inmenu"
-msgid "Open in New Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1733
-msgctxt "@action:inmenu"
-msgid "Open in New Window"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1743
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Unlock Panels"
-msgstr "প্যানেল"
-
-#: dolphinmainwindow.cpp:1745
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Lock Panels"
-msgstr "প্যানেল"
-
-#: dolphinmainwindow.cpp:1751
-msgctxt "@title:window"
-msgid "Information"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1772
-msgctxt "@title:window"
-msgid "Folders"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1791
-msgctxt "@title:window Shell terminal"
-msgid "Terminal"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1813
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@title:window"
-msgid "Search"
-msgstr "অনুসন্ধান..."
-
-#: dolphinmainwindow.cpp:1841
-msgctxt "@title:window"
-msgid "Places"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1869
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu View"
-msgid "Panels"
-msgstr "প্যানেল"
-
-#: dolphinmainwindow.cpp:1943
-msgctxt "@action"
-msgid "Control"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2116
-msgctxt "@action:intoolbar Close right view"
-msgid "Close"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2117
-msgctxt "@info"
-msgid "Close right view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2120
-msgctxt "@action:intoolbar Close left view"
-msgid "Close"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2121
-msgctxt "@info"
-msgid "Close left view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2125
-msgctxt "@action:intoolbar Split view"
-msgid "Split"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2126
-#, fuzzy
-#| msgctxt "@option:check Startup Settings"
-#| msgid "Split view mode"
-msgctxt "@info"
-msgid "Split view"
-msgstr "প্রদর্শনের মোড ভাগ করা হবে"
-
-#: dolphinviewcontainer.cpp:339
+#: dolphinviewcontainer.cpp:338
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ফোল্ডার খোলা হচ্ছে..."
 
-#: dolphinviewcontainer.cpp:347
+#: dolphinviewcontainer.cpp:346
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -1990,7 +1452,7 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:358
+#: dolphinviewcontainer.cpp:357
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -1998,22 +1460,22 @@ msgctxt "@info"
 msgid "Searching..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:378
+#: dolphinviewcontainer.cpp:377
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:521
+#: dolphinviewcontainer.cpp:514
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:533
+#: dolphinviewcontainer.cpp:526
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:540
+#: dolphinviewcontainer.cpp:533
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "অবৈধ প্রোটোকল"
@@ -2504,6 +1966,552 @@ msgstr "টুল"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Dolphin টুলবার"
+
+#: dolphincontextmenu.cpp:173
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "অাবর্জনার বাক্স খালি করা হবে"
+
+#: dolphincontextmenu.cpp:179 dolphincontextmenu.cpp:341
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "প্লেসেসে এ্যাড করা হবে"
+
+#: dolphincontextmenu.cpp:199
+msgctxt "@label"
+msgid "Trash"
+msgstr "অাবর্জনার বাক্স"
+
+#: dolphincontextmenu.cpp:209
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "পুনরুদ্ধার"
+
+#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1567
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "নতুন তৈরি করুন"
+
+#: dolphincontextmenu.cpp:261
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "প্লেসেসে এ্যাড করা হবে"
+
+#: dolphincontextmenu.cpp:268
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr ""
+
+#: dolphincontextmenu.cpp:274
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr ""
+
+#: dolphincontextmenu.cpp:440
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "ফোল্ডারে পেস্ট করা হবে"
+
+#: dolphincontextmenu.cpp:551
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "অাবর্জনার বাক্সে সরানো হবে"
+
+#: dolphincontextmenu.cpp:554
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "মুছে ফেলা হবে"
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "ফাইল ম্যানেজার"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2009 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2012 Peter Penz"
+msgstr "(C) ২০০৬-২০০৯ পিটার পেন্জ"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "পিটার পেন্জ"
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer"
+msgstr "মেন্টেনার ও ডেভেলাপার"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
+#: main.cpp:63 main.cpp:66
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "ডেভেলাপার"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "ডেভিড ফওর"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "অ্যরন জে. সিয়েগো"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "রাফেল ফারন্যন্ডেজ লোপেজ"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "কেভিন ওটেন্স"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "হোল্গার ফ্রেথার"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "ম্যাক্স ব্লেজজ্যাক"
+
+#: main.cpp:68
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "মাইকেল অ্যাস্টিন"
+
+#: main.cpp:69
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "ডকুমেনটেশন"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "যে ডকুমেন্টটা খুলতে হবে"
+
+#: dolphinmainwindow.cpp:334
+msgctxt "@info:status"
+msgid "Successfully copied."
+msgstr ""
+
+#: dolphinmainwindow.cpp:338
+msgctxt "@info:status"
+msgid "Successfully moved."
+msgstr ""
+
+#: dolphinmainwindow.cpp:342
+msgctxt "@info:status"
+msgid "Successfully linked."
+msgstr ""
+
+#: dolphinmainwindow.cpp:346
+msgctxt "@info:status"
+msgid "Successfully moved to trash."
+msgstr ""
+
+#: dolphinmainwindow.cpp:350
+msgctxt "@info:status"
+msgid "Successfully renamed."
+msgstr ""
+
+#: dolphinmainwindow.cpp:355
+msgctxt "@info:status"
+msgid "Created folder."
+msgstr ""
+
+#: dolphinmainwindow.cpp:433
+msgctxt "@info"
+msgid "Go back"
+msgstr ""
+
+#: dolphinmainwindow.cpp:439
+msgctxt "@info"
+msgid "Go forward"
+msgstr ""
+
+#: dolphinmainwindow.cpp:601
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "অনুমোদন "
+
+#: dolphinmainwindow.cpp:605
+msgid "C&lose Current Tab"
+msgstr "বর্তমান ট্যাব বন্ধ করুন (&l)"
+
+#: dolphinmainwindow.cpp:613
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr ""
+
+#: dolphinmainwindow.cpp:615
+msgid "Do not ask again"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1219
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1222
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1224
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1226
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1452
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgctxt "@action:inmenu"
+msgid "Location Bar"
+msgstr "অবস্থান:"
+
+#: dolphinmainwindow.cpp:1460
+#, fuzzy
+#| msgid "&Go"
+msgctxt "@action:inmenu"
+msgid "Go"
+msgstr "যাও (&G)"
+
+#: dolphinmainwindow.cpp:1470
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Tools"
+msgctxt "@action:inmenu"
+msgid "Tools"
+msgstr "টুল"
+
+#: dolphinmainwindow.cpp:1484
+msgctxt "@action:inmenu"
+msgid "Help"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1574
+msgctxt "@action:inmenu File"
+msgid "New &Window"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1580
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1586
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1609
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Paste"
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "পেস্ট"
+
+#: dolphinmainwindow.cpp:1614
+msgctxt "@action:inmenu Edit"
+msgid "Select All"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1619 dolphinpart.cpp:164
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1632
+msgctxt "@action:inmenu View"
+msgid "Reload"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1638
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1639
+#, fuzzy
+#| msgid "Show rating"
+msgctxt "@info"
+msgid "Stop loading"
+msgstr "রেটিং দেখান"
+
+#: dolphinmainwindow.cpp:1644
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "সম্পাদনশিল লোকেশান"
+
+#: dolphinmainwindow.cpp:1649
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "অবস্থান পরিবর্তন"
+
+#: dolphinmainwindow.cpp:1660
+msgid "Recently Closed Tabs"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1666
+msgid "Empty Recently Closed Tabs"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1684
+msgctxt "@action:inmenu Tools"
+msgid "Show Filter Bar"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1690
+msgctxt "@action:inmenu Tools"
+msgid "Compare Files"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1696
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1717
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1722
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1728
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1733
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1743
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "প্যানেল"
+
+#: dolphinmainwindow.cpp:1745
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "প্যানেল"
+
+#: dolphinmainwindow.cpp:1751
+msgctxt "@title:window"
+msgid "Information"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1772
+msgctxt "@title:window"
+msgid "Folders"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1791
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1813
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@title:window"
+msgid "Search"
+msgstr "অনুসন্ধান..."
+
+#: dolphinmainwindow.cpp:1841
+msgctxt "@title:window"
+msgid "Places"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1869
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu View"
+msgid "Panels"
+msgstr "প্যানেল"
+
+#: dolphinmainwindow.cpp:1943
+msgctxt "@action"
+msgid "Control"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2116
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2117
+msgctxt "@info"
+msgid "Close right view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2120
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2121
+msgctxt "@info"
+msgid "Close left view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2125
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2126
+#, fuzzy
+#| msgctxt "@option:check Startup Settings"
+#| msgid "Split view mode"
+msgctxt "@info"
+msgid "Split view"
+msgstr "প্রদর্শনের মোড ভাগ করা হবে"
+
+#: dolphinpart.cpp:145
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "ফাইল টাইপ পরিবর্তন (&E)..."
+
+#: dolphinpart.cpp:149
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:154
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:160
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr ""
+
+#: dolphinpart.cpp:177
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "অ্যাপলিকেশন (&l)"
+
+#: dolphinpart.cpp:180
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "নেটওয়ার্ক ফোল্ডার (&N)"
+
+#: dolphinpart.cpp:183
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "বিন্যাস (&i)"
+
+#: dolphinpart.cpp:186
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "অাবর্জনার বাক্স"
+
+#: dolphinpart.cpp:189
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "স্বচালিত"
+
+#: dolphinpart.cpp:194
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "ফাইল অনুসন্ধান..."
+
+#: dolphinpart.cpp:202
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "টার্মিনাল খুলুন (&T)"
+
+#: dolphinpart.cpp:271
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Dolphin Part"
+
+#: dolphinpart.cpp:461
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@title:window"
+msgid "Select"
+msgstr "অনুসন্ধান..."
+
+#: dolphinpart.cpp:462
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:468
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:469
+msgid "Unselect all items matching this pattern:"
+msgstr ""
 
 #, fuzzy
 #~| msgctxt "@info:credit"
