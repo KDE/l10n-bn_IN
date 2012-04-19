@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-18 04:19+0200\n"
+"POT-Creation-Date: 2012-04-19 04:25+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -440,161 +440,161 @@ msgstr "Konsole"
 msgid "Terminal emulator"
 msgstr "টার্মিন্যাল এমুলেটর"
 
-#: main.cpp:118
+#: main.cpp:122
 msgid "Name of profile to use for new Konsole instance"
 msgstr "নতুন Konsole ইনস্ট্যান্সের জন্য ব্যবহারযোগ্য প্রোফাইলের নাম"
 
-#: main.cpp:120
+#: main.cpp:124
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr ""
 
-#: main.cpp:124
+#: main.cpp:128
 msgid "Do not close the initial session automatically when it ends."
 msgstr "প্রথম সেশান সমাপ্ত হলে তা স্বয়ংক্রিয়ভাবে বন্ধ করার প্রচেষ্টা করা হবে না।"
 
-#: main.cpp:127
+#: main.cpp:131
 msgid ""
 "Create a new tab in an existing window rather than creating a new window"
 msgstr ""
 
-#: main.cpp:130
+#: main.cpp:134
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
-#: main.cpp:133
+#: main.cpp:137
 msgid ""
 "Start Konsole in the background and bring to the front when Ctrl+Shift+F12 "
 "(by default) is pressed"
 msgstr ""
 
-#: main.cpp:136
+#: main.cpp:140
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "সিস্টেম দ্বারা সমর্থিত হলেও, স্বচ্ছ পটভূমি ব্যবহার করা হবে না।"
 
-#: main.cpp:139
+#: main.cpp:143
 msgid ""
 "Try to enable transparency, even if the system does not appear to support it."
 msgstr "সিস্টেম দ্বারা সমর্থিত না হলেও, স্বচ্ছ পটভূমি সক্রিয় করার প্রচেষ্টা করুন।"
 
-#: main.cpp:141
+#: main.cpp:145
 msgid "List the available profiles"
 msgstr "উপলব্ধ প্রোফাইলের তালিকা"
 
-#: main.cpp:143
+#: main.cpp:147
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: main.cpp:146
+#: main.cpp:150
 msgid "Change the value of a profile property."
 msgstr "প্রোফাইলের কোনো বৈশিষ্ট্যের মান পরিবর্তন করুন।"
 
-#: main.cpp:148
+#: main.cpp:152
 msgid ""
 "Command to execute. This option will catch all following arguments, so use "
 "it as the last option."
 msgstr ""
 
-#: main.cpp:150
+#: main.cpp:154
 msgid "Arguments passed to command"
 msgstr "কমান্ডের সাথে উল্লিখিত আর্গুমেন্ট"
 
-#: main.cpp:151
+#: main.cpp:155
 msgid "Use --nofork to run in the foreground (helpful with the -e option)."
 msgstr ""
 
-#: main.cpp:157
+#: main.cpp:161
 #, fuzzy
 #| msgid "Kurt V. Hindenburg"
 msgid "Kurt Hindenburg"
 msgstr "কার্ট ভি. হিন্ডেনবার্গ"
 
-#: main.cpp:158
+#: main.cpp:162
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgid "General maintainer, bug fixes and general improvements"
 msgstr "বাগ সংশোধন ও সাধারণ কিছু উন্নতি"
 
-#: main.cpp:161
+#: main.cpp:165
 msgid "Robert Knight"
 msgstr "রবার্ট নাইট"
 
-#: main.cpp:162
+#: main.cpp:166
 msgid "Previous maintainer, ported to KDE4"
 msgstr ""
 
-#: main.cpp:164
+#: main.cpp:168
 msgid "Lars Doelle"
 msgstr "লার্স ডোয়েল"
 
-#: main.cpp:165
+#: main.cpp:169
 #, fuzzy
 #| msgid "Terminal emulator"
 msgid "Original author"
 msgstr "টার্মিন্যাল এমুলেটর"
 
-#: main.cpp:167
+#: main.cpp:171
 msgid "Jekyll Wu"
 msgstr ""
 
-#: main.cpp:168 main.cpp:171 main.cpp:174
+#: main.cpp:172 main.cpp:175 main.cpp:178
 msgid "Bug fixes and general improvements"
 msgstr "বাগ সংশোধন ও সাধারণ কিছু উন্নতি"
 
-#: main.cpp:170
+#: main.cpp:174
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: main.cpp:173
+#: main.cpp:177
 msgid "Stephan Binner"
 msgstr "স্টিফান বিনার"
 
-#: main.cpp:176
+#: main.cpp:180
 msgid "Thomas Dreibholz"
 msgstr ""
 
-#: main.cpp:177
+#: main.cpp:181
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgid "General improvements"
 msgstr "বাগ সংশোধন ও সাধারণ কিছু উন্নতি"
 
-#: main.cpp:179
+#: main.cpp:183
 msgid "Chris Machemer"
 msgstr "ক্রিস মাখেমার"
 
-#: main.cpp:180 main.cpp:216 main.cpp:219 main.cpp:222 main.cpp:225
+#: main.cpp:184 main.cpp:220 main.cpp:223 main.cpp:226 main.cpp:229
 msgid "Bug fixes"
 msgstr "বাগ সংশোধন"
 
-#: main.cpp:182
+#: main.cpp:186
 msgid "Stephan Kulow"
 msgstr "স্টিফান কুলো"
 
-#: main.cpp:183
+#: main.cpp:187
 msgid "Solaris support and history"
 msgstr "Solaris সমর্থন ও পূর্ববর্তী তথ্য"
 
-#: main.cpp:185
+#: main.cpp:189
 msgid "Alexander Neundorf"
 msgstr "আলেকজান্ডার নিওনডোর্ফ"
 
-#: main.cpp:186
+#: main.cpp:190
 msgid "Bug fixes and improved startup performance"
 msgstr "বাগ সংশোধন ও প্রারম্ভিক কর্মক্ষমতার উন্নতি"
 
-#: main.cpp:188
+#: main.cpp:192
 msgid "Peter Silva"
 msgstr "পিটার সিলভা"
 
-#: main.cpp:189
+#: main.cpp:193
 msgid "Marking improvements"
 msgstr "উল্লেখযোগ্য উন্নতি"
 
-#: main.cpp:191
+#: main.cpp:195
 msgid "Lotzi Boloni"
 msgstr "লোটজি বোলোনি"
 
-#: main.cpp:192
+#: main.cpp:196
 msgid ""
 "Embedded Konsole\n"
 "Toolbar and session names"
@@ -602,11 +602,11 @@ msgstr ""
 "এমবেড করা Konsole\n"
 "টুলবার ও সেশানের নাম"
 
-#: main.cpp:195
+#: main.cpp:199
 msgid "David Faure"
 msgstr "ডেভিড ফাউরে"
 
-#: main.cpp:196
+#: main.cpp:200
 msgid ""
 "Embedded Konsole\n"
 "General improvements"
@@ -614,19 +614,19 @@ msgstr ""
 "এমবেড করা Konsole\n"
 "সাধারণ কিছু উন্নতি"
 
-#: main.cpp:199
+#: main.cpp:203
 msgid "Antonio Larrosa"
 msgstr "আন্টোনিও লারোসা"
 
-#: main.cpp:200
+#: main.cpp:204
 msgid "Visual effects"
 msgstr "ভিসুয়াল ইফেক্ট"
 
-#: main.cpp:202
+#: main.cpp:206
 msgid "Matthias Ettrich"
 msgstr "ম্যাথায়েস এট্রিখ"
 
-#: main.cpp:203
+#: main.cpp:207
 msgid ""
 "Code from the kvt project\n"
 "General improvements"
@@ -634,47 +634,47 @@ msgstr ""
 "kvt প্রজেক্টের কোড\n"
 "সাধারণ উন্নতি"
 
-#: main.cpp:206
+#: main.cpp:210
 msgid "Warwick Allison"
 msgstr "ওয়ারউইক অ্যালিসন"
 
-#: main.cpp:207
+#: main.cpp:211
 msgid "Schema and text selection improvements"
 msgstr "স্কিমা ও টেক্সট নির্বাচন সংক্রান্ত উন্নতি"
 
-#: main.cpp:209
+#: main.cpp:213
 msgid "Dan Pilone"
 msgstr "ড্যান পিলোন"
 
-#: main.cpp:210
+#: main.cpp:214
 msgid "SGI port"
 msgstr "SGI পোর্ট"
 
-#: main.cpp:212
+#: main.cpp:216
 msgid "Kevin Street"
 msgstr "কেভিন স্ট্রিট"
 
-#: main.cpp:213
+#: main.cpp:217
 msgid "FreeBSD port"
 msgstr "FreeBSD পোর্ট"
 
-#: main.cpp:215
+#: main.cpp:219
 msgid "Sven Fischer"
 msgstr "সওয়েন ফিশার"
 
-#: main.cpp:218
+#: main.cpp:222
 msgid "Dale M. Flaven"
 msgstr "ডেইল এম. ফ্লাভেন"
 
-#: main.cpp:221
+#: main.cpp:225
 msgid "Martin Jones"
 msgstr "মার্টিন জোন্স"
 
-#: main.cpp:224
+#: main.cpp:228
 msgid "Lars Knoll"
 msgstr "লার্স নোল"
 
-#: main.cpp:227
+#: main.cpp:231
 msgid "Thanks to many others.\n"
 msgstr "অ্যানান্য অনেককে অসংখ্যা ধন্যবাদন।\n"
 
