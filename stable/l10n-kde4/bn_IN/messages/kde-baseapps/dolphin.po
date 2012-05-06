@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-10 17:35+0200\n"
+"POT-Creation-Date: 2012-05-06 12:05+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -801,6 +801,61 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "থোল্ডারটিকে নিজের উপোরেই ফেলা যাবে না"
 
+#: views/additionalinfoaccessor.cpp:90
+#, fuzzy
+#| msgctxt "@action:inmenu Additional information"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "পরিমান"
+
+#: views/additionalinfoaccessor.cpp:91
+#, fuzzy
+#| msgctxt "@action:inmenu Additional information"
+#| msgid "Date"
+msgctxt "@label"
+msgid "Date"
+msgstr "তারিখ"
+
+#: views/additionalinfoaccessor.cpp:92
+msgctxt "@label"
+msgid "Permissions"
+msgstr ""
+
+#: views/additionalinfoaccessor.cpp:93
+msgctxt "@label"
+msgid "Owner"
+msgstr ""
+
+#: views/additionalinfoaccessor.cpp:94
+msgctxt "@label"
+msgid "Group"
+msgstr ""
+
+#: views/additionalinfoaccessor.cpp:95
+#, fuzzy
+#| msgctxt "@action:inmenu Additional information"
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "ধরন"
+
+#: views/additionalinfoaccessor.cpp:96
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@label"
+msgid "Link Destination"
+msgstr "ডকুমেনটেশন"
+
+#: views/additionalinfoaccessor.cpp:97
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Paste"
+msgctxt "@label"
+msgid "Path"
+msgstr "পেস্ট"
+
 #: views/dolphinview.cpp:521
 #, kde-format
 msgctxt "@info:status"
@@ -868,61 +923,6 @@ msgstr "এই জায়গাটা ইতেমধ্যেই খালি।
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "'%1' জায়গাটা সঠিক নয়।"
-
-#: views/additionalinfoaccessor.cpp:90
-#, fuzzy
-#| msgctxt "@action:inmenu Additional information"
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "পরিমান"
-
-#: views/additionalinfoaccessor.cpp:91
-#, fuzzy
-#| msgctxt "@action:inmenu Additional information"
-#| msgid "Date"
-msgctxt "@label"
-msgid "Date"
-msgstr "তারিখ"
-
-#: views/additionalinfoaccessor.cpp:92
-msgctxt "@label"
-msgid "Permissions"
-msgstr ""
-
-#: views/additionalinfoaccessor.cpp:93
-msgctxt "@label"
-msgid "Owner"
-msgstr ""
-
-#: views/additionalinfoaccessor.cpp:94
-msgctxt "@label"
-msgid "Group"
-msgstr ""
-
-#: views/additionalinfoaccessor.cpp:95
-#, fuzzy
-#| msgctxt "@action:inmenu Additional information"
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "ধরন"
-
-#: views/additionalinfoaccessor.cpp:96
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Documentation"
-msgctxt "@label"
-msgid "Link Destination"
-msgstr "ডকুমেনটেশন"
-
-#: views/additionalinfoaccessor.cpp:97
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Paste"
-msgctxt "@label"
-msgid "Path"
-msgstr "পেস্ট"
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy

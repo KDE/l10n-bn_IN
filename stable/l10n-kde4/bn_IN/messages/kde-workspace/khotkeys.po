@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-29 13:35+0100\n"
+"POT-Creation-Date: 2012-05-06 12:13+0200\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -740,6 +740,14 @@ msgstr "সক্রিয়"
 msgid "Type"
 msgstr "ধরন"
 
+#: kcm_hotkeys/simple_action_data_widget.cpp:124
+msgid "Trigger"
+msgstr ""
+
+#: kcm_hotkeys/simple_action_data_widget.cpp:160
+msgid "Action"
+msgstr "কর্ম"
+
 #: kcm_hotkeys/kcm_hotkeys.cpp:109
 msgid "KDE Hotkeys Configuration Module"
 msgstr "KDE Hotkeys কনফিগারেশন মডিউল"
@@ -777,14 +785,6 @@ msgid ""
 "Unable to contact khotkeys. Your changes are saved, but they could not be "
 "activated."
 msgstr ""
-
-#: kcm_hotkeys/simple_action_data_widget.cpp:124
-msgid "Trigger"
-msgstr ""
-
-#: kcm_hotkeys/simple_action_data_widget.cpp:160
-msgid "Action"
-msgstr "কর্ম"
 
 #: libkhotkeysprivate/actions/activate_window_action.cpp:91
 msgid "Activate window: "
