@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-19 04:42+0200\n"
+"POT-Creation-Date: 2012-05-10 04:26+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -3176,310 +3176,6 @@ msgstr ""
 "করা হয়েছে।</p><p>KDE-র আন্তর্জাতীয়করণ সম্বন্ধে অধিক জানার জন্য <a href=\"http://"
 "l10n.kde.org\">http://l10n.kde.org</a></p> দেখুন।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:273
-msgid "Use the X-server display 'displayname'"
-msgstr "X-server ডিসপ্লে 'displayname' ব্যবহার করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:275
-msgid "Use the QWS display 'displayname'"
-msgstr "QWS ডিসপ্লে 'displayname' ব্যবহার করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:278
-msgid "Restore the application for the given 'sessionId'"
-msgstr "উল্লিখিত 'sessionId'-র জন্য অ্যাপ্লিকেশন পুনরুদ্ধার করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:279
-msgid ""
-"Causes the application to install a private color\n"
-"map on an 8-bit display"
-msgstr ""
-"এর ফলে, অ্যাপ্লিকেশন দ্বারা একটি ৮-বিট প্রদর্শন\n"
-"ক্ষেত্রের মধ্যে নিজস্ব রঙের ম্যাপ ইনস্টল করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:280
-msgid ""
-"Limits the number of colors allocated in the color\n"
-"cube on an 8-bit display, if the application is\n"
-"using the QApplication::ManyColor color\n"
-"specification"
-msgstr ""
-
-#: kdecore/kernel/kcmdlineargs.cpp:281
-msgid "tells Qt to never grab the mouse or the keyboard"
-msgstr "Qt দ্বারা কখনো মাউস অথবা কি-বোর্ডের অধিকার গ্রহণ করা হবে না"
-
-#: kdecore/kernel/kcmdlineargs.cpp:282
-msgid ""
-"running under a debugger can cause an implicit\n"
-"-nograb, use -dograb to override"
-msgstr ""
-"ডিবাগারের মধ্যে সঞ্চালিত হলে পরোক্ষভাবে\n"
-"-nograb নির্ধারিত হতে পারে। উপেক্ষা করার জন্য -dograb প্রয়োগ করুন"
-
-#: kdecore/kernel/kcmdlineargs.cpp:283
-msgid "switches to synchronous mode for debugging"
-msgstr "ডিবাগ করার জন্য সিংক্রোনাস মোডে পরিবর্তন করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:285
-msgid "defines the application font"
-msgstr "অ্যাপ্লিকেশন ফন্ট নির্ধারিত করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:287
-msgid ""
-"sets the default background color and an\n"
-"application palette (light and dark shades are\n"
-"calculated)"
-msgstr ""
-"পটভূমির ডিফল্ট রঙ ও একটি অ্যাপ্লিকেশন\n"
-"প্যালেট নির্ধারণ করা হয় (হালকা ও গাঢ় রঙ\n"
-"গণনা করা হয়)"
-
-#: kdecore/kernel/kcmdlineargs.cpp:289
-msgid "sets the default foreground color"
-msgstr "অগ্রভূমিতে ব্যবহার করার জন্য ডিফল্ট রং নির্ধারণ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:291
-msgid "sets the default button color"
-msgstr "বাটনে ব্যবহারের জন্য ডিফল্ট রং নির্ধারণ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:292
-msgid "sets the application name"
-msgstr "অ্যাপ্লিকেশনের নাম নির্ধারণ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:293
-msgid "sets the application title (caption)"
-msgstr "অ্যাপ্লিকেশনের শিরোনাম নির্ধারণ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:295
-msgid ""
-"forces the application to use a TrueColor visual on\n"
-"an 8-bit display"
-msgstr ""
-"৮-বিট ডিসপ্লের ক্ষেত্রে অ্যাপ্লিকেশন দ্বারা TrueColor ভিসুয়াল\n"
-"ব্যবহার করতে বাধ্য করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:296
-msgid ""
-"sets XIM (X Input Method) input style. Possible\n"
-"values are onthespot, overthespot, offthespot and\n"
-"root"
-msgstr ""
-"XIM (X Input Method) ইনপুট বিন্যাস স্থাপন করা হয়। সম্ভাব্য মানগুলি\n"
-"হল onthespot, overthespot, offthespot ও\n"
-"root"
-
-#: kdecore/kernel/kcmdlineargs.cpp:297
-msgid "set XIM server"
-msgstr "XIM সার্ভার নির্ধারণ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:298
-msgid "disable XIM"
-msgstr "XIM নিষ্ক্রিয় করুন"
-
-#: kdecore/kernel/kcmdlineargs.cpp:301
-msgid "forces the application to run as QWS Server"
-msgstr "QWS সার্ভার রূপে বাধ্যমূলকভাবে অ্যাপ্লিকেশনটি চালানো হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:303
-msgid "mirrors the whole layout of widgets"
-msgstr "সম্পূর্ণ উইজেট বিন্যাস অনুকরণ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:304
-msgid "applies the Qt stylesheet to the application widgets"
-msgstr "অ্যাপ্লিকেশন উইজেটের জন্য Qt স্টাইল-শিট প্রয়োগ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:305
-msgid ""
-"use a different graphics system instead of the default one, options are "
-"raster and opengl (experimental)"
-msgstr ""
-
-#: kdecore/kernel/kcmdlineargs.cpp:307
-msgid "Use 'caption' as name in the titlebar"
-msgstr "টাইটেল-বারের উপর 'caption' ব্যবহার করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:308
-msgid "Use 'icon' as the application icon"
-msgstr "অ্যাপ্লিকেশন আইকন রূপে 'icon' ব্যবহার করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:309
-msgid "Use alternative configuration file"
-msgstr "বিকল্প কনফিগারেশন ফাইল ব্যবহার করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:310
-msgid "Disable crash handler, to get core dumps"
-msgstr "কোর ডাম্প প্রাপ্ত করার জন্য, ক্র্যাশ হ্যান্ডলার নিষ্ক্রিয় করুন"
-
-#: kdecore/kernel/kcmdlineargs.cpp:312
-msgid "Waits for a WM_NET compatible windowmanager"
-msgstr "WM_NET-র সাথে সুসংগত windowmanager-র জন্য অপেক্ষা করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:314
-msgid "sets the application GUI style"
-msgstr "অ্যাপ্লিকেশনের GUI বিন্যাস নির্ধারণ করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:315
-msgid ""
-"sets the client geometry of the main widget - see man X for the argument "
-"format (usually WidthxHeight+XPos+YPos)"
-msgstr ""
-"মূল উইজেটের ক্লায়েন্ট জ্যামিতি নির্ধারণ করা হয় - আর্গুমেন্টের বিন্যাস জানার জন্য man X "
-"দেখুন (সাধারণত প্রস্থxউচ্চতা+XPos+YPos)"
-
-#: kdecore/kernel/kcmdlineargs.cpp:433
-msgid "KDE Application"
-msgstr "KDE অ্যাপ্লিকেশন"
-
-#: kdecore/kernel/kcmdlineargs.cpp:492
-msgid "Qt"
-msgstr "Qt"
-
-#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4819
-msgid "KDE"
-msgstr "KDE"
-
-#: kdecore/kernel/kcmdlineargs.cpp:798 kdecore/kernel/kcmdlineargs.cpp:814
-#, kde-format
-msgid "Unknown option '%1'."
-msgstr "অজানা বিকল্প '%1'।"
-
-#: kdecore/kernel/kcmdlineargs.cpp:822
-#, kde-format
-msgctxt "@info:shell %1 is cmdoption name"
-msgid "'%1' missing."
-msgstr "'%1' অনুপস্থিত।"
-
-#: kdecore/kernel/kcmdlineargs.cpp:888
-#, kde-format
-msgctxt ""
-"@info:shell message on appcmd --version; do not translate 'Development "
-"Platform'%3 application name, other %n version strings"
-msgid ""
-"Qt: %1\n"
-"KDE Development Platform: %2\n"
-"%3: %4\n"
-msgstr ""
-"Qt: %1\n"
-"KDE Development Platform: %2\n"
-"%3: %4\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:913
-#, kde-format
-msgctxt "the 2nd argument is a list of name+address, one on each line"
-msgid ""
-"%1 was written by\n"
-"%2"
-msgstr ""
-"%1 লিখেছেন\n"
-"%2"
-
-#: kdecore/kernel/kcmdlineargs.cpp:916
-msgid "This application was written by somebody who wants to remain anonymous."
-msgstr "এই অ্যাপ্লিকেশনের নির্মাতা অজ্ঞাত থাকতে ইচ্ছুক।"
-
-#: kdecore/kernel/kcmdlineargs.cpp:923
-msgid "Please use http://bugs.kde.org to report bugs.\n"
-msgstr "অনুগ্রহ করে http://bugs.kde.org-এ বাগ দায়ের করুন।\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:925
-#, kde-format
-msgid "Please report bugs to %1.\n"
-msgstr "অনুগ্রহ করে %1-এ বাগ দায়ের করুন।\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:962
-#, kde-format
-msgid "Unexpected argument '%1'."
-msgstr "অপ্রত্যাশিত আর্গুমেন্ট '%1'।"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1086
-msgid "Use --help to get a list of available command line options."
-msgstr ""
-"কমান্ড-লাইন থেকে ব্যবহারযোগ্য সকল উপলব্ধ বিকল্পের তালিকা দেখতে --help ব্যবহার করুন।"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1109
-msgid "[options] "
-msgstr "[বিকল্প] "
-
-#: kdecore/kernel/kcmdlineargs.cpp:1116
-#, kde-format
-msgid "[%1-options]"
-msgstr "[%1-বিকল্প]"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1137
-#, kde-format
-msgid "Usage: %1 %2\n"
-msgstr "ব্যবহার প্রণালী: %1 %2\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1140
-msgid ""
-"\n"
-"Generic options:\n"
-msgstr ""
-"\n"
-"সাধারণ বিকল্প:\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1142
-msgid "Show help about options"
-msgstr "বিবিধ বিকল্প সম্বন্ধীয় সাহায্যে প্রদর্শন করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1150
-#, kde-format
-msgid "Show %1 specific options"
-msgstr "%1-র জন্য সুনির্দিষ্ট সাহায্য প্রদর্শন করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1157
-msgid "Show all options"
-msgstr "সকল বিকল্প প্রদর্শন করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1158
-msgid "Show author information"
-msgstr "লেখকের পরিচিত প্রদর্শন করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1159
-msgid "Show version information"
-msgstr "সংস্করণ সংক্রান্ত তথ্য প্রদর্শন করা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1160
-msgid "Show license information"
-msgstr "লাইসেন্স সংক্রান্ত তথ্য প্রদর্শন করা হয়"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1161
-msgid "End of options"
-msgstr "বিকল্পের সমাপ্তি"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1182
-#, kde-format
-msgid ""
-"\n"
-"%1 options:\n"
-msgstr ""
-"\n"
-"%1 বিকল্প:\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1184
-msgid ""
-"\n"
-"Options:\n"
-msgstr ""
-"\n"
-"বিকল্প:\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1242
-msgid ""
-"\n"
-"Arguments:\n"
-msgstr ""
-"\n"
-"আর্গুমেন্ট:\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1596
-msgid "The files/URLs opened by the application will be deleted after use"
-msgstr "ব্যবহারের পরে, অ্যাপ্লিকেশন দ্বারা খোলা ফাইল/URL-গুলি মুছে ফেলা হবে"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1597
-msgid "KDE-tempfile"
-msgstr "KDE-tempfile"
-
 #: kdecore/kernel/ktoolinvocation.cpp:79
 msgid "Function must be called from the main thread."
 msgstr "মূল থ্রেড থেকে ফাংশান কল করা হবে।"
@@ -3569,6 +3265,314 @@ msgstr ""
 #| msgid "Could not Launch Terminal Client"
 msgid "Could not launch Terminal Client"
 msgstr "টার্মিন্যাল ক্লায়েন্ট আরম্ভ করতে ব্যর্থ"
+
+#: kdecore/kernel/kcmdlineargs.cpp:273
+msgid "Use the X-server display 'displayname'"
+msgstr "X-server ডিসপ্লে 'displayname' ব্যবহার করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:275
+msgid "Use the QWS display 'displayname'"
+msgstr "QWS ডিসপ্লে 'displayname' ব্যবহার করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:278
+msgid "Restore the application for the given 'sessionId'"
+msgstr "উল্লিখিত 'sessionId'-র জন্য অ্যাপ্লিকেশন পুনরুদ্ধার করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:279
+msgid ""
+"Causes the application to install a private color\n"
+"map on an 8-bit display"
+msgstr ""
+"এর ফলে, অ্যাপ্লিকেশন দ্বারা একটি ৮-বিট প্রদর্শন\n"
+"ক্ষেত্রের মধ্যে নিজস্ব রঙের ম্যাপ ইনস্টল করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:280
+msgid ""
+"Limits the number of colors allocated in the color\n"
+"cube on an 8-bit display, if the application is\n"
+"using the QApplication::ManyColor color\n"
+"specification"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:281
+msgid "tells Qt to never grab the mouse or the keyboard"
+msgstr "Qt দ্বারা কখনো মাউস অথবা কি-বোর্ডের অধিকার গ্রহণ করা হবে না"
+
+#: kdecore/kernel/kcmdlineargs.cpp:282
+msgid ""
+"running under a debugger can cause an implicit\n"
+"-nograb, use -dograb to override"
+msgstr ""
+"ডিবাগারের মধ্যে সঞ্চালিত হলে পরোক্ষভাবে\n"
+"-nograb নির্ধারিত হতে পারে। উপেক্ষা করার জন্য -dograb প্রয়োগ করুন"
+
+#: kdecore/kernel/kcmdlineargs.cpp:283
+msgid "switches to synchronous mode for debugging"
+msgstr "ডিবাগ করার জন্য সিংক্রোনাস মোডে পরিবর্তন করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:285
+msgid "defines the application font"
+msgstr "অ্যাপ্লিকেশন ফন্ট নির্ধারিত করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:287
+msgid ""
+"sets the default background color and an\n"
+"application palette (light and dark shades are\n"
+"calculated)"
+msgstr ""
+"পটভূমির ডিফল্ট রঙ ও একটি অ্যাপ্লিকেশন\n"
+"প্যালেট নির্ধারণ করা হয় (হালকা ও গাঢ় রঙ\n"
+"গণনা করা হয়)"
+
+#: kdecore/kernel/kcmdlineargs.cpp:289
+msgid "sets the default foreground color"
+msgstr "অগ্রভূমিতে ব্যবহার করার জন্য ডিফল্ট রং নির্ধারণ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:291
+msgid "sets the default button color"
+msgstr "বাটনে ব্যবহারের জন্য ডিফল্ট রং নির্ধারণ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:292
+msgid "sets the application name"
+msgstr "অ্যাপ্লিকেশনের নাম নির্ধারণ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:293
+msgid "sets the application title (caption)"
+msgstr "অ্যাপ্লিকেশনের শিরোনাম নির্ধারণ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:294
+msgid "load the testability framework"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:296
+msgid ""
+"forces the application to use a TrueColor visual on\n"
+"an 8-bit display"
+msgstr ""
+"৮-বিট ডিসপ্লের ক্ষেত্রে অ্যাপ্লিকেশন দ্বারা TrueColor ভিসুয়াল\n"
+"ব্যবহার করতে বাধ্য করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:297
+msgid ""
+"sets XIM (X Input Method) input style. Possible\n"
+"values are onthespot, overthespot, offthespot and\n"
+"root"
+msgstr ""
+"XIM (X Input Method) ইনপুট বিন্যাস স্থাপন করা হয়। সম্ভাব্য মানগুলি\n"
+"হল onthespot, overthespot, offthespot ও\n"
+"root"
+
+#: kdecore/kernel/kcmdlineargs.cpp:298
+msgid "set XIM server"
+msgstr "XIM সার্ভার নির্ধারণ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:299
+msgid "disable XIM"
+msgstr "XIM নিষ্ক্রিয় করুন"
+
+#: kdecore/kernel/kcmdlineargs.cpp:302
+msgid "forces the application to run as QWS Server"
+msgstr "QWS সার্ভার রূপে বাধ্যমূলকভাবে অ্যাপ্লিকেশনটি চালানো হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:304
+msgid "mirrors the whole layout of widgets"
+msgstr "সম্পূর্ণ উইজেট বিন্যাস অনুকরণ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:305
+msgid "applies the Qt stylesheet to the application widgets"
+msgstr "অ্যাপ্লিকেশন উইজেটের জন্য Qt স্টাইল-শিট প্রয়োগ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:306
+msgid ""
+"use a different graphics system instead of the default one, options are "
+"raster and opengl (experimental)"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:308
+msgid "Use 'caption' as name in the titlebar"
+msgstr "টাইটেল-বারের উপর 'caption' ব্যবহার করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:309
+msgid "Use 'icon' as the application icon"
+msgstr "অ্যাপ্লিকেশন আইকন রূপে 'icon' ব্যবহার করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:310
+msgid "Use alternative configuration file"
+msgstr "বিকল্প কনফিগারেশন ফাইল ব্যবহার করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:311
+msgid "Disable crash handler, to get core dumps"
+msgstr "কোর ডাম্প প্রাপ্ত করার জন্য, ক্র্যাশ হ্যান্ডলার নিষ্ক্রিয় করুন"
+
+#: kdecore/kernel/kcmdlineargs.cpp:313
+msgid "Waits for a WM_NET compatible windowmanager"
+msgstr "WM_NET-র সাথে সুসংগত windowmanager-র জন্য অপেক্ষা করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:315
+msgid "sets the application GUI style"
+msgstr "অ্যাপ্লিকেশনের GUI বিন্যাস নির্ধারণ করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:316
+msgid ""
+"sets the client geometry of the main widget - see man X for the argument "
+"format (usually WidthxHeight+XPos+YPos)"
+msgstr ""
+"মূল উইজেটের ক্লায়েন্ট জ্যামিতি নির্ধারণ করা হয় - আর্গুমেন্টের বিন্যাস জানার জন্য man X "
+"দেখুন (সাধারণত প্রস্থxউচ্চতা+XPos+YPos)"
+
+#: kdecore/kernel/kcmdlineargs.cpp:434
+msgid "KDE Application"
+msgstr "KDE অ্যাপ্লিকেশন"
+
+#: kdecore/kernel/kcmdlineargs.cpp:493
+msgid "Qt"
+msgstr "Qt"
+
+#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4819
+msgid "KDE"
+msgstr "KDE"
+
+#: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:815
+#, kde-format
+msgid "Unknown option '%1'."
+msgstr "অজানা বিকল্প '%1'।"
+
+#: kdecore/kernel/kcmdlineargs.cpp:823
+#, kde-format
+msgctxt "@info:shell %1 is cmdoption name"
+msgid "'%1' missing."
+msgstr "'%1' অনুপস্থিত।"
+
+#: kdecore/kernel/kcmdlineargs.cpp:889
+#, kde-format
+msgctxt ""
+"@info:shell message on appcmd --version; do not translate 'Development "
+"Platform'%3 application name, other %n version strings"
+msgid ""
+"Qt: %1\n"
+"KDE Development Platform: %2\n"
+"%3: %4\n"
+msgstr ""
+"Qt: %1\n"
+"KDE Development Platform: %2\n"
+"%3: %4\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:914
+#, kde-format
+msgctxt "the 2nd argument is a list of name+address, one on each line"
+msgid ""
+"%1 was written by\n"
+"%2"
+msgstr ""
+"%1 লিখেছেন\n"
+"%2"
+
+#: kdecore/kernel/kcmdlineargs.cpp:917
+msgid "This application was written by somebody who wants to remain anonymous."
+msgstr "এই অ্যাপ্লিকেশনের নির্মাতা অজ্ঞাত থাকতে ইচ্ছুক।"
+
+#: kdecore/kernel/kcmdlineargs.cpp:924
+msgid "Please use http://bugs.kde.org to report bugs.\n"
+msgstr "অনুগ্রহ করে http://bugs.kde.org-এ বাগ দায়ের করুন।\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:926
+#, kde-format
+msgid "Please report bugs to %1.\n"
+msgstr "অনুগ্রহ করে %1-এ বাগ দায়ের করুন।\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:963
+#, kde-format
+msgid "Unexpected argument '%1'."
+msgstr "অপ্রত্যাশিত আর্গুমেন্ট '%1'।"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1087
+msgid "Use --help to get a list of available command line options."
+msgstr ""
+"কমান্ড-লাইন থেকে ব্যবহারযোগ্য সকল উপলব্ধ বিকল্পের তালিকা দেখতে --help ব্যবহার করুন।"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1110
+msgid "[options] "
+msgstr "[বিকল্প] "
+
+#: kdecore/kernel/kcmdlineargs.cpp:1117
+#, kde-format
+msgid "[%1-options]"
+msgstr "[%1-বিকল্প]"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1138
+#, kde-format
+msgid "Usage: %1 %2\n"
+msgstr "ব্যবহার প্রণালী: %1 %2\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1141
+msgid ""
+"\n"
+"Generic options:\n"
+msgstr ""
+"\n"
+"সাধারণ বিকল্প:\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1143
+msgid "Show help about options"
+msgstr "বিবিধ বিকল্প সম্বন্ধীয় সাহায্যে প্রদর্শন করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1151
+#, kde-format
+msgid "Show %1 specific options"
+msgstr "%1-র জন্য সুনির্দিষ্ট সাহায্য প্রদর্শন করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1158
+msgid "Show all options"
+msgstr "সকল বিকল্প প্রদর্শন করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1159
+msgid "Show author information"
+msgstr "লেখকের পরিচিত প্রদর্শন করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1160
+msgid "Show version information"
+msgstr "সংস্করণ সংক্রান্ত তথ্য প্রদর্শন করা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1161
+msgid "Show license information"
+msgstr "লাইসেন্স সংক্রান্ত তথ্য প্রদর্শন করা হয়"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1162
+msgid "End of options"
+msgstr "বিকল্পের সমাপ্তি"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1183
+#, kde-format
+msgid ""
+"\n"
+"%1 options:\n"
+msgstr ""
+"\n"
+"%1 বিকল্প:\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1185
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"বিকল্প:\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1243
+msgid ""
+"\n"
+"Arguments:\n"
+msgstr ""
+"\n"
+"আর্গুমেন্ট:\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1597
+msgid "The files/URLs opened by the application will be deleted after use"
+msgstr "ব্যবহারের পরে, অ্যাপ্লিকেশন দ্বারা খোলা ফাইল/URL-গুলি মুছে ফেলা হবে"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1598
+msgid "KDE-tempfile"
+msgstr "KDE-tempfile"
 
 #: kdecore/localization/kcharsets.cpp:155
 #: kdecore/localization/kencodingdetector.cpp:1149
@@ -5587,7 +5591,7 @@ msgstr "অন্যান্য যোগদানকারী:"
 msgid "Visit contributor's homepage"
 msgstr "হোম পেজ পরিদর্শন করুন"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:126
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:127
 #, fuzzy, kde-format
 #| msgid "Other Contributors:"
 msgctxt "Action to send an email to a contributor"
@@ -5596,8 +5600,8 @@ msgid ""
 "%1"
 msgstr "অন্যান্য যোগদানকারী:"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:131
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:168
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:133
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:170
 #, fuzzy, kde-format
 #| msgctxt "A link to the description of this Get Hot New Stuff item"
 #| msgid "Visit homepage..."
@@ -5606,15 +5610,15 @@ msgid ""
 "%1"
 msgstr "হোম পেজ পরিদর্শন করুন"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:138
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:172
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:140
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:174
 #, kde-format
 msgid ""
 "Visit contributor's profile on %1\n"
 "%2"
 msgstr ""
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:160
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:162
 #, fuzzy, kde-format
 #| msgctxt "A link to the description of this Get Hot New Stuff item"
 #| msgid "Visit homepage..."
@@ -5623,7 +5627,7 @@ msgid ""
 "%1"
 msgstr "হোম পেজ পরিদর্শন করুন"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:164
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:166
 #, fuzzy, kde-format
 #| msgctxt "A link to the description of this Get Hot New Stuff item"
 #| msgid "Visit homepage..."
@@ -5632,7 +5636,7 @@ msgid ""
 "%1"
 msgstr "হোম পেজ পরিদর্শন করুন"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:266
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:268
 #, kde-format
 msgctxt "@item Contributor name in about dialog."
 msgid "%1"
@@ -6288,7 +6292,7 @@ msgid "Warning"
 msgstr "সতর্কবাণী"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:810 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:818 kjs/object.cpp:553
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 msgid "Error"
 msgstr "ত্রুটি"
@@ -9329,7 +9333,7 @@ msgstr "উপরে স্থানান্তর (&U)"
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:933
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:941
 msgid "Clear &History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&H)"
 
@@ -9941,15 +9945,7 @@ msgstr "ইয়ান রাইনহার্ট গেইসার"
 msgid "Daniel Molkentin"
 msgstr "ড্যানিয়েল মলকেনটিন"
 
-#: khtml/khtml_settings.cpp:238 kparts/htmlextension.cpp:117
-msgid "Accept"
-msgstr "গ্রহণ করা হবে"
-
-#: khtml/khtml_settings.cpp:239 kparts/htmlextension.cpp:119
-msgid "Reject"
-msgstr "প্রত্যাখ্যান করা হবে"
-
-#: khtml/khtml_settings.cpp:923
+#: khtml/khtml_settings.cpp:888
 msgid "Filter error"
 msgstr "ফিল্টার সংক্রান্ত ত্রুটি"
 
@@ -10803,32 +10799,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "স্ক্রিপ্ট বন্ধ করুন (&S)"
 
-#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2162
 msgid "Confirmation: JavaScript Popup"
 msgstr "নিশ্চায়ন: JavaScript পপ-আপ"
-
-#: khtml/ecma/kjs_html.cpp:2164
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-
-#: khtml/ecma/kjs_html.cpp:2167
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "অনুমতি প্রদান করা হবে"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "অনুমতি প্রদান করা হবে না"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -10842,6 +10815,14 @@ msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Allow"
+msgstr "অনুমতি প্রদান করা হবে"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Do Not Allow"
+msgstr "অনুমতি প্রদান করা হবে না"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -10877,6 +10858,21 @@ msgstr "সন্নিবেশ করুন"
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
+#: khtml/ecma/kjs_html.cpp:2164
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+
+#: khtml/ecma/kjs_html.cpp:2167
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "কনসোল"
@@ -10892,14 +10888,6 @@ msgstr "JavaScript সংক্রান্ত ত্রুটি"
 #: khtml/ecma/debugger/errordlg.cpp:49
 msgid "&Do not show this message again"
 msgstr "এই বার্তা পুনরায় প্রদর্শন করা হবে না (&D)"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:43
-msgid "Local Variables"
-msgstr "স্থানীয় ভেরিয়েবল"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:51
-msgid "Reference"
-msgstr "প্রতিনির্দেশ"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -11001,6 +10989,14 @@ msgstr ""
 #: khtml/ecma/debugger/scriptsdock.cpp:43
 msgid "Loaded Scripts"
 msgstr "স্ক্রিপ্ট লোড করা হয়েছে"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:43
+msgid "Local Variables"
+msgstr "স্থানীয় ভেরিয়েবল"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:51
+msgid "Reference"
+msgstr "প্রতিনির্দেশ"
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
@@ -11168,28 +11164,28 @@ msgstr "%1-র জন্য হ্যান্ডলার পাওয়া য�
 msgid "Play"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:789
+#: khtml/rendering/render_form.cpp:797
 msgid "New Web Shortcut"
 msgstr "নতুন ওয়েব শর্ট-কাট"
 
-#: khtml/rendering/render_form.cpp:810
+#: khtml/rendering/render_form.cpp:818
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 বর্তমানে %2-র জন্য বরাদ্দ করা হয়েছে"
 
-#: khtml/rendering/render_form.cpp:855
+#: khtml/rendering/render_form.cpp:863
 msgid "Search &provider name:"
 msgstr "উপলব্ধকারীর নাম অনুসন্ধান করুন: (&p)"
 
-#: khtml/rendering/render_form.cpp:857
+#: khtml/rendering/render_form.cpp:865
 msgid "New search provider"
 msgstr "নতুন অনুসন্ধান উপলব্ধকারী"
 
-#: khtml/rendering/render_form.cpp:862
+#: khtml/rendering/render_form.cpp:870
 msgid "UR&I shortcuts:"
 msgstr "URI শর্ট-কাট (&I)"
 
-#: khtml/rendering/render_form.cpp:948
+#: khtml/rendering/render_form.cpp:956
 msgid "Create Web Shortcut"
 msgstr "ওয়েব শর্ট-কাট নির্মাণ করুন"
 
@@ -12427,6 +12423,14 @@ msgstr ""
 #: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "ডকুমেন্ট বন্ধ করুন"
+
+#: kparts/htmlextension.cpp:117
+msgid "Accept"
+msgstr "গ্রহণ করা হবে"
+
+#: kparts/htmlextension.cpp:119
+msgid "Reject"
+msgstr "প্রত্যাখ্যান করা হবে"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
