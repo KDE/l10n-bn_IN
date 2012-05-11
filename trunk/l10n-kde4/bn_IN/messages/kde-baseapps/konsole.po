@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-09 04:30+0200\n"
+"POT-Creation-Date: 2012-05-11 04:17+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -682,54 +682,54 @@ msgstr "লার্স নোল"
 msgid "Thanks to many others.\n"
 msgstr "অ্যানান্য অনেককে অসংখ্যা ধন্যবাদন।\n"
 
-#: MainWindow.cpp:278
+#: MainWindow.cpp:280
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "নতুন ট্যাব (&T)"
 
-#: MainWindow.cpp:287
+#: MainWindow.cpp:289
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: MainWindow.cpp:294
+#: MainWindow.cpp:296
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "নতুন উইন্ডো (&W)"
 
-#: MainWindow.cpp:301
+#: MainWindow.cpp:303
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:306
+#: MainWindow.cpp:308
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "বুকমার্ক (&B)"
 
-#: MainWindow.cpp:324
+#: MainWindow.cpp:326
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা"
 
-#: MainWindow.cpp:330
+#: MainWindow.cpp:332
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:525
+#: MainWindow.cpp:527
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -742,28 +742,28 @@ msgstr[0] ""
 msgstr[1] ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:529
+#: MainWindow.cpp:531
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: MainWindow.cpp:531
+#: MainWindow.cpp:533
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: MainWindow.cpp:628
+#: MainWindow.cpp:630
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "সাধারণ"
 
-#: MainWindow.cpp:633
+#: MainWindow.cpp:635
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -2114,43 +2114,43 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1349
+#: SessionController.cpp:1343
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1357
+#: SessionController.cpp:1351
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1369
+#: SessionController.cpp:1363
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1378
+#: SessionController.cpp:1372
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1384
+#: SessionController.cpp:1378
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1452
+#: SessionController.cpp:1446
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1463
+#: SessionController.cpp:1457
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1538
+#: SessionController.cpp:1532
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2306,28 +2306,28 @@ msgstr "ট্যাবের শিরোনামের বিন্যাস:
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TerminalDisplay.cpp:1095 TerminalDisplay.cpp:1096
+#: TerminalDisplay.cpp:1111 TerminalDisplay.cpp:1112
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1106
+#: TerminalDisplay.cpp:1122
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:2631
+#: TerminalDisplay.cpp:2648
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:2873
+#: TerminalDisplay.cpp:2895
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:2888
+#: TerminalDisplay.cpp:2910
 msgid "Change &Directory To"
 msgstr ""
 
