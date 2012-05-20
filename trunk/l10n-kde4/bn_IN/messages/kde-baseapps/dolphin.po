@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-19 04:38+0200\n"
+"POT-Creation-Date: 2012-05-20 05:23+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -469,15 +469,7 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr ""
 
-#: panels/information/phononwidget.cpp:139
-msgid "play"
-msgstr "চালান"
-
-#: panels/information/phononwidget.cpp:144
-msgid "stop"
-msgstr "থামান"
-
-#: panels/information/informationpanelcontent.cpp:231
+#: panels/information/informationpanelcontent.cpp:225
 #, kde-format
 msgctxt "@info"
 msgid "%1 item selected"
@@ -485,12 +477,12 @@ msgid_plural "%1 items selected"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
 
-#: panels/information/informationpanelcontent.cpp:272
+#: panels/information/informationpanelcontent.cpp:266
 msgctxt "@action:inmenu"
 msgid "Preview"
 msgstr "প্রাকদর্শন"
 
-#: panels/information/informationpanelcontent.cpp:277
+#: panels/information/informationpanelcontent.cpp:271
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Change Tags..."
@@ -498,10 +490,18 @@ msgctxt "@action:inmenu"
 msgid "Configure..."
 msgstr "ট্যাগ পরিবর্তন করুন..."
 
-#: panels/information/informationpanelcontent.cpp:299
+#: panels/information/informationpanelcontent.cpp:293
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
+
+#: panels/information/phononwidget.cpp:126
+msgid "play"
+msgstr "চালান"
+
+#: panels/information/phononwidget.cpp:132
+msgid "stop"
+msgstr "থামান"
 
 #: panels/places/placesitemeditdialog.cpp:127
 msgctxt "@label"
