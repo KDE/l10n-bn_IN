@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-22 04:15+0100\n"
+"POT-Creation-Date: 2012-06-09 04:39+0200\n"
 "PO-Revision-Date: 2009-01-12 11:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -185,6 +185,41 @@ msgstr "%1 প্যাকেজ ইনস্টল করতে ব্যর্
 msgid "Filters"
 msgstr "ফিল্টার"
 
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:86
+msgid "License: "
+msgstr ""
+
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:95
+msgid "Author: "
+msgstr ""
+
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:115
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall"
+msgstr "নতুন উইজেট ইনস্টল করুন"
+
+#: widgetsexplorer/package/contents/ui/main.qml:155
+#: widgetsexplorer/package/contents/ui/main.qml:217
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter search term..."
+msgstr "অনুসন্ধানযোগ্য পংক্তি এইখানে লিখুন"
+
+#: widgetsexplorer/package/contents/ui/main.qml:161
+#: widgetsexplorer/package/contents/ui/main.qml:223
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories"
+msgstr "শ্রেণী:"
+
+#: widgetsexplorer/package/contents/ui/main.qml:171
+#: widgetsexplorer/package/contents/ui/main.qml:232
+#, fuzzy
+#| msgid "Get New Widgets"
+msgid "Get new widgets"
+msgstr "নতুন উইজেট প্রাপ্ত করুন"
+
 #: widgetsexplorer/plasmaappletitemmodel.cpp:226
 msgid "Containments"
 msgstr ""
@@ -307,26 +342,6 @@ msgstr ""
 #: rc.cpp:20
 msgid "Mouse Plugins"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Categories:"
-#~ msgid "Categories"
-#~ msgstr "শ্রেণী:"
-
-#, fuzzy
-#~| msgid "Enter search phrase here"
-#~ msgid "Enter Search Term"
-#~ msgstr "অনুসন্ধানযোগ্য পংক্তি এইখানে লিখুন"
-
-#, fuzzy
-#~| msgid "Get New Widgets"
-#~ msgid "Get New Widgets..."
-#~ msgstr "নতুন উইজেট প্রাপ্ত করুন"
-
-#, fuzzy
-#~| msgid "Install New Widgets"
-#~ msgid "Uninstall Widget"
-#~ msgstr "নতুন উইজেট ইনস্টল করুন"
 
 #, fuzzy
 #~| msgid "Add Widget"
