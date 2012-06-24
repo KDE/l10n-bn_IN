@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:42+0200\n"
+"POT-Creation-Date: 2012-06-24 12:03+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -4905,54 +4905,6 @@ msgstr "সকেট সংক্রান্ত অজানা ত্রুট
 msgid "Operation not supported"
 msgstr "কর্ম সমর্থিত নয়"
 
-#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
-msgid "no error"
-msgstr "ত্রুটি বিহীন"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "nodename-র ক্ষেত্রে চিহ্নিত অ্যাড্রেস সংকলন সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
-msgid "temporary failure in name resolution"
-msgstr "নাম মীমাংসা করতে সাময়িক বিপর্যয়"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "'ai_flags'-র মান বৈধ নয়"
-
-#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
-msgid "non-recoverable failure in name resolution"
-msgstr "নাম মীমাংসা করতে স্থায়ী বিপর্যয়"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "'ai_family' সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
-msgid "memory allocation failure"
-msgstr "মেমরি বরাদ্দ করতে বিফলতা"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "nodename-র সাথে কোনো ঠিকানা যুক্ত নয়"
-
-#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
-msgid "name or service not known"
-msgstr "নাম অথবা পরিসেবা অজানা"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "ai_socktype-র জন্য servname সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "'ai_socktype' সমর্থিত নয়"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "সিস্টেম জড়িত ত্রুটি"
-
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
 msgstr "NEC SOCKS ক্লায়েন্ট"
@@ -4966,13 +4918,33 @@ msgstr "Dante SOCKS ক্লায়েন্ট"
 msgid "Timed out trying to connect to remote host"
 msgstr "দূরবর্তী হোস্টের সাথে সংযোগ স্থাপন করতে সময়সীমা উত্তীর্ণ হয়েছে"
 
+#: kdecore/network/k3resolver.cpp:545 kdecore/network/netsupp.cpp:894
+msgid "no error"
+msgstr "ত্রুটি বিহীন"
+
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
 msgstr "চিহ্নিত হোস্ট-নেমের জন্য অনুরোধ করা সংকলনের নাম সমর্থিত নয়"
 
+#: kdecore/network/k3resolver.cpp:547 kdecore/network/netsupp.cpp:896
+msgid "temporary failure in name resolution"
+msgstr "নাম মীমাংসা করতে সাময়িক বিপর্যয়"
+
+#: kdecore/network/k3resolver.cpp:548 kdecore/network/netsupp.cpp:898
+msgid "non-recoverable failure in name resolution"
+msgstr "নাম মীমাংসা করতে স্থায়ী বিপর্যয়"
+
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
 msgstr "অবৈধ ফ্ল্যাগ"
+
+#: kdecore/network/k3resolver.cpp:550 kdecore/network/netsupp.cpp:900
+msgid "memory allocation failure"
+msgstr "মেমরি বরাদ্দ করতে বিফলতা"
+
+#: kdecore/network/k3resolver.cpp:551 kdecore/network/netsupp.cpp:902
+msgid "name or service not known"
+msgstr "নাম অথবা পরিসেবা অজানা"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -5072,6 +5044,34 @@ msgstr "সার্টিফিকেট চেইন অত্যাধিক 
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "অজানা ত্রুটি"
+
+#: kdecore/network/netsupp.cpp:895
+msgid "address family for nodename not supported"
+msgstr "nodename-র ক্ষেত্রে চিহ্নিত অ্যাড্রেস সংকলন সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:897
+msgid "invalid value for 'ai_flags'"
+msgstr "'ai_flags'-র মান বৈধ নয়"
+
+#: kdecore/network/netsupp.cpp:899
+msgid "'ai_family' not supported"
+msgstr "'ai_family' সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "no address associated with nodename"
+msgstr "nodename-র সাথে কোনো ঠিকানা যুক্ত নয়"
+
+#: kdecore/network/netsupp.cpp:903
+msgid "servname not supported for ai_socktype"
+msgstr "ai_socktype-র জন্য servname সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:904
+msgid "'ai_socktype' not supported"
+msgstr "'ai_socktype' সমর্থিত নয়"
+
+#: kdecore/network/netsupp.cpp:905
+msgid "system error"
+msgstr "সিস্টেম জড়িত ত্রুটি"
 
 #: kdecore/services/kmimetyperepository.cpp:611
 #, kde-format
@@ -5367,18 +5367,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "স্বয়ংক্রিয় সনাক্তকরণ"
 
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr ""
-
 #: kdeui/actions/krecentfilesaction.cpp:81
 msgid "No Entries"
 msgstr "কোনো এনট্রি উপস্থিত নেই"
@@ -5463,6 +5451,18 @@ msgstr "সম্পূর্ণ পর্দাজুড়ে প্রদর্�
 #: kdeui/actions/ktogglefullscreenaction.cpp:55
 msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
