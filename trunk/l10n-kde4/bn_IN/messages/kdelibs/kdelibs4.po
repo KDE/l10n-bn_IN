@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-26 07:39+0200\n"
+"POT-Creation-Date: 2012-07-04 04:54+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -9262,6 +9262,59 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "ডিফল্ট মান"
 
+#: kdeui/widgets/kdatepicker.cpp:174
+#, kde-format
+msgid "Week %1"
+msgstr "সপ্তাহ %1"
+
+#: kdeui/widgets/kdatepicker.cpp:278
+msgid "Next year"
+msgstr "পরবর্তী বৎসর"
+
+#: kdeui/widgets/kdatepicker.cpp:279
+msgid "Previous year"
+msgstr "পূর্ববর্তী বৎসর"
+
+#: kdeui/widgets/kdatepicker.cpp:280
+msgid "Next month"
+msgstr "পরবর্তী মাস"
+
+#: kdeui/widgets/kdatepicker.cpp:281
+msgid "Previous month"
+msgstr "পূর্ববর্তী মাস"
+
+#: kdeui/widgets/kdatepicker.cpp:282
+msgid "Select a week"
+msgstr "একটি সপ্তাহ নির্বাচন করুন"
+
+#: kdeui/widgets/kdatepicker.cpp:283
+msgid "Select a month"
+msgstr "একটি মাস নির্বাচন করুন"
+
+#: kdeui/widgets/kdatepicker.cpp:284
+msgid "Select a year"
+msgstr "একটি বৎসর নির্বাচন করুন"
+
+#: kdeui/widgets/kdatepicker.cpp:285
+msgid "Select the current day"
+msgstr "আজকের দিন নির্বাচন করুন"
+
+#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
+msgid "&Add"
+msgstr "যোগ করুন (&A)"
+
+#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
+msgid "&Remove"
+msgstr "মুছে ফেলুন (&R)"
+
+#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
+msgid "Move &Up"
+msgstr "উপরে স্থানান্তর (&U)"
+
+#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
+msgid "Move &Down"
+msgstr "নীচে স্থানান্তর (&D)"
+
 #: kdeui/widgets/ktoolbar.cpp:292
 #, fuzzy
 #| msgid "Show help"
@@ -9353,70 +9406,17 @@ msgstr "বৃহৎ (%1x%2)"
 msgid "Lock Toolbar Positions"
 msgstr "টুল-বারের অবস্থান লক করা হবে"
 
-#: kdeui/widgets/ktoolbar.cpp:1321
+#: kdeui/widgets/ktoolbar.cpp:1326
 #, kde-format
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/widgets/ktoolbar.cpp:1322
+#: kdeui/widgets/ktoolbar.cpp:1327
 #, kde-format
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1"
-
-#: kdeui/widgets/kdatepicker.cpp:174
-#, kde-format
-msgid "Week %1"
-msgstr "সপ্তাহ %1"
-
-#: kdeui/widgets/kdatepicker.cpp:278
-msgid "Next year"
-msgstr "পরবর্তী বৎসর"
-
-#: kdeui/widgets/kdatepicker.cpp:279
-msgid "Previous year"
-msgstr "পূর্ববর্তী বৎসর"
-
-#: kdeui/widgets/kdatepicker.cpp:280
-msgid "Next month"
-msgstr "পরবর্তী মাস"
-
-#: kdeui/widgets/kdatepicker.cpp:281
-msgid "Previous month"
-msgstr "পূর্ববর্তী মাস"
-
-#: kdeui/widgets/kdatepicker.cpp:282
-msgid "Select a week"
-msgstr "একটি সপ্তাহ নির্বাচন করুন"
-
-#: kdeui/widgets/kdatepicker.cpp:283
-msgid "Select a month"
-msgstr "একটি মাস নির্বাচন করুন"
-
-#: kdeui/widgets/kdatepicker.cpp:284
-msgid "Select a year"
-msgstr "একটি বৎসর নির্বাচন করুন"
-
-#: kdeui/widgets/kdatepicker.cpp:285
-msgid "Select the current day"
-msgstr "আজকের দিন নির্বাচন করুন"
-
-#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
-msgid "&Add"
-msgstr "যোগ করুন (&A)"
-
-#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
-msgid "&Remove"
-msgstr "মুছে ফেলুন (&R)"
-
-#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
-msgid "Move &Up"
-msgstr "উপরে স্থানান্তর (&U)"
-
-#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
-msgid "Move &Down"
-msgstr "নীচে স্থানান্তর (&D)"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:993
 msgid "Clear &History"
@@ -11185,10 +11185,6 @@ msgstr "স্বত্বাধিকার ২০০১, ডেভিড ফ�
 msgid "No handler found for %1."
 msgstr "%1-র জন্য হ্যান্ডলার পাওয়া যায়নি।"
 
-#: khtml/rendering/media_controls.cpp:47
-msgid "Play"
-msgstr ""
-
 #: khtml/rendering/render_form.cpp:849
 msgid "New Web Shortcut"
 msgstr "নতুন ওয়েব শর্ট-কাট"
@@ -11213,6 +11209,10 @@ msgstr "URI শর্ট-কাট (&I)"
 #: khtml/rendering/render_form.cpp:1008
 msgid "Create Web Shortcut"
 msgstr "ওয়েব শর্ট-কাট নির্মাণ করুন"
+
+#: khtml/rendering/media_controls.cpp:47
+msgid "Play"
+msgstr ""
 
 #: khtml/ui/findbar/khtmlfindbar.cpp:58
 #, fuzzy
