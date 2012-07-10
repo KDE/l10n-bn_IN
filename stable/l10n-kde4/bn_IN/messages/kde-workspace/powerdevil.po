@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:49+0200\n"
+"POT-Creation-Date: 2012-07-10 20:12+0200\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:63
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr ""
 
 #: actions/bundled/dimdisplayconfig.cpp:63
 #: actions/bundled/runscriptconfig.cpp:80
@@ -34,58 +39,31 @@ msgstr "মিনিট"
 msgid "After"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:70
-msgid "Script"
-msgstr ""
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
+msgid "Do nothing"
+msgstr "কিছু করা হবে না"
 
-#: actions/bundled/runscriptconfig.cpp:81
-#, fuzzy
-#| msgid "New Profile"
-msgid "On Profile Load"
-msgstr "নতুন প্রোফাইল"
-
-#: actions/bundled/runscriptconfig.cpp:82
-msgid "On Profile Unload"
-msgstr ""
-
-#: actions/bundled/runscriptconfig.cpp:93
-msgid "Run script"
-msgstr ""
-
-#: actions/bundled/suspendsession.cpp:114
-msgid "The screen is being locked"
-msgstr "পর্দা লক করা হচ্ছে"
-
-#: actions/bundled/suspendsessionconfig.cpp:80
 #: actions/bundled/handlebuttoneventsconfig.cpp:79
+#: actions/bundled/suspendsessionconfig.cpp:80
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:83
 #: actions/bundled/handlebuttoneventsconfig.cpp:82
+#: actions/bundled/suspendsessionconfig.cpp:83
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:85
 #: actions/bundled/handlebuttoneventsconfig.cpp:84
+#: actions/bundled/suspendsessionconfig.cpp:85
 msgid "Shutdown"
 msgstr "বন্ধ করুন"
 
-#: actions/bundled/suspendsessionconfig.cpp:86
 #: actions/bundled/handlebuttoneventsconfig.cpp:85
+#: actions/bundled/suspendsessionconfig.cpp:86
 #, fuzzy
 #| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "পর্দা লক করুন"
-
-#: actions/bundled/brightnesscontrolconfig.cpp:63
-msgctxt "Brightness level, label for the slider"
-msgid "Level"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:77
-msgid "Do nothing"
-msgstr "কিছু করা হবে না"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:87
 #, fuzzy
@@ -109,6 +87,28 @@ msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হ�
 msgid "When power button pressed"
 msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বাটন টিপলে"
 
+#: actions/bundled/runscriptconfig.cpp:70
+msgid "Script"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:81
+#, fuzzy
+#| msgid "New Profile"
+msgid "On Profile Load"
+msgstr "নতুন প্রোফাইল"
+
+#: actions/bundled/runscriptconfig.cpp:82
+msgid "On Profile Unload"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:93
+msgid "Run script"
+msgstr ""
+
+#: actions/bundled/suspendsession.cpp:114
+msgid "The screen is being locked"
+msgstr "পর্দা লক করা হচ্ছে"
+
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 msgid "Switch off after"
 msgstr ""
@@ -118,6 +118,30 @@ msgstr ""
 #| msgid "Supported schemes"
 msgid "Unsupported suspend method"
 msgstr "সমর্থিত স্কিম"
+
+#: kdedpowerdevil.cpp:58
+#, fuzzy
+#| msgid "A Power Management tool for KDE4"
+msgid "KDE Power Management System"
+msgstr "KDE4-র সাথে ব্যবহারযোগ্য বিদ্যুৎ পরিচালন ব্যবস্থা"
+
+#: kdedpowerdevil.cpp:59
+msgid ""
+"KDE Power Management System is PowerDevil, an advanced, modular and "
+"lightweight Power Management daemon"
+msgstr ""
+
+#: kdedpowerdevil.cpp:62
+msgid "(c) 2010 MetalWorkers Co."
+msgstr ""
+
+#: kdedpowerdevil.cpp:65
+msgid "Dario Freddi"
+msgstr "ডারিও ফ্রেডি"
+
+#: kdedpowerdevil.cpp:65
+msgid "Maintainer"
+msgstr "মেইন্টেনার"
 
 #: powerdevilcore.cpp:73
 msgid ""
@@ -304,30 +328,6 @@ msgstr ""
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
 msgstr "ব্যাটারির ক্ষমতা অত্যন্ত কম"
-
-#: kdedpowerdevil.cpp:58
-#, fuzzy
-#| msgid "A Power Management tool for KDE4"
-msgid "KDE Power Management System"
-msgstr "KDE4-র সাথে ব্যবহারযোগ্য বিদ্যুৎ পরিচালন ব্যবস্থা"
-
-#: kdedpowerdevil.cpp:59
-msgid ""
-"KDE Power Management System is PowerDevil, an advanced, modular and "
-"lightweight Power Management daemon"
-msgstr ""
-
-#: kdedpowerdevil.cpp:62
-msgid "(c) 2010 MetalWorkers Co."
-msgstr ""
-
-#: kdedpowerdevil.cpp:65
-msgid "Dario Freddi"
-msgstr "ডারিও ফ্রেডি"
-
-#: kdedpowerdevil.cpp:65
-msgid "Maintainer"
-msgstr "মেইন্টেনার"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
