@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-10 08:58+0200\n"
+"POT-Creation-Date: 2012-08-07 21:49+0200\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -518,67 +518,6 @@ msgstr "উপরে স্থানান্তর"
 msgid "Move Down"
 msgstr "নীচে স্থানান্তর"
 
-#: SensorDisplayLib/ListView.cpp:45
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 K"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 M"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 G"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 T"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:49
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 P"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:152
-msgid "Display Units"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:156
-msgid "Mixed"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:162
-msgid "Kilobytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:168
-msgid "Megabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:174
-msgid "Gigabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:180
-#, fuzzy
-#| msgid "Temperature"
-msgid "Terabytes"
-msgstr "তাপমাত্রা"
-
 #: SensorDisplayLib/ListViewSettings.cpp:30
 msgid "List View Settings"
 msgstr ""
@@ -686,6 +625,67 @@ msgstr "অবস্থা"
 #: SensorDisplayLib/SensorModel.cpp:178
 msgid "Label"
 msgstr "লেবেল"
+
+#: SensorDisplayLib/ListView.cpp:45
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 K"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:46
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 M"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:47
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 G"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:48
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 T"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:49
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 P"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:152
+msgid "Display Units"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:156
+msgid "Mixed"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:162
+msgid "Kilobytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:168
+msgid "Megabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:174
+msgid "Gigabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:180
+#, fuzzy
+#| msgid "Temperature"
+msgid "Terabytes"
+msgstr "তাপমাত্রা"
 
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
@@ -805,55 +805,6 @@ msgstr ""
 #: WorkSheetSettings.cpp:101
 msgid "Enter the title of the worksheet here."
 msgstr "ওয়ার্ক-শিটের শিরোনাম লিখুন।"
-
-#: Workspace.cpp:113
-#, kde-format
-msgid "Sheet %1"
-msgstr "শিট %1"
-
-#: Workspace.cpp:172
-#, kde-format
-msgid ""
-"The tab '%1' contains unsaved data.\n"
-"Do you want to save the tab?"
-msgstr ""
-"ট্যাব '%1'-র মধ্যে পরিবর্তিত তথ্য উপস্থিত রয়েছে।\n"
-"ট্যাব সংরক্ষণ করা হবে কি?"
-
-#: Workspace.cpp:187
-msgid "*.sgrd|Sensor Files (*.sgrd)"
-msgstr "*.sgrd|Sensor Files (*.sgrd)"
-
-#: Workspace.cpp:187
-msgid "Select Tab File to Import"
-msgstr ""
-
-#: Workspace.cpp:215 Workspace.cpp:236
-msgid "You do not have a tab that could be saved."
-msgstr "সংরক্ষণ করার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
-
-#: Workspace.cpp:243
-msgid "Export Tab"
-msgstr ""
-
-#: Workspace.cpp:261
-msgid "There are no tabs that could be deleted."
-msgstr "মুছে ফেলার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
-
-#: Workspace.cpp:301
-#, kde-format
-msgid ""
-"<qt>To propose the current custom tab as a new System Monitor tab, email "
-"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
-"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
-"qt>"
-msgstr ""
-
-#: Workspace.cpp:301
-#, fuzzy
-#| msgid "System Monitor"
-msgid "Upload custom System Monitor tab"
-msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
 #: ksysguard.cpp:70
 msgid "KDE System Monitor"
@@ -996,6 +947,55 @@ msgstr ""
 #: ksysguard.cpp:550
 msgid "Optional worksheet files to load"
 msgstr "লোড করার জন্য চিহ্নিত ঐচ্ছিক ওয়ার্ক-শিট"
+
+#: Workspace.cpp:113
+#, kde-format
+msgid "Sheet %1"
+msgstr "শিট %1"
+
+#: Workspace.cpp:172
+#, kde-format
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
+"ট্যাব '%1'-র মধ্যে পরিবর্তিত তথ্য উপস্থিত রয়েছে।\n"
+"ট্যাব সংরক্ষণ করা হবে কি?"
+
+#: Workspace.cpp:187
+msgid "*.sgrd|Sensor Files (*.sgrd)"
+msgstr "*.sgrd|Sensor Files (*.sgrd)"
+
+#: Workspace.cpp:187
+msgid "Select Tab File to Import"
+msgstr ""
+
+#: Workspace.cpp:215 Workspace.cpp:236
+msgid "You do not have a tab that could be saved."
+msgstr "সংরক্ষণ করার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
+
+#: Workspace.cpp:243
+msgid "Export Tab"
+msgstr ""
+
+#: Workspace.cpp:261
+msgid "There are no tabs that could be deleted."
+msgstr "মুছে ফেলার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
+
+#: Workspace.cpp:301
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+
+#: Workspace.cpp:301
+#, fuzzy
+#| msgid "System Monitor"
+msgid "Upload custom System Monitor tab"
+msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

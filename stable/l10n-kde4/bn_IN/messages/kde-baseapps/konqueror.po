@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-27 04:35+0200\n"
+"POT-Creation-Date: 2012-08-07 21:36+0200\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,129 +18,174 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: src/konqprofiledlg.cpp:111
+#: src/konqhistorydialog.cpp:45
 #, fuzzy
-#| msgid "Profile Management"
+#| msgid "Clear History"
 msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "প্রোফাইল পরিচালন ব্যবস্থা"
+msgid "History"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
 
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "প্রোফাইলের নাম পরিবর্তন (&R)"
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "ক্রমবিন্যাস"
 
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "প্রোফাইল মুছে ফেলুন (&D)"
+#: src/konqsessiondlg.cpp:78
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "সেশান পরিচালনব্যবস্থা"
+
+#: src/konqsessiondlg.cpp:82
+msgid "&Open"
+msgstr "খুলুন (&O)"
+
+#: src/konqsessiondlg.cpp:176
+#, fuzzy
+#| msgid "Rename session"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "সেশানের নাম পরিবর্তন"
+
+#: src/konqsessiondlg.cpp:224
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "সেশান সংরক্ষণ"
+
+#: src/konqsessiondlg.cpp:248
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:249
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr ""
+
+#: src/konqtabs.cpp:67
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+
+#: src/konqtabs.cpp:101
+msgid "Open a new tab"
+msgstr "নতুন ট্যাব খুলুন"
+
+#: src/konqtabs.cpp:110
+msgid "Close the current tab"
+msgstr "বর্তমান ট্যাব বন্ধ করুন"
+
+#: src/konqtabs.cpp:330 src/konqmainwindow.cpp:3684
+msgid "&Reload All Tabs"
+msgstr "সকল ট্যাব নতুন করে লোড করা হবে (&R)"
+
+#: src/konqtabs.cpp:353 src/konqmainwindow.cpp:2497
+#: src/konqmainwindow.cpp:3622
+msgid "Close &Other Tabs"
+msgstr "অন্যান্য ট্যাব বন্ধ করুন (&O)"
+
+#: src/konqtabs.cpp:464 src/konqmainwindow.cpp:3595
+msgid "&New Tab"
+msgstr "নতুন ট্যাব (&N)"
+
+#: src/konqtabs.cpp:469
+msgid "&Duplicate Tab"
+msgstr "ট্যাবের প্রতিলিপি তৈরি করুন (&D)"
+
+#: src/konqtabs.cpp:474
+msgid "&Reload Tab"
+msgstr "ট্যাব পুনরায় লোড করুন (&R)"
+
+#: src/konqtabs.cpp:481
+msgid "Other Tabs"
+msgstr "অন্যান্য ট্যাব"
+
+#: src/konqtabs.cpp:486
+msgid "D&etach Tab"
+msgstr "ট্যাব বিচ্ছিন্ন করুন (&e)"
+
+#: src/konqtabs.cpp:492
+msgid "&Close Tab"
+msgstr "ট্যাব বন্ধ করুন (&C)"
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5060
 #: src/konqmainwindow.cpp:5120
 msgid "no name"
 msgstr "নাম বিহীন"
 
-#: src/konqview.cpp:1200
+#: src/konqviewmanager.cpp:1407
 msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
 msgstr ""
+"বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
+"প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
 
-#: src/konqview.cpp:1202
+#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4987
 #, fuzzy
-#| msgid "Warning"
+#| msgid "Confirmation"
 msgctxt "@title:window"
-msgid "Warning"
-msgstr "সতর্কবার্তা"
+msgid "Confirmation"
+msgstr "নিশ্চায়ন"
 
-#: src/konqview.cpp:1202
-msgid "Resend"
-msgstr "পুনরায় পাঠানো হবে"
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
 
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "%1-র মধ্যে ঝলক প্রদর্শন করা হবে (&i)"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 প্রদর্শন করুন"
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
+#: src/konqviewmanager.cpp:1422
 msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
-"%3<br />Number of times visited: %4</qt>"
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
 msgstr ""
-"<qt><center><b>%1</b></center><hr />সর্বশেষ পরিদর্শিত: %2<br />প্রথম পরিদর্শন: "
-"%3<br />পরিদর্শন সংখ্যা: %4</qt>"
+"এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
+"প্রোফাইল লোড করা হলে এই পরিবর্তনগুলি মুছে যাবে।"
 
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "বিবিধ"
-
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4578
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "নতুন উইন্ডোর মধ্যে প্রদর্শন করা হবে (&W)"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "নতুন ট্যাবের মধ্যে খুলুন"
-
-#: src/konqhistoryview.cpp:71
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1634
+#: src/konqmainwindow.cpp:2361 src/konqmainwindow.cpp:2441
+#: src/konqmainwindow.cpp:2471 src/konqmainwindow.cpp:2513
+#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5022
 #, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "লিংক দ্বারা চিহ্নিত অবস্থা কপি করুন"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr ""
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "পছন্দ...(&P)"
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "নাম অনুসারে (&N)"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "তারিখ অনুসারে (&D)"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
-
-#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "ক্রমবিন্যাস"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-#, fuzzy
-#| msgid "Clear History?"
+#| msgid "Discard Changes?"
 msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "পূর্ববর্তী তথ্য মুছে ফেলা হবে কি?"
+msgid "Discard Changes?"
+msgstr "পরিবর্তন বর্জন করা হবে কি?"
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1634
+#: src/konqmainwindow.cpp:2361 src/konqmainwindow.cpp:2441
+#: src/konqmainwindow.cpp:2471 src/konqmainwindow.cpp:2513
+#: src/konqmainwindow.cpp:2536 src/konqmainwindow.cpp:5022
+msgid "&Discard Changes"
+msgstr "পরিবর্তন বর্জন করা হবে কি? (&D)"
+
+#: src/konqframestatusbar.cpp:116
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:163
+msgid "Close View"
+msgstr "প্রদর্শন বন্ধ করুন"
+
+#: src/konqframestatusbar.cpp:243
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:245
+msgid "Stalled"
+msgstr "স্থগিত"
 
 #: src/konqmain.cpp:96
 #, fuzzy
@@ -203,23 +248,6 @@ msgid ""
 msgstr ""
 "এই পেজের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
 "পেজ পুনরায় লোড করা হলে, এই পরিবর্তনগুলি মুছে যাবে।"
-
-#: src/konqmainwindow.cpp:1634 src/konqmainwindow.cpp:2361
-#: src/konqmainwindow.cpp:2441 src/konqmainwindow.cpp:2471
-#: src/konqmainwindow.cpp:2513 src/konqmainwindow.cpp:2535
-#: src/konqmainwindow.cpp:5022 src/konqviewmanager.cpp:1423
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "পরিবর্তন বর্জন করা হবে কি?"
-
-#: src/konqmainwindow.cpp:1634 src/konqmainwindow.cpp:2361
-#: src/konqmainwindow.cpp:2441 src/konqmainwindow.cpp:2471
-#: src/konqmainwindow.cpp:2513 src/konqmainwindow.cpp:2536
-#: src/konqmainwindow.cpp:5022 src/konqviewmanager.cpp:1423
-msgid "&Discard Changes"
-msgstr "পরিবর্তন বর্জন করা হবে কি? (&D)"
 
 #: src/konqmainwindow.cpp:1744
 msgid "File Management"
@@ -299,11 +327,6 @@ msgstr "অন্যান্য সকল ট্যাব কি নিশ্�
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "অন্যান্য সকল ট্যাব বন্ধ করার নিশ্চিতি"
-
-#: src/konqmainwindow.cpp:2497 src/konqmainwindow.cpp:3622
-#: src/konqtabs.cpp:353
-msgid "Close &Other Tabs"
-msgstr "অন্যান্য ট্যাব বন্ধ করুন (&O)"
 
 #: src/konqmainwindow.cpp:2512
 msgid ""
@@ -446,10 +469,6 @@ msgstr ""
 msgid "Split View &Top/Bottom"
 msgstr ""
 
-#: src/konqmainwindow.cpp:3595 src/konqtabs.cpp:464
-msgid "&New Tab"
-msgstr "নতুন ট্যাব (&N)"
-
 #: src/konqmainwindow.cpp:3601
 msgid "&Duplicate Current Tab"
 msgstr "বর্তমান ট্যাবের প্রতিলিপি (&D)"
@@ -502,10 +521,6 @@ msgstr "প্রদর্শনের প্রোফাইল লোড কর
 #: src/konqmainwindow.cpp:3679 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "পুনরায় লোড করুন (&R)"
-
-#: src/konqmainwindow.cpp:3684 src/konqtabs.cpp:330
-msgid "&Reload All Tabs"
-msgstr "সকল ট্যাব নতুন করে লোড করা হবে (&R)"
 
 #: src/konqmainwindow.cpp:3692
 msgid "&Force Reload"
@@ -729,6 +744,11 @@ msgstr "বর্তমান উইন্ডোর মধ্যে প্রদ
 msgid "Open the document in current window"
 msgstr "বর্তমান উইন্ডোর মধ্যে এই নথিটি প্রদর্শন করা হবে"
 
+#: src/konqmainwindow.cpp:4578 src/konqhistoryview.cpp:62
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "নতুন উইন্ডোর মধ্যে প্রদর্শন করা হবে (&W)"
+
 #: src/konqmainwindow.cpp:4579
 msgid "Open the document in a new window"
 msgstr "নতুন উইন্ডোর মধ্যে এই নথিটি প্রদর্শন করা হবে"
@@ -760,13 +780,6 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "বর্তমান উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে। আপনি কি নিশ্চিতরূপে বন্ধ করতে ইচ্ছুক?"
-
-#: src/konqmainwindow.cpp:4987 src/konqviewmanager.cpp:1409
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "নিশ্চায়ন"
 
 #: src/konqmainwindow.cpp:4989
 msgid "C&lose Current Tab"
@@ -820,32 +833,38 @@ msgid ""
 "with %1, but it cannot handle this file type."
 msgstr ""
 
-#: src/konqsessionmanager.cpp:330
+#: src/konqprofiledlg.cpp:111
 #, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr "Konqueror সঠিকভাবে বন্ধ করা হয়নি। পূর্ববর্তী সেশান পুনরুদ্ধার করা হবে কি?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
+#| msgid "Profile Management"
 msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "সেশান পুনরুদ্ধার করা হবে কি?"
+msgid "Profile Management"
+msgstr "প্রোফাইল পরিচালন ব্যবস্থা"
 
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "সেশান পুনরুদ্ধার করা হবে"
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "প্রোফাইলের নাম পরিবর্তন (&R)"
 
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "সেশান পুনরুদ্ধার করা হবে না"
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "প্রোফাইল মুছে ফেলুন (&D)"
 
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "পরে জিজ্ঞাসা করা হবে"
+#: src/konqview.cpp:1200
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+
+#: src/konqview.cpp:1202
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "সতর্কবার্তা"
+
+#: src/konqview.cpp:1202
+msgid "Resend"
+msgstr "পুনরায় পাঠানো হবে"
 
 #: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
 msgid "Und&o: Closed Tab"
@@ -859,121 +878,6 @@ msgstr ""
 #: src/konqundomanager.cpp:122
 msgid "Und&o"
 msgstr ""
-
-#: src/konqsessiondlg.cpp:78
-#, fuzzy
-#| msgid "Manage Sessions"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "সেশান পরিচালনব্যবস্থা"
-
-#: src/konqsessiondlg.cpp:82
-msgid "&Open"
-msgstr "খুলুন (&O)"
-
-#: src/konqsessiondlg.cpp:176
-#, fuzzy
-#| msgid "Rename session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "সেশানের নাম পরিবর্তন"
-
-#: src/konqsessiondlg.cpp:224
-#, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "সেশান সংরক্ষণ"
-
-#: src/konqsessiondlg.cpp:248
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:249
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr ""
-
-#: src/konqtabs.cpp:67
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-
-#: src/konqtabs.cpp:101
-msgid "Open a new tab"
-msgstr "নতুন ট্যাব খুলুন"
-
-#: src/konqtabs.cpp:110
-msgid "Close the current tab"
-msgstr "বর্তমান ট্যাব বন্ধ করুন"
-
-#: src/konqtabs.cpp:469
-msgid "&Duplicate Tab"
-msgstr "ট্যাবের প্রতিলিপি তৈরি করুন (&D)"
-
-#: src/konqtabs.cpp:474
-msgid "&Reload Tab"
-msgstr "ট্যাব পুনরায় লোড করুন (&R)"
-
-#: src/konqtabs.cpp:481
-msgid "Other Tabs"
-msgstr "অন্যান্য ট্যাব"
-
-#: src/konqtabs.cpp:486
-msgid "D&etach Tab"
-msgstr "ট্যাব বিচ্ছিন্ন করুন (&e)"
-
-#: src/konqtabs.cpp:492
-msgid "&Close Tab"
-msgstr "ট্যাব বন্ধ করুন (&C)"
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
-"প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
-"প্রোফাইল লোড করা হলে এই পরিবর্তনগুলি মুছে যাবে।"
-
-#: src/konqframestatusbar.cpp:116
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:163
-msgid "Close View"
-msgstr "প্রদর্শন বন্ধ করুন"
-
-#: src/konqframestatusbar.cpp:243
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:245
-msgid "Stalled"
-msgstr "স্থগিত"
 
 #: src/konqextensionmanager.cpp:54
 #, fuzzy
@@ -1267,12 +1171,108 @@ msgstr "নির্মাতা (AdBlock ফিল্টার)"
 msgid "Eduardo Robles Elvira"
 msgstr "এডুয়ার্ডো রোবেল্স এলভিরা"
 
-#: src/konqhistorydialog.cpp:45
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "%1-র মধ্যে ঝলক প্রদর্শন করা হবে (&i)"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 প্রদর্শন করুন"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+"%3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />সর্বশেষ পরিদর্শিত: %2<br />প্রথম পরিদর্শন: "
+"%3<br />পরিদর্শন সংখ্যা: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "বিবিধ"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "নতুন ট্যাবের মধ্যে খুলুন"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "লিংক দ্বারা চিহ্নিত অবস্থা কপি করুন"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr ""
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "পছন্দ...(&P)"
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "নাম অনুসারে (&N)"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "তারিখ অনুসারে (&D)"
+
+#: src/konqhistoryview.cpp:111
 #, fuzzy
 #| msgid "Clear History"
-msgctxt "@title:window"
-msgid "History"
+msgid "Search in history"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "পূর্ববর্তী তথ্য মুছে ফেলা হবে কি?"
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Konqueror সঠিকভাবে বন্ধ করা হয়নি। পূর্ববর্তী সেশান পুনরুদ্ধার করা হবে কি?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "সেশান পুনরুদ্ধার করা হবে কি?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "সেশান পুনরুদ্ধার করা হবে"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "সেশান পুনরুদ্ধার করা হবে না"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "পরে জিজ্ঞাসা করা হবে"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy

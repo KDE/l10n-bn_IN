@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-03 06:01+0200\n"
+"POT-Creation-Date: 2012-08-07 21:42+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -3574,159 +3574,125 @@ msgstr "ব্যবহারের পরে, অ্যাপ্লিকেশ
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
-#: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingdetector.cpp:1149
-#: kdecore/localization/kencodingdetector.cpp:1232
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:303
-msgctxt "@item Text character set"
-msgid "Western European"
-msgstr "পশ্চিত ইউরোপিয়ান"
-
-#: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingdetector.cpp:1151
-#: kdecore/localization/kencodingdetector.cpp:1214
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:285
-msgctxt "@item Text character set"
-msgid "Central European"
-msgstr "মধ্য ইউরোপিয়ান"
-
-#: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingdetector.cpp:1161
-#: kdecore/localization/kencodingdetector.cpp:1211
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:282
-msgctxt "@item Text character set"
-msgid "Baltic"
-msgstr "বল্টিক"
-
-#: kdecore/localization/kcharsets.cpp:167
-msgctxt "@item Text character set"
-msgid "South-Eastern Europe"
-msgstr "দক্ষিণ-পূর্ব ইউরোপ"
-
-#: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingdetector.cpp:1157
-#: kdecore/localization/kencodingdetector.cpp:1229
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:300
-msgctxt "@item Text character set"
-msgid "Turkish"
-msgstr "তুর্কি"
-
-#: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingdetector.cpp:1147
-#: kdecore/localization/kencodingdetector.cpp:1217
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:288
-msgctxt "@item Text character set"
-msgid "Cyrillic"
-msgstr "সিরিলিক"
-
-#: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingdetector.cpp:1235
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:306
-msgctxt "@item Text character set"
-msgid "Chinese Traditional"
-msgstr "পারম্পরিক চীনা"
-
-#: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingdetector.cpp:1238
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:309
-msgctxt "@item Text character set"
-msgid "Chinese Simplified"
-msgstr "সরলিকৃত চীনা"
-
-#: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingdetector.cpp:1241
-#: kdecore/localization/kencodingprober.cpp:312
-msgctxt "@item Text character set"
-msgid "Korean"
-msgstr "কোরিয়ান"
-
-#: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingdetector.cpp:1159
-#: kdecore/localization/kencodingdetector.cpp:1226
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:297
-msgctxt "@item Text character set"
-msgid "Japanese"
-msgstr "জাপানি"
-
-#: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingdetector.cpp:1153
-#: kdecore/localization/kencodingdetector.cpp:1220
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:291
-msgctxt "@item Text character set"
-msgid "Greek"
-msgstr "গ্রিক"
-
-#: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingdetector.cpp:1163
-#: kdecore/localization/kencodingdetector.cpp:1208
-#: kdecore/localization/kencodingprober.cpp:262
-#: kdecore/localization/kencodingprober.cpp:279
-msgctxt "@item Text character set"
-msgid "Arabic"
-msgstr "আরবি"
-
-#: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingdetector.cpp:1155
-#: kdecore/localization/kencodingdetector.cpp:1223
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:294
-msgctxt "@item Text character set"
-msgid "Hebrew"
-msgstr "হিব্রু"
-
-#: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingdetector.cpp:1244
-#: kdecore/localization/kencodingprober.cpp:315
-msgctxt "@item Text character set"
-msgid "Thai"
-msgstr "থাই"
-
-#: kdecore/localization/kcharsets.cpp:206
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
 #: kdecore/localization/kencodingprober.cpp:240
 #: kdecore/localization/kencodingprober.cpp:318
+#: kdecore/localization/kcharsets.cpp:206
 msgctxt "@item Text character set"
 msgid "Unicode"
 msgstr "Unicode"
 
-#: kdecore/localization/kcharsets.cpp:212
+#: kdecore/localization/kencodingdetector.cpp:1147
+#: kdecore/localization/kencodingdetector.cpp:1217
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:288
+#: kdecore/localization/kcharsets.cpp:173
 msgctxt "@item Text character set"
-msgid "Northern Saami"
-msgstr "উত্তর সামি"
+msgid "Cyrillic"
+msgstr "সিরিলিক"
 
-#: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:619
+#: kdecore/localization/kencodingdetector.cpp:1149
+#: kdecore/localization/kencodingdetector.cpp:1232
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:303
+#: kdecore/localization/kcharsets.cpp:155
 msgctxt "@item Text character set"
-msgid "Other"
-msgstr "অন্যান্য"
+msgid "Western European"
+msgstr "পশ্চিত ইউরোপিয়ান"
 
-#: kdecore/localization/kcharsets.cpp:629
-#, kde-format
-msgctxt "@item %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1151
+#: kdecore/localization/kencodingdetector.cpp:1214
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:285
+#: kdecore/localization/kcharsets.cpp:161
+msgctxt "@item Text character set"
+msgid "Central European"
+msgstr "মধ্য ইউরোপিয়ান"
 
-#: kdecore/localization/kcharsets.cpp:632
-#, kde-format
-msgctxt "@item"
-msgid "Other encoding (%1)"
-msgstr "অন্যান্য এনকোডিং (%1)"
+#: kdecore/localization/kencodingdetector.cpp:1153
+#: kdecore/localization/kencodingdetector.cpp:1220
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:291
+#: kdecore/localization/kcharsets.cpp:192
+msgctxt "@item Text character set"
+msgid "Greek"
+msgstr "গ্রিক"
 
-#: kdecore/localization/kcharsets.cpp:658
-#, kde-format
-msgctxt "@item Text encoding: %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1155
+#: kdecore/localization/kencodingdetector.cpp:1223
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:294
+#: kdecore/localization/kcharsets.cpp:198
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "হিব্রু"
+
+#: kdecore/localization/kencodingdetector.cpp:1157
+#: kdecore/localization/kencodingdetector.cpp:1229
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:300
+#: kdecore/localization/kcharsets.cpp:170
+msgctxt "@item Text character set"
+msgid "Turkish"
+msgstr "তুর্কি"
+
+#: kdecore/localization/kencodingdetector.cpp:1159
+#: kdecore/localization/kencodingdetector.cpp:1226
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:297
+#: kdecore/localization/kcharsets.cpp:188
+msgctxt "@item Text character set"
+msgid "Japanese"
+msgstr "জাপানি"
+
+#: kdecore/localization/kencodingdetector.cpp:1161
+#: kdecore/localization/kencodingdetector.cpp:1211
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:282
+#: kdecore/localization/kcharsets.cpp:164
+msgctxt "@item Text character set"
+msgid "Baltic"
+msgstr "বল্টিক"
+
+#: kdecore/localization/kencodingdetector.cpp:1163
+#: kdecore/localization/kencodingdetector.cpp:1208
+#: kdecore/localization/kencodingprober.cpp:262
+#: kdecore/localization/kencodingprober.cpp:279
+#: kdecore/localization/kcharsets.cpp:195
+msgctxt "@item Text character set"
+msgid "Arabic"
+msgstr "আরবি"
+
+#: kdecore/localization/kencodingdetector.cpp:1235
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:306
+#: kdecore/localization/kcharsets.cpp:179
+msgctxt "@item Text character set"
+msgid "Chinese Traditional"
+msgstr "পারম্পরিক চীনা"
+
+#: kdecore/localization/kencodingdetector.cpp:1238
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:309
+#: kdecore/localization/kcharsets.cpp:182
+msgctxt "@item Text character set"
+msgid "Chinese Simplified"
+msgstr "সরলিকৃত চীনা"
+
+#: kdecore/localization/kencodingdetector.cpp:1241
+#: kdecore/localization/kencodingprober.cpp:312
+#: kdecore/localization/kcharsets.cpp:186
+msgctxt "@item Text character set"
+msgid "Korean"
+msgstr "কোরিয়ান"
+
+#: kdecore/localization/kencodingdetector.cpp:1244
+#: kdecore/localization/kencodingprober.cpp:315
+#: kdecore/localization/kcharsets.cpp:203
+msgctxt "@item Text character set"
+msgid "Thai"
+msgstr "থাই"
 
 #: kdecore/localization/kencodingprober.cpp:236
 #: kdecore/localization/kencodingprober.cpp:273
@@ -4315,6 +4281,40 @@ msgstr "Win"
 msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
+
+#: kdecore/localization/kcharsets.cpp:167
+msgctxt "@item Text character set"
+msgid "South-Eastern Europe"
+msgstr "দক্ষিণ-পূর্ব ইউরোপ"
+
+#: kdecore/localization/kcharsets.cpp:212
+msgctxt "@item Text character set"
+msgid "Northern Saami"
+msgstr "উত্তর সামি"
+
+#: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:619
+msgctxt "@item Text character set"
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: kdecore/localization/kcharsets.cpp:629
+#, kde-format
+msgctxt "@item %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
+#: kdecore/localization/kcharsets.cpp:632
+#, kde-format
+msgctxt "@item"
+msgid "Other encoding (%1)"
+msgstr "অন্যান্য এনকোডিং (%1)"
+
+#: kdecore/localization/kcharsets.cpp:658
+#, kde-format
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
 
 #: kdecore/localization/klocale_kde.cpp:1093
 msgctxt "digit set"
@@ -5375,6 +5375,44 @@ msgstr "কোনো এনট্রি উপস্থিত নেই"
 msgid "Clear List"
 msgstr "তালিকার তথ্য মুছে ফেলা হবে"
 
+#: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
+msgctxt "go back"
+msgid "&Back"
+msgstr "পূর্ববর্তী ধাপ (&B)"
+
+#: kdeui/actions/kstandardaction.cpp:99 kdeui/util/kstandardguiitem.cpp:218
+msgctxt "go forward"
+msgid "&Forward"
+msgstr "পরবর্তী ধাপ (&F)"
+
+#: kdeui/actions/kstandardaction.cpp:105
+msgctxt "home page"
+msgid "&Home"
+msgstr "প্রথম পৃষ্ঠা (&H)"
+
+#: kdeui/actions/kstandardaction.cpp:108 kdeui/util/kstandardguiitem.cpp:178
+msgctxt "show help"
+msgid "&Help"
+msgstr "সাহায্য (&H)"
+
+#: kdeui/actions/kstandardaction.cpp:521 kdeui/actions/kstandardaction_p.h:98
+msgid "Show &Menubar"
+msgstr "মেনুবার প্রদর্শন (&M)"
+
+#: kdeui/actions/kstandardaction.cpp:527
+msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
+msgstr ""
+
+#: kdeui/actions/kstandardaction.cpp:544 kdeui/actions/kstandardaction_p.h:100
+msgid "Show St&atusbar"
+msgstr "স্ট্যাটাস-বার প্রদর্শন (&a)"
+
+#: kdeui/actions/kstandardaction.cpp:547
+msgid ""
+"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
+"bottom of the window used for status information."
+msgstr ""
+
 #: kdeui/actions/ktogglefullscreenaction.cpp:48
 #, fuzzy
 #| msgid "Exit F&ull Screen Mode"
@@ -5427,89 +5465,65 @@ msgstr ""
 msgid "Ambiguous shortcut detected"
 msgstr ""
 
-#: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
-msgctxt "go back"
-msgid "&Back"
-msgstr "পূর্ববর্তী ধাপ (&B)"
+#: kdeui/dialogs/kpassworddialog.cpp:70
+msgid "Password"
+msgstr "পাসওয়ার্ড"
 
-#: kdeui/actions/kstandardaction.cpp:99 kdeui/util/kstandardguiitem.cpp:218
-msgctxt "go forward"
-msgid "&Forward"
-msgstr "পরবর্তী ধাপ (&F)"
+#: kdeui/dialogs/kshortcutseditor.cpp:127
+#: kdeui/widgets/kcharselectdata.cpp:685
+msgid "Unknown"
+msgstr "অজানা"
 
-#: kdeui/actions/kstandardaction.cpp:105
-msgctxt "home page"
-msgid "&Home"
-msgstr "প্রথম পৃষ্ঠা (&H)"
+#: kdeui/dialogs/kshortcutseditor.cpp:570
+#: kdeui/dialogs/kshortcutseditor.cpp:586
+msgid "Key Conflict"
+msgstr "কি-র মধ্যে দ্বন্দ্ব"
 
-#: kdeui/actions/kstandardaction.cpp:108 kdeui/util/kstandardguiitem.cpp:178
-msgctxt "show help"
-msgid "&Help"
-msgstr "সাহায্য (&H)"
-
-#: kdeui/actions/kstandardaction.cpp:521 kdeui/actions/kstandardaction_p.h:98
-msgid "Show &Menubar"
-msgstr "মেনুবার প্রদর্শন (&M)"
-
-#: kdeui/actions/kstandardaction.cpp:527
-msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
-msgstr ""
-
-#: kdeui/actions/kstandardaction.cpp:544 kdeui/actions/kstandardaction_p.h:100
-msgid "Show St&atusbar"
-msgstr "স্ট্যাটাস-বার প্রদর্শন (&a)"
-
-#: kdeui/actions/kstandardaction.cpp:547
-msgid ""
-"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-"bottom of the window used for status information."
-msgstr ""
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:84
-msgid ""
-"<qt>No information available.<br />The supplied KAboutData object does not "
-"exist.</qt>"
-msgstr "<qt>কোনো তথ্য উপলব্ধ নেই।<br />উল্লিখিত KAboutData অবজেক্ট অনুপস্থিত।</qt>"
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:113
+#: kdeui/dialogs/kshortcutseditor.cpp:571
 #, kde-format
 msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
 msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />&nbsp;</html>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:117
+#: kdeui/dialogs/kshortcutseditor.cpp:575
+#: kdeui/dialogs/kshortcutseditor.cpp:591 kdeui/shortcuts/kglobalaccel.cpp:547
+#: kdeui/shortcuts/kglobalaccel.cpp:587
+#: kdeui/widgets/kkeysequencewidget.cpp:146
+#: kdeui/widgets/kkeysequencewidget.cpp:235
+#: kdeui/widgets/kkeysequencewidget.cpp:632
+msgid "Reassign"
+msgstr "পুনরায় নির্ধারণ"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:587
 #, kde-format
-msgctxt ""
-"Program name, version and KDE platform version; do not translate "
-"'Development Platform'"
 msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-"Development Platform %3</html>"
+"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
 msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />KDE Development "
-"Platform %3 প্রয়োগকারী</html>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:153
+#: kdeui/dialogs/kshortcutseditor.cpp:630
 #, kde-format
-msgid "License: %1"
-msgstr "লাইসেন্স: %1"
+msgctxt "header for an applications shortcut list"
+msgid "Shortcuts for %1"
+msgstr "%1-র শর্ট-কাট"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:312
-msgid "License Agreement"
-msgstr "লাইসেন্স সংক্রান্ত চুক্তি"
+#: kdeui/dialogs/kshortcutseditor.cpp:650
+msgid "Global:"
+msgstr "সার্বজনীন:"
 
-#: kdeui/dialogs/klinkdialog.cpp:49
-msgid "Manage Link"
-msgstr "লিঙ্ক পরিচালনা"
+#: kdeui/dialogs/kshortcutseditor.cpp:665
+msgid "Action Name"
+msgstr "কর্মের নাম"
 
-#: kdeui/dialogs/klinkdialog.cpp:58
-msgid "Link Text:"
-msgstr "লিঙ্কের টেক্সট:"
+#: kdeui/dialogs/kshortcutseditor.cpp:669
+msgid "Shortcuts"
+msgstr "শর্ট-কাট"
 
-#: kdeui/dialogs/klinkdialog.cpp:61
-msgid "Link URL:"
-msgstr "লিঙ্কের URL:"
+#: kdeui/dialogs/kshortcutseditor.cpp:673
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
+msgid "Description"
+msgstr "বিবরণ"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:42
 msgid "About KDE"
@@ -5596,129 +5610,107 @@ msgstr "KDE-তে যোগদান করুন (&J)"
 msgid "&Support KDE"
 msgstr "KDE-কে সমর্থন করুন (&S)"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:60
+#: kdeui/dialogs/kedittoolbar.cpp:58
+msgid "--- separator ---"
+msgstr "--- বিভাজন রেখা ---"
+
+#: kdeui/dialogs/kedittoolbar.cpp:287
+msgid "Change Text"
+msgstr "টেক্সট পটিবর্তন করুন"
+
+#: kdeui/dialogs/kedittoolbar.cpp:298
 #, fuzzy
-#| msgid "Other Contributors:"
-msgctxt "Action to send an email to a contributor"
-msgid "Email contributor"
-msgstr "অন্যান্য যোগদানকারী:"
+#| msgid "Icon Te&xt:"
+msgid "Icon te&xt:"
+msgstr "আইকন টেক্সট: (&x)"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:65
-#, fuzzy
-#| msgctxt "A link to the description of this Get Hot New Stuff item"
-#| msgid "Visit homepage..."
-msgid "Visit contributor's homepage"
-msgstr "হোম পেজ পরিদর্শন করুন"
-
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:127
-#, fuzzy, kde-format
-#| msgid "Other Contributors:"
-msgctxt "Action to send an email to a contributor"
-msgid ""
-"Email contributor\n"
-"%1"
-msgstr "অন্যান্য যোগদানকারী:"
-
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:133
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:170
-#, fuzzy, kde-format
-#| msgctxt "A link to the description of this Get Hot New Stuff item"
-#| msgid "Visit homepage..."
-msgid ""
-"Visit contributor's homepage\n"
-"%1"
-msgstr "হোম পেজ পরিদর্শন করুন"
-
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:140
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:174
-#, kde-format
-msgid ""
-"Visit contributor's profile on %1\n"
-"%2"
+#: kdeui/dialogs/kedittoolbar.cpp:303
+msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:162
-#, fuzzy, kde-format
-#| msgctxt "A link to the description of this Get Hot New Stuff item"
-#| msgid "Visit homepage..."
-msgid ""
-"Visit contributor's page\n"
-"%1"
-msgstr "হোম পেজ পরিদর্শন করুন"
+#: kdeui/dialogs/kedittoolbar.cpp:553
+msgid "Configure Toolbars"
+msgstr "টুল-বার কনফিগার করুন"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:166
-#, fuzzy, kde-format
-#| msgctxt "A link to the description of this Get Hot New Stuff item"
-#| msgid "Visit homepage..."
+#: kdeui/dialogs/kedittoolbar.cpp:602
 msgid ""
-"Visit contributor's blog\n"
-"%1"
-msgstr "হোম পেজ পরিদর্শন করুন"
+"Do you really want to reset all toolbars of this application to their "
+"default? The changes will be applied immediately."
+msgstr ""
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:268
+#: kdeui/dialogs/kedittoolbar.cpp:602
+msgid "Reset Toolbars"
+msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
+
+#: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1845
+msgid "Reset"
+msgstr "রি-সেট করুন"
+
+#: kdeui/dialogs/kedittoolbar.cpp:896
+msgid "&Toolbar:"
+msgstr "টুল-বার: (&T)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:911
+msgid "A&vailable actions:"
+msgstr "উপলব্ধ করুন: (&v)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:926 kdeui/dialogs/kedittoolbar.cpp:945
+msgid "Filter"
+msgstr "ফিল্টার"
+
+#: kdeui/dialogs/kedittoolbar.cpp:929
+msgid "Curr&ent actions:"
+msgstr "বর্তমান কর্ম: (&e)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:948
+msgid "Change &Icon..."
+msgstr "আইকন পরিবর্তন করুন...(&I)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:958
+msgid "Change Te&xt..."
+msgstr "টেক্সট পরিবর্তন করুন...(&x)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1109
 #, kde-format
-msgctxt "@item Contributor name in about dialog."
+msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:41
-msgid "Shortcut Schemes"
-msgstr "শর্ট-কাট স্কিম"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:59
-msgid "Current scheme:"
-msgstr "বর্তমান স্কিম:"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:69
-msgid "New..."
-msgstr "নতুন..."
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:72
-msgid "Delete"
-msgstr "মুছে ফেলুন"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:75
-msgid "More Actions"
-msgstr "অতিরিক্ত কর্ম"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:79
-msgid "Save as Scheme Defaults"
-msgstr "স্কিমের ডিফল্ট মান রূপে সংরক্ষণ করা হবে"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Export Scheme..."
-msgstr "স্কিম এক্সপোর্ট করুন..."
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:98
-msgid "Name for New Scheme"
-msgstr "নতুম স্কিমের নাম"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
-msgid "Name for new scheme:"
-msgstr "নতুম স্কিমের নাম:"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
-msgid "New Scheme"
-msgstr "নতুন স্কিম"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:105
-msgid "A scheme with this name already exists."
-msgstr "এই নামের একটি স্কিম বর্তমানে উপস্থিত রয়েছে।"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:133
-#, kde-format
+#: kdeui/dialogs/kedittoolbar.cpp:1130
 msgid ""
-"Do you really want to delete the scheme %1?\n"
-"Note that this will not remove any system wide shortcut schemes."
+"This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:162
-msgid "Export to Location"
-msgstr "চিহ্নিত স্থানে এক্সপোর্ট করুন"
+#: kdeui/dialogs/kedittoolbar.cpp:1132
+msgid "<Merge>"
+msgstr "<Merge>"
 
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:171
-msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr "অবস্থান বৈধ না হওয়ার ফলে শর্ট-কাট স্কিম এক্সপোর্ট করতে ব্যর্থ।"
+#: kdeui/dialogs/kedittoolbar.cpp:1134
+#, kde-format
+msgid "<Merge %1>"
+msgstr "<Merge %1>"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1140
+msgid ""
+"This is a dynamic list of actions. You can move it, but if you remove it you "
+"will not be able to re-add it."
+msgstr ""
+
+#: kdeui/dialogs/kedittoolbar.cpp:1141
+#, kde-format
+msgid "ActionList: %1"
+msgstr "ActionList: %1"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1242 kdeui/dialogs/kedittoolbar.cpp:1272
+#, kde-format
+msgctxt "@label Action tooltip in toolbar editor, below the action list"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1525
+msgid "Change Icon"
+msgstr "আইকন পরিবর্তন করুন"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
 msgid "Switch Application Language"
@@ -5898,9 +5890,20 @@ msgctxt "@title:window"
 msgid "Print"
 msgstr "প্রিন্ট করুন"
 
-#: kdeui/dialogs/kpassworddialog.cpp:70
-msgid "Password"
-msgstr "পাসওয়ার্ড"
+#: kdeui/dialogs/kshortcuteditwidget.cpp:59
+msgid "Default:"
+msgstr "ডিফল্ট মান:"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:60
+#: kdeui/dialogs/kshortcuteditwidget.cpp:63
+#: kdeui/widgets/kkeysequencewidget.cpp:666
+msgctxt "No shortcut defined"
+msgid "None"
+msgstr "শূণ্য"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:66
+msgid "Custom:"
+msgstr "স্বনির্ধারিত:"
 
 #: kdeui/dialogs/kpixmapregionselectordialog.cpp:64
 msgid "Select Region of Image"
@@ -5951,11 +5954,104 @@ msgctxt "Opposite to Previous"
 msgid "&Next"
 msgstr "পরবর্তী (&N)"
 
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:84
+msgid ""
+"<qt>No information available.<br />The supplied KAboutData object does not "
+"exist.</qt>"
+msgstr "<qt>কোনো তথ্য উপলব্ধ নেই।<br />উল্লিখিত KAboutData অবজেক্ট অনুপস্থিত।</qt>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:113
+#, kde-format
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />&nbsp;</html>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:117
+#, kde-format
+msgctxt ""
+"Program name, version and KDE platform version; do not translate "
+"'Development Platform'"
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+"Development Platform %3</html>"
+msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />KDE Development "
+"Platform %3 প্রয়োগকারী</html>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:153
+#, kde-format
+msgid "License: %1"
+msgstr "লাইসেন্স: %1"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:315
+msgid "License Agreement"
+msgstr "লাইসেন্স সংক্রান্ত চুক্তি"
+
 #: kdeui/dialogs/kshortcutseditoritem.cpp:45
 #, kde-format
 msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
 msgstr "%1"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:41
+msgid "Shortcut Schemes"
+msgstr "শর্ট-কাট স্কিম"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:59
+msgid "Current scheme:"
+msgstr "বর্তমান স্কিম:"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:69
+msgid "New..."
+msgstr "নতুন..."
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:72
+msgid "Delete"
+msgstr "মুছে ফেলুন"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:75
+msgid "More Actions"
+msgstr "অতিরিক্ত কর্ম"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:79
+msgid "Save as Scheme Defaults"
+msgstr "স্কিমের ডিফল্ট মান রূপে সংরক্ষণ করা হবে"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:81
+msgid "Export Scheme..."
+msgstr "স্কিম এক্সপোর্ট করুন..."
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:98
+msgid "Name for New Scheme"
+msgstr "নতুম স্কিমের নাম"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
+msgid "Name for new scheme:"
+msgstr "নতুম স্কিমের নাম:"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
+msgid "New Scheme"
+msgstr "নতুন স্কিম"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:105
+msgid "A scheme with this name already exists."
+msgstr "এই নামের একটি স্কিম বর্তমানে উপস্থিত রয়েছে।"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:133
+#, kde-format
+msgid ""
+"Do you really want to delete the scheme %1?\n"
+"Note that this will not remove any system wide shortcut schemes."
+msgstr ""
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:162
+msgid "Export to Location"
+msgstr "চিহ্নিত স্থানে এক্সপোর্ট করুন"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:171
+msgid "Could not export shortcuts scheme because the location is invalid."
+msgstr "অবস্থান বৈধ না হওয়ার ফলে শর্ট-কাট স্কিম এক্সপোর্ট করতে ব্যর্থ।"
 
 #: kdeui/dialogs/kaboutapplicationpersonmodel_p.cpp:205
 #, fuzzy, kde-format
@@ -5986,17 +6082,6 @@ msgstr ""
 msgctxt "A type of link."
 msgid "Homepage"
 msgstr "হোম পেজ"
-
-#: kdeui/dialogs/kassistantdialog.cpp:94
-#: knewstuff/knewstuff3/uploaddialog.cpp:368
-msgctxt "Opposite to Back"
-msgid "Next"
-msgstr "পরবর্তী"
-
-#: kdeui/dialogs/kassistantdialog.cpp:95
-#: knewstuff/knewstuff3/uploaddialog.cpp:370
-msgid "Finish"
-msgstr "সমাপ্ত"
 
 #: kdeui/dialogs/kbugreport.cpp:92 kdeui/dialogs/kbugreport.cpp:116
 msgid "Submit Bug Report"
@@ -6214,6 +6299,71 @@ msgstr "সপ্তাহান্ত (শনিবার থেকে রব�
 msgid "Specific Time"
 msgstr "সুনির্দিষ্ট সময়"
 
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:60
+#, fuzzy
+#| msgid "Other Contributors:"
+msgctxt "Action to send an email to a contributor"
+msgid "Email contributor"
+msgstr "অন্যান্য যোগদানকারী:"
+
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:65
+#, fuzzy
+#| msgctxt "A link to the description of this Get Hot New Stuff item"
+#| msgid "Visit homepage..."
+msgid "Visit contributor's homepage"
+msgstr "হোম পেজ পরিদর্শন করুন"
+
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:127
+#, fuzzy, kde-format
+#| msgid "Other Contributors:"
+msgctxt "Action to send an email to a contributor"
+msgid ""
+"Email contributor\n"
+"%1"
+msgstr "অন্যান্য যোগদানকারী:"
+
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:133
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:170
+#, fuzzy, kde-format
+#| msgctxt "A link to the description of this Get Hot New Stuff item"
+#| msgid "Visit homepage..."
+msgid ""
+"Visit contributor's homepage\n"
+"%1"
+msgstr "হোম পেজ পরিদর্শন করুন"
+
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:140
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:174
+#, kde-format
+msgid ""
+"Visit contributor's profile on %1\n"
+"%2"
+msgstr ""
+
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:162
+#, fuzzy, kde-format
+#| msgctxt "A link to the description of this Get Hot New Stuff item"
+#| msgid "Visit homepage..."
+msgid ""
+"Visit contributor's page\n"
+"%1"
+msgstr "হোম পেজ পরিদর্শন করুন"
+
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:166
+#, fuzzy, kde-format
+#| msgctxt "A link to the description of this Get Hot New Stuff item"
+#| msgid "Visit homepage..."
+msgid ""
+"Visit contributor's blog\n"
+"%1"
+msgstr "হোম পেজ পরিদর্শন করুন"
+
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:268
+#, kde-format
+msgctxt "@item Contributor name in about dialog."
+msgid "%1"
+msgstr "%1"
+
 #: kdeui/dialogs/kdialog.cpp:250
 msgid "&Try"
 msgstr "প্রচেষ্টা করুন (&T)"
@@ -6234,21 +6384,6 @@ msgstr "বিবরণ (&D)"
 #: kdeui/dialogs/kdialog.cpp:986
 msgid "Get help..."
 msgstr "সহায়তা প্রাপ্ত করুন..."
-
-#: kdeui/dialogs/kshortcuteditwidget.cpp:59
-msgid "Default:"
-msgstr "ডিফল্ট মান:"
-
-#: kdeui/dialogs/kshortcuteditwidget.cpp:60
-#: kdeui/dialogs/kshortcuteditwidget.cpp:63
-#: kdeui/widgets/kkeysequencewidget.cpp:666
-msgctxt "No shortcut defined"
-msgid "None"
-msgstr "শূণ্য"
-
-#: kdeui/dialogs/kshortcuteditwidget.cpp:66
-msgid "Custom:"
-msgstr "স্বনির্ধারিত:"
 
 #. i18n: Filter for the Yes-button text in standard message dialogs,
 #. after the message caption/text have been translated.
@@ -6328,163 +6463,28 @@ msgstr "তথ্য"
 msgid "Do not show this message again"
 msgstr "পুনরায় এই বার্তা প্রদর্শন করা হবে না"
 
-#: kdeui/dialogs/kedittoolbar.cpp:58
-msgid "--- separator ---"
-msgstr "--- বিভাজন রেখা ---"
+#: kdeui/dialogs/kassistantdialog.cpp:94
+#: knewstuff/knewstuff3/uploaddialog.cpp:368
+msgctxt "Opposite to Back"
+msgid "Next"
+msgstr "পরবর্তী"
 
-#: kdeui/dialogs/kedittoolbar.cpp:287
-msgid "Change Text"
-msgstr "টেক্সট পটিবর্তন করুন"
+#: kdeui/dialogs/kassistantdialog.cpp:95
+#: knewstuff/knewstuff3/uploaddialog.cpp:370
+msgid "Finish"
+msgstr "সমাপ্ত"
 
-#: kdeui/dialogs/kedittoolbar.cpp:298
-#, fuzzy
-#| msgid "Icon Te&xt:"
-msgid "Icon te&xt:"
-msgstr "আইকন টেক্সট: (&x)"
+#: kdeui/dialogs/klinkdialog.cpp:49
+msgid "Manage Link"
+msgstr "লিঙ্ক পরিচালনা"
 
-#: kdeui/dialogs/kedittoolbar.cpp:303
-msgid "&Hide text when toolbar shows text alongside icons"
-msgstr ""
+#: kdeui/dialogs/klinkdialog.cpp:58
+msgid "Link Text:"
+msgstr "লিঙ্কের টেক্সট:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:553
-msgid "Configure Toolbars"
-msgstr "টুল-বার কনফিগার করুন"
-
-#: kdeui/dialogs/kedittoolbar.cpp:602
-msgid ""
-"Do you really want to reset all toolbars of this application to their "
-"default? The changes will be applied immediately."
-msgstr ""
-
-#: kdeui/dialogs/kedittoolbar.cpp:602
-msgid "Reset Toolbars"
-msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
-
-#: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1845
-msgid "Reset"
-msgstr "রি-সেট করুন"
-
-#: kdeui/dialogs/kedittoolbar.cpp:896
-msgid "&Toolbar:"
-msgstr "টুল-বার: (&T)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:911
-msgid "A&vailable actions:"
-msgstr "উপলব্ধ করুন: (&v)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:926 kdeui/dialogs/kedittoolbar.cpp:945
-msgid "Filter"
-msgstr "ফিল্টার"
-
-#: kdeui/dialogs/kedittoolbar.cpp:929
-msgid "Curr&ent actions:"
-msgstr "বর্তমান কর্ম: (&e)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:948
-msgid "Change &Icon..."
-msgstr "আইকন পরিবর্তন করুন...(&I)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:958
-msgid "Change Te&xt..."
-msgstr "টেক্সট পরিবর্তন করুন...(&x)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1109
-#, kde-format
-msgctxt "@item:intable Action name in toolbar editor"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1130
-msgid ""
-"This element will be replaced with all the elements of an embedded component."
-msgstr ""
-
-#: kdeui/dialogs/kedittoolbar.cpp:1132
-msgid "<Merge>"
-msgstr "<Merge>"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1134
-#, kde-format
-msgid "<Merge %1>"
-msgstr "<Merge %1>"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1140
-msgid ""
-"This is a dynamic list of actions. You can move it, but if you remove it you "
-"will not be able to re-add it."
-msgstr ""
-
-#: kdeui/dialogs/kedittoolbar.cpp:1141
-#, kde-format
-msgid "ActionList: %1"
-msgstr "ActionList: %1"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1242 kdeui/dialogs/kedittoolbar.cpp:1272
-#, kde-format
-msgctxt "@label Action tooltip in toolbar editor, below the action list"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1525
-msgid "Change Icon"
-msgstr "আইকন পরিবর্তন করুন"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:127
-#: kdeui/widgets/kcharselectdata.cpp:685
-msgid "Unknown"
-msgstr "অজানা"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:570
-#: kdeui/dialogs/kshortcutseditor.cpp:586
-msgid "Key Conflict"
-msgstr "কি-র মধ্যে দ্বন্দ্ব"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:571
-#, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutseditor.cpp:575
-#: kdeui/dialogs/kshortcutseditor.cpp:591 kdeui/shortcuts/kglobalaccel.cpp:547
-#: kdeui/shortcuts/kglobalaccel.cpp:587
-#: kdeui/widgets/kkeysequencewidget.cpp:146
-#: kdeui/widgets/kkeysequencewidget.cpp:235
-#: kdeui/widgets/kkeysequencewidget.cpp:632
-msgid "Reassign"
-msgstr "পুনরায় নির্ধারণ"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:587
-#, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutseditor.cpp:630
-#, kde-format
-msgctxt "header for an applications shortcut list"
-msgid "Shortcuts for %1"
-msgstr "%1-র শর্ট-কাট"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:650
-msgid "Global:"
-msgstr "সার্বজনীন:"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:665
-msgid "Action Name"
-msgstr "কর্মের নাম"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:669
-msgid "Shortcuts"
-msgstr "শর্ট-কাট"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:673
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
-msgid "Description"
-msgstr "বিবরণ"
+#: kdeui/dialogs/klinkdialog.cpp:61
+msgid "Link URL:"
+msgstr "লিঙ্কের URL:"
 
 #: kdeui/findreplace/kreplacedialog.cpp:154
 #, kde-format
@@ -6870,44 +6870,6 @@ msgctxt "Numeric IDs of scripts for font previews"
 msgid "1"
 msgstr "১"
 
-#: kdeui/fonts/kfontdialog.cpp:75
-msgid "Select Font"
-msgstr "ফন্ট নির্বাচন করুন"
-
-#: kdeui/fonts/kfontrequester.cpp:110
-msgid "Choose..."
-msgstr "নির্বাচন করুন..."
-
-#: kdeui/fonts/kfontrequester.cpp:215
-msgid "Click to select a font"
-msgstr "ফন্ট নির্বাচনের জন্য ক্লিক করুন"
-
-#: kdeui/fonts/kfontrequester.cpp:222
-msgid "Preview of the selected font"
-msgstr "নির্বাচিত ফন্টের পূর্বরূপ প্রদর্শন"
-
-#: kdeui/fonts/kfontrequester.cpp:223
-msgid ""
-"This is a preview of the selected font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr ""
-"নির্বাচিত ফন্টের পূর্বরূপ এইখানে প্রদর্শন করা হয়েছে। \"নির্বাচন করুন...\" বাটন ক্লিক "
-"করে এটি পরিবর্তন করা যাবে।"
-
-#: kdeui/fonts/kfontrequester.cpp:228
-#, kde-format
-msgid "Preview of the \"%1\" font"
-msgstr "\"%1\" ফন্টের প্রদর্শিত পূর্বরূপ"
-
-#: kdeui/fonts/kfontrequester.cpp:229
-#, kde-format
-msgid ""
-"This is a preview of the \"%1\" font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr ""
-"\"%1\" ফন্টের পূর্বরূপ প্রদর্শিত হয়েছে। \"নির্বাচন করুন...\" বাটন ক্লিক করে এটি "
-"পরিবর্তন করা যাবে।"
-
 #: kdeui/fonts/kfontchooser.cpp:162
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font to be used."
@@ -7061,6 +7023,44 @@ msgstr "প্রকৃত ফন্ট"
 msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1"
+
+#: kdeui/fonts/kfontdialog.cpp:75
+msgid "Select Font"
+msgstr "ফন্ট নির্বাচন করুন"
+
+#: kdeui/fonts/kfontrequester.cpp:110
+msgid "Choose..."
+msgstr "নির্বাচন করুন..."
+
+#: kdeui/fonts/kfontrequester.cpp:215
+msgid "Click to select a font"
+msgstr "ফন্ট নির্বাচনের জন্য ক্লিক করুন"
+
+#: kdeui/fonts/kfontrequester.cpp:222
+msgid "Preview of the selected font"
+msgstr "নির্বাচিত ফন্টের পূর্বরূপ প্রদর্শন"
+
+#: kdeui/fonts/kfontrequester.cpp:223
+msgid ""
+"This is a preview of the selected font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr ""
+"নির্বাচিত ফন্টের পূর্বরূপ এইখানে প্রদর্শন করা হয়েছে। \"নির্বাচন করুন...\" বাটন ক্লিক "
+"করে এটি পরিবর্তন করা যাবে।"
+
+#: kdeui/fonts/kfontrequester.cpp:228
+#, kde-format
+msgid "Preview of the \"%1\" font"
+msgstr "\"%1\" ফন্টের প্রদর্শিত পূর্বরূপ"
+
+#: kdeui/fonts/kfontrequester.cpp:229
+#, kde-format
+msgid ""
+"This is a preview of the \"%1\" font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr ""
+"\"%1\" ফন্টের পূর্বরূপ প্রদর্শিত হয়েছে। \"নির্বাচন করুন...\" বাটন ক্লিক করে এটি "
+"পরিবর্তন করা যাবে।"
 
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
 #: nepomuk/utils/searchwidget.cpp:142
@@ -9202,152 +9202,6 @@ msgstr "বিভাজক, অনুচ্ছেদ"
 msgid "Separator, Space"
 msgstr "বিভাজক, শূণ্যস্থান"
 
-#: kdeui/widgets/ktoolbar.cpp:292
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "সহায়ক তথ্য প্রদর্শন করা হবে"
-
-#: kdeui/widgets/ktoolbar.cpp:295
-#, fuzzy
-#| msgid "Toolbar Settings"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "টুল-বার সংক্রান্ত বৈশিষ্ট্য"
-
-#: kdeui/widgets/ktoolbar.cpp:297
-#, fuzzy
-#| msgid "Orientation"
-msgctxt "Toolbar orientation"
-msgid "Orientation"
-msgstr "দিশা"
-
-#: kdeui/widgets/ktoolbar.cpp:299
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "উপরে"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "বাঁদিকে"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "ডানদিকে"
-
-#: kdeui/widgets/ktoolbar.cpp:303
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "নীচে"
-
-#: kdeui/widgets/ktoolbar.cpp:311
-msgid "Text Position"
-msgstr "টেক্সটের অবস্থান"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Icons Only"
-msgstr "শুধুমাত্র আইকন"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Only"
-msgstr "শুধুমাত্র টেক্সট"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Alongside Icons"
-msgstr "আইকনের পাশে টেক্সট"
-
-#: kdeui/widgets/ktoolbar.cpp:316
-msgid "Text Under Icons"
-msgstr "আইকনের নীচে টেক্সট"
-
-#: kdeui/widgets/ktoolbar.cpp:324
-msgid "Icon Size"
-msgstr "আইকনের মাপ"
-
-#: kdeui/widgets/ktoolbar.cpp:326
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "ডিফল্ট মান"
-
-#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "ছোট (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "মাঝারি (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "বড় (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "বৃহৎ (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:389
-msgid "Lock Toolbar Positions"
-msgstr "টুল-বারের অবস্থান লক করা হবে"
-
-#: kdeui/widgets/ktoolbar.cpp:1326
-#, kde-format
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/widgets/ktoolbar.cpp:1327
-#, kde-format
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1"
-
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "১"
-
-#: kdeui/widgets/ktextedit.cpp:525
-msgid "Speak Text"
-msgstr "টেক্সট উচ্চারণ"
-
-#: kdeui/widgets/ktextedit.cpp:540
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:629
-#, kde-format
-msgid "No suggestions for %1"
-msgstr "%1-র জন্য কোনো প্রস্তাবিত শব্দ নেই"
-
-#: kdeui/widgets/ktextedit.cpp:640
-msgid "Ignore"
-msgstr "উপেক্ষা করুন"
-
-#: kdeui/widgets/ktextedit.cpp:641
-msgid "Add to Dictionary"
-msgstr "অভিধানে যোগ করুন"
-
-#: kdeui/widgets/ktextedit.cpp:786
-msgid "Nothing to spell check."
-msgstr "বানান পরীক্ষা করার জন্য কিছু উপস্থিত নেই।"
-
 #: kdeui/widgets/kdatepicker.cpp:174
 #, kde-format
 msgid "Week %1"
@@ -9400,6 +9254,46 @@ msgstr "উপরে স্থানান্তর (&U)"
 #: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
+
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "১"
+
+#: kdeui/widgets/ktextedit.cpp:525
+msgid "Speak Text"
+msgstr "টেক্সট উচ্চারণ"
+
+#: kdeui/widgets/ktextedit.cpp:540
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:629
+#, kde-format
+msgid "No suggestions for %1"
+msgstr "%1-র জন্য কোনো প্রস্তাবিত শব্দ নেই"
+
+#: kdeui/widgets/ktextedit.cpp:640
+msgid "Ignore"
+msgstr "উপেক্ষা করুন"
+
+#: kdeui/widgets/ktextedit.cpp:641
+msgid "Add to Dictionary"
+msgstr "অভিধানে যোগ করুন"
+
+#: kdeui/widgets/ktextedit.cpp:786
+msgid "Nothing to spell check."
+msgstr "বানান পরীক্ষা করার জন্য কিছু উপস্থিত নেই।"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:993
 msgid "Clear &History"
@@ -9515,58 +9409,111 @@ msgstr "অসমর্থিত-কি"
 msgid "without name"
 msgstr "নাম বিহীন"
 
-#: kdeui/widgets/kcmodule.cpp:182
-msgid "You will be asked to authenticate before saving"
-msgstr "সংরক্ষণের পূর্বে পরিচয় প্রমাণ করার অনুরোধ জানানো হবে"
-
-#: kdeui/widgets/kcmodule.cpp:186
-msgid "You are not allowed to save the configuration"
-msgstr "কনফিগারেশন সংরক্ষণের জন্য আপনি অধিকারপ্রাপ্ত নন"
-
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "পরিশ্রুত করুন (&l)"
-
-#: kdeui/widgets/klineedit.cpp:1216
+#: kdeui/widgets/ktoolbar.cpp:292
+#, fuzzy
+#| msgid "Show help"
 msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "রঙ নির্বাচন করুন"
+msgid "Show Text"
+msgstr "সহায়ক তথ্য প্রদর্শন করা হবে"
 
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "শূণ্য"
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Settings"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "টুল-বার সংক্রান্ত বৈশিষ্ট্য"
 
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "ব্যবহারকারী দ্বারা"
+#: kdeui/widgets/ktoolbar.cpp:297
+#, fuzzy
+#| msgid "Orientation"
+msgctxt "Toolbar orientation"
+msgid "Orientation"
+msgstr "দিশা"
 
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "স্বয়ংক্রিয়"
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "উপরে"
 
-#: kdeui/widgets/klineedit.cpp:1226
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "ড্রপ-ডাউন তালিকা"
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "বাঁদিকে"
 
-#: kdeui/widgets/klineedit.cpp:1227
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "ডানদিকে"
 
-#: kdeui/widgets/klineedit.cpp:1228
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "ড্রপ-ডাউন তালিকা && স্বয়ংক্রিয়"
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "নীচে"
 
-#: kdeui/widgets/klineedit.cpp:1259
-msgctxt "@item:inmenu Text Completion"
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "টেক্সটের অবস্থান"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "শুধুমাত্র আইকন"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "শুধুমাত্র টেক্সট"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "আইকনের পাশে টেক্সট"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "আইকনের নীচে টেক্সট"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "আইকনের মাপ"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "ডিফল্ট মান"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "ছোট (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "মাঝারি (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "বড় (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "বৃহৎ (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+msgid "Lock Toolbar Positions"
+msgstr "টুল-বারের অবস্থান লক করা হবে"
+
+#: kdeui/widgets/ktoolbar.cpp:1326
+#, kde-format
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/widgets/ktoolbar.cpp:1327
+#, kde-format
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1"
 
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
@@ -9769,6 +9716,34 @@ msgstr ""
 msgid "&Copy Full Text"
 msgstr "সম্পূর্ণ টেক্সট কপি করুন (&C)"
 
+#: kdeui/widgets/ktimecombobox.cpp:259
+#, fuzzy
+#| msgctxt "SSL error"
+#| msgid "The certificate is invalid"
+msgctxt "@info"
+msgid "The time you entered is invalid"
+msgstr "সার্টিফিকেটটি বৈধ নয়"
+
+#: kdeui/widgets/ktimecombobox.cpp:262
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be earlier than %1"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:269
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be later than %1"
+msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:182
+msgid "You will be asked to authenticate before saving"
+msgstr "সংরক্ষণের পূর্বে পরিচয় প্রমাণ করার অনুরোধ জানানো হবে"
+
+#: kdeui/widgets/kcmodule.cpp:186
+msgid "You are not allowed to save the configuration"
+msgstr "কনফিগারেশন সংরক্ষণের জন্য আপনি অধিকারপ্রাপ্ত নন"
+
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
 msgid "Area"
@@ -9782,6 +9757,51 @@ msgstr "প্রদেশ"
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgid "Comment"
 msgstr "মন্তব্য"
+
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "পরিশ্রুত করুন (&l)"
+
+#: kdeui/widgets/klineedit.cpp:1216
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "রঙ নির্বাচন করুন"
+
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "শূণ্য"
+
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "ব্যবহারকারী দ্বারা"
+
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "স্বয়ংক্রিয়"
+
+#: kdeui/widgets/klineedit.cpp:1226
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "ড্রপ-ডাউন তালিকা"
+
+#: kdeui/widgets/klineedit.cpp:1227
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
+
+#: kdeui/widgets/klineedit.cpp:1228
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "ড্রপ-ডাউন তালিকা && স্বয়ংক্রিয়"
+
+#: kdeui/widgets/klineedit.cpp:1259
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "ডিফল্ট মান"
 
 #: kdeui/widgets/kdatecombobox.cpp:149
 #, fuzzy
@@ -9893,26 +9913,6 @@ msgctxt "@info"
 msgid "The entered date and time is after the maximum allowed date and time."
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:259
-#, fuzzy
-#| msgctxt "SSL error"
-#| msgid "The certificate is invalid"
-msgctxt "@info"
-msgid "The time you entered is invalid"
-msgstr "সার্টিফিকেটটি বৈধ নয়"
-
-#: kdeui/widgets/ktimecombobox.cpp:262
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be earlier than %1"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:269
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be later than %1"
-msgstr ""
-
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:563
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:176
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:598
@@ -9972,10 +9972,6 @@ msgstr "ইয়ান রাইনহার্ট গেইসার"
 #: kdewidgets/makekdewidgets.cpp:96
 msgid "Daniel Molkentin"
 msgstr "ড্যানিয়েল মলকেনটিন"
-
-#: khtml/khtml_settings.cpp:888
-msgid "Filter error"
-msgstr "ফিল্টার সংক্রান্ত ত্রুটি"
 
 #: khtml/khtml_global.cpp:208
 msgid "KHTML"
@@ -10518,76 +10514,6 @@ msgstr ""
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "JavaScript-র নতুন উইন্ডো সংক্রান্ত নিয়মনীতি কনফিগার করুন...&C"
 
-#: khtml/test_regression_gui_main.cpp:34
-msgid "TestRegressionGui"
-msgstr "TestRegressionGui"
-
-#: khtml/test_regression_gui_main.cpp:35
-msgid "GUI for the khtml regression tester"
-msgstr "khtml রিগ্রেশন পরীক্ষণ ব্যবস্থার GUI"
-
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr "tests, basedir ও output ডিরেক্টরি ধারণকরারী ডিরেক্টরি।"
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr "ডিবাগ থেকে প্রাপ্ত ফলাফল আড়াল করা হবে না"
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr ""
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr "পরীক্ষা চলাকালে উইন্ডো প্রদর্শন করা হবে না"
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr "শুধুমাত্র একটি পরীক্ষা করা হবে। একাধিক বিকল্প প্রয়োগ করা যাবে।"
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr "শুধুমাত্র .js পরীক্ষা করা হবে।"
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr "শুধুমাত্র .html পরীক্ষা করা হবে।"
-
-#: khtml/test_regression.cpp:632
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-"&lt;base_dir&gt;/output-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ করা "
-"হয়"
-
-#: khtml/test_regression.cpp:634
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr ""
-"&lt;base_dir&gt;/baseline-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ "
-"করা হয়"
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-"tests, basedir ও output ডিরেক্টরি ধারণকারী ডিরেক্টরি। -b নির্ধারিত না হলে এটি "
-"গ্রহণযোগ্য।"
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-
-#: khtml/test_regression.cpp:638
-msgid "TestRegression"
-msgstr "TestRegression"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr "khtml-র জন্য রিগ্রেশন পরীক্ষণ ব্যবস্থা"
-
 #: khtml/khtmlimage.cpp:202
 #, kde-format
 msgid "%1 (%2 - %3x%4 Pixels)"
@@ -10612,55 +10538,13 @@ msgstr "ছবি - %1x%2 পিক্সেল"
 msgid "Done."
 msgstr "সমাপ্ত।"
 
-#: khtml/test_regression_gui_window.cpp:76
-msgid "Available Tests: 0"
-msgstr "উপলব্ধ পরীক্ষা: 0"
+#: khtml/test_regression_gui_main.cpp:34
+msgid "TestRegressionGui"
+msgstr "TestRegressionGui"
 
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr "অনুগ্রহ করে একটি বৈধ 'khtmltests/regression/' ডিরেক্টরি সনাক্ত করুন।"
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr "অনুগ্রহ করে একটি বৈধ 'khtml/' বিল্ড ডিরেক্টরি সনাক্ত করুন।"
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr "উপলব্ধ পরীক্ষা: %1 (উপেক্ষিত: %2)"
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:195
-msgid "Continue"
-msgstr "এগিয়ে চলুন"
-
-#: khtml/test_regression_gui_window.cpp:632
-msgid "Cannot find testregression executable."
-msgstr "testregression এক্সেকিউটেবল পাওয়া যায়নি।"
-
-#: khtml/test_regression_gui_window.cpp:1102
-msgid "Run test..."
-msgstr "পরীক্ষণ আরম্ভ করা হবে..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-msgid "Add to ignores..."
-msgstr "অগ্রাহ্যের তালিকায় যোগ করা হবে..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
-msgstr "অগ্রাহ্যের তালিকা থেকে মুছে ফেলা হবে..."
-
-#: khtml/testkhtml.cpp:39
-msgid "URL to open"
-msgstr "প্রদর্শনের উদ্দেশ্যে URL"
-
-#: khtml/testkhtml.cpp:41
-msgid "Testkhtml"
-msgstr "Testkhtml"
-
-#: khtml/testkhtml.cpp:42
-msgid "a basic web browser using the KHTML library"
-msgstr "KHTML লাইব্রেরি সহযোগে নির্মিত একটি সরল ওয়েব ব্রাউজার"
+#: khtml/test_regression_gui_main.cpp:35
+msgid "GUI for the khtml regression tester"
+msgstr "khtml রিগ্রেশন পরীক্ষণ ব্যবস্থার GUI"
 
 #: khtml/khtml_ext.cpp:418
 msgid "&Copy Text"
@@ -10805,9 +10689,125 @@ msgstr ""
 msgid "Default Font Size (100%)"
 msgstr "ফন্টের ডিফল্ট মাপ (১০০%)"
 
+#: khtml/khtml_settings.cpp:888
+msgid "Filter error"
+msgstr "ফিল্টার সংক্রান্ত ত্রুটি"
+
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr "tests, basedir ও output ডিরেক্টরি ধারণকরারী ডিরেক্টরি।"
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr "ডিবাগ থেকে প্রাপ্ত ফলাফল আড়াল করা হবে না"
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr ""
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr "পরীক্ষা চলাকালে উইন্ডো প্রদর্শন করা হবে না"
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr "শুধুমাত্র একটি পরীক্ষা করা হবে। একাধিক বিকল্প প্রয়োগ করা যাবে।"
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr "শুধুমাত্র .js পরীক্ষা করা হবে।"
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr "শুধুমাত্র .html পরীক্ষা করা হবে।"
+
+#: khtml/test_regression.cpp:632
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+"&lt;base_dir&gt;/output-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ করা "
+"হয়"
+
+#: khtml/test_regression.cpp:634
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr ""
+"&lt;base_dir&gt;/baseline-র পরিবর্তে &lt;directory&gt;-র মধ্যে ফলাফল সংরক্ষণ "
+"করা হয়"
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+"tests, basedir ও output ডিরেক্টরি ধারণকারী ডিরেক্টরি। -b নির্ধারিত না হলে এটি "
+"গ্রহণযোগ্য।"
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+
+#: khtml/test_regression.cpp:638
+msgid "TestRegression"
+msgstr "TestRegression"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr "khtml-র জন্য রিগ্রেশন পরীক্ষণ ব্যবস্থা"
+
+#: khtml/test_regression_gui_window.cpp:76
+msgid "Available Tests: 0"
+msgstr "উপলব্ধ পরীক্ষা: 0"
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr "অনুগ্রহ করে একটি বৈধ 'khtmltests/regression/' ডিরেক্টরি সনাক্ত করুন।"
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr "অনুগ্রহ করে একটি বৈধ 'khtml/' বিল্ড ডিরেক্টরি সনাক্ত করুন।"
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr "উপলব্ধ পরীক্ষা: %1 (উপেক্ষিত: %2)"
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:195
+msgid "Continue"
+msgstr "এগিয়ে চলুন"
+
+#: khtml/test_regression_gui_window.cpp:632
+msgid "Cannot find testregression executable."
+msgstr "testregression এক্সেকিউটেবল পাওয়া যায়নি।"
+
+#: khtml/test_regression_gui_window.cpp:1102
+msgid "Run test..."
+msgstr "পরীক্ষণ আরম্ভ করা হবে..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+msgid "Add to ignores..."
+msgstr "অগ্রাহ্যের তালিকায় যোগ করা হবে..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr "অগ্রাহ্যের তালিকা থেকে মুছে ফেলা হবে..."
+
 #: khtml/khtmlview.cpp:1846
 msgid "Access Keys activated"
 msgstr "অ্যাকসেস-কি সক্রিয় করা হয়েছে"
+
+#: khtml/testkhtml.cpp:39
+msgid "URL to open"
+msgstr "প্রদর্শনের উদ্দেশ্যে URL"
+
+#: khtml/testkhtml.cpp:41
+msgid "Testkhtml"
+msgstr "Testkhtml"
+
+#: khtml/testkhtml.cpp:42
+msgid "a basic web browser using the KHTML library"
+msgstr "KHTML লাইব্রেরি সহযোগে নির্মিত একটি সরল ওয়েব ব্রাউজার"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
@@ -10827,32 +10827,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "স্ক্রিপ্ট বন্ধ করুন (&S)"
 
-#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1660
+#: khtml/ecma/kjs_window.cpp:1660 khtml/ecma/kjs_html.cpp:2166
 msgid "Confirmation: JavaScript Popup"
 msgstr "নিশ্চায়ন: JavaScript পপ-আপ"
-
-#: khtml/ecma/kjs_html.cpp:2168
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-
-#: khtml/ecma/kjs_html.cpp:2171
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Allow"
-msgstr "অনুমতি প্রদান করা হবে"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Do Not Allow"
-msgstr "অনুমতি প্রদান করা হবে না"
 
 #: khtml/ecma/kjs_window.cpp:1663
 msgid ""
@@ -10866,6 +10843,14 @@ msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Allow"
+msgstr "অনুমতি প্রদান করা হবে"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Do Not Allow"
+msgstr "অনুমতি প্রদান করা হবে না"
 
 #: khtml/ecma/kjs_window.cpp:1981
 msgid "Close window?"
@@ -10900,6 +10885,21 @@ msgstr "সন্নিবেশ করুন"
 #: khtml/ecma/kjs_window.cpp:2899
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
+
+#: khtml/ecma/kjs_html.cpp:2168
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+
+#: khtml/ecma/kjs_html.cpp:2171
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
@@ -12792,6 +12792,19 @@ msgstr "যোগাযোগ সংক্রান্ত ত্রুটি"
 msgid "Invalid type in Database"
 msgstr "ডাটাবেসের মধ্যে অবৈধ ধরন"
 
+#: nepomuk/query/query.cpp:687
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr ""
+
+#: nepomuk/query/query.cpp:693
+msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
+msgid "Query Results"
+msgstr ""
+
 #: nepomuk/query/queryparser.cpp:544
 msgctxt ""
 "Boolean AND keyword in desktop search strings. You can add several variants "
@@ -12809,19 +12822,6 @@ msgctxt ""
 "keyword."
 msgid "or"
 msgstr "or"
-
-#: nepomuk/query/query.cpp:687
-#, kde-format
-msgctxt ""
-"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
-"user entered."
-msgid "Query Results from '%1'"
-msgstr ""
-
-#: nepomuk/query/query.cpp:693
-msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
-msgid "Query Results"
-msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-11 04:15+0200\n"
+"POT-Creation-Date: 2012-08-07 21:36+0200\n"
 "PO-Revision-Date: 2009-01-02 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -29,11 +29,6 @@ msgstr "ঠিক আছে"
 #: favicons.cpp:72
 msgid "Updating favicon..."
 msgstr "ফেভ-আইকন আপডেট করা হচ্ছে..."
-
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
-msgstr ""
 
 #: importers.cpp:56
 #, fuzzy, kde-format
@@ -376,6 +371,11 @@ msgstr "শুধুমাত্র একটি --export বিকল্প উ
 #: main.cpp:171
 msgid "You may only specify a single --import option."
 msgstr "শুধুমাত্র একটি --import বিকল্প উল্লেখ করা যাবে।"
+
+#: faviconupdater.cpp:87
+#, kde-format
+msgid "%1; no HTML component found (%2)"
+msgstr ""
 
 #: testlink.cpp:76
 msgid "Checking..."
