@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 09:38+0200\n"
+"POT-Creation-Date: 2012-08-18 04:27+0200\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -58,14 +58,14 @@ msgid "Not present"
 msgstr ""
 
 #: contents/ui/PopupDialog.qml:96
-msgid "Plugged in"
-msgstr ""
-
-#: contents/ui/PopupDialog.qml:96
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Not plugged in"
 msgid "Not plugged in"
 msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়নি"
+
+#: contents/ui/PopupDialog.qml:96
+msgid "Plugged in"
+msgstr ""
 
 #: contents/ui/PopupDialog.qml:129
 #, kde-format
@@ -117,12 +117,12 @@ msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত ক�
 
 #: contents/ui/batterymonitor.qml:127
 msgctxt "tooltip"
-msgid "Plugged in"
+msgid "Not plugged in"
 msgstr ""
 
 #: contents/ui/batterymonitor.qml:127
 msgctxt "tooltip"
-msgid "Not plugged in"
+msgid "Plugged in"
 msgstr ""
 
 #: contents/ui/batterymonitor.qml:154

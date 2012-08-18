@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2008-11-26 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,17 +18,17 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
-msgid "Type"
-msgstr "ধরন"
+#: kcmsambaimports.cpp:43
+msgid "Mounted Under"
+msgstr "মাউন্টের স্থান"
 
 #: kcmsambaimports.cpp:43
 msgid "Resource"
 msgstr "সামগ্রী"
 
-#: kcmsambaimports.cpp:43
-msgid "Mounted Under"
-msgstr "মাউন্টের স্থান"
+#: kcmsambaimports.cpp:43 ksmbstatus.cpp:51
+msgid "Type"
+msgstr "ধরন"
 
 #: kcmsambaimports.cpp:45
 msgid ""
@@ -45,24 +45,24 @@ msgid "Samba log file: "
 msgstr "Samba-র লগ ফাইল: "
 
 #: kcmsambalog.cpp:38
-msgid "Show opened connections"
-msgstr "বর্তমানে চলমান সংযোগের তালিকা প্রদর্শন করা হবে"
-
-#: kcmsambalog.cpp:38
 msgid "Show closed connections"
 msgstr "বন্ধ সংযোগের তালিকা প্রদর্শন করা হবে"
 
+#: kcmsambalog.cpp:38
+msgid "Show opened connections"
+msgstr "বর্তমানে চলমান সংযোগের তালিকা প্রদর্শন করা হবে"
+
 #: kcmsambalog.cpp:39
-msgid "Show opened files"
-msgstr "খোলা ফাইলের তালিকা প্রদর্শন করা হবে"
+msgid "&Update"
+msgstr "আপডেট করুন (&U)"
 
 #: kcmsambalog.cpp:39
 msgid "Show closed files"
 msgstr "বন্ধ ফাইলের তালিকা প্রদর্শন করা হবে"
 
 #: kcmsambalog.cpp:39
-msgid "&Update"
-msgstr "আপডেট করুন (&U)"
+msgid "Show opened files"
+msgstr "খোলা ফাইলের তালিকা প্রদর্শন করা হবে"
 
 #: kcmsambalog.cpp:57
 msgid ""
@@ -204,12 +204,12 @@ msgid "Show expanded host info"
 msgstr "হোস্টের বিস্তারিত তথ্য প্রদর্শন করা হবে"
 
 #: kcmsambastatistics.cpp:64
-msgid "Nr"
-msgstr "Nr"
-
-#: kcmsambastatistics.cpp:64
 msgid "Hits"
 msgstr "হিট"
+
+#: kcmsambastatistics.cpp:64
+msgid "Nr"
+msgstr "Nr"
 
 #: kcmsambastatistics.cpp:68 kcmsambastatistics.cpp:135
 msgid "Connection"
@@ -234,28 +234,28 @@ msgid "FILE OPENED"
 msgstr "খোলা ফাইল"
 
 #: ksmbstatus.cpp:51
-msgid "Service"
-msgstr "পরিসেবা"
-
-#: ksmbstatus.cpp:51
 msgid "Accessed From"
 msgstr "ব্যবহারের স্থান"
 
-#: ksmbstatus.cpp:52
-msgid "UID"
-msgstr "UID"
+#: ksmbstatus.cpp:51
+msgid "Service"
+msgstr "পরিসেবা"
 
 #: ksmbstatus.cpp:52
 msgid "GID"
 msgstr "GID"
 
 #: ksmbstatus.cpp:52
+msgid "Open Files"
+msgstr "খোলা ফাইল"
+
+#: ksmbstatus.cpp:52
 msgid "PID"
 msgstr "PID"
 
 #: ksmbstatus.cpp:52
-msgid "Open Files"
-msgstr "খোলা ফাইল"
+msgid "UID"
+msgstr "UID"
 
 #: ksmbstatus.cpp:156
 msgid "Error: Unable to run smbstatus"

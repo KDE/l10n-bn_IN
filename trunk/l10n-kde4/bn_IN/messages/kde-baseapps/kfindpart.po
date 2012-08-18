@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-11 04:15+0200\n"
+"POT-Creation-Date: 2012-08-18 04:12+0200\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -421,8 +421,8 @@ msgid "Unable to search dates in the future."
 msgstr "ভবিষ্যতের তারিখ অনুসন্ধান করতে ব্যর্থ।"
 
 #: kftabdlg.cpp:690
-msgid "Size is too big. Set maximum size value?"
-msgstr "অত্যাধিক বড় মাপ। সর্বাধিক মাপ নির্ধারণ করা হবে কি?"
+msgid "Do Not Set"
+msgstr "নির্ধারণ করা হবে না"
 
 #: kftabdlg.cpp:690
 msgid "Error"
@@ -433,8 +433,8 @@ msgid "Set"
 msgstr "নির্ধারণ করা হবে"
 
 #: kftabdlg.cpp:690
-msgid "Do Not Set"
-msgstr "নির্ধারণ করা হবে না"
+msgid "Size is too big. Set maximum size value?"
+msgstr "অত্যাধিক বড় মাপ। সর্বাধিক মাপ নির্ধারণ করা হবে কি?"
 
 #: kftabdlg.cpp:887
 #, fuzzy
@@ -512,20 +512,20 @@ msgid "(c) 1998-2003, The KDE Developers"
 msgstr "(c) ১৯৯৮-২০০৩, KDE নির্মাতাবৃন্দ"
 
 #: main.cpp:38
-msgid "Eric Coquelle"
-msgstr "এরিখ কোকেল"
-
-#: main.cpp:38
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইন্টেনার"
 
-#: main.cpp:39
-msgid "Mark W. Webb"
-msgstr "মার্ক ডব্লিউ. ওয়েব"
+#: main.cpp:38
+msgid "Eric Coquelle"
+msgstr "এরিখ কোকেল"
 
 #: main.cpp:39
 msgid "Developer"
 msgstr "ডিভেলপর"
+
+#: main.cpp:39
+msgid "Mark W. Webb"
+msgstr "মার্ক ডব্লিউ. ওয়েব"
 
 #: main.cpp:40
 msgid "Beppe Grimaldi"
@@ -572,12 +572,12 @@ msgid "Hans Petter Bieker"
 msgstr "হান্স পেটার বিইকার"
 
 #: main.cpp:50
-msgid "Waldo Bastian"
-msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
-
-#: main.cpp:50
 msgid "UI Design"
 msgstr "প্রেক্ষাপটের বিন্যাস"
+
+#: main.cpp:50
+msgid "Waldo Bastian"
+msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
 #: main.cpp:51
 msgid "Alexander Neundorf"

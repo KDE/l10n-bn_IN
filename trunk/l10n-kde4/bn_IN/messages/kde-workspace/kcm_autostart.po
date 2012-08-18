@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2009-01-13 15:46+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -31,16 +31,12 @@ msgid "Autostart only in KDE"
 msgstr "শুধুমাত্র KDE-র মধ্যে স্বয়ংক্রিয়রূপে আরম্ভ করা হবে"
 
 #: autostart.cpp:58
-msgid "Name"
-msgstr "নাম"
-
-#: autostart.cpp:58
 msgid "Command"
 msgstr "কমান্ড"
 
 #: autostart.cpp:58
-msgid "Status"
-msgstr "অবস্থা"
+msgid "Name"
+msgstr "নাম"
 
 #: autostart.cpp:58
 msgctxt ""
@@ -48,6 +44,10 @@ msgctxt ""
 "kde startup, on kde shutdown, etc"
 msgid "Run On"
 msgstr "সঞ্চালনের সময়"
+
+#: autostart.cpp:58
+msgid "Status"
+msgstr "অবস্থা"
 
 #: autostart.cpp:73
 msgid "KDE Autostart Manager"
@@ -68,12 +68,12 @@ msgid "Stephen Leaf"
 msgstr "স্টেফান লিফ"
 
 #: autostart.cpp:78
-msgid "Montel Laurent"
-msgstr "মন্টেল লরেন্ট"
-
-#: autostart.cpp:78
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
+
+#: autostart.cpp:78
+msgid "Montel Laurent"
+msgstr "মন্টেল লরেন্ট"
 
 #: autostart.cpp:108 autostart.cpp:122
 msgctxt "The program won't be run"
