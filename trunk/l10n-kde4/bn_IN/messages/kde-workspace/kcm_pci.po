@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_pci\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:26+0200\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
 "PO-Revision-Date: 2008-07-09 17:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -265,16 +265,16 @@ msgid "Mapping %1"
 msgstr "ম্যাপিং %1"
 
 #: kpci.cpp:286
+msgid "Space"
+msgstr "স্থান"
+
+#: kpci.cpp:286
 msgid "I/O"
 msgstr "ইনপুট/আউটপুট"
 
 #: kpci.cpp:286
 msgid "Memory"
 msgstr "মেমরি"
-
-#: kpci.cpp:286
-msgid "Space"
-msgstr "স্থান"
 
 #: kpci.cpp:289 kpci.cpp:458
 msgid "Prefetchable"
@@ -384,6 +384,10 @@ msgstr "দ্বিতীয় স্তরে বাস রি-সেট"
 msgid "Secondary back-to-back writes"
 msgstr ""
 
+#: kpci.cpp:422
+msgid "Primary discard timer counts"
+msgstr ""
+
 #: kpci.cpp:422 kpci.cpp:423
 msgid "2e10 PCI clocks"
 msgstr "2e10 PCI ঘড়ি"
@@ -391,10 +395,6 @@ msgstr "2e10 PCI ঘড়ি"
 #: kpci.cpp:422 kpci.cpp:423
 msgid "2e15 PCI clocks"
 msgstr "2e15 PCI ঘড়ি"
-
-#: kpci.cpp:422
-msgid "Primary discard timer counts"
-msgstr ""
 
 #: kpci.cpp:423
 msgid "Secondary discard timer counts"
@@ -534,16 +534,16 @@ msgid "Bridge status"
 msgstr "ব্রিজের অবস্থা"
 
 #: kpci.cpp:546
+msgid "Secondary bus state in D3 hot"
+msgstr ""
+
+#: kpci.cpp:546
 msgid "B2"
 msgstr "B2"
 
 #: kpci.cpp:546
 msgid "B3"
 msgstr "B3"
-
-#: kpci.cpp:546
-msgid "Secondary bus state in D3 hot"
-msgstr ""
 
 #: kpci.cpp:547
 msgid "Secondary bus power & clock control"
@@ -665,13 +665,13 @@ msgctxt "no data"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kpci.cpp:689 kpci.cpp:716
-msgid "0x00 (None)"
-msgstr "0x00 (শূণ্য)"
-
 #: kpci.cpp:689
 msgid "Next"
 msgstr "পরবর্তী"
+
+#: kpci.cpp:689 kpci.cpp:716
+msgid "0x00 (None)"
+msgstr "0x00 (শূণ্য)"
 
 #: kpci.cpp:712
 msgid "Root only"
@@ -688,6 +688,16 @@ msgstr "মান"
 #: kpci.cpp:773
 msgid "Cache line size"
 msgstr "ক্যাশে পংক্তির মাপ"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
 
 #: kpci_private.h:26
 msgctxt "state of PCI item"
@@ -1679,13 +1689,3 @@ msgstr ""
 #: kpci_private.h:776
 msgid "32 vectors"
 msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"

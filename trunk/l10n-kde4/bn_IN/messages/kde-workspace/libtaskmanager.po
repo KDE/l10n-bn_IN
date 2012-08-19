@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:27+0200\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
 "PO-Revision-Date: 2008-12-29 15:40+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -122,31 +122,6 @@ msgstr ""
 msgid "Launcher:"
 msgstr ""
 
-#: strategies/manualgroupingstrategy.cpp:77
-msgid "Leave Group"
-msgstr "দল থেকে প্রস্থান করুন"
-
-#: strategies/manualgroupingstrategy.cpp:84
-msgid "Remove Group"
-msgstr "দল মুছে ফেলুন"
-
-#: strategies/programgroupingstrategy.cpp:76
-#, fuzzy
-#| msgid "Allow This Program to Be Grouped"
-msgid "Allow this program to be grouped"
-msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে"
-
-#: strategies/programgroupingstrategy.cpp:78
-#, fuzzy
-#| msgid "Do Not Allow This Program to Be Grouped"
-msgid "Do not allow this program to be grouped"
-msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে না"
-
-#: task.cpp:246
-msgctxt "marks that a task has been modified"
-msgid "modified"
-msgstr "পরিবর্তিত"
-
 #: taskactions.cpp:174
 msgid "Mi&nimize"
 msgstr "আড়াল করুন (&n)"
@@ -228,6 +203,31 @@ msgstr ""
 #: taskactions.cpp:547
 msgid "&Edit Group"
 msgstr "দলের তথ্য সম্পাদনা করুন (&E)"
+
+#: task.cpp:246
+msgctxt "marks that a task has been modified"
+msgid "modified"
+msgstr "পরিবর্তিত"
+
+#: strategies/manualgroupingstrategy.cpp:77
+msgid "Leave Group"
+msgstr "দল থেকে প্রস্থান করুন"
+
+#: strategies/manualgroupingstrategy.cpp:84
+msgid "Remove Group"
+msgstr "দল মুছে ফেলুন"
+
+#: strategies/programgroupingstrategy.cpp:76
+#, fuzzy
+#| msgid "Allow This Program to Be Grouped"
+msgid "Allow this program to be grouped"
+msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে"
+
+#: strategies/programgroupingstrategy.cpp:78
+#, fuzzy
+#| msgid "Do Not Allow This Program to Be Grouped"
+msgid "Do not allow this program to be grouped"
+msgstr "চিহ্নিত প্রোগ্রামটি দলবদ্ধ করা যাবে না"
 
 #~ msgid "Ad&vanced"
 #~ msgstr "উন্নত বৈশিষ্ট্য (&v)"

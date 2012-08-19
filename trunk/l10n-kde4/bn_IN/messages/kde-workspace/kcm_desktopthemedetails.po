@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:26+0200\n"
+"POT-Creation-Date: 2012-08-19 05:49+0200\n"
 "PO-Revision-Date: 2009-01-13 15:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -96,11 +96,6 @@ msgstr "(স্বনির্ধারিত)"
 msgid "User customized theme"
 msgstr "ব্যবহারকারী দ্বারা নির্ধারিত থিম"
 
-#: desktopthemedetails.cpp:241 desktopthemedetails.cpp:246
-#: desktopthemedetails.cpp:249
-msgid "Remove Desktop Theme"
-msgstr "ডেস্কটপ থিম মুছে ফেলুন"
-
 #: desktopthemedetails.cpp:241
 #, kde-format
 msgid ""
@@ -108,6 +103,11 @@ msgid ""
 msgstr ""
 "থিমের মধ্যে অন্তর্ভুক্ত বস্তু পরিবর্তন করা হয়েছপ।  আপনি কি নিশ্চিতরূপে \"%1\" থিম মুছে "
 "ফেলতে ইচ্ছুক?"
+
+#: desktopthemedetails.cpp:241 desktopthemedetails.cpp:246
+#: desktopthemedetails.cpp:249
+msgid "Remove Desktop Theme"
+msgstr "ডেস্কটপ থিম মুছে ফেলুন"
 
 #: desktopthemedetails.cpp:246
 #, fuzzy
@@ -121,10 +121,6 @@ msgid "Are you sure you wish remove the \"%1\" theme?"
 msgstr "আপনি কি নিশ্চিতরূপে \"%1\" থিম মুছে ফেলতে ইচ্ছুক?"
 
 #: desktopthemedetails.cpp:277
-msgid "Export Desktop Theme"
-msgstr "ডেস্কটপ থিম এক্সপোর্ট করুন"
-
-#: desktopthemedetails.cpp:277
 msgid ""
 "Please apply theme item changes (with a new theme name) before attempting to "
 "export theme."
@@ -132,17 +128,21 @@ msgstr ""
 "থিম এক্সপোর্ট করার পূর্বে, অনুগ্রহ করে থিমের বস্তুর মধ্যে করা পরিবর্তনগুলি (নতুন থিমের "
 "নামে) সংরক্ষণ করুন।"
 
+#: desktopthemedetails.cpp:277
+msgid "Export Desktop Theme"
+msgstr "ডেস্কটপ থিম এক্সপোর্ট করুন"
+
 #: desktopthemedetails.cpp:284
 msgid "Export theme to file"
 msgstr "ফাইলের মধ্যে থিম এক্সপোর্ট করুন"
 
 #: desktopthemedetails.cpp:379
-msgid "Source"
-msgstr "উৎস"
-
-#: desktopthemedetails.cpp:379
 msgid "Theme Item"
 msgstr "থিমের বস্তু"
+
+#: desktopthemedetails.cpp:379
+msgid "Source"
+msgstr "উৎস"
 
 #: desktopthemedetails.cpp:410
 #, kde-format
