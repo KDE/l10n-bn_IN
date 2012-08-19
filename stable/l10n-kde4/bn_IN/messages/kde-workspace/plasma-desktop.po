@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-06 04:54+0200\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
+
+#: activitymanager/activitymanager.cpp:274
+#, fuzzy
+#| msgid "New Theme..."
+msgid "Get New Templates..."
+msgstr "নতুন থিম..."
 
 #: controllerwindow.cpp:390
 #, fuzzy
@@ -31,6 +45,17 @@ msgstr "ড্যাশ-বোর্ড আড়াল করা হবে"
 #: dashboardview.cpp:156
 msgid "Widget Dashboard"
 msgstr "উইজেট ড্যাশ-বোর্ড"
+
+#. i18n: ectx: label, entry, group (General)
+#: data/plasma-shell-desktop.kcfg:10
+msgid "The font to use on the desktop"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (General)
+#: data/plasma-shell-desktop.kcfg:15
+msgid ""
+"Set to true if each virtual desktop should get its own, unique Plasma view."
+msgstr ""
 
 #: desktopcorona.cpp:105
 msgid "Next Activity"
@@ -301,35 +326,6 @@ msgstr "এই স্লাইডার সহযোগে প্যানেল
 #: positioningruler.cpp:471
 msgid "Move this slider to set the minimum panel size"
 msgstr "এই স্লাইডার সহযোগে প্যানেলের সর্বনিম্ন মাপ নির্ধারণ করুন"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"
-
-#. i18n: file: data/plasma-shell-desktop.kcfg:10
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:5
-msgid "The font to use on the desktop"
-msgstr ""
-
-#. i18n: file: data/plasma-shell-desktop.kcfg:15
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:8
-msgid ""
-"Set to true if each virtual desktop should get its own, unique Plasma view."
-msgstr ""
-
-#: activitymanager/activitymanager.cpp:274
-#, fuzzy
-#| msgid "New Theme..."
-msgid "Get New Templates..."
-msgstr "নতুন থিম..."
 
 #, fuzzy
 #~| msgid "Next Activity"
