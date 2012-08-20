@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:36+0200\n"
 "PO-Revision-Date: 2009-01-02 14:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
 
 #: engineexplorer.cpp:55 main.cpp:68
 msgid "Plasma Engine Explorer"
@@ -38,15 +46,13 @@ msgstr "সকল প্রসারিত করা হবে"
 msgid "DataSource"
 msgstr "DataSource"
 
-#. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 rc.cpp:32 serviceviewer.cpp:148
+#: engineexplorer.cpp:170 serviceviewer.cpp:148 serviceviewer.ui:67
 msgid "Key"
 msgstr "কি"
 
-#. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 rc.cpp:35 serviceviewer.cpp:148
+#: engineexplorer.cpp:170 serviceviewer.cpp:148 serviceviewer.ui:72
 msgid "Value"
 msgstr "মান"
 
@@ -99,9 +105,8 @@ msgctxt ""
 msgid "<not displayable>"
 msgstr "<not displayable>"
 
-#. i18n: file: engineexplorer.ui:17
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:486 rc.cpp:5
+#: engineexplorer.cpp:486 engineexplorer.ui:17
 msgid "Plasma DataEngine Explorer"
 msgstr "Plasma DataEngine Explorer"
 
@@ -112,6 +117,45 @@ msgid "%1 Engine - 1 data source"
 msgid_plural "%1 Engine - %2 data sources"
 msgstr[0] "%1 ইঞ্জিন - তথ্যের ১-টি উৎস"
 msgstr[1] "%1 ইঞ্জিন - তথ্যের %2-টি উৎস"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
+#: engineexplorer.ui:38
+msgid "Source name"
+msgstr "উৎসের নাম"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:57
+msgid "Update on demand"
+msgstr "প্রয়োজন অনুসারে আপডেট করা হবে"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:60
+msgid "ms"
+msgstr "মিলিসেকেন্ড"
+
+#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
+#: engineexplorer.ui:63
+msgid "Update every "
+msgstr "আপডেট করা হবে, প্রতি"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
+#: engineexplorer.ui:85
+#, fuzzy
+#| msgid "Request"
+msgid "Request Source"
+msgstr "অনুরোধ"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
+#: engineexplorer.ui:105
+#, fuzzy
+#| msgid "Remove source"
+msgid "Service for source"
+msgstr "উৎস সরিয়ে ফেলুন"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
+#: engineexplorer.ui:118
+msgid "Request Service for Source"
+msgstr ""
 
 #: ktreeviewsearchline.cpp:420
 msgid "Search Columns"
@@ -185,74 +229,6 @@ msgid ""
 "ParentApp entry in the DataEngine's .desktop file."
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"
-
-#. i18n: file: engineexplorer.ui:38
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
-#: rc.cpp:8
-msgid "Source name"
-msgstr "উৎসের নাম"
-
-#. i18n: file: engineexplorer.ui:57
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:11
-msgid "Update on demand"
-msgstr "প্রয়োজন অনুসারে আপডেট করা হবে"
-
-#. i18n: file: engineexplorer.ui:60
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:14
-msgid "ms"
-msgstr "মিলিসেকেন্ড"
-
-#. i18n: file: engineexplorer.ui:63
-#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
-#: rc.cpp:17
-msgid "Update every "
-msgstr "আপডেট করা হবে, প্রতি"
-
-#. i18n: file: engineexplorer.ui:85
-#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
-#: rc.cpp:20
-#, fuzzy
-#| msgid "Request"
-msgid "Request Source"
-msgstr "অনুরোধ"
-
-#. i18n: file: engineexplorer.ui:105
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Remove source"
-msgid "Service for source"
-msgstr "উৎস সরিয়ে ফেলুন"
-
-#. i18n: file: engineexplorer.ui:118
-#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
-#: rc.cpp:26
-msgid "Request Service for Source"
-msgstr ""
-
-#. i18n: file: serviceviewer.ui:33
-#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: rc.cpp:29
-msgid "&Operation:"
-msgstr "কর্ম: (&O)"
-
-#. i18n: file: serviceviewer.ui:80
-#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: rc.cpp:38
-msgid "Operation count"
-msgstr "কর্মের সংখ্যা"
-
 #: serviceviewer.cpp:46
 msgid "Start Operation"
 msgstr "প্রারম্ভিক কর্ম"
@@ -321,6 +297,16 @@ msgid "One active operation ..."
 msgid_plural "%1 operations active ..."
 msgstr[0] "একটি সক্রিয় কর্ম ..."
 msgstr[1] "%1-টি সক্রিয় কর্ম ..."
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
+#: serviceviewer.ui:33
+msgid "&Operation:"
+msgstr "কর্ম: (&O)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
+#: serviceviewer.ui:80
+msgid "Operation count"
+msgstr "কর্মের সংখ্যা"
 
 #: titlecombobox.h:53
 msgid "Data Engines"

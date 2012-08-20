@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmnotify\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:31+0200\n"
+"POT-Creation-Date: 2012-08-20 04:50+0200\n"
 "PO-Revision-Date: 2008-07-09 16:44+0530\n"
 "Last-Translator: Sankarshan Mukhopadhyay <sankarshan@randomink.org>\n"
 "Language-Team: Bengali (India) <discuss@ankur.org.in>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KAider 0.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "সঙ্কর্ষণ মুখোপাধ্যায়"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sankarshan@randomink.org"
 
 #: knotify.cpp:55
 msgid ""
@@ -72,56 +80,39 @@ msgstr "চার্লস স্যামুয়েলস"
 msgid "Original implementation"
 msgstr "বাস্তবায়িত মৌলিক রূপ"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "সঙ্কর্ষণ মুখোপাধ্যায়"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sankarshan@randomink.org"
-
-#. i18n: file: playersettings.ui:17
 #. i18n: ectx: property (text), widget (QRadioButton, cbArts)
-#: rc.cpp:5
+#: playersettings.ui:17
 msgid "Use the &KDE sound system"
 msgstr "KDE সাউন্ড সিস্টেম ব্যবহার করুন (&K)"
 
-#. i18n: file: playersettings.ui:32
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:9
+#: playersettings.ui:32
 #, no-c-format
 msgid "100%"
 msgstr "১০০%"
 
-#. i18n: file: playersettings.ui:55
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:13
+#: playersettings.ui:55
 #, no-c-format
 msgid "0%"
 msgstr "০%"
 
-#. i18n: file: playersettings.ui:62
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:16
+#: playersettings.ui:62
 msgid "&Volume:"
 msgstr "ভলিউম: (&V)"
 
-#. i18n: file: playersettings.ui:106
 #. i18n: ectx: property (text), widget (QRadioButton, cbExternal)
-#: rc.cpp:19
+#: playersettings.ui:106
 msgid "&Use an external player"
 msgstr "বাইরের প্লেয়ার ব্যবহার করুন (&U)"
 
-#. i18n: file: playersettings.ui:137
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:22
+#: playersettings.ui:137
 msgid "&Player:"
 msgstr "প্লেয়ার: (&P)"
 
-#. i18n: file: playersettings.ui:162
 #. i18n: ectx: property (text), widget (QRadioButton, cbNone)
-#: rc.cpp:25
+#: playersettings.ui:162
 msgid "&No audio output"
 msgstr "কোন শব্দ শোনা যায়নি (&N)"

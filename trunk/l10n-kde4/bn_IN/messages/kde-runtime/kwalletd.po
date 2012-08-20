@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:47+0200\n"
+"POT-Creation-Date: 2012-08-20 04:52+0200\n"
 "PO-Revision-Date: 2009-01-02 17:05+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
 
 #: backend/kwalletbackend.cc:287
 msgid "Already open."
@@ -54,57 +62,31 @@ msgstr "পড়তে সমস্যা - সম্ভবত পাসওয়া�
 msgid "Decryption error."
 msgstr "ডিক্রিপশন সংক্রান্ত ত্রুটি।"
 
-#: kwalletwizard.cpp:39
-msgid "KWallet"
-msgstr ""
+#. i18n: ectx: property (text), widget (KPushButton, _allowOnce)
+#: kbetterthankdialogbase.ui:50
+msgid "Allow &Once"
+msgstr "একবার অনুমতি প্রদান করা হবে (&O)"
 
-#: kwalletwizard.cpp:147
-msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
-msgstr "<qt>ফাঁকা পাসওয়ার্ড।  <b>(সতর্কবার্তা: নিরাপদ নয়)</b></qt>"
+#. i18n: ectx: property (text), widget (KPushButton, _allowAlways)
+#: kbetterthankdialogbase.ui:60
+msgid "Allow &Always"
+msgstr "প্রতিবার অনুমতি প্রদান করা হবে (&A)"
 
-#: kwalletwizard.cpp:149
-msgid "Passwords match."
-msgstr "পাসওয়ার্ড দুটি মিলেছে।"
+#. i18n: ectx: property (text), widget (KPushButton, _deny)
+#: kbetterthankdialogbase.ui:67
+msgid "&Deny"
+msgstr "প্রত্যাখ্যান করা হবে (&D)"
 
-#: kwalletwizard.cpp:152
-msgid "Passwords do not match."
-msgstr "পাসওয়ার্ডে গরমিল।"
+#. i18n: ectx: property (text), widget (KPushButton, _denyForever)
+#: kbetterthankdialogbase.ui:74
+msgid "Deny &Forever"
+msgstr "স্থায়ীভাবে প্রত্যাখ্যান করা হবে (&F)"
 
-#: main.cpp:39 main.cpp:40 kwalletd.cpp:369 kwalletd.cpp:458 kwalletd.cpp:522
-#: kwalletd.cpp:614 kwalletd.cpp:705 kwalletd.cpp:717 kwalletd.cpp:726
-#: kwalletd.cpp:731 kwalletd.cpp:1244
+#: kwalletd.cpp:369 kwalletd.cpp:458 kwalletd.cpp:522 kwalletd.cpp:614
+#: kwalletd.cpp:705 kwalletd.cpp:717 kwalletd.cpp:726 kwalletd.cpp:731
+#: kwalletd.cpp:1244 main.cpp:39 main.cpp:40
 msgid "KDE Wallet Service"
 msgstr "KDE Wallet পরিসেবা"
-
-#: main.cpp:41
-msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
-msgstr "(C) ২০০২-২০০৮ জর্জ স্টাইকস, মাইকেল লিউপোল্ড, থিয়াগো ম্যাসেইরা"
-
-#: main.cpp:42
-msgid "Michael Leupold"
-msgstr "মাইকেল লিউপোল্ড"
-
-#: main.cpp:42
-msgid "Maintainer"
-msgstr "মেইন্টেনার"
-
-#: main.cpp:43
-msgid "George Staikos"
-msgstr "জর্জ স্টাইকস"
-
-#: main.cpp:43
-msgid "Former maintainer"
-msgstr "পূর্ববর্তী মেইন্টেনার"
-
-#: main.cpp:44
-msgid "Thiago Maceira"
-msgstr "থিয়াগো ম্যাসেইরা"
-
-#: main.cpp:44
-#, fuzzy
-#| msgid "DBus Interface"
-msgid "D-Bus Interface"
-msgstr "DBus ইন্টারফেস"
 
 #: kwalletd.cpp:451
 #, kde-format
@@ -263,43 +245,24 @@ msgstr ""
 "ওয়ালেট ব্যবহারের উদ্দেশ্যে বেশ কয়েকবার ব্যর্থ প্রচেষ্টা করা হয়েছে। সম্ভবত কোনো "
 "অ্যাপ্লিকেশন দ্বারা ভুলবসত এটি হয়েছে।"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
+#: kwalletwizard.cpp:39
+msgid "KWallet"
+msgstr ""
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"
+#: kwalletwizard.cpp:147
+msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
+msgstr "<qt>ফাঁকা পাসওয়ার্ড।  <b>(সতর্কবার্তা: নিরাপদ নয়)</b></qt>"
 
-#. i18n: file: kbetterthankdialogbase.ui:50
-#. i18n: ectx: property (text), widget (KPushButton, _allowOnce)
-#: rc.cpp:5
-msgid "Allow &Once"
-msgstr "একবার অনুমতি প্রদান করা হবে (&O)"
+#: kwalletwizard.cpp:149
+msgid "Passwords match."
+msgstr "পাসওয়ার্ড দুটি মিলেছে।"
 
-#. i18n: file: kbetterthankdialogbase.ui:60
-#. i18n: ectx: property (text), widget (KPushButton, _allowAlways)
-#: rc.cpp:8
-msgid "Allow &Always"
-msgstr "প্রতিবার অনুমতি প্রদান করা হবে (&A)"
+#: kwalletwizard.cpp:152
+msgid "Passwords do not match."
+msgstr "পাসওয়ার্ডে গরমিল।"
 
-#. i18n: file: kbetterthankdialogbase.ui:67
-#. i18n: ectx: property (text), widget (KPushButton, _deny)
-#: rc.cpp:11
-msgid "&Deny"
-msgstr "প্রত্যাখ্যান করা হবে (&D)"
-
-#. i18n: file: kbetterthankdialogbase.ui:74
-#. i18n: ectx: property (text), widget (KPushButton, _denyForever)
-#: rc.cpp:14
-msgid "Deny &Forever"
-msgstr "স্থায়ীভাবে প্রত্যাখ্যান করা হবে (&F)"
-
-#. i18n: file: kwalletwizardpageexplanation.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
-#: rc.cpp:17
+#: kwalletwizardpageexplanation.ui:16
 msgid ""
 "The KDE Wallet system stores your data in a <i>wallet</i> file on your local "
 "hard disk.  The data is only written in encrypted form, presently using the "
@@ -310,17 +273,15 @@ msgid ""
 "wallet to a remote system."
 msgstr ""
 
-#. i18n: file: kwalletwizardpageintro.ui:17
 #. i18n: ectx: property (comment), widget (KTitleWidget, ktitlewidget)
-#: rc.cpp:20
+#: kwalletwizardpageintro.ui:17
 #, fuzzy
 #| msgid "<u>KWallet</u> - The KDE Wallet System"
 msgid "The KDE Wallet System"
 msgstr "<u>KWallet</u> - KDE Wallet ব্যবস্থা"
 
-#. i18n: file: kwalletwizardpageintro.ui:30
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:23
+#: kwalletwizardpageintro.ui:30
 msgid ""
 "Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
 "passwords and other personal information on disk in an encrypted file, "
@@ -328,21 +289,18 @@ msgid ""
 "about KWallet and help you configure it for the first time."
 msgstr ""
 
-#. i18n: file: kwalletwizardpageintro.ui:69
 #. i18n: ectx: property (text), widget (QRadioButton, _basic)
-#: rc.cpp:26
+#: kwalletwizardpageintro.ui:69
 msgid "&Basic setup (recommended)"
 msgstr "মৌলিক বৈশিষ্ট্য (প্রস্তাবিত) (&B)"
 
-#. i18n: file: kwalletwizardpageintro.ui:79
 #. i18n: ectx: property (text), widget (QRadioButton, _advanced)
-#: rc.cpp:29
+#: kwalletwizardpageintro.ui:79
 msgid "&Advanced setup"
 msgstr "উন্নত বৈশিষ্ট্য (&A)"
 
-#. i18n: file: kwalletwizardpageoptions.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:32
+#: kwalletwizardpageoptions.ui:16
 msgid ""
 "The KDE Wallet system allows you to control the level of security of your "
 "personal data.  Some of these settings do impact usability.  While the "
@@ -351,21 +309,18 @@ msgid ""
 "control module."
 msgstr ""
 
-#. i18n: file: kwalletwizardpageoptions.ui:48
 #. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
-#: rc.cpp:35
+#: kwalletwizardpageoptions.ui:48
 msgid "Automatically close idle wallets"
 msgstr "কর্মহীন ওয়ালেট স্বয়ংক্রিয়ভাবে বন্ধ করা হবে"
 
-#. i18n: file: kwalletwizardpageoptions.ui:55
 #. i18n: ectx: property (text), widget (QCheckBox, _networkWallet)
-#: rc.cpp:38
+#: kwalletwizardpageoptions.ui:55
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr "স্থানীয় পাসওয়ার্ড ও নেটওয়ার্ক পাসওয়ার্ডগুলি পৃথক ওয়ালেট ফাইলে সংরক্ষণ করুন"
 
-#. i18n: file: kwalletwizardpagepassword.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:41
+#: kwalletwizardpagepassword.ui:16
 msgid ""
 "Various applications may attempt to use the KDE wallet to store passwords or "
 "other information such as web form data and cookies.  If you would like "
@@ -375,20 +330,47 @@ msgid ""
 "in the wallet."
 msgstr ""
 
-#. i18n: file: kwalletwizardpagepassword.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, _useWallet)
-#: rc.cpp:44
+#: kwalletwizardpagepassword.ui:29
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
 msgstr "হ্যাঁ, ব্যক্তিগত তথ্য সংরক্ষণের জন্য আমি KDE wallet ব্যবহার করতে ইচ্ছুক।"
 
-#. i18n: file: kwalletwizardpagepassword.ui:88
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:47
+#: kwalletwizardpagepassword.ui:88
 msgid "Enter a new password:"
 msgstr "নতুন পাসওয়ার্ড লিখুন:"
 
-#. i18n: file: kwalletwizardpagepassword.ui:104
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
-#: rc.cpp:50
+#: kwalletwizardpagepassword.ui:104
 msgid "Verify password:"
 msgstr "পাসওয়ার্ড নিশ্চিত করুন:"
+
+#: main.cpp:41
+msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+msgstr "(C) ২০০২-২০০৮ জর্জ স্টাইকস, মাইকেল লিউপোল্ড, থিয়াগো ম্যাসেইরা"
+
+#: main.cpp:42
+msgid "Michael Leupold"
+msgstr "মাইকেল লিউপোল্ড"
+
+#: main.cpp:42
+msgid "Maintainer"
+msgstr "মেইন্টেনার"
+
+#: main.cpp:43
+msgid "George Staikos"
+msgstr "জর্জ স্টাইকস"
+
+#: main.cpp:43
+msgid "Former maintainer"
+msgstr "পূর্ববর্তী মেইন্টেনার"
+
+#: main.cpp:44
+msgid "Thiago Maceira"
+msgstr "থিয়াগো ম্যাসেইরা"
+
+#: main.cpp:44
+#, fuzzy
+#| msgid "DBus Interface"
+msgid "D-Bus Interface"
+msgstr "DBus ইন্টারফেস"

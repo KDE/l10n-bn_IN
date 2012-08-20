@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuiserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:47+0200\n"
+"POT-Creation-Date: 2012-08-20 04:52+0200\n"
 "PO-Revision-Date: 2009-01-12 14:26+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
+#: configdialog.ui:31
+msgid "Finished Jobs"
+msgstr "সমাপ্ত কর্ম"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
+#: configdialog.ui:43
+msgid "Move them to a different list"
+msgstr "ভিন্ন তালিকায় স্থানান্তর করা হবে"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
+#: configdialog.ui:50
+msgid "Remove them"
+msgstr "মুছে ফেলুন"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
+#: configdialog.ui:60
+msgid "Appearance"
+msgstr "চেহারা"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
+#: configdialog.ui:72
+msgid "Show all jobs in a list"
+msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
+#: configdialog.ui:79
+msgid "Show all jobs in a tree"
+msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
+#: configdialog.ui:86
+msgid "Show separate windows"
+msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে"
 
 #: jobview.cpp:124 jobview.cpp:152
 #, kde-format
@@ -31,6 +74,31 @@ msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] "%1-টি ফোল্ডার"
 msgstr[1] "%1-টি ফোল্ডার"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:8
+msgid "Move them to a different list."
+msgstr "ভিন্ন তালিকায় স্থানান্তর করুন।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:12
+msgid "Remove them."
+msgstr "মুছে ফেলুন।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:16
+msgid "Show all jobs in a list."
+msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:20
+msgid "Show all jobs in a tree."
+msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:24
+msgid "Show separate windows."
+msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে।"
 
 #: main.cpp:40
 #, fuzzy
@@ -117,88 +185,6 @@ msgstr "স্থগিত করুন"
 #: progresslistdelegate.cpp:293
 msgid "Resume"
 msgstr "পুনরারম্ভ"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"
-
-#. i18n: file: configdialog.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
-#: rc.cpp:5
-msgid "Finished Jobs"
-msgstr "সমাপ্ত কর্ম"
-
-#. i18n: file: configdialog.ui:43
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
-#: rc.cpp:8
-msgid "Move them to a different list"
-msgstr "ভিন্ন তালিকায় স্থানান্তর করা হবে"
-
-#. i18n: file: configdialog.ui:50
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
-#: rc.cpp:11
-msgid "Remove them"
-msgstr "মুছে ফেলুন"
-
-#. i18n: file: configdialog.ui:60
-#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
-#: rc.cpp:14
-msgid "Appearance"
-msgstr "চেহারা"
-
-#. i18n: file: configdialog.ui:72
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
-#: rc.cpp:17
-msgid "Show all jobs in a list"
-msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
-
-#. i18n: file: configdialog.ui:79
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
-#: rc.cpp:20
-msgid "Show all jobs in a tree"
-msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
-
-#. i18n: file: configdialog.ui:86
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
-#: rc.cpp:23
-msgid "Show separate windows"
-msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে"
-
-#. i18n: file: kuiserversettings.kcfg:8
-#. i18n: ectx: label, entry, group (Configuration)
-#: rc.cpp:26
-msgid "Move them to a different list."
-msgstr "ভিন্ন তালিকায় স্থানান্তর করুন।"
-
-#. i18n: file: kuiserversettings.kcfg:12
-#. i18n: ectx: label, entry, group (Configuration)
-#: rc.cpp:29
-msgid "Remove them."
-msgstr "মুছে ফেলুন।"
-
-#. i18n: file: kuiserversettings.kcfg:16
-#. i18n: ectx: label, entry, group (Configuration)
-#: rc.cpp:32
-msgid "Show all jobs in a list."
-msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
-
-#. i18n: file: kuiserversettings.kcfg:20
-#. i18n: ectx: label, entry, group (Configuration)
-#: rc.cpp:35
-msgid "Show all jobs in a tree."
-msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
-
-#. i18n: file: kuiserversettings.kcfg:24
-#. i18n: ectx: label, entry, group (Configuration)
-#: rc.cpp:38
-msgid "Show separate windows."
-msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে।"
 
 #: uiserver.cpp:50
 msgid "Configure..."
