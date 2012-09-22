@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-21 03:51+0000\n"
+"POT-Creation-Date: 2012-09-22 04:06+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2189,82 +2189,6 @@ msgctxt "Name"
 msgid "Command Runner"
 msgstr "কমান্ড সঞ্চালন ব্যবস্থা"
 
-#: krunner/lock/kscreenlocker.notifyrc:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Comment"
-msgid "Screen Saver"
-msgstr "স্ক্রিন-সেভার"
-
-#: krunner/lock/kscreenlocker.notifyrc:67
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen saver started"
-msgstr "স্ক্রিন-সেভার"
-
-#: krunner/lock/kscreenlocker.notifyrc:134
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "The trash has been emptied"
-msgctxt "Comment"
-msgid "The screen saver has been started"
-msgstr "আবর্জনা বর্জন করা হয়েছে"
-
-#: krunner/lock/kscreenlocker.notifyrc:203
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen locked"
-msgstr "স্ক্রিন-সেভার"
-
-#: krunner/lock/kscreenlocker.notifyrc:270
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "The trash has been emptied"
-msgctxt "Comment"
-msgid "The screen has been locked"
-msgstr "আবর্জনা বর্জন করা হয়েছে"
-
-#: krunner/lock/kscreenlocker.notifyrc:340
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen saver exited"
-msgstr "স্ক্রিন-সেভার"
-
-#: krunner/lock/kscreenlocker.notifyrc:406
-msgctxt "Comment"
-msgid "The screen saver has finished"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:475
-msgctxt "Name"
-msgid "Screen unlocked"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:542
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "The trash has been emptied"
-msgctxt "Comment"
-msgid "The screen has been unlocked"
-msgstr "আবর্জনা বর্জন করা হয়েছে"
-
-#: krunner/lock/kscreenlocker.notifyrc:610
-msgctxt "Name"
-msgid "Screen unlock failed"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:677
-msgctxt "Comment"
-msgid "Failed attempt to unlock the screen"
-msgstr ""
-
 #: kscreensaver/kblank_screensaver/kblank.desktop:7
 msgctxt "Name"
 msgid "Blank Screen"
@@ -2314,6 +2238,97 @@ msgstr "সেশান পরিচালন ব্যবস্থা ও ল�
 #: ksmserver/kcm/kcmsmserver.desktop:167
 msgctxt "X-KDE-Keywords"
 msgid "ksmserver,session,logout,confirmation,save,restore"
+msgstr ""
+
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
+msgctxt "Name"
+msgid "Password dialog"
+msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
+
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:3
+msgctxt "Comment"
+msgid ""
+"Screen locker that provides a password dialog and an interface to switch the "
+"current user"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Comment"
+msgid "Screen Saver"
+msgstr "স্ক্রিন-সেভার"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:67
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen saver started"
+msgstr "স্ক্রিন-সেভার"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:134
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "The trash has been emptied"
+msgctxt "Comment"
+msgid "The screen saver has been started"
+msgstr "আবর্জনা বর্জন করা হয়েছে"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:203
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen locked"
+msgstr "স্ক্রিন-সেভার"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:270
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "The trash has been emptied"
+msgctxt "Comment"
+msgid "The screen has been locked"
+msgstr "আবর্জনা বর্জন করা হয়েছে"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:340
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen saver exited"
+msgstr "স্ক্রিন-সেভার"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:406
+msgctxt "Comment"
+msgid "The screen saver has finished"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:475
+msgctxt "Name"
+msgid "Screen unlocked"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:542
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "The trash has been emptied"
+msgctxt "Comment"
+msgid "The screen has been unlocked"
+msgstr "আবর্জনা বর্জন করা হয়েছে"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:610
+msgctxt "Name"
+msgid "Screen unlock failed"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:677
+msgctxt "Comment"
+msgid "Failed attempt to unlock the screen"
 msgstr ""
 
 #: ksmserver/themes/contour/metadata.desktop:3
@@ -4473,12 +4488,12 @@ msgctxt "Keywords"
 msgid "Lock, Logout, Sleep, Hibernate, Switch User"
 msgstr ""
 
-#: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:2
+#: plasma/generic/applets/notifications/metadata.desktop:3
 msgctxt "Name"
 msgid "Notifications"
 msgstr "সূচনাবার্তা"
 
-#: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:88
+#: plasma/generic/applets/notifications/metadata.desktop:4
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
@@ -8530,13 +8545,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "KDE Notification Daemon"
 #~ msgstr "KDE Notification ডেমন"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Password caching support"
-#~ msgctxt "Name"
-#~ msgid "Password Caching"
-#~ msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
 
 #, fuzzy
 #~| msgctxt "Comment"
