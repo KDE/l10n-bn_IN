@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-05 04:36+0200\n"
+"POT-Creation-Date: 2012-10-06 04:47+0200\n"
 "PO-Revision-Date: 2008-12-31 16:02+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -315,9 +315,11 @@ msgstr "মুছে ফেলুন (&e)"
 msgid "Delete A&ll"
 msgstr "সমগ্র মুছে ফেলুন (&l)"
 
-#. i18n: ectx: property (text), widget (QPushButton, changePolicyButton)
+#. i18n: ectx: property (text), widget (QPushButton, configPolicyButton)
 #: kcookiesmanagement.ui:70
-msgid "Change &Policy..."
+#, fuzzy
+#| msgid "Change &Policy..."
+msgid "Configure &Policy..."
 msgstr "নীতি পরিবর্তন করুন (&P)"
 
 #. i18n: ectx: property (text), widget (QPushButton, reloadButton)
@@ -383,24 +385,24 @@ msgstr ""
 "<qt><center><b>%1</b></center>-র জন্য বর্তমানে একটি নিয়ম উপস্থিত রয়েছে। আপনি কি "
 "এটি পরিবর্তন করতে ইচ্ছুক?</qt>"
 
-#: kcookiespolicies.cpp:230
+#: kcookiespolicies.cpp:229
 #, fuzzy
 #| msgid "Site Policy"
 msgctxt "@title:window"
 msgid "Duplicate Policy"
 msgstr "সাইটের নীতি"
 
-#: kcookiespolicies.cpp:231 useragentdlg.cpp:202
+#: kcookiespolicies.cpp:230 useragentdlg.cpp:202
 msgid "Replace"
 msgstr "প্রতিস্থাপন করুন"
 
-#: kcookiespolicies.cpp:400
+#: kcookiespolicies.cpp:395
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
 
-#: kcookiespolicies.cpp:442
+#: kcookiespolicies.cpp:437
 msgid ""
 "<p><h1>Cookies</h1> Cookies contain information that Konqueror (or any other "
 "KDE application using the HTTP protocol) stores on your computer from a "
