@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-12 12:42+0200\n"
+"POT-Creation-Date: 2012-10-13 13:00+0200\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1416,17 +1416,17 @@ msgstr ""
 msgid "Do you really want to close all other tabs?"
 msgstr "অন্যান্য সকল ট্যাব কি নিশ্চিতরূপে বন্ধ করা হবে?"
 
-#: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:3722
-#: src/konqtabs.cpp:353
-msgid "Close &Other Tabs"
-msgstr "অন্যান্য ট্যাব বন্ধ করুন (&O)"
-
 #: src/konqmainwindow.cpp:2596
 #, fuzzy
 #| msgid "Close Other Tabs Confirmation"
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "অন্যান্য সকল ট্যাব বন্ধ করার নিশ্চিতি"
+
+#: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:3722
+#: src/konqtabs.cpp:355
+msgid "Close &Other Tabs"
+msgstr "অন্যান্য ট্যাব বন্ধ করুন (&O)"
 
 #: src/konqmainwindow.cpp:2611
 msgid ""
@@ -1569,7 +1569,7 @@ msgstr ""
 msgid "Split View &Top/Bottom"
 msgstr ""
 
-#: src/konqmainwindow.cpp:3695 src/konqtabs.cpp:464
+#: src/konqmainwindow.cpp:3695 src/konqtabs.cpp:462
 msgid "&New Tab"
 msgstr "নতুন ট্যাব (&N)"
 
@@ -1622,7 +1622,7 @@ msgstr "প্রদর্শনের প্রোফাইল কনফিগ�
 msgid "Load &View Profile"
 msgstr "প্রদর্শনের প্রোফাইল লোড করুন (&V)"
 
-#: src/konqmainwindow.cpp:3784 src/konqtabs.cpp:330
+#: src/konqmainwindow.cpp:3784 src/konqtabs.cpp:332
 msgid "&Reload All Tabs"
 msgstr "সকল ট্যাব নতুন করে লোড করা হবে (&R)"
 
@@ -2040,59 +2040,40 @@ msgstr "মুছে ফেলুন"
 msgid "Open tabs inside current window"
 msgstr "বর্তমান উইন্ডোর মধ্যে ট্যাব খোলা হবে"
 
-#: src/konqsessionmanager.cpp:98
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Konqueror সঠিকভাবে বন্ধ করা হয়নি। পূর্ববর্তী সেশান পুনরুদ্ধার করা হবে কি?"
+
+#: src/konqsessionmanager.cpp:332
 #, fuzzy
 #| msgid "Restore Session?"
 msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "সেশান পুনরুদ্ধার করা হবে কি?"
 
-#: src/konqsessionmanager.cpp:101
+#: src/konqsessionmanager.cpp:333
 #, fuzzy
 #| msgid "Restore Session"
-msgctxt "@action:button yes"
 msgid "Restore Session"
 msgstr "সেশান পুনরুদ্ধার করা হবে"
 
-#: src/konqsessionmanager.cpp:102
+#: src/konqsessionmanager.cpp:334
 #, fuzzy
 #| msgid "Do Not Restore"
-msgctxt "@action:button no"
 msgid "Do Not Restore"
 msgstr "সেশান পুনরুদ্ধার করা হবে না"
 
-#: src/konqsessionmanager.cpp:103
+#: src/konqsessionmanager.cpp:335
 #, fuzzy
 #| msgid "Ask Me Later"
-msgctxt "@action:button ask later"
 msgid "Ask Me Later"
 msgstr "পরে জিজ্ঞাসা করা হবে"
 
-#: src/konqsessionmanager.cpp:131
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore these previous "
-"sessions?"
-msgstr "Konqueror সঠিকভাবে বন্ধ করা হয়নি। পূর্ববর্তী সেশান পুনরুদ্ধার করা হবে কি?"
-
-#: src/konqsessionmanager.cpp:145
-msgctxt "@tooltip:session list"
-msgid "Uncheck the sessions you do not want to be restored"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:177
-#, fuzzy, kde-format
-#| msgid "&Window"
-msgctxt "@item:treewidget"
-msgid "Window %1"
-msgstr "উইন্ডো (&W)"
-
-#: src/konqsessionmanager.cpp:218
-msgid "Do not ask again"
-msgstr ""
-
-#: src/konqtabs.cpp:67
+#: src/konqtabs.cpp:66
 msgid ""
 "This bar contains the list of currently open tabs. Click on a tab to make it "
 "active. You can also use keyboard shortcuts to navigate through tabs. The "
@@ -2101,31 +2082,31 @@ msgid ""
 "tab width."
 msgstr ""
 
-#: src/konqtabs.cpp:101
+#: src/konqtabs.cpp:100
 msgid "Open a new tab"
 msgstr "নতুন ট্যাব খুলুন"
 
-#: src/konqtabs.cpp:110
+#: src/konqtabs.cpp:109
 msgid "Close the current tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: src/konqtabs.cpp:469
+#: src/konqtabs.cpp:467
 msgid "&Duplicate Tab"
 msgstr "ট্যাবের প্রতিলিপি তৈরি করুন (&D)"
 
-#: src/konqtabs.cpp:474
+#: src/konqtabs.cpp:472
 msgid "&Reload Tab"
 msgstr "ট্যাব পুনরায় লোড করুন (&R)"
 
-#: src/konqtabs.cpp:481
+#: src/konqtabs.cpp:479
 msgid "Other Tabs"
 msgstr "অন্যান্য ট্যাব"
 
-#: src/konqtabs.cpp:486
+#: src/konqtabs.cpp:484
 msgid "D&etach Tab"
 msgstr "ট্যাব বিচ্ছিন্ন করুন (&e)"
 
-#: src/konqtabs.cpp:492
+#: src/konqtabs.cpp:490
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
@@ -2360,6 +2341,12 @@ msgid ""
 msgstr ""
 "এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
 "প্রোফাইল লোড করা হলে এই পরিবর্তনগুলি মুছে যাবে।"
+
+#, fuzzy
+#~| msgid "&Window"
+#~ msgctxt "@item:treewidget"
+#~ msgid "Window %1"
+#~ msgstr "উইন্ডো (&W)"
 
 #~ msgid " min"
 #~ msgstr " মিনিট"
