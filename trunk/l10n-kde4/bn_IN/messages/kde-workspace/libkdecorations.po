@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_lib\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-11-10 02:58+0100\n"
 "PO-Revision-Date: 2009-01-09 12:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -24,61 +24,67 @@ msgstr ""
 msgid "<center><b>%1</b></center>"
 msgstr "<center><b>%1-র ঝলক</b></center>"
 
-#: kcommondecoration.cpp:380
-msgid "Menu"
-msgstr "মেনু"
+#: kcommondecoration.cpp:385
+msgctxt "Button showing window actions menu"
+msgid "Window Menu"
+msgstr ""
 
-#: kcommondecoration.cpp:396 kcommondecoration.cpp:606
+#: kcommondecoration.cpp:400
+msgctxt "Button showing application menu"
+msgid "Application Menu"
+msgstr ""
+
+#: kcommondecoration.cpp:422 kcommondecoration.cpp:639
 msgid "Not on all desktops"
 msgstr "সকল ডেস্কটপের মধ্যে নয়"
 
-#: kcommondecoration.cpp:396 kcommondecoration.cpp:607
+#: kcommondecoration.cpp:422 kcommondecoration.cpp:640
 msgid "On all desktops"
 msgstr "সকল ডেস্কটপের মধ্যে"
 
-#: kcommondecoration.cpp:411
+#: kcommondecoration.cpp:437
 msgid "Help"
 msgstr "সাহায্য"
 
-#: kcommondecoration.cpp:424
+#: kcommondecoration.cpp:450
 msgid "Minimize"
 msgstr "আড়াল করুন"
 
-#: kcommondecoration.cpp:439 kcommondecoration.cpp:594
+#: kcommondecoration.cpp:465 kcommondecoration.cpp:627
 msgid "Restore"
 msgstr "স্বাভাবিক মাপ"
 
-#: kcommondecoration.cpp:439 kcommondecoration.cpp:593
+#: kcommondecoration.cpp:465 kcommondecoration.cpp:626
 msgid "Maximize"
 msgstr "বড় করুন"
 
-#: kcommondecoration.cpp:454
+#: kcommondecoration.cpp:480
 msgid "Close"
 msgstr "বন্ধ করুন"
 
-#: kcommondecoration.cpp:468 kcommondecoration.cpp:647
+#: kcommondecoration.cpp:494 kcommondecoration.cpp:680
 msgid "Do not keep above others"
 msgstr "অন্যান্যদের উপরে স্থাপন করা হবে না"
 
-#: kcommondecoration.cpp:468 kcommondecoration.cpp:647
-#: kcommondecoration.cpp:668
+#: kcommondecoration.cpp:494 kcommondecoration.cpp:680
+#: kcommondecoration.cpp:701
 msgid "Keep above others"
 msgstr "অন্যান্যদের উপর স্থাপন করা হবে"
 
-#: kcommondecoration.cpp:484 kcommondecoration.cpp:662
+#: kcommondecoration.cpp:510 kcommondecoration.cpp:695
 msgid "Do not keep below others"
 msgstr "অন্যান্যদের নীচে স্থাপন করা হবে না"
 
-#: kcommondecoration.cpp:484 kcommondecoration.cpp:653
-#: kcommondecoration.cpp:662
+#: kcommondecoration.cpp:510 kcommondecoration.cpp:686
+#: kcommondecoration.cpp:695
 msgid "Keep below others"
 msgstr "অন্যান্যদের নীচে স্থাপন করা হবে"
 
-#: kcommondecoration.cpp:500 kcommondecoration.cpp:618
+#: kcommondecoration.cpp:526 kcommondecoration.cpp:651
 msgid "Unshade"
 msgstr "ছায়াবিহীন"
 
-#: kcommondecoration.cpp:500 kcommondecoration.cpp:619
+#: kcommondecoration.cpp:526 kcommondecoration.cpp:652
 msgid "Shade"
 msgstr "ছায়াবৃত"
 
@@ -109,6 +115,9 @@ msgid ""
 "The library %1 was attempted to be loaded as a decoration plugin but it is "
 "NOT"
 msgstr ""
+
+#~ msgid "Menu"
+#~ msgstr "মেনু"
 
 #~ msgid "No window decoration plugin library was found."
 #~ msgstr "উইন্ডোর সাজসজ্জার জন্য কোনো প্লাগ-ইন লাইব্রেরি পাওয়া যায়নি।"
