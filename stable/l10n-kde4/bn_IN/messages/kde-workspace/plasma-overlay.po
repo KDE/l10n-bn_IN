@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-overlay\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:44+0200\n"
+"POT-Creation-Date: 2012-11-11 07:58+0100\n"
 "PO-Revision-Date: 2009-01-12 12:19+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,125 +26,116 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: backgrounddialog.cpp:46
+#: backgrounddialog.cpp:45
 msgid "Background Settings"
 msgstr "পটভূমির বৈশিষ্ট্য"
 
-#: backgrounddialog.cpp:60
-msgid ""
-"This picture of a monitor contains a preview of what the current settings "
-"will look like on your desktop."
-msgstr ""
-"বর্তমান বৈশিষ্ট্যগুলি প্রয়োগের পরে ডেস্কটপের চেহারার একটি ঝলক এই ছবির মধ্যে উপস্থিত "
-"করা হয়েছে।"
-
-#: backgrounddialog.cpp:121
+#: backgrounddialog.cpp:110
 msgid "No Wallpaper"
 msgstr "ওয়াল-পেপার বিহীন"
 
-#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel_2)
-#: BackgroundDialog.ui:37
-msgid "Widget Translucency"
-msgstr "উইজেটের স্বচ্ছতা"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: BackgroundDialog.ui:60
-#, fuzzy
-#| msgid "User Activity:"
-msgid "User activity:"
-msgstr "ব্যবহারকারীর কর্ম:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: BackgroundDialog.ui:89
-#, fuzzy
-#| msgid "While Idle:"
-msgid "While idle:"
-msgstr "কর্মবিহীন অবস্থায়:"
-
 #. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
-#: BackgroundDialog.ui:143
+#: BackgroundDialog.ui:59
 msgid "Wallpaper"
 msgstr "ওয়াল-পেপার"
 
 #. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
-#: BackgroundDialog.ui:166
+#: BackgroundDialog.ui:66
 msgid "Type:"
 msgstr "ধরন:"
 
-#. i18n: ectx: property (text), widget (QLabel, m_monitor)
-#: BackgroundDialog.ui:205
-msgid "Monitor"
-msgstr "মনিটর"
-
-#: main.cpp:29
+#: main.cpp:27
 msgid "Plasma widgets over the screensaver"
 msgstr "স্ক্রিন-সেভারের উপর Plasma"
 
-#: main.cpp:35
+#: main.cpp:33
 msgid "Plasma for the Screensaver"
 msgstr "স্ক্রিন-সেভারের জন্য Plasma"
 
-#: main.cpp:37
+#: main.cpp:35
 msgid "Copyright 2006-2008, The KDE Team"
 msgstr "স্বত্বাধিকার ২০০৬ -২০০৮, KDE দল"
 
-#: main.cpp:38
+#: main.cpp:36
 msgid "Chani Armitage"
 msgstr "চানি আর্মিটেজ"
 
-#: main.cpp:39
+#: main.cpp:37
 msgid "Author and maintainer"
 msgstr "নির্মাতা ও মেইন্টেনার"
 
-#: main.cpp:41
+#: main.cpp:39
 msgid "Aaron J. Seigo"
 msgstr "অ্যারন জে. সেইগো"
 
-#: main.cpp:42
+#: main.cpp:40
 msgid "Plasma Author and maintainer"
 msgstr "Plasma নির্মাতা ও মেইন্টেনার"
 
-#: main.cpp:44
+#: main.cpp:42
 msgid "John Lions"
 msgstr "জন লায়ন্স"
 
-#: main.cpp:45
+#: main.cpp:43
 msgid "In memory of his contributions, 1937-1998."
 msgstr "তাঁর অবদানের স্মরণে, ১৯৩৭-১৯৯৮।"
 
-#: main.cpp:51
+#: main.cpp:49
 msgid "Enables some cheats that are useful for debugging."
 msgstr "ডিবাগ করার সুবিধার্থে কিছু সহজ উপায় সক্রিয় করা হয়।"
 
-#: main.cpp:52
+#: main.cpp:50
 msgid "Start unlocked for configuration."
 msgstr "কনফিগারেশনের জন্য আন-লক অবস্থায় আরম্ভ করা হবে।"
 
-#: savercorona.cpp:73 savercorona.cpp:134
+#: savercorona.cpp:85 savercorona.cpp:158
 msgid "Lock Screen"
 msgstr ""
 
-#: savercorona.cpp:73 savercorona.cpp:134
+#: savercorona.cpp:85 savercorona.cpp:158
 msgid "Configure Widgets"
 msgstr ""
 
-#: savercorona.cpp:77 savercorona.cpp:138
+#: savercorona.cpp:89 savercorona.cpp:162
 #, fuzzy
 #| msgid "Plasma for the Screensaver"
 msgid "Leave Screensaver"
 msgstr "স্ক্রিন-সেভারের জন্য Plasma"
 
-#: savercorona.cpp:77 savercorona.cpp:138
+#: savercorona.cpp:89 savercorona.cpp:162
 msgid "Unlock"
 msgstr ""
 
-#: savercorona.cpp:152
+#: savercorona.cpp:179
 msgid "Unlock widgets to configure them"
 msgstr ""
 
-#: saverview.cpp:156
+#: saverview.cpp:155
 msgid "Setup Mode - Screen is NOT locked"
 msgstr "প্রস্তুতির মোড - পর্দা লক করা হবে না"
+
+#~ msgid ""
+#~ "This picture of a monitor contains a preview of what the current settings "
+#~ "will look like on your desktop."
+#~ msgstr ""
+#~ "বর্তমান বৈশিষ্ট্যগুলি প্রয়োগের পরে ডেস্কটপের চেহারার একটি ঝলক এই ছবির মধ্যে "
+#~ "উপস্থিত করা হয়েছে।"
+
+#~ msgid "Widget Translucency"
+#~ msgstr "উইজেটের স্বচ্ছতা"
+
+#, fuzzy
+#~| msgid "User Activity:"
+#~ msgid "User activity:"
+#~ msgstr "ব্যবহারকারীর কর্ম:"
+
+#, fuzzy
+#~| msgid "While Idle:"
+#~ msgid "While idle:"
+#~ msgstr "কর্মবিহীন অবস্থায়:"
+
+#~ msgid "Monitor"
+#~ msgstr "মনিটর"
 
 #~ msgid "Add Widgets"
 #~ msgstr "উইজেট যোগ করুন"

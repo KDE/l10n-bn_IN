@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:40+0100\n"
+"POT-Creation-Date: 2012-11-11 07:58+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -113,10 +113,6 @@ msgstr ""
 msgid "Run script"
 msgstr ""
 
-#: actions/bundled/suspendsession.cpp:114
-msgid "The screen is being locked"
-msgstr "পর্দা লক করা হচ্ছে"
-
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 msgid "Switch off after"
 msgstr ""
@@ -199,6 +195,10 @@ msgid ""
 "details."
 msgstr ""
 
+#: powerdevilcore.cpp:204
+msgid "Broken Battery"
+msgstr ""
+
 #: powerdevilcore.cpp:213
 #, kde-format
 msgid ""
@@ -215,6 +215,10 @@ msgid ""
 "vendors recall the hardware, it is because of factory defects which are "
 "usually eligible for a free repair or substitution. Please check <a href="
 "\"%2\">%1's website</a> to verify if your battery is faulted."
+msgstr ""
+
+#: powerdevilcore.cpp:225
+msgid "Check Your Battery"
 msgstr ""
 
 #: powerdevilcore.cpp:345
@@ -248,7 +252,7 @@ msgstr ""
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
-#: powerdevilcore.cpp:457
+#: powerdevilcore.cpp:459
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -260,35 +264,13 @@ msgstr ""
 "ব্যাটারি প্রেক্ষাপটের সাথে সংযোগ স্থাপন করা যায়নি!\n"
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
-#: powerdevilcore.cpp:505
-#, fuzzy
-#| msgid "The power adaptor has been plugged in"
-msgid ""
-"The power adaptor has been plugged in – all pending suspend actions have "
-"been canceled."
-msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
-
-#: powerdevilcore.cpp:507
-#, fuzzy
-#| msgid "The power adaptor has been plugged in"
-msgid "The power adaptor has been plugged in."
-msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
-
-#: powerdevilcore.cpp:510
-#, fuzzy
-#| msgid "The power adaptor has been unplugged"
-msgid "The power adaptor has been unplugged."
-msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
-
-#: powerdevilcore.cpp:516
+#: powerdevilcore.cpp:527 powerdevilcore.cpp:532 powerdevilcore.cpp:537
+#: powerdevilcore.cpp:542
 #, kde-format
-msgid ""
-"KDE Power Management System could not be initialized. The backend reported "
-"the following error: %1\n"
-"Please check your system configuration"
+msgid "Battery Critical (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:543
+#: powerdevilcore.cpp:528
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -299,7 +281,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:549
+#: powerdevilcore.cpp:533
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -311,7 +293,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:555
+#: powerdevilcore.cpp:538
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -322,20 +304,90 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
 "এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:561
+#: powerdevilcore.cpp:543
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
 #| "possible!"
-msgid "Your battery level is critical: save your work as soon as possible."
+msgid "Your battery level is critical, save your work as soon as possible."
 msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
 
-#: powerdevilcore.cpp:567
+#: powerdevilcore.cpp:549
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:550
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+
+#: powerdevilcore.cpp:569
 #, fuzzy
-#| msgid "Your battery has reached low level"
-msgid "Your battery has reached a low level."
-msgstr "ব্যাটারির ক্ষমতা অত্যন্ত কম"
+#| msgid "When AC Adaptor is plugged in"
+msgid "AC Adapter Plugged In"
+msgstr "AC অ্যাডাপ্টার সংযুক্ত করা হলে"
+
+#: powerdevilcore.cpp:570
+#, fuzzy
+#| msgid "The power adaptor has been plugged in"
+msgid "All pending suspend actions have been canceled."
+msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
+
+#: powerdevilcore.cpp:572
+msgid "Running on AC power"
+msgstr ""
+
+#: powerdevilcore.cpp:572
+#, fuzzy
+#| msgid "The power adaptor has been plugged in"
+msgid "The power adaptor has been plugged in."
+msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
+
+#: powerdevilcore.cpp:575
+#, fuzzy
+#| msgid "When on battery Power"
+msgid "Running on Battery Power"
+msgstr "ব্যাটারি দ্বারা চালিত হলে"
+
+#: powerdevilcore.cpp:575
+#, fuzzy
+#| msgid "The power adaptor has been unplugged"
+msgid "The power adaptor has been unplugged."
+msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
+
+#: powerdevilcore.cpp:581
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+
+#: powerdevilcore.cpp:629
+msgid "Charge Complete"
+msgstr ""
+
+#: powerdevilcore.cpp:629
+msgid "Your battery is now fully charged."
+msgstr ""
+
+#~ msgid "The screen is being locked"
+#~ msgstr "পর্দা লক করা হচ্ছে"
+
+#, fuzzy
+#~| msgid "The power adaptor has been plugged in"
+#~ msgid ""
+#~ "The power adaptor has been plugged in – all pending suspend actions have "
+#~ "been canceled."
+#~ msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
+
+#, fuzzy
+#~| msgid "Your battery has reached low level"
+#~ msgid "Your battery has reached a low level."
+#~ msgstr "ব্যাটারির ক্ষমতা অত্যন্ত কম"
 
 #, fuzzy
 #~| msgid "Performance"
@@ -389,13 +441,6 @@ msgstr "ব্যাটারির ক্ষমতা অত্যন্ত ক
 #~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c) 2008 Dario Freddi"
 #~ msgstr "(c), ২০০৮ ডারিও ফ্রেডি"
-
-#, fuzzy
-#~| msgid "The power adaptor has been plugged in"
-#~ msgid ""
-#~ "The power adaptor has been plugged in. Any pending suspend actions have "
-#~ "been canceled."
-#~ msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
 #, fuzzy
 #~| msgid ""
@@ -639,9 +684,6 @@ msgstr "ব্যাটারির ক্ষমতা অত্যন্ত ক
 #~ msgid "Configure Notifications..."
 #~ msgstr "সূচনাব্যবস্থা কনফিগার করুন"
 
-#~ msgid "When AC Adaptor is plugged in"
-#~ msgstr "AC অ্যাডাপ্টার সংযুক্ত করা হলে"
-
 #, fuzzy
 #~| msgid "When AC Adaptor is plugged in"
 #~ msgid "When AC Adaptor is unplugged"
@@ -705,11 +747,6 @@ msgstr "ব্যাটারির ক্ষমতা অত্যন্ত ক
 #~| msgid "Do nothing"
 #~ msgid "Do not wait"
 #~ msgstr "কিছু করা হবে না"
-
-#, fuzzy
-#~| msgid "When on battery Power"
-#~ msgid "When on battery power"
-#~ msgstr "ব্যাটারি দ্বারা চালিত হলে"
 
 #, fuzzy
 #~| msgid "Do nothing"
