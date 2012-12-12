@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-24 02:56+0100\n"
+"POT-Creation-Date: 2012-12-12 03:05+0100\n"
 "PO-Revision-Date: 2008-12-29 15:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -122,22 +122,26 @@ msgid "Desktop SVG theme to use"
 msgstr ""
 
 #: main.cpp:155
+msgid "Initial size"
+msgstr ""
+
+#: main.cpp:157
 msgid ""
 "Name of the wallpaper plugin. Requires a containment plugin to be specified."
 msgstr ""
 
-#: main.cpp:156
+#: main.cpp:158
 msgid ""
 "Name of applet to view; may refer to the plugin name or be a path (absolute "
 "or relative) to a package. If not provided, then an attempt is made to load "
 "a package from the current directory."
 msgstr ""
 
-#: main.cpp:159
+#: main.cpp:161
 msgid "Optional arguments of the applet to add"
 msgstr "যোগ করার উদ্দেশ্যে চিহ্নিত ঐচ্ছিক আর্গুমেন্ট"
 
-#: main.cpp:160
+#: main.cpp:162
 msgid "List zeroconf announced remote widgets"
 msgstr ""
 
