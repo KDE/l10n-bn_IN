@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-14 02:37+0100\n"
+"POT-Creation-Date: 2013-01-04 02:54+0100\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -899,8 +899,8 @@ msgctxt "@title:window"
 msgid "Add web sidebar module"
 msgstr ""
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5197
-#: src/konqmainwindow.cpp:5257
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5199
+#: src/konqmainwindow.cpp:5259
 msgid "no name"
 msgstr "নাম বিহীন"
 
@@ -1340,7 +1340,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:1724 src/konqmainwindow.cpp:2464
 #: src/konqmainwindow.cpp:2555 src/konqmainwindow.cpp:2585
 #: src/konqmainwindow.cpp:2627 src/konqmainwindow.cpp:2649
-#: src/konqmainwindow.cpp:5159 src/konqviewmanager.cpp:1426
+#: src/konqmainwindow.cpp:5161 src/konqviewmanager.cpp:1423
 #, fuzzy
 #| msgid "Discard Changes?"
 msgctxt "@title:window"
@@ -1350,7 +1350,7 @@ msgstr "পরিবর্তন বর্জন করা হবে কি?"
 #: src/konqmainwindow.cpp:1724 src/konqmainwindow.cpp:2464
 #: src/konqmainwindow.cpp:2555 src/konqmainwindow.cpp:2585
 #: src/konqmainwindow.cpp:2627 src/konqmainwindow.cpp:2650
-#: src/konqmainwindow.cpp:5159 src/konqviewmanager.cpp:1426
+#: src/konqmainwindow.cpp:5161 src/konqviewmanager.cpp:1423
 msgid "&Discard Changes"
 msgstr "পরিবর্তন বর্জন করা হবে কি? (&D)"
 
@@ -1860,38 +1860,38 @@ msgstr "নতুন ট্যাবের মধ্যে প্রদর্শ
 msgid "Open the document in a new tab"
 msgstr "নতুন ট্যাবের মধ্যে এই নথিটি প্রদর্শন করা হবে"
 
-#: src/konqmainwindow.cpp:4936
+#: src/konqmainwindow.cpp:4938
 msgid "&Open With"
 msgstr "চিহ্নিত অ্যাপ্লিকেশন সহযোগে খোলা হবে (&O)"
 
-#: src/konqmainwindow.cpp:4950
+#: src/konqmainwindow.cpp:4952
 #, kde-format
 msgid "Open with %1"
 msgstr "%1 সহযোগে খুলুন"
 
-#: src/konqmainwindow.cpp:4996
+#: src/konqmainwindow.cpp:4998
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "প্রদর্শনের মোড (&V)"
 
-#: src/konqmainwindow.cpp:5122
+#: src/konqmainwindow.cpp:5124
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "বর্তমান উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে। আপনি কি নিশ্চিতরূপে বন্ধ করতে ইচ্ছুক?"
 
-#: src/konqmainwindow.cpp:5124 src/konqviewmanager.cpp:1412
+#: src/konqmainwindow.cpp:5126 src/konqviewmanager.cpp:1409
 #, fuzzy
 #| msgid "Confirmation"
 msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "নিশ্চায়ন"
 
-#: src/konqmainwindow.cpp:5126
+#: src/konqmainwindow.cpp:5128
 msgid "C&lose Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন (&l)"
 
-#: src/konqmainwindow.cpp:5155
+#: src/konqmainwindow.cpp:5157
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1899,7 +1899,7 @@ msgstr ""
 "এই ট্যাবের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
 "উইন্ডোটি বন্ধ করা হলে, এই পরিবর্তনগুলি মুছে যাবে।"
 
-#: src/konqmainwindow.cpp:5156
+#: src/konqmainwindow.cpp:5158
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1907,32 +1907,32 @@ msgstr ""
 "এই পেজের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
 "উইন্ডোটি বন্ধ করা হলে, এই পরিবর্তনগুলি মুছে যাবে।"
 
-#: src/konqmainwindow.cpp:5324
+#: src/konqmainwindow.cpp:5326
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5324 src/konqmainwindow.cpp:5331
+#: src/konqmainwindow.cpp:5326 src/konqmainwindow.cpp:5333
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "ওয়েবের সাইড-বার"
 
-#: src/konqmainwindow.cpp:5329
+#: src/konqmainwindow.cpp:5331
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5331
+#: src/konqmainwindow.cpp:5333
 msgid "Add"
 msgstr "যোগ করুন"
 
-#: src/konqmainwindow.cpp:5331
+#: src/konqmainwindow.cpp:5333
 msgid "Do Not Add"
 msgstr "যোগ করা হবে না"
 
-#: src/konqmainwindow.cpp:5644
+#: src/konqmainwindow.cpp:5646
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -2341,7 +2341,7 @@ msgstr "সতর্কবার্তা"
 msgid "Resend"
 msgstr "পুনরায় পাঠানো হবে"
 
-#: src/konqviewmanager.cpp:1410
+#: src/konqviewmanager.cpp:1407
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -2349,11 +2349,11 @@ msgstr ""
 "বর্তমান উইন্ডোর মধ্যে একাধিক খোলা ট্যাব উপস্থিত রয়েছে।\n"
 "প্রদর্শনের প্রোফাইল লোড করা হলে, ট্যাবগুলি বন্ধ হয়ে যাবে।"
 
-#: src/konqviewmanager.cpp:1413
+#: src/konqviewmanager.cpp:1410
 msgid "Load View Profile"
 msgstr "প্রদর্শনের প্রোফাইল লোড করুন"
 
-#: src/konqviewmanager.cpp:1425
+#: src/konqviewmanager.cpp:1422
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
