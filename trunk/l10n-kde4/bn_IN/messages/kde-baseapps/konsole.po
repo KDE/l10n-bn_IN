@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-08 12:24+0100\n"
+"POT-Creation-Date: 2013-01-09 02:19+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2506,28 +2506,30 @@ msgstr "মাপ: %1 x %2"
 
 #: TerminalDisplay.cpp:2581
 #, kde-format
-msgid "Are you sure you want to paste %1 characters?"
-msgstr ""
+msgid "Are you sure you want to paste %1 character?"
+msgid_plural "Are you sure you want to paste %1 characters?"
+msgstr[0] ""
+msgstr[1] ""
 
-#: TerminalDisplay.cpp:2583
+#: TerminalDisplay.cpp:2584
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:2758
+#: TerminalDisplay.cpp:2759
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3011
+#: TerminalDisplay.cpp:3012
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3025
+#: TerminalDisplay.cpp:3026
 msgid "Change &Directory To"
 msgstr ""
 
