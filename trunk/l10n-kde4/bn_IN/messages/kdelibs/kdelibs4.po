@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-15 03:06+0100\n"
+"POT-Creation-Date: 2013-01-12 03:23+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -101,31 +101,31 @@ msgstr "TETest"
 msgid "Only local files are supported."
 msgstr "শুধুমাত্র স্থানীয় ফাইল সমর্থিত হবে।"
 
-#: kconf_update/kconf_update.cpp:967
+#: kconf_update/kconf_update.cpp:968
 msgid "Keep output results from scripts"
 msgstr "স্ক্রিপ্ট থেকে প্রাপ্ত ফলাফল সংরক্ষণ করা হবে"
 
-#: kconf_update/kconf_update.cpp:968
+#: kconf_update/kconf_update.cpp:969
 msgid "Check whether config file itself requires updating"
 msgstr "কনফিগ ফাইল আপডেট করার প্রয়োজন কিনা পরীক্ষা করুন"
 
-#: kconf_update/kconf_update.cpp:969
+#: kconf_update/kconf_update.cpp:970
 msgid "File to read update instructions from"
 msgstr "চিহ্নিত ফাইল থেকে আপডেট সংক্রান্ত তথ্য পড়া হবে"
 
-#: kconf_update/kconf_update.cpp:971
+#: kconf_update/kconf_update.cpp:972
 msgid "KConf Update"
 msgstr "KConf আপডেট"
 
-#: kconf_update/kconf_update.cpp:973
+#: kconf_update/kconf_update.cpp:974
 msgid "KDE Tool for updating user configuration files"
 msgstr "ব্যবহারকারীর কনফিগারেশন ফাইল আপডেট করতে ব্যবহৃত KDE সামগ্রী"
 
-#: kconf_update/kconf_update.cpp:975
+#: kconf_update/kconf_update.cpp:976
 msgid "(c) 2001, Waldo Bastian"
 msgstr "(c) ২০০১, ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: kconf_update/kconf_update.cpp:977 kded/kbuildsycoca.cpp:639
+#: kconf_update/kconf_update.cpp:978 kded/kbuildsycoca.cpp:639
 #: khtml/khtml_global.cpp:213
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
@@ -9361,7 +9361,7 @@ msgstr "HTTP হেডার"
 msgid "Property"
 msgstr "বৈশিষ্ট্য"
 
-#: khtml/java/kjavaapplet.cpp:224
+#: khtml/java/kjavaapplet.cpp:225
 #, kde-format
 msgid "Initializing Applet \"%1\"..."
 msgstr "অ্যাপ্লেট \"%1\" প্রারম্ভ করা হচ্ছে..."
@@ -9586,12 +9586,12 @@ msgstr "ফাইল নতুন করে লেখা হবে কি?"
 msgid "Overwrite"
 msgstr "নতুন করে লেখা হবে"
 
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:399
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:415
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "$PATH-র মধ্যে Download Manager (%1) পাওয়া যায়নি "
 
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:400
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:416
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -9896,7 +9896,7 @@ msgid " - BCC: "
 msgstr " - বার্তা প্রাপকদের নাম লিখুন: "
 
 #: khtml/khtml_part.cpp:3730 khtml/khtml_part.cpp:3959
-#: khtml/khtml_part.cpp:4380 khtml/khtml_run.cpp:104 kparts/browserrun.cpp:428
+#: khtml/khtml_part.cpp:4380 khtml/khtml_run.cpp:104 kparts/browserrun.cpp:444
 msgid "Save As"
 msgstr "নতুন রূপে সংরক্ষণ"
 
@@ -10692,7 +10692,7 @@ msgid "<h1>KJSEmbed Documentation Viewer</h1>"
 msgstr "<h1>KJSEmbed ডকুমেন্ট প্রদর্শন ব্যবস্থা</h1>"
 
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: kjsembed/examples/kjsconsole/jsconsole.ui:106 kparts/browserrun.cpp:338
+#: kjsembed/examples/kjsconsole/jsconsole.ui:106 kparts/browserrun.cpp:354
 msgid "Execute"
 msgstr "সঞ্চালন"
 
@@ -12191,70 +12191,69 @@ msgstr "ইন্টারনেটে অনুসন্ধান"
 msgid "&Search"
 msgstr "অনুসন্ধান (&S)"
 
-#: kparts/browseropenorsavequestion.cpp:110
-#: kparts/browseropenorsavequestion.cpp:339
+#: kparts/browseropenorsavequestion.cpp:101
 #, kde-format
 msgctxt "@label Type of file"
 msgid "Type: %1"
 msgstr "ধরন: %1"
 
-#: kparts/browseropenorsavequestion.cpp:118
+#: kparts/browseropenorsavequestion.cpp:109
 msgctxt "@label:checkbox"
 msgid "Remember action for files of this type"
 msgstr "এই প্রকৃতির ফাইলের জন্য সঞ্চালনযোগ্য কর্ম মনে রাখা হবে"
 
-#: kparts/browseropenorsavequestion.cpp:149
-#: kparts/browseropenorsavequestion.cpp:225
+#: kparts/browseropenorsavequestion.cpp:140
+#: kparts/browseropenorsavequestion.cpp:215
 #, kde-format
 msgctxt "@label:button"
 msgid "&Open with %1"
 msgstr "%1 সহযোগে খুলুন (&O)"
 
-#: kparts/browseropenorsavequestion.cpp:199
+#: kparts/browseropenorsavequestion.cpp:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open &with %1"
 msgstr "%1 সহযোগে খুলুন (&w)"
 
-#: kparts/browseropenorsavequestion.cpp:210
-#: kparts/browseropenorsavequestion.cpp:304
+#: kparts/browseropenorsavequestion.cpp:200
+#: kparts/browseropenorsavequestion.cpp:294
 #, kde-format
 msgctxt "@info"
 msgid "Open '%1'?"
 msgstr "'%1' খোলা হবে কি?"
 
-#: kparts/browseropenorsavequestion.cpp:214
+#: kparts/browseropenorsavequestion.cpp:204
 msgctxt "@label:button"
 msgid "&Open with..."
 msgstr "চিহ্নিত সামগ্রী সহ খুলুন...(&O)"
 
-#: kparts/browseropenorsavequestion.cpp:234
+#: kparts/browseropenorsavequestion.cpp:224
 msgctxt "@label:button"
 msgid "&Open with"
 msgstr "চিহ্নিত সামগ্রী সহ খুলুন (&O)"
 
-#: kparts/browseropenorsavequestion.cpp:301
+#: kparts/browseropenorsavequestion.cpp:291
 msgctxt "@label:button"
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
-#: kparts/browseropenorsavequestion.cpp:326
+#: kparts/browseropenorsavequestion.cpp:316
 #, kde-format
 msgctxt "@label File name"
 msgid "Name: %1"
 msgstr "নাম: %1"
 
-#: kparts/browseropenorsavequestion.cpp:328
+#: kparts/browseropenorsavequestion.cpp:318
 msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr "সার্ভার দ্বারা এই ফাইলের নাম প্রস্তাবিত হয়েছে"
 
-#: kparts/browserrun.cpp:337
+#: kparts/browserrun.cpp:353
 #, kde-format
 msgid "Do you really want to execute '%1'?"
 msgstr "আপনি কি নিশ্চিতরূপে '%1' সঞ্চালন করতে ইচ্ছুক?"
 
-#: kparts/browserrun.cpp:338
+#: kparts/browserrun.cpp:354
 msgid "Execute File?"
 msgstr "ফাইল সঞ্চালিত হবে কি?"
 
