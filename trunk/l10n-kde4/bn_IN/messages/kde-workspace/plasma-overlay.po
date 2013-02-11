@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-overlay\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-09-22 05:03+0200\n"
 "PO-Revision-Date: 2009-01-12 12:19+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -33,6 +33,16 @@ msgstr "পটভূমির বৈশিষ্ট্য"
 #: backgrounddialog.cpp:110
 msgid "No Wallpaper"
 msgstr "ওয়াল-পেপার বিহীন"
+
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
+#: BackgroundDialog.ui:59
+msgid "Wallpaper"
+msgstr "ওয়াল-পেপার"
+
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: BackgroundDialog.ui:66
+msgid "Type:"
+msgstr "ধরন:"
 
 #: main.cpp:27
 msgid "Plasma widgets over the screensaver"
@@ -103,12 +113,6 @@ msgstr ""
 #: saverview.cpp:155
 msgid "Setup Mode - Screen is NOT locked"
 msgstr "প্রস্তুতির মোড - পর্দা লক করা হবে না"
-
-#~ msgid "Wallpaper"
-#~ msgstr "ওয়াল-পেপার"
-
-#~ msgid "Type:"
-#~ msgstr "ধরন:"
 
 #~ msgid ""
 #~ "This picture of a monitor contains a preview of what the current settings "
