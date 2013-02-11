@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-01 03:21+0100\n"
+"POT-Creation-Date: 2013-02-11 03:39+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -25,41 +25,6 @@ msgstr "রুণা ভট্টাচার্য্য"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
-
-#. i18n: ectx: Menu (file)
-#: ../desktop/konsoleui.rc:5
-msgid "File"
-msgstr "ফাইল"
-
-#. i18n: ectx: Menu (edit)
-#: ../desktop/konsoleui.rc:15
-msgid "Edit"
-msgstr "সম্পাদনা"
-
-#. i18n: ectx: Menu (view)
-#: ../desktop/konsoleui.rc:18
-msgid "View"
-msgstr "প্রদর্শন"
-
-#. i18n: ectx: Menu (view-split)
-#: ../desktop/konsoleui.rc:19
-msgid "Split View"
-msgstr ""
-
-#. i18n: ectx: Menu (settings)
-#: ../desktop/konsoleui.rc:33
-msgid "Settings"
-msgstr "বিবিধ বৈশিষ্ট্য"
-
-#. i18n: ectx: Menu (help)
-#: ../desktop/konsoleui.rc:44
-msgid "Help"
-msgstr "সাহায্য"
-
-#. i18n: ectx: Menu (history)
-#: ../desktop/partui.rc:11
-msgid "S&crollback"
-msgstr "স্ক্রোল-ব্যাক (&c)"
 
 #: Application.cpp:437
 msgid "Toggle Background Window"
@@ -262,70 +227,9 @@ msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
-#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
-#: ColorSchemeEditor.ui:22 KeyBindingEditor.ui:22
-msgid "Description:"
-msgstr "বিবরণ:"
-
-#. i18n: ectx: property (text), widget (QCheckBox, randomizedBackgroundCheck)
-#: ColorSchemeEditor.ui:40
-msgid "Vary the background color for each tab"
-msgstr "প্রতিটি ট্যাবের পটভূমির রং পৃথক হবে"
-
-#. i18n: ectx: property (text), widget (QLabel, transparencyLabel)
-#: ColorSchemeEditor.ui:49
-msgid "Background transparency:"
-msgstr "পটভূমির স্বচ্ছতা:"
-
-#. i18n: ectx: property (text), widget (QLabel, transparencyPercentLabel)
-#: ColorSchemeEditor.ui:69
-msgid "Percent"
-msgstr "শতাংশ"
-
-#. i18n: ectx: property (text), widget (QLabel, wallpaperLabel)
-#: ColorSchemeEditor.ui:83
-#, fuzzy
-#| msgid "Background"
-msgid "Background image:"
-msgstr "পটভূমি"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, wallpaperPath)
-#: ColorSchemeEditor.ui:90
-msgid "Edit the path of the background image"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, wallpaperSelectButton)
-#: ColorSchemeEditor.ui:97
-#, fuzzy
-#| msgid "Color Scheme && Background"
-msgid "Choose the background image"
-msgstr "রঙের বিন্যাস ও পটভূমি"
-
-#. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
-#. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: ColorSchemeEditor.ui:100 EditProfileDialog.ui:111
-msgid "..."
-msgstr "..."
-
 #: CopyInputDialog.cpp:34
 msgid "Copy Input"
 msgstr "ইনপুট কপি করুন"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: CopyInputDialog.ui:19
-msgid "Filter:"
-msgstr "ফিল্টার:"
-
-#. i18n: ectx: property (text), widget (QPushButton, selectAllButton)
-#: CopyInputDialog.ui:46
-msgid "Select All"
-msgstr "সমগ্র নির্বাচন"
-
-#. i18n: ectx: property (text), widget (QPushButton, deselectAllButton)
-#: CopyInputDialog.ui:53
-msgid "Deselect All"
-msgstr "সকল নির্বানচ বাতিল করুন"
 
 #: EditProfileDialog.cpp:73
 msgid "Edit Profile"
@@ -418,601 +322,6 @@ msgstr ""
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, generalTab)
-#: EditProfileDialog.ui:33
-#, fuzzy
-#| msgid "General"
-msgctxt "@title:tab Generic, common options"
-msgid "General"
-msgstr "সাধারণ"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_10)
-#: EditProfileDialog.ui:39
-#, fuzzy
-#| msgid "General"
-msgctxt "@title:group Generic, common options"
-msgid "General"
-msgstr "সাধারণ"
-
-#. i18n: ectx: property (text), widget (QLabel, profileNameLabel)
-#: EditProfileDialog.ui:48
-msgid "Profile name:"
-msgstr "প্রোফাইলের নাম:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, profileNameEdit)
-#: EditProfileDialog.ui:58
-msgid "A descriptive name for the profile"
-msgstr "প্রোফাইলের বর্ণনামূলক নাম"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: EditProfileDialog.ui:68
-msgid "Command:"
-msgstr "কমান্ড:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, commandEdit)
-#: EditProfileDialog.ui:78
-msgid ""
-"The command to execute when new terminal sessions are created using this "
-"profile"
-msgstr ""
-"চিহ্নিত প্রোফাইল সহযোগে নতুন টার্মিন্যাল সেশান নির্মাণের সময় সঞ্চালনযোগ্য কমান্ড"
-
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: EditProfileDialog.ui:88
-msgid "Initial directory:"
-msgstr "প্রারম্ভিক ডিরেক্টরি:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, initialDirEdit)
-#: EditProfileDialog.ui:98
-msgid ""
-"The initial working directory for new terminal sessions using this profile"
-msgstr "চিহ্নিত প্রোফাইল সহ নির্মিত নতুন টার্মিন্যাল সেশানের জন্য প্রারম্ভিক ডিরেক্টরি"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
-#: EditProfileDialog.ui:108
-#, fuzzy
-#| msgid "Browse for initial directory"
-msgid "Choose the initial directory"
-msgstr "প্রারম্ভিক ডিরেক্টরি চিহ্নিত করার জন্য ব্রাউজ করুন"
-
-#. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
-#: EditProfileDialog.ui:118
-msgid "Start in same directory as current tab"
-msgstr "বর্তমান ট্যাবের ডিরেক্টরি প্রয়োগ করে আরম্ভ করা হবে"
-
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: EditProfileDialog.ui:125
-msgid "Icon:"
-msgstr "আইকন:"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, iconSelectButton)
-#: EditProfileDialog.ui:153
-msgid "Select the icon displayed on tabs using this profile"
-msgstr "চিহ্নিত প্রোফাইল প্রয়োগকারী ট্যাবের মধ্যে প্রদর্শিত আইকন"
-
-#. i18n: ectx: property (text), widget (QLabel, environmentLabel)
-#: EditProfileDialog.ui:182
-msgid "Environment:"
-msgstr "পরিবেশ:"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
-#: EditProfileDialog.ui:192
-msgid "Edit the list of environment variables and associated values"
-msgstr "এনভায়রনমেন্ট ভেরিয়েবলের তালিকা ও সংশ্লিষ্ট মান সম্পাদনা করুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, environmentEditButton)
-#. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
-#. i18n: ectx: property (text), widget (QPushButton, editKeyBindingsButton)
-#: EditProfileDialog.ui:195 EditProfileDialog.ui:381 EditProfileDialog.ui:667
-msgid "Edit..."
-msgstr "সম্পাদনা..."
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_12)
-#: EditProfileDialog.ui:205
-msgid "Window"
-msgstr "উইন্ডো"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, saveGeometryOnExitButton)
-#: EditProfileDialog.ui:220
-msgid "Set the window size and position for this profile when exiting"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveGeometryOnExit)
-#. i18n: ectx: property (text), widget (QCheckBox, saveGeometryOnExitButton)
-#: EditProfileDialog.ui:223 settings/GeneralSettings.ui:66
-msgid "Save window size and position on exit"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showTerminalSizeHintButton)
-#. i18n: ectx: tooltip, entry (ShowTerminalSizeHint), group (KonsoleWindow)
-#: EditProfileDialog.ui:230 settings/konsole.kcfg:25
-msgid ""
-"Show terminal size in columns and lines in the center of window after "
-"resizing"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTerminalSizeHint)
-#. i18n: ectx: property (text), widget (QCheckBox, showTerminalSizeHintButton)
-#. i18n: ectx: label, entry (ShowTerminalSizeHint), group (KonsoleWindow)
-#: EditProfileDialog.ui:233 settings/GeneralSettings.ui:53
-#: settings/konsole.kcfg:24
-msgid "Show hint for terminal size after resizing"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tabsTab)
-#: EditProfileDialog.ui:257
-msgid "Tabs"
-msgstr "ট্যাব"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: EditProfileDialog.ui:263
-msgid "Tab Titles"
-msgstr "ট্যাবের শিরোনাম"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_13)
-#: EditProfileDialog.ui:278
-msgid "Tab Monitoring"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, silenceSecondsLabel)
-#: EditProfileDialog.ui:287
-msgid "Threshold for continuous silence:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, silenceSecondsSpinner)
-#: EditProfileDialog.ui:297
-msgid "The threshold for continuous silence to be detected by Konsole"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
-#. i18n: ectx: attribute (title), widget (QWidget, appearanceTab)
-#: EditProfileDialog.ui:340 settings/TabBarSettings.ui:20
-msgid "Appearance"
-msgstr "চেহারা ছবি"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: EditProfileDialog.ui:352
-msgid "Color Scheme && Background"
-msgstr "রঙের বিন্যাস ও পটভূমি"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, newColorSchemeButton)
-#: EditProfileDialog.ui:368
-msgid "Create a new color scheme based upon the selected scheme"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, newColorSchemeButton)
-#: EditProfileDialog.ui:371
-#, fuzzy
-#| msgid "New..."
-msgctxt "@action:button Create an alternate color scheme"
-msgid "New..."
-msgstr "নতুন..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, editColorSchemeButton)
-#: EditProfileDialog.ui:378
-msgid "Edit the selected color scheme"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, removeColorSchemeButton)
-#: EditProfileDialog.ui:388
-msgid "Delete the selected color scheme"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, removeColorSchemeButton)
-#. i18n: ectx: property (text), widget (QPushButton, removeKeyBindingsButton)
-#. i18n: ectx: property (text), widget (QPushButton, removeEntryButton)
-#: EditProfileDialog.ui:391 EditProfileDialog.ui:677 KeyBindingEditor.ui:53
-msgid "Remove"
-msgstr "মুছে ফেলুন"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: EditProfileDialog.ui:417
-msgid "Font"
-msgstr "ফন্ট"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: EditProfileDialog.ui:428
-msgid "Preview:"
-msgstr "পূর্বরূপ:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: EditProfileDialog.ui:455
-msgid "Text size:"
-msgstr "হরফের মাপ:"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, selectFontButton)
-#: EditProfileDialog.ui:481
-#, fuzzy
-#| msgid "Change the font used in this profile"
-msgid "Select the font used in this profile"
-msgstr "চিহ্নিত প্রোফাইলের মধ্যে ব্যবহৃত ফন্ট পরিবর্তন করুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, selectFontButton)
-#: EditProfileDialog.ui:484
-#, fuzzy
-#| msgid "Edit Font..."
-msgid "Select Font..."
-msgstr "ফন্ট সম্পাদনা..."
-
-#. i18n: ectx: property (text), widget (QCheckBox, antialiasTextButton)
-#: EditProfileDialog.ui:506
-msgid "Smooth fonts"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, boldIntenseButton)
-#: EditProfileDialog.ui:513
-msgid "Draw intense colors in bold font"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, scrollingTab)
-#: EditProfileDialog.ui:524
-msgid "Scrolling"
-msgstr "স্ক্রোলিং"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: EditProfileDialog.ui:530
-#, fuzzy
-#| msgid "S&crollback"
-msgid "Scrollback"
-msgstr "স্ক্রোল-ব্যাক (&c)"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
-#: EditProfileDialog.ui:545
-msgid "Scroll Bar"
-msgstr "স্ক্রোল-বার"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarLeftButton)
-#: EditProfileDialog.ui:560
-msgid "Show the scroll bar on the left side of the terminal window"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, scrollBarLeftButton)
-#: EditProfileDialog.ui:563
-msgid "Show on left side"
-msgstr "বাঁদিকে প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarRightButton)
-#: EditProfileDialog.ui:576
-msgid "Show the scroll bar on the right side of the terminal window"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, scrollBarRightButton)
-#: EditProfileDialog.ui:579
-msgid "Show on right side"
-msgstr "ডানদিকে প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, scrollBarHiddenButton)
-#: EditProfileDialog.ui:592
-msgid "Hide the scroll bar"
-msgstr "স্ক্রোল-বার আড়াল করুন"
-
-#. i18n: ectx: property (text), widget (QRadioButton, scrollBarHiddenButton)
-#: EditProfileDialog.ui:595
-msgctxt "@option:radio Hide the scroll bar"
-msgid "Hide"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, keyboardTab)
-#: EditProfileDialog.ui:619
-msgid "Keyboard"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, keyBindingsGroup)
-#: EditProfileDialog.ui:625
-msgid "Key Bindings"
-msgstr "কি বাইন্ডিং"
-
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#: EditProfileDialog.ui:634
-msgid ""
-"Key bindings control how combinations of keystrokes in the terminal window "
-"are converted into the stream of characters which are sent to the current "
-"terminal program."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
-#: EditProfileDialog.ui:654
-msgid "Create a new key bindings list based upon the selected bindings"
-msgstr "নির্বাচিত বাইন্ডিংয়ের উপর ভিত্তি করে নতুন কি-বাইন্ডিংয়ের তালিকা নির্মাণ করুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, newKeyBindingsButton)
-#: EditProfileDialog.ui:657
-#, fuzzy
-#| msgid "New..."
-msgctxt "@action:button Create an alternate key binding"
-msgid "New..."
-msgstr "নতুন..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, editKeyBindingsButton)
-#: EditProfileDialog.ui:664
-msgid "Edit the selected key bindings list"
-msgstr "নির্বাচিত কি-বাইন্ডিংয়ের তালিকা সম্পাদনা করুন"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, removeKeyBindingsButton)
-#: EditProfileDialog.ui:674
-msgid "Delete the selected key bindings list"
-msgstr "নির্বাচিত কি-বাইন্ডিংয়ের তালিকা মুছে ফেলুন"
-
-#. i18n: ectx: attribute (title), widget (QWidget, mouseTab)
-#: EditProfileDialog.ui:701
-msgid "Mouse"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
-#: EditProfileDialog.ui:707
-#, fuzzy
-#| msgid "Select"
-msgid "Select Text"
-msgstr "নির্বাচন করুন"
-
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: EditProfileDialog.ui:718
-msgid "Characters considered part of a word when double clicking:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, wordCharacterEdit)
-#: EditProfileDialog.ui:731
-msgid ""
-"Characters which are considered part of a word when double-clicking to "
-"select whole words in the terminal"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: EditProfileDialog.ui:742
-msgid "Triple-click select:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, tripleClickModeCombo)
-#: EditProfileDialog.ui:749
-msgid "Which part of current line should be selected with triple click ."
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, tripleClickModeCombo)
-#: EditProfileDialog.ui:753
-#, fuzzy
-#| msgid "Edit Current Profile..."
-msgid "The whole current line"
-msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
-
-#. i18n: ectx: property (text), item, widget (KComboBox, tripleClickModeCombo)
-#: EditProfileDialog.ui:758
-msgid "From mouse position to the end of line"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_14)
-#: EditProfileDialog.ui:771
-msgid "Copy && Paste"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, copyTextToClipboardButton)
-#: EditProfileDialog.ui:780
-msgid "Automatically copy selected text into clipboard"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, copyTextToClipboardButton)
-#: EditProfileDialog.ui:783
-msgid "Copy on select"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, trimTrailingSpacesButton)
-#: EditProfileDialog.ui:790
-msgid "Trim trailing spaces in selected text, useful in some instances"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, trimTrailingSpacesButton)
-#: EditProfileDialog.ui:793
-msgid "Trim trailing spaces"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: EditProfileDialog.ui:813
-msgid "Mouse middle button:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, pasteFromX11SelectionButton)
-#: EditProfileDialog.ui:820
-#, fuzzy
-#| msgid "Paste Selection"
-msgid "Paste from selection"
-msgstr "নির্বাচিত অংশ পেস্ট করুন"
-
-#. i18n: ectx: property (text), widget (QRadioButton, pasteFromClipboardButton)
-#: EditProfileDialog.ui:827
-msgid "Paste from clipboard"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: EditProfileDialog.ui:837
-msgid "Miscellaneous"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, underlineLinksButton)
-#: EditProfileDialog.ui:846
-msgid ""
-"Text recognized as a link or an email address will be underlined when "
-"hovered by the mouse pointer."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, underlineLinksButton)
-#: EditProfileDialog.ui:849
-msgid "Underline links"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, openLinksByDirectClickButton)
-#: EditProfileDialog.ui:877
-msgid ""
-"Text recognized as a link or an email address can be opened by direct mouse "
-"click."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
-#: EditProfileDialog.ui:880
-msgid "Open links by direct click"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, ctrlRequiredForDragButton)
-#: EditProfileDialog.ui:889
-msgid "Selected text will require control key plus click to drag."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, ctrlRequiredForDragButton)
-#: EditProfileDialog.ui:892
-msgid "Require Ctrl key for drag and drop"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableMouseWheelZoomButton)
-#: EditProfileDialog.ui:899
-msgid "Pressing Ctrl+scrollwheel will increase/decrease the text size."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, enableMouseWheelZoomButton)
-#: EditProfileDialog.ui:902
-msgid "Allow Ctrl+scrollwheel to zoom text size"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#: EditProfileDialog.ui:926
-#, fuzzy
-#| msgid "Advanced"
-msgctxt "@title:tab Complex options"
-msgid "Advanced"
-msgstr "উন্নত বৈশিষ্ট্য"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: EditProfileDialog.ui:932
-msgid "Terminal Features"
-msgstr "টার্মিন্যালের বৈশিষ্ট্য"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:947
-msgid "Allow terminal programs to create blinking sections of text"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:950
-msgid "Allow blinking text"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:963
-msgid "Allow the output to be suspended by pressing Ctrl+S"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:966
-msgid "Enable flow control using Ctrl+S, Ctrl+Q"
-msgstr "Ctrl+S, Ctrl+Q প্রয়োগ করে ফ্লো কনট্রোল সক্রিয় করুন"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:979
-msgid ""
-"Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
-"Hebrew only)"
-msgstr ""
-"টার্মিন্যালের মধ্যে উভয় দিশায় প্রদর্শন সক্রিয় করা হবে (শুধুমাত্র আরবি, ফার্সি ও হিব্রুর "
-"ক্ষেত্রে প্রযোজ্য)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:982
-msgid "Enable Bi-Directional text rendering"
-msgstr "টার্মিন্যালের মধ্যে উভয় দিশায় হরফ প্রদর্শন সক্রিয় করা হবে"
-
-#. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:991
-msgid "Line Spacing:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:998
-msgid "The number of pixels between two lines"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1029
-msgid "Cursor"
-msgstr "কার্সার"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1044
-msgid "Make the cursor blink regularly"
-msgstr "নিয়মিতরূপে কার্সারে ঝলকানি হবে"
-
-#. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1047
-msgid "Blinking cursor"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1056
-msgid "Cursor shape:"
-msgstr "কার্সারের আকার:"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1063
-msgid "Change the shape of the cursor"
-msgstr "কার্সারের আকার পরিবর্তন করুন"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1067
-msgctxt "The shape of the cursor"
-msgid "Block"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1072
-msgctxt "The shape of the cursor, similar to a capital I"
-msgid "I-Beam"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1077
-msgctxt "The shape of the cursor"
-msgid "Underline"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1106
-msgid "Set the cursor to match the color of the character underneath it."
-msgstr "কার্সারের তলায় উপস্থিত অক্ষরের রঙ অনুয়ায়ী কার্সারের রঙ পরিবর্তিত হবে।"
-
-#. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1109
-msgid "Set cursor color to match current character"
-msgstr "বর্তমান অক্ষরের রঙ অনুযায়ী কার্সারের রঙ নির্ধারণ করা হবে"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1124
-msgid "Use a custom, fixed color for the cursor"
-msgstr "কার্সারের জন্য স্বনির্ধারিত স্থায়ী রঙ প্রয়োগ করুন"
-
-#. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1127
-msgid "Custom cursor color:"
-msgstr "কার্সারের স্বনির্ধারিত রঙ"
-
-#. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1140
-msgid "Select the color used to draw the cursor"
-msgstr "কার্সার আঁকার জন্য ব্যবহৃত রঙ নির্বাচক করুন"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1168
-msgid "Encoding"
-msgstr "এনকোডিং"
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1177
-msgid "Default character encoding:"
-msgstr "ডিফল্ট ক্যারেক্টার এনকোডিং:"
-
-#. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1197
-#, fuzzy
-#| msgid "Select"
-msgctxt "@action:button Pick an encoding"
-msgid "Select"
-msgstr "নির্বাচন করুন"
-
 #: Filter.cpp:468
 msgid "Open Link"
 msgstr "লিংক প্রদর্শন"
@@ -1057,43 +366,6 @@ msgid " line"
 msgid_plural " lines"
 msgstr[0] "পংক্তি"
 msgstr[1] "পংক্তি"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, noHistoryButton)
-#: HistorySizeWidget.ui:29
-msgid "Do not remember previous output"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
-#: HistorySizeWidget.ui:32
-msgid "No scrollback"
-msgstr "স্ক্রোল-ব্যাক অনুপস্থিত"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, fixedSizeHistoryButton)
-#: HistorySizeWidget.ui:50
-msgid "Limit the remembered output to a fixed number of lines"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, fixedSizeHistoryButton)
-#: HistorySizeWidget.ui:53
-#, fuzzy
-#| msgid "Fixed size scrollback: "
-msgid "Fixed size scrollback:"
-msgstr "স্ক্রোল-ব্যাকের নির্ধারিত মাপ: "
-
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, historyLineSpinner)
-#: HistorySizeWidget.ui:60
-msgid "Number of lines of output to remember"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedHistoryButton)
-#: HistorySizeWidget.ui:94
-msgid "Remember all output produced by the terminal"
-msgstr "টার্মিন্যাল থেকে উৎপন্ন সকল ফলাফল স্মরণে রাখা হবে"
-
-#. i18n: ectx: property (text), widget (QRadioButton, unlimitedHistoryButton)
-#: HistorySizeWidget.ui:97
-msgid "Unlimited scrollback"
-msgstr "সীমাহীন স্ক্রোল-ব্যাক"
 
 #: IncrementalSearchBar.cpp:51
 #, fuzzy
@@ -1194,27 +466,6 @@ msgstr "কি সংকলন"
 #: KeyBindingEditor.cpp:47
 msgid "Output"
 msgstr "ফলাফল"
-
-#. i18n: ectx: property (text), widget (QPushButton, addEntryButton)
-#: KeyBindingEditor.ui:46
-msgid "Add"
-msgstr "যোগ করুন"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: KeyBindingEditor.ui:75
-msgctxt "Title of the area where you test your keys are properly configured"
-msgid "Test Area"
-msgstr "পরীক্ষণ স্থল"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: KeyBindingEditor.ui:84
-msgid "Input:"
-msgstr "ইনপুট:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: KeyBindingEditor.ui:97
-msgid "Output:"
-msgstr "ফলাফল:"
 
 #: main.cpp:56
 msgctxt "@title"
@@ -1769,79 +1020,11 @@ msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "নতুন প্রোফাইল"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, newProfileButton)
-#: ManageProfilesDialog.ui:20
-msgid "Create a new profile based upon the selected profile"
-msgstr "নির্বাচিত প্রোফাইলের উপর ভিত্তি করে একটি নতুন প্রোফাইল নির্বাচন করুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, newProfileButton)
-#: ManageProfilesDialog.ui:23
-#, fuzzy
-#| msgid "New Profile..."
-msgid "&New Profile..."
-msgstr "নতুন প্রোফাইল..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, editProfileButton)
-#: ManageProfilesDialog.ui:33
-msgid "Edit the selected profile(s)"
-msgstr "নির্বাচিত প্রোফাইল(গুলি) সম্পাদনা করুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, editProfileButton)
-#: ManageProfilesDialog.ui:36
-#, fuzzy
-#| msgid "Edit Profile..."
-msgid "&Edit Profile..."
-msgstr "প্রোফাইল সম্পাদনা..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, deleteProfileButton)
-#: ManageProfilesDialog.ui:46
-msgid "Delete the selected profile(s)"
-msgstr "নির্বাচিত প্রোফাইল(গুলি) মুছে ফেলুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, deleteProfileButton)
-#: ManageProfilesDialog.ui:49
-#, fuzzy
-#| msgid "Delete Profile"
-msgid "&Delete Profile"
-msgstr "প্রোফাইল মুছে ফেলুন"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultButton)
-#: ManageProfilesDialog.ui:59
-msgid "Set the selected profile as the default for new terminal sessions"
-msgstr "নির্বাচিত প্রোফাইলটি নতুন টার্মিন্যাল সেশানের জন্য ডিফল্টরূপে প্রয়োগ করা হবে"
-
-#. i18n: ectx: property (text), widget (QPushButton, setAsDefaultButton)
-#: ManageProfilesDialog.ui:62
-#, fuzzy
-#| msgid "Set as Default"
-msgid "&Set as Default"
-msgstr "ডিফল্ট মান রূপে নির্ধারণ করুন"
-
 #: Part.cpp:96
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptions)
-#. i18n: ectx: property (title), widget (QGroupBox, OutputOptions)
-#: PrintOptions.ui:14 PrintOptions.ui:20
-#, fuzzy
-#| msgid "Output"
-msgid "Output Options"
-msgstr "ফলাফল"
-
-#. i18n: ectx: property (text), widget (QCheckBox, printerFriendly)
-#. i18n: ectx: label, entry (PrinterFriendly), group (PrintOptions)
-#: PrintOptions.ui:39 settings/konsole.kcfg:71
-msgid "Printer &friendly mode (black text, no background)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, scaleOutput)
-#. i18n: ectx: label, entry (ScaleOutput), group (PrintOptions)
-#: PrintOptions.ui:46 settings/konsole.kcfg:75
-msgid "&Scale output"
-msgstr ""
 
 #: Profile.cpp:145
 msgid "Shell"
@@ -1856,28 +1039,6 @@ msgstr "প্রোফাইল মুছে ফেলুন"
 #: RenameTabDialog.cpp:31
 msgid "Rename Tab"
 msgstr "ট্যাবের নাম পরিবর্তন করুন"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: RenameTabWidget.ui:26
-msgid "Tab title format:"
-msgstr "ট্যাবের শিরোনামের বিন্যাস:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
-#: RenameTabWidget.ui:36
-msgid "Normal tab title format"
-msgstr "স্বাভাবিক ট্যাবের শিরোনামের বিন্যাস"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: RenameTabWidget.ui:46
-msgid "Remote tab title format:"
-msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
-#: RenameTabWidget.ui:56
-msgid ""
-"Tab title format used when a remote command (e.g. connection to another "
-"computer via SSH) is being executed"
-msgstr ""
 
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
@@ -2280,151 +1441,6 @@ msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "শিরোনাম"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
-#: settings/GeneralSettings.ui:28
-#, fuzzy
-#| msgid "Konsole"
-msgid "Konsole Window"
-msgstr "Konsole"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMenuBarByDefault)
-#. i18n: ectx: label, entry (ShowMenuBarByDefault), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:40 settings/konsole.kcfg:9
-msgid "Show menubar by default"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowMenuAccelerators)
-#. i18n: ectx: label, entry (AllowMenuAccelerators), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:79 settings/konsole.kcfg:19
-msgid "Enable menu accelerators"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowWindowTitleOnTitleBar)
-#. i18n: ectx: label, entry (ShowWindowTitleOnTitleBar), group (KonsoleWindow)
-#: settings/GeneralSettings.ui:92 settings/konsole.kcfg:14
-msgid "Show window title on the titlebar"
-msgstr ""
-
-#. i18n: ectx: tooltip, entry (ShowMenuBarByDefault), group (KonsoleWindow)
-#: settings/konsole.kcfg:10
-#, fuzzy
-#| msgid "Show menu bar in new windows"
-msgid "Show menubar by default in each Konsole window"
-msgstr "নতুন উইন্ডোর মধ্যে মেনু বার প্রদর্শন করা হবে"
-
-#. i18n: ectx: tooltip, entry (ShowWindowTitleOnTitleBar), group (KonsoleWindow)
-#: settings/konsole.kcfg:15
-msgid "Show window title set by escape sequence on the titlebar"
-msgstr ""
-
-#. i18n: ectx: tooltip, entry (AllowMenuAccelerators), group (KonsoleWindow)
-#: settings/konsole.kcfg:20
-msgid "Allow users to access top menu through Alt+Key combination"
-msgstr ""
-
-#. i18n: ectx: label, entry (SaveGeometryOnExit), group (KonsoleWindow)
-#: settings/konsole.kcfg:29
-msgid "Save window size on exit"
-msgstr ""
-
-#. i18n: ectx: tooltip, entry (SaveGeometryOnExit), group (KonsoleWindow)
-#: settings/konsole.kcfg:30
-msgid "The window size will be saved upon exiting Konsole"
-msgstr ""
-
-#. i18n: ectx: label, entry (TabBarVisibility), group (TabBar)
-#: settings/konsole.kcfg:36
-msgid "Control the visibility of the whole tab bar"
-msgstr ""
-
-#. i18n: ectx: label, entry (TabBarPosition), group (TabBar)
-#: settings/konsole.kcfg:45
-msgid "Control the position of the tab bar"
-msgstr ""
-
-#. i18n: ectx: label, entry (TabBarStyleSheet), group (TabBar)
-#: settings/konsole.kcfg:53
-msgid "Control the visual style of the tab bar"
-msgstr ""
-
-#. i18n: ectx: label, entry (ShowQuickButtons), group (TabBar)
-#: settings/konsole.kcfg:57
-msgid "Control the visibility of quick buttons on the tab bar"
-msgstr ""
-
-#. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
-#: settings/konsole.kcfg:61
-msgid "Control where to put the new tab"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_1)
-#: settings/TabBarSettings.ui:26
-#, fuzzy
-#| msgid "Tab bar display:"
-msgid "Tab bar visibility:"
-msgstr "ট্যাব বারের প্রদর্শন:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarVisibility)
-#: settings/TabBarSettings.ui:43
-msgid "Always Show Tab Bar"
-msgstr "ট্যাব-বার সর্বদা প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarVisibility)
-#: settings/TabBarSettings.ui:48
-msgid "Show Tab Bar When Needed"
-msgstr "প্রয়োজনে ট্যাব-বার প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarVisibility)
-#: settings/TabBarSettings.ui:53
-msgid "Always Hide Tab Bar"
-msgstr "ট্যাব-বার সর্বদা আড়াল করা হবে"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: settings/TabBarSettings.ui:61
-msgid "Tab bar position:"
-msgstr "ট্যাব বারের অবস্থান:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
-#: settings/TabBarSettings.ui:78
-#, fuzzy
-#| msgid "Above Terminal Displays"
-msgid "Above Terminal Area"
-msgstr "টার্মিন্যালের প্রদর্শনের উপরেী"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabBarPosition)
-#: settings/TabBarSettings.ui:83
-#, fuzzy
-#| msgid "Below Terminal Displays"
-msgid "Below Terminal Area"
-msgstr "টার্মিন্যালের প্রদর্শনের নীচে"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowQuickButtons)
-#: settings/TabBarSettings.ui:91
-#, fuzzy
-#| msgid "Show 'New Tab' and 'Close Tab' buttons in tab bar"
-msgid "Show 'New Tab' and 'Close Tab' buttons"
-msgstr "ট্যাব বারের মধ্যে 'নতুন ট্যাব' ও 'ট্যাব বন্ধ করুন' শীর্ষক বাটন প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: settings/TabBarSettings.ui:101
-msgid "Behavior"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: settings/TabBarSettings.ui:107
-msgid "New tab behavior:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NewTabBehavior)
-#: settings/TabBarSettings.ui:124
-msgid "Put New Tab At The End"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NewTabBehavior)
-#: settings/TabBarSettings.ui:129
-msgid "Put New Tab After Current Tab"
-msgstr ""
-
 #: TabTitleFormatButton.cpp:33
 #, fuzzy, c-format
 #| msgid "Program Name"
@@ -2495,41 +1511,41 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TerminalDisplay.cpp:1133 TerminalDisplay.cpp:1134
+#: TerminalDisplay.cpp:1139 TerminalDisplay.cpp:1140
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1145
+#: TerminalDisplay.cpp:1151
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:2580
+#: TerminalDisplay.cpp:2586
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:2583
+#: TerminalDisplay.cpp:2589
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:2758
+#: TerminalDisplay.cpp:2764
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3011
+#: TerminalDisplay.cpp:3018
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3025
+#: TerminalDisplay.cpp:3032
 msgid "Change &Directory To"
 msgstr ""
 
@@ -2676,6 +1692,390 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "বন্ধ করুন (&S)"
+
+#~ msgid "File"
+#~ msgstr "ফাইল"
+
+#~ msgid "Edit"
+#~ msgstr "সম্পাদনা"
+
+#~ msgid "View"
+#~ msgstr "প্রদর্শন"
+
+#~ msgid "Settings"
+#~ msgstr "বিবিধ বৈশিষ্ট্য"
+
+#~ msgid "Help"
+#~ msgstr "সাহায্য"
+
+#~ msgid "S&crollback"
+#~ msgstr "স্ক্রোল-ব্যাক (&c)"
+
+#~ msgid "Description:"
+#~ msgstr "বিবরণ:"
+
+#~ msgid "Vary the background color for each tab"
+#~ msgstr "প্রতিটি ট্যাবের পটভূমির রং পৃথক হবে"
+
+#~ msgid "Background transparency:"
+#~ msgstr "পটভূমির স্বচ্ছতা:"
+
+#~ msgid "Percent"
+#~ msgstr "শতাংশ"
+
+#, fuzzy
+#~| msgid "Background"
+#~ msgid "Background image:"
+#~ msgstr "পটভূমি"
+
+#, fuzzy
+#~| msgid "Color Scheme && Background"
+#~ msgid "Choose the background image"
+#~ msgstr "রঙের বিন্যাস ও পটভূমি"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Filter:"
+#~ msgstr "ফিল্টার:"
+
+#~ msgid "Select All"
+#~ msgstr "সমগ্র নির্বাচন"
+
+#~ msgid "Deselect All"
+#~ msgstr "সকল নির্বানচ বাতিল করুন"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title:tab Generic, common options"
+#~ msgid "General"
+#~ msgstr "সাধারণ"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title:group Generic, common options"
+#~ msgid "General"
+#~ msgstr "সাধারণ"
+
+#~ msgid "Profile name:"
+#~ msgstr "প্রোফাইলের নাম:"
+
+#~ msgid "A descriptive name for the profile"
+#~ msgstr "প্রোফাইলের বর্ণনামূলক নাম"
+
+#~ msgid "Command:"
+#~ msgstr "কমান্ড:"
+
+#~ msgid ""
+#~ "The command to execute when new terminal sessions are created using this "
+#~ "profile"
+#~ msgstr ""
+#~ "চিহ্নিত প্রোফাইল সহযোগে নতুন টার্মিন্যাল সেশান নির্মাণের সময় সঞ্চালনযোগ্য কমান্ড"
+
+#~ msgid "Initial directory:"
+#~ msgstr "প্রারম্ভিক ডিরেক্টরি:"
+
+#~ msgid ""
+#~ "The initial working directory for new terminal sessions using this profile"
+#~ msgstr ""
+#~ "চিহ্নিত প্রোফাইল সহ নির্মিত নতুন টার্মিন্যাল সেশানের জন্য প্রারম্ভিক ডিরেক্টরি"
+
+#, fuzzy
+#~| msgid "Browse for initial directory"
+#~ msgid "Choose the initial directory"
+#~ msgstr "প্রারম্ভিক ডিরেক্টরি চিহ্নিত করার জন্য ব্রাউজ করুন"
+
+#~ msgid "Start in same directory as current tab"
+#~ msgstr "বর্তমান ট্যাবের ডিরেক্টরি প্রয়োগ করে আরম্ভ করা হবে"
+
+#~ msgid "Icon:"
+#~ msgstr "আইকন:"
+
+#~ msgid "Select the icon displayed on tabs using this profile"
+#~ msgstr "চিহ্নিত প্রোফাইল প্রয়োগকারী ট্যাবের মধ্যে প্রদর্শিত আইকন"
+
+#~ msgid "Environment:"
+#~ msgstr "পরিবেশ:"
+
+#~ msgid "Edit the list of environment variables and associated values"
+#~ msgstr "এনভায়রনমেন্ট ভেরিয়েবলের তালিকা ও সংশ্লিষ্ট মান সম্পাদনা করুন"
+
+#~ msgid "Edit..."
+#~ msgstr "সম্পাদনা..."
+
+#~ msgid "Window"
+#~ msgstr "উইন্ডো"
+
+#~ msgid "Tabs"
+#~ msgstr "ট্যাব"
+
+#~ msgid "Tab Titles"
+#~ msgstr "ট্যাবের শিরোনাম"
+
+#~ msgid "Appearance"
+#~ msgstr "চেহারা ছবি"
+
+#~ msgid "Color Scheme && Background"
+#~ msgstr "রঙের বিন্যাস ও পটভূমি"
+
+#, fuzzy
+#~| msgid "New..."
+#~ msgctxt "@action:button Create an alternate color scheme"
+#~ msgid "New..."
+#~ msgstr "নতুন..."
+
+#~ msgid "Remove"
+#~ msgstr "মুছে ফেলুন"
+
+#~ msgid "Font"
+#~ msgstr "ফন্ট"
+
+#~ msgid "Preview:"
+#~ msgstr "পূর্বরূপ:"
+
+#~ msgid "Text size:"
+#~ msgstr "হরফের মাপ:"
+
+#, fuzzy
+#~| msgid "Change the font used in this profile"
+#~ msgid "Select the font used in this profile"
+#~ msgstr "চিহ্নিত প্রোফাইলের মধ্যে ব্যবহৃত ফন্ট পরিবর্তন করুন"
+
+#, fuzzy
+#~| msgid "Edit Font..."
+#~ msgid "Select Font..."
+#~ msgstr "ফন্ট সম্পাদনা..."
+
+#~ msgid "Scrolling"
+#~ msgstr "স্ক্রোলিং"
+
+#, fuzzy
+#~| msgid "S&crollback"
+#~ msgid "Scrollback"
+#~ msgstr "স্ক্রোল-ব্যাক (&c)"
+
+#~ msgid "Scroll Bar"
+#~ msgstr "স্ক্রোল-বার"
+
+#~ msgid "Show on left side"
+#~ msgstr "বাঁদিকে প্রদর্শন করা হবে"
+
+#~ msgid "Show on right side"
+#~ msgstr "ডানদিকে প্রদর্শন করা হবে"
+
+#~ msgid "Hide the scroll bar"
+#~ msgstr "স্ক্রোল-বার আড়াল করুন"
+
+#~ msgid "Key Bindings"
+#~ msgstr "কি বাইন্ডিং"
+
+#~ msgid "Create a new key bindings list based upon the selected bindings"
+#~ msgstr ""
+#~ "নির্বাচিত বাইন্ডিংয়ের উপর ভিত্তি করে নতুন কি-বাইন্ডিংয়ের তালিকা নির্মাণ করুন"
+
+#, fuzzy
+#~| msgid "New..."
+#~ msgctxt "@action:button Create an alternate key binding"
+#~ msgid "New..."
+#~ msgstr "নতুন..."
+
+#~ msgid "Edit the selected key bindings list"
+#~ msgstr "নির্বাচিত কি-বাইন্ডিংয়ের তালিকা সম্পাদনা করুন"
+
+#~ msgid "Delete the selected key bindings list"
+#~ msgstr "নির্বাচিত কি-বাইন্ডিংয়ের তালিকা মুছে ফেলুন"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select Text"
+#~ msgstr "নির্বাচন করুন"
+
+#, fuzzy
+#~| msgid "Edit Current Profile..."
+#~ msgid "The whole current line"
+#~ msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
+
+#, fuzzy
+#~| msgid "Paste Selection"
+#~ msgid "Paste from selection"
+#~ msgstr "নির্বাচিত অংশ পেস্ট করুন"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgctxt "@title:tab Complex options"
+#~ msgid "Advanced"
+#~ msgstr "উন্নত বৈশিষ্ট্য"
+
+#~ msgid "Terminal Features"
+#~ msgstr "টার্মিন্যালের বৈশিষ্ট্য"
+
+#~ msgid "Enable flow control using Ctrl+S, Ctrl+Q"
+#~ msgstr "Ctrl+S, Ctrl+Q প্রয়োগ করে ফ্লো কনট্রোল সক্রিয় করুন"
+
+#~ msgid ""
+#~ "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
+#~ "Hebrew only)"
+#~ msgstr ""
+#~ "টার্মিন্যালের মধ্যে উভয় দিশায় প্রদর্শন সক্রিয় করা হবে (শুধুমাত্র আরবি, ফার্সি ও "
+#~ "হিব্রুর ক্ষেত্রে প্রযোজ্য)"
+
+#~ msgid "Enable Bi-Directional text rendering"
+#~ msgstr "টার্মিন্যালের মধ্যে উভয় দিশায় হরফ প্রদর্শন সক্রিয় করা হবে"
+
+#~ msgid "Cursor"
+#~ msgstr "কার্সার"
+
+#~ msgid "Make the cursor blink regularly"
+#~ msgstr "নিয়মিতরূপে কার্সারে ঝলকানি হবে"
+
+#~ msgid "Cursor shape:"
+#~ msgstr "কার্সারের আকার:"
+
+#~ msgid "Change the shape of the cursor"
+#~ msgstr "কার্সারের আকার পরিবর্তন করুন"
+
+#~ msgid "Set the cursor to match the color of the character underneath it."
+#~ msgstr "কার্সারের তলায় উপস্থিত অক্ষরের রঙ অনুয়ায়ী কার্সারের রঙ পরিবর্তিত হবে।"
+
+#~ msgid "Set cursor color to match current character"
+#~ msgstr "বর্তমান অক্ষরের রঙ অনুযায়ী কার্সারের রঙ নির্ধারণ করা হবে"
+
+#~ msgid "Use a custom, fixed color for the cursor"
+#~ msgstr "কার্সারের জন্য স্বনির্ধারিত স্থায়ী রঙ প্রয়োগ করুন"
+
+#~ msgid "Custom cursor color:"
+#~ msgstr "কার্সারের স্বনির্ধারিত রঙ"
+
+#~ msgid "Select the color used to draw the cursor"
+#~ msgstr "কার্সার আঁকার জন্য ব্যবহৃত রঙ নির্বাচক করুন"
+
+#~ msgid "Encoding"
+#~ msgstr "এনকোডিং"
+
+#~ msgid "Default character encoding:"
+#~ msgstr "ডিফল্ট ক্যারেক্টার এনকোডিং:"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgctxt "@action:button Pick an encoding"
+#~ msgid "Select"
+#~ msgstr "নির্বাচন করুন"
+
+#~ msgid "No scrollback"
+#~ msgstr "স্ক্রোল-ব্যাক অনুপস্থিত"
+
+#, fuzzy
+#~| msgid "Fixed size scrollback: "
+#~ msgid "Fixed size scrollback:"
+#~ msgstr "স্ক্রোল-ব্যাকের নির্ধারিত মাপ: "
+
+#~ msgid "Remember all output produced by the terminal"
+#~ msgstr "টার্মিন্যাল থেকে উৎপন্ন সকল ফলাফল স্মরণে রাখা হবে"
+
+#~ msgid "Unlimited scrollback"
+#~ msgstr "সীমাহীন স্ক্রোল-ব্যাক"
+
+#~ msgid "Add"
+#~ msgstr "যোগ করুন"
+
+#~ msgctxt "Title of the area where you test your keys are properly configured"
+#~ msgid "Test Area"
+#~ msgstr "পরীক্ষণ স্থল"
+
+#~ msgid "Input:"
+#~ msgstr "ইনপুট:"
+
+#~ msgid "Output:"
+#~ msgstr "ফলাফল:"
+
+#~ msgid "Create a new profile based upon the selected profile"
+#~ msgstr "নির্বাচিত প্রোফাইলের উপর ভিত্তি করে একটি নতুন প্রোফাইল নির্বাচন করুন"
+
+#, fuzzy
+#~| msgid "New Profile..."
+#~ msgid "&New Profile..."
+#~ msgstr "নতুন প্রোফাইল..."
+
+#~ msgid "Edit the selected profile(s)"
+#~ msgstr "নির্বাচিত প্রোফাইল(গুলি) সম্পাদনা করুন"
+
+#, fuzzy
+#~| msgid "Edit Profile..."
+#~ msgid "&Edit Profile..."
+#~ msgstr "প্রোফাইল সম্পাদনা..."
+
+#~ msgid "Delete the selected profile(s)"
+#~ msgstr "নির্বাচিত প্রোফাইল(গুলি) মুছে ফেলুন"
+
+#, fuzzy
+#~| msgid "Delete Profile"
+#~ msgid "&Delete Profile"
+#~ msgstr "প্রোফাইল মুছে ফেলুন"
+
+#~ msgid "Set the selected profile as the default for new terminal sessions"
+#~ msgstr "নির্বাচিত প্রোফাইলটি নতুন টার্মিন্যাল সেশানের জন্য ডিফল্টরূপে প্রয়োগ করা হবে"
+
+#, fuzzy
+#~| msgid "Set as Default"
+#~ msgid "&Set as Default"
+#~ msgstr "ডিফল্ট মান রূপে নির্ধারণ করুন"
+
+#, fuzzy
+#~| msgid "Output"
+#~ msgid "Output Options"
+#~ msgstr "ফলাফল"
+
+#~ msgid "Tab title format:"
+#~ msgstr "ট্যাবের শিরোনামের বিন্যাস:"
+
+#~ msgid "Normal tab title format"
+#~ msgstr "স্বাভাবিক ট্যাবের শিরোনামের বিন্যাস"
+
+#~ msgid "Remote tab title format:"
+#~ msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
+
+#, fuzzy
+#~| msgid "Konsole"
+#~ msgid "Konsole Window"
+#~ msgstr "Konsole"
+
+#, fuzzy
+#~| msgid "Show menu bar in new windows"
+#~ msgid "Show menubar by default in each Konsole window"
+#~ msgstr "নতুন উইন্ডোর মধ্যে মেনু বার প্রদর্শন করা হবে"
+
+#, fuzzy
+#~| msgid "Tab bar display:"
+#~ msgid "Tab bar visibility:"
+#~ msgstr "ট্যাব বারের প্রদর্শন:"
+
+#~ msgid "Always Show Tab Bar"
+#~ msgstr "ট্যাব-বার সর্বদা প্রদর্শন করা হবে"
+
+#~ msgid "Show Tab Bar When Needed"
+#~ msgstr "প্রয়োজনে ট্যাব-বার প্রদর্শন করা হবে"
+
+#~ msgid "Always Hide Tab Bar"
+#~ msgstr "ট্যাব-বার সর্বদা আড়াল করা হবে"
+
+#~ msgid "Tab bar position:"
+#~ msgstr "ট্যাব বারের অবস্থান:"
+
+#, fuzzy
+#~| msgid "Above Terminal Displays"
+#~ msgid "Above Terminal Area"
+#~ msgstr "টার্মিন্যালের প্রদর্শনের উপরেী"
+
+#, fuzzy
+#~| msgid "Below Terminal Displays"
+#~ msgid "Below Terminal Area"
+#~ msgstr "টার্মিন্যালের প্রদর্শনের নীচে"
+
+#, fuzzy
+#~| msgid "Show 'New Tab' and 'Close Tab' buttons in tab bar"
+#~ msgid "Show 'New Tab' and 'Close Tab' buttons"
+#~ msgstr ""
+#~ "ট্যাব বারের মধ্যে 'নতুন ট্যাব' ও 'ট্যাব বন্ধ করুন' শীর্ষক বাটন প্রদর্শন করা হবে"
 
 #, fuzzy
 #~| msgid "Accessible Color Scheme"

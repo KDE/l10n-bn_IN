@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:29+0200\n"
+"POT-Creation-Date: 2013-02-11 03:51+0100\n"
 "PO-Revision-Date: 2009-01-02 17:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -142,85 +142,6 @@ msgid_plural "%1 seconds remaining:"
 msgstr[0] "১ সেকেন্ড অবশিষ্ট:"
 msgstr[1] "%1 সেকেন্ড অবশিষ্ট:"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, LegacyRandRConfigBase)
-#: legacyrandrconfigbase.ui:14
-msgid "Screen Resize and Rotate Settings"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QWidget, LegacyRandRConfigBase)
-#: legacyrandrconfigbase.ui:17
-msgid ""
-"If this option is enabled, options set by the system tray applet will be "
-"saved and loaded when KDE starts instead of being temporary."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, screenLabel)
-#: legacyrandrconfigbase.ui:25
-msgid "Settings for screen:"
-msgstr "পর্দা সংক্রান্ত বৈশিষ্ট্য:"
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, screenCombo)
-#: legacyrandrconfigbase.ui:38
-msgid ""
-"The screen whose settings you would like to change can be selected using "
-"this drop-down list."
-msgstr ""
-"এই ড্রপ-ডাউন তালিকা থেকে, বৈশিষ্ট্য পরিবর্তনের জন্য চিহ্নিত পর্দাটি নির্বাচন করা "
-"যাবে।"
-
-#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: legacyrandrconfigbase.ui:49
-msgid "Screen size:"
-msgstr "পর্দার মাপ:"
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, sizeCombo)
-#: legacyrandrconfigbase.ui:62
-msgid ""
-"The size, otherwise known as the resolution, of your screen can be selected "
-"from this drop-down list."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, rateLabel)
-#: legacyrandrconfigbase.ui:73
-msgid "Refresh rate:"
-msgstr "পুনরায় লোডের হার:"
-
-#. i18n: ectx: property (whatsThis), widget (KComboBox, rateCombo)
-#: legacyrandrconfigbase.ui:83
-msgid ""
-"The refresh rate of your screen can be selected from this drop-down list."
-msgstr "পর্দা পুনরায় লোডের হার নিম্নলিখিত ড্রপ-ডাউন তালিকা থেকে নির্বাচন করা যাবে।"
-
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, rotationGroup)
-#: legacyrandrconfigbase.ui:98
-msgid ""
-"The options in this section allow you to change the rotation of your screen."
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
-#: legacyrandrconfigbase.ui:101
-msgid "Orientation (degrees counterclockwise)"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, applyOnStartup)
-#: legacyrandrconfigbase.ui:108
-msgid ""
-"If this option is enabled the size and orientation settings will be used "
-"when KDE starts."
-msgstr ""
-"এই বিকল্পট সক্রিয় করা হলে, KDE আরম্ভের সময় মাপ ও দিশা সংক্রান্ত বৈশিষ্ট্যের মান "
-"ব্যবহার করা হবে।"
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyOnStartup)
-#: legacyrandrconfigbase.ui:111
-msgid "Apply settings on KDE startup"
-msgstr "KDE আরম্ভের সময় বৈশিষ্ট্য প্রয়োগ করা হবে"
-
-#. i18n: ectx: property (text), widget (QCheckBox, syncTrayApp)
-#: legacyrandrconfigbase.ui:118
-msgid "Allow tray application to change startup settings"
-msgstr "ট্রে অ্যাপ্লিকেশন দ্বারা প্রারম্ভিক বৈশিষ্ট্য পরিবর্তনের অনুমতি প্রদান করা হবে"
-
 #: legacyrandrscreen.cpp:140
 #, kde-format
 msgid ""
@@ -351,32 +272,6 @@ msgctxt "Automatic refresh rate configuration"
 msgid "Auto"
 msgstr "স্বয়ংক্রিয়"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, OutputConfigBase)
-#: outputconfigbase.ui:26
-msgid "Output Config"
-msgstr "আউটপুটে কনফিগ"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: outputconfigbase.ui:32
-msgid "Size:"
-msgstr "মাপ:"
-
-#. i18n: ectx: property (text), widget (QLabel, rateLabel)
-#: outputconfigbase.ui:48
-msgid "Refresh:"
-msgstr "পুনরায় লোড:"
-
-#. i18n: ectx: property (text), widget (QLabel, orientationLabel)
-#: outputconfigbase.ui:64
-msgid "Orientation:"
-msgstr "দিশা:"
-
-#. i18n: ectx: property (text), widget (QLabel, positionLabel)
-#: outputconfigbase.ui:80
-msgctxt "Position of the screen"
-msgid "Position:"
-msgstr "অবস্থান:"
-
 #: outputgraphicsitem.cpp:72
 #, kde-format
 msgctxt "Configuration options. Output name, width x height (refresh rate Hz)"
@@ -476,8 +371,7 @@ msgid ""
 "display will revert to your previous settings."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, saveAsDefaultButton)
-#: randrconfig.cpp:61 randrconfigbase.ui:81
+#: randrconfig.cpp:61
 msgid "Save as Default"
 msgstr ""
 
@@ -521,32 +415,68 @@ msgstr ""
 msgid "Changing configuration failed. Please adjust your xorg.conf manually."
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, RandRConfigBase)
-#: randrconfigbase.ui:14
-msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, unifyOutputs)
-#: randrconfigbase.ui:27
-#, fuzzy
-#| msgid "Identify Outputs"
-msgid "Unify outputs"
-msgstr "আউটপুট সনাক্ত করুন"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: randrconfigbase.ui:52
-msgid "Primary output:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
-#: randrconfigbase.ui:74
-msgid "Identify Outputs"
-msgstr "আউটপুট সনাক্ত করুন"
-
 #: randrdisplay.cpp:49
 #, kde-format
 msgid "X Resize and Rotate extension version %1.%2"
 msgstr ""
+
+#~ msgid "Settings for screen:"
+#~ msgstr "পর্দা সংক্রান্ত বৈশিষ্ট্য:"
+
+#~ msgid ""
+#~ "The screen whose settings you would like to change can be selected using "
+#~ "this drop-down list."
+#~ msgstr ""
+#~ "এই ড্রপ-ডাউন তালিকা থেকে, বৈশিষ্ট্য পরিবর্তনের জন্য চিহ্নিত পর্দাটি নির্বাচন করা "
+#~ "যাবে।"
+
+#~ msgid "Screen size:"
+#~ msgstr "পর্দার মাপ:"
+
+#~ msgid "Refresh rate:"
+#~ msgstr "পুনরায় লোডের হার:"
+
+#~ msgid ""
+#~ "The refresh rate of your screen can be selected from this drop-down list."
+#~ msgstr ""
+#~ "পর্দা পুনরায় লোডের হার নিম্নলিখিত ড্রপ-ডাউন তালিকা থেকে নির্বাচন করা যাবে।"
+
+#~ msgid ""
+#~ "If this option is enabled the size and orientation settings will be used "
+#~ "when KDE starts."
+#~ msgstr ""
+#~ "এই বিকল্পট সক্রিয় করা হলে, KDE আরম্ভের সময় মাপ ও দিশা সংক্রান্ত বৈশিষ্ট্যের মান "
+#~ "ব্যবহার করা হবে।"
+
+#~ msgid "Apply settings on KDE startup"
+#~ msgstr "KDE আরম্ভের সময় বৈশিষ্ট্য প্রয়োগ করা হবে"
+
+#~ msgid "Allow tray application to change startup settings"
+#~ msgstr "ট্রে অ্যাপ্লিকেশন দ্বারা প্রারম্ভিক বৈশিষ্ট্য পরিবর্তনের অনুমতি প্রদান করা হবে"
+
+#~ msgid "Output Config"
+#~ msgstr "আউটপুটে কনফিগ"
+
+#~ msgid "Size:"
+#~ msgstr "মাপ:"
+
+#~ msgid "Refresh:"
+#~ msgstr "পুনরায় লোড:"
+
+#~ msgid "Orientation:"
+#~ msgstr "দিশা:"
+
+#~ msgctxt "Position of the screen"
+#~ msgid "Position:"
+#~ msgstr "অবস্থান:"
+
+#, fuzzy
+#~| msgid "Identify Outputs"
+#~ msgid "Unify outputs"
+#~ msgstr "আউটপুট সনাক্ত করুন"
+
+#~ msgid "Identify Outputs"
+#~ msgstr "আউটপুট সনাক্ত করুন"
 
 #, fuzzy
 #~| msgid "Screen Size"

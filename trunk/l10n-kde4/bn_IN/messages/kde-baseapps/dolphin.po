@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-07 03:16+0100\n"
+"POT-Creation-Date: 2013-02-11 03:39+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -456,57 +456,6 @@ msgstr ""
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
-#. i18n: ectx: Menu (edit)
-#: dolphinpart.rc:4
-msgid "&Edit"
-msgstr "সম্পাদনা করুন (&E)"
-
-#. i18n: ectx: Menu (selection)
-#: dolphinpart.rc:14
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Search..."
-msgctxt "@title:menu"
-msgid "Selection"
-msgstr "অনুসন্ধান..."
-
-#. i18n: ectx: Menu (view)
-#: dolphinpart.rc:23
-msgid "&View"
-msgstr "দেখুন (&V)"
-
-#. i18n: ectx: Menu (go)
-#: dolphinpart.rc:32
-msgid "&Go"
-msgstr "যাও (&G)"
-
-#. i18n: ectx: Menu (tools)
-#: dolphinpart.rc:40
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "টুল"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: dolphinpart.rc:48
-msgctxt "@title:menu"
-msgid "Dolphin Toolbar"
-msgstr "Dolphin টুলবার"
-
-#. i18n: ectx: Menu (location_bar)
-#: dolphinui.rc:34
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Location:"
-msgctxt "@title:menu"
-msgid "Location Bar"
-msgstr "অবস্থান:"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: dolphinui.rc:88
-msgctxt "@title:menu"
-msgid "Main Toolbar"
-msgstr "মুখ্য টুলবার"
-
 #: dolphinviewcontainer.cpp:414
 msgctxt "@info:progress"
 msgid "Loading folder..."
@@ -577,12 +526,12 @@ msgid_plural "%1 items"
 msgstr[0] "১টা জিনিস নির্বাচিত হয়েছে"
 msgstr[1] "%1 জিনিস নির্বাচিত হয়েছে"
 
-#: kitemviews/kfileitemmodel.cpp:1644
+#: kitemviews/kfileitemmodel.cpp:1586
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1661
+#: kitemviews/kfileitemmodel.cpp:1603
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -590,136 +539,136 @@ msgctxt "@title:group"
 msgid "Others"
 msgstr "অন্যান্য"
 
-#: kitemviews/kfileitemmodel.cpp:1693
+#: kitemviews/kfileitemmodel.cpp:1635
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "ফোল্ডার সমূহ"
 
-#: kitemviews/kfileitemmodel.cpp:1695
+#: kitemviews/kfileitemmodel.cpp:1637
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "ছোটো"
 
-#: kitemviews/kfileitemmodel.cpp:1697
+#: kitemviews/kfileitemmodel.cpp:1639
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: kitemviews/kfileitemmodel.cpp:1699
+#: kitemviews/kfileitemmodel.cpp:1641
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "বড়ো"
 
-#: kitemviews/kfileitemmodel.cpp:1759
+#: kitemviews/kfileitemmodel.cpp:1701
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "আজকে"
 
-#: kitemviews/kfileitemmodel.cpp:1760
+#: kitemviews/kfileitemmodel.cpp:1702
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "গতকাল"
 
-#: kitemviews/kfileitemmodel.cpp:1761
+#: kitemviews/kfileitemmodel.cpp:1703
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1765
+#: kitemviews/kfileitemmodel.cpp:1707
 msgctxt "@title:group Date"
 msgid "Last Week"
 msgstr "গত সপ্তাহ"
 
-#: kitemviews/kfileitemmodel.cpp:1768
+#: kitemviews/kfileitemmodel.cpp:1710
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "দুই সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1771
+#: kitemviews/kfileitemmodel.cpp:1713
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "তিন সপ্তাহ অাগে"
 
-#: kitemviews/kfileitemmodel.cpp:1775
+#: kitemviews/kfileitemmodel.cpp:1717
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "এই মাসের শুরুতে"
 
-#: kitemviews/kfileitemmodel.cpp:1784
+#: kitemviews/kfileitemmodel.cpp:1726
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "গতকাল (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1786
+#: kitemviews/kfileitemmodel.cpp:1728
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1788
+#: kitemviews/kfileitemmodel.cpp:1730
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Last Week (%B, %Y)"
 msgstr "গত সপ্তাহ (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1790
+#: kitemviews/kfileitemmodel.cpp:1732
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "দুই সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1792
+#: kitemviews/kfileitemmodel.cpp:1734
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "তিন সপ্তাহ আগে (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1794
+#: kitemviews/kfileitemmodel.cpp:1736
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y এর গোড়ার দিকে"
 
-#: kitemviews/kfileitemmodel.cpp:1797
+#: kitemviews/kfileitemmodel.cpp:1739
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1836 kitemviews/kfileitemmodel.cpp:1849
-#: kitemviews/kfileitemmodel.cpp:1862
+#: kitemviews/kfileitemmodel.cpp:1778 kitemviews/kfileitemmodel.cpp:1791
+#: kitemviews/kfileitemmodel.cpp:1804
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "পড়া যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1839 kitemviews/kfileitemmodel.cpp:1852
-#: kitemviews/kfileitemmodel.cpp:1865
+#: kitemviews/kfileitemmodel.cpp:1781 kitemviews/kfileitemmodel.cpp:1794
+#: kitemviews/kfileitemmodel.cpp:1807
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "লেখা যাবে,"
 
-#: kitemviews/kfileitemmodel.cpp:1842 kitemviews/kfileitemmodel.cpp:1855
-#: kitemviews/kfileitemmodel.cpp:1868
+#: kitemviews/kfileitemmodel.cpp:1784 kitemviews/kfileitemmodel.cpp:1797
+#: kitemviews/kfileitemmodel.cpp:1810
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "রান করবে"
 
-#: kitemviews/kfileitemmodel.cpp:1844 kitemviews/kfileitemmodel.cpp:1857
-#: kitemviews/kfileitemmodel.cpp:1870
+#: kitemviews/kfileitemmodel.cpp:1786 kitemviews/kfileitemmodel.cpp:1799
+#: kitemviews/kfileitemmodel.cpp:1812
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "নিশিদ্ধ"
 
-#: kitemviews/kfileitemmodel.cpp:1872
+#: kitemviews/kfileitemmodel.cpp:1814
 #, fuzzy, kde-format
 #| msgctxt "@title:group Files and folders by permissions"
 #| msgid "(User: %1) (Group: %2) (Others: %3)"
@@ -727,7 +676,7 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(ব্যবহারকারী: %1) (গ্রুপ: %2) (অন্যান্য: %3)"
 
-#: kitemviews/kfileitemmodel.cpp:1978
+#: kitemviews/kfileitemmodel.cpp:1920
 #, fuzzy
 #| msgctxt "@label Tag name"
 #| msgid "Name:"
@@ -735,7 +684,7 @@ msgctxt "@label"
 msgid "Name"
 msgstr "নাম:"
 
-#: kitemviews/kfileitemmodel.cpp:1979
+#: kitemviews/kfileitemmodel.cpp:1921
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Size"
@@ -743,7 +692,7 @@ msgctxt "@label"
 msgid "Size"
 msgstr "পরিমান"
 
-#: kitemviews/kfileitemmodel.cpp:1980
+#: kitemviews/kfileitemmodel.cpp:1922
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Date"
@@ -751,7 +700,7 @@ msgctxt "@label"
 msgid "Date"
 msgstr "তারিখ"
 
-#: kitemviews/kfileitemmodel.cpp:1981
+#: kitemviews/kfileitemmodel.cpp:1923
 #, fuzzy
 #| msgctxt "@action:inmenu Additional information"
 #| msgid "Type"
@@ -759,7 +708,7 @@ msgctxt "@label"
 msgid "Type"
 msgstr "ধরন"
 
-#: kitemviews/kfileitemmodel.cpp:1982
+#: kitemviews/kfileitemmodel.cpp:1924
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Rating"
@@ -767,7 +716,7 @@ msgctxt "@label"
 msgid "Rating"
 msgstr "রেটিং"
 
-#: kitemviews/kfileitemmodel.cpp:1983
+#: kitemviews/kfileitemmodel.cpp:1925
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Tags"
@@ -775,7 +724,7 @@ msgctxt "@label"
 msgid "Tags"
 msgstr "ট্যাগ"
 
-#: kitemviews/kfileitemmodel.cpp:1984
+#: kitemviews/kfileitemmodel.cpp:1926
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Comment"
@@ -783,12 +732,12 @@ msgctxt "@label"
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kitemviews/kfileitemmodel.cpp:1985
+#: kitemviews/kfileitemmodel.cpp:1927
 msgctxt "@label"
 msgid "Word Count"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1985 kitemviews/kfileitemmodel.cpp:1986
+#: kitemviews/kfileitemmodel.cpp:1927 kitemviews/kfileitemmodel.cpp:1928
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -796,12 +745,12 @@ msgctxt "@label"
 msgid "Document"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1986
+#: kitemviews/kfileitemmodel.cpp:1928
 msgctxt "@label"
 msgid "Line Count"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1987
+#: kitemviews/kfileitemmodel.cpp:1929
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -809,12 +758,12 @@ msgctxt "@label"
 msgid "Image Size"
 msgstr "ফাইলের প্রাকদর্শন"
 
-#: kitemviews/kfileitemmodel.cpp:1987 kitemviews/kfileitemmodel.cpp:1988
+#: kitemviews/kfileitemmodel.cpp:1929 kitemviews/kfileitemmodel.cpp:1930
 msgctxt "@label"
 msgid "Image"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1988
+#: kitemviews/kfileitemmodel.cpp:1930
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -822,23 +771,23 @@ msgctxt "@label"
 msgid "Orientation"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1989
+#: kitemviews/kfileitemmodel.cpp:1931
 msgctxt "@label"
 msgid "Artist"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1989 kitemviews/kfileitemmodel.cpp:1990
-#: kitemviews/kfileitemmodel.cpp:1991 kitemviews/kfileitemmodel.cpp:1992
+#: kitemviews/kfileitemmodel.cpp:1931 kitemviews/kfileitemmodel.cpp:1932
+#: kitemviews/kfileitemmodel.cpp:1933 kitemviews/kfileitemmodel.cpp:1934
 msgctxt "@label"
 msgid "Audio"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1990
+#: kitemviews/kfileitemmodel.cpp:1932
 msgctxt "@label"
 msgid "Album"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1991
+#: kitemviews/kfileitemmodel.cpp:1933
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -846,12 +795,12 @@ msgctxt "@label"
 msgid "Duration"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1992
+#: kitemviews/kfileitemmodel.cpp:1934
 msgctxt "@label"
 msgid "Track"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1993
+#: kitemviews/kfileitemmodel.cpp:1935
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -859,9 +808,9 @@ msgctxt "@label"
 msgid "Path"
 msgstr "পেস্ট"
 
-#: kitemviews/kfileitemmodel.cpp:1993 kitemviews/kfileitemmodel.cpp:1994
-#: kitemviews/kfileitemmodel.cpp:1995 kitemviews/kfileitemmodel.cpp:1996
-#: kitemviews/kfileitemmodel.cpp:1997 kitemviews/kfileitemmodel.cpp:1998
+#: kitemviews/kfileitemmodel.cpp:1935 kitemviews/kfileitemmodel.cpp:1936
+#: kitemviews/kfileitemmodel.cpp:1937 kitemviews/kfileitemmodel.cpp:1938
+#: kitemviews/kfileitemmodel.cpp:1939 kitemviews/kfileitemmodel.cpp:1940
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -869,7 +818,7 @@ msgctxt "@label"
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kitemviews/kfileitemmodel.cpp:1994
+#: kitemviews/kfileitemmodel.cpp:1936
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -877,22 +826,22 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:1995
+#: kitemviews/kfileitemmodel.cpp:1937
 msgctxt "@label"
 msgid "Copied From"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1996
+#: kitemviews/kfileitemmodel.cpp:1938
 msgctxt "@label"
 msgid "Permissions"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1997
+#: kitemviews/kfileitemmodel.cpp:1939
 msgctxt "@label"
 msgid "Owner"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1998
+#: kitemviews/kfileitemmodel.cpp:1940
 msgctxt "@label"
 msgid "User Group"
 msgstr ""
@@ -1060,18 +1009,6 @@ msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "যে ডকুমেন্টটা খুলতে হবে"
 
-#. i18n: ectx: label, entry (HiddenFilesShown), group (FoldersPanel)
-#: panels/folders/dolphin_folderspanelsettings.kcfg:10
-#, fuzzy
-#| msgid "Show hidden files"
-msgid "Hidden files shown"
-msgstr "গোপন ফাইলগুলো দেখান"
-
-#. i18n: ectx: label, entry (AutoScrolling), group (FoldersPanel)
-#: panels/folders/dolphin_folderspanelsettings.kcfg:14
-msgid "Automatic scrolling"
-msgstr ""
-
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
 msgid "Cut"
@@ -1117,14 +1054,6 @@ msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
-#. i18n: ectx: label, entry (previewsShown), group (InformationPanel)
-#: panels/information/dolphin_informationpanelsettings.kcfg:10
-#, fuzzy
-#| msgctxt "@title:tab Previews settings"
-#| msgid "Previews"
-msgid "Previews shown"
-msgstr "প্রাকদর্শন"
-
 #: panels/information/filemetadataconfigurationdialog.cpp:33
 msgctxt "@title:window"
 msgid "Configure Shown Data"
@@ -1168,12 +1097,6 @@ msgstr "চালান"
 #: panels/information/phononwidget.cpp:135
 msgid "stop"
 msgstr "থামান"
-
-#. i18n: ectx: label, entry (IconSize), group (PlacesPanel)
-#: panels/places/dolphin_placespanelsettings.kcfg:10
-msgid ""
-"Size of icons in the Places Panel (-1 means \"use the style's small size\")"
-msgstr ""
 
 #: panels/places/placesitem.cpp:152
 #, fuzzy
@@ -1445,27 +1368,6 @@ msgctxt "@title:window"
 msgid "Edit Places Entry"
 msgstr ""
 
-#. i18n: ectx: label, entry (Location), group (Search)
-#: search/dolphin_searchsettings.kcfg:10
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Location:"
-msgid "Location"
-msgstr "অবস্থান:"
-
-#. i18n: ectx: label, entry (What), group (Search)
-#: search/dolphin_searchsettings.kcfg:14
-msgid "What"
-msgstr ""
-
-#. i18n: ectx: label, entry (ShowFacetsWidget), group (Search)
-#: search/dolphin_searchsettings.kcfg:18
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show folders first"
-msgid "Show facets widget"
-msgstr "ফোল্ডার প্রথমে দেখাও"
-
 #: search/dolphinfacetswidget.cpp:61
 #, fuzzy
 #| msgctxt "@info:credit"
@@ -1640,351 +1542,6 @@ msgstr ""
 #: settings/additionalinfodialog.cpp:49
 msgctxt "@label"
 msgid "Select which additional information should be shown:"
-msgstr ""
-
-#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
-#. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
-#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
-#: settings/dolphin_compactmodesettings.kcfg:12
-#: settings/dolphin_detailsmodesettings.kcfg:16
-#: settings/dolphin_iconsmodesettings.kcfg:12
-msgid "Use system font"
-msgstr "সিস্টেম ফন্ট ব্যবহৃত হবে"
-
-#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
-#. i18n: ectx: label, entry (FontFamily), group (CompactMode)
-#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
-#: settings/dolphin_compactmodesettings.kcfg:16
-#: settings/dolphin_detailsmodesettings.kcfg:12
-#: settings/dolphin_iconsmodesettings.kcfg:16
-msgid "Font family"
-msgstr "ফন্টের ধরন"
-
-#. i18n: ectx: label, entry (FontSize), group (IconsMode)
-#. i18n: ectx: label, entry (FontSize), group (CompactMode)
-#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
-#: settings/dolphin_compactmodesettings.kcfg:20
-#: settings/dolphin_detailsmodesettings.kcfg:20
-#: settings/dolphin_iconsmodesettings.kcfg:20
-msgid "Font size"
-msgstr "ফন্টের অাকার"
-
-#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
-#. i18n: ectx: label, entry (ItalicFont), group (CompactMode)
-#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
-#: settings/dolphin_compactmodesettings.kcfg:24
-#: settings/dolphin_detailsmodesettings.kcfg:24
-#: settings/dolphin_iconsmodesettings.kcfg:24
-msgid "Italic"
-msgstr "ইটালিক"
-
-#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
-#. i18n: ectx: label, entry (FontWeight), group (CompactMode)
-#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
-#: settings/dolphin_compactmodesettings.kcfg:28
-#: settings/dolphin_detailsmodesettings.kcfg:28
-#: settings/dolphin_iconsmodesettings.kcfg:28
-msgid "Font weight"
-msgstr "ফন্টের ওজন"
-
-#. i18n: ectx: label, entry (IconSize), group (IconsMode)
-#. i18n: ectx: label, entry (IconSize), group (CompactMode)
-#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
-#: settings/dolphin_compactmodesettings.kcfg:32
-#: settings/dolphin_detailsmodesettings.kcfg:32
-#: settings/dolphin_iconsmodesettings.kcfg:32
-msgid "Icon size"
-msgstr "অাইকনের অাকার"
-
-#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
-#. i18n: ectx: label, entry (PreviewSize), group (CompactMode)
-#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
-#: settings/dolphin_compactmodesettings.kcfg:36
-#: settings/dolphin_detailsmodesettings.kcfg:36
-#: settings/dolphin_iconsmodesettings.kcfg:36
-msgid "Preview size"
-msgstr "প্রাকদর্শন অাকার"
-
-#. i18n: ectx: label, entry (MaximumTextWidthIndex), group (CompactMode)
-#: settings/dolphin_compactmodesettings.kcfg:40
-msgid "Maximum text width index (0 means unlimited)"
-msgstr ""
-
-#. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
-#: settings/dolphin_detailsmodesettings.kcfg:40
-msgid "Position of columns"
-msgstr ""
-
-#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
-#: settings/dolphin_detailsmodesettings.kcfg:44
-msgid "Expandable folders"
-msgstr "বৃদ্ধিমান ফোল্ডার"
-
-#. i18n: ectx: label, entry (HiddenFilesShown), group (Settings)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:11
-#, fuzzy
-#| msgid "Show hidden files"
-msgctxt "@label"
-msgid "Hidden files shown"
-msgstr "গোপন ফাইলগুলো দেখান"
-
-#. i18n: ectx: whatsthis, entry (HiddenFilesShown), group (Settings)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:12
-msgctxt "@info:whatsthis"
-msgid ""
-"When this option is enabled hidden files, such as those starting with a '.', "
-"will be shown in the file view."
-msgstr ""
-"এই অপশনটি সক্রিয় করলে গোপন ফাইলগুলো, যেমন যেগুলো '.' দিয়ে শুরু হয়, দেখানো হবে। "
-
-#. i18n: ectx: label, entry (Version), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:19
-msgctxt "@label"
-msgid "Version"
-msgstr ""
-
-#. i18n: ectx: whatsthis, entry (Version), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:20
-msgctxt "@info:whatsthis"
-msgid "This option defines the used version of the view properties."
-msgstr ""
-
-#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:25
-msgctxt "@label"
-msgid "View Mode"
-msgstr "দেখার মোড"
-
-#. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:26
-msgctxt "@info:whatsthis"
-msgid ""
-"This option controls the style of the view. Currently supported values "
-"include icons (0), details (1) and column (2) views."
-msgstr ""
-"এই অপশনটি দেখার রচনাশৈলী নিয়ন্ত্রণ করে। বর্তমানে সমর্থিত মানগুলো হলো অাইকন (০), "
-"বিস্তারিত (১) এবং কলাম (৩) দৃশ্য।"
-
-#. i18n: ectx: label, entry (PreviewsShown), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:31
-#, fuzzy
-#| msgctxt "@title:tab Previews settings"
-#| msgid "Previews"
-msgctxt "@label"
-msgid "Previews shown"
-msgstr "প্রাকদর্শন"
-
-#. i18n: ectx: whatsthis, entry (PreviewsShown), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:32
-msgctxt "@info:whatsthis"
-msgid ""
-"When this option is enabled, a preview of the file content is shown as an "
-"icon."
-msgstr "এই অপশনটা সক্রিয় করলে, ফাইলের "
-
-#. i18n: ectx: label, entry (GroupedSorting), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:37
-msgctxt "@label"
-msgid "Grouped Sorting"
-msgstr ""
-
-#. i18n: ectx: whatsthis, entry (GroupedSorting), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:38
-#, fuzzy
-#| msgctxt "@info:whatsthis"
-#| msgid ""
-#| "When this option is enabled, a preview of the file content is shown as an "
-#| "icon."
-msgctxt "@info:whatsthis"
-msgid ""
-"When this option is enabled, the sorted items are categorized into groups."
-msgstr "এই অপশনটা সক্রিয় করলে, ফাইলের "
-
-#. i18n: ectx: label, entry (SortRole), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:43
-msgctxt "@label"
-msgid "Sort files by"
-msgstr ""
-
-#. i18n: ectx: whatsthis, entry (SortRole), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:44
-msgctxt "@info:whatsthis"
-msgid ""
-"This option defines which attribute (text, size, date, etc.) sorting is "
-"performed on."
-msgstr ""
-
-#. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:49
-msgctxt "@label"
-msgid "Order in which to sort files"
-msgstr ""
-
-#. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:56
-msgctxt "@label"
-msgid "Show folders first when sorting files and folders"
-msgstr "ফাইল এবং ফোল্ডার সাজানোর সময় ফোল্ডার প্রথমে দেখাবে"
-
-#. i18n: ectx: label, entry (VisibleRoles), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:61
-msgctxt "@label"
-msgid "Visible roles"
-msgstr ""
-
-#. i18n: ectx: label, entry (HeaderColumnWidths), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:66
-#, fuzzy
-#| msgid "Column width"
-msgctxt "@label"
-msgid "Header column widths"
-msgstr "কলামের প্রস্থ"
-
-#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:71
-msgctxt "@label"
-msgid "Properties last changed"
-msgstr "শেষবারে য়ে বৈশিষ্ট্যাবলী পরিবর্তিত হয়েছে"
-
-#. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:72
-msgctxt "@info:whatsthis"
-msgid "The last time these properties were changed by the user."
-msgstr "শেষ সময় যখন এই বৈশিষ্ট্যাবলী ব্যবহারকারীর পরিবর্তন করেছিলো।"
-
-#. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: settings/dolphin_directoryviewpropertysettings.kcfg:77
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Additional Information"
-msgctxt "@label"
-msgid "Additional Information"
-msgstr "অধিক তথ্য"
-
-#. i18n: ectx: label, entry (EditableUrl), group (General)
-#: settings/dolphin_generalsettings.kcfg:13
-msgid "Should the URL be editable for the user"
-msgstr ""
-
-#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: settings/dolphin_generalsettings.kcfg:17
-msgid "Text completion mode of the URL Navigator"
-msgstr ""
-
-#. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: settings/dolphin_generalsettings.kcfg:21
-msgid "Should the full path be shown inside the location bar"
-msgstr ""
-
-#. i18n: ectx: label, entry (Version), group (General)
-#: settings/dolphin_generalsettings.kcfg:25
-msgid ""
-"Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
-msgstr ""
-
-#. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
-#: settings/dolphin_generalsettings.kcfg:29
-msgid ""
-"Have the startup settings been modified (internal setting not shown in the "
-"UI)"
-msgstr ""
-
-#. i18n: ectx: label, entry (HomeUrl), group (General)
-#: settings/dolphin_generalsettings.kcfg:33
-msgid "Home URL"
-msgstr ""
-
-#. i18n: ectx: label, entry (SplitView), group (General)
-#: settings/dolphin_generalsettings.kcfg:37
-msgid "Split the view into two panes"
-msgstr ""
-
-#. i18n: ectx: label, entry (FilterBar), group (General)
-#: settings/dolphin_generalsettings.kcfg:41
-msgid "Should the filter bar be shown"
-msgstr "ফিল্টার বার দেখানো হবে কিনা"
-
-#. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: settings/dolphin_generalsettings.kcfg:45
-msgid "Should the view properties be used for all directories"
-msgstr "সব ডিরেক্টারির জন্যে দেখার বৈশিষ্টাবলী দেখানো হবে কিনা"
-
-#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: settings/dolphin_generalsettings.kcfg:49
-msgid "Browse through archives"
-msgstr "অার্কাইভগুলো ব্রাউজ করুন"
-
-#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: settings/dolphin_generalsettings.kcfg:53
-msgid "Ask for confirmation when closing windows with multiple tabs."
-msgstr ""
-
-#. i18n: ectx: label, entry (RenameInline), group (General)
-#: settings/dolphin_generalsettings.kcfg:57
-msgid "Rename inline"
-msgstr "inline নাম পরিবর্তন"
-
-#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: settings/dolphin_generalsettings.kcfg:61
-msgid "Show selection toggle"
-msgstr "নির্বাচনের অদলবদল দেখাও"
-
-#. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: settings/dolphin_generalsettings.kcfg:65
-msgid "Show tooltips"
-msgstr "টুলের সম্যন্ধে দেখাও"
-
-#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:69
-msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgstr "'কপি' এবং 'মুভ' কমান্ড দেখাও কনটেক্স্ট মেনুতে"
-
-#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:73
-msgid "Timestamp since when the view properties are valid"
-msgstr ""
-
-#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:76
-msgid "Use auto-expanding folders for all view types"
-msgstr ""
-
-#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:80
-msgid "Show zoom slider in the statusbar"
-msgstr "জুম স্লাইডার দেখাও স্ট্যাটাসবারে"
-
-#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:84
-msgid "Show the space information in the statusbar"
-msgstr ""
-
-#. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:88
-msgid "Lock the layout of the panels"
-msgstr ""
-
-#. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:92
-msgid "Enlarge Small Previews"
-msgstr ""
-
-#. i18n: ectx: label, entry (TextWidthIndex), group (IconsMode)
-#: settings/dolphin_iconsmodesettings.kcfg:40
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Text width:"
-msgid "Text width index"
-msgstr "টেক্সটের প্রস্থ:"
-
-#. i18n: ectx: label, entry (MaximumTextLines), group (IconsMode)
-#: settings/dolphin_iconsmodesettings.kcfg:44
-msgid "Maximum textlines (0 means unlimited)"
-msgstr ""
-
-#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
-#: settings/dolphin_versioncontrolsettings.kcfg:10
-msgid "Enabled plugins"
 msgstr ""
 
 #: settings/dolphinsettingsdialog.cpp:46
@@ -2943,6 +2500,191 @@ msgstr "অতিরিক্ত তথ্য"
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "অতিরিক্ত তথ্য"
+
+#~ msgid "&Edit"
+#~ msgstr "সম্পাদনা করুন (&E)"
+
+#, fuzzy
+#~| msgctxt "@label:textbox"
+#~| msgid "Search..."
+#~ msgctxt "@title:menu"
+#~ msgid "Selection"
+#~ msgstr "অনুসন্ধান..."
+
+#~ msgid "&View"
+#~ msgstr "দেখুন (&V)"
+
+#~ msgid "&Go"
+#~ msgstr "যাও (&G)"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Tools"
+#~ msgstr "টুল"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Dolphin Toolbar"
+#~ msgstr "Dolphin টুলবার"
+
+#, fuzzy
+#~| msgctxt "@label:textbox"
+#~| msgid "Location:"
+#~ msgctxt "@title:menu"
+#~ msgid "Location Bar"
+#~ msgstr "অবস্থান:"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Main Toolbar"
+#~ msgstr "মুখ্য টুলবার"
+
+#, fuzzy
+#~| msgid "Show hidden files"
+#~ msgid "Hidden files shown"
+#~ msgstr "গোপন ফাইলগুলো দেখান"
+
+#, fuzzy
+#~| msgctxt "@title:tab Previews settings"
+#~| msgid "Previews"
+#~ msgid "Previews shown"
+#~ msgstr "প্রাকদর্শন"
+
+#, fuzzy
+#~| msgctxt "@label:textbox"
+#~| msgid "Location:"
+#~ msgid "Location"
+#~ msgstr "অবস্থান:"
+
+#, fuzzy
+#~| msgctxt "@option:check"
+#~| msgid "Show folders first"
+#~ msgid "Show facets widget"
+#~ msgstr "ফোল্ডার প্রথমে দেখাও"
+
+#~ msgid "Use system font"
+#~ msgstr "সিস্টেম ফন্ট ব্যবহৃত হবে"
+
+#~ msgid "Font family"
+#~ msgstr "ফন্টের ধরন"
+
+#~ msgid "Font size"
+#~ msgstr "ফন্টের অাকার"
+
+#~ msgid "Italic"
+#~ msgstr "ইটালিক"
+
+#~ msgid "Font weight"
+#~ msgstr "ফন্টের ওজন"
+
+#~ msgid "Icon size"
+#~ msgstr "অাইকনের অাকার"
+
+#~ msgid "Preview size"
+#~ msgstr "প্রাকদর্শন অাকার"
+
+#~ msgid "Expandable folders"
+#~ msgstr "বৃদ্ধিমান ফোল্ডার"
+
+#, fuzzy
+#~| msgid "Show hidden files"
+#~ msgctxt "@label"
+#~ msgid "Hidden files shown"
+#~ msgstr "গোপন ফাইলগুলো দেখান"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When this option is enabled hidden files, such as those starting with a "
+#~ "'.', will be shown in the file view."
+#~ msgstr ""
+#~ "এই অপশনটি সক্রিয় করলে গোপন ফাইলগুলো, যেমন যেগুলো '.' দিয়ে শুরু হয়, দেখানো হবে। "
+
+#~ msgctxt "@label"
+#~ msgid "View Mode"
+#~ msgstr "দেখার মোড"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "This option controls the style of the view. Currently supported values "
+#~ "include icons (0), details (1) and column (2) views."
+#~ msgstr ""
+#~ "এই অপশনটি দেখার রচনাশৈলী নিয়ন্ত্রণ করে। বর্তমানে সমর্থিত মানগুলো হলো অাইকন "
+#~ "(০), বিস্তারিত (১) এবং কলাম (৩) দৃশ্য।"
+
+#, fuzzy
+#~| msgctxt "@title:tab Previews settings"
+#~| msgid "Previews"
+#~ msgctxt "@label"
+#~ msgid "Previews shown"
+#~ msgstr "প্রাকদর্শন"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When this option is enabled, a preview of the file content is shown as an "
+#~ "icon."
+#~ msgstr "এই অপশনটা সক্রিয় করলে, ফাইলের "
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid ""
+#~| "When this option is enabled, a preview of the file content is shown as "
+#~| "an icon."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When this option is enabled, the sorted items are categorized into groups."
+#~ msgstr "এই অপশনটা সক্রিয় করলে, ফাইলের "
+
+#~ msgctxt "@label"
+#~ msgid "Show folders first when sorting files and folders"
+#~ msgstr "ফাইল এবং ফোল্ডার সাজানোর সময় ফোল্ডার প্রথমে দেখাবে"
+
+#, fuzzy
+#~| msgid "Column width"
+#~ msgctxt "@label"
+#~ msgid "Header column widths"
+#~ msgstr "কলামের প্রস্থ"
+
+#~ msgctxt "@label"
+#~ msgid "Properties last changed"
+#~ msgstr "শেষবারে য়ে বৈশিষ্ট্যাবলী পরিবর্তিত হয়েছে"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The last time these properties were changed by the user."
+#~ msgstr "শেষ সময় যখন এই বৈশিষ্ট্যাবলী ব্যবহারকারীর পরিবর্তন করেছিলো।"
+
+#, fuzzy
+#~| msgctxt "@title:menu"
+#~| msgid "Additional Information"
+#~ msgctxt "@label"
+#~ msgid "Additional Information"
+#~ msgstr "অধিক তথ্য"
+
+#~ msgid "Should the filter bar be shown"
+#~ msgstr "ফিল্টার বার দেখানো হবে কিনা"
+
+#~ msgid "Should the view properties be used for all directories"
+#~ msgstr "সব ডিরেক্টারির জন্যে দেখার বৈশিষ্টাবলী দেখানো হবে কিনা"
+
+#~ msgid "Browse through archives"
+#~ msgstr "অার্কাইভগুলো ব্রাউজ করুন"
+
+#~ msgid "Rename inline"
+#~ msgstr "inline নাম পরিবর্তন"
+
+#~ msgid "Show selection toggle"
+#~ msgstr "নির্বাচনের অদলবদল দেখাও"
+
+#~ msgid "Show tooltips"
+#~ msgstr "টুলের সম্যন্ধে দেখাও"
+
+#~ msgid "Show 'Copy To' and 'Move To' commands in context menu"
+#~ msgstr "'কপি' এবং 'মুভ' কমান্ড দেখাও কনটেক্স্ট মেনুতে"
+
+#~ msgid "Show zoom slider in the statusbar"
+#~ msgstr "জুম স্লাইডার দেখাও স্ট্যাটাসবারে"
+
+#, fuzzy
+#~| msgctxt "@label:listbox"
+#~| msgid "Text width:"
+#~ msgid "Text width index"
+#~ msgstr "টেক্সটের প্রস্থ:"
 
 #, fuzzy
 #~| msgctxt "@option:check"

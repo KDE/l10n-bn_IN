@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-25 03:24+0100\n"
+"POT-Creation-Date: 2013-02-11 03:51+0100\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -88,21 +88,6 @@ msgstr ""
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
-#: contents/ui/config.ui:14
-msgid "Configure Battery Monitor"
-msgstr "ব্যাটারি নিরীক্ষণ ব্যবস্থা কনফিগার করুন"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showBatteryString)
-#: contents/ui/config.ui:23
-msgid "Show charge &information"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showMultipleBatteries)
-#: contents/ui/config.ui:33
-msgid "Show the state for &each battery present"
-msgstr "উপস্থিত সকল ব্যাটারির অবস্থা প্রদর্শন করা হবে (&e)"
-
 #: contents/ui/PopupDialog.qml:54
 #, fuzzy, kde-format
 #| msgctxt "Battery is not plugged in"
@@ -176,6 +161,12 @@ msgstr "নিদ্রিত অবস্থা"
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "হাইবারনেট"
+
+#~ msgid "Configure Battery Monitor"
+#~ msgstr "ব্যাটারি নিরীক্ষণ ব্যবস্থা কনফিগার করুন"
+
+#~ msgid "Show the state for &each battery present"
+#~ msgstr "উপস্থিত সকল ব্যাটারির অবস্থা প্রদর্শন করা হবে (&e)"
 
 #, fuzzy
 #~| msgctxt "Battery is not plugged in"
