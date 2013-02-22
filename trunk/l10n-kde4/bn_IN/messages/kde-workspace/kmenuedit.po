@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-09 03:02+0100\n"
+"POT-Creation-Date: 2013-02-22 13:00+0100\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -112,27 +112,47 @@ msgid ""
 "activated."
 msgstr ""
 
-#: kmenuedit.cpp:78
+#: kmenuedit.cpp:79
 msgid "&New Submenu..."
 msgstr "নতুন সাব-মেনু...(&N)"
 
-#: kmenuedit.cpp:82
+#: kmenuedit.cpp:83
 msgid "New &Item..."
 msgstr "নতুন বস্তু...(&I)"
 
-#: kmenuedit.cpp:86
+#: kmenuedit.cpp:87
 msgid "New S&eparator"
 msgstr "নতুন বিভাজন রেখা (&e)"
 
-#: kmenuedit.cpp:95
+#: kmenuedit.cpp:90
+msgid "&Sort All By ..."
+msgstr ""
+
+#: kmenuedit.cpp:94 kmenuedit.cpp:104
+#, fuzzy
+#| msgid "&Name:"
+msgid "&Name"
+msgstr "নাম: (&N)"
+
+#: kmenuedit.cpp:97 kmenuedit.cpp:107
+#, fuzzy
+#| msgid "&Description:"
+msgid "&Description"
+msgstr "বিবরণ: (&D)"
+
+#: kmenuedit.cpp:100
+msgid "&Sort By ..."
+msgstr ""
+
+#: kmenuedit.cpp:116
 msgid "Restore to System Menu"
 msgstr "সিস্টেম মেনুর মধ্যে পুনরায় স্থাপন করা হবে"
 
-#: kmenuedit.cpp:175
+#: kmenuedit.cpp:196
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
-#: kmenuedit.cpp:199
+#: kmenuedit.cpp:220
 msgid ""
 "You have made changes to the menu.\n"
 "Do you want to save the changes or discard them?"
@@ -140,7 +160,7 @@ msgstr ""
 "মেনুর মধ্যে কিছু পরিবর্তন করা হয়েছে।\n"
 "পরিবর্তনগুলি সংরক্ষণ করা হবে নাকি বর্জন করা হবে?"
 
-#: kmenuedit.cpp:201
+#: kmenuedit.cpp:222
 msgid "Save Menu Changes?"
 msgstr "মেনুর পরিবর্তন সংরক্ষণ করা হবে কি?"
 
@@ -155,7 +175,7 @@ msgid "&Edit"
 msgstr "সম্পাদনা (&E)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kmenueditui.rc:28
+#: kmenueditui.rc:31
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
 
@@ -224,36 +244,36 @@ msgstr "বানান পরীক্ষণ সংক্রান্ত বি
 msgid "Show hidden entries"
 msgstr "আড়াল করা এনট্রি প্রদর্শন করা হবে"
 
-#: treeview.cpp:142
+#: treeview.cpp:192
 msgid " [Hidden]"
 msgstr " [Hidden]"
 
-#: treeview.cpp:1048
+#: treeview.cpp:1123
 msgid "New Submenu"
 msgstr "নতুন সাব-মেনু"
 
-#: treeview.cpp:1049
+#: treeview.cpp:1124
 msgid "Submenu name:"
 msgstr "সাব-মেনুর নাম:"
 
-#: treeview.cpp:1118
+#: treeview.cpp:1193
 msgid "New Item"
 msgstr "নতুন বস্তু"
 
-#: treeview.cpp:1119
+#: treeview.cpp:1194
 msgid "Item name:"
 msgstr "বস্তুর নাম:"
 
-#: treeview.cpp:1429
+#: treeview.cpp:1604
 #, kde-format
 msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr "'%1'-র সকল সাব-মেনু মুছে ফেলা হবে। আপনি কি এগিয়ে যেতে ইচ্ছুক?"
 
-#: treeview.cpp:1595
+#: treeview.cpp:1770
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "নিম্নলিখিত কারণে, মেনুর মধ্যে করা পরিবর্তনগুলি সংরক্ষণ করা সম্ভব হয়নি:"
 
-#: treeview.cpp:1640
+#: treeview.cpp:1815
 msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."
