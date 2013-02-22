@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-17 09:40+0100\n"
+"POT-Creation-Date: 2013-02-22 02:15+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -414,7 +414,7 @@ msgid ""
 "provided."
 msgstr ""
 
-#: nepomukserverkcm.cpp:411
+#: nepomukserverkcm.cpp:414
 #, fuzzy
 #| msgid ""
 #| "The Nepomuk Server is not running. The settings have been saved and will "
@@ -426,24 +426,24 @@ msgstr ""
 "Nepomuk সার্ভার বর্তমানে চলছে না। বৈশিষ্ট্যগুলি সংরক্ষণ করা হয়েছে এবং সার্ভার "
 "পরবর্তীবার আরম্ভ করা হলে এই বৈশিষ্ট্যগুলি প্রয়োগ করা হবে।"
 
-#: nepomukserverkcm.cpp:413
+#: nepomukserverkcm.cpp:416
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
 msgid "Desktop search service not running"
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
 
-#: nepomukserverkcm.cpp:450
+#: nepomukserverkcm.cpp:453
 msgctxt "@info:status"
 msgid "Desktop search services are active"
 msgstr ""
 
-#: nepomukserverkcm.cpp:453
+#: nepomukserverkcm.cpp:456
 msgctxt "@info:status"
 msgid "Desktop search services are disabled"
 msgstr ""
 
-#: nepomukserverkcm.cpp:474
+#: nepomukserverkcm.cpp:477
 #, fuzzy, kde-format
 #| msgctxt "@info:status %1 is an error message returned by a dbus interface."
 #| msgid "Failed to contact Strigi indexer (%1)"
@@ -451,14 +451,14 @@ msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact File Indexer service (%1)"
 msgstr "Strigi ইন্ডেক্সারের সাথে যোগাযোগ করতে ব্যর্থ (%1)"
 
-#: nepomukserverkcm.cpp:484
+#: nepomukserverkcm.cpp:487
 msgctxt "@info:status"
 msgid ""
 "File indexing service failed to initialize, most likely due to an "
 "installation problem."
 msgstr ""
 
-#: nepomukserverkcm.cpp:489
+#: nepomukserverkcm.cpp:492
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
@@ -466,14 +466,14 @@ msgctxt "@info:status"
 msgid "File indexing service not running."
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
 
-#: nepomukserverkcm.cpp:500
+#: nepomukserverkcm.cpp:503
 #, kde-format
 msgid "1 existing backup"
 msgid_plural "%1 existing backups"
 msgstr[0] ""
 msgstr[1] ""
 
-#: nepomukserverkcm.cpp:504
+#: nepomukserverkcm.cpp:507
 #, kde-format
 msgctxt ""
 "@info %1 is the creation date of a backup formatted vi KLocale::"
@@ -481,28 +481,28 @@ msgctxt ""
 msgid "Oldest: %1"
 msgstr ""
 
-#: statuswidget.cpp:125
+#: statuswidget.cpp:128
 #, kde-format
 msgid "1 file in index"
 msgid_plural "%1 files in index"
 msgstr[0] "ইন্ডেক্সের মধ্যে ১-টি ফাইল"
 msgstr[1] "ইন্ডেক্সের মধ্যে %1-টি ফাইল"
 
-#: statuswidget.cpp:152
+#: statuswidget.cpp:155
 #, fuzzy
 #| msgctxt "@info_status"
 #| msgid "Strigi service not running."
 msgid "File indexing service not running"
 msgstr "Strigi পরিসেবা বর্তমানে চলছে না।"
 
-#: statuswidget.cpp:182
+#: statuswidget.cpp:185
 #, fuzzy
 #| msgid "Suspend Strigi Indexing"
 msgctxt "Suspends the Nepomuk file indexing service."
 msgid "Suspend File Indexing"
 msgstr "Strigi ইন্ডেক্স ব্যবস্থা বিরত করুন"
 
-#: statuswidget.cpp:186
+#: statuswidget.cpp:189
 #, fuzzy
 #| msgid "Resume Strigi Indexing"
 msgctxt "Resumes the Nepomuk file indexing service."
