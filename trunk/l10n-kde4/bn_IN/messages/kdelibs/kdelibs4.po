@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 03:33+0100\n"
+"POT-Creation-Date: 2013-03-31 04:32+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -5078,7 +5078,7 @@ msgid "Warning"
 msgstr "সতর্কবাণী"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:870 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:870 kjs/object.cpp:751
 #: knewstuff/knewstuff3/uploaddialog.cpp:546
 msgid "Error"
 msgstr "ত্রুটি"
@@ -9170,7 +9170,7 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "স্ক্রিপ্ট বন্ধ করুন (&S)"
 
-#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1660
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1873
 msgid "Confirmation: JavaScript Popup"
 msgstr "নিশ্চায়ন: JavaScript পপ-আপ"
 
@@ -9189,58 +9189,58 @@ msgid ""
 "submitted?</qt>"
 msgstr ""
 
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
+#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1881
 msgid "Allow"
 msgstr "অনুমতি প্রদান করা হবে"
 
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
+#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1881
 msgid "Do Not Allow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
-#: khtml/ecma/kjs_window.cpp:1663
+#: khtml/ecma/kjs_window.cpp:1876
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1666
+#: khtml/ecma/kjs_window.cpp:1879
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
 "JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:1981
+#: khtml/ecma/kjs_window.cpp:2194
 msgid "Close window?"
 msgstr "উইন্ডো বন্ধ করা হবে কি?"
 
-#: khtml/ecma/kjs_window.cpp:1981
+#: khtml/ecma/kjs_window.cpp:2194
 msgid "Confirmation Required"
 msgstr "নিশ্চিত করা আবশ্যক"
 
-#: khtml/ecma/kjs_window.cpp:2884
+#: khtml/ecma/kjs_window.cpp:3097
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2887
+#: khtml/ecma/kjs_window.cpp:3100
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr ""
 
-#: khtml/ecma/kjs_window.cpp:2895
+#: khtml/ecma/kjs_window.cpp:3108
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript দ্বারা বুকমার্ক যোগ করার প্রচেষ্টা করা হয়েছে"
 
-#: khtml/ecma/kjs_window.cpp:2899
+#: khtml/ecma/kjs_window.cpp:3112
 msgid "Insert"
 msgstr "সন্নিবেশ করুন"
 
-#: khtml/ecma/kjs_window.cpp:2899
+#: khtml/ecma/kjs_window.cpp:3112
 msgid "Disallow"
 msgstr "অনুমতি প্রদান করা হবে না"
 
@@ -10602,27 +10602,27 @@ msgstr ""
 "klauncher: এই প্রোগ্রামটি ব্যবহারকারী দ্বারা আরম্ভ করা সম্ভব নয়।\n"
 "klauncher: kdeinit4 দ্বারা এটি স্বয়ংক্রিয় রূপে আরম্ভ করা হয়।\n"
 
-#: kjs/object.cpp:554
+#: kjs/object.cpp:752
 msgid "Evaluation error"
 msgstr "বিশ্লেষণ সংক্রান্ত ত্রুটি"
 
-#: kjs/object.cpp:555
+#: kjs/object.cpp:753
 msgid "Range error"
 msgstr "রেঞ্জ সংক্রান্ত ত্রুটি"
 
-#: kjs/object.cpp:556
+#: kjs/object.cpp:754
 msgid "Reference error"
 msgstr "প্রসঙ্গ সম্বন্ধিত ত্রুটি"
 
-#: kjs/object.cpp:557
+#: kjs/object.cpp:755
 msgid "Syntax error"
 msgstr "সিন্টেক্স ত্রুটি"
 
-#: kjs/object.cpp:558
+#: kjs/object.cpp:756
 msgid "Type error"
 msgstr "ধরন সংক্রান্ত ত্রুটি"
 
-#: kjs/object.cpp:559
+#: kjs/object.cpp:757
 msgid "URI error"
 msgstr "URI সংক্রান্ত ত্রুটি"
 
