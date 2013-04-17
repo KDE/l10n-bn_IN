@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-08 03:27+0100\n"
+"POT-Creation-Date: 2013-04-17 03:47+0200\n"
 "PO-Revision-Date: 2009-01-07 16:17+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1067,101 +1067,8 @@ msgstr "শিরোনামের বার সংক্রান্ত কর
 msgid "Maximize Button"
 msgstr "বড় করার বাটন"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, geometryTipOn)
-#: moving.ui:45
-msgid ""
-"Enable this option if you want a window's geometry to be displayed while it "
-"is being moved or resized. The window position relative to the top-left "
-"corner of the screen is displayed together with its size."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, geometryTipOn)
-#: moving.ui:48
-msgid "Display window &geometry when moving or resizing"
-msgstr ""
-"উইন্ডো স্থানান্তর অথবা উইন্ডোর মাপ পরিবর্তনের সময় উইন্ডোর জ্যামিতি প্রদর্শন করা হবে "
-"(&g)"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, moveResizeMaximized)
-#: moving.ui:68
-msgid ""
-"When enabled, this feature activates the border of maximized windows and "
-"allows you to move or resize them, just like for normal windows"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, moveResizeMaximized)
-#: moving.ui:71
-#, fuzzy
-#| msgid "Display content in &resizing windows"
-msgid "Display borders on &maximized windows"
-msgstr "মাপ পরিবর্তনের জন্য চিহ্নিত উইন্ডোর মধ্যে উপস্থিত তথ্য প্রদর্শন করা হবে (&r)"
-
-#. i18n: ectx: property (text), widget (QLabel, borderSnapLabel)
-#: moving.ui:85
-msgid "&Border snap zone:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, borderSnap)
-#: moving.ui:104
-msgid ""
-"Here you can set the snap zone for screen borders, i.e. the 'strength' of "
-"the magnetic field which will make windows snap to the border when moved "
-"near it."
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (KIntNumInput, borderSnap)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, windowSnap)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, centerSnap)
-#: moving.ui:116 moving.ui:157 moving.ui:198
-#, fuzzy
-#| msgid " pixel"
-#| msgid_plural " pixels"
-msgid " pixel"
-msgstr " পিক্সেল"
-
-#. i18n: ectx: property (specialValueText), widget (KIntNumInput, borderSnap)
-#: moving.ui:119
-msgid "no border snap zone"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, windowSnapLabel)
-#: moving.ui:126
-msgid "&Window snap zone:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, windowSnap)
-#: moving.ui:145
-msgid ""
-"Here you can set the snap zone for windows, i.e. the 'strength' of the "
-"magnetic field which will make windows snap to each other when they are "
-"moved near another window."
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (KIntNumInput, windowSnap)
-#: moving.ui:160
-msgid "no window snap zone"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, centerSnapLabel)
-#: moving.ui:167
-msgid "&Center snap zone:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, centerSnap)
-#: moving.ui:186
-msgid ""
-"Here you can set the snap zone for the screen center, i.e. the 'strength' of "
-"the magnetic field which will make windows snap to the center of the screen "
-"when moved near it."
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (KIntNumInput, centerSnap)
-#: moving.ui:201
-msgid "no center snap zone"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, OverlapSnap)
-#: moving.ui:221
+#: moving.ui:32
 msgid ""
 "Here you can set that windows will be only snapped if you try to overlap "
 "them, i.e. they will not be snapped if the windows comes only near another "
@@ -1169,19 +1076,103 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, OverlapSnap)
-#: moving.ui:224
+#: moving.ui:35
 msgid "Snap windows onl&y when overlapping"
 msgstr ""
 
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, centerSnap)
+#: moving.ui:55
+msgid ""
+"Here you can set the snap zone for the screen center, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the center of the screen "
+"when moved near it."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, centerSnap)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, windowSnap)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, borderSnap)
+#: moving.ui:67 moving.ui:134 moving.ui:162
+#, fuzzy
+#| msgid " pixel"
+#| msgid_plural " pixels"
+msgid " pixel"
+msgstr " পিক্সেল"
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, centerSnap)
+#: moving.ui:70
+msgid "no center snap zone"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, borderSnapLabel)
+#: moving.ui:90
+msgid "&Border snap zone:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, centerSnapLabel)
+#: moving.ui:103
+msgid "&Center snap zone:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, windowSnap)
+#: moving.ui:122
+msgid ""
+"Here you can set the snap zone for windows, i.e. the 'strength' of the "
+"magnetic field which will make windows snap to each other when they are "
+"moved near another window."
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, windowSnap)
+#: moving.ui:137
+msgid "no window snap zone"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, borderSnap)
+#: moving.ui:150
+msgid ""
+"Here you can set the snap zone for screen borders, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the border when moved "
+"near it."
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, borderSnap)
+#: moving.ui:165
+msgid "no border snap zone"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, geometryTipOn)
+#: moving.ui:172
+msgid ""
+"Enable this option if you want a window's geometry to be displayed while it "
+"is being moved or resized. The window position relative to the top-left "
+"corner of the screen is displayed together with its size."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, geometryTipOn)
+#: moving.ui:175
+msgid "Display window &geometry when moving or resizing"
+msgstr ""
+"উইন্ডো স্থানান্তর অথবা উইন্ডোর মাপ পরিবর্তনের সময় উইন্ডোর জ্যামিতি প্রদর্শন করা হবে "
+"(&g)"
+
+#. i18n: ectx: property (text), widget (QLabel, windowSnapLabel)
+#: moving.ui:182
+msgid "&Window snap zone:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: moving.ui:244
+#: moving.ui:221
 msgid "Windows"
 msgstr "উইন্ডো"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: moving.ui:257
+#: moving.ui:234
 msgid "Snap Zones"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Display content in &resizing windows"
+#~ msgid "Display borders on &maximized windows"
+#~ msgstr "মাপ পরিবর্তনের জন্য চিহ্নিত উইন্ডোর মধ্যে উপস্থিত তথ্য প্রদর্শন করা হবে (&r)"
 
 #, fuzzy
 #~| msgid "Minimize"
