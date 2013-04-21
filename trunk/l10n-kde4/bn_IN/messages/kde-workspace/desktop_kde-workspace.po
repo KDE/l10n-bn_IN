@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-20 02:23+0000\n"
+"POT-Creation-Date: 2013-04-21 02:24+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -5832,7 +5832,7 @@ msgstr "SaverDesktop"
 #| msgctxt "Comment"
 #| msgid "Display Settings"
 msgctxt "Name"
-msgid "Display Brightness"
+msgid "Screen Brightness"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
 #: powerdevil/daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:64
@@ -5843,10 +5843,10 @@ msgstr ""
 #: powerdevil/daemon/actions/bundled/powerdevildimdisplayaction.desktop:6
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Display"
+#| msgid "PrintScreen"
 msgctxt "Name"
-msgid "Dim Display"
-msgstr "প্রদর্শন"
+msgid "Dim Screen"
+msgstr "PrintScreen"
 
 #: powerdevil/daemon/actions/bundled/powerdevildimdisplayaction.desktop:63
 msgctxt "Comment"
@@ -5971,6 +5971,16 @@ msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্�
 #: powerdevil/daemon/backends/upower/backlight_helper_actions.actions:235
 msgctxt "Description"
 msgid "System policies prevent you from setting the brightness level."
+msgstr ""
+
+#: powerdevil/daemon/backends/upower/backlight_helper_actions.actions:293
+msgctxt "Name"
+msgid "Get syspath"
+msgstr ""
+
+#: powerdevil/daemon/backends/upower/backlight_helper_actions.actions:294
+msgctxt "Description"
+msgid "System policies prevent you from getting the syspath"
 msgstr ""
 
 #: powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:7
@@ -6884,6 +6894,20 @@ msgstr "ফন্ট প্রদর্শক"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Display Settings"
+#~ msgctxt "Name"
+#~ msgid "Display Brightness"
+#~ msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Display"
+#~ msgctxt "Name"
+#~ msgid "Dim Display"
+#~ msgstr "প্রদর্শন"
 
 #, fuzzy
 #~| msgctxt "Name"
