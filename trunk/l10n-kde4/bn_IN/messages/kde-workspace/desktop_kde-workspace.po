@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-26 02:09+0000\n"
+"POT-Creation-Date: 2013-04-30 05:39+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2383,7 +2383,7 @@ msgctxt "Name"
 msgid "Contour"
 msgstr ""
 
-#: ksmserver/themes/contour/metadata.desktop:44
+#: ksmserver/themes/contour/metadata.desktop:45
 msgctxt "Comment"
 msgid "Plasma Active theme"
 msgstr ""
@@ -2393,7 +2393,7 @@ msgctxt "Name"
 msgid "Default"
 msgstr "ডিফল্ট"
 
-#: ksmserver/themes/default/metadata.desktop:91
+#: ksmserver/themes/default/metadata.desktop:92
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
@@ -2993,7 +2993,7 @@ msgctxt "Name"
 msgid "Mouse Click Animation"
 msgstr "অতিরিক্ত অ্যাপ্লিকেশন"
 
-#: kwin/effects/mouseclick/mouseclick.desktop:43
+#: kwin/effects/mouseclick/mouseclick.desktop:44
 msgctxt "Comment"
 msgid ""
 "Creates an animation whenever a mouse button is clicked. This is useful for "
@@ -3319,9 +3319,12 @@ msgid "Actions"
 msgstr "কর্ম"
 
 #: kwin/kcmkwin/kwinoptions/kwinactions.desktop:103
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure trash settings"
 msgctxt "Comment"
-msgid "Configure keyboard and mouse settings"
-msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
+msgid "Configure mouse actions on windows"
+msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #: kwin/kcmkwin/kwinoptions/kwinactions.desktop:191
 msgctxt "X-KDE-Keywords"
@@ -3694,7 +3697,7 @@ msgctxt "Name"
 msgid "Previews"
 msgstr "ফাইলের পূর্বরূপ প্রদর্শন"
 
-#: kwin/tabbox/qml/desktops/previews/metadata.desktop:3
+#: kwin/tabbox/qml/desktops/previews/metadata.desktop:12
 msgctxt "Comment"
 msgid "A desktop switcher layout with previews of the desktops"
 msgstr ""
@@ -5602,7 +5605,7 @@ msgctxt "Name"
 msgid "Activity Settings"
 msgstr "পরিসেবা পরিচালনব্যবস্থা"
 
-#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:59
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:60
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -5610,7 +5613,7 @@ msgctxt "Comment"
 msgid "Configure per-activity Power Management"
 msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
-#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:103
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:105
 msgctxt "X-KDE-Keywords"
 msgid ""
 "system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
@@ -5625,7 +5628,7 @@ msgctxt "Name"
 msgid "Advanced Settings"
 msgstr "ফন্ট সংক্রান্ত বৈশিষ্ট্য"
 
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:59
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:60
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -5633,7 +5636,7 @@ msgctxt "Comment"
 msgid "Configure Advanced Power Management Settings"
 msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:105
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:106
 #: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:106
 msgctxt "X-KDE-Keywords"
 msgid ""
@@ -6481,6 +6484,10 @@ msgstr "ফন্ট প্রদর্শক"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "Configure keyboard and mouse settings"
+#~ msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
 
 #, fuzzy
 #~| msgctxt "Name"
