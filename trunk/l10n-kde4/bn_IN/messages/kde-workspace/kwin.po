@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-16 04:18+0200\n"
+"POT-Creation-Date: 2013-05-17 04:15+0200\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -58,9 +58,11 @@ msgstr "GLX/OpenGL ও XRender/XFixes উপলব্ধ নয়।"
 msgid "KWin: "
 msgstr "KWin: "
 
-#: killer/killer.cpp:43 main.cpp:533
-msgid "KWin"
-msgstr "KWin"
+#: killer/killer.cpp:43
+#, fuzzy
+#| msgid "KDE window manager"
+msgid "Window Manager"
+msgstr "KDE উইন্ডো পরিচালন ব্যবস্থা"
 
 #: killer/killer.cpp:44
 msgid "KWin helper utility"
@@ -94,27 +96,43 @@ msgstr ""
 msgid "This helper utility is not supposed to be called directly."
 msgstr "সহায়ক সামগ্রী সরাসরি আরম্ভ করা সম্ভব নয়।"
 
-#: killer/killer.cpp:76
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs "
-#| "to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to "
-#| "terminate this application? (All unsaved data in this application will be "
-#| "lost.)</p>"
-msgid ""
-"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
-"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
-"the application process <em>including <b>all</b> of its child windows</em>?"
-"<br /><b>Any unsaved data will be lost.</b></p>"
+#: killer/killer.cpp:79
+#, kde-format
+msgctxt "@info"
+msgid "<b>Application \"%1\" is not responding</b>"
 msgstr ""
-"<p>\"<b>%2</b>\" শিরোনাম বিশিষ্ট উইন্ডো থেকে কোনো প্রতিক্রিয়া হচ্ছে না। এই "
-"উইন্ডোটি,  <b>%1</b> অ্যাপ্লিকেশনের  (PID=%3, হোস্ট-নেম=%4) মালিকানাধীন।</"
-"p><p>এই অ্যাপ্লিকেশনটি বন্ধ করতে ইচ্ছুক কি? (এর ফলে, অ্যাপ্লিকেশনের মধ্যে উপস্থিত সকল "
-"অসংরক্ষিত তথ্য মুছে যাবে।)</p>"
 
-#: killer/killer.cpp:82
+#: killer/killer.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3) but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:83
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3), running on host \"%4\", but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:86
+msgctxt "@info"
+msgid ""
+"<para>Do you want to terminate this application?</"
+"para><para><warning>Terminating the application will close all of its child "
+"windows. Any unsaved data will be lost.</warning></para>"
+msgstr ""
+
+#: killer/killer.cpp:90
 #, kde-format
 msgid "&Terminate Application %1"
+msgstr ""
+
+#: killer/killer.cpp:91
+msgid "Wait Longer"
 msgstr ""
 
 #. i18n: ectx: label, entry (DesktopMode), group (TabBox)
@@ -476,6 +494,10 @@ msgstr ""
 #: main.cpp:452
 msgid "KDE window manager"
 msgstr "KDE উইন্ডো পরিচালন ব্যবস্থা"
+
+#: main.cpp:533
+msgid "KWin"
+msgstr "KWin"
 
 #: main.cpp:537
 msgid "(c) 1999-2008, The KDE Developers"
@@ -856,6 +878,23 @@ msgid ""
 "paste bin service\n"
 "like http://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>Window with title \"<b>%2</b>\" is not responding. This window "
+#~| "belongs to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you "
+#~| "wish to terminate this application? (All unsaved data in this "
+#~| "application will be lost.)</p>"
+#~ msgid ""
+#~ "<p>The window \"<b>%2</b>\" is not responding. It belongs to the "
+#~ "application <b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish "
+#~ "to terminate the application process <em>including <b>all</b> of its "
+#~ "child windows</em>?<br /><b>Any unsaved data will be lost.</b></p>"
+#~ msgstr ""
+#~ "<p>\"<b>%2</b>\" শিরোনাম বিশিষ্ট উইন্ডো থেকে কোনো প্রতিক্রিয়া হচ্ছে না। এই "
+#~ "উইন্ডোটি,  <b>%1</b> অ্যাপ্লিকেশনের  (PID=%3, হোস্ট-নেম=%4) মালিকানাধীন।</"
+#~ "p><p>এই অ্যাপ্লিকেশনটি বন্ধ করতে ইচ্ছুক কি? (এর ফলে, অ্যাপ্লিকেশনের মধ্যে উপস্থিত "
+#~ "সকল অসংরক্ষিত তথ্য মুছে যাবে।)</p>"
 
 #~ msgid "Window '%1' demands attention."
 #~ msgstr "উইন্ডো '%1' থেকে চেতাবনী প্রাপ্ত হয়েছে।"
