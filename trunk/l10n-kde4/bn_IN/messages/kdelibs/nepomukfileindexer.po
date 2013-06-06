@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-06 03:47+0200\n"
+"POT-Creation-Date: 2013-06-06 01:30+0000\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -40,31 +40,31 @@ msgstr ""
 msgid "Resuming indexing of files for fast searching."
 msgstr ""
 
-#: fileindexer.cpp:253 fileindexer.cpp:255
+#: fileindexer.cpp:239 fileindexer.cpp:241
 #, fuzzy
 #| msgid "Nepomuk Strigi File Indexing"
 msgid "Nepomuk File Indexer"
 msgstr "Nepomuk Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
 
-#: fileindexer.cpp:257
+#: fileindexer.cpp:243
 #, fuzzy
 #| msgid "Copyright 2007 Sebastian Trüg"
 msgid "(c) 2008-2013, Sebastian Trüg"
 msgstr "স্বত্বাধিকার ২০০৭ সেবাস্টিয়ান ট্রুগ"
 
-#: fileindexer.cpp:260 indexer/main.cpp:59
+#: fileindexer.cpp:246 indexer/main.cpp:59
 msgid "Sebastian Trüg"
 msgstr "সেবাস্টিয়ান ট্রুগ"
 
-#: fileindexer.cpp:260 indexer/main.cpp:59
+#: fileindexer.cpp:246 indexer/main.cpp:59
 msgid "Developer"
 msgstr ""
 
-#: fileindexer.cpp:261 indexer/main.cpp:58
+#: fileindexer.cpp:247 indexer/main.cpp:58
 msgid "Vishesh Handa"
 msgstr ""
 
-#: fileindexer.cpp:261
+#: fileindexer.cpp:247
 #, fuzzy
 #| msgid "Maintainer"
 msgid "Maintainer"
@@ -106,22 +106,19 @@ msgstr ""
 msgid "Streams the indexed data to stdout"
 msgstr ""
 
-#: indexscheduler.cpp:427
+#: indexscheduler.cpp:436
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
 msgid "File indexer is suspended."
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে বিরত রয়েছে"
 
-#: indexscheduler.cpp:431 indexscheduler.cpp:444
-#, fuzzy
-#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-#| msgid "Initial Desktop Search file indexing finished in %1"
+#: indexscheduler.cpp:439
 msgctxt "@info:status"
-msgid "Scanning for recent changes in files for desktop search"
-msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
+msgid "Cleaning invalid file metadata"
+msgstr ""
 
-#: indexscheduler.cpp:437
+#: indexscheduler.cpp:442
 #, fuzzy
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
@@ -129,19 +126,26 @@ msgctxt "@info:status"
 msgid "Indexing files for desktop search."
 msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
 
-#: indexscheduler.cpp:440
-#, fuzzy, kde-format
-#| msgid "Indexed files:"
+#: indexscheduler.cpp:445
+#, fuzzy
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info:status"
-msgid "Indexing %1"
-msgstr "ইন্ডেক্স করা ফাইল:"
+msgid "Scanning for recent changes in files for desktop search"
+msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
 
-#: indexscheduler.cpp:447
+#: indexscheduler.cpp:448
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
 msgid "File indexer is idle."
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে কর্মহীন"
+
+#, fuzzy
+#~| msgid "Indexed files:"
+#~ msgctxt "@info:status"
+#~ msgid "Indexing %1"
+#~ msgstr "ইন্ডেক্স করা ফাইল:"
 
 #, fuzzy
 #~| msgid "Indexed files:"
