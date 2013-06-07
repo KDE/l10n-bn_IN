@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-06 01:33+0000\n"
+"POT-Creation-Date: 2013-06-07 01:37+0000\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -91,36 +91,6 @@ msgid_plural "%1 minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/AcAdapterItem.qml:58
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Plugged in"
-msgid "AC Adapter"
-msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়েছে"
-
-#: contents/ui/AcAdapterItem.qml:70
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Not plugged in"
-msgid "Plugged In"
-msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়নি"
-
-#: contents/ui/AcAdapterItem.qml:70
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Not plugged in"
-msgid "Not Plugged In"
-msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়নি"
-
-#: contents/ui/AcAdapterItem.qml:83
-#, fuzzy, kde-format
-#| msgid "Time remaining: <b>%1</b><br />"
-msgid "Time remaining until full: %1"
-msgstr "অবশিষ্ট সময়: <b>%1</b><br />"
-
-#: contents/ui/AcAdapterItem.qml:83
-#, fuzzy, kde-format
-#| msgid "Time remaining: <b>%1</b><br />"
-msgid "Time remaining until empty: %1"
-msgstr "অবশিষ্ট সময়: <b>%1</b><br />"
-
 #: contents/ui/BatteryItem.qml:224
 msgid "Time To Full:"
 msgstr ""
@@ -180,6 +150,31 @@ msgstr "পর্দার উজ্জ্বলতা"
 #| msgid "Power Management"
 msgid "Enable Power Management"
 msgstr "বিদ্যুৎ পরিচালনা"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Plugged in"
+#~ msgid "AC Adapter"
+#~ msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়েছে"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Not plugged in"
+#~ msgid "Plugged In"
+#~ msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়নি"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Not plugged in"
+#~ msgid "Not Plugged In"
+#~ msgstr "<b>AC অ্যাডাপ্টার:</b> সংযুক্ত করা হয়নি"
+
+#, fuzzy
+#~| msgid "Time remaining: <b>%1</b><br />"
+#~ msgid "Time remaining until full: %1"
+#~ msgstr "অবশিষ্ট সময়: <b>%1</b><br />"
+
+#, fuzzy
+#~| msgid "Time remaining: <b>%1</b><br />"
+#~ msgid "Time remaining until empty: %1"
+#~ msgstr "অবশিষ্ট সময়: <b>%1</b><br />"
 
 #, fuzzy
 #~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
