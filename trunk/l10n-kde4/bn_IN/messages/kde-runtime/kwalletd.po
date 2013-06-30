@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:52+0200\n"
+"POT-Creation-Date: 2013-06-30 01:40+0000\n"
 "PO-Revision-Date: 2009-01-02 17:05+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -82,9 +82,9 @@ msgstr "প্রত্যাখ্যান করা হবে (&D)"
 msgid "Deny &Forever"
 msgstr "স্থায়ীভাবে প্রত্যাখ্যান করা হবে (&F)"
 
-#: kwalletd.cpp:369 kwalletd.cpp:458 kwalletd.cpp:522 kwalletd.cpp:614
-#: kwalletd.cpp:705 kwalletd.cpp:717 kwalletd.cpp:726 kwalletd.cpp:731
-#: kwalletd.cpp:1244 main.cpp:39 main.cpp:40
+#: kwalletd.cpp:369 kwalletd.cpp:458 kwalletd.cpp:522 kwalletd.cpp:618
+#: kwalletd.cpp:709 kwalletd.cpp:721 kwalletd.cpp:730 kwalletd.cpp:735
+#: kwalletd.cpp:1248 main.cpp:39 main.cpp:40
 msgid "KDE Wallet Service"
 msgstr "KDE Wallet পরিসেবা"
 
@@ -203,12 +203,12 @@ msgstr ""
 msgid "C&reate"
 msgstr "নির্মাণ করুন (&r)"
 
-#: kwalletd.cpp:616
+#: kwalletd.cpp:620
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।</qt>"
 
-#: kwalletd.cpp:618
+#: kwalletd.cpp:622
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -217,27 +217,27 @@ msgstr ""
 "<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।"
 "</qt>"
 
-#: kwalletd.cpp:705
+#: kwalletd.cpp:709
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr "ওয়ালেট খুলতে ব্যর্থ। পাসওয়ার্ড পরিবর্তনের জন্য ওয়ালেট খোলা আবশ্যক।"
 
-#: kwalletd.cpp:716
+#: kwalletd.cpp:720
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr ""
 "<qt>অনুগ্রহ করে, ওয়ালেট '<b>%1</b>'-র জন্য একটি নতুন পাসওয়ার্ড নির্মাণ করুন।</qt>"
 
-#: kwalletd.cpp:726
+#: kwalletd.cpp:730
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "ওয়ালেট পুনরায় এনক্রিপ্ট করতে ব্যর্থ। পাসওয়ার্ড পরিবর্তন করা হয়নি।"
 
-#: kwalletd.cpp:731
+#: kwalletd.cpp:735
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "ওয়ালেট পুনরায় খুলতে ব্যর্থ। তথ্য হারিয়ে যেতে পারে।"
 
-#: kwalletd.cpp:1244
+#: kwalletd.cpp:1248
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
