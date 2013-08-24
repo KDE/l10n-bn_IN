@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-17 01:29+0000\n"
+"POT-Creation-Date: 2013-08-24 01:28+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1144,97 +1144,127 @@ msgstr "টার্মিন্যাল থেকে উৎপন্ন সক
 msgid "Unlimited scrollback"
 msgstr "সীমাহীন স্ক্রোল-ব্যাক"
 
-#: IncrementalSearchBar.cpp:50
+#: IncrementalSearchBar.cpp:54
 #, fuzzy
 #| msgid "Close the search bar"
 msgctxt "@info:tooltip"
 msgid "Close the search bar"
 msgstr "অনুসন্ধানের বার বন্ধ করুন"
 
-#: IncrementalSearchBar.cpp:55
+#: IncrementalSearchBar.cpp:59
 #, fuzzy
 #| msgid "Find:"
 msgctxt "@label:textbox"
 msgid "Find:"
 msgstr "অনুসন্ধান:"
 
-#: IncrementalSearchBar.cpp:60
+#: IncrementalSearchBar.cpp:64
 #, fuzzy
 #| msgid "Enter the text to search for here"
 msgctxt "@info:tooltip"
 msgid "Enter the text to search for here"
 msgstr "অনুসন্ধানের উদ্দেশ্যে এইখানে তথ্য লিখুন"
 
-#: IncrementalSearchBar.cpp:79
+#: IncrementalSearchBar.cpp:83
 #, fuzzy
 #| msgid "Next"
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "পরবর্তী"
 
-#: IncrementalSearchBar.cpp:82
+#: IncrementalSearchBar.cpp:85
 #, fuzzy
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Find the next match for the current search phrase"
 msgstr "চিহ্নিত তথ্যের পরবর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:87
+#: IncrementalSearchBar.cpp:90
 #, fuzzy
 #| msgid "Previous"
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "পূর্ববর্তী"
 
-#: IncrementalSearchBar.cpp:90
+#: IncrementalSearchBar.cpp:92
 #, fuzzy
 #| msgid "Find the previous match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Find the previous match for the current search phrase"
 msgstr "চিহ্নিত তথ্যের পূর্ববর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:95
+#: IncrementalSearchBar.cpp:102
 msgctxt "@action:button Display options menu"
 msgid "Options"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:100
+#: IncrementalSearchBar.cpp:107
 msgctxt "@info:tooltip"
 msgid "Display the options menu"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:113
+#: IncrementalSearchBar.cpp:121
 msgctxt "@item:inmenu"
 msgid "Case sensitive"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:115
+#: IncrementalSearchBar.cpp:123
 #, fuzzy
 #| msgid "Sets whether the search is case sensitive"
 msgctxt "@info:tooltip"
 msgid "Sets whether the search is case sensitive"
 msgstr "হরফের ছাঁদ মেলানো হবে কি না নির্ধারণ করতে ব্যবহৃত হয়"
 
-#: IncrementalSearchBar.cpp:119
+#: IncrementalSearchBar.cpp:127
 #, fuzzy
 #| msgid "Match regular expression"
 msgctxt "@item:inmenu"
 msgid "Match regular expression"
 msgstr "রেগুলার এক্সপ্রেশন মেলানো হবে"
 
-#: IncrementalSearchBar.cpp:124
+#: IncrementalSearchBar.cpp:132
 #, fuzzy
 #| msgid "Highlight all"
 msgctxt "@item:inmenu"
 msgid "Highlight all matches"
 msgstr "সকল উপস্থিতি উজ্জ্বল করা হবে"
 
-#: IncrementalSearchBar.cpp:126
+#: IncrementalSearchBar.cpp:134
 #, fuzzy
 #| msgid "Sets whether matching text should be highlighted"
 msgctxt "@info:tooltip"
 msgid "Sets whether matching text should be highlighted"
 msgstr "চিহ্নিত তথ্যের সকল উপস্থিতি উজ্জ্বলিত করা হবে কি না নির্ধারণ করা হয়"
+
+#: IncrementalSearchBar.cpp:139
+msgid "Search backwards"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:141
+msgid "Sets whether search should start from the bottom"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:163
+msgctxt "@action:button Search from bottom"
+msgid "From bottom"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:164
+#, fuzzy
+#| msgid "Find the next match for the current search phrase"
+msgid "Search for the current search phrase from the bottom"
+msgstr "চিহ্নিত তথ্যের পরবর্তী উপস্থিতি অনুসন্ধান করুন"
+
+#: IncrementalSearchBar.cpp:168
+msgctxt "@action:button Search from top"
+msgid "From top"
+msgstr ""
+
+#: IncrementalSearchBar.cpp:169
+#, fuzzy
+#| msgid "Find the next match for the current search phrase"
+msgid "Search for the current search phrase from the top"
+msgstr "চিহ্নিত তথ্যের পরবর্তী উপস্থিতি অনুসন্ধান করুন"
 
 #: KeyBindingEditor.cpp:47
 msgid "Key Combination"
@@ -2060,179 +2090,179 @@ msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
-#: SessionController.cpp:351
+#: SessionController.cpp:353
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:407
+#: SessionController.cpp:409
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: SessionController.cpp:421
+#: SessionController.cpp:423
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Web Shortcuts..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:557
+#: SessionController.cpp:561
 #, fuzzy
 #| msgid "Konsole"
 msgid "&Close Session"
 msgstr "Konsole"
 
-#: SessionController.cpp:559
+#: SessionController.cpp:563
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: SessionController.cpp:566
+#: SessionController.cpp:570
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:582
+#: SessionController.cpp:586
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: SessionController.cpp:585
+#: SessionController.cpp:589
 msgid "Web Search"
 msgstr ""
 
-#: SessionController.cpp:592
+#: SessionController.cpp:596
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "সমগ্র নির্বাচন"
 
-#: SessionController.cpp:596
+#: SessionController.cpp:600
 #, fuzzy
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "ফলাফল সংরক্ষণ করুন..."
 
-#: SessionController.cpp:599
+#: SessionController.cpp:603
 msgid "&Print Screen..."
 msgstr ""
 
-#: SessionController.cpp:603
+#: SessionController.cpp:607
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:607
+#: SessionController.cpp:611
 #, fuzzy
 #| msgid "Scrollback"
 msgid "Clear Scrollback"
 msgstr "স্ক্রোল-ব্যাক"
 
-#: SessionController.cpp:611
+#: SessionController.cpp:615
 #, fuzzy
 #| msgid "Clear Scrollback"
 msgid "Clear Scrollback and Reset"
 msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
 
-#: SessionController.cpp:617
+#: SessionController.cpp:621
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
 
-#: SessionController.cpp:620
+#: SessionController.cpp:624
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা"
 
-#: SessionController.cpp:637
+#: SessionController.cpp:641
 #, fuzzy
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "এনকোডিং"
 
-#: SessionController.cpp:652
+#: SessionController.cpp:656
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:658
+#: SessionController.cpp:662
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:665
+#: SessionController.cpp:669
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:671
+#: SessionController.cpp:675
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:679
+#: SessionController.cpp:683
 #, fuzzy
 #| msgid "Copy Input"
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করুন"
 
-#: SessionController.cpp:686
+#: SessionController.cpp:690
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:691
+#: SessionController.cpp:695
 msgid "Monitor for &Activity"
 msgstr "কর্ম সঞ্চালন নিরীক্ষণ করুন (&A)"
 
-#: SessionController.cpp:696
+#: SessionController.cpp:700
 msgid "Monitor for &Silence"
 msgstr "নিষ্ক্রিয় অবস্থা নিরীক্ষণ করুন (&S)"
 
-#: SessionController.cpp:703
+#: SessionController.cpp:707
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:711
+#: SessionController.cpp:715
 msgid "Shrink Font"
 msgstr ""
 
-#: SessionController.cpp:717
+#: SessionController.cpp:721
 msgid "Send Signal"
 msgstr ""
 
-#: SessionController.cpp:721
+#: SessionController.cpp:725
 msgid "&Suspend Task"
 msgstr ""
 
-#: SessionController.cpp:726
+#: SessionController.cpp:730
 #, fuzzy
 #| msgid "&Close Tab"
 msgid "&Continue Task"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: SessionController.cpp:731
+#: SessionController.cpp:735
 msgid "&Hangup"
 msgstr ""
 
-#: SessionController.cpp:736
+#: SessionController.cpp:740
 msgid "&Interrupt Task"
 msgstr ""
 
-#: SessionController.cpp:741
+#: SessionController.cpp:745
 #, fuzzy
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "টার্মিন্যালের বৈশিষ্ট্য"
 
-#: SessionController.cpp:746
+#: SessionController.cpp:750
 msgid "&Kill Task"
 msgstr ""
 
-#: SessionController.cpp:751
+#: SessionController.cpp:755
 msgid "User Signal &1"
 msgstr ""
 
-#: SessionController.cpp:756
+#: SessionController.cpp:760
 msgid "User Signal &2"
 msgstr ""
 
-#: SessionController.cpp:860
+#: SessionController.cpp:864
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -2240,7 +2270,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:863
+#: SessionController.cpp:867
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -2249,11 +2279,11 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:866 SessionController.cpp:891
+#: SessionController.cpp:870 SessionController.cpp:895
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: SessionController.cpp:885
+#: SessionController.cpp:889
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2265,7 +2295,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:888
+#: SessionController.cpp:892
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2277,49 +2307,49 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1316
+#: SessionController.cpp:1387
 #, fuzzy
 #| msgid "Shell"
 msgid "Print Shell"
 msgstr "Shell"
 
-#: SessionController.cpp:1513
+#: SessionController.cpp:1590
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1521
+#: SessionController.cpp:1598
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1533
+#: SessionController.cpp:1610
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1542
+#: SessionController.cpp:1619
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1548
+#: SessionController.cpp:1625
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1615
+#: SessionController.cpp:1692
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1626
+#: SessionController.cpp:1703
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1701
+#: SessionController.cpp:1778
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2559,41 +2589,41 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TerminalDisplay.cpp:1142 TerminalDisplay.cpp:1143
+#: TerminalDisplay.cpp:1145 TerminalDisplay.cpp:1146
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1154
+#: TerminalDisplay.cpp:1157
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:2622
+#: TerminalDisplay.cpp:2645
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:2625
+#: TerminalDisplay.cpp:2648
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:2800
+#: TerminalDisplay.cpp:2823
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3054
+#: TerminalDisplay.cpp:3078
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3068
+#: TerminalDisplay.cpp:3092
 msgid "Change &Directory To"
 msgstr ""
 
