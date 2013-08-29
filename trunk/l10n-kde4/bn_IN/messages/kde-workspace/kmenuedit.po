@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-15 04:47+0100\n"
+"POT-Creation-Date: 2013-08-29 01:41+0000\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,7 +26,23 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: basictab.cpp:72
+#: basictab.cpp:74
+msgid "&Name:"
+msgstr "নাম: (&N)"
+
+#: basictab.cpp:82
+msgid "&Description:"
+msgstr "বিবরণ: (&D)"
+
+#: basictab.cpp:90
+msgid "&Comment:"
+msgstr "মন্তব্য: (&C)"
+
+#: basictab.cpp:98
+msgid "Co&mmand:"
+msgstr "কমান্ড: (&m)"
+
+#: basictab.cpp:103
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -42,67 +58,51 @@ msgid ""
 "%c - the caption"
 msgstr ""
 
-#: basictab.cpp:84
+#: basictab.cpp:118
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:85
+#: basictab.cpp:122
 msgid "&Place in system tray"
 msgstr "সিস্টেম ট্রের মধ্যে স্থাপন করুন (&P)"
 
-#: basictab.cpp:86
+#: basictab.cpp:126
 msgid "Only show in KDE"
 msgstr "শুধুমাত্র KDE-র মধ্যে প্রদর্শন করা হবে"
 
-#: basictab.cpp:87
+#: basictab.cpp:130
 msgid "Hidden entry"
 msgstr "আড়াল করা এনট্রি"
 
-#: basictab.cpp:91
-msgid "&Name:"
-msgstr "নাম: (&N)"
-
-#: basictab.cpp:93
-msgid "&Description:"
-msgstr "বিবরণ: (&D)"
-
-#: basictab.cpp:95
-msgid "&Comment:"
-msgstr "মন্তব্য: (&C)"
-
-#: basictab.cpp:97
-msgid "Co&mmand:"
-msgstr "কমান্ড: (&m)"
-
-#: basictab.cpp:138 preferencesdlg.cpp:37
+#: basictab.cpp:142 preferencesdlg.cpp:37
 msgid "General"
 msgstr "সাধারণ"
 
-#: basictab.cpp:149
+#: basictab.cpp:155
 msgid "&Work path:"
 msgstr ""
 
-#: basictab.cpp:168
+#: basictab.cpp:169
 msgid "Run in term&inal"
 msgstr "টার্মিন্যালে সঞ্চালনা (&i)"
 
-#: basictab.cpp:176
+#: basictab.cpp:175
 msgid "Terminal &options:"
 msgstr "টার্মিন্যাল সংক্রান্ত বিকল্প (&o)"
 
-#: basictab.cpp:196
+#: basictab.cpp:190
 msgid "&Run as a different user"
 msgstr "ভিন্ন ব্যবহারকারী রূপে সঞ্চালন করুন (&R)"
 
-#: basictab.cpp:204
+#: basictab.cpp:196
 msgid "&Username:"
 msgstr "ব্যবহারকারী: (&U)"
 
-#: basictab.cpp:226
+#: basictab.cpp:211
 msgid "Current shortcut &key:"
 msgstr "বর্তমান শর্ট-কাট কি: (&k)"
 
-#: basictab.cpp:236
+#: basictab.cpp:222
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
