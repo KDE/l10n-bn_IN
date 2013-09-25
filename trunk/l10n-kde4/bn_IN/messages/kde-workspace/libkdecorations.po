@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_lib\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-16 05:28+0200\n"
+"POT-Creation-Date: 2013-09-25 01:46+0000\n"
 "PO-Revision-Date: 2009-01-09 12:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,98 +18,98 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kcommondecoration.cpp:290
+#: kcommondecoration.cpp:320
 #, fuzzy, kde-format
 #| msgid "<center><b>%1 preview</b></center>"
 msgid "<center><b>%1</b></center>"
 msgstr "<center><b>%1-র ঝলক</b></center>"
 
-#: kcommondecoration.cpp:385
+#: kcommondecoration.cpp:410
 msgctxt "Button showing window actions menu"
 msgid "Window Menu"
 msgstr ""
 
-#: kcommondecoration.cpp:400
+#: kcommondecoration.cpp:425
 msgctxt "Button showing application menu"
 msgid "Application Menu"
 msgstr ""
 
-#: kcommondecoration.cpp:422 kcommondecoration.cpp:639
+#: kcommondecoration.cpp:447 kcommondecoration.cpp:664
 msgid "Not on all desktops"
 msgstr "সকল ডেস্কটপের মধ্যে নয়"
 
-#: kcommondecoration.cpp:422 kcommondecoration.cpp:640
+#: kcommondecoration.cpp:447 kcommondecoration.cpp:665
 msgid "On all desktops"
 msgstr "সকল ডেস্কটপের মধ্যে"
 
-#: kcommondecoration.cpp:437
+#: kcommondecoration.cpp:462
 msgid "Help"
 msgstr "সাহায্য"
 
-#: kcommondecoration.cpp:450
+#: kcommondecoration.cpp:475
 msgid "Minimize"
 msgstr "আড়াল করুন"
 
-#: kcommondecoration.cpp:465 kcommondecoration.cpp:627
+#: kcommondecoration.cpp:490 kcommondecoration.cpp:652
 msgid "Restore"
 msgstr "স্বাভাবিক মাপ"
 
-#: kcommondecoration.cpp:465 kcommondecoration.cpp:626
+#: kcommondecoration.cpp:490 kcommondecoration.cpp:651
 msgid "Maximize"
 msgstr "বড় করুন"
 
-#: kcommondecoration.cpp:480
+#: kcommondecoration.cpp:505
 msgid "Close"
 msgstr "বন্ধ করুন"
 
-#: kcommondecoration.cpp:494 kcommondecoration.cpp:680
+#: kcommondecoration.cpp:519 kcommondecoration.cpp:705
 msgid "Do not keep above others"
 msgstr "অন্যান্যদের উপরে স্থাপন করা হবে না"
 
-#: kcommondecoration.cpp:494 kcommondecoration.cpp:680
-#: kcommondecoration.cpp:701
+#: kcommondecoration.cpp:519 kcommondecoration.cpp:705
+#: kcommondecoration.cpp:726
 msgid "Keep above others"
 msgstr "অন্যান্যদের উপর স্থাপন করা হবে"
 
-#: kcommondecoration.cpp:510 kcommondecoration.cpp:695
+#: kcommondecoration.cpp:535 kcommondecoration.cpp:720
 msgid "Do not keep below others"
 msgstr "অন্যান্যদের নীচে স্থাপন করা হবে না"
 
-#: kcommondecoration.cpp:510 kcommondecoration.cpp:686
-#: kcommondecoration.cpp:695
+#: kcommondecoration.cpp:535 kcommondecoration.cpp:711
+#: kcommondecoration.cpp:720
 msgid "Keep below others"
 msgstr "অন্যান্যদের নীচে স্থাপন করা হবে"
 
-#: kcommondecoration.cpp:526 kcommondecoration.cpp:651
+#: kcommondecoration.cpp:551 kcommondecoration.cpp:676
 msgid "Unshade"
 msgstr "ছায়াবিহীন"
 
-#: kcommondecoration.cpp:526 kcommondecoration.cpp:652
+#: kcommondecoration.cpp:551 kcommondecoration.cpp:677
 msgid "Shade"
 msgstr "ছায়াবৃত"
 
-#: kdecoration_plugins_p.cpp:124
+#: kdecoration_plugins_p.cpp:114
 #, fuzzy
 #| msgid "No window decoration plugin library was found."
 msgid "Loading of window decoration plugin library disabled in configuration."
 msgstr "উইন্ডোর সাজসজ্জার জন্য কোনো প্লাগ-ইন লাইব্রেরি পাওয়া যায়নি।"
 
-#: kdecoration_plugins_p.cpp:178
+#: kdecoration_plugins_p.cpp:155
 #, fuzzy, kde-format
 #| msgid "The library %1 is not a KWin plugin."
 msgid "The library %1 has wrong API version %2"
 msgstr "%1 লাইব্রেরিটি, KWin প্লাগ-ইন নয়।"
 
-#: kdecoration_plugins_p.cpp:189
+#: kdecoration_plugins_p.cpp:166
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "%1 লাইব্রেরিটি, KWin প্লাগ-ইন নয়।"
 
-#: kdecoration_plugins_p.cpp:226 kdecoration_plugins_p.cpp:243
+#: kdecoration_plugins_p.cpp:203 kdecoration_plugins_p.cpp:220
 msgid "The default decoration plugin is corrupt and could not be loaded."
 msgstr "উইন্ডোর সাজসজ্জার জন্য উপস্থিত ডিফল্ট প্লাগ-ইনটি ক্ষতিগ্রস্ত ও লোড করা যায়নি।"
 
-#: kdecoration_plugins_p.cpp:238
+#: kdecoration_plugins_p.cpp:215
 #, kde-format
 msgid ""
 "The library %1 was attempted to be loaded as a decoration plugin but it is "
