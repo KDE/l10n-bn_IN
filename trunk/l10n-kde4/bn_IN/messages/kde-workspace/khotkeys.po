@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-27 04:54+0200\n"
+"POT-Creation-Date: 2013-10-16 01:35+0000\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -595,23 +595,23 @@ msgstr "সক্রিয়"
 msgid "Type"
 msgstr "ধরন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:109
+#: kcm_hotkeys/kcm_hotkeys.cpp:99
 msgid "KDE Hotkeys Configuration Module"
 msgstr "KDE Hotkeys কনফিগারেশন মডিউল"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:113
+#: kcm_hotkeys/kcm_hotkeys.cpp:103
 msgid "Copyright 2008 (c) Michael Jansen"
 msgstr "স্বত্বাধিকার ২০০৮ (c) মাইকেল জ্যানসেন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:116
+#: kcm_hotkeys/kcm_hotkeys.cpp:106
 msgid "Michael Jansen"
 msgstr "মাইকেল জ্যানসেন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:117
+#: kcm_hotkeys/kcm_hotkeys.cpp:107
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:345
+#: kcm_hotkeys/kcm_hotkeys.cpp:335
 #, fuzzy
 #| msgid ""
 #| "The current action has unsaved changes. If you continue those changes "
@@ -623,11 +623,11 @@ msgstr ""
 "বর্তমান কর্মের ফলে হওয়া কিছু পরিবর্তন এখনো সংরক্ষণ করা হয়নি। এগিয়ে গেলে এই সমস্ত "
 "পরিবর্তনগুলি হারিয়ে যাবে!"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:346
+#: kcm_hotkeys/kcm_hotkeys.cpp:336
 msgid "Save changes"
 msgstr "পরিবর্তন সংরক্ষণ করা হবে"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:379 kcm_hotkeys/kcm_hotkeys.cpp:403
+#: kcm_hotkeys/kcm_hotkeys.cpp:369 kcm_hotkeys/kcm_hotkeys.cpp:393
 msgid ""
 "Unable to contact khotkeys. Your changes are saved, but they could not be "
 "activated."
@@ -682,7 +682,7 @@ msgstr ""
 msgid "Activate window: "
 msgstr "উইন্ডো সক্রিয় করুন: "
 
-#: libkhotkeysprivate/actions/command_url_action.cpp:79
+#: libkhotkeysprivate/actions/command_url_action.cpp:80
 msgid "Command/URL : "
 msgstr "কমান্ড/URL : "
 
@@ -736,17 +736,17 @@ msgctxt "Or_condition"
 msgid "Or"
 msgstr "Or"
 
-#: libkhotkeysprivate/khotkeysglobal.h:40
+#: libkhotkeysprivate/khotkeysglobal.h:41
 msgid "Menu Editor entries"
 msgstr ""
 
-#: libkhotkeysprivate/settings.cpp:318
+#: libkhotkeysprivate/settings.cpp:319
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
 "want to import it again?"
 msgstr ""
 
-#: libkhotkeysprivate/settings.cpp:346
+#: libkhotkeysprivate/settings.cpp:347
 msgid ""
 "This \"actions\" file has no ImportId field and therefore it cannot be "
 "determined whether or not it has been imported already. Are you sure you "
@@ -757,7 +757,7 @@ msgstr ""
 msgid "Gesture trigger"
 msgstr ""
 
-#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:137
+#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:156
 msgid "Shortcut trigger: "
 msgstr ""
 
