@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-28 01:42+0000\n"
+"POT-Creation-Date: 2013-11-12 01:37+0000\n"
 "PO-Revision-Date: 2008-12-29 15:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -53,66 +53,57 @@ msgstr ""
 msgid "Grouping:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:88
-msgid "Do Not Group"
-msgstr "দলবদ্ধ করা হবে না"
-
-#: package/contents/ui/ConfigGeneral.qml:88
-#: package/contents/ui/ConfigGeneral.qml:104
-msgid "Manually"
-msgstr "স্বয়ং"
-
-#: package/contents/ui/ConfigGeneral.qml:88
-msgid "By Program Name"
-msgstr "প্রোগ্রামের নাম অনুযায়ী"
-
-#: package/contents/ui/ConfigGeneral.qml:94
+#: package/contents/ui/ConfigGeneral.qml:90
 msgid "Only when the task manager is full"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:99
+#: package/contents/ui/ConfigGeneral.qml:95
 msgid "Sorting:"
 msgstr "ক্রমবিন্যাস:"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "Do Not Sort"
 msgstr "সুবিন্যস্ত করা হবে না"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
+msgid "Manually"
+msgstr "স্বয়ং"
+
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "Alphabetically"
 msgstr "অদ্যাক্ষর অনুযায়ী"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "By Desktop"
 msgstr "ডেস্কটপ অনুযায়ী"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "By Activity"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:111
+#: package/contents/ui/ConfigGeneral.qml:107
 msgid "Filters"
 msgstr "ফিল্টার"
 
-#: package/contents/ui/ConfigGeneral.qml:117
+#: package/contents/ui/ConfigGeneral.qml:113
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current screen"
 msgstr "শুধুমাত্র বর্তমান পর্দার কর্ম প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigGeneral.qml:122
+#: package/contents/ui/ConfigGeneral.qml:118
 #, fuzzy
 #| msgid "Only show tasks from the current desktop"
 msgid "Show only tasks from the current desktop"
 msgstr "শুধুমাত্র বর্তমান ডেস্কটপের কর্ম প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigGeneral.qml:127
+#: package/contents/ui/ConfigGeneral.qml:123
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current activity"
 msgstr "শুধুমাত্র বর্তমান পর্দার কর্ম প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigGeneral.qml:132
+#: package/contents/ui/ConfigGeneral.qml:128
 #, fuzzy
 #| msgid "Only show tasks that are minimized"
 msgid "Show only tasks that are minimized"
@@ -141,6 +132,12 @@ msgstr ""
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"
 msgstr ""
+
+#~ msgid "Do Not Group"
+#~ msgstr "দলবদ্ধ করা হবে না"
+
+#~ msgid "By Program Name"
+#~ msgstr "প্রোগ্রামের নাম অনুযায়ী"
 
 #, fuzzy
 #~| msgid "Do Not Group"
