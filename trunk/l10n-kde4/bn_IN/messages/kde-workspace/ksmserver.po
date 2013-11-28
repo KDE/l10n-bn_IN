@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-07 03:43+0100\n"
+"POT-Creation-Date: 2013-11-28 01:40+0000\n"
 "PO-Revision-Date: 2009-01-12 16:47+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,15 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"
-
-#: main.cpp:52
+#: main.cpp:53
 msgid ""
 "The reliable KDE session manager that talks the standard X11R6 \n"
 "session management protocol (XSMP)."
@@ -34,65 +26,53 @@ msgstr ""
 "X11R6 সেশান ম্যানেজমেন্ট প্রোটোকল (XSMP) \n"
 "প্রয়োগকারী, KDE-র নির্ভরযোগ্য সেশান পরিচালন ব্যবস্থা।"
 
-#: main.cpp:233
-msgid "The KDE Session Manager"
-msgstr "KDE সেশান পরিচালন ব্যবস্থা"
-
-#: main.cpp:235
-msgid "(C) 2000, The KDE Developers"
-msgstr "(C) ২০০০, KDE-র ডিভেলপর বৃন্দ"
-
-#: main.cpp:236
-msgid "Matthias Ettrich"
-msgstr "ম্যাথায়েস এট্রিখ"
-
-#: main.cpp:237
-msgid "Luboš Luňák"
-msgstr "লুবোস লুনাক"
-
-#: main.cpp:237
-msgid "Maintainer"
-msgstr "মেইন্টেনার"
-
-#: main.cpp:245
+#: main.cpp:256
 msgid "Restores the saved user session if available"
 msgstr "ব্যবহারকারী দ্বারা সংরক্ষিত সেশন উপলব্ধ থাকলে তা পুনরায় স্থাপন করা হয়"
 
-#: main.cpp:247
+#: main.cpp:260
+#, fuzzy
+#| msgid ""
+#| "Starts 'wm' in case no other window manager is \n"
+#| "participating in the session. Default is 'kwin'"
 msgid ""
-"Starts 'wm' in case no other window manager is \n"
+"Starts <wm> in case no other window manager is \n"
 "participating in the session. Default is 'kwin'"
 msgstr ""
 "সেশানের মধ্যে অন্য কোনো উইন্ডো পরিচালন ব্যবস্থা উপস্থিত না থাকলে \n"
 "'wm' আরম্ভ করা হয়। ডিফল্ট মান হল 'kwin'"
 
-#: main.cpp:248
+#: main.cpp:261
+msgid "wm"
+msgstr ""
+
+#: main.cpp:265
 msgid "Also allow remote connections"
 msgstr "দূরবর্তী সংযোগ অনুমোদিত হবে"
 
-#: main.cpp:250
+#: main.cpp:270
 msgid "Starts the session in locked mode"
 msgstr ""
 
-#: server.cpp:1043
+#: server.cpp:1052
 #, fuzzy
 #| msgid "&Logout"
 msgid "Log Out"
 msgstr "লগ-আউট করুন (&L)"
 
-#: server.cpp:1048
+#: server.cpp:1057
 msgid "Log Out Without Confirmation"
 msgstr ""
 
-#: server.cpp:1053
+#: server.cpp:1062
 msgid "Halt Without Confirmation"
 msgstr ""
 
-#: server.cpp:1058
+#: server.cpp:1067
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: shutdown.cpp:388
+#: shutdown.cpp:392
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr "'%1' দ্বারা লগ-আউট বাতিল করা হয়েছে"
@@ -171,6 +151,29 @@ msgstr ""
 #: themes/default/main.qml:437
 msgid "&Cancel"
 msgstr "বাতিল (&C)"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "রুণা ভট্টাচার্য্য"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "runab@redhat.com"
+
+#~ msgid "The KDE Session Manager"
+#~ msgstr "KDE সেশান পরিচালন ব্যবস্থা"
+
+#~ msgid "(C) 2000, The KDE Developers"
+#~ msgstr "(C) ২০০০, KDE-র ডিভেলপর বৃন্দ"
+
+#~ msgid "Matthias Ettrich"
+#~ msgstr "ম্যাথায়েস এট্রিখ"
+
+#~ msgid "Luboš Luňák"
+#~ msgstr "লুবোস লুনাক"
+
+#~ msgid "Maintainer"
+#~ msgstr "মেইন্টেনার"
 
 #~ msgctxt "current option in boot loader"
 #~ msgid " (current)"
