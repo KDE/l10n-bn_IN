@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 08:24+0000\n"
+"POT-Creation-Date: 2013-12-06 01:44+0000\n"
 "PO-Revision-Date: 2008-06-24 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -18,31 +18,31 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@fedoraproject.org"
-
 #: main.cpp:170
 #, kde-format
 msgid "Module %1 not found"
 msgstr "মডিউল %1 পাওয়া যায়নি"
 
-#: main.cpp:247
+#: main.cpp:249
 msgid "KCMInit"
 msgstr "KCMInit"
 
-#: main.cpp:249
+#: main.cpp:251
 msgid "KCMInit - runs startup initialization for Control Modules."
 msgstr "KCMInit - কন্‌ট্রোল মডিউলের জন্য প্রারম্ভিক প্রসেস আরম্ভ করা হয়।"
 
-#: main.cpp:254
+#: main.cpp:256
 msgid "List modules that are run at startup"
 msgstr "প্রারম্ভকালে সঞ্চালিত মডিউলের তালিকা"
 
-#: main.cpp:255
+#: main.cpp:257
 msgid "Configuration module to run"
 msgstr "সঞ্চালনযোগ্য কনফিগারেশন মডিউল"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "রুণা ভট্টাচার্য্য"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "runab@fedoraproject.org"
