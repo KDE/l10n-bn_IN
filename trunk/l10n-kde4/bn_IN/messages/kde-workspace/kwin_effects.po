@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-07 01:34+0000\n"
+"POT-Creation-Date: 2013-12-11 01:36+0000\n"
 "PO-Revision-Date: 2009-01-05 19:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -146,7 +146,7 @@ msgstr "হরফের রং:"
 msgid "Front color"
 msgstr "পটভূমির রং:"
 
-#: cube/cube.cpp:205 cube/cube_config.cpp:65
+#: cube/cube.cpp:204 cube/cube_config.cpp:65
 msgid "Desktop Cube"
 msgstr ""
 
@@ -154,7 +154,7 @@ msgstr ""
 msgid "Desktop Cylinder"
 msgstr ""
 
-#: cube/cube.cpp:214 cube/cube_config.cpp:74
+#: cube/cube.cpp:215 cube/cube_config.cpp:74
 #, fuzzy
 #| msgid "Sphere"
 msgid "Desktop Sphere"
@@ -424,7 +424,7 @@ msgstr ""
 msgid "Apply blur effect to background"
 msgstr ""
 
-#: desktopgrid/desktopgrid.cpp:72 desktopgrid/desktopgrid_config.cpp:62
+#: desktopgrid/desktopgrid.cpp:71 desktopgrid/desktopgrid_config.cpp:62
 msgid "Show Desktop Grid"
 msgstr ""
 
@@ -446,7 +446,7 @@ msgstr "উপরে-ডানদিকে"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: desktopgrid/desktopgrid_config.cpp:73 flipswitch/flipswitch_config.ui:125
-#: mouseclick/mouseclick.cpp:62
+#: mouseclick/mouseclick.cpp:61
 msgid "Right"
 msgstr "ডানদিকে"
 
@@ -465,7 +465,7 @@ msgstr "নীচে-বাঁদিকে"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: desktopgrid/desktopgrid_config.cpp:77 flipswitch/flipswitch_config.ui:105
-#: mouseclick/mouseclick.cpp:60
+#: mouseclick/mouseclick.cpp:59
 msgid "Left"
 msgstr "বাঁদিকে"
 
@@ -553,7 +553,7 @@ msgstr ""
 msgid "&Strength:"
 msgstr ""
 
-#: flipswitch/flipswitch.cpp:62 flipswitch/flipswitch_config.cpp:56
+#: flipswitch/flipswitch.cpp:61 flipswitch/flipswitch_config.cpp:56
 msgid "Toggle Flip Switch (Current desktop)"
 msgstr ""
 
@@ -624,11 +624,11 @@ msgstr ""
 msgid "90"
 msgstr ""
 
-#: invert/invert.cpp:49 invert/invert_config.cpp:48
+#: invert/invert.cpp:47 invert/invert_config.cpp:48
 msgid "Toggle Invert Effect"
 msgstr ""
 
-#: invert/invert.cpp:55 invert/invert_config.cpp:54
+#: invert/invert.cpp:54 invert/invert_config.cpp:54
 msgid "Toggle Invert Effect on Window"
 msgstr ""
 
@@ -670,11 +670,11 @@ msgstr " px"
 msgid "&Height:"
 msgstr "উচ্চতা: (&H)"
 
-#: mouseclick/mouseclick.cpp:51 mouseclick/mouseclick_config.cpp:58
+#: mouseclick/mouseclick.cpp:50 mouseclick/mouseclick_config.cpp:58
 msgid "Toggle Effect"
 msgstr ""
 
-#: mouseclick/mouseclick.cpp:61
+#: mouseclick/mouseclick.cpp:60
 msgid "Middle"
 msgstr ""
 
@@ -763,7 +763,7 @@ msgstr ""
 msgid "Show Text:"
 msgstr "গোলাকার"
 
-#: mousemark/mousemark.cpp:51
+#: mousemark/mousemark.cpp:50
 msgid "Clear All Mouse Marks"
 msgstr "মাউসের সকল চিহ্ন মুছে ফেলা হবে"
 
@@ -785,12 +785,12 @@ msgstr "রং: (&C)"
 msgid "Draw with the mouse by holding Shift+Meta keys and moving the mouse."
 msgstr ""
 
-#: presentwindows/presentwindows.cpp:79
+#: presentwindows/presentwindows.cpp:77
 #: presentwindows/presentwindows_config.cpp:67
 msgid "Toggle Present Windows (Current desktop)"
 msgstr ""
 
-#: presentwindows/presentwindows.cpp:85
+#: presentwindows/presentwindows.cpp:84
 #: presentwindows/presentwindows_config.cpp:61
 msgid "Toggle Present Windows (All desktops)"
 msgstr ""
@@ -800,7 +800,7 @@ msgstr ""
 msgid "Toggle Present Windows (Window class)"
 msgstr ""
 
-#: presentwindows/presentwindows.cpp:1626
+#: presentwindows/presentwindows.cpp:1625
 #, kde-format
 msgid ""
 "Filter:\n"
@@ -1054,7 +1054,7 @@ msgstr "হরফের রং:"
 msgid "Text alpha:"
 msgstr ""
 
-#: thumbnailaside/thumbnailaside.cpp:40
+#: thumbnailaside/thumbnailaside.cpp:39
 #: thumbnailaside/thumbnailaside_config.cpp:67
 msgid "Toggle Thumbnail for Current Window"
 msgstr ""
@@ -1083,7 +1083,7 @@ msgstr " পিক্সেল"
 msgid "&Opacity:"
 msgstr ""
 
-#: trackmouse/trackmouse.cpp:62 trackmouse/trackmouse_config.cpp:63
+#: trackmouse/trackmouse.cpp:61 trackmouse/trackmouse_config.cpp:63
 msgid "Track mouse"
 msgstr ""
 
@@ -1184,7 +1184,7 @@ msgstr "পপ-আপ মেনু:"
 msgid "Torn-off menus:"
 msgstr ""
 
-#: windowgeometry/windowgeometry.cpp:65
+#: windowgeometry/windowgeometry.cpp:64
 msgid "Toggle window geometry display (effect only)"
 msgstr ""
 
@@ -1256,7 +1256,7 @@ msgstr "কম"
 msgid "More"
 msgstr "বেশি"
 
-#: zoom/zoom.cpp:84
+#: zoom/zoom.cpp:83
 msgid "Move Zoomed Area to Left"
 msgstr ""
 
@@ -1264,19 +1264,19 @@ msgstr ""
 msgid "Move Zoomed Area to Right"
 msgstr ""
 
-#: zoom/zoom.cpp:96
+#: zoom/zoom.cpp:97
 msgid "Move Zoomed Area Upwards"
 msgstr ""
 
-#: zoom/zoom.cpp:102
+#: zoom/zoom.cpp:104
 msgid "Move Zoomed Area Downwards"
 msgstr ""
 
-#: zoom/zoom.cpp:109 zoom/zoom_config.cpp:109
+#: zoom/zoom.cpp:112 zoom/zoom_config.cpp:109
 msgid "Move Mouse to Focus"
 msgstr ""
 
-#: zoom/zoom.cpp:115 zoom/zoom_config.cpp:116
+#: zoom/zoom.cpp:119 zoom/zoom_config.cpp:116
 msgid "Move Mouse to Center"
 msgstr ""
 
