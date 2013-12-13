@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-11 01:49+0000\n"
+"POT-Creation-Date: 2013-12-13 02:02+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -3534,11 +3534,11 @@ msgstr ""
 
 #: kwin/tabbox/qml/clients/text/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Sessions"
+#| msgctxt "Description"
+#| msgid "Text File"
 msgctxt "Name"
-msgid "Text Icons"
-msgstr "ডেস্কটপের সেশান"
+msgid "Text Only"
+msgstr "টেক্সট ফাইল"
 
 #: kwin/tabbox/qml/clients/text/metadata.desktop:45
 msgctxt "Comment"
@@ -3556,19 +3556,6 @@ msgstr "Test_Thumbnail"
 #: kwin/tabbox/qml/clients/thumbnails/metadata.desktop:45
 msgctxt "Comment"
 msgid "A window switcher layout using live thumbnails"
-msgstr ""
-
-#: kwin/tabbox/qml/clients/window_strip/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Windows"
-msgctxt "Name"
-msgid "Window Strip"
-msgstr "উইন্ডো"
-
-#: kwin/tabbox/qml/clients/window_strip/metadata.desktop:43
-msgctxt "Comment"
-msgid "Window switcher layout for Plasma Active"
 msgstr ""
 
 #: kwin/tabbox/qml/desktops/informative/metadata.desktop:47
@@ -6195,6 +6182,20 @@ msgstr "ফন্ট প্রদর্শক"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop Sessions"
+#~ msgctxt "Name"
+#~ msgid "Text Icons"
+#~ msgstr "ডেস্কটপের সেশান"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Windows"
+#~ msgctxt "Name"
+#~ msgid "Window Strip"
+#~ msgstr "উইন্ডো"
 
 #~ msgctxt "Name"
 #~ msgid "Battery Monitor"
