@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-09 01:41+0000\n"
+"POT-Creation-Date: 2014-01-10 01:55+0000\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,14 +26,14 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: composite.cpp:426
+#: composite.cpp:445
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
 "resume using the '%1' shortcut."
 msgstr ""
 
-#: compositingprefs.cpp:93
+#: compositingprefs.cpp:99
 msgid ""
 "<b>OpenGL compositing (the default) has crashed KWin in the past.</"
 "b><br>This was most likely due to a driver bug.<p>If you think that you have "
@@ -42,15 +42,15 @@ msgid ""
 "p><p>Alternatively, you might want to use the XRender backend instead.</p>"
 msgstr ""
 
-#: compositingprefs.cpp:100
+#: compositingprefs.cpp:106
 msgid "Required X extensions (XComposite and XDamage) are not available."
 msgstr "X-র জন্য আবশ্যক এক্সটেনশন (XComposite ও XDamage) উপলব্ধ নেই।"
 
-#: compositingprefs.cpp:104
+#: compositingprefs.cpp:110
 msgid "GLX/OpenGL are not available and only OpenGL support is compiled."
 msgstr "GLX/OpenGL উপলব্ধ নয় ও শুধুমাত্র OpenGL সমর্থন ব্যবস্থা কম্পাইল করা হয়েছে।"
 
-#: compositingprefs.cpp:108
+#: compositingprefs.cpp:114
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL ও XRender/XFixes উপলব্ধ নয়।"
 
@@ -441,7 +441,7 @@ msgstr ""
 "একাধিকবার বিপর্যস্ত হয়েছে।\n"
 "আপনি কোনো পৃথক উইন্ডো পরিচালন ব্যবস্থা নির্বাচন করতে পারেন:"
 
-#: main.cpp:220
+#: main.cpp:241
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
@@ -449,7 +449,7 @@ msgstr ""
 "kwin: পরিচালন ব্যবস্থা ধার্য করতে ব্যর্থ, একটি পৃথক উইন্ডো পরিচালনব্যবস্থা বর্তমানে "
 "চলছে কি? (--replace প্রয়োগের প্রচেষ্টা করুন)\n"
 
-#: main.cpp:240
+#: main.cpp:261
 #, fuzzy
 #| msgid ""
 #| "kwin: unable to claim manager selection, another wm running? (try using --"
@@ -459,53 +459,53 @@ msgstr ""
 "kwin: পরিচালন ব্যবস্থা ধার্য করতে ব্যর্থ, একটি পৃথক উইন্ডো পরিচালনব্যবস্থা বর্তমানে "
 "চলছে কি? (--replace প্রয়োগের প্রচেষ্টা করুন)\n"
 
-#: main.cpp:376 main.cpp:487
+#: main.cpp:397 main.cpp:508
 msgid "KDE window manager"
 msgstr "KDE উইন্ডো পরিচালন ব্যবস্থা"
 
-#: main.cpp:466 main.cpp:470
+#: main.cpp:487 main.cpp:491
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:474
+#: main.cpp:495
 #, fuzzy
 #| msgid "(c) 1999-2008, The KDE Developers"
 msgid "(c) 1999-2013, The KDE Developers"
 msgstr "(c) ১৯৯৯-২০০৮, KDE-র নির্মাতা বৃন্দ"
 
-#: main.cpp:476
+#: main.cpp:497
 msgid "Matthias Ettrich"
 msgstr "ম্যাথায়েস এট্রিখ"
 
-#: main.cpp:477
+#: main.cpp:498
 msgid "Cristian Tibirna"
 msgstr "ক্রিস্টিয়্যান টিবির্না"
 
-#: main.cpp:478
+#: main.cpp:499
 msgid "Daniel M. Duley"
 msgstr "ড্যানিয়েল এম. ডুলি"
 
-#: main.cpp:479
+#: main.cpp:500
 msgid "Luboš Luňák"
 msgstr "লুবোস লুনাক"
 
-#: main.cpp:480
+#: main.cpp:501
 msgid "Martin Gräßlin"
 msgstr ""
 
-#: main.cpp:480
+#: main.cpp:501
 msgid "Maintainer"
 msgstr "নির্মাণকারী"
 
-#: main.cpp:482
+#: main.cpp:503
 msgid "Disable configuration options"
 msgstr "কনফিগারেশন সংক্রান্ত বিকল্প নিষ্ক্রিয় করা হবে"
 
-#: main.cpp:483
+#: main.cpp:504
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "ICCCM2.0-র সাথে সুসংগত বর্তমানে চলমান উইন্ডো পরিচালনব্যবস্থা প্রতিস্থাপন করুন"
 
-#: main.cpp:484
+#: main.cpp:505
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "KWin n সংখ্যক বার বিপর্যস্ত হওয়ার ইঙ্গিত প্রদর্শন করা হবে"
 
