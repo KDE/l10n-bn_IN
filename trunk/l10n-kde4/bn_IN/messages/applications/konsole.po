@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:25+0000\n"
+"POT-Creation-Date: 2014-01-12 01:24+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2025,18 +2025,18 @@ msgstr "Solaris কনসোল"
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 টার্মিন্যাল"
 
-#: Session.cpp:391
+#: Session.cpp:396
 msgid "Could not find binary: "
 msgstr "বাইনারি পাওয়া যায়নি: "
 
-#: Session.cpp:400
+#: Session.cpp:405
 #, fuzzy
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "সতর্কবার্তা: "
 
-#: Session.cpp:462
+#: Session.cpp:467
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2045,48 +2045,48 @@ msgstr ""
 "'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার "
 "প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
 
-#: Session.cpp:465
+#: Session.cpp:470
 msgid "Could not find an interactive shell to start."
 msgstr "আরম্ভ করার জন্য কোনো ইন্টারেক্টিভ শেল পাওয়া যায়নি।"
 
-#: Session.cpp:503
+#: Session.cpp:508
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্ট সহ আরম্ভ করা যায়নি।"
 
-#: Session.cpp:609
+#: Session.cpp:614
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "'%1' সেশানে নিরবতা"
 
-#: Session.cpp:650
+#: Session.cpp:655
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
 
-#: Session.cpp:653
+#: Session.cpp:658
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "'%1'-এ কর্ম"
 
-#: Session.cpp:835
+#: Session.cpp:840
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: Session.cpp:849 Session.cpp:861
+#: Session.cpp:854 Session.cpp:866
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: Session.cpp:851
+#: Session.cpp:856
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: Session.cpp:1202
+#: Session.cpp:1207
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
@@ -2589,42 +2589,42 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TerminalDisplay.cpp:1145 TerminalDisplay.cpp:1146
+#: TerminalDisplay.cpp:1146 TerminalDisplay.cpp:1147
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1157
+#: TerminalDisplay.cpp:1158
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:2692
+#: TerminalDisplay.cpp:2702
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:2695
+#: TerminalDisplay.cpp:2705
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:2870
+#: TerminalDisplay.cpp:2884
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
 "Software_flow_control\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</"
 "b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3125
+#: TerminalDisplay.cpp:3139
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3139
+#: TerminalDisplay.cpp:3153
 msgid "Change &Directory To"
 msgstr ""
 
@@ -2762,7 +2762,7 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: Vt102Emulation.cpp:1056
+#: Vt102Emulation.cpp:1061
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
