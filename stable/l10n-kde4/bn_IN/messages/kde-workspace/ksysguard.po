@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2014-01-16 05:18+0000\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1006,10 +1006,32 @@ msgstr ""
 msgid "Memory and Swap History"
 msgstr ""
 
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:9
+msgid "Memory"
+msgstr "মেমরি"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:10
+msgid "Swap"
+msgstr ""
+
 #. i18n: tag display attribute title
 #: SystemLoad2.sgrd:12
 msgid "Network History"
 msgstr "নেটওয়ার্ক সংক্রান্ত পূর্ববর্তী তথ্য"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:13
+#, fuzzy
+#| msgid "Receiver"
+msgid "Receiving"
+msgstr "রিসিভার"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:14
+msgid "Sending"
+msgstr ""
 
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
@@ -1223,9 +1245,6 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgid "Total Load"
 #~ msgstr "ভারের সর্বমোট মাপ"
 
-#~ msgid "Memory"
-#~ msgstr "মেমরি"
-
 #~ msgid "Physical Memory"
 #~ msgstr "প্রকৃত মেমরি"
 
@@ -1354,9 +1373,6 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
 #~ msgid "Interfaces"
 #~ msgstr "ইন্টারফেস"
-
-#~ msgid "Receiver"
-#~ msgstr "রিসিভার"
 
 #~ msgid "Transmitter"
 #~ msgstr "ট্রান্‌সমিটার"
