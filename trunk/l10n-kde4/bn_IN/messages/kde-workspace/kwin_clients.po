@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_clients\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-18 01:38+0000\n"
+"POT-Creation-Date: 2014-01-31 01:47+0000\n"
 "PO-Revision-Date: 2008-12-30 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -84,125 +84,6 @@ msgstr ""
 #: aurorae/themes/plastik/package/contents/ui/config.ui:79
 msgid "Animate buttons"
 msgstr "বাটন অ্যানিমেট করা হবে"
-
-#: b2/b2client.cpp:403
-msgid "Menu"
-msgstr "মেনু"
-
-#: b2/b2client.cpp:405 b2/b2client.cpp:890
-msgid "Not on all desktops"
-msgstr "সকল ডেস্কটপে প্রযোজ্য নয়"
-
-#: b2/b2client.cpp:405 b2/b2client.cpp:890
-msgid "On all desktops"
-msgstr "সকল ডেস্কটপে প্রযোজ্য"
-
-#: b2/b2client.cpp:406 oxygen/oxygenclient.cpp:228
-msgid "Minimize"
-msgstr "আড়াল করুন"
-
-#: b2/b2client.cpp:406 b2/b2client.cpp:901 oxygen/oxygenclient.cpp:231
-msgid "Maximize"
-msgstr "বড় করুন"
-
-#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:225
-msgid "Help"
-msgstr "সাহায্য"
-
-#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:234
-msgid "Close"
-msgstr "বন্ধ করুন"
-
-#: b2/b2client.cpp:408 b2/b2client.cpp:933
-msgid "Unshade"
-msgstr "ছায়াবিহীন"
-
-#: b2/b2client.cpp:408 b2/b2client.cpp:933
-msgid "Shade"
-msgstr "ছায়াবৃত"
-
-#: b2/b2client.cpp:409
-msgid "Resize"
-msgstr "মাপ পরিবর্তন"
-
-#: b2/b2client.cpp:453
-msgid "<b><center>B II preview</center></b>"
-msgstr ""
-
-#: b2/b2client.cpp:901
-msgid "Restore"
-msgstr "পুর্বাবস্থা"
-
-#: b2/b2client.cpp:1143
-msgctxt "Help button label, one character"
-msgid "?"
-msgstr "?"
-
-#: b2/config/config.cpp:60
-msgid "Draw window frames using &titlebar colors"
-msgstr "শিরোনামের রঙ সহযোগে উইন্ডোর প্রান্ত আঁকা হবে (&t)"
-
-#: b2/config/config.cpp:62
-msgid ""
-"When selected, the window borders are drawn using the titlebar colors; "
-"otherwise, they are drawn using normal border colors."
-msgstr ""
-"নির্বাচিত হলে, উইন্ডোর প্রান্ত আঁকার জন্য শিরোনামের রঙ ব্যবহার করা হবে; অন্যথা, "
-"প্রান্তের স্বাভাবিক রঙ প্রয়োগ করা হবে।"
-
-#: b2/config/config.cpp:68
-msgid "Draw &resize handle"
-msgstr ""
-
-#: b2/config/config.cpp:70
-msgid ""
-"When selected, decorations are drawn with a \"grab handle\" in the bottom "
-"right corner of the windows; otherwise, no grab handle is drawn."
-msgstr ""
-
-#: b2/config/config.cpp:76
-msgid "Auto-move titlebar"
-msgstr ""
-
-#: b2/config/config.cpp:78
-msgid ""
-"When selected, titlebars are automatically relocated to visible positions; "
-"otherwise, they are only moved manually using shift+drag."
-msgstr ""
-
-#: b2/config/config.cpp:83
-msgid "Actions Settings"
-msgstr "কর্ম সংক্রান্ত বৈশিষ্ট্য"
-
-#: b2/config/config.cpp:86
-msgid "Double click on menu button:"
-msgstr "মেনু বাটনের উপর দুইবার ক্লিক করুন:"
-
-#: b2/config/config.cpp:88
-msgid "Do Nothing"
-msgstr "কিছু করা হবে না"
-
-#: b2/config/config.cpp:89
-msgid "Minimize Window"
-msgstr "উইন্ডো আড়াল করুন"
-
-#: b2/config/config.cpp:90
-msgid "Shade Window"
-msgstr "উইন্ডোর ছায়াবৃত করুন"
-
-#: b2/config/config.cpp:91
-msgid "Close Window"
-msgstr "উইন্ডো বন্ধ করুন"
-
-#: b2/config/config.cpp:94
-msgid ""
-"An action can be associated to a double click of the menu button. Leave it "
-"to none if in doubt."
-msgstr ""
-
-#: laptop/laptopclient.cpp:376
-msgid "Laptop"
-msgstr "ল্যাপ-টপ"
 
 #: oxygen/config/oxygenanimationconfigwidget.cpp:48
 msgid "Button mouseover transition"
@@ -711,6 +592,22 @@ msgstr ""
 msgid "Application Menu"
 msgstr ""
 
+#: oxygen/oxygenclient.cpp:225
+msgid "Help"
+msgstr "সাহায্য"
+
+#: oxygen/oxygenclient.cpp:228
+msgid "Minimize"
+msgstr "আড়াল করুন"
+
+#: oxygen/oxygenclient.cpp:231
+msgid "Maximize"
+msgstr "বড় করুন"
+
+#: oxygen/oxygenclient.cpp:234
+msgid "Close"
+msgstr "বন্ধ করুন"
+
 #: oxygen/oxygenclient.cpp:237
 msgid "Keep Above Others"
 msgstr "অন্যান্যদের উপর"
@@ -726,6 +623,62 @@ msgstr "সকল ডেস্কটপে"
 #: oxygen/oxygenclient.cpp:246
 msgid "Shade Button"
 msgstr ""
+
+#~ msgid "Menu"
+#~ msgstr "মেনু"
+
+#~ msgid "Not on all desktops"
+#~ msgstr "সকল ডেস্কটপে প্রযোজ্য নয়"
+
+#~ msgid "On all desktops"
+#~ msgstr "সকল ডেস্কটপে প্রযোজ্য"
+
+#~ msgid "Unshade"
+#~ msgstr "ছায়াবিহীন"
+
+#~ msgid "Shade"
+#~ msgstr "ছায়াবৃত"
+
+#~ msgid "Resize"
+#~ msgstr "মাপ পরিবর্তন"
+
+#~ msgid "Restore"
+#~ msgstr "পুর্বাবস্থা"
+
+#~ msgctxt "Help button label, one character"
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Draw window frames using &titlebar colors"
+#~ msgstr "শিরোনামের রঙ সহযোগে উইন্ডোর প্রান্ত আঁকা হবে (&t)"
+
+#~ msgid ""
+#~ "When selected, the window borders are drawn using the titlebar colors; "
+#~ "otherwise, they are drawn using normal border colors."
+#~ msgstr ""
+#~ "নির্বাচিত হলে, উইন্ডোর প্রান্ত আঁকার জন্য শিরোনামের রঙ ব্যবহার করা হবে; অন্যথা, "
+#~ "প্রান্তের স্বাভাবিক রঙ প্রয়োগ করা হবে।"
+
+#~ msgid "Actions Settings"
+#~ msgstr "কর্ম সংক্রান্ত বৈশিষ্ট্য"
+
+#~ msgid "Double click on menu button:"
+#~ msgstr "মেনু বাটনের উপর দুইবার ক্লিক করুন:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "কিছু করা হবে না"
+
+#~ msgid "Minimize Window"
+#~ msgstr "উইন্ডো আড়াল করুন"
+
+#~ msgid "Shade Window"
+#~ msgstr "উইন্ডোর ছায়াবৃত করুন"
+
+#~ msgid "Close Window"
+#~ msgstr "উইন্ডো বন্ধ করুন"
+
+#~ msgid "Laptop"
+#~ msgstr "ল্যাপ-টপ"
 
 #, fuzzy
 #~| msgid "Shade"
