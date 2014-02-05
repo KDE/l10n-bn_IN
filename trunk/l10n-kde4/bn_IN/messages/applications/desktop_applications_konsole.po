@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-16 03:20+0000\n"
+"POT-Creation-Date: 2014-02-05 01:54+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -29,15 +29,23 @@ msgctxt "Comment"
 msgid "Konsole default profile"
 msgstr "Konsole-র ডিফল্ট প্রোফাইল"
 
-#: desktop/konsole.desktop:13
+#: desktop/konsole.desktop:14
 msgctxt "Name"
 msgid "Konsole"
 msgstr "Konsole"
 
-#: desktop/konsole.desktop:106
+#: desktop/konsole.desktop:107
 msgctxt "GenericName"
 msgid "Terminal"
 msgstr "টার্মিন্যাল"
+
+#: desktop/konsole.desktop:193
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "New Window"
+msgctxt "Name"
+msgid "Open a New Window"
+msgstr "নতুন উইন্ডো"
 
 #: desktop/konsolehere.desktop:13
 msgctxt "Name"
@@ -5619,10 +5627,6 @@ msgstr "টার্মিন্যাল এমুলেটর"
 #~ msgctxt "Name"
 #~ msgid "New Tab"
 #~ msgstr "নতুন ট্যাব"
-
-#~ msgctxt "Name"
-#~ msgid "New Window"
-#~ msgstr "নতুন উইন্ডো"
 
 #~ msgctxt "Name"
 #~ msgid "Preset Actions"
