@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-09 02:12+0000\n"
+"POT-Creation-Date: 2014-03-11 02:09+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1212,6 +1212,27 @@ msgctxt "Comment"
 msgid "Hardware Information Summary"
 msgstr "হার্ডওয়্যার"
 
+#: kinfocenter/Modules/info/wayland.desktop:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Thailand"
+msgctxt "Name"
+msgid "Wayland"
+msgstr "থাইল্যান্ড"
+
+#: kinfocenter/Modules/info/wayland.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Files and Directories"
+msgctxt "Comment"
+msgid "Information about the Wayland Compositor"
+msgstr "ফাইল ও ডিরেক্টরি"
+
+#: kinfocenter/Modules/info/wayland.desktop:16
+msgctxt "X-KDE-Keywords"
+msgid "Wayland,Compositor,Display,System Information"
+msgstr ""
+
 #: kinfocenter/Modules/info/xserver.desktop:13
 msgctxt "Name"
 msgid "X-Server"
@@ -1899,7 +1920,7 @@ msgctxt "Name"
 msgid "Background contrast"
 msgstr ""
 
-#: kwin/effects/backgroundcontrast/contrast.desktop:29
+#: kwin/effects/backgroundcontrast/contrast.desktop:28
 msgctxt "Comment"
 msgid "Improve contrast and readability behind semi-transparent windows"
 msgstr ""
@@ -2350,16 +2371,6 @@ msgstr ""
 #: kwin/effects/startupfeedback/startupfeedback.desktop:58
 msgctxt "Comment"
 msgid "Helper effect for startup feedback"
-msgstr ""
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:2
-msgctxt "Name"
-msgid "Taskbar Thumbnails"
-msgstr "টাস্ক-বার থাম্‌বনেইল"
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:78
-msgctxt "Comment"
-msgid "Display window thumbnails when hovering over taskbar entries"
 msgstr ""
 
 #: kwin/effects/thumbnailaside/thumbnailaside_config.desktop:9
@@ -3053,19 +3064,6 @@ msgstr "প্যানেল"
 msgctxt "Comment"
 msgid "A simple linear panel"
 msgstr ""
-
-#: plasma/desktop/qmlpackages/blank/metadata.desktop:2
-msgctxt "Comment"
-msgid "Blank desktop view furniture"
-msgstr ""
-
-#: plasma/desktop/qmlpackages/blank/metadata.desktop:32
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "SaverDesktop"
-msgctxt "Name"
-msgid "Blank Desktop"
-msgstr "SaverDesktop"
 
 #: plasma/desktop/qmlpackages/desktop/metadata.desktop:2
 #, fuzzy
@@ -5297,6 +5295,17 @@ msgstr "ফন্ট প্রদর্শক"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Taskbar Thumbnails"
+#~ msgstr "টাস্ক-বার থাম্‌বনেইল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "SaverDesktop"
+#~ msgctxt "Name"
+#~ msgid "Blank Desktop"
+#~ msgstr "SaverDesktop"
 
 #~ msgctxt "Name"
 #~ msgid "B II"
@@ -9885,10 +9894,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Togo"
 #~ msgstr "টোগো"
-
-#~ msgctxt "Name"
-#~ msgid "Thailand"
-#~ msgstr "থাইল্যান্ড"
 
 #~ msgctxt "Name"
 #~ msgid "Tajikistan"
