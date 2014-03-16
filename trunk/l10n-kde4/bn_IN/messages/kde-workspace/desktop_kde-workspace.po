@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-15 01:55+0000\n"
+"POT-Creation-Date: 2014-03-16 02:07+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1220,7 +1220,7 @@ msgctxt "Name"
 msgid "Wayland"
 msgstr "থাইল্যান্ড"
 
-#: kinfocenter/Modules/info/wayland.desktop:26
+#: kinfocenter/Modules/info/wayland.desktop:28
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
@@ -1228,7 +1228,7 @@ msgctxt "Comment"
 msgid "Information about the Wayland Compositor"
 msgstr "ফাইল ও ডিরেক্টরি"
 
-#: kinfocenter/Modules/info/wayland.desktop:41
+#: kinfocenter/Modules/info/wayland.desktop:45
 msgctxt "X-KDE-Keywords"
 msgid "Wayland,Compositor,Display,System Information"
 msgstr ""
@@ -3022,11 +3022,9 @@ msgid "Plasmoid to show list of opened windows."
 msgstr ""
 
 #: plasma/desktop/containments/desktop/package/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
+#: plasma/desktop/qmlpackages/desktop/metadata.desktop:33
 msgctxt "Name"
-msgid "Default Desktop"
+msgid "Desktop"
 msgstr "ডেস্কটপ"
 
 #: plasma/desktop/containments/desktop/package/metadata.desktop:40
@@ -3072,11 +3070,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Desktop view furniture"
 msgstr "বড় আকারে ডেস্কটপ প্রদর্শন"
-
-#: plasma/desktop/qmlpackages/desktop/metadata.desktop:33
-msgctxt "Name"
-msgid "Desktop"
-msgstr "ডেস্কটপ"
 
 #: plasma/desktop/qmlpackages/lookandfeel/metadata.desktop:2
 #, fuzzy
@@ -5295,6 +5288,13 @@ msgstr "ফন্ট প্রদর্শক"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop"
+#~ msgctxt "Name"
+#~ msgid "Default Desktop"
+#~ msgstr "ডেস্কটপ"
 
 #~ msgctxt "Name"
 #~ msgid "Taskbar Thumbnails"
