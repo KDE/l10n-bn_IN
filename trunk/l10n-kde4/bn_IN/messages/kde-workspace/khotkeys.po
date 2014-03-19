@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-26 01:35+0000\n"
+"POT-Creation-Date: 2014-03-19 04:21+0000\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -177,7 +177,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
 #: kcm_hotkeys/conditions/conditions_widget.ui:44
-#: kcm_hotkeys/hotkeys_context_menu.cpp:137
+#: kcm_hotkeys/hotkeys_context_menu.cpp:136
 msgid "Delete"
 msgstr "মুছে ফেলুন"
 
@@ -391,74 +391,74 @@ msgstr ""
 msgid "Dock"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:44
-#: kcm_hotkeys/hotkeys_context_menu.cpp:56
+#: kcm_hotkeys/hotkeys_context_menu.cpp:43
+#: kcm_hotkeys/hotkeys_context_menu.cpp:55
 msgid "Test"
 msgstr "পরীক্ষা"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:130
-#: kcm_hotkeys/hotkeys_context_menu.cpp:143 kcm_hotkeys/hotkeys_model.cpp:92
+#: kcm_hotkeys/hotkeys_context_menu.cpp:129
+#: kcm_hotkeys/hotkeys_context_menu.cpp:142 kcm_hotkeys/hotkeys_model.cpp:91
 msgid "New Group"
 msgstr "নতুন শ্রেণী"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:147
+#: kcm_hotkeys/hotkeys_context_menu.cpp:146
 msgid "Export Group..."
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:148
+#: kcm_hotkeys/hotkeys_context_menu.cpp:147
 msgid "Import..."
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:156
+#: kcm_hotkeys/hotkeys_context_menu.cpp:155
 msgctxt "@title:menu create various trigger types"
 msgid "New"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:162
+#: kcm_hotkeys/hotkeys_context_menu.cpp:161
 #, fuzzy
 #| msgid "New Global Shortcut"
 msgid "Global Shortcut"
 msgstr "নতুন সার্বজনীন শর্ট-কাট"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:175
+#: kcm_hotkeys/hotkeys_context_menu.cpp:174
 #, fuzzy
 #| msgid "Action"
 msgid "Window Action"
 msgstr "কর্ম"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:188
+#: kcm_hotkeys/hotkeys_context_menu.cpp:187
 msgid "Mouse Gesture Action"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:269
+#: kcm_hotkeys/hotkeys_context_menu.cpp:268
 msgid "Command/URL"
 msgstr "কমান্ড/URL"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:276
+#: kcm_hotkeys/hotkeys_context_menu.cpp:275
 msgid "D-Bus Command"
 msgstr "D-Bus কমান্ড"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:283
+#: kcm_hotkeys/hotkeys_context_menu.cpp:282
 msgid "K-Menu Entry"
 msgstr "K-মেনুর এনট্রি"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:290
+#: kcm_hotkeys/hotkeys_context_menu.cpp:289
 #, fuzzy
 #| msgid "Keyboard input: "
 msgid "Send Keyboard Input"
 msgstr "কি-বোর্ড থেকে প্রাপ্ত ইনপুট: "
 
 #. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: kcm_hotkeys/hotkeys_context_menu.cpp:312
-#: kcm_hotkeys/hotkeys_context_menu.cpp:341
-#: kcm_hotkeys/hotkeys_context_menu.cpp:370 kcm_hotkeys/hotkeys_model.cpp:92
+#: kcm_hotkeys/hotkeys_context_menu.cpp:311
+#: kcm_hotkeys/hotkeys_context_menu.cpp:340
+#: kcm_hotkeys/hotkeys_context_menu.cpp:369 kcm_hotkeys/hotkeys_model.cpp:91
 #: kcm_hotkeys/hotkeys_widget_base.ui:23
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:312
-#: kcm_hotkeys/hotkeys_context_menu.cpp:341
-#: kcm_hotkeys/hotkeys_context_menu.cpp:370
+#: kcm_hotkeys/hotkeys_context_menu.cpp:311
+#: kcm_hotkeys/hotkeys_context_menu.cpp:340
+#: kcm_hotkeys/hotkeys_context_menu.cpp:369
 #, fuzzy
 #| msgid "Action"
 msgid "New Action"
@@ -577,41 +577,41 @@ msgid ""
 "same name."
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_model.cpp:403
+#: kcm_hotkeys/hotkeys_model.cpp:402
 #, fuzzy
 #| msgid "Name"
 msgctxt "action name"
 msgid "Name"
 msgstr "নাম"
 
-#: kcm_hotkeys/hotkeys_model.cpp:407
+#: kcm_hotkeys/hotkeys_model.cpp:406
 #, fuzzy
 #| msgid "Enabled"
 msgctxt "action enabled"
 msgid "Enabled"
 msgstr "সক্রিয়"
 
-#: kcm_hotkeys/hotkeys_model.cpp:410
+#: kcm_hotkeys/hotkeys_model.cpp:409
 msgid "Type"
 msgstr "ধরন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:99
+#: kcm_hotkeys/kcm_hotkeys.cpp:98
 msgid "KDE Hotkeys Configuration Module"
 msgstr "KDE Hotkeys কনফিগারেশন মডিউল"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:103
+#: kcm_hotkeys/kcm_hotkeys.cpp:102
 msgid "Copyright 2008 (c) Michael Jansen"
 msgstr "স্বত্বাধিকার ২০০৮ (c) মাইকেল জ্যানসেন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:106
+#: kcm_hotkeys/kcm_hotkeys.cpp:105
 msgid "Michael Jansen"
 msgstr "মাইকেল জ্যানসেন"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:107
+#: kcm_hotkeys/kcm_hotkeys.cpp:106
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:335
+#: kcm_hotkeys/kcm_hotkeys.cpp:334
 #, fuzzy
 #| msgid ""
 #| "The current action has unsaved changes. If you continue those changes "
@@ -623,11 +623,11 @@ msgstr ""
 "বর্তমান কর্মের ফলে হওয়া কিছু পরিবর্তন এখনো সংরক্ষণ করা হয়নি। এগিয়ে গেলে এই সমস্ত "
 "পরিবর্তনগুলি হারিয়ে যাবে!"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:336
+#: kcm_hotkeys/kcm_hotkeys.cpp:335
 msgid "Save changes"
 msgstr "পরিবর্তন সংরক্ষণ করা হবে"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:369 kcm_hotkeys/kcm_hotkeys.cpp:393
+#: kcm_hotkeys/kcm_hotkeys.cpp:368 kcm_hotkeys/kcm_hotkeys.cpp:392
 msgid ""
 "Unable to contact khotkeys. Your changes are saved, but they could not be "
 "activated."
