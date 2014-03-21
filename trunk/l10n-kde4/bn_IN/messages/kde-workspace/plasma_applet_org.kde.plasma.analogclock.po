@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-24 01:34+0000\n"
+"POT-Creation-Date: 2014-03-21 02:05+0000\n"
 "PO-Revision-Date: 2009-01-09 11:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,36 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showSecondHand)
-#: contents/ui/config.ui:22
-msgid "Show the seconds"
-msgstr "সেকেন্ড প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showSecondHand)
-#: contents/ui/config.ui:25
-msgid "Check this if you want to show the seconds."
-msgstr "সেকেন্ড প্রদর্শন করতে ইচ্ছুক হলে, এটি নির্বাচন করুন।"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSecondHand)
-#: contents/ui/config.ui:28
-msgid "Show &seconds hand"
-msgstr "সেকেন্ডের কাঁটা প্রদর্শন করা হবে (&s)"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showTimezoneString)
-#: contents/ui/config.ui:35
-msgid "Show the Timezone in text"
-msgstr "লেখার মধ্যে সময়ের অঞ্চলের নাম প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showTimezoneString)
-#: contents/ui/config.ui:38
-msgid "Check this if you want to display Timezone in text."
-msgstr "লেখার মধ্যে সময়ের অঞ্চলের নাম প্রদর্শন করার জন্য এটি নির্বাচন করুন।"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showTimezoneString)
-#: contents/ui/config.ui:41
-msgid "Show &time zone"
-msgstr "সময়ের অঞ্চল প্রদর্শন করা হবে (&t)"
 
 #: contents/ui/configGeneral.qml:38
 #, fuzzy
@@ -59,6 +29,24 @@ msgstr "সেকেন্ডের কাঁটা প্রদর্শন ক
 #| msgid "Show &time zone"
 msgid "Show time zone"
 msgstr "সময়ের অঞ্চল প্রদর্শন করা হবে (&t)"
+
+#~ msgid "Show the seconds"
+#~ msgstr "সেকেন্ড প্রদর্শন করা হবে"
+
+#~ msgid "Check this if you want to show the seconds."
+#~ msgstr "সেকেন্ড প্রদর্শন করতে ইচ্ছুক হলে, এটি নির্বাচন করুন।"
+
+#~ msgid "Show &seconds hand"
+#~ msgstr "সেকেন্ডের কাঁটা প্রদর্শন করা হবে (&s)"
+
+#~ msgid "Show the Timezone in text"
+#~ msgstr "লেখার মধ্যে সময়ের অঞ্চলের নাম প্রদর্শন করা হবে"
+
+#~ msgid "Check this if you want to display Timezone in text."
+#~ msgstr "লেখার মধ্যে সময়ের অঞ্চলের নাম প্রদর্শন করার জন্য এটি নির্বাচন করুন।"
+
+#~ msgid "Show &time zone"
+#~ msgstr "সময়ের অঞ্চল প্রদর্শন করা হবে (&t)"
 
 #~ msgid "General"
 #~ msgstr "সাধারণ"
