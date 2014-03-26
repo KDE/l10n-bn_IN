@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-12 01:39+0000\n"
+"POT-Creation-Date: 2014-03-26 01:53+0000\n"
 "PO-Revision-Date: 2008-12-29 15:54+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -61,6 +61,20 @@ msgstr ""
 msgid "Shows the dashboard"
 msgstr ""
 
+#: package/contents/ui/main.qml:186
+#, fuzzy, kde-format
+#| msgid "One window:"
+#| msgid_plural "%1 windows:"
+msgid "%1 windows"
+msgstr "একটি উইন্ডো:"
+
+#: package/contents/ui/main.qml:193
+#, fuzzy, kde-format
+#| msgid "and 1 other"
+#| msgid_plural "and %1 others"
+msgid "and %1 other windows"
+msgstr "ও অন্য একটি"
+
 #: plugin/pager.cpp:214
 msgid "&Add Virtual Desktop"
 msgstr ""
@@ -70,16 +84,6 @@ msgstr ""
 #| msgid "&Configure Desktops..."
 msgid "&Remove Last Virtual Desktop"
 msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
-
-#~ msgid "One window:"
-#~ msgid_plural "%1 windows:"
-#~ msgstr[0] "একটি উইন্ডো:"
-#~ msgstr[1] "%1-টি উইন্ডো:"
-
-#~ msgid "and 1 other"
-#~ msgid_plural "and %1 others"
-#~ msgstr[0] "ও অন্য একটি"
-#~ msgstr[1] "ও অন্য %1-টি"
 
 #~ msgid "Configure Pager"
 #~ msgstr "Pager কনফিগার করুন"

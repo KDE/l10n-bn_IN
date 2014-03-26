@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-22 01:48+0000\n"
+"POT-Creation-Date: 2014-03-26 01:54+0000\n"
 "PO-Revision-Date: 2009-01-13 15:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -33,15 +33,20 @@ msgstr "runab@redhat.com"
 msgid "Theme"
 msgstr "থিমের বস্তু"
 
+#. i18n: ectx: property (text), widget (QPushButton, m_fileInstallButton)
+#: DesktopTheme.ui:27
+msgid "Insta&ll from File"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (KPushButton, m_newThemeButton)
-#: DesktopTheme.ui:46
+#: DesktopTheme.ui:43
 #, fuzzy
 #| msgid "Get New Theme..."
 msgid "Get New Themes..."
 msgstr "নতুন থিম প্রাপ্ত করুন..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: DesktopTheme.ui:54
+#: DesktopTheme.ui:77
 msgid "Details"
 msgstr ""
 
@@ -374,38 +379,61 @@ msgid ""
 "important items not listed below will use this start theme."
 msgstr ""
 
-#: kcmdesktoptheme.cpp:53
+#: kcmdesktoptheme.cpp:56
 msgid ""
 "<h1>Desktop Theme</h1>This module allows you to modify the visual appearance "
 "of the desktop."
 msgstr ""
 
-#: kcmdesktoptheme.cpp:68
+#: kcmdesktoptheme.cpp:71
 #, fuzzy
 #| msgid "Remove Desktop Theme"
 msgid "KCMDesktopTheme"
 msgstr "ডেস্কটপ থিম মুছে ফেলুন"
 
-#: kcmdesktoptheme.cpp:69
+#: kcmdesktoptheme.cpp:72
 #, fuzzy
 #| msgid "Export Desktop Theme"
 msgid "KDE Desktop Theme Module"
 msgstr "ডেস্কটপ থিম এক্সপোর্ট করুন"
 
-#: kcmdesktoptheme.cpp:71
+#: kcmdesktoptheme.cpp:74
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr ""
 
-#: kcmdesktoptheme.cpp:73
+#: kcmdesktoptheme.cpp:76
 msgid "Karol Szwed"
 msgstr ""
 
-#: kcmdesktoptheme.cpp:74
+#: kcmdesktoptheme.cpp:77
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: kcmdesktoptheme.cpp:75
+#: kcmdesktoptheme.cpp:78
 msgid "Ralf Nolden"
+msgstr ""
+
+#: kcmdesktoptheme.cpp:191
+#, fuzzy
+#| msgid "Theme Item"
+msgid "Open Theme"
+msgstr "থিমের বস্তু"
+
+#: kcmdesktoptheme.cpp:193
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: kcmdesktoptheme.cpp:241
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcmdesktoptheme.cpp:244
+#, kde-format
+msgid "Theme installation failed. (%1)"
+msgstr ""
+
+#: kcmdesktoptheme.cpp:252
+msgid "Theme installation failed."
 msgstr ""
 
 #, fuzzy
