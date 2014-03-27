@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-11 01:51+0000\n"
+"POT-Creation-Date: 2014-03-27 01:55+0000\n"
 "PO-Revision-Date: 2009-01-12 16:47+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -115,15 +115,21 @@ msgstr[0] "১ সেকেন্ডে কম্পিউটার পুনর
 msgstr[1] "%1 সেকেন্ডে কম্পিউটার পুনরারম্ভ করা হবে।"
 
 #: themes/default/main.qml:244
-msgid "&Logout"
+#, fuzzy
+#| msgid "&Logout"
+msgid "Logout"
 msgstr "লগ-আউট করুন (&L)"
 
 #: themes/default/main.qml:263
-msgid "&Turn Off Computer"
+#, fuzzy
+#| msgid "&Turn Off Computer"
+msgid "Turn Off Computer"
 msgstr "কম্পিউটার বন্ধ করুন (&T)"
 
 #: themes/default/main.qml:313
-msgid "&Restart Computer"
+#, fuzzy
+#| msgid "&Restart Computer"
+msgid "Restart Computer"
 msgstr "কম্পিউটার পুনরায় আরম্ভ করুন (&R)"
 
 #: themes/default/main.qml:358
@@ -132,7 +138,9 @@ msgid " (default)"
 msgstr ""
 
 #: themes/default/main.qml:437
-msgid "&Cancel"
+#, fuzzy
+#| msgid "&Cancel"
+msgid "Cancel"
 msgstr "বাতিল (&C)"
 
 #~ msgid "Logout canceled by '%1'"
