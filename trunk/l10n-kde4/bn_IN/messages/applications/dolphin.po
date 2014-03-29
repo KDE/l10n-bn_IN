@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-25 01:33+0000\n"
+"POT-Creation-Date: 2014-03-29 01:37+0000\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -512,12 +512,12 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "মুখ্য টুলবার"
 
-#: dolphinviewcontainer.cpp:421
+#: dolphinviewcontainer.cpp:403
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ফোল্ডার খোলা হচ্ছে..."
 
-#: dolphinviewcontainer.cpp:429
+#: dolphinviewcontainer.cpp:411
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -525,7 +525,7 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:440
+#: dolphinviewcontainer.cpp:422
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -533,22 +533,22 @@ msgctxt "@info"
 msgid "Searching..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:460
+#: dolphinviewcontainer.cpp:442
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:575
+#: dolphinviewcontainer.cpp:557
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:589
+#: dolphinviewcontainer.cpp:571
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:597
+#: dolphinviewcontainer.cpp:579
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "অবৈধ প্রোটোকল"
@@ -1610,20 +1610,20 @@ msgctxt "@option:option"
 msgid "Highest Rating"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:103
+#: search/dolphinsearchbox.cpp:101
 #, kde-format
 msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:325
+#: search/dolphinsearchbox.cpp:324
 #, fuzzy
 #| msgid "Grid spacing"
 msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr "গ্রিডের মধ্যে ফাঁকা জায়গা"
 
-#: search/dolphinsearchbox.cpp:351
+#: search/dolphinsearchbox.cpp:350
 #, fuzzy
 #| msgctxt "@title"
 #| msgid "File Manager"
@@ -1631,7 +1631,7 @@ msgctxt "action:button"
 msgid "Filename"
 msgstr "ফাইল ম্যানেজার"
 
-#: search/dolphinsearchbox.cpp:355
+#: search/dolphinsearchbox.cpp:354
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Comment"
@@ -1639,17 +1639,17 @@ msgctxt "action:button"
 msgid "Content"
 msgstr "মন্তব্য"
 
-#: search/dolphinsearchbox.cpp:366
+#: search/dolphinsearchbox.cpp:365
 msgctxt "action:button"
 msgid "From Here"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:370
+#: search/dolphinsearchbox.cpp:369
 msgctxt "action:button"
 msgid "Everywhere"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:461
+#: search/dolphinsearchbox.cpp:459
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
@@ -1657,17 +1657,12 @@ msgctxt ""
 msgid "Query Results from '%1'"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:476
-msgctxt "@label:textbox"
-msgid "Find:"
-msgstr ""
-
-#: search/dolphinsearchbox.cpp:494
+#: search/dolphinsearchbox.cpp:512
 msgctxt "action:button"
 msgid "Fewer Options"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:494
+#: search/dolphinsearchbox.cpp:512
 msgctxt "action:button"
 msgid "More Options"
 msgstr ""
