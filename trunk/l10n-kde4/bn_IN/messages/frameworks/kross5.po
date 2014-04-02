@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-28 01:57+0000\n"
+"POT-Creation-Date: 2014-04-02 01:41+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -19,6 +19,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runabh@gmail.com"
+
+#: console/main.cpp:100
+#, fuzzy
+#| msgid "Kross"
+msgctxt "application name"
+msgid "Kross"
+msgstr "Kross"
+
+#: console/main.cpp:102
+#, fuzzy
+#| msgid "KDE application to run Kross scripts."
+msgctxt "application description"
+msgid "Command-line utility to run Kross scripts."
+msgstr "Kross স্ক্রিপ্ট সঞ্চালনের জন্য KDE অ্যাপ্লিকেশন।"
+
+#: console/main.cpp:104
+#, fuzzy
+#| msgid "(C) 2006 Sebastian Sauer"
+msgctxt "@info:credit"
+msgid "Copyright 2006 Sebastian Sauer"
+msgstr "(C) ২০০৬ সেবাস্তিয়ান সওয়ার"
+
+#: console/main.cpp:108
+#, fuzzy
+#| msgid "Sebastian Sauer"
+msgctxt "@info:credit"
+msgid "Sebastian Sauer"
+msgstr "সেবাস্তিয়ান সওয়ার"
+
+#: console/main.cpp:109
+#, fuzzy
+#| msgid "Author"
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "লেখক"
+
+#: console/main.cpp:119
+#, fuzzy
+#| msgid "Description"
+msgctxt "@info:shell command-line argument"
+msgid "The script to run."
+msgstr "বিবরণ"
 
 #: core/action.cpp:474
 #, kde-format
@@ -131,14 +181,6 @@ msgctxt "@title:group Script properties"
 msgid "General"
 msgstr "সাধারণ"
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "রুণা ভট্টাচার্য্য"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "runabh@gmail.com"
-
 #~ msgid "Name"
 #~ msgstr "নাম"
 
@@ -242,9 +284,6 @@ msgstr "সাধারণ"
 
 #~ msgid "&License Agreement"
 #~ msgstr "লাইসেন্স সংক্রান্ত চুক্তিপত্র (&L)"
-
-#~ msgid "Author"
-#~ msgstr "লেখক"
 
 #~ msgid "Email"
 #~ msgstr "ই-মেইল"
@@ -3706,9 +3745,6 @@ msgstr "সাধারণ"
 
 #~ msgid "Shortcuts"
 #~ msgstr "শর্ট-কাট"
-
-#~ msgid "Description"
-#~ msgstr "বিবরণ"
 
 #~ msgctxt "@item:intable Action name in shortcuts configuration"
 #~ msgid "%1"
@@ -8107,20 +8143,8 @@ msgstr "সাধারণ"
 #~ msgid "Error opening PTY"
 #~ msgstr "PTY খুলতে সমস্যা"
 
-#~ msgid "Kross"
-#~ msgstr "Kross"
-
-#~ msgid "KDE application to run Kross scripts."
-#~ msgstr "Kross স্ক্রিপ্ট সঞ্চালনের জন্য KDE অ্যাপ্লিকেশন।"
-
-#~ msgid "(C) 2006 Sebastian Sauer"
-#~ msgstr "(C) ২০০৬ সেবাস্তিয়ান সওয়ার"
-
 #~ msgid "Run Kross scripts."
 #~ msgstr "Kross স্ক্রিপ্ট সঞ্চালন করা হবে।"
-
-#~ msgid "Sebastian Sauer"
-#~ msgstr "সেবাস্তিয়ান সওয়ার"
 
 #~ msgid "Scriptfile"
 #~ msgstr "Scriptfile"
