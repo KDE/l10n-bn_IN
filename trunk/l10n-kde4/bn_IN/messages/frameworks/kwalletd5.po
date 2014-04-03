@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-30 01:53+0000\n"
+"POT-Creation-Date: 2014-04-03 01:41+0000\n"
 "PO-Revision-Date: 2009-01-02 17:05+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -95,43 +95,43 @@ msgid ""
 "system.</qt>"
 msgstr ""
 
-#: backend/kwalletbackend.cc:256
+#: backend/kwalletbackend.cc:255
 msgid "Already open."
 msgstr "বর্তমানে খোলা"
 
-#: backend/kwalletbackend.cc:258
+#: backend/kwalletbackend.cc:257
 msgid "Error opening file."
 msgstr "ফাইল খুলতে ব্যর্থ।"
 
-#: backend/kwalletbackend.cc:260
+#: backend/kwalletbackend.cc:259
 msgid "Not a wallet file."
 msgstr "wallet ফাইল নয়।"
 
-#: backend/kwalletbackend.cc:262
+#: backend/kwalletbackend.cc:261
 msgid "Unsupported file format revision."
 msgstr "পরিবর্ধিত ফাইলের বিন্যাস সমর্থিত নয়।"
 
-#: backend/kwalletbackend.cc:264
+#: backend/kwalletbackend.cc:263
 msgid "Unknown encryption scheme."
 msgstr "এনক্রিপশনের স্কিম অজানা।"
 
-#: backend/kwalletbackend.cc:266
+#: backend/kwalletbackend.cc:265
 msgid "Corrupt file?"
 msgstr "ফাইল কি ক্ষতিগ্রস্ত?"
 
-#: backend/kwalletbackend.cc:268
+#: backend/kwalletbackend.cc:267
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "wallet-র অখণ্ডতা যাচাই করতে সমস্যা। সম্ভবত ক্ষতিগ্রস্ত।"
 
-#: backend/kwalletbackend.cc:272
+#: backend/kwalletbackend.cc:271
 msgid "Read error - possibly incorrect password."
 msgstr "পড়তে সমস্যা - সম্ভবত পাসওয়ার্ড সঠিক নয়।"
 
-#: backend/kwalletbackend.cc:274
+#: backend/kwalletbackend.cc:273
 msgid "Decryption error."
 msgstr "ডিক্রিপশন সংক্রান্ত ত্রুটি।"
 
-#: backend/kwalletbackend.cc:443
+#: backend/kwalletbackend.cc:442
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -270,9 +270,9 @@ msgstr ""
 msgid "Use GPG encryption, for better protection"
 msgstr ""
 
-#: kwalletd.cpp:428 kwalletd.cpp:542 kwalletd.cpp:632 kwalletd.cpp:732
-#: kwalletd.cpp:835 kwalletd.cpp:854 kwalletd.cpp:863 kwalletd.cpp:868
-#: kwalletd.cpp:1385 main.cpp:47 main.cpp:53 main.cpp:55
+#: kwalletd.cpp:428 kwalletd.cpp:543 kwalletd.cpp:632 kwalletd.cpp:732
+#: kwalletd.cpp:834 kwalletd.cpp:853 kwalletd.cpp:862 kwalletd.cpp:867
+#: kwalletd.cpp:1383 main.cpp:47 main.cpp:53 main.cpp:55
 msgid "KDE Wallet Service"
 msgstr "KDE Wallet পরিসেবা"
 
@@ -397,13 +397,13 @@ msgstr ""
 "<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।"
 "</qt>"
 
-#: kwalletd.cpp:835
+#: kwalletd.cpp:834
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr "ওয়ালেট খুলতে ব্যর্থ। পাসওয়ার্ড পরিবর্তনের জন্য ওয়ালেট খোলা আবশ্যক।"
 
-#: kwalletd.cpp:849
+#: kwalletd.cpp:848
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -411,21 +411,21 @@ msgid ""
 "associated to that key.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:853
+#: kwalletd.cpp:852
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr ""
 "<qt>অনুগ্রহ করে, ওয়ালেট '<b>%1</b>'-র জন্য একটি নতুন পাসওয়ার্ড নির্মাণ করুন।</qt>"
 
-#: kwalletd.cpp:863
+#: kwalletd.cpp:862
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "ওয়ালেট পুনরায় এনক্রিপ্ট করতে ব্যর্থ। পাসওয়ার্ড পরিবর্তন করা হয়নি।"
 
-#: kwalletd.cpp:868
+#: kwalletd.cpp:867
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "ওয়ালেট পুনরায় খুলতে ব্যর্থ। তথ্য হারিয়ে যেতে পারে।"
 
-#: kwalletd.cpp:1385
+#: kwalletd.cpp:1383
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."

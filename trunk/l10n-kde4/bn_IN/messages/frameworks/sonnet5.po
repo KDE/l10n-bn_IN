@@ -204,6 +204,74 @@ msgctxt "Sonnet::ConfigDialog|"
 msgid "Spell Checking Configuration"
 msgstr "নিশ্চিতি বার্তা প্রেরণ করুন"
 
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:32
+#, fuzzy
+#| msgid "Options"
+msgctxt "SonnetConfigUI|"
+msgid "Options"
+msgstr "বিকল্প"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:38
+msgctxt "SonnetConfigUI|"
+msgid "Enable autodetection of &language"
+msgstr ""
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:45
+#, fuzzy
+#| msgid "Enable &background spellchecking"
+msgctxt "SonnetConfigUI|"
+msgid "Enable &background spellchecking"
+msgstr "পটভূমিতে বানান পরীক্ষণ ব্যবস্থা সক্রিয় করা হবে (&b)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:52
+#, fuzzy
+#| msgid "&Automatic spell checking enabled by default"
+msgctxt "SonnetConfigUI|"
+msgid "&Automatic spell checking enabled by default"
+msgstr "ডিফল্টরূপে বানান-পরীক্ষণ সক্রিয় করা হয়েছে। (&A)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:59
+#, fuzzy
+#| msgid "Skip all &uppercase words"
+msgctxt "SonnetConfigUI|"
+msgid "Skip all &uppercase words"
+msgstr "বড় ছাঁদের হরফ সহযোগে লেখা সব শব্দ উপেক্ষা করা হবে (&u)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:66
+#, fuzzy
+#| msgid "S&kip run-together words"
+msgctxt "SonnetConfigUI|"
+msgid "S&kip run-together words"
+msgstr "একত্রিত শব্দ উপেক্ষা করা হবে (&k)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:76
+#, fuzzy
+#| msgid "Default language:"
+msgctxt "SonnetConfigUI|"
+msgid "Default language:"
+msgstr "ডিফল্ট ভাষা:"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:86
+#, fuzzy
+#| msgid "Suggested Words"
+msgctxt "SonnetConfigUI|"
+msgid "Ignored Words:"
+msgstr "প্রস্তাবিত শব্দ"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:100
+#, fuzzy
+#| msgid "&Add"
+msgctxt "SonnetConfigUI|"
+msgid "&Add"
+msgstr "যোগ করুন (&A)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/configui.ui:112
+#, fuzzy
+#| msgid "&Remove"
+msgctxt "SonnetConfigUI|"
+msgid "&Remove"
+msgstr "মুছে ফেলুন (&R)"
+
 #: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/dialog.cpp:100
 #: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/dialog.cpp:224
 #: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/dialog.cpp:433
@@ -265,6 +333,350 @@ msgstr ""
 msgctxt "Sonnet::Highlighter|"
 msgid "As-you-type spell checking disabled."
 msgstr "টাইপ-করার-সময়-বানান-পরীক্ষণ নিষ্ক্রিয় করা হয়েছে।"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:30
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:46
+#, fuzzy
+#| msgid ""
+#| "<qt><p>This word was considered to be an \"unknown word\" because it does "
+#| "not match any entry in the dictionary currently in use. It may also be a "
+#| "word in a foreign language.</p>\n"
+#| "<p>If the word is not misspelled, you may add it to the dictionary by "
+#| "clicking <b>Add to Dictionary</b>. If you do not want to add the unknown "
+#| "word to the dictionary, but you want to leave it unchanged, click "
+#| "<b>Ignore</b> or <b>Ignore All</b>.</p>\n"
+#| "<p>However, if the word is misspelled, you can try to find the correct "
+#| "replacement in the list below. If you cannot find a replacement there, "
+#| "you may type it in the text box below, and click <b>Replace</b> or "
+#| "<b>Replace All</b>.</p>\n"
+#| "</qt>"
+msgctxt "SonnetUi|"
+msgid ""
+"<qt><p>This word was considered to be an \"unknown word\" because it does "
+"not match any entry in the dictionary currently in use. It may also be a "
+"word in a foreign language.</p>\n"
+"<p>If the word is not misspelled, you may add it to the dictionary by "
+"clicking <b>Add to Dictionary</b>. If you do not want to add the unknown "
+"word to the dictionary, but you want to leave it unchanged, click <b>Ignore</"
+"b> or <b>Ignore All</b>.</p>\n"
+"<p>However, if the word is misspelled, you can try to find the correct "
+"replacement in the list below. If you cannot find a replacement there, you "
+"may type it in the text box below, and click <b>Replace</b> or <b>Replace "
+"All</b>.</p>\n"
+"</qt>"
+msgstr ""
+"<qt><p>বর্তমানে ব্যবহৃত অভিধানের মধ্যে এই শব্দটির জন্য কোনো তথ্য উপস্থিত না থাকার "
+"ফলে এটিকে \"অজানা শব্দ\" রূপে ধার্য করা হয়েছে। এই শব্দটি কোনো ভিন্ন ভাষার "
+"অভিধানের মধ্যেও উপস্থিত থাকতে পারে।</p>\n"
+"<p>শব্দটির বানান ভুল না হলে, <b>অভিধানে যোগ করা হবে</b> ক্লিক করে শব্দটিকে "
+"অভিধানের মধ্যে অন্তর্ভুক্ত করুন। অজানা শব্দটি অভিধানে অন্তর্ভুক্ত না করেও এটি অপরিবর্তিত "
+"রাখতে হলে <b>অগ্রাহ্য করা হবে</b> অথবা <b>সমগ্র অগ্রাহ্য করা হবে</b>।</p>\n"
+"<p>শব্দটির বানান সঠিক না হলে, নীচের তালিকা থেকে সঠিক বানান নির্বাচন করতে "
+"পারবেন। যথাযত বিকল্প অনুপস্থিত থাকলে, নীচে উপস্থিত টেক্সট বক্সের মধ্যে  প্রযোজ্য "
+"শব্দটি লিখে <b>প্রতিস্থাপন</b> অথবা <b>সমস্ত প্রতিস্থাপন</b> ক্লিক করুন।</p>\n"
+"</qt>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:36
+#, fuzzy
+#| msgid "Unknown word:"
+msgctxt "SonnetUi|"
+msgid "Unknown word:"
+msgstr "অজানা শব্দ:"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:43
+#, fuzzy
+#| msgid "Unknown word"
+msgctxt "SonnetUi|"
+msgid "Unknown word"
+msgstr "অজানা শব্দ"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:52
+#, fuzzy
+#| msgid "<b>misspelled</b>"
+msgctxt "SonnetUi|"
+msgid "<b>misspelled</b>"
+msgstr "<b>ভুল বানান</b>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:59
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:174
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>Select the language of the document you are proofing here.</p>\n"
+"</qt>"
+msgstr ""
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:64
+#, fuzzy
+#| msgid "&Language:"
+msgctxt "SonnetUi|"
+msgid "&Language:"
+msgstr "ভাষা: (&L)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:74
+#, fuzzy
+#| msgid "Text excerpt showing the unknown word in its context."
+msgctxt "SonnetUi|"
+msgid "Text excerpt showing the unknown word in its context."
+msgstr "অজানা শব্দের প্রসঙ্গ নির্দেশকারী লেখার অংশ।"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:77
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>Here you can see a text excerpt showing the unknown word in its context. "
+"If this information is not sufficient to choose the best replacement for the "
+"unknown word, you can click on the document you are proofing, read a larger "
+"part of the text and then return here to continue proofing.</p>\n"
+"</qt>"
+msgstr ""
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:85
+#, fuzzy
+#| msgid "... the <b>misspelled</b> word shown in context ..."
+msgctxt "SonnetUi|"
+msgid "... the <b>misspelled</b> word shown in context ..."
+msgstr "... প্রসঙ্গ অনুসারে প্রদর্শিত শব্দের <b>ভুল বানান</b> ..."
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:95
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>The unknown word was detected and considered unknown because it is not "
+"included in the dictionary.<br>\n"
+"Click here if you consider the unknown word not to be misspelled, and you "
+"want to avoid wrongly detecting it again in the future. If you want to let "
+"it remain as is, but not add it to the dictionary, then click <b>Ignore</b> "
+"or <b>Ignore All</b> instead.</p>\n"
+"</qt>"
+msgstr ""
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:101
+#, fuzzy
+#| msgid "<< Add to Dictionary"
+msgctxt "SonnetUi|"
+msgid "<< Add to Dictionary"
+msgstr "<< অভিধানে যোগ করুন"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:124
+#, fuzzy
+#| msgid "Suggestion List"
+msgctxt "SonnetUi|"
+msgid "Suggestion List"
+msgstr "প্রস্তাবিত শব্দের তালিকা"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:127
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "<p>If the unknown word is misspelled, you should check if the correction "
+#| "for it is available and if it is, click on it. If none of the words in "
+#| "this list is a good replacement you may type the correct word in the edit "
+#| "box above.</p>\n"
+#| "<p>To correct this word click <b>Replace</b> if you want to correct only "
+#| "this occurrence or <b>Replace All</b> if you want to correct all "
+#| "occurrences.</p>\n"
+#| "</qt>"
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>If the unknown word is misspelled, you should check if the correction for "
+"it is available and if it is, click on it. If none of the words in this list "
+"is a good replacement you may type the correct word in the edit box above.</"
+"p>\n"
+"<p>To correct this word click <b>Replace</b> if you want to correct only "
+"this occurrence or <b>Replace All</b> if you want to correct all occurrences."
+"</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>অজানা শব্দটির বানান সঠিক না হলে, পরীক্ষা করুন সঠিক বানান উপস্থিত রয়েছে কি না। "
+"উপস্থিত থাকলে সেটি ক্লিক করুন। তালিকার মধ্যে প্রযোজ্য কোনো শব্দ উপস্থিত না থাকলে, "
+"উপরে উপস্থিত এডিট বক্সের মধ্যে সঠিক শব্দটি লেখা যাবে।</p>\n"
+"<p>এই শব্দটি সংশোধন করার উদ্দেশ্যে, শুধুমাত্র একবার পরিবর্তনের জন্য <b>প্রতিস্থাপন</b> "
+"এবং সর্বসংখ্যক উপস্থিতি পরিবর্তনের জন্য <b>সমগ্র প্রতিস্থাপন</b> ক্লিক করুন।</p>\n"
+"</qt>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:137
+#, fuzzy
+#| msgid "Suggested Words"
+msgctxt "SonnetUi|"
+msgid "Suggested Words"
+msgstr "প্রস্তাবিত শব্দ"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:145
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:161
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "<p>If the unknown word is misspelled, you should type the correction for "
+#| "your misspelled word here or select it from the list below.</p>\n"
+#| "<p>You can then click <b>Replace</b> if you want to correct only this "
+#| "occurrence of the word or <b>Replace All</b> if you want to correct all "
+#| "occurrences.</p>\n"
+#| "</qt>"
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>If the unknown word is misspelled, you should type the correction for "
+"your misspelled word here or select it from the list below.</p>\n"
+"<p>You can then click <b>Replace</b> if you want to correct only this "
+"occurrence of the word or <b>Replace All</b> if you want to correct all "
+"occurrences.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>অজানা শব্দটির বানান ভুল হলে, তালিকা থেকে সঠিক বানান নির্বাচন করুন অথবা নীচে "
+"লিখুন।</p>\n"
+"<p>এই শব্দটি সংশোধন করার উদ্দেশ্যে, শুধুমাত্র একবার পরিবর্তনের জন্য <b>প্রতিস্থাপন</b> "
+"এবং সর্বসংখ্যক উপস্থিতি পরিবর্তনের জন্য <b>সমগ্র প্রতিস্থাপন</b> ক্লিক করুন।</p>\n"
+"</qt>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:151
+#, fuzzy
+#| msgid "Replace &with:"
+msgctxt "SonnetUi|"
+msgid "Replace &with:"
+msgstr "প্রতিস্থাপনে ব্যবহৃত শব্দ: (&w)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:171
+#, fuzzy
+#| msgid "Language Selection"
+msgctxt "SonnetUi|"
+msgid "Language Selection"
+msgstr "ভাষা নির্বাচন"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:191
+#, fuzzy
+#| msgid "S&uggest"
+msgctxt "SonnetUi|"
+msgid "S&uggest"
+msgstr "প্রস্তাবনা (&u)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:198
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "<p>Click here to replace this occurrence of the unknown text with the "
+#| "text in the edit box above (to the left).</p>\n"
+#| "</qt>"
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>Click here to replace this occurrence of the unknown text with the text "
+"in the edit box above (to the left).</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>অজানা টেক্সটের পরিবর্তে উপরে (বাঁদিকে) অবস্থিত বাক্সে লেখা তথ্য প্রয়োগ করার জন্য "
+"এই স্থানে ক্লিক করুন।</p>\n"
+"</qt>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:203
+#, fuzzy
+#| msgid "&Replace"
+msgctxt "SonnetUi|"
+msgid "&Replace"
+msgstr "প্রতিস্থাপন (&R)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:210
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "<p>Click here to replace all occurrences of the unknown text with the "
+#| "text in the edit box above (to the left).</p>\n"
+#| "</qt>"
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>Click here to replace all occurrences of the unknown text with the text "
+"in the edit box above (to the left).</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>অজানা টেক্সটের সমস্ত উপস্থিতির পরিবর্তে উপরে (বাঁদিকে) অবস্থিত বাক্সে লেখা তথ্য "
+"প্রয়োগ করার জন্য এই স্থানে ক্লিক করুন।</p>\n"
+"</qt>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:215
+#, fuzzy
+#| msgid "R&eplace All"
+msgctxt "SonnetUi|"
+msgid "R&eplace All"
+msgstr "সমস্ত প্রতিস্থাপন করা হবে (&e)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:222
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "<p>Click here to let this occurrence of the unknown word remain as is.</"
+#| "p>\n"
+#| "<p>This action is useful when the word is a name, an acronym, a foreign "
+#| "word or any other unknown word that you want to use but not add to the "
+#| "dictionary.</p>\n"
+#| "</qt>"
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word "
+"or any other unknown word that you want to use but not add to the dictionary."
+"</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>অজানা শব্দটি অপরিবর্তিত রাখতে এই স্থানে ক্লিক করুন।</p>\n"
+"<p>নাম, acronym, বিদেশি শব্দ অথবা অন্যান্য কোনো অজানা শব্দ, অভিধানে অন্তভুক্ত না "
+"করেও ব্যবহার করতে ইচ্ছুক হলে এই পদ্ধতি ব্যবহার করা যাবে।</p>\n"
+"</qt>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:228
+#, fuzzy
+#| msgid "&Ignore"
+msgctxt "SonnetUi|"
+msgid "&Ignore"
+msgstr "উপেক্ষা করুন (&I)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:235
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:248
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "<p>Click here to let all occurrences of the unknown word remain as they "
+#| "are.</p>\n"
+#| "<p>This action is useful when the word is a name, an acronym, a foreign "
+#| "word or any other unknown word that you want to use but not add to the "
+#| "dictionary.</p>\n"
+#| "</qt>"
+msgctxt "SonnetUi|"
+msgid ""
+"<qt>\n"
+"<p>Click here to let all occurrences of the unknown word remain as they are."
+"</p>\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word "
+"or any other unknown word that you want to use but not add to the dictionary."
+"</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>অজানা শব্দের সমস্ত উপস্থিতি অপরিবর্তিত রাখতে এই স্থানে ক্লিক করুন।</p>\n"
+"<p>নাম, acronym, বিদেশি শব্দ অথবা অন্যান্য কোনো অজানা শব্দ, অভিধানে অন্তভুক্ত না "
+"করেও ব্যবহার করতে ইচ্ছুক হলে এই পদ্ধতি ব্যবহার করা যাবে।</p>\n"
+"</qt>"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:241
+#, fuzzy
+#| msgid "I&gnore All"
+msgctxt "SonnetUi|"
+msgid "I&gnore All"
+msgstr "সমস্ত উপেক্ষা করা হবে (&g)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/sonnetui.ui:254
+#, fuzzy
+#| msgid "Autocorrect"
+msgctxt "SonnetUi|"
+msgid "Autocorrect"
+msgstr "স্বয়ং সংশোধন"
 
 #: ../../home/scripty/prod/git-unstable/frameworks_sonnet/src/ui/spellcheckdecorator.cpp:137
 #, fuzzy, qt-format
@@ -686,169 +1098,6 @@ msgstr "অভিধানে যোগ করুন"
 
 #~ msgid "&Finished"
 #~ msgstr "সমাপ্ত (&F)"
-
-#~ msgid ""
-#~ "<qt><p>This word was considered to be an \"unknown word\" because it does "
-#~ "not match any entry in the dictionary currently in use. It may also be a "
-#~ "word in a foreign language.</p>\n"
-#~ "<p>If the word is not misspelled, you may add it to the dictionary by "
-#~ "clicking <b>Add to Dictionary</b>. If you do not want to add the unknown "
-#~ "word to the dictionary, but you want to leave it unchanged, click "
-#~ "<b>Ignore</b> or <b>Ignore All</b>.</p>\n"
-#~ "<p>However, if the word is misspelled, you can try to find the correct "
-#~ "replacement in the list below. If you cannot find a replacement there, "
-#~ "you may type it in the text box below, and click <b>Replace</b> or "
-#~ "<b>Replace All</b>.</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt><p>বর্তমানে ব্যবহৃত অভিধানের মধ্যে এই শব্দটির জন্য কোনো তথ্য উপস্থিত না থাকার "
-#~ "ফলে এটিকে \"অজানা শব্দ\" রূপে ধার্য করা হয়েছে। এই শব্দটি কোনো ভিন্ন ভাষার "
-#~ "অভিধানের মধ্যেও উপস্থিত থাকতে পারে।</p>\n"
-#~ "<p>শব্দটির বানান ভুল না হলে, <b>অভিধানে যোগ করা হবে</b> ক্লিক করে শব্দটিকে "
-#~ "অভিধানের মধ্যে অন্তর্ভুক্ত করুন। অজানা শব্দটি অভিধানে অন্তর্ভুক্ত না করেও এটি "
-#~ "অপরিবর্তিত রাখতে হলে <b>অগ্রাহ্য করা হবে</b> অথবা <b>সমগ্র অগ্রাহ্য করা হবে</b>।"
-#~ "</p>\n"
-#~ "<p>শব্দটির বানান সঠিক না হলে, নীচের তালিকা থেকে সঠিক বানান নির্বাচন করতে "
-#~ "পারবেন। যথাযত বিকল্প অনুপস্থিত থাকলে, নীচে উপস্থিত টেক্সট বক্সের মধ্যে  প্রযোজ্য "
-#~ "শব্দটি লিখে <b>প্রতিস্থাপন</b> অথবা <b>সমস্ত প্রতিস্থাপন</b> ক্লিক করুন।</p>\n"
-#~ "</qt>"
-
-#~ msgid "Unknown word:"
-#~ msgstr "অজানা শব্দ:"
-
-#~ msgid "Unknown word"
-#~ msgstr "অজানা শব্দ"
-
-#~ msgid "<b>misspelled</b>"
-#~ msgstr "<b>ভুল বানান</b>"
-
-#~ msgid "&Language:"
-#~ msgstr "ভাষা: (&L)"
-
-#~ msgid "Text excerpt showing the unknown word in its context."
-#~ msgstr "অজানা শব্দের প্রসঙ্গ নির্দেশকারী লেখার অংশ।"
-
-#~ msgid "... the <b>misspelled</b> word shown in context ..."
-#~ msgstr "... প্রসঙ্গ অনুসারে প্রদর্শিত শব্দের <b>ভুল বানান</b> ..."
-
-#~ msgid "<< Add to Dictionary"
-#~ msgstr "<< অভিধানে যোগ করুন"
-
-#~ msgid ""
-#~ "<qt>\n"
-#~ "<p>Click here to replace all occurrences of the unknown text with the "
-#~ "text in the edit box above (to the left).</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt>\n"
-#~ "<p>অজানা টেক্সটের সমস্ত উপস্থিতির পরিবর্তে উপরে (বাঁদিকে) অবস্থিত বাক্সে লেখা "
-#~ "তথ্য প্রয়োগ করার জন্য এই স্থানে ক্লিক করুন।</p>\n"
-#~ "</qt>"
-
-#~ msgid "R&eplace All"
-#~ msgstr "সমস্ত প্রতিস্থাপন করা হবে (&e)"
-
-#~ msgid "Suggestion List"
-#~ msgstr "প্রস্তাবিত শব্দের তালিকা"
-
-#~ msgid ""
-#~ "<qt>\n"
-#~ "<p>If the unknown word is misspelled, you should check if the correction "
-#~ "for it is available and if it is, click on it. If none of the words in "
-#~ "this list is a good replacement you may type the correct word in the edit "
-#~ "box above.</p>\n"
-#~ "<p>To correct this word click <b>Replace</b> if you want to correct only "
-#~ "this occurrence or <b>Replace All</b> if you want to correct all "
-#~ "occurrences.</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt>\n"
-#~ "<p>অজানা শব্দটির বানান সঠিক না হলে, পরীক্ষা করুন সঠিক বানান উপস্থিত রয়েছে কি "
-#~ "না। উপস্থিত থাকলে সেটি ক্লিক করুন। তালিকার মধ্যে প্রযোজ্য কোনো শব্দ উপস্থিত না "
-#~ "থাকলে, উপরে উপস্থিত এডিট বক্সের মধ্যে সঠিক শব্দটি লেখা যাবে।</p>\n"
-#~ "<p>এই শব্দটি সংশোধন করার উদ্দেশ্যে, শুধুমাত্র একবার পরিবর্তনের জন্য <b>প্রতিস্থাপন</"
-#~ "b> এবং সর্বসংখ্যক উপস্থিতি পরিবর্তনের জন্য <b>সমগ্র প্রতিস্থাপন</b> ক্লিক করুন।</"
-#~ "p>\n"
-#~ "</qt>"
-
-#~ msgid "Suggested Words"
-#~ msgstr "প্রস্তাবিত শব্দ"
-
-#~ msgid ""
-#~ "<qt>\n"
-#~ "<p>Click here to replace this occurrence of the unknown text with the "
-#~ "text in the edit box above (to the left).</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt>\n"
-#~ "<p>অজানা টেক্সটের পরিবর্তে উপরে (বাঁদিকে) অবস্থিত বাক্সে লেখা তথ্য প্রয়োগ করার "
-#~ "জন্য এই স্থানে ক্লিক করুন।</p>\n"
-#~ "</qt>"
-
-#~ msgid "&Replace"
-#~ msgstr "প্রতিস্থাপন (&R)"
-
-#~ msgid ""
-#~ "<qt>\n"
-#~ "<p>If the unknown word is misspelled, you should type the correction for "
-#~ "your misspelled word here or select it from the list below.</p>\n"
-#~ "<p>You can then click <b>Replace</b> if you want to correct only this "
-#~ "occurrence of the word or <b>Replace All</b> if you want to correct all "
-#~ "occurrences.</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt>\n"
-#~ "<p>অজানা শব্দটির বানান ভুল হলে, তালিকা থেকে সঠিক বানান নির্বাচন করুন অথবা "
-#~ "নীচে লিখুন।</p>\n"
-#~ "<p>এই শব্দটি সংশোধন করার উদ্দেশ্যে, শুধুমাত্র একবার পরিবর্তনের জন্য <b>প্রতিস্থাপন</"
-#~ "b> এবং সর্বসংখ্যক উপস্থিতি পরিবর্তনের জন্য <b>সমগ্র প্রতিস্থাপন</b> ক্লিক করুন।</"
-#~ "p>\n"
-#~ "</qt>"
-
-#~ msgid "Replace &with:"
-#~ msgstr "প্রতিস্থাপনে ব্যবহৃত শব্দ: (&w)"
-
-#~ msgid ""
-#~ "<qt>\n"
-#~ "<p>Click here to let this occurrence of the unknown word remain as is.</"
-#~ "p>\n"
-#~ "<p>This action is useful when the word is a name, an acronym, a foreign "
-#~ "word or any other unknown word that you want to use but not add to the "
-#~ "dictionary.</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt>\n"
-#~ "<p>অজানা শব্দটি অপরিবর্তিত রাখতে এই স্থানে ক্লিক করুন।</p>\n"
-#~ "<p>নাম, acronym, বিদেশি শব্দ অথবা অন্যান্য কোনো অজানা শব্দ, অভিধানে অন্তভুক্ত না "
-#~ "করেও ব্যবহার করতে ইচ্ছুক হলে এই পদ্ধতি ব্যবহার করা যাবে।</p>\n"
-#~ "</qt>"
-
-#~ msgid "&Ignore"
-#~ msgstr "উপেক্ষা করুন (&I)"
-
-#~ msgid ""
-#~ "<qt>\n"
-#~ "<p>Click here to let all occurrences of the unknown word remain as they "
-#~ "are.</p>\n"
-#~ "<p>This action is useful when the word is a name, an acronym, a foreign "
-#~ "word or any other unknown word that you want to use but not add to the "
-#~ "dictionary.</p>\n"
-#~ "</qt>"
-#~ msgstr ""
-#~ "<qt>\n"
-#~ "<p>অজানা শব্দের সমস্ত উপস্থিতি অপরিবর্তিত রাখতে এই স্থানে ক্লিক করুন।</p>\n"
-#~ "<p>নাম, acronym, বিদেশি শব্দ অথবা অন্যান্য কোনো অজানা শব্দ, অভিধানে অন্তভুক্ত না "
-#~ "করেও ব্যবহার করতে ইচ্ছুক হলে এই পদ্ধতি ব্যবহার করা যাবে।</p>\n"
-#~ "</qt>"
-
-#~ msgid "I&gnore All"
-#~ msgstr "সমস্ত উপেক্ষা করা হবে (&g)"
-
-#~ msgid "S&uggest"
-#~ msgstr "প্রস্তাবনা (&u)"
-
-#~ msgid "Language Selection"
-#~ msgstr "ভাষা নির্বাচন"
 
 #~ msgid "Incremental Spellcheck"
 #~ msgstr "ক্রমবর্ধমান বানানপরীক্ষণ"
@@ -3897,9 +4146,6 @@ msgstr "অভিধানে যোগ করুন"
 #~ msgid "Replace&ment text:"
 #~ msgstr "প্রতিস্থাপন করতে ব্যবহৃত টেক্সট: (&m)"
 
-#~ msgid "Options"
-#~ msgstr "বিকল্প"
-
 #~ msgid "C&ase sensitive"
 #~ msgstr "হরফের ছাঁদ সম্পর্কে সচেতন (&a)"
 
@@ -4647,26 +4893,6 @@ msgstr "অভিধানে যোগ করুন"
 #~ msgid "About KDE"
 #~ msgstr "KDE পরিচিতি"
 
-#~ msgid "Enable &background spellchecking"
-#~ msgstr "পটভূমিতে বানান পরীক্ষণ ব্যবস্থা সক্রিয় করা হবে (&b)"
-
-#~ msgid "&Automatic spell checking enabled by default"
-#~ msgstr "ডিফল্টরূপে বানান-পরীক্ষণ সক্রিয় করা হয়েছে। (&A)"
-
-#~ msgid "Skip all &uppercase words"
-#~ msgstr "বড় ছাঁদের হরফ সহযোগে লেখা সব শব্দ উপেক্ষা করা হবে (&u)"
-
-#~ msgid "S&kip run-together words"
-#~ msgstr "একত্রিত শব্দ উপেক্ষা করা হবে (&k)"
-
-#~ msgid "Default language:"
-#~ msgstr "ডিফল্ট ভাষা:"
-
-#, fuzzy
-#~| msgid "Suggested Words"
-#~ msgid "Ignored Words"
-#~ msgstr "প্রস্তাবিত শব্দ"
-
 #~ msgctxt "@title:window"
 #~ msgid "Check Spelling"
 #~ msgstr "বানান পরীক্ষা করা হবে"
@@ -4674,9 +4900,6 @@ msgstr "অভিধানে যোগ করুন"
 #~ msgctxt "@action:button"
 #~ msgid "&Finished"
 #~ msgstr "সমাপ্ত (&F)"
-
-#~ msgid "Autocorrect"
-#~ msgstr "স্বয়ং সংশোধন"
 
 #~ msgid "Backspace"
 #~ msgstr "Backspace"
@@ -5864,12 +6087,6 @@ msgstr "অভিধানে যোগ করুন"
 #~ msgctxt "No specific time zone"
 #~ msgid "Floating"
 #~ msgstr "গুরুত্বের মান"
-
-#~ msgid "&Add"
-#~ msgstr "যোগ করুন (&A)"
-
-#~ msgid "&Remove"
-#~ msgstr "মুছে ফেলুন (&R)"
 
 #~ msgid "Move &Up"
 #~ msgstr "উপরে স্থানান্তর (&U)"

@@ -2487,6 +2487,7 @@ msgid "Passwords match"
 msgstr "পাসওয়ার্ডে মিল"
 
 #: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/knewpassworddialog.cpp:165
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/knewpassworddialog.ui:112
 #, fuzzy
 #| msgid "Passwords do not match"
 msgctxt "KNewPasswordDialog|"
@@ -2519,12 +2520,80 @@ msgid ""
 "Would you like to use this password anyway?"
 msgstr ""
 
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/knewpassworddialog.ui:52
+#, fuzzy
+#| msgid "Password:"
+msgctxt "KNewPasswordDialog|"
+msgid "Password:"
+msgstr "পাসওয়ার্ড:"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/knewpassworddialog.ui:62
+#, fuzzy
+#| msgid "&Verify:"
+msgctxt "KNewPasswordDialog|"
+msgid "&Verify:"
+msgstr "পরীক্ষা: (&V)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/knewpassworddialog.ui:90
+#, fuzzy
+#| msgid "Password strength meter:"
+msgctxt "KNewPasswordDialog|"
+msgid "Password strength meter:"
+msgstr "পাসওয়ার্ডের দৃঢ়তার মান:"
+
 #: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.cpp:64
 #, fuzzy
 #| msgid "Password"
 msgctxt "KPasswordDialog|"
 msgid "Password"
 msgstr "পাসওয়ার্ড"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.ui:25
+#, fuzzy
+#| msgid "Supply a username and password below."
+msgctxt "KPasswordDialog|"
+msgid "Supply a username and password below."
+msgstr "ব্যবহারকারীর নাম ও পাসওয়ার্ড নীচে লিখুন।"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.ui:62
+msgctxt "KPasswordDialog|"
+msgid "No password, use anonymous (or guest) login"
+msgstr ""
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.ui:69
+#, fuzzy
+#| msgid "&Keep password"
+msgctxt "KPasswordDialog|"
+msgid "Use this password:"
+msgstr "পাসওয়ার্ড বজায় রাখা হবে (&K)"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.ui:85
+#, fuzzy
+#| msgid "Username:"
+msgctxt "KPasswordDialog|"
+msgid "Username:"
+msgstr "ব্যবহারকারীর নাম:"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.ui:99
+#, fuzzy
+#| msgid "Domain:"
+msgctxt "KPasswordDialog|"
+msgid "Domain:"
+msgstr "ডোমেইন:"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.ui:113
+#, fuzzy
+#| msgid "Password:"
+msgctxt "KPasswordDialog|"
+msgid "Password:"
+msgstr "পাসওয়ার্ড:"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpassworddialog.ui:130
+#, fuzzy
+#| msgid "Remember password"
+msgctxt "KPasswordDialog|"
+msgid "Remember password"
+msgstr "পাসওয়ার্ড মনে রাখা হবে"
 
 #: ../../home/scripty/prod/git-unstable/frameworks_kwidgetsaddons/src/kpixmapregionselectordialog.cpp:64
 #, fuzzy
@@ -2822,12 +2891,6 @@ msgstr ""
 
 #~ msgid "&Keep password"
 #~ msgstr "পাসওয়ার্ড বজায় রাখা হবে (&K)"
-
-#~ msgid "&Verify:"
-#~ msgstr "পরীক্ষা: (&V)"
-
-#~ msgid "Password strength meter:"
-#~ msgstr "পাসওয়ার্ডের দৃঢ়তার মান:"
 
 #~ msgid "Password Input"
 #~ msgstr "পাসওয়ার্ড ইনপুট"
@@ -5864,26 +5927,6 @@ msgstr ""
 
 #~ msgid "Do not show this message again"
 #~ msgstr "পুনরায় এই বার্তা প্রদর্শন করা হবে না"
-
-#~ msgid "Password:"
-#~ msgstr "পাসওয়ার্ড:"
-
-#~ msgid "Supply a username and password below."
-#~ msgstr "ব্যবহারকারীর নাম ও পাসওয়ার্ড নীচে লিখুন।"
-
-#, fuzzy
-#~| msgid "&Keep password"
-#~ msgid "Use this password:"
-#~ msgstr "পাসওয়ার্ড বজায় রাখা হবে (&K)"
-
-#~ msgid "Username:"
-#~ msgstr "ব্যবহারকারীর নাম:"
-
-#~ msgid "Domain:"
-#~ msgstr "ডোমেইন:"
-
-#~ msgid "Remember password"
-#~ msgstr "পাসওয়ার্ড মনে রাখা হবে"
 
 #~ msgid "Default:"
 #~ msgstr "ডিফল্ট মান:"
