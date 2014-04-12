@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_floppy\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2014-04-11 02:18+0000\n"
 "PO-Revision-Date: 2008-07-06 01:46+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kio_floppy.cpp:198
+#: kio_floppy.cpp:199
 #, kde-format
 msgid ""
 "Could not access drive %1.\n"
@@ -29,7 +29,7 @@ msgstr ""
 "ড্রাইভ এই মুহূর্তে ব্যস্ত।\n"
 "কর্ম সমাপ্ত হওয়ার অপেক্ষা করুন ও পুনরায় প্রচেষ্টা করুন।"
 
-#: kio_floppy.cpp:202 kio_floppy.cpp:1116
+#: kio_floppy.cpp:203 kio_floppy.cpp:1117
 #, kde-format
 msgid ""
 "Could not write to file %1.\n"
@@ -38,7 +38,7 @@ msgstr ""
 "%1 ফাইলে লিখতে ব্যর্থ।\n"
 "%2 ড্রাইভের ডিস্ক সম্ভবত পূর্ণ হয়ে গেছে।"
 
-#: kio_floppy.cpp:212
+#: kio_floppy.cpp:213
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -47,7 +47,7 @@ msgstr ""
 "%1 ব্যবহার করতে ব্যর্থ।\n"
 "%2 ড্রাইভের মধ্যে সম্ভবত কোনো ডিস্ক উপস্থিত নেই।"
 
-#: kio_floppy.cpp:216
+#: kio_floppy.cpp:217
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -58,7 +58,7 @@ msgstr ""
 "%2 ড্রাইভের মধ্যে সম্ভবত কোনো ডিস্ক উপস্থিত নেই অথবা এই ড্রাইভ ব্যবহারের জন্য "
 "প্রয়োজনীয় অনুমতি আপনার নেই।"
 
-#: kio_floppy.cpp:220
+#: kio_floppy.cpp:221
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -67,7 +67,7 @@ msgstr ""
 "%1 ব্যবহার করতে ব্যর্থ।\n"
 "%2 ড্রাইভ সমর্থিত নয়।"
 
-#: kio_floppy.cpp:225
+#: kio_floppy.cpp:226
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -80,7 +80,7 @@ msgstr ""
 "এবং ডিভাইস ফাইলের (উদাহরণ, /dev/fd0) অনুমতি সঠিরূপে নির্ধারিত হয়েছে কি না "
 "(উদাহরণস্বরূপ, rwxrwxrwx)।"
 
-#: kio_floppy.cpp:229
+#: kio_floppy.cpp:230
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -89,7 +89,7 @@ msgstr ""
 "%1 ব্যবহার করতে ব্যর্থ।\n"
 "%2 ড্রাইভের মধ্যে উপস্থিত ডিস্কটি সম্ভবত DOS-ফরম্যাটের ফ্লপি ডিস্ক নয়।"
 
-#: kio_floppy.cpp:233
+#: kio_floppy.cpp:234
 #, kde-format
 msgid ""
 "Access denied.\n"
@@ -100,7 +100,7 @@ msgstr ""
 "%1-এ লিখতে ব্যর্থ।\n"
 "%2 ড্রাইভের ডিস্কটি সম্ভবত লেখার জন্য অনুমোদিত নয়।"
 
-#: kio_floppy.cpp:242
+#: kio_floppy.cpp:243
 #, kde-format
 msgid ""
 "Could not read boot sector for %1.\n"
@@ -109,7 +109,7 @@ msgstr ""
 "%1-র বুট-সেক্টর থেকে পড়তে ব্যর্থ।\n"
 "সম্ভবত %2 ড্রাইভের মধ্যে কোনো ডিস্ক উপস্থিত নেই।"
 
-#: kio_floppy.cpp:365
+#: kio_floppy.cpp:366
 #, kde-format
 msgid ""
 "Could not start program \"%1\".\n"

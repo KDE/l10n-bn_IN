@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2014-04-11 02:17+0000\n"
 "PO-Revision-Date: 2009-01-13 10:27+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,106 +26,110 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: kdesu.cpp:85
+#: kdesu.cpp:84
 msgid "KDE su"
 msgstr "KDE su"
 
-#: kdesu.cpp:86
+#: kdesu.cpp:85
 msgid "Runs a program with elevated privileges."
 msgstr "অধিক অনুমতিরমাত্রা সহ প্রোগ্রাম সঞ্চালনার জন্য ব্যবহৃত হয়।"
 
-#: kdesu.cpp:88
+#: kdesu.cpp:87
 msgid "Copyright (c) 1998-2000 Geert Jansen, Pietro Iglio"
 msgstr "স্বত্বাধিকার (c) ১৯৯৮-২০০০ গার্ট জ্যানসন, পিয়েট্রো ইগলিও"
 
-#: kdesu.cpp:89
+#: kdesu.cpp:88
 msgid "Geert Jansen"
 msgstr "গার্ট জ্যানসন"
 
-#: kdesu.cpp:89
+#: kdesu.cpp:88
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: kdesu.cpp:91
+#: kdesu.cpp:90
 msgid "Pietro Iglio"
 msgstr "পিয়েট্রো ইগলিও"
 
-#: kdesu.cpp:91
+#: kdesu.cpp:90
 msgid "Original author"
 msgstr "মূল নির্মাতা"
 
-#: kdesu.cpp:100
+#: kdesu.cpp:99
 #, fuzzy
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as separate arguments"
 msgstr "সঞ্চালনযোগ্য কমান্ড উল্লেখ করতে ব্যবহৃত হয়"
 
-#: kdesu.cpp:101
+#: kdesu.cpp:100
 #, fuzzy
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as one string"
 msgstr "সঞ্চালনযোগ্য কমান্ড উল্লেখ করতে ব্যবহৃত হয়"
 
-#: kdesu.cpp:102
+#: kdesu.cpp:101
 msgid "Run command under target uid if <file> is not writable"
 msgstr ""
 "<file> যদি লেখার উদ্দেশ্যে অনুমোদিত না হয়, তাহলে উদ্দিষ্ট uid-র অধীন কমান্ড "
 "সঞ্চালিত হবে"
 
-#: kdesu.cpp:103
+#: kdesu.cpp:102
 msgid "Specifies the target uid"
 msgstr "উদ্দিষ্ট uid উল্লেখ করতে ব্যবহৃত হয়"
 
-#: kdesu.cpp:104
+#: kdesu.cpp:103
 msgid "Do not keep password"
 msgstr "পাসওয়ার্ড স্মরণে রাখা হবে না"
 
-#: kdesu.cpp:105
+#: kdesu.cpp:104
 msgid "Stop the daemon (forgets all passwords)"
 msgstr "ডেমন বন্ধ করুন (সকল পাসওয়ার্ড ভুলে যাওয়া হবে)"
 
-#: kdesu.cpp:106
+#: kdesu.cpp:105
 msgid "Enable terminal output (no password keeping)"
 msgstr "টার্মিন্যাল থেকে প্রাপ্ত ফলাফল সক্রিয় করুন (পাসওয়ার্ড স্মরণে রাখা হবে না)"
 
-#: kdesu.cpp:107
+#: kdesu.cpp:106
 msgid "Set priority value: 0 <= prio <= 100, 0 is lowest"
 msgstr "গুরুত্বের মাত্রা ধার্য করুন: 0 <= prio <= 100, সর্বনিম্ন মাত্রা হল 0"
 
-#: kdesu.cpp:108
+#: kdesu.cpp:107
 msgid "Use realtime scheduling"
 msgstr ""
 
-#: kdesu.cpp:109
+#: kdesu.cpp:108
 msgid "Do not display ignore button"
 msgstr "উপেক্ষার বাটন প্রদর্শন করা হবে না"
 
-#: kdesu.cpp:110
+#: kdesu.cpp:109
 msgid "Specify icon to use in the password dialog"
 msgstr "পাসওয়ার্ড ডায়লগের মধ্যে প্রদর্শনযোগ্য আইকন ধার্য করুন"
 
-#: kdesu.cpp:111
+#: kdesu.cpp:110
 msgid "Do not show the command to be run in the dialog"
 msgstr "সঞ্চালনযোগ্য কমান্ডটি ডায়লগের মধ্যে প্রদর্শন করা হবে না"
 
-#: kdesu.cpp:115
+#: kdesu.cpp:114
 msgctxt ""
 "Transient means that the kdesu app will be attached to the app specified by "
 "the winid so that it is like a dialog box rather than some separate program"
 msgid "Makes the dialog transient for an X app specified by winid"
 msgstr ""
 
-#: kdesu.cpp:142
+#: kdesu.cpp:115
+msgid "Embed into a window"
+msgstr ""
+
+#: kdesu.cpp:143
 #, kde-format
 msgid "Cannot execute command '%1'."
 msgstr ""
 
-#: kdesu.cpp:224
+#: kdesu.cpp:223
 #, kde-format
 msgid "Illegal priority: %1"
 msgstr "গুরুত্বের মাত্রা বৈধ নয়: %1"
 
-#: kdesu.cpp:249
+#: kdesu.cpp:248
 msgid "No command specified."
 msgstr "কোনো কমান্ড নির্ধারিত হয়নি।"
 
@@ -144,10 +148,6 @@ msgstr "রিয়েল-টাইম: "
 #: kdesu.cpp:394
 msgid "Priority:"
 msgstr "গুরুত্বের মাত্রা:"
-
-#: sudlg.cpp:23
-msgid "Ignore"
-msgstr "উপেক্ষা করুন"
 
 #: sudlg.cpp:30
 #, kde-format
@@ -196,10 +196,6 @@ msgstr ""
 "অনুরোধ করা কর্মের জন্য অতিরিক্ত অনুমতি আবশ্যক। অনুগ্রহ করে নীচে <b>%1 ব্যবহারকারীর</"
 "b> পাসওয়ার্ড লিখুন।"
 
-#: sudlg.cpp:60
-msgid "&Ignore"
-msgstr "উপেক্ষা করুন (&I)"
-
 #: sudlg.cpp:77
 msgid "Conversation with su failed."
 msgstr "su-র সাথে তথ্য বিনিময় করতে ব্যর্থ।"
@@ -221,6 +217,12 @@ msgstr ""
 #: sudlg.cpp:101
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "অভ্যন্তরীণ ত্রুটি: SuProcess::checkInstall() থেকে প্রাপ্ত ফলাফল বৈধ নয়"
+
+#~ msgid "Ignore"
+#~ msgstr "উপেক্ষা করুন"
+
+#~ msgid "&Ignore"
+#~ msgstr "উপেক্ষা করুন (&I)"
 
 #~ msgid "Command '%1' not found."
 #~ msgstr "'%1' কমান্ড পাওয়া যায়নি।"

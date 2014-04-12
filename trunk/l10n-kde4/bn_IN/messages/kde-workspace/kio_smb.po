@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-19 01:34+0000\n"
+"POT-Creation-Date: 2014-04-11 02:18+0000\n"
 "PO-Revision-Date: 2009-01-09 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kio_smb_auth.cpp:141
+#: kio_smb_auth.cpp:142
 #, kde-format
 msgid "<qt>Please enter authentication information for <b>%1</b></qt>"
 msgstr "<qt><b>%1</b>-র জন্য, অনুগ্রহ করে অনুমোদন সংক্রান্ত তথ্য লিখুন</qt>"
 
-#: kio_smb_auth.cpp:145
+#: kio_smb_auth.cpp:146
 #, kde-format
 msgid ""
 "Please enter authentication information for:\n"
@@ -34,11 +34,11 @@ msgstr ""
 "সার্ভার = %1\n"
 "শেয়ার = %2"
 
-#: kio_smb_auth.cpp:187
+#: kio_smb_auth.cpp:188
 msgid "libsmbclient failed to create context"
 msgstr "libsmbclient দ্বারা কনটেক্সট নির্মাণ করা যায়নি"
 
-#: kio_smb_auth.cpp:215
+#: kio_smb_auth.cpp:216
 msgid "libsmbclient failed to initialize context"
 msgstr "libsmbclient দ্বারা কনটেক্সট আরম্ভ করতে ব্যর্থ"
 
@@ -110,7 +110,7 @@ msgstr ""
 msgid "Unknown error condition in stat: %1"
 msgstr "stat-র মধ্যে অজ্ঞাত ত্রুটির পরিস্থিতি: %1"
 
-#: kio_smb_mount.cpp:109 kio_smb_mount.cpp:145
+#: kio_smb_mount.cpp:110 kio_smb_mount.cpp:146
 msgid ""
 "\n"
 "Make sure that the samba package is installed properly on your system."
@@ -119,7 +119,7 @@ msgstr ""
 "অনুগ্রহ করে পরীক্ষা করুন, সিস্টেমের মধ্যে samba প্যাকেজ সঠিকরূপে ইনস্টল করা হয়েছে কি "
 "না।"
 
-#: kio_smb_mount.cpp:122
+#: kio_smb_mount.cpp:123
 #, kde-format
 msgid ""
 "Mounting of share \"%1\" from host \"%2\" by user \"%3\" failed.\n"
@@ -128,7 +128,7 @@ msgstr ""
 "\"%1\" শেয়ারটি, \"%2\" হোস্ট থেকে \"%3\" ব্যবহারকারী দ্বারা মাউন্ট করতে ব্যর্থ।\n"
 "%4"
 
-#: kio_smb_mount.cpp:158
+#: kio_smb_mount.cpp:159
 #, kde-format
 msgid ""
 "Unmounting of mountpoint \"%1\" failed.\n"
