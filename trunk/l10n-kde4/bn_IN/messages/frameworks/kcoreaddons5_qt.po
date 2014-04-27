@@ -224,14 +224,7 @@ msgstr ""
 "%1 লিখেছেন\n"
 "%2"
 
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:51
-#, fuzzy, qt-format
-#| msgid "Could not find plugin '%1' for application '%2'"
-msgctxt "KPluginLoader|"
-msgid "Could not find plugin '%1' for application '%2'"
-msgstr "'%1' প্লাগ-ইনটি '%2' অ্যাপ্লিকেশনের জন্য পাওয়া যায়নি"
-
-#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:179
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:113
 #, fuzzy, qt-format
 #| msgid "The library %1 does not offer a KDE 4 compatible factory."
 msgctxt "KPluginLoader|"
@@ -703,6 +696,12 @@ msgstr "পরবর্তী"
 msgctxt "KFormat|"
 msgid "%1, %2"
 msgstr "%1, %2."
+
+#, fuzzy
+#~| msgid "Could not find plugin '%1' for application '%2'"
+#~ msgctxt "KPluginLoader|"
+#~ msgid "Could not find plugin '%1' for application '%2'"
+#~ msgstr "'%1' প্লাগ-ইনটি '%2' অ্যাপ্লিকেশনের জন্য পাওয়া যায়নি"
 
 #, fuzzy
 #~| msgctxt "@item license (short name)"
