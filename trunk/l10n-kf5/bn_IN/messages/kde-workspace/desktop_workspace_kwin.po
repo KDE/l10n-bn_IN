@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-03 08:04+0000\n"
+"POT-Creation-Date: 2014-05-04 08:21+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -37,7 +37,7 @@ msgctxt "Name"
 msgid "Plastik"
 msgstr "Plastik (প্লাস্টিক)"
 
-#: clients/aurorae/themes/plastik/package/metadata.desktop:6
+#: clients/aurorae/themes/plastik/package/metadata.desktop:91
 msgctxt "Comment"
 msgid "The classic theme known from KDE 3"
 msgstr ""
@@ -80,7 +80,7 @@ msgctxt "Name"
 msgid "Dialog Parent"
 msgstr ""
 
-#: effects/dialogparent/package/metadata.desktop:7
+#: effects/dialogparent/package/metadata.desktop:79
 msgctxt "Comment"
 msgid "Darkens the parent window of the currently active dialog"
 msgstr ""
@@ -98,7 +98,7 @@ msgctxt "Name"
 msgid "Fade Desktop"
 msgstr "SaverDesktop"
 
-#: effects/fadedesktop/package/metadata.desktop:7
+#: effects/fadedesktop/package/metadata.desktop:71
 msgctxt "Comment"
 msgid "Fade between virtual desktops when switching between them"
 msgstr ""
@@ -108,7 +108,7 @@ msgctxt "Name"
 msgid "Fade"
 msgstr ""
 
-#: effects/fade/package/metadata.desktop:7
+#: effects/fade/package/metadata.desktop:83
 msgctxt "Comment"
 msgid "Make windows smoothly fade in and out when they are shown or hidden"
 msgstr ""
@@ -141,7 +141,7 @@ msgctxt "Name"
 msgid "Login"
 msgstr "লগ-ইন করুন"
 
-#: effects/login/package/metadata.desktop:7
+#: effects/login/package/metadata.desktop:88
 msgctxt "Comment"
 msgid "Smoothly fade to the desktop when logging in"
 msgstr ""
@@ -166,7 +166,7 @@ msgctxt "Comment"
 msgid "Animation for a window going to maximize/restore from maximize"
 msgstr ""
 
-#: effects/maximize/package/metadata.desktop:8
+#: effects/maximize/package/metadata.desktop:44
 msgctxt "Name"
 msgid "Maximize"
 msgstr ""
@@ -202,7 +202,7 @@ msgctxt "Name"
 msgid "Scale In"
 msgstr ""
 
-#: effects/scalein/package/metadata.desktop:7
+#: effects/scalein/package/metadata.desktop:80
 msgctxt "Comment"
 msgid "Animate the appearing of windows"
 msgstr ""
@@ -227,7 +227,7 @@ msgctxt "Name"
 msgid "Translucency"
 msgstr ""
 
-#: effects/translucency/package/metadata.desktop:7
+#: effects/translucency/package/metadata.desktop:86
 msgctxt "Comment"
 msgid "Make windows translucent under different conditions"
 msgstr ""
@@ -255,12 +255,12 @@ msgctxt "Name"
 msgid "Desktop Effects"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kcmkwineffects.desktop:19
+#: kcmkwin/kwincompositing/kcmkwineffects.desktop:42
 msgctxt "Comment"
 msgid "Configure desktop effects"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kcmkwineffects.desktop:24
+#: kcmkwin/kwincompositing/kcmkwineffects.desktop:72
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,XRender,"
@@ -287,12 +287,12 @@ msgctxt "Name"
 msgid "Compositor"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kwincompositing.desktop:19
+#: kcmkwin/kwincompositing/kwincompositing.desktop:42
 msgctxt "Comment"
 msgid "Configure compositor settings for the Desktop effects"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kwincompositing.desktop:24
+#: kcmkwin/kwincompositing/kwincompositing.desktop:70
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,XRender,"
@@ -307,12 +307,12 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "উইন্ডো সংক্রান্ড তথ্য"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:19
+#: kcmkwin/kwindecoration/kwindecoration.desktop:76
 msgctxt "Comment"
 msgid "Configure the look and feel of window titles"
 msgstr "উইন্ডোর শিরোনামের চেহারাছবি কনফিগার করতে ব্যবহৃত হয়"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:24
+#: kcmkwin/kwindecoration/kwindecoration.desktop:164
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
@@ -327,12 +327,12 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "ডেস্কটপ"
 
-#: kcmkwin/kwindesktop/desktop.desktop:19
+#: kcmkwin/kwindesktop/desktop.desktop:78
 msgctxt "Comment"
 msgid "You can configure how many virtual desktops there are."
 msgstr "ভার্চুয়াল ডেস্কটপের সংখ্যা কনফিগার করা যাবে।"
 
-#: kcmkwin/kwindesktop/desktop.desktop:23
+#: kcmkwin/kwindesktop/desktop.desktop:166
 msgctxt "X-KDE-Keywords"
 msgid ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
@@ -344,7 +344,7 @@ msgctxt "Name"
 msgid "Actions"
 msgstr "কর্ম"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:17
+#: kcmkwin/kwinoptions/kwinactions.desktop:102
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
@@ -352,7 +352,7 @@ msgctxt "Comment"
 msgid "Configure mouse actions on windows"
 msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:22
+#: kcmkwin/kwinoptions/kwinactions.desktop:143
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
@@ -364,12 +364,12 @@ msgctxt "Name"
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:16
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:101
 msgctxt "Comment"
 msgid "Configure advanced window management features"
 msgstr "উইন্ডো পরিচালনার উন্নত বৈশিষ্ট্য কনফিগার করুন"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:21
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:188
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
@@ -382,12 +382,12 @@ msgctxt "Name"
 msgid "Focus"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:16
+#: kcmkwin/kwinoptions/kwinfocus.desktop:100
 msgctxt "Comment"
 msgid "Configure the window focus policy"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:21
+#: kcmkwin/kwinoptions/kwinfocus.desktop:186
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
@@ -400,12 +400,12 @@ msgctxt "Name"
 msgid "Moving"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:17
+#: kcmkwin/kwinoptions/kwinmoving.desktop:100
 msgctxt "Comment"
 msgid "Configure the way that windows are moved"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:22
+#: kcmkwin/kwinoptions/kwinmoving.desktop:187
 msgctxt "X-KDE-Keywords"
 msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
 msgstr ""
@@ -415,12 +415,12 @@ msgctxt "Name"
 msgid "Window Behavior"
 msgstr "উইন্ডোর আচরণ"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:20
+#: kcmkwin/kwinoptions/kwinoptions.desktop:104
 msgctxt "Comment"
 msgid "Configure the window behavior"
 msgstr "উইন্ডোর আচরণ কনফিগার করুন"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:25
+#: kcmkwin/kwinoptions/kwinoptions.desktop:192
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,window behavior,animation,raise,auto raise,windows,frame,"
@@ -435,12 +435,12 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "উইন্ডো বন্ধ করুন"
 
-#: kcmkwin/kwinrules/kwinrules.desktop:19
+#: kcmkwin/kwinrules/kwinrules.desktop:77
 msgctxt "Comment"
 msgid "Configure settings specifically for a window"
 msgstr "কোনো উইন্ডোর জন্য সুনির্দিষ্ট বৈশিষ্ট্য কনফিগার করুন"
 
-#: kcmkwin/kwinrules/kwinrules.desktop:24
+#: kcmkwin/kwinrules/kwinrules.desktop:163
 msgctxt "X-KDE-Keywords"
 msgid ""
 "size,position,state,window behavior,windows,specific,workarounds,remember,"
@@ -455,7 +455,7 @@ msgctxt "Name"
 msgid "Screen Edges"
 msgstr "স্ক্রিন-সেভার"
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:19
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:84
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
@@ -463,7 +463,7 @@ msgctxt "Comment"
 msgid "Configure active screen edges"
 msgstr "ওয়েব ক্যাশে সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:24
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:153
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,edge,border,action,switch,desktop,kwin screen "
@@ -479,7 +479,7 @@ msgctxt "X-KDE-Keywords"
 msgid "kwin script"
 msgstr "CGI স্ক্রিপ্ট"
 
-#: kcmkwin/kwinscripts/kwinscripts.desktop:17
+#: kcmkwin/kwinscripts/kwinscripts.desktop:58
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "CGI Scripts"
@@ -487,7 +487,7 @@ msgctxt "Name"
 msgid "KWin Scripts"
 msgstr "CGI স্ক্রিপ্ট"
 
-#: kcmkwin/kwinscripts/kwinscripts.desktop:21
+#: kcmkwin/kwinscripts/kwinscripts.desktop:104
 msgctxt "Comment"
 msgid "Manage KWin scripts"
 msgstr ""
@@ -497,7 +497,7 @@ msgctxt "Name"
 msgid "Task Switcher"
 msgstr ""
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:17
+#: kcmkwin/kwintabbox/kwintabbox.desktop:74
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the behavior of Java and JavaScript"
@@ -505,7 +505,7 @@ msgctxt "Comment"
 msgid "Configure the behavior for navigating through windows"
 msgstr "Java ও JavaScript-র আচরণ কনফিগার করুন"
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:21
+#: kcmkwin/kwintabbox/kwintabbox.desktop:128
 msgctxt "X-KDE-Keywords"
 msgid ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"
@@ -520,17 +520,17 @@ msgctxt "Comment"
 msgid "KWin Window Manager"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
-#: kwin.notifyrc:9
+#: kwin.notifyrc:69
 msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr ""
 
-#: kwin.notifyrc:13
+#: kwin.notifyrc:134
 msgctxt "Comment"
 msgid "Another application has requested to suspend compositing."
 msgstr ""
 
-#: kwin.notifyrc:20
+#: kwin.notifyrc:199
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Graphics"
@@ -538,7 +538,7 @@ msgctxt "Name"
 msgid "Graphics Reset"
 msgstr "গ্রাফিক্স"
 
-#: kwin.notifyrc:24
+#: kwin.notifyrc:239
 msgctxt "Comment"
 msgid "A graphics reset event occurred"
 msgstr ""
@@ -559,7 +559,7 @@ msgctxt "Name"
 msgid "Desktop Change OSD"
 msgstr "ডেস্কটপ"
 
-#: scripts/desktopchangeosd/metadata.desktop:6
+#: scripts/desktopchangeosd/metadata.desktop:45
 msgctxt "Comment"
 msgid "An on screen display indicating the desktop change"
 msgstr ""
@@ -569,7 +569,7 @@ msgctxt "Name"
 msgid "Synchronize Skip Switcher with Taskbar"
 msgstr ""
 
-#: scripts/synchronizeskipswitcher/metadata.desktop:6
+#: scripts/synchronizeskipswitcher/metadata.desktop:43
 msgctxt "Comment"
 msgid ""
 "Hides all windows marked as Skip Taskbar to be also excluded from window "
@@ -584,7 +584,7 @@ msgctxt "Name"
 msgid "Video Wall"
 msgstr "ভিডিও বাদন"
 
-#: scripts/videowall/metadata.desktop:6
+#: scripts/videowall/metadata.desktop:47
 msgctxt "Comment"
 msgid ""
 "Spans fullscreen video player over all attached screens to create a Video "
@@ -615,7 +615,7 @@ msgctxt "Name"
 msgid "Large Icons"
 msgstr "আইকন"
 
-#: tabbox/qml/clients/big_icons/metadata.desktop:6
+#: tabbox/qml/clients/big_icons/metadata.desktop:49
 msgctxt "Comment"
 msgid "A window switcher layout using large icons to represent the window"
 msgstr ""
@@ -628,7 +628,7 @@ msgctxt "Name"
 msgid "Compact"
 msgstr "Compiz"
 
-#: tabbox/qml/clients/compact/metadata.desktop:6
+#: tabbox/qml/clients/compact/metadata.desktop:49
 msgctxt "Comment"
 msgid "A compact window switcher layout"
 msgstr ""
@@ -642,7 +642,7 @@ msgctxt "Name"
 msgid "Informative"
 msgstr "তথ্য"
 
-#: tabbox/qml/clients/informative/metadata.desktop:6
+#: tabbox/qml/clients/informative/metadata.desktop:49
 msgctxt "Comment"
 msgid "An informative window switcher layout including desktop name"
 msgstr ""
@@ -652,7 +652,7 @@ msgctxt "Name"
 msgid "Grid"
 msgstr ""
 
-#: tabbox/qml/clients/present_windows/metadata.desktop:6
+#: tabbox/qml/clients/present_windows/metadata.desktop:50
 msgctxt "Comment"
 msgid "A Window Switcher layout showing all windows as thumbnails in a grid"
 msgstr ""
@@ -665,7 +665,7 @@ msgctxt "Name"
 msgid "Sidebar"
 msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
 
-#: tabbox/qml/clients/sidebar/metadata.desktop:6
+#: tabbox/qml/clients/sidebar/metadata.desktop:63
 msgctxt "Comment"
 msgid "A window switcher with live thumbnails on the screen side"
 msgstr ""
@@ -678,7 +678,7 @@ msgctxt "Name"
 msgid "Small Icons"
 msgstr "আইকন"
 
-#: tabbox/qml/clients/small_icons/metadata.desktop:6
+#: tabbox/qml/clients/small_icons/metadata.desktop:48
 msgctxt "Comment"
 msgid "A window switcher layout using small icons to represent the window"
 msgstr ""
@@ -691,7 +691,7 @@ msgctxt "Name"
 msgid "Text Only"
 msgstr "টেক্সট ফাইল"
 
-#: tabbox/qml/clients/text/metadata.desktop:6
+#: tabbox/qml/clients/text/metadata.desktop:34
 msgctxt "Comment"
 msgid "A window switcher layout only showing window captions"
 msgstr ""
@@ -704,12 +704,12 @@ msgctxt "Name"
 msgid "Thumbnails"
 msgstr "Test_Thumbnail"
 
-#: tabbox/qml/clients/thumbnails/metadata.desktop:6
+#: tabbox/qml/clients/thumbnails/metadata.desktop:47
 msgctxt "Comment"
 msgid "A window switcher layout using live thumbnails"
 msgstr ""
 
-#: tabbox/qml/desktops/informative/metadata.desktop:6
+#: tabbox/qml/desktops/informative/metadata.desktop:49
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -725,7 +725,7 @@ msgctxt "Name"
 msgid "Previews"
 msgstr "ফাইলের পূর্বরূপ প্রদর্শন"
 
-#: tabbox/qml/desktops/previews/metadata.desktop:6
+#: tabbox/qml/desktops/previews/metadata.desktop:43
 msgctxt "Comment"
 msgid "A desktop switcher layout with previews of the desktops"
 msgstr ""
