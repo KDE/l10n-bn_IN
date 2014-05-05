@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-28 15:51+0000\n"
+"POT-Creation-Date: 2014-05-05 07:58+0000\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -58,75 +58,75 @@ msgstr "GLX/OpenGL ও XRender/XFixes উপলব্ধ নয়।"
 msgid "KWin: "
 msgstr "KWin: "
 
-#: killer/killer.cpp:43
+#: killer/killer.cpp:44
 #, fuzzy
 #| msgid "KDE window manager"
 msgid "Window Manager"
 msgstr "KDE উইন্ডো পরিচালন ব্যবস্থা"
 
-#: killer/killer.cpp:48
+#: killer/killer.cpp:49
 msgid "PID of the application to terminate"
 msgstr "বন্ধ করার জন্য চিহ্নিত অ্যাপ্লিকেশনের PID"
 
-#: killer/killer.cpp:48
+#: killer/killer.cpp:49
 msgid "pid"
 msgstr ""
 
-#: killer/killer.cpp:50
+#: killer/killer.cpp:51
 msgid "Hostname on which the application is running"
 msgstr "অ্যাপ্লিকেশন চালনাকারী মেশিনের হোস্ট-নেম"
 
-#: killer/killer.cpp:50
+#: killer/killer.cpp:51
 msgid "hostname"
 msgstr ""
 
-#: killer/killer.cpp:52
+#: killer/killer.cpp:53
 msgid "Caption of the window to be terminated"
 msgstr "বন্ধ করার জন্য চিহ্নিত উইন্ডোর শিরোনাম"
 
-#: killer/killer.cpp:52
+#: killer/killer.cpp:53
 msgid "caption"
 msgstr ""
 
-#: killer/killer.cpp:54
+#: killer/killer.cpp:55
 msgid "Name of the application to be terminated"
 msgstr "বন্ধ করার জন্য চিহ্নিত অ্যাপ্লিকেশনের নাম"
 
-#: killer/killer.cpp:54
+#: killer/killer.cpp:55
 msgid "name"
 msgstr ""
 
-#: killer/killer.cpp:56
+#: killer/killer.cpp:57
 msgid "ID of resource belonging to the application"
 msgstr ""
 
-#: killer/killer.cpp:56
+#: killer/killer.cpp:57
 msgid "id"
 msgstr ""
 
-#: killer/killer.cpp:58
+#: killer/killer.cpp:59
 msgid "Time of user action causing termination"
 msgstr ""
 
-#: killer/killer.cpp:58
+#: killer/killer.cpp:59
 msgid "time"
 msgstr ""
 
-#: killer/killer.cpp:60
+#: killer/killer.cpp:61
 msgid "KWin helper utility"
 msgstr "KWin সহায়ক সামগ্রী"
 
-#: killer/killer.cpp:84
+#: killer/killer.cpp:85
 msgid "This helper utility is not supposed to be called directly."
 msgstr "সহায়ক সামগ্রী সরাসরি আরম্ভ করা সম্ভব নয়।"
 
-#: killer/killer.cpp:94
+#: killer/killer.cpp:95
 #, kde-format
 msgctxt "@info"
 msgid "<b>Application \"%1\" is not responding</b>"
 msgstr ""
 
-#: killer/killer.cpp:96
+#: killer/killer.cpp:97
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -134,7 +134,7 @@ msgid ""
 "%3) but the application is not responding.</para>"
 msgstr ""
 
-#: killer/killer.cpp:98
+#: killer/killer.cpp:99
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -142,7 +142,7 @@ msgid ""
 "%3), running on host \"%4\", but the application is not responding.</para>"
 msgstr ""
 
-#: killer/killer.cpp:101
+#: killer/killer.cpp:102
 msgctxt "@info"
 msgid ""
 "<para>Do you want to terminate this application?</"
@@ -150,12 +150,12 @@ msgid ""
 "windows. Any unsaved data will be lost.</warning></para>"
 msgstr ""
 
-#: killer/killer.cpp:105
+#: killer/killer.cpp:106
 #, kde-format
 msgid "&Terminate Application %1"
 msgstr ""
 
-#: killer/killer.cpp:106
+#: killer/killer.cpp:107
 msgid "Wait Longer"
 msgstr ""
 
@@ -459,53 +459,53 @@ msgstr ""
 "kwin: পরিচালন ব্যবস্থা ধার্য করতে ব্যর্থ, একটি পৃথক উইন্ডো পরিচালনব্যবস্থা বর্তমানে "
 "চলছে কি? (--replace প্রয়োগের প্রচেষ্টা করুন)\n"
 
-#: main.cpp:396 main.cpp:507
+#: main.cpp:396 main.cpp:508
 msgid "KDE window manager"
 msgstr "KDE উইন্ডো পরিচালন ব্যবস্থা"
 
-#: main.cpp:487 main.cpp:490
+#: main.cpp:488 main.cpp:491
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:494
+#: main.cpp:495
 #, fuzzy
 #| msgid "(c) 1999-2008, The KDE Developers"
 msgid "(c) 1999-2013, The KDE Developers"
 msgstr "(c) ১৯৯৯-২০০৮, KDE-র নির্মাতা বৃন্দ"
 
-#: main.cpp:496
+#: main.cpp:497
 msgid "Matthias Ettrich"
 msgstr "ম্যাথায়েস এট্রিখ"
 
-#: main.cpp:497
+#: main.cpp:498
 msgid "Cristian Tibirna"
 msgstr "ক্রিস্টিয়্যান টিবির্না"
 
-#: main.cpp:498
+#: main.cpp:499
 msgid "Daniel M. Duley"
 msgstr "ড্যানিয়েল এম. ডুলি"
 
-#: main.cpp:499
+#: main.cpp:500
 msgid "Luboš Luňák"
 msgstr "লুবোস লুনাক"
 
-#: main.cpp:500
+#: main.cpp:501
 msgid "Martin Gräßlin"
 msgstr ""
 
-#: main.cpp:500
+#: main.cpp:501
 msgid "Maintainer"
 msgstr "নির্মাণকারী"
 
-#: main.cpp:502
+#: main.cpp:503
 msgid "Disable configuration options"
 msgstr "কনফিগারেশন সংক্রান্ত বিকল্প নিষ্ক্রিয় করা হবে"
 
-#: main.cpp:503
+#: main.cpp:504
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "ICCCM2.0-র সাথে সুসংগত বর্তমানে চলমান উইন্ডো পরিচালনব্যবস্থা প্রতিস্থাপন করুন"
 
-#: main.cpp:504
+#: main.cpp:505
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "KWin n সংখ্যক বার বিপর্যস্ত হওয়ার ইঙ্গিত প্রদর্শন করা হবে"
 
@@ -547,6 +547,46 @@ msgid ""
 "entirely black.<br>Also this limit will often be a performance level barrier "
 "despite below GL_MAX_VIEWPORT_DIMS, because the driver might fall back to "
 "software rendering in this case."
+msgstr ""
+
+#: scripting/genericscriptedconfig.cpp:77
+msgctxt "Error message"
+msgid "Plugin does not provide configuration file in expected location"
+msgstr ""
+
+#: scripting/scripting.cpp:127
+#, kde-format
+msgctxt "Assertion failed in KWin script with given value"
+msgid "Assertion failed: %1 is not null"
+msgstr ""
+
+#: scripting/scripting.cpp:145
+msgctxt "Assertion failed in KWin script"
+msgid "Assertion failed: argument is null"
+msgstr ""
+
+#: scripting/scripting.cpp:172
+msgctxt "Error in KWin Script"
+msgid ""
+"Invalid number of arguments. At least service, path, interface and method "
+"need to be provided"
+msgstr ""
+
+#: scripting/scripting.cpp:178
+msgctxt "Error in KWin Script"
+msgid ""
+"Invalid type. Service, path, interface and method need to be string values"
+msgstr ""
+
+#: scripting/scriptingutils.cpp:28
+msgctxt "syntax error in KWin script"
+msgid "Invalid number of arguments"
+msgstr ""
+
+#: scripting/scriptingutils.cpp:41
+#, kde-format
+msgctxt "KWin Scripting function received incorrect value for an expected type"
+msgid "%1 is not a variant type"
 msgstr ""
 
 #: tabbox/tabbox.cpp:349
@@ -841,7 +881,7 @@ msgstr "নীচের ডেস্কটপে পরিবর্তন কর
 msgid "Switch to Desktop %1"
 msgstr "ডেস্কটপ ১-এ পরিবর্তন করুন"
 
-#: workspace.cpp:1337
+#: workspace.cpp:1327
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"
