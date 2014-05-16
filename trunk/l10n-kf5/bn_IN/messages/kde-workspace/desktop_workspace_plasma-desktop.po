@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-12 08:10+0000\n"
+"POT-Creation-Date: 2014-05-16 08:02+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -597,6 +597,29 @@ msgid ""
 "toolbar fonts,character,general fonts"
 msgstr ""
 
+#: kcms/formats/formats.desktop:14
+msgctxt "Name"
+msgid "Formats"
+msgstr ""
+
+#: kcms/formats/formats.desktop:15
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Language, numeric, and time settings for your particular region"
+msgctxt "Comment"
+msgid ""
+"Numeric, currency and time formatting settings for your particular region"
+msgstr "প্রযোজ্য অঞ্চলের ভাষা, সংখ্যা ও সময় সংক্রান্ত বৈশিষ্ট্য"
+
+#: kcms/formats/formats.desktop:17
+msgctxt "X-KDE-Keywords"
+msgid ""
+"language,translation,number format,locale,Country,charsets,character sets,"
+"Decimal symbol,Thousands separator,symbol,separator,sign,positive,negative,"
+"currency,money,fractional digits,calendar,time,date,formats,week,week start,"
+"first,paper,size,letter,A4,measure,metric,English,Imperial"
+msgstr ""
+
 #: kcms/hardware/display/display.desktop:10
 msgctxt "Name"
 msgid "Display"
@@ -885,25 +908,6 @@ msgctxt "X-KDE-Keywords"
 msgid ""
 "application,start,launch,busy,cursor,feedback,mouse,pointer,bouncing,"
 "rotating,spinning,disk,startup,program,report,taskbar"
-msgstr ""
-
-#: kcms/locale/language.desktop:14
-msgctxt "Name"
-msgid "Country/Region & Language"
-msgstr "দেশ/অঞ্চল ও ভাষা"
-
-#: kcms/locale/language.desktop:102
-msgctxt "Comment"
-msgid "Language, numeric, and time settings for your particular region"
-msgstr "প্রযোজ্য অঞ্চলের ভাষা, সংখ্যা ও সময় সংক্রান্ত বৈশিষ্ট্য"
-
-#: kcms/locale/language.desktop:190
-msgctxt "X-KDE-Keywords"
-msgid ""
-"language,translation,number format,locale,Country,charsets,character sets,"
-"Decimal symbol,Thousands separator,symbol,separator,sign,positive,negative,"
-"currency,money,fractional digits,calendar,time,date,formats,week,week start,"
-"first,paper,size,letter,A4,measure,metric,English,Imperial"
 msgstr ""
 
 #: kcms/phonon/kcm_phonon.desktop:13
@@ -1406,3 +1410,7 @@ msgstr "ডেস্কটপ"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
+
+#~ msgctxt "Name"
+#~ msgid "Country/Region & Language"
+#~ msgstr "দেশ/অঞ্চল ও ভাষা"
