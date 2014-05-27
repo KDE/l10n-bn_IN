@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-20 10:07+0000\n"
+"POT-Creation-Date: 2014-05-27 09:48+0000\n"
 "PO-Revision-Date: 2009-01-05 12:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -319,58 +319,58 @@ msgstr "কর্ম সঞ্চালনের অনুরোধকারী 
 msgid "Clipboard history size:"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:150
+#: klipper.cpp:149
 #, fuzzy
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable Clipboard Actions"
 msgstr "ক্লিপবোর্ড সংক্রান্ত কর্ম সক্রিয়/নিষ্ক্রিয় করুন"
 
-#: klipper.cpp:176
+#: klipper.cpp:175
 msgid "C&lear Clipboard History"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:182
+#: klipper.cpp:181
 msgid "&Configure Klipper..."
 msgstr "Klipper কনফিগার করুন...(&C)"
 
-#: klipper.cpp:187
+#: klipper.cpp:186
 #, fuzzy
 #| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "প্রস্থান (&Q)"
 
-#: klipper.cpp:191
+#: klipper.cpp:190
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
-#: klipper.cpp:198
+#: klipper.cpp:197
 msgid "&Edit Contents..."
 msgstr "তথ্য সম্পাদনা...(&E)"
 
-#: klipper.cpp:205
+#: klipper.cpp:204
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:212
+#: klipper.cpp:211
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Next History Item"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:216
+#: klipper.cpp:215
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Previous History Item"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:222
+#: klipper.cpp:221
 #, fuzzy
 #| msgid "&Popup menu at mouse-cursor position"
 msgid "Open Klipper at Mouse Position"
 msgstr "মাউসের কার্সারের অবস্থানে মেনু পপ-আপ করে প্রদর্শিত হবে (&P)"
 
-#: klipper.cpp:473
+#: klipper.cpp:472
 #, fuzzy
 #| msgid ""
 #| "You can enable URL actions later by right-clicking on the Klipper icon "
@@ -382,31 +382,31 @@ msgstr ""
 "পরে কোনো সময় URL সংক্রান্ত কর্ম সক্রিয় করার জন্য Klipper আইকনের উপর ডান দিকের "
 "মাউস বাটন সহ ক্লিক করে, 'কর্ম সক্রিয় করুন' নির্বাচন করুন"
 
-#: klipper.cpp:501
+#: klipper.cpp:500
 msgid "Should Klipper start automatically when you login?"
 msgstr "লগ-ইন করার সময় Klipper স্বয়ংক্রিয়ভাবে আরম্ভ করা হবে কি?"
 
-#: klipper.cpp:502
+#: klipper.cpp:501
 msgid "Automatically Start Klipper?"
 msgstr "স্বয়ংক্রিয়ভাবে Klipper আরম্ভ করা হবে কি?"
 
-#: klipper.cpp:502
+#: klipper.cpp:501
 msgid "Start"
 msgstr "আরম্ভ করা হবে"
 
-#: klipper.cpp:503
+#: klipper.cpp:502
 msgid "Do Not Start"
 msgstr "আরম্ভ করা হবে না"
 
-#: klipper.cpp:848 klipperpopup.cpp:95
+#: klipper.cpp:847 klipperpopup.cpp:73 main.cpp:41
 msgid "KDE cut & paste history utility"
 msgstr "KDE-র কাট ও পেস্ট কর্মের পূর্ববর্তী তথ্য সংরক্ষণের ব্যবস্থা"
 
-#: klipper.cpp:852 tray.cpp:36
+#: klipper.cpp:851 main.cpp:38 tray.cpp:36
 msgid "Klipper"
 msgstr "Klipper"
 
-#: klipper.cpp:854
+#: klipper.cpp:853
 #, fuzzy
 #| msgid ""
 #| "(c) 1998, Andrew Stanley-Jones\n"
@@ -421,81 +421,91 @@ msgstr ""
 "১৯৯৮-২০০২, কার্সেটন পাইফার\n"
 "২০০১, প্যাট্রিক ডুব্রোয়"
 
-#: klipper.cpp:858
+#: klipper.cpp:857
 msgid "Carsten Pfeiffer"
 msgstr "কার্স্টেন পাইফার"
 
-#: klipper.cpp:859
+#: klipper.cpp:858
 msgid "Author"
 msgstr "নির্মাতা"
 
-#: klipper.cpp:862
+#: klipper.cpp:861
 msgid "Andrew Stanley-Jones"
 msgstr "অ্যান্ড্রু স্ট্যানলি-জোনস"
 
-#: klipper.cpp:863
+#: klipper.cpp:862
 msgid "Original Author"
 msgstr "মূল নির্মাতা"
 
-#: klipper.cpp:866
+#: klipper.cpp:865
 msgid "Patrick Dubroy"
 msgstr "প্যাট্রিক ডুব্রোয়"
 
-#: klipper.cpp:867
+#: klipper.cpp:866
 msgid "Contributor"
 msgstr "অংশগ্রহণকারী"
 
-#: klipper.cpp:870
+#: klipper.cpp:869
 msgid "Luboš Luňák"
 msgstr "লুবোস লুনাক"
 
-#: klipper.cpp:871
+#: klipper.cpp:870
 msgid "Bugfixes and optimizations"
 msgstr "বাগ সংশোধন ও উন্নতি"
 
-#: klipper.cpp:874
+#: klipper.cpp:873
 msgid "Esben Mose Hansen"
 msgstr "এসবেন মোসে হ্যানসেন"
 
-#: klipper.cpp:875
+#: klipper.cpp:874
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Previous Maintainer"
+msgstr "মেইন্টেনার"
+
+#: klipper.cpp:877
+msgid "Martin Gräßlin"
+msgstr ""
+
+#: klipper.cpp:878
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: klipper.cpp:898
+#: klipper.cpp:901
 msgid "Edit Contents"
 msgstr "তথ্য সম্পাদনা"
 
-#: klipper.cpp:931
+#: klipper.cpp:934
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:959
+#: klipper.cpp:962
 #, fuzzy
 #| msgid "C&lear Clipboard History"
 msgid "Really delete entire clipboard history?"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:960
+#: klipper.cpp:963
 #, fuzzy
 #| msgid "C&lear Clipboard History"
 msgid "Delete clipboard history?"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:978 klipper.cpp:987
+#: klipper.cpp:981 klipper.cpp:990
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:1004
+#: klipper.cpp:1007
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1011
+#: klipper.cpp:1014
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1018
+#: klipper.cpp:1021
 msgid "down"
 msgstr ""
 
@@ -634,17 +644,21 @@ msgstr ""
 msgid "Replay action in history"
 msgstr ""
 
-#: klipperpopup.cpp:92
+#: klipperpopup.cpp:70
 msgid "<empty clipboard>"
 msgstr "<empty clipboard>"
 
-#: klipperpopup.cpp:93
+#: klipperpopup.cpp:71
 msgid "<no matches>"
 msgstr "<no matches>"
 
-#: klipperpopup.cpp:140
+#: klipperpopup.cpp:116
 msgid "Klipper - Clipboard Tool"
 msgstr "Klipper - ক্লিপবোর্ড সংক্রান্ত সরঞ্জাম"
+
+#: klipperpopup.cpp:120
+msgid "Search..."
+msgstr ""
 
 #: popupproxy.cpp:171
 msgid "&More"
