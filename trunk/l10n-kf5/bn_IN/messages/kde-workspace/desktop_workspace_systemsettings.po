@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-01 12:12+0000\n"
+"POT-Creation-Date: 2014-07-02 08:12+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -101,7 +101,7 @@ msgid "Customize the appearance of your desktop"
 msgstr ""
 
 #: categories/old/settings-display.desktop:8
-#: categories/settings-hardware-display.desktop:8
+#: categories/settings-hardware-display.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -110,7 +110,7 @@ msgid "Display and Monitor"
 msgstr "ফাইল পরিচালনা"
 
 #: categories/old/settings-display.desktop:70
-#: categories/settings-hardware-display.desktop:70
+#: categories/settings-hardware-display.desktop:71
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
@@ -216,7 +216,6 @@ msgid "System Administration"
 msgstr "SAM System-Administration"
 
 #: categories/old/settings-window-behaviour.desktop:8
-#: categories/settings-workspace-windowmanagement.desktop:9
 msgctxt "Name"
 msgid "Window Behavior"
 msgstr "উইন্ডোর আচরণ"
@@ -362,6 +361,14 @@ msgstr "ওয়বের আচরণ"
 msgctxt "Name"
 msgid "Shortcuts"
 msgstr ""
+
+#: categories/settings-workspace-windowmanagement.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Management"
+msgctxt "Name"
+msgid "Window Management"
+msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
 
 #: categories/systemsettingscategory.desktop:4
 msgctxt "Name"
