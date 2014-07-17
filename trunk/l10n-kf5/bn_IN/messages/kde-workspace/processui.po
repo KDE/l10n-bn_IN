@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:55+0000\n"
+"POT-Creation-Date: 2014-07-17 08:30+0000\n"
 "PO-Revision-Date: 2008-10-22 19:48+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -696,17 +696,6 @@ msgstr "<br/>Setuid দল: %1"
 msgid "<br/>File System Group: %1"
 msgstr "<br/>ফাইল সিস্টেমের দল: %1"
 
-#: ProcessModel.cpp:1144
-#, kde-format
-msgctxt "Short description of a process. PID, name, user"
-msgid "<numid>%1</numid>: %2, owned by user %3"
-msgstr "<numid>%1</numid>: %2, %3-র মালিকানাধীন"
-
-#: ProcessModel.cpp:1151
-#, kde-format
-msgid "%1 (gid: <numid>%2</numid>)"
-msgstr "%1 (gid: <numid>%2</numid>)"
-
 #: ProcessModel.cpp:1172
 #, kde-format
 msgid "%1 (uid: %2)"
@@ -756,12 +745,6 @@ msgstr ""
 msgid "%1/s"
 msgstr ""
 
-#: ProcessModel.cpp:1345
-#, kde-format
-msgctxt "tooltip. name,pid "
-msgid "This process is being debugged by %1 (<numid>%2</numid>)"
-msgstr "%1 (<numid>%2</numid>) দ্বারা এই প্রসেসটি ডিবাগ করা হচ্ছে"
-
 #: ProcessModel.cpp:1366
 msgid ""
 "<b>Init</b> is the parent of all other processes and cannot be killed.<br/>"
@@ -776,32 +759,6 @@ msgstr ""
 "<b>KThreadd</b> দ্বারা কার্নেল থ্রেডগুলি পরিচালনা করা হয়। নিম্নবর্তী চাইল্ড "
 "প্রসেসগুলি কার্নেলের মধ্যে সঞ্চালিত হয় এবং এই প্রসেসগুলি দ্বারা হার্ড-ডিস্ক প্রভৃতি "
 "নিয়ন্ত্রিত হয়।<br/>"
-
-#: ProcessModel.cpp:1370
-#, kde-format
-msgctxt "name column tooltip. first item is the name"
-msgid "<b>%1</b><br />Process ID: <numid>%2</numid>"
-msgstr "<b>%1</b><br />প্রসেস ID: <numid>%2</numid>"
-
-#: ProcessModel.cpp:1375
-#, kde-format
-msgctxt "name column tooltip. first item is the name"
-msgid ""
-"<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent: %3<br />Parent's "
-"ID: <numid>%4</numid>"
-msgstr ""
-"<b>%1</b><br />প্রসেস ID: <numid>%2</numid><br />ঊর্ধ্বতন প্রসেস: %3<br />ঊর্ধ্বতন "
-"প্রসেসের ID: <numid>%4</numid>"
-
-#: ProcessModel.cpp:1377
-#, kde-format
-msgctxt "name column tooltip. first item is the name"
-msgid ""
-"<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent's ID: <numid>%3</"
-"numid>"
-msgstr ""
-"<b>%1</b><br />প্রসেস ID: <numid>%2</numid><br />ঊর্ধ্বতন প্রসেসের ID: <numid>"
-"%3</numid>"
 
 #: ProcessModel.cpp:1381 ProcessModel.cpp:1445
 #, kde-format
@@ -1743,6 +1700,37 @@ msgstr "নিম্ন পরিমাণ গুরুত্ব"
 #: ReniceDlgUi.ui:406 ReniceDlgUi.ui:471
 msgid "High Priority"
 msgstr "উচ্চ পরিমাণ গুরুত্ব"
+
+#~ msgctxt "Short description of a process. PID, name, user"
+#~ msgid "<numid>%1</numid>: %2, owned by user %3"
+#~ msgstr "<numid>%1</numid>: %2, %3-র মালিকানাধীন"
+
+#~ msgid "%1 (gid: <numid>%2</numid>)"
+#~ msgstr "%1 (gid: <numid>%2</numid>)"
+
+#~ msgctxt "tooltip. name,pid "
+#~ msgid "This process is being debugged by %1 (<numid>%2</numid>)"
+#~ msgstr "%1 (<numid>%2</numid>) দ্বারা এই প্রসেসটি ডিবাগ করা হচ্ছে"
+
+#~ msgctxt "name column tooltip. first item is the name"
+#~ msgid "<b>%1</b><br />Process ID: <numid>%2</numid>"
+#~ msgstr "<b>%1</b><br />প্রসেস ID: <numid>%2</numid>"
+
+#~ msgctxt "name column tooltip. first item is the name"
+#~ msgid ""
+#~ "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent: %3<br /"
+#~ ">Parent's ID: <numid>%4</numid>"
+#~ msgstr ""
+#~ "<b>%1</b><br />প্রসেস ID: <numid>%2</numid><br />ঊর্ধ্বতন প্রসেস: %3<br /"
+#~ ">ঊর্ধ্বতন প্রসেসের ID: <numid>%4</numid>"
+
+#~ msgctxt "name column tooltip. first item is the name"
+#~ msgid ""
+#~ "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent's ID: <numid>%3</"
+#~ "numid>"
+#~ msgstr ""
+#~ "<b>%1</b><br />প্রসেস ID: <numid>%2</numid><br />ঊর্ধ্বতন প্রসেসের ID: <numid>"
+#~ "%3</numid>"
 
 #, fuzzy
 #~| msgid "Renice Process..."
