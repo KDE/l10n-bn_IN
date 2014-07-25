@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-24 10:10+0000\n"
+"POT-Creation-Date: 2014-07-25 09:45+0000\n"
 "PO-Revision-Date: 2008-12-22 17:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -33,6 +33,88 @@ msgstr "পটভূমির জন্য ছবির ফাইল নির�
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
 msgstr ""
 
+#: imagepackage/contents/ui/config.qml:69
+#, fuzzy
+#| msgid "P&ositioning:"
+msgctxt "Label for positioning combo"
+msgid "Positioning:"
+msgstr "অবস্থান: (&o)"
+
+#: imagepackage/contents/ui/config.qml:78
+msgid "Scaled && Cropped"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:82
+msgid "Scaled"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:86
+msgid "Scaled, Keep Proportions"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:90
+msgid "Centered"
+msgstr "কেন্দ্রস্থিত"
+
+#: imagepackage/contents/ui/config.qml:94
+msgid "Tiled"
+msgstr "টালি বিশিষ্ট"
+
+#: imagepackage/contents/ui/config.qml:143
+#, fuzzy
+#| msgid "&Change images every:"
+msgid "Change every:"
+msgstr "ছবি পরিবর্তন করা হবে প্রতি: (&C)"
+
+#: imagepackage/contents/ui/config.qml:156
+msgid "Hours"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:173
+msgid "Minutes"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:190
+msgid "Seconds"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:296
+#, fuzzy
+#| msgid "&Add Folder..."
+msgid "Add Folder"
+msgstr "ফোল্ডার যোগ করুন: (&A)"
+
+#: imagepackage/contents/ui/config.qml:302
+#, fuzzy
+#| msgid "..."
+msgid "Open..."
+msgstr "..."
+
+#: imagepackage/contents/ui/config.qml:307
+#, fuzzy
+#| msgid "Download new wallpapers"
+msgid "Download Wallpapers"
+msgstr "পটভূমির জন্য নতুন ছবি ডাউনলোড করুন"
+
+#: imagepackage/contents/ui/main.qml:91
+#, fuzzy
+#| msgid "Select Wallpaper Image File"
+msgid "Next Wallpaper Image"
+msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:120
+#, fuzzy
+#| msgid "Get New Wallpapers..."
+msgid "Remove wallpaper"
+msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:142
+#, fuzzy, kde-format
+#| msgctxt "Caption to wallpaper preview, %1 author name"
+#| msgid "by %1"
+msgid "%1 by %2"
+msgstr "%1 দ্বারা"
+
 #: wallpaperpackage.cpp:40
 #, fuzzy
 #| msgid "Images"
@@ -53,19 +135,8 @@ msgstr ""
 
 #, fuzzy
 #~| msgid "Select Wallpaper Image File"
-#~ msgid "Next Wallpaper Image"
-#~ msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
-
-#, fuzzy
-#~| msgid "Select Wallpaper Image File"
 #~ msgid "Open Wallpaper Image"
 #~ msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
-
-#~ msgid "Centered"
-#~ msgstr "কেন্দ্রস্থিত"
-
-#~ msgid "Tiled"
-#~ msgstr "টালি বিশিষ্ট"
 
 #~ msgid "Center Tiled"
 #~ msgstr "টালি বিশিষ্ট কেন্দ্রস্থিত"
@@ -79,11 +150,6 @@ msgstr ""
 #~ msgid "&Color:"
 #~ msgstr "রং: (&C)"
 
-#, fuzzy
-#~| msgid "..."
-#~ msgid "Open..."
-#~ msgstr "..."
-
 #~ msgid "Get New Wallpapers..."
 #~ msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
 
@@ -92,26 +158,11 @@ msgstr ""
 #~ msgid "Remove from list"
 #~ msgstr "ফোল্ডার মুছে ফেলুন (&R)"
 
-#, fuzzy
-#~| msgid "P&ositioning:"
-#~ msgid "&Positioning:"
-#~ msgstr "অবস্থান: (&o)"
-
-#, fuzzy
-#~| msgid "&Change images every:"
-#~ msgid "C&hange images every:"
-#~ msgstr "ছবি পরিবর্তন করা হবে প্রতি: (&C)"
-
 #~ msgctxt ""
 #~ "(qtdt-format) Please do not change the quotes (') and translate only the "
 #~ "content of the quotes."
 #~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
 #~ msgstr "hh 'ঘন্টা' mm 'মিনিট' ss 'সেকেন্ড'"
-
-#, fuzzy
-#~| msgid "Get New Wallpapers..."
-#~ msgid "&System wallpapers:"
-#~ msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
 
 #, fuzzy
 #~| msgid "Download new wallpapers"
@@ -123,18 +174,8 @@ msgstr ""
 #~ msgid "Custom folders:"
 #~ msgstr "ফোল্ডার:"
 
-#~ msgid "&Add Folder..."
-#~ msgstr "ফোল্ডার যোগ করুন: (&A)"
-
 #~ msgid "&Remove Folder"
 #~ msgstr "ফোল্ডার মুছে ফেলুন (&R)"
-
-#~ msgid "Download new wallpapers"
-#~ msgstr "পটভূমির জন্য নতুন ছবি ডাউনলোড করুন"
-
-#~ msgctxt "Caption to wallpaper preview, %1 author name"
-#~ msgid "by %1"
-#~ msgstr "%1 দ্বারা"
 
 #~ msgctxt "Wallpaper info, author name"
 #~ msgid "%1"
