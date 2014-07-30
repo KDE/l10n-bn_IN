@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-25 09:44+0000\n"
+"POT-Creation-Date: 2014-07-30 08:02+0000\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,6 +18,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: package/contents/config/config.qml:26
+#: package/contents/ui/ConfigLocation.qml:69
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgid "Location"
+msgstr "অবস্থান"
+
+#: package/contents/config/config.qml:32
+msgid "Icons"
+msgstr "আইকন"
+
+#: package/contents/config/config.qml:38
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
+msgid "Filter"
+msgstr "ফিল্টার"
 
 #: package/contents/ui/ConfigFilter.qml:54
 msgid "Show All Files"
@@ -191,15 +214,6 @@ msgstr ""
 #: package/contents/ui/ConfigIcons.qml:216
 msgid "More Preview Options..."
 msgstr ""
-
-#: package/contents/ui/ConfigLocation.qml:69
-#, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose which location should the "
-#| "folderview show"
-#| msgid "Location"
-msgid "Location"
-msgstr "অবস্থান"
 
 #: package/contents/ui/ConfigLocation.qml:87
 msgid "Show the Desktop folder"
@@ -527,18 +541,9 @@ msgstr "ডেস্কটপ ফোল্ডার"
 #~ msgid "Icons"
 #~ msgstr "আইকন"
 
-#~ msgctxt ""
-#~ "Title of the page that lets the user choose how to filter the folderview "
-#~ "contents"
-#~ msgid "Filter"
-#~ msgstr "ফিল্টার"
-
 #~ msgctxt "Sort icons"
 #~ msgid "Folders First"
 #~ msgstr "প্রথমে ফোল্ডার"
-
-#~ msgid "Icons"
-#~ msgstr "আইকন"
 
 #~ msgctxt "Inserted as %1 in the message below."
 #~ msgid "1 folder"
