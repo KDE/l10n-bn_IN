@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-01 08:54+0000\n"
+"POT-Creation-Date: 2014-08-05 10:38+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -39,7 +39,7 @@ msgctxt "Comment"
 msgid "A clock with hands"
 msgstr ""
 
-#: applets/batterymonitor/metadata.desktop:2
+#: applets/batterymonitor/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Display Settings"
@@ -47,12 +47,12 @@ msgctxt "Name"
 msgid "Battery & Brightness"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
-#: applets/batterymonitor/metadata.desktop:40
+#: applets/batterymonitor/package/metadata.desktop:40
 msgctxt "Comment"
 msgid "See the power status of your battery"
 msgstr ""
 
-#: applets/batterymonitor/metadata.desktop:114
+#: applets/batterymonitor/package/metadata.desktop:114
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Power Management"
@@ -971,6 +971,23 @@ msgctxt "Comment"
 msgid "You are running low on disk space"
 msgstr ""
 
+#: kcms/splash/kcm_splashscreen.desktop:15
+#: kcms/splash/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Splash Screen"
+msgstr ""
+
+#: kcms/splash/kcm_splashscreen.desktop:100
+#: kcms/splash/package/metadata.desktop:3
+msgctxt "Comment"
+msgid "Splash Screen Theme"
+msgstr ""
+
+#: kcms/splash/kcm_splashscreen.desktop:101
+msgctxt "X-KDE-Keywords"
+msgid "splash screen,splash theme,startup"
+msgstr ""
+
 #: kglobalaccel/kglobalaccel.desktop:10
 msgctxt "Name"
 msgid "KDED Global Shortcuts Server"
@@ -1440,6 +1457,7 @@ msgid "KDE's Progress Info UI server"
 msgstr ""
 
 #: lookandfeel/contents/loginmanager/metadata.desktop:2
+#: lookandfeel/metadata.desktop:76
 msgctxt "Name"
 msgid "Breeze"
 msgstr ""
@@ -1454,7 +1472,7 @@ msgstr ""
 #| msgctxt "Name"
 #| msgid "Desktop Sessions"
 msgctxt "Comment"
-msgid "Desktop Design Language"
+msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "ডেস্কটপের সেশান"
 
 #: lookandfeel/metadata.desktop:41
@@ -1463,14 +1481,6 @@ msgid ""
 "Desktop, Workspace, Appearance, Look and Feel, Logout, Lock, Suspend, "
 "Shutdown, Hibernate,"
 msgstr ""
-
-#: lookandfeel/metadata.desktop:76
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Look & Feel"
-msgctxt "Name"
-msgid "Look and Feel"
-msgstr "চেহারা ছবি"
 
 #: menu/desktop/hidden.directory:4
 #, fuzzy
@@ -2253,6 +2263,13 @@ msgstr "ছবি"
 msgctxt "Name"
 msgid "Slideshow"
 msgstr "স্লাইড-শো"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Look & Feel"
+#~ msgctxt "Name"
+#~ msgid "Look and Feel"
+#~ msgstr "চেহারা ছবি"
 
 #, fuzzy
 #~| msgctxt "Name"
