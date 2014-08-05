@@ -1,0 +1,150 @@
+# translation of kcmbell.po to Bengali (India)
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Arindam Ghosh <makghosh@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmbell\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-07-25 09:44+0000\n"
+"PO-Revision-Date: 2008-03-13 23:02+0530\n"
+"Last-Translator: Arindam Ghosh <makghosh@gmail.com>\n"
+"Language-Team: Bengali (India) <discuss@lists.ankur.org.in>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Arindam Ghosh"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "makghosh@gmail.com"
+
+#: bell.cpp:83
+msgid "Bell Settings"
+msgstr "বেলের বিন্যাস"
+
+#: bell.cpp:89
+msgid "&Use system bell instead of system notification"
+msgstr "সিস্টেম নোটিফিকেশনের বদলে সিস্টেম বেল ব্যবহৃত হবে (&U)"
+
+#: bell.cpp:90
+msgid ""
+"You can use the standard system bell (PC speaker) or a more sophisticated "
+"system notification, see the \"System Notifications\" control module for the "
+"\"Something Special Happened in the Program\" event."
+msgstr ""
+"আপনি সাধারন সিস্টেম বেল (পি.সি. স্পিকার) অথবা আরো সৌখিন বেল ব্যবহার করতে পারেন, "
+"\"সিস্টেম নোটিফিকেশন\" কন্ট্রোল ব্যবস্থাটি দেখুন \"প্রোগ্রামে বিশেষ কিছু হয়েছে\" এই "
+"ইভেন্টের জন্যে।"
+
+#: bell.cpp:97
+msgid ""
+"<h1>System Bell</h1> Here you can customize the sound of the standard system "
+"bell, i.e. the \"beep\" you always hear when there is something wrong. Note "
+"that you can further customize this sound using the \"Accessibility\" "
+"control module; for example, you can choose a sound file to be played "
+"instead of the standard bell."
+msgstr ""
+"<h1>সিস্টেম বেল</h1> এখানে আপনি সিস্টেম বেলের শব্দ নির্ধারিত করতে পারেন, মানে ওই "
+"\"বিপ\" শব্দ যেটা আপনি সাধারনতঃ শুনে থাকেন যখন কিছু অস্বাভাবিক হয়। লক্ষ করুন যে "
+"আপনি এই শব্দটা আরও স্বনির্বাচিত করতে পারেন \"এ্যাক্সেসিবিলিটি কন্ট্রোল ব্যবস্থা\" "
+"ব্যবহার করে; উদাহরন স্বরূপ, আপনি সাধারন বেলের বদলে যে কোনো সাউন্ড ফাইল প্লে করতে "
+"পারেন।"
+
+#: bell.cpp:106
+msgid "&Volume:"
+msgstr "ভলিউম (&V)"
+
+#: bell.cpp:107
+msgid ""
+"Here you can customize the volume of the system bell. For further "
+"customization of the bell, see the \"Accessibility\" control module."
+msgstr ""
+"এখানে আপনি সিস্টেম বেলের ভলিউম নির্ধারিত করতে পারেন। বেলটা আরও স্বনির্বাচিত করার "
+"জন্যে \"এ্যাক্সেসিবিলিটি\" কন্ট্রোল ব্যবস্থাটি দেখুন।"
+
+#: bell.cpp:112
+msgid " Hz"
+msgstr " হার্য"
+
+#: bell.cpp:114
+msgid "&Pitch:"
+msgstr "শব্দের তীব্রতা (&P)"
+
+#: bell.cpp:115
+msgid ""
+"Here you can customize the pitch of the system bell. For further "
+"customization of the bell, see the \"Accessibility\" control module."
+msgstr ""
+"এখানে আপনি সিস্টেম বেলের সব্দের তীব্রতা নির্ধারিত করতে পারেন। বেলটা আরও "
+"স্বনির্বাচিত করার জন্যে \"এ্যাক্সেসিবিলিটি\" কন্ট্রোল ব্যবস্থাটি দেখুন।"
+
+#: bell.cpp:120
+msgid " msec"
+msgstr " মিলিসেকেন্ড"
+
+#: bell.cpp:122
+msgid "&Duration:"
+msgstr "সময়কাল (&D):"
+
+#: bell.cpp:123
+msgid ""
+"Here you can customize the duration of the system bell. For further "
+"customization of the bell, see the \"Accessibility\" control module."
+msgstr ""
+"এখানে আপনি সিস্টেম বেলের সময়কাল নির্ধারিত করতে পারেন। বেলটা আরও স্বনির্বাচিত "
+"করার জন্যে \"এ্যাক্সেসিবিলিটি\" কন্ট্রোল ব্যবস্থাটি দেখুন।"
+
+#: bell.cpp:126
+msgid "&Test"
+msgstr "টেস্ট (&T)"
+
+#: bell.cpp:130
+msgid ""
+"Click \"Test\" to hear how the system bell will sound using your changed "
+"settings."
+msgstr ""
+"\"টেস্ট\" ক্লিক করে সিস্টেম বেল আপনার স্বনির্বাচিত বিন্যাসে কেমন শোনায় তা পরিক্ষা "
+"করে দেখুন।"
+
+#: bell.cpp:138
+msgid "KDE Bell Control Module"
+msgstr "KDE বেল কন্ট্রোল ব্যবস্থা"
+
+#: bell.cpp:140
+msgid "(c) 1997 - 2001 Christian Czezatke, Matthias Elter"
+msgstr "(c) 1997 - 2001 ক্রিশ্টিয়ন সেযাকে, ম্যথিয়স এল্টর"
+
+#: bell.cpp:142
+msgid "Christian Czezatke"
+msgstr "ক্রিশ্টিয়ন সেযাকে"
+
+#: bell.cpp:142
+msgid "Original author"
+msgstr "লেখক"
+
+#: bell.cpp:143
+msgid "Bernd Wuebben"
+msgstr "ব্যর্ন্ড উব্বেন"
+
+#: bell.cpp:144
+msgid "Matthias Elter"
+msgstr "ম্যথিয়স এল্টর"
+
+#: bell.cpp:144
+msgid "Current maintainer"
+msgstr "বর্তমান মেন্টেনার"
+
+#: bell.cpp:145
+msgid "Carsten Pfeiffer"
+msgstr "কার্স্টেন ফেইফার"
+
+#~ msgid "kcmbell"
+#~ msgstr "kcmbell"
