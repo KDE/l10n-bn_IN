@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuiserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-05 10:27+0000\n"
+"POT-Creation-Date: 2014-08-06 07:57+0000\n"
 "PO-Revision-Date: 2009-01-12 14:26+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,41 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
-#: configdialog.ui:31
-msgid "Finished Jobs"
-msgstr "সমাপ্ত কর্ম"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
-#: configdialog.ui:43
-msgid "Move them to a different list"
-msgstr "ভিন্ন তালিকায় স্থানান্তর করা হবে"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
-#: configdialog.ui:50
-msgid "Remove them"
-msgstr "মুছে ফেলুন"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
-#: configdialog.ui:60
-msgid "Appearance"
-msgstr "চেহারা"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
-#: configdialog.ui:72
-msgid "Show all jobs in a list"
-msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
-#: configdialog.ui:79
-msgid "Show all jobs in a tree"
-msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
-#: configdialog.ui:86
-msgid "Show separate windows"
-msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে"
 
 #: jobview.cpp:123 jobview.cpp:151
 #, kde-format
@@ -66,31 +31,6 @@ msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] "%1-টি ফোল্ডার"
 msgstr[1] "%1-টি ফোল্ডার"
-
-#. i18n: ectx: label, entry, group (Configuration)
-#: kuiserversettings.kcfg:8
-msgid "Move them to a different list."
-msgstr "ভিন্ন তালিকায় স্থানান্তর করুন।"
-
-#. i18n: ectx: label, entry, group (Configuration)
-#: kuiserversettings.kcfg:12
-msgid "Remove them."
-msgstr "মুছে ফেলুন।"
-
-#. i18n: ectx: label, entry, group (Configuration)
-#: kuiserversettings.kcfg:16
-msgid "Show all jobs in a list."
-msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
-
-#. i18n: ectx: label, entry, group (Configuration)
-#: kuiserversettings.kcfg:20
-msgid "Show all jobs in a tree."
-msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
-
-#. i18n: ectx: label, entry, group (Configuration)
-#: kuiserversettings.kcfg:24
-msgid "Show separate windows."
-msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে।"
 
 #: progresslistdelegate.cpp:145
 #, kde-format
@@ -139,6 +79,42 @@ msgstr ""
 #: uiserver.cpp:128
 msgid "Behavior"
 msgstr "আচরণ"
+
+#~ msgid "Finished Jobs"
+#~ msgstr "সমাপ্ত কর্ম"
+
+#~ msgid "Move them to a different list"
+#~ msgstr "ভিন্ন তালিকায় স্থানান্তর করা হবে"
+
+#~ msgid "Remove them"
+#~ msgstr "মুছে ফেলুন"
+
+#~ msgid "Appearance"
+#~ msgstr "চেহারা"
+
+#~ msgid "Show all jobs in a list"
+#~ msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
+
+#~ msgid "Show all jobs in a tree"
+#~ msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
+
+#~ msgid "Show separate windows"
+#~ msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে"
+
+#~ msgid "Move them to a different list."
+#~ msgstr "ভিন্ন তালিকায় স্থানান্তর করুন।"
+
+#~ msgid "Remove them."
+#~ msgstr "মুছে ফেলুন।"
+
+#~ msgid "Show all jobs in a list."
+#~ msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
+
+#~ msgid "Show all jobs in a tree."
+#~ msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
+
+#~ msgid "Show separate windows."
+#~ msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে।"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
