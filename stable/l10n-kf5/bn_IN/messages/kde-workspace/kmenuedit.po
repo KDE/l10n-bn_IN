@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-02 08:12+0000\n"
+"POT-Creation-Date: 2014-08-07 08:45+0000\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -74,7 +74,7 @@ msgstr "শুধুমাত্র KDE-র মধ্যে প্রদর্�
 msgid "Hidden entry"
 msgstr "আড়াল করা এনট্রি"
 
-#: basictab.cpp:143 preferencesdlg.cpp:76
+#: basictab.cpp:143 preferencesdlg.cpp:75
 msgid "General"
 msgstr "সাধারণ"
 
@@ -178,21 +178,6 @@ msgstr ""
 msgid "Save Menu Changes?"
 msgstr "মেনুর পরিবর্তন সংরক্ষণ করা হবে কি?"
 
-#. i18n: ectx: Menu (file)
-#: kmenueditui.rc:6
-msgid "&File"
-msgstr "ফাইল (&F)"
-
-#. i18n: ectx: Menu (edit)
-#: kmenueditui.rc:16
-msgid "&Edit"
-msgstr "সম্পাদনা (&E)"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: kmenueditui.rc:33
-msgid "Main Toolbar"
-msgstr "প্রধান টুল-বার"
-
 #: main.cpp:34
 msgid "KDE menu editor"
 msgstr "KDE মেনু সম্পাদনা ব্যবস্থা"
@@ -246,21 +231,21 @@ msgstr "পূর্বে নির্বাচনের জন্য চিহ
 msgid "Could not write to %1"
 msgstr "%1-এ লেখা যায়নি"
 
-#: preferencesdlg.cpp:39
+#: preferencesdlg.cpp:38
 #, fuzzy
 #| msgid "Terminal &options:"
 msgid "General options"
 msgstr "টার্মিন্যাল সংক্রান্ত বিকল্প (&o)"
 
-#: preferencesdlg.cpp:44
+#: preferencesdlg.cpp:43
 msgid "Spell Checking"
 msgstr "বানান পরীক্ষণ"
 
-#: preferencesdlg.cpp:45
+#: preferencesdlg.cpp:44
 msgid "Spell checking Options"
 msgstr "বানান পরীক্ষণ সংক্রান্ত বিকল্প"
 
-#: preferencesdlg.cpp:78
+#: preferencesdlg.cpp:77
 msgid "Show hidden entries"
 msgstr "আড়াল করা এনট্রি প্রদর্শন করা হবে"
 
@@ -268,38 +253,47 @@ msgstr "আড়াল করা এনট্রি প্রদর্শন ক�
 msgid " [Hidden]"
 msgstr " [Hidden]"
 
-#: treeview.cpp:1134
+#: treeview.cpp:1132
 msgid "New Submenu"
 msgstr "নতুন সাব-মেনু"
 
-#: treeview.cpp:1135
+#: treeview.cpp:1133
 msgid "Submenu name:"
 msgstr "সাব-মেনুর নাম:"
 
-#: treeview.cpp:1204
+#: treeview.cpp:1202
 msgid "New Item"
 msgstr "নতুন বস্তু"
 
-#: treeview.cpp:1205
+#: treeview.cpp:1203
 msgid "Item name:"
 msgstr "বস্তুর নাম:"
 
-#: treeview.cpp:1696
+#: treeview.cpp:1694
 #, kde-format
 msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr "'%1'-র সকল সাব-মেনু মুছে ফেলা হবে। আপনি কি এগিয়ে যেতে ইচ্ছুক?"
 
-#: treeview.cpp:1862
+#: treeview.cpp:1860
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "নিম্নলিখিত কারণে, মেনুর মধ্যে করা পরিবর্তনগুলি সংরক্ষণ করা সম্ভব হয়নি:"
 
-#: treeview.cpp:1907
+#: treeview.cpp:1905
 msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."
 msgstr ""
 "সিস্টেম মেনু পুনরুদ্ধার করা হবে কি? সতর্কবার্তা: এর ফলে, স্বনির্ধারিত সকল মেনু মুছে "
 "ফেলা হবে।"
+
+#~ msgid "&File"
+#~ msgstr "ফাইল (&F)"
+
+#~ msgid "&Edit"
+#~ msgstr "সম্পাদনা (&E)"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "প্রধান টুল-বার"
 
 #, fuzzy
 #~| msgid "&Name:"
