@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 08:45+0000\n"
+"POT-Creation-Date: 2014-08-08 09:24+0000\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -178,6 +178,21 @@ msgstr ""
 msgid "Save Menu Changes?"
 msgstr "মেনুর পরিবর্তন সংরক্ষণ করা হবে কি?"
 
+#. i18n: ectx: Menu (file)
+#: kmenueditui.rc:6
+msgid "&File"
+msgstr "ফাইল (&F)"
+
+#. i18n: ectx: Menu (edit)
+#: kmenueditui.rc:16
+msgid "&Edit"
+msgstr "সম্পাদনা (&E)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kmenueditui.rc:33
+msgid "Main Toolbar"
+msgstr "প্রধান টুল-বার"
+
 #: main.cpp:34
 msgid "KDE menu editor"
 msgstr "KDE মেনু সম্পাদনা ব্যবস্থা"
@@ -285,15 +300,6 @@ msgid ""
 msgstr ""
 "সিস্টেম মেনু পুনরুদ্ধার করা হবে কি? সতর্কবার্তা: এর ফলে, স্বনির্ধারিত সকল মেনু মুছে "
 "ফেলা হবে।"
-
-#~ msgid "&File"
-#~ msgstr "ফাইল (&F)"
-
-#~ msgid "&Edit"
-#~ msgstr "সম্পাদনা (&E)"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "প্রধান টুল-বার"
 
 #, fuzzy
 #~| msgid "&Name:"
