@@ -21,24 +21,27 @@ msgstr ""
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "রুণা ভট্টাচার্য্য"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "runab@redhat.com"
 
 #: bindings.cpp:34
 msgid "Switch to Next Keyboard Layout"
-msgstr ""
+msgstr "পরবর্তী কি-বোর্ড বিন্যাসে পরিবর্তন করুন"
 
 #: bindings.cpp:35
+#, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Layout Switcher"
-msgstr ""
+msgstr "KDE Keyboard Layout Switcher"
 
 #: bindings.cpp:68
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
-msgstr ""
+msgstr "'%1' কি-বোর্ড বিন্যাসে পরিবর্তন করতে সমস্যা"
 
 #: flags.cpp:138
 #, kde-format
@@ -57,9 +60,12 @@ msgid "Any language"
 msgstr ""
 
 #: kcm_add_layout_dialog.cpp:134 kcm_view_models.cpp:308
+#, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
-msgstr ""
+msgstr "ডিফল্ট"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
@@ -86,7 +92,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelLabel)
 #: kcm_add_layout_dialog.ui:64
 msgid "Label:"
-msgstr ""
+msgstr "লেবেল:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kcm_add_layout_dialog.ui:71
@@ -100,12 +106,16 @@ msgid "Preview"
 msgstr ""
 
 #: kcm_keyboard.cpp:52
+#, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
-msgstr ""
+msgstr "KDE Keyboard Layout Switcher"
 
 #: kcm_keyboard.cpp:54
+#, fuzzy
+#| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
-msgstr ""
+msgstr "স্বত্বাধিকার (C) ২০০৬-২০০৭ অ্যান্ড্রি রাইসিন"
 
 #: kcm_keyboard.cpp:57
 msgid ""
@@ -185,27 +195,27 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, switchingPolicyButtonGroup)
 #: kcm_keyboard.ui:149
 msgid "Switching Policy"
-msgstr ""
+msgstr "অদলবদলের নিয়ম"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByGlobalRadioBtn)
 #: kcm_keyboard.ui:155
 msgid "&Global"
-msgstr ""
+msgstr "সার্বজনীন (&G)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByDesktopRadioBtn)
 #: kcm_keyboard.ui:165
 msgid "&Desktop"
-msgstr ""
+msgstr "ডেস্কটপ (&D)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByApplicationRadioBtn)
 #: kcm_keyboard.ui:172
 msgid "&Application"
-msgstr ""
+msgstr "অ্যাপ্লিকেশন (&A)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByWindowRadioBtn)
 #: kcm_keyboard.ui:179
 msgid "&Window"
-msgstr ""
+msgstr "উইন্ডো (&W)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: kcm_keyboard.ui:189
@@ -237,12 +247,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, xkb3rdLevelClearBtn)
 #: kcm_keyboard.ui:218 kcm_keyboard.ui:248
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm_keyboard.ui:225
 msgid "3rd level shortcuts:"
-msgstr ""
+msgstr "তৃতীয় স্তরের শর্ট-কাট:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, xkb3rdLevelShortcutBtn)
 #: kcm_keyboard.ui:238
@@ -254,7 +264,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm_keyboard.ui:255
 msgid "Alternative shortcut:"
-msgstr ""
+msgstr "বিকল্প শর্ট-কাট:"
 
 #. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, kdeKeySequence)
 #: kcm_keyboard.ui:268
@@ -306,7 +316,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabAdvanced)
 #: kcm_keyboard.ui:437
 msgid "Advanced"
-msgstr ""
+msgstr "উন্নত বৈশিষ্ট্য"
 
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:443
@@ -338,9 +348,11 @@ msgid "No layout selected "
 msgstr ""
 
 #: kcm_keyboard_widget.cpp:603
+#, fuzzy
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
-msgstr ""
+msgstr "শূণ্য"
 
 #: kcm_keyboard_widget.cpp:619
 #, kde-format
@@ -350,25 +362,29 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: kcm_view_models.cpp:224
+#, fuzzy
+#| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
-msgstr ""
+msgstr "ম্যাপ"
 
 #: kcm_view_models.cpp:224
 msgid "Layout"
-msgstr ""
+msgstr "বিন্যাস"
 
 #: kcm_view_models.cpp:224
 msgid "Variant"
-msgstr ""
+msgstr "ধরন"
 
 #: kcm_view_models.cpp:224
 msgid "Label"
-msgstr ""
+msgstr "লেবেল"
 
 #: kcm_view_models.cpp:224
+#, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Shortcut"
-msgstr ""
+msgstr "প্রধান শর্ট-কাট:"
 
 #. i18n: ectx: property (whatsThis), widget (KButtonGroup, numlockGroupBox)
 #: kcmmiscwidget.ui:17
