@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-28 08:17+0000\n"
+"POT-Creation-Date: 2014-08-30 08:07+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -766,7 +766,12 @@ msgctxt "Comment"
 msgid "Allows images to be shared using the wstaw.org service"
 msgstr ""
 
-#: dataengines/share/data/plasma-packagestructure-share.desktop:2
+#: dataengines/share/data/plasma_shareprovider.desktop:4
+msgctxt "Comment"
+msgid "Plugin for Plasma Sharebin"
+msgstr ""
+
+#: dataengines/share/packagestructure/plasma-packagestructure-share.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Services"
@@ -774,18 +779,13 @@ msgctxt "Name"
 msgid "ShareProvider"
 msgstr "পরিসেবা"
 
-#: dataengines/share/data/plasma-packagestructure-share.desktop:57
+#: dataengines/share/packagestructure/plasma-packagestructure-share.desktop:57
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Ruby Package Structure"
 msgctxt "Comment"
 msgid "Share Package Structure"
 msgstr "Ruby প্যাকেজের গঠন"
-
-#: dataengines/share/data/plasma_shareprovider.desktop:4
-msgctxt "Comment"
-msgid "Plugin for Plasma Sharebin"
-msgstr ""
 
 #: dataengines/share/plasma-dataengine-share.desktop:2
 #, fuzzy
@@ -1825,7 +1825,7 @@ msgctxt "Name"
 msgid "Plasma Windowed"
 msgstr "ডেস্কটপ"
 
-#: plasma-windowed/plasma-windowed.desktop:3
+#: plasma-windowed/plasma-windowed.desktop:12
 msgctxt "Comment"
 msgid "Run Plasmoids as simple applications"
 msgstr ""
@@ -2013,6 +2013,29 @@ msgstr "উইন্ডো"
 #: runners/windows/plasma-runner-windows.desktop:73
 msgctxt "Comment"
 msgid "List windows and desktops and switch them"
+msgstr ""
+
+#: shell/packageplugins/layouttemplate/plasma-packagestructure-layouttemplate.desktop:2
+msgctxt "Name"
+msgid "Layout Template"
+msgstr ""
+
+#: shell/packageplugins/lookandfeel/plasma-packagestructure-lookandfeel.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Look & Feel"
+msgctxt "Name"
+msgid "Look and Feel"
+msgstr "চেহারা ছবি"
+
+#: shell/packageplugins/shell/plasma-packagestructure-plasma-shell.desktop:2
+msgctxt "Name"
+msgid "Plasma Shell"
+msgstr ""
+
+#: shell/packageplugins/wallpaper/plasma-packagestructure-wallpaper.desktop:2
+msgctxt "Name"
+msgid "Wallpaper"
 msgstr ""
 
 #: shell/plasmashell.desktop:4
@@ -2306,13 +2329,6 @@ msgstr "ছবি"
 msgctxt "Name"
 msgid "Slideshow"
 msgstr "স্লাইড-শো"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Look & Feel"
-#~ msgctxt "Name"
-#~ msgid "Look and Feel"
-#~ msgstr "চেহারা ছবি"
 
 #, fuzzy
 #~| msgctxt "Name"
