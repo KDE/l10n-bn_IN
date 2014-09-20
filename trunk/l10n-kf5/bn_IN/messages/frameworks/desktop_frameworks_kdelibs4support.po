@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-26 10:12+0000\n"
+"POT-Creation-Date: 2014-09-20 08:11+0000\n"
 "PO-Revision-Date: 2009-01-16 08:17+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2418,14 +2418,6 @@ msgctxt "Name"
 msgid "Zulu"
 msgstr "জুলু"
 
-#: src/kdecore/entry.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "English"
-msgctxt "Name"
-msgid "US English"
-msgstr "ইংরেজি"
-
 #: src/kio/imageformats/qimageio_plugin.desktop:4
 msgctxt "Comment"
 msgid "QImageIOHandler plugin"
@@ -3968,12 +3960,19 @@ msgctxt "Name"
 msgid "Network Status"
 msgstr "নেটওয়ার্ক সংক্রান্ত বৈশিষ্ট্য"
 
-#: src/solid-networkstatus/kded/networkstatus.desktop:66
+#: src/solid-networkstatus/kded/networkstatus.desktop:65
 msgctxt "Comment"
 msgid ""
 "Tracks status of network interfaces and provides notification to "
 "applications using the network."
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "English"
+#~ msgctxt "Name"
+#~ msgid "US English"
+#~ msgstr "ইংরেজি"
 
 #~ msgctxt "Comment"
 #~ msgid "Instant Messenger with a D-Bus interface"
