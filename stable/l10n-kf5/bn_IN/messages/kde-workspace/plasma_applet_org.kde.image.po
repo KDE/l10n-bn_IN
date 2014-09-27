@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 08:45+0000\n"
+"POT-Creation-Date: 2014-09-27 09:15+0000\n"
 "PO-Revision-Date: 2008-12-22 17:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,18 +18,26 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: backgroundlistmodel.cpp:360
+#: backgroundlistmodel.cpp:357
 msgctxt "Unknown Author"
 msgid "Unknown"
 msgstr ""
 
-#: image.cpp:521
+#: image.cpp:184
+msgid "Recommended wallpaper file"
+msgstr ""
+
+#: image.cpp:319
+msgid "Directory with the wallpaper to show slides from"
+msgstr ""
+
+#: image.cpp:601
 #, fuzzy
 #| msgid "Select Wallpaper Image File"
 msgid "Open Image"
 msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
 
-#: image.cpp:523
+#: image.cpp:603
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
 msgstr ""
 
@@ -81,60 +89,50 @@ msgstr ""
 msgid "Seconds"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:296
+#: imagepackage/contents/ui/config.qml:292
 #, fuzzy
 #| msgid "&Add Folder..."
 msgid "Add Folder"
 msgstr "ফোল্ডার যোগ করুন: (&A)"
 
-#: imagepackage/contents/ui/config.qml:302
+#: imagepackage/contents/ui/config.qml:298
 #, fuzzy
 #| msgid "..."
 msgid "Open..."
 msgstr "..."
 
-#: imagepackage/contents/ui/config.qml:307
+#: imagepackage/contents/ui/config.qml:303
 #, fuzzy
 #| msgid "Download new wallpapers"
 msgid "Download Wallpapers"
 msgstr "পটভূমির জন্য নতুন ছবি ডাউনলোড করুন"
 
-#: imagepackage/contents/ui/main.qml:95
+#: imagepackage/contents/ui/main.qml:91
 #, fuzzy
 #| msgid "Select Wallpaper Image File"
 msgid "Next Wallpaper Image"
 msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:121
+#: imagepackage/contents/ui/WallpaperDelegate.qml:92
 #, fuzzy
 #| msgid "Get New Wallpapers..."
 msgid "Remove wallpaper"
 msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:143
+#: imagepackage/contents/ui/WallpaperDelegate.qml:129
 #, fuzzy, kde-format
 #| msgctxt "Caption to wallpaper preview, %1 author name"
 #| msgid "by %1"
 msgid "%1 by %2"
 msgstr "%1 দ্বারা"
 
-#: wallpaperpackage.cpp:40
 #, fuzzy
-#| msgid "Images"
-msgid "Images"
-msgstr "ছবি"
+#~| msgid "Images"
+#~ msgid "Images"
+#~ msgstr "ছবি"
 
-#: wallpaperpackage.cpp:47
-msgid "Screenshot"
-msgstr "পর্দার ছবি"
-
-#: wallpaperpackage.cpp:95 wallpaperpackage.cpp:152
-msgid "Recommended wallpaper file"
-msgstr ""
-
-#: wallpaperpackage.cpp:96
-msgid "Preview"
-msgstr ""
+#~ msgid "Screenshot"
+#~ msgstr "পর্দার ছবি"
 
 #, fuzzy
 #~| msgid "Select Wallpaper Image File"

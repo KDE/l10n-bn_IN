@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:56+0000\n"
+"POT-Creation-Date: 2014-09-27 09:13+0000\n"
 "PO-Revision-Date: 2008-11-26 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -265,11 +265,13 @@ msgstr "PID"
 msgid "Open Files"
 msgstr "খোলা ফাইল"
 
-#: ksmbstatus.cpp:157
-msgid "Error: Unable to run smbstatus"
+#: ksmbstatus.cpp:172
+#, fuzzy, kde-format
+#| msgid "Error: Unable to run smbstatus"
+msgid "Error run smbstatus: %1"
 msgstr "ত্রুটি: smbstatus সঞ্চালন করতে ব্যর্থ"
 
-#: ksmbstatus.cpp:179
+#: ksmbstatus.cpp:175
 msgid "Error: Unable to open configuration file \"smb.conf\""
 msgstr "ত্রুটি: কনফিগারেশন ফাইল \"smb.conf\" খুলতে ব্যর্থ"
 
