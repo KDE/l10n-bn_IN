@@ -299,7 +299,7 @@ msgstr "আবর্জনার বাক্সে স্থানান্ত�
 
 #: plugin/foldermodel.cpp:988 plugin/internallibkonq/konq_popupmenu.cpp:348
 msgid "&Empty Trash Bin"
-msgstr ""
+msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
 #: plugin/foldermodel.cpp:991
 msgid "&Delete"
@@ -312,12 +312,12 @@ msgstr "পেস্ট করুন (&P)"
 #: plugin/internallibkonq/konq_copytomenu.cpp:84
 msgctxt "@title:menu"
 msgid "Copy To"
-msgstr ""
+msgstr "চিহ্নিত স্থানে কপি করুন"
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:90
 msgctxt "@title:menu"
 msgid "Move To"
-msgstr ""
+msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:114
 #, fuzzy
@@ -336,21 +336,21 @@ msgstr "ডেস্কটপ ফোল্ডার"
 #: plugin/internallibkonq/konq_copytomenu.cpp:157
 msgctxt "@title:menu in Copy To or Move To submenu"
 msgid "Browse..."
-msgstr ""
+msgstr "ব্রাউজ করুন..."
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:228
 msgctxt "@title:menu"
 msgid "Copy Here"
-msgstr ""
+msgstr "এইখানে কপি করুন"
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:229
 msgctxt "@title:menu"
 msgid "Move Here"
-msgstr ""
+msgstr "এইখানে স্থানান্তর করুন"
 
 #: plugin/internallibkonq/konq_operations.cpp:313
 msgid "You cannot drop a folder on to itself"
-msgstr ""
+msgstr "কোনো ফোল্ডারকে নিজের মধ্যে স্থাপন করা সম্ভব নয়"
 
 #: plugin/internallibkonq/konq_operations.cpp:359
 msgid "File name for dropped contents:"
@@ -358,33 +358,37 @@ msgstr ""
 
 #: plugin/internallibkonq/konq_operations.cpp:571
 msgid "&Move Here"
-msgstr ""
+msgstr "এইখানে স্থানান্ত করুন (&M)"
 
 #: plugin/internallibkonq/konq_operations.cpp:575
 msgid "&Copy Here"
-msgstr ""
+msgstr "এইখানে কপি করুন (&C)"
 
 #: plugin/internallibkonq/konq_operations.cpp:579
 msgid "&Link Here"
-msgstr ""
+msgstr "এইখানের লিংক করুন (&L)"
 
 #: plugin/internallibkonq/konq_operations.cpp:581
 msgid "Set as &Wallpaper"
-msgstr ""
+msgstr "ওয়াল-পেপার রূপে নির্ধারণ করুন (&W)"
 
 #: plugin/internallibkonq/konq_operations.cpp:583
 msgid "C&ancel"
-msgstr ""
+msgstr "বাতিল করুন (&a)"
 
 #: plugin/internallibkonq/konq_operations.cpp:895
+#, fuzzy
+#| msgid "Create New"
 msgctxt "@action:button"
 msgid "Create directory"
-msgstr ""
+msgstr "নতুন নির্মাণ করুন"
 
 #: plugin/internallibkonq/konq_operations.cpp:897
+#, fuzzy
+#| msgid "Enter folder name:"
 msgctxt "@action:button"
 msgid "Enter a different name"
-msgstr ""
+msgstr "ফোল্ডারের নাম লিখুন:"
 
 #: plugin/internallibkonq/konq_operations.cpp:900
 #, kde-format
@@ -394,9 +398,11 @@ msgid ""
 msgstr ""
 
 #: plugin/internallibkonq/konq_operations.cpp:901
+#, fuzzy
+#| msgid "Create New"
 msgctxt "@title:window"
 msgid "Create hidden directory?"
-msgstr ""
+msgstr "নতুন নির্মাণ করুন"
 
 #: plugin/internallibkonq/konq_operations.cpp:916
 #, fuzzy
@@ -413,9 +419,11 @@ msgid "New Folder"
 msgstr "ডেস্কটপ ফোল্ডার"
 
 #: plugin/internallibkonq/konq_operations.cpp:924
+#, fuzzy
+#| msgid "Enter folder name:"
 msgctxt "@label:textbox"
 msgid "Enter folder name:"
-msgstr ""
+msgstr "ফোল্ডারের নাম লিখুন:"
 
 #: plugin/internallibkonq/konq_operations.cpp:1037
 #, fuzzy
@@ -451,15 +459,15 @@ msgstr "পেস্ট করুন (&P)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:252
 msgid "&Open"
-msgstr ""
+msgstr "খুলুন (&O)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:279
 msgid "Create &Folder..."
-msgstr ""
+msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:290
 msgid "&Restore"
-msgstr ""
+msgstr "পুনরুদ্ধার (&R)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:291
 msgid ""
@@ -484,40 +492,42 @@ msgid ""
 msgstr ""
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:361
+#, fuzzy
+#| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
-msgstr ""
+msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:387
 msgid "&Bookmark This Page"
-msgstr ""
+msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:389
 msgid "&Bookmark This Location"
-msgstr ""
+msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:392
 msgid "&Bookmark This Folder"
-msgstr ""
+msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:394
 msgid "&Bookmark This Link"
-msgstr ""
+msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:396
 msgid "&Bookmark This File"
-msgstr ""
+msgstr "বর্তমান ফাইল লিংক করুন (&B)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:426
 msgid "Preview In"
-msgstr ""
+msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:461
 msgid "&Properties"
-msgstr ""
+msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:477
 msgid "Share"
-msgstr ""
+msgstr "যৌথ ব্যবহার"
 
 #: plugin/labelgenerator.cpp:97
 msgid "Desktop Folder"
