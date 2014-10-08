@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-29 07:46+0000\n"
+"POT-Creation-Date: 2014-10-08 07:53+0000\n"
 "PO-Revision-Date: 2009-12-28 21:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -225,24 +225,26 @@ msgid ""
 "still end up using them)."
 msgstr ""
 
-#: keditfiletype.cpp:133
-msgid "KEditFileType"
-msgstr "KEditFileType"
-
 #: keditfiletype.cpp:134
+#, fuzzy
+#| msgid "File type %1"
+msgid "File Type Editor"
+msgstr "ফাইলের ধরন %1"
+
+#: keditfiletype.cpp:135
 msgid ""
 "KDE file type editor - simplified version for editing a single file type"
 msgstr ""
 
-#: keditfiletype.cpp:136
+#: keditfiletype.cpp:137
 msgid "(c) 2000, KDE developers"
 msgstr "(c) ২০০০, KDE নির্মাতাবৃন্দ"
 
-#: keditfiletype.cpp:137
+#: keditfiletype.cpp:138
 msgid "Preston Brown"
 msgstr "প্রেস্টন ব্রাউন"
 
-#: keditfiletype.cpp:138
+#: keditfiletype.cpp:139
 msgid "David Faure"
 msgstr "ডেভিড ফেউরে"
 
@@ -392,6 +394,9 @@ msgid ""
 "category and you type 'custom' here, the file type 'image/custom' will be "
 "created."
 msgstr ""
+
+#~ msgid "KEditFileType"
+#~ msgstr "KEditFileType"
 
 #~ msgid "You are not authorized to remove this service."
 #~ msgstr "এই পরিসেবা সরানোর জন্য পর্যাপ্ত অনুমতি আপনার নেই।"
