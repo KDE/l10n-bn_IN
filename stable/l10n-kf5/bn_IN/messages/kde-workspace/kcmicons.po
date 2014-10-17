@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-27 09:14+0000\n"
+"POT-Creation-Date: 2014-10-17 09:34+0000\n"
 "PO-Revision-Date: 2009-01-06 12:22+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -141,11 +141,11 @@ msgstr "ইফেক্ট সংক্রান্ত পরামিতি"
 msgid "&Amount:"
 msgstr "পরিমাণ: (&A)"
 
-#: icons.cpp:603
+#: icons.cpp:602
 msgid "Co&lor:"
 msgstr "রং: (&l)"
 
-#: icons.cpp:609
+#: icons.cpp:607
 msgid "&Second color:"
 msgstr "দ্বিতীয় রং: (&S)"
 
@@ -157,15 +157,15 @@ msgstr "নাম"
 msgid "Description"
 msgstr "বিবরণ"
 
-#: iconthemes.cpp:106
+#: iconthemes.cpp:105
 msgid "Install Theme File..."
 msgstr "থিম ফাইল ইনস্টল করুন..."
 
-#: iconthemes.cpp:108
+#: iconthemes.cpp:107
 msgid "Install a theme archive file you already have locally"
 msgstr "স্থানীয় মেশিনে উপস্থিত কোনো থিম আকাইভ ফাইল ইনস্টল করুন"
 
-#: iconthemes.cpp:109
+#: iconthemes.cpp:108
 msgid ""
 "If you already have a theme archive locally, this button will unpack it and "
 "make it available for KDE applications"
@@ -173,51 +173,51 @@ msgstr ""
 "এই বাটনের সাহায্যে, স্থানীয় মেশিনে উপস্থিত কোনো থিম আকাইভ ফাইল আন-প্যাক করা হবে "
 "ও KDE অ্যাপ্লিকেশনের সাথে ব্যবহারের জন্য উপলব্ধ করা হবে।"
 
-#: iconthemes.cpp:112
+#: iconthemes.cpp:111
 msgid "Get New Themes..."
 msgstr "নতুন থিম প্রাপ্ত করুন..."
 
-#: iconthemes.cpp:114
+#: iconthemes.cpp:113
 msgid "Get new themes from the Internet"
 msgstr "ইন্টারনেট থেকে নতুন থিম প্রাপ্ত করুন"
 
-#: iconthemes.cpp:115
+#: iconthemes.cpp:114
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of themes from the http://www.kde.org website. Clicking the "
 "Install button associated with a theme will install this theme locally."
 msgstr ""
 
-#: iconthemes.cpp:118
+#: iconthemes.cpp:117
 msgid "Remove Theme"
 msgstr "থিম মুছে ফেলুন"
 
-#: iconthemes.cpp:120
+#: iconthemes.cpp:119
 msgid "Remove the selected theme from your disk"
 msgstr "নির্বাচিত থিমটি ডিস্ক থেকে মুছে ফেলুন"
 
-#: iconthemes.cpp:121
+#: iconthemes.cpp:120
 msgid "This will remove the selected theme from your disk."
 msgstr "এর ফলে, নির্বাচিত থিমটি ডিস্ক থেকে মুছে ফেলা হবে।"
 
-#: iconthemes.cpp:125
+#: iconthemes.cpp:124
 msgid "Select the icon theme you want to use:"
 msgstr "ব্যবহারযোগ্য আইকন থিম নির্বাচন করুন:"
 
-#: iconthemes.cpp:193
+#: iconthemes.cpp:192
 msgid "Drag or Type Theme URL"
 msgstr "থিম URL ড্র্যাগ করুন অথবা লিখুন"
 
-#: iconthemes.cpp:203
+#: iconthemes.cpp:202
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: iconthemes.cpp:208
+#: iconthemes.cpp:207
 #, kde-format
 msgid "Unable to find the icon theme archive %1."
 msgstr "আইকন থিমের আর্কাইভ %1 অনুসন্ধান করতে ব্যর্থ।"
 
-#: iconthemes.cpp:211
+#: iconthemes.cpp:210
 #, kde-format
 msgid ""
 "Unable to download the icon theme archive;\n"
@@ -226,11 +226,11 @@ msgstr ""
 "আইকন থিমের আর্কাইভ ডাউনলোড করতে ব্যর্থ;\n"
 "অনুগ্রহ করে %1 ঠিকানার বৈধতা যাচাই করুন।"
 
-#: iconthemes.cpp:220
+#: iconthemes.cpp:219
 msgid "The file is not a valid icon theme archive."
 msgstr "চিহ্নিত ফাইলটি বৈধ আইকন থিম আর্কাইভ ফাইল নয়।"
 
-#: iconthemes.cpp:229
+#: iconthemes.cpp:228
 msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
@@ -238,18 +238,18 @@ msgstr ""
 "ইনস্টলেশনের সময় সমস্যা দেখা দিয়েছে; তথাপি, আর্কাইভের মধ্যে উপস্থিত অধিকাংশ থিম "
 "ইনস্টল করা হয়েছে"
 
-#: iconthemes.cpp:249
+#: iconthemes.cpp:248
 #, fuzzy
 #| msgid "Installing icon themes"
 msgid "Installing icon themes..."
 msgstr "আইকন থিম ইনস্টল করা হচ্ছে"
 
-#: iconthemes.cpp:266
+#: iconthemes.cpp:265
 #, kde-format
 msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgstr "<qt><strong>%1</strong> থিম ইনস্টল করা হচ্ছে</qt>"
 
-#: iconthemes.cpp:358
+#: iconthemes.cpp:357
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> icon theme?<br /"
@@ -258,7 +258,7 @@ msgstr ""
 "<qt>আপনি কি নিশ্চিতরূপে <strong>%1</strong> আইকন থিম মুছে ফেলতে ইচ্ছুক?<br /><br /"
 ">এর ফলে, এই থিম দ্বারা ইনস্টল করা সকল ফাইল মুছে ফেলা হবে।</qt>"
 
-#: iconthemes.cpp:366
+#: iconthemes.cpp:365
 msgid "Confirmation"
 msgstr "নিশ্চিতি"
 
