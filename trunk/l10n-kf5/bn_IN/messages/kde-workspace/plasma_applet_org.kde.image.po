@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-04 08:13+0000\n"
+"POT-Creation-Date: 2014-10-23 08:06+0000\n"
 "PO-Revision-Date: 2008-12-22 17:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -23,29 +23,31 @@ msgctxt "Unknown Author"
 msgid "Unknown"
 msgstr ""
 
-#: image.cpp:184
+#: image.cpp:186
 msgid "Recommended wallpaper file"
 msgstr ""
 
-#: image.cpp:319
+#: image.cpp:321
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
-#: image.cpp:564 imagepackage/contents/ui/config.qml:303
+#: image.cpp:566 imagepackage/contents/ui/config.qml:303
 #, fuzzy
 #| msgid "Download new wallpapers"
 msgid "Download Wallpapers"
 msgstr "পটভূমির জন্য নতুন ছবি ডাউনলোড করুন"
 
-#: image.cpp:604
+#: image.cpp:613
 #, fuzzy
 #| msgid "Select Wallpaper Image File"
 msgid "Open Image"
 msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
 
-#: image.cpp:606
-msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
-msgstr ""
+#: image.cpp:615
+#, fuzzy
+#| msgid "Images"
+msgid "Image Files"
+msgstr "ছবি"
 
 #: imagepackage/contents/ui/ColorPicker.qml:80
 msgid "Background Color:"
@@ -125,11 +127,6 @@ msgstr "পটভূমির জন্য নতুন ছবি প্রা�
 #| msgid "by %1"
 msgid "%1 by %2"
 msgstr "%1 দ্বারা"
-
-#, fuzzy
-#~| msgid "Images"
-#~ msgid "Images"
-#~ msgstr "ছবি"
 
 #~ msgid "Screenshot"
 #~ msgstr "পর্দার ছবি"

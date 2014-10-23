@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-21 08:06+0000\n"
+"POT-Creation-Date: 2014-10-23 08:06+0000\n"
 "PO-Revision-Date: 2008-12-29 15:37+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -27,39 +27,39 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: bindings.cpp:34
+#: bindings.cpp:33
 msgid "Switch to Next Keyboard Layout"
 msgstr "পরবর্তী কি-বোর্ড বিন্যাসে পরিবর্তন করুন"
 
-#: bindings.cpp:35
+#: bindings.cpp:34
 #, fuzzy
 #| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "KDE Keyboard Layout Switcher"
 
-#: bindings.cpp:68
+#: bindings.cpp:67
 #, fuzzy, kde-format
 #| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
 msgstr "'%1' কি-বোর্ড বিন্যাসে পরিবর্তন করতে সমস্যা"
 
-#: flags.cpp:138
+#: flags.cpp:140
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:146
+#: flags.cpp:148
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:55
+#: kcm_add_layout_dialog.cpp:56
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:134 kcm_view_models.cpp:308
+#: kcm_add_layout_dialog.cpp:139 kcm_view_models.cpp:308
 #, fuzzy
 #| msgctxt "Default variant"
 #| msgid "Default"
@@ -100,24 +100,24 @@ msgid "Limit selection by language:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, prevbutton)
-#. i18n: ectx: property (text), widget (QPushButton, previewbutton)
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
 #: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:352
 msgid "Preview"
 msgstr ""
 
-#: kcm_keyboard.cpp:52
+#: kcm_keyboard.cpp:49
 #, fuzzy
 #| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
 msgstr "KDE Keyboard Layout Switcher"
 
-#: kcm_keyboard.cpp:54
+#: kcm_keyboard.cpp:51
 #, fuzzy
 #| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
 msgstr "স্বত্বাধিকার (C) ২০০৬-২০০৭ অ্যান্ড্রি রাইসিন"
 
-#: kcm_keyboard.cpp:57
+#: kcm_keyboard.cpp:54
 msgid ""
 "<h1>Keyboard</h1> This control module can be used to configure keyboard "
 "parameters and layouts."
@@ -325,36 +325,32 @@ msgstr "উন্নত বৈশিষ্ট্য"
 msgid "&Configure keyboard options"
 msgstr "কি-বোর্ড থেকে পুনরাবৃত্তি সক্রিয় করা হবে (&E)"
 
-#: kcm_keyboard_widget.cpp:213
+#: kcm_keyboard_widget.cpp:216
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:215
+#: kcm_keyboard_widget.cpp:218
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:225
+#: kcm_keyboard_widget.cpp:228
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_keyboard_widget.cpp:373
-msgid "No layout selected "
-msgstr ""
-
-#: kcm_keyboard_widget.cpp:603
+#: kcm_keyboard_widget.cpp:612
 #, fuzzy
 #| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kcm_keyboard_widget.cpp:619
+#: kcm_keyboard_widget.cpp:628
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
@@ -386,7 +382,7 @@ msgstr "লেবেল"
 msgid "Shortcut"
 msgstr "প্রধান শর্ট-কাট:"
 
-#. i18n: ectx: property (whatsThis), widget (KButtonGroup, numlockGroupBox)
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:17
 msgid ""
 "If supported, this option allows you to setup the state of NumLock after KDE "
@@ -397,26 +393,26 @@ msgstr ""
 "<p>NumLock সক্রিয়, নিষ্ক্রিয় অথবা KDE দ্বারা NumLock-র অবস্থা অপরিবর্তিত রাখার "
 "উদ্দেশ্যে কনফিগার করা যাবে।"
 
-#. i18n: ectx: property (title), widget (KButtonGroup, numlockGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
 msgid "NumLock on KDE Startup"
 msgstr "KDE আরম্ভকালে NumLock"
 
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
 #: kcmmiscwidget.ui:32 kcmmiscwidget.ui:71
 msgid "T&urn on"
 msgstr "সক্রিয় করা হবে (&u)"
 
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_2)
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
-#: kcmmiscwidget.ui:39 kcmmiscwidget.ui:78
-msgid "Turn o&ff"
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
+#: kcmmiscwidget.ui:39
+#, fuzzy
+#| msgid "Turn o&ff"
+msgid "&Turn off"
 msgstr "নিষ্ক্রিয় করা হবে (&f)"
 
-#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_3)
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
-#: kcmmiscwidget.ui:46 kcmmiscwidget.ui:85
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton3)
+#: kcmmiscwidget.ui:46
 msgid "Leave unchan&ged"
 msgstr "অপরির্তিত থাকবে (&g)"
 
@@ -425,13 +421,25 @@ msgstr "অপরির্তিত থাকবে (&g)"
 msgid "Keyboard Repeat"
 msgstr "কি-বোর্ডের পুনরাবৃত্তি"
 
+#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
+#: kcmmiscwidget.ui:78
+msgid "Turn o&ff"
+msgstr "নিষ্ক্রিয় করা হবে (&f)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
+#: kcmmiscwidget.ui:85
+#, fuzzy
+#| msgid "Leave unchan&ged"
+msgid "&Leave unchanged"
+msgstr "অপরির্তিত থাকবে (&g)"
+
 #. i18n: ectx: property (text), widget (QLabel, lblDelay)
 #: kcmmiscwidget.ui:123
 msgid "&Delay:"
 msgstr "বিলম্ব: (&D)"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, delay)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
 #: kcmmiscwidget.ui:133 kcmmiscwidget.ui:161
 msgid ""
 "If supported, this option allows you to set the delay after which a pressed "
@@ -442,7 +450,7 @@ msgstr ""
 "বিলম্বকাল নির্ধারিত হবে। 'পুনরাবৃত্তির গতি' বিকল্প দ্বারা কি-কোড উৎপন্ন হওয়ার গতি "
 "নিয়ন্ত্রণ করা যাবে।"
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
 #: kcmmiscwidget.ui:164
 msgid " ms"
 msgstr ""
@@ -453,7 +461,7 @@ msgid "&Rate:"
 msgstr "গতি: (&R)"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
-#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, rate)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
 #: kcmmiscwidget.ui:187 kcmmiscwidget.ui:215
 msgid ""
 "If supported, this option allows you to set the rate at which keycodes are "
@@ -462,7 +470,7 @@ msgstr ""
 "সমর্থিত হলে, এই বিকল্পের সাহায্যে কি টেপা হলে কি-কোড উৎপন্ন হওয়ার গতি নিয়ন্ত্রণ "
 "করা যাবে।"
 
-#. i18n: ectx: property (suffix), widget (KDoubleNumInput, rate)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
 #: kcmmiscwidget.ui:218
 msgid " repeats/s"
 msgstr ""
@@ -503,17 +511,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: kcmmiscwidget.ui:263
-msgid "Key click &volume:"
+#, fuzzy
+#| msgid "Key click &volume:"
+msgid "&Key click volume:"
 msgstr "কি ক্লিক হওয়ার শব্দ: (&v)"
 
-#: layout_tray_icon.cpp:47 layout_tray_icon.cpp:48
+#: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, fuzzy
 #| msgid "Keyboard Repeat"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "কি-বোর্ডের পুনরাবৃত্তি"
 
-#: layouts_menu.cpp:137
+#: layouts_menu.cpp:134
 #, fuzzy
 #| msgid "&Enable keyboard repeat"
 msgid "Configure..."
