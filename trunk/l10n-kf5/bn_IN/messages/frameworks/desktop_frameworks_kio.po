@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-15 07:57+0000\n"
+"POT-Creation-Date: 2014-12-16 10:22+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -99,6 +99,375 @@ msgstr "আবর্জনা"
 msgctxt "ExtraNames"
 msgid "Original Path,Deletion Date"
 msgstr "মূল অবস্থানের পাথ, অপসারণের তারিখ"
+
+#: src/kcms/kio/cache.desktop:15
+msgctxt "Name"
+msgid "Cache"
+msgstr "ক্যাশে"
+
+#: src/kcms/kio/cache.desktop:109
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure trash settings"
+msgctxt "Comment"
+msgid "Configure web cache settings"
+msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
+
+#: src/kcms/kio/cache.desktop:202
+msgctxt "X-KDE-Keywords"
+msgid "Cache,History,Browsing History,Ports,Size"
+msgstr ""
+
+#: src/kcms/kio/cookies.desktop:15
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cookies"
+msgctxt "Name"
+msgid "Cookies"
+msgstr "কুকি"
+
+#: src/kcms/kio/cookies.desktop:107
+msgctxt "Comment"
+msgid "Configure the way cookies work"
+msgstr "কুকি ব্যবহারের পদ্ধতি কনফিগার করুন"
+
+#: src/kcms/kio/cookies.desktop:198
+msgctxt "X-KDE-Keywords"
+msgid "Cookies,Browsing,Internet,WWW,Network,Policy,Domains"
+msgstr ""
+
+#: src/kcms/kio/netpref.desktop:15
+msgctxt "Name"
+msgid "Connection Preferences"
+msgstr "সংযোগ সংক্রান্ত পছন্দসই মান"
+
+#: src/kcms/kio/netpref.desktop:106
+msgctxt "Comment"
+msgid "Configure generic network preferences, like timeout values"
+msgstr "নেটওয়ার্ক সংক্রান্ত সাধান মান, যেমন সময়সীমা, কনফিগার করুন"
+
+#: src/kcms/kio/netpref.desktop:197
+msgctxt "X-KDE-Keywords"
+msgid "timeout,iopref,netpref,network preferences,ftp"
+msgstr ""
+
+#: src/kcms/kio/proxy.desktop:15
+msgctxt "Name"
+msgid "Proxy"
+msgstr "প্রক্সি"
+
+#: src/kcms/kio/proxy.desktop:109
+msgctxt "Comment"
+msgid "Configure the proxy servers used"
+msgstr "ব্যবহৃত প্রক্সি সার্ভার(গুলি) কনফিগার করুন"
+
+#: src/kcms/kio/proxy.desktop:202
+msgctxt "X-KDE-Keywords"
+msgid "Proxy,Proxy server,Firewall,Squid"
+msgstr ""
+
+#: src/kcms/kio/smb.desktop:13
+msgctxt "Name"
+msgid "Windows Shares"
+msgstr "Windows শেয়ার"
+
+#: src/kcms/kio/smb.desktop:104
+msgctxt "Comment"
+msgid "Use to configure which windows (SMB) filesystems you can browse"
+msgstr "ব্রাউজ করার উদ্দেশ্যে চিহ্নিত windows (SMB) ফাইল-সিস্টেম কনফিগার করতে ব্যবহৃত"
+
+#: src/kcms/kio/smb.desktop:194
+msgctxt "X-KDE-Keywords"
+msgid ""
+"SMB,SAMBA,SMB client,Windows network,LAN,Network,neighborhood,Server,"
+"Broadcast,WINS,Share,Login,Passwords"
+msgstr ""
+
+#: src/kcms/kio/uasprovider.desktop:4
+msgctxt "Comment"
+msgid "UserAgent Strings"
+msgstr "UserAgent-র পংক্তি"
+
+#: src/kcms/kio/uasproviders/android10.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Wget 1.5.3)"
+msgctxt "Name"
+msgid "UADescription (Android Phone 1.0)"
+msgstr "UADescription (Wget 1.5.3)"
+
+#: src/kcms/kio/uasproviders/chrome10onwinnt51.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Mozilla 1.7 on Windows XP)"
+msgctxt "Name"
+msgid "UADescription (Google Chrome 1.0 on Windows XP)"
+msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
+
+#: src/kcms/kio/uasproviders/chrome22oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Mozilla 1.7 on Windows XP)"
+msgctxt "Name"
+msgid "UADescription (Google Chrome 22.0)"
+msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
+
+#: src/kcms/kio/uasproviders/chrome23oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Mozilla 1.7 on Windows XP)"
+msgctxt "Name"
+msgid "UADescription (Google Chrome 23.0)"
+msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
+
+#: src/kcms/kio/uasproviders/chrome24oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Mozilla 1.7 on Windows XP)"
+msgctxt "Name"
+msgid "UADescription (Google Chrome 24.0)"
+msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
+
+#: src/kcms/kio/uasproviders/chrome50oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Mozilla 1.7 on Windows XP)"
+msgctxt "Name"
+msgid "UADescription (Google Chrome 5.0)"
+msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
+
+#: src/kcms/kio/uasproviders/firefox15oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Firefox 1.5 on current)"
+msgctxt "Name"
+msgid "UADescription (Firefox 15 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 1.5)"
+
+#: src/kcms/kio/uasproviders/firefox16oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Firefox 2.0 on current)"
+msgctxt "Name"
+msgid "UADescription (Firefox 16 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
+
+#: src/kcms/kio/uasproviders/firefox20oncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (Firefox 2.0 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
+
+#: src/kcms/kio/uasproviders/firefox30oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Firefox 2.0 on current)"
+msgctxt "Name"
+msgid "UADescription (Firefox 3.0 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
+
+#: src/kcms/kio/uasproviders/firefox36oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Firefox 2.0 on current)"
+msgctxt "Name"
+msgid "UADescription (Firefox 3.6 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
+
+#: src/kcms/kio/uasproviders/googlebot.desktop:2
+msgctxt "Name"
+msgid "UADescription (Googlebot/2.1)"
+msgstr "UADescription (Googlebot/2.1)"
+
+#: src/kcms/kio/uasproviders/ie401onwinnt4.desktop:2
+msgctxt "Name"
+msgid "UADescription (IE 4.01 on Win 2000)"
+msgstr "UADescription (Win 2000-র মধ্যে IE 4.01)"
+
+#: src/kcms/kio/uasproviders/ie50onppc.desktop:2
+msgctxt "Name"
+msgid "UADescription (IE 5.0 on Mac PPC)"
+msgstr "UADescription (Mac PPC-র মধ্যে IE 5.0)"
+
+#: src/kcms/kio/uasproviders/ie55onwinnt5.desktop:2
+msgctxt "Name"
+msgid "UADescription (IE 5.5 on Win 2000)"
+msgstr "UADescription (Win 2000-র মধ্যে IE 5.5)"
+
+#: src/kcms/kio/uasproviders/ie60oncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (IE 6.0 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে IE 6.0)"
+
+#: src/kcms/kio/uasproviders/ie60onwinnt51.desktop:2
+msgctxt "Name"
+msgid "UADescription (IE 6.0 on Win XP)"
+msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
+
+#: src/kcms/kio/uasproviders/ie70onwinnt51.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (IE 6.0 on Win XP)"
+msgctxt "Name"
+msgid "UADescription (IE 7.0 on Win XP)"
+msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
+
+#: src/kcms/kio/uasproviders/ie80onwinnt60.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (IE 6.0 on Win XP)"
+msgctxt "Name"
+msgid "UADescription (IE 8.0 on Windows Vista)"
+msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
+
+#: src/kcms/kio/uasproviders/ie90onwinnt71.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (IE 6.0 on Win XP)"
+msgctxt "Name"
+msgid "UADescription (IE 9.0 on Windows Seven)"
+msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
+
+#: src/kcms/kio/uasproviders/lynxoncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (Lynx 2.8.3)"
+msgstr "UADescription (Lynx 2.8.3)"
+
+#: src/kcms/kio/uasproviders/nn301oncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (NN 3.01 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে NN 3.01)"
+
+#: src/kcms/kio/uasproviders/nn475oncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (NN 4.76 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে NN 4.76)"
+
+#: src/kcms/kio/uasproviders/nn475onwin95.desktop:2
+msgctxt "Name"
+msgid "UADescription (NN 4.7 on Windows 95)"
+msgstr "UADescription (Windows 95-র মধ্যে NN 4.7)"
+
+#: src/kcms/kio/uasproviders/ns71oncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (Netscape 7.1 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Netscape 7.1"
+
+#: src/kcms/kio/uasproviders/ns71onwinnt51.desktop:2
+msgctxt "Name"
+msgid "UADescription (Netscape 7.1 on XP)"
+msgstr "UADescription (XP-র মধ্যে Netscape 7.1)"
+
+#: src/kcms/kio/uasproviders/op1162oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Opera 9.00 on current)"
+msgctxt "Name"
+msgid "UADescription (Opera 11.62 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
+
+#: src/kcms/kio/uasproviders/op1202oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Opera 9.00 on current)"
+msgctxt "Name"
+msgid "UADescription (Opera 12.02 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
+
+#: src/kcms/kio/uasproviders/op403onwinnt4.desktop:2
+msgctxt "Name"
+msgid "UADescription (Opera 4.03 on NT)"
+msgstr "UADescription (NT-র মধ্যে Opera 4.03)"
+
+#: src/kcms/kio/uasproviders/op85oncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (Opera 8.5 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 8.5)"
+
+#: src/kcms/kio/uasproviders/op90oncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (Opera 9.00 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
+
+#: src/kcms/kio/uasproviders/op962oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Opera 9.00 on current)"
+msgctxt "Name"
+msgid "UADescription (Opera 9.62 on current)"
+msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
+
+#: src/kcms/kio/uasproviders/safari20.desktop:2
+msgctxt "Name"
+msgid "UADescription (Safari 2.0 on MacOS X)"
+msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
+
+#: src/kcms/kio/uasproviders/safari30oniphone.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Safari 2.0 on MacOS X)"
+msgctxt "Name"
+msgid "UADescription (Safari 3.0 on iPhone)"
+msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
+
+#: src/kcms/kio/uasproviders/safari32.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Safari 1.2 on MacOS X)"
+msgctxt "Name"
+msgid "UADescription (Safari 3.2 on MacOS X)"
+msgstr "UADescription (MacOS X-র মধ্যে Safari 1.2)"
+
+#: src/kcms/kio/uasproviders/safari40.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Safari 2.0 on MacOS X)"
+msgctxt "Name"
+msgid "UADescription (Safari 4.0 on MacOS X)"
+msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
+
+#: src/kcms/kio/uasproviders/safari517.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Safari 2.0 on MacOS X)"
+msgctxt "Name"
+msgid "UADescription (Safari 5.1.7 on MacOS X)"
+msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
+
+#: src/kcms/kio/uasproviders/safari60.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Safari 2.0 on MacOS X)"
+msgctxt "Name"
+msgid "UADescription (Safari 6.0 on MacOS X)"
+msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
+
+#: src/kcms/kio/uasproviders/w3moncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (w3m 0.1.9)"
+msgstr "UADescription (w3m 0.1.9)"
+
+#: src/kcms/kio/uasproviders/wgetoncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Wget 1.5.3)"
+msgctxt "Name"
+msgid "UADescription (Wget 1.11.4)"
+msgstr "UADescription (Wget 1.5.3)"
+
+#: src/kcms/kio/useragent.desktop:14
+msgctxt "Name"
+msgid "Browser Identification"
+msgstr "ব্রাউজার সনাক্তকরণ"
+
+#: src/kcms/kio/useragent.desktop:105
+msgctxt "Comment"
+msgid "Configure the way Konqueror reports itself"
+msgstr "Konqueror দ্বারা নিজস্ব পরিচিতি প্রদর্শন কনফিগার করুন"
+
+#: src/kcms/kio/useragent.desktop:195
+msgctxt "X-KDE-Keywords"
+msgid "User Agent,Browser,Internet,WWW,Network,agent,bindings,server,login"
+msgstr ""
 
 #: src/kcms/webshortcuts/webshortcuts.desktop:14
 msgctxt "Name"
@@ -991,7 +1360,7 @@ msgctxt "Name"
 msgid "Great Dictionary of the Catalan Language (GRan Enciclopèdia Catalana)"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/grec.desktop:6
+#: src/urifilters/ikws/searchproviders/grec.desktop:15
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.grec.net/cgibin/lexicx.pgm?GECART=\\\\{@}"
@@ -5384,200 +5753,6 @@ msgstr "ট্যাবসহ ব্রাউজ"
 #~ msgctxt "Name"
 #~ msgid "Bookmarks"
 #~ msgstr "বুকমার্ক"
-
-#~ msgctxt "Name"
-#~ msgid "Cache"
-#~ msgstr "ক্যাশে"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure the way cookies work"
-#~ msgstr "কুকি ব্যবহারের পদ্ধতি কনফিগার করুন"
-
-#~ msgctxt "Name"
-#~ msgid "Connection Preferences"
-#~ msgstr "সংযোগ সংক্রান্ত পছন্দসই মান"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure generic network preferences, like timeout values"
-#~ msgstr "নেটওয়ার্ক সংক্রান্ত সাধান মান, যেমন সময়সীমা, কনফিগার করুন"
-
-#~ msgctxt "Name"
-#~ msgid "Proxy"
-#~ msgstr "প্রক্সি"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure the proxy servers used"
-#~ msgstr "ব্যবহৃত প্রক্সি সার্ভার(গুলি) কনফিগার করুন"
-
-#~ msgctxt "Name"
-#~ msgid "Windows Shares"
-#~ msgstr "Windows শেয়ার"
-
-#~ msgctxt "Comment"
-#~ msgid "Use to configure which windows (SMB) filesystems you can browse"
-#~ msgstr ""
-#~ "ব্রাউজ করার উদ্দেশ্যে চিহ্নিত windows (SMB) ফাইল-সিস্টেম কনফিগার করতে ব্যবহৃত"
-
-#~ msgctxt "Comment"
-#~ msgid "UserAgent Strings"
-#~ msgstr "UserAgent-র পংক্তি"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Wget 1.5.3)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Android Phone 1.0)"
-#~ msgstr "UADescription (Wget 1.5.3)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Mozilla 1.7 on Windows XP)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Google Chrome 1.0 on Windows XP)"
-#~ msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Mozilla 1.7 on Windows XP)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Google Chrome 5.0)"
-#~ msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Firefox 2.0 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Firefox 2.0 on current)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Firefox 3.0 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Firefox 2.0 on current)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Firefox 3.6 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Googlebot/2.1)"
-#~ msgstr "UADescription (Googlebot/2.1)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (IE 4.01 on Win 2000)"
-#~ msgstr "UADescription (Win 2000-র মধ্যে IE 4.01)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (IE 5.0 on Mac PPC)"
-#~ msgstr "UADescription (Mac PPC-র মধ্যে IE 5.0)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (IE 5.5 on Win 2000)"
-#~ msgstr "UADescription (Win 2000-র মধ্যে IE 5.5)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (IE 6.0 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে IE 6.0)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (IE 6.0 on Win XP)"
-#~ msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (IE 6.0 on Win XP)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (IE 7.0 on Win XP)"
-#~ msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Lynx 2.8.3)"
-#~ msgstr "UADescription (Lynx 2.8.3)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (NN 3.01 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে NN 3.01)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (NN 4.76 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে NN 4.76)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (NN 4.7 on Windows 95)"
-#~ msgstr "UADescription (Windows 95-র মধ্যে NN 4.7)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Netscape 7.1 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Netscape 7.1"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Netscape 7.1 on XP)"
-#~ msgstr "UADescription (XP-র মধ্যে Netscape 7.1)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Opera 4.03 on NT)"
-#~ msgstr "UADescription (NT-র মধ্যে Opera 4.03)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Opera 8.5 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 8.5)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Opera 9.00 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Opera 9.00 on current)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Opera 9.62 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Safari 2.0 on MacOS X)"
-#~ msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 2.0 on MacOS X)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Safari 3.0 on iPhone)"
-#~ msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 1.2 on MacOS X)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Safari 3.2 on MacOS X)"
-#~ msgstr "UADescription (MacOS X-র মধ্যে Safari 1.2)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 2.0 on MacOS X)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Safari 4.0 on MacOS X)"
-#~ msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (w3m 0.1.9)"
-#~ msgstr "UADescription (w3m 0.1.9)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Wget 1.5.3)"
-#~ msgctxt "Name"
-#~ msgid "UADescription (Wget 1.11.4)"
-#~ msgstr "UADescription (Wget 1.5.3)"
-
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "ব্রাউজার সনাক্তকরণ"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure the way Konqueror reports itself"
-#~ msgstr "Konqueror দ্বারা নিজস্ব পরিচিতি প্রদর্শন কনফিগার করুন"
 
 #~ msgctxt "Name"
 #~ msgid "Appearance"
@@ -11180,10 +11355,6 @@ msgstr "ট্যাবসহ ব্রাউজ"
 #~ msgctxt "Comment"
 #~ msgid "Configure Hotkey settings"
 #~ msgstr "হট-কি সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
-
-#~ msgctxt "Name"
-#~ msgid "UADescription (Firefox 1.5 on current)"
-#~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 1.5)"
 
 #~ msgctxt "Name"
 #~ msgid "Open with Dolphin"
