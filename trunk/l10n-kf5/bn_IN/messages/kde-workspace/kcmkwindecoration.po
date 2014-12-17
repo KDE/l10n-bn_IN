@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-11 07:49+0000\n"
+"POT-Creation-Date: 2014-12-17 07:47+0000\n"
 "PO-Revision-Date: 2009-01-13 17:22+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,6 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: declarative-plugin/buttonsmodel.cpp:67
+msgid "Menu"
+msgstr "মেনু"
+
+#: declarative-plugin/buttonsmodel.cpp:69
+msgid "Application menu"
+msgstr ""
+
+#: declarative-plugin/buttonsmodel.cpp:71
+#, fuzzy
+#| msgid "On All Desktops"
+msgid "On all desktops"
+msgstr "সকল ডেস্কটপের মধ্যে"
+
+#: declarative-plugin/buttonsmodel.cpp:73
+msgid "Minimize"
+msgstr "সর্বনিম্ন মাপ"
+
+#: declarative-plugin/buttonsmodel.cpp:75
+msgid "Maximize"
+msgstr "সর্বোত্তম মাপ"
+
+#: declarative-plugin/buttonsmodel.cpp:77
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+#: declarative-plugin/buttonsmodel.cpp:79
+msgid "Context help"
+msgstr ""
+
+#: declarative-plugin/buttonsmodel.cpp:81
+msgid "Shade"
+msgstr "ছায়াবৃত"
+
+#: declarative-plugin/buttonsmodel.cpp:83
+#, fuzzy
+#| msgid "Keep Below Others"
+msgid "Keep below"
+msgstr "অন্যান্যগুলির নীচে স্থাপন করা হবে"
+
+#: declarative-plugin/buttonsmodel.cpp:85
+#, fuzzy
+#| msgid "Keep Above Others"
+msgid "Keep above"
+msgstr "অন্যান্যগুলির উপরে স্থাপন করা হবে"
 
 #: kcm.cpp:98
 msgid ""
@@ -116,6 +162,14 @@ msgstr "অত্যাধিক বৃহৎ"
 msgid "Close windows by double clicking &the menu button:"
 msgstr ""
 
+#: qml/Buttons.qml:54
+msgid "Drag to re-position buttons"
+msgstr ""
+
+#: qml/Buttons.qml:172
+msgid "Drop here to remove button"
+msgstr ""
+
 #, fuzzy
 #~| msgid "Normal"
 #~ msgid "Form"
@@ -182,29 +236,8 @@ msgstr ""
 #~ msgid "Resize"
 #~ msgstr "মাপ পরিবর্তন"
 
-#~ msgid "Shade"
-#~ msgstr "ছায়াবৃত"
-
-#~ msgid "Keep Below Others"
-#~ msgstr "অন্যান্যগুলির নীচে স্থাপন করা হবে"
-
-#~ msgid "Keep Above Others"
-#~ msgstr "অন্যান্যগুলির উপরে স্থাপন করা হবে"
-
-#~ msgid "Close"
-#~ msgstr "বন্ধ করুন"
-
-#~ msgid "Maximize"
-#~ msgstr "সর্বোত্তম মাপ"
-
-#~ msgid "Minimize"
-#~ msgstr "সর্বনিম্ন মাপ"
-
 #~ msgid "Help"
 #~ msgstr "সাহায্য"
-
-#~ msgid "On All Desktops"
-#~ msgstr "সকল ডেস্কটপের মধ্যে"
 
 #~ msgid "--- spacer ---"
 #~ msgstr "--- spacer ---"
@@ -240,9 +273,6 @@ msgstr ""
 
 #~ msgid "kcmkwindecoration"
 #~ msgstr "kcmkwindecoration"
-
-#~ msgid "Menu"
-#~ msgstr "মেনু"
 
 #~ msgid "&Buttons"
 #~ msgstr "বাটন (&B)"
