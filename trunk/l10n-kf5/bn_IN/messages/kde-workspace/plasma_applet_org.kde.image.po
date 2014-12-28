@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-16 10:16+0000\n"
+"POT-Creation-Date: 2014-12-28 08:05+0000\n"
 "PO-Revision-Date: 2008-12-22 17:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -31,7 +31,7 @@ msgstr ""
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
-#: image.cpp:566 imagepackage/contents/ui/config.qml:324
+#: image.cpp:566 imagepackage/contents/ui/config.qml:354
 #, fuzzy
 #| msgid "Download new wallpapers"
 msgid "Download Wallpapers"
@@ -48,10 +48,6 @@ msgstr "পটভূমির জন্য ছবির ফাইল নির�
 #| msgid "Images"
 msgid "Image Files"
 msgstr "ছবি"
-
-#: imagepackage/contents/ui/ColorPicker.qml:80
-msgid "Background Color:"
-msgstr ""
 
 #: imagepackage/contents/ui/config.qml:69
 #, fuzzy
@@ -79,31 +75,39 @@ msgstr "কেন্দ্রস্থিত"
 msgid "Tiled"
 msgstr "টালি বিশিষ্ট"
 
-#: imagepackage/contents/ui/config.qml:143
+#: imagepackage/contents/ui/config.qml:119
+msgid "Select Background Color"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:131
+msgid "Background Color:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:171
 #, fuzzy
 #| msgid "&Change images every:"
 msgid "Change every:"
 msgstr "ছবি পরিবর্তন করা হবে প্রতি: (&C)"
 
-#: imagepackage/contents/ui/config.qml:156
+#: imagepackage/contents/ui/config.qml:184
 msgid "Hours"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:173
+#: imagepackage/contents/ui/config.qml:201
 msgid "Minutes"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:190
+#: imagepackage/contents/ui/config.qml:218
 msgid "Seconds"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:313
+#: imagepackage/contents/ui/config.qml:343
 #, fuzzy
 #| msgid "&Add Folder..."
 msgid "Add Folder"
 msgstr "ফোল্ডার যোগ করুন: (&A)"
 
-#: imagepackage/contents/ui/config.qml:319
+#: imagepackage/contents/ui/config.qml:349
 #, fuzzy
 #| msgid "..."
 msgid "Open..."
@@ -115,14 +119,14 @@ msgstr "..."
 msgid "Next Wallpaper Image"
 msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:95
+#: imagepackage/contents/ui/WallpaperDelegate.qml:97
 #: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:93
 #, fuzzy
 #| msgid "Get New Wallpapers..."
 msgid "Remove wallpaper"
 msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:132
+#: imagepackage/contents/ui/WallpaperDelegate.qml:134
 #: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:130
 #, fuzzy, kde-format
 #| msgctxt "Caption to wallpaper preview, %1 author name"
