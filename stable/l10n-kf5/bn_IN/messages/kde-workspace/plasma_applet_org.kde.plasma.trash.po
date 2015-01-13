@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-19 11:57+0000\n"
+"POT-Creation-Date: 2014-12-19 08:18+0000\n"
 "PO-Revision-Date: 2008-07-04 11:13+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -18,30 +18,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: contents/ui/main.qml:50
+#: contents/ui/main.qml:53
 #, fuzzy
-#| msgid "&Open"
 msgctxt "a verb"
 msgid "Open"
 msgstr "খুলুন (&O)"
 
-#: contents/ui/main.qml:51
+#: contents/ui/main.qml:54
 #, fuzzy
-#| msgctxt "The trash is empty. This is not an action, but a state"
-#| msgid "Empty"
 msgctxt "a verb"
 msgid "Empty"
 msgstr "ফাঁকা"
 
-#: contents/ui/main.qml:68
+#: contents/ui/main.qml:72
 #, fuzzy
-#| msgid "Trash"
 msgid ""
 "Trash\n"
 "Empty"
 msgstr "আবর্জনা"
 
-#: contents/ui/main.qml:68 contents/ui/main.qml:80
+#: contents/ui/main.qml:72 contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "Trash\n"
@@ -52,32 +48,28 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/main.qml:79
+#: contents/ui/main.qml:83
 msgid "Trash"
 msgstr "আবর্জনা"
 
-#: contents/ui/main.qml:80
+#: contents/ui/main.qml:84
 msgid ""
 "Trash \n"
 " Empty"
 msgstr ""
 
-#: contents/ui/main.qml:88 contents/ui/main.qml:90
+#: contents/ui/main.qml:92 contents/ui/main.qml:94
 #, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Empty Trash"
 msgid "Empty Trash"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন"
 
-#: contents/ui/main.qml:89
+#: contents/ui/main.qml:93
 #, fuzzy
-#| msgctxt "@info"
-#| msgid "Do you really want to empty the trash? All items will be deleted."
 msgid "Do you really want to empty the trash ? All the items will be deleted."
 msgstr ""
 "আপনি কি নিশ্চিতরূপে আবর্জনার বাক্স ফাঁকা করতে ইচ্ছুক? এর ফলে সকল বস্তু বর্জন করা হবে।"
 
-#: contents/ui/main.qml:91
+#: contents/ui/main.qml:95
 msgid "Cancel"
 msgstr ""
 
@@ -88,13 +80,10 @@ msgstr ""
 #~ msgstr "মেনু (&M)"
 
 #, fuzzy
-#~| msgctxt "@action:button"
-#~| msgid "Empty Trash"
 #~ msgctxt "@title:window"
 #~ msgid "Empty Trash"
 #~ msgstr "আবর্জনার বাক্স ফাঁকা করুন"
 
 #, fuzzy
-#~| msgid "&Empty Trashcan"
 #~ msgid "Emptying Trashcan..."
 #~ msgstr "আবর্জনার বাক্স ফাঁকা (&E)"

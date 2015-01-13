@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-04 09:24+0000\n"
+"POT-Creation-Date: 2015-01-10 08:08+0000\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -20,12 +20,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: package/contents/config/config.qml:26
-#: package/contents/ui/ConfigLocation.qml:65
+#: package/contents/ui/ConfigLocation.qml:67
 #, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose which location should the "
-#| "folderview show"
-#| msgid "Location"
 msgid "Location"
 msgstr "অবস্থান"
 
@@ -35,12 +31,20 @@ msgstr "আইকন"
 
 #: package/contents/config/config.qml:38
 #, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose how to filter the folderview "
-#| "contents"
-#| msgid "Filter"
 msgid "Filter"
 msgstr "ফিল্টার"
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:144
+msgid "Rotate"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:301
+msgid "Remove"
+msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
 msgid "Show All Files"
@@ -48,7 +52,6 @@ msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
 #: package/contents/ui/ConfigFilter.qml:53
 #, fuzzy
-#| msgid "Show All Files"
 msgid "Show Files Matching"
 msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
@@ -110,48 +113,36 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:105
 #, fuzzy
-#| msgid "Sort icons:"
 msgid "Sorting"
 msgstr "আইকনের ক্রমবিন্যাস:"
 
 #: package/contents/ui/ConfigIcons.qml:112
 #, fuzzy
-#| msgid "Sort icons:"
 msgid "Sorting:"
 msgstr "আইকনের ক্রমবিন্যাস:"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:58
 #, fuzzy
-#| msgctxt "Sort Icons"
-#| msgid "Unsorted"
 msgid "Unsorted"
 msgstr "অবিন্যাস্ত"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:62
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Name"
 msgid "Name"
 msgstr "নাম অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:66
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Size"
 msgid "Size"
 msgstr "মাপ অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:70
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Type"
 msgid "Type"
 msgstr "ধরন অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:74
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Date"
 msgid "Date"
 msgstr "তারিখ অনুযায়ী"
 
@@ -161,8 +152,6 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:149
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "Folders First"
 msgid "Folders first"
 msgstr "প্রথমে ফোল্ডার"
 
@@ -172,8 +161,6 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:165
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "By Size"
 msgid "Size:"
 msgstr "মাপ অনুযায়ী"
 
@@ -187,9 +174,6 @@ msgstr "বৃহৎ"
 
 #: package/contents/ui/ConfigIcons.qml:189
 #, fuzzy
-#| msgctxt "Inserted as %2 in the message below."
-#| msgid "1 file"
-#| msgid_plural "%1 files"
 msgid "Text lines:"
 msgstr "একটি ফাইল"
 
@@ -203,7 +187,6 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:225
 #, fuzzy
-#| msgid "Select All"
 msgid "Selection markers"
 msgstr "সমগ্র নির্বাচন করুন"
 
@@ -219,43 +202,47 @@ msgstr ""
 msgid "More Preview Options..."
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:81
+#: package/contents/ui/ConfigLocation.qml:85
 msgid "Show the Desktop folder"
 msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigLocation.qml:102
+#: package/contents/ui/ConfigLocation.qml:92
+msgid "Show files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:113
 msgid "Show a place:"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:155
+#: package/contents/ui/ConfigLocation.qml:166
 msgid "Specify a folder:"
 msgstr "একটি ফোল্ডার নির্ধারণ করুন:"
 
-#: package/contents/ui/ConfigLocation.qml:167
+#: package/contents/ui/ConfigLocation.qml:178
 msgid "Type a path or a URL here"
 msgstr "এইখানে একটি পাথ অথবা URL লিখুন"
 
-#: package/contents/ui/ConfigLocation.qml:210
+#: package/contents/ui/ConfigLocation.qml:221
 msgid "Title"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 msgid "Full path"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:220
+#: package/contents/ui/ConfigLocation.qml:231
 msgid "Custom title"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:230
+#: package/contents/ui/ConfigLocation.qml:241
 msgid "Enter custom title here"
 msgstr ""
 
@@ -273,67 +260,64 @@ msgstr ""
 
 #: plugin/directorypicker.cpp:45
 #, fuzzy
-#| msgid "Select All"
 msgid "Select Folder"
 msgstr "সমগ্র নির্বাচন করুন"
 
-#: plugin/foldermodel.cpp:214
+#: plugin/foldermodel.cpp:217
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: plugin/foldermodel.cpp:214 plugin/foldermodel.cpp:979
+#: plugin/foldermodel.cpp:217 plugin/foldermodel.cpp:1030
 msgid "&Refresh View"
 msgstr ""
 
-#: plugin/foldermodel.cpp:976
+#: plugin/foldermodel.cpp:1027
 msgid "&Reload"
 msgstr "নতুন করে লোড (&R)"
 
-#: plugin/foldermodel.cpp:982
+#: plugin/foldermodel.cpp:1033
 msgid "&Rename"
 msgstr "নাম পরিবর্তন (&R)"
 
-#: plugin/foldermodel.cpp:985
+#: plugin/foldermodel.cpp:1036
 msgid "&Move to Trash"
 msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
-#: plugin/foldermodel.cpp:988 plugin/internallibkonq/konq_popupmenu.cpp:348
+#: plugin/foldermodel.cpp:1039 plugin/internallibkonq/konq_popupmenu.cpp:350
 msgid "&Empty Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: plugin/foldermodel.cpp:991
+#: plugin/foldermodel.cpp:1042
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
-#: plugin/foldermodel.cpp:1045
+#: plugin/foldermodel.cpp:1102
 msgid "&Paste"
 msgstr "পেস্ট করুন (&P)"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:84
+#: plugin/internallibkonq/konq_copytomenu.cpp:82
 msgctxt "@title:menu"
 msgid "Copy To"
 msgstr "চিহ্নিত স্থানে কপি করুন"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:90
+#: plugin/internallibkonq/konq_copytomenu.cpp:88
 msgctxt "@title:menu"
 msgid "Move To"
 msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:114
+#: plugin/internallibkonq/konq_copytomenu.cpp:112
 #, fuzzy
-#| msgid "Desktop Folder"
 msgctxt "@title:menu"
 msgid "Home Folder"
 msgstr "ডেস্কটপ ফোল্ডার"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:121
+#: plugin/internallibkonq/konq_copytomenu.cpp:119
 #, fuzzy
-#| msgid "Desktop Folder"
 msgctxt "@title:menu"
 msgid "Root Folder"
 msgstr "ডেস্কটপ ফোল্ডার"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:157
+#: plugin/internallibkonq/konq_copytomenu.cpp:155
 msgctxt "@title:menu in Copy To or Move To submenu"
 msgid "Browse..."
 msgstr "ব্রাউজ করুন..."
@@ -348,184 +332,61 @@ msgctxt "@title:menu"
 msgid "Move Here"
 msgstr "এইখানে স্থানান্তর করুন"
 
-#: plugin/internallibkonq/konq_operations.cpp:313
-msgid "You cannot drop a folder on to itself"
-msgstr "কোনো ফোল্ডারকে নিজের মধ্যে স্থাপন করা সম্ভব নয়"
-
-#: plugin/internallibkonq/konq_operations.cpp:359
-msgid "File name for dropped contents:"
-msgstr ""
-
-#: plugin/internallibkonq/konq_operations.cpp:571
-msgid "&Move Here"
-msgstr "এইখানে স্থানান্ত করুন (&M)"
-
-#: plugin/internallibkonq/konq_operations.cpp:575
-msgid "&Copy Here"
-msgstr "এইখানে কপি করুন (&C)"
-
-#: plugin/internallibkonq/konq_operations.cpp:579
-msgid "&Link Here"
-msgstr "এইখানের লিংক করুন (&L)"
-
-#: plugin/internallibkonq/konq_operations.cpp:581
-msgid "Set as &Wallpaper"
-msgstr "ওয়াল-পেপার রূপে নির্ধারণ করুন (&W)"
-
-#: plugin/internallibkonq/konq_operations.cpp:583
-msgid "C&ancel"
-msgstr "বাতিল করুন (&a)"
-
-#: plugin/internallibkonq/konq_operations.cpp:895
-#, fuzzy
-#| msgid "Create New"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "নতুন নির্মাণ করুন"
-
-#: plugin/internallibkonq/konq_operations.cpp:897
-#, fuzzy
-#| msgid "Enter folder name:"
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "ফোল্ডারের নাম লিখুন:"
-
-#: plugin/internallibkonq/konq_operations.cpp:900
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: plugin/internallibkonq/konq_operations.cpp:901
-#, fuzzy
-#| msgid "Create New"
-msgctxt "@title:window"
-msgid "Create hidden directory?"
-msgstr "নতুন নির্মাণ করুন"
-
-#: plugin/internallibkonq/konq_operations.cpp:916
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@label Default name when creating a folder"
-msgid "New Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
-
-#: plugin/internallibkonq/konq_operations.cpp:923
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
-
-#: plugin/internallibkonq/konq_operations.cpp:924
-#, fuzzy
-#| msgid "Enter folder name:"
-msgctxt "@label:textbox"
-msgid "Enter folder name:"
-msgstr "ফোল্ডারের নাম লিখুন:"
-
-#: plugin/internallibkonq/konq_operations.cpp:1037
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@action:inmenu"
-msgid "Paste One Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
-
-#: plugin/internallibkonq/konq_operations.cpp:1038
-msgctxt "@action:inmenu"
-msgid "Paste One File"
-msgstr ""
-
-#: plugin/internallibkonq/konq_operations.cpp:1041
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Paste One Item"
-msgid_plural "Paste %1 Items"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin/internallibkonq/konq_operations.cpp:1043
-msgctxt "@action:inmenu"
-msgid "Paste Clipboard Contents..."
-msgstr ""
-
-#: plugin/internallibkonq/konq_operations.cpp:1047
-#, fuzzy
-#| msgid "&Paste"
-msgctxt "@action:inmenu"
-msgid "Paste"
-msgstr "পেস্ট করুন (&P)"
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:252
+#: plugin/internallibkonq/konq_popupmenu.cpp:254
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:279
+#: plugin/internallibkonq/konq_popupmenu.cpp:281
 msgid "Create &Folder..."
 msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:290
+#: plugin/internallibkonq/konq_popupmenu.cpp:292
 msgid "&Restore"
 msgstr "পুনরুদ্ধার (&R)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:291
-msgid ""
-"Restores this file or directory, back to the location where it was deleted "
-"from initially"
-msgstr ""
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:313
+#: plugin/internallibkonq/konq_popupmenu.cpp:315
 msgid "Show Original Directory"
 msgstr ""
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:313
+#: plugin/internallibkonq/konq_popupmenu.cpp:315
 #, fuzzy
-#| msgid "Show All Files"
 msgid "Show Original File"
 msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:314
-msgid ""
-"Opens a new file manager window showing the target of this link, in its "
-"parent directory."
-msgstr ""
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:361
+#: plugin/internallibkonq/konq_popupmenu.cpp:363
 #, fuzzy
-#| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:387
+#: plugin/internallibkonq/konq_popupmenu.cpp:389
 msgid "&Bookmark This Page"
 msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:389
+#: plugin/internallibkonq/konq_popupmenu.cpp:391
 msgid "&Bookmark This Location"
 msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:392
+#: plugin/internallibkonq/konq_popupmenu.cpp:394
 msgid "&Bookmark This Folder"
 msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:394
+#: plugin/internallibkonq/konq_popupmenu.cpp:396
 msgid "&Bookmark This Link"
 msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:396
+#: plugin/internallibkonq/konq_popupmenu.cpp:398
 msgid "&Bookmark This File"
 msgstr "বর্তমান ফাইল লিংক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:426
+#: plugin/internallibkonq/konq_popupmenu.cpp:428
 msgid "Preview In"
 msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:461
+#: plugin/internallibkonq/konq_popupmenu.cpp:463
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:477
+#: plugin/internallibkonq/konq_popupmenu.cpp:479
 msgid "Share"
 msgstr "যৌথ ব্যবহার"
 
@@ -543,14 +404,11 @@ msgstr ""
 
 #: plugin/viewpropertiesmenu.cpp:55
 #, fuzzy
-#| msgid "Sort icons:"
 msgid "Sort By"
 msgstr "আইকনের ক্রমবিন্যাস:"
 
 #: plugin/viewpropertiesmenu.cpp:81
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "Folders First"
 msgid "Folders First"
 msgstr "প্রথমে ফোল্ডার"
 
@@ -558,8 +416,65 @@ msgstr "প্রথমে ফোল্ডার"
 msgid "Locked"
 msgstr ""
 
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "কোনো ফোল্ডারকে নিজের মধ্যে স্থাপন করা সম্ভব নয়"
+
+#~ msgid "&Move Here"
+#~ msgstr "এইখানে স্থানান্ত করুন (&M)"
+
+#~ msgid "&Copy Here"
+#~ msgstr "এইখানে কপি করুন (&C)"
+
+#~ msgid "&Link Here"
+#~ msgstr "এইখানের লিংক করুন (&L)"
+
+#~ msgid "C&ancel"
+#~ msgstr "বাতিল করুন (&a)"
+
+#~ msgid "Set as &Wallpaper"
+#~ msgstr "ওয়াল-পেপার রূপে নির্ধারণ করুন (&W)"
+
 #, fuzzy
-#~| msgid "Icons"
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "নতুন নির্মাণ করুন"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "ফোল্ডারের নাম লিখুন:"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "নতুন নির্মাণ করুন"
+
+#, fuzzy
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "ফোল্ডারের নাম লিখুন:"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "পেস্ট করুন (&P)"
+
+#, fuzzy
 #~ msgctxt ""
 #~ "Title of the page that lets the user choose how the folderview should be "
 #~ "shown"
@@ -588,14 +503,10 @@ msgstr ""
 #~ msgstr[1] "%1-টি ফাইল।"
 
 #, fuzzy
-#~| msgid "Icon Settings"
 #~ msgid "Icon Text"
 #~ msgstr "আইকন সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Inserted as %2 in the message below."
-#~| msgid "1 file"
-#~| msgid_plural "%1 files"
 #~ msgid "1 line"
 #~ msgstr "একটি ফাইল"
 
@@ -611,9 +522,6 @@ msgstr ""
 #~ "উদাহরণস্বরূপ, *.txt * .od*"
 
 #, fuzzy
-#~| msgctxt "Inserted as %2 in the message below."
-#~| msgid "1 file"
-#~| msgid_plural "%1 files"
 #~ msgctxt "Items in a folder"
 #~ msgid "1 item"
 #~ msgid_plural "%1 items"
@@ -621,22 +529,18 @@ msgstr ""
 #~ msgstr[1] "%1-টি ফাইল"
 
 #, fuzzy
-#~| msgid "Top to Bottom"
 #~ msgid "Top to Bottom, Left to Right"
 #~ msgstr "উপর থেকে নীচে"
 
 #, fuzzy
-#~| msgid "Top to Bottom"
 #~ msgid "Top to Bottom, Right to Left"
 #~ msgstr "উপর থেকে নীচে"
 
 #, fuzzy
-#~| msgid "Left to Right"
 #~ msgid "Left to Right, Top to Bottom"
 #~ msgstr "বাঁদিক থেকে ডানদিকে"
 
 #, fuzzy
-#~| msgid "Left to Right"
 #~ msgid "Right to Left, Top to Bottom"
 #~ msgstr "বাঁদিক থেকে ডানদিকে"
 

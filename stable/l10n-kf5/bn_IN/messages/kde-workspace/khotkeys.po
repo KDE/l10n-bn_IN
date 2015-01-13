@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-27 09:13+0000\n"
+"POT-Creation-Date: 2014-10-24 08:11+0000\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -42,14 +42,12 @@ msgstr "qdbusviewer সঞ্চালন করতে ব্যর্থ"
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: kcm_hotkeys/actions/dbus_action_widget.ui:18
 #, fuzzy
-#| msgid "Remote Application:"
 msgid "Remote application:"
 msgstr "দূরবর্তী অ্যাপ্লিকেশন:"
 
 #. i18n: ectx: property (text), widget (QLabel, objectLabel)
 #: kcm_hotkeys/actions/dbus_action_widget.ui:31
 #, fuzzy
-#| msgid "Remote Object:"
 msgid "Remote object:"
 msgstr "দূরবর্তী অবজেক্ট:"
 
@@ -83,28 +81,24 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, active_radio)
 #: kcm_hotkeys/actions/keyboard_input_action_widget.ui:27
 #, fuzzy
-#| msgid "Active window: "
 msgid "Active window"
 msgstr "সক্রিয় উইন্ডো: "
 
 #. i18n: ectx: property (text), widget (QRadioButton, specific_radio)
 #: kcm_hotkeys/actions/keyboard_input_action_widget.ui:34
 #, fuzzy
-#| msgid "Active window: "
 msgid "Specific window"
 msgstr "সক্রিয় উইন্ডো: "
 
 #. i18n: ectx: property (text), widget (QRadioButton, action_radio)
 #: kcm_hotkeys/actions/keyboard_input_action_widget.ui:41
 #, fuzzy
-#| msgid "Active window: "
 msgid "Action window"
 msgstr "সক্রিয় উইন্ডো: "
 
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: kcm_hotkeys/actions/menuentry_action_widget.ui:16
 #, fuzzy
-#| msgid "Application"
 msgid "Application:"
 msgstr "অ্যাপ্লিকেশন"
 
@@ -115,46 +109,36 @@ msgstr "অ্যাপ্লিকেশন নির্বাচন করু�
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:27
 #, fuzzy
-#| msgid "Active window: "
 msgctxt "Condition type"
 msgid "Active Window ..."
 msgstr "সক্রিয় উইন্ডো: "
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:29
 #, fuzzy
-#| msgid "Existing window: "
 msgctxt "Condition type"
 msgid "Existing Window ..."
 msgstr "উপস্থিত উইন্ডো: "
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:31
 #, fuzzy
-#| msgctxt "And_condition"
-#| msgid "And"
 msgctxt "Condition type"
 msgid "And"
 msgstr "And"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:33
 #, fuzzy
-#| msgctxt "Or_condition"
-#| msgid "Or"
 msgctxt "Condition type"
 msgid "Or"
 msgstr "Or"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:35
 #, fuzzy
-#| msgctxt "Not_condition"
-#| msgid "Not"
 msgctxt "Condition type"
 msgid "Not"
 msgstr "Not"
 
 #: kcm_hotkeys/conditions/conditions_widget.cpp:80
 #, fuzzy
-#| msgctxt "And_condition"
-#| msgid "And"
 msgctxt "Add a new condition"
 msgid "And"
 msgstr "And"
@@ -189,7 +173,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, enabled)
 #: kcm_hotkeys/global_settings_widget.ui:38
 #, fuzzy
-#| msgid "Start the khotkeys daemon on logon"
 msgid "Start the Input Actions daemon on login"
 msgstr "লগ-ইনের সময় khotkeys ডেমন আরম্ভ করা হবে"
 
@@ -234,7 +217,6 @@ msgstr ""
 #: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:24
 #, fuzzy
-#| msgid "Comment"
 msgid "Comment:"
 msgstr "মন্তব্য"
 
@@ -256,7 +238,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
 #: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:59
 #, fuzzy
-#| msgid "Delete"
 msgid "&Delete"
 msgstr "মুছে ফেলুন"
 
@@ -268,7 +249,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, window_title_label)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:31
 #, fuzzy
-#| msgid "Action"
 msgid "Window title:"
 msgstr "কর্ম"
 
@@ -321,8 +301,6 @@ msgstr ""
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:110
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:156
 #, fuzzy
-#| msgctxt "Not_condition"
-#| msgid "Not"
 msgid "Is Not"
 msgstr "Not"
 
@@ -338,7 +316,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, window_class_label)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:77
 #, fuzzy
-#| msgid "Action"
 msgid "Window class:"
 msgstr "কর্ম"
 
@@ -351,7 +328,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, window_role_label)
 #: kcm_hotkeys/helper_widgets/window_definition_widget.ui:123
 #, fuzzy
-#| msgid "Action"
 msgid "Window role:"
 msgstr "কর্ম"
 
@@ -416,13 +392,11 @@ msgstr ""
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:161
 #, fuzzy
-#| msgid "New Global Shortcut"
 msgid "Global Shortcut"
 msgstr "নতুন সার্বজনীন শর্ট-কাট"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:174
 #, fuzzy
-#| msgid "Action"
 msgid "Window Action"
 msgstr "কর্ম"
 
@@ -444,7 +418,6 @@ msgstr "K-মেনুর এনট্রি"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:289
 #, fuzzy
-#| msgid "Keyboard input: "
 msgid "Send Keyboard Input"
 msgstr "কি-বোর্ড থেকে প্রাপ্ত ইনপুট: "
 
@@ -460,7 +433,6 @@ msgstr "মন্তব্য"
 #: kcm_hotkeys/hotkeys_context_menu.cpp:340
 #: kcm_hotkeys/hotkeys_context_menu.cpp:369
 #, fuzzy
-#| msgid "Action"
 msgid "New Action"
 msgstr "কর্ম"
 
@@ -476,7 +448,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, stateLabel)
 #: kcm_hotkeys/hotkeys_export_widget.ui:20
 #, fuzzy
-#| msgid "Action"
 msgid "Export Actions"
 msgstr "কর্ম"
 
@@ -519,7 +490,6 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: kcm_hotkeys/hotkeys_export_widget.ui:49
 #, fuzzy
-#| msgid "Enabled"
 msgctxt "Export hotkey actions in enabled state."
 msgid "Enabled"
 msgstr "সক্রিয়"
@@ -527,7 +497,6 @@ msgstr "সক্রিয়"
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: kcm_hotkeys/hotkeys_export_widget.ui:54
 #, fuzzy
-#| msgid "Enabled"
 msgctxt "Export hotkey actions into disabled  state"
 msgid "Disabled"
 msgstr "সক্রিয়"
@@ -579,14 +548,12 @@ msgstr ""
 
 #: kcm_hotkeys/hotkeys_model.cpp:402
 #, fuzzy
-#| msgid "Name"
 msgctxt "action name"
 msgid "Name"
 msgstr "নাম"
 
 #: kcm_hotkeys/hotkeys_model.cpp:406
 #, fuzzy
-#| msgid "Enabled"
 msgctxt "action enabled"
 msgid "Enabled"
 msgstr "সক্রিয়"
@@ -613,9 +580,6 @@ msgstr "মেইন্টেনার"
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:332
 #, fuzzy
-#| msgid ""
-#| "The current action has unsaved changes. If you continue those changes "
-#| "will be lost!"
 msgid ""
 "The current action has unsaved changes. If you continue these changes will "
 "be lost."
@@ -669,7 +633,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, window_gets_focus)
 #: kcm_hotkeys/triggers/window_trigger_widget.ui:36
 #, fuzzy
-#| msgid "Action"
 msgid "Window gets focus"
 msgstr "কর্ম"
 
@@ -757,7 +720,7 @@ msgstr ""
 msgid "Gesture trigger"
 msgstr ""
 
-#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:156
+#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:152
 msgid "Shortcut trigger: "
 msgstr ""
 
@@ -774,12 +737,10 @@ msgid "Window simple: "
 msgstr ""
 
 #, fuzzy
-#~| msgid "Active window: "
 #~ msgid "Active Window"
 #~ msgstr "সক্রিয় উইন্ডো: "
 
 #, fuzzy
-#~| msgid "KHotKeys Update"
 #~ msgid "KHotKeys Update Helper"
 #~ msgstr "KHotKeys আপডেট"
 

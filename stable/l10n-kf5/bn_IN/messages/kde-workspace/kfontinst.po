@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 09:23+0000\n"
+"POT-Creation-Date: 2014-12-29 07:54+0000\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -62,9 +62,8 @@ msgstr "ইসন্টলেশন স্থলের URL"
 msgid "Print"
 msgstr "প্রিন্ট করুন"
 
-#: apps/Printer.cpp:408 kcmfontinst/DuplicatesDialog.cpp:247
+#: apps/Printer.cpp:408 kcmfontinst/DuplicatesDialog.cpp:248
 #, fuzzy
-#| msgid "Cancel"
 msgid "Canceling..."
 msgstr "বাতিল"
 
@@ -114,31 +113,30 @@ msgstr "(C) ক্রেগ ড্রাম্‌মন্ড, ২০০৪-২�
 msgid "URL to open"
 msgstr "প্রদর্শনযোগ্য URL"
 
-#: kcmfontinst/DuplicatesDialog.cpp:73
+#: kcmfontinst/DuplicatesDialog.cpp:74
 msgid "Duplicate Fonts"
 msgstr "ফন্টের প্রতিলিপি"
 
-#: kcmfontinst/DuplicatesDialog.cpp:98
+#: kcmfontinst/DuplicatesDialog.cpp:99
 msgid "Scanning for duplicate fonts. Please wait..."
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:121
+#: kcmfontinst/DuplicatesDialog.cpp:122
 msgid "No duplicate fonts found."
 msgstr "কোনো ফন্টের প্রতিলিপি পাওয়া যায়নি"
 
-#: kcmfontinst/DuplicatesDialog.cpp:128
+#: kcmfontinst/DuplicatesDialog.cpp:129
 msgid "Delete Marked Files"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:130
+#: kcmfontinst/DuplicatesDialog.cpp:131
 #, fuzzy, kde-format
-#| msgid "%1 duplicate fonts found."
 msgid "%1 duplicate font found."
 msgid_plural "%1 duplicate fonts found."
 msgstr[0] "ফন্টের %1-টি প্রতিলিপি পাওয়া গিয়েছে।"
 msgstr[1] "ফন্টের %1-টি প্রতিলিপি পাওয়া গিয়েছে।"
 
-#: kcmfontinst/DuplicatesDialog.cpp:219
+#: kcmfontinst/DuplicatesDialog.cpp:220
 #, kde-format
 msgid ""
 "Are you sure you wish to delete:\n"
@@ -147,55 +145,51 @@ msgstr ""
 "নিশ্চিতরূপে মুছে ফেলা হবে কি:\n"
 "%1"
 
-#: kcmfontinst/DuplicatesDialog.cpp:221
+#: kcmfontinst/DuplicatesDialog.cpp:222
 msgid "Are you sure you wish to delete:"
 msgstr "নিশ্চিতরূপে মুছে ফেলা হবে কি:"
 
-#: kcmfontinst/DuplicatesDialog.cpp:245
+#: kcmfontinst/DuplicatesDialog.cpp:246
 #, fuzzy
-#| msgid "Abort font scan?"
 msgid "Cancel font scan?"
 msgstr "ফন্ট অনুসন্ধান পরিত্যাগ করা হবে কি?"
 
-#: kcmfontinst/DuplicatesDialog.cpp:405
+#: kcmfontinst/DuplicatesDialog.cpp:406
 msgid "Font/File"
 msgstr "ফন্ট/ফাইল"
 
-#: kcmfontinst/DuplicatesDialog.cpp:407
+#: kcmfontinst/DuplicatesDialog.cpp:408
 msgid "Size"
 msgstr "মাপ"
 
-#: kcmfontinst/DuplicatesDialog.cpp:408
+#: kcmfontinst/DuplicatesDialog.cpp:409
 msgid "Date"
 msgstr "তারিখ"
 
-#: kcmfontinst/DuplicatesDialog.cpp:409
+#: kcmfontinst/DuplicatesDialog.cpp:410
 msgid "Links To"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:422 kcmfontinst/FontList.cpp:1426
+#: kcmfontinst/DuplicatesDialog.cpp:423 kcmfontinst/FontList.cpp:1426
 msgid "Open in Font Viewer"
 msgstr "ফন্ট প্রদর্শন ব্যবস্থায় খোলা হবে"
 
-#: kcmfontinst/DuplicatesDialog.cpp:424
+#: kcmfontinst/DuplicatesDialog.cpp:425
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
-#: kcmfontinst/DuplicatesDialog.cpp:427
+#: kcmfontinst/DuplicatesDialog.cpp:428
 #, fuzzy
-#| msgid "Mark for Deletion..."
 msgid "Unmark for Deletion"
 msgstr "মুছে ফেলার চিহ্নিত..."
 
-#: kcmfontinst/DuplicatesDialog.cpp:429
+#: kcmfontinst/DuplicatesDialog.cpp:430
 #, fuzzy
-#| msgid "Mark for Deletion..."
 msgid "Mark for Deletion"
 msgstr "মুছে ফেলার চিহ্নিত..."
 
-#: kcmfontinst/DuplicatesDialog.cpp:529
+#: kcmfontinst/DuplicatesDialog.cpp:530
 #, fuzzy, kde-format
-#| msgid "Open all %1 fonts in font viewer?"
 msgid "Open font in font viewer?"
 msgid_plural "Open all %1 fonts in font viewer?"
 msgstr[0] "সকল %1-টি ফন্ট, ফন্ট প্রদর্শন ব্যবস্থা খোলা হবে কি?"
@@ -223,13 +217,11 @@ msgstr "FontConfig মিল"
 
 #: kcmfontinst/FontFilter.cpp:151
 #, fuzzy
-#| msgid "Preview Type"
 msgid "File Type"
 msgstr "পূর্বরূপের প্রকৃতি"
 
 #: kcmfontinst/FontFilter.cpp:182
 #, fuzzy
-#| msgid "File"
 msgid "File Name"
 msgstr "ফাইল"
 
@@ -388,7 +380,6 @@ msgstr "নাম পরিবর্তন..."
 
 #: kcmfontinst/GroupList.cpp:850
 #, fuzzy
-#| msgid "Aborting..."
 msgid "Export..."
 msgstr "পরিত্যাগ করা হচ্ছে..."
 
@@ -399,7 +390,6 @@ msgstr ""
 
 #: kcmfontinst/GroupList.cpp:950
 #, fuzzy
-#| msgid "Remove group"
 msgid "Remove from current group."
 msgstr "দল মুছে ফেলুন"
 
@@ -413,7 +403,6 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:189
 #, fuzzy
-#| msgid "Are you sure you wish to cancel?"
 msgid "<h3>Cancel?</h3><p>Are you sure you wish to cancel?</p>"
 msgstr "আপনি কি নিশ্চিতরূপে বাতিল করতে ইচ্ছুক?"
 
@@ -449,7 +438,6 @@ msgstr "আপডেট করা হচ্ছে"
 
 #: kcmfontinst/JobRunner.cpp:328
 #, fuzzy
-#| msgid "Remove"
 msgid "Removing"
 msgstr "মুছে ফেলুন"
 
@@ -493,9 +481,6 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:709
 #, fuzzy, kde-format
-#| msgid ""
-#| "You cannot install bitmap fonts, as these have been disabled on your "
-#| "system."
 msgid ""
 "<i>%1</i> is a bitmap font, and these have been disabled on your system."
 msgstr ""
@@ -503,10 +488,6 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:711
 #, fuzzy, kde-format
-#| msgid ""
-#| "File %1 contains the font:\n"
-#| "%2\n"
-#| "A font with this name is already installed.\n"
 msgid ""
 "<i>%1</i> contains the font <b>%2</b>, which is already installed on your "
 "system."
@@ -522,7 +503,6 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:716
 #, fuzzy, kde-format
-#| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with <i>%1</i>"
 msgstr "%1-র সাথে যুক্ত অতিরিক্ত ফাইল অনুসন্ধান করা হচ্ছে"
 
@@ -533,7 +513,6 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:723 kio/KioFonts.cpp:806
 #, fuzzy, kde-format
-#| msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
 msgid "<i>%1</i> already exists."
 msgstr "<qt><b>'%1'</b> নামক একটি দল বর্তমানে উপস্থিত রয়েছে।</qt>"
 
@@ -549,13 +528,11 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:730
 #, fuzzy, kde-format
-#| msgid "Authorization Failed"
 msgid "Unsupported action.<br><i>%1</i>"
 msgstr "অনুমোদন ব্যর্থ"
 
 #: kcmfontinst/JobRunner.cpp:732
 #, fuzzy, kde-format
-#| msgid "Authorization Failed"
 msgid "Authentication failed.<br><i>%1</i>"
 msgstr "অনুমোদন ব্যর্থ"
 
@@ -566,13 +543,11 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:191
 #, fuzzy
-#| msgid "KDE Font Installer"
 msgid "KDE Font Manager"
 msgstr "KDE ফন্ট ইনস্টলার"
 
 #: kcmfontinst/KCmFontInst.cpp:192
 #, fuzzy
-#| msgid "(C) Craig Drummond, 2004-2007"
 msgid "(C) Craig Drummond, 2000 - 2009"
 msgstr "(C) ক্রেগ ড্রাম্‌মন্ড, ২০০৪-২০০৭ "
 
@@ -586,13 +561,11 @@ msgstr "ডিভেলপার ও মেইনটেনার"
 
 #: kcmfontinst/KCmFontInst.cpp:227
 #, fuzzy
-#| msgid "Scan For Duplicate Fonts..."
 msgid "Scan for Duplicate Fonts..."
 msgstr "ফন্টের প্রতিলিপির উপস্থিতি অনুসন্ধান করুন..."
 
 #: kcmfontinst/KCmFontInst.cpp:231
 #, fuzzy
-#| msgid "Delete Fonts"
 msgid "Get New Fonts..."
 msgstr "ফন্ট মুছে ফেলুন"
 
@@ -717,7 +690,6 @@ msgstr "স্থানান্তর করার জন্য কিছু �
 
 #: kcmfontinst/KCmFontInst.cpp:722
 #, fuzzy, kde-format
-#| msgid "<p>Do you really want to move</p><p>'<b>%1</b>'?</p>"
 msgid ""
 "<p>Do you really want to move</p><p>'<b>%1</b>'</p><p>from <i>%2</i> to <i>"
 "%3</i>?</p>"
@@ -733,7 +705,6 @@ msgstr "স্থানান্তর করুন"
 
 #: kcmfontinst/KCmFontInst.cpp:731
 #, fuzzy, kde-format
-#| msgid "<p>Do you really want to move</p><p>'<b>%1</b>'?</p>"
 msgid ""
 "<p>Do you really want to move this font from <i>%2</i> to <i>%3</i>?</p>"
 msgid_plural ""
@@ -759,7 +730,6 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:784
 #, fuzzy, kde-format
-#| msgid "Failed to locate font printer."
 msgid "Failed to open %1 for writing"
 msgstr "ফন্ট প্রিন্টার সনাক্র করতে ব্যর্থ।"
 
@@ -990,13 +960,11 @@ msgstr ""
 
 #: kio/KioFonts.cpp:476
 #, fuzzy
-#| msgid "Copy Fonts"
 msgid "Cannot copy fonts"
 msgstr "ফন্ট কপি করুন"
 
 #: kio/KioFonts.cpp:481
 #, fuzzy
-#| msgid "Cannot Print"
 msgid "Cannot move fonts"
 msgstr "প্রিন্ট করা যাবে না"
 
@@ -1006,7 +974,6 @@ msgstr ""
 
 #: kio/KioFonts.cpp:495
 #, fuzzy, kde-format
-#| msgid "You cannot rename, move, copy, or delete either \"%1\" or \"%2\"."
 msgid "Can only remove fonts from either \"%1\" or \"%2\"."
 msgstr ""
 "আপনি \"%1\" অথবা \"%2\" কপি, স্থানান্তর ও অপসারণ করতে পারবেন না। এইগুলির নাম "
@@ -1027,7 +994,6 @@ msgstr "ফন্ট"
 
 #: kio/KioFonts.cpp:782
 #, fuzzy
-#| msgid "Failed to start font printer."
 msgid "Failed to start the system daemon"
 msgstr "ফন্ট প্রিন্টার আরম্ভ করতে ব্যর্থ।"
 
@@ -1037,19 +1003,12 @@ msgstr ""
 
 #: kio/KioFonts.cpp:789
 #, fuzzy, kde-format
-#| msgid ""
-#| "You cannot install bitmap fonts, as these have been disabled on your "
-#| "system."
 msgid "%1 is a bitmap font, and these have been disabled on your system."
 msgstr ""
 "সিস্টেমের মধ্যে বিট-ম্যাপ ফন্ট নিষ্ক্রিয় হওয়ার ফলে, বিট-ম্যাপ ফন্ট ইনস্টল করা সম্ভব নয়।"
 
 #: kio/KioFonts.cpp:793
 #, fuzzy, kde-format
-#| msgid ""
-#| "File %1 contains the font:\n"
-#| "%2\n"
-#| "A font with this name is already installed.\n"
 msgid ""
 "%1 contains the font <b>%2</b>, which is already installed on your system."
 msgstr ""
@@ -1059,13 +1018,11 @@ msgstr ""
 
 #: kio/KioFonts.cpp:797
 #, fuzzy, kde-format
-#| msgid "Could not read font."
 msgid "%1 is not a font."
 msgstr "ফন্ট পড়তে ব্যর্থ।"
 
 #: kio/KioFonts.cpp:800
 #, fuzzy, kde-format
-#| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with %1"
 msgstr "%1-র সাথে যুক্ত অতিরিক্ত ফাইল অনুসন্ধান করা হচ্ছে"
 
@@ -1073,46 +1030,46 @@ msgstr "%1-র সাথে যুক্ত অতিরিক্ত ফাই�
 msgid "Unknown"
 msgstr "অজানা"
 
-#: lib/FcEngine.cpp:767
+#: lib/FcEngine.cpp:768
 msgctxt "First letter of the alphabet (in upper then lower case)"
 msgid "Aa"
 msgstr "অ"
 
-#: lib/FcEngine.cpp:769
+#: lib/FcEngine.cpp:770
 msgctxt ""
 "All letters of the alphabet (in upper/lower case pairs), followed by numbers"
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
 msgstr "অআইইউঊঋএঐওঔকখগঘঙচছজঝঞটঠডড়ঢঢ়ণতথদধনপফবভমযরলশষসহয়"
 
-#: lib/FcEngine.cpp:951
+#: lib/FcEngine.cpp:952
 msgid "No characters found."
 msgstr "কোনো অক্ষর পাওয়া যায়নি।"
 
-#: lib/FcEngine.cpp:989
+#: lib/FcEngine.cpp:990
 msgctxt "A sentence that uses all of the letters of the alphabet"
 msgid "The quick brown fox jumps over the lazy dog"
 msgstr ""
 
-#: lib/FcEngine.cpp:994
+#: lib/FcEngine.cpp:995
 msgctxt "All of the letters of the alphabet, uppercase"
 msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 msgstr "অআইইউঊঋএঐওঔকখগঘঙচছজঝঞটঠডড়ঢঢ়ণতথদধনপফবভমযরলশষসহয়"
 
-#: lib/FcEngine.cpp:999
+#: lib/FcEngine.cpp:1000
 msgctxt "All of the letters of the alphabet, lowercase"
 msgid "abcdefghijklmnopqrstuvwxyz"
 msgstr "অআইইউঊঋএঐওঔকখগঘঙচছজঝঞটঠডড়ঢঢ়ণতথদধনপফবভমযরলশষসহয়"
 
-#: lib/FcEngine.cpp:1004
+#: lib/FcEngine.cpp:1005
 msgctxt "Numbers and characters"
 msgid "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 msgstr "০১২৩৪৫৬৭৮৯.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 
-#: lib/FcEngine.cpp:1401
+#: lib/FcEngine.cpp:1402
 msgid "ERROR: Could not determine font's name."
 msgstr "ত্রুটি: ফন্টের নাম নির্ধারণ করা সম্ভব হয়নি।"
 
-#: lib/FcEngine.cpp:1405
+#: lib/FcEngine.cpp:1406
 #, kde-format
 msgid "%2 [1 pixel]"
 msgid_plural "%2 [%1 pixels]"
@@ -1247,143 +1204,143 @@ msgstr "Charcell"
 msgid "Proportional"
 msgstr ""
 
-#: viewpart/CharTip.cpp:64
+#: viewpart/CharTip.cpp:66
 msgid "Other, Control"
 msgstr "অন্যান্য, নিয়ন্ত্রণ"
 
-#: viewpart/CharTip.cpp:66
+#: viewpart/CharTip.cpp:68
 msgid "Other, Format"
 msgstr "অন্যান্য, বিন্যাস"
 
-#: viewpart/CharTip.cpp:68
+#: viewpart/CharTip.cpp:70
 msgid "Other, Not Assigned"
 msgstr "অন্যান্য, অনির্ধারিত"
 
-#: viewpart/CharTip.cpp:70
+#: viewpart/CharTip.cpp:72
 msgid "Other, Private Use"
 msgstr "অন্যান্য, ব্যক্তিগত ব্যবহার"
 
-#: viewpart/CharTip.cpp:72
+#: viewpart/CharTip.cpp:74
 msgid "Other, Surrogate"
 msgstr ""
 
-#: viewpart/CharTip.cpp:74
+#: viewpart/CharTip.cpp:76
 msgid "Letter, Lowercase"
 msgstr "অক্ষর, ছোট ছাঁদের হরফ"
 
-#: viewpart/CharTip.cpp:76
+#: viewpart/CharTip.cpp:78
 msgid "Letter, Modifier"
 msgstr "অক্ষর, পরিবর্তক"
 
-#: viewpart/CharTip.cpp:78
+#: viewpart/CharTip.cpp:80
 msgid "Letter, Other"
 msgstr "অক্ষর, অন্যান্য"
 
-#: viewpart/CharTip.cpp:80
+#: viewpart/CharTip.cpp:82
 msgid "Letter, Titlecase"
 msgstr ""
 
-#: viewpart/CharTip.cpp:82
+#: viewpart/CharTip.cpp:84
 msgid "Letter, Uppercase"
 msgstr "অক্ষর, বড় ছাঁদের হরফ"
 
-#: viewpart/CharTip.cpp:84
+#: viewpart/CharTip.cpp:86
 msgid "Mark, Spacing Combining"
 msgstr ""
 
-#: viewpart/CharTip.cpp:86
+#: viewpart/CharTip.cpp:88
 msgid "Mark, Enclosing"
 msgstr ""
 
-#: viewpart/CharTip.cpp:88
+#: viewpart/CharTip.cpp:90
 msgid "Mark, Non-Spacing"
 msgstr ""
 
-#: viewpart/CharTip.cpp:90
+#: viewpart/CharTip.cpp:92
 msgid "Number, Decimal Digit"
 msgstr "সংখ্যা, ডেসিম্যাল সংখ্যা"
 
-#: viewpart/CharTip.cpp:92
+#: viewpart/CharTip.cpp:94
 msgid "Number, Letter"
 msgstr "সংখ্যা, অক্ষর"
 
-#: viewpart/CharTip.cpp:94
+#: viewpart/CharTip.cpp:96
 msgid "Number, Other"
 msgstr "সংখ্যা, অন্যান্য"
 
-#: viewpart/CharTip.cpp:96
+#: viewpart/CharTip.cpp:98
 msgid "Punctuation, Connector"
 msgstr ""
 
-#: viewpart/CharTip.cpp:98
+#: viewpart/CharTip.cpp:100
 msgid "Punctuation, Dash"
 msgstr "যতিচিহ্ন, ড্যাশ"
 
-#: viewpart/CharTip.cpp:100
+#: viewpart/CharTip.cpp:102
 msgid "Punctuation, Close"
 msgstr ""
 
-#: viewpart/CharTip.cpp:102
+#: viewpart/CharTip.cpp:104
 msgid "Punctuation, Final Quote"
 msgstr "যতিচিহ্ন, উদ্ধৃতি সমাপ্তি"
 
-#: viewpart/CharTip.cpp:104
+#: viewpart/CharTip.cpp:106
 msgid "Punctuation, Initial Quote"
 msgstr "যতিচিহ্ন, উদ্ধৃতি আরম্ভ"
 
-#: viewpart/CharTip.cpp:106
+#: viewpart/CharTip.cpp:108
 msgid "Punctuation, Other"
 msgstr "যতিচিহ্ন, অন্যান্য"
 
-#: viewpart/CharTip.cpp:108
+#: viewpart/CharTip.cpp:110
 msgid "Punctuation, Open"
 msgstr "যতিচিহ্ন, খোলা"
 
-#: viewpart/CharTip.cpp:110
+#: viewpart/CharTip.cpp:112
 msgid "Symbol, Currency"
 msgstr ""
 
-#: viewpart/CharTip.cpp:112
+#: viewpart/CharTip.cpp:114
 msgid "Symbol, Modifier"
 msgstr ""
 
-#: viewpart/CharTip.cpp:114
+#: viewpart/CharTip.cpp:116
 msgid "Symbol, Math"
 msgstr "প্রতীক, গণিত"
 
-#: viewpart/CharTip.cpp:116
+#: viewpart/CharTip.cpp:118
 msgid "Symbol, Other"
 msgstr "প্রতীক, অন্যান্য"
 
-#: viewpart/CharTip.cpp:118
+#: viewpart/CharTip.cpp:120
 msgid "Separator, Line"
 msgstr "বিভাজক, রেখা"
 
-#: viewpart/CharTip.cpp:120
+#: viewpart/CharTip.cpp:122
 msgid "Separator, Paragraph"
 msgstr "বিভাজক, অনুচ্ছেদ"
 
-#: viewpart/CharTip.cpp:122
+#: viewpart/CharTip.cpp:124
 msgid "Separator, Space"
 msgstr "বিভাজক, শূণ্যস্থান"
 
-#: viewpart/CharTip.cpp:173
+#: viewpart/CharTip.cpp:175
 msgid "Category"
 msgstr "বিভাগ"
 
-#: viewpart/CharTip.cpp:175
+#: viewpart/CharTip.cpp:177
 msgid "UCS-4"
 msgstr "UCS-4"
 
-#: viewpart/CharTip.cpp:179
+#: viewpart/CharTip.cpp:181
 msgid "UTF-16"
 msgstr "UTF-16"
 
-#: viewpart/CharTip.cpp:190
+#: viewpart/CharTip.cpp:192
 msgid "UTF-8"
 msgstr "UTF-8"
 
-#: viewpart/CharTip.cpp:207
+#: viewpart/CharTip.cpp:209
 msgid "XML Decimal Entity"
 msgstr "XML ডেসিম্যাল এনটিটি"
 
@@ -2111,8 +2068,6 @@ msgid "Yi"
 msgstr "ইয়ি"
 
 #, fuzzy
-#~| msgid "Do you really want to move this font?"
-#~| msgid_plural "Do you really want to move these %1 fonts?"
 #~ msgid "Do you really want to move this font?"
 #~ msgid_plural ""
 #~ "<p>Do you really want to move these %1 fonts from <i>%2</i> to <i>%3</i>?"
@@ -2120,12 +2075,10 @@ msgstr "ইয়ি"
 #~ msgstr[1] "আপনি কি নিশ্চিতরূপে এই %1-টি ফন্ট স্থানান্তর করতে ইচ্ছুক?"
 
 #, fuzzy
-#~| msgid "Print..."
 #~ msgid "Starting..."
 #~ msgstr "প্রিন্ট করুন..."
 
 #, fuzzy
-#~| msgid "Cancel"
 #~ msgid "Cancelling..."
 #~ msgstr "বাতিল"
 
@@ -2142,7 +2095,6 @@ msgstr "ইয়ি"
 #~ msgstr "পূর্বরূপ প্রদর্শন"
 
 #, fuzzy
-#~| msgid "Preview"
 #~ msgid "Show Preview"
 #~ msgstr "পূর্বরূপ প্রদর্শন"
 
@@ -2157,7 +2109,6 @@ msgstr "ইয়ি"
 #~ msgstr "নিম্নলিখিত ফাইলগুলি মুছে ফেলা যায়নি:"
 
 #, fuzzy
-#~| msgid "Standard:"
 #~ msgctxt ""
 #~ "Title for a group that contains \"All Fonts\", \"Personal Fonts\", "
 #~ "\"System Fonts\" and \"Unclassified\""

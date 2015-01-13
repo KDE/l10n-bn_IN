@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmimetypefinder\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:55+0000\n"
+"POT-Creation-Date: 2014-10-12 07:56+0000\n"
 "PO-Revision-Date: 2010-01-04 12:43+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -19,19 +19,19 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kmimetypefinder.cpp:33
+#: kmimetypefinder.cpp:35
 msgid "MimeType Finder"
 msgstr "MimeType অনুসন্ধান ব্যবস্থা"
 
-#: kmimetypefinder.cpp:33
+#: kmimetypefinder.cpp:35
 msgid "Gives the mimetype for a given file"
 msgstr "কোনো নির্দিষ্ট ফাইলের mimetype প্রাপ্ত করতে ব্যবহৃত"
 
-#: kmimetypefinder.cpp:38
+#: kmimetypefinder.cpp:40
 msgid "Use only the file content for determining the mimetype."
 msgstr "mimetype নির্ধারণের জন্য শুধুমাত্র ফাইলের বিষয়বস্তু প্রয়োগ করা হবে।"
 
-#: kmimetypefinder.cpp:39
+#: kmimetypefinder.cpp:41
 msgid ""
 "Whether use the file name only for determining the mimetype. Not used if -c "
 "is specified."
@@ -39,6 +39,6 @@ msgstr ""
 "mimetype নির্ধারণের জন্য শুধুমাত্র ফাইলের নাম ব্যবহার করা হবে কি না। -c বিকল্পটি "
 "প্রয়োগ করা হলে এটি ব্যবহার করা হয় না।"
 
-#: kmimetypefinder.cpp:40
+#: kmimetypefinder.cpp:42
 msgid "The filename to test. '-' to read from stdin."
 msgstr "পরীক্ষার উদ্দেশ্যে ফাইলের নাম। '-' stdin থেকে পড়া হবে।"

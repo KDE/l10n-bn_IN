@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-29 09:04+0000\n"
+"POT-Creation-Date: 2014-10-08 08:01+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,11 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: Help.desktop:9
-msgctxt "Name"
-msgid "Help"
-msgstr "সাহায্য"
 
 #: htmlsearch/htmlsearch.desktop:12
 msgctxt "Name"
@@ -64,6 +59,11 @@ msgctxt "Comment"
 msgid "The KDE Help Center"
 msgstr "KDE সহায়তা কেন্দ্র"
 
+#: org.kde.Help.desktop:9
+msgctxt "Name"
+msgid "Help"
+msgstr "সাহায্য"
+
 #: plugins/Applications/.directory:3
 msgctxt "Name"
 msgid "Application Manuals"
@@ -76,16 +76,12 @@ msgstr ""
 
 #: plugins/filemanagercontrolmodules.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "File Manager - Super User Mode"
 msgctxt "Name"
 msgid "Filemanager Settings Modules"
 msgstr "ফাইল পরিচালন ব্যবস্থা - সুপার-ইউজার মোড"
 
 #: plugins/fundamentals.desktop:4
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "KDE Performance"
 msgctxt "Name"
 msgid "KDE Fundamentals"
 msgstr "KDE-র কর্মক্ষমতা"
@@ -97,8 +93,6 @@ msgstr "Info পেজ পরিদর্শন করুন"
 
 #: plugins/kcontrolmodules.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "System Settings"
 msgctxt "Name"
 msgid "System Settings Modules"
 msgstr "সিস্টেম সংক্রান্ত বৈশিষ্ট্য"
@@ -115,8 +109,6 @@ msgstr "Kioslaves"
 
 #: plugins/konquerorcontrolmodules.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Control Center Modules"
 msgctxt "Name"
 msgid "Konqueror Settings Modules"
 msgstr "কনট্রোল সেন্টারের মডিউল"
@@ -178,16 +170,12 @@ msgstr "(n) নতুন"
 
 #: plugins/onlinehelp.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Dolphin View"
 msgctxt "Name"
 msgid "Online Help"
 msgstr "Dolphin প্রদর্শন"
 
 #: plugins/othercontrolmodules.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "System Settings"
 msgctxt "Name"
 msgid "Other Settings Modules"
 msgstr "সিস্টেম সংক্রান্ত বৈশিষ্ট্য"
@@ -213,8 +201,6 @@ msgid "KDE Users' Manual"
 msgstr "KDE ব্যবহারকারীদের জন্য সহায়িকা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "Social Desktop"
 #~ msgstr "ডেস্কটপ"
@@ -224,8 +210,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "বাতাস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Application dashboard"
 #~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
@@ -243,36 +227,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "বিভিন্ন পরিসেবার সাথে ব্যবহারের উদ্দেশ্যে ডিফল্ট সামগ্রী নির্বাচন করুন"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Web Browser"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Web Browser"
 #~ msgstr "ওয়েব ব্রাউজার"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "File Manager"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "File Manager"
 #~ msgstr "ফাইল পরিচালন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Email Client"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Email Client"
 #~ msgstr "ই-মেইল ক্লায়েন্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Terminal Emulator"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Terminal Emulator"
 #~ msgstr "টার্মিন্যাল এমুলেটর"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Manager"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Window Manager"
 #~ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
@@ -312,15 +286,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ইমোআইকন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Emoticons Themes Manager"
 #~ msgctxt "Comment"
 #~ msgid "Choose Emoticon Theme"
 #~ msgstr "ইমোআইকন থিম পরিচালন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Emoticons"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Emoticons"
 #~ msgstr "ইমোআইকন"
@@ -342,15 +312,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KDE পরিসেবা কনফিগারেশন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "KDED,Daemon,Services"
 #~ msgstr "Dolphin প্রদর্শন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notifications"
 #~ msgctxt "Name"
 #~ msgid "Manage Notifications"
 #~ msgstr "সূচনাবার্তা"
@@ -388,8 +354,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ফাইলের সাথে ব্যবহারযোগ্য অ্যাপ্লিকেশন কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Global Keyboard Shortcuts"
 #~ msgctxt "Comment"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
@@ -399,22 +363,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "অ্যাপ্লিকেশন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Manuals"
 #~ msgctxt "Comment"
 #~ msgid "The application name"
 #~ msgstr "অ্যাপ্লিকেশনের সহায়িকা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Global Keyboard Shortcuts"
 #~ msgctxt "Name"
 #~ msgid "Global Shortcut Registration"
 #~ msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Global Keyboard Shortcuts"
 #~ msgctxt "Name"
 #~ msgid "Global Shortcut Triggered"
 #~ msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
@@ -428,8 +386,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "CGI KIO স্লেভ কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Analyzer"
 #~ msgctxt "Name"
 #~ msgid "Directory Watcher"
 #~ msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
@@ -463,22 +419,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "নেটওয়ার্ক"
 
 #, fuzzy
-#~| msgctxt "Description"
-#~| msgid "A kioslave for the FISH protocol"
 #~ msgctxt "Description"
 #~ msgid "A kioslave to browse the network"
 #~ msgstr "FISH প্রোটোকলের জন্য একটি kioslave"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Analyzer"
 #~ msgctxt "Name"
 #~ msgid "Network Watcher"
 #~ msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Analyzer"
 #~ msgctxt "Name"
 #~ msgid "Recent Document Watcher"
 #~ msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
@@ -492,8 +442,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Samba শেয়ার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Comoros"
 #~ msgctxt "Name"
 #~ msgid "Comic Books"
 #~ msgstr "কোমোরোস"
@@ -503,15 +451,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "কার্সারের ফাইল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Effects"
 #~ msgctxt "Name"
 #~ msgid "Desktop Files"
 #~ msgstr "ডেস্কটপ ইফেক্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Folder"
 #~ msgctxt "Name"
 #~ msgid "Folders"
 #~ msgstr "ফোল্ডার"
@@ -529,15 +473,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "HTML ফাইল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "EXR Images"
 #~ msgctxt "Name"
 #~ msgid "JPEG Images"
 #~ msgstr "EXR ছবি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Images"
 #~ msgctxt "Name"
 #~ msgid "SVG Images"
 #~ msgstr "ছবি"
@@ -559,8 +499,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Trash"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "trash"
 #~ msgstr "আবর্জনা"
@@ -578,8 +516,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "নেটওয়ার্ক ফোল্ডারের উইজার্ড"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notifications"
 #~ msgctxt "Name"
 #~ msgid "Hardware notifications"
 #~ msgstr "সূচনাবার্তা"
@@ -589,8 +525,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ডিভাইসের সূচনা ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Performance"
 #~ msgctxt "Comment"
 #~ msgid "KDE Workspace"
 #~ msgstr "KDE-র কর্মক্ষমতা"
@@ -645,8 +579,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "লগ-আউট করুন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE is exiting"
 #~ msgctxt "Comment"
 #~ msgid "Session is exiting"
 #~ msgstr "KDE থেকে প্রস্থান করা হচ্ছে"
@@ -716,22 +648,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KDE Notification ডেমন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Password caching support"
 #~ msgctxt "Name"
 #~ msgid "Password Caching"
 #~ msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Password caching support"
 #~ msgctxt "Comment"
 #~ msgid "Temporary password caching"
 #~ msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Time Zone Daemon"
 #~ msgctxt "Name"
 #~ msgid "Time Zone"
 #~ msgstr "KDE Time Zone ডেমন"
@@ -757,15 +683,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সার্চ-ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Digital Clock"
 #~ msgctxt "Name"
 #~ msgid "7Digital"
 #~ msgstr "ডিজিট্যাল ঘড়ি"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://us.7digital.com/Search?search=\\\\{@}"
@@ -773,15 +695,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.abbreviations.com/\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Oman"
 #~ msgctxt "Name"
 #~ msgid "Amazon"
 #~ msgstr "ওমান"
@@ -791,8 +709,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সর্বধরনের সংগীত সহায়িকা"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.allmusic.com/search/all/\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -802,29 +718,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Debian ব্যাক-পোর্ট অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.baidu.com/s?wd=\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Benin"
 #~ msgctxt "Name"
 #~ msgid "Bing"
 #~ msgstr "বেনিন"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.bing.com/search?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://blip.tv/search?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -834,8 +742,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KDE বাগ ডাটাবেসে অনুসন্ধান - সম্পূর্ণ টেক্সট সহযোগে"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
 #~ msgstr "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
@@ -845,8 +751,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KDE বাগ ডাটাবেসে অনুসন্ধান - বাগ সংখ্যা প্রয়োগ করে"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 #~ msgstr "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
@@ -856,8 +760,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "QRZ.com Callsign ডাটাবেস"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.qrz.com/db/\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
@@ -871,9 +773,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "CiteSeer: বিজ্ঞানবিষয়ক নথিপত্রের ডিজিট্যাল লাইব্রেরি"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://citeseer.ist.psu.edu/cs?q=\\\\{@}&submit=Search+Documents&cs=1"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://citeseer.ist.psu.edu/search?q=\\\\{@}&submit=Search&sort=rlv&t=doc"
@@ -885,10 +784,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "CPAN - কম্প্রিহেনসিভ Perl আর্কাইভ নেটওয়ার্ক"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://search.cpan.org/search?mode=\\\\{mode,2,\"dist\"}&query=\\"
-#~| "\\{query,q,1}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://search.cpan.org/search?mode=\\\\{mode,2,\"\"}&query=\\\\{query,q,1}"
@@ -913,8 +808,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "CTAN - কম্প্রিহেনসিভ TeX আর্কাইভ নেটওয়ার্ক"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dict.leo.org/?search=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://ctan.org/search?phrase=\\\\{@}"
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
@@ -952,8 +845,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://packages.debian.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.cnrtl.fr/definition/\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
@@ -983,36 +874,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://duckduckgo.com/?q=\\\\{@}&t=kde"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://duckduckgo.com/?q=\\\\{@}&v=r&t=kde"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://duckduckgo.com/?q=\\\\{@}&v=s&t=kde"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Ecosia search engine"
 #~ msgstr "সার্চ-ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://ecosia.org/search.php?q=\\\\{@}&meta=normal"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1054,29 +935,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "ickle"
 #~ msgctxt "Name"
 #~ msgid "Ethicle"
 #~ msgstr "ickle"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.ethicle.com/search.php?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Faces"
 #~ msgctxt "Name"
 #~ msgid "Facebook"
 #~ msgstr "Faces"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://www.facebook.com/search/?q=\\\\{@}&init=quick"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1086,9 +959,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Feedster"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.feedster.com/index.php?page=search/web&type=Web&search=\\\\{@}"
@@ -1096,15 +966,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://www.flickr.com/search/?q=\\\\{@}&l=cc&ct=0&mt=all&adv=1"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.flickr.com/search/?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1114,8 +980,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "কম্পিউটার সংক্রান্ত অন-লাইন মুক্ত অভিধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://foldoc.org/\\\\{@}"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
@@ -1133,15 +997,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Greece"
 #~ msgctxt "Name"
 #~ msgid "Freecode"
 #~ msgstr "গ্রিস"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://freecode.com/search?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1163,22 +1023,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://github.com/search?q=\\\\{@}&x=0&y=0"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Editors"
 #~ msgctxt "Name"
 #~ msgid "Gitorious"
 #~ msgstr "এডিটর"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://gitorious.org/search?q=\\\\{@}&commit=Search"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1188,14 +1042,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Google-র উন্নত বৈশিষ্ট্য সম্বলিত অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.google.com/search?as_q=\\\\{all,@}&num=\\\\{num,\"10\"}"
-#~| "&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\"
-#~| "\\{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\"
-#~| "\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}"
-#~| "&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,"
-#~| "\"active\"}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "https://www.google.com/search?as_q=\\\\{all,@}&num=\\\\{num,\"10\"}"
@@ -1213,15 +1059,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "\"}&ie=UTF-8&oe=UTF-8"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Google Movies"
 #~ msgctxt "Name"
 #~ msgid "Google Code"
 #~ msgstr "Google মুভিস"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://froogle.google.com/froogle?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://code.google.com/query/#q=\\\\{%2520}"
 #~ msgstr "http://froogle.google.com/froogle?q=\\\\{@}"
@@ -1231,8 +1073,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Google"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://www.google.com/search?q=\\\\{@}&ie=UTF-8"
 #~ msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -1242,8 +1082,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Google Groups (গ্রুপ)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://groups.google.com/groups?oi=djq&as_q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://groups.google.com/groups?oi=djq&as_q=\\\\{@}"
 #~ msgstr "http://groups.google.com/groups?oi=djq&as_q=\\\\{@}"
@@ -1253,8 +1091,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Google ছবি অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://www.google.com/search?site=imghp&tbm=isch&q=\\\\{@}"
 #~ msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -1264,10 +1100,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Google (I'm Feeling Lucky)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.google.com/search?q=\\\\{@}&btnI=I%27m+Feeling"
-#~| "+Lucky&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "https://www.google.com/search?q=\\\\{@}&btnI=I%27m+Feeling"
@@ -1277,15 +1109,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "+Lucky&ie=UTF-8&oe=UTF-8"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Google Groups"
 #~ msgctxt "Name"
 #~ msgid "Google Maps"
 #~ msgstr "Google Groups (গ্রুপ)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://maps.google.com/maps?q=\\\\{@}&ie=UTF8&iwloc=addr"
 #~ msgstr "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -1295,8 +1123,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Google মুভিস"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=movie:\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgstr "http://www.google.com/search?q=movie:\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -1306,29 +1132,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Google খবরাখবর"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgstr "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Google Groups"
 #~ msgctxt "Name"
 #~ msgid "Google Shopping"
 #~ msgstr "Google Groups (গ্রুপ)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://www.google.com/search?hl=en&tbm=shop&q=\\\\{@}"
 #~ msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.grec.net/cgibin/lexicx.pgm?GECART=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=\\\\{@}"
 #~ msgstr "http://www.grec.net/cgibin/lexicx.pgm?GECART=\\\\{@}"
@@ -1358,22 +1176,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://identi.ca/search/group?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://freshmeat.net/search/?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://identi.ca/search/notice?q=\\\\{@}"
 #~ msgstr "http://freshmeat.net/search/?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://identi.ca/search/people?q=\\\\{@}&search=Search"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1383,8 +1195,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ইন্টারনেট ছায়াছবির ডাটাবেস"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://imdb.com/Find?\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://imdb.com/find?s=all&q=\\\\{@}"
 #~ msgstr "http://imdb.com/Find?\\\\{@}"
@@ -1398,15 +1208,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Jamin"
 #~ msgctxt "Name"
 #~ msgid "Jamendo"
 #~ msgstr "Jamin"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.jamendo.com/en/search?qs=q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1442,23 +1248,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://api.kde.org/classmapper.php?class=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Performance"
 #~ msgctxt "Name"
 #~ msgid "KDE Forums"
 #~ msgstr "KDE-র কর্মক্ষমতা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE 2"
 #~ msgctxt "Name"
 #~ msgid "KDE Look"
 #~ msgstr "KDE 2"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.kde-look.org/content/search.php?search=Search&name=\\\\{@}"
@@ -1466,44 +1265,32 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "MrProject"
 #~ msgctxt "Name"
 #~ msgid "KDE Projects"
 #~ msgstr "MrProject"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dict.leo.org/?search=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://projects.kde.org/search?projects=1&q=\\\\{@}"
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE News"
 #~ msgctxt "Name"
 #~ msgid "KDE TechBase"
 #~ msgstr "KDE-র খবরাখবর"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://techbase.kde.org/Special:Search?search=\\\\{@}&fulltext=Search"
 #~ msgstr "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Users' Manual"
 #~ msgctxt "Name"
 #~ msgid "KDE UserBase"
 #~ msgstr "KDE ব্যবহারকারীদের জন্য সহায়িকা"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://userbase.kde.org/Special:Search?search=\\\\{@}&fulltext=Search"
@@ -1518,15 +1305,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vanuatu"
 #~ msgctxt "Name"
 #~ msgid "Magnatune"
 #~ msgstr "ভানুয়াটু"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://my.magnatune.com/search?w=\\\\{@}&t=m&x=0&y=0"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1536,8 +1319,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "MetaCrawler"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.metacrawler.com/info.metac.cloud.other/search/web?q=\\\\{@}"
@@ -1548,8 +1329,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Microsoft Developer Network Search"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://directory.fsf.org/search/?query=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://social.msdn.microsoft.com/Search/en-US?query=\\\\{@}"
 #~ msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
@@ -1619,16 +1398,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://teletekst.nos.nl/gif/\\\\{@}-01.html"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "openDesktop.org"
 #~ msgstr "ডেস্কটপ"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.opendesktop.org/content/search.php?search=Search&name=\\\\{@}"
@@ -1640,8 +1414,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "OpenPGP-কি অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://pgp.dtype.org:11371/pks/lookup?search=\\\\{@}&op=vindex"
 #~ msgctxt "Query"
 #~ msgid "http://pgp.mit.edu:11371/pks/lookup?search=\\\\{@}&op=vindex"
 #~ msgstr "http://pgp.dtype.org:11371/pks/lookup?search=\\\\{@}&op=vindex"
@@ -1651,9 +1423,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "PHP অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.php.net/search.php?show=\\\\{mode,\"manual\"}&pattern=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.php.net/manual-lookup.php?pattern=\\\\{@}"
 #~ msgstr ""
@@ -1664,10 +1433,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Python রেফারেন্স সহায়িকা"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
-#~| "&submit=Search&q=site%3Apython.org"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "https://www.google.com/search?sourceid=python-search&q=\\\\{@}"
@@ -1677,15 +1442,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "&submit=Search&q=site%3Apython.org"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Qt3 Online Documentation"
 #~ msgctxt "Name"
 #~ msgid "Qt4 Documentation"
 #~ msgstr "Qt3 সংক্রান্ত অন-লাইন নথিপত্র"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 #~ msgctxt "Query"
 #~ msgid "http://qt-project.org/doc/search/qt-4.8?search=\\\\{@}"
 #~ msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
@@ -1695,8 +1456,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Qt সংক্রান্ত সাম্প্রতিক নথিপত্র"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 #~ msgctxt "Query"
 #~ msgid "http://qt-project.org/doc/search/qt-5.0?search=\\\\{@}"
 #~ msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
@@ -1706,22 +1465,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "স্প্যানিশ আকাডেমির অভিধান (RAE)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.rae.es/drae/?val=\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dictionary of the Spanish Academy (RAE)"
 #~ msgctxt "Name"
 #~ msgid "Dictionary of the Galician Academy (RAG)"
 #~ msgstr "স্প্যানিশ আকাডেমির অভিধান (RAE)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
 #~ msgctxt "Query"
 #~ msgid "http://tools.ietf.org/id/\\\\{@}"
 #~ msgstr "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
@@ -1759,9 +1512,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Technorati"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://technorati.com/search?return=sites&authority=high&q=\\\\{@}"
 #~ msgstr ""
@@ -1792,15 +1542,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.tv.com/search.php?type=11&stype=all&qs=\\\\{@}&x=0&y=0"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dictionary"
 #~ msgctxt "Name"
 #~ msgid "Urban Dictionary"
 #~ msgstr "অভিধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.hyperdictionary.com/search.aspx?define=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.urbandictionary.com/define.php?term=\\\\{@}"
 #~ msgstr "http://www.hyperdictionary.com/search.aspx?define=\\\\{@}"
@@ -1818,15 +1564,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "&Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/srchnum.htm&r=0&f=S&l=50"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vivisimo"
 #~ msgctxt "Name"
 #~ msgid "Vimeo"
 #~ msgstr "Vivisimo"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dict.leo.org/?search=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://vimeo.com/search?q=\\\\{@}"
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
@@ -1848,8 +1590,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.wikia.com/Special:Search?search=\\\\{@}"
@@ -1861,8 +1601,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Wikipedia (উইকিপিডিয়া) - মুক্ত বিশ্বকোষ"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid "https://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgstr "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
@@ -1872,15 +1610,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Wiktionary - মুক্ত অভিধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid "https://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgstr "http://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://www.wolframalpha.com/input/?i=\\\\{@}"
 #~ msgstr "http://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
@@ -1894,8 +1628,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.wordreference.com/english/definition.asp?en=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Images"
 #~ msgctxt "Name"
 #~ msgid "Yahoo Images"
 #~ msgstr "ছবি"
@@ -1917,15 +1649,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Wallet সার্ভার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Wallet Server"
 #~ msgctxt "Comment"
 #~ msgid "Wallet"
 #~ msgstr "Wallet সার্ভার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Change Password"
 #~ msgctxt "Name"
 #~ msgid "Needs password"
 #~ msgstr "পাসওয়ার্ড পরিবর্তন"
@@ -2267,15 +1995,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "জর্জিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "French Polynesia"
 #~ msgctxt "Name"
 #~ msgid "French Guiana"
 #~ msgstr "ফ্রেঞ্চ পলিনেশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Germany"
 #~ msgctxt "Name"
 #~ msgid "Guernsey"
 #~ msgstr "জার্মানি"
@@ -2497,8 +2221,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "মন্টেনেগ্রো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "San Marino"
 #~ msgctxt "Name"
 #~ msgid "Saint Martin"
 #~ msgstr "সান মারিনো"
@@ -2536,8 +2258,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ম্যাকাউ SAR(চীন)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Marshall Islands"
 #~ msgctxt "Name"
 #~ msgid "Northern Mariana Islands"
 #~ msgstr "মার্শাল দ্বীপপুঞ্জ"
@@ -2799,8 +2519,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সুরিনাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "South Korea"
 #~ msgctxt "Name"
 #~ msgid "South Sudan"
 #~ msgstr "দক্ষিণ কোরিয়া"
@@ -2962,827 +2680,591 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "জিম্বাবুয়ে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Andorra"
 #~ msgctxt "Name"
 #~ msgid "Andorran Franc"
 #~ msgstr "অ্যান্ডোরা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Andorra"
 #~ msgctxt "Name"
 #~ msgid "Andorran Peseta"
 #~ msgstr "অ্যান্ডোরা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United Arab Emirates"
 #~ msgctxt "Name"
 #~ msgid "United Arab Emirates Dirham"
 #~ msgstr "সংযুক্ত আরব আমিরশাহী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Afghanistan"
 #~ msgctxt "Name"
 #~ msgid "Afghan Afghani"
 #~ msgstr "আফগানিস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Albania"
 #~ msgctxt "Name"
 #~ msgid "Albanian Lek"
 #~ msgstr "আলবেনিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Armenia"
 #~ msgctxt "Name"
 #~ msgid "Armenian Dram"
 #~ msgstr "আর্মেনিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Netherlands Antilles"
 #~ msgctxt "Name"
 #~ msgid "Netherlands Antillean Guilder"
 #~ msgstr "নেদারল্যান্ডস অ্যান্টিলিস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Angola"
 #~ msgctxt "Name"
 #~ msgid "Angolan Kwanza"
 #~ msgstr "অ্যাঙ্গোলা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Argentina"
 #~ msgctxt "Name"
 #~ msgid "Argentine Peso"
 #~ msgstr "আর্জেনটিনা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Australia"
 #~ msgctxt "Name"
 #~ msgid "Australian Dollar"
 #~ msgstr "অস্ট্রেলিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Azerbaijan"
 #~ msgctxt "Name"
 #~ msgid "Azerbaijani Manat"
 #~ msgstr "আজারবাইজান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bosnia and Herzegovina"
 #~ msgctxt "Name"
 #~ msgid "Bosnia and Herzegovina Convertible Mark"
 #~ msgstr "বসনিয়া ও হার্জগোভিনা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Barbados"
 #~ msgctxt "Name"
 #~ msgid "Barbados Dollar"
 #~ msgstr "বার্বাডোস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bangladesh"
 #~ msgctxt "Name"
 #~ msgid "Bangladeshi Taka"
 #~ msgstr "বাংলাদেশ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bulgaria"
 #~ msgctxt "Name"
 #~ msgid "Bulgarian Lev A/99"
 #~ msgstr "বুলগারিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bulgaria"
 #~ msgctxt "Name"
 #~ msgid "Bulgarian Lev"
 #~ msgstr "বুলগারিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bahrain"
 #~ msgctxt "Name"
 #~ msgid "Bahraini Dinar"
 #~ msgstr "বাহরেইন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Burundi"
 #~ msgctxt "Name"
 #~ msgid "Burundian Franc"
 #~ msgstr "বুরুন্ডি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bermuda"
 #~ msgctxt "Name"
 #~ msgid "Bermuda Dollar"
 #~ msgstr "বার্মুডা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Brunei Darussalam"
 #~ msgctxt "Name"
 #~ msgid "Brunei Dollar"
 #~ msgstr "ব্রুনেই দারুসলাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bolivia"
 #~ msgctxt "Name"
 #~ msgid "Bolivian Mvdol"
 #~ msgstr "বোলিভিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Brazil"
 #~ msgctxt "Name"
 #~ msgid "Brazilian Real"
 #~ msgstr "ব্রাজিল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Botswana"
 #~ msgctxt "Name"
 #~ msgid "Botswana Pula"
 #~ msgstr "বোটসওয়ানা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belarus"
 #~ msgctxt "Name"
 #~ msgid "Belarusian Ruble"
 #~ msgstr "বেলারুস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belize"
 #~ msgctxt "Name"
 #~ msgid "Belize Dollar"
 #~ msgstr "বেলিজে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Colombia"
 #~ msgctxt "Name"
 #~ msgid "Colombian Peso"
 #~ msgstr "কোলোম্বিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Costa Rica"
 #~ msgctxt "Name"
 #~ msgid "Costa Rican Colon"
 #~ msgstr "কোস্টা রিকা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cape Verde"
 #~ msgctxt "Name"
 #~ msgid "Cape Verde Escudo"
 #~ msgstr "কেপ ভার্ডি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Germany"
 #~ msgctxt "Name"
 #~ msgid "German Mark"
 #~ msgstr "জার্মানি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Djibouti"
 #~ msgctxt "Name"
 #~ msgid "Djibouti Franc"
 #~ msgstr "জিবুতি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dominica"
 #~ msgctxt "Name"
 #~ msgid "Dominican Peso"
 #~ msgstr "ডোমিনিকা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Algeria"
 #~ msgctxt "Name"
 #~ msgid "Algerian Dinar"
 #~ msgstr "অ্যালজিরিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Estonia"
 #~ msgctxt "Name"
 #~ msgid "Estonian Kroon"
 #~ msgstr "এস্তোনিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Eritrea"
 #~ msgctxt "Name"
 #~ msgid "Eritrean Nakfa"
 #~ msgstr "এরিট্রিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ethiopia"
 #~ msgctxt "Name"
 #~ msgid "Ethiopian Birr"
 #~ msgstr "ইথিওপিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Falkland Islands (Malvinas)"
 #~ msgctxt "Name"
 #~ msgid "Falkland Islands Pound"
 #~ msgstr "ফল্কল্যান্ড দ্বীপপুঞ্জ (মালভিনাস)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Georgia"
 #~ msgctxt "Name"
 #~ msgid "Georgian Lari"
 #~ msgstr "জর্জিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ghana"
 #~ msgctxt "Name"
 #~ msgid "Ghana Cedi"
 #~ msgstr "ঘানা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Gibraltar"
 #~ msgctxt "Name"
 #~ msgid "Gibraltar Pound"
 #~ msgstr "জিব্রাল্টার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Gambia"
 #~ msgctxt "Name"
 #~ msgid "Gambian Dalasi"
 #~ msgstr "গাম্বিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Guinea"
 #~ msgctxt "Name"
 #~ msgid "Guinean Franc"
 #~ msgstr "গিনি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Guatemala"
 #~ msgctxt "Name"
 #~ msgid "Guatemalan Quetzal"
 #~ msgstr "গুয়াতেমালা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Guinea-Bissau"
 #~ msgctxt "Name"
 #~ msgid "Guinea-Bissau Peso"
 #~ msgstr "গিনি-বিসাউ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hong Kong SAR(China)"
 #~ msgctxt "Name"
 #~ msgid "Hong Kong Dollar"
 #~ msgstr "হং কং SAR(চীন)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Croatia"
 #~ msgctxt "Name"
 #~ msgid "Croatian Kuna"
 #~ msgstr "ক্রোয়েশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Indonesia"
 #~ msgctxt "Name"
 #~ msgid "Indonesian Rupiah"
 #~ msgstr "ইন্দোনেশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Iceland"
 #~ msgctxt "Name"
 #~ msgid "Icelandic Krona"
 #~ msgstr "আইসল্যান্ড"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Jamaica"
 #~ msgctxt "Name"
 #~ msgid "Jamaican Dollar"
 #~ msgstr "জামাইকা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Kyrgyzstan"
 #~ msgctxt "Name"
 #~ msgid "Kyrgyzstani Som"
 #~ msgstr "কির্গিজস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cambodia"
 #~ msgctxt "Name"
 #~ msgid "Cambodian Riel"
 #~ msgstr "ক্যাম্বোডিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "North Korea"
 #~ msgctxt "Name"
 #~ msgid "North Korean Won"
 #~ msgstr "উত্তর কোরিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "South Korea"
 #~ msgctxt "Name"
 #~ msgid "South Korean Won"
 #~ msgstr "দক্ষিণ কোরিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Kuwait"
 #~ msgctxt "Name"
 #~ msgid "Kuwaiti Dinar"
 #~ msgstr "কুয়েত"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cayman Islands"
 #~ msgctxt "Name"
 #~ msgid "Cayman Islands Dollar"
 #~ msgstr "কেম্যান দ্বীপপুঞ্জ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Kazakhstan"
 #~ msgctxt "Name"
 #~ msgid "Kazakhstani Tenge"
 #~ msgstr "কাজাখস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Laptop"
 #~ msgctxt "Name"
 #~ msgid "Lao Kip"
 #~ msgstr "ল্যাপ-টপ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lebanon"
 #~ msgctxt "Name"
 #~ msgid "Lebanese Pound"
 #~ msgstr "লেবানন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sri Lanka"
 #~ msgctxt "Name"
 #~ msgid "Sri Lankan Rupee"
 #~ msgstr "শ্রীলঙ্কা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Liberia"
 #~ msgctxt "Name"
 #~ msgid "Liberian Dollar"
 #~ msgstr "লাইবেরিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lesotho"
 #~ msgctxt "Name"
 #~ msgid "Lesotho Loti"
 #~ msgstr "লেসোথো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lithuania"
 #~ msgctxt "Name"
 #~ msgid "Lithuanian Litas"
 #~ msgstr "লিথুয়ানিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Luxembourg"
 #~ msgctxt "Name"
 #~ msgid "Luxembourgish Franc"
 #~ msgstr "লাক্সেমবুর্গ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Latvia"
 #~ msgctxt "Name"
 #~ msgid "Latvian Lats"
 #~ msgstr "লাটভিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Moldova"
 #~ msgctxt "Name"
 #~ msgid "Moldovan Leu"
 #~ msgstr "মোলদোভা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Madagascar"
 #~ msgctxt "Name"
 #~ msgid "Malagasy Ariary"
 #~ msgstr "মাদাগাস্কার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Macedonia"
 #~ msgctxt "Name"
 #~ msgid "Macedonian Denar"
 #~ msgstr "মেসিডোনিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "France"
 #~ msgctxt "Name"
 #~ msgid "Mali Franc"
 #~ msgstr "ফ্রাঁস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Myanmar"
 #~ msgctxt "Name"
 #~ msgid "Myanma Kyat"
 #~ msgstr "মায়ানমার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mongolia"
 #~ msgctxt "Name"
 #~ msgid "Mongolian Tugrik"
 #~ msgstr "মঙ্গোলিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mauritania"
 #~ msgctxt "Name"
 #~ msgid "Mauritanian Ouguiya"
 #~ msgstr "মরিটানিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Malaysia"
 #~ msgctxt "Name"
 #~ msgid "Maltese Lira"
 #~ msgstr "মালেশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mauritius"
 #~ msgctxt "Name"
 #~ msgid "Mauritius Rupee"
 #~ msgstr "মরিশাস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mexico"
 #~ msgctxt "Name"
 #~ msgid "Mexican Peso"
 #~ msgstr "মেক্সিকো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Malaysia"
 #~ msgctxt "Name"
 #~ msgid "Malaysian Ringgit"
 #~ msgstr "মালেশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Namibia"
 #~ msgctxt "Name"
 #~ msgid "Namibian Dollar"
 #~ msgstr "নামিবিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nigeria"
 #~ msgctxt "Name"
 #~ msgid "Nigerian Naira"
 #~ msgstr "নাইজেরিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Netherlands Antilles"
 #~ msgctxt "Name"
 #~ msgid "Netherlands Guilder"
 #~ msgstr "নেদারল্যান্ডস অ্যান্টিলিস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "New Zealand"
 #~ msgctxt "Name"
 #~ msgid "New Zealand Dollar"
 #~ msgstr "নিউজিল্যান্ড"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Papua New Guinea"
 #~ msgctxt "Name"
 #~ msgid "Papua New Guinean Kina"
 #~ msgstr "পাপুয়া নিউ গিনি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Philippines"
 #~ msgctxt "Name"
 #~ msgid "Philippine Peso"
 #~ msgstr "ফিলিপাইনস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pakistan"
 #~ msgctxt "Name"
 #~ msgid "Pakistan Rupee"
 #~ msgstr "পাকিস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Paraguay"
 #~ msgctxt "Name"
 #~ msgid "Paraguayan Guarani"
 #~ msgstr "প্যারাগুয়ে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Romania"
 #~ msgctxt "Name"
 #~ msgid "Romanian Leu"
 #~ msgstr "রোমানিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Serbia"
 #~ msgctxt "Name"
 #~ msgid "Serbian Dinar"
 #~ msgstr "সার্বিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Russia"
 #~ msgctxt "Name"
 #~ msgid "Russian Ruble"
 #~ msgstr "রাশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Rwanda"
 #~ msgctxt "Name"
 #~ msgid "Rwandan Franc"
 #~ msgstr "রওয়ান্ডা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saudi Arabia"
 #~ msgctxt "Name"
 #~ msgid "Saudi Riyal"
 #~ msgstr "সৌদি আরব"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Solomon Islands"
 #~ msgctxt "Name"
 #~ msgid "Solomon Islands Dollar"
 #~ msgstr "সলোমান দ্বীপপুঞ্জ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Seychelles"
 #~ msgctxt "Name"
 #~ msgid "Seychellois Rupee"
 #~ msgstr "সেশেলস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Singapore"
 #~ msgctxt "Name"
 #~ msgid "Singapore Dollar"
 #~ msgstr "সিঙ্গাপুর"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saint Helena"
 #~ msgctxt "Name"
 #~ msgid "Saint Helena Pound"
 #~ msgstr "সেন্ট হেলেনা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Slovenia"
 #~ msgctxt "Name"
 #~ msgid "Slovenian Tolar"
 #~ msgstr "স্লোভেনিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Slovakia"
 #~ msgctxt "Name"
 #~ msgid "Slovak Koruna"
 #~ msgstr "স্লোভাকিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Suriname"
 #~ msgctxt "Name"
 #~ msgid "Surinamese Dollar"
 #~ msgstr "সুরিনাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Suriname"
 #~ msgctxt "Name"
 #~ msgid "Surinamese Guilder"
 #~ msgstr "সুরিনাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lebanon"
 #~ msgctxt "Name"
 #~ msgid "South Sudanese Pound"
 #~ msgstr "লেবানন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sao Tome and Principe"
 #~ msgctxt "Name"
 #~ msgid "São Tomé and Príncipe Dobra"
 #~ msgstr "সাও টোমে ও প্রিন্সিপে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Swaziland"
 #~ msgctxt "Name"
 #~ msgid "Swazi Lilangeni"
 #~ msgstr "সোয়াজিল্যান্ড"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Tajikistan"
 #~ msgctxt "Name"
 #~ msgid "Tajikistani Somoni"
 #~ msgstr "তাজিকিস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Turkmenistan"
 #~ msgctxt "Name"
 #~ msgid "Turkmenistani Old Manat"
 #~ msgstr "তুর্কমেনিস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Turkmenistan"
 #~ msgctxt "Name"
 #~ msgid "Turkmenistani Manat"
 #~ msgstr "তুর্কমেনিস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Tunisia"
 #~ msgctxt "Name"
 #~ msgid "Tunisian Dinar"
 #~ msgstr "টিউনিশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Tunisia"
 #~ msgctxt "Name"
 #~ msgid "Turkish Lira"
 #~ msgstr "টিউনিশিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Trinidad and Tobago"
 #~ msgctxt "Name"
 #~ msgid "Trinidad and Tobago Dollar"
 #~ msgstr "ত্রিনিদাদ ও টোবাগো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United States of America"
 #~ msgctxt "Name"
 #~ msgid "United States Dollar"
 #~ msgstr "মার্কিন যুক্তরাষ্ট্র"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United States of America"
 #~ msgctxt "Name"
 #~ msgid "United States Dollar (Next Day)"
 #~ msgstr "মার্কিন যুক্তরাষ্ট্র"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United States of America"
 #~ msgctxt "Name"
 #~ msgid "United States Dollar (Same Day)"
 #~ msgstr "মার্কিন যুক্তরাষ্ট্র"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Uruguay"
 #~ msgctxt "Name"
 #~ msgid "Uruguayan Peso"
 #~ msgstr "উরুগুয়ে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Uzbekistan"
 #~ msgctxt "Name"
 #~ msgid "Uzbekistan Som"
 #~ msgstr "উজবেকিস্তান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vietnam"
 #~ msgctxt "Name"
 #~ msgid "Vietnamese Dong"
 #~ msgstr "ভিয়েতনাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vanuatu"
 #~ msgctxt "Name"
 #~ msgid "Vanuatu Vatu"
 #~ msgstr "ভানুয়াটু"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Samoa"
 #~ msgctxt "Name"
 #~ msgid "Samoan Tala"
 #~ msgstr "সামোয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Central African Republic"
 #~ msgctxt "Name"
 #~ msgid "Central African CFA Franc"
 #~ msgstr "মধ্য আফ্রিকান প্রজাতন্ত্র"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "History Sidebar"
 #~ msgctxt "Name"
 #~ msgid "Silver"
 #~ msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Golem"
 #~ msgctxt "Name"
 #~ msgid "Gold"
 #~ msgstr "Golem"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Caribbean"
 #~ msgctxt "Name"
 #~ msgid "East Caribbean Dollar"
 #~ msgstr "ক্যারেবিয়ান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Palau"
 #~ msgctxt "Name"
 #~ msgid "Palladium"
 #~ msgstr "পালাউ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "France"
 #~ msgctxt "Name"
 #~ msgid "CFP Franc"
 #~ msgstr "ফ্রাঁস"
@@ -3792,29 +3274,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "প্ল্যাটিনাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Yemen"
 #~ msgctxt "Name"
 #~ msgid "Yemeni Rial"
 #~ msgstr "ইয়েমেন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "South Africa"
 #~ msgctxt "Name"
 #~ msgid "South African Rand"
 #~ msgstr "দক্ষিণ আফ্রিকা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Zambia"
 #~ msgctxt "Name"
 #~ msgid "Zambian Kwacha"
 #~ msgstr "জাম্বিয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Zimbabwe"
 #~ msgctxt "Name"
 #~ msgid "Zimbabwean Dollar"
 #~ msgstr "জিম্বাবুয়ে"
@@ -3976,43 +3450,31 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "X Window সামগ্রী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Server"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk"
 #~ msgstr "Nepomuk সার্ভার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk/Strigi Server Configuration"
 #~ msgctxt "Comment"
 #~ msgid "Nepomuk Server Configuration"
 #~ msgstr "Nepomuk/Strigi সার্ভার কনফিগারেশন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Strigi Service"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Nepomuk,Metadata"
 #~ msgstr "Nepomuk Strigi পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Search Module"
 #~ msgstr "Nepomuk পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Audio and Video IDE"
 #~ msgctxt "Name"
 #~ msgid "Audio and Video Settings"
 #~ msgstr "অডিও ও ভিডিও IDE"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Sound Processor"
 #~ msgctxt "Name"
 #~ msgid "Sound Policy"
 #~ msgstr "সাউন্ড প্রসেসর"
@@ -4022,8 +3484,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KDE মাল্টিমিডিয়া ব্যাক-এন্ড"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Comment"
 #~ msgid "Multimedia System"
 #~ msgstr "মাল্টি-মিডিয়া প্লেয়ার"
@@ -4037,22 +3497,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "বিকল্প আইকন থিম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network & Connectivity"
 #~ msgctxt "Name"
 #~ msgid "Newspaper Layout"
 #~ msgstr "নেটওয়ার্ক ও সংযোগ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Java & JavaScript"
 #~ msgctxt "Name"
 #~ msgid "Plasma JavaScript Addon"
 #~ msgstr "Java ও JavaScript"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Java & JavaScript"
 #~ msgctxt "Name"
 #~ msgid "Javascript Addon"
 #~ msgstr "Java ও JavaScript"
@@ -4062,8 +3516,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "JavaScript Widget"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Runner"
 #~ msgctxt "Name"
 #~ msgid "JavaScript DataEngine"
 #~ msgstr "JavaScript Runner"
@@ -4077,22 +3529,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "JavaScript Runner"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Platinum"
 #~ msgctxt "Name"
 #~ msgid "Platform"
 #~ msgstr "প্ল্যাটিনাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Manager"
 #~ msgctxt "Comment"
 #~ msgid "Windows Platform Manager"
 #~ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Platinum"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Platform,Windows"
 #~ msgstr "প্ল্যাটিনাম"
@@ -4110,29 +3556,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ছবি প্রদর্শনব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Mount,Removable,Devices,Automatic"
 #~ msgstr "USB ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "Removable Devices"
 #~ msgstr "USB ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Settings"
 #~ msgctxt "Name"
 #~ msgid "Network Status"
 #~ msgstr "নেটওয়ার্ক সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hardware"
 #~ msgctxt "Name"
 #~ msgid "Hardware Detection"
 #~ msgstr "হার্ডওয়্যার"
@@ -4154,8 +3592,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "&FORMATO=ampliado"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "GPhoto"
 #~ msgctxt "Name"
 #~ msgid "Phonon"
 #~ msgstr "GPhoto"
@@ -4307,8 +3743,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Files and Directories"
 #~ msgctxt "Name"
 #~ msgid "Directories"
 #~ msgstr "ফাইল ও ডিরেক্টরি"
@@ -4318,8 +3752,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Xine ব্যাক-এন্ডের কনফিগারেশন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Xine"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Xine"
 #~ msgstr "Xine"
@@ -4329,22 +3761,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Nepomuk পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Backup"
 #~ msgstr "Nepomuk পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Internal Services"
 #~ msgctxt "Name"
 #~ msgid "File Indexer Service"
 #~ msgstr "অভ্যন্তরীণ পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Search"
 #~ msgctxt "Comment"
 #~ msgid "Desktop Search"
 #~ msgstr "ডেস্কটপে অনুসন্ধান"
@@ -4354,15 +3780,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "NepomukFileWatch"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk Service"
 #~ msgctxt "Comment"
 #~ msgid "Nepomuk file watch service"
 #~ msgstr "Nepomuk পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "New Removable Device"
 #~ msgstr "USB ডিভাইস"
@@ -4376,36 +3798,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Nepomuk ডাটা সংরক্ষণব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Data Storage"
 #~ msgctxt "Name"
 #~ msgid "Semantic Data Storage"
 #~ msgstr "Nepomuk ডাটা সংরক্ষণব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Comment"
 #~ msgid "Semantic Desktop"
 #~ msgstr "ডেস্কটপ"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://doc.trolltech.com/latest/\\\\{@}.html"
 #~ msgctxt "Query"
 #~ msgid "http://doc.qt.nokia.com/latest/\\\\{@}.html"
 #~ msgstr "http://doc.trolltech.com/latest/\\\\{@}.html"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Name"
 #~ msgid "Secret Service Server"
 #~ msgstr "পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Comment"
 #~ msgid "Secret Service Server"
 #~ msgstr "পরিসেবা"
@@ -4415,36 +3827,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "http://www.qrz.com/database?callsign=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Service Manager"
 #~ msgctxt "Comment"
 #~ msgid "Activity manager plugin"
 #~ msgstr "পরিসেবা পরিচালনব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Service Manager"
 #~ msgctxt "Name"
 #~ msgid "Activity Manager"
 #~ msgstr "পরিসেবা পরিচালনব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Joystick settings"
 #~ msgctxt "Comment"
 #~ msgid "Just testing"
 #~ msgstr "জয়-স্টিক সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Server"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Feeder Plugin"
 #~ msgstr "Nepomuk সার্ভার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The Nepomuk Storage Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Removable Storage Service"
 #~ msgstr "Nepomuk Storage পরিসেবা"
@@ -4470,57 +3872,41 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "কলাম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "Name"
 #~ msgid "Dolphin General"
 #~ msgstr "Dolphin প্রদর্শন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This service allows configuration of the Dolphin views."
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of general Dolphin settings."
 #~ msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "General"
 #~ msgctxt "Name|Random file browsing settings."
 #~ msgid "General"
 #~ msgstr "সাধারণ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure general file manager settings"
 #~ msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "Name"
 #~ msgid "Dolphin Navigation"
 #~ msgstr "Dolphin প্রদর্শন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This service allows configuration of the Dolphin views."
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the Dolphin navigation."
 #~ msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Navigation Panel"
 #~ msgctxt "Name"
 #~ msgid "Navigation"
 #~ msgstr "পরিদর্শন করতে ব্যবহৃত প্যানেল"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure file manager navigation"
 #~ msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
@@ -4530,36 +3916,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure file manager services"
 #~ msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "Name"
 #~ msgid "Dolphin View Modes"
 #~ msgstr "Dolphin প্রদর্শন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This service allows configuration of the Dolphin views."
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the Dolphin view modes."
 #~ msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Views"
 #~ msgctxt "Name"
 #~ msgid "View Modes"
 #~ msgstr "প্রদর্শন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure file manager view modes"
 #~ msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
@@ -4577,8 +3953,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "পাসওয়ার্ড পরিবর্তন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bookmark Toolbar"
 #~ msgctxt "Name"
 #~ msgid "Bookmark Editor"
 #~ msgstr "বুকমার্ক টুল-বার"
@@ -4588,127 +3962,91 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ফাইল/ফোল্ডার অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Clock"
 #~ msgctxt "Name"
 #~ msgid "Adblock"
 #~ msgstr "ঘড়ি"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Konqueror window"
 #~ msgctxt "Name"
 #~ msgid "Konqueror Feed Icon"
 #~ msgstr "Konqueror উইন্ডো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "X Refresh"
 #~ msgctxt "Name"
 #~ msgid "Auto Refresh"
 #~ msgstr "X Refresh"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "LEO-Translate"
 #~ msgctxt "Name"
 #~ msgid "Translate"
 #~ msgstr "LEO-Translate"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Analyzer"
 #~ msgctxt "Name"
 #~ msgid "Directory Filter"
 #~ msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Name"
 #~ msgid "DOM Tree Viewer"
 #~ msgstr "ছবি প্রদর্শন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Name"
 #~ msgid "File Size Viewer"
 #~ msgstr "ছবি প্রদর্শন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System"
 #~ msgctxt "Name"
 #~ msgid "File Size View"
 #~ msgstr "সিস্টেম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "SGI"
 #~ msgctxt "Name"
 #~ msgid "GIF"
 #~ msgstr "SGI"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Settings"
 #~ msgctxt "Name"
 #~ msgid "KHTML Settings"
 #~ msgstr "বিবিধ বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Image Displayer"
 #~ msgctxt "Name"
 #~ msgid "Image Gallery"
 #~ msgstr "ছবি প্রদর্শনব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "DMA information"
 #~ msgctxt "Name"
 #~ msgid "Microformat Icon"
 #~ msgstr "DMA সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bookmarks"
 #~ msgctxt "Name"
 #~ msgid "Bookmarklets"
 #~ msgstr "বুকমার্ক"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE API Documentation"
 #~ msgctxt "Name"
 #~ msgid "Document Relations"
 #~ msgstr "KDE API সংক্রান্ত নথিপত্র"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PHP Search"
 #~ msgctxt "Name"
 #~ msgid "Search Bar"
 #~ msgstr "PHP অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "UserAgent Strings"
 #~ msgctxt "Name"
 #~ msgid "UserAgent Changer"
 #~ msgstr "UserAgent-র পংক্তি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "FTP Archives"
 #~ msgctxt "Name"
 #~ msgid "Web Archiver"
 #~ msgstr "FTP আর্কাইভ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "FTP Archives"
 #~ msgctxt "Name"
 #~ msgid "Web Archives"
 #~ msgstr "FTP আর্কাইভ"
@@ -4742,8 +4080,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KDE আরম্ভকালে Konqueror প্রি-লোড"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Konqueror Preloader Module"
 #~ msgctxt "Name"
 #~ msgid "Konqueror Browser Preloader"
 #~ msgstr "KDED Konqueror প্রি-লোডার মডিউল"
@@ -4834,22 +4170,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "UserAgent-র পংক্তি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Wget 1.5.3)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Android Phone 1.0)"
 #~ msgstr "UADescription (Wget 1.5.3)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Mozilla 1.7 on Windows XP)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Google Chrome 1.0 on Windows XP)"
 #~ msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Mozilla 1.7 on Windows XP)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Google Chrome 5.0)"
 #~ msgstr "UADescription (Windows XP-র মধ্যে Mozilla 1.7)"
@@ -4859,15 +4189,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Firefox 2.0 on current)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Firefox 3.0 on current)"
 #~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Firefox 2.0 on current)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Firefox 3.6 on current)"
 #~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Firefox 2.0)"
@@ -4897,8 +4223,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (IE 6.0 on Win XP)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (IE 7.0 on Win XP)"
 #~ msgstr "UADescription (Win XP-র মধ্যে IE 6.0)"
@@ -4940,8 +4264,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Opera 9.00 on current)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Opera 9.62 on current)"
 #~ msgstr "UADescription (সাম্প্রতিক সংস্করণের মধ্যে Opera 9.00)"
@@ -4951,22 +4273,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 2.0 on MacOS X)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Safari 3.0 on iPhone)"
 #~ msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 1.2 on MacOS X)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Safari 3.2 on MacOS X)"
 #~ msgstr "UADescription (MacOS X-র মধ্যে Safari 1.2)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 2.0 on MacOS X)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Safari 4.0 on MacOS X)"
 #~ msgstr "UADescription (MacOS X-র মধ্যে Safari 2.0)"
@@ -4976,8 +4292,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "UADescription (w3m 0.1.9)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Wget 1.5.3)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
@@ -5016,8 +4330,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ওয়েব পেজ রেন্ডার করতে ব্যবহৃত স্টাইল-শিট কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure the fonts used on web pages"
 #~ msgctxt "Comment"
 #~ msgid "Configure how to display web pages"
 #~ msgstr "ওয়েব পেজে ব্যবহৃত ফন্ট কনফিগার করুন"
@@ -5039,8 +4351,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Konqueror AdBlocK ফিল্টার কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "General"
 #~ msgctxt ""
 #~ "Name|Konqeuror settings relevant to both web browsing and file management."
 #~ msgid "General"
@@ -5099,8 +4409,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "এই ফোল্ডারের মধ্যে ব্যবহারকারীর ব্যক্তিগত ফাইল সংরক্ষিত হয়"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This is the root of the filesystem"
 #~ msgctxt "Comment"
 #~ msgid "This is the list of places."
 #~ msgstr "এই ফোল্ডারটি ফাইল-সিস্টেমের root অর্থাৎ মূল"
@@ -5118,22 +4426,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "History Sidebar"
 #~ msgctxt "Name"
 #~ msgid "History SideBar Module"
 #~ msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "History Sidebar"
 #~ msgctxt "Name"
 #~ msgid "Sidebar"
 #~ msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web SideBar Module"
 #~ msgctxt "Name"
 #~ msgid "Places SideBar Module"
 #~ msgstr "ওয়েব সাইড-বার মডিউল"
@@ -5263,8 +4565,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Favicons"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Plugin for the Konqueror Popup Menu"
 #~ msgctxt "Comment"
 #~ msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
 #~ msgstr "Konqueror পপ-আপ মেনুর প্লাগ-ইন"
@@ -5286,8 +4586,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ফোল্ডারের নাম লিখুন:"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Format"
 #~ msgctxt "Name|Starts a program to format a floppy drive"
 #~ msgid "Format"
 #~ msgstr "বিন্যাস"
@@ -5409,15 +4707,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ফোল্ডার প্রদর্শন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Notifier"
 #~ msgctxt "Name"
 #~ msgid "Free Space Notifier"
 #~ msgstr "ডিভাইসের সূচনা ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE Notification Daemon"
 #~ msgctxt "Comment"
 #~ msgid "KDE Free Space Notifier Daemon"
 #~ msgstr "KDE Notification ডেমন"
@@ -5451,15 +4745,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Date and Time"
 #~ msgctxt "Name"
 #~ msgid "Date and Time Control Module"
 #~ msgstr "তারিখ ও সময়"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Date and time settings"
 #~ msgctxt "Name"
 #~ msgid "Save the date/time settings"
 #~ msgstr "তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
@@ -5473,8 +4763,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "গুরুত্বপূর্ণ ফাইল সংরক্ষণের স্থান পরিবর্তন করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "Desktop Theme"
 #~ msgstr "ডেস্কটপ"
@@ -5500,8 +4788,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "জয়-স্টিক"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cursor Files"
 #~ msgctxt "Name"
 #~ msgid "Cursor Theme"
 #~ msgstr "কার্সারের ফাইল"
@@ -5523,8 +4809,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "কি-বোর্ড সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Keyboard Layout"
 #~ msgctxt "Name"
 #~ msgid "Keyboard Daemon"
 #~ msgstr "কি-বোর্ড বিন্যাস"
@@ -5650,22 +4934,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "হরি নায়ের দ্বারা নির্মিত XPlanet"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Date and Time"
 #~ msgctxt "Name"
 #~ msgid "Login Manager Control Module"
 #~ msgstr "তারিখ ও সময়"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Date and time settings"
 #~ msgctxt "Name"
 #~ msgid "Save the Login Manager settings"
 #~ msgstr "তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PrintScreen"
 #~ msgctxt "Name"
 #~ msgid "Login Screen"
 #~ msgstr "PrintScreen"
@@ -5675,8 +4953,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "লগ-ইন পরিচালন ব্যবস্থা (KDM) কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Name"
 #~ msgid "Stripes"
 #~ msgstr "পরিসেবা"
@@ -5778,8 +5054,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "LWM"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The UNIX Desktop Environment"
 #~ msgctxt "Comment"
 #~ msgid "Lightweight X11 desktop environment"
 #~ msgstr "UNIX ডেস্কটপ পরিবেশ"
@@ -5877,22 +5151,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "নীল বৃত্ত বিশিষ্ট থিম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Details"
 #~ msgctxt "Name"
 #~ msgid "Ethais"
 #~ msgstr "বিবরণ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Comoros"
 #~ msgctxt "Name"
 #~ msgid "Horos"
 #~ msgstr "কোমোরোস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Oxygen"
 #~ msgctxt "Name"
 #~ msgid "Oxygen-Air"
 #~ msgstr "Oxygen"
@@ -5906,15 +5174,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ইনপুট সংক্রান্ত কর্ম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Menu Editor"
 #~ msgctxt "Name"
 #~ msgid "KMenuEdit"
 #~ msgstr "মেনু সম্পাদন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PHP Search"
 #~ msgctxt "Name"
 #~ msgid "Search"
 #~ msgstr "PHP অনুসন্ধান"
@@ -6028,36 +5292,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "PrintScreen"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web Shortcuts"
 #~ msgctxt "Name"
 #~ msgid "Custom Shortcuts"
 #~ msgstr "ওয়েব শর্ট-কাট"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure trash settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure Input Actions settings"
 #~ msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lost & Found"
 #~ msgctxt "Name"
 #~ msgid "Lost And Found"
 #~ msgstr "হারানো প্রাপ্তি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Processor Information"
 #~ msgctxt "Name"
 #~ msgid "Graphical Information"
 #~ msgstr "প্রসেসর সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KInfoCenter"
 #~ msgctxt "Name"
 #~ msgid "KInfoCenter Category"
 #~ msgstr "KInfoCenter"
@@ -6067,8 +5321,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ডিভাইস সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Memory information"
 #~ msgctxt "Name"
 #~ msgid "Network Information"
 #~ msgstr "মেমরি সংক্রান্ত তথ্য"
@@ -6082,15 +5334,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "তথ্য কেন্দ্র"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Name"
 #~ msgid "Device Viewer"
 #~ msgstr "ছবি প্রদর্শন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Comment"
 #~ msgid "Device Viewer"
 #~ msgstr "ছবি প্রদর্শন ব্যবস্থা"
@@ -6128,8 +5376,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "SCSI সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hardware"
 #~ msgctxt "Comment"
 #~ msgid "Hardware Information Summary"
 #~ msgstr "হার্ডওয়্যার"
@@ -6283,50 +5529,36 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "কমান্ড সঞ্চালন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Comment"
 #~ msgid "Screen Saver"
 #~ msgstr "স্ক্রিন-সেভার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen saver started"
 #~ msgstr "স্ক্রিন-সেভার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The trash has been emptied"
 #~ msgctxt "Comment"
 #~ msgid "The screen saver has been started"
 #~ msgstr "আবর্জনা বর্জন করা হয়েছে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen locked"
 #~ msgstr "স্ক্রিন-সেভার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The trash has been emptied"
 #~ msgctxt "Comment"
 #~ msgid "The screen has been locked"
 #~ msgstr "আবর্জনা বর্জন করা হয়েছে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen saver exited"
 #~ msgstr "স্ক্রিন-সেভার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The trash has been emptied"
 #~ msgctxt "Comment"
 #~ msgid "The screen has been unlocked"
 #~ msgstr "আবর্জনা বর্জন করা হয়েছে"
@@ -6356,8 +5588,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "স্ক্রিন-সেভার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Session Manager"
 #~ msgctxt "Name"
 #~ msgid "Session Management"
 #~ msgstr "সেশান পরিচালন ব্যবস্থা"
@@ -6419,8 +5649,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "থিমবিহীন বিল্ট-ইন CDE বিন্যাস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Style"
 #~ msgctxt "Name"
 #~ msgid "GTK+ Style"
 #~ msgstr "বিন্যাস"
@@ -6434,8 +5662,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Motif"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plastik"
 #~ msgctxt "Name"
 #~ msgid "Plastique"
 #~ msgstr "Plastik (প্লাস্টিক)"
@@ -6449,15 +5675,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "MS Windows 9x"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "MS Windows 9x"
 #~ msgctxt "Name"
 #~ msgid "MS Windows Vista"
 #~ msgstr "MS Windows 9x"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "MS Windows 9x"
 #~ msgctxt "Name"
 #~ msgid "MS Windows XP"
 #~ msgstr "MS Windows 9x"
@@ -6471,8 +5693,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ওয়েব উইজেটের বিন্যাস"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "System Monitor"
 #~ msgctxt "Comment"
 #~ msgid "System Monitor"
 #~ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
@@ -6502,8 +5722,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Blur (ব্লার)"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Desktop Publishing"
 #~ msgctxt "Name"
 #~ msgid "Desktop Cube Animation"
 #~ msgstr "ডেস্কটপ প্রকাশনা"
@@ -6517,22 +5735,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "নিষ্ক্রিয় উইন্ডোগুলি অনুজ্জ্বল করা হবে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "SaverDesktop"
 #~ msgctxt "Name"
 #~ msgid "Fade Desktop"
 #~ msgstr "SaverDesktop"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Glines"
 #~ msgctxt "Name"
 #~ msgid "Glide"
 #~ msgstr "Glines"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Duplicate Window"
 #~ msgctxt "Name"
 #~ msgid "Highlight Window"
 #~ msgstr "উইন্ডোর প্রতিলিপি"
@@ -6542,15 +5754,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KWin ইফেক্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "New Window"
 #~ msgctxt "Name"
 #~ msgid "Resize Window"
 #~ msgstr "নতুন উইন্ডো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screenshot"
 #~ msgstr "স্ক্রিন-সেভার"
@@ -6560,8 +5768,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ছায়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Stylesheets"
 #~ msgctxt "Name"
 #~ msgid "Sheet"
 #~ msgstr "স্টাইল-শিট"
@@ -6575,15 +5781,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Paint প্রদর্শন করা হবে"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "System information for Plasmoids"
 #~ msgctxt "Comment"
 #~ msgid "Sliding animation for Plasma popups"
 #~ msgstr "Plasmoids-র জন্য সিস্টেম সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saint Helena"
 #~ msgctxt "Name"
 #~ msgid "Snap Helper"
 #~ msgstr "সেন্ট হেলেনা"
@@ -6601,8 +5803,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "টাস্ক-বার থাম্‌বনেইল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Close Tab"
 #~ msgctxt "Name"
 #~ msgid "Slide Tabs"
 #~ msgstr "ট্যাব বন্ধ করুন"
@@ -6628,8 +5828,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ডেস্কটপের ভিডিও রেকর্ড করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "WindowMaker"
 #~ msgctxt "Name"
 #~ msgid "WindowGeometry"
 #~ msgstr "WindowMaker"
@@ -6647,8 +5845,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ডেস্কটপ ইফেক্ট কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Information"
 #~ msgctxt "Name"
 #~ msgid "Window Decorations"
 #~ msgstr "উইন্ডো সংক্রান্ড তথ্য"
@@ -6658,8 +5854,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "উইন্ডোর শিরোনামের চেহারাছবি কনফিগার করতে ব্যবহৃত হয়"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "Virtual Desktops"
 #~ msgstr "ডেস্কটপ"
@@ -6693,8 +5887,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "উইন্ডোর আচরণ কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Close"
 #~ msgctxt "Name"
 #~ msgid "Window Rules"
 #~ msgstr "উইন্ডো বন্ধ করুন"
@@ -6704,29 +5896,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "কোনো উইন্ডোর জন্য সুনির্দিষ্ট বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen Edges"
 #~ msgstr "স্ক্রিন-সেভার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure web cache settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure active screen edges"
 #~ msgstr "ওয়েব ক্যাশে সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure the behavior of Java and JavaScript"
 #~ msgctxt "Comment"
 #~ msgid "Configure the behavior for navigating through windows"
 #~ msgstr "Java ও JavaScript-র আচরণ কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Manager"
 #~ msgctxt "Comment"
 #~ msgid "KWin Window Manager"
 #~ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
@@ -6932,8 +6116,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ডায়লগ মুছে ফেলুন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The trash has been emptied"
 #~ msgctxt "Comment"
 #~ msgid "Tiling mode has been enabled"
 #~ msgstr "আবর্জনা বর্জন করা হয়েছে"
@@ -6949,36 +6131,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "হবে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Write Daemon"
 #~ msgctxt "Name"
 #~ msgid "Write Daemon"
 #~ msgstr "KDE Write ডেমন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File Management"
 #~ msgctxt "Name"
 #~ msgid "Display Management"
 #~ msgstr "ফাইল পরিচালনা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE System Guard"
 #~ msgctxt "Name"
 #~ msgid "KSysGuard"
 #~ msgstr "KDE সিস্টেম গার্ড"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Memory information"
 #~ msgctxt "Name"
 #~ msgid "Detailed Memory Information"
 #~ msgstr "মেমরি সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Comment"
 #~ msgid "Modem Management Backend"
 #~ msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
@@ -6988,78 +6160,56 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "পেজার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name"
 #~ msgid "Window List"
 #~ msgstr "উইন্ডো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dashboard"
 #~ msgctxt "Name|plasma containment"
 #~ msgid "Desktop Dashboard"
 #~ msgstr "Dashboard"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dashboard"
 #~ msgctxt "Comment"
 #~ msgid "Widget Dashboard"
 #~ msgstr "Dashboard"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name|plasma containment"
 #~ msgid "Desktop"
 #~ msgstr "ডেস্কটপ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Comment"
 #~ msgid "Default desktop"
 #~ msgstr "ডেস্কটপ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panel"
 #~ msgctxt "Name"
 #~ msgid "Empty Panel"
 #~ msgstr "প্যানেল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Default"
 #~ msgctxt "Name"
 #~ msgid "Default Panel"
 #~ msgstr "ডিফল্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name"
 #~ msgid "Find Widgets"
 #~ msgstr "উইন্ডো"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Web widget style"
 #~ msgctxt "Name"
 #~ msgid "New widget published"
 #~ msgstr "ওয়েব উইজেটের বিন্যাস"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Desktop toolbox"
 #~ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Panel toolbox"
 #~ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
@@ -7077,8 +6227,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "বর্ষপঞ্জি"
 
 #, fuzzy
-#~| msgctxt "Description"
-#~| msgid "Open with &default Browser"
 #~ msgctxt "Name"
 #~ msgid "Open with File Manager"
 #~ msgstr "ডিফল্ট ব্রাউজার সহযোগে প্রদর্শিত হবে (&d)"
@@ -7104,8 +6252,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সূচনাবার্তা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE Notification Daemon"
 #~ msgctxt "Comment"
 #~ msgid "Display notifications and jobs"
 #~ msgstr "KDE Notification ডেমন"
@@ -7115,29 +6261,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "পছন্দসই অ্যাপ্লিকেশনগুলি আরম্ভ করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System Monitor"
 #~ msgctxt "Name"
 #~ msgid "CPU Monitor"
 #~ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hardware"
 #~ msgctxt "Name"
 #~ msgid "Hardware Info"
 #~ msgstr "হার্ডওয়্যার"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Network Monitor"
 #~ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Samba Status"
 #~ msgctxt "Name"
 #~ msgid "Memory Status"
 #~ msgstr "Samba-র অবস্থা"
@@ -7159,71 +6297,51 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "একটি সাধারণ ওয়েব ব্রাউজার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Comment"
 #~ msgid "Simple application launcher"
 #~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pose"
 #~ msgctxt "Name"
 #~ msgid "Paste"
 #~ msgstr "Pose"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "Switch Desktop"
 #~ msgstr "ডেস্কটপ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "New Window"
 #~ msgctxt "Name"
 #~ msgid "Switch Window"
 #~ msgstr "নতুন উইন্ডো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Service Manager"
 #~ msgctxt "Name"
 #~ msgid "Activities Engine"
 #~ msgstr "পরিসেবা পরিচালনব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Files and Directories"
 #~ msgctxt "Comment"
 #~ msgid "Information on Plasma Activities"
 #~ msgstr "ফাইল ও ডিরেক্টরি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python data engine"
 #~ msgctxt "Comment"
 #~ msgid "Akonadi PIM data engine"
 #~ msgstr "Python ডাটা ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Notifications"
 #~ msgctxt "Name"
 #~ msgid "Application Information"
 #~ msgstr "অ্যাপ্লিকেশনের সূচনাবার্তা"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Calendar Manager"
 #~ msgctxt "Comment"
 #~ msgid "Calendar data engine"
 #~ msgstr "বর্ষপঞ্জি পরিচালন ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notifications"
 #~ msgctxt "Name"
 #~ msgid "Device Notifications"
 #~ msgstr "সূচনাবার্তা"
@@ -7245,43 +6363,31 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ফাইল ও ডিরেক্টরি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Files and Directories"
 #~ msgctxt "Comment"
 #~ msgid "Information about files and directories."
 #~ msgstr "ফাইল ও ডিরেক্টরি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Locations"
 #~ msgctxt "Name"
 #~ msgid "Geolocation"
 #~ msgstr "অবস্থান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python data engine"
 #~ msgctxt "Comment"
 #~ msgid "Geolocation Data Engine"
 #~ msgstr "Python ডাটা ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Locations"
 #~ msgctxt "Name"
 #~ msgid "Geolocation IP"
 #~ msgstr "অবস্থান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Locations"
 #~ msgctxt "Comment"
 #~ msgid "Plasma Geolocation Provider"
 #~ msgstr "অবস্থান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Keyboard & Mouse"
 #~ msgctxt "Name"
 #~ msgid "Keyboard and Mouse State"
 #~ msgstr "কি-বোর্ড ও মাউস"
@@ -7299,8 +6405,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "বর্তমানে চলমান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Name|plasma data engine"
 #~ msgid "Power Management"
 #~ msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
@@ -7314,36 +6418,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "RSS খবরের ডাটা ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Image"
 #~ msgctxt "Name"
 #~ msgid "Imgur"
 #~ msgstr "ছবি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Name"
 #~ msgid "ShareProvider"
 #~ msgstr "পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ruby Package Structure"
 #~ msgctxt "Comment"
 #~ msgid "Share Package Structure"
 #~ msgstr "Ruby প্যাকেজের গঠন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Sound information"
 #~ msgctxt "Name"
 #~ msgid "Status Notifier Information"
 #~ msgstr "আওয়াজ সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Sound information"
 #~ msgctxt "Comment"
 #~ msgid "System status information"
 #~ msgstr "আওয়াজ সংক্রান্ত তথ্য"
@@ -7357,8 +6451,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "তারিখ ও সময়"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Date and time settings"
 #~ msgctxt "Comment"
 #~ msgid "Date and time by timezone"
 #~ msgstr "তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
@@ -7368,8 +6460,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "আবহাওয়া"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bookmarks"
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Bookmarks"
 #~ msgstr "বুকমার্ক"
@@ -7383,15 +6473,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ক্যালকুলেটর"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Applications"
 #~ msgctxt "Name"
 #~ msgid "Kill Applications"
 #~ msgstr "KDE অ্যাপ্লিকেশন তালিকা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Terminal Applications"
 #~ msgctxt "Name"
 #~ msgid "Terminate Applications"
 #~ msgstr "টার্মিন্যাল অ্যাপ্লিকেশন"
@@ -7425,29 +6511,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "শেল কমান্ড সঞ্চালনের জন্য প্রয়োগ হবে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Devices"
 #~ msgstr "ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web Shortcuts"
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Web Shortcuts"
 #~ msgstr "ওয়েব শর্ট-কাট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name"
 #~ msgid "Windowed widgets"
 #~ msgstr "উইন্ডো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Windows"
 #~ msgstr "উইন্ডো"
@@ -7469,8 +6547,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Python ডাটা ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python data engine"
 #~ msgctxt "Name"
 #~ msgid "Python Runner"
 #~ msgstr "Python ডাটা ইঞ্জিন"
@@ -7504,99 +6580,71 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "স্লাইড-শো"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "More Applications"
 #~ msgctxt "Name"
 #~ msgid "Current Application Control"
 #~ msgstr "অতিরিক্ত অ্যাপ্লিকেশন"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Control for Jack"
 #~ msgctxt "Comment"
 #~ msgid "Controls for the active window"
 #~ msgstr "Jack-র নিয়ন্ত্রণ ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PHP Search"
 #~ msgctxt "Name"
 #~ msgid "Search Box"
 #~ msgstr "PHP অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and Launch"
 #~ msgstr "সার্চ-ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Plasma Search and Launch menu"
 #~ msgstr "সার্চ-ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Find and open bookmarks"
 #~ msgctxt "Comment"
 #~ msgid "List all your bookmarks"
 #~ msgstr "বুকমার্ক অনুসন্ধান করুন ও খুলুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Fonts"
 #~ msgctxt "Name"
 #~ msgid "Contacts"
 #~ msgstr "ফন্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Terminal Applications"
 #~ msgctxt "Comment"
 #~ msgid "Educational applications"
 #~ msgstr "টার্মিন্যাল অ্যাপ্লিকেশন"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and Launch Engine"
 #~ msgstr "সার্চ-ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pager"
 #~ msgctxt "Name"
 #~ msgid "Page one"
 #~ msgstr "পেজার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Default"
 #~ msgctxt "Comment"
 #~ msgid "Default Netbook Page"
 #~ msgstr "ডিফল্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Default"
 #~ msgctxt "Name"
 #~ msgid "Default Netbook Panel"
 #~ msgstr "ডিফল্ট"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and launch"
 #~ msgstr "সার্চ-ইঞ্জিন"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Net toolbox"
 #~ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
@@ -7606,92 +6654,66 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "SaverDesktop"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display Settings"
 #~ msgctxt "Name"
 #~ msgid "Display Brightness"
 #~ msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Display"
 #~ msgctxt "Name"
 #~ msgid "Dim Display"
 #~ msgstr "প্রদর্শন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Effects"
 #~ msgctxt "Name"
 #~ msgid "Disable Desktop Effects"
 #~ msgstr "ডেস্কটপ ইফেক্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "CGI Scripts"
 #~ msgctxt "Name"
 #~ msgid "Run Script"
 #~ msgstr "CGI স্ক্রিপ্ট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Sessions"
 #~ msgctxt "Name"
 #~ msgid "Suspend Session"
 #~ msgstr "ডেস্কটপের সেশান"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Screen Saver Settings"
 #~ msgctxt "Name"
 #~ msgid "Screen Energy Saving"
 #~ msgstr "স্ক্রিন-সেভার সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Font settings"
 #~ msgctxt "Comment"
 #~ msgid "Controls DPMS settings"
 #~ msgstr "ফন্ট সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Comment"
 #~ msgid "Power Management Action Extension"
 #~ msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PowerDevil"
 #~ msgctxt "Name"
 #~ msgid "HAL PowerDevil Backend"
 #~ msgstr "PowerDevil"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE 2"
 #~ msgctxt "Name"
 #~ msgid "KDE"
 #~ msgstr "KDE 2"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display Settings"
 #~ msgctxt "Name"
 #~ msgid "Get brightness"
 #~ msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display Settings"
 #~ msgctxt "Name"
 #~ msgid "Set brightness"
 #~ msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PowerDevil"
 #~ msgctxt "Name"
 #~ msgid "UPower PowerDevil Backend"
 #~ msgstr "PowerDevil"
@@ -7701,36 +6723,26 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Color settings"
 #~ msgctxt "Name"
 #~ msgid "Global settings"
 #~ msgstr "রঙ সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure global Power Management settings"
 #~ msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Flower Drops"
 #~ msgctxt "Name"
 #~ msgid "Power Profiles"
 #~ msgstr "ফুলের ছোঁয়া"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure Power Management Profiles"
 #~ msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Name"
 #~ msgid "KDE Power Management System"
 #~ msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
@@ -7740,29 +6752,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "গুরুত্বপূর্ণ সূচনাবার্তা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Browser Identification"
 #~ msgctxt "Name"
 #~ msgid "Broken battery notification"
 #~ msgstr "ব্রাউজার সনাক্তকরণ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Information Message"
 #~ msgctxt "Name"
 #~ msgid "Information Sources"
 #~ msgstr "তথ্যসূচক বার্তা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Licq"
 #~ msgctxt "Name"
 #~ msgid "Lirc"
 #~ msgstr "Licq"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "NetworkManager 0.7"
 #~ msgctxt "Name"
 #~ msgid "ModemManager 0.4"
 #~ msgstr "NetworkManager 0.7"
@@ -7776,239 +6780,171 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "NetworkManager 0.7"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Phluid"
 #~ msgctxt "Name"
 #~ msgid "Plugged"
 #~ msgstr "Phluid"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "Solid Device"
 #~ msgstr "USB ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Device Type"
 #~ msgstr "ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "DJ-Mixer and Player"
 #~ msgctxt "Name"
 #~ msgid "Driver Handle"
 #~ msgstr "DJ-মিক্সার ও প্লেয়ার"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Game"
 #~ msgctxt "Name"
 #~ msgid "Name"
 #~ msgstr "খেলা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Device"
 #~ msgstr "ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Moria"
 #~ msgctxt "Name"
 #~ msgid "Major"
 #~ msgstr "Moria"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Moria"
 #~ msgctxt "Name"
 #~ msgid "Minor"
 #~ msgstr "Moria"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Protocols"
 #~ msgctxt "Name"
 #~ msgid "Supported Protocols"
 #~ msgstr "প্রোটোকল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Notifier"
 #~ msgctxt "Name"
 #~ msgid "Device Adapter"
 #~ msgstr "ডিভাইসের সূচনা ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Help Index"
 #~ msgctxt "Name"
 #~ msgid "Device Index"
 #~ msgstr "সহায়িকার ইন্ডেক্স"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Dice Game"
 #~ msgctxt "Name"
 #~ msgid "Iface Name"
 #~ msgstr "পাশার খেলা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Circles"
 #~ msgctxt "Name"
 #~ msgid "Wireless"
 #~ msgstr "বৃত্ত"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Appearance"
 #~ msgctxt "Name"
 #~ msgid "Appendable"
 #~ msgstr "চেহারাছবি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plan"
 #~ msgctxt "Name"
 #~ msgid "Blank"
 #~ msgstr "Plan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Audacity"
 #~ msgctxt "Name"
 #~ msgid "Capacity"
 #~ msgstr "Audacity"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Iagno"
 #~ msgctxt "Name"
 #~ msgid "Ignored"
 #~ msgstr "Iagno"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panel"
 #~ msgctxt "Name"
 #~ msgid "Label"
 #~ msgstr "প্যানেল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belize"
 #~ msgctxt "Name"
 #~ msgid "Size"
 #~ msgstr "বেলিজে"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pager"
 #~ msgctxt "Name"
 #~ msgid "Usage"
 #~ msgstr "পেজার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Phluid"
 #~ msgctxt "Name"
 #~ msgid "Uuid"
 #~ msgstr "Phluid"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belarus"
 #~ msgctxt "Name"
 #~ msgid "Bus"
 #~ msgstr "বেলারুস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Portugal"
 #~ msgctxt "Name"
 #~ msgid "Hotpluggable"
 #~ msgstr "পোর্টুগাল"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Spread Sheet"
 #~ msgctxt "Name"
 #~ msgid "Read Speed"
 #~ msgstr "স্প্রেড-শিট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Input Actions"
 #~ msgctxt "Name"
 #~ msgid "Instruction Sets"
 #~ msgstr "ইনপুট সংক্রান্ত কর্ম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mac Scheme"
 #~ msgctxt "Name"
 #~ msgid "Max Speed"
 #~ msgstr "Mac স্কিম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Niue"
 #~ msgctxt "Name"
 #~ msgid "Number"
 #~ msgstr "নিউ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Forte"
 #~ msgctxt "Name"
 #~ msgid "Port"
 #~ msgstr "Forte"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Spread Sheet"
 #~ msgctxt "Name"
 #~ msgid "Reader Type"
 #~ msgstr "স্প্রেড-শিট"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Accessibility"
 #~ msgctxt "Name"
 #~ msgid "Accessible"
 #~ msgstr "বিশেষ ব্যবহারের সহায়তা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File"
 #~ msgctxt "Name"
 #~ msgid "File Path"
 #~ msgstr "ফাইল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Preset Actions"
 #~ msgctxt "Name"
 #~ msgid "Device Actions"
 #~ msgstr "পূর্বনির্ধারিত কর্ম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Solid Device Type"
 #~ msgstr "ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE Notification Daemon"
 #~ msgctxt "Name"
 #~ msgid "Status Notifier Manager"
 #~ msgstr "KDE Notification ডেমন"
@@ -8022,29 +6958,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সিস্টেম সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Details"
 #~ msgctxt "Name"
 #~ msgid "Account Details"
 #~ msgstr "বিবরণ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Notifications"
 #~ msgctxt "Name"
 #~ msgid "Application and System Notifications"
 #~ msgstr "অ্যাপ্লিকেশনের সূচনাবার্তা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Common Appearance and Behavior"
 #~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Application Appearance"
 #~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
@@ -8054,15 +6982,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ব্লু-টুথ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Workspace Appearance"
 #~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File Management"
 #~ msgctxt "Name"
 #~ msgid "Display and Monitor"
 #~ msgstr "ফাইল পরিচালনা"
@@ -8072,29 +6996,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "হার্ডওয়্যার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Input Devices"
 #~ msgstr "ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ical"
 #~ msgctxt "Name"
 #~ msgid "Locale"
 #~ msgstr "Ical"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lost & Found"
 #~ msgctxt "Name"
 #~ msgid "Lost and Found"
 #~ msgstr "হারানো প্রাপ্তি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network & Connectivity"
 #~ msgctxt "Name"
 #~ msgid "Network and Connectivity"
 #~ msgstr "নেটওয়ার্ক ও সংযোগ"
@@ -8104,15 +7020,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "নেটওয়ার্ক সংক্রান্ত বৈশিষ্ট্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Partitions"
 #~ msgctxt "Name"
 #~ msgid "Permissions"
 #~ msgstr "পার্টিশন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Processor Information"
 #~ msgctxt "Name"
 #~ msgid "Personal Information"
 #~ msgstr "প্রসেসর সংক্রান্ত তথ্য"
@@ -8122,57 +7034,41 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "যৌথ ব্যবহার"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Shortcut icon support"
 #~ msgctxt "Name"
 #~ msgid "Shortcuts and Gestures"
 #~ msgstr "শর্ট-কাট আইকন সমর্থন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "SAM System-Administration"
 #~ msgctxt "Name"
 #~ msgid "System Administration"
 #~ msgstr "SAM System-Administration"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Workspace Appearance and Behavior"
 #~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web Behavior"
 #~ msgctxt "Name"
 #~ msgid "Workspace Behavior"
 #~ msgstr "ওয়বের আচরণ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Terminal Applications"
 #~ msgctxt "Name"
 #~ msgid "System Settings External Application"
 #~ msgstr "টার্মিন্যাল অ্যাপ্লিকেশন"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Font Viewer"
 #~ msgctxt "Name"
 #~ msgid "Icon View"
 #~ msgstr "ফন্ট প্রদর্শক"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bluetooth"
 #~ msgctxt "Name"
 #~ msgid "Blue Wood"
 #~ msgstr "ব্লু-টুথ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Benin"
 #~ msgctxt "Name"
 #~ msgid "Evening"
 #~ msgstr "বেনিন"
@@ -8186,29 +7082,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সকালের আবেশ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Graphics"
 #~ msgctxt "Name"
 #~ msgid "Grass"
 #~ msgstr "গ্রাফিক্স"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panama"
 #~ msgctxt "Name"
 #~ msgid "Hanami"
 #~ msgstr "পানামা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Quartz"
 #~ msgctxt "Name"
 #~ msgid "Quadros"
 #~ msgstr "Quartz (কোয়ার্টজ)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pose"
 #~ msgctxt "Name"
 #~ msgid "pastebin.ca"
 #~ msgstr "Pose"
@@ -8222,22 +7110,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "মার্কিন ইংরাজি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Comment"
 #~ msgid "Power Management"
 #~ msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Strigi Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Activities Service"
 #~ msgstr "Nepomuk Strigi পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sharing"
 #~ msgctxt "Name"
 #~ msgid "Share"
 #~ msgstr "যৌথ ব্যবহার"
@@ -8263,8 +7145,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "ওয়েব"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and Launch Containment"
 #~ msgstr "সার্চ-ইঞ্জিন"
@@ -8274,8 +7154,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "অডিও ডিভাইসের ফল-ব্যাক"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Examples"
 #~ msgctxt "Name"
 #~ msgid "Example"
 #~ msgstr "উদাহরণ"
@@ -8285,50 +7163,36 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KWin পরীক্ষা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pan"
 #~ msgctxt "Name"
 #~ msgid "and"
 #~ msgstr "Pan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Forte"
 #~ msgctxt "Name"
 #~ msgid "or"
 #~ msgstr "Forte"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Gnotski"
 #~ msgctxt "Name"
 #~ msgid "not"
 #~ msgstr "Gnotski"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ratpoison"
 #~ msgctxt "Name"
 #~ msgid "Rating"
 #~ msgstr "Ratpoison"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File"
 #~ msgctxt "Name"
 #~ msgid "Title"
 #~ msgstr "ফাইল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KWin test"
 #~ msgctxt "Comment"
 #~ msgid "in bytes"
 #~ msgstr "KWin পরীক্ষা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "OpenGL"
 #~ msgctxt "Name"
 #~ msgid "Open"
 #~ msgstr "OpenGL"
@@ -8366,15 +7230,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "প্রসেসর সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Metacity"
 #~ msgctxt "Name"
 #~ msgid "Security"
 #~ msgstr "Metacity"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Search"
 #~ msgctxt "Name"
 #~ msgid "Desktop Appearance"
 #~ msgstr "ডেস্কটপে অনুসন্ধান"
@@ -8424,8 +7284,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Alexa URL"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/data/details?url=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.alexa.com/data/details?url=\\\\{@}"
 #~ msgstr "http://info.alexa.com/data/details?url=\\\\{@}"
@@ -8491,10 +7349,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Whatis অনুসন্ধান"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://whatis.techtarget.com/definitionsSearchResults/1,289878,sid9,00."
-#~| "html?query=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://whatis.techtarget.com/wsearchResultsB/0,,sid9,00.html?query=\\\\{@}"
@@ -8503,8 +7357,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "html?query=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Information"
 #~ msgctxt "Comment"
 #~ msgid "Device Information"
 #~ msgstr "ডিভাইস সংক্রান্ত তথ্য"
@@ -8518,29 +7370,21 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "প্রোটোকল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "Solid Backend"
 #~ msgstr "USB ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "General"
 #~ msgctxt "Name|Settings for common user needs (tab in System Settings)."
 #~ msgid "General"
 #~ msgstr "সাধারণ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Main Input Devices"
 #~ msgstr "ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Other Input Devices"
 #~ msgstr "ডিভাইস"
@@ -8558,8 +7402,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "একাধিক ডেস্কটপ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Duplicate Window"
 #~ msgctxt "Name"
 #~ msgid "Navigate Through Windows"
 #~ msgstr "উইন্ডোর প্রতিলিপি"
@@ -8589,8 +7431,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সিস্টেম সংক্রান্ত সূচনাবার্তা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Question"
 #~ msgctxt "Name"
 #~ msgid "Subversion"
 #~ msgstr "প্রশ্ন"
@@ -9802,8 +8642,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "প্রজেক্ট পরিচালনব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Netscape Addressbook"
 #~ msgctxt "Name"
 #~ msgid "Netscape Address Book"
 #~ msgstr "Netscape Addressbook"
@@ -10037,22 +8875,16 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "মেনু আপডেট করার সামগ্রী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Comment"
 #~ msgid "Solid Device Viewer"
 #~ msgstr "ডিভাইস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Comment"
 #~ msgid "Network Interface Summary"
 #~ msgstr "নেটওয়ার্ক ইন্টারফেস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Global Keyboard Shortcuts"
 #~ msgctxt "Comment"
 #~ msgid "KDE Global Shortcuts Daemon"
 #~ msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
@@ -10062,8 +8894,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "KDE সিস্টেম সংক্রান্ত সূচনাব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Write Daemon"
 #~ msgctxt "Comment"
 #~ msgid "The KDE Wallet Daemon"
 #~ msgstr "KDE Write ডেমন"
@@ -10073,8 +8903,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Nepomuk Storage পরিসেবা"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The Nepomuk Strigi file indexer"
 #~ msgctxt "Comment"
 #~ msgid "Search service file indexer"
 #~ msgstr "Nepomuk Strigi ফাইল ইনডেক্স ব্যবস্থা"
@@ -10084,8 +8912,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Phonon: KDE-র মাল্টিমিডিয়া লাইব্রেরি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Comment"
 #~ msgid "The KDE Screen Saver"
 #~ msgstr "স্ক্রিন-সেভার"
@@ -10163,8 +8989,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা - নেটওয়ার্ক"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System Monitor - CPU"
 #~ msgctxt "Name"
 #~ msgid "System Monitor - RAM"
 #~ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা - CPU"
@@ -10174,15 +8998,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা - তাপমাত্রা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notification"
 #~ msgctxt "Name"
 #~ msgid "Communication"
 #~ msgstr "সূচনা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network & Connectivity"
 #~ msgctxt "Name"
 #~ msgid "Connectivity"
 #~ msgstr "নেটওয়ার্ক ও সংযোগ"
@@ -10192,8 +9012,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "EOS"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panama"
 #~ msgctxt "Name"
 #~ msgid "Pataca"
 #~ msgstr "পানামা"
@@ -10225,57 +9043,41 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "পরিদর্শন করতে ব্যবহৃত প্যানেল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Name"
 #~ msgid "javascript-config-test"
 #~ msgstr "JavaScript Widget"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript config object test widget"
 #~ msgstr "JavaScript Widget"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Digital Clock"
 #~ msgctxt "Name"
 #~ msgid "script-digital-clock"
 #~ msgstr "ডিজিট্যাল ঘড়ি"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript digital clock"
 #~ msgstr "JavaScript Widget"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Name"
 #~ msgid "script-mediaplayer"
 #~ msgstr "মাল্টি-মিডিয়া প্লেয়ার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript media player"
 #~ msgstr "JavaScript Widget"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Name"
 #~ msgid "script-nowplaying"
 #~ msgstr "মাল্টি-মিডিয়া প্লেয়ার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript version current track playing"
 #~ msgstr "JavaScript Widget"
@@ -10309,8 +9111,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Plasmoids-র জন্য সময় সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Launch your favourite Applications"
 #~ msgctxt "Comment"
 #~ msgid "Run your favourite apps"
 #~ msgstr "পছন্দসই অ্যাপ্লিকেশনগুলি আরম্ভ করুন"
@@ -10324,15 +9124,11 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "konsole-র মধ্যে GNU দ্বারা উপলব্ধ টেক্সট-ভিত্তিক ডিবাগার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hydrogen"
 #~ msgctxt "Name"
 #~ msgid "Nitrogen"
 #~ msgstr "Hydrogen"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panama"
 #~ msgctxt "Name"
 #~ msgid "Plasma"
 #~ msgstr "পানামা"
@@ -10342,71 +9138,51 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Ozone (ওজোন)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Favicon Module"
 #~ msgctxt "Name"
 #~ msgid "KDED Locking Module"
 #~ msgstr "KDED Favicon মডিউল"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Audio Interface"
 #~ msgstr "নেটওয়ার্ক ইন্টারফেস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Battery Monitor"
 #~ msgctxt "Name"
 #~ msgid "Battery"
 #~ msgstr "ব্যাটারি নিরীক্ষণ ব্যবস্থা"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bhutan"
 #~ msgctxt "Name"
 #~ msgid "Button"
 #~ msgstr "ভুটান"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cameroon"
 #~ msgctxt "Name"
 #~ msgid "Camera"
 #~ msgstr "ক্যামেরুণ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Dvb Interface"
 #~ msgstr "নেটওয়ার্ক ইন্টারফেস"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Generic Interface"
 #~ msgstr "নেটওয়ার্ক ইন্টারফেস"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Name"
 #~ msgid "Portable Media Player"
 #~ msgstr "মাল্টি-মিডিয়া প্লেয়ার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Serial Interface"
 #~ msgstr "নেটওয়ার্ক ইন্টারফেস"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Remote Access"
 #~ msgctxt "Name"
 #~ msgid "Storage Access"
 #~ msgstr "দূরবর্তী অবস্থান থেকে ব্যবহারের সুবিধা"
@@ -10448,9 +9224,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "%signum (%signame) উৎপন্ন হয়েছে।"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid ""
-#~| "You might want to fix your program. Take a look at the backtrace tab."
 #~ msgctxt "Name"
 #~ msgid ""
 #~ "You might want to fix your program. Take a look at the backtrace below."
@@ -10505,57 +9278,41 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "দুঃখিত, এই সিগন্যালটি পরিচিত নয়।"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows Shares"
 #~ msgctxt "Keywords"
 #~ msgid "Windows and Tasks"
 #~ msgstr "Windows শেয়ার"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Date and Time"
 #~ msgctxt "Keywords"
 #~ msgid "Date and Time"
 #~ msgstr "তারিখ ও সময়"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Keywords"
 #~ msgid "Application Launchers"
 #~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System"
 #~ msgctxt "Keywords"
 #~ msgid "System"
 #~ msgstr "সিস্টেম"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Utilities"
 #~ msgctxt "Keywords"
 #~ msgid "Utilities"
 #~ msgstr "বিবিধ সামগ্রী"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Examples"
 #~ msgctxt "Keywords"
 #~ msgid "Examples"
 #~ msgstr "উদাহরণ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python Date and Time"
 #~ msgctxt "Keywords"
 #~ msgid "Python Date and Time"
 #~ msgstr "Python তারিখ ও সময়"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Applix"
 #~ msgctxt "Keywords"
 #~ msgid "Applet"
 #~ msgstr "Applix"
@@ -10565,10 +9322,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ msgstr "Plasmoids-র জন্য নেটওয়ার্ক সংক্রান্ত তথ্য"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://bugs.kde.org/simple_search.cgi?id=\\\\{1}+\\\\{2}+\\\\{3}+\\\\{4}+"
-#~| "\\\\{5}+\\\\{6}+\\\\{7}+\\\\{8}+\\\\{9}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://bugs.kde.org/buglist.cgi?quicksearch=\\\\{1}+\\\\{2}+\\\\{3}+\\"
@@ -10578,8 +9331,6 @@ msgstr "KDE ব্যবহারকারীদের জন্য সহায়
 #~ "\\\\{5}+\\\\{6}+\\\\{7}+\\\\{8}+\\\\{9}"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE write daemon"
 #~ msgctxt "Name"
 #~ msgid "KDED Systemtray daemon"
 #~ msgstr "KDE write ডেমন"
