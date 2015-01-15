@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmshell\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-13 07:51+0000\n"
+"POT-Creation-Date: 2015-01-15 07:54+0000\n"
 "PO-Revision-Date: 2008-07-06 22:02+0530\n"
 "Last-Translator: Sankarshan Mukhopadhyay <sankarshan.mukhopadhyay@gmail."
 "com>\n"
@@ -26,75 +26,77 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sankarshan@randomink.org"
 
-#: main.cpp:178
+#: main.cpp:169
 msgid "KDE Control Module"
 msgstr "KDE কনট্রোল মডিউল"
 
-#: main.cpp:180
+#: main.cpp:171
 msgid "A tool to start single KDE control modules"
 msgstr "পৃথক KDE কনট্রোল মডিউল আরম্ভ করতে ব্যবহৃত সামগ্রী "
 
-#: main.cpp:182
-msgid "(c) 1999-2004, The KDE Developers"
+#: main.cpp:173
+#, fuzzy
+#| msgid "(c) 1999-2004, The KDE Developers"
+msgid "(c) 1999-2015, The KDE Developers"
 msgstr "(c) ১৯৯৯-২০০৪, KDE ডিভেলপরবৃন্দ"
 
-#: main.cpp:184
+#: main.cpp:175
 msgid "Frans Englich"
 msgstr "ফ্রান্স ইংগলিখ"
 
-#: main.cpp:184
+#: main.cpp:175
 msgid "Maintainer"
 msgstr "মেইনটেনার"
 
-#: main.cpp:185
+#: main.cpp:176
 msgid "Daniel Molkentin"
 msgstr "ড্যানিয়্যাল মোলকেনটিন"
 
-#: main.cpp:186
+#: main.cpp:177
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "মাথ্যায়েস হোয়েলজার-ক্লুপফেল"
 
-#: main.cpp:187
+#: main.cpp:178
 msgid "Matthias Elter"
 msgstr "মাথ্যায়েস এল্টার"
 
-#: main.cpp:188
+#: main.cpp:179
 msgid "Matthias Ettrich"
 msgstr "মাথ্যায়েস এট্টরিখ"
 
-#: main.cpp:189
+#: main.cpp:180
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাসটিয়ান"
 
-#: main.cpp:194
+#: main.cpp:188
 msgid "List all possible modules"
 msgstr "সকল সম্ভব মডিউল প্রদর্শন করা হবে"
 
-#: main.cpp:195
+#: main.cpp:189
 msgid "Configuration module to open"
 msgstr "যে কনফিগারেশন মডিউল খোলা হবে"
 
-#: main.cpp:196
+#: main.cpp:190
 msgid "Specify a particular language"
 msgstr "একটি ভাষা নির্ধারণ করুন"
 
-#: main.cpp:197
+#: main.cpp:191
 msgid "Do not display main window"
 msgstr "প্রধান উইন্ডো প্রদর্শন করা হবে না"
 
-#: main.cpp:198
+#: main.cpp:192
 msgid "Arguments for the module"
 msgstr ""
 
-#: main.cpp:216
+#: main.cpp:211
 msgid "The following modules are available:"
 msgstr "নিম্নলিখিত মডিউলগুলি উপস্থিত:"
 
-#: main.cpp:235
+#: main.cpp:230
 msgid "No description available"
 msgstr "কোন বর্ণনা পাওয়া যায়নি"
 
-#: main.cpp:267
+#: main.cpp:262
 #, kde-format
 msgid ""
 "Could not find module '%1'. See kcmshell5 --list for the full list of "

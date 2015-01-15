@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:57+0000\n"
+"POT-Creation-Date: 2015-01-15 07:48+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -70,6 +70,44 @@ msgstr "টেপা কি-টি Qt-র মধ্যে সমর্থিত 
 #: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:407
 msgid "Unsupported Key"
 msgstr "অসমর্থিত-কি"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:37
+msgid "Undo"
+msgstr "পূর্বাবস্থা"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:45
+msgid "Redo"
+msgstr "পুনরাবৃত্তি"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:54
+msgid "Cut"
+msgstr "কাট করুন"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:62
+msgid "Copy"
+msgstr "কপি করুন"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:70
+msgid "Paste"
+msgstr "পেস্ট করুন"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:78
+msgid "Delete"
+msgstr "মুছে ফেলুন"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:91
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Clear"
+msgid "Clear"
+msgstr "পরিশ্রুত করুন"
+
+#: qmlcontrols/kquickcontrols/private/TextMenu.qml:100
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Select All"
+msgid "Select All"
+msgstr "সমগ্র নির্বাচন করুন"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
@@ -3535,9 +3573,6 @@ msgstr "অসমর্থিত-কি"
 #~ msgid "New..."
 #~ msgstr "নতুন..."
 
-#~ msgid "Delete"
-#~ msgstr "মুছে ফেলুন"
-
 #~ msgid "More Actions"
 #~ msgstr "অতিরিক্ত কর্ম"
 
@@ -4282,10 +4317,6 @@ msgstr "অসমর্থিত-কি"
 #~ msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
 #~ msgctxt "@action"
-#~ msgid "Select All"
-#~ msgstr "সমগ্র নির্বাচন করুন"
-
-#~ msgctxt "@action"
 #~ msgid "Deselect"
 #~ msgstr "নির্বাচন বাতিল করুন"
 
@@ -4432,10 +4463,6 @@ msgstr "অসমর্থিত-কি"
 #~ msgctxt "@action"
 #~ msgid "Mail"
 #~ msgstr "মেইল"
-
-#~ msgctxt "@action"
-#~ msgid "Clear"
-#~ msgstr "পরিশ্রুত করুন"
 
 #~ msgctxt "@action"
 #~ msgid "Actual Size"
@@ -4593,26 +4620,14 @@ msgstr "অসমর্থিত-কি"
 #~ msgid "Props"
 #~ msgstr "Props"
 
-#~ msgid "Undo"
-#~ msgstr "পূর্বাবস্থা"
-
 #~ msgid "Front"
 #~ msgstr "Front"
-
-#~ msgid "Copy"
-#~ msgstr "কপি করুন"
 
 #~ msgid "Open"
 #~ msgstr "খুলুন"
 
-#~ msgid "Paste"
-#~ msgstr "পেস্ট করুন"
-
 #~ msgid "Find"
 #~ msgstr "অনুসন্ধান"
-
-#~ msgid "Cut"
-#~ msgstr "কাট করুন"
 
 #~ msgid "&OK"
 #~ msgstr "ঠিক আছে (&O)"
@@ -4771,9 +4786,6 @@ msgstr "অসমর্থিত-কি"
 
 #~ msgid "&Overwrite"
 #~ msgstr "প্রতিস্থাপন (&O)"
-
-#~ msgid "Redo"
-#~ msgstr "পুনরাবৃত্তি"
 
 #~ msgid "&Available:"
 #~ msgstr "উপলব্ধ: (&A)"
