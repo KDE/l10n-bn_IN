@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-18 08:05+0000\n"
+"POT-Creation-Date: 2015-01-23 08:22+0000\n"
 "PO-Revision-Date: 2009-04-23 14:51+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
@@ -6794,15 +6794,15 @@ msgctxt ""
 msgid "%Ey %EC"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:277
+#: kdecore/kcmdlineargs.cpp:278
 msgid "Use the X-server display 'displayname'"
 msgstr "X-server ডিসপ্লে 'displayname' ব্যবহার করা হবে"
 
-#: kdecore/kcmdlineargs.cpp:280
+#: kdecore/kcmdlineargs.cpp:281
 msgid "Restore the application for the given 'sessionId'"
 msgstr "উল্লিখিত 'sessionId'-র জন্য অ্যাপ্লিকেশন পুনরুদ্ধার করা হবে"
 
-#: kdecore/kcmdlineargs.cpp:281
+#: kdecore/kcmdlineargs.cpp:282
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
@@ -6810,7 +6810,7 @@ msgstr ""
 "এর ফলে, অ্যাপ্লিকেশন দ্বারা একটি ৮-বিট প্রদর্শন\n"
 "ক্ষেত্রের মধ্যে নিজস্ব রঙের ম্যাপ ইনস্টল করা হবে"
 
-#: kdecore/kcmdlineargs.cpp:282
+#: kdecore/kcmdlineargs.cpp:283
 msgid ""
 "Limits the number of colors allocated in the color\n"
 "cube on an 8-bit display, if the application is\n"
@@ -6818,11 +6818,11 @@ msgid ""
 "specification"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:283
+#: kdecore/kcmdlineargs.cpp:284
 msgid "tells Qt to never grab the mouse or the keyboard"
 msgstr "Qt দ্বারা কখনো মাউস অথবা কি-বোর্ডের অধিকার গ্রহণ করা হবে না"
 
-#: kdecore/kcmdlineargs.cpp:284
+#: kdecore/kcmdlineargs.cpp:285
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
@@ -6830,15 +6830,15 @@ msgstr ""
 "ডিবাগারের মধ্যে সঞ্চালিত হলে পরোক্ষভাবে\n"
 "-nograb নির্ধারিত হতে পারে। উপেক্ষা করার জন্য -dograb প্রয়োগ করুন"
 
-#: kdecore/kcmdlineargs.cpp:285
+#: kdecore/kcmdlineargs.cpp:286
 msgid "switches to synchronous mode for debugging"
 msgstr "ডিবাগ করার জন্য সিংক্রোনাস মোডে পরিবর্তন করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:287
+#: kdecore/kcmdlineargs.cpp:288
 msgid "defines the application font"
 msgstr "অ্যাপ্লিকেশন ফন্ট নির্ধারিত করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:289
+#: kdecore/kcmdlineargs.cpp:290
 msgid ""
 "sets the default background color and an\n"
 "application palette (light and dark shades are\n"
@@ -6848,27 +6848,27 @@ msgstr ""
 "প্যালেট নির্ধারণ করা হয় (হালকা ও গাঢ় রঙ\n"
 "গণনা করা হয়)"
 
-#: kdecore/kcmdlineargs.cpp:291
+#: kdecore/kcmdlineargs.cpp:292
 msgid "sets the default foreground color"
 msgstr "অগ্রভূমিতে ব্যবহার করার জন্য ডিফল্ট রং নির্ধারণ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:293
+#: kdecore/kcmdlineargs.cpp:294
 msgid "sets the default button color"
 msgstr "বাটনে ব্যবহারের জন্য ডিফল্ট রং নির্ধারণ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:294
+#: kdecore/kcmdlineargs.cpp:295
 msgid "sets the application name"
 msgstr "অ্যাপ্লিকেশনের নাম নির্ধারণ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:295
+#: kdecore/kcmdlineargs.cpp:296
 msgid "sets the application title (caption)"
 msgstr "অ্যাপ্লিকেশনের শিরোনাম নির্ধারণ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:296
+#: kdecore/kcmdlineargs.cpp:297
 msgid "load the testability framework"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:298
+#: kdecore/kcmdlineargs.cpp:299
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
@@ -6876,7 +6876,7 @@ msgstr ""
 "৮-বিট ডিসপ্লের ক্ষেত্রে অ্যাপ্লিকেশন দ্বারা TrueColor ভিসুয়াল\n"
 "ব্যবহার করতে বাধ্য করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:299
+#: kdecore/kcmdlineargs.cpp:300
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -6886,64 +6886,64 @@ msgstr ""
 "হল onthespot, overthespot, offthespot ও\n"
 "root"
 
-#: kdecore/kcmdlineargs.cpp:300
+#: kdecore/kcmdlineargs.cpp:301
 msgid "set XIM server"
 msgstr "XIM সার্ভার নির্ধারণ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:301
+#: kdecore/kcmdlineargs.cpp:302
 msgid "disable XIM"
 msgstr "XIM নিষ্ক্রিয় করুন"
 
-#: kdecore/kcmdlineargs.cpp:303
+#: kdecore/kcmdlineargs.cpp:304
 msgid "mirrors the whole layout of widgets"
 msgstr "সম্পূর্ণ উইজেট বিন্যাস অনুকরণ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:304
+#: kdecore/kcmdlineargs.cpp:305
 msgid "applies the Qt stylesheet to the application widgets"
 msgstr "অ্যাপ্লিকেশন উইজেটের জন্য Qt স্টাইল-শিট প্রয়োগ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:305
+#: kdecore/kcmdlineargs.cpp:306
 msgid ""
 "use a different graphics system instead of the default one, options are "
 "raster and opengl (experimental)"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:306
+#: kdecore/kcmdlineargs.cpp:307
 msgid ""
 "QML JS debugger information. Application must be\n"
 "built with -DQT_DECLARATIVE_DEBUG for the debugger to be\n"
 "enabled"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:307
+#: kdecore/kcmdlineargs.cpp:308
 msgid "The windowing system platform (e.g. xcb or wayland)"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:309
+#: kdecore/kcmdlineargs.cpp:310
 msgid "Use 'caption' as name in the titlebar"
 msgstr "টাইটেল-বারের উপর 'caption' ব্যবহার করা হবে"
 
-#: kdecore/kcmdlineargs.cpp:310
+#: kdecore/kcmdlineargs.cpp:311
 msgid "Use 'icon' as the application icon"
 msgstr "অ্যাপ্লিকেশন আইকন রূপে 'icon' ব্যবহার করা হবে"
 
-#: kdecore/kcmdlineargs.cpp:311
+#: kdecore/kcmdlineargs.cpp:312
 msgid "Use alternative configuration file"
 msgstr "বিকল্প কনফিগারেশন ফাইল ব্যবহার করা হবে"
 
-#: kdecore/kcmdlineargs.cpp:312
+#: kdecore/kcmdlineargs.cpp:313
 msgid "Disable crash handler, to get core dumps"
 msgstr "কোর ডাম্প প্রাপ্ত করার জন্য, ক্র্যাশ হ্যান্ডলার নিষ্ক্রিয় করুন"
 
-#: kdecore/kcmdlineargs.cpp:314
+#: kdecore/kcmdlineargs.cpp:315
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "WM_NET-র সাথে সুসংগত windowmanager-র জন্য অপেক্ষা করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:316
+#: kdecore/kcmdlineargs.cpp:317
 msgid "sets the application GUI style"
 msgstr "অ্যাপ্লিকেশনের GUI বিন্যাস নির্ধারণ করা হয়"
 
-#: kdecore/kcmdlineargs.cpp:317
+#: kdecore/kcmdlineargs.cpp:318
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
 "format (usually WidthxHeight+XPos+YPos)"
@@ -6951,19 +6951,19 @@ msgstr ""
 "মূল উইজেটের ক্লায়েন্ট জ্যামিতি নির্ধারণ করা হয় - আর্গুমেন্টের বিন্যাস জানার জন্য man X "
 "দেখুন (সাধারণত প্রস্থxউচ্চতা+XPos+YPos)"
 
-#: kdecore/kcmdlineargs.cpp:435
+#: kdecore/kcmdlineargs.cpp:436
 msgid "KDE Application"
 msgstr "KDE অ্যাপ্লিকেশন"
 
-#: kdecore/kcmdlineargs.cpp:496
+#: kdecore/kcmdlineargs.cpp:497
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kcmdlineargs.cpp:499
+#: kdecore/kcmdlineargs.cpp:500
 msgid "KDE"
 msgstr "KDE"
 
-#: kdecore/kcmdlineargs.cpp:840
+#: kdecore/kcmdlineargs.cpp:841
 #, kde-format
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
@@ -6983,7 +6983,7 @@ msgstr ""
 "KDE Development Platform: %2\n"
 "%3: %4\n"
 
-#: kdecore/kcmdlineargs.cpp:919
+#: kdecore/kcmdlineargs.cpp:921
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -6993,11 +6993,11 @@ msgstr ""
 "%1 লিখেছেন\n"
 "%2"
 
-#: kdecore/kcmdlineargs.cpp:1578
+#: kdecore/kcmdlineargs.cpp:1580
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "ব্যবহারের পরে, অ্যাপ্লিকেশন দ্বারা খোলা ফাইল/URL-গুলি মুছে ফেলা হবে"
 
-#: kdecore/kcmdlineargs.cpp:1579
+#: kdecore/kcmdlineargs.cpp:1581
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
