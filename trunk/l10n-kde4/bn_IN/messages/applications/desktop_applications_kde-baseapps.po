@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-24 02:10+0000\n"
+"POT-Creation-Date: 2015-01-26 02:15+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -68,7 +68,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of general Dolphin settings."
 msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
 
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:152
+#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:153
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "General"
@@ -76,7 +76,7 @@ msgctxt "Name|Random file browsing settings."
 msgid "General"
 msgstr "সাধারণ"
 
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:225
+#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:226
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -84,10 +84,10 @@ msgctxt "Comment"
 msgid "Configure general file manager settings"
 msgstr "ফাইল পরিচালন ব্যবস্থার বৈশিষ্ট্য কনফিগার করুন"
 
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:295
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:296
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:244
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:295
+#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:297
+#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:297
+#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:247
+#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:296
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "File Manager"
@@ -111,7 +111,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin navigation."
 msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
 
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:152
+#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:153
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Navigation Panel"
@@ -119,7 +119,7 @@ msgctxt "Name"
 msgid "Navigation"
 msgstr "পরিদর্শন করতে ব্যবহৃত প্যানেল"
 
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:225
+#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:226
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -135,14 +135,14 @@ msgctxt "Name"
 msgid "Dolphin Services"
 msgstr "Dolphin প্রদর্শন"
 
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:82
+#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:83
 #: konqueror/sidebar/default_entries/services.desktop:4
 #: konqueror/sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "পরিসেবা"
 
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:174
+#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:176
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -166,7 +166,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin view modes."
 msgstr "এই পরিসেবা দ্বারা Dolphin প্রদর্শন ব্যবস্থা কনফিগার করা যাবে।"
 
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:151
+#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:152
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Views"
@@ -174,7 +174,7 @@ msgctxt "Name"
 msgid "View Modes"
 msgstr "প্রদর্শন ব্যবস্থা"
 
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:223
+#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:224
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -282,7 +282,7 @@ msgctxt "Name"
 msgid "Translate"
 msgstr "LEO-Translate"
 
-#: konq-plugins/babelfish/plugin_translator.desktop:76
+#: konq-plugins/babelfish/plugin_translator.desktop:77
 msgctxt "Comment"
 msgid "Language translation for the current page using Google"
 msgstr ""
@@ -295,7 +295,7 @@ msgctxt "Name"
 msgid "Directory Filter"
 msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
 
-#: konq-plugins/dirfilter/dirfilterplugin.desktop:72
+#: konq-plugins/dirfilter/dirfilterplugin.desktop:73
 msgctxt "Comment"
 msgid "Filter directory view using an attribute filter"
 msgstr ""
@@ -485,7 +485,7 @@ msgctxt "Name"
 msgid "Document Relations"
 msgstr "KDE API সংক্রান্ত নথিপত্র"
 
-#: konq-plugins/rellinks/plugin_rellinks.desktop:74
+#: konq-plugins/rellinks/plugin_rellinks.desktop:75
 msgctxt "Comment"
 msgid "Displays the document relations of a document"
 msgstr ""
@@ -498,7 +498,7 @@ msgctxt "Name"
 msgid "Search Bar"
 msgstr "PHP অনুসন্ধান"
 
-#: konq-plugins/searchbar/searchbar.desktop:76
+#: konq-plugins/searchbar/searchbar.desktop:77
 msgctxt "Comment"
 msgid "Provides a text box for easier access to search engines like Google."
 msgstr ""
@@ -653,7 +653,7 @@ msgctxt "Comment"
 msgid "Configure enhanced browsing"
 msgstr "উন্নত বৈশিষ্ট্যসহ ব্রাউজিং কনফিগার করুন"
 
-#: konqueror/settings/ebrowsing/ebrowsing.desktop:197
+#: konqueror/settings/ebrowsing/ebrowsing.desktop:198
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Enhanced Browsing,Browsing,WWW,Internet,Internet Filters,Network,Search "
@@ -685,12 +685,12 @@ msgctxt "Name"
 msgid "Cache"
 msgstr "ক্যাশে"
 
-#: konqueror/settings/kio/cache.desktop:105
+#: konqueror/settings/kio/cache.desktop:106
 msgctxt "Comment"
 msgid "Configure web cache settings"
 msgstr "ওয়েব ক্যাশে সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
-#: konqueror/settings/kio/cache.desktop:197
+#: konqueror/settings/kio/cache.desktop:199
 msgctxt "X-KDE-Keywords"
 msgid "Cache,History,Browsing History,Ports,Size"
 msgstr ""
@@ -700,12 +700,12 @@ msgctxt "Name"
 msgid "Cookies"
 msgstr "কুকি"
 
-#: konqueror/settings/kio/cookies.desktop:103
+#: konqueror/settings/kio/cookies.desktop:104
 msgctxt "Comment"
 msgid "Configure the way cookies work"
 msgstr "কুকি ব্যবহারের পদ্ধতি কনফিগার করুন"
 
-#: konqueror/settings/kio/cookies.desktop:194
+#: konqueror/settings/kio/cookies.desktop:195
 msgctxt "X-KDE-Keywords"
 msgid "Cookies,Browsing,Internet,WWW,Network,Policy,Domains"
 msgstr ""
@@ -715,12 +715,12 @@ msgctxt "Name"
 msgid "Connection Preferences"
 msgstr "সংযোগ সংক্রান্ত পছন্দসই মান"
 
-#: konqueror/settings/kio/netpref.desktop:105
+#: konqueror/settings/kio/netpref.desktop:106
 msgctxt "Comment"
 msgid "Configure generic network preferences, like timeout values"
 msgstr "নেটওয়ার্ক সংক্রান্ত সাধান মান, যেমন সময়সীমা, কনফিগার করুন"
 
-#: konqueror/settings/kio/netpref.desktop:196
+#: konqueror/settings/kio/netpref.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "timeout,iopref,netpref,network preferences,ftp"
 msgstr ""
@@ -1050,15 +1050,15 @@ msgctxt "Name"
 msgid "Appearance"
 msgstr "চেহারাছবি"
 
-#: konqueror/settings/konq/fileappearance.desktop:104
-#: konqueror/settings/konq/webappearance.desktop:105
+#: konqueror/settings/konq/fileappearance.desktop:105
+#: konqueror/settings/konq/webappearance.desktop:106
 msgctxt "Comment"
 msgid "You can configure how Konqueror looks as a file manager here"
 msgstr ""
 "ফাইল পরিচালন ব্যবস্থা হিসাবে Konqueror-র চেহারাছবি এইখানে কনফিগার করা যাবে"
 
-#: konqueror/settings/konq/fileappearance.desktop:197
-#: konqueror/settings/konq/webappearance.desktop:198
+#: konqueror/settings/konq/fileappearance.desktop:198
+#: konqueror/settings/konq/webappearance.desktop:199
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,filemanager,word wrap,wrap,underline,display,filesize,bytes,font,"
@@ -1100,7 +1100,7 @@ msgctxt "X-KDE-Keywords"
 msgid "CSS,HTML,style,stylesheet,accessibility"
 msgstr ""
 
-#: konqueror/settings/konqhtml/khtml_appearance.desktop:107
+#: konqueror/settings/konqhtml/khtml_appearance.desktop:108
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the fonts used on web pages"
@@ -1108,7 +1108,7 @@ msgctxt "Comment"
 msgid "Configure how to display web pages"
 msgstr "ওয়েব পেজে ব্যবহৃত ফন্ট কনফিগার করুন"
 
-#: konqueror/settings/konqhtml/khtml_appearance.desktop:178
+#: konqueror/settings/konqhtml/khtml_appearance.desktop:179
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,kfm,browser,html,web,www,fonts,charsets,character sets,encoding"
@@ -1124,7 +1124,7 @@ msgctxt "Comment"
 msgid "Configure the browser behavior"
 msgstr "ব্রাউজারের আচরণ কনফিগার করুন"
 
-#: konqueror/settings/konqhtml/khtml_behavior.desktop:194
+#: konqueror/settings/konqhtml/khtml_behavior.desktop:195
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,kfm,browser,html,web,www,fonts,colours,colors,java,javascript,"
@@ -1281,7 +1281,7 @@ msgctxt "Comment"
 msgid "Configure the history sidebar"
 msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার কনফিগার করুন"
 
-#: konqueror/sidebar/history_module/kcmhistory.desktop:194
+#: konqueror/sidebar/history_module/kcmhistory.desktop:195
 msgctxt "X-KDE-Keywords"
 msgid "history,expire"
 msgstr ""
@@ -1536,7 +1536,7 @@ msgctxt "Name"
 msgid "Link to Application..."
 msgstr "অ্যাপ্লিকেশন নির্দেশকারী লিঙ্ক..."
 
-#: lib/konq/Templates/linkProgram.desktop:86
+#: lib/konq/Templates/linkProgram.desktop:87
 msgctxt "Comment"
 msgid "New Link to Application"
 msgstr "অ্যাপ্লিকেশন নির্দেশকারী নতুন লিঙ্ক"
@@ -1576,12 +1576,12 @@ msgctxt "Name"
 msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
-#: nsplugins/khtml_plugins.desktop:106
+#: nsplugins/khtml_plugins.desktop:107
 msgctxt "Comment"
 msgid "Configure the browser plugins"
 msgstr "ব্রাউজার প্লাগ-ইন কনফিগার করুন"
 
-#: nsplugins/khtml_plugins.desktop:197
+#: nsplugins/khtml_plugins.desktop:199
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,fonts,plugins"
 msgstr ""
