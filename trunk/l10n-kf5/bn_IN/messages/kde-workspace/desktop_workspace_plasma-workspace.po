@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-20 10:25+0000\n"
+"POT-Creation-Date: 2015-01-27 10:21+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -179,6 +179,21 @@ msgctxt "Comment"
 msgid "Launch your favourite Applications"
 msgstr "পছন্দসই অ্যাপ্লিকেশনগুলি আরম্ভ করুন"
 
+#: applets/systemmonitor/metadata.desktop:3
+#: applets/system-monitor/plasma-applet-sm_net.desktop:3
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Tool"
+msgctxt "Name"
+msgid "Network Monitor"
+msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
+
+#: applets/systemmonitor/metadata.desktop:67
+#: applets/system-monitor/plasma-applet-sm_net.desktop:67
+msgctxt "Comment"
+msgid "A network usage monitor"
+msgstr ""
+
 #: applets/system-monitor/plasma-applet-sm_cpu.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -226,19 +241,6 @@ msgstr "হার্ডওয়্যার"
 #: applets/system-monitor/plasma-applet-sm_hwinfo.desktop:66
 msgctxt "Comment"
 msgid "Show hardware info"
-msgstr ""
-
-#: applets/system-monitor/plasma-applet-sm_net.desktop:3
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Tool"
-msgctxt "Name"
-msgid "Network Monitor"
-msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
-
-#: applets/system-monitor/plasma-applet-sm_net.desktop:67
-msgctxt "Comment"
-msgid "A network usage monitor"
 msgstr ""
 
 #: applets/system-monitor/plasma-applet-sm_ram.desktop:3
