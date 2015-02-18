@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:32+0000\n"
+"POT-Creation-Date: 2015-02-18 08:40+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -55,14 +55,39 @@ msgstr "কমান্ড সঞ্চালন (&c)"
 msgid "Select the command to run"
 msgstr "সঞ্চালনের জন্য কমান্ড নির্বাচন করুন"
 
-#. i18n: ectx: property (text), widget (QCheckBox, KTTS_check)
+#. i18n: ectx: property (text), widget (QCheckBox, TTS_check)
 #: knotifyconfigactionswidgetbase.ui:106
 msgid "Sp&eech"
 msgstr "ধ্বনি (&e)"
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, KTTS_combo)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, KTTS_select)
-#: knotifyconfigactionswidgetbase.ui:119 knotifyconfigactionswidgetbase.ui:141
+#. i18n: ectx: property (whatsThis), widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:119
+#, no-c-format
+msgid ""
+"<qt>Specifies how knotify should speak the event when received.  If you "
+"select \"Speak custom text\", enter the text in the box.  You may use the "
+"following substitution strings in the text:<dl><dt>%e</dt><dd>Name of the "
+"event</dd><dt>%a</dt><dd>Application that sent the event</dd><dt>%m</"
+"dt><dd>The message sent by the application</dd></dl></qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:123
+msgid "Speak Event Message"
+msgstr "ইভেন্ট সম্বন্ধীয় বার্তা উচ্চারণ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:128
+msgid "Speak Event Name"
+msgstr "ইভেন্টের নাম উচ্চারণ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:133
+msgid "Speak Custom Text"
+msgstr "স্বনির্ধারিত টেক্সট উচ্চারণ"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, TTS_select)
+#: knotifyconfigactionswidgetbase.ui:141
 #, no-c-format
 msgid ""
 "<qt>Specifies how Jovie should speak the event when received.  If you select "
@@ -71,21 +96,6 @@ msgid ""
 "dd><dt>%a</dt><dd>Application that sent the event</dd><dt>%m</dt><dd>The "
 "message sent by the application</dd></dl></qt>"
 msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:123
-msgid "Speak Event Message"
-msgstr "ইভেন্ট সম্বন্ধীয় বার্তা উচ্চারণ"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:128
-msgid "Speak Event Name"
-msgstr "ইভেন্টের নাম উচ্চারণ"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:133
-msgid "Speak Custom Text"
-msgstr "স্বনির্ধারিত টেক্সট উচ্চারণ"
 
 #: knotifyconfigwidget.cpp:101
 msgid "Configure Notifications"
