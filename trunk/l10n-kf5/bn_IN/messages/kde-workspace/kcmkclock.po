@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-28 09:47+0000\n"
+"POT-Creation-Date: 2015-03-05 09:36+0000\n"
 "PO-Revision-Date: 2009-01-13 17:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -33,7 +33,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
 #: dateandtime.ui:30
-msgid "Set date and time &automatically:"
+#, fuzzy
+#| msgid "Set date and time &automatically:"
+msgid "Set date and time &automatically"
 msgstr "স্বয়ংক্রিয়ভাবে সময় ও তারিখ নির্ধারণ করা হবে: (&a)"
 
 #. i18n: ectx: property (text), widget (QLabel, timeServerLabel)
@@ -42,31 +44,31 @@ msgid "&Time server:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
-#: dateandtime.ui:83
+#: dateandtime.ui:86
 msgid "Here you can change the system date's day of the month, month and year."
 msgstr "সিস্টেমের তারিখের দিন, মাস ও বৎসর এইখানে পরিবর্তন করা যাবে।"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: dateandtime.ui:116
+#: dateandtime.ui:122
 #, fuzzy
 #| msgid "Time zone Error"
 msgid "Time Zone"
 msgstr "সময়ের অঞ্চল সংক্রান্ত ত্রুটি"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dateandtime.ui:122
+#: dateandtime.ui:128
 msgid "To change the local time zone, select your area from the list below."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_local)
-#: dateandtime.ui:145
+#: dateandtime.ui:151
 #, fuzzy
 #| msgid "Current local time zone: %1 (%2)"
 msgid "Current local time zone:"
 msgstr "বর্তমান স্থানীয় সময়ের অঞ্চল: %1 (%2)"
 
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, tzonesearch)
-#: dateandtime.ui:155
+#: dateandtime.ui:161
 msgid "Search"
 msgstr ""
 
