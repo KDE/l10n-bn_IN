@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-02 09:12+0000\n"
+"POT-Creation-Date: 2015-03-15 08:50+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -105,7 +105,7 @@ msgctxt "Name"
 msgid "Cache"
 msgstr "ক্যাশে"
 
-#: src/kcms/kio/cache.desktop:98
+#: src/kcms/kio/cache.desktop:99
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
@@ -113,7 +113,7 @@ msgctxt "Comment"
 msgid "Configure web cache settings"
 msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
-#: src/kcms/kio/cache.desktop:129
+#: src/kcms/kio/cache.desktop:131
 msgctxt "X-KDE-Keywords"
 msgid "Cache,History,Browsing History,Ports,Size"
 msgstr ""
@@ -126,12 +126,12 @@ msgctxt "Name"
 msgid "Cookies"
 msgstr "কুকি"
 
-#: src/kcms/kio/cookies.desktop:46
+#: src/kcms/kio/cookies.desktop:47
 msgctxt "Comment"
 msgid "Configure the way cookies work"
 msgstr "কুকি ব্যবহারের পদ্ধতি কনফিগার করুন"
 
-#: src/kcms/kio/cookies.desktop:127
+#: src/kcms/kio/cookies.desktop:129
 msgctxt "X-KDE-Keywords"
 msgid "Cookies,Browsing,Internet,WWW,Network,Policy,Domains"
 msgstr ""
@@ -141,12 +141,12 @@ msgctxt "Name"
 msgid "Connection Preferences"
 msgstr "সংযোগ সংক্রান্ত পছন্দসই মান"
 
-#: src/kcms/kio/netpref.desktop:92
+#: src/kcms/kio/netpref.desktop:93
 msgctxt "Comment"
 msgid "Configure generic network preferences, like timeout values"
 msgstr "নেটওয়ার্ক সংক্রান্ত সাধান মান, যেমন সময়সীমা, কনফিগার করুন"
 
-#: src/kcms/kio/netpref.desktop:172
+#: src/kcms/kio/netpref.desktop:174
 msgctxt "X-KDE-Keywords"
 msgid "timeout,iopref,netpref,network preferences,ftp"
 msgstr ""
@@ -156,12 +156,12 @@ msgctxt "Name"
 msgid "Proxy"
 msgstr "প্রক্সি"
 
-#: src/kcms/kio/proxy.desktop:96
+#: src/kcms/kio/proxy.desktop:97
 msgctxt "Comment"
 msgid "Configure the proxy servers used"
 msgstr "ব্যবহৃত প্রক্সি সার্ভার(গুলি) কনফিগার করুন"
 
-#: src/kcms/kio/proxy.desktop:178
+#: src/kcms/kio/proxy.desktop:180
 msgctxt "X-KDE-Keywords"
 msgid "Proxy,Proxy server,Firewall,Squid"
 msgstr ""
@@ -171,12 +171,12 @@ msgctxt "Name"
 msgid "Windows Shares"
 msgstr "Windows শেয়ার"
 
-#: src/kcms/kio/smb.desktop:93
+#: src/kcms/kio/smb.desktop:94
 msgctxt "Comment"
 msgid "Use to configure which windows (SMB) filesystems you can browse"
 msgstr "ব্রাউজ করার উদ্দেশ্যে চিহ্নিত windows (SMB) ফাইল-সিস্টেম কনফিগার করতে ব্যবহৃত"
 
-#: src/kcms/kio/smb.desktop:172
+#: src/kcms/kio/smb.desktop:174
 msgctxt "X-KDE-Keywords"
 msgid ""
 "SMB,SAMBA,SMB client,Windows network,LAN,Network,neighborhood,Server,"
@@ -459,12 +459,12 @@ msgctxt "Name"
 msgid "Browser Identification"
 msgstr "ব্রাউজার সনাক্তকরণ"
 
-#: src/kcms/kio/useragent.desktop:94
+#: src/kcms/kio/useragent.desktop:95
 msgctxt "Comment"
 msgid "Configure the way Konqueror reports itself"
 msgstr "Konqueror দ্বারা নিজস্ব পরিচিতি প্রদর্শন কনফিগার করুন"
 
-#: src/kcms/kio/useragent.desktop:173
+#: src/kcms/kio/useragent.desktop:175
 msgctxt "X-KDE-Keywords"
 msgid "User Agent,Browser,Internet,WWW,Network,agent,bindings,server,login"
 msgstr ""
@@ -474,7 +474,7 @@ msgctxt "Name"
 msgid "Web Shortcuts"
 msgstr "ওয়েব শর্ট-কাট"
 
-#: src/kcms/webshortcuts/webshortcuts.desktop:97
+#: src/kcms/webshortcuts/webshortcuts.desktop:98
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
@@ -482,7 +482,7 @@ msgctxt "Comment"
 msgid "Configure web shortcuts"
 msgstr "ওয়েব ক্যাশে সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
-#: src/kcms/webshortcuts/webshortcuts.desktop:133
+#: src/kcms/webshortcuts/webshortcuts.desktop:135
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Web Shortcuts,Browsing,WWW,Internet,Internet Filters,Network,Search Engines,"
@@ -1360,7 +1360,7 @@ msgctxt "Name"
 msgid "Great Dictionary of the Catalan Language (GRan Enciclopèdia Catalana)"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/grec.desktop:33
+#: src/urifilters/ikws/searchproviders/grec.desktop:34
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.grec.net/cgibin/lexicx.pgm?GECART=\\\\{@}"
@@ -1833,7 +1833,7 @@ msgctxt "Name"
 msgid "Qwant"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant.desktop:38
+#: src/urifilters/ikws/searchproviders/qwant.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1849,7 +1849,7 @@ msgctxt "Name"
 msgid "Qwant Images"
 msgstr "ছবি"
 
-#: src/urifilters/ikws/searchproviders/qwant_images.desktop:38
+#: src/urifilters/ikws/searchproviders/qwant_images.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1862,7 +1862,7 @@ msgctxt "Name"
 msgid "Qwant News"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant_news.desktop:38
+#: src/urifilters/ikws/searchproviders/qwant_news.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1878,7 +1878,7 @@ msgctxt "Name"
 msgid "Qwant Shopping"
 msgstr "Google Groups (গ্রুপ)"
 
-#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:38
+#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1891,7 +1891,7 @@ msgctxt "Name"
 msgid "Qwant Social"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant_social.desktop:38
+#: src/urifilters/ikws/searchproviders/qwant_social.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -1904,7 +1904,7 @@ msgctxt "Name"
 msgid "Qwant Videos"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:38
+#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
