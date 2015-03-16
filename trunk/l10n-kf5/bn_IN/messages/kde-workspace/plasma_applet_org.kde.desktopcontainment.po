@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-28 09:47+0000\n"
+"POT-Creation-Date: 2015-03-03 13:30+0000\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: package/contents/config/config.qml:27
+#: package/contents/config/config.qml:29
 #: package/contents/ui/ConfigLocation.qml:77
 #, fuzzy
 #| msgctxt ""
@@ -29,11 +29,12 @@ msgstr ""
 msgid "Location"
 msgstr "অবস্থান"
 
-#: package/contents/config/config.qml:33 package/contents/ui/main.qml:574
+#: package/contents/config/config.qml:36
+#: package/contents/ui/FolderViewLayer.qml:228
 msgid "Icons"
 msgstr "আইকন"
 
-#: package/contents/config/config.qml:39
+#: package/contents/config/config.qml:43
 #, fuzzy
 #| msgctxt ""
 #| "Title of the page that lets the user choose how to filter the folderview "
@@ -46,11 +47,11 @@ msgstr "ফিল্টার"
 msgid "Resize"
 msgstr ""
 
-#: package/contents/ui/AppletHandle.qml:144
+#: package/contents/ui/AppletHandle.qml:146
 msgid "Rotate"
 msgstr ""
 
-#: package/contents/ui/AppletHandle.qml:301
+#: package/contents/ui/AppletHandle.qml:305
 msgid "Remove"
 msgstr ""
 
@@ -88,116 +89,116 @@ msgstr "সমগ্র নির্বাচন করুন"
 msgid "Deselect All"
 msgstr "সমগ্র নির্বাচন বাতিল করুন"
 
-#: package/contents/ui/ConfigIcons.qml:59
+#: package/contents/ui/ConfigIcons.qml:60
 msgid "Arrangement"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:68
+#: package/contents/ui/ConfigIcons.qml:69
 msgid "Arrange in:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:74 plugin/viewpropertiesmenu.cpp:34
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:74 plugin/viewpropertiesmenu.cpp:38
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Columns"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:80
+#: package/contents/ui/ConfigIcons.qml:81
 msgid "Align:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:86 plugin/viewpropertiesmenu.cpp:46
+#: package/contents/ui/ConfigIcons.qml:87
 msgid "Left"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:86 plugin/viewpropertiesmenu.cpp:50
+#: package/contents/ui/ConfigIcons.qml:87
 msgid "Right"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:95
+#: package/contents/ui/ConfigIcons.qml:96
 msgid "Lock in place"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:105
+#: package/contents/ui/ConfigIcons.qml:106
 #, fuzzy
 #| msgid "Sort icons:"
 msgid "Sorting"
 msgstr "আইকনের ক্রমবিন্যাস:"
 
-#: package/contents/ui/ConfigIcons.qml:112
+#: package/contents/ui/ConfigIcons.qml:113
 #, fuzzy
 #| msgid "Sort icons:"
 msgid "Sorting:"
 msgstr "আইকনের ক্রমবিন্যাস:"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:58
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
 #| msgctxt "Sort Icons"
 #| msgid "Unsorted"
 msgid "Unsorted"
 msgstr "অবিন্যাস্ত"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:62
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Name"
 msgid "Name"
 msgstr "নাম অনুযায়ী"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:66
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size"
 msgstr "মাপ অনুযায়ী"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:70
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Type"
 msgid "Type"
 msgstr "ধরন অনুযায়ী"
 
-#: package/contents/ui/ConfigIcons.qml:124 plugin/viewpropertiesmenu.cpp:74
+#: package/contents/ui/ConfigIcons.qml:125
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Date"
 msgid "Date"
 msgstr "তারিখ অনুযায়ী"
 
-#: package/contents/ui/ConfigIcons.qml:141 plugin/viewpropertiesmenu.cpp:79
+#: package/contents/ui/ConfigIcons.qml:142
 msgid "Descending"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:149
+#: package/contents/ui/ConfigIcons.qml:150
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
 msgid "Folders first"
 msgstr "প্রথমে ফোল্ডার"
 
-#: package/contents/ui/ConfigIcons.qml:158
+#: package/contents/ui/ConfigIcons.qml:159
 msgid "Appearance"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:165
+#: package/contents/ui/ConfigIcons.qml:166
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size:"
 msgstr "মাপ অনুযায়ী"
 
-#: package/contents/ui/ConfigIcons.qml:169
+#: package/contents/ui/ConfigIcons.qml:170
 msgid "Small"
 msgstr "ক্ষুদ্র"
 
-#: package/contents/ui/ConfigIcons.qml:183
+#: package/contents/ui/ConfigIcons.qml:184
 msgid "Large"
 msgstr "বৃহৎ"
 
-#: package/contents/ui/ConfigIcons.qml:189
+#: package/contents/ui/ConfigIcons.qml:190
 #, fuzzy
 #| msgctxt "Inserted as %2 in the message below."
 #| msgid "1 file"
@@ -205,29 +206,29 @@ msgstr "বৃহৎ"
 msgid "Text lines:"
 msgstr "একটি ফাইল"
 
-#: package/contents/ui/ConfigIcons.qml:209
+#: package/contents/ui/ConfigIcons.qml:210
 msgid "Features"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:217
+#: package/contents/ui/ConfigIcons.qml:218
 msgid "Tooltips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:225
+#: package/contents/ui/ConfigIcons.qml:226
 #, fuzzy
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "সমগ্র নির্বাচন করুন"
 
-#: package/contents/ui/ConfigIcons.qml:231
+#: package/contents/ui/ConfigIcons.qml:232
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:238
+#: package/contents/ui/ConfigIcons.qml:239
 msgid "Preview thumbnails"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:244
+#: package/contents/ui/ConfigIcons.qml:245
 msgid "More Preview Options..."
 msgstr ""
 
@@ -275,183 +276,129 @@ msgstr ""
 msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:36
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
 msgid "Preview Plugins"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:84
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:84
 msgid "OK"
 msgstr ""
 
-#: package/contents/ui/PreviewPluginsDialog.qml:97
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:97
 msgid "Cancel"
 msgstr ""
 
-#: plugin/directorypicker.cpp:45
 #, fuzzy
-#| msgid "Select All"
-msgid "Select Folder"
-msgstr "সমগ্র নির্বাচন করুন"
+#~| msgid "Select All"
+#~ msgid "Select Folder"
+#~ msgstr "সমগ্র নির্বাচন করুন"
 
-#: plugin/foldermodel.cpp:217
-msgid "&Refresh Desktop"
-msgstr ""
+#~ msgid "&Reload"
+#~ msgstr "নতুন করে লোড (&R)"
 
-#: plugin/foldermodel.cpp:217 plugin/foldermodel.cpp:1035
-msgid "&Refresh View"
-msgstr ""
+#~ msgid "&Rename"
+#~ msgstr "নাম পরিবর্তন (&R)"
 
-#: plugin/foldermodel.cpp:1032
-msgid "&Reload"
-msgstr "নতুন করে লোড (&R)"
+#~ msgid "&Move to Trash"
+#~ msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
-#: plugin/foldermodel.cpp:1038
-msgid "&Rename"
-msgstr "নাম পরিবর্তন (&R)"
+#~ msgid "&Empty Trash Bin"
+#~ msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: plugin/foldermodel.cpp:1041
-msgid "&Move to Trash"
-msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
+#~ msgid "&Delete"
+#~ msgstr "মুছে ফেলুন (&D)"
 
-#: plugin/foldermodel.cpp:1044 plugin/internallibkonq/konq_popupmenu.cpp:350
-msgid "&Empty Trash Bin"
-msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
+#~ msgid "&Paste"
+#~ msgstr "পেস্ট করুন (&P)"
 
-#: plugin/foldermodel.cpp:1047
-msgid "&Delete"
-msgstr "মুছে ফেলুন (&D)"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "চিহ্নিত স্থানে কপি করুন"
 
-#: plugin/foldermodel.cpp:1107
-msgid "&Paste"
-msgstr "পেস্ট করুন (&P)"
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:82
-msgctxt "@title:menu"
-msgid "Copy To"
-msgstr "চিহ্নিত স্থানে কপি করুন"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:88
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
-
-#: plugin/internallibkonq/konq_copytomenu.cpp:112
 #, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:119
 #, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:155
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
-msgstr "ব্রাউজ করুন..."
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "ব্রাউজ করুন..."
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:228
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "এইখানে কপি করুন"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "এইখানে কপি করুন"
 
-#: plugin/internallibkonq/konq_copytomenu.cpp:229
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "এইখানে স্থানান্তর করুন"
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "এইখানে স্থানান্তর করুন"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:254
-msgid "&Open"
-msgstr "খুলুন (&O)"
+#~ msgid "&Open"
+#~ msgstr "খুলুন (&O)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:281
-msgid "Create &Folder..."
-msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
+#~ msgid "Create &Folder..."
+#~ msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:292
-msgid "&Restore"
-msgstr "পুনরুদ্ধার (&R)"
+#~ msgid "&Restore"
+#~ msgstr "পুনরুদ্ধার (&R)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:315
-msgid "Show Original Directory"
-msgstr ""
-
-#: plugin/internallibkonq/konq_popupmenu.cpp:315
 #, fuzzy
-#| msgid "Show All Files"
-msgid "Show Original File"
-msgstr "সকল ফাইল প্রদর্শন করা হবে"
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:363
 #, fuzzy
-#| msgid "&Empty Trash Bin"
-msgid "&Configure Trash Bin"
-msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:389
-msgid "&Bookmark This Page"
-msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
+#~ msgid "&Bookmark This Page"
+#~ msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:391
-msgid "&Bookmark This Location"
-msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
+#~ msgid "&Bookmark This Location"
+#~ msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:394
-msgid "&Bookmark This Folder"
-msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:396
-msgid "&Bookmark This Link"
-msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
+#~ msgid "&Bookmark This Link"
+#~ msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:398
-msgid "&Bookmark This File"
-msgstr "বর্তমান ফাইল লিংক করুন (&B)"
+#~ msgid "&Bookmark This File"
+#~ msgstr "বর্তমান ফাইল লিংক করুন (&B)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:428
-msgid "Preview In"
-msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
+#~ msgid "Preview In"
+#~ msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:463
-msgid "&Properties"
-msgstr "বিবিধ বৈশিষ্ট্য (&P)"
+#~ msgid "&Properties"
+#~ msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
-#: plugin/internallibkonq/konq_popupmenu.cpp:479
-msgid "Share"
-msgstr "যৌথ ব্যবহার"
+#~ msgid "Share"
+#~ msgstr "যৌথ ব্যবহার"
 
-#: plugin/labelgenerator.cpp:97
-msgid "Desktop Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
+#~ msgid "Desktop Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
 
-#: plugin/viewpropertiesmenu.cpp:31
-msgid "Arrange In"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:43
-msgid "Align"
-msgstr ""
-
-#: plugin/viewpropertiesmenu.cpp:55
 #, fuzzy
-#| msgid "Sort icons:"
-msgid "Sort By"
-msgstr "আইকনের ক্রমবিন্যাস:"
+#~| msgid "Sort icons:"
+#~ msgid "Sort By"
+#~ msgstr "আইকনের ক্রমবিন্যাস:"
 
-#: plugin/viewpropertiesmenu.cpp:81
 #, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "Folders First"
-msgid "Folders First"
-msgstr "প্রথমে ফোল্ডার"
-
-#: plugin/viewpropertiesmenu.cpp:84
-msgid "Locked"
-msgstr ""
+#~| msgctxt "Sort icons"
+#~| msgid "Folders First"
+#~ msgid "Folders First"
+#~ msgstr "প্রথমে ফোল্ডার"
 
 #~ msgid "You cannot drop a folder on to itself"
 #~ msgstr "কোনো ফোল্ডারকে নিজের মধ্যে স্থাপন করা সম্ভব নয়"
