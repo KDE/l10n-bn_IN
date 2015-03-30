@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-24 13:15+0000\n"
+"POT-Creation-Date: 2015-03-30 08:41+0000\n"
 "PO-Revision-Date: 2008-12-22 17:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
-#: image.cpp:568 imagepackage/contents/ui/config.qml:354
+#: image.cpp:568
 #, fuzzy
 #| msgid "Download new wallpapers"
 msgid "Download Wallpapers"
@@ -108,6 +108,10 @@ msgstr "ফোল্ডার যোগ করুন: (&A)"
 msgid "Open..."
 msgstr "..."
 
+#: imagepackage/contents/ui/config.qml:354
+msgid "Get New Wallpapers..."
+msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
+
 #: imagepackage/contents/ui/main.qml:144
 #, fuzzy
 #| msgid "Select Wallpaper Image File"
@@ -149,9 +153,6 @@ msgstr "%1 দ্বারা"
 
 #~ msgid "&Color:"
 #~ msgstr "রং: (&C)"
-
-#~ msgid "Get New Wallpapers..."
-#~ msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
 
 #, fuzzy
 #~| msgid "&Remove Folder"
