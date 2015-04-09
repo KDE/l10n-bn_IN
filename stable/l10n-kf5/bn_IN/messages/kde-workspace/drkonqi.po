@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2014-12-30 09:51+0000\n"
 "PO-Revision-Date: 2009-01-05 17:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -28,6 +28,7 @@ msgstr "runab@redhat.com"
 
 #: aboutbugreportingdialog.cpp:40
 #, fuzzy
+#| msgid "&Bug Report"
 msgctxt "@title title of the dialog"
 msgid "About Bug Reporting - Help"
 msgstr "বাগ সংক্রান্ত রিপোর্ট (&B)"
@@ -439,6 +440,7 @@ msgstr ""
 #: backtracewidget.cpp:129
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:629
 #, fuzzy
+#| msgid "Loading symbols..."
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "সিম্বল লোড করা হচ্ছে..."
@@ -754,6 +756,7 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:326
 #, fuzzy, kde-format
+#| msgid "The program was started by kdeinit"
 msgctxt "@info"
 msgid "Your problem has already been reported as bug %1."
 msgstr "kdeinit দ্বারা এই প্রোগ্রাম আরম্ভ করা হয়েছে"
@@ -1176,12 +1179,14 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:846 drkonqi.cpp:171
 #, fuzzy
+#| msgid "Select Filename"
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "ফাইলের নাম নির্বাচন করুন"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:869 drkonqi.cpp:195
 #, fuzzy, kde-format
+#| msgid "Cannot open file <filename>%1</filename> for writing."
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "লেখার জন্য <filename>%1</filename> ফাইলটি খোলা যায়নি।"
@@ -1741,6 +1746,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@item:inlistbox the bug can be reproduced sometimes"
 msgid "Sometimes"
 msgstr "প্রোগ্রামের নাম"
@@ -1902,6 +1908,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, attachToBugReportCheck)
 #: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:219
 #, fuzzy
+#| msgid "Please attach the following information to your bug report:"
 msgid "Completely sure: attach my &information to this report"
 msgstr "অনুগ্রহ করে, আপনার বাগ রিপোর্টের সাথে নিম্নলিখিত তথ্য যুক্ত করুন:"
 
@@ -2035,18 +2042,21 @@ msgstr ""
 
 #: drkonqi.cpp:161
 #, fuzzy, kde-format
+#| msgid "Backtrace saved to <filename>%1</filename>."
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "<filename>%1</filename> ফাইলের মধ্যে ব্যাক-ট্রেস সংরক্ষণ করা হয়েছে।"
 
 #: drkonqi.cpp:164
 #, fuzzy
+#| msgid "Cannot create a file to save the backtrace in"
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
 msgstr "ব্যাক-ট্রেস সংরক্ষণের জন্য কোনো ফাইল নির্মাণ করা যায়নি"
 
 #: drkonqidialog.cpp:70
 #, fuzzy
+#| msgid "Generate"
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "উৎপন্ন করা হবে"
@@ -2104,6 +2114,7 @@ msgstr ""
 
 #: drkonqidialog.cpp:147
 #, fuzzy
+#| msgid "Show details"
 msgctxt "@label"
 msgid "Details:"
 msgstr "বিবরণ প্রদর্শন করা হবে"
@@ -2128,6 +2139,7 @@ msgstr ""
 
 #: drkonqidialog.cpp:195
 #, fuzzy
+#| msgid "&Debugger"
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
@@ -2178,6 +2190,7 @@ msgstr ""
 
 #: main.cpp:72
 #, fuzzy
+#| msgid "Hans Petter Bieker"
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
 msgstr "হান্স পেটার বিইকার"
@@ -2199,66 +2212,77 @@ msgstr ""
 
 #: main.cpp:87
 #, fuzzy
+#| msgid "The signal number that was caught"
 msgctxt "@info:shell"
 msgid "The signal <number> that was caught"
 msgstr "প্রাপ্ত সিগন্যাল সংখ্যা"
 
 #: main.cpp:88
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@info:shell"
 msgid "<Name> of the program"
 msgstr "প্রোগ্রামের নাম"
 
 #: main.cpp:89
 #, fuzzy
+#| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "<Path> to the executable"
 msgstr "এক্সেকিউটেবলের পাথ"
 
 #: main.cpp:90
 #, fuzzy
+#| msgid "The version of the program"
 msgctxt "@info:shell"
 msgid "The <version> of the program"
 msgstr "প্রোগ্রামের সংস্করণ"
 
 #: main.cpp:91
 #, fuzzy
+#| msgid "The bug address to use"
 msgctxt "@info:shell"
 msgid "The bug <address> to use"
 msgstr "ব্যবহারযোগ্য বাগ ঠিকানা"
 
 #: main.cpp:92
 #, fuzzy
+#| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated <name> of the program"
 msgstr "প্রোগ্রামের অনুবাদিত নাম"
 
 #: main.cpp:93
 #, fuzzy
+#| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "The <PID> of the program"
 msgstr "প্রোগ্রামের PID"
 
 #: main.cpp:94
 #, fuzzy
+#| msgid "Startup ID of the program"
 msgctxt "@info:shell"
 msgid "Startup <ID> of the program"
 msgstr "প্রোগ্রামের প্রারম্ভিক ID"
 
 #: main.cpp:95
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "kdeinit দ্বারা এই প্রোগ্রাম আরম্ভ করা হয়েছে"
 
 #: main.cpp:96
 #, fuzzy
+#| msgid "Disable arbitrary disk access"
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
 msgstr "ডিস্কের যথেচ্ছ ব্যবহার নিষ্ক্রিয় করুন"
 
 #: main.cpp:97
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
 msgstr "kdeinit দ্বারা এই প্রোগ্রাম আরম্ভ করা হয়েছে"
@@ -2279,30 +2303,37 @@ msgid "Show backtrace content (advanced)"
 msgstr ""
 
 #, fuzzy
+#~| msgid "<application>%1</application>"
 #~ msgctxt "@action:inmenu 1 is the debugger name"
 #~ msgid "Debug in <application>%1</application>"
 #~ msgstr "<application>%1</application>"
 
 #, fuzzy
+#~| msgid "Loading backtrace..."
 #~ msgid "Show backtrace"
 #~ msgstr "ব্যাক-ট্রেস লোড করা হচ্ছে..."
 
 #, fuzzy
+#~| msgctxt "unknown application"
+#~| msgid "unknown"
 #~ msgctxt "@info unknown application"
 #~ msgid "unknown"
 #~ msgstr "অজানা"
 
 #, fuzzy
+#~| msgid "<application>%1</application>"
 #~ msgctxt "@info/rich"
 #~ msgid "<application>%1</application>"
 #~ msgstr "<application>%1</application>"
 
 #, fuzzy
+#~| msgid "<command>%1</command>"
 #~ msgctxt "@info/rich"
 #~ msgid "<command>%1</command>"
 #~ msgstr "<command>%1</command>"
 
 #, fuzzy
+#~| msgid "<filename>%1</filename>"
 #~ msgctxt "@info/rich"
 #~ msgid "<filename>%1</filename>"
 #~ msgstr "<filename>%1</filename>"
@@ -2313,6 +2344,7 @@ msgstr ""
 #
 # Runa Bhattacharjee <runab@redhat.com>, 2009.
 #, fuzzy
+#~| msgid ""
 #~ msgctxt "@action:button"
 #~ msgid ""
 #~ msgstr ""
@@ -2329,11 +2361,13 @@ msgstr ""
 #~ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, fuzzy
+#~| msgid "C&opy"
 #~ msgctxt "@action:button"
 #~ msgid "&Copy"
 #~ msgstr "কপি করুন (&o)"
 
 #, fuzzy
+#~| msgid "&Bug Report"
 #~ msgctxt "@title"
 #~ msgid "Bug Report Keywords"
 #~ msgstr "বাগ সংক্রান্ত রিপোর্ট (&B)"

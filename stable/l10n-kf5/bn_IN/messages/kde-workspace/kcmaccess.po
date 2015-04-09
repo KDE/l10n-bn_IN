@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2015-04-05 08:29+0000\n"
 "PO-Revision-Date: 2009-07-04 05:55+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -27,117 +27,64 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "makghosh@gmail.com"
 
-#: kcmaccess.cpp:144
-msgid "AltGraph"
-msgstr "AltGraph"
+#. i18n: ectx: attribute (title), widget (QWidget, tabBell)
+#: accessibility.ui:21
+msgid "&Bell"
+msgstr "বেল (&B)"
 
-#: kcmaccess.cpp:146
-msgid "Hyper"
-msgstr "Hyper"
-
-#: kcmaccess.cpp:148
-msgid "Super"
-msgstr "Super"
-
-#: kcmaccess.cpp:162
-#, kde-format
-msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
-msgstr "%1 প্রেস করুন যদি NumLock, CapsLock ও ScrollLock সক্রিয় থাকে"
-
-#: kcmaccess.cpp:164
-#, kde-format
-msgid "Press %1 while CapsLock and ScrollLock are active"
-msgstr "%1 প্রেস করুন যদি CapsLock ও ScrollLock সক্রিয় থাকে"
-
-#: kcmaccess.cpp:166
-#, kde-format
-msgid "Press %1 while NumLock and ScrollLock are active"
-msgstr "%1 প্রেস করুন যদি NumLock ও ScrollLock সক্রিয় থাকে"
-
-#: kcmaccess.cpp:168
-#, kde-format
-msgid "Press %1 while ScrollLock is active"
-msgstr "%1 প্রেস করুন যদি ScrollLock সক্রিয় থাকে"
-
-#: kcmaccess.cpp:171
-#, kde-format
-msgid "Press %1 while NumLock and CapsLock are active"
-msgstr "%1 প্রেস করুন যদি NumLock ও CapsLock সক্রিয় থাকে"
-
-#: kcmaccess.cpp:173
-#, kde-format
-msgid "Press %1 while CapsLock is active"
-msgstr "%1 প্রেস করুন যদি CapsLock সক্রিয় থাকে"
-
-#: kcmaccess.cpp:175
-#, kde-format
-msgid "Press %1 while NumLock is active"
-msgstr "%1 প্রেস করুন যদি NumLock সক্রিয় থাকে"
-
-#: kcmaccess.cpp:177
-#, kde-format
-msgid "Press %1"
-msgstr "%1 প্রেস করুনয় থাকে"
-
-#: kcmaccess.cpp:187
-msgid "KDE Accessibility Tool"
-msgstr "KDE এ্যক্সেসিবিলিটি টুল"
-
-#: kcmaccess.cpp:188
-msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
-msgstr "(c) 2000 ম্যথিয়াস হোলযার ক্লুফেল"
-
-#: kcmaccess.cpp:190
-msgid "Matthias Hoelzer-Kluepfel"
-msgstr "ম্যথিয়াস হোলযার ক্লুফেল"
-
-#: kcmaccess.cpp:190
-msgid "Author"
-msgstr "লেখক"
-
-#: kcmaccess.cpp:204
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: accessibility.ui:27
 msgid "Audible Bell"
 msgstr "শব্দ বেল"
 
-#: kcmaccess.cpp:212
-msgid "Use &system bell"
-msgstr "সিস্টেম বেল ব্যবহৃত হবে (&s)"
-
-#: kcmaccess.cpp:214
-msgid "Us&e customized bell"
-msgstr "স্বনির্বাচিত বেল ব্যবহৃত হবে (&e)"
-
-#: kcmaccess.cpp:216
+#. i18n: ectx: property (toolTip), widget (QCheckBox, systemBell)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, gestures)
+#: accessibility.ui:33 accessibility.ui:576
+#, fuzzy
+#| msgid ""
+#| "If this option is checked, the default system bell will be used. See the "
+#| "\"System Bell\" control module for how to customize the system bell. "
+#| "Normally, this is just a \"beep\"."
 msgid ""
-"If this option is checked, the default system bell will be used. See the "
-"\"System Bell\" control module for how to customize the system bell. "
-"Normally, this is just a \"beep\"."
+"If this option is checked, the default system bell will be used. Usually, "
+"this is just a \"beep\"."
 msgstr ""
 "যদি এই অপশনটি চয়ন করা হয়, তাহলে ডিফল্ট সিস্টেম বেল ব্যবহৃত হবে। সিস্টেম বেল "
 "স্বনির্বাচিত করার জন্যে \"সিস্টেম বেল\" কন্ট্রল ব্যবস্থাটি দেখুন।সাধারনতঃ, এটা একটা "
 "\"বিপ\" শব্দ।"
 
-#: kcmaccess.cpp:219
+#. i18n: ectx: property (text), widget (QCheckBox, systemBell)
+#: accessibility.ui:36
+msgid "Use &system bell"
+msgstr "সিস্টেম বেল ব্যবহৃত হবে (&s)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, customBell)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, accessxBeep)
+#: accessibility.ui:43 accessibility.ui:660
+#, fuzzy
+#| msgid ""
+#| "<p>Check this option if you want to use a customized bell, playing a "
+#| "sound file. If you do this, you will probably want to turn off the system "
+#| "bell.</p><p> Please note that on slow machines this may cause a \"lag\" "
+#| "between the event causing the bell and the sound being played.</p>"
 msgid ""
-"<p>Check this option if you want to use a customized bell, playing a sound "
-"file. If you do this, you will probably want to turn off the system bell.</"
-"p><p> Please note that on slow machines this may cause a \"lag\" between the "
-"event causing the bell and the sound being played.</p>"
+"Check this option if you want to use a customized bell, playing a sound "
+"file. If you do this, you will probably want to turn off the system bell."
 msgstr ""
 "<p>এই অপশনটি চয়ন করুন যদি অাপনি স্বনির্বাচিত বেল ব্যবহার করতে চান, যেটা একটা "
 "সাউন্ড ফাইল প্লে করবে। যদি তা করেন, আপনি সম্ভবতঃ সিস্টেম বেলটা বন্ধ করে দিতে "
 "চাইবেন।</p> <p> লক্ষ করুন যে পুরোনো মেশিনে এতে বেলের কারনস্বরূপ ইভেন্ট এবং সাউন্ড "
 "প্লে হওয়ার মধ্যে কয়েক মুহুর্ত \"বিলম্ব\" হতে পারে।</p>"
 
-#: kcmaccess.cpp:227
-msgid "Sound &to play:"
-msgstr "যে সাউন্ডটি প্লে করা হবে (&t):"
+#. i18n: ectx: property (text), widget (QCheckBox, customBell)
+#: accessibility.ui:46
+msgid "Us&e customized bell"
+msgstr "স্বনির্বাচিত বেল ব্যবহৃত হবে (&e)"
 
-#: kcmaccess.cpp:231
-msgid "Browse..."
-msgstr "ব্রাউজ..."
-
-#: kcmaccess.cpp:233
+#. i18n: ectx: property (toolTip), widget (QLabel, soundLabel)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, soundEdit)
+#. i18n: ectx: property (toolTip), widget (QPushButton, soundButton)
+#: accessibility.ui:71 accessibility.ui:84 accessibility.ui:91
 msgid ""
 "If the option \"Use customized bell\" is enabled, you can choose a sound "
 "file here. Click \"Browse...\" to choose a sound file using the file dialog."
@@ -146,15 +93,23 @@ msgstr ""
 "সাউন্ড ফাইল চয়ন করতে পারেন। \"ব্রাউজ...\" ক্লিক করুন ফাইল ডায়লগ থেকে একটা সাউন্ড "
 "ফাইল চয়ন করার জন্যে। "
 
-#: kcmaccess.cpp:250
+#. i18n: ectx: property (text), widget (QLabel, soundLabel)
+#: accessibility.ui:74
+msgid "Sound &to play:"
+msgstr "যে সাউন্ডটি প্লে করা হবে (&t):"
+
+#. i18n: ectx: property (text), widget (QPushButton, soundButton)
+#: accessibility.ui:94
+msgid "Browse..."
+msgstr "ব্রাউজ..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: accessibility.ui:106
 msgid "Visible Bell"
 msgstr "দৃশ্যমান বেল"
 
-#: kcmaccess.cpp:258
-msgid "&Use visible bell"
-msgstr "দৃশ্যমান বেল ব্যবহৃত হবে (&U)"
-
-#: kcmaccess.cpp:260
+#. i18n: ectx: property (toolTip), widget (QCheckBox, visibleBell)
+#: accessibility.ui:112
 msgid ""
 "This option will turn on the \"visible bell\", i.e. a visible notification "
 "shown every time that normally just a bell would occur. This is especially "
@@ -164,79 +119,116 @@ msgstr ""
 "দেখানো হয়, যখন স্বাধারনতঃ শুধুমাত্র একটা বেল হওয়ার কথা। শ্রবনশক্তি হীন মানুষের জন্যে "
 "এটা অত্যন্ত উপযোগি।"
 
-#: kcmaccess.cpp:267
-msgid "I&nvert screen"
-msgstr "স্ক্রিনটা উল্টো করা হবে (&n)"
+#. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
+#: accessibility.ui:115
+msgid "&Use visible bell"
+msgstr "দৃশ্যমান বেল ব্যবহৃত হবে (&U)"
 
-#: kcmaccess.cpp:271
-msgid ""
-"All screen colors will be inverted for the amount of time specified below."
-msgstr "স্ক্রিনের সব রঙগুলো উল্টো করা হবে নীচে দেওয়া সময়সীমা পর্যন্ত।"
-
-#: kcmaccess.cpp:273
-msgid "F&lash screen"
-msgstr "ফ্ল্যাস স্ক্রিন (&l)"
-
-#: kcmaccess.cpp:275
+#. i18n: ectx: property (toolTip), widget (QRadioButton, flashScreen)
+#: accessibility.ui:122
 msgid ""
 "The screen will turn to a custom color for the amount of time specified "
 "below."
 msgstr "স্ক্রিনটি একটা স্বনির্বাচিত রঙে পরিবর্তীত হবে নীচে দেওয়া সময়সীমা পর্যন্ত।"
 
-#: kcmaccess.cpp:281
+#. i18n: ectx: property (text), widget (QRadioButton, flashScreen)
+#: accessibility.ui:125
+msgid "F&lash screen"
+msgstr "ফ্ল্যাস স্ক্রিন (&l)"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, invertScreen)
+#: accessibility.ui:132
+msgid ""
+"All screen colors will be inverted for the amount of time specified below."
+msgstr "স্ক্রিনের সব রঙগুলো উল্টো করা হবে নীচে দেওয়া সময়সীমা পর্যন্ত।"
+
+#. i18n: ectx: property (text), widget (QRadioButton, invertScreen)
+#: accessibility.ui:135
+msgid "I&nvert screen"
+msgstr "স্ক্রিনটা উল্টো করা হবে (&n)"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, colorButton)
+#: accessibility.ui:158
 msgid ""
 "Click here to choose the color used for the \"flash screen\" visible bell."
 msgstr "\"ফ্ল্যাস স্ক্রিন\" দৃশ্যমান বেলের রঙ চয়ন করার জন্যে এখানে ক্লিক করুন।"
 
-#: kcmaccess.cpp:291
-msgid "Duration:"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: accessibility.ui:165
+#, fuzzy
+#| msgid "Duration:"
+msgid "&Duration:"
 msgstr "সময়কাল:"
 
-#: kcmaccess.cpp:292 kcmaccess.cpp:406 kcmaccess.cpp:446
-msgid " msec"
-msgstr " মিলিসেকেন্ড "
-
-#: kcmaccess.cpp:294
+#. i18n: ectx: property (toolTip), widget (QSpinBox, duration)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, slowKeysDelay)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, timeoutDelay)
+#: accessibility.ui:178 accessibility.ui:389 accessibility.ui:486
+#: accessibility.ui:614
 msgid ""
 "Here you can customize the duration of the \"visible bell\" effect being "
 "shown."
 msgstr "এখানে আপনি \"দৃশ্যমান বেলের\" সময়কাল নির্ধারিত করতে পারেন।"
 
-#: kcmaccess.cpp:311
-msgid "&Bell"
-msgstr "বেল (&B)"
+#. i18n: ectx: property (suffix), widget (QSpinBox, duration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+msgid " msec"
+msgstr " মিলিসেকেন্ড "
 
-#: kcmaccess.cpp:319
-msgid "S&ticky Keys"
+#. i18n: ectx: attribute (title), widget (QWidget, tabModifier)
+#: accessibility.ui:224
+#, fuzzy
+#| msgid "&Modifier Keys"
+msgid "Modifier Keys"
+msgstr "মডিফায়র কী-সমূহ (&M)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sticky)
+#: accessibility.ui:230
+#, fuzzy
+#| msgid "S&ticky Keys"
+msgid "Sticky Keys"
 msgstr "স্টিকি কী-সমূহ (&t)"
 
-#: kcmaccess.cpp:327
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeys)
+#: accessibility.ui:236
 msgid "Use &sticky keys"
 msgstr "স্টিকি কী-সমূহ ব্যবহৃত হবে (&s)"
 
-#: kcmaccess.cpp:333
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysLock)
+#: accessibility.ui:263
 msgid "&Lock sticky keys"
 msgstr "স্টিকি কী-সমূহ লক করা হবে (&L)"
 
-#: kcmaccess.cpp:339
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysAutoOff)
+#: accessibility.ui:270
 msgid "Turn sticky keys off when two keys are pressed simultaneously"
 msgstr "স্টিকি কী-সমূহ বন্ধ করা হবে যদি দুটো কী একসঙ্গে দাবানো হয়।"
 
-#: kcmaccess.cpp:345
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysBeep)
+#: accessibility.ui:277
 msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgstr ""
 "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা মডিফায়র latched, locked অথবা unlocked হয়"
 
-#: kcmaccess.cpp:348
+#. i18n: ectx: property (title), widget (QGroupBox, locking)
+#: accessibility.ui:291
 msgid "Locking Keys"
 msgstr "লকিং কী-সমূহ"
 
-#: kcmaccess.cpp:356
+#. i18n: ectx: property (text), widget (QCheckBox, toggleKeysBeep)
+#: accessibility.ui:297
 msgid "Use system bell whenever a locking key gets activated or deactivated"
 msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা লকিং কী সক্রিয় বা নিষ্ক্রিয় করা হবে"
 
-#: kcmaccess.cpp:359
+#. i18n: ectx: property (text), widget (QCheckBox, kNotifyModifiers)
+#: accessibility.ui:304
 #, fuzzy
+#| msgid ""
+#| "Use KDE's system notification mechanism whenever a modifier or locking "
+#| "key changes its state"
 msgid ""
 "Use Plasma's system notification mechanism whenever a modifier or locking "
 "key changes its state"
@@ -244,67 +236,215 @@ msgstr ""
 "KDE সিস্টেম নোটিফিকেশন ব্যবস্থা ব্যবহৃত হবে যখনই একটা মডিফায়র অথবা লকিং কী অবস্থা "
 "পরিবর্তন করে"
 
-#: kcmaccess.cpp:365 kcmaccess.cpp:532
+#. i18n: ectx: property (text), widget (QPushButton, kNotifyModifiersButton)
+#. i18n: ectx: property (text), widget (QPushButton, kNotifyAccessButton)
+#: accessibility.ui:329 accessibility.ui:706
 msgid "Configure &Notifications..."
 msgstr "নোটিফিকেশনের বিন্যাস... (&N)"
 
-#: kcmaccess.cpp:382
-msgid "&Modifier Keys"
-msgstr "মডিফায়র কী-সমূহ (&M)"
-
-#: kcmaccess.cpp:388
-msgid "Slo&w Keys"
-msgstr "ধীর কী-সমূহ (&w)"
-
-#: kcmaccess.cpp:396
-msgid "&Use slow keys"
-msgstr "ধীর কী-সমূহ ব্যবহৃত হবে (&U)"
-
-#: kcmaccess.cpp:407
-msgid "Acceptance dela&y:"
-msgstr "গ্রহন করার বিলম্ব (&y):"
-
-#: kcmaccess.cpp:413
-msgid "&Use system bell whenever a key is pressed"
-msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী প্রেস করা হবে (&U)"
-
-#: kcmaccess.cpp:419
-msgid "&Use system bell whenever a key is accepted"
-msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী গ্রাহ্য হবে (&U)"
-
-#: kcmaccess.cpp:425
-msgid "&Use system bell whenever a key is rejected"
-msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী অগ্রাহ্য হবে (&U)"
-
-#: kcmaccess.cpp:428
-msgid "Bounce Keys"
-msgstr "বাউন্স কী-সমূহ"
-
-#: kcmaccess.cpp:436
-msgid "Use bou&nce keys"
-msgstr "বাউন্স কী-সমূহ ব্যবহৃত হবে (&n)"
-
-#: kcmaccess.cpp:447
-msgid "D&ebounce time:"
-msgstr "ডিবাউন্স সময়কাল (&e):"
-
-#: kcmaccess.cpp:453
-msgid "Use the system bell whenever a key is rejected"
-msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী অগ্রাহ্য হবে"
-
-#: kcmaccess.cpp:471
+#. i18n: ectx: attribute (title), widget (QWidget, tabKeyFilters)
+#: accessibility.ui:368
 msgid "&Keyboard Filters"
 msgstr "কিবোর্ড ফিল্টার-সমূহ (&K)"
 
-#: kcmaccess.cpp:478 kcmaccess.cpp:548
+#. i18n: ectx: property (title), widget (QGroupBox, slowkeys)
+#: accessibility.ui:374
+msgid "Slo&w Keys"
+msgstr "ধীর কী-সমূহ (&w)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeys)
+#: accessibility.ui:382
+msgid "&Use slow keys"
+msgstr "ধীর কী-সমূহ ব্যবহৃত হবে (&U)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysPressBeep)
+#: accessibility.ui:443
+msgid "&Use system bell whenever a key is pressed"
+msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী প্রেস করা হবে (&U)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysAcceptBeep)
+#: accessibility.ui:450
+msgid "&Use system bell whenever a key is accepted"
+msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী গ্রাহ্য হবে (&U)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysRejectBeep)
+#: accessibility.ui:457
+msgid "&Use system bell whenever a key is rejected"
+msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী অগ্রাহ্য হবে (&U)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, bouncekeys)
+#: accessibility.ui:471
+msgid "Bounce Keys"
+msgstr "বাউন্স কী-সমূহ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, bounceKeys)
+#: accessibility.ui:479
+msgid "Use bou&nce keys"
+msgstr "বাউন্স কী-সমূহ ব্যবহৃত হবে (&n)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, bounceKeysRejectBeep)
+#: accessibility.ui:538
+msgid "Use the system bell whenever a key is rejected"
+msgstr "সিস্টেম বেল ব্যবহৃত হবে যখনই একটা কী অগ্রাহ্য হবে"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabActivationGestures)
+#: accessibility.ui:564
+#, fuzzy
+#| msgid "Activation Gestures"
+msgid "&Activation Gestures"
+msgstr "সক্রিয় করার ঈশারা-সমূহ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
+#: accessibility.ui:570
 msgid "Activation Gestures"
 msgstr "সক্রিয় করার ঈশারা-সমূহ"
 
-#: kcmaccess.cpp:486
+#. i18n: ectx: property (text), widget (QCheckBox, gestures)
+#: accessibility.ui:579
 msgid "Use gestures for activating sticky keys and slow keys"
 msgstr "ঈশারার মাধ্যমে স্টিকি কী-সমূহ ও ধীর কী-সমূহ সক্রিয় হবে"
 
-#: kcmaccess.cpp:490
+#. i18n: ectx: property (text), widget (QCheckBox, timeout)
+#: accessibility.ui:589
+msgid ""
+"Turn sticky keys and slow keys off after a certain period of inactivity."
+msgstr ""
+"একটা নির্দিষ্টকাল অবধি নিষ্ক্রিয় থাকলে স্টিকি কী-সমূহ ও ধীর কী-সমূহ নিষ্ক্রিয় করা "
+"হবে। "
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, timeoutDelay)
+#: accessibility.ui:617
+msgid " min"
+msgstr " মিনিট"
+
+#. i18n: ectx: property (title), widget (QGroupBox, notification)
+#: accessibility.ui:654
+msgid "Notification"
+msgstr "নোটিফিকেশন"
+
+#. i18n: ectx: property (text), widget (QCheckBox, accessxBeep)
+#: accessibility.ui:663
+msgid ""
+"Use the system bell whenever a gesture is used to turn an accessibility "
+"feature on or off"
+msgstr ""
+"সিস্টেম বেল ব্যবহৃত হবে যখনই কোনো ঈশারার মাধ্যমে একটা এ্যক্সেসিবিলিটি ব্যবস্থা সক্রিয় "
+"বা নিষ্ক্রিয় করা হয়"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, gestureConfirmation)
+#: accessibility.ui:671
+msgid ""
+"If this option is checked, KDE will show a confirmation dialog whenever a "
+"keyboard accessibility feature is turned on or off.\n"
+"Ensure you know what you are doing if you uncheck it, as the keyboard "
+"accessibility settings will then always be applied without confirmation."
+msgstr ""
+"এই অপশনটা সক্রিয় থাকলে, KDE একটা কনফারমেসন ডায়লগ দেখাবে যখনই একটা কিবোর্ড "
+"এ্যক্সেসিবিলিটি ব্যবস্থা সক্রিয় বা নিষ্ক্রিয় করা হয়।\n"
+"মনে রাখবেন, যদি আপনি এটা নিষ্ক্রিয় করেন, তখন কিবোর্ড এ্যক্সেসিবিলিটি বিন্যাসগুলো "
+"আপনার অনুমতি ছাড়াই সক্রিয় হয়ে যাবে।"
+
+#. i18n: ectx: property (text), widget (QCheckBox, gestureConfirmation)
+#: accessibility.ui:674
+msgid ""
+"Show a confirmation dialog whenever a keyboard accessibility feature is "
+"turned on or off"
+msgstr ""
+"একটা কনফারমেসন ডায়লগ দেখানো হবে যখনই একটা কিবোর্ড এ্যক্সেসিবিলিটি ব্যবস্থা সক্রিয় "
+"বা নিষ্ক্রিয় করা হয়"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kNotifyAccess)
+#: accessibility.ui:681
+#, fuzzy
+#| msgid ""
+#| "Use KDE's system notification mechanism whenever a keyboard accessibility "
+#| "feature is turned on or off"
+msgid ""
+"Use Plasma's system notification mechanism whenever a keyboard accessibility "
+"feature is turned on or off"
+msgstr ""
+"KDE-র সিস্টেম নোটিফিকেশন ব্যবস্থা ব্যবহৃত হবে যখনই একটা কিবোর্ড এ্যক্সেসিবিলিটি "
+"ব্যবস্থা সক্রিয় বা নিষ্ক্রিয় করা হবে"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:745
+msgid "Screen Reader"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
+#: accessibility.ui:751
+msgid "Screen reader enabled"
+msgstr ""
+
+#: kcmaccess.cpp:121
+msgid "AltGraph"
+msgstr "AltGraph"
+
+#: kcmaccess.cpp:123
+msgid "Hyper"
+msgstr "Hyper"
+
+#: kcmaccess.cpp:125
+msgid "Super"
+msgstr "Super"
+
+#: kcmaccess.cpp:139
+#, kde-format
+msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
+msgstr "%1 প্রেস করুন যদি NumLock, CapsLock ও ScrollLock সক্রিয় থাকে"
+
+#: kcmaccess.cpp:141
+#, kde-format
+msgid "Press %1 while CapsLock and ScrollLock are active"
+msgstr "%1 প্রেস করুন যদি CapsLock ও ScrollLock সক্রিয় থাকে"
+
+#: kcmaccess.cpp:143
+#, kde-format
+msgid "Press %1 while NumLock and ScrollLock are active"
+msgstr "%1 প্রেস করুন যদি NumLock ও ScrollLock সক্রিয় থাকে"
+
+#: kcmaccess.cpp:145
+#, kde-format
+msgid "Press %1 while ScrollLock is active"
+msgstr "%1 প্রেস করুন যদি ScrollLock সক্রিয় থাকে"
+
+#: kcmaccess.cpp:148
+#, kde-format
+msgid "Press %1 while NumLock and CapsLock are active"
+msgstr "%1 প্রেস করুন যদি NumLock ও CapsLock সক্রিয় থাকে"
+
+#: kcmaccess.cpp:150
+#, kde-format
+msgid "Press %1 while CapsLock is active"
+msgstr "%1 প্রেস করুন যদি CapsLock সক্রিয় থাকে"
+
+#: kcmaccess.cpp:152
+#, kde-format
+msgid "Press %1 while NumLock is active"
+msgstr "%1 প্রেস করুন যদি NumLock সক্রিয় থাকে"
+
+#: kcmaccess.cpp:154
+#, kde-format
+msgid "Press %1"
+msgstr "%1 প্রেস করুনয় থাকে"
+
+#: kcmaccess.cpp:163
+msgid "KDE Accessibility Tool"
+msgstr "KDE এ্যক্সেসিবিলিটি টুল"
+
+#: kcmaccess.cpp:164
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000 ম্যথিয়াস হোলযার ক্লুফেল"
+
+#: kcmaccess.cpp:166
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "ম্যথিয়াস হোলযার ক্লুফেল"
+
+#: kcmaccess.cpp:166
+msgid "Author"
+msgstr "লেখক"
+
+#: kcmaccess.cpp:221
 msgid ""
 "Here you can activate keyboard gestures that turn on the following "
 "features: \n"
@@ -316,7 +456,7 @@ msgstr ""
 "স্টিকি কী-সমূহ: পর পর ৫ বার সিফ্ট কী প্রেস করুন\n"
 "ধীর কী-সমূহ: সিফ্ট কী ৮ সেকেন্ড ধরে থাকুন"
 
-#: kcmaccess.cpp:494
+#: kcmaccess.cpp:225
 #, kde-format
 msgid ""
 "Here you can activate keyboard gestures that turn on the following "
@@ -331,61 +471,14 @@ msgstr ""
 "স্টিকি কী-সমূহ: পর পর ৫ বার সিফ্ট কী প্রেস করুন\n"
 "ধীর কী-সমূহ: সিফ্ট কী ৮ সেকেন্ড ধরে থাকুন"
 
-#: kcmaccess.cpp:499
-msgid ""
-"Turn sticky keys and slow keys off after a certain period of inactivity."
-msgstr ""
-"একটা নির্দিষ্টকাল অবধি নিষ্ক্রিয় থাকলে স্টিকি কী-সমূহ ও ধীর কী-সমূহ নিষ্ক্রিয় করা "
-"হবে। "
+#~ msgid "Acceptance dela&y:"
+#~ msgstr "গ্রহন করার বিলম্ব (&y):"
 
-#: kcmaccess.cpp:506
-msgid " min"
-msgstr " মিনিট"
+#~ msgid "D&ebounce time:"
+#~ msgstr "ডিবাউন্স সময়কাল (&e):"
 
-#: kcmaccess.cpp:508
-msgid "Timeout:"
-msgstr "সময়সীমা:"
-
-#: kcmaccess.cpp:511
-msgid "Notification"
-msgstr "নোটিফিকেশন"
-
-#: kcmaccess.cpp:519
-msgid ""
-"Use the system bell whenever a gesture is used to turn an accessibility "
-"feature on or off"
-msgstr ""
-"সিস্টেম বেল ব্যবহৃত হবে যখনই কোনো ঈশারার মাধ্যমে একটা এ্যক্সেসিবিলিটি ব্যবস্থা সক্রিয় "
-"বা নিষ্ক্রিয় করা হয়"
-
-#: kcmaccess.cpp:522
-msgid ""
-"Show a confirmation dialog whenever a keyboard accessibility feature is "
-"turned on or off"
-msgstr ""
-"একটা কনফারমেসন ডায়লগ দেখানো হবে যখনই একটা কিবোর্ড এ্যক্সেসিবিলিটি ব্যবস্থা সক্রিয় "
-"বা নিষ্ক্রিয় করা হয়"
-
-#: kcmaccess.cpp:524
-msgid ""
-"If this option is checked, KDE will show a confirmation dialog whenever a "
-"keyboard accessibility feature is turned on or off.\n"
-"Ensure you know what you are doing if you uncheck it, as the keyboard "
-"accessibility settings will then always be applied without confirmation."
-msgstr ""
-"এই অপশনটা সক্রিয় থাকলে, KDE একটা কনফারমেসন ডায়লগ দেখাবে যখনই একটা কিবোর্ড "
-"এ্যক্সেসিবিলিটি ব্যবস্থা সক্রিয় বা নিষ্ক্রিয় করা হয়।\n"
-"মনে রাখবেন, যদি আপনি এটা নিষ্ক্রিয় করেন, তখন কিবোর্ড এ্যক্সেসিবিলিটি বিন্যাসগুলো "
-"আপনার অনুমতি ছাড়াই সক্রিয় হয়ে যাবে।"
-
-#: kcmaccess.cpp:526
-#, fuzzy
-msgid ""
-"Use Plasma's system notification mechanism whenever a keyboard accessibility "
-"feature is turned on or off"
-msgstr ""
-"KDE-র সিস্টেম নোটিফিকেশন ব্যবস্থা ব্যবহৃত হবে যখনই একটা কিবোর্ড এ্যক্সেসিবিলিটি "
-"ব্যবস্থা সক্রিয় বা নিষ্ক্রিয় করা হবে"
+#~ msgid "Timeout:"
+#~ msgstr "সময়সীমা:"
 
 #~ msgid "kaccess"
 #~ msgstr "kaccess"

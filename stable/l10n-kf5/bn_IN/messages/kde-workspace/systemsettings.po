@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:19+0000\n"
+"POT-Creation-Date: 2014-11-13 07:53+0000\n"
 "PO-Revision-Date: 2008-07-06 19:57+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -74,6 +74,7 @@ msgstr ""
 
 #: app/SettingsBase.cpp:62
 #, fuzzy
+#| msgid "S&earch:"
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "অনুসন্ধান (&S)"
@@ -133,6 +134,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (mainToolBar)
 #: app/systemsettingsui.rc:16
 #, fuzzy
+#| msgid "System Settings"
 msgid "About System Settings"
 msgstr "সইস্টেমের বৈশিষ্ট"
 
@@ -145,6 +147,7 @@ msgstr[1] ""
 
 #: classic/CategoryList.cpp:41
 #, fuzzy
+#| msgid "Configure"
 msgid "Configure your system"
 msgstr "কনফিগার"
 
@@ -192,6 +195,9 @@ msgstr ""
 
 #: core/ModuleView.cpp:244
 #, fuzzy
+#| msgid ""
+#| "There are unsaved changes in the active module.\n"
+#| "Do you want to apply the changes or discard them?"
 msgid ""
 "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
@@ -201,6 +207,7 @@ msgstr ""
 
 #: core/ModuleView.cpp:246
 #, fuzzy
+#| msgid "System Settings"
 msgid "Apply Settings"
 msgstr "সইস্টেমের বৈশিষ্ট"
 
@@ -214,6 +221,7 @@ msgstr ""
 
 #: icons/IconMode.cpp:67
 #, fuzzy
+#| msgid "Overview"
 msgid "Overview"
 msgstr "অবলোকন"
 

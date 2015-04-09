@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-27 12:26+0000\n"
+"POT-Creation-Date: 2015-02-27 09:48+0000\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -143,6 +143,7 @@ msgstr "নতুন ট্যাব ডাউনলোড করুন...(&D)"
 
 #: ksysguard.cpp:170
 #, fuzzy
+#| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
 msgstr "নতুন ট্যাব ডাউনলোড করুন...(&D)"
 
@@ -152,6 +153,8 @@ msgstr "ট্যাব সংক্রান্ত বৈশিষ্ট্য 
 
 #: ksysguard.cpp:367
 #, fuzzy, kde-format
+#| msgid " 1 process "
+#| msgid_plural " %1 processes "
 msgid "1 process1"
 msgid_plural "%1 processes%1"
 msgstr[0] " একটি প্রসেস"
@@ -159,6 +162,7 @@ msgstr[1] " %1-টি প্রসেস"
 
 #: ksysguard.cpp:446
 #, fuzzy, kde-format
+#| msgid " CPU: %1% "
 msgid "CPU: %1%%1%"
 msgstr " CPU: %1% "
 
@@ -174,6 +178,8 @@ msgstr " swap-র কোনো স্থান উপলব্ধ নেই "
 
 #: ksysguard.cpp:490
 #, fuzzy, kde-format
+#| msgctxt "Arguments are formatted byte sizes (used/total)"
+#| msgid " Swap: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr " Swap: %1 / %2 "
@@ -249,6 +255,7 @@ msgstr "ফাইল (&F)"
 #. i18n: ectx: Menu (view)
 #: ksysguardui.rc:14
 #, fuzzy
+#| msgid "&File"
 msgid "&View"
 msgstr "ফাইল (&F)"
 
@@ -540,12 +547,17 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:655
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgctxt "unitless - just a number"
 msgid "%1"
 msgstr "%"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:47
 #, fuzzy
+#| msgctxt ""
+#| "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+#| msgid "Multimeter Settings"
 msgid "Plotter Settings"
 msgstr "মাল্টি-মিটার সংক্রান্ত বৈশিষ্ট্য"
 
@@ -574,6 +586,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:87
 #, fuzzy
+#| msgid "Vertical lines"
 msgid "Vertical scale"
 msgstr "উলম্ব রেখা"
 
@@ -590,6 +603,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:103
 #, fuzzy
+#| msgid "Enter the title of the display here."
 msgid "Enter the minimum value for the display here."
 msgstr "ডিসপ্লের শিরোনাম এইখানে লিখুন।"
 
@@ -602,6 +616,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:121
 #, fuzzy
+#| msgid "Horizontal lines"
 msgid "Horizontal scale"
 msgstr "অনুভুমিক রেখা"
 
@@ -677,26 +692,36 @@ msgstr "নীচে স্থানান্তর"
 
 #: SensorDisplayLib/ListView.cpp:46
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 K"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:47
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 M"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:48
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 G"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:49
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 T"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:50
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 P"
 msgstr "%"
 
@@ -722,6 +747,7 @@ msgstr ""
 
 #: SensorDisplayLib/ListView.cpp:181
 #, fuzzy
+#| msgid "Temperature"
 msgid "Terabytes"
 msgstr "তাপমাত্রা"
 
@@ -763,6 +789,7 @@ msgstr "টেক্সট: (&T)"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/LogFileSettings.ui:29
 #, fuzzy
+#| msgid "Title:"
 msgid "T&itle:"
 msgstr "শিরোনাম:"
 
@@ -795,6 +822,7 @@ msgstr "মাল্টি-মিটার সংক্রান্ত বৈশ
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #, fuzzy
+#| msgid "Title:"
 msgid "&Title:"
 msgstr "শিরোনাম:"
 
@@ -861,30 +889,35 @@ msgstr ""
 
 #: SensorDisplayLib/SensorLogger.cpp:138
 #, fuzzy
+#| msgid "Logging"
 msgctxt "@title:column"
 msgid "Logging"
 msgstr "লগ সংরক্ষণ"
 
 #: SensorDisplayLib/SensorLogger.cpp:141
 #, fuzzy
+#| msgid "Update interval:"
 msgctxt "@title:column"
 msgid "Timer Interval"
 msgstr "আপডেটের মধ্যে অন্তর্বর্তী সময়কাল:"
 
 #: SensorDisplayLib/SensorLogger.cpp:144
 #, fuzzy
+#| msgid "Sensor Name"
 msgctxt "@title:column"
 msgid "Sensor Name"
 msgstr "সেনসরের নাম"
 
 #: SensorDisplayLib/SensorLogger.cpp:147
 #, fuzzy
+#| msgid "Host Name"
 msgctxt "@title:column"
 msgid "Host Name"
 msgstr "হোস্টের নাম"
 
 #: SensorDisplayLib/SensorLogger.cpp:150
 #, fuzzy
+#| msgid "Log File"
 msgctxt "@title:column"
 msgid "Log File"
 msgstr "লগ ফাইল"
@@ -918,6 +951,7 @@ msgstr "ফাইল"
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
 #, fuzzy
+#| msgid "Update interval:"
 msgctxt "@title:group"
 msgid "Timer Interval"
 msgstr "আপডেটের মধ্যে অন্তর্বর্তী সময়কাল:"
@@ -990,6 +1024,7 @@ msgstr "নেটওয়ার্ক সংক্রান্ত পূর্ব�
 #. i18n: tag beam attribute summationName
 #: SystemLoad2.sgrd:13
 #, fuzzy
+#| msgid "Receiver"
 msgid "Receiving"
 msgstr "রিসিভার"
 
@@ -1069,11 +1104,13 @@ msgstr "একটি ফাইলে লগ সংরক্ষণ করা হ�
 
 #: WorkSheet.cpp:538
 #, fuzzy
+#| msgid "&Remove Display"
 msgid "Remove this display?"
 msgstr "ডিসপ্লে সরিয়ে নিন (&R)"
 
 #: WorkSheet.cpp:539
 #, fuzzy
+#| msgid "&Remove Display"
 msgid "Remove Display"
 msgstr "ডিসপ্লে সরিয়ে নিন (&R)"
 
@@ -1154,6 +1191,7 @@ msgstr ""
 
 #: Workspace.cpp:304
 #, fuzzy
+#| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
 msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
@@ -1200,6 +1238,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "অপেক্ষারত"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Interrupt Load"
 #~ msgstr "ইন্টারাপ্ট"
 
@@ -1243,6 +1282,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "ফাইল পেজ"
 
 #, fuzzy
+#~| msgid "Processors"
 #~ msgid "Processes"
 #~ msgstr "প্রসেসর"
 
@@ -1250,6 +1290,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "প্রসেস নিয়ন্ত্রক"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Process Spawn Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
@@ -1257,30 +1298,37 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "প্রসেসের কাউন্ট"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Idle Processes Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Running Processes Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Sleeping Processes Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Stopped Processes Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Zombie Processes Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Waiting Processes Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Locked Processes Count"
 #~ msgstr "প্রসেসের কাউন্ট"
 
@@ -1316,6 +1364,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "কনটেক্সট সুইচ"
 
 #, fuzzy
+#~| msgid "System Load"
 #~ msgid "System Calls"
 #~ msgstr "সিস্টেমের লোড"
 
@@ -1329,38 +1378,48 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "ট্রান্‌সমিটার"
 
 #, fuzzy
+#~| msgid "Rate"
 #~ msgid "Data Rate"
 #~ msgstr "হার"
 
 #, fuzzy
+#~| msgid "Compressed Packets"
 #~ msgid "Compressed Packets Rate"
 #~ msgstr "কমপ্রেস করা প্যাকেট"
 
 #, fuzzy
+#~| msgid "Dropped Packets"
 #~ msgid "Dropped Packets Rate"
 #~ msgstr "পরিত্যাক্ত প্যাকেট"
 
 #, fuzzy
+#~| msgid "Errors"
 #~ msgid "Error Rate"
 #~ msgstr "ত্রুটি"
 
 #, fuzzy
+#~| msgid "FIFO Overruns"
 #~ msgid "FIFO Overruns Rate"
 #~ msgstr "FIFO ওভার-রান"
 
 #, fuzzy
+#~| msgid "Frame Errors"
 #~ msgid "Frame Error Rate"
 #~ msgstr "ফ্রেম সংক্রান্ত ত্রুটি"
 
 #, fuzzy
+#~| msgid "Multicast"
 #~ msgid "Multicast Packet Rate"
 #~ msgstr "মাল্টি-কাস্ট"
 
 #, fuzzy
+#~| msgid "Packets"
 #~ msgid "Packet Rate"
 #~ msgstr "প্যাকেট"
 
 #, fuzzy
+#~| msgctxt "@item sensor description ('carrier' is a type of network signal)"
+#~| msgid "Carrier"
 #~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
 #~ msgid "Carrier Loss Rate"
 #~ msgstr "সম্প্রচার"
@@ -1387,6 +1446,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "ফ্রেম সংক্রান্ত ত্রুটি"
 
 #, fuzzy
+#~| msgid "Multicast"
 #~ msgid "Multicast Packets"
 #~ msgstr "মাল্টি-কাস্ট"
 
@@ -1394,6 +1454,8 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "প্যাকেট"
 
 #, fuzzy
+#~| msgctxt "@item sensor description ('carrier' is a type of network signal)"
+#~| msgid "Carrier"
 #~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
 #~ msgid "Carrier Losses"
 #~ msgstr "সম্প্রচার"
@@ -1420,6 +1482,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "তাপমাত্রা"
 
 #, fuzzy
+#~| msgid "Temperature"
 #~ msgid "Average CPU Temperature"
 #~ msgstr "তাপমাত্রা"
 
@@ -1433,6 +1496,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "ব্যটারি"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Capacity"
 #~ msgstr "ব্যাটারিতে উপস্থিত চার্জ"
 
@@ -1443,10 +1507,12 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "ব্যবহৃত ব্যাটারির মাত্রা"
 
 #, fuzzy
+#~| msgid "Battery Usage"
 #~ msgid "Battery Voltage"
 #~ msgstr "ব্যবহৃত ব্যাটারির মাত্রা"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Discharge Rate"
 #~ msgstr "ব্যাটারিতে উপস্থিত চার্জ"
 
@@ -1460,6 +1526,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "ঘড়ির ফ্রিকোয়েন্সি"
 
 #, fuzzy
+#~| msgid "Clock Frequency"
 #~ msgid "Average Clock Frequency"
 #~ msgstr "ঘড়ির ফ্রিকোয়েন্সি"
 
@@ -1476,6 +1543,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "মুক্ত স্থান"
 
 #, fuzzy
+#~| msgid "User Load"
 #~ msgid "Used Inodes"
 #~ msgstr "ব্যবহারকারী সংক্রান্ত লোড"
 
@@ -1495,18 +1563,22 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "কোর"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Blocks"
 #~ msgstr "ডিসপ্লের সংখ্যা:"
 
 #, fuzzy
+#~| msgid "Total Number"
 #~ msgid "Total Number of Devices"
 #~ msgstr "সর্বমোট সংখ্যা"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Raid Devices"
 #~ msgstr "ডিসপ্লের সংখ্যা:"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Devices"
 #~ msgstr "ডিসপ্লের সংখ্যা:"
 
@@ -1517,6 +1589,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "ডিস্ক %1"
 
 #, fuzzy
+#~| msgid "Battery"
 #~ msgid "Battery %1"
 #~ msgstr "ব্যটারি"
 
@@ -1530,10 +1603,12 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "সর্বমোট"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Software Interrupts"
 #~ msgstr "ইন্টারাপ্ট"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Hardware Interrupts"
 #~ msgstr "ইন্টারাপ্ট"
 
@@ -1563,6 +1638,7 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "পূর্ণসংখ্যা মান"
 
 #, fuzzy
+#~| msgid " sec"
 #~ msgctxt "Units"
 #~ msgid "%1 second"
 #~ msgid_plural "%1 seconds"
@@ -1592,6 +1668,8 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr "সম্পাদনা (&E)"
 
 #, fuzzy
+#~| msgctxt "a percentage"
+#~| msgid "%"
 #~ msgctxt "units in percentage"
 #~ msgid "%1%"
 #~ msgstr "%"

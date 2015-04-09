@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-30 10:07+0000\n"
+"POT-Creation-Date: 2015-01-30 08:23+0000\n"
 "PO-Revision-Date: 2009-01-13 17:27+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -28,6 +28,7 @@ msgstr ""
 
 #: globalpaths.cpp:118
 #, fuzzy
+#| msgid "Des&ktop path:"
 msgid "Desktop path:"
 msgstr "ডেস্কটপের পাথ: (&k)"
 
@@ -40,6 +41,7 @@ msgstr ""
 
 #: globalpaths.cpp:124
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Autostart path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
@@ -53,6 +55,7 @@ msgstr ""
 
 #: globalpaths.cpp:131
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Documents path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
@@ -63,6 +66,7 @@ msgstr ""
 
 #: globalpaths.cpp:135
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Downloads path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
@@ -72,6 +76,7 @@ msgstr ""
 
 #: globalpaths.cpp:139
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Movies path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
@@ -81,6 +86,7 @@ msgstr ""
 
 #: globalpaths.cpp:143
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Pictures path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
@@ -91,6 +97,7 @@ msgstr ""
 
 #: globalpaths.cpp:147
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Music path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
@@ -108,21 +115,26 @@ msgstr "ডেস্কটপ"
 
 #: globalpaths.cpp:305
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Documents"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:308
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Downloads"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:311
 #, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
 msgid "Movies"
 msgstr "স্থানান্তর করা হবে"
 
 #: globalpaths.cpp:314
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Pictures"
 msgstr "নথিপত্রের পাথ: (&o)"
 
@@ -141,6 +153,8 @@ msgstr ""
 
 #: globalpaths.cpp:379
 #, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "স্থানান্তর করা হবে"
@@ -152,6 +166,9 @@ msgstr ""
 
 #: globalpaths.cpp:382
 #, fuzzy, kde-format
+#| msgid ""
+#| "The path for '%1' has been changed.\n"
+#| "Do you want the files to be moved from '%2' to '%3'?"
 msgid ""
 "The path for '%1' has been changed.\n"
 "Do you want to move the directory '%2' to '%3'?"
@@ -161,6 +178,8 @@ msgstr ""
 
 #: globalpaths.cpp:385
 #, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
 msgctxt "Move the directory"
 msgid "Move"
 msgstr "স্থানান্তর করা হবে"
