@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-12 07:56+0000\n"
+"POT-Creation-Date: 2015-04-16 08:32+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -374,6 +374,113 @@ msgstr ""
 #: ui/itemsviewdelegate.cpp:148
 msgid "Install"
 msgstr "ইনস্টল করুন"
+
+#: kmoretools/kmoretools.cpp:590
+#, fuzzy
+#| msgid "Choose..."
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "নির্বাচন করুন..."
+
+#: kmoretools/kmoretools.cpp:605
+#, fuzzy
+#| msgid "Installed"
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "ইনস্টল করা"
+
+#: kmoretools/kmoretools.cpp:641
+#, fuzzy
+#| msgid "Confi&gure..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "কনফিগার করুন...(&g)"
+
+#: kmoretools/kmoretools_p.h:370
+#, fuzzy
+#| msgctxt "A link to the description of this Get Hot New Stuff item"
+#| msgid "Visit homepage..."
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "হোম পেজ পরিদর্শন করুন"
+
+#: kmoretools/kmoretools_p.h:377
+#, fuzzy
+#| msgid "Show author information"
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "লেখকের পরিচিত প্রদর্শন করা হবে"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:191
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure menu"
+msgstr "কনফিগার করুন"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:193
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "Configure menu - %1"
+msgstr "%1 কনফিগার করুন...(&C)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:25
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Main section"
+msgstr "মেইন্টেনার"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:58
+#, fuzzy
+#| msgid "Move &Down"
+msgid "Move down"
+msgstr "নীচে স্থানান্তর (&D)"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:79
+#, fuzzy
+#| msgid "Move &Up"
+msgid "Move up"
+msgstr "উপরে স্থানান্তর (&U)"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:100
+msgid "Move to Main section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:121
+#, fuzzy
+#| msgid "More Actions"
+msgid "Move to More section"
+msgstr "অতিরিক্ত কর্ম"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:142
+msgid "Reset"
+msgstr "রি-সেট করুন"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:161
+#, fuzzy
+#| msgid "More Actions"
+msgid "More section"
+msgstr "অতিরিক্ত কর্ম"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:213
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:223
+#, fuzzy
+#| msgid "Choose..."
+msgid "More tools..."
+msgstr "নির্বাচন করুন..."
 
 #: ui/entrydetailsdialog.cpp:91
 #, kde-format
@@ -1873,9 +1980,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "Show all options"
 #~ msgstr "সকল বিকল্প প্রদর্শন করা হবে"
-
-#~ msgid "Show author information"
-#~ msgstr "লেখকের পরিচিত প্রদর্শন করা হবে"
 
 #~ msgid "Show version information"
 #~ msgstr "সংস্করণ সংক্রান্ত তথ্য প্রদর্শন করা হবে"
@@ -3485,9 +3589,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgid "Configure S&hortcuts..."
 #~ msgstr "শর্টকাট কনফিগার করুন...(&h)"
 
-#~ msgid "&Configure %1..."
-#~ msgstr "%1 কনফিগার করুন...(&C)"
-
 #~ msgid "Configure Tool&bars..."
 #~ msgstr "টুলবার কনফিগার করুন... (&b)"
 
@@ -3669,12 +3770,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid "Email contributor"
 #~ msgstr "অন্যান্য যোগদানকারী:"
-
-#, fuzzy
-#~| msgctxt "A link to the description of this Get Hot New Stuff item"
-#~| msgid "Visit homepage..."
-#~ msgid "Visit contributor's homepage"
-#~ msgstr "হোম পেজ পরিদর্শন করুন"
 
 #, fuzzy
 #~| msgid "Other Contributors:"
@@ -3880,9 +3975,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "Close Message"
 #~ msgstr "বার্তা বন্ধ করা হবে"
-
-#~ msgid "Configure"
-#~ msgstr "কনফিগার করুন"
 
 #~ msgid "Job"
 #~ msgstr "কর্ম"
@@ -4096,9 +4188,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgid "Reset Toolbars"
 #~ msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
-#~ msgid "Reset"
-#~ msgstr "রি-সেট করুন"
-
 #~ msgid "&Toolbar:"
 #~ msgstr "টুল-বার: (&T)"
 
@@ -4222,9 +4311,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "Delete"
 #~ msgstr "মুছে ফেলুন"
-
-#~ msgid "More Actions"
-#~ msgstr "অতিরিক্ত কর্ম"
 
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "স্কিমের ডিফল্ট মান রূপে সংরক্ষণ করা হবে"
@@ -5445,9 +5531,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgid "&Insert"
 #~ msgstr "সন্নিবেশ করুন (&I)"
 
-#~ msgid "Confi&gure..."
-#~ msgstr "কনফিগার করুন...(&g)"
-
 #~ msgid "Add"
 #~ msgstr "যোগ করুন"
 
@@ -6446,12 +6529,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "&Remove"
 #~ msgstr "মুছে ফেলুন (&R)"
-
-#~ msgid "Move &Up"
-#~ msgstr "উপরে স্থানান্তর (&U)"
-
-#~ msgid "Move &Down"
-#~ msgstr "নীচে স্থানান্তর (&D)"
 
 #~ msgid "&Help"
 #~ msgstr "সাহায্য (&H)"
@@ -8756,9 +8833,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgid "Sebastian Trüg"
 #~ msgstr "সেবাস্তিয়ান ট্রুগ"
 
-#~ msgid "Maintainer"
-#~ msgstr "মেইন্টেনার"
-
 #~ msgid "Tobias Koenig"
 #~ msgstr "টোবিয়াস কোয়েনিগ"
 
@@ -8875,14 +8949,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~| msgid "Enter"
 #~ msgid "After"
 #~ msgstr "জমা করুন"
-
-#, fuzzy
-#~| msgid "Choose..."
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "নির্বাচন করুন..."
 
 #, fuzzy
 #~| msgid "Comments"
