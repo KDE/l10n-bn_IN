@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-25 08:16+0000\n"
+"POT-Creation-Date: 2015-04-22 08:32+0000\n"
 "PO-Revision-Date: 2009-01-07 14:07+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -41,7 +41,19 @@ msgstr ""
 msgid "Format Settings Changed"
 msgstr ""
 
-#: kcmformats.cpp:305
+#: kcmformats.cpp:300
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (long format)"
+msgstr "সংক্ষিপ্ত তারিখের বিন্যাস:"
+
+#: kcmformats.cpp:301
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "সংক্ষিপ্ত তারিখের বিন্যাস:"
+
+#: kcmformats.cpp:306
 #, fuzzy
 #| msgctxt "The Imperial System"
 #| msgid "Imperial"
@@ -49,7 +61,7 @@ msgctxt "Measurement combobox"
 msgid "Imperial UK"
 msgstr "ইম্পিরিয়াল"
 
-#: kcmformats.cpp:307
+#: kcmformats.cpp:308
 #, fuzzy
 #| msgctxt "The Imperial System"
 #| msgid "Imperial"
@@ -57,7 +69,7 @@ msgctxt "Measurement combobox"
 msgid "Imperial US"
 msgstr "ইম্পিরিয়াল"
 
-#: kcmformats.cpp:309
+#: kcmformats.cpp:310
 #, fuzzy
 #| msgctxt "The Metric System"
 #| msgid "Metric"
@@ -456,11 +468,6 @@ msgstr "বর্ষপঞ্জি বৈশিষ্ট্য:"
 #~ msgid "PM symbol:"
 #~ msgstr "দশমিক চিহ্ন:"
 
-#, fuzzy
-#~| msgid "Short date format:"
-#~ msgid "Long date format:"
-#~ msgstr "সংক্ষিপ্ত তারিখের বিন্যাস:"
-
 #~ msgid "YYYY"
 #~ msgstr "YYYY"
 
@@ -504,9 +511,6 @@ msgstr "বর্ষপঞ্জি বৈশিষ্ট্য:"
 #~ msgstr ""
 #~ "WEEKDAY MONTH dD YYYY\n"
 #~ "SHORTWEEKDAY MONTH dD YYYY"
-
-#~ msgid "Short date format:"
-#~ msgstr "সংক্ষিপ্ত তারিখের বিন্যাস:"
 
 #~ msgctxt "some reasonable short date formats for the language"
 #~ msgid ""
