@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-11 09:19+0000\n"
+"POT-Creation-Date: 2015-05-21 09:19+0000\n"
 "PO-Revision-Date: 2008-12-29 15:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -23,120 +23,128 @@ msgstr ""
 msgid "General"
 msgstr "সাধারণ"
 
-#: package/contents/ui/ConfigGeneral.qml:46
-msgid "Appearance"
-msgstr "চেহারা ছবি"
-
-#: package/contents/ui/ConfigGeneral.qml:54
-msgid "Force row settings"
+#: package/contents/ui/ConfigGeneral.qml:50
+msgid "Arrangement"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:59
+#: package/contents/ui/ConfigGeneral.qml:58
+msgid "Maximum columns:"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:58
+msgid "Maximum rows:"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:70
+msgid "Always arrange tasks in rows of as many columns"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:70
+msgid "Always arrange tasks in columns of as many rows"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:79
+msgid "Behavior"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:87
 #, fuzzy
 #| msgid "Show tooltips:"
 msgid "Show tooltips"
 msgstr "টুল-টিপ প্রদর্শন করা হবে:"
 
-#: package/contents/ui/ConfigGeneral.qml:66
-msgid "Maximum rows:"
-msgstr ""
-
-#: package/contents/ui/ConfigGeneral.qml:80
-msgid "Behavior"
-msgstr ""
-
-#: package/contents/ui/ConfigGeneral.qml:88
+#: package/contents/ui/ConfigGeneral.qml:92
 msgid "Cycle through tasks with mouse wheel"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:93
+#: package/contents/ui/ConfigGeneral.qml:97
 msgid "Highlight windows"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:98
+#: package/contents/ui/ConfigGeneral.qml:102
 msgid "On middle-click:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:108
 msgctxt "The click action"
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:108
 msgid "Close Window or Group"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:108
 msgid "New Instance"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:113
+#: package/contents/ui/ConfigGeneral.qml:117
 msgid "Grouping and Sorting"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:121
+#: package/contents/ui/ConfigGeneral.qml:127
 msgid "Sorting:"
 msgstr "ক্রমবিন্যাস:"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "Do Not Sort"
 msgstr "সুবিন্যস্ত করা হবে না"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "Manually"
 msgstr "স্বয়ং"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "Alphabetically"
 msgstr "অদ্যাক্ষর অনুযায়ী"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "By Desktop"
 msgstr "ডেস্কটপ অনুযায়ী"
 
-#: package/contents/ui/ConfigGeneral.qml:129
+#: package/contents/ui/ConfigGeneral.qml:134
 msgid "By Activity"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:135
+#: package/contents/ui/ConfigGeneral.qml:141
 msgid "Grouping:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:150
 msgid "Do Not Group"
 msgstr "দলবদ্ধ করা হবে না"
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:150
 msgid "By Program Name"
 msgstr "প্রোগ্রামের নাম অনুযায়ী"
 
-#: package/contents/ui/ConfigGeneral.qml:149
+#: package/contents/ui/ConfigGeneral.qml:157
 msgid "Only when the task manager is full"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:157
+#: package/contents/ui/ConfigGeneral.qml:168
 msgid "Filters"
 msgstr "ফিল্টার"
 
-#: package/contents/ui/ConfigGeneral.qml:165
+#: package/contents/ui/ConfigGeneral.qml:176
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current screen"
 msgstr "শুধুমাত্র বর্তমান পর্দার কর্ম প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigGeneral.qml:170
+#: package/contents/ui/ConfigGeneral.qml:181
 #, fuzzy
 #| msgid "Only show tasks from the current desktop"
 msgid "Show only tasks from the current desktop"
 msgstr "শুধুমাত্র বর্তমান ডেস্কটপের কর্ম প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:186
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current activity"
 msgstr "শুধুমাত্র বর্তমান পর্দার কর্ম প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:194
 #, fuzzy
 #| msgid "Only show tasks that are minimized"
 msgid "Show only tasks that are minimized"
@@ -174,6 +182,9 @@ msgstr ""
 #: plugin/backend.cpp:374
 msgid "Forget Recent Documents"
 msgstr ""
+
+#~ msgid "Appearance"
+#~ msgstr "চেহারা ছবি"
 
 #, fuzzy
 #~| msgid "Do Not Group"
