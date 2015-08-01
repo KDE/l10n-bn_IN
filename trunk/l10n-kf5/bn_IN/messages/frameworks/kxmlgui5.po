@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-07 11:57+0000\n"
+"POT-Creation-Date: 2015-08-01 08:57+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -682,8 +682,8 @@ msgstr[0] "নিবন্ধিত সার্বজনীন শর্ট-ক
 msgstr[1] "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
 
 #: kkeysequencewidget.cpp:146 kkeysequencewidget.cpp:233
-#: kkeysequencewidget.cpp:619 kshortcutseditor.cpp:622
-#: kshortcutseditor.cpp:640
+#: kkeysequencewidget.cpp:619 kshortcutseditor.cpp:624
+#: kshortcutseditor.cpp:642
 msgid "Reassign"
 msgstr "পুনরায় নির্ধারণ"
 
@@ -964,59 +964,59 @@ msgstr "মাউস বাটনের ভঙ্গিমা"
 msgid "Mouse Shape Gesture"
 msgstr "মাউস আকারের ভঙ্গিমা"
 
-#: kshortcutseditor.cpp:617 kshortcutseditor.cpp:635
+#: kshortcutseditor.cpp:619 kshortcutseditor.cpp:637
 msgid "Key Conflict"
 msgstr "কি-র মধ্যে দ্বন্দ্ব"
 
-#: kshortcutseditor.cpp:618
+#: kshortcutseditor.cpp:620
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kshortcutseditor.cpp:636
+#: kshortcutseditor.cpp:638
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
 
-#: kshortcutseditor.cpp:683
+#: kshortcutseditor.cpp:685
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1-র শর্ট-কাট"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:701 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:703 kshortcutwidget.ui:22
 msgid "Main:"
 msgstr "প্রধান:"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:702 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:704 kshortcutwidget.ui:52
 msgid "Alternate:"
 msgstr "বিকল্প:"
 
-#: kshortcutseditor.cpp:703
+#: kshortcutseditor.cpp:705
 msgid "Global:"
 msgstr "সার্বজনীন:"
 
-#: kshortcutseditor.cpp:704
+#: kshortcutseditor.cpp:706
 #, fuzzy
 #| msgid "Global Alternate"
 msgid "Global alternate:"
 msgstr "সার্বজনীন বিকল্প"
 
-#: kshortcutseditor.cpp:719
+#: kshortcutseditor.cpp:721
 msgid "Action Name"
 msgstr "কর্মের নাম"
 
-#: kshortcutseditor.cpp:723
+#: kshortcutseditor.cpp:725
 msgid "Shortcuts"
 msgstr "শর্ট-কাট"
 
-#: kshortcutseditor.cpp:727
+#: kshortcutseditor.cpp:729
 msgid "Description"
 msgstr "বিবরণ"
 
