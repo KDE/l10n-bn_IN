@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-28 12:31+0000\n"
+"POT-Creation-Date: 2015-08-19 08:29+0000\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -58,9 +58,11 @@ msgid "After"
 msgstr ""
 
 #: actions/bundled/handlebuttonevents.cpp:60
+#, fuzzy
+#| msgid "Suspend to RAM"
 msgctxt "@action:inmenu Global shortcut"
-msgid "Sleep"
-msgstr ""
+msgid "Suspend"
+msgstr "RAM-এ বিরত করুন"
 
 #: actions/bundled/handlebuttonevents.cpp:65
 msgctxt "@action:inmenu Global shortcut"
@@ -83,8 +85,10 @@ msgstr "কিছু করা হবে না"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:102
 #: actions/bundled/suspendsessionconfig.cpp:84
-msgid "Sleep"
-msgstr ""
+#, fuzzy
+#| msgid "Suspend to RAM"
+msgid "Suspend"
+msgstr "RAM-এ বিরত করুন"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:105
 #: actions/bundled/suspendsessionconfig.cpp:87
@@ -549,9 +553,6 @@ msgstr ""
 
 #~ msgid "Suspend to Disk"
 #~ msgstr "ডিস্কে বিরত করুন"
-
-#~ msgid "Suspend to RAM"
-#~ msgstr "RAM-এ বিরত করুন"
 
 #~ msgid "Standby"
 #~ msgstr "স্থগিত"
