@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-18 10:48+0000\n"
+"POT-Creation-Date: 2015-08-30 08:43+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -422,11 +422,11 @@ msgstr "কি-বাইন্ডিংয়ের নতুন তালিকা
 msgid "Edit Key Binding List"
 msgstr "কি-বাইন্ডিংয়ের তালিকা সম্পাদনা"
 
-#: EditProfileDialog.cpp:1223
+#: EditProfileDialog.cpp:1231
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1271
+#: EditProfileDialog.cpp:1279
 msgid "AaZz09..."
 msgstr ""
 
@@ -929,18 +929,30 @@ msgstr ""
 msgid "Require Ctrl key for drag and drop"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableMouseWheelZoomButton)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, dropUrlsAsText)
 #: EditProfileDialog.ui:1020
+msgid ""
+"Always paste dropped URLs as text without offering move, copy and link "
+"actions."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, dropUrlsAsText)
+#: EditProfileDialog.ui:1023
+msgid "Disable drag and drop menu for URLs and files"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableMouseWheelZoomButton)
+#: EditProfileDialog.ui:1030
 msgid "Pressing Ctrl+scrollwheel will increase/decrease the text size."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableMouseWheelZoomButton)
-#: EditProfileDialog.ui:1023
+#: EditProfileDialog.ui:1033
 msgid "Allow Ctrl+scrollwheel to zoom text size"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#: EditProfileDialog.ui:1047
+#: EditProfileDialog.ui:1057
 #, fuzzy
 #| msgid "Advanced"
 msgctxt "@title:tab Complex options"
@@ -948,34 +960,34 @@ msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: EditProfileDialog.ui:1053
+#: EditProfileDialog.ui:1063
 msgid "Terminal Features"
 msgstr "টার্মিন্যালের বৈশিষ্ট্য"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1068
+#: EditProfileDialog.ui:1078
 #, fuzzy
 #| msgid "Allow terminal programs to resize the window"
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr "টার্মিন্যাল প্রোগ্রাম দ্বারা উইন্ডোর মাপ পরিবর্তন করা সম্ভব হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1071
+#: EditProfileDialog.ui:1081
 msgid "Allow blinking text"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1084
+#: EditProfileDialog.ui:1094
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1087
+#: EditProfileDialog.ui:1097
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr "Ctrl+S, Ctrl+Q প্রয়োগ করে ফ্লো কনট্রোল সক্রিয় করুন"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1100
+#: EditProfileDialog.ui:1110
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
 "Hebrew only)"
@@ -984,100 +996,100 @@ msgstr ""
 "ক্ষেত্রে প্রযোজ্য)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1103
+#: EditProfileDialog.ui:1113
 msgid "Enable Bi-Directional text rendering"
 msgstr "টার্মিন্যালের মধ্যে উভয় দিশায় হরফ প্রদর্শন সক্রিয় করা হবে"
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:1112
+#: EditProfileDialog.ui:1122
 msgid "Line Spacing:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:1119
+#: EditProfileDialog.ui:1129
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1150
+#: EditProfileDialog.ui:1160
 msgid "Cursor"
 msgstr "কার্সার"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1165
+#: EditProfileDialog.ui:1175
 msgid "Make the cursor blink regularly"
 msgstr "নিয়মিতরূপে কার্সারে ঝলকানি হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1168
+#: EditProfileDialog.ui:1178
 msgid "Blinking cursor"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1177
+#: EditProfileDialog.ui:1187
 msgid "Cursor shape:"
 msgstr "কার্সারের আকার:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1184
+#: EditProfileDialog.ui:1194
 msgid "Change the shape of the cursor"
 msgstr "কার্সারের আকার পরিবর্তন করুন"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1188
+#: EditProfileDialog.ui:1198
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1193
+#: EditProfileDialog.ui:1203
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1198
+#: EditProfileDialog.ui:1208
 msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1227
+#: EditProfileDialog.ui:1237
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "কার্সারের তলায় উপস্থিত অক্ষরের রঙ অনুয়ায়ী কার্সারের রঙ পরিবর্তিত হবে।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1230
+#: EditProfileDialog.ui:1240
 msgid "Set cursor color to match current character"
 msgstr "বর্তমান অক্ষরের রঙ অনুযায়ী কার্সারের রঙ নির্ধারণ করা হবে"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1245
+#: EditProfileDialog.ui:1255
 msgid "Use a custom, fixed color for the cursor"
 msgstr "কার্সারের জন্য স্বনির্ধারিত স্থায়ী রঙ প্রয়োগ করুন"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1248
+#: EditProfileDialog.ui:1258
 msgid "Custom cursor color:"
 msgstr "কার্সারের স্বনির্ধারিত রঙ"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1261
+#: EditProfileDialog.ui:1271
 msgid "Select the color used to draw the cursor"
 msgstr "কার্সার আঁকার জন্য ব্যবহৃত রঙ নির্বাচক করুন"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1289
+#: EditProfileDialog.ui:1299
 msgid "Encoding"
 msgstr "এনকোডিং"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1298
+#: EditProfileDialog.ui:1308
 msgid "Default character encoding:"
 msgstr "ডিফল্ট ক্যারেক্টার এনকোডিং:"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1318
+#: EditProfileDialog.ui:1328
 #, fuzzy
 #| msgid "Select"
 msgctxt "@action:button Pick an encoding"
@@ -1973,7 +1985,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: Profile.cpp:145
+#: Profile.cpp:146
 #, fuzzy
 #| msgid "Set as Default"
 msgctxt "Name of the default/builtin profile"
@@ -2468,10 +2480,12 @@ msgstr ""
 msgid "Use system &location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseUsersHomeLocation)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseCacheLocation)
 #: settings/FileLocationSettings.ui:85
-msgid "Use user's ho&me location"
-msgstr ""
+#, fuzzy
+#| msgid "Paste Selection"
+msgid "Use user specific location"
+msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settings/FileLocationSettings.ui:133
@@ -2606,9 +2620,9 @@ msgstr ""
 msgid "For scrollback files, use system-wide folder location"
 msgstr ""
 
-#. i18n: ectx: label, entry (scrollbackUseUsersHomeLocation), group (FileLocation)
+#. i18n: ectx: label, entry (scrollbackUseCacheLocation), group (FileLocation)
 #: settings/konsole.kcfg:98
-msgid "For scrollback files, use user's home folder location"
+msgid "For scrollback files, use user's specific folder location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
