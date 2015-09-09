@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-10 08:57+0000\n"
+"POT-Creation-Date: 2015-09-09 08:45+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -27,19 +27,6 @@ msgstr ""
 #: src/ioslaves/http/http_cache_cleaner.desktop:50
 msgctxt "Comment"
 msgid "Cleans up old entries from the HTTP cache"
-msgstr ""
-
-#: src/ioslaves/http/kcookiejar/kcookiejar.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cookies"
-msgctxt "Name"
-msgid "Cookie Jar"
-msgstr "কুকি"
-
-#: src/ioslaves/http/kcookiejar/kcookiejar.desktop:47
-msgctxt "Comment"
-msgid "Stores network cookies"
 msgstr ""
 
 #: src/ioslaves/mailto/kmailservice5.desktop:11
@@ -489,22 +476,6 @@ msgid ""
 "Shortcuts"
 msgstr ""
 
-#: src/kpac/proxyscout.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Nepomuk/Strigi Server Configuration"
-msgctxt "Name"
-msgid "Network Proxy Configuration"
-msgstr "Nepomuk/Strigi সার্ভার কনফিগারেশন"
-
-#: src/kpac/proxyscout.desktop:46
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Fetchmail Configuration"
-msgctxt "Comment"
-msgid "Automatic proxy configuration"
-msgstr "Fetchmail কনফিগারেশন"
-
 #: src/kpac/proxyscout.notifyrc:3
 #, fuzzy
 #| msgctxt "Comment"
@@ -545,32 +516,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "There was an error executing the proxy configuration script"
 msgstr "একটি মারাত্মক ত্রুটির ফলে প্রোগ্রামটি বন্ধ করতে বাধ্য হয়েছে"
-
-#: src/kpasswdserver/kpasswdserver.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Password caching support"
-msgctxt "Name"
-msgid "Password Caching"
-msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
-
-#: src/kpasswdserver/kpasswdserver.desktop:69
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Password caching support"
-msgctxt "Comment"
-msgid "Temporary password caching"
-msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
-
-#: src/kssld/kssld.desktop:6
-msgctxt "Name"
-msgid "SSL Certificate Policy"
-msgstr ""
-
-#: src/kssld/kssld.desktop:48
-msgctxt "Comment"
-msgid "Provides SSL certificate policy to applications"
-msgstr ""
 
 #: src/urifilters/fixhost/fixhosturifilter.desktop:3
 msgctxt "Name"
@@ -2287,6 +2232,41 @@ msgstr ""
 msgctxt "Name"
 msgid "Enhanced Browsing Plugin"
 msgstr "ট্যাবসহ ব্রাউজ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Cookies"
+#~ msgctxt "Name"
+#~ msgid "Cookie Jar"
+#~ msgstr "কুকি"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Nepomuk/Strigi Server Configuration"
+#~ msgctxt "Name"
+#~ msgid "Network Proxy Configuration"
+#~ msgstr "Nepomuk/Strigi সার্ভার কনফিগারেশন"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Fetchmail Configuration"
+#~ msgctxt "Comment"
+#~ msgid "Automatic proxy configuration"
+#~ msgstr "Fetchmail কনফিগারেশন"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Password caching support"
+#~ msgctxt "Name"
+#~ msgid "Password Caching"
+#~ msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Password caching support"
+#~ msgctxt "Comment"
+#~ msgid "Temporary password caching"
+#~ msgstr "পাসওয়ার্ড ক্যাশের জন্য সমর্থন"
 
 #, fuzzy
 #~| msgctxt "Name"
