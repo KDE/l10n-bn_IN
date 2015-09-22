@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-25 10:49+0000\n"
+"POT-Creation-Date: 2015-09-22 09:57+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -862,36 +862,53 @@ msgstr "স্কিমের ডিফল্ট মান রূপে সং�
 msgid "Export Scheme..."
 msgstr "স্কিম এক্সপোর্ট করুন..."
 
-#: kshortcutschemeseditor.cpp:101
+#: kshortcutschemeseditor.cpp:86
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Import Scheme..."
+msgstr "স্কিম এক্সপোর্ট করুন..."
+
+#: kshortcutschemeseditor.cpp:102
 msgid "Name for New Scheme"
 msgstr "নতুম স্কিমের নাম"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "Name for new scheme:"
 msgstr "নতুম স্কিমের নাম:"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "New Scheme"
 msgstr "নতুন স্কিম"
 
-#: kshortcutschemeseditor.cpp:108
+#: kshortcutschemeseditor.cpp:109
 msgid "A scheme with this name already exists."
 msgstr "এই নামের একটি স্কিম বর্তমানে উপস্থিত রয়েছে।"
 
-#: kshortcutschemeseditor.cpp:137
+#: kshortcutschemeseditor.cpp:138
 #, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
 
-#: kshortcutschemeseditor.cpp:167
-msgid "Export to Location"
-msgstr "চিহ্নিত স্থানে এক্সপোর্ট করুন"
+#: kshortcutschemeseditor.cpp:168
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Export Shortcuts"
+msgstr "শর্ট-কাট"
 
-#: kshortcutschemeseditor.cpp:175
-msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr "অবস্থান বৈধ না হওয়ার ফলে শর্ট-কাট স্কিম এক্সপোর্ট করতে ব্যর্থ।"
+#: kshortcutschemeseditor.cpp:168 kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgctxt "header for an applications shortcut list"
+#| msgid "Shortcuts for %1"
+msgid "Shortcuts (*.shortcuts)"
+msgstr "%1-র শর্ট-কাট"
+
+#: kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Import Shortcuts"
+msgstr "শর্ট-কাট"
 
 #: kshortcutsdialog.cpp:85
 msgid ""
@@ -1257,6 +1274,12 @@ msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
+
+#~ msgid "Export to Location"
+#~ msgstr "চিহ্নিত স্থানে এক্সপোর্ট করুন"
+
+#~ msgid "Could not export shortcuts scheme because the location is invalid."
+#~ msgstr "অবস্থান বৈধ না হওয়ার ফলে শর্ট-কাট স্কিম এক্সপোর্ট করতে ব্যর্থ।"
 
 #~ msgid ""
 #~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
