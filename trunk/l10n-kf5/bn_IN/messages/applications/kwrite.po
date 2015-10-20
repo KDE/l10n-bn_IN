@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-15 08:46+0000\n"
+"POT-Creation-Date: 2015-10-20 09:39+0000\n"
 "PO-Revision-Date: 2008-07-04 18:33+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali(India) <discuss@ankur.org.in>\n"
@@ -62,21 +62,21 @@ msgstr "সাহায্য (&H)"
 msgid "Main Toolbar"
 msgstr "মুখ্য টুলবার"
 
-#: kwrite.cpp:148
+#: kwrite.cpp:145
 #, fuzzy
 #| msgid "Use this to close the current document"
 msgid "Use this command to close the current document"
 msgstr "এটা বর্তমান ডকুমেন্ট বন্ধ করার জন্যে ব্যবহার করুন"
 
-#: kwrite.cpp:153
+#: kwrite.cpp:150
 msgid "Use this command to create a new document"
 msgstr "এই কমান্ড নতুন ডকুমেন্ট খোলার জন্যে ব্যবহার করুন"
 
-#: kwrite.cpp:155
+#: kwrite.cpp:152
 msgid "Use this command to open an existing document for editing"
 msgstr "এই কমান্ড দিয়ে একটি সংরক্ষিত ডকুমেন্ট সম্পাদনার জন্যে খুলুন"
 
-#: kwrite.cpp:159
+#: kwrite.cpp:156
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
@@ -84,72 +84,64 @@ msgstr ""
 "এটা অাপনার সম্প্রতি খোলা ফাইলগুলোর সূচী নির্মাণ করে এবং এগুলো সহজেই অাপনি অাবার "
 "খুলতে পারেন।"
 
-#: kwrite.cpp:163
+#: kwrite.cpp:160
 msgid "&New Window"
 msgstr "নতুন উইন্ডো(&N)"
 
-#: kwrite.cpp:165
+#: kwrite.cpp:162
 msgid "Create another view containing the current document"
 msgstr "বর্তমান ডকুমেন্টের জন্য নতুন প্রদর্শন বিন্যাস নির্মাণ করুন"
 
-#: kwrite.cpp:168
+#: kwrite.cpp:165
 msgid "Close the current document view"
 msgstr "বর্তমান ডকুমেন্টের প্রদর্শন বন্ধ করুন"
 
-#: kwrite.cpp:177
+#: kwrite.cpp:174
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""
 "এই কমান্ড প্রদর্শিত ক্ষেত্রের স্ট্যাটাস‌-বার প্রদর্শন বা গোপন করার জন্যে ব্যবহার করুন"
 
-#: kwrite.cpp:179
+#: kwrite.cpp:176
 #, fuzzy
 #| msgid "Sho&w Path"
 msgid "Sho&w Path in Titlebar"
 msgstr "পথ প্রদর্শন করা হবে (&w)"
 
-#: kwrite.cpp:182
+#: kwrite.cpp:179
 msgid "Show the complete document path in the window caption"
 msgstr "উইন্ডো শিরোনামে ডকুমেন্টের সম্পূর্ণ পথ প্রদর্শন করা হবে"
 
-#: kwrite.cpp:185
+#: kwrite.cpp:182
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr "অ্যাপ্লিকেশনের কিবোর্ড-র্শটকাট অ্যাসাইনমেন্ট গুলো কনফিগর করুন"
 
-#: kwrite.cpp:189
+#: kwrite.cpp:186
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr "কোন বস্তুসমূহ টুলবারে প্রদর্শিত হবে তা কনফিগর করুন"
 
-#: kwrite.cpp:192
+#: kwrite.cpp:189
 msgid "&About Editor Component"
 msgstr "এডিটার কম্পোনেন্টের পরিচিতি (&A)"
 
-#: kwrite.cpp:247
+#: kwrite.cpp:244
 msgid "Open File"
 msgstr "ফাইল খুলুন"
 
-#: kwrite.cpp:262
-msgid ""
-"The file given could not be read; check whether it exists or is readable for "
-"the current user."
-msgstr ""
-"এই ফাইলটা পড়া যাচ্ছে না; অনুগ্রহ করে ফাইলটার অস্তিত্ব তথা বর্তমান ব্যবহারকারীর পক্ষে "
-"তার পঠনযোগ্যতা পরীক্ষা করুন।"
-
-#: kwrite.cpp:297
+#: kwrite.cpp:287
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: kwrite.cpp:299
+#: kwrite.cpp:289
 msgid "Hide menu bar"
 msgstr ""
 
-#: kwrite.cpp:510
+#: kwrite.cpp:500
 msgid " [read only]"
 msgstr ""
 
-#: kwrite.cpp:514
+#: kwrite.cpp:504
 msgid "Untitled"
 msgstr "অসংরক্ষিত"
 
@@ -435,6 +427,13 @@ msgstr "ডকুমেন্ট যেটা খুলতে হবে"
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr "ফাইল '%1' খোলা যাচ্ছেনা: এটা সাধারন ফাইল নয়, এটা একটা ফোল্ডার"
+
+#~ msgid ""
+#~ "The file given could not be read; check whether it exists or is readable "
+#~ "for the current user."
+#~ msgstr ""
+#~ "এই ফাইলটা পড়া যাচ্ছে না; অনুগ্রহ করে ফাইলটার অস্তিত্ব তথা বর্তমান ব্যবহারকারীর "
+#~ "পক্ষে তার পঠনযোগ্যতা পরীক্ষা করুন।"
 
 #, fuzzy
 #~| msgid ""
