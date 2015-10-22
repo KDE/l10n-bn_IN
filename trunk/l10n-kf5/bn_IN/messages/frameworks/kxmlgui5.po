@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-20 10:05+0000\n"
+"POT-Creation-Date: 2015-10-22 08:39+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -19,14 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runabh@gmail.com"
 
 #: kaboutapplicationdialog.cpp:81 khelpmenu.cpp:271
 #, kde-format
@@ -771,6 +763,16 @@ msgstr "টেপা কি-টি Qt-র মধ্যে সমর্থিত 
 #: kkeysequencewidget.cpp:713
 msgid "Unsupported Key"
 msgstr "অসমর্থিত-কি"
+
+#: kmainwindow.cpp:213
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: kmainwindow.cpp:214
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runabh@gmail.com"
 
 #: kmenumenuhandler_p.cpp:50
 msgid "Add to Toolbar"
