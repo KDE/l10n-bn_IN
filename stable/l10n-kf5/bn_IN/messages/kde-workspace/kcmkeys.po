@@ -1,0 +1,172 @@
+# translation of kcmkeys.po to Bengali INDIA
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runab@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-10-23 08:06+0000\n"
+"PO-Revision-Date: 2008-12-29 15:55+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+msgid "Select the Components to Export"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Components"
+msgstr "KDE-র অংশবিশেষ:"
+
+#: globalshortcuts.cpp:67
+msgid "You are about to reset all shortcuts to their default values."
+msgstr ""
+
+#: globalshortcuts.cpp:68
+msgid "Reset to defaults"
+msgstr ""
+
+#: globalshortcuts.cpp:69
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Current Component"
+msgstr "KDE-র অংশবিশেষ:"
+
+#: globalshortcuts.cpp:70
+#, fuzzy
+#| msgid "KDE component:"
+msgid "All Components"
+msgstr "KDE-র অংশবিশেষ:"
+
+#: kglobalshortcutseditor.cpp:168
+#, fuzzy
+#| msgid "Import Scheme..."
+msgid "Import Scheme..."
+msgstr "স্কিম ইম্পোর্ট করুন..."
+
+#: kglobalshortcutseditor.cpp:169
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Export Scheme..."
+msgstr "স্কিম এক্সপোর্ট করুন..."
+
+#: kglobalshortcutseditor.cpp:170
+msgid "Set All Shortcuts to None"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:171
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Remove Component"
+msgstr "KDE-র অংশবিশেষ:"
+
+#: kglobalshortcutseditor.cpp:180
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:182 kglobalshortcutseditor.cpp:192
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Remove component"
+msgstr "KDE-র অংশবিশেষ:"
+
+#: kglobalshortcutseditor.cpp:188
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:386
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr ""
+"বর্তমান স্কিম সংরক্ষণ না করে অন্য একটি স্কিম লোড করা হলে, সম্প্রতি করা পরিবর্তনগুলি "
+"হারিয়ে যাবে।"
+
+#: kglobalshortcutseditor.cpp:387
+#, fuzzy
+#| msgid "Load Shortcurt Scheme"
+msgid "Load Shortcut Scheme"
+msgstr "শর্ট-কাট স্কিম লোড করুন"
+
+#: kglobalshortcutseditor.cpp:388
+msgid "Load"
+msgstr "লোড করুন"
+
+#: kglobalshortcutseditor.cpp:401
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "এই ফাইলটি (%1) উপস্থিত নেই। শুধুমাত্র স্থানীয় ফাইল নির্বাচন করা যাবে।"
+
+#: kglobalshortcutseditor.cpp:429 kglobalshortcutseditor.cpp:452
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"বার্তা: %1\n"
+"ত্রুটি: %2"
+
+#: kglobalshortcutseditor.cpp:434 kglobalshortcutseditor.cpp:457
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr "KDE গ্লোবাল শর্ট-কাট ডেমনের সাথে সংযোগ স্থাপন করতে ব্যর্থ\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kglobalshortcutseditor.ui:19
+msgid "KDE component:"
+msgstr "KDE-র অংশবিশেষ:"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:36
+msgid "File"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+msgid "Select Shortcut Scheme"
+msgstr "শর্ট-কাট স্কিম নির্বাচন করুন"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "একটি প্রমিত KDE শর্ট-কাট স্কিম নির্বাচন করুন"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+msgid "&Standard scheme:"
+msgstr "প্রমিত স্কিম: (&S)"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+msgid "Select a shortcut scheme file"
+msgstr "একটি শর্ট-কাট স্কিম ফাইল নির্বাচন করুন"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+msgid "&Path:"
+msgstr "পাথ: (&P)"
+
+#~ msgid "Shortcuts:"
+#~ msgstr "শর্ট-কাট:"
