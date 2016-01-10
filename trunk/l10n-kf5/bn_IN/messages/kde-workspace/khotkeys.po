@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-02 07:33+0000\n"
+"POT-Creation-Date: 2016-01-10 08:25+0000\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -426,35 +426,39 @@ msgstr "নতুন সার্বজনীন শর্ট-কাট"
 msgid "Window Action"
 msgstr "কর্ম"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:269
+#: kcm_hotkeys/hotkeys_context_menu.cpp:187
+msgid "Mouse Gesture Action"
+msgstr ""
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:268
 msgid "Command/URL"
 msgstr "কমান্ড/URL"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:276
+#: kcm_hotkeys/hotkeys_context_menu.cpp:275
 msgid "D-Bus Command"
 msgstr "D-Bus কমান্ড"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:283
+#: kcm_hotkeys/hotkeys_context_menu.cpp:282
 msgid "K-Menu Entry"
 msgstr "K-মেনুর এনট্রি"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:290
+#: kcm_hotkeys/hotkeys_context_menu.cpp:289
 #, fuzzy
 #| msgid "Keyboard input: "
 msgid "Send Keyboard Input"
 msgstr "কি-বোর্ড থেকে প্রাপ্ত ইনপুট: "
 
 #. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: kcm_hotkeys/hotkeys_context_menu.cpp:312
-#: kcm_hotkeys/hotkeys_context_menu.cpp:341
-#: kcm_hotkeys/hotkeys_context_menu.cpp:370 kcm_hotkeys/hotkeys_model.cpp:91
+#: kcm_hotkeys/hotkeys_context_menu.cpp:311
+#: kcm_hotkeys/hotkeys_context_menu.cpp:340
+#: kcm_hotkeys/hotkeys_context_menu.cpp:369 kcm_hotkeys/hotkeys_model.cpp:91
 #: kcm_hotkeys/hotkeys_widget_base.ui:23
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:312
-#: kcm_hotkeys/hotkeys_context_menu.cpp:341
-#: kcm_hotkeys/hotkeys_context_menu.cpp:370
+#: kcm_hotkeys/hotkeys_context_menu.cpp:311
+#: kcm_hotkeys/hotkeys_context_menu.cpp:340
+#: kcm_hotkeys/hotkeys_context_menu.cpp:369
 #, fuzzy
 #| msgid "Action"
 msgid "New Action"
