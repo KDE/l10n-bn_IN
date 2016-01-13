@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-30 07:53+0000\n"
+"POT-Creation-Date: 2016-01-13 07:18+0000\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -2970,21 +2970,32 @@ msgid "Show in Groups"
 msgstr ""
 
 #: views/dolphinviewactionhandler.cpp:212
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Show Hidden Files"
 msgctxt "@action:inmenu View"
-msgid "Show Hidden Files"
+msgid "Hidden Files"
 msgstr "গোপন ফাইলগুলো দেখানো হবে"
 
-#: views/dolphinviewactionhandler.cpp:217
+#: views/dolphinviewactionhandler.cpp:213
+#, fuzzy
+#| msgctxt "@option:check Mouse Settings"
+#| msgid "Single-click to open files and folders"
+msgctxt "@info"
+msgid "Visibility of hidden files and folders"
+msgstr "সিঙ্গল-ক্লিক করে ফাইল এবং ফোল্ডারগুলো খুলুন"
+
+#: views/dolphinviewactionhandler.cpp:218
 msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "প্রদর্শনের বৈশিষ্টাবলী সম্পাদন..."
 
-#: views/dolphinviewactionhandler.cpp:492
+#: views/dolphinviewactionhandler.cpp:495
 msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr "অাইকন"
 
-#: views/dolphinviewactionhandler.cpp:493
+#: views/dolphinviewactionhandler.cpp:496
 #, fuzzy
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -2992,12 +3003,12 @@ msgctxt "@info"
 msgid "Icons view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: views/dolphinviewactionhandler.cpp:503
+#: views/dolphinviewactionhandler.cpp:506
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:504
+#: views/dolphinviewactionhandler.cpp:507
 #, fuzzy
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3005,12 +3016,12 @@ msgctxt "@info"
 msgid "Compact view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: views/dolphinviewactionhandler.cpp:514
+#: views/dolphinviewactionhandler.cpp:517
 msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr "বিস্তারিত বর্নণা"
 
-#: views/dolphinviewactionhandler.cpp:515
+#: views/dolphinviewactionhandler.cpp:518
 #, fuzzy
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3095,10 +3106,6 @@ msgstr "অতিরিক্ত তথ্য"
 #~ msgctxt "@action:button"
 #~ msgid "Empty Trash"
 #~ msgstr "অাবর্জনার বাক্স খালি করা হবে"
-
-#~ msgctxt "@option:check Mouse Settings"
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "সিঙ্গল-ক্লিক করে ফাইল এবং ফোল্ডারগুলো খুলুন"
 
 #~ msgctxt "@option:check Mouse Settings"
 #~ msgid "Double-click to open files and folders"
