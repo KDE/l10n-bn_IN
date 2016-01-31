@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-14 08:37+0000\n"
+"POT-Creation-Date: 2016-01-31 08:02+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -23,6 +23,11 @@ msgstr ""
 msgctxt "Name"
 msgid "Open Terminal Here"
 msgstr "এইস্থানে টার্মিন্যাল আরম্ভ করুন"
+
+#: desktop/konsolehere.desktop:105
+msgctxt "Comment"
+msgid "Opens a terminal at the current folder"
+msgstr ""
 
 #: desktop/konsole.notifyrc:3
 msgctxt "Comment"
@@ -84,12 +89,29 @@ msgctxt "Name"
 msgid "Terminal Emulator"
 msgstr "টার্মিন্যাল এমুলেটর"
 
+#: desktop/konsolepart.desktop:107 desktop/org.kde.konsole.desktop:191
+#: desktop/terminalemulator.desktop:98
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Command Line"
+msgctxt "Comment"
+msgid "Command line access"
+msgstr "কমান্ড-লাইন"
+
 #: desktop/konsolerun.desktop:13
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Run Konsole"
 msgctxt "Name"
 msgid "Run In Konsole"
+msgstr "Konsole সঞ্চালন"
+
+#: desktop/konsolerun.desktop:60
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Run Konsole"
+msgctxt "Comment"
+msgid "Run within Konsole"
 msgstr "Konsole সঞ্চালন"
 
 #: desktop/org.kde.konsole.desktop:14
@@ -102,12 +124,20 @@ msgctxt "GenericName"
 msgid "Terminal"
 msgstr "টার্মিন্যাল"
 
-#: desktop/org.kde.konsole.desktop:192
+#: desktop/org.kde.konsole.desktop:194
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "New Window"
 msgctxt "Name"
 msgid "Open a New Window"
+msgstr "নতুন উইন্ডো"
+
+#: desktop/org.kde.konsole.desktop:243
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "New Window"
+msgctxt "Name"
+msgid "Open a New Tab"
 msgstr "নতুন উইন্ডো"
 
 #~ msgctxt "Name"
@@ -7041,10 +7071,6 @@ msgstr "নতুন উইন্ডো"
 #~ msgctxt "Name"
 #~ msgid "Desktop Sessions"
 #~ msgstr "ডেস্কটপের সেশান"
-
-#~ msgctxt "Name"
-#~ msgid "Command Line"
-#~ msgstr "কমান্ড-লাইন"
 
 #~ msgctxt "Comment"
 #~ msgid "Executes shell commands"
