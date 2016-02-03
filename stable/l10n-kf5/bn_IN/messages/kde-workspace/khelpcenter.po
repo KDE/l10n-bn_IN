@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-01 10:29+0000\n"
+"POT-Creation-Date: 2016-02-03 10:32+0000\n"
 "PO-Revision-Date: 2008-12-31 18:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,31 +26,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: application.cpp:46
+#: application.cpp:38
 #, fuzzy
 #| msgid "Document to be indexed"
 msgid "Documentation to open"
 msgstr "ইন্ডেক্স করার জন্য চিহ্নিত নথি"
 
-#: application.cpp:81 navigator.cpp:462
+#: application.cpp:80 navigator.cpp:462
 msgid "KDE Help Center"
 msgstr "KDE Help Center"
 
-#: application.cpp:83 khc_indexbuilder.cpp:159
+#: application.cpp:82 khc_indexbuilder.cpp:160
 msgid "The KDE Help Center"
 msgstr "KDE-র সহায়তা কেন্দ্র"
 
-#: application.cpp:85
+#: application.cpp:84
 #, fuzzy
 #| msgid "(c) 1999-2003, The KHelpCenter developers"
 msgid "(c) 1999-2011, The KHelpCenter developers"
 msgstr "(c) ১৯৯৯-২০০৩, KHelpCenter-র নির্মাতাবৃন্দ"
 
-#: application.cpp:89
+#: application.cpp:88
 msgid "Original Author"
 msgstr "মূল লেখক"
 
-#: application.cpp:90
+#: application.cpp:89
 msgid "Info page support"
 msgstr "Info পৃষ্ঠা সমর্থন"
 
@@ -343,28 +343,28 @@ msgstr ""
 "ইন্ডেক্স নির্মাণের কমান্ড সঞ্চালন করতে ব্যর্থ:\n"
 "%1"
 
-#: khc_indexbuilder.cpp:100
+#: khc_indexbuilder.cpp:101
 #, kde-format
 msgid "Unable to start command '%1'."
 msgstr "কমান্ড '%1' আরম্ভ করতে ব্যর্থ।"
 
-#: khc_indexbuilder.cpp:157
+#: khc_indexbuilder.cpp:158
 msgid "KHelpCenter Index Builder"
 msgstr "KHelpCenter ইন্ডেক্স নির্মাণ করতে ব্যর্থ"
 
-#: khc_indexbuilder.cpp:161
+#: khc_indexbuilder.cpp:162
 msgid "(c) 2003, The KHelpCenter developers"
 msgstr "(c) ২০০৩, KHelpCenter নির্মাতাবৃন্দ"
 
-#: khc_indexbuilder.cpp:163
+#: khc_indexbuilder.cpp:164
 msgid "Cornelius Schumacher"
 msgstr "কর্নেলিয়াস স্কুমাকার"
 
-#: khc_indexbuilder.cpp:167
+#: khc_indexbuilder.cpp:168
 msgid "Document to be indexed"
 msgstr "ইন্ডেক্স করার জন্য চিহ্নিত নথি"
 
-#: khc_indexbuilder.cpp:168
+#: khc_indexbuilder.cpp:169
 msgid "Index directory"
 msgstr "ইন্ডেক্স ডিরেক্টরি"
 
@@ -505,25 +505,25 @@ msgstr ""
 msgid "Error: No search handler for document type '%1'."
 msgstr ""
 
-#: searchengine.cpp:230
+#: searchengine.cpp:232
 msgid "Handler"
 msgstr ""
 
-#: searchengine.cpp:230
+#: searchengine.cpp:232
 #, kde-format
 msgid "Unable to initialize SearchHandler from file '%1'."
 msgstr ""
 
-#: searchengine.cpp:241
+#: searchengine.cpp:243
 msgid "No valid search handler found."
 msgstr "অনুসন্ধানের বৈধ হ্যান্ডলার পাওয়া যায়নি।"
 
-#: searchengine.cpp:284
+#: searchengine.cpp:286
 #, kde-format
 msgid "Search Results for '%1':"
 msgstr "'%1' অনুসন্ধানের ফলাফল"
 
-#: searchengine.cpp:289
+#: searchengine.cpp:291
 msgid "Search Results"
 msgstr "অনুসন্ধানের ফলাফল"
 
