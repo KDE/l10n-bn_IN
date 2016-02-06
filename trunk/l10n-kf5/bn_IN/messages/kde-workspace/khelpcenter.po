@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-03 07:37+0000\n"
+"POT-Creation-Date: 2016-02-06 07:54+0000\n"
 "PO-Revision-Date: 2008-12-31 18:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -36,7 +36,7 @@ msgstr "ইন্ডেক্স করার জন্য চিহ্নিত
 msgid "KDE Help Center"
 msgstr "KDE Help Center"
 
-#: application.cpp:82 khc_indexbuilder.cpp:160
+#: application.cpp:82 khc_indexbuilder.cpp:156
 msgid "The KDE Help Center"
 msgstr "KDE-র সহায়তা কেন্দ্র"
 
@@ -69,53 +69,53 @@ msgctxt "Describes documentation entries that are in English"
 msgid "English"
 msgstr "ইংরাজি"
 
-#: fontdialog.cpp:50
+#: fontdialog.cpp:49
 msgid "Font Configuration"
 msgstr "ফন্ট কনফিগারেশন"
 
-#: fontdialog.cpp:79
+#: fontdialog.cpp:76
 msgid "Sizes"
 msgstr "মাপ"
 
-#: fontdialog.cpp:85
+#: fontdialog.cpp:83
 msgctxt "The smallest size a will have"
 msgid "M&inimum font size:"
 msgstr "ফন্টের সর্বনিম্ন মাপ প্রয়োগ করা হবে (&i)"
 
-#: fontdialog.cpp:92
+#: fontdialog.cpp:90
 msgctxt "The normal size a font will have"
 msgid "M&edium font size:"
 msgstr "ফন্টের মাঝারি মাপ প্রয়োগ করা হবে: (&e)"
 
-#: fontdialog.cpp:102
+#: fontdialog.cpp:100
 msgid "Fonts"
 msgstr "ফন্ট"
 
-#: fontdialog.cpp:108
+#: fontdialog.cpp:107
 msgid "S&tandard font:"
 msgstr "প্রমিত ফন্ট: (&t)"
 
-#: fontdialog.cpp:114
+#: fontdialog.cpp:113
 msgid "F&ixed font:"
 msgstr "স্থায়ী মাপের ফন্ট: (&i)"
 
-#: fontdialog.cpp:120
+#: fontdialog.cpp:119
 msgid "S&erif font:"
 msgstr "Serif ফন্ট: (&e)"
 
-#: fontdialog.cpp:126
+#: fontdialog.cpp:125
 msgid "S&ans serif font:"
 msgstr "Sans serif ফন্ট: (&a)"
 
-#: fontdialog.cpp:132
+#: fontdialog.cpp:131
 msgid "&Italic font:"
 msgstr "আইটালিক ফন্ট: (&I)"
 
-#: fontdialog.cpp:138
+#: fontdialog.cpp:137
 msgid "&Fantasy font:"
 msgstr ""
 
-#: fontdialog.cpp:147
+#: fontdialog.cpp:146
 msgid "Encoding"
 msgstr "এনকোডিং"
 
@@ -343,28 +343,28 @@ msgstr ""
 "ইন্ডেক্স নির্মাণের কমান্ড সঞ্চালন করতে ব্যর্থ:\n"
 "%1"
 
-#: khc_indexbuilder.cpp:101
+#: khc_indexbuilder.cpp:97
 #, kde-format
 msgid "Unable to start command '%1'."
 msgstr "কমান্ড '%1' আরম্ভ করতে ব্যর্থ।"
 
-#: khc_indexbuilder.cpp:158
+#: khc_indexbuilder.cpp:154
 msgid "KHelpCenter Index Builder"
 msgstr "KHelpCenter ইন্ডেক্স নির্মাণ করতে ব্যর্থ"
 
-#: khc_indexbuilder.cpp:162
+#: khc_indexbuilder.cpp:158
 msgid "(c) 2003, The KHelpCenter developers"
 msgstr "(c) ২০০৩, KHelpCenter নির্মাতাবৃন্দ"
 
-#: khc_indexbuilder.cpp:164
+#: khc_indexbuilder.cpp:160
 msgid "Cornelius Schumacher"
 msgstr "কর্নেলিয়াস স্কুমাকার"
 
-#: khc_indexbuilder.cpp:168
+#: khc_indexbuilder.cpp:164
 msgid "Document to be indexed"
 msgstr "ইন্ডেক্স করার জন্য চিহ্নিত নথি"
 
-#: khc_indexbuilder.cpp:169
+#: khc_indexbuilder.cpp:165
 msgid "Index directory"
 msgstr "ইন্ডেক্স ডিরেক্টরি"
 
