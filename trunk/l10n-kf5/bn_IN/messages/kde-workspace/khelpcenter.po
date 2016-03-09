@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-29 09:05+0000\n"
+"POT-Creation-Date: 2016-03-09 07:26+0000\n"
 "PO-Revision-Date: 2008-12-31 18:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -32,13 +32,11 @@ msgstr "runab@redhat.com"
 msgid "Documentation to open"
 msgstr "ইন্ডেক্স করার জন্য চিহ্নিত নথি"
 
-#: application.cpp:83 navigator.cpp:462
-msgid "KDE Help Center"
+#: application.cpp:83 application.cpp:85 khc_indexbuilder.cpp:155
+#, fuzzy
+#| msgid "KDE Help Center"
+msgid "Help Center"
 msgstr "KDE Help Center"
-
-#: application.cpp:85 khc_indexbuilder.cpp:155
-msgid "The KDE Help Center"
-msgstr "KDE-র সহায়তা কেন্দ্র"
 
 #: application.cpp:87
 #, fuzzy
@@ -353,8 +351,8 @@ msgid "KHelpCenter Index Builder"
 msgstr "KHelpCenter ইন্ডেক্স নির্মাণ করতে ব্যর্থ"
 
 #: khc_indexbuilder.cpp:157
-msgid "(c) 2003, The KHelpCenter developers"
-msgstr "(c) ২০০৩, KHelpCenter নির্মাতাবৃন্দ"
+msgid "2003 KDE"
+msgstr ""
 
 #: khc_indexbuilder.cpp:159
 msgid "Cornelius Schumacher"
@@ -478,6 +476,10 @@ msgstr "শব্দকোষ (&l)"
 #: navigator.cpp:461
 msgid "Start Page"
 msgstr "প্রারম্ভিক পৃষ্ঠা"
+
+#: navigator.cpp:462
+msgid "KDE Help Center"
+msgstr "KDE Help Center"
 
 #: navigator.cpp:551
 msgid "Unable to run search program."
@@ -607,6 +609,12 @@ msgstr "অজানা"
 #: view.cpp:217
 msgid "Copy Link Address"
 msgstr "লিঙ্কের ঠিকানা কপি করুন"
+
+#~ msgid "The KDE Help Center"
+#~ msgstr "KDE-র সহায়তা কেন্দ্র"
+
+#~ msgid "(c) 2003, The KHelpCenter developers"
+#~ msgstr "(c) ২০০৩, KHelpCenter নির্মাতাবৃন্দ"
 
 #~ msgid "Details &gt;&gt;"
 #~ msgstr "বিবরণ &gt;&gt;"

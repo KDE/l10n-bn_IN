@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-27 07:53+0000\n"
+"POT-Creation-Date: 2016-03-09 07:42+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -459,19 +459,6 @@ msgid ""
 "setting."
 msgstr ""
 
-#: kcms/componentchooser/componentservices/kcm_wm.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
-msgctxt "Name|standard desktop component"
-msgid "Window Manager"
-msgstr "উইন্ডো পরিচালন ব্যবস্থা"
-
-#: kcms/componentchooser/componentservices/kcm_wm.desktop:52
-msgctxt "Comment"
-msgid "Here you can select the window manager to be run in your KDE session."
-msgstr ""
-
 #: kcms/componentchooser/EXAMPLE.desktop:1
 msgctxt "Name"
 msgid "A nice name you have chosen for your interface"
@@ -483,27 +470,6 @@ msgid "A helpful description of the interface for the top right info box"
 msgstr ""
 "উপরে ডিনদিকে অবস্থিত পরিচিত নির্দেশকারী বক্সে প্রদর্শনের উদ্দেশ্যে এই ইন্টারফেসের "
 "একটি সহায়ক বর্ণনা।"
-
-#: kcms/componentchooser/windowmanagers/compiz-custom.desktop:2
-msgctxt "Name"
-msgid ""
-"Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
-msgstr ""
-
-#: kcms/componentchooser/windowmanagers/compiz.desktop:2
-msgctxt "Name"
-msgid "Compiz"
-msgstr "Compiz"
-
-#: kcms/componentchooser/windowmanagers/metacity.desktop:2
-msgctxt "Name"
-msgid "Metacity (GNOME)"
-msgstr "Metacity (GNOME)"
-
-#: kcms/componentchooser/windowmanagers/openbox.desktop:2
-msgctxt "Name"
-msgid "Openbox"
-msgstr "Openbox"
 
 #: kcms/cursortheme/cursortheme.desktop:13
 #, fuzzy
@@ -1588,6 +1554,25 @@ msgstr "ডেস্কটপ"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Manager"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Window Manager"
+#~ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+
+#~ msgctxt "Name"
+#~ msgid "Compiz"
+#~ msgstr "Compiz"
+
+#~ msgctxt "Name"
+#~ msgid "Metacity (GNOME)"
+#~ msgstr "Metacity (GNOME)"
+
+#~ msgctxt "Name"
+#~ msgid "Openbox"
+#~ msgstr "Openbox"
 
 #~ msgctxt "Name"
 #~ msgid "System Bell"
