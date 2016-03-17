@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-25 08:03+0000\n"
+"POT-Creation-Date: 2016-03-17 08:06+0000\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -53,6 +53,28 @@ msgstr "GLX/OpenGL উপলব্ধ নয় ও শুধুমাত্র Ope
 #: compositingprefs.cpp:117
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL ও XRender/XFixes উপলব্ধ নয়।"
+
+#: debug_console.cpp:434
+#, fuzzy
+#| msgid "Close Window"
+msgid "X11 Client Windows"
+msgstr "উইন্ডো বন্ধ করুন"
+
+#: debug_console.cpp:436
+msgid "X11 Unmanaged Windows"
+msgstr ""
+
+#: debug_console.cpp:438
+#, fuzzy
+#| msgid "Shade Window"
+msgid "Wayland Windows"
+msgstr "ছায়াবৃত উইন্ডো"
+
+#: debug_console.cpp:440
+#, fuzzy
+#| msgid "Windows"
+msgid "Internal Windows"
+msgstr "উইন্ডো"
 
 #: killer/killer.cpp:44
 #, fuzzy
@@ -1018,9 +1040,6 @@ msgstr ""
 
 #~ msgid "Navigation"
 #~ msgstr "পরিদর্শন"
-
-#~ msgid "Windows"
-#~ msgstr "উইন্ডো"
 
 #~ msgid "Window & Desktop"
 #~ msgstr "উইন্ডো ও ডেস্কটপ"
