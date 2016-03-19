@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-23 08:41+0000\n"
+"POT-Creation-Date: 2016-03-19 07:57+0000\n"
 "PO-Revision-Date: 2008-12-29 15:37+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -384,10 +384,15 @@ msgstr "প্রধান শর্ট-কাট:"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:17
+#, fuzzy
+#| msgid ""
+#| "If supported, this option allows you to setup the state of NumLock after "
+#| "KDE startup.<p>You can configure NumLock to be turned on or off, or "
+#| "configure KDE not to set NumLock state."
 msgid ""
-"If supported, this option allows you to setup the state of NumLock after KDE "
-"startup.<p>You can configure NumLock to be turned on or off, or configure "
-"KDE not to set NumLock state."
+"If supported, this option allows you to setup the state of NumLock after "
+"Plasma startup.<p>You can configure NumLock to be turned on or off, or "
+"configure Plasma not to set NumLock state."
 msgstr ""
 "এই বিকল্পটি সমর্থিত হলে KDE আরম্ভের পরে NumLock কি-টির অবস্থা নির্ধারণ করা যাবে।"
 "<p>NumLock সক্রিয়, নিষ্ক্রিয় অথবা KDE দ্বারা NumLock-র অবস্থা অপরিবর্তিত রাখার "
@@ -395,7 +400,9 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
-msgid "NumLock on KDE Startup"
+#, fuzzy
+#| msgid "NumLock on KDE Startup"
+msgid "NumLock on Plasma Startup"
 msgstr "KDE আরম্ভকালে NumLock"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton1)

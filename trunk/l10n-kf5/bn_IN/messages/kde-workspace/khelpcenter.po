@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-18 07:26+0000\n"
+"POT-Creation-Date: 2016-03-19 07:55+0000\n"
 "PO-Revision-Date: 2008-12-31 18:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -166,7 +166,7 @@ msgstr "অতিরিক্ত দ্রষ্টব্য: "
 msgid "Search Results"
 msgstr "অনুসন্ধানের ফলাফল"
 
-#: grantleeformatter.cpp:144 searchengine.cpp:285
+#: grantleeformatter.cpp:144 searchengine.cpp:268
 #, kde-format
 msgid "Search Results for '%1':"
 msgstr "'%1' অনুসন্ধানের ফলাফল"
@@ -186,7 +186,7 @@ msgid "Path to directory containing search indices."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Layout)
-#: khelpcenter.kcfg:53
+#: khelpcenter.kcfg:46
 msgid "Currently visible navigator tab"
 msgstr "বর্তমানে দৃশ্যমান চলাচলের ট্যাব"
 
@@ -271,65 +271,65 @@ msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr ""
 
-#: navigator.cpp:93
+#: navigator.cpp:91
 msgid "&Search"
 msgstr "অনুসন্ধান (&S)"
 
-#: navigator.cpp:150
+#: navigator.cpp:143
 msgid "&Contents"
 msgstr "সূচি (&C)"
 
-#: navigator.cpp:160
+#: navigator.cpp:153
 msgid "Search Options"
 msgstr "অনুসন্ধানের বিকল্প"
 
-#: navigator.cpp:168
+#: navigator.cpp:161
 msgid "G&lossary"
 msgstr "শব্দকোষ (&l)"
 
-#: navigator.cpp:443
+#: navigator.cpp:436
 msgid "Start Page"
 msgstr "প্রারম্ভিক পৃষ্ঠা"
 
-#: navigator.cpp:444
+#: navigator.cpp:437
 msgid "KDE Help Center"
 msgstr "KDE Help Center"
 
-#: navigator.cpp:531
+#: navigator.cpp:518
 msgid "Unable to run search program."
 msgstr "অনুসন্ধানের প্রোগ্রাম সঞ্চালন করতে ব্যর্থ।"
 
-#: navigator.cpp:625
+#: navigator.cpp:612
 #, fuzzy
 #| msgid "Build Search Index..."
 msgid "Updating search index..."
 msgstr "অনুসন্ধানের ইন্ডেক্স নির্মাণ করুন..."
 
-#: navigator.cpp:636
+#: navigator.cpp:623
 #, fuzzy
 #| msgid "Rebuilding cache... done."
 msgid "Updating search index... done."
 msgstr "ক্যাশে পুনরায় নির্মাণ কর্ম... সমাপ্ত।"
 
-#: searchengine.cpp:60
+#: searchengine.cpp:56
 msgid "Error: No document type specified."
 msgstr ""
 
-#: searchengine.cpp:62
+#: searchengine.cpp:58
 #, kde-format
 msgid "Error: No search handler for document type '%1'."
 msgstr ""
 
-#: searchengine.cpp:223
+#: searchengine.cpp:218
 msgid "Handler"
 msgstr ""
 
-#: searchengine.cpp:223
+#: searchengine.cpp:218
 #, kde-format
 msgid "Unable to initialize SearchHandler from file '%1'."
 msgstr ""
 
-#: searchengine.cpp:243
+#: searchengine.cpp:238
 msgid "No valid search handler found."
 msgstr "অনুসন্ধানের বৈধ হ্যান্ডলার পাওয়া যায়নি।"
 
