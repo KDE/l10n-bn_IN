@@ -1,0 +1,342 @@
+# translation of useraccount.po to Bengali (India)
+# translation of useraccount.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ria Das <ria@rialappy>, 2008.
+# Ria Das <mailtoria@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: useraccount\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-08-04 01:39+0000\n"
+"PO-Revision-Date: 2008-07-06 12:19+0530\n"
+"Last-Translator: Ria Das <mailtoria@gmail.com>\n"
+"Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রিয়া দাস"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mailtoria@gmail.com"
+
+#: chfacedlg.cpp:56
+#, fuzzy
+#| msgid "Change your Face"
+msgctxt "@title:window"
+msgid "Change your Face"
+msgstr "ফেস-এর আইকন পরিবর্তন করুন"
+
+#: chfacedlg.cpp:60
+msgid "Custom Image..."
+msgstr "স্বনির্বাচিত ছবি..."
+
+#: chfacedlg.cpp:61
+#, fuzzy
+#| msgid "Choose Image"
+msgid "Remove Image"
+msgstr "ছবি নির্বাচন করুন"
+
+#: chfacedlg.cpp:78
+msgid "&Acquire Image..."
+msgstr "ছবি নির্ধারন করুন... (&A)"
+
+#: chfacedlg.cpp:98
+msgid "(Custom)"
+msgstr "(স্বনির্ধরিত)"
+
+#: chfacedlg.cpp:117
+msgid "There was an error loading the image."
+msgstr "ছবি লোড করার সময় ত্রুটি দেখা দিয়েছে।"
+
+#: chfacedlg.cpp:135 chfacedlg.cpp:177
+#, kde-format
+msgid ""
+"There was an error saving the image:\n"
+"%1"
+msgstr ""
+"ছবি সংরক্ষিণ করতে সমস্যা হয়েছে:\n"
+"%1"
+
+#: chfacedlg.cpp:146
+msgid "&Save copy in custom faces folder for future use"
+msgstr "পরবর্তীকালে ব্যবহারের জন্য কপি করে সংরক্ষণ করুন কাসটম ফেসেস ফোল্ডারে (&S)"
+
+#: chfacedlg.cpp:152
+#, fuzzy
+#| msgid "Choose Image"
+msgctxt "@title:window"
+msgid "Choose Image"
+msgstr "ছবি নির্বাচন করুন"
+
+#. i18n: ectx: property (text), widget (QLabel, header)
+#: faceDlg.ui:25
+msgid "Select a new face:"
+msgstr "এক নতুন ফেস নির্বাচন করুন:"
+
+#. i18n: ectx: label, entry (FaceSize), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:24
+msgid "The size of login images"
+msgstr "লগইন ছবির মাপ"
+
+#. i18n: ectx: label, entry (DefaultFile), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:28
+msgid "The default image file"
+msgstr "ডিফল্ট ছবির ফাইল"
+
+#. i18n: ectx: label, entry (CustomFaceFile), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:32
+msgid "The filename of the user's custom image file"
+msgstr "ব্যবহারকারী স্বনির্বাচিত ছবির ফাইলের নাম"
+
+#. i18n: ectx: label, entry (FaceFile), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:36
+msgid "The user's login image"
+msgstr "ব্যবহারকারী লগইন ছবি"
+
+#. i18n: ectx: label, entry (EchoMode), group (Passwords)
+#: kcm_useraccount_pass.kcfg:9
+msgid "Password echo type"
+msgstr "পাসওয়ার্ড প্রদর্শনের ধরণ"
+
+#: main.cpp:73
+msgid "Change &Password..."
+msgstr "পাসওয়ার্ড পরিবর্তন করুন... &P)"
+
+#: main.cpp:91
+msgid "Password & User Information"
+msgstr "পাসওয়ার্ড এবং ব্যবহারকারী পরিচিতি"
+
+#: main.cpp:93
+msgid "(C) 2002, Braden MacDonald, (C) 2004 Ravikiran Rajagopal"
+msgstr "(C) ২০০২, ব্র্যডেন ম্যাকডোনাল্ড, (C) ২০০৪ রবিকিরন রাজগোপাল"
+
+#: main.cpp:96
+msgid "Frans Englich"
+msgstr "ফ্রান্স ইন্গলিক্"
+
+#: main.cpp:96
+msgid "Maintainer"
+msgstr "মেনটেনার"
+
+#: main.cpp:97
+msgid "Ravikiran Rajagopal"
+msgstr "রবিকিরন রাজগোপাল"
+
+#: main.cpp:98
+msgid "Michael Häckel"
+msgstr "মাইক্যাল হ্যকেল"
+
+#: main.cpp:100
+msgid "Braden MacDonald"
+msgstr "ব্র্যডেন ম্যাকডোনাল্ড"
+
+#: main.cpp:100
+msgid "Face editor"
+msgstr "ফেস এডিটর"
+
+#: main.cpp:101
+msgid "Geert Jansen"
+msgstr "গির্ট য্যনসেন"
+
+#: main.cpp:101
+msgid "Password changer"
+msgstr "পাসওয়ার্ড পরিবর্তক"
+
+#: main.cpp:103
+msgid "Daniel Molkentin"
+msgstr "ড্যানিয়েল মলকেন্টিন"
+
+#: main.cpp:104
+msgid "Alex Zepeda"
+msgstr "অ্যালেক্স যেপেডা"
+
+#: main.cpp:105
+msgid "Hans Karlsson"
+msgstr "হ্যান্স কার্লসন"
+
+#: main.cpp:105 main.cpp:106
+msgid "Icons"
+msgstr "আইকন"
+
+#: main.cpp:106
+msgid "Hermann Thomas"
+msgstr "হরমন থমাস"
+
+#: main.cpp:109
+#, fuzzy
+#| msgid ""
+#| "<qt>Here you can change your personal information, which will be used in "
+#| "mail programs and word processors, for example. You can change your login "
+#| "password by clicking <em>Change Password</em>.</qt>"
+msgid ""
+"<qt>Here you can change your personal information, which will be used, for "
+"instance, in mail programs and word processors. You can change your login "
+"password by clicking <em>Change Password...</em>.</qt>"
+msgstr ""
+"<qt>এখানে আপনি আপনার নিজস্ব পরিচিতি পরিবর্তন করতে পারবেন যা বিভিন্ন ধরনের "
+"অ্যাপ্লিকেশন যেমন মেল প্রোগ্রাম এবং ওয়ার্ড প্রোসেসর-এ ব্যবহৃত হবে। ক্লিক করে আপনি "
+"আপনার লগইন পাসওয়ার্ড পরিবর্তন করতে পারবেন <em>পাসওয়ার্ড পরিবর্তন</em>।</qt>"
+
+#: main.cpp:123
+msgid ""
+"A program error occurred: the internal program 'kdepasswd' could not be "
+"found. You will not be able to change your password."
+msgstr ""
+"প্রোগ্রাম চলানো যাচ্ছে না: প্রোগ্রামের অন্তরের 'kdepasswd' পাওয়া যায়নি। আপনি আপনার "
+"পাসওয়ার্ড পরিবর্তন করতে পারবেন না।"
+
+#: main.cpp:200
+#, fuzzy, kde-format
+#| msgid "There was an error saving the image: %1"
+msgid "There was an error setting the name: %1"
+msgstr "ছবি সংরক্ষণ করা যাচ্ছে না: %1"
+
+#: main.cpp:212
+#, kde-format
+msgid "There was an error saving the image: %1"
+msgstr "ছবি সংরক্ষণ করা যাচ্ছে না: %1"
+
+#: main.cpp:230
+#, fuzzy, kde-format
+#| msgid "There was an error saving the image: %1"
+msgid "There was an error setting the image: %1"
+msgstr "ছবি সংরক্ষণ করা যাচ্ছে না: %1"
+
+#: main.cpp:238
+#, fuzzy, kde-format
+#| msgid "There was an error saving the image: %1"
+msgid "There was an error deleting the image: %1"
+msgstr "ছবি সংরক্ষণ করা যাচ্ছে না: %1"
+
+#: main.cpp:318
+#, kde-format
+msgid ""
+"%1 does not appear to be an image file.\n"
+"Please use files with these extensions:\n"
+"%2"
+msgstr ""
+"%1এটি ছবির ফাইল নয়।\n"
+"অনুগ্রহ করে চিহ্নিত এক্সটেনশনগুলি সহ ফাইল ব্যবহার করুন:\n"
+"%2"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnChangeFace)
+#: main_widget.ui:44
+#, fuzzy
+#| msgid "Change your Face"
+msgid "Change your image"
+msgstr "ফেস-এর আইকন পরিবর্তন করুন"
+
+#. i18n: ectx: property (text), widget (QLabel, lblClickButtonInfo)
+#: main_widget.ui:72
+#, fuzzy
+#| msgid "<i>(Click the button to change your image)</i>"
+msgid "<i>Click to change your image</i>"
+msgstr "<i>(বাটন ক্লিক করে আপনার ছবি পরিবর্তন করুন)</i>"
+
+#. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
+#: main_widget.ui:87
+msgid "Change Password..."
+msgstr "পাসওয়ার্ড পরিবর্তন..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
+#: main_widget.ui:116
+msgid "User Information"
+msgstr "ব্যবহারকারী পরিচিতি"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRealName)
+#: main_widget.ui:122
+msgid "&Name:"
+msgstr "নাম: (&N)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
+#: main_widget.ui:145
+msgid "&Organization:"
+msgstr "সংস্থা: (&O)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEmail)
+#: main_widget.ui:168
+msgid "&Email address:"
+msgstr "ই-মেইল ঠিকানা: (&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: main_widget.ui:191
+msgid "&SMTP server:"
+msgstr " SMTP সার্ভার: (&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
+#: main_widget.ui:214
+msgid "User ID:"
+msgstr "ব্যবহারকারী ID:"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_EchoMode)
+#: main_widget.ui:240
+msgid "At Password Prompt"
+msgstr "পাসওয়ার্ড প্রম্পট-এ"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rdbOneStar)
+#: main_widget.ui:246
+#, fuzzy
+#| msgid "Show one star for each letter"
+msgid "Show one bullet for each letter"
+msgstr "প্রতিটি অক্ষরের জন্য একটি করে তারা চিহ্ন প্রদর্শন করা হবে"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rdbThreeStars)
+#: main_widget.ui:253
+#, fuzzy
+#| msgid "Show three stars for each letter"
+msgid "Show three bullets for each letter"
+msgstr "প্রতিটি অক্ষরের জন্য তিনটি করে তারা চিহ্ন প্রদর্শন করা হবে"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rdbShowPassword)
+#: main_widget.ui:260
+msgid "Show nothing"
+msgstr "কিছুই প্রদর্শন হবে না"
+
+#~ msgid "Please enter your password in order to save your settings:"
+#~ msgstr ""
+#~ "আপনার নির্বাচিত বৈশিষ্ট্যগুলি সংরক্ষণ করার জন্য অনুগ্রহ করে আপনার পাসওয়ার্ড লিখুন:"
+
+#~ msgid "You must enter your password in order to change your information."
+#~ msgstr "আপনার পরিচিতি পরিবর্তন করার জন্য আপনাকে পাসওয়ার্ড দিতে হবে।"
+
+#~ msgid "You must enter a correct password."
+#~ msgstr "আপনার সঠিক পাসওয়ার্ড লেখা আবশ্যক হবে।"
+
+#, fuzzy
+#~| msgid ""
+#~| "An error occurred and your password has probably not been changed. The "
+#~| "error message was:\n"
+#~| "%1"
+#~ msgid ""
+#~ "An error occurred and your name has probably not been changed. The error "
+#~ "message was:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "একটি ত্রুটি উৎপন্ন হয়েছে এবং আপনার পাসওয়ার্ড সম্ভবত পরিবর্তীত হয়নি। সংশ্লিষ্ট "
+#~ "ত্রুটি সংক্রান্ত বার্তা:\n"
+#~ "%1"
+
+#~ msgid "Your administrator has disallowed changing your image."
+#~ msgstr ""
+#~ "আপনার অ্যাডমিনিসট্রেটর আপনাকে ছবি পরিবর্তনের প্রয়োজনীয় অনুমতি প্রদান করেননি।"
+
+#~ msgid "kcm_useraccount"
+#~ msgstr "kcm_useraccount"
+
+#~ msgid "haeckel@kde.org"
+#~ msgstr "haeckel@kde.org"
+
+#~ msgid "Sort key for K3IconViewItems"
+#~ msgstr "K3IconViewItems-এর জন্য সর্ট কি"
+
+#~ msgid "KCMUserAccount"
+#~ msgstr "KCMUserAccount"
