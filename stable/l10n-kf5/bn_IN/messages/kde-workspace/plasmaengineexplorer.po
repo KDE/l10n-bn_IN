@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-27 10:17+0000\n"
+"POT-Creation-Date: 2016-03-28 11:54+0000\n"
 "PO-Revision-Date: 2009-01-02 14:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -34,7 +34,7 @@ msgstr "সকল প্রসারিত করা হবে"
 msgid "Collapse All"
 msgstr "সকল সংকুচিত করা হবে"
 
-#: engineexplorer.cpp:61 main.cpp:69
+#: engineexplorer.cpp:61 main.cpp:73
 msgid "Plasma Engine Explorer"
 msgstr "Plasma Engine Explorer"
 
@@ -187,53 +187,53 @@ msgstr "Plasma DataEngines দ্বারা প্রকাশিত তথ্
 msgid "No description available"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:75
 msgid "(c) 2006, The KDE Team"
 msgstr "(c) ২০০৬, KDE দল"
 
-#: main.cpp:72
+#: main.cpp:76
 msgid "Aaron J. Seigo"
 msgstr "অ্যারন জে. সেইগো"
 
-#: main.cpp:73
+#: main.cpp:77
 msgid "Author and maintainer"
 msgstr "নির্মাতা ও মেইন্টেনার"
 
-#: main.cpp:83
+#: main.cpp:87
 msgid "Displays a list of known engines and their descriptions"
 msgstr ""
 
-#: main.cpp:84
+#: main.cpp:88
 msgid "The desired height in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দসই উচ্চতা"
 
-#: main.cpp:85
+#: main.cpp:89
 msgid "The desired width in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দসই প্রস্থ"
 
-#: main.cpp:86
+#: main.cpp:90
 msgid "The desired x position in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দ x অবস্থান"
 
-#: main.cpp:87
+#: main.cpp:91
 msgid "The desired y position in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দ y অবস্থান"
 
-#: main.cpp:88
+#: main.cpp:92
 msgid "The data engine to use"
 msgstr "ব্যবহারযোগ্য ডাটা ইঞ্জিন"
 
-#: main.cpp:89
+#: main.cpp:93
 msgid "The source to request"
 msgstr "অনুরোধ করা উৎস"
 
-#: main.cpp:90
+#: main.cpp:94
 #, fuzzy
 #| msgid "Update Interval in milliseconds."
 msgid "Update interval in milliseconds"
 msgstr "আপডেট করার বিরতিকাল (মিলিসেকেন্ড অনুযায়ী)"
 
-#: main.cpp:91
+#: main.cpp:95
 msgid ""
 "Only show engines associated with the parent application; maps to the X-KDE-"
 "ParentApp entry in the DataEngine's .desktop file."
