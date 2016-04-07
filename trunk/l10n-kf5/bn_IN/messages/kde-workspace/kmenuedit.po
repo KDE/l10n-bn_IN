@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-12 09:02+0000\n"
+"POT-Creation-Date: 2016-04-07 08:15+0000\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -63,46 +63,42 @@ msgid "Enable &launch feedback"
 msgstr ""
 
 #: basictab.cpp:120
-msgid "&Place in system tray"
-msgstr "সিস্টেম ট্রের মধ্যে স্থাপন করুন (&P)"
-
-#: basictab.cpp:124
 msgid "Only show in KDE"
 msgstr "শুধুমাত্র KDE-র মধ্যে প্রদর্শন করা হবে"
 
-#: basictab.cpp:128
+#: basictab.cpp:124
 msgid "Hidden entry"
 msgstr "আড়াল করা এনট্রি"
 
-#: basictab.cpp:140 preferencesdlg.cpp:75
+#: basictab.cpp:136 preferencesdlg.cpp:75
 msgid "General"
 msgstr "সাধারণ"
 
-#: basictab.cpp:154
+#: basictab.cpp:150
 msgid "&Work path:"
 msgstr ""
 
-#: basictab.cpp:168
+#: basictab.cpp:164
 msgid "Run in term&inal"
 msgstr "টার্মিন্যালে সঞ্চালনা (&i)"
 
-#: basictab.cpp:174
+#: basictab.cpp:170
 msgid "Terminal &options:"
 msgstr "টার্মিন্যাল সংক্রান্ত বিকল্প (&o)"
 
-#: basictab.cpp:189
+#: basictab.cpp:185
 msgid "&Run as a different user"
 msgstr "ভিন্ন ব্যবহারকারী রূপে সঞ্চালন করুন (&R)"
 
-#: basictab.cpp:195
+#: basictab.cpp:191
 msgid "&Username:"
 msgstr "ব্যবহারকারী: (&U)"
 
-#: basictab.cpp:210
+#: basictab.cpp:206
 msgid "Current shortcut &key:"
 msgstr "বর্তমান শর্ট-কাট কি: (&k)"
 
-#: basictab.cpp:221
+#: basictab.cpp:217
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
@@ -300,6 +296,9 @@ msgid ""
 msgstr ""
 "সিস্টেম মেনু পুনরুদ্ধার করা হবে কি? সতর্কবার্তা: এর ফলে, স্বনির্ধারিত সকল মেনু মুছে "
 "ফেলা হবে।"
+
+#~ msgid "&Place in system tray"
+#~ msgstr "সিস্টেম ট্রের মধ্যে স্থাপন করুন (&P)"
 
 #, fuzzy
 #~| msgid "&Name:"
