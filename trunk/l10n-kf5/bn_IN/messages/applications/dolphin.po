@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-17 07:39+0000\n"
+"POT-Creation-Date: 2016-05-10 08:22+0000\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1180,7 +1180,7 @@ msgstr "ডকুমেনটেশন"
 
 #: main.cpp:103
 msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
+msgid "The files and folders passed as arguments will be selected."
 msgstr ""
 
 #: main.cpp:105
@@ -2049,7 +2049,9 @@ msgstr "ফিল্টার বার দেখানো হবে কিন�
 
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
 #: settings/dolphin_generalsettings.kcfg:46
-msgid "Should the view properties be used for all directories"
+#, fuzzy
+#| msgid "Should the view properties be used for all directories"
+msgid "Should the view properties be used for all folders"
 msgstr "সব ডিরেক্টারির জন্যে দেখার বৈশিষ্টাবলী দেখানো হবে কিনা"
 
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
