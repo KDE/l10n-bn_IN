@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-31 08:28+0000\n"
+"POT-Creation-Date: 2016-06-05 07:19+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2048,7 +2048,7 @@ msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
 msgid "Activity in session '%1'"
 msgstr "'%1'-এ কর্ম"
 
-#: Session.cpp:833
+#: Session.cpp:829
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
 "concerns about allowing these methods to be public.  If desired, these "
@@ -2056,24 +2056,24 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:860
+#: Session.cpp:856
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: Session.cpp:874 Session.cpp:886
+#: Session.cpp:870 Session.cpp:882
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: Session.cpp:876
+#: Session.cpp:872
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: Session.cpp:1230
+#: Session.cpp:1226
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
