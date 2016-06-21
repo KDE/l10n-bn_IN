@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-19 07:54+0000\n"
+"POT-Creation-Date: 2016-06-21 08:40+0000\n"
 "PO-Revision-Date: 2009-12-28 21:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -66,7 +66,7 @@ msgid ""
 "text files."
 msgstr ""
 
-#: filetypedetails.cpp:98 filetypesview.cpp:120 kservicelistwidget.cpp:121
+#: filetypedetails.cpp:98 filetypesview.cpp:120 kservicelistwidget.cpp:118
 msgid "Add..."
 msgstr "যোগ করুন..."
 
@@ -74,7 +74,7 @@ msgstr "যোগ করুন..."
 msgid "Add a new pattern for the selected file type."
 msgstr "নির্বাচিত ধরনের ফাইলের জন্য একটি নতুন বিন্যাস যোগ করুন।"
 
-#: filetypedetails.cpp:106 kservicelistwidget.cpp:137
+#: filetypedetails.cpp:106 kservicelistwidget.cpp:134
 msgid "Remove"
 msgstr "মুছে ফেলুন"
 
@@ -271,20 +271,20 @@ msgstr "ফাইলের ধরন %1 সম্পাদনা করুন"
 msgid "Create New File Type %1"
 msgstr "নতুন ফাইলের ধরন %1 নির্মাণ করুন"
 
-#: kservicelistwidget.cpp:50
+#: kservicelistwidget.cpp:47
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kservicelistwidget.cpp:64
+#: kservicelistwidget.cpp:61
 msgid "Application Preference Order"
 msgstr "পছন্দসই অ্যাপ্লিকেশনের অনুক্রম"
 
-#: kservicelistwidget.cpp:65
+#: kservicelistwidget.cpp:62
 msgid "Services Preference Order"
 msgstr "পছন্দসই পরিসেবার অনুক্রম"
 
-#: kservicelistwidget.cpp:77
+#: kservicelistwidget.cpp:74
 msgid ""
 "This is a list of applications associated with files of the selected file "
 "type. This list is shown in Konqueror's context menus when you select \"Open "
@@ -293,7 +293,7 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:82
+#: kservicelistwidget.cpp:79
 msgid ""
 "This is a list of services associated with files of the selected file type. "
 "This list is shown in Konqueror's context menus when you select a \"Preview "
@@ -302,11 +302,11 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:94
+#: kservicelistwidget.cpp:91
 msgid "Move &Up"
 msgstr "উপরে স্থানান্তর (&U)"
 
-#: kservicelistwidget.cpp:101
+#: kservicelistwidget.cpp:98
 msgid ""
 "Assigns a higher priority to the selected\n"
 "application, moving it up in the list. Note:  This\n"
@@ -314,17 +314,17 @@ msgid ""
 "associated with more than one application."
 msgstr ""
 
-#: kservicelistwidget.cpp:105
+#: kservicelistwidget.cpp:102
 msgid ""
 "Assigns a higher priority to the selected\n"
 "service, moving it up in the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:108
+#: kservicelistwidget.cpp:105
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kservicelistwidget.cpp:114
+#: kservicelistwidget.cpp:111
 msgid ""
 "Assigns a lower priority to the selected\n"
 "application, moving it down in the list. Note: This \n"
@@ -332,34 +332,34 @@ msgid ""
 "associated with more than one application."
 msgstr ""
 
-#: kservicelistwidget.cpp:118
+#: kservicelistwidget.cpp:115
 msgid ""
 "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:126
+#: kservicelistwidget.cpp:123
 msgid "Add a new application for this file type."
 msgstr "এই ফাইলের ধরনের জন্য একটি নতুন অ্যাপ্লিকেশন যোগ করুন।"
 
-#: kservicelistwidget.cpp:129
+#: kservicelistwidget.cpp:126
 msgid "Edit..."
 msgstr "সম্পাদনা..."
 
-#: kservicelistwidget.cpp:134
+#: kservicelistwidget.cpp:131
 msgid "Edit command line of the selected application."
 msgstr "নির্বাচিত অ্যাপ্লিকেশনের কমান্ড-লাইন সম্পাদনা করুন।"
 
-#: kservicelistwidget.cpp:142
+#: kservicelistwidget.cpp:139
 msgid "Remove the selected application from the list."
 msgstr "নির্বাচিত অ্যাপ্লিকেশনটি তালিকা থেকে সরিয়ে নিন।"
 
-#: kservicelistwidget.cpp:166
+#: kservicelistwidget.cpp:163
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kservicelistwidget.cpp:168
+#: kservicelistwidget.cpp:165
 msgctxt "No components associated with this file type"
 msgid "None"
 msgstr "শূণ্য"
