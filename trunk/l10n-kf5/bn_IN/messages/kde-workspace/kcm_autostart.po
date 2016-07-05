@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-21 08:32+0000\n"
+"POT-Creation-Date: 2016-07-05 08:20+0000\n"
 "PO-Revision-Date: 2009-01-13 15:46+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -143,34 +143,34 @@ msgid ""
 "Only files with “.sh” extensions are allowed for setting up the environment."
 msgstr "পরিবেশ নির্ধারণের জন্য KDE দ্বারা শুধুমাত্র sh এক্সটেনশন বিশিষ্ট ফাইল পড়া হয়।"
 
-#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
-#: autostartconfig.ui:26
-msgid "Add Program..."
-msgstr "প্রোগ্রাম যোগ করুন..."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
-#: autostartconfig.ui:33
-msgid "Add Script..."
-msgstr "স্ক্রিপ্ট যোগ করুন..."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: autostartconfig.ui:40
-msgid "&Remove"
-msgstr "মুছে ফেলুন (&R)"
-
 #. i18n: ectx: property (text), widget (QPushButton, btnProperties)
-#: autostartconfig.ui:47
+#: autostartconfig.ui:17
 #, fuzzy
 #| msgid "&Properties"
 msgid "&Properties..."
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+msgid "Add Script..."
+msgstr "স্ক্রিপ্ট যোগ করুন..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+msgid "&Remove"
+msgstr "মুছে ফেলুন (&R)"
+
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
-#: autostartconfig.ui:74
+#: autostartconfig.ui:53
 #, fuzzy
 #| msgid "Advanced"
 msgid "Advanced..."
 msgstr "উন্নত বৈশিষ্ট্য"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+msgid "Add Program..."
+msgstr "প্রোগ্রাম যোগ করুন..."
 
 #~ msgid "Shutdown"
 #~ msgstr "বন্ধ"
