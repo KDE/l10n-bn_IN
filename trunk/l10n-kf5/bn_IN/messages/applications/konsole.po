@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-09 07:29+0000\n"
+"POT-Creation-Date: 2016-07-10 07:10+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2742,13 +2742,13 @@ msgstr "বর্তমান ডিরেক্টরি (সংক্ষিপ
 msgid "Current Directory (Long): %D"
 msgstr "বর্তমান ডিরেক্টরি (বিস্তারিত)"
 
-#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:48
+#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:50
 #, fuzzy
 #| msgid "Window Title Set by Shell"
 msgid "Window Title Set by Shell: %w"
 msgstr "শেল দ্বারা উইন্ডোর শিরোনাম নির্ধারণ করা হবে"
 
-#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:49
+#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:51
 #, fuzzy
 #| msgid "Session number"
 msgid "Session Number: %#"
@@ -2766,28 +2766,39 @@ msgstr ""
 
 #: TabTitleFormatButton.cpp:46
 #, fuzzy
+#| msgid "User Name"
+msgid "User Name@ (if given): %U"
+msgstr "ব্যবহারকারীর নাম"
+
+#: TabTitleFormatButton.cpp:47
+#, fuzzy
 #| msgid "Remote Host (Short)"
 msgid "Remote Host (Short): %h"
 msgstr "দূরবর্তী হোস্ট (সংক্ষিপ্ত)"
 
-#: TabTitleFormatButton.cpp:47
+#: TabTitleFormatButton.cpp:48
 #, fuzzy
 #| msgid "Remote Host (Long)"
 msgid "Remote Host (Long): %H"
 msgstr "দূরবর্তী হোস্ট (বিস্তারিত)"
 
-#: TabTitleFormatButton.cpp:58
+#: TabTitleFormatButton.cpp:49
+#, c-format
+msgid "Command and arguments: %c"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:60
 msgid "Insert"
 msgstr "সন্নিবেশ করুন"
 
-#: TabTitleFormatButton.cpp:83
+#: TabTitleFormatButton.cpp:85
 #, fuzzy
 #| msgid "Tab title format:"
 msgctxt "@info:tooltip"
 msgid "Insert title format"
 msgstr "ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TabTitleFormatButton.cpp:87
+#: TabTitleFormatButton.cpp:89
 #, fuzzy
 #| msgid "Remote tab title format:"
 msgctxt "@info:tooltip"
