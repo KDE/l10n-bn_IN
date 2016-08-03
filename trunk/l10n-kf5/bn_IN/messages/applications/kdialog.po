@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdialog\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-15 01:21+0000\n"
+"POT-Creation-Date: 2016-08-03 07:04+0000\n"
 "PO-Revision-Date: 2009-01-06 10:54+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,216 +18,208 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"
-
-#: kdialog.cpp:572 kdialog.cpp:688
+#: kdialog.cpp:591 kdialog.cpp:715
 #, fuzzy
 #| msgid "Open"
 msgctxt "@title:window"
 msgid "Open"
 msgstr "খুলুন"
 
-#: kdialog.cpp:617
+#: kdialog.cpp:640
 #, fuzzy
 #| msgid "Save As"
 msgctxt "@title:window"
 msgid "Save As"
 msgstr "নতুন রূপে সংরক্ষণ"
 
-#: kdialog.cpp:792
+#: kdialog.cpp:819
 #, fuzzy
 #| msgid "Choose Color"
 msgctxt "@title:window"
 msgid "Choose Color"
 msgstr "রং নির্বাচন করুন"
 
-#: kdialog.cpp:843
+#: kdialog.cpp:872
 msgid "KDialog"
 msgstr "KDialog"
 
-#: kdialog.cpp:844
+#: kdialog.cpp:873
 msgid "KDialog can be used to show nice dialog boxes from shell scripts"
 msgstr "KDialog সহযোগে, শেল স্ক্রিপ্ট থেকে সুন্দর ডায়লগ বক্স প্রদর্শন করা যাবে"
 
-#: kdialog.cpp:846
+#: kdialog.cpp:875
 msgid "(C) 2000, Nick Thompson"
 msgstr "(C) ২০০০, নিক থমসন"
 
-#: kdialog.cpp:847
+#: kdialog.cpp:876
 msgid "David Faure"
 msgstr "ডেভিড ফেউরে"
 
-#: kdialog.cpp:847
+#: kdialog.cpp:876
 msgid "Current maintainer"
 msgstr "বর্তমান মেইন্টেনার"
 
-#: kdialog.cpp:848
+#: kdialog.cpp:877
 msgid "Brad Hards"
 msgstr "ব্র্যাড হার্ডস"
 
-#: kdialog.cpp:849
+#: kdialog.cpp:878
 msgid "Nick Thompson"
 msgstr "নিক থমসন"
 
-#: kdialog.cpp:850
+#: kdialog.cpp:879
 msgid "Matthias Hölzer"
 msgstr "ম্যাথায়েস হোলজার"
 
-#: kdialog.cpp:851
+#: kdialog.cpp:880
 msgid "David Gümbel"
 msgstr "ডেভিড গুমবেল"
 
-#: kdialog.cpp:852
+#: kdialog.cpp:881
 msgid "Richard Moore"
 msgstr "রিচার্ড মুর"
 
-#: kdialog.cpp:853
+#: kdialog.cpp:882
 msgid "Dawit Alemayehu"
 msgstr "ডাউইট আলেমাইয়েহু"
 
-#: kdialog.cpp:854
+#: kdialog.cpp:883
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: kdialog.cpp:860
+#: kdialog.cpp:889
 msgid "Question message box with yes/no buttons"
 msgstr "হ্যাঁ/না শীর্ষক বাটন সহ প্রশ্নসূচক বক্স"
 
-#: kdialog.cpp:861
+#: kdialog.cpp:890
 msgid "Question message box with yes/no/cancel buttons"
 msgstr "হ্যাঁ/না/বাতিল শীর্ষক বাটন সহ প্রশ্নসূচক বক্স"
 
-#: kdialog.cpp:862
+#: kdialog.cpp:891
 msgid "Warning message box with yes/no buttons"
 msgstr "হ্যাঁ/না শীর্ষক বাটন সহ সতর্কতাসূচক বার্তার বক্স"
 
-#: kdialog.cpp:863
+#: kdialog.cpp:892
 msgid "Warning message box with continue/cancel buttons"
 msgstr "এগিয়ে চলুন/বাতিল শীর্ষক বাটন সহ সতর্কতাসূচক বার্তার বক্স"
 
-#: kdialog.cpp:864
+#: kdialog.cpp:893
 msgid "Warning message box with yes/no/cancel buttons"
 msgstr "এগিয়ে হ্যাঁ/না/বাতিল শীর্ষক বাটন সহ সতর্কতাসূচক বার্তার বক্স"
 
-#: kdialog.cpp:865
+#: kdialog.cpp:894
 msgid "Use text as Yes button label"
 msgstr ""
 
-#: kdialog.cpp:866
+#: kdialog.cpp:895
 msgid "Use text as No button label"
 msgstr ""
 
-#: kdialog.cpp:867
+#: kdialog.cpp:896
 msgid "Use text as Cancel button label"
 msgstr ""
 
-#: kdialog.cpp:868
+#: kdialog.cpp:897
 msgid "Use text as Continue button label"
 msgstr ""
 
-#: kdialog.cpp:869
+#: kdialog.cpp:898
 msgid "'Sorry' message box"
 msgstr "'দুঃখিত' শীর্ষক বার্তার বক্স"
 
-#: kdialog.cpp:870
+#: kdialog.cpp:899
 msgid "'Sorry' message box with expandable Details field"
 msgstr ""
 
-#: kdialog.cpp:871
+#: kdialog.cpp:900
 msgid "'Error' message box"
 msgstr "'ত্রুটি' শীর্ষক বার্তার বক্স"
 
-#: kdialog.cpp:872
+#: kdialog.cpp:901
 msgid "'Error' message box with expandable Details field"
 msgstr ""
 
-#: kdialog.cpp:873
+#: kdialog.cpp:902
 msgid "Message Box dialog"
 msgstr "বার্তা বক্সের ডায়লগ"
 
-#: kdialog.cpp:874
+#: kdialog.cpp:903
 msgid "Input Box dialog"
 msgstr "ইনপুট বক্স ডায়লগ"
 
-#: kdialog.cpp:875
+#: kdialog.cpp:904
 msgid "Password dialog"
 msgstr "পাসওয়ার্ড ডায়লগ"
 
-#: kdialog.cpp:876
+#: kdialog.cpp:905
 msgid "Text Box dialog"
 msgstr "টেক্সট বক্স ডায়লগ"
 
-#: kdialog.cpp:877
+#: kdialog.cpp:906
 msgid "Text Input Box dialog"
 msgstr "টেক্সট ইনপুট বক্স ডায়লগ"
 
-#: kdialog.cpp:878
+#: kdialog.cpp:907
 msgid "ComboBox dialog"
 msgstr "কম্বোবক্স ডায়লগ"
 
-#: kdialog.cpp:879
+#: kdialog.cpp:908
 msgid "Menu dialog"
 msgstr "মেনু ডায়লগ"
 
-#: kdialog.cpp:880
+#: kdialog.cpp:909
 msgid "Check List dialog"
 msgstr "চেক-লিস্ট ডায়লগ"
 
-#: kdialog.cpp:881
+#: kdialog.cpp:910
 msgid "Radio List dialog"
 msgstr "রেডিও তালিকার ডায়লগ"
 
-#: kdialog.cpp:882
+#: kdialog.cpp:911
 msgid "Passive Popup"
 msgstr ""
 
-#: kdialog.cpp:883
+#: kdialog.cpp:912
 msgid "File dialog to open an existing file"
 msgstr "উপস্থিত ফাইল খোলার জন্য ব্যবহৃত ফাইল ডায়লগ"
 
-#: kdialog.cpp:884
+#: kdialog.cpp:913
 msgid "File dialog to save a file"
 msgstr "ফাইল সংরক্ষণের জন্য ব্যবহারযোগ্য ফাইল ডায়লগ"
 
-#: kdialog.cpp:885
+#: kdialog.cpp:914
 msgid "File dialog to select an existing directory"
 msgstr "উপস্থিত ডিরেক্টরি নির্বাচনের জন্য ব্যবহৃত ফাইল ডায়লগ"
 
-#: kdialog.cpp:886
+#: kdialog.cpp:915
 msgid "File dialog to open an existing URL"
 msgstr "উপস্থিত URL খোলার জন্য ব্যবহৃত ফাইল ডায়লগ"
 
-#: kdialog.cpp:887
+#: kdialog.cpp:916
 msgid "File dialog to save a URL"
 msgstr "URL সংরক্ষণের জন্য ব্যবহৃত ফাইল ডায়লগ"
 
-#: kdialog.cpp:888
+#: kdialog.cpp:917
 msgid "Icon chooser dialog"
 msgstr "আইকন নির্বাচনের ডায়লগ"
 
-#: kdialog.cpp:889
+#: kdialog.cpp:918
 msgid "Progress bar dialog, returns a D-Bus reference for communication"
 msgstr ""
 
-#: kdialog.cpp:890
+#: kdialog.cpp:919
 msgid "Color dialog to select a color"
 msgstr "রং নির্বাচনের জন্য রংয়ের ডায়লগ"
 
-#: kdialog.cpp:892
+#: kdialog.cpp:921
 msgid "Dialog title"
 msgstr "ডায়লগের শিরোনাম"
 
-#: kdialog.cpp:893
+#: kdialog.cpp:922
 msgid "Default entry to use for combobox, menu and color"
 msgstr "কম্বোবক্স, মেনু ও রংয়ের ক্ষেত্রে ব্যবহারযোগ্য ডিফল্ট মান"
 
-#: kdialog.cpp:894
+#: kdialog.cpp:923
 msgid ""
 "Allows the --getopenurl and --getopenfilename options to return multiple "
 "files"
@@ -235,7 +227,7 @@ msgstr ""
 "--getopenurl ও --getopenfilename বিকল্প দ্বারা একাধিক ফাইল উল্লেখ করার সুবিধা "
 "উপলব্ধ করা হয়"
 
-#: kdialog.cpp:895
+#: kdialog.cpp:924
 msgid ""
 "Return list items on separate lines (for checklist option and file open with "
 "--multiple)"
@@ -243,38 +235,50 @@ msgstr ""
 "তালিকার বস্তুগুলি পৃথক পংক্তির মধ্যে উপলব্ধ করা হবে (চেকলিস্ট বিকল্প ও --multiple "
 "বিকল্প সহযোগে খোলা ফাইলের ক্ষেত্রে প্রযোজ্য)"
 
-#: kdialog.cpp:896
+#: kdialog.cpp:925
 msgid "Outputs the winId of each dialog"
 msgstr "প্রতিটি ডায়লগের winId মান প্রদর্শন করা হয়"
 
-#: kdialog.cpp:897
+#: kdialog.cpp:926
 msgid ""
 "Config file and option name for saving the \"do-not-show/ask-again\" state"
 msgstr ""
 "\"do-not-show/ask-again\" অবস্থা সংরক্ষণের জন্য ব্যবহারযোগ্য কনফিগা ফাইল ও "
 "বিকল্পের নাম"
 
-#: kdialog.cpp:898
+#: kdialog.cpp:927
 #, fuzzy
 #| msgid "Color dialog to select a color"
 msgid "Slider dialog box, returns selected value"
 msgstr "রং নির্বাচনের জন্য রংয়ের ডায়লগ"
 
-#: kdialog.cpp:899
+#: kdialog.cpp:928
 #, fuzzy
 #| msgid "Color dialog to select a color"
 msgid "Calendar dialog box, returns selected date"
 msgstr "রং নির্বাচনের জন্য রংয়ের ডায়লগ"
 
-#: kdialog.cpp:902
+#: kdialog.cpp:931
 msgid "Makes the dialog transient for an X app specified by winid"
 msgstr ""
 
-#: kdialog.cpp:905
+#: kdialog.cpp:932
+msgid "A synonym for --attach"
+msgstr ""
+
+#: kdialog.cpp:934
 msgid "Arguments - depending on main option"
 msgstr "আর্গুমেন্ট - মূল বিকল্পের উপর ভিত্তি করে চিহ্নিত"
 
-#: widgets.cpp:117
+#: widgets.cpp:118
 #, kde-format
 msgid "kdialog: could not open file %1"
 msgstr "kdialog: ফাইল %1 খোলা যায়নি"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "রুণা ভট্টাচার্য্য"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "runab@redhat.com"
