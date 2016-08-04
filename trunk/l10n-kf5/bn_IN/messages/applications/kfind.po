@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-03 07:04+0000\n"
+"POT-Creation-Date: 2016-08-04 07:31+0000\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -17,14 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "রুণা ভট্টাচার্য্য"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "runab@redhat.com"
 
 #: kfinddlg.cpp:49
 #, fuzzy
@@ -507,95 +499,105 @@ msgctxt "@title:window"
 msgid "Error while using locate"
 msgstr "locate ব্যবহার করতে ত্রুটি"
 
-#: main.cpp:34
+#: main.cpp:42
+msgid "KFind"
+msgstr "KFind"
+
+#: main.cpp:43
 msgid "KDE file find utility"
 msgstr "KDE দ্বারা উপলব্ধ ফাইল অনুসন্ধান ব্যবস্থা"
 
 #: main.cpp:44
-msgid "KFind"
-msgstr "KFind"
-
-#: main.cpp:46
 msgid "(c) 1998-2003, The KDE Developers"
 msgstr "(c) ১৯৯৮-২০০৩, KDE নির্মাতাবৃন্দ"
 
-#: main.cpp:48
+#: main.cpp:46
 msgid "Eric Coquelle"
 msgstr "এরিখ কোকেল"
 
-#: main.cpp:48
+#: main.cpp:46
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইন্টেনার"
 
-#: main.cpp:49
+#: main.cpp:47
 msgid "Mark W. Webb"
 msgstr "মার্ক ডব্লিউ. ওয়েব"
 
-#: main.cpp:49
+#: main.cpp:47
 msgid "Developer"
 msgstr "ডিভেলপর"
 
-#: main.cpp:50
+#: main.cpp:48
 msgid "Beppe Grimaldi"
 msgstr "বেপে গ্রিমাল্ডি"
 
-#: main.cpp:50
+#: main.cpp:48
 msgid "UI Design & more search options"
 msgstr "প্রেক্ষাপটের বিন্যাস ও অনুসন্ধানের অতিরিক্ত বিকল্প"
 
-#: main.cpp:51
+#: main.cpp:49
 msgid "Martin Hartig"
 msgstr "মার্টিন হার্টিগ"
 
-#: main.cpp:52
+#: main.cpp:50
 msgid "Stephan Kulow"
 msgstr "স্টিফান কুলো"
 
-#: main.cpp:53
+#: main.cpp:51
 msgid "Mario Weilguni"
 msgstr "মারিও ওয়েলগুনি"
 
-#: main.cpp:54
+#: main.cpp:52
 msgid "Alex Zepeda"
 msgstr "অ্যালেক্স জেপেডা"
 
-#: main.cpp:55
+#: main.cpp:53
 msgid "Miroslav Flídr"
 msgstr "মিরোস্লাভ ফ্লাইডার"
 
-#: main.cpp:56
+#: main.cpp:54
 msgid "Harri Porten"
 msgstr "হ্যারি পোর্টেন"
 
-#: main.cpp:57
+#: main.cpp:55
 msgid "Dima Rogozin"
 msgstr "ডিমা রোগোজিন"
 
-#: main.cpp:58
+#: main.cpp:56
 msgid "Carsten Pfeiffer"
 msgstr "কার্স্টেন পাইফার"
 
-#: main.cpp:59
+#: main.cpp:57
 msgid "Hans Petter Bieker"
 msgstr "হান্স পেটার বিইকার"
 
-#: main.cpp:60
+#: main.cpp:58
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: main.cpp:60
+#: main.cpp:58
 msgid "UI Design"
 msgstr "প্রেক্ষাপটের বিন্যাস"
 
-#: main.cpp:61
+#: main.cpp:59
 msgid "Alexander Neundorf"
 msgstr "আলেক্সান্ডার নিউন্ডোর্ফ"
 
-#: main.cpp:62
+#: main.cpp:60
 msgid "Clarence Dang"
 msgstr "ক্ল্যারেন্স ড্যং"
 
-#: main.cpp:73
+#: main.cpp:61
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#: main.cpp:61
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
+
+#: main.cpp:69
 msgid "Path(s) to search"
 msgstr "অনুসন্ধান স্থলের পাথ"
 
