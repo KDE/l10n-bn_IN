@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-09 07:22+0000\n"
+"POT-Creation-Date: 2016-08-07 07:02+0000\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -2810,7 +2810,7 @@ msgstr "রিলোড"
 msgid "Default"
 msgstr "ডিফল্ট"
 
-#: views/dolphinview.cpp:553
+#: views/dolphinview.cpp:549
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -2818,7 +2818,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "১টা ফোল্ডার নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফোল্ডার নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:554
+#: views/dolphinview.cpp:550
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -2826,7 +2826,7 @@ msgid_plural "%1 Files selected"
 msgstr[0] "১টা ফাইল নির্বাচিত হয়েছে"
 msgstr[1] "%1 ফাইল নির্বাচিত হয়েছে"
 
-#: views/dolphinview.cpp:558
+#: views/dolphinview.cpp:554
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Folder"
@@ -2836,7 +2836,7 @@ msgid_plural "%1 Folders"
 msgstr[0] "ফোল্ডার"
 msgstr[1] "ফোল্ডার"
 
-#: views/dolphinview.cpp:559
+#: views/dolphinview.cpp:555
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
@@ -2844,19 +2844,19 @@ msgid_plural "%1 Files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:563
+#: views/dolphinview.cpp:559
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:567
+#: views/dolphinview.cpp:563
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:573
+#: views/dolphinview.cpp:569
 #, fuzzy
 #| msgctxt "@action:inmenu Sort"
 #| msgid "Folders First"
@@ -2864,28 +2864,28 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "ফোল্ডার প্রথমে"
 
-#: views/dolphinview.cpp:811
+#: views/dolphinview.cpp:807
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:921
+#: views/dolphinview.cpp:917
 #, fuzzy
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:926
+#: views/dolphinview.cpp:922
 #, fuzzy
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:1387
+#: views/dolphinview.cpp:1383
 #, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Delete operation completed."
@@ -2893,17 +2893,17 @@ msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1396
+#: views/dolphinview.cpp:1392
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1539
+#: views/dolphinview.cpp:1535
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1541
+#: views/dolphinview.cpp:1537
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
