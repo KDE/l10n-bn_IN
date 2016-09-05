@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-24 06:45+0000\n"
+"POT-Creation-Date: 2016-09-05 06:59+0000\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -2074,18 +2074,23 @@ msgstr "inline নাম পরিবর্তন"
 msgid "Show selection toggle"
 msgstr "নির্বাচনের অদলবদল দেখাও"
 
-#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
 #: settings/dolphin_generalsettings.kcfg:66
+msgid "Use tab for switching between right and left split"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: settings/dolphin_generalsettings.kcfg:70
 msgid "Show tooltips"
 msgstr "টুলের সম্যন্ধে দেখাও"
 
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:70
+#: settings/dolphin_generalsettings.kcfg:74
 msgid "Show 'Copy To' and 'Move To' commands in context menu"
 msgstr "'কপি' এবং 'মুভ' কমান্ড দেখাও কনটেক্স্ট মেনুতে"
 
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:74
+#: settings/dolphin_generalsettings.kcfg:78
 #, fuzzy
 #| msgctxt "@option:radio"
 #| msgid "Use common view properties for all folders"
@@ -2093,34 +2098,34 @@ msgid "Timestamp since when the view properties are valid"
 msgstr "সব ফোল্ডার প্রদর্শনের জন্যে একই বৈশিষ্টাবলী ব্যবহৃত হবে"
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:77
+#: settings/dolphin_generalsettings.kcfg:81
 msgid "Use auto-expanding folders for all view types"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:81
+#: settings/dolphin_generalsettings.kcfg:85
 msgid "Show zoom slider in the statusbar"
 msgstr "জুম স্লাইডার দেখাও স্ট্যাটাসবারে"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:85
+#: settings/dolphin_generalsettings.kcfg:89
 #, fuzzy
 #| msgid "Show zoom slider in the statusbar"
 msgid "Show the space information in the statusbar"
 msgstr "জুম স্লাইডার দেখাও স্ট্যাটাসবারে"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:89
+#: settings/dolphin_generalsettings.kcfg:93
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:93
+#: settings/dolphin_generalsettings.kcfg:97
 msgid "Enlarge Small Previews"
 msgstr ""
 
 #. i18n: ectx: label, entry (SortingChoice), group (General)
-#: settings/dolphin_generalsettings.kcfg:102
+#: settings/dolphin_generalsettings.kcfg:106
 msgid ""
 "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
 "items"
@@ -2179,14 +2184,14 @@ msgctxt "@title:group General settings"
 msgid "General"
 msgstr "সাধারন"
 
-#: settings/general/behaviorsettingspage.cpp:49
+#: settings/general/behaviorsettingspage.cpp:50
 #, fuzzy
 #| msgid "&View"
 msgctxt "@title:group"
 msgid "View"
 msgstr "দেখুন (&V)"
 
-#: settings/general/behaviorsettingspage.cpp:52
+#: settings/general/behaviorsettingspage.cpp:53
 #, fuzzy
 #| msgctxt "@option:radio"
 #| msgid "Remember view properties for each folder"
@@ -2194,7 +2199,7 @@ msgctxt "@option:radio"
 msgid "Remember properties for each folder"
 msgstr "প্রত্যেকটা ফোল্ডারের প্রদর্শনের বৈশিষ্টাবলী সংরক্ষিত হবে"
 
-#: settings/general/behaviorsettingspage.cpp:53
+#: settings/general/behaviorsettingspage.cpp:54
 #, fuzzy
 #| msgctxt "@option:radio"
 #| msgid "Use common view properties for all folders"
@@ -2202,7 +2207,7 @@ msgctxt "@option:radio"
 msgid "Use common properties for all folders"
 msgstr "সব ফোল্ডার প্রদর্শনের জন্যে একই বৈশিষ্টাবলী ব্যবহৃত হবে"
 
-#: settings/general/behaviorsettingspage.cpp:60
+#: settings/general/behaviorsettingspage.cpp:61
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -2210,37 +2215,42 @@ msgctxt "@title:group"
 msgid "Sorting Mode"
 msgstr "অনুসন্ধান..."
 
-#: settings/general/behaviorsettingspage.cpp:63
+#: settings/general/behaviorsettingspage.cpp:64
 msgctxt "option:radio"
 msgid "Natural sorting"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:64
+#: settings/general/behaviorsettingspage.cpp:65
 msgctxt "option:radio"
 msgid "Alphabetical sorting, case insensitive"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:65
+#: settings/general/behaviorsettingspage.cpp:66
 msgctxt "option:radio"
 msgid "Alphabetical sorting, case sensitive"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:73
+#: settings/general/behaviorsettingspage.cpp:74
 msgctxt "@option:check"
 msgid "Show tooltips"
 msgstr "টুলের সম্যন্ধে দেখানো হবে"
 
-#: settings/general/behaviorsettingspage.cpp:76
+#: settings/general/behaviorsettingspage.cpp:77
 msgctxt "@option:check"
 msgid "Show selection marker"
 msgstr "নির্বাচনের মার্কার দেখাও"
 
-#: settings/general/behaviorsettingspage.cpp:79
+#: settings/general/behaviorsettingspage.cpp:80
 #, fuzzy
 #| msgid "Rename inline"
 msgctxt "option:check"
 msgid "Rename inline"
 msgstr "inline নাম পরিবর্তন"
+
+#: settings/general/behaviorsettingspage.cpp:83
+msgctxt "option:check"
+msgid "Use tab for switching between right and left split view"
+msgstr ""
 
 #: settings/general/configurepreviewplugindialog.cpp:50
 #, kde-format
@@ -2864,28 +2874,28 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "ফোল্ডার প্রথমে"
 
-#: views/dolphinview.cpp:807
+#: views/dolphinview.cpp:816
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:917
+#: views/dolphinview.cpp:926
 #, fuzzy
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:922
+#: views/dolphinview.cpp:931
 #, fuzzy
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:1383
+#: views/dolphinview.cpp:1392
 #, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Delete operation completed."
@@ -2893,17 +2903,17 @@ msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1392
+#: views/dolphinview.cpp:1401
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1535
+#: views/dolphinview.cpp:1544
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1537
+#: views/dolphinview.cpp:1546
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
