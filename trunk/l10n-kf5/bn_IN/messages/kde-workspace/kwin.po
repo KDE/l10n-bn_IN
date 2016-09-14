@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-13 08:16+0000\n"
+"POT-Creation-Date: 2016-09-14 07:14+0000\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1234,63 +1234,63 @@ msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "চিহ্নিত ডেস্কটপে স্থানান্তর (&D)"
 
-#: tabbox/tabbox.cpp:529
+#: tabbox/tabbox.cpp:530
 msgid "Walk Through Windows"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন"
 
-#: tabbox/tabbox.cpp:530
-msgid "Walk Through Windows (Reverse)"
-msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
-
 #: tabbox/tabbox.cpp:531
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative"
+msgid "Walk Through Windows (Reverse)"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
 #: tabbox/tabbox.cpp:532
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative (Reverse)"
+msgid "Walk Through Windows Alternative"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
 #: tabbox/tabbox.cpp:533
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application"
+msgid "Walk Through Windows Alternative (Reverse)"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
 #: tabbox/tabbox.cpp:534
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application (Reverse)"
+msgid "Walk Through Windows of Current Application"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
 #: tabbox/tabbox.cpp:535
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative"
+msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
 #: tabbox/tabbox.cpp:536
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative"
 msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
 #: tabbox/tabbox.cpp:537
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgstr "উইন্ডোগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
+
+#: tabbox/tabbox.cpp:538
 msgid "Walk Through Desktops"
 msgstr "ডেস্কটপগুলি পরিদর্শন করুন"
 
-#: tabbox/tabbox.cpp:538
+#: tabbox/tabbox.cpp:539
 msgid "Walk Through Desktops (Reverse)"
 msgstr "ডেস্কটপগুলি পরিদর্শন করুন (বিপরীত দিশায়)"
 
-#: tabbox/tabbox.cpp:539
+#: tabbox/tabbox.cpp:540
 msgid "Walk Through Desktop List"
 msgstr "ডেস্কটপ তালিকা পরিদর্শন করুন"
 
-#: tabbox/tabbox.cpp:540
+#: tabbox/tabbox.cpp:541
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "ডেস্কটপ তালিকা পরিদর্শন করুন (বিপরীত দিশায়)"
 
@@ -1482,12 +1482,12 @@ msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
-#: useractions.cpp:1046
+#: useractions.cpp:1048
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr "উইন্ডো সক্রিয় করুন (%1)"
 
-#: useractions.cpp:1256
+#: useractions.cpp:1258
 msgid ""
 "The window manager is configured to consider the screen with the mouse on it "
 "as active one.\n"
