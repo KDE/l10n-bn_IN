@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfmclient\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-17 06:56+0000\n"
+"POT-Creation-Date: 2016-09-18 06:59+0000\n"
 "PO-Revision-Date: 2008-07-06 16:07+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -96,46 +96,44 @@ msgstr ""
 
 #: kfmclient.cpp:111
 msgid ""
-"  kfmclient openProfile 'profile' ['url']\n"
-"            # Opens a window using the given profile.\n"
-"            #   'profile' is a file under ~/.kde/share/apps/konqueror/"
-"profiles.\n"
-"            #   'url' is an optional URL to open.\n"
-"\n"
-msgstr ""
-"  kfmclient openProfile 'profile' ['url']\n"
-"            # উল্লিখিত প্রোফাইল প্রয়োগ করে একটি উইন্ডো খোলা হয়।\n"
-"            #   'profile' মূলত ~/.kde/share/apps/konqueror/profiles-র অধীন "
-"একটি ফাইল।\n"
-"            #   ঐচ্ছিকরূপে প্রদর্শনযোগ্য URL, 'url' দ্বারা নির্দিষ্ট করা হয়।\n"
-"\n"
-
-#: kfmclient.cpp:116
-msgid ""
 "  kfmclient exec is deprecated and kept for compatibility with KDE 3. \n"
 "            # See kioclient exec for more information.\n"
 msgstr ""
 
-#: kfmclient.cpp:340
-#, fuzzy, kde-format
-#| msgid "Profile %1 not found\n"
-msgid "Profile '%1' not found\n"
-msgstr "%1 প্রোফাইল পাওয়া যায়নি\n"
-
-#: kfmclient.cpp:372
+#: kfmclient.cpp:336
 #, fuzzy
 #| msgid "Syntax Error: Not enough arguments\n"
 msgid "Syntax error, not enough arguments\n"
 msgstr "সিন্টেক্স ত্রুটি: পর্যাপ্ত আর্গুমেন্ট উল্লিখিত হয়নি\n"
 
-#: kfmclient.cpp:376
+#: kfmclient.cpp:340
 #, fuzzy
 #| msgid "Syntax Error: Too many arguments\n"
 msgid "Syntax error, too many arguments\n"
 msgstr "সিন্টেক্স ত্রুটি: অত্যাধিক আর্গুমেন্ট\n"
 
-#: kfmclient.cpp:433
+#: kfmclient.cpp:397
 #, fuzzy, kde-format
 #| msgid "Syntax Error: Unknown command '%1'\n"
 msgid "Syntax error, unknown command '%1'\n"
 msgstr "সিন্টেক্স ত্রুটি: অজানা কমান্ড '%1'\n"
+
+#~ msgid ""
+#~ "  kfmclient openProfile 'profile' ['url']\n"
+#~ "            # Opens a window using the given profile.\n"
+#~ "            #   'profile' is a file under ~/.kde/share/apps/konqueror/"
+#~ "profiles.\n"
+#~ "            #   'url' is an optional URL to open.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "  kfmclient openProfile 'profile' ['url']\n"
+#~ "            # উল্লিখিত প্রোফাইল প্রয়োগ করে একটি উইন্ডো খোলা হয়।\n"
+#~ "            #   'profile' মূলত ~/.kde/share/apps/konqueror/profiles-র অধীন "
+#~ "একটি ফাইল।\n"
+#~ "            #   ঐচ্ছিকরূপে প্রদর্শনযোগ্য URL, 'url' দ্বারা নির্দিষ্ট করা হয়।\n"
+#~ "\n"
+
+#, fuzzy
+#~| msgid "Profile %1 not found\n"
+#~ msgid "Profile '%1' not found\n"
+#~ msgstr "%1 প্রোফাইল পাওয়া যায়নি\n"
