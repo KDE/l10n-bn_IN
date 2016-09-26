@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-10 07:54+0000\n"
+"POT-Creation-Date: 2016-09-26 07:21+0000\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -410,7 +410,7 @@ msgid "&Move to Trash"
 msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
 #: plugins/folder/foldermodel.cpp:1193
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:335
 msgid "&Empty Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
@@ -422,100 +422,61 @@ msgstr "মুছে ফেলুন (&D)"
 msgid "&Paste"
 msgstr "পেস্ট করুন (&P)"
 
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
-msgctxt "@title:menu"
-msgid "Copy To"
-msgstr "চিহ্নিত স্থানে কপি করুন"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
-#, fuzzy
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
-msgstr "ব্রাউজ করুন..."
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "এইখানে কপি করুন"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "এইখানে স্থানান্তর করুন"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:242
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:265
 msgid "Create &Folder..."
 msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:276
 msgid "&Restore"
 msgstr "পুনরুদ্ধার (&R)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:300
 #, fuzzy
 #| msgid "Show All Files"
 msgid "Show Original Directory"
 msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:300
 #, fuzzy
 #| msgid "Show All Files"
 msgid "Show Original File"
 msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:347
 #, fuzzy
 #| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:371
 msgid "&Bookmark This Page"
 msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:373
 msgid "&Bookmark This Location"
 msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:376
 msgid "&Bookmark This Folder"
 msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:378
 msgid "&Bookmark This Link"
 msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:380
 msgid "&Bookmark This File"
 msgstr "বর্তমান ফাইল লিংক করুন (&B)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:414
 msgid "Preview In"
 msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:449
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
@@ -571,6 +532,38 @@ msgstr ""
 #: plugins/folder/viewpropertiesmenu.cpp:97
 msgid "Locked"
 msgstr ""
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "চিহ্নিত স্থানে কপি করুন"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "ব্রাউজ করুন..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "এইখানে কপি করুন"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "এইখানে স্থানান্তর করুন"
 
 #~ msgid "Share"
 #~ msgstr "যৌথ ব্যবহার"
