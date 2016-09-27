@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-23 07:42+0000\n"
+"POT-Creation-Date: 2016-09-27 08:28+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -47,19 +47,9 @@ msgctxt "Name"
 msgid "About-Page for Konqueror"
 msgstr "Konqueror-র পরিচিতির পেজ"
 
-#: konqueror/Home.desktop:7
-msgctxt "Name"
-msgid "Home"
-msgstr "ব্যক্তিগত ফোল্ডার"
-
-#: konqueror/Home.desktop:101
-msgctxt "GenericName"
-msgid "Personal Files"
-msgstr "ব্যক্তিগত ফাইল"
-
-#: konqueror/kfmclient.desktop:10 konqueror/kfmclient_dir.desktop:10
-#: konqueror/kfmclient_html.desktop:9 konqueror/kfmclient_war.desktop:9
-#: konqueror/konqbrowser.desktop:7 konqueror/konqueror.desktop:4
+#: konqueror/kfmclient.desktop:10 konqueror/kfmclient_html.desktop:9
+#: konqueror/kfmclient_war.desktop:9 konqueror/konqbrowser.desktop:7
+#: konqueror/konqueror.desktop:4
 msgctxt "Name"
 msgid "Konqueror"
 msgstr "Konqueror"
@@ -73,11 +63,6 @@ msgstr "ওয়েব ব্রাউজার"
 msgctxt "Comment"
 msgid "KDE File Manager & Web Browser"
 msgstr "KDE ফাইল পরিচালন ব্যবস্থা ও ওয়েব ব্রাউজার"
-
-#: konqueror/konquerorsu.desktop:8
-msgctxt "Name"
-msgid "File Manager - Super User Mode"
-msgstr "ফাইল পরিচালন ব্যবস্থা - সুপার-ইউজার মোড"
 
 #: konqueror/libkonq/src/directory_bookmarkbar.desktop:3
 msgctxt "Name"
@@ -410,36 +395,6 @@ msgstr "KDED Konqueror প্রি-লোডার মডিউল"
 msgctxt "Comment"
 msgid "Reduces Konqueror startup time"
 msgstr "Konqueror আরম্ভ করতে ব্যবহৃত সময় হ্রাস করে"
-
-#: konqueror/profile_filemanagement.desktop:2
-msgctxt "Name"
-msgid "File Management"
-msgstr "ফাইল পরিচালনা"
-
-#: konqueror/profile_filepreview.desktop:9
-msgctxt "Name"
-msgid "File Preview"
-msgstr "ফাইলের পূর্বরূপ প্রদর্শন"
-
-#: konqueror/profile_kde_devel.desktop:3
-msgctxt "Name"
-msgid "KDE Development"
-msgstr "KDE ডিভেলপমেন্ট"
-
-#: konqueror/profile_midnightcommander.desktop:2
-msgctxt "Name"
-msgid "Midnight Commander"
-msgstr ""
-
-#: konqueror/profile_tabbedbrowsing.desktop:3
-msgctxt "Name"
-msgid "Tabbed Browsing"
-msgstr "ট্যাবসহ ব্রাউজ"
-
-#: konqueror/profile_webbrowsing.desktop:2
-msgctxt "Name"
-msgid "Web Browsing"
-msgstr "ওয়েব ব্রাউজ"
 
 #: konqueror/settings/bookmarks/bookmarks.desktop:12
 #: konqueror/sidebar/default_entries/bookmarks.desktop:5
@@ -794,6 +749,38 @@ msgstr "বিবিধ বৈশিষ্ট্য"
 msgctxt "Name"
 msgid "Web SideBar Module"
 msgstr "ওয়েব সাইড-বার মডিউল"
+
+#~ msgctxt "Name"
+#~ msgid "Home"
+#~ msgstr "ব্যক্তিগত ফোল্ডার"
+
+#~ msgctxt "GenericName"
+#~ msgid "Personal Files"
+#~ msgstr "ব্যক্তিগত ফাইল"
+
+#~ msgctxt "Name"
+#~ msgid "File Manager - Super User Mode"
+#~ msgstr "ফাইল পরিচালন ব্যবস্থা - সুপার-ইউজার মোড"
+
+#~ msgctxt "Name"
+#~ msgid "File Management"
+#~ msgstr "ফাইল পরিচালনা"
+
+#~ msgctxt "Name"
+#~ msgid "File Preview"
+#~ msgstr "ফাইলের পূর্বরূপ প্রদর্শন"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Development"
+#~ msgstr "KDE ডিভেলপমেন্ট"
+
+#~ msgctxt "Name"
+#~ msgid "Tabbed Browsing"
+#~ msgstr "ট্যাবসহ ব্রাউজ"
+
+#~ msgctxt "Name"
+#~ msgid "Web Browsing"
+#~ msgstr "ওয়েব ব্রাউজ"
 
 #~ msgctxt "Name"
 #~ msgid "Print..."
