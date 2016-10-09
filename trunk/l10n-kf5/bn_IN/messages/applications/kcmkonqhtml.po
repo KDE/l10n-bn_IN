@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-29 07:08+0000\n"
+"POT-Creation-Date: 2016-10-09 06:59+0000\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -931,54 +931,67 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: generalopts.cpp:57
+#: generalopts.cpp:59
 msgid "Tabbed Browsing"
 msgstr "ট্যাব সহযোগে ব্রাউজের ব্যবস্থা"
 
-#: generalopts.cpp:83
+#: generalopts.cpp:85
 msgctxt "@label:listbox"
 msgid "When &Konqueror starts:"
 msgstr "Konqueror আরম্ভ কালে: (&K)"
 
-#: generalopts.cpp:87
+#: generalopts.cpp:94
 msgctxt "@item:inlistbox"
 msgid "Show Introduction Page"
 msgstr "প্রারম্ভিক পেজ প্রদর্শন করা হবে"
 
-#: generalopts.cpp:88
+#: generalopts.cpp:95
+#, fuzzy
+#| msgctxt "@item:inlistbox"
+#| msgid "Show My Home Page"
 msgctxt "@item:inlistbox"
-msgid "Show My Home Page"
+msgid "Show My Start Page"
 msgstr "হোম পেজ প্রদর্শন করা হবে"
 
-#: generalopts.cpp:89
+#: generalopts.cpp:96
 msgctxt "@item:inlistbox"
 msgid "Show Blank Page"
 msgstr "ফাঁকা পৃষ্ঠা প্রদর্শন করা হবে"
 
-#: generalopts.cpp:90
+#: generalopts.cpp:97
 msgctxt "@item:inlistbox"
 msgid "Show My Bookmarks"
 msgstr "ব্যবহারকারীর বুকমার্কগুলি প্রদর্শন করা হবে"
 
-#: generalopts.cpp:97
+#: generalopts.cpp:103
+#, fuzzy
+#| msgid "Select Home Page"
+msgctxt "@title:window"
+msgid "Select Start Page"
+msgstr "হোম পেজ নির্বাচন করুন"
+
+#: generalopts.cpp:107
+msgid "This is the URL of the web page Konqueror will show when starting."
+msgstr ""
+
+#: generalopts.cpp:117
 msgid "Home page:"
 msgstr "হোম পেজ:"
 
-#: generalopts.cpp:101
+#: generalopts.cpp:120
 #, fuzzy
 #| msgid "Select Home Page"
 msgctxt "@title:window"
 msgid "Select Home Page"
 msgstr "হোম পেজ নির্বাচন করুন"
 
-#: generalopts.cpp:106
+#: generalopts.cpp:125
 msgid ""
-"This is the URL of the web page where Konqueror (as web browser) will jump "
-"to when the \"Home\" button is pressed. When Konqueror is started as a file "
-"manager, that button makes it jump to your local home folder instead."
+"This is the URL of the web page where Konqueror will jump to when the \"Home"
+"\" button is pressed."
 msgstr ""
 
-#: generalopts.cpp:116
+#: generalopts.cpp:133
 msgid "Default web browser engine:"
 msgstr ""
 
