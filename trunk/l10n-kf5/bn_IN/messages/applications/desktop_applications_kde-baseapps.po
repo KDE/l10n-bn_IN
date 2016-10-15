@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-27 08:28+0000\n"
+"POT-Creation-Date: 2016-10-15 08:01+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -63,6 +63,11 @@ msgstr "ওয়েব ব্রাউজার"
 msgctxt "Comment"
 msgid "KDE File Manager & Web Browser"
 msgstr "KDE ফাইল পরিচালন ব্যবস্থা ও ওয়েব ব্রাউজার"
+
+#: konqueror/konqy_preload.desktop:4
+msgctxt "Name"
+msgid "Konqueror Preloading During KDE startup"
+msgstr "KDE আরম্ভকালে Konqueror প্রি-লোড"
 
 #: konqueror/libkonq/src/directory_bookmarkbar.desktop:3
 msgctxt "Name"
@@ -377,24 +382,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Web Archives"
 msgstr "FTP আর্কাইভ"
-
-#: konqueror/preloader/konqy_preload.desktop:4
-msgctxt "Name"
-msgid "Konqueror Preloading During KDE startup"
-msgstr "KDE আরম্ভকালে Konqueror প্রি-লোড"
-
-#: konqueror/preloader/konqy_preloader.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KDED Konqueror Preloader Module"
-msgctxt "Name"
-msgid "Konqueror Browser Preloader"
-msgstr "KDED Konqueror প্রি-লোডার মডিউল"
-
-#: konqueror/preloader/konqy_preloader.desktop:69
-msgctxt "Comment"
-msgid "Reduces Konqueror startup time"
-msgstr "Konqueror আরম্ভ করতে ব্যবহৃত সময় হ্রাস করে"
 
 #: konqueror/settings/bookmarks/bookmarks.desktop:12
 #: konqueror/sidebar/default_entries/bookmarks.desktop:5
@@ -749,6 +736,17 @@ msgstr "বিবিধ বৈশিষ্ট্য"
 msgctxt "Name"
 msgid "Web SideBar Module"
 msgstr "ওয়েব সাইড-বার মডিউল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KDED Konqueror Preloader Module"
+#~ msgctxt "Name"
+#~ msgid "Konqueror Browser Preloader"
+#~ msgstr "KDED Konqueror প্রি-লোডার মডিউল"
+
+#~ msgctxt "Comment"
+#~ msgid "Reduces Konqueror startup time"
+#~ msgstr "Konqueror আরম্ভ করতে ব্যবহৃত সময় হ্রাস করে"
 
 #~ msgctxt "Name"
 #~ msgid "Home"
