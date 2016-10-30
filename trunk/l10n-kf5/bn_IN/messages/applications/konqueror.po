@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-23 06:55+0000\n"
+"POT-Creation-Date: 2016-10-30 06:46+0000\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -480,7 +480,9 @@ msgid "Web browser, file manager and document viewer."
 msgstr "ওয়েব ব্রাউজার, ফাইল পরিচালনব্যবস্থা, ও ডকুমেন্ট প্রদর্শক।"
 
 #: src/konqfactory.cpp:233
-msgid "(C) 1999-2008, The Konqueror developers"
+#, fuzzy
+#| msgid "(C) 1999-2008, The Konqueror developers"
+msgid "(C) 1999-2016, The Konqueror developers"
 msgstr "(C) ১৯৯৯-২০০৮, Konqueror-র নির্মাতাবৃন্দ"
 
 #: src/konqfactory.cpp:235
@@ -1515,50 +1517,50 @@ msgstr "সেশান পরিচালনব্যবস্থা"
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
-#: src/konqsessiondlg.cpp:177
+#: src/konqsessiondlg.cpp:178
 #, fuzzy
 #| msgid "Rename session"
 msgctxt "@title:window"
 msgid "Rename Session"
 msgstr "সেশানের নাম পরিবর্তন"
 
-#: src/konqsessiondlg.cpp:224
+#: src/konqsessiondlg.cpp:225
 #, fuzzy
 #| msgid "Save Session"
 msgctxt "@title:window"
 msgid "Save Session"
 msgstr "সেশান সংরক্ষণ"
 
-#: src/konqsessiondlg.cpp:250
+#: src/konqsessiondlg.cpp:251
 #, kde-format
 msgid ""
 "A session with the name '%1' already exists, do you want to overwrite it?"
 msgstr ""
 
-#: src/konqsessiondlg.cpp:251
+#: src/konqsessiondlg.cpp:252
 msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pNewButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
 #: src/konqsessiondlg_base.ui:25
 msgctxt "@action:button New session"
 msgid "New..."
 msgstr "নতুন..."
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pSaveCurrentButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pSaveCurrentButton)
 #: src/konqsessiondlg_base.ui:32
 msgctxt "@action:button Save current session"
 msgid "Save Current"
 msgstr "বর্তমান সেশান সংরক্ষণ করুন"
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pRenameButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
 #: src/konqsessiondlg_base.ui:39
 msgctxt "@action:button Rename session"
 msgid "Rename..."
 msgstr "নাম পরিবর্তন..."
 
-#. i18n: ectx: property (text), widget (KPushButton, m_pDeleteButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_pDeleteButton)
 #: src/konqsessiondlg_base.ui:46
 msgctxt "@action:button Delete session"
 msgid "Delete"
@@ -1570,35 +1572,35 @@ msgstr "মুছে ফেলুন"
 msgid "Open tabs inside current window"
 msgstr "বর্তমান উইন্ডোর মধ্যে ট্যাব খোলা হবে"
 
-#: src/konqsessionmanager.cpp:100
+#: src/konqsessionmanager.cpp:98
 #, fuzzy
 #| msgid "Restore Session?"
 msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "সেশান পুনরুদ্ধার করা হবে কি?"
 
-#: src/konqsessionmanager.cpp:103
+#: src/konqsessionmanager.cpp:101
 #, fuzzy
 #| msgid "Restore Session"
 msgctxt "@action:button yes"
 msgid "Restore Session"
 msgstr "সেশান পুনরুদ্ধার করা হবে"
 
-#: src/konqsessionmanager.cpp:104
+#: src/konqsessionmanager.cpp:102
 #, fuzzy
 #| msgid "Do Not Restore"
 msgctxt "@action:button no"
 msgid "Do Not Restore"
 msgstr "সেশান পুনরুদ্ধার করা হবে না"
 
-#: src/konqsessionmanager.cpp:105
+#: src/konqsessionmanager.cpp:103
 #, fuzzy
 #| msgid "Ask Me Later"
 msgctxt "@action:button ask later"
 msgid "Ask Me Later"
 msgstr "পরে জিজ্ঞাসা করা হবে"
 
-#: src/konqsessionmanager.cpp:133
+#: src/konqsessionmanager.cpp:131
 #, fuzzy
 #| msgid "Konqueror didn't close correctly. Would you like to restore session?"
 msgid ""
@@ -1606,19 +1608,19 @@ msgid ""
 "sessions?"
 msgstr "Konqueror সঠিকভাবে বন্ধ করা হয়নি। পূর্ববর্তী সেশান পুনরুদ্ধার করা হবে কি?"
 
-#: src/konqsessionmanager.cpp:147
+#: src/konqsessionmanager.cpp:145
 msgctxt "@tooltip:session list"
 msgid "Uncheck the sessions you do not want to be restored"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:180
+#: src/konqsessionmanager.cpp:178
 #, fuzzy, kde-format
 #| msgid "&Window"
 msgctxt "@item:treewidget"
 msgid "Window %1"
 msgstr "উইন্ডো (&W)"
 
-#: src/konqsessionmanager.cpp:221
+#: src/konqsessionmanager.cpp:219
 msgid "Do not ask again"
 msgstr ""
 
