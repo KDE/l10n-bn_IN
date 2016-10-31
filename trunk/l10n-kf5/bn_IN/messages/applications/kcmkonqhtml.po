@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-09 06:59+0000\n"
+"POT-Creation-Date: 2016-10-31 06:43+0000\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -151,31 +151,31 @@ msgstr ""
 msgid "Activate previously used tab when closing the current tab"
 msgstr "বর্তমান ট্যাব বন্ধ করার সময়, পূর্বে ব্যবহৃত ট্যাবটি সক্রিয় করা হবে"
 
-#: appearance.cpp:45
+#: appearance.cpp:44
 msgctxt "@title:tab"
 msgid "General"
 msgstr "সাধারণ"
 
-#: appearance.cpp:46
+#: appearance.cpp:45
 msgctxt "@title:tab"
 msgid "Fonts"
 msgstr "ফন্ট"
 
-#: appearance.cpp:47
+#: appearance.cpp:46
 msgctxt "@title:tab"
 msgid "Stylesheets"
 msgstr "স্টাইল-শিট"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox3_2)
-#: appearance.cpp:55 css/csscustom.ui:761
+#: appearance.cpp:54 css/csscustom.ui:761
 msgid "Images"
 msgstr "ছবি"
 
-#: appearance.cpp:59
+#: appearance.cpp:58
 msgid "A&utomatically load images"
 msgstr "স্বয়ংক্রিয়ভাবে ছবি লোড করা হবে (&u)"
 
-#: appearance.cpp:60
+#: appearance.cpp:59
 msgid ""
 "<html>If this box is checked, Konqueror will automatically load any images "
 "that are embedded in a web page. Otherwise, it will display placeholders for "
@@ -184,11 +184,11 @@ msgid ""
 "probably want to check this box to enhance your browsing experience.</html>"
 msgstr ""
 
-#: appearance.cpp:70
+#: appearance.cpp:69
 msgid "Dra&w frame around not completely loaded images"
 msgstr "সম্পূর্ণ লোড না হওয়া ছবিকে পরিবেষ্ট করে ফ্রেম আঁকা হবে (&w)"
 
-#: appearance.cpp:71
+#: appearance.cpp:70
 msgid ""
 "<html>If this box is checked, Konqueror will draw a frame as a placeholder "
 "around images embedded in a web page that are not yet fully loaded.<br />You "
@@ -196,21 +196,21 @@ msgid ""
 "especially if have a slow network connection.</html>"
 msgstr ""
 
-#: appearance.cpp:81
+#: appearance.cpp:80
 msgctxt "animations"
 msgid "Enabled"
 msgstr "সক্রিয়"
 
-#: appearance.cpp:82
+#: appearance.cpp:81
 msgctxt "animations"
 msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: appearance.cpp:83
+#: appearance.cpp:82
 msgid "Show Only Once"
 msgstr "শুধুমাত্র একবার প্রদর্শন করা হবে"
 
-#: appearance.cpp:84
+#: appearance.cpp:83
 msgid ""
 "<html>Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
 "b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
@@ -218,34 +218,34 @@ msgid ""
 "Show all animations completely but do not repeat them.</li></ul></html>"
 msgstr ""
 
-#: appearance.cpp:89
+#: appearance.cpp:88
 msgid "A&nimations:"
 msgstr "অ্যানিমেশন: (&n)"
 
-#: appearance.cpp:92 htmlopts.cpp:116
+#: appearance.cpp:91 htmlopts.cpp:116
 msgctxt "@title:group"
 msgid "Miscellaneous"
 msgstr "বিবিধ"
 
-#: appearance.cpp:97
+#: appearance.cpp:96
 msgctxt "underline"
 msgid "Enabled"
 msgstr "সক্রিয়"
 
-#: appearance.cpp:98
+#: appearance.cpp:97
 msgctxt "underline"
 msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: appearance.cpp:99
+#: appearance.cpp:98
 msgid "Only on Hover"
 msgstr ""
 
-#: appearance.cpp:100
+#: appearance.cpp:99
 msgid "Und&erline links:"
 msgstr "লিংকের নীচে রেখা আঁকা হবে: (&e)"
 
-#: appearance.cpp:103
+#: appearance.cpp:102
 msgid ""
 "<html>Controls how Konqueror handles underlining hyperlinks:<br /"
 "><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
@@ -254,25 +254,25 @@ msgid ""
 "can override this value.</i></html>"
 msgstr ""
 
-#: appearance.cpp:112
+#: appearance.cpp:111
 msgid "When Efficient"
 msgstr ""
 
-#: appearance.cpp:113
+#: appearance.cpp:112
 msgctxt "smooth scrolling"
 msgid "Always"
 msgstr "সর্বদা"
 
-#: appearance.cpp:114
+#: appearance.cpp:113
 msgctxt "soft scrolling"
 msgid "Never"
 msgstr "কখনো নয়"
 
-#: appearance.cpp:115
+#: appearance.cpp:114
 msgid "S&mooth scrolling:"
 msgstr ""
 
-#: appearance.cpp:117
+#: appearance.cpp:116
 msgid ""
 "<html>Determines whether Konqueror should use smooth steps to scroll HTML "
 "pages, or whole steps:<br /><ul><li><b>Always</b>: Always use smooth steps "
@@ -282,7 +282,7 @@ msgid ""
 "resources.</li></ul></html>"
 msgstr ""
 
-#: appearance.cpp:126
+#: appearance.cpp:125
 msgid ""
 "<h1>Konqueror Fonts</h1>On this page, you can configure which fonts "
 "Konqueror should use to display the web pages you view."
@@ -290,19 +290,19 @@ msgstr ""
 "<h1>Konqueror ফন্ট</h1>প্রদর্শিত ওয়েব পেজের জন্য Konqueror দ্বারা ব্যবহারযোগ্য "
 "ফন্টগুলি এই পেজে কনফিগার করা যাবে।"
 
-#: appearance.cpp:138
+#: appearance.cpp:137
 msgid "Font Si&ze"
 msgstr "ফন্টের মাপ: (&z)"
 
-#: appearance.cpp:141 appearance.cpp:159
+#: appearance.cpp:140 appearance.cpp:158
 msgid "This is the relative font size Konqueror uses to display web sites."
 msgstr "ওয়েব-সাইট প্রদর্শনের জন্য Konqueror দ্বারা ব্যবহারযোগ্য ফন্টের আপেক্ষিক মাপ।"
 
-#: appearance.cpp:145
+#: appearance.cpp:144
 msgid "M&inimum font size:"
 msgstr "ফন্টের সর্বনিম্ন মাপ: (&i)"
 
-#: appearance.cpp:149
+#: appearance.cpp:148
 msgid ""
 "Konqueror will never display text smaller than this size,<br />overriding "
 "any other settings."
@@ -310,74 +310,74 @@ msgstr ""
 "অন্যান্য নির্ধারিত বৈশিষ্ট্য অগ্রাহ্য করে, <br />Konqueror দ্বারা এই মাপের থেকে কম "
 "মাপের হরফ প্রদর্শন করা হবে না।"
 
-#: appearance.cpp:154
+#: appearance.cpp:153
 msgid "&Medium font size:"
 msgstr "ফন্টের মাঝারি মাপ: (&M)"
 
-#: appearance.cpp:167
+#: appearance.cpp:166
 msgid "S&tandard font:"
 msgstr "প্রমিত ফন্ট: (&t)"
 
-#: appearance.cpp:168
+#: appearance.cpp:167
 msgid "This is the font used to display normal text in a web page."
 msgstr ""
 "ওয়েব পেজের মধ্যে স্বাভাবিক মাপের লেখা প্রদর্শনের জন্য এই ফন্ট ব্যবহার করা হবে।"
 
-#: appearance.cpp:173
+#: appearance.cpp:172
 msgid "&Fixed font:"
 msgstr "নির্ধারিত মাপের ফন্ট: (&F)"
 
-#: appearance.cpp:174
+#: appearance.cpp:173
 msgid ""
 "This is the font used to display fixed-width (i.e. non-proportional) text."
 msgstr ""
 
-#: appearance.cpp:179
+#: appearance.cpp:178
 msgid "S&erif font:"
 msgstr "Serif ফন্ট: (&e)"
 
-#: appearance.cpp:180
+#: appearance.cpp:179
 msgid "This is the font used to display text that is marked up as serif."
 msgstr "serif রূপে চিহ্নিত লেখা প্রদর্শনের জন্য এই ফন্ট ব্যবহার করা হবে।"
 
-#: appearance.cpp:186
+#: appearance.cpp:185
 msgid "Sa&ns serif font:"
 msgstr "Sans serif ফন্ট: (&n)"
 
-#: appearance.cpp:187
+#: appearance.cpp:186
 msgid "This is the font used to display text that is marked up as sans-serif."
 msgstr "sans-serif রূপে চিহ্নিত লেখা প্রদর্শনের জন্য এই ফন্ট ব্যবহার করা হবে।"
 
-#: appearance.cpp:192
+#: appearance.cpp:191
 msgid "C&ursive font:"
 msgstr ""
 
-#: appearance.cpp:193
+#: appearance.cpp:192
 msgid "This is the font used to display text that is marked up as italic."
 msgstr ""
 
-#: appearance.cpp:198
+#: appearance.cpp:197
 msgid "Fantas&y font:"
 msgstr ""
 
-#: appearance.cpp:199
+#: appearance.cpp:198
 msgid ""
 "This is the font used to display text that is marked up as a fantasy font."
 msgstr ""
 
-#: appearance.cpp:210
+#: appearance.cpp:209
 msgid "Font &size adjustment for this encoding:"
 msgstr "চিহ্নিত এনকোডিংয়ের জন্য ফন্টের মাপে পরিবর্তন: (&s)"
 
-#: appearance.cpp:220 appearance.cpp:416
+#: appearance.cpp:219 appearance.cpp:415
 msgid "Use Language Encoding"
 msgstr "ভাষার এনকোডিং ব্যবহার করা হবে"
 
-#: appearance.cpp:222
+#: appearance.cpp:221
 msgid "Default encoding:"
 msgstr "ডিফল্ট এনকোডিং:"
 
-#: appearance.cpp:224
+#: appearance.cpp:223
 msgid ""
 "Select the default encoding to be used; normally, you will be fine with 'Use "
 "language encoding' and should not have to change this."
@@ -704,7 +704,7 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: css/kcmcss.cpp:54
+#: css/kcmcss.cpp:53
 msgid ""
 "<h1>Konqueror Stylesheets</h1> This module allows you to apply your own "
 "color and font settings to Konqueror by using stylesheets (CSS). You can "
@@ -715,7 +715,7 @@ msgid ""
 "design."
 msgstr ""
 
-#: css/kcmcss.cpp:340
+#: css/kcmcss.cpp:339
 #, kde-format
 msgid ""
 "<html>\n"
