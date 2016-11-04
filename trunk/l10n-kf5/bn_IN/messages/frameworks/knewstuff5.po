@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-25 07:39+0000\n"
+"POT-Creation-Date: 2016-11-04 07:09+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "All categories are missing"
 msgstr "সকল শ্রেণী"
 
-#: attica/atticaprovider.cpp:309
+#: attica/atticaprovider.cpp:316
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "the price of a download item, parameter 1 is the currency, 2 is the price"
@@ -42,7 +42,7 @@ msgstr ""
 "এই বস্তুগুলির দাম %1 %2।\n"
 "এইগুলি কিনতে ইচ্ছুক কি?"
 
-#: attica/atticaprovider.cpp:323
+#: attica/atticaprovider.cpp:330
 #, kde-format
 msgid ""
 "Your account balance is too low:\n"
@@ -50,27 +50,27 @@ msgid ""
 "Price: %2"
 msgstr ""
 
-#: attica/atticaprovider.cpp:366
+#: attica/atticaprovider.cpp:373
 #, fuzzy
 #| msgid "No text was replaced."
 msgctxt "voting for an item (good/bad)"
 msgid "Your vote was recorded."
 msgstr "কোনো টেক্সট প্রতিস্থাপন করা হয়নি।"
 
-#: attica/atticaprovider.cpp:382
+#: attica/atticaprovider.cpp:389
 msgid "You are now a fan."
 msgstr ""
 
-#: attica/atticaprovider.cpp:393
+#: attica/atticaprovider.cpp:400
 #, kde-format
 msgid "Network error. (%1)"
 msgstr ""
 
-#: attica/atticaprovider.cpp:397
+#: attica/atticaprovider.cpp:404
 msgid "Too many requests to server. Please try again in a few minutes."
 msgstr ""
 
-#: attica/atticaprovider.cpp:399
+#: attica/atticaprovider.cpp:406
 #, kde-format
 msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr ""
@@ -112,7 +112,7 @@ msgstr ""
 msgid "Error initializing provider."
 msgstr ""
 
-#: core/engine.cpp:205 core/engine.cpp:522
+#: core/engine.cpp:205 core/engine.cpp:544
 #, fuzzy
 #| msgid "Loading Applet"
 msgid "Loading data"
@@ -127,12 +127,12 @@ msgstr ""
 msgid "Loading of providers from file: %1 failed"
 msgstr "চিহ্নিত ফাইল: %1 থেকে উপলব্ধকারীদের তথ্য লোড করতে ব্যর্থ"
 
-#: core/engine.cpp:482
+#: core/engine.cpp:504
 #, kde-format
 msgid "Re: %1"
 msgstr "পুনরাবৃত্তি: %1"
 
-#: core/engine.cpp:524
+#: core/engine.cpp:546
 #, fuzzy, kde-format
 #| msgid "Loading Preview"
 msgid "Loading one preview"
@@ -140,7 +140,7 @@ msgid_plural "Loading %1 previews"
 msgstr[0] "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
 msgstr[1] "প্রিন্টের পূর্বরূপ লোড করা হচ্ছে"
 
-#: core/engine.cpp:526 ui/itemsgridviewdelegate.cpp:334
+#: core/engine.cpp:548 ui/itemsgridviewdelegate.cpp:334
 #: ui/itemsviewdelegate.cpp:128
 msgid "Installing"
 msgstr "ইনস্টল করা হচ্ছে"
@@ -237,7 +237,7 @@ msgstr ""
 "<qt>ফাইল স্বাক্ষর করার জন্য <i>gpg</i> আরম্ভ করা যায়নি। অনুগ্রহ করে পরীক্ষা করুন "
 "<i>gpg</i> ইনস্টল করা হয়েছে কি না। অন্যথা, সামগ্রী স্বাক্ষর করা সম্ভব হবে না।</qt>"
 
-#: downloaddialog.cpp:82 downloadwidget.cpp:207
+#: downloaddialog.cpp:82 downloadwidget.cpp:209
 msgid "Get Hot New Stuff"
 msgstr "নতুন জিনিস প্রাপ্ত করুন"
 
@@ -251,47 +251,47 @@ msgstr "%1 অতিরিক্ত ইনস্টলার"
 msgid "Timeout. Check Internet connection."
 msgstr "সময়সীমা উত্তীর্ণ হয়েছে। অনুগ্রহ করে, ইন্টারনেট সংযোগ পরীক্ষা করুন।"
 
-#: downloadwidget.cpp:179
+#: downloadwidget.cpp:181
 #, kde-format
 msgid "Server: %1"
 msgstr "সার্ভার: %1"
 
-#: downloadwidget.cpp:180
+#: downloadwidget.cpp:182
 #, kde-format
 msgid "<br />Provider: %1"
 msgstr "<br />উপলব্ধকারী: %1"
 
-#: downloadwidget.cpp:181
+#: downloadwidget.cpp:183
 #, kde-format
 msgid "<br />Version: %1"
 msgstr "<br />সংস্করণ: %1"
 
-#: downloadwidget.cpp:185
+#: downloadwidget.cpp:187
 msgid "Provider information"
 msgstr "উপলব্ধকারীর তথ্য"
 
-#: downloadwidget.cpp:196
+#: downloadwidget.cpp:198
 #, kde-format
 msgid "Could not install %1"
 msgstr "%1 ইনস্টল করতে ব্যর্থ"
 
-#: downloadwidget.cpp:197
+#: downloadwidget.cpp:199
 msgid "Get Hot New Stuff!"
 msgstr ""
 
-#: downloadwidget.cpp:249
+#: downloadwidget.cpp:251
 msgid "Icons view mode"
 msgstr ""
 
-#: downloadwidget.cpp:251
+#: downloadwidget.cpp:253
 msgid "Details view mode"
 msgstr ""
 
-#: downloadwidget.cpp:266
+#: downloadwidget.cpp:268
 msgid "All Providers"
 msgstr "সকল উপলব্ধকারী"
 
-#: downloadwidget.cpp:273
+#: downloadwidget.cpp:275
 msgid "All Categories"
 msgstr "সকল শ্রেণী"
 
