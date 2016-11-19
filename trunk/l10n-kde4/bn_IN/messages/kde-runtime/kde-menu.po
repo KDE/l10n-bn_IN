@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde-menu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2009-12-15 21:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -18,10 +18,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
@@ -32,6 +34,7 @@ msgid "Menu item '%1' could not be highlighted."
 msgstr "'%1' শীর্ষক মেনুর বস্তু উজ্জ্বল করা সম্ভব হয়নি।"
 
 #: kde-menu.cpp:106
+#, kde-format
 msgid ""
 "KDE Menu query tool.\n"
 "This tool can be used to find in which menu a specific application is "
@@ -46,26 +49,32 @@ msgstr ""
 "highlight বিকল্পটি ব্যবহার করা যাবে।"
 
 #: kde-menu.cpp:111
+#, kde-format
 msgid "kde-menu"
 msgstr "kde-menu"
 
 #: kde-menu.cpp:113
+#, kde-format
 msgid "(c) 2003 Waldo Bastian"
 msgstr "(c) ২০০৩ ওয়াল্ডো ব্যাস্টিয়ান"
 
 #: kde-menu.cpp:114
+#, kde-format
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
 #: kde-menu.cpp:114
+#, kde-format
 msgid "Author"
 msgstr "নির্মাতা"
 
 #: kde-menu.cpp:119
+#, kde-format
 msgid "Output data in UTF-8 instead of local encoding"
 msgstr "স্থানীয় এনকোডিংয়ের পরিবর্তে UTF-8 সহযোগে তথ্য আউটপুট করা হবে"
 
 #: kde-menu.cpp:120
+#, kde-format
 msgid ""
 "Print menu-id of the menu that contains\n"
 "the application"
@@ -74,6 +83,7 @@ msgstr ""
 " প্রিন্ট করা হবে"
 
 #: kde-menu.cpp:121
+#, kde-format
 msgid ""
 "Print menu name (caption) of the menu that\n"
 "contains the application"
@@ -82,22 +92,27 @@ msgstr ""
 "প্রিন্ট করা হবে"
 
 #: kde-menu.cpp:122
+#, kde-format
 msgid "Highlight the entry in the menu"
 msgstr "মেনুর মধ্যে সংশ্লিষ্ট এনট্রি উজ্জ্বল করা হবে"
 
 #: kde-menu.cpp:123
+#, kde-format
 msgid "Do not check if sycoca database is up to date"
 msgstr "sycoca ডাটাবেস আপডেট করা আছে কি না তা পরীক্ষা করা হবে না"
 
 #: kde-menu.cpp:124
+#, kde-format
 msgid "The id of the menu entry to locate"
 msgstr "সন্ধান করার জন্য চিহ্নিত মেনুর এনট্রির id"
 
 #: kde-menu.cpp:133
+#, kde-format
 msgid "You must specify an application-id such as 'kde4-konsole.desktop'"
 msgstr "একটি application-id যেমন 'kde4-konsole.desktop' উল্লেখ করা আবশ্যক"
 
 #: kde-menu.cpp:142
+#, kde-format
 msgid ""
 "You must specify at least one of --print-menu-id, --print-menu-name or --"
 "highlight"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solid-hardware\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-28 03:46+0200\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2008-07-09 02:12+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -19,41 +19,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: solid-hardware.cpp:45
+#, kde-format
 msgid "solid-hardware"
 msgstr "solid-hardware"
 
 #: solid-hardware.cpp:47
+#, kde-format
 msgid "KDE tool for querying your hardware from the command line"
 msgstr "কমান্ড লাইন থেকে আপনার হার্ডওয়ার অনুসন্ধান করার জন্য KDE-র সরঞ্জাম"
 
 # corrected spelling of syntax
 #: solid-hardware.cpp:179
+#, kde-format
 msgid "Syntax Error: Not enough arguments"
 msgstr "সিন্ট্যাক্স-এ ত্রুটি: যথেষ্ট আরগুমেন্ট নেই"
 
 #: solid-hardware.cpp:184
+#, kde-format
 msgid "Syntax Error: Too many arguments"
 msgstr "সিন্ট্যাক্স-এ ত্রুটি: অতিরিক্ত আরগুমেন্ট"
 
 #: solid-hardware.cpp:195
+#, kde-format
 msgid "Show available commands"
 msgstr "প্রাপ্য কমান্ড প্রদর্শিত হবে"
 
 # runab: reinstated --commands
 #: solid-hardware.cpp:197
+#, kde-format
 msgid "Command (see --commands)"
 msgstr "কমান্ড (--commands দেখুন)"
 
 #: solid-hardware.cpp:199
+#, kde-format
 msgid "Arguments for command"
 msgstr "কমান্ডের জন্য আরগুমেন্ট"
 
 #: solid-hardware.cpp:211
+#, kde-format
 msgid "Syntax:"
 msgstr "সিন্ট্যাক্স:"
 
 # runab: modified the string with the 'details' option, সুধুমাত্র=>শুধুমাত্র
 #: solid-hardware.cpp:214
+#, kde-format
 msgid ""
 "             # List the hardware available in the system.\n"
 "             # - If the 'nonportableinfo' option is specified, the device\n"
@@ -78,6 +87,7 @@ msgstr ""
 
 # runab: corrected the spelling of সংক্রান্ত (সংঙ্ক্রান্ত = wrong)
 #: solid-hardware.cpp:224
+#, kde-format
 msgid ""
 "             # Display all the interfaces and properties of the device\n"
 "             # corresponding to 'udi' in a platform neutral fashion.\n"
@@ -88,6 +98,7 @@ msgstr ""
 
 # runab: corrected the spelling of সংক্রান্ত (সংঙ্ক্রান্ত = wrong),ব্যাক-এন্ড (ব্যাকটএন্ডের=wrong), বৈশিষ্ট্যাবলী (বৈশিষ্টগুলি =wrong)
 #: solid-hardware.cpp:228
+#, kde-format
 msgid ""
 "             # Display all the properties of the device corresponding to "
 "'udi'\n"
@@ -100,6 +111,7 @@ msgstr ""
 
 # runab: corrected typo in অনথ্যা
 #: solid-hardware.cpp:232
+#, kde-format
 msgid ""
 "             # List the UDI of devices corresponding to 'predicate'.\n"
 "             # - If 'parentUdi' is specified, the search is restricted to "
@@ -113,23 +125,27 @@ msgstr ""
 "              # - অন্যথা সমস্ত ডিভাইসেই অনুসন্ধান করা হবে।\n"
 
 #: solid-hardware.cpp:238
+#, kde-format
 msgid ""
 "             # If applicable, mount the device corresponding to 'udi'.\n"
 msgstr ""
 "             #  যদি প্রযোজ্য হয়, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি মাউন্ট করা হবে।\n"
 
 #: solid-hardware.cpp:241
+#, kde-format
 msgid ""
 "             # If applicable, unmount the device corresponding to 'udi'.\n"
 msgstr ""
 "             # প্রযোজ্য হলে, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি আন-মাউন্ট করা হবে।\n"
 
 #: solid-hardware.cpp:244
+#, kde-format
 msgid ""
 "             # If applicable, eject the device corresponding to 'udi'.\n"
 msgstr "             # প্রযোজ্য হলে, সংশ্লিষ্ট 'udi'-এর জন্য ডিভাইসটি বের করা হবে\n"
 
 #: solid-hardware.cpp:247
+#, kde-format
 msgid "             # Listen to all add/remove events on supported hardware."
 msgstr ""
 

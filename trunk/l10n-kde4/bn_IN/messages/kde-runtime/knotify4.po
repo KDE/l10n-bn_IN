@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotify4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-28 01:41+0000\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2009-01-09 13:02+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,16 +18,18 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #: ksolidnotify.cpp:150
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE Notification Daemon"
 msgid "Devices notification"
 msgstr "KDE-র সূচনাব্যবস্থার ডেমন"
@@ -65,57 +67,71 @@ msgid "The following device can now be safely removed: %1"
 msgstr ""
 
 #: main.cpp:38
+#, kde-format
 msgid "KNotify"
 msgstr "KNotify"
 
 #: main.cpp:39
+#, kde-format
 msgid "KDE Notification Daemon"
 msgstr "KDE-র সূচনাব্যবস্থার ডেমন"
 
 #: main.cpp:40
+#, kde-format
 msgid "(C) 1997-2008, KDE Developers"
 msgstr "(C) ১৯৯৭-২০০৮, KDE-র ডিভেলপ বৃন্দ"
 
 #: main.cpp:41
+#, kde-format
 msgid "Olivier Goffart"
 msgstr "ওলিভিয়ার গোফার্ট"
 
 #: main.cpp:41
+#, kde-format
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইন্টেনার"
 
 #: main.cpp:42
+#, kde-format
 msgid "Carsten Pfeiffer"
 msgstr "কার্সেটন পাইফার"
 
 #: main.cpp:42 main.cpp:45
+#, kde-format
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী মেইন্টেনার"
 
 #: main.cpp:43
+#, kde-format
 msgid "Christian Esken"
 msgstr "ক্রিস্টিয়ান এস্কেন"
 
 #: main.cpp:44
+#, kde-format
 msgid "Stefan Westerfeld"
 msgstr "স্টেফান ওয়েস্টারফেল্ড"
 
 #: main.cpp:44
+#, kde-format
 msgid "Sound support"
 msgstr "শব্দ সমর্থন ব্যবস্থা"
 
 #: main.cpp:45
+#, kde-format
 msgid "Charles Samuels"
 msgstr "চার্লস স্যামুয়েলস"
 
 #: main.cpp:46
+#, kde-format
 msgid "Allan Sandfeld Jensen"
 msgstr "অ্যালেন স্যান্ডফেল্ড জেনসেন"
 
 #: main.cpp:46
+#, kde-format
 msgid "Porting to KDE 4"
 msgstr "KDE 4-এ পোর্ট করা হচ্ছে"
 
 #: notifybyktts.cpp:64
+#, kde-format
 msgid "Starting Jovie Text-to-Speech Service Failed"
 msgstr ""

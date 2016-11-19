@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_fish\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2010-01-04 11:26+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -20,24 +20,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: fish.cpp:299
+#, kde-format
 msgid "Connecting..."
 msgstr "সংযোগ স্থাপন করা হচ্ছে..."
 
 #: fish.cpp:607
+#, kde-format
 msgid "Initiating protocol..."
 msgstr "প্রোটোকল আরম্ভ করা হচ্ছে..."
 
 #: fish.cpp:641
+#, kde-format
 msgid "Local Login"
 msgstr "স্থানীয় লগ-ইন"
 
 #: fish.cpp:643
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "SSH Authorization"
 msgid "SSH Authentication"
 msgstr "SSH অনুমোদন"
 
 #: fish.cpp:773
+#, kde-format
 msgid "Disconnected."
 msgstr "সংযোগ বিচ্ছিন্ন হয়েছে।"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audiorename_plugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2008-07-06 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -34,18 +34,22 @@ msgid "A newer file named '%1' already exists.\n"
 msgstr "'%1' নামক একটি নতুন ফাইল বর্তমানে উপস্থিত রয়েছে।\n"
 
 #: audio_plugin.cpp:80
+#, kde-format
 msgid "Source File"
 msgstr "উৎস ফাইল"
 
 #: audio_plugin.cpp:81
+#, kde-format
 msgid "Existing File"
 msgstr "উপস্থিত ফাইল"
 
 #: audio_plugin.cpp:82
+#, kde-format
 msgid "Would you like to replace the existing file with the one on the right?"
 msgstr "উপস্থিত ফাইলটির পরিবর্তে ডানদিকে প্রদর্শিত ফাইলটি প্রতিস্থাপন করা হবে কি?"
 
 #: audiopreview.cpp:51
+#, kde-format
 msgid ""
 "This audio file is not stored\n"
 "on the local host.\n"
@@ -56,6 +60,7 @@ msgstr ""
 "এই লেবেলে ক্লিক করে এটি লোড করুন।\n"
 
 #: audiopreview.cpp:57
+#, kde-format
 msgid "Unable to load audio file"
 msgstr "অডিও ফাইল লোড করতে ব্যর্থ"
 
@@ -86,5 +91,6 @@ msgid "Sample rate: %1 %2\n"
 msgstr "নমূনার হার: %1 %2\n"
 
 #: audiopreview.cpp:99
+#, kde-format
 msgid "Length: "
 msgstr "দৈর্ঘ্য: "

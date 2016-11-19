@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-20 01:54+0000\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2008-09-20 01:30+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -18,129 +18,148 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রিয়া দাস"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mailtoria@gmail.com"
 
 #: main.cpp:43
+#, kde-format
 msgid "Install, list, remove Plasma packages"
 msgstr "Plasma প্যাকেজগুলি ইনস্টল, তালিকাভুক্ত, অপসারণ করুন"
 
 #: main.cpp:86
+#, kde-format
 msgid "Addon Name"
 msgstr ""
 
 #: main.cpp:87
+#, kde-format
 msgid "Service Type"
 msgstr ""
 
 #: main.cpp:88
+#, kde-format
 msgid "Path"
 msgstr ""
 
 #: main.cpp:128
+#, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr ""
 
 #: main.cpp:129
+#, kde-format
 msgid "Built in:"
 msgstr ""
 
 #: main.cpp:132
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "dataengine"
 msgid "DataEngine"
 msgstr "dataengine (ডাটা-ইঞ্জিন)"
 
 #: main.cpp:133
+#, kde-format
 msgid "Layout Template"
 msgstr ""
 
 #: main.cpp:134
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "plasmoid"
 msgid "Plasmoid"
 msgstr "plasmoid (প্লাসময়েড)"
 
 #: main.cpp:135
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "runner"
 msgid "Runner"
 msgstr "runner (রানার)"
 
 #: main.cpp:136
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "theme"
 msgid "Theme"
 msgstr "থিম"
 
 #: main.cpp:137
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "wallpaper"
 msgid "Wallpaper Images"
 msgstr "ওয়াল-পেপার"
 
 #: main.cpp:138
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "wallpaper"
 msgid "Wallpaper Plugin"
 msgstr "ওয়াল-পেপার"
 
 #: main.cpp:139
+#, kde-format
 msgid "KWin Effect"
 msgstr ""
 
 #: main.cpp:140
+#, kde-format
 msgid "KWin Window Switcher"
 msgstr ""
 
 #: main.cpp:141
+#, kde-format
 msgid "KWin Script"
 msgstr ""
 
 #: main.cpp:151
+#, kde-format
 msgid "Provided by plugins:"
 msgstr ""
 
 #: main.cpp:168
+#, kde-format
 msgid "Provided by .desktop files:"
 msgstr ""
 
 #: main.cpp:184
+#, kde-format
 msgid "Plasma Package Manager"
 msgstr "Plasma প্যাকেজ পরিচালনব্যবস্থা"
 
 #: main.cpp:186
+#, kde-format
 msgid "(C) 2008, Aaron Seigo"
 msgstr "(C) ২০০৮ অ্যারন সেইগো"
 
 #: main.cpp:187
+#, kde-format
 msgid "Aaron Seigo"
 msgstr "অ্যারন সেইগো"
 
 #: main.cpp:188
+#, kde-format
 msgid "Original author"
 msgstr "মূল লেখক"
 
 #: main.cpp:197
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Install the package at <path>"
 msgctxt "Do not translate <path>"
 msgid "Generate a SHA1 hash for the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
 #: main.cpp:199
+#, kde-format
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
 "ইনস্টল বা অপসারণের ক্ষেত্রে, সকল ব্যবহারকারীর জন্য ইনস্টল করা প্যাকেজগুলি প্রভাবিত "
 "হবে।"
 
 #: main.cpp:205
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
 #| "etc."
@@ -156,35 +175,38 @@ msgstr ""
 "ইঞ্জিন), Runner (রানার), ইত্যাদি।"
 
 #: main.cpp:209
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Install the package at <path>"
 msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
 #: main.cpp:211
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Install the package at <path>"
 msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
 msgstr "প্যাকেজটি <path>-এ ইনস্টল করুন"
 
 #: main.cpp:213
+#, kde-format
 msgid "List installed packages"
 msgstr "ইনস্টল হওয়া প্যাকেজগুলি তালিকাভুক্ত করুন"
 
 #: main.cpp:214
+#, kde-format
 msgid "lists all known Package types that can be installed"
 msgstr ""
 
 #: main.cpp:216
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Remove the package named <name>"
 msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "<name> নামক প্যাকেজটি অপসারণ করুন"
 
 #: main.cpp:218
+#, kde-format
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -203,63 +225,67 @@ msgid "SHA1 hash for Package at %1: '%2'"
 msgstr ""
 
 #: main.cpp:266 main.cpp:311
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "wallpaper"
 msgctxt "package type"
 msgid "wallpaper"
 msgstr "ওয়াল-পেপার"
 
 #: main.cpp:301
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "plasmoid"
 msgctxt "package type"
 msgid "plasmoid"
 msgstr "plasmoid (প্লাসময়েড)"
 
 #: main.cpp:308 main.cpp:406
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "theme"
 msgctxt "package type"
 msgid "theme"
 msgstr "থিম"
 
 #: main.cpp:314
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "dataengine"
 msgctxt "package type"
 msgid "dataengine"
 msgstr "dataengine (ডাটা-ইঞ্জিন)"
 
 #: main.cpp:319
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "runner"
 msgctxt "package type"
 msgid "runner"
 msgstr "runner (রানার)"
 
 #: main.cpp:324
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "wallpaper"
 msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr "ওয়াল-পেপার"
 
 #: main.cpp:329
+#, kde-format
 msgctxt "package type"
 msgid "layout-template"
 msgstr ""
 
 #: main.cpp:334
+#, kde-format
 msgctxt "package type"
 msgid "kwineffect"
 msgstr ""
 
 #: main.cpp:339
+#, kde-format
 msgctxt "package type"
 msgid "windowswitcher"
 msgstr ""
 
 #: main.cpp:344
+#, kde-format
 msgctxt "package type"
 msgid "kwinscript"
 msgstr ""
@@ -276,6 +302,7 @@ msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "%1 ধরনের প্যাকেজের জন্য ইনস্টলার লোড করা যায়নি। উল্লিখিত ত্রুটি: %2"
 
 #: main.cpp:382
+#, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -310,7 +337,7 @@ msgid "Installation of %1 failed."
 msgstr ""
 
 #: main.cpp:435
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "One of install, remove or list is required."
 msgctxt ""
 "No option was given, this is the error message telling the user he needs at "
