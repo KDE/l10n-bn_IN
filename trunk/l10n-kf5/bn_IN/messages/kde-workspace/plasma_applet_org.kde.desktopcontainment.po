@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-18 07:54+0000\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -127,11 +127,13 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:153
 #: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
 msgid "Rows"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:153
 #: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
 msgid "Columns"
 msgstr ""
 
@@ -141,11 +143,13 @@ msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:165
 #: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
 msgid "Left"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:165
 #: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
 msgid "Right"
 msgstr ""
 
@@ -167,7 +171,7 @@ msgstr "আইকনের ক্রমবিন্যাস:"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:58
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort Icons"
 #| msgid "Unsorted"
 msgid "Unsorted"
@@ -175,7 +179,7 @@ msgstr "অবিন্যাস্ত"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:62
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Name"
 msgid "Name"
@@ -183,7 +187,7 @@ msgstr "নাম অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:66
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size"
@@ -191,7 +195,7 @@ msgstr "মাপ অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:70
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Type"
 msgid "Type"
@@ -199,7 +203,7 @@ msgstr "ধরন অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:74
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Date"
 msgid "Date"
@@ -207,6 +211,7 @@ msgstr "তারিখ অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:220
 #: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
 msgid "Descending"
 msgstr ""
 
@@ -239,11 +244,13 @@ msgstr "মাপ অনুযায়ী"
 
 #: package/contents/ui/ConfigIcons.qml:264
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Small"
 msgstr "ক্ষুদ্র"
 
 #: package/contents/ui/ConfigIcons.qml:278
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Large"
 msgstr "বৃহৎ"
 
@@ -378,101 +385,118 @@ msgid "Up"
 msgstr ""
 
 #: plugins/folder/directorypicker.cpp:45
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Folder"
 msgstr "সমগ্র নির্বাচন করুন"
 
 #: plugins/folder/foldermodel.cpp:252
+#, kde-format
 msgid "&Refresh Desktop"
 msgstr ""
 
 #: plugins/folder/foldermodel.cpp:252 plugins/folder/foldermodel.cpp:1186
+#, kde-format
 msgid "&Refresh View"
 msgstr ""
 
 #: plugins/folder/foldermodel.cpp:1183
+#, kde-format
 msgid "&Reload"
 msgstr "নতুন করে লোড (&R)"
 
 #: plugins/folder/foldermodel.cpp:1189
+#, kde-format
 msgid "&Rename"
 msgstr "নাম পরিবর্তন (&R)"
 
 #: plugins/folder/foldermodel.cpp:1192
+#, kde-format
 msgid "&Move to Trash"
 msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
 #: plugins/folder/foldermodel.cpp:1195
+#, kde-format
 msgid "&Empty Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
 #: plugins/folder/foldermodel.cpp:1198
+#, kde-format
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
 #: plugins/folder/foldermodel.cpp:1201
+#, kde-format
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
 #: plugins/folder/foldermodel.cpp:1264
+#, kde-format
 msgid "&Paste"
 msgstr "পেস্ট করুন (&P)"
 
 #: plugins/folder/foldermodel.cpp:1385
+#, kde-format
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
 
 #: plugins/folder/labelgenerator.cpp:97
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show the Desktop folder"
 msgid "Desktop Folder"
 msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন করা হবে"
 
 #: plugins/folder/viewpropertiesmenu.cpp:31
+#, kde-format
 msgid "Arrange In"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:43
+#, kde-format
 msgid "Align"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:55
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Sort icons:"
 msgid "Sort By"
 msgstr "আইকনের ক্রমবিন্যাস:"
 
 #: plugins/folder/viewpropertiesmenu.cpp:81
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
 msgid "Folders First"
 msgstr "প্রথমে ফোল্ডার"
 
 #: plugins/folder/viewpropertiesmenu.cpp:84
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Icon size:"
 msgid "Icon Size"
 msgstr "আইকনের মাপ:"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Tiny"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Small Medium"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Medium"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Huge"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
 msgid "Locked"
 msgstr ""
 

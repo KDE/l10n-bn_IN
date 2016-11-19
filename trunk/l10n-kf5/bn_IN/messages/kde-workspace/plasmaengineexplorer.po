@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-28 08:49+0000\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
 "PO-Revision-Date: 2009-01-02 14:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,63 +18,76 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #: engineexplorer.cpp:55
+#, kde-format
 msgid "Expand All"
 msgstr "সকল প্রসারিত করা হবে"
 
 #: engineexplorer.cpp:56
+#, kde-format
 msgid "Collapse All"
 msgstr "সকল সংকুচিত করা হবে"
 
 #: engineexplorer.cpp:61 main.cpp:73
+#, kde-format
 msgid "Plasma Engine Explorer"
 msgstr "Plasma Engine Explorer"
 
 #: engineexplorer.cpp:90
+#, kde-format
 msgid "Search"
 msgstr "অনুসন্ধান"
 
 #: engineexplorer.cpp:183
+#, kde-format
 msgid "DataSource"
 msgstr "DataSource"
 
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
 #: engineexplorer.cpp:183 serviceviewer.cpp:161 serviceviewer.ui:61
+#, kde-format
 msgid "Key"
 msgstr "কি"
 
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
 #: engineexplorer.cpp:183 serviceviewer.cpp:161 serviceviewer.ui:66
+#, kde-format
 msgid "Value"
 msgstr "মান"
 
 #: engineexplorer.cpp:183
+#, kde-format
 msgid "Type"
 msgstr "প্রকৃতি"
 
 #: engineexplorer.cpp:302
+#, kde-format
 msgid "Get associated service"
 msgstr "সংযুক্ত পরিসেবা প্রাপ্ত করুন"
 
 #: engineexplorer.cpp:303
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Get associated service"
 msgid "Get associated model"
 msgstr "সংযুক্ত পরিসেবা প্রাপ্ত করুন"
 
 #: engineexplorer.cpp:304
+#, kde-format
 msgid "Update source now"
 msgstr "উৎস এখন আপডেট করুন"
 
 #: engineexplorer.cpp:305
+#, kde-format
 msgid "Remove source"
 msgstr "উৎস সরিয়ে ফেলুন"
 
@@ -100,11 +113,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: engineexplorer.cpp:450
+#, kde-format
 msgctxt "The user did a query to a dataengine and it returned empty data"
 msgid "<empty>"
 msgstr "<empty>"
 
 #: engineexplorer.cpp:457
+#, kde-format
 msgctxt ""
 "A the dataengine returned something that the humble view on the "
 "engineexplorer can't display, like a picture"
@@ -113,6 +128,7 @@ msgstr "<not displayable>"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
 #: engineexplorer.cpp:507 engineexplorer.ui:17
+#, kde-format
 msgid "Plasma DataEngine Explorer"
 msgstr "Plasma DataEngine Explorer"
 
@@ -126,127 +142,147 @@ msgstr[1] "%1 ইঞ্জিন - তথ্যের %2-টি উৎস"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_sourceRequester)
 #: engineexplorer.ui:38
+#, kde-format
 msgid "Source name"
 msgstr "উৎসের নাম"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
 #: engineexplorer.ui:63
+#, kde-format
 msgid "Update on demand"
 msgstr "প্রয়োজন অনুসারে আপডেট করা হবে"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
 #: engineexplorer.ui:69
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "ms"
 msgid " ms"
 msgstr "মিলিসেকেন্ড"
 
 #. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
 #: engineexplorer.ui:72
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Update every "
 msgid "Update Every "
 msgstr "আপডেট করা হবে, প্রতি"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
 #: engineexplorer.ui:88
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Request"
 msgid "Request Source"
 msgstr "অনুরোধ"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_serviceRequester)
 #: engineexplorer.ui:108
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Remove source"
 msgid "Service for source"
 msgstr "উৎস সরিয়ে ফেলুন"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
 #: engineexplorer.ui:121
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Remove source"
 msgid "Request Service for Source"
 msgstr "উৎস সরিয়ে ফেলুন"
 
 #: ktreeviewsearchline.cpp:423
+#, kde-format
 msgid "Search Columns"
 msgstr "অনুসন্ধানের কলাম"
 
 #: ktreeviewsearchline.cpp:425
+#, kde-format
 msgid "All Visible Columns"
 msgstr "সকল দৃশ্যমান কলাম"
 
 #: ktreeviewsearchline.cpp:582
+#, kde-format
 msgid "S&earch:"
 msgstr "অনুসন্ধান: (&e)"
 
 #: main.cpp:32
+#, kde-format
 msgid "Explore the data published by Plasma DataEngines"
 msgstr "Plasma DataEngines দ্বারা প্রকাশিত তথ্য পরিদর্শন করুন"
 
 #: main.cpp:53
+#, kde-format
 msgid "No description available"
 msgstr ""
 
 #: main.cpp:75
+#, kde-format
 msgid "(c) 2006, The KDE Team"
 msgstr "(c) ২০০৬, KDE দল"
 
 #: main.cpp:76
+#, kde-format
 msgid "Aaron J. Seigo"
 msgstr "অ্যারন জে. সেইগো"
 
 #: main.cpp:77
+#, kde-format
 msgid "Author and maintainer"
 msgstr "নির্মাতা ও মেইন্টেনার"
 
 #: main.cpp:87
+#, kde-format
 msgid "Displays a list of known engines and their descriptions"
 msgstr ""
 
 #: main.cpp:88
+#, kde-format
 msgid "The desired height in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দসই উচ্চতা"
 
 #: main.cpp:89
+#, kde-format
 msgid "The desired width in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দসই প্রস্থ"
 
 #: main.cpp:90
+#, kde-format
 msgid "The desired x position in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দ x অবস্থান"
 
 #: main.cpp:91
+#, kde-format
 msgid "The desired y position in pixels"
 msgstr "পিক্সেল অনুযায়ী চিহ্নিত পছন্দ y অবস্থান"
 
 #: main.cpp:92
+#, kde-format
 msgid "The data engine to use"
 msgstr "ব্যবহারযোগ্য ডাটা ইঞ্জিন"
 
 #: main.cpp:93
+#, kde-format
 msgid "The source to request"
 msgstr "অনুরোধ করা উৎস"
 
 #: main.cpp:94
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Update Interval in milliseconds."
 msgid "Update interval in milliseconds"
 msgstr "আপডেট করার বিরতিকাল (মিলিসেকেন্ড অনুযায়ী)"
 
 #: main.cpp:95
+#, kde-format
 msgid ""
 "Only show engines associated with the parent application; maps to the X-KDE-"
 "ParentApp entry in the DataEngine's .desktop file."
 msgstr ""
 
 #: modelviewer.cpp:98 serviceviewer.cpp:65
+#, kde-format
 msgctxt "Plasma engine with unknown name"
 msgid "Unknown"
 msgstr "অজানা"
 
 #: modelviewer.cpp:111
+#, kde-format
 msgid ""
 "No valid model was returned. Verify that a model is available for this "
 "source."
@@ -259,15 +295,18 @@ msgid "%1 Model Explorer"
 msgstr ""
 
 #: serviceviewer.cpp:40
+#, kde-format
 msgid "Start Operation"
 msgstr "প্রারম্ভিক কর্ম"
 
 #: serviceviewer.cpp:66
+#, kde-format
 msgctxt "Plasma service with unknown name"
 msgid "Unknown"
 msgstr "অজানা"
 
 #: serviceviewer.cpp:81
+#, kde-format
 msgid ""
 "No valid service was returned. Verify that a service is available for this "
 "source."
@@ -295,11 +334,12 @@ msgid ""
 msgstr "কর্ম %1, %2 গন্তব্যস্থল সহ বিফল হয়েছে। উৎপন্ন ত্রুটি:<p><b>%3</b>"
 
 #: serviceviewer.cpp:198 serviceviewer.cpp:209
+#, kde-format
 msgid "Operation Result"
 msgstr "কর্মের ফলাফল"
 
 #: serviceviewer.cpp:202
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "No response from job!"
 msgid "No response from job."
 msgstr "কর্ম থপকে কোনো প্রতিক্রিয়া প্রাপ্ত হয়নি!"
@@ -326,17 +366,19 @@ msgstr[1] "%1-টি সক্রিয় কর্ম ..."
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
 #: serviceviewer.ui:27
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Operation:"
 msgid "Opera&tion:"
 msgstr "কর্ম: (&O)"
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
 #: serviceviewer.ui:74
+#, kde-format
 msgid "Operation count"
 msgstr "কর্মের সংখ্যা"
 
 #: titlecombobox.h:54
+#, kde-format
 msgid "Data Engines"
 msgstr ""
 

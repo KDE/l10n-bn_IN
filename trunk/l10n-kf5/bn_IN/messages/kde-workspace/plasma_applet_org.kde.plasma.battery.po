@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-20 07:44+0000\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
 "PO-Revision-Date: 2008-12-29 15:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -20,46 +20,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: package/contents/code/logic.js:25
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Discharging"
 msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
 
 #: package/contents/code/logic.js:26 package/contents/ui/batterymonitor.qml:62
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "Fully Charged"
 msgstr "<b>ব্যাটারি:</b> %1% (সম্পূর্ণ চার্জ করা হয়েছে)<br />"
 
 #: package/contents/code/logic.js:27
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Charging"
 msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
 
 #: package/contents/code/logic.js:29
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Not Charging"
 msgstr "<b>ব্যাটারি:</b> %1% (ক্ষমতা হ্রাস হচ্ছে)<br />"
 
 #: package/contents/code/logic.js:32
+#, kde-format
 msgctxt "Battery is currently not present in the bay"
 msgid "Not present"
 msgstr ""
 
 #: package/contents/code/logic.js:40
+#, kde-format
 msgid "Time To Full:"
 msgstr ""
 
 #: package/contents/code/logic.js:40
+#, kde-format
 msgid "Time To Empty:"
 msgstr ""
 
 #: package/contents/code/logic.js:45
+#, kde-format
 msgid "Capacity:"
 msgstr ""
 
@@ -70,10 +74,12 @@ msgid "%1%"
 msgstr ""
 
 #: package/contents/code/logic.js:52
+#, kde-format
 msgid "Vendor:"
 msgstr ""
 
 #: package/contents/code/logic.js:57
+#, kde-format
 msgid "Model:"
 msgstr ""
 
@@ -91,11 +97,12 @@ msgid "%1%"
 msgstr ""
 
 #: package/contents/ui/batterymonitor.qml:56
+#, kde-format
 msgid "No Batteries Available"
 msgstr ""
 
 #: package/contents/ui/batterymonitor.qml:60
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Screen Brightness"
 msgid "Battery and Brightness"
 msgstr "পর্দার উজ্জ্বলতা"
@@ -132,18 +139,19 @@ msgid "%1% Battery Remaining"
 msgstr ""
 
 #: package/contents/ui/batterymonitor.qml:83
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Power Management"
 msgid "Power management is disabled"
 msgstr "বিদ্যুৎ পরিচালনা"
 
 #: package/contents/ui/batterymonitor.qml:137
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "More..."
 msgid "&Configure Power Saving..."
 msgstr "অতিরিক্ত..."
 
 #: package/contents/ui/batterymonitor.qml:241
+#, kde-format
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
 
@@ -154,23 +162,25 @@ msgid "%1%"
 msgstr ""
 
 #: package/contents/ui/PopupDialog.qml:63
+#, kde-format
 msgctxt "Used for measurement"
 msgid "100%"
 msgstr ""
 
 #: package/contents/ui/PopupDialog.qml:72
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Screen Brightness"
 msgid "Display Brightness"
 msgstr "পর্দার উজ্জ্বলতা"
 
 #: package/contents/ui/PopupDialog.qml:91
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Screen Brightness"
 msgid "Keyboard Brightness"
 msgstr "পর্দার উজ্জ্বলতা"
 
 #: package/contents/ui/PowerManagementItem.qml:46
+#, kde-format
 msgid ""
 "Disabling power management will prevent your screen and computer from "
 "turning off automatically.\n"
@@ -180,18 +190,19 @@ msgid ""
 msgstr ""
 
 #: package/contents/ui/PowerManagementItem.qml:71
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Power Management"
 msgid "Enable Power Management"
 msgstr "বিদ্যুৎ পরিচালনা"
 
 #: package/contents/ui/PowerManagementItem.qml:79
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "More..."
 msgid "Configure Power Saving..."
 msgstr "অতিরিক্ত..."
 
 #: package/contents/ui/PowerManagementItem.qml:96
+#, kde-format
 msgid ""
 "Your notebook is configured not to suspend when closing the lid while an "
 "external monitor is connected."

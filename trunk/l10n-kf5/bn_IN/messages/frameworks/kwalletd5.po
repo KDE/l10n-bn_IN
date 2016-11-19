@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-26 07:01+0000\n"
+"POT-Creation-Date: 2016-11-19 20:12+0100\n"
 "PO-Revision-Date: 2009-01-02 17:05+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,10 +18,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
@@ -73,6 +75,7 @@ msgid ""
 msgstr ""
 
 #: backend/backendpersisthandler.cpp:630
+#, kde-format
 msgid "Retry"
 msgstr ""
 
@@ -85,6 +88,7 @@ msgid ""
 msgstr ""
 
 #: backend/backendpersisthandler.cpp:633
+#, kde-format
 msgid "kwalletd GPG backend"
 msgstr ""
 
@@ -97,38 +101,47 @@ msgid ""
 msgstr ""
 
 #: backend/kwalletbackend.cc:264
+#, kde-format
 msgid "Already open."
 msgstr "বর্তমানে খোলা"
 
 #: backend/kwalletbackend.cc:266
+#, kde-format
 msgid "Error opening file."
 msgstr "ফাইল খুলতে ব্যর্থ।"
 
 #: backend/kwalletbackend.cc:268
+#, kde-format
 msgid "Not a wallet file."
 msgstr "wallet ফাইল নয়।"
 
 #: backend/kwalletbackend.cc:270
+#, kde-format
 msgid "Unsupported file format revision."
 msgstr "পরিবর্ধিত ফাইলের বিন্যাস সমর্থিত নয়।"
 
 #: backend/kwalletbackend.cc:274
+#, kde-format
 msgid "Unknown encryption scheme."
 msgstr "এনক্রিপশনের স্কিম অজানা।"
 
 #: backend/kwalletbackend.cc:276
+#, kde-format
 msgid "Corrupt file?"
 msgstr "ফাইল কি ক্ষতিগ্রস্ত?"
 
 #: backend/kwalletbackend.cc:278
+#, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "wallet-র অখণ্ডতা যাচাই করতে সমস্যা। সম্ভবত ক্ষতিগ্রস্ত।"
 
 #: backend/kwalletbackend.cc:282
+#, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "পড়তে সমস্যা - সম্ভবত পাসওয়ার্ড সঠিক নয়।"
 
 #: backend/kwalletbackend.cc:284
+#, kde-format
 msgid "Decryption error."
 msgstr "ডিক্রিপশন সংক্রান্ত ত্রুটি।"
 
@@ -142,21 +155,25 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, _allowOnce)
 #: kbetterthankdialogbase.ui:50
+#, kde-format
 msgid "Allow &Once"
 msgstr "একবার অনুমতি প্রদান করা হবে (&O)"
 
 #. i18n: ectx: property (text), widget (QPushButton, _allowAlways)
 #: kbetterthankdialogbase.ui:60
+#, kde-format
 msgid "Allow &Always"
 msgstr "প্রতিবার অনুমতি প্রদান করা হবে (&A)"
 
 #. i18n: ectx: property (text), widget (QPushButton, _deny)
 #: kbetterthankdialogbase.ui:67
+#, kde-format
 msgid "&Deny"
 msgstr "প্রত্যাখ্যান করা হবে (&D)"
 
 #. i18n: ectx: property (text), widget (QPushButton, _denyForever)
 #: kbetterthankdialogbase.ui:74
+#, kde-format
 msgid "Deny &Forever"
 msgstr "স্থায়ীভাবে প্রত্যাখ্যান করা হবে (&F)"
 
@@ -195,12 +212,14 @@ msgstr ""
 
 #: knewwalletdialog.cpp:129 knewwalletdialog.cpp:135 kwalletwizard.cpp:163
 #: kwalletwizard.cpp:167
+#, kde-format
 msgid ""
 "The QGpgME library failed to initialize for the OpenPGP protocol. Please "
 "check your system's configuration then try again."
 msgstr ""
 
 #: knewwalletdialog.cpp:156
+#, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
 "least one encryption key, then try again."
@@ -208,11 +227,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: knewwalletdialoggpg.ui:17
+#, kde-format
 msgid "Please select the signing key from the list below:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: knewwalletdialoggpg.ui:24
+#, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">NOTE:</span> this "
 "list shows only \"ultimate-level\" trusted keys</p></body></html>"
@@ -220,24 +241,27 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:59
+#, kde-format
 msgid "Name"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:64
+#, kde-format
 msgid "E-Mail"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:69
+#, kde-format
 msgid "Key-ID"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KTitleWidget, title)
 #. i18n: ectx: property (comment), widget (KTitleWidget, ktitlewidget)
+#. i18n: ectx: property (text), widget (KTitleWidget, title)
 #: knewwalletdialogintro.ui:17 kwalletwizardpageintro.ui:17
 #: migrationwizard1.ui:17 migrationwizard2.ui:17
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "<u>KWallet</u> - The KDE Wallet System"
 msgid "The KDE Wallet System"
 msgstr "<u>KWallet</u> - KDE Wallet ব্যবস্থা"
@@ -261,15 +285,17 @@ msgstr ""
 "অনুগ্রহ করে পাসওয়ার্ড লিখুন অথবা অ্যাপ্লিকেশনের অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</"
 "qt>"
 
-#. i18n: ectx: property (text), widget (QRadioButton, _radioBlowfish)
 #. i18n: ectx: property (text), widget (QRadioButton, radioBlowfish)
+#. i18n: ectx: property (text), widget (QRadioButton, _radioBlowfish)
 #: knewwalletdialogintro.ui:66 kwalletwizardpagepasswordgpg.ui:68
+#, kde-format
 msgid "Classic, blowfish encrypted file"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, _radioGpg)
 #. i18n: ectx: property (text), widget (QRadioButton, radioGpg)
+#. i18n: ectx: property (text), widget (QRadioButton, _radioGpg)
 #: knewwalletdialogintro.ui:73 kwalletwizardpagepasswordgpg.ui:55
+#, kde-format
 msgid "Use GPG encryption, for better protection"
 msgstr ""
 
@@ -295,6 +321,7 @@ msgstr ""
 #: kwalletd.cpp:632 kwalletd.cpp:776 kwalletd.cpp:894 kwalletd.cpp:1023
 #: kwalletd.cpp:1050 kwalletd.cpp:1064 kwalletd.cpp:1073 kwalletd.cpp:1620
 #: main.cpp:177 main.cpp:182 main.cpp:184
+#, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE Wallet পরিসেবা"
 
@@ -305,6 +332,7 @@ msgid "An application has requested to open a wallet (%1)."
 msgstr "<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।</qt>"
 
 #: kwalletd.cpp:655
+#, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
 "password"
@@ -338,6 +366,7 @@ msgstr ""
 "কোড %2: %3)</qt>"
 
 #: kwalletd.cpp:741
+#, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
@@ -397,6 +426,7 @@ msgstr ""
 "</qt>"
 
 #: kwalletd.cpp:1021
+#, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
@@ -417,14 +447,17 @@ msgstr ""
 "<qt>অনুগ্রহ করে, ওয়ালেট '<b>%1</b>'-র জন্য একটি নতুন পাসওয়ার্ড নির্মাণ করুন।</qt>"
 
 #: kwalletd.cpp:1062
+#, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "ওয়ালেট পুনরায় এনক্রিপ্ট করতে ব্যর্থ। পাসওয়ার্ড পরিবর্তন করা হয়নি।"
 
 #: kwalletd.cpp:1071
+#, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "ওয়ালেট পুনরায় খুলতে ব্যর্থ। তথ্য হারিয়ে যেতে পারে।"
 
 #: kwalletd.cpp:1618
+#, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
@@ -433,23 +466,28 @@ msgstr ""
 "অ্যাপ্লিকেশন দ্বারা ভুলবসত এটি হয়েছে।"
 
 #: kwalletwizard.cpp:53
+#, kde-format
 msgid "KWallet"
 msgstr ""
 
 #: kwalletwizard.cpp:282
+#, kde-format
 msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
 msgstr "<qt>ফাঁকা পাসওয়ার্ড।  <b>(সতর্কবার্তা: নিরাপদ নয়)</b></qt>"
 
 #: kwalletwizard.cpp:284
+#, kde-format
 msgid "Passwords match."
 msgstr "পাসওয়ার্ড দুটি মিলেছে।"
 
 #: kwalletwizard.cpp:287
+#, kde-format
 msgid "Passwords do not match."
 msgstr "পাসওয়ার্ডে গরমিল।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: kwalletwizardpageexplanation.ui:17
+#, kde-format
 msgid ""
 "<html><head/><body><p>The KDE Wallet system stores your data in a <span "
 "style=\" font-style:italic;\">wallet</span> file on your local hard disk. "
@@ -463,6 +501,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kwalletwizardpagegpgkey.ui:24
+#, kde-format
 msgid ""
 "<html><head/><body><p>The GPG-based wallet use a GPG encryption key to "
 "securely encrypt data on disk. The key must be available when decrypting is "
@@ -475,11 +514,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kwalletwizardpagegpgkey.ui:42
+#, kde-format
 msgid "Select encryption GPG key:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kwalletwizardpagegpgkey.ui:81
+#, kde-format
 msgid ""
 "Unable to locate at least one <b>encrypting GPG key</b>. KDE Wallet needs "
 "such <b>encrypting key</b> to securely store passwords or other sensitive "
@@ -491,6 +532,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: kwalletwizardpageintro.ui:30
+#, kde-format
 msgid ""
 "Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
 "passwords and other personal information on disk in an encrypted file, "
@@ -500,16 +542,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, _basic)
 #: kwalletwizardpageintro.ui:69
+#, kde-format
 msgid "&Basic setup (recommended)"
 msgstr "মৌলিক বৈশিষ্ট্য (প্রস্তাবিত) (&B)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, _advanced)
 #: kwalletwizardpageintro.ui:79
+#, kde-format
 msgid "&Advanced setup"
 msgstr "উন্নত বৈশিষ্ট্য (&A)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: kwalletwizardpageoptions.ui:16
+#, kde-format
 msgid ""
 "The KDE Wallet system allows you to control the level of security of your "
 "personal data.  Some of these settings do impact usability.  While the "
@@ -520,16 +565,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
 #: kwalletwizardpageoptions.ui:48
+#, kde-format
 msgid "Automatically close idle wallets"
 msgstr "কর্মহীন ওয়ালেট স্বয়ংক্রিয়ভাবে বন্ধ করা হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, _networkWallet)
 #: kwalletwizardpageoptions.ui:55
+#, kde-format
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr "স্থানীয় পাসওয়ার্ড ও নেটওয়ার্ক পাসওয়ার্ডগুলি পৃথক ওয়ালেট ফাইলে সংরক্ষণ করুন"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: kwalletwizardpagepassword.ui:16
+#, kde-format
 msgid ""
 "Various applications may attempt to use the KDE wallet to store passwords or "
 "other information such as web form data and cookies.  If you would like "
@@ -541,21 +589,25 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, _useWallet)
 #: kwalletwizardpagepassword.ui:29 kwalletwizardpagepasswordgpg.ui:30
+#, kde-format
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
 msgstr "হ্যাঁ, ব্যক্তিগত তথ্য সংরক্ষণের জন্য আমি KDE wallet ব্যবহার করতে ইচ্ছুক।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: kwalletwizardpagepassword.ui:88 kwalletwizardpagepasswordgpg.ui:106
+#, kde-format
 msgid "Enter a new password:"
 msgstr "নতুন পাসওয়ার্ড লিখুন:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: kwalletwizardpagepassword.ui:104 kwalletwizardpagepasswordgpg.ui:122
+#, kde-format
 msgid "Verify password:"
 msgstr "পাসওয়ার্ড নিশ্চিত করুন:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: kwalletwizardpagepasswordgpg.ui:17
+#, kde-format
 msgid ""
 "<html><head/><body><p>Various applications may attempt to use the KDE wallet "
 "to store passwords or other information such as web form data and cookies. "
@@ -570,59 +622,69 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, _groupBox)
 #: kwalletwizardpagepasswordgpg.ui:46
+#, kde-format
 msgid "What kind of encryption do you wish?"
 msgstr ""
 
 #: main.cpp:181
+#, kde-format
 msgid "kwalletd"
 msgstr ""
 
 #: main.cpp:186
+#, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr ""
 
 #: main.cpp:187
+#, kde-format
 msgid "Valentin Rusu"
 msgstr ""
 
 #: main.cpp:187
+#, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr ""
 
 #: main.cpp:188
+#, kde-format
 msgid "Michael Leupold"
 msgstr "মাইকেল লিউপোল্ড"
 
 #: main.cpp:188
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Former maintainer"
 msgid "Former Maintainer"
 msgstr "পূর্ববর্তী মেইন্টেনার"
 
 #: main.cpp:189
+#, kde-format
 msgid "George Staikos"
 msgstr "জর্জ স্টাইকস"
 
 #: main.cpp:189
+#, kde-format
 msgid "Former maintainer"
 msgstr "পূর্ববর্তী মেইন্টেনার"
 
 #: main.cpp:190
+#, kde-format
 msgid "Thiago Maceira"
 msgstr "থিয়াগো ম্যাসেইরা"
 
 #: main.cpp:190
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "DBus Interface"
 msgid "D-Bus Interface"
 msgstr "DBus ইন্টারফেস"
 
 #: migrationagent.cpp:177 migrationagent.cpp:191
+#, kde-format
 msgid "Cannot read old wallet list. Aborting."
 msgstr ""
 
 #: migrationagent.cpp:187
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE Wallet Service"
 msgid "KDE Wallet Migration Agent"
 msgstr "KDE Wallet পরিসেবা"
@@ -638,6 +700,7 @@ msgid "* Creating KF5 wallet: %1"
 msgstr ""
 
 #: migrationagent.cpp:207
+#, kde-format
 msgid "ERROR when attempting new wallet creation. Aborting."
 msgstr ""
 
@@ -652,6 +715,7 @@ msgid "* Opened KDE4 wallet: %1"
 msgstr ""
 
 #: migrationagent.cpp:218
+#, kde-format
 msgid "Cannot retrieve folder list. Aborting."
 msgstr ""
 
@@ -686,11 +750,13 @@ msgid "Cannot write entry %1 in the new wallet. Aborting."
 msgstr ""
 
 #: migrationagent.cpp:252
+#, kde-format
 msgid "DONE migrating wallet\n"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: migrationwizard1.ui:29
+#, kde-format
 msgid ""
 "Congratulations! The system detected that you're running the latest version "
 "of the KWallet, using KDE Frameworks 5.\n"
@@ -703,11 +769,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, _optionYes)
 #: migrationwizard1.ui:59
+#, kde-format
 msgid "&Yes, migrate my wallets now."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, _optionNo)
 #: migrationwizard1.ui:70
+#, kde-format
 msgid ""
 "No, I'd rather do this upon ne&xt session start,\n"
 "and I'll cancel this wizard for now."
@@ -715,6 +783,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, _optionNotInterested)
 #: migrationwizard1.ui:77
+#, kde-format
 msgid "No, and p&lease do not prompt me again."
 msgstr ""
 
