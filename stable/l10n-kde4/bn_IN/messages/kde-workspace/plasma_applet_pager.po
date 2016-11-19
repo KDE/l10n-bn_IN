@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 05:29+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-12-29 15:54+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -20,16 +20,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: pager.cpp:307
+#, kde-format
 msgid "&Add Virtual Desktop"
 msgstr ""
 
 #: pager.cpp:310
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Configure Desktops..."
 msgid "&Remove Last Virtual Desktop"
 msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
 
 #: pager.cpp:350
+#, kde-format
 msgid "General"
 msgstr "সাধারণ"
 
@@ -49,51 +51,61 @@ msgstr[1] "ও অন্য %1-টি"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
 #: pagerConfig.ui:14
+#, kde-format
 msgid "Configure Pager"
 msgstr "Pager কনফিগার করুন"
 
 #. i18n: ectx: property (text), widget (QLabel, displayLabel)
 #: pagerConfig.ui:41
+#, kde-format
 msgid "Display text:"
 msgstr "প্রদর্শিত টেক্সট:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
 #: pagerConfig.ui:51
+#, kde-format
 msgid "Desktop number"
 msgstr "ডেস্কটপ সংখ্যা"
 
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
 #: pagerConfig.ui:61
+#, kde-format
 msgid "Desktop name"
 msgstr "ডেস্কটপের নাম"
 
 #. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
 #: pagerConfig.ui:71
+#, kde-format
 msgid "No text"
 msgstr "লেখা বিহীন"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: pagerConfig.ui:81
+#, kde-format
 msgid "Display icons:"
 msgstr "আইকন প্রদর্শন করা হবে:"
 
 #. i18n: ectx: property (text), widget (QLabel, currentLabel)
 #: pagerConfig.ui:101
+#, kde-format
 msgid "Selecting current desktop:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, doNothingRadioButton)
 #: pagerConfig.ui:111
+#, kde-format
 msgid "Does nothing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, showDesktopRadioButton)
 #: pagerConfig.ui:121
+#, kde-format
 msgid "Shows desktop"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, showDashboardRadioButton)
 #: pagerConfig.ui:131
+#, kde-format
 msgid "Shows the dashboard"
 msgstr ""
 

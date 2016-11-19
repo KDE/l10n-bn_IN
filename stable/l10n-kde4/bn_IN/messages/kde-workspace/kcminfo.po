@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-11-25 18:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,21 +18,24 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #: info.cpp:40
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE Panel System Information Control Module"
 msgid "System Information Control Module"
 msgstr "KDE প্যানেল সিস্টেমের তথ্য নিয়ন্ত্রণকারী মডিউল"
 
 #: info.cpp:42
+#, kde-format
 msgid ""
 "(c) 2008 Nicolas Ternisien\n"
 "(c) 1998 - 2002 Helge Deller"
@@ -41,14 +44,17 @@ msgstr ""
 "(c) ১৯৯৮ - ২০০২ হেলগে ডেলার"
 
 #: info.cpp:45
+#, kde-format
 msgid "Nicolas Ternisien"
 msgstr "নিকোলাস টার্নিসিয়ান"
 
 #: info.cpp:46
+#, kde-format
 msgid "Helge Deller"
 msgstr "হেলগে ডেলার"
 
 #: info.cpp:68
+#, kde-format
 msgid "This list displays system information on the selected category."
 msgstr "নির্বাচিত শ্রেণী সম্পর্কিত সিস্টেম সংক্রান্ত তথ্য এই তালিকায় প্রদর্শন করা হয়।"
 
@@ -59,6 +65,7 @@ msgid "No information available about %1."
 msgstr "%1 সংক্রান্ত কোনো তথ্য উপস্থিত নেই।"
 
 #: info.cpp:115
+#, kde-format
 msgid ""
 "All the information modules return information about a certain aspect of "
 "your computer hardware or your operating system."
@@ -67,22 +74,27 @@ msgstr ""
 "মডিউলগুলি দ্বারা উপস্থিত করা হয়।"
 
 #: main.cpp:57
+#, kde-format
 msgid "Interrupt"
 msgstr "ইন্টারাপ্ট"
 
 #: main.cpp:60
+#, kde-format
 msgid "I/O-Port"
 msgstr "ইনপুট/আউটপুট-পোর্ট"
 
 #: main.cpp:63
+#, kde-format
 msgid "SCSI"
 msgstr "SCSI"
 
 #: main.cpp:66
+#, kde-format
 msgid "DMA-Channel"
 msgstr "DMA-চ্যানেল"
 
 #: main.cpp:69
+#, kde-format
 msgid "X-Server"
 msgstr "X-সার্ভার"
 

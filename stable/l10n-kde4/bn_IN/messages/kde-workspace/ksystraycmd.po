@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksystraycmd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-12 15:08+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,10 +18,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
@@ -33,46 +35,57 @@ msgstr ""
 "'%1' বিন্যাসের সাথে কোনো উইন্ডোর মিল পাওয়া যায়নি এবং কোনো কমান্ড উল্লিখিত হয়নি।\n"
 
 #: ksystraycmd.cpp:87
+#, kde-format
 msgid "KSysTrayCmd: K3ShellProcess cannot find a shell."
 msgstr "KSysTrayCmd: K3ShellProcess দ্বারা শেল পাওয়া যায়নি।"
 
 #: ksystraycmd.cpp:248 main.cpp:26
+#, kde-format
 msgid "KSysTrayCmd"
 msgstr "KSysTrayCmd"
 
 #: ksystraycmd.cpp:249
+#, kde-format
 msgid "&Hide"
 msgstr "আড়াল করা হবে (&H)"
 
 #: ksystraycmd.cpp:249
+#, kde-format
 msgid "&Restore"
 msgstr "পুনরুদ্ধার করা হবে (&R)"
 
 #: ksystraycmd.cpp:250
+#, kde-format
 msgid "&Undock"
 msgstr "আটক করা হবে না (&U)"
 
 #: ksystraycmd.cpp:251
+#, kde-format
 msgid "&Quit"
 msgstr "প্রস্থান (&Q)"
 
 #: main.cpp:28
+#, kde-format
 msgid "Allows any application to be kept in the system tray"
 msgstr "এর ফলে, সিস্টেম ট্রের মধ্যে যে কোনো অ্যাপ্লিকেশন স্থাপন করা যাবে"
 
 #: main.cpp:30
+#, kde-format
 msgid "(C) 2001-2002 Richard Moore (rich@kde.org)"
 msgstr "(C) ২০০১-২০০২ রিচার্ড মুর (rich@kde.org)"
 
 #: main.cpp:31
+#, kde-format
 msgid "Richard Moore"
 msgstr "রিচার্ড মুর"
 
 #: main.cpp:36
+#, kde-format
 msgid "Command to execute"
 msgstr "সঞ্চালনযোগ্য কমান্ড"
 
 #: main.cpp:38
+#, kde-format
 msgid ""
 "A regular expression matching the window title\n"
 "If you do not specify one, then the very first window\n"
@@ -83,6 +96,7 @@ msgstr ""
 "বাছাই করা হবে - প্রস্তাবিত নয়।"
 
 #: main.cpp:41
+#, kde-format
 msgid ""
 "The window id of the target window\n"
 "Specifies the id of the window to use. If the id starts with 0x\n"
@@ -93,10 +107,12 @@ msgstr ""
 "উপস্থিত থাকলে তা হেক্স মান গণ্য করা হয়।"
 
 #: main.cpp:44
+#, kde-format
 msgid "Hide the window to the tray on startup"
 msgstr "প্রারম্ভে ট্রের মধ্যে উইন্ডোটি আড়াল করা হবে"
 
 #: main.cpp:45
+#, kde-format
 msgid ""
 "Wait until we are told to show the window before\n"
 "executing the command"
@@ -105,10 +121,12 @@ msgstr ""
 "নির্দেশের জন্য অপেক্ষা করা হবে"
 
 #: main.cpp:47
+#, kde-format
 msgid "Sets the initial tooltip for the tray icon"
 msgstr "ট্রের আইকনের জন্য প্রারম্ভিক টুল-টিপ নির্ধারণ করা হয়"
 
 #: main.cpp:48
+#, kde-format
 msgid ""
 "Keep the tray icon even if the client exits. This option\n"
 "has no effect unless startonshow is specified."
@@ -117,6 +135,7 @@ msgstr ""
 "নির্ধারিত না হলে এই বিকল্পটি কোনো প্রভাব সৃষ্টি করবে না।"
 
 #: main.cpp:50
+#, kde-format
 msgid ""
 "Use ksystraycmd's icon instead of the window's icon in the systray\n"
 "(should be used with --icon to specify ksystraycmd icon)"
@@ -125,10 +144,12 @@ msgstr ""
 "(ksystraycmd আইকন নির্ধারণোর জন্য --icon সহযোগে ব্যবহার করা হবে)"
 
 #: main.cpp:52
+#, kde-format
 msgid "Try to keep the window above other windows"
 msgstr "এই উইন্ডোটি অন্যান্য উইন্ডোর উপরে রাখার প্রচেষ্টা করা হবে"
 
 #: main.cpp:53
+#, kde-format
 msgid ""
 "Quit the client when we are told to hide the window.\n"
 "This has no effect unless startonshow is specified and implies keeprunning."
@@ -138,5 +159,6 @@ msgstr ""
 "প্রভাব সৃষ্টি করা হবে না।"
 
 #: main.cpp:91
+#, kde-format
 msgid "No command or window specified"
 msgstr "কোনো কমান্ড অথবা উইন্ডো নির্ধারণ করা হয়নি"

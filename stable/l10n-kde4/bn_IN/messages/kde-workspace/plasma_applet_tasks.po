@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-28 14:10+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-12-29 15:50+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -42,108 +42,129 @@ msgid "Available on %1"
 msgstr ""
 
 #: tasks.cpp:498
+#, kde-format
 msgid "General"
 msgstr "সাধারণ"
 
 #: tasks.cpp:508
+#, kde-format
 msgid "Do Not Group"
 msgstr "দলবদ্ধ করা হবে না"
 
+#. i18n("Manually"),QVariant(TaskManager::GroupManager::ManualGrouping));
 #: tasks.cpp:511
+#, kde-format
 msgid "By Program Name"
 msgstr "প্রোগ্রামের নাম অনুযায়ী"
 
 #: tasks.cpp:533
+#, kde-format
 msgid "Do Not Sort"
 msgstr "সুবিন্যস্ত করা হবে না"
 
 #: tasks.cpp:534
+#, kde-format
 msgid "Manually"
 msgstr "স্বয়ং"
 
 #: tasks.cpp:535
+#, kde-format
 msgid "Alphabetically"
 msgstr "অদ্যাক্ষর অনুযায়ী"
 
 #: tasks.cpp:536
+#, kde-format
 msgid "By Desktop"
 msgstr "ডেস্কটপ অনুযায়ী"
 
 #: tasks.cpp:537
+#, kde-format
 msgid "By Activity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: tasksConfig.ui:29
+#, kde-format
 msgid "Appearance"
 msgstr "চেহারা ছবি"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: tasksConfig.ui:36
+#, kde-format
 msgid "Force row settings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: tasksConfig.ui:56
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show tooltips:"
 msgid "Show tooltips"
 msgstr "টুল-টিপ প্রদর্শন করা হবে:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: tasksConfig.ui:76
+#, kde-format
 msgid "Highlight windows"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: tasksConfig.ui:96
+#, kde-format
 msgid "Maximum rows:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: tasksConfig.ui:148
+#, kde-format
 msgid "Grouping and Sorting"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: tasksConfig.ui:155
+#, kde-format
 msgid "Grouping:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: tasksConfig.ui:195
+#, kde-format
 msgid "Only when the taskbar is full"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: tasksConfig.ui:221
+#, kde-format
 msgid "Sorting:"
 msgstr "ক্রমবিন্যাস:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: tasksConfig.ui:273
+#, kde-format
 msgid "Filters"
 msgstr "ফিল্টার"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: tasksConfig.ui:280
+#, kde-format
 msgid "Only show tasks from the current screen"
 msgstr "শুধুমাত্র বর্তমান পর্দার কর্ম প্রদর্শন করা হবে"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: tasksConfig.ui:300
+#, kde-format
 msgid "Only show tasks from the current desktop"
 msgstr "শুধুমাত্র বর্তমান ডেস্কটপের কর্ম প্রদর্শন করা হবে"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: tasksConfig.ui:320
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Only show tasks from the current screen"
 msgid "Only show tasks from the current activity"
 msgstr "শুধুমাত্র বর্তমান পর্দার কর্ম প্রদর্শন করা হবে"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: tasksConfig.ui:340
+#, kde-format
 msgid "Only show tasks that are minimized"
 msgstr "শুধুমাত্র আড়াল করা কর্ম প্রদর্শন করা হবে"
 

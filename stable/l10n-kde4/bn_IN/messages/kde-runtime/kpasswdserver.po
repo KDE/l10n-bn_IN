@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpasswdserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2007-12-24 16:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runabh@gmail.com>\n"
 "Language-Team: Bengali INDIA\n"
@@ -19,24 +19,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: kpasswdserver.cpp:558
+#, kde-format
 msgid "Do you want to retry?"
 msgstr "পুনরায় প্রচেষ্টা করতে ইচ্ছুক কি?"
 
 #: kpasswdserver.cpp:563
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Authentication"
 msgid "Retry Authentication"
 msgstr "অনুমোদন"
 
 #: kpasswdserver.cpp:567
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Retry"
 msgctxt "@action:button filter-continue"
 msgid "Retry"
 msgstr "পুনপ্রচেষ্টা"
 
 #: kpasswdserver.cpp:863
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Authentication Dialog"
 msgstr "অনুমোদনের ডায়লগ"

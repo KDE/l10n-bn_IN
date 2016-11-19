@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_phononserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-04 01:40+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-09 16:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -19,26 +19,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: deviceaccess.cpp:67
+#, kde-format
 msgid "Invalid Driver"
 msgstr "ড্রাইভার বৈধ নয়"
 
 #: deviceaccess.cpp:69
+#, kde-format
 msgid "ALSA"
 msgstr "ALSA"
 
 #: deviceaccess.cpp:71
+#, kde-format
 msgid "OSS"
 msgstr "OSS"
 
 #: deviceaccess.cpp:73
+#, kde-format
 msgid "Jack"
 msgstr "Jack"
 
 #: deviceaccess.cpp:75
+#, kde-format
 msgid "Video 4 Linux"
 msgstr ""
 
 #: deviceinfo.cpp:95
+#, kde-format
 msgid ""
 "<html>This device is currently not available (either it is unplugged or the "
 "driver is not loaded).</html>"
@@ -64,6 +70,7 @@ msgstr ""
 "হবে: <ol>%1</ol></html>"
 
 #: phononserver.cpp:230
+#, kde-format
 msgctxt "unknown sound card"
 msgid "Unknown"
 msgstr ""
@@ -90,33 +97,36 @@ msgid "Video: %1"
 msgstr ""
 
 #: phononserver.cpp:1140
+#, kde-format
 msgid "Removed Sound Devices"
 msgstr "অপসারিত শব্দের ডিভাইস"
 
 #: phononserver.cpp:1140
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Removed Sound Devices"
 msgid "Removed Video Devices"
 msgstr "অপসারিত শব্দের ডিভাইস"
 
 #: phononserver.cpp:1146
+#, kde-format
 msgid "Forget about the sound devices."
 msgstr "শব্দের ডিভাইস সংক্রান্ত তথ্য স্মরণে রাখা হবে না।"
 
 #: phononserver.cpp:1146
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Forget about the sound devices."
 msgid "Forget about the video devices"
 msgstr "শব্দের ডিভাইস সংক্রান্ত তথ্য স্মরণে রাখা হবে না।"
 
 #: phononserver.cpp:1150
+#, kde-format
 msgctxt ""
 "short string for a button, it opens the Phonon page of System Settings"
 msgid "Manage Devices"
 msgstr "ডিভাইস পরিচালনব্যবস্থা"
 
 #: phononserver.cpp:1152
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Open the System Settings page for sound device configuration where you "
 #| "can manually remove disconnected devices from the cache."
@@ -146,6 +156,7 @@ msgstr ""
 "করা যাবে:<ul><li>%1</li></ul></p></html>"
 
 #: phononserver.cpp:1164
+#, kde-format
 msgid "Do not ask again for these devices"
 msgstr "এই ডিসভাইগুলি সম্পর্কে পুনরায় জিজ্ঞাসা করা হবে না"
 

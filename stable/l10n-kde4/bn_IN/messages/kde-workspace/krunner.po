@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-20 06:06+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-08 20:32+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,73 +18,87 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #: configdialog.cpp:53
+#, kde-format
 msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
 #: configdialog.cpp:82
+#, kde-format
 msgid "User Interface"
 msgstr "ইউজার ইন্টারফেস"
 
 #: configdialog.cpp:150
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Available Features"
 msgid "Available Plugins"
 msgstr "উপলব্ধ বৈশিষ্ট্য"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: interfaceOptions.ui:17
+#, kde-format
 msgid "Positioning:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
 #: interfaceOptions.ui:27
+#, kde-format
 msgid "Top edge of screen"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
 #: interfaceOptions.ui:37
+#, kde-format
 msgid "Free floating window"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: interfaceOptions.ui:57
+#, kde-format
 msgid "Style:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, commandButton)
 #: interfaceOptions.ui:67
+#, kde-format
 msgid "Command oriented"
 msgstr "কমান্ড সম্বন্ধীয়"
 
 #. i18n: ectx: property (text), widget (QRadioButton, taskButton)
 #: interfaceOptions.ui:77
+#, kde-format
 msgid "Task oriented"
 msgstr "কর্ম সম্বন্ধীয়"
 
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
 #: interfaceOptions.ui:97
+#, kde-format
 msgid "Preview"
 msgstr "পূর্বরূপের ঝলক"
 
 #: interfaces/default/interface.cpp:90 interfaces/default/interface.cpp:91
 #: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
+#, kde-format
 msgid "Settings"
 msgstr "বিবিধ বৈশিষ্ট্য"
 
 #: interfaces/default/interface.cpp:112
+#, kde-format
 msgid "Help"
 msgstr ""
 
 #: interfaces/default/interface.cpp:113
+#, kde-format
 msgid "Information on using this application"
 msgstr ""
 
@@ -101,10 +115,12 @@ msgid "(From %1, %2)"
 msgstr ""
 
 #: interfaces/quicksand/qs_dialog.cpp:108
+#, kde-format
 msgid "Actions"
 msgstr "কর্ম"
 
 #: interfaces/quicksand/qs_matchview.cpp:193
+#, kde-format
 msgid "Type to search."
 msgstr ""
 
@@ -125,10 +141,12 @@ msgstr[0] "কর্ম"
 msgstr[1] "কর্ম"
 
 #: interfaces/quicksand/qs_matchview.cpp:361
+#, kde-format
 msgid "Loading..."
 msgstr "লোড করা হচ্ছে..."
 
 #: interfaces/quicksand/qs_matchview.cpp:446
+#, kde-format
 msgid "No results found."
 msgstr "কোনো ফলাফল পাওয়া যায়নি"
 
@@ -141,11 +159,13 @@ msgstr "%1 %2"
 
 #. i18n: ectx: label, entry, group (General)
 #: kcfg/krunner.kcfg:13
+#, kde-format
 msgid "The interface style to use in KRunner"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kcfg/krunner.kcfg:21
+#, kde-format
 msgid ""
 "Set to true to show the interface in a freely floating dialog instead of at "
 "the top of the screen"
@@ -153,32 +173,39 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kcfg/krunner.kcfg:26
+#, kde-format
 msgid "Completion mode used for the query text."
 msgstr ""
 
 #. i18n: ectx: label, entry (PastQueries), group (General)
 #: kcfg/krunner.kcfg:31
+#, kde-format
 msgid "History if past queries successfully completed"
 msgstr ""
 
 #. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
 #: kcfg/krunner.kcfg:40
+#, kde-format
 msgid "Whether to keep the tasks dialog above other windows when shown."
 msgstr ""
 
 #: krunnerapp.cpp:120
+#, kde-format
 msgid "Run Command"
 msgstr "কমান্ড সঞ্চালনা"
 
 #: krunnerapp.cpp:125
+#, kde-format
 msgid "Run Command on clipboard contents"
 msgstr ""
 
 #: krunnerapp.cpp:131
+#, kde-format
 msgid "Show System Activity"
 msgstr "সিস্টেমের কর্ম সংক্রান্ত তথ্য প্রদর্শন করা হবে"
 
 #: krunnerapp.cpp:137
+#, kde-format
 msgid "Switch User"
 msgstr "ব্যবহারকারী পরিবর্তন করুন"
 
@@ -189,33 +216,39 @@ msgid "Run Command (runner \"%1\" only)"
 msgstr ""
 
 #: krunnerdialog.cpp:76
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Run Command"
 msgctxt "@title:window"
 msgid "Run Command"
 msgstr "কমান্ড সঞ্চালনা"
 
 #: ksystemactivitydialog.cpp:40
+#, kde-format
 msgid "System Activity"
 msgstr "সিস্টেমের কর্ম"
 
 #: main.cpp:37
+#, kde-format
 msgid "KDE run command interface"
 msgstr "KDE-র কমান্ড সঞ্চালনার প্রেক্ষাপট"
 
 #: main.cpp:48
+#, kde-format
 msgid "Run Command Interface"
 msgstr "কমান্ড সঞ্চালনার প্রেক্ষাপট"
 
 #: main.cpp:50
+#, kde-format
 msgid "(c) 2006, Aaron Seigo"
 msgstr "(c) ২০০৬, অ্যারন সেইগো"
 
 #: main.cpp:51
+#, kde-format
 msgid "Aaron J. Seigo"
 msgstr "অ্যারন জে. সেইগো"
 
 #: main.cpp:52
+#, kde-format
 msgid "Author and maintainer"
 msgstr "নির্মাতা ও মেইন্টেনার"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-13 17:27+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: globalpaths.cpp:76
+#, kde-format
 msgid ""
 "<h1>Paths</h1>\n"
 "This module allows you to choose where in the filesystem the files on your "
@@ -27,12 +28,13 @@ msgid ""
 msgstr ""
 
 #: globalpaths.cpp:81
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Des&ktop path:"
 msgid "Desktop path:"
 msgstr "ডেস্কটপের পাথ: (&k)"
 
 #: globalpaths.cpp:82
+#, kde-format
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
 "change the location of this folder if you want to, and the contents will "
@@ -40,12 +42,13 @@ msgid ""
 msgstr ""
 
 #: globalpaths.cpp:87
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Autostart path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:88
+#, kde-format
 msgid ""
 "This folder contains applications or links to applications (shortcuts) that "
 "you want to have started automatically whenever KDE starts. You can change "
@@ -54,91 +57,99 @@ msgid ""
 msgstr ""
 
 #: globalpaths.cpp:94
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:95
+#, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr ""
 
 #: globalpaths.cpp:98
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:99
+#, kde-format
 msgid "This folder will be used by default to save your downloaded items."
 msgstr ""
 
 #: globalpaths.cpp:102
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:103
+#, kde-format
 msgid "This folder will be used by default to load or save movies from or to."
 msgstr ""
 
 #: globalpaths.cpp:106
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:107
+#, kde-format
 msgid ""
 "This folder will be used by default to load or save pictures from or to."
 msgstr ""
 
 #: globalpaths.cpp:110
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Music path:"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:111
+#, kde-format
 msgid "This folder will be used by default to load or save music from or to."
 msgstr ""
 
 #: globalpaths.cpp:241 globalpaths.cpp:259
+#, kde-format
 msgid "Autostart"
 msgstr ""
 
 #: globalpaths.cpp:245
+#, kde-format
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
 #: globalpaths.cpp:269
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:272
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:275
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Move desktop files from old to new place"
 #| msgid "Move"
 msgid "Movies"
 msgstr "স্থানান্তর করা হবে"
 
 #: globalpaths.cpp:278
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures"
 msgstr "নথিপত্রের পাথ: (&o)"
 
 #: globalpaths.cpp:281
+#, kde-format
 msgid "Music"
 msgstr ""
 
@@ -152,7 +163,7 @@ msgstr ""
 "'%2' থেকে ফাইলগুলি '%3'-এ স্থানান্তর করা হবে কি?"
 
 #: globalpaths.cpp:343
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Move desktop files from old to new place"
 #| msgid "Move"
 msgctxt "Move files from old to new place"
@@ -160,6 +171,7 @@ msgid "Move"
 msgstr "স্থানান্তর করা হবে"
 
 #: globalpaths.cpp:344
+#, kde-format
 msgctxt "Use the new directory but do not move files"
 msgid "Do not Move"
 msgstr ""
@@ -177,7 +189,7 @@ msgstr ""
 "'%2' থেকে ফাইলগুলি '%3'-এ স্থানান্তর করা হবে কি?"
 
 #: globalpaths.cpp:349
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Move desktop files from old to new place"
 #| msgid "Move"
 msgctxt "Move the directory"
@@ -185,11 +197,13 @@ msgid "Move"
 msgstr "স্থানান্তর করা হবে"
 
 #: globalpaths.cpp:350
+#, kde-format
 msgctxt "Use the new directory but do not move anything"
 msgid "Do not Move"
 msgstr ""
 
 #: globalpaths.cpp:354
+#, kde-format
 msgid "Confirmation Required"
 msgstr "নিশ্চিত করা আবশ্যক"
 

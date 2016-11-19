@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-22 01:37+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2009-01-02 13:04+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,10 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
@@ -37,89 +39,98 @@ msgstr ""
 "ব্যবস্থা বিরত করা হচ্ছে।"
 
 #: eventmonitor.cpp:109
+#, kde-format
 msgid "Resuming indexing of files for fast searching."
 msgstr ""
 
 #: fileindexer.cpp:239 fileindexer.cpp:241
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Nepomuk Strigi File Indexing"
 msgid "Nepomuk File Indexer"
 msgstr "Nepomuk Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
 
 #: fileindexer.cpp:243
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Copyright 2007 Sebastian Trüg"
 msgid "(c) 2008-2013, Sebastian Trüg"
 msgstr "স্বত্বাধিকার ২০০৭ সেবাস্টিয়ান ট্রুগ"
 
 #: fileindexer.cpp:246 indexer/main.cpp:60
+#, kde-format
 msgid "Sebastian Trüg"
 msgstr "সেবাস্টিয়ান ট্রুগ"
 
 #: fileindexer.cpp:246 indexer/main.cpp:60
+#, kde-format
 msgid "Developer"
 msgstr ""
 
 #: fileindexer.cpp:247 indexer/main.cpp:59
+#, kde-format
 msgid "Vishesh Handa"
 msgstr ""
 
 #: fileindexer.cpp:247
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Maintainer"
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
 #: indexer/main.cpp:54
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Nepomuk Strigi File Indexing"
 msgid "NepomukIndexer"
 msgstr "Nepomuk Strigi ফাইল ইন্ডেক্স ব্যবস্থা"
 
 #: indexer/main.cpp:56
+#, kde-format
 msgid ""
 "NepomukIndexer indexes the contents of a file and saves the results in "
 "Nepomuk"
 msgstr ""
 
 #: indexer/main.cpp:58
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "(c) 2008, Sebastian Trüg"
 msgid "(C) 2011, Vishesh Handa, Sebastian Trueg"
 msgstr "(c) ২০০৮, সেবাস্টিয়ান ট্রুগ"
 
 #: indexer/main.cpp:59
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Maintainer"
 msgid "Current maintainer"
 msgstr "মেইন্টেনার"
 
 #: indexer/main.cpp:65
+#, kde-format
 msgid "The URL of the file to be indexed"
 msgstr ""
 
 #: indexer/main.cpp:66
+#, kde-format
 msgid "Remove all indexed data of the URL provided"
 msgstr ""
 
 #: indexer/main.cpp:67
+#, kde-format
 msgid "Streams the indexed data to stdout"
 msgstr ""
 
 #: indexscheduler.cpp:432
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
 msgid "File indexer is suspended."
 msgstr "ফাইল ইন্ডেক্স ব্যবস্থা বর্তমানে বিরত রয়েছে"
 
 #: indexscheduler.cpp:435
+#, kde-format
 msgctxt "@info:status"
 msgid "Cleaning invalid file metadata"
 msgstr ""
 
 #: indexscheduler.cpp:438
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info:status"
@@ -127,7 +138,7 @@ msgid "Indexing files for desktop search."
 msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
 
 #: indexscheduler.cpp:441
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
 msgctxt "@info:status"
@@ -135,7 +146,7 @@ msgid "Scanning for recent changes in files for desktop search"
 msgstr "%1-র মধ্যে প্রারম্ভিক ডেস্কটপ অনুসন্ধানের ফাইল ইন্ডেক্স ব্যবস্থা সমাপ্ত হয়েছে"
 
 #: indexscheduler.cpp:444
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
 msgid "File indexer is idle."

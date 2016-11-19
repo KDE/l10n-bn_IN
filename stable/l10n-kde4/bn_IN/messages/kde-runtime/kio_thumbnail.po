@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_thumbnail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2010-01-04 11:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -19,36 +19,44 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #: jpegcreator.cpp:293
+#, kde-format
 msgctxt "@option:check"
 msgid "Rotate the image automatically"
 msgstr ""
 
 #: thumbnail.cpp:123
+#, kde-format
 msgid "kio_thumbmail"
 msgstr "kio_thumbmail"
 
 #: thumbnail.cpp:187
+#, kde-format
 msgid "No MIME Type specified."
 msgstr "কোনো MIME Type নির্ধারিত হয়নি।"
 
 #: thumbnail.cpp:196
+#, kde-format
 msgid "No or invalid size specified."
 msgstr "ফাইলে মাপ উল্লিখিত হয়নি অথবা মান বৈধ নয়।"
 
 #: thumbnail.cpp:251
+#, kde-format
 msgid "Cannot create thumbnail for directory"
 msgstr "ডিরেক্টরির জন্য থাম্‌ব-নেইল নির্মাণ করতে ব্যর্থ"
 
 #: thumbnail.cpp:263
+#, kde-format
 msgid "No plugin specified."
 msgstr "কোনো প্লাগ-ইন নির্ধারিত হয়নি।"
 
@@ -63,10 +71,12 @@ msgid "Cannot create thumbnail for %1"
 msgstr "%1-র থাম্‌ব-নেইল নির্মাণ করতে ব্যর্থ"
 
 #: thumbnail.cpp:316
+#, kde-format
 msgid "Failed to create a thumbnail."
 msgstr "থাম্‌ব-নেইল নির্মাণ করতে ব্যর্থ।"
 
 #: thumbnail.cpp:328
+#, kde-format
 msgid "Could not write image."
 msgstr "ছবি লিখতে ব্যর্থ।"
 
@@ -76,5 +86,6 @@ msgid "Failed to attach to shared memory segment %1"
 msgstr "শেয়ার করা মেমরির অংশ %1, সংযুক্ত করতে ব্যর্থ"
 
 #: thumbnail.cpp:357
+#, kde-format
 msgid "Image is too big for the shared memory segment"
 msgstr "ছবিটির মাপ, শেয়ার করার মেমরির অংশে অন্তর্ভুক্ত করার জন্য অত্যন্ত বড়"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-02 06:58+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-12-22 17:41+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,109 +18,125 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #: activitymanager/activitymanager.cpp:293
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "New Theme..."
 msgid "Get New Templates..."
 msgstr "নতুন থিম..."
 
 #: controllerwindow.cpp:397
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Activity"
 msgid "Activities"
 msgstr "পরবর্তী কাজ"
 
 #: dashboardview.cpp:108
+#, kde-format
 msgid "Hide Dashboard"
 msgstr "ড্যাশ-বোর্ড আড়াল করা হবে"
 
 #: dashboardview.cpp:156
+#, kde-format
 msgid "Widget Dashboard"
 msgstr "উইজেট ড্যাশ-বোর্ড"
 
 #. i18n: ectx: label, entry, group (General)
 #: data/plasma-shell-desktop.kcfg:10
+#, kde-format
 msgid "The font to use on the desktop"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: data/plasma-shell-desktop.kcfg:15
+#, kde-format
 msgid ""
 "Set to true if each virtual desktop should get its own, unique Plasma view."
 msgstr ""
 
 #: desktopcorona.cpp:106
+#, kde-format
 msgid "Next Activity"
 msgstr "পরবর্তী কাজ"
 
 #: desktopcorona.cpp:112
+#, kde-format
 msgid "Previous Activity"
 msgstr "পূর্ববর্তী কাজ"
 
 #: desktopcorona.cpp:118
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Activity"
 msgid "Stop Current Activity"
 msgstr "পরবর্তী কাজ"
 
 #: desktopcorona.cpp:163 desktopcorona.cpp:169
+#, kde-format
 msgid "Add Panel"
 msgstr ""
 
 #: desktopcorona.cpp:635 desktopcorona.cpp:666 plasmaapp.cpp:1470
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Activity"
 msgctxt "Default name for a new activity"
 msgid "New Activity"
 msgstr "পরবর্তী কাজ"
 
 #: interactiveconsole.cpp:70
+#, kde-format
 msgid "&Execute"
 msgstr ""
 
 #: interactiveconsole.cpp:71
+#, kde-format
 msgctxt "Toolbar Button to switch to Plasma Scripting Mode"
 msgid "Plasma"
 msgstr ""
 
 #: interactiveconsole.cpp:72
+#, kde-format
 msgctxt "Toolbar Button to switch to KWin Scripting Mode"
 msgid "KWin"
 msgstr ""
 
 #: interactiveconsole.cpp:73
+#, kde-format
 msgid "Templates"
 msgstr ""
 
 #: interactiveconsole.cpp:81
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Desktop Settings"
 msgid "Desktop Shell Scripting Console"
 msgstr "ডেস্কটপ সংক্রান্ত বৈশিষ্ট্য"
 
 #: interactiveconsole.cpp:88
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Monitor"
 msgid "Editor"
 msgstr "মনিটর"
 
 #: interactiveconsole.cpp:99
+#, kde-format
 msgid "Load"
 msgstr ""
 
 #: interactiveconsole.cpp:105
+#, kde-format
 msgid "Use"
 msgstr ""
 
 #: interactiveconsole.cpp:162
+#, kde-format
 msgid "Output"
 msgstr ""
 
@@ -130,10 +146,12 @@ msgid "Unable to load script file <b>%1</b>"
 msgstr ""
 
 #: interactiveconsole.cpp:296
+#, kde-format
 msgid "Open Script File"
 msgstr ""
 
 #: interactiveconsole.cpp:424
+#, kde-format
 msgid "Save Script File"
 msgstr ""
 
@@ -148,135 +166,161 @@ msgid "Runtime: %1ms"
 msgstr ""
 
 #: main.cpp:45
+#, kde-format
 msgid "The KDE desktop, panels and widgets workspace application."
 msgstr "KDE ডেস্কটপ, প্যানেল ও উইজেট কর্মক্ষেত্রের অ্যাপ্লিকেশন।"
 
 #: main.cpp:106
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Desktop Theme"
 msgid "Plasma Desktop Shell"
 msgstr "ডেস্কটপের থিম"
 
 #: main.cpp:108
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Copyright 2006-2007, The KDE Team"
 msgid "Copyright 2006-2009, The KDE Team"
 msgstr "স্বত্বাধিকার ২০০৬-২০০৭, KDE দল"
 
 #: main.cpp:109
+#, kde-format
 msgid "Aaron J. Seigo"
 msgstr "অ্যারন জে.সেইগো"
 
 #: main.cpp:110
+#, kde-format
 msgid "Author and maintainer"
 msgstr "নির্মাতা ও মেইন্টেনার"
 
 #: main.cpp:112
+#, kde-format
 msgid "John Lions"
 msgstr "জন লায়ন্স"
 
 #: main.cpp:113
+#, kde-format
 msgid "In memory of his contributions, 1937-1998."
 msgstr "তাঁর অবদানের স্মরণে, ১৯৩৭-১৯৯৮।"
 
 #: panelcontroller.cpp:138
+#, kde-format
 msgid "Panel Alignment"
 msgstr "প্যানেলের দিশা"
 
 #: panelcontroller.cpp:141 panelcontroller.cpp:407
+#, kde-format
 msgid "Left"
 msgstr "বাঁদিকে"
 
 #: panelcontroller.cpp:147
+#, kde-format
 msgid "Center"
 msgstr "কেন্দ্রস্থিত"
 
 #: panelcontroller.cpp:152 panelcontroller.cpp:408
+#, kde-format
 msgid "Right"
 msgstr "ডানদিকে"
 
 #: panelcontroller.cpp:163
+#, kde-format
 msgid "Visibility"
 msgstr "দর্শনযোগ্যতা"
 
 #: panelcontroller.cpp:166
+#, kde-format
 msgid "Always visible"
 msgstr "সর্বদা দৃশ্যমান"
 
 #: panelcontroller.cpp:171
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Auto hide"
 msgid "Auto-hide"
 msgstr "স্বয়ংক্রিয়ভাবে আড়াল করা হবে"
 
 #: panelcontroller.cpp:176
+#, kde-format
 msgid "Windows can cover"
 msgstr "উইন্ডো দ্বারা আড়াল করা হবে"
 
 #: panelcontroller.cpp:181
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Windows can cover"
 msgid "Windows go below"
 msgstr "উইন্ডো দ্বারা আড়াল করা হবে"
 
 #: panelcontroller.cpp:187
+#, kde-format
 msgid "Screen Edge"
 msgstr "পর্দার প্রান্ত"
 
 #: panelcontroller.cpp:191
+#, kde-format
 msgid "Press left mouse button and drag to a screen edge to change panel edge"
 msgstr ""
 
 #: panelcontroller.cpp:194 panelcontroller.cpp:404
+#, kde-format
 msgid "Height"
 msgstr "উচ্চতা"
 
 #: panelcontroller.cpp:197
+#, kde-format
 msgid "Press left mouse button and drag vertically to change panel height"
 msgstr ""
 
 #: panelcontroller.cpp:205
+#, kde-format
 msgid "More Settings"
 msgstr "অধিকাংশ বৈশিষ্ট্য"
 
 #: panelcontroller.cpp:206
+#, kde-format
 msgid "Show more options about panel alignment, visibility and other settings"
 msgstr ""
 
 #: panelcontroller.cpp:218
+#, kde-format
 msgid "Maximize Panel"
 msgstr "প্যানেলের সর্বোচ্চ মাপ"
 
 #: panelcontroller.cpp:224
+#, kde-format
 msgid "Close this configuration window"
 msgstr "এই কনফিগারেশন উইন্ডো বন্ধ করুন"
 
 #: panelcontroller.cpp:273
+#, kde-format
 msgid "Add Spacer"
 msgstr ""
 
 #: panelcontroller.cpp:276
+#, kde-format
 msgid "Add a spacer to the panel useful to add some space between two widgets"
 msgstr ""
 
 #: panelcontroller.cpp:393
+#, kde-format
 msgid "Width"
 msgstr "প্রস্থ"
 
 #: panelcontroller.cpp:396
+#, kde-format
 msgid "Top"
 msgstr "উপরে"
 
 #: panelcontroller.cpp:397
+#, kde-format
 msgid "Bottom"
 msgstr "নীচে"
 
 #: plasmaapp.cpp:266
+#, kde-format
 msgid "Show Dashboard"
 msgstr "ড্যাশ-বোর্ড প্রদর্শন"
 
 #: plasmaapp.cpp:845
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Activity"
 msgid "Activities..."
 msgstr "পরবর্তী কাজ"
@@ -294,42 +338,49 @@ msgid ""
 msgstr ""
 
 #: plasmaapp.cpp:1422
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Activity"
 msgid "Unlock and add to current activity"
 msgstr "পরবর্তী কাজ"
 
 #: plasmaapp.cpp:1425
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Activity"
 msgid "Add to current activity"
 msgstr "পরবর্তী কাজ"
 
 #: plasmaapp.cpp:1505
+#, kde-format
 msgid "Run applications"
 msgstr ""
 
 #: plasmaapp.cpp:1506
+#, kde-format
 msgid "This activity template requests to run the following applications"
 msgstr ""
 
 #: plasmaapp.cpp:1507
+#, kde-format
 msgid "Run selected"
 msgstr ""
 
 #: plasmaapp.cpp:1508
+#, kde-format
 msgid "Run none"
 msgstr ""
 
 #: positioningruler.cpp:465
+#, kde-format
 msgid "Move this slider to set the panel position"
 msgstr "এই স্লাইডার সহযোগে প্যানেলের অবস্থান নির্ধারণ করুন"
 
 #: positioningruler.cpp:468
+#, kde-format
 msgid "Move this slider to set the maximum panel size"
 msgstr "এই স্লাইডার সহযোগে প্যানেলের সর্বোচ্চ নির্ধারণ করুন"
 
 #: positioningruler.cpp:471
+#, kde-format
 msgid "Move this slider to set the minimum panel size"
 msgstr "এই স্লাইডার সহযোগে প্যানেলের সর্বনিম্ন মাপ নির্ধারণ করুন"
 

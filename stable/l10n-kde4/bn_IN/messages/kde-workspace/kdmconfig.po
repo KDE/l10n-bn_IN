@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2010-01-04 11:25+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -19,19 +19,23 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
 #: background.cpp:39
+#, kde-format
 msgid "E&nable background"
 msgstr "পটভূমি প্রদর্শন সক্রিয় করুন (&n)"
 
 #: background.cpp:41
+#, kde-format
 msgid ""
 "If this is checked, KDM will use the settings below for the background. If "
 "it is disabled, you have to look after the background yourself. This is done "
@@ -40,14 +44,17 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:49
+#, kde-format
 msgid "<big><b><center>Attention<br/>Read help</center></b></big>"
 msgstr "<big><b><center>সতর্কতামূলক বার্তা<br/>সহায়িকা পড়ুন</center></b></big>"
 
 #: kdm-conv.cpp:59
+#, kde-format
 msgid "Enable Au&to-Login"
 msgstr "স্বয়ংক্রিয় লগ-ইন সক্রিয় করুন (&t)"
 
 #: kdm-conv.cpp:65
+#, kde-format
 msgid ""
 "Turn on the auto-login feature. This applies only to KDM's graphical login. "
 "Think twice before enabling this!"
@@ -56,18 +63,22 @@ msgstr ""
 "প্রযোজ্য। এটি সক্রিয় করার পূর্বে পুনরায় বিবেচনা করা বাঞ্ছনীয়।"
 
 #: kdm-conv.cpp:72
+#, kde-format
 msgid "Use&r:"
 msgstr "ব্যবহারকারী: (&r)"
 
 #: kdm-conv.cpp:81
+#, kde-format
 msgid "Select the user to be logged in automatically."
 msgstr "স্বয়ংক্রিয়রূপে লগ-ইনের জন্য চিহ্নিত ব্যবহারকারীর নাম নির্বাচন করুন।"
 
 #: kdm-conv.cpp:84
+#, kde-format
 msgid "Loc&k session"
 msgstr "সেশান লক করুন: (&k)"
 
 #: kdm-conv.cpp:88
+#, kde-format
 msgid ""
 "The automatically started session will be locked immediately (provided it is "
 "a KDE session). This can be used to obtain a super-fast login restricted to "
@@ -75,49 +86,58 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:92
+#, kde-format
 msgctxt "@title:group"
 msgid "Preselect User"
 msgstr "ব্যবহারকারীর নাম পূর্বে নির্বাচন করুন"
 
 #: kdm-conv.cpp:96
+#, kde-format
 msgctxt "@option:radio preselected user"
 msgid "&None"
 msgstr "শূণ্য (&N)"
 
 #: kdm-conv.cpp:97
+#, kde-format
 msgctxt "@option:radio preselected user"
 msgid "Prev&ious"
 msgstr "পূর্ববর্তী (&i)"
 
 #: kdm-conv.cpp:99
+#, kde-format
 msgid ""
 "Preselect the user that logged in previously. Use this if this computer is "
 "usually used several consecutive times by one user."
 msgstr ""
 
 #: kdm-conv.cpp:101
+#, kde-format
 msgctxt "@option:radio preselected user"
 msgid "Specifi&ed:"
 msgstr "নির্ধরিত: (&e)"
 
 #: kdm-conv.cpp:103
+#, kde-format
 msgid ""
 "Preselect the user specified in the combo box to the right. Use this if this "
 "computer is predominantly used by a certain user."
 msgstr ""
 
 #: kdm-conv.cpp:120
+#, kde-format
 msgid ""
 "Select the user to be preselected for login. This box is editable, so you "
 "can specify an arbitrary non-existent user to mislead possible attackers."
 msgstr ""
 
 #: kdm-conv.cpp:135
+#, kde-format
 msgctxt "@option:check action"
 msgid "Focus pass&word"
 msgstr "পাসওয়ার্ডের উপর ফোকাস করা হবে (&w)"
 
 #: kdm-conv.cpp:138
+#, kde-format
 msgid ""
 "When this option is on, KDM will place the cursor in the password field "
 "instead of the user field after preselecting a user. Use this to save one "
@@ -125,10 +145,12 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:144
+#, kde-format
 msgid "Enable Password-&Less Logins"
 msgstr "পাসওয়ার্ড বিহীন লগ-ইন সক্রিয় করা হবে (&L)"
 
 #: kdm-conv.cpp:151
+#, kde-format
 msgid ""
 "When this option is checked, the checked users from the list below will be "
 "allowed to log in without entering their password. This applies only to "
@@ -136,10 +158,12 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:158
+#, kde-format
 msgid "No password re&quired for:"
 msgstr "প্রদর্শিত ব্যবহারকারীদের জন্য পাসওয়ার্ড প্রয়োজন নেই: (&q)"
 
 #: kdm-conv.cpp:164
+#, kde-format
 msgid ""
 "Check all users you want to allow a password-less login for. Entries denoted "
 "with '@' are user groups. Checking a group is like checking all users in "
@@ -147,15 +171,18 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:168 kdm-shut.cpp:95
+#, kde-format
 msgctxt "@title:group"
 msgid "Miscellaneous"
 msgstr "বিবিধ"
 
 #: kdm-conv.cpp:172
+#, kde-format
 msgid "Automatically log in again after &X server crash"
 msgstr "X-সার্ভার বিপর্যয়ের পরে স্বয়ংক্রিয়ভাবে পুনরায় লগ-ইন হবে (&X)"
 
 #: kdm-conv.cpp:174
+#, kde-format
 msgid ""
 "When this option is on, a user will be logged in again automatically when "
 "their session is interrupted by an X server crash; note that this can open a "
@@ -164,10 +191,12 @@ msgid ""
 msgstr ""
 
 #: kdm-dlg.cpp:64
+#, kde-format
 msgid "&Greeting:"
 msgstr "অভিবাদন: (&G)"
 
 #: kdm-dlg.cpp:71
+#, kde-format
 msgid ""
 "<p>This is the \"headline\" for KDM's login window. You may want to put some "
 "nice greeting or information about the operating system here.</p><p>KDM will "
@@ -180,33 +209,40 @@ msgid ""
 msgstr ""
 
 #: kdm-dlg.cpp:92
+#, kde-format
 msgid "Logo area:"
 msgstr "লোগো প্রদর্শনের স্থান:"
 
 #: kdm-dlg.cpp:97
+#, kde-format
 msgctxt "logo area"
 msgid "&None"
 msgstr "শূণ্য (&N)"
 
 #: kdm-dlg.cpp:98
+#, kde-format
 msgid "Show cloc&k"
 msgstr "ঘড়ি প্রদর্শন করা হবে (&k)"
 
 #: kdm-dlg.cpp:99
+#, kde-format
 msgid "Sho&w logo"
 msgstr "লোগো প্রদর্শিত হবে (&w)"
 
 #: kdm-dlg.cpp:110
+#, kde-format
 msgid ""
 "You can choose to display a custom logo (see below), a clock or no logo at "
 "all."
 msgstr "স্বনির্ধারিত লোগো (নীচে দেখুন), একটি ঘড়ি অথবা লোগোবিনা প্রদর্শন করা যাবে।"
 
 #: kdm-dlg.cpp:116
+#, kde-format
 msgid "&Logo:"
 msgstr "লোগো: (&L)"
 
 #: kdm-dlg.cpp:127
+#, kde-format
 msgid ""
 "Click here to choose an image that KDM will display. You can also drag and "
 "drop an image onto this button (e.g. from Konqueror)."
@@ -215,6 +251,7 @@ msgstr ""
 "মধ্যে কোনো ছবি টেনে নিয়ে এসে ফেলা যাবে (উদাহরণস্বরূপ, Konqueror থেকে)।"
 
 #: kdm-dlg.cpp:138
+#, kde-format
 msgid "Dialog &position:"
 msgstr "ডায়লগের স্থান: (&p)"
 
@@ -230,11 +267,12 @@ msgstr ""
 "এটি সংরক্ষণ করা হবে না।"
 
 #: kdm-dlg.cpp:257 kdm-dlg.cpp:285
-#, c-format
+#, kde-format
 msgid "Welcome to %s at %n"
 msgstr "%s-এ স্বাগতম %n-র মধ্যে"
 
 #: kdm-dlg.cpp:295
+#, kde-format
 msgid ""
 "<h1>KDM - Dialog</h1> Here you can configure the basic appearance of the KDM "
 "login manager in dialog mode, i.e. a greeting string, an icon etc."
@@ -243,15 +281,18 @@ msgstr ""
 "চেহারাছবি এইখানে কনফিগার করা যাবে, অর্থাৎ অভিবাদন, আইকন প্রভৃতি"
 
 #: kdm-gen.cpp:47
+#, kde-format
 msgctxt "@title:group 'man locale' ..."
 msgid "Locale"
 msgstr "লোকেইল"
 
 #: kdm-gen.cpp:56
+#, kde-format
 msgid "&Language:"
 msgstr "ভাষা: (&L)"
 
 #: kdm-gen.cpp:58
+#, kde-format
 msgid ""
 "Here you can choose the language used by KDM. This setting does not affect a "
 "user's personal settings; that will take effect after login."
@@ -261,17 +302,20 @@ msgstr ""
 "পরিবর্তনগুলি প্রয়োগ করা হবে।"
 
 #: kdm-gen.cpp:65
+#, kde-format
 msgctxt "@title:group"
 msgid "Appearance"
 msgstr "চেহারাছবি"
 
 #: kdm-gen.cpp:70
+#, kde-format
 msgid ""
 "&Use themed greeter\n"
 "(Warning: poor accessibility)"
 msgstr ""
 
 #: kdm-gen.cpp:73
+#, kde-format
 msgid ""
 "Enable this if you would like to use a themed Login Manager.<br>Note that "
 "the themed greeter is challenged accessibility-wise (keyboard usage), and "
@@ -280,32 +324,39 @@ msgid ""
 msgstr ""
 
 #: kdm-gen.cpp:80 kdm-gen.cpp:91 kdm-users.cpp:114
+#, kde-format
 msgid "<placeholder>default</placeholder>"
 msgstr "<placeholder>ডিফল্ট মান</placeholder>"
 
 #: kdm-gen.cpp:85
+#, kde-format
 msgid "GUI s&tyle:"
 msgstr "GUI-র বিন্যাস: (&t)"
 
 #: kdm-gen.cpp:87
+#, kde-format
 msgid "You can choose a basic GUI style here that will be used by KDM only."
 msgstr "শুধুমাত্র KDM দ্বারা ব্যবহারযোগ্য একটি সাদামাটা GUI বিন্যাস নির্বাচন করুন।"
 
 #: kdm-gen.cpp:95
+#, kde-format
 msgid "Color sche&me:"
 msgstr "রঙের বিন্যাস: (&m)"
 
 #: kdm-gen.cpp:97
+#, kde-format
 msgid "You can choose a basic Color Scheme here that will be used by KDM only."
 msgstr ""
 "শুধুমাত্র KDM-র সাথে ব্যবহারযোগ্য রঙের মৌলিক বিন্যাস এইখানে নির্বাচন করা যাবে।"
 
 #: kdm-gen.cpp:100
+#, kde-format
 msgctxt "@title:group"
 msgid "Fonts"
 msgstr "ফন্ট"
 
 #: kdm-gen.cpp:107
+#, kde-format
 msgid ""
 "This changes the font which is used for all the text in the login manager "
 "except for the greeting and failure messages."
@@ -314,11 +365,13 @@ msgstr ""
 "ব্যবহৃত ফন্ট পরিবর্তিত হবে"
 
 #: kdm-gen.cpp:110
+#, kde-format
 msgctxt "... font"
 msgid "&General:"
 msgstr "সাধারণ: (&G)"
 
 #: kdm-gen.cpp:114
+#, kde-format
 msgid ""
 "This changes the font which is used for failure messages in the login "
 "manager."
@@ -327,25 +380,30 @@ msgstr ""
 "ফলে পরিবর্তন করা হয়।"
 
 #: kdm-gen.cpp:116
+#, kde-format
 msgctxt "font for ..."
 msgid "&Failure:"
 msgstr "ব্যর্থতা: (&F)"
 
 #: kdm-gen.cpp:120
+#, kde-format
 msgid "This changes the font which is used for the login manager's greeting."
 msgstr ""
 "লগ-ইন পরিচালন ব্যবস্থার অভিবাদন বার্তার জন্য ব্যবহৃত ফন্ট এর ফলে পরিবর্তন করা হবে।"
 
 #: kdm-gen.cpp:122
+#, kde-format
 msgctxt "font for ..."
 msgid "Gree&ting:"
 msgstr "অভিবাদন: (&t)"
 
 #: kdm-gen.cpp:124
+#, kde-format
 msgid "Use anti-aliasing for fonts"
 msgstr "ফন্টের জন্য অ্যান্ট-অ্যালায়েসিং ব্যবহার করা হবে"
 
 #: kdm-gen.cpp:126
+#, kde-format
 msgid ""
 "If you check this box and your X-Server has the Xft extension, fonts will be "
 "antialiased (smoothed) in the login dialog."
@@ -354,35 +412,42 @@ msgstr ""
 "ইন ডায়ল বক্সের মধ্যে প্রয়োগ হওয়া ফন্টগুলি অ্যান্টি-অ্যালায়েস (অর্থাৎ মসৃণ) করা হবে।"
 
 #: kdm-shut.cpp:45
+#, kde-format
 msgid "Allow Shutdown"
 msgstr "বন্ধ করার অনুমতিপ্রাপ্ত"
 
 #: kdm-shut.cpp:49
+#, kde-format
 msgctxt "shutdown request origin"
 msgid "&Local:"
 msgstr "স্থানীয়: (&L)"
 
 #: kdm-shut.cpp:51 kdm-shut.cpp:59
+#, kde-format
 msgctxt "@item:inlistbox allow shutdown"
 msgid "Everybody"
 msgstr "সকল"
 
 #: kdm-shut.cpp:52 kdm-shut.cpp:60
+#, kde-format
 msgctxt "@item:inlistbox allow shutdown"
 msgid "Only Root"
 msgstr "শুধুমাত্র Root"
 
 #: kdm-shut.cpp:53 kdm-shut.cpp:61
+#, kde-format
 msgctxt "@item:inlistbox allow shutdown"
 msgid "Nobody"
 msgstr "কেউ না"
 
 #: kdm-shut.cpp:57
+#, kde-format
 msgctxt "shutdown request origin"
 msgid "&Remote:"
 msgstr "দূরবর্তী: (&R)"
 
 #: kdm-shut.cpp:64
+#, kde-format
 msgid ""
 "Here you can select who is allowed to shutdown the computer using KDM. You "
 "can specify different values for local (console) and remote displays. "
@@ -393,70 +458,84 @@ msgid ""
 msgstr ""
 
 #: kdm-shut.cpp:74
+#, kde-format
 msgctxt "@title:group shell commands for shutdown"
 msgid "Commands"
 msgstr "কমান্ড"
 
 #: kdm-shut.cpp:77
+#, kde-format
 msgctxt "command for ..."
 msgid "H&alt:"
 msgstr "স্থগিত করুন: (&a)"
 
 #: kdm-shut.cpp:81
+#, kde-format
 msgid "Command to initiate the system halt. Typical value: /sbin/halt"
 msgstr "সিস্টেমে কর্ম স্থগিত করতে ব্যবহৃত কমান্ড। সাধারণত: /sbin/halt"
 
 #: kdm-shut.cpp:86
+#, kde-format
 msgctxt "command for ..."
 msgid "Reb&oot:"
 msgstr "পুনরায় বুট: (&o)"
 
 #: kdm-shut.cpp:90
+#, kde-format
 msgid "Command to initiate the system reboot. Typical value: /sbin/reboot"
 msgstr "সিস্টেম পুনরায় বুট করার জন্য ব্যবহৃত কমান্ড। সাধারণত: /sbin/reboot"
 
 #: kdm-shut.cpp:98
+#, kde-format
 msgctxt "boot manager"
 msgid "None"
 msgstr "শূণ্য"
 
 #: kdm-shut.cpp:99
+#, kde-format
 msgid "Grub"
 msgstr "Grub"
 
 #: kdm-shut.cpp:100
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Grub"
 msgid "Grub2"
 msgstr "Grub"
 
 #: kdm-shut.cpp:101
+#, kde-format
 msgid "Burg"
 msgstr ""
 
 #: kdm-shut.cpp:103
+#, kde-format
 msgid "Lilo"
 msgstr "Lilo"
 
 #: kdm-shut.cpp:105
+#, kde-format
 msgid "Boot manager:"
 msgstr "বুট পরিচালন ব্যবস্থা:"
 
 #: kdm-shut.cpp:108
+#, kde-format
 msgid "Enable boot options in the \"Shutdown...\" dialog."
 msgstr "\"বন্ধ করুন...\" শীর্ষক ডায়লগের মধ্যে বুট সংক্রান্ত বিকল্পগুলি সক্রিয় করুন।"
 
 #: kdm-theme.cpp:98
+#, kde-format
 msgctxt "@title:column"
 msgid "Theme"
 msgstr "থিম"
 
 #: kdm-theme.cpp:99
+#, kde-format
 msgctxt "@title:column"
 msgid "Author"
 msgstr "নির্মাতা"
 
 #: kdm-theme.cpp:103
+#, kde-format
 msgid ""
 "This is a list of installed themes.\n"
 "Click the one to be used."
@@ -465,32 +544,39 @@ msgstr ""
 "ব্যবহারের জন্য যে কোনো একটি ক্লিক করুন।"
 
 #: kdm-theme.cpp:111
+#, kde-format
 msgid "This is a screen shot of what KDM will look like."
 msgstr "KDM-র সম্ভাব্য চেহারার একটি স্ক্রিন-শট।"
 
 #: kdm-theme.cpp:119
+#, kde-format
 msgid "This contains information about the selected theme."
 msgstr "নির্বাচিত থিম সম্পর্কিত তথ্য এর মধ্যে অন্তর্ভুক্ত রয়েছে।"
 
 #: kdm-theme.cpp:123
+#, kde-format
 msgctxt "@action:button"
 msgid "Install &new theme"
 msgstr "নতুন থিম ইনস্টল করুন (&n)"
 
 #: kdm-theme.cpp:124
+#, kde-format
 msgid "This will install a theme into the theme directory."
 msgstr "এর ফলে, থিম ডিরেক্টরির মধ্যে একটি থিম ইনস্টল করা হবে।"
 
 #: kdm-theme.cpp:128
+#, kde-format
 msgctxt "@action:button"
 msgid "&Remove theme"
 msgstr "থিম মুছে ফেলুন (&R)"
 
 #: kdm-theme.cpp:129
+#, kde-format
 msgid "This will remove the selected theme."
 msgstr "এর ফলে নির্বাচিত থিম মুছে ফেলা হবে।"
 
 #: kdm-theme.cpp:133
+#, kde-format
 msgctxt "@action:button"
 msgid "&Get New Themes"
 msgstr "নতুন থিম প্রাপ্ত করুন (&G)"
@@ -511,6 +597,7 @@ msgid "Unable to create folder %1"
 msgstr "ফোল্ডার %1 নির্মাণ করতে ব্যর্থ"
 
 #: kdm-theme.cpp:244
+#, kde-format
 msgid "Drag or Type Theme URL"
 msgstr "থিমের URL টেনে আনুন অথবা লিখুন।"
 
@@ -529,10 +616,12 @@ msgstr ""
 "অনুগ্রহ করে পরীক্ষা করুন %1 ঠিকানাটি সঠিক কি না।"
 
 #: kdm-theme.cpp:288
+#, kde-format
 msgid "The file is not a valid KDM theme archive."
 msgstr "সংশ্লিষ্ট ফাইলটি বৈধ KDM থিম আর্কাইভ নয়।"
 
 #: kdm-theme.cpp:291
+#, kde-format
 msgctxt "@title:window"
 msgid "Installing KDM themes"
 msgstr "KDM থিম ইনস্টল করুন"
@@ -546,7 +635,7 @@ msgid "<qt>Unpacking <strong>%1</strong> theme</qt>"
 msgstr "<qt><strong>%1</strong> থিম ইনস্টল করা হচ্ছে</qt>"
 
 #: kdm-theme.cpp:315
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "@info:progress"
 #| msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgctxt "@info:progress"
@@ -554,7 +643,7 @@ msgid "<qt>Installing the themes</qt>"
 msgstr "<qt><strong>%1</strong> থিম ইনস্টল করা হচ্ছে</qt>"
 
 #: kdm-theme.cpp:324
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "There was an error saving the image:\n"
 #| "%1"
@@ -564,21 +653,24 @@ msgstr ""
 "%1"
 
 #: kdm-theme.cpp:363
+#, kde-format
 msgid "Are you sure you want to remove the following themes?"
 msgstr "আপনি কি নিশ্চিতরূপে নিম্নলিখিত থিমগুলি মুছে ফেলতে ইচ্ছুক?"
 
 #: kdm-theme.cpp:364
+#, kde-format
 msgctxt "@title:window"
 msgid "Remove themes?"
 msgstr "থিম মুছে ফেলা হবে কি?"
 
 #: kdm-theme.cpp:377
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Are you sure you want to remove the following themes?"
 msgid "There were errors while deleting the following themes:\n"
 msgstr "আপনি কি নিশ্চিতরূপে নিম্নলিখিত থিমগুলি মুছে ফেলতে ইচ্ছুক?"
 
 #: kdm-users.cpp:111
+#, kde-format
 msgid ""
 "User 'nobody' does not exist. Displaying user images will not work in KDM."
 msgstr ""
@@ -586,11 +678,13 @@ msgstr ""
 "প্রদর্শন করা যাবে না।"
 
 #: kdm-users.cpp:117
+#, kde-format
 msgctxt "@title:group UIDs belonging to system users like 'cron'"
 msgid "System U&IDs"
 msgstr "সিস্টেমের UID (&I)"
 
 #: kdm-users.cpp:119
+#, kde-format
 msgid ""
 "Users with a UID (numerical user identification) outside this range will not "
 "be listed by KDM and this setup dialog. Note that users with the UID 0 "
@@ -599,48 +693,57 @@ msgid ""
 msgstr ""
 
 #: kdm-users.cpp:125
+#, kde-format
 msgctxt "UIDs"
 msgid "Below:"
 msgstr "চিহ্নিত মান থেকে কম:"
 
 #: kdm-users.cpp:132
+#, kde-format
 msgctxt "UIDs"
 msgid "Above:"
 msgstr "চিহ্নিত মান থেকে অধিক:"
 
 #: kdm-users.cpp:145
+#, kde-format
 msgctxt "@title:group"
 msgid "Users"
 msgstr "ব্যবহারকারী"
 
 #: kdm-users.cpp:146
+#, kde-format
 msgctxt "... of users"
 msgid "Show list"
 msgstr "তালিকা প্রদর্শন"
 
 #: kdm-users.cpp:148
+#, kde-format
 msgid ""
 "If this option is checked, KDM will show a list of users, so users can click "
 "on their name or image rather than typing in their login."
 msgstr ""
 
 #: kdm-users.cpp:150
+#, kde-format
 msgctxt "user ..."
 msgid "Autocompletion"
 msgstr "স্বয়ংক্রিয় সম্পূর্ণ"
 
 #: kdm-users.cpp:152
+#, kde-format
 msgid ""
 "If this option is checked, KDM will automatically complete user names while "
 "they are typed in the line edit."
 msgstr ""
 
 #: kdm-users.cpp:155
+#, kde-format
 msgctxt "@option:check mode of the user selection"
 msgid "Inverse selection"
 msgstr "বিপরীত নির্বাচন"
 
 #: kdm-users.cpp:157
+#, kde-format
 msgid ""
 "This option specifies how the users for \"Show list\" and \"Autocompletion\" "
 "are selected in the \"Select users and groups\" list: If not checked, select "
@@ -649,45 +752,54 @@ msgid ""
 msgstr ""
 
 #: kdm-users.cpp:161
+#, kde-format
 msgid "Sor&t users"
 msgstr "ব্যবহারকারীদের তালিকার ক্রমবিন্যাস (&t)"
 
 #: kdm-users.cpp:163
+#, kde-format
 msgid ""
 "If this is checked, KDM will alphabetically sort the user list. Otherwise "
 "users are listed in the order they appear in the password file."
 msgstr ""
 
 #: kdm-users.cpp:180
+#, kde-format
 msgid "S&elect users and groups:"
 msgstr "ব্যবহারকারী ও দল নির্বাচন করুন: (&e)"
 
 #: kdm-users.cpp:184
+#, kde-format
 msgid "Selected Users"
 msgstr "নির্বাচিত ব্যবহারকারী"
 
 #: kdm-users.cpp:186
+#, kde-format
 msgid ""
 "KDM will show all checked users. Entries denoted with '@' are user groups. "
 "Checking a group is like checking all users in that group."
 msgstr ""
 
 #: kdm-users.cpp:195
+#, kde-format
 msgid "Excluded Users"
 msgstr "বহির্ভুত ব্যবহারকারী"
 
 #: kdm-users.cpp:197
+#, kde-format
 msgid ""
 "KDM will show all non-checked non-system users. Entries denoted with '@' are "
 "user groups. Checking a group is like checking all users in that group."
 msgstr ""
 
 #: kdm-users.cpp:206
+#, kde-format
 msgctxt "@title:group source for user faces"
 msgid "User Image Source"
 msgstr "ব্যবহারকারীর ছবির উৎস"
 
 #: kdm-users.cpp:208
+#, kde-format
 msgid ""
 "Here you can specify where KDM will obtain the images that represent users. "
 "\"System\" represents the global folder; these are the pictures you can set "
@@ -697,43 +809,52 @@ msgid ""
 msgstr ""
 
 #: kdm-users.cpp:212
+#, kde-format
 msgctxt "@option:radio image source"
 msgid "System"
 msgstr "সিস্টেম"
 
 #: kdm-users.cpp:213
+#, kde-format
 msgctxt "@option:radio image source"
 msgid "System, user"
 msgstr "সিস্টেম, ব্যবহারকারী"
 
 #: kdm-users.cpp:214
+#, kde-format
 msgctxt "@option:radio image source"
 msgid "User, system"
 msgstr "ব্যবহারকারী, সিস্টেম"
 
 #: kdm-users.cpp:215
+#, kde-format
 msgctxt "@option:radio image source"
 msgid "User"
 msgstr "ব্যবহারকারী"
 
 #: kdm-users.cpp:230
+#, kde-format
 msgctxt "@title:group user face assignments"
 msgid "User Images"
 msgstr "ব্যবহারকারীর ছবি"
 
 #: kdm-users.cpp:232
+#, kde-format
 msgid "The user the image below belongs to."
 msgstr "নীচে প্রদর্শিত ছবি দ্বারা চিহ্নিত ব্যবহারকারী।"
 
 #: kdm-users.cpp:235
+#, kde-format
 msgid "User:"
 msgstr "ব্যবহারকারী:"
 
 #: kdm-users.cpp:244
+#, kde-format
 msgid "Click or drop an image here"
 msgstr "একটি ছবি এইখানে ক্লিক করুন অথবা টেনে আনুন"
 
 #: kdm-users.cpp:246
+#, kde-format
 msgid ""
 "Here you can see the image assigned to the user selected in the combo box "
 "above. Click on the image button to select from a list of images or drag and "
@@ -741,17 +862,20 @@ msgid ""
 msgstr ""
 
 #: kdm-users.cpp:250
+#, kde-format
 msgctxt "@action:button assign default user face"
 msgid "R&eset"
 msgstr "রি-সেট করুন (&e)"
 
 #: kdm-users.cpp:252
+#, kde-format
 msgid ""
 "Click this button to make KDM use the default image for the selected user."
 msgstr ""
 "নির্বাচিত ব্যবহারকারীর জন্য KDM-এ ডিফল্ট ছবি ব্যবহারের জন্য এই বাটন ক্লিক করুন।"
 
 #: kdm-users.cpp:351
+#, kde-format
 msgid "Save image as default?"
 msgstr "ডিফল্ট হিসাবে ছবিটি সংরক্ষণ করা হবে কি?"
 
@@ -808,44 +932,53 @@ msgstr ""
 "%2"
 
 #: main.cpp:115
+#, kde-format
 msgid "KDE Login Manager Config Module"
 msgstr "KDE লগ-ইন পরিচালনা ব্যবস্থার কনফিগ মডিউল"
 
 #: main.cpp:117
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "(c) 1996-2008 The KDM Authors"
 msgid "(c) 1996-2010 The KDM Authors"
 msgstr "(c) ১৯৯৬-২০০৮, KDM নির্মাতাবৃন্দ"
 
 #: main.cpp:120
+#, kde-format
 msgid "Thomas Tanghus"
 msgstr "থোমাস তানঘুস"
 
 #: main.cpp:120
+#, kde-format
 msgid "Original author"
 msgstr "মূল নির্মাতা"
 
 #: main.cpp:121
+#, kde-format
 msgid "Steffen Hansen"
 msgstr "স্টেফেন হ্যানসেন"
 
 #: main.cpp:122
+#, kde-format
 msgid "Oswald Buddenhagen"
 msgstr "ওসওয়াল্ড বুডেনহাগেন"
 
 #: main.cpp:122
+#, kde-format
 msgid "Current maintainer"
 msgstr "বর্তমান মেইনটেনার"
 
 #: main.cpp:123
+#, kde-format
 msgid "Stephen Leaf"
 msgstr "স্টিফান লিফ"
 
 #: main.cpp:124
+#, kde-format
 msgid "Igor Krivenko"
 msgstr ""
 
 #: main.cpp:127
+#, kde-format
 msgid ""
 "<h1>Login Manager</h1> In this module you can configure the various aspects "
 "of the KDE Login Manager. This includes the look and feel as well as the "
@@ -868,42 +1001,52 @@ msgid ""
 msgstr ""
 
 #: main.cpp:212
+#, kde-format
 msgid "&General"
 msgstr "সাধারণ (&G)"
 
 #: main.cpp:218
+#, kde-format
 msgid "&Dialog"
 msgstr "ডায়লগ (&D)"
 
 #: main.cpp:223
+#, kde-format
 msgid "There is no login dialog window in themed mode."
 msgstr "থিম মোডে কোনো লগ-ইন ডায়লগ উইন্ডো উপস্থিত নেই।"
 
 #: main.cpp:229
+#, kde-format
 msgid "&Background"
 msgstr "পটভূমি (&B)"
 
 #: main.cpp:234
+#, kde-format
 msgid "The background cannot be configured separately in themed mode."
 msgstr "থিম মোড ব্যবহার করা হলে পটভূমি পৃথকভাবে কনফিগার করা সম্ভব নয়।"
 
 #: main.cpp:240
+#, kde-format
 msgid "&Theme"
 msgstr "থিম (&T)"
 
 #: main.cpp:242
+#, kde-format
 msgid "Themed mode is disabled. See \"General\" tab."
 msgstr "থিম মোড নিষ্ক্রিয় রয়েছে। \"সাধারণ\" শীর্ষক ট্যাব দেখুন।"
 
 #: main.cpp:251
+#, kde-format
 msgid "&Shutdown"
 msgstr "বন্ধ করুন (&S)"
 
 #: main.cpp:255
+#, kde-format
 msgid "&Users"
 msgstr "ব্যবহারকারী (&U)"
 
 #: main.cpp:265
+#, kde-format
 msgid "&Convenience"
 msgstr "সুবিধা (&C)"
 
@@ -931,6 +1074,7 @@ msgid ""
 msgstr ""
 
 #: positioner.cpp:98
+#, kde-format
 msgid ""
 "Drag the anchor to move the center of the dialog to the desired position. "
 "Keyboard control is possible as well: Use the arrow keys or Home to center. "
