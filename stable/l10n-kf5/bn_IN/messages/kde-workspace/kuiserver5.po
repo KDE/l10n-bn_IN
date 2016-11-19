@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuiserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-14 09:03+0000\n"
+"POT-Creation-Date: 2016-11-19 22:53+0100\n"
 "PO-Revision-Date: 2009-01-12 14:26+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -20,36 +20,43 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
 #: configdialog.ui:31
+#, kde-format
 msgid "Finished Jobs"
 msgstr "সমাপ্ত কর্ম"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
 #: configdialog.ui:43
+#, kde-format
 msgid "Move them to a different list"
 msgstr "ভিন্ন তালিকায় স্থানান্তর করা হবে"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
 #: configdialog.ui:50
+#, kde-format
 msgid "Remove them"
 msgstr "মুছে ফেলুন"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
 #: configdialog.ui:60
+#, kde-format
 msgid "Appearance"
 msgstr "চেহারা"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
 #: configdialog.ui:72
+#, kde-format
 msgid "Show all jobs in a list"
 msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
 #: configdialog.ui:79
+#, kde-format
 msgid "Show all jobs in a tree"
 msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
 #: configdialog.ui:86
+#, kde-format
 msgid "Show separate windows"
 msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে"
 
@@ -69,26 +76,31 @@ msgstr[1] "%1-টি ফোল্ডার"
 
 #. i18n: ectx: label, entry, group (Configuration)
 #: kuiserversettings.kcfg:8
+#, kde-format
 msgid "Move them to a different list."
 msgstr "ভিন্ন তালিকায় স্থানান্তর করুন।"
 
 #. i18n: ectx: label, entry, group (Configuration)
 #: kuiserversettings.kcfg:12
+#, kde-format
 msgid "Remove them."
 msgstr "মুছে ফেলুন।"
 
 #. i18n: ectx: label, entry, group (Configuration)
 #: kuiserversettings.kcfg:16
+#, kde-format
 msgid "Show all jobs in a list."
 msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
 
 #. i18n: ectx: label, entry, group (Configuration)
 #: kuiserversettings.kcfg:20
+#, kde-format
 msgid "Show all jobs in a tree."
 msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
 
 #. i18n: ectx: label, entry, group (Configuration)
 #: kuiserversettings.kcfg:24
+#, kde-format
 msgid "Show separate windows."
 msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে।"
 
@@ -113,30 +125,37 @@ msgid "%1 processed"
 msgstr "%1 প্রসেস করা হয়েছে"
 
 #: progresslistdelegate.cpp:240
+#, kde-format
 msgid "Clear"
 msgstr ""
 
 #: progresslistdelegate.cpp:268
+#, kde-format
 msgid "Cancel"
 msgstr "বাতিল"
 
 #: progresslistdelegate.cpp:287
+#, kde-format
 msgid "Pause"
 msgstr "স্থগিত করুন"
 
 #: progresslistdelegate.cpp:291
+#, kde-format
 msgid "Resume"
 msgstr "পুনরারম্ভ"
 
 #: uiserver.cpp:44
+#, kde-format
 msgid "Configure..."
 msgstr "কনফিগার করুন..."
 
 #: uiserver.cpp:79
+#, kde-format
 msgid "List of running file transfers/jobs (kuiserver)"
 msgstr ""
 
 #: uiserver.cpp:125
+#, kde-format
 msgid "Behavior"
 msgstr "আচরণ"
 

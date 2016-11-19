@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-24 11:16+0000\n"
+"POT-Creation-Date: 2016-11-19 22:53+0100\n"
 "PO-Revision-Date: 2008-12-29 15:54+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -20,52 +20,63 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: package/contents/config/config.qml:25
+#, kde-format
 msgid "General"
 msgstr "সাধারণ"
 
 #: package/contents/ui/configGeneral.qml:86
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Display text:"
 msgid "Display:"
 msgstr "প্রদর্শিত টেক্সট:"
 
 #: package/contents/ui/configGeneral.qml:92
+#, kde-format
 msgid "Activity number"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:92
+#, kde-format
 msgid "Desktop number"
 msgstr "ডেস্কটপ সংখ্যা"
 
 #: package/contents/ui/configGeneral.qml:103
+#, kde-format
 msgid "Activity name"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:103
+#, kde-format
 msgid "Desktop name"
 msgstr "ডেস্কটপের নাম"
 
 #: package/contents/ui/configGeneral.qml:109
+#, kde-format
 msgid "No text"
 msgstr "লেখা বিহীন"
 
 #: package/contents/ui/configGeneral.qml:120
+#, kde-format
 msgid "Icons"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:130
+#, kde-format
 msgid "Only the current screen"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:134
+#, kde-format
 msgid "Selecting current desktop:"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:140
+#, kde-format
 msgid "Does nothing"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:151
+#, kde-format
 msgid "Shows desktop"
 msgstr ""
 
@@ -95,23 +106,24 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: package/contents/ui/main.qml:473
+#, kde-format
 msgid "Show Activity Manager..."
 msgstr ""
 
 #: package/contents/ui/main.qml:476
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Configure Desktops..."
 msgid "Add Virtual Desktop"
 msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
 
 #: package/contents/ui/main.qml:477
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Configure Desktops..."
 msgid "Remove Virtual Desktop"
 msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
 
 #: package/contents/ui/main.qml:482
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Configure Desktops..."
 msgid "Configure Desktops..."
 msgstr "ডেস্কটপ কনফিগার করুন..."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-31 06:43+0000\n"
+"POT-Creation-Date: 2016-11-19 22:45+0100\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -19,14 +19,17 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: kshellcmdexecutor.cpp:119
+#, kde-format
 msgid "Input Required:"
 msgstr ""
 
 #: kshellcmdplugin.cpp:47
+#, kde-format
 msgid "&Execute Shell Command..."
 msgstr "শেল কমান্ড সঞ্চালন করুন...(&E)"
 
 #: kshellcmdplugin.cpp:56
+#, kde-format
 msgid ""
 "KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
 msgstr ""
@@ -34,17 +37,19 @@ msgstr ""
 "বাগ দায়ের করুন।"
 
 #: kshellcmdplugin.cpp:62
+#, kde-format
 msgid "Executing shell commands works only on local directories."
 msgstr ""
 
 #: kshellcmdplugin.cpp:83
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Execute Shell Command"
 msgctxt "@title:window"
 msgid "Execute Shell Command"
 msgstr "শেল কমান্ড সঞ্চালন করুন"
 
 #: kshellcmdplugin.cpp:84
+#, kde-format
 msgid "Execute shell command in current directory:"
 msgstr "বর্তমান ডিরেক্টরির মধ্যে শেল কমান্ড সঞ্চালন করুন:"
 
@@ -55,6 +60,7 @@ msgstr "কমান্ড থেকে প্রাপ্ত ফলাফল: \
 
 #. i18n: ectx: Menu (tools)
 #: kshellcmdplugin.rc:4
+#, kde-format
 msgid "&Tools"
 msgstr "সরঞ্জাম (&T)"
 

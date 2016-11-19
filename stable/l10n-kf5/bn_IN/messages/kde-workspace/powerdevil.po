@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-16 11:23+0000\n"
+"POT-Creation-Date: 2016-11-19 22:53+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,10 +18,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
@@ -29,23 +31,26 @@ msgstr "runab@redhat.com"
 #: actions/bundled/brightnesscontrol.cpp:55
 #: actions/bundled/handlebuttonevents.cpp:59
 #: actions/bundled/keyboardbrightnesscontrol.cpp:59
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Profile Management"
 msgctxt "Name for powerdevil shortcuts category"
 msgid "Power Management"
 msgstr "প্রোফাইল পরিচালনা"
 
 #: actions/bundled/brightnesscontrol.cpp:58
+#, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
 #: actions/bundled/brightnesscontrol.cpp:64
+#, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
 #: actions/bundled/brightnesscontrolconfig.cpp:71
+#, kde-format
 msgctxt "Brightness level, label for the slider"
 msgid "Level"
 msgstr ""
@@ -54,7 +59,7 @@ msgstr ""
 #: actions/bundled/runscriptconfig.cpp:83
 #: actions/bundled/suspendsessionconfig.cpp:79
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "min"
 msgid " min"
 msgstr "মিনিট"
@@ -63,167 +68,190 @@ msgstr "মিনিট"
 #: actions/bundled/runscriptconfig.cpp:86
 #: actions/bundled/runscriptconfig.cpp:107
 #: actions/bundled/suspendsessionconfig.cpp:99
+#, kde-format
 msgid "After"
 msgstr ""
 
 #: actions/bundled/handlebuttonevents.cpp:64
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Suspend to RAM"
 msgctxt "@action:inmenu Global shortcut"
 msgid "Suspend"
 msgstr "RAM-এ বিরত করুন"
 
 #: actions/bundled/handlebuttonevents.cpp:70
+#, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Hibernate"
 msgstr ""
 
 #: actions/bundled/handlebuttonevents.cpp:76
+#, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Power Off"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:88
+#, kde-format
 msgctxt "Execute action on lid close even when external monitor is connected"
 msgid "Even when an external monitor is connected"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:100
+#, kde-format
 msgid "Do nothing"
 msgstr "কিছু করা হবে না"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:102
 #: actions/bundled/suspendsessionconfig.cpp:84
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Suspend to RAM"
 msgid "Suspend"
 msgstr "RAM-এ বিরত করুন"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:105
 #: actions/bundled/suspendsessionconfig.cpp:87
+#, kde-format
 msgid "Hibernate"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:107
 #: actions/bundled/suspendsessionconfig.cpp:89
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Shutdown"
 msgid "Shut down"
 msgstr "বন্ধ করুন"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:108
 #: actions/bundled/suspendsessionconfig.cpp:90
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "পর্দা লক করুন"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:110
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Prompt Log out dialog"
 msgid "Prompt log out dialog"
 msgstr "লগ-আউট ডায়লগ প্রদর্শন করা হবে"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:112
+#, kde-format
 msgid "Turn off screen"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:138
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "When Laptop Lid Closed"
 msgid "When laptop lid closed"
 msgstr "ল্যাপটপের ঢাকনা বন্ধ করা হলে"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:149
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "পাওয়ার/বিদ্যুৎ সরবরাহের বাটন টিপলে"
 
 #: actions/bundled/keyboardbrightnesscontrol.cpp:63
+#, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Increase Keyboard Brightness"
 msgstr ""
 
 #: actions/bundled/keyboardbrightnesscontrol.cpp:69
+#, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Keyboard Brightness"
 msgstr ""
 
 #: actions/bundled/keyboardbrightnesscontrol.cpp:75
+#, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Toggle Keyboard Backlight"
 msgstr ""
 
 #: actions/bundled/keyboardbrightnesscontrolconfig.cpp:71
+#, kde-format
 msgctxt "@label:slider Brightness level"
 msgid "Level"
 msgstr ""
 
 #: actions/bundled/runscriptconfig.cpp:72
+#, kde-format
 msgid "Script"
 msgstr ""
 
 #: actions/bundled/runscriptconfig.cpp:84
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "New Profile"
 msgid "On Profile Load"
 msgstr "নতুন প্রোফাইল"
 
 #: actions/bundled/runscriptconfig.cpp:85
+#, kde-format
 msgid "On Profile Unload"
 msgstr ""
 
 #: actions/bundled/runscriptconfig.cpp:96
+#, kde-format
 msgid "Run script"
 msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:75
 #: actions/bundled/wirelesspowersavingconfig.cpp:80
 #: actions/bundled/wirelesspowersavingconfig.cpp:85
+#, kde-format
 msgid "Leave unchanged"
 msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:76
 #: actions/bundled/wirelesspowersavingconfig.cpp:81
 #: actions/bundled/wirelesspowersavingconfig.cpp:86
+#, kde-format
 msgid "Turn off"
 msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:77
 #: actions/bundled/wirelesspowersavingconfig.cpp:82
 #: actions/bundled/wirelesspowersavingconfig.cpp:87
+#, kde-format
 msgid "Turn on"
 msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:110
+#, kde-format
 msgid "Wi-Fi"
 msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:111
+#, kde-format
 msgid "Mobile broadband"
 msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:112
+#, kde-format
 msgid "Bluetooth"
 msgstr ""
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:61
+#, kde-format
 msgid "Switch off after"
 msgstr ""
 
 #: backends/upower/backlighthelper.cpp:204
+#, kde-format
 msgid "Can't open file"
 msgstr ""
 
 #: backends/upower/login1suspendjob.cpp:76
 #: backends/upower/upowersuspendjob.cpp:69
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Supported schemes"
 msgid "Unsupported suspend method"
 msgstr "সমর্থিত স্কিম"
 
 #: powerdevilcore.cpp:76
+#, kde-format
 msgid ""
 "No valid Power Management backend plugins are available. A new installation "
 "might solve this problem."
@@ -242,19 +270,22 @@ msgstr ""
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
 #: powerdevilcore.cpp:370 powerdevilcore.cpp:382
+#, kde-format
 msgid "Activity Manager"
 msgstr ""
 
 #: powerdevilcore.cpp:371
+#, kde-format
 msgid "This activity's policies prevent the system from suspending"
 msgstr ""
 
 #: powerdevilcore.cpp:383
+#, kde-format
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
 #: powerdevilcore.cpp:413
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Could not connect to battery interface!\n"
 #| "Please check your system configuration"
@@ -266,11 +297,12 @@ msgstr ""
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
 #: powerdevilcore.cpp:441
+#, kde-format
 msgid "Extra Battery Added"
 msgstr ""
 
 #: powerdevilcore.cpp:442 powerdevilcore.cpp:618
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "The power adaptor has been plugged in"
 msgid "All pending suspend actions have been canceled."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
@@ -328,6 +360,7 @@ msgid "Battery Low (%1% Remaining)"
 msgstr ""
 
 #: powerdevilcore.cpp:557
+#, kde-format
 msgid ""
 "Your battery is low. If you need to continue using your computer, either "
 "plug in your computer, or shut it down and then change the battery."
@@ -339,13 +372,14 @@ msgid "Battery Critical (%1% Remaining)"
 msgstr ""
 
 #: powerdevilcore.cpp:570
+#, kde-format
 msgctxt ""
 "Cancel timeout that will automatically suspend system because of low battery"
 msgid "Cancel"
 msgstr ""
 
 #: powerdevilcore.cpp:579
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
 #| "seconds. Click here to block the process."
@@ -356,7 +390,7 @@ msgstr ""
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
 #: powerdevilcore.cpp:584
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
 #| "seconds. Click here to block the process."
@@ -368,7 +402,7 @@ msgstr ""
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
 #: powerdevilcore.cpp:589
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
 #| "in %1 seconds. Click here to block the process"
@@ -379,7 +413,7 @@ msgstr ""
 "এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
 #: powerdevilcore.cpp:594
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
 #| "possible!"
@@ -388,29 +422,30 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
 
 #: powerdevilcore.cpp:617
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "When AC Adaptor is plugged in"
 msgid "AC Adapter Plugged In"
 msgstr "AC অ্যাডাপ্টার সংযুক্ত করা হলে"
 
 #: powerdevilcore.cpp:620
+#, kde-format
 msgid "Running on AC power"
 msgstr ""
 
 #: powerdevilcore.cpp:620
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
 #: powerdevilcore.cpp:623
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "When on battery Power"
 msgid "Running on Battery Power"
 msgstr "ব্যাটারি দ্বারা চালিত হলে"
 
 #: powerdevilcore.cpp:623
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
@@ -424,10 +459,12 @@ msgid ""
 msgstr ""
 
 #: powerdevilcore.cpp:690
+#, kde-format
 msgid "Charge Complete"
 msgstr ""
 
 #: powerdevilcore.cpp:690
+#, kde-format
 msgid "Your battery is now fully charged."
 msgstr ""
 
