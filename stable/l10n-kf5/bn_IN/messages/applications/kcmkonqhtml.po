@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-03 07:08+0000\n"
+"POT-Creation-Date: 2016-11-19 07:45+0000\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -369,7 +369,7 @@ msgstr ""
 msgid "Font &size adjustment for this encoding:"
 msgstr "চিহ্নিত এনকোডিংয়ের জন্য ফন্টের মাপে পরিবর্তন: (&s)"
 
-#: appearance.cpp:219 appearance.cpp:415
+#: appearance.cpp:219 appearance.cpp:416
 msgid "Use Language Encoding"
 msgstr "ভাষার এনকোডিং ব্যবহার করা হবে"
 
@@ -1286,27 +1286,27 @@ msgstr ""
 msgid "Uncheck this box to prevent being prompted to save website passwords"
 msgstr ""
 
-#: javaopts.cpp:79
+#: javaopts.cpp:78
 msgid "Enable Ja&va globally"
 msgstr "সার্বজনীনভাবে Java সক্রিয় করা হবে (&v)"
 
-#: javaopts.cpp:94
+#: javaopts.cpp:93
 msgid "Java Runtime Settings"
 msgstr "Java Runtime সংক্রান্ত বৈশিষ্ট্য"
 
-#: javaopts.cpp:98
+#: javaopts.cpp:97
 msgid "&Use security manager"
 msgstr "নিরাপত্তা পরিচালন ব্যবস্থা ব্যবহার করা হবে (&U)"
 
-#: javaopts.cpp:102
+#: javaopts.cpp:101
 msgid "Use &KIO"
 msgstr "KIO ব্যবহার করা হবে (&K)"
 
-#: javaopts.cpp:106
+#: javaopts.cpp:105
 msgid "Shu&tdown applet server when inactive for more than"
 msgstr "উল্লিখিত সময় অবধি নিষ্ক্রিয় থাকলে অ্যাপ্লেট সার্ভার বন্ধ করা হবে (&t)"
 
-#: javaopts.cpp:116
+#: javaopts.cpp:115
 #, fuzzy
 #| msgid " sec"
 msgid " second"
@@ -1314,22 +1314,22 @@ msgid_plural " seconds"
 msgstr[0] " সেকেন্ড"
 msgstr[1] " সেকেন্ড"
 
-#: javaopts.cpp:122
+#: javaopts.cpp:121
 msgid "&Path to Java executable, or 'java':"
 msgstr "Java এক্সেকিউটেবল অথবা 'java'-র পাথ: (&P)"
 
-#: javaopts.cpp:126
+#: javaopts.cpp:125
 msgid "Additional Java a&rguments:"
 msgstr "Java সংক্রান্ত অতিরিক্ত আর্গুমেন্ট: (&r)"
 
-#: javaopts.cpp:131
+#: javaopts.cpp:130
 msgid ""
 "Enables the execution of scripts written in Java that can be contained in "
 "HTML pages. Note that, as with any browser, enabling active contents can be "
 "a security problem."
 msgstr ""
 
-#: javaopts.cpp:134
+#: javaopts.cpp:133
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific Java "
 "policy for. This policy will be used instead of the default policy for "
@@ -1337,20 +1337,20 @@ msgid ""
 "p><p>Select a policy and use the controls on the right to modify it.</p>"
 msgstr ""
 
-#: javaopts.cpp:141
+#: javaopts.cpp:140
 msgid ""
 "Click this button to choose the file that contains the Java policies. These "
 "policies will be merged with the existing ones. Duplicate entries are "
 "ignored."
 msgstr ""
 
-#: javaopts.cpp:144
+#: javaopts.cpp:143
 msgid ""
 "Click this button to save the Java policy to a zipped file. The file, named "
 "<b>java_policy.tgz</b>, will be saved to a location of your choice."
 msgstr ""
 
-#: javaopts.cpp:148
+#: javaopts.cpp:147
 msgid ""
 "Here you can set specific Java policies for any particular host or domain. "
 "To add a new policy, simply click the <i>New...</i> button and supply the "
@@ -1361,7 +1361,7 @@ msgid ""
 "domain."
 msgstr ""
 
-#: javaopts.cpp:161
+#: javaopts.cpp:160
 msgid ""
 "Enabling the security manager will cause the jvm to run with a Security "
 "Manager in place. This will keep applets from being able to read and write "
@@ -1371,11 +1371,11 @@ msgid ""
 "utility to give code downloaded from certain sites more permissions."
 msgstr ""
 
-#: javaopts.cpp:169
+#: javaopts.cpp:168
 msgid "Enabling this will cause the jvm to use KIO for network transport "
 msgstr "এটি সক্রিয় করা হলে, নেটওয়ার্ক পরিবহণের জন্য jvm দ্বারা KIO প্রয়োগ করা হবে "
 
-#: javaopts.cpp:171
+#: javaopts.cpp:170
 msgid ""
 "Enter the path to the java executable. If you want to use the jre in your "
 "path, simply leave it as 'java'. If you need to use a different jre, enter "
@@ -1383,13 +1383,13 @@ msgid ""
 "the directory that contains 'bin/java' (e.g. /opt/IBMJava2-13)."
 msgstr ""
 
-#: javaopts.cpp:176
+#: javaopts.cpp:175
 msgid ""
 "If you want special arguments to be passed to the virtual machine, enter "
 "them here."
 msgstr "ভার্চুয়াল মেশিনের জন্য বিশেষ আর্গুমেন্টগুলি এইখানে লিখুন।"
 
-#: javaopts.cpp:178
+#: javaopts.cpp:177
 msgid ""
 "When all the applets have been destroyed, the applet server should shut "
 "down. However, starting the jvm takes a lot of time. If you would like to "
@@ -1399,30 +1399,30 @@ msgid ""
 "checkbox unchecked."
 msgstr ""
 
-#: javaopts.cpp:287
+#: javaopts.cpp:286
 msgctxt "@title:group"
 msgid "Doma&in-Specific"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট (&i)"
 
-#: javaopts.cpp:322
+#: javaopts.cpp:321
 #, fuzzy
 #| msgid "New Java Policy"
 msgctxt "@title:window"
 msgid "New Java Policy"
 msgstr "Java-র নতুন নিয়ম"
 
-#: javaopts.cpp:325
+#: javaopts.cpp:324
 #, fuzzy
 #| msgid "Change Java Policy"
 msgctxt "@title:window"
 msgid "Change Java Policy"
 msgstr "Java-র নিয়ম পরিবর্তন করুন"
 
-#: javaopts.cpp:329
+#: javaopts.cpp:328
 msgid "&Java policy:"
 msgstr "Java-র নিয়ম: (&J)"
 
-#: javaopts.cpp:330
+#: javaopts.cpp:329
 msgid "Select a Java policy for the above host or domain."
 msgstr "উপোরক্ত হোস্ট অথবা ডোমেইনের জন্য Java নীতি নির্বাচন করুন।"
 
@@ -1529,56 +1529,56 @@ msgstr "উপরোক্ত হোস্ট অথবা ডোমেইনে
 msgid "Domain-Specific JavaScript Policies"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট JavaScript নীতি"
 
-#: jspolicies.cpp:157
+#: jspolicies.cpp:156
 msgid "Open new windows:"
 msgstr "নতুন উইন্ডো খুলুন:"
 
-#: jspolicies.cpp:165 jspolicies.cpp:219 jspolicies.cpp:256 jspolicies.cpp:293
-#: jspolicies.cpp:333
+#: jspolicies.cpp:164 jspolicies.cpp:218 jspolicies.cpp:255 jspolicies.cpp:292
+#: jspolicies.cpp:332
 msgid "Use global"
 msgstr "সার্বজনীন মান প্রয়োগ করুন"
 
-#: jspolicies.cpp:166 jspolicies.cpp:220 jspolicies.cpp:257 jspolicies.cpp:294
-#: jspolicies.cpp:334
+#: jspolicies.cpp:165 jspolicies.cpp:219 jspolicies.cpp:256 jspolicies.cpp:293
+#: jspolicies.cpp:333
 msgid "Use setting from global policy."
 msgstr "সার্বজনীন নীতির বৈশিষ্ট্য প্রয়োগ করা হবে।"
 
-#: jspolicies.cpp:172 jspolicies.cpp:226 jspolicies.cpp:263 jspolicies.cpp:300
-#: jspolicies.cpp:340
+#: jspolicies.cpp:171 jspolicies.cpp:225 jspolicies.cpp:262 jspolicies.cpp:299
+#: jspolicies.cpp:339
 msgid "Allow"
 msgstr "অনুমোদন করা হবে"
 
-#: jspolicies.cpp:173
+#: jspolicies.cpp:172
 msgid "Accept all popup window requests."
 msgstr "পপ-আপ উইন্ডো প্রদর্শনের সকল অনুরোধ গ্রহণ করা হবে।"
 
-#: jspolicies.cpp:178
+#: jspolicies.cpp:177
 msgid "Ask"
 msgstr "জিজ্ঞাসা করা হবে"
 
-#: jspolicies.cpp:179
+#: jspolicies.cpp:178
 msgid "Prompt every time a popup window is requested."
 msgstr "প্রতিবার পপ-আপ উইন্ডো প্রদর্শনের অনুরোধ জানানো হলে, সূচিত করা হবে।"
 
-#: jspolicies.cpp:184
+#: jspolicies.cpp:183
 msgid "Deny"
 msgstr "প্রত্যাখ্যান করা হবে"
 
-#: jspolicies.cpp:185
+#: jspolicies.cpp:184
 msgid "Reject all popup window requests."
 msgstr "পপ-আপ উইন্ডো প্রদর্শনের সকল অনুরোধ প্রত্যাখ্যান করা হবে।"
 
-#: jspolicies.cpp:190
+#: jspolicies.cpp:189
 msgid "Smart"
 msgstr ""
 
-#: jspolicies.cpp:191
+#: jspolicies.cpp:190
 msgid ""
 "Accept popup window requests only when links are activated through an "
 "explicit mouse click or keyboard operation."
 msgstr ""
 
-#: jspolicies.cpp:198
+#: jspolicies.cpp:197
 msgid ""
 "If you disable this, Konqueror will stop interpreting the <i>window.open()</"
 "i> JavaScript command. This is useful if you regularly visit sites that make "
@@ -1587,68 +1587,68 @@ msgid ""
 "open()</i> for proper operation. Use this feature carefully."
 msgstr ""
 
-#: jspolicies.cpp:212
+#: jspolicies.cpp:211
 msgid "Resize window:"
 msgstr "উইন্ডোর মাপ পরিবর্তন করুন:"
 
-#: jspolicies.cpp:227
+#: jspolicies.cpp:226
 msgid "Allow scripts to change the window size."
 msgstr "স্ক্রিপ্ট দ্বারা উইন্ডোর মাপ পরিবর্তনের অনুমতি প্রদান করা হবে।"
 
-#: jspolicies.cpp:232 jspolicies.cpp:269 jspolicies.cpp:306 jspolicies.cpp:346
+#: jspolicies.cpp:231 jspolicies.cpp:268 jspolicies.cpp:305 jspolicies.cpp:345
 msgid "Ignore"
 msgstr "অগ্রাহ্য করা হবে"
 
-#: jspolicies.cpp:233
+#: jspolicies.cpp:232
 msgid ""
 "Ignore attempts of scripts to change the window size. The web page will "
 "<i>think</i> it changed the size but the actual window is not affected."
 msgstr ""
 
-#: jspolicies.cpp:240
+#: jspolicies.cpp:239
 msgid ""
 "Some websites change the window size on their own by using <i>window.resizeBy"
 "()</i> or <i>window.resizeTo()</i>. This option specifies the treatment of "
 "such attempts."
 msgstr ""
 
-#: jspolicies.cpp:249
+#: jspolicies.cpp:248
 msgid "Move window:"
 msgstr "উইন্ডো স্থানান্তর:"
 
-#: jspolicies.cpp:264
+#: jspolicies.cpp:263
 msgid "Allow scripts to change the window position."
 msgstr "স্ক্রিপ্ট দ্বারা উইন্ডোর অবস্থান পরিবর্তনের অনুমতি প্রদান করা হবে।"
 
-#: jspolicies.cpp:270
+#: jspolicies.cpp:269
 msgid ""
 "Ignore attempts of scripts to change the window position. The web page will "
 "<i>think</i> it moved the window but the actual position is not affected."
 msgstr ""
 
-#: jspolicies.cpp:277
+#: jspolicies.cpp:276
 msgid ""
 "Some websites change the window position on their own by using <i>window."
 "moveBy()</i> or <i>window.moveTo()</i>. This option specifies the treatment "
 "of such attempts."
 msgstr ""
 
-#: jspolicies.cpp:286
+#: jspolicies.cpp:285
 msgid "Focus window:"
 msgstr ""
 
-#: jspolicies.cpp:301
+#: jspolicies.cpp:300
 msgid "Allow scripts to focus the window."
 msgstr ""
 
-#: jspolicies.cpp:307
+#: jspolicies.cpp:306
 msgid ""
 "Ignore attempts of scripts to focus the window. The web page will <i>think</"
 "i> it brought the focus to the window but the actual focus will remain "
 "unchanged."
 msgstr ""
 
-#: jspolicies.cpp:315
+#: jspolicies.cpp:314
 msgid ""
 "Some websites set the focus to their browser window on their own by using "
 "<i>window.focus()</i>. This usually leads to the window being moved to the "
@@ -1656,21 +1656,21 @@ msgid ""
 "This option specifies the treatment of such attempts."
 msgstr ""
 
-#: jspolicies.cpp:326
+#: jspolicies.cpp:325
 msgid "Modify status bar text:"
 msgstr "স্ট্যাটাস-বারে প্রদর্শিত লেখা পরিবর্তন করুন:"
 
-#: jspolicies.cpp:341
+#: jspolicies.cpp:340
 msgid "Allow scripts to change the text of the status bar."
 msgstr "স্ক্রিপ্ট দ্বারা স্ট্যাটাস-বারের লেখা পরিবর্তনের অনুমতি প্রদান করা হবে।"
 
-#: jspolicies.cpp:347
+#: jspolicies.cpp:346
 msgid ""
 "Ignore attempts of scripts to change the status bar text. The web page will "
 "<i>think</i> it changed the text but the actual text will remain unchanged."
 msgstr ""
 
-#: jspolicies.cpp:355
+#: jspolicies.cpp:354
 msgid ""
 "Some websites change the status bar text by setting <i>window.status</i> or "
 "<i>window.defaultStatus</i>, thus sometimes preventing displaying the real "
@@ -1752,7 +1752,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, NSConfigWidget)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: nsconfigwidget.ui:14 nsconfigwidget.ui:122 pluginopts.cpp:174
+#: nsconfigwidget.ui:14 nsconfigwidget.ui:122 pluginopts.cpp:173
 msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
@@ -1806,46 +1806,46 @@ msgstr "তথ্য"
 msgid "Value"
 msgstr "মান"
 
-#: pluginopts.cpp:78
+#: pluginopts.cpp:77
 msgid "Global Settings"
 msgstr "সার্বজনীন বৈশিষ্ট্য"
 
-#: pluginopts.cpp:83
+#: pluginopts.cpp:82
 msgid "&Enable plugins globally"
 msgstr "সার্বজনীনরূপে প্লাগ-ইন সক্রিয় করা হবে (&E)"
 
-#: pluginopts.cpp:84
+#: pluginopts.cpp:83
 msgid "Only allow &HTTP and HTTPS URLs for plugins"
 msgstr "প্লাগ-ইনের ক্ষেত্রে শুধুমাত্র &HTTP ও HTTPS URL প্রয়োগ করা যাবে"
 
-#: pluginopts.cpp:85
+#: pluginopts.cpp:84
 msgid "&Load plugins on demand only"
 msgstr "শুধুমাত্র প্রয়োজন অনুসারে প্লাগ-ইন লোড করা হবে (&L)"
 
-#: pluginopts.cpp:86 pluginopts.cpp:207
+#: pluginopts.cpp:85 pluginopts.cpp:206
 #, kde-format
 msgid "CPU priority for plugins: %1"
 msgstr "প্লাগ-ইনের জন্য CPU ব্যবহারের গুরুত্ব: %1"
 
-#: pluginopts.cpp:114
+#: pluginopts.cpp:113
 msgid "Domain-Specific Settin&gs"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট বৈশিষ্ট্য (&g)"
 
-#: pluginopts.cpp:127 pluginopts.cpp:630
+#: pluginopts.cpp:126 pluginopts.cpp:629
 #, fuzzy
 #| msgid "Domain-Specific Policies"
 msgctxt "@title:window"
 msgid "Domain-Specific Policies"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট নীতি"
 
-#: pluginopts.cpp:142
+#: pluginopts.cpp:141
 msgid ""
 "Enables the execution of plugins that can be contained in HTML pages, e.g. "
 "Macromedia Flash. Note that, as with any browser, enabling active contents "
 "can be a security problem."
 msgstr ""
 
-#: pluginopts.cpp:146
+#: pluginopts.cpp:145
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific plugin "
 "policy for. This policy will be used instead of the default policy for "
@@ -1853,20 +1853,20 @@ msgid ""
 "p><p>Select a policy and use the controls on the right to modify it.</p>"
 msgstr ""
 
-#: pluginopts.cpp:152
+#: pluginopts.cpp:151
 msgid ""
 "Click this button to choose the file that contains the plugin policies. "
 "These policies will be merged with the existing ones. Duplicate entries are "
 "ignored."
 msgstr ""
 
-#: pluginopts.cpp:155
+#: pluginopts.cpp:154
 msgid ""
 "Click this button to save the plugin policy to a zipped file. The file, "
 "named <b>plugin_policy.tgz</b>, will be saved to a location of your choice."
 msgstr ""
 
-#: pluginopts.cpp:158
+#: pluginopts.cpp:157
 msgid ""
 "Here you can set specific plugin policies for any particular host or domain. "
 "To add a new policy, simply click the <i>New...</i> button and supply the "
@@ -1877,32 +1877,32 @@ msgid ""
 "domain."
 msgstr ""
 
-#: pluginopts.cpp:196
+#: pluginopts.cpp:195
 msgctxt "lowest priority"
 msgid "lowest"
 msgstr "সর্বনিম্ন"
 
-#: pluginopts.cpp:198
+#: pluginopts.cpp:197
 msgctxt "low priority"
 msgid "low"
 msgstr "নিম্ন"
 
-#: pluginopts.cpp:200
+#: pluginopts.cpp:199
 msgctxt "medium priority"
 msgid "medium"
 msgstr "মাঝারি"
 
-#: pluginopts.cpp:202
+#: pluginopts.cpp:201
 msgctxt "high priority"
 msgid "high"
 msgstr "উচ্চ"
 
-#: pluginopts.cpp:204
+#: pluginopts.cpp:203
 msgctxt "highest priority"
 msgid "highest"
 msgstr "সর্বোচ্চ"
 
-#: pluginopts.cpp:295
+#: pluginopts.cpp:294
 msgid ""
 "<h1>Konqueror Plugins</h1> The Konqueror web browser can use Netscape "
 "plugins to show special content, just like the Navigator does. Please note "
@@ -1911,70 +1911,70 @@ msgid ""
 "netscape/plugins'."
 msgstr ""
 
-#: pluginopts.cpp:323
+#: pluginopts.cpp:322
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes "
 "will be lost."
 msgstr ""
 
-#: pluginopts.cpp:342
+#: pluginopts.cpp:341
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
 msgstr ""
 
-#: pluginopts.cpp:349
+#: pluginopts.cpp:348
 msgid "Scanning for plugins"
 msgstr "প্লাগ-ইন অনুসন্ধান করা হচ্ছে"
 
-#: pluginopts.cpp:393
+#: pluginopts.cpp:392
 msgctxt "@title:window"
 msgid "Select Plugin Scan Folder"
 msgstr ""
 
-#: pluginopts.cpp:556
+#: pluginopts.cpp:555
 msgid "Netscape Plugins"
 msgstr "Netscape প্লাগ-ইন"
 
-#: pluginopts.cpp:579
+#: pluginopts.cpp:578
 msgid "Plugin"
 msgstr "প্লাগ-ইন"
 
-#: pluginopts.cpp:605
+#: pluginopts.cpp:604
 msgid "MIME type"
 msgstr "MIME-র ধরন"
 
-#: pluginopts.cpp:608
+#: pluginopts.cpp:607
 msgid "Description"
 msgstr "বিবরণ"
 
-#: pluginopts.cpp:611
+#: pluginopts.cpp:610
 msgid "Suffixes"
 msgstr "সাফিক্স"
 
-#: pluginopts.cpp:668
+#: pluginopts.cpp:667
 msgid "Doma&in-Specific"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট (&i)"
 
-#: pluginopts.cpp:683
+#: pluginopts.cpp:682
 #, fuzzy
 #| msgid "New Plugin Policy"
 msgctxt "@title:window"
 msgid "New Plugin Policy"
 msgstr "প্লাগ-ইন সংক্রান্ত নতুন নীতি"
 
-#: pluginopts.cpp:686
+#: pluginopts.cpp:685
 #, fuzzy
 #| msgid "Change Plugin Policy"
 msgctxt "@title:window"
 msgid "Change Plugin Policy"
 msgstr "প্লাগ-ইন সংক্রান্ত নীতি পরিবর্তন করুন"
 
-#: pluginopts.cpp:690
+#: pluginopts.cpp:689
 msgid "&Plugin policy:"
 msgstr "প্লাগ-ইন সংক্রান্ত নীতি: (&P)"
 
-#: pluginopts.cpp:691
+#: pluginopts.cpp:690
 msgid "Select a plugin policy for the above host or domain."
 msgstr "উপরোক্ত হোস্ট অথবা ডোমেইনের জন্য প্লাগ-ইন সংক্রান্ত নীতি নির্বাচন করুন।"
 
