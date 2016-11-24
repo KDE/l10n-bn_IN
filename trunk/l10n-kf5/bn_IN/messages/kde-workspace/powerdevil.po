@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:22+0100\n"
+"POT-Creation-Date: 2016-11-24 02:58+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -250,14 +250,14 @@ msgstr ""
 msgid "Unsupported suspend method"
 msgstr "সমর্থিত স্কিম"
 
-#: powerdevilcore.cpp:76
+#: powerdevilcore.cpp:91
 #, kde-format
 msgid ""
 "No valid Power Management backend plugins are available. A new installation "
 "might solve this problem."
 msgstr ""
 
-#: powerdevilcore.cpp:306
+#: powerdevilcore.cpp:321
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -269,22 +269,22 @@ msgstr ""
 "অনুপস্থিত প্রোফাইল \"%1\" নির্বাচন করা হয়েছে!\n"
 "অনুগ্রহ করে PowerDevil কনফিগারেশন পরীক্ষা করুন।"
 
-#: powerdevilcore.cpp:370 powerdevilcore.cpp:382
+#: powerdevilcore.cpp:385 powerdevilcore.cpp:397
 #, kde-format
 msgid "Activity Manager"
 msgstr ""
 
-#: powerdevilcore.cpp:371
+#: powerdevilcore.cpp:386
 #, kde-format
 msgid "This activity's policies prevent the system from suspending"
 msgstr ""
 
-#: powerdevilcore.cpp:383
+#: powerdevilcore.cpp:398
 #, kde-format
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
-#: powerdevilcore.cpp:415
+#: powerdevilcore.cpp:430
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -296,29 +296,29 @@ msgstr ""
 "ব্যাটারি প্রেক্ষাপটের সাথে সংযোগ স্থাপন করা যায়নি!\n"
 "অনুগ্রহ করে সিস্টেমের কনফিগারেশন পরীক্ষা করুন"
 
-#: powerdevilcore.cpp:443
+#: powerdevilcore.cpp:458
 #, kde-format
 msgid "Extra Battery Added"
 msgstr ""
 
-#: powerdevilcore.cpp:444 powerdevilcore.cpp:620
+#: powerdevilcore.cpp:459 powerdevilcore.cpp:635
 #, fuzzy, kde-format
 #| msgid "The power adaptor has been plugged in"
 msgid "All pending suspend actions have been canceled."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:509
+#: powerdevilcore.cpp:524
 #, kde-format
 msgctxt "%1 is vendor name, %2 is product name"
 msgid "%1 %2"
 msgstr ""
 
-#: powerdevilcore.cpp:518
+#: powerdevilcore.cpp:533
 #, kde-format
 msgid "Mouse Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:520
+#: powerdevilcore.cpp:535
 #, kde-format
 msgctxt "Placeholder is device name"
 msgid ""
@@ -326,12 +326,12 @@ msgid ""
 "off at any time. Please replace or charge the battery as soon as possible."
 msgstr ""
 
-#: powerdevilcore.cpp:525
+#: powerdevilcore.cpp:540
 #, kde-format
 msgid "Keyboard Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:527
+#: powerdevilcore.cpp:542
 #, kde-format
 msgctxt "Placeholder is device name"
 msgid ""
@@ -339,13 +339,13 @@ msgid ""
 "off at any time. Please replace or charge the battery as soon as possible."
 msgstr ""
 
-#: powerdevilcore.cpp:532
+#: powerdevilcore.cpp:547
 #, kde-format
 msgctxt "The battery in an external device"
 msgid "Device Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:534
+#: powerdevilcore.cpp:549
 #, kde-format
 msgctxt "Placeholder is device name"
 msgid ""
@@ -354,31 +354,31 @@ msgid ""
 "possible."
 msgstr ""
 
-#: powerdevilcore.cpp:558
+#: powerdevilcore.cpp:573
 #, kde-format
 msgid "Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:559
+#: powerdevilcore.cpp:574
 #, kde-format
 msgid ""
 "Your battery is low. If you need to continue using your computer, either "
 "plug in your computer, or shut it down and then change the battery."
 msgstr ""
 
-#: powerdevilcore.cpp:570
+#: powerdevilcore.cpp:585
 #, kde-format
 msgid "Battery Critical (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:572
+#: powerdevilcore.cpp:587
 #, kde-format
 msgctxt ""
 "Cancel timeout that will automatically suspend system because of low battery"
 msgid "Cancel"
 msgstr ""
 
-#: powerdevilcore.cpp:581
+#: powerdevilcore.cpp:596
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -389,7 +389,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:586
+#: powerdevilcore.cpp:601
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -401,7 +401,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটার বন্ধ "
 "করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:591
+#: powerdevilcore.cpp:606
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -412,7 +412,7 @@ msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় উপস্থিত হওয়ার ফলে, %1 সেকেন্ডের মধ্যে কম্পিউটারটি RAM-"
 "এ বিরত করা হবে। এই কাজ বন্ধ করার জন্য এইখানে ক্লিক করুন।"
 
-#: powerdevilcore.cpp:596
+#: powerdevilcore.cpp:611
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -421,36 +421,36 @@ msgid "Your battery level is critical, save your work as soon as possible."
 msgstr ""
 "ব্যাটারির ক্ষমতা গুরুতর পর্যায় রয়েছে এবং যথাশীঘ্র সকল পরিবর্তিত তথ্য সংরক্ষণ করুন!"
 
-#: powerdevilcore.cpp:619
+#: powerdevilcore.cpp:634
 #, fuzzy, kde-format
 #| msgid "When AC Adaptor is plugged in"
 msgid "AC Adapter Plugged In"
 msgstr "AC অ্যাডাপ্টার সংযুক্ত করা হলে"
 
-#: powerdevilcore.cpp:622
+#: powerdevilcore.cpp:637
 #, kde-format
 msgid "Running on AC power"
 msgstr ""
 
-#: powerdevilcore.cpp:622
+#: powerdevilcore.cpp:637
 #, fuzzy, kde-format
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার সংযুক্ত করা হয়েছে"
 
-#: powerdevilcore.cpp:625
+#: powerdevilcore.cpp:640
 #, fuzzy, kde-format
 #| msgid "When on battery Power"
 msgid "Running on Battery Power"
 msgstr "ব্যাটারি দ্বারা চালিত হলে"
 
-#: powerdevilcore.cpp:625
+#: powerdevilcore.cpp:640
 #, fuzzy, kde-format
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "বিদ্যুৎ সংযোগের অ্যাডাপ্টার বিচ্ছিন্ন করা হয়েছে"
 
-#: powerdevilcore.cpp:631
+#: powerdevilcore.cpp:646
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -458,12 +458,12 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:692
+#: powerdevilcore.cpp:707
 #, kde-format
 msgid "Charge Complete"
 msgstr ""
 
-#: powerdevilcore.cpp:692
+#: powerdevilcore.cpp:707
 #, kde-format
 msgid "Your battery is now fully charged."
 msgstr ""
