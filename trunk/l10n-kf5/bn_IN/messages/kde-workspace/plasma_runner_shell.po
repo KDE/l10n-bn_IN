@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_shellrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2016-12-17 03:48+0100\n"
 "PO-Revision-Date: 2009-01-09 12:46+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -76,21 +76,21 @@ msgstr ""
 msgid "Run as a different &user"
 msgstr "ভিন্ন ব্যবহারকারীর পরিচয় সহ এটি সঞ্চালিত হবে (&u)"
 
-#: shellrunner.cpp:47
+#: shellrunner.cpp:49
 #, kde-format
 msgid "Finds commands that match :q:, using common shell syntax"
 msgstr ""
 
-#: shellrunner.cpp:67
-#, kde-format
-msgid "Run %1"
-msgstr "%1 সঞ্চালন করুন"
-
-#: shellrunner.cpp:94
+#: shellrunner.cpp:50
 #, fuzzy, kde-format
 #| msgid "Run in &terminal window"
 msgid "Run in Terminal Window"
 msgstr "টার্মিন্যাল উইন্ডোর মধ্যে সঞ্চালন করা হবে (&t)"
+
+#: shellrunner.cpp:70
+#, kde-format
+msgid "Run %1"
+msgstr "%1 সঞ্চালন করুন"
 
 #~ msgid "&Priority:"
 #~ msgstr "গুরুত্ব: (&P)"
