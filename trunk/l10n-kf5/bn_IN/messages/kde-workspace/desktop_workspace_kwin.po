@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-16 02:57+0000\n"
+"POT-Creation-Date: 2016-12-21 03:06+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -52,7 +52,7 @@ msgctxt "Name"
 msgid "Dialog Parent"
 msgstr ""
 
-#: effects/dialogparent/package/metadata.desktop:79
+#: effects/dialogparent/package/metadata.desktop:78
 msgctxt "Comment"
 msgid "Darkens the parent window of the currently active dialog"
 msgstr ""
@@ -82,7 +82,7 @@ msgctxt "Name"
 msgid "Fade Desktop"
 msgstr "SaverDesktop"
 
-#: effects/fadedesktop/package/metadata.desktop:71
+#: effects/fadedesktop/package/metadata.desktop:70
 msgctxt "Comment"
 msgid "Fade between virtual desktops when switching between them"
 msgstr ""
@@ -92,7 +92,7 @@ msgctxt "Name"
 msgid "Fade"
 msgstr ""
 
-#: effects/fade/package/metadata.desktop:83
+#: effects/fade/package/metadata.desktop:82
 msgctxt "Comment"
 msgid "Make windows smoothly fade in and out when they are shown or hidden"
 msgstr ""
@@ -263,12 +263,12 @@ msgctxt "Name"
 msgid "Desktop Effects"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kcmkwineffects.desktop:62
+#: kcmkwin/kwincompositing/kcmkwineffects.desktop:61
 msgctxt "Comment"
 msgid "Desktop Effects"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kcmkwineffects.desktop:109
+#: kcmkwin/kwincompositing/kcmkwineffects.desktop:107
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop "
@@ -294,17 +294,25 @@ msgctxt "Name"
 msgid "Compositor"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kwincompositing.desktop:59
+#: kcmkwin/kwincompositing/kwincompositing.desktop:58
 msgctxt "Comment"
 msgid "Compositor Settings for Desktop Effects"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kwincompositing.desktop:103
+#: kcmkwin/kwincompositing/kwincompositing.desktop:101
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,XRender,"
 "video settings,graphical effects,desktop effects,animation speed"
 msgstr ""
+
+#: kcmkwin/kwincompositing/kwineffect.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Manager"
+msgctxt "Name"
+msgid "Window Manager Effects"
+msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:14
 #, fuzzy
@@ -314,7 +322,7 @@ msgctxt "Name"
 msgid "Window Decorations"
 msgstr "উইন্ডো সংক্রান্ড তথ্য"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:76
+#: kcmkwin/kwindecoration/kwindecoration.desktop:75
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the look and feel of window titles"
@@ -322,7 +330,7 @@ msgctxt "Comment"
 msgid "Look and Feel of Window Titles"
 msgstr "উইন্ডোর শিরোনামের চেহারাছবি কনফিগার করতে ব্যবহৃত হয়"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:121
+#: kcmkwin/kwindecoration/kwindecoration.desktop:119
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
@@ -337,12 +345,12 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "ডেস্কটপ"
 
-#: kcmkwin/kwindesktop/desktop.desktop:78
+#: kcmkwin/kwindesktop/desktop.desktop:77
 msgctxt "Comment"
 msgid "Navigation, Number and Layout of Virtual Desktops"
 msgstr ""
 
-#: kcmkwin/kwindesktop/desktop.desktop:121
+#: kcmkwin/kwindesktop/desktop.desktop:119
 msgctxt "X-KDE-Keywords"
 msgid ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
@@ -354,7 +362,7 @@ msgctxt "Name"
 msgid "Actions"
 msgstr "কর্ম"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:103
+#: kcmkwin/kwinoptions/kwinactions.desktop:102
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
@@ -362,7 +370,7 @@ msgctxt "Comment"
 msgid "Mouse Actions on Windows"
 msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:148
+#: kcmkwin/kwinoptions/kwinactions.desktop:146
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
@@ -374,7 +382,7 @@ msgctxt "Name"
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:102
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:101
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure advanced window management features"
@@ -382,7 +390,7 @@ msgctxt "Comment"
 msgid "Advanced Window Management Features"
 msgstr "উইন্ডো পরিচালনার উন্নত বৈশিষ্ট্য কনফিগার করুন"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:147
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:145
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
@@ -395,12 +403,12 @@ msgctxt "Name"
 msgid "Focus"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:100
+#: kcmkwin/kwinoptions/kwinfocus.desktop:99
 msgctxt "Comment"
 msgid "Active Window Policy"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:143
+#: kcmkwin/kwinoptions/kwinfocus.desktop:141
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
@@ -413,7 +421,7 @@ msgctxt "Name"
 msgid "Moving"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:101
+#: kcmkwin/kwinoptions/kwinmoving.desktop:100
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Information"
@@ -421,7 +429,7 @@ msgctxt "Comment"
 msgid "Window Moving"
 msgstr "উইন্ডো সংক্রান্ড তথ্য"
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:146
+#: kcmkwin/kwinoptions/kwinmoving.desktop:144
 msgctxt "X-KDE-Keywords"
 msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
 msgstr ""
@@ -431,7 +439,7 @@ msgctxt "Name"
 msgid "Window Behavior"
 msgstr "উইন্ডোর আচরণ"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:104
+#: kcmkwin/kwinoptions/kwinoptions.desktop:103
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Behavior"
@@ -439,7 +447,7 @@ msgctxt "Comment"
 msgid "Window Actions and Behavior"
 msgstr "উইন্ডোর আচরণ"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:149
+#: kcmkwin/kwinoptions/kwinoptions.desktop:147
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,window behavior,window actions,animation,raise,auto raise,"
@@ -454,7 +462,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "উইন্ডো বন্ধ করুন"
 
-#: kcmkwin/kwinrules/kwinrules.desktop:77
+#: kcmkwin/kwinrules/kwinrules.desktop:76
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Behavior"
@@ -462,7 +470,7 @@ msgctxt "Comment"
 msgid "Individual Window Behavior"
 msgstr "উইন্ডোর আচরণ"
 
-#: kcmkwin/kwinrules/kwinrules.desktop:122
+#: kcmkwin/kwinrules/kwinrules.desktop:120
 msgctxt "X-KDE-Keywords"
 msgid ""
 "size,position,state,window behavior,windows,specific,workarounds,remember,"
@@ -482,7 +490,7 @@ msgctxt "Comment"
 msgid "Active Screen Corners and Edges"
 msgstr ""
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:127
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:126
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
@@ -498,7 +506,7 @@ msgctxt "X-KDE-Keywords"
 msgid "kwin script"
 msgstr "CGI স্ক্রিপ্ট"
 
-#: kcmkwin/kwinscripts/kwinscripts.desktop:64
+#: kcmkwin/kwinscripts/kwinscripts.desktop:63
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "CGI Scripts"
@@ -506,22 +514,38 @@ msgctxt "Name"
 msgid "KWin Scripts"
 msgstr "CGI স্ক্রিপ্ট"
 
-#: kcmkwin/kwinscripts/kwinscripts.desktop:115
+#: kcmkwin/kwinscripts/kwinscripts.desktop:113
 msgctxt "Comment"
 msgid "Manage KWin scripts"
 msgstr ""
+
+#: kcmkwin/kwinscripts/kwinscripts.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Manager"
+msgctxt "Name"
+msgid "Window Manager Scripts"
+msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+
+#: kcmkwin/kwintabbox/kwinswitcher.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Manager"
+msgctxt "Name"
+msgid "Window Manager Switching Layouts"
+msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
 #: kcmkwin/kwintabbox/kwintabbox.desktop:13
 msgctxt "Name"
 msgid "Task Switcher"
 msgstr ""
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:74
+#: kcmkwin/kwintabbox/kwintabbox.desktop:73
 msgctxt "Comment"
 msgid "Navigation Through Windows"
 msgstr ""
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:117
+#: kcmkwin/kwintabbox/kwintabbox.desktop:115
 msgctxt "X-KDE-Keywords"
 msgid ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"
@@ -536,17 +560,17 @@ msgctxt "Comment"
 msgid "KWin Window Manager"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
-#: kwin.notifyrc:69
+#: kwin.notifyrc:68
 msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr ""
 
-#: kwin.notifyrc:134
+#: kwin.notifyrc:132
 msgctxt "Comment"
 msgid "Another application has requested to suspend compositing."
 msgstr ""
 
-#: kwin.notifyrc:199
+#: kwin.notifyrc:196
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Graphics"
@@ -554,10 +578,18 @@ msgctxt "Name"
 msgid "Graphics Reset"
 msgstr "গ্রাফিক্স"
 
-#: kwin.notifyrc:244
+#: kwin.notifyrc:241
 msgctxt "Comment"
 msgid "A graphics reset event occurred"
 msgstr ""
+
+#: plugins/kdecorations/aurorae/src/aurorae.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Information"
+msgctxt "Name"
+msgid "Aurorae Window Decorations"
+msgstr "উইন্ডো সংক্রান্ড তথ্য"
 
 #: plugins/kdecorations/aurorae/src/kwindecoration.desktop:5
 #, fuzzy
@@ -572,7 +604,7 @@ msgctxt "Name"
 msgid "Plastik"
 msgstr "Plastik (প্লাস্টিক)"
 
-#: plugins/kdecorations/aurorae/themes/plastik/package/metadata.desktop:91
+#: plugins/kdecorations/aurorae/themes/plastik/package/metadata.desktop:90
 msgctxt "Comment"
 msgid "The classic theme known from KDE 3"
 msgstr ""
