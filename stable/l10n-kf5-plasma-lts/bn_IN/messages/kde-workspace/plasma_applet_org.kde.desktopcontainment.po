@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-01 07:37+0100\n"
+"POT-Creation-Date: 2017-02-10 07:49+0100\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -31,7 +31,7 @@ msgstr "অবস্থান"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:252
-#: package/contents/ui/FolderViewLayer.qml:340
+#: package/contents/ui/FolderViewLayer.qml:342
 msgid "Icons"
 msgstr "আইকন"
 
@@ -58,6 +58,10 @@ msgstr ""
 
 #: package/contents/ui/AppletHandle.qml:312
 msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/BackButtonItem.qml:105
+msgid "Back"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
@@ -332,29 +336,23 @@ msgstr ""
 msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:44
-msgid ""
-"Tweaks are experimental options that may become defaults depending on your "
-"feedback."
-msgstr ""
-
-#: package/contents/ui/ConfigTweaks.qml:50
+#: package/contents/ui/ConfigTweaks.qml:42
 #, fuzzy
 #| msgid "Desktop Folder"
 msgid "Desktop Layout"
 msgstr "ডেস্কটপ ফোল্ডার"
 
-#: package/contents/ui/ConfigTweaks.qml:59
+#: package/contents/ui/ConfigTweaks.qml:51
 #, fuzzy
 #| msgid "Show the Desktop folder"
 msgid "Show the desktop toolbox"
 msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন করা হবে"
 
-#: package/contents/ui/ConfigTweaks.qml:67
+#: package/contents/ui/ConfigTweaks.qml:59
 msgid "Widget Handling"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:77
+#: package/contents/ui/ConfigTweaks.qml:69
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
 
@@ -386,165 +384,65 @@ msgstr ""
 msgid "Configure Desktop"
 msgstr ""
 
-#: package/contents/ui/UpButtonItem.qml:105
-msgid "Up"
-msgstr ""
-
 #: plugins/folder/directorypicker.cpp:45
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Folder"
 msgstr "সমগ্র নির্বাচন করুন"
 
-#: plugins/folder/foldermodel.cpp:250
+#: plugins/folder/foldermodel.cpp:254
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1191
+#: plugins/folder/foldermodel.cpp:254 plugins/folder/foldermodel.cpp:1235
 #, kde-format
 msgid "&Refresh View"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1188
+#: plugins/folder/foldermodel.cpp:1232
 #, kde-format
 msgid "&Reload"
 msgstr "নতুন করে লোড (&R)"
 
-#: plugins/folder/foldermodel.cpp:1194
+#: plugins/folder/foldermodel.cpp:1238
 #, kde-format
 msgid "&Rename"
 msgstr "নাম পরিবর্তন (&R)"
 
-#: plugins/folder/foldermodel.cpp:1197
+#: plugins/folder/foldermodel.cpp:1241
 #, kde-format
 msgid "&Move to Trash"
 msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
-#: plugins/folder/foldermodel.cpp:1200
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
+#: plugins/folder/foldermodel.cpp:1244
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: plugins/folder/foldermodel.cpp:1203
+#: plugins/folder/foldermodel.cpp:1247
+#, fuzzy, kde-format
+#| msgid "&Restore"
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "পুনরুদ্ধার (&R)"
+
+#: plugins/folder/foldermodel.cpp:1250
 #, kde-format
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
-#: plugins/folder/foldermodel.cpp:1263
-#, kde-format
-msgid "&Paste"
-msgstr "পেস্ট করুন (&P)"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
-#, kde-format
-msgctxt "@title:menu"
-msgid "Copy To"
-msgstr "চিহ্নিত স্থানে কপি করুন"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
-#, kde-format
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
-#, fuzzy, kde-format
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
-#, fuzzy, kde-format
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "ডেস্কটপ ফোল্ডার"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
-#, kde-format
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
-msgstr "ব্রাউজ করুন..."
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
-#, kde-format
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "এইখানে কপি করুন"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
-#, kde-format
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "এইখানে স্থানান্তর করুন"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#: plugins/folder/foldermodel.cpp:1253
 #, kde-format
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#: plugins/folder/foldermodel.cpp:1323
 #, kde-format
-msgid "Create &Folder..."
-msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
+msgid "&Paste"
+msgstr "পেস্ট করুন (&P)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
-#, kde-format
-msgid "&Restore"
-msgstr "পুনরুদ্ধার (&R)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, fuzzy, kde-format
-#| msgid "Show All Files"
-msgid "Show Original Directory"
-msgstr "সকল ফাইল প্রদর্শন করা হবে"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, fuzzy, kde-format
-#| msgid "Show All Files"
-msgid "Show Original File"
-msgstr "সকল ফাইল প্রদর্শন করা হবে"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
-#, fuzzy, kde-format
-#| msgid "&Empty Trash Bin"
-msgid "&Configure Trash Bin"
-msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
-#, kde-format
-msgid "&Bookmark This Page"
-msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
-#, kde-format
-msgid "&Bookmark This Location"
-msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
-#, kde-format
-msgid "&Bookmark This Folder"
-msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
-#, kde-format
-msgid "&Bookmark This Link"
-msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
-#, kde-format
-msgid "&Bookmark This File"
-msgstr "বর্তমান ফাইল লিংক করুন (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
-#, kde-format
-msgid "Preview In"
-msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
+#: plugins/folder/foldermodel.cpp:1445
 #, kde-format
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
@@ -608,6 +506,74 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "চিহ্নিত স্থানে কপি করুন"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "চিহ্নিত স্থানে স্থানান্তর করুন"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "ব্রাউজ করুন..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "এইখানে কপি করুন"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "এইখানে স্থানান্তর করুন"
+
+#~ msgid "Create &Folder..."
+#~ msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original Directory"
+#~ msgstr "সকল ফাইল প্রদর্শন করা হবে"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "সকল ফাইল প্রদর্শন করা হবে"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "বর্তমান পৃষ্ঠা বুকমার্ক করুন (&B)"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "বর্তমান অবস্থান বুকমার্ক করুন (&B)"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "বর্তমান ফোল্ডার বুকমার্ক করুন (&B)"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "বর্তমান লিংক বুকমার্ক করুন (&B)"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "বর্তমান ফাইল লিংক করুন (&B)"
+
+#~ msgid "Preview In"
+#~ msgstr "ঝলক প্রদর্শনে ব্যবহৃত হবে"
 
 #~ msgid "Share"
 #~ msgstr "যৌথ ব্যবহার"
