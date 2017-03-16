@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-14 09:04+0000\n"
+"POT-Creation-Date: 2017-03-16 02:40+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -126,9 +126,18 @@ msgid "Login"
 msgstr "লগ-ইন করুন"
 
 #: effects/login/package/metadata.desktop:88
+#: effects/logout/package/metadata.desktop:4
 msgctxt "Comment"
 msgid "Smoothly fade to the desktop when logging in"
 msgstr ""
+
+#: effects/logout/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Logout"
+msgctxt "Name"
+msgid "logout"
+msgstr "লগ-আউট করুন"
 
 #: effects/lookingglass/lookingglass_config.desktop:8
 msgctxt "Name"
@@ -583,6 +592,19 @@ msgctxt "Comment"
 msgid "A graphics reset event occurred"
 msgstr ""
 
+#: packageplugins/aurorae/kwin-packagestructure-aurorae.desktop:2
+msgctxt "Name"
+msgid "KWin Aurorae"
+msgstr ""
+
+#: packageplugins/decoration/kwin-packagestructure-decoration.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Information"
+msgctxt "Name"
+msgid "KWin Decoration"
+msgstr "উইন্ডো সংক্রান্ড তথ্য"
+
 #: packageplugins/scripts/kwin-packagestructure-scripts.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -817,10 +839,6 @@ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 #~ msgctxt "Name"
 #~ msgid "Highlight Window"
 #~ msgstr "উইন্ডোর প্রতিলিপি"
-
-#~ msgctxt "Name"
-#~ msgid "Logout"
-#~ msgstr "লগ-আউট করুন"
 
 #, fuzzy
 #~| msgctxt "Name"
