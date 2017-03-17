@@ -32,10 +32,12 @@ msgstr "DBus ব্যাক-এন্ড সংক্রান্ত ত্র�
 #, fuzzy, qt-format
 #| msgid "DBus Backend error: connection to helper failed. %1"
 msgctxt "KAuth::DBusHelperProxy|"
-msgid "DBus Backend error: connection to helper failed. %1"
+msgid ""
+"DBus Backend error: connection to helper failed. %1\n"
+"(application: %2 helper: %3)"
 msgstr "DBus ব্যাক-এন্ড সংক্রান্ত ত্রুটি: সহায়কের সাথে সংযোগ স্থাপন করতে বিফল। %1"
 
-#: backends/dbus/DBusHelperProxy.cpp:121
+#: backends/dbus/DBusHelperProxy.cpp:124
 #, fuzzy, qt-format
 #| msgid ""
 #| "DBus Backend error: could not contact the helper. Connection error: %1. "
