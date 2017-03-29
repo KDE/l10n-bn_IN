@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-24 02:45+0100\n"
+"POT-Creation-Date: 2017-03-29 02:50+0200\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -31,7 +31,7 @@ msgstr "অবস্থান"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:252
-#: package/contents/ui/FolderViewLayer.qml:360
+#: package/contents/ui/FolderViewLayer.qml:399
 msgid "Icons"
 msgstr "আইকন"
 
@@ -395,63 +395,57 @@ msgstr "সমগ্র নির্বাচন করুন"
 msgid "&Refresh Desktop"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:275 plugins/folder/foldermodel.cpp:1288
+#: plugins/folder/foldermodel.cpp:275 plugins/folder/foldermodel.cpp:1293
 #, kde-format
 msgid "&Refresh View"
 msgstr ""
 
-#: plugins/folder/foldermodel.cpp:1285
+#: plugins/folder/foldermodel.cpp:1290
 #, kde-format
 msgid "&Reload"
 msgstr "নতুন করে লোড (&R)"
 
-#: plugins/folder/foldermodel.cpp:1291
+#: plugins/folder/foldermodel.cpp:1296
 #, kde-format
 msgid "&Rename"
 msgstr "নাম পরিবর্তন (&R)"
 
-#: plugins/folder/foldermodel.cpp:1294
+#: plugins/folder/foldermodel.cpp:1299
 #, kde-format
 msgid "&Move to Trash"
 msgstr "আবর্জনার বাক্সে স্থানান্তর (&M)"
 
-#: plugins/folder/foldermodel.cpp:1297
+#: plugins/folder/foldermodel.cpp:1302
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "আবর্জনার বাক্স ফাঁকা করুন (&E)"
 
-#: plugins/folder/foldermodel.cpp:1300
+#: plugins/folder/foldermodel.cpp:1305
 #, fuzzy, kde-format
 #| msgid "&Restore"
 msgctxt "Restore from trash"
 msgid "Restore"
 msgstr "পুনরুদ্ধার (&R)"
 
-#: plugins/folder/foldermodel.cpp:1303
+#: plugins/folder/foldermodel.cpp:1308
 #, kde-format
 msgid "&Delete"
 msgstr "মুছে ফেলুন (&D)"
 
-#: plugins/folder/foldermodel.cpp:1306
+#: plugins/folder/foldermodel.cpp:1311
 #, kde-format
 msgid "&Open"
 msgstr "খুলুন (&O)"
 
-#: plugins/folder/foldermodel.cpp:1376
+#: plugins/folder/foldermodel.cpp:1381
 #, kde-format
 msgid "&Paste"
 msgstr "পেস্ট করুন (&P)"
 
-#: plugins/folder/foldermodel.cpp:1509
+#: plugins/folder/foldermodel.cpp:1514
 #, kde-format
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
-
-#: plugins/folder/labelgenerator.cpp:97
-#, fuzzy, kde-format
-#| msgid "Show the Desktop folder"
-msgid "Desktop Folder"
-msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন করা হবে"
 
 #: plugins/folder/viewpropertiesmenu.cpp:31
 #, kde-format
@@ -506,6 +500,11 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Show the Desktop folder"
+#~ msgid "Desktop Folder"
+#~ msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন করা হবে"
 
 #~ msgid "Create &Folder..."
 #~ msgstr "ফোল্ডার নির্মাণ করুন...(&F)"
