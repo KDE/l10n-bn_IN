@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-11 02:32+0100\n"
+"POT-Creation-Date: 2017-07-14 03:04+0200\n"
 "PO-Revision-Date: 2009-01-07 12:45+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1780,74 +1780,74 @@ msgstr "ভাষা গ্রহণ করা হবে:"
 msgid "Accept character sets:"
 msgstr "ক্যারেক্টার সেট গ্রহণ করা হবে:"
 
-#: main.cpp:64
+#: main.cpp:62
 #, kde-format
 msgid "Konqueror Browsing Control Module"
 msgstr ""
 
-#: main.cpp:66
+#: main.cpp:64
 #, kde-format
 msgid "(c) 1999 - 2001 The Konqueror Developers"
 msgstr "(c) ১৯৯৯ - ২০০১ Konqueror নির্মাতাবৃন্দ"
 
-#: main.cpp:68
+#: main.cpp:66
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়েন"
 
-#: main.cpp:69
+#: main.cpp:67
 #, kde-format
 msgid "David Faure"
 msgstr "ডেভিড ফেউরে"
 
-#: main.cpp:70
+#: main.cpp:68
 #, kde-format
 msgid "Matthias Kalle Dalheimer"
 msgstr "ম্যাথায়েস কালে ডালহেইমার"
 
-#: main.cpp:71
+#: main.cpp:69
 #, kde-format
 msgid "Lars Knoll"
 msgstr "লার্স নোল"
 
-#: main.cpp:72
+#: main.cpp:70
 #, kde-format
 msgid "Dirk Mueller"
 msgstr "ডির্ক মুয়েলার"
 
-#: main.cpp:73
+#: main.cpp:71
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "ড্যানিয়েল মোলকেনটিন"
 
-#: main.cpp:74
+#: main.cpp:72
 #, kde-format
 msgid "Wynn Wilkes"
 msgstr "উইন উইলক্স"
 
-#: main.cpp:76
+#: main.cpp:74
 #, kde-format
 msgid "Leo Savernik"
 msgstr "লিও সাভেরনিক"
 
-#: main.cpp:76
+#: main.cpp:74
 #, kde-format
 msgid ""
 "JavaScript access controls\n"
 "Per-domain policies extensions"
 msgstr ""
 
-#: main.cpp:88
+#: main.cpp:86
 #, kde-format
 msgid "&Java"
 msgstr "Java (&J)"
 
-#: main.cpp:92
+#: main.cpp:90
 #, kde-format
 msgid "Java&Script"
 msgstr "JavaScript (&S)"
 
-#: main.cpp:132
+#: main.cpp:130
 #, kde-format
 msgid ""
 "<h2>JavaScript</h2>On this page, you can configure whether JavaScript "
@@ -1861,7 +1861,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, NSConfigWidget)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: nsconfigwidget.ui:14 nsconfigwidget.ui:122 pluginopts.cpp:174
+#: nsconfigwidget.ui:14 nsconfigwidget.ui:122 pluginopts.cpp:173
 #, kde-format
 msgid "Plugins"
 msgstr "প্লাগ-ইন"
@@ -1926,44 +1926,44 @@ msgstr "তথ্য"
 msgid "Value"
 msgstr "মান"
 
-#: pluginopts.cpp:78
+#: pluginopts.cpp:77
 #, kde-format
 msgid "Global Settings"
 msgstr "সার্বজনীন বৈশিষ্ট্য"
 
-#: pluginopts.cpp:83
+#: pluginopts.cpp:82
 #, kde-format
 msgid "&Enable plugins globally"
 msgstr "সার্বজনীনরূপে প্লাগ-ইন সক্রিয় করা হবে (&E)"
 
-#: pluginopts.cpp:84
+#: pluginopts.cpp:83
 #, kde-format
 msgid "Only allow &HTTP and HTTPS URLs for plugins"
 msgstr "প্লাগ-ইনের ক্ষেত্রে শুধুমাত্র &HTTP ও HTTPS URL প্রয়োগ করা যাবে"
 
-#: pluginopts.cpp:85
+#: pluginopts.cpp:84
 #, kde-format
 msgid "&Load plugins on demand only"
 msgstr "শুধুমাত্র প্রয়োজন অনুসারে প্লাগ-ইন লোড করা হবে (&L)"
 
-#: pluginopts.cpp:86 pluginopts.cpp:207
+#: pluginopts.cpp:85 pluginopts.cpp:206
 #, kde-format
 msgid "CPU priority for plugins: %1"
 msgstr "প্লাগ-ইনের জন্য CPU ব্যবহারের গুরুত্ব: %1"
 
-#: pluginopts.cpp:114
+#: pluginopts.cpp:113
 #, kde-format
 msgid "Domain-Specific Settin&gs"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট বৈশিষ্ট্য (&g)"
 
-#: pluginopts.cpp:127 pluginopts.cpp:630
+#: pluginopts.cpp:126 pluginopts.cpp:629
 #, fuzzy, kde-format
 #| msgid "Domain-Specific Policies"
 msgctxt "@title:window"
 msgid "Domain-Specific Policies"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট নীতি"
 
-#: pluginopts.cpp:142
+#: pluginopts.cpp:141
 #, kde-format
 msgid ""
 "Enables the execution of plugins that can be contained in HTML pages, e.g. "
@@ -1971,7 +1971,7 @@ msgid ""
 "can be a security problem."
 msgstr ""
 
-#: pluginopts.cpp:146
+#: pluginopts.cpp:145
 #, kde-format
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific plugin "
@@ -1980,7 +1980,7 @@ msgid ""
 "p><p>Select a policy and use the controls on the right to modify it.</p>"
 msgstr ""
 
-#: pluginopts.cpp:152
+#: pluginopts.cpp:151
 #, kde-format
 msgid ""
 "Click this button to choose the file that contains the plugin policies. "
@@ -1988,14 +1988,14 @@ msgid ""
 "ignored."
 msgstr ""
 
-#: pluginopts.cpp:155
+#: pluginopts.cpp:154
 #, kde-format
 msgid ""
 "Click this button to save the plugin policy to a zipped file. The file, "
 "named <b>plugin_policy.tgz</b>, will be saved to a location of your choice."
 msgstr ""
 
-#: pluginopts.cpp:158
+#: pluginopts.cpp:157
 #, kde-format
 msgid ""
 "Here you can set specific plugin policies for any particular host or domain. "
@@ -2007,37 +2007,37 @@ msgid ""
 "domain."
 msgstr ""
 
-#: pluginopts.cpp:196
+#: pluginopts.cpp:195
 #, kde-format
 msgctxt "lowest priority"
 msgid "lowest"
 msgstr "সর্বনিম্ন"
 
-#: pluginopts.cpp:198
+#: pluginopts.cpp:197
 #, kde-format
 msgctxt "low priority"
 msgid "low"
 msgstr "নিম্ন"
 
-#: pluginopts.cpp:200
+#: pluginopts.cpp:199
 #, kde-format
 msgctxt "medium priority"
 msgid "medium"
 msgstr "মাঝারি"
 
-#: pluginopts.cpp:202
+#: pluginopts.cpp:201
 #, kde-format
 msgctxt "high priority"
 msgid "high"
 msgstr "উচ্চ"
 
-#: pluginopts.cpp:204
+#: pluginopts.cpp:203
 #, kde-format
 msgctxt "highest priority"
 msgid "highest"
 msgstr "সর্বোচ্চ"
 
-#: pluginopts.cpp:295
+#: pluginopts.cpp:294
 #, kde-format
 msgid ""
 "<h1>Konqueror Plugins</h1> The Konqueror web browser can use Netscape "
@@ -2047,81 +2047,81 @@ msgid ""
 "netscape/plugins'."
 msgstr ""
 
-#: pluginopts.cpp:323
+#: pluginopts.cpp:322
 #, kde-format
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes "
 "will be lost."
 msgstr ""
 
-#: pluginopts.cpp:342
+#: pluginopts.cpp:341
 #, kde-format
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
 msgstr ""
 
-#: pluginopts.cpp:349
+#: pluginopts.cpp:348
 #, kde-format
 msgid "Scanning for plugins"
 msgstr "প্লাগ-ইন অনুসন্ধান করা হচ্ছে"
 
-#: pluginopts.cpp:393
+#: pluginopts.cpp:392
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Plugin Scan Folder"
 msgstr ""
 
-#: pluginopts.cpp:556
+#: pluginopts.cpp:555
 #, kde-format
 msgid "Netscape Plugins"
 msgstr "Netscape প্লাগ-ইন"
 
-#: pluginopts.cpp:579
+#: pluginopts.cpp:578
 #, kde-format
 msgid "Plugin"
 msgstr "প্লাগ-ইন"
 
-#: pluginopts.cpp:605
+#: pluginopts.cpp:604
 #, kde-format
 msgid "MIME type"
 msgstr "MIME-র ধরন"
 
-#: pluginopts.cpp:608
+#: pluginopts.cpp:607
 #, kde-format
 msgid "Description"
 msgstr "বিবরণ"
 
-#: pluginopts.cpp:611
+#: pluginopts.cpp:610
 #, kde-format
 msgid "Suffixes"
 msgstr "সাফিক্স"
 
-#: pluginopts.cpp:662
+#: pluginopts.cpp:661
 #, kde-format
 msgid "Doma&in-Specific"
 msgstr "ডোমেইনের জন্য সুনির্দিষ্ট (&i)"
 
-#: pluginopts.cpp:677
+#: pluginopts.cpp:676
 #, fuzzy, kde-format
 #| msgid "New Plugin Policy"
 msgctxt "@title:window"
 msgid "New Plugin Policy"
 msgstr "প্লাগ-ইন সংক্রান্ত নতুন নীতি"
 
-#: pluginopts.cpp:680
+#: pluginopts.cpp:679
 #, fuzzy, kde-format
 #| msgid "Change Plugin Policy"
 msgctxt "@title:window"
 msgid "Change Plugin Policy"
 msgstr "প্লাগ-ইন সংক্রান্ত নীতি পরিবর্তন করুন"
 
-#: pluginopts.cpp:684
+#: pluginopts.cpp:683
 #, kde-format
 msgid "&Plugin policy:"
 msgstr "প্লাগ-ইন সংক্রান্ত নীতি: (&P)"
 
-#: pluginopts.cpp:685
+#: pluginopts.cpp:684
 #, kde-format
 msgid "Select a plugin policy for the above host or domain."
 msgstr "উপরোক্ত হোস্ট অথবা ডোমেইনের জন্য প্লাগ-ইন সংক্রান্ত নীতি নির্বাচন করুন।"
