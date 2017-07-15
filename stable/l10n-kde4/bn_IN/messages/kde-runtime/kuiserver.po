@@ -1,0 +1,242 @@
+# translation of kuiserver.po to Bengali INDIA
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kuiserver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
+"PO-Revision-Date: 2009-01-12 14:26+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "রুণা ভট্টাচার্য্য"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "runab@redhat.com"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
+#: configdialog.ui:31
+#, kde-format
+msgid "Finished Jobs"
+msgstr "সমাপ্ত কর্ম"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
+#: configdialog.ui:43
+#, kde-format
+msgid "Move them to a different list"
+msgstr "ভিন্ন তালিকায় স্থানান্তর করা হবে"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
+#: configdialog.ui:50
+#, kde-format
+msgid "Remove them"
+msgstr "মুছে ফেলুন"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
+#: configdialog.ui:60
+#, kde-format
+msgid "Appearance"
+msgstr "চেহারা"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
+#: configdialog.ui:72
+#, kde-format
+msgid "Show all jobs in a list"
+msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
+#: configdialog.ui:79
+#, kde-format
+msgid "Show all jobs in a tree"
+msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
+#: configdialog.ui:86
+#, kde-format
+msgid "Show separate windows"
+msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে"
+
+#: jobview.cpp:124 jobview.cpp:152
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1-টি ফাইল"
+msgstr[1] "%1-টি ফাইল"
+
+#: jobview.cpp:127 jobview.cpp:155
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1-টি ফোল্ডার"
+msgstr[1] "%1-টি ফোল্ডার"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:8
+#, kde-format
+msgid "Move them to a different list."
+msgstr "ভিন্ন তালিকায় স্থানান্তর করুন।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:12
+#, kde-format
+msgid "Remove them."
+msgstr "মুছে ফেলুন।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:16
+#, kde-format
+msgid "Show all jobs in a list."
+msgstr "তালিকার মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:20
+#, kde-format
+msgid "Show all jobs in a tree."
+msgstr "ট্রির মধ্যে উপস্থিত সকল কর্ম প্রদর্শন করা হবে।"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:24
+#, kde-format
+msgid "Show separate windows."
+msgstr "ভিন্ন উইন্ডো প্রদর্শন করা হবে।"
+
+#: main.cpp:40
+#, fuzzy, kde-format
+#| msgid "Progress Manager"
+msgid "Job Manager"
+msgstr "প্রগতি পরিচালনব্যবস্থা"
+
+#: main.cpp:41
+#, kde-format
+msgid "KDE Job Manager"
+msgstr ""
+
+#: main.cpp:42
+#, fuzzy, kde-format
+#| msgid "(C) 2000-2008, KDE Team"
+msgid "(C) 2000-2009, KDE Team"
+msgstr "(C) ২০০০-২০০৮, KDE দল"
+
+#: main.cpp:44
+#, kde-format
+msgid "Shaun Reich"
+msgstr ""
+
+#: main.cpp:44
+#, kde-format
+msgid "Maintainer"
+msgstr "মেইন্টেনার"
+
+#: main.cpp:45
+#, kde-format
+msgid "Rafael Fernández López"
+msgstr "রাফায়েল ফার্নান্ডেস লোপেজ"
+
+#: main.cpp:45
+#, fuzzy, kde-format
+#| msgid "Former maintainer"
+msgid "Former Maintainer"
+msgstr "পূর্ববর্তী মেইন্টেনার"
+
+#: main.cpp:46
+#, kde-format
+msgid "David Faure"
+msgstr "ডেভিড ফেউরে"
+
+#: main.cpp:46
+#, kde-format
+msgid "Former maintainer"
+msgstr "পূর্ববর্তী মেইন্টেনার"
+
+#: main.cpp:47
+#, kde-format
+msgid "Matej Koss"
+msgstr "মাতেজ কোস"
+
+#: main.cpp:47
+#, kde-format
+msgid "Developer"
+msgstr "ডিভেলপর"
+
+#: progresslistdelegate.cpp:148
+#, kde-format
+msgid "%1 of %2 processed at %3/s"
+msgstr "%1, সর্বমোট %2, %3/s গতিতে প্রসেস করা হয়েছে"
+
+#: progresslistdelegate.cpp:150
+#, kde-format
+msgid "%1 of %2 processed"
+msgstr "%1 প্রসেস করা হয়েছে, সর্বমোট %2"
+
+#: progresslistdelegate.cpp:152
+#, kde-format
+msgid "%1 processed at %2/s"
+msgstr "%1, %2/s গতিতে প্রসেস করা হয়েছে"
+
+#: progresslistdelegate.cpp:154
+#, kde-format
+msgid "%1 processed"
+msgstr "%1 প্রসেস করা হয়েছে"
+
+#: progresslistdelegate.cpp:242
+#, kde-format
+msgid "Clear"
+msgstr ""
+
+#: progresslistdelegate.cpp:270
+#, kde-format
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: progresslistdelegate.cpp:289
+#, kde-format
+msgid "Pause"
+msgstr "স্থগিত করুন"
+
+#: progresslistdelegate.cpp:293
+#, kde-format
+msgid "Resume"
+msgstr "পুনরারম্ভ"
+
+#: uiserver.cpp:50
+#, kde-format
+msgid "Configure..."
+msgstr "কনফিগার করুন..."
+
+#: uiserver.cpp:86
+#, kde-format
+msgid "List of running file transfers/jobs (kuiserver)"
+msgstr ""
+
+#: uiserver.cpp:132
+#, kde-format
+msgid "Behavior"
+msgstr "আচরণ"
+
+#~ msgid "Search"
+#~ msgstr "অনুসন্ধান"
+
+#~ msgid "In Progress"
+#~ msgstr "চলমান"
+
+#, fuzzy
+#~| msgid "Finished Jobs"
+#~ msgid "Finished"
+#~ msgstr "সমাপ্ত কর্ম"
+
+#~ msgid "KDE Progress Information UI Server"
+#~ msgstr "KDE-র প্রসেস সংক্রান্ত তথ্যের UI সার্ভার"
