@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2017-09-12 03:29+0200\n"
 "PO-Revision-Date: 2009-07-04 05:55+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -201,7 +201,7 @@ msgstr " মিলিসেকেন্ড "
 #: accessibility.ui:224
 #, fuzzy, kde-format
 #| msgid "&Modifier Keys"
-msgid "Modifier Keys"
+msgid "&Modifier Keys"
 msgstr "মডিফায়র কী-সমূহ (&M)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, sticky)
@@ -325,7 +325,7 @@ msgstr "সিস্টেম বেল ব্যবহৃত হবে যখ�
 #: accessibility.ui:564
 #, fuzzy, kde-format
 #| msgid "Activation Gestures"
-msgid "&Activation Gestures"
+msgid "Activation &Gestures"
 msgstr "সক্রিয় করার ঈশারা-সমূহ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
@@ -426,8 +426,14 @@ msgstr ""
 msgid "Screen reader enabled"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
+#: accessibility.ui:760
+#, kde-format
+msgid "&Launch Orca Configuration"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:758
+#: accessibility.ui:785
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -536,6 +542,21 @@ msgstr ""
 "মাউস কী-সমুহ: %1\n"
 "স্টিকি কী-সমূহ: পর পর ৫ বার সিফ্ট কী প্রেস করুন\n"
 "ধীর কী-সমূহ: সিফ্ট কী ৮ সেকেন্ড ধরে থাকুন"
+
+#: kcmaccess.cpp:260
+#, kde-format
+msgid "Could not set gesttings for Orca: \"%1\" failed"
+msgstr ""
+
+#: kcmaccess.cpp:267
+#, kde-format
+msgid "Error: Could not launch \"orca --setup\""
+msgstr ""
+
+#, fuzzy
+#~| msgid "Activation Gestures"
+#~ msgid "&Activation Gestures"
+#~ msgstr "সক্রিয় করার ঈশারা-সমূহ"
 
 #~ msgid "Acceptance dela&y:"
 #~ msgstr "গ্রহন করার বিলম্ব (&y):"
