@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-12 03:15+0200\n"
+"POT-Creation-Date: 2017-09-14 03:16+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1071,7 +1071,7 @@ msgstr ""
 
 #: kitemviews/kfileitemmodel.cpp:2313 kitemviews/kfileitemmodel.cpp:2314
 #: kitemviews/kfileitemmodel.cpp:2315 kitemviews/kfileitemmodel.cpp:2316
-#: kitemviews/kfileitemmodel.cpp:2317
+#: kitemviews/kfileitemmodel.cpp:2317 kitemviews/kfileitemmodel.cpp:2318
 #, kde-format
 msgctxt "@label"
 msgid "Audio"
@@ -1107,16 +1107,23 @@ msgstr ""
 
 #: kitemviews/kfileitemmodel.cpp:2318
 #, fuzzy, kde-format
+#| msgid "Reload"
+msgctxt "@label"
+msgid "Release Year"
+msgstr "রিলোড"
+
+#: kitemviews/kfileitemmodel.cpp:2319
+#, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
 msgctxt "@label"
 msgid "Path"
 msgstr "পেস্ট"
 
-#: kitemviews/kfileitemmodel.cpp:2318 kitemviews/kfileitemmodel.cpp:2319
-#: kitemviews/kfileitemmodel.cpp:2320 kitemviews/kfileitemmodel.cpp:2321
-#: kitemviews/kfileitemmodel.cpp:2322 kitemviews/kfileitemmodel.cpp:2323
-#: kitemviews/kfileitemmodel.cpp:2324
+#: kitemviews/kfileitemmodel.cpp:2319 kitemviews/kfileitemmodel.cpp:2320
+#: kitemviews/kfileitemmodel.cpp:2321 kitemviews/kfileitemmodel.cpp:2322
+#: kitemviews/kfileitemmodel.cpp:2323 kitemviews/kfileitemmodel.cpp:2324
+#: kitemviews/kfileitemmodel.cpp:2325
 #, fuzzy, kde-format
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -1124,7 +1131,7 @@ msgctxt "@label"
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kitemviews/kfileitemmodel.cpp:2319
+#: kitemviews/kfileitemmodel.cpp:2320
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -1132,7 +1139,7 @@ msgctxt "@label"
 msgid "Deletion Time"
 msgstr "অনুসন্ধান..."
 
-#: kitemviews/kfileitemmodel.cpp:2320
+#: kitemviews/kfileitemmodel.cpp:2321
 #, fuzzy, kde-format
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1140,73 +1147,73 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "ডকুমেনটেশন"
 
-#: kitemviews/kfileitemmodel.cpp:2321
+#: kitemviews/kfileitemmodel.cpp:2322
 #, kde-format
 msgctxt "@label"
 msgid "Downloaded From"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2322
+#: kitemviews/kfileitemmodel.cpp:2323
 #, kde-format
 msgctxt "@label"
 msgid "Permissions"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2323
+#: kitemviews/kfileitemmodel.cpp:2324
 #, kde-format
 msgctxt "@label"
 msgid "Owner"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:2324
+#: kitemviews/kfileitemmodel.cpp:2325
 #, kde-format
 msgctxt "@label"
 msgid "User Group"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:175
+#: kitemviews/private/kbaloorolesprovider.cpp:176
 #, kde-format
 msgctxt "@item:intable Image orientation"
 msgid "Unchanged"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:176
+#: kitemviews/private/kbaloorolesprovider.cpp:177
 #, kde-format
 msgctxt "@item:intable Image orientation"
 msgid "Horizontally flipped"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:177
+#: kitemviews/private/kbaloorolesprovider.cpp:178
 #, kde-format
 msgctxt "@item:intable image orientation"
 msgid "180° rotated"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:178
+#: kitemviews/private/kbaloorolesprovider.cpp:179
 #, kde-format
 msgctxt "@item:intable image orientation"
 msgid "Vertically flipped"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:179
+#: kitemviews/private/kbaloorolesprovider.cpp:180
 #, kde-format
 msgctxt "@item:intable image orientation"
 msgid "Transposed"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:180
+#: kitemviews/private/kbaloorolesprovider.cpp:181
 #, kde-format
 msgctxt "@item:intable image orientation"
 msgid "90° rotated"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:181
+#: kitemviews/private/kbaloorolesprovider.cpp:182
 #, kde-format
 msgctxt "@item:intable image orientation"
 msgid "Transversed"
 msgstr ""
 
-#: kitemviews/private/kbaloorolesprovider.cpp:182
+#: kitemviews/private/kbaloorolesprovider.cpp:183
 #, kde-format
 msgctxt "@item:intable image orientation"
 msgid "270° rotated"
