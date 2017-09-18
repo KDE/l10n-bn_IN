@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-29 05:15+0200\n"
+"POT-Creation-Date: 2017-09-18 05:32+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -572,7 +572,7 @@ msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "মুছে ফেলা হবে"
 
-#: dolphinremoveaction.cpp:53
+#: dolphinremoveaction.cpp:58
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Move to Trash"
@@ -3246,28 +3246,28 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "ফোল্ডার প্রথমে"
 
-#: views/dolphinview.cpp:823
+#: views/dolphinview.cpp:826
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:933
+#: views/dolphinview.cpp:936
 #, fuzzy, kde-format
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:938
+#: views/dolphinview.cpp:941
 #, fuzzy, kde-format
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:1406
+#: views/dolphinview.cpp:1407
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Delete operation completed."
@@ -3275,19 +3275,19 @@ msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1415
+#: views/dolphinview.cpp:1416
 #, kde-format
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1558
+#: views/dolphinview.cpp:1561
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1560
+#: views/dolphinview.cpp:1563
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -3311,19 +3311,19 @@ msgctxt "@action:inmenu File"
 msgid "Move to Trash"
 msgstr "অাবর্জনার বাক্সে সরান"
 
-#: views/dolphinviewactionhandler.cpp:131
+#: views/dolphinviewactionhandler.cpp:136
 #, kde-format
 msgctxt "@action \"Move to Trash\" for non-local files, etc."
 msgid "Delete (using shortcut for Trash)"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:138
+#: views/dolphinviewactionhandler.cpp:143
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
-#: views/dolphinviewactionhandler.cpp:149
+#: views/dolphinviewactionhandler.cpp:154
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "View Mode"
@@ -3331,13 +3331,13 @@ msgctxt "@action:intoolbar"
 msgid "View Mode"
 msgstr "প্রদর্শনের বৈশিষ্ট"
 
-#: views/dolphinviewactionhandler.cpp:165
+#: views/dolphinviewactionhandler.cpp:170
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Preview"
 msgstr "প্রাকদর্শন"
 
-#: views/dolphinviewactionhandler.cpp:166
+#: views/dolphinviewactionhandler.cpp:171
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show folders first when sorting files and folders"
@@ -3345,19 +3345,19 @@ msgctxt "@info"
 msgid "Show preview of files and folders"
 msgstr "ফাইল এবং ফোল্ডার সাজানোর সময় ফোল্ডার প্রথমে দেখাবে"
 
-#: views/dolphinviewactionhandler.cpp:171
+#: views/dolphinviewactionhandler.cpp:176
 #, kde-format
 msgctxt "@action:inmenu Sort"
 msgid "Descending"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:175
+#: views/dolphinviewactionhandler.cpp:180
 #, kde-format
 msgctxt "@action:inmenu Sort"
 msgid "Folders First"
 msgstr "ফোল্ডার প্রথমে"
 
-#: views/dolphinviewactionhandler.cpp:182
+#: views/dolphinviewactionhandler.cpp:187
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Sort By"
@@ -3365,7 +3365,7 @@ msgctxt "@action:inmenu View"
 msgid "Sort By"
 msgstr "সাজান"
 
-#: views/dolphinviewactionhandler.cpp:196
+#: views/dolphinviewactionhandler.cpp:201
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Additional Information"
@@ -3373,13 +3373,13 @@ msgctxt "@action:inmenu View"
 msgid "Additional Information"
 msgstr "অধিক তথ্য"
 
-#: views/dolphinviewactionhandler.cpp:205
+#: views/dolphinviewactionhandler.cpp:210
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Show in Groups"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:209
+#: views/dolphinviewactionhandler.cpp:214
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Show Hidden Files"
@@ -3387,7 +3387,7 @@ msgctxt "@action:inmenu View"
 msgid "Hidden Files"
 msgstr "গোপন ফাইলগুলো দেখানো হবে"
 
-#: views/dolphinviewactionhandler.cpp:210
+#: views/dolphinviewactionhandler.cpp:215
 #, fuzzy, kde-format
 #| msgctxt "@option:check Mouse Settings"
 #| msgid "Single-click to open files and folders"
@@ -3395,19 +3395,19 @@ msgctxt "@info"
 msgid "Visibility of hidden files and folders"
 msgstr "সিঙ্গল-ক্লিক করে ফাইল এবং ফোল্ডারগুলো খুলুন"
 
-#: views/dolphinviewactionhandler.cpp:215
+#: views/dolphinviewactionhandler.cpp:220
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "প্রদর্শনের বৈশিষ্টাবলী সম্পাদন..."
 
-#: views/dolphinviewactionhandler.cpp:499
+#: views/dolphinviewactionhandler.cpp:504
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr "অাইকন"
 
-#: views/dolphinviewactionhandler.cpp:500
+#: views/dolphinviewactionhandler.cpp:505
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3415,13 +3415,13 @@ msgctxt "@info"
 msgid "Icons view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: views/dolphinviewactionhandler.cpp:510
+#: views/dolphinviewactionhandler.cpp:515
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:511
+#: views/dolphinviewactionhandler.cpp:516
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3429,13 +3429,13 @@ msgctxt "@info"
 msgid "Compact view mode"
 msgstr "প্রদর্শনের মোড ভাগ করা হবে"
 
-#: views/dolphinviewactionhandler.cpp:521
+#: views/dolphinviewactionhandler.cpp:526
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr "বিস্তারিত বর্নণা"
 
-#: views/dolphinviewactionhandler.cpp:522
+#: views/dolphinviewactionhandler.cpp:527
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
