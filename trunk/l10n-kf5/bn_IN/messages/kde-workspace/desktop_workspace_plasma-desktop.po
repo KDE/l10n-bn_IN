@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-22 02:16+0000\n"
+"POT-Creation-Date: 2017-12-23 02:27+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1505,6 +1505,11 @@ msgctxt "Name"
 msgid "Application Menu Bar"
 msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:41
+msgctxt "Comment"
+msgid "Panel containing the global menu applet"
+msgstr ""
+
 #: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -1512,6 +1517,20 @@ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 msgctxt "Name"
 msgid "Default Panel"
 msgstr "ডিফল্ট অ্যাপ্লিকেশন"
+
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:49
+msgctxt "Comment"
+msgid ""
+"Default panel featuring application launcher, task manager and system tray"
+msgstr ""
+
+#: layout-templates/org.kde.plasma.desktop.emptyPanel/metadata.desktop:55
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Panel"
+msgctxt "Comment"
+msgid "Empty panel"
+msgstr "প্যানেল"
 
 #: runners/kwin/plasma-runner-kwin.desktop:2
 msgctxt "Name"
