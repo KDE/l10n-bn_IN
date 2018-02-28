@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-01 03:30+0100\n"
+"POT-Creation-Date: 2018-02-28 03:30+0100\n"
 "PO-Revision-Date: 2008-12-29 15:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -29,24 +29,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runabh@gmail.com"
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "Run Plasma widgets in their own window"
 msgstr "Plasma উইজেটগুলি তাদের নিজস্ব উইন্ডোর মধ্যে সঞ্চালন করা হবে"
 
-#: main.cpp:60
+#: main.cpp:59
 #, fuzzy, kde-format
 #| msgid "Name of the wallpaper plugin"
 msgid "The name of the containment plugin"
 msgstr "ওয়াল-পেপার প্লাগ-ইনের নাম"
 
-#: main.cpp:62
+#: main.cpp:61
 #, fuzzy, kde-format
 #| msgid "Name of the wallpaper plugin"
 msgid "The name of the applet plugin"
 msgstr "ওয়াল-পেপার প্লাগ-ইনের নাম"
 
-#: main.cpp:64
+#: main.cpp:63
 #, fuzzy, kde-format
 #| msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
 #| msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
@@ -55,55 +55,55 @@ msgid ""
 "application)"
 msgstr "ব্যবহারযোগ্য formfactor (horizontal, vertical, mediacenter অথবা planar)"
 
-#: main.cpp:66
+#: main.cpp:65
 #, kde-format
 msgid ""
 "The location constraint to start the Containment with (floating, desktop, "
 "fullscreen, topedge, bottomedge, leftedge, rightedge)"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:69
 #, kde-format
 msgid "Set the x position of the plasmoidviewer on the Plasma desktop"
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:72
 #, kde-format
 msgid "Set the y position of the plasmoidviewer on the Plasma desktop"
 msgstr ""
 
-#: main.cpp:76
+#: main.cpp:75
 #, kde-format
 msgid "Set the window size of the plasmoidview"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:78
 #, fuzzy, kde-format
 #| msgid "The size in KB to set the pixmap cache to"
 msgid "The size in kB to set the pixmap cache to"
 msgstr "কিলোবাইট অনুযায়ী পিক্সম্যাপ ক্যাশের মাপ নির্ধারণ করা হবে"
 
-#: main.cpp:82
+#: main.cpp:81
 #, kde-format
 msgid "The name of the theme which the shell will use"
 msgstr ""
 
-#: main.cpp:85
+#: main.cpp:84
 #, kde-format
 msgid "Data that should be passed to the applet as 'externalData' event"
 msgstr ""
 
-#: view.cpp:119
+#: view.cpp:120
 #, no-c-format, kde-format
 msgid "Applet %1 does not exist."
 msgstr ""
 
-#: view.cpp:136
+#: view.cpp:137
 #, no-c-format, kde-format
 msgid "Containment %1 does not exist."
 msgstr ""
 
-#: view.cpp:316
+#: view.cpp:317
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Screenshot"
