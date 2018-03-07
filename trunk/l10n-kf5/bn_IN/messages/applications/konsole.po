@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-02 03:17+0100\n"
+"POT-Creation-Date: 2018-03-07 03:16+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2469,19 +2469,19 @@ msgstr "Linux কনসোল"
 msgid "Solaris console"
 msgstr "Solaris কনসোল"
 
-#: Session.cpp:353
+#: Session.cpp:355
 #, kde-format
 msgid "Could not find binary: "
 msgstr "বাইনারি পাওয়া যায়নি: "
 
-#: Session.cpp:362
+#: Session.cpp:364
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "সতর্কবার্তা: "
 
-#: Session.cpp:420
+#: Session.cpp:422
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2490,32 +2490,32 @@ msgstr ""
 "'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার "
 "প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
 
-#: Session.cpp:423
+#: Session.cpp:425
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "আরম্ভ করার জন্য কোনো ইন্টারেক্টিভ শেল পাওয়া যায়নি।"
 
-#: Session.cpp:461
+#: Session.cpp:463
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্ট সহ আরম্ভ করা যায়নি।"
 
-#: Session.cpp:593
+#: Session.cpp:595
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "'%1' সেশানে নিরবতা"
 
-#: Session.cpp:642
+#: Session.cpp:644
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
 
-#: Session.cpp:655
+#: Session.cpp:657
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "'%1'-এ কর্ম"
 
-#: Session.cpp:854
+#: Session.cpp:856
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2524,24 +2524,24 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:881
+#: Session.cpp:883
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: Session.cpp:895 Session.cpp:908
+#: Session.cpp:897 Session.cpp:910
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: Session.cpp:897
+#: Session.cpp:899
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: Session.cpp:1316
+#: Session.cpp:1318
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
@@ -2567,191 +2567,196 @@ msgstr ""
 msgid "Configure Web Shortcuts..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:534
+#: SessionController.cpp:544
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgid "&Close Session"
 msgstr "Konsole"
 
-#: SessionController.cpp:536
+#: SessionController.cpp:546
 #, kde-format
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: SessionController.cpp:544
+#: SessionController.cpp:554
 #, kde-format
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:571
+#: SessionController.cpp:581
 #, kde-format
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: SessionController.cpp:578
+#: SessionController.cpp:588
 #, kde-format
 msgid "Web Search"
 msgstr ""
 
-#: SessionController.cpp:585
+#: SessionController.cpp:595
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "সমগ্র নির্বাচন"
 
-#: SessionController.cpp:589
+#: SessionController.cpp:599
 #, fuzzy, kde-format
 #| msgid "Select"
 msgid "Select &Line"
 msgstr "নির্বাচন করুন"
 
-#: SessionController.cpp:592
+#: SessionController.cpp:602
 #, fuzzy, kde-format
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "ফলাফল সংরক্ষণ করুন..."
 
-#: SessionController.cpp:598
+#: SessionController.cpp:608
 #, kde-format
 msgid "&Print Screen..."
 msgstr ""
 
-#: SessionController.cpp:602
+#: SessionController.cpp:612
 #, fuzzy, kde-format
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "প্রোফাইল ব্যবস্থাপনা..."
 
-#: SessionController.cpp:606
+#: SessionController.cpp:616
 #, fuzzy, kde-format
 #| msgid "Scrollback"
 msgid "Clear Scrollback"
 msgstr "স্ক্রোল-ব্যাক"
 
-#: SessionController.cpp:610
+#: SessionController.cpp:620
 #, fuzzy, kde-format
 #| msgid "Clear Scrollback"
 msgid "Clear Scrollback and Reset"
 msgstr "স্ক্রোল-ব্যাক মুছে ফেলুন"
 
-#: SessionController.cpp:616
+#: SessionController.cpp:626
 #, kde-format
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা..."
 
-#: SessionController.cpp:619
+#: SessionController.cpp:629
 #, fuzzy, kde-format
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা"
 
-#: SessionController.cpp:636
+#: SessionController.cpp:635
+#, kde-format
+msgid "Read-only"
+msgstr ""
+
+#: SessionController.cpp:652
 #, fuzzy, kde-format
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "এনকোডিং"
 
-#: SessionController.cpp:649
+#: SessionController.cpp:665
 #, kde-format
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:655
+#: SessionController.cpp:671
 #, kde-format
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:662
+#: SessionController.cpp:678
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: SessionController.cpp:668
+#: SessionController.cpp:684
 #, kde-format
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:676
+#: SessionController.cpp:692
 #, fuzzy, kde-format
 #| msgid "Copy Input"
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করুন"
 
-#: SessionController.cpp:683
+#: SessionController.cpp:699
 #, kde-format
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:688
+#: SessionController.cpp:704
 #, kde-format
 msgid "Monitor for &Activity"
 msgstr "কর্ম সঞ্চালন নিরীক্ষণ করুন (&A)"
 
-#: SessionController.cpp:693
+#: SessionController.cpp:709
 #, kde-format
 msgid "Monitor for &Silence"
 msgstr "নিষ্ক্রিয় অবস্থা নিরীক্ষণ করুন (&S)"
 
-#: SessionController.cpp:700
+#: SessionController.cpp:716
 #, kde-format
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:708
+#: SessionController.cpp:724
 #, kde-format
 msgid "Shrink Font"
 msgstr ""
 
-#: SessionController.cpp:715
+#: SessionController.cpp:731
 #, kde-format
 msgid "Send Signal"
 msgstr ""
 
-#: SessionController.cpp:719
+#: SessionController.cpp:735
 #, kde-format
 msgid "&Suspend Task"
 msgstr ""
 
-#: SessionController.cpp:724
+#: SessionController.cpp:740
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgid "&Continue Task"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: SessionController.cpp:729
+#: SessionController.cpp:745
 #, kde-format
 msgid "&Hangup"
 msgstr ""
 
-#: SessionController.cpp:734
+#: SessionController.cpp:750
 #, kde-format
 msgid "&Interrupt Task"
 msgstr ""
 
-#: SessionController.cpp:739
+#: SessionController.cpp:755
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "টার্মিন্যালের বৈশিষ্ট্য"
 
-#: SessionController.cpp:744
+#: SessionController.cpp:760
 #, kde-format
 msgid "&Kill Task"
 msgstr ""
 
-#: SessionController.cpp:749
+#: SessionController.cpp:765
 #, kde-format
 msgid "User Signal &1"
 msgstr ""
 
-#: SessionController.cpp:754
+#: SessionController.cpp:770
 #, kde-format
 msgid "User Signal &2"
 msgstr ""
 
-#: SessionController.cpp:868
+#: SessionController.cpp:884
 #, kde-format
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
@@ -2760,7 +2765,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:871
+#: SessionController.cpp:887
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -2769,12 +2774,12 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:875 SessionController.cpp:902
+#: SessionController.cpp:891 SessionController.cpp:918
 #, kde-format
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: SessionController.cpp:895
+#: SessionController.cpp:911
 #, fuzzy, kde-format
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2786,7 +2791,7 @@ msgstr ""
 "বর্তমান সেশানে একটি প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ করতে "
 "ইচ্ছুক?"
 
-#: SessionController.cpp:898
+#: SessionController.cpp:914
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2798,18 +2803,18 @@ msgstr ""
 "বর্তমান সেশানে একটি '%1' প্রোগ্রাম এই মুহূর্তে চলছে।  আপনি কি নিশ্চিতরূপে এটি বন্ধ "
 "করতে ইচ্ছুক?"
 
-#: SessionController.cpp:1437
+#: SessionController.cpp:1453
 #, fuzzy, kde-format
 #| msgid "Shell"
 msgid "Print Shell"
 msgstr "Shell"
 
-#: SessionController.cpp:1643
+#: SessionController.cpp:1676
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1653
+#: SessionController.cpp:1686
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2817,35 +2822,35 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1665
+#: SessionController.cpp:1698
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1676
+#: SessionController.cpp:1709
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1682
+#: SessionController.cpp:1715
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1743
+#: SessionController.cpp:1776
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1755
+#: SessionController.cpp:1788
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1831
+#: SessionController.cpp:1864
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -3474,20 +3479,20 @@ msgstr "মাপ: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:3084
+#: TerminalDisplay.cpp:3088
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:3087
+#: TerminalDisplay.cpp:3091
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:3294
+#: TerminalDisplay.cpp:3299
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
@@ -3496,58 +3501,58 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3600
+#: TerminalDisplay.cpp:3621
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3617
+#: TerminalDisplay.cpp:3638
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: ViewContainer.cpp:306
+#: ViewContainer.cpp:317
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr ""
 
-#: ViewContainer.cpp:311
+#: ViewContainer.cpp:322
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "ট্যাবের নাম পরিবর্তন করুন...(&R)"
 
-#: ViewContainer.cpp:317
+#: ViewContainer.cpp:328
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: ViewContainer.cpp:324
+#: ViewContainer.cpp:335
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Create new tab"
 msgstr ""
 
-#: ViewContainer.cpp:326
+#: ViewContainer.cpp:337
 #, fuzzy, kde-format
 #| msgid "Create a new profile based upon the selected profile"
 msgctxt "@info:whatsthis"
 msgid "Create a new tab. Press and hold to select profile from menu"
 msgstr "নির্বাচিত প্রোফাইলের উপর ভিত্তি করে একটি নতুন প্রোফাইল নির্বাচন করুন"
 
-#: ViewContainer.cpp:340
+#: ViewContainer.cpp:351
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: ViewContainer.cpp:341
+#: ViewContainer.cpp:352
 #, fuzzy, kde-format
 #| msgid "Close the search bar"
 msgctxt "@info:whatsthis"
