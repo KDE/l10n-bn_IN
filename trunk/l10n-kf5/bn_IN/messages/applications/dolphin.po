@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-14 03:16+0200\n"
+"POT-Creation-Date: 2018-04-23 03:25+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -39,19 +39,19 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "পুনরুদ্ধার"
 
-#: dolphincontextmenu.cpp:212 dolphinmainwindow.cpp:1065
-#, kde-format
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "নতুন তৈরি করুন"
-
-#: dolphincontextmenu.cpp:225
+#: dolphincontextmenu.cpp:212
 #, kde-format
 msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
 msgstr "প্লেসেসে এ্যাড করা হবে"
 
-#: dolphincontextmenu.cpp:232
+#: dolphincontextmenu.cpp:228 dolphinmainwindow.cpp:1065
+#, kde-format
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "নতুন তৈরি করুন"
+
+#: dolphincontextmenu.cpp:236
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -59,19 +59,19 @@ msgctxt "@action:inmenu"
 msgid "Open Path"
 msgstr "পেস্ট"
 
-#: dolphincontextmenu.cpp:238
+#: dolphincontextmenu.cpp:242
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Path in New Window"
 msgstr ""
 
-#: dolphincontextmenu.cpp:244
+#: dolphincontextmenu.cpp:248
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Path in New Tab"
 msgstr ""
 
-#: dolphincontextmenu.cpp:336
+#: dolphincontextmenu.cpp:355
 #, kde-format
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
