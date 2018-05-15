@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-01 03:37+0100\n"
+"POT-Creation-Date: 2018-05-15 03:42+0200\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -130,7 +130,7 @@ msgstr "উদাহরণ, ssh -l root remote.host.org ksysguardd"
 msgid "KDE System Monitor"
 msgstr "KDE সিস্টেমে মনিটর"
 
-#: ksysguard.cpp:162 ksysguard.cpp:537
+#: ksysguard.cpp:162 ksysguard.cpp:553
 #, kde-format
 msgid "System Monitor"
 msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
@@ -181,107 +181,141 @@ msgstr "নতুন ট্যাব ডাউনলোড করুন...(&D)"
 msgid "Tab &Properties"
 msgstr "ট্যাব সংক্রান্ত বৈশিষ্ট্য (&P)"
 
-#: ksysguard.cpp:367
+#: ksysguard.cpp:368
 #, fuzzy, kde-format
 #| msgid " 1 process "
 #| msgid_plural " %1 processes "
-msgid "1 process1"
-msgid_plural "%1 processes%1"
+msgid "1 process"
+msgid_plural "%1 processes"
 msgstr[0] " একটি প্রসেস"
 msgstr[1] " %1-টি প্রসেস"
 
-#: ksysguard.cpp:446
+#: ksysguard.cpp:449
 #, fuzzy, kde-format
 #| msgid " CPU: %1% "
-msgid "CPU: %1%%1%"
+msgid "CPU: %1%"
 msgstr " CPU: %1% "
 
-#: ksysguard.cpp:461
-#, kde-format
+#: ksysguard.cpp:449
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgctxt "This is the shorter version of CPU: %1%"
+msgid "%1%"
+msgstr "%"
+
+#: ksysguard.cpp:468
+#, fuzzy, kde-format
+#| msgctxt "Arguments are formatted byte sizes (used/total)"
+#| msgid " Memory: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
+msgid "Memory: %1 / %2"
+msgstr " মেমরি: %1 / %2 "
+
+#: ksysguard.cpp:470
+#, fuzzy, kde-format
+#| msgctxt "Arguments are formatted byte sizes (used/total)"
+#| msgid " Memory: %1 / %2 "
+msgctxt ""
+"Arguments are formatted byte sizes (used/total) This should be a shorter "
+"version of the previous Memory: %1 / %2"
+msgid "Mem: %1 / %2"
+msgstr " মেমরি: %1 / %2 "
+
+#: ksysguard.cpp:472
+#, kde-format
+msgctxt ""
+"Arguments is formatted byte sizes (used) This should be a shorter version of "
+"the previous Mem: %1 / %2"
+msgid "Mem: %1"
 msgstr ""
 
-#: ksysguard.cpp:488
+#: ksysguard.cpp:500
 #, kde-format
 msgid " No swap space available "
 msgstr " swap-র কোনো স্থান উপলব্ধ নেই "
 
-#: ksysguard.cpp:490
+#: ksysguard.cpp:504
 #, fuzzy, kde-format
 #| msgctxt "Arguments are formatted byte sizes (used/total)"
 #| msgid " Swap: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Swap: %1 / %2Swap: %1%1"
+msgid "Swap: %1 / %2"
 msgstr " Swap: %1 / %2 "
 
-#: ksysguard.cpp:539
+#: ksysguard.cpp:506
+#, kde-format
+msgctxt "Arguments is formatted byte sizes (used)"
+msgid "Swap: %1"
+msgstr ""
+
+#: ksysguard.cpp:555
 #, fuzzy, kde-format
 #| msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgid "(c) 1996-2016 The KDE System Monitor Developers"
 msgstr "(c) ১৯৯৬-২০০৮ KDE System Monitor নির্মাতাবৃন্দ"
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:557
 #, kde-format
 msgid "John Tapsell"
 msgstr "জন ট্যাপসেল"
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:557
 #, kde-format
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইনটেনার"
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:558
 #, kde-format
 msgid "Chris Schlaeger"
 msgstr "ক্রিস স্খলেগার"
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:558
 #, kde-format
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী মেইনটেনার"
 
-#: ksysguard.cpp:543
+#: ksysguard.cpp:559
 #, kde-format
 msgid "Greg Martyn"
 msgstr "গ্রেগ মার্টিন"
 
-#: ksysguard.cpp:544
+#: ksysguard.cpp:560
 #, kde-format
 msgid "Tobias Koenig"
 msgstr "টোবিয়াস কোনিগ"
 
-#: ksysguard.cpp:545
+#: ksysguard.cpp:561
 #, kde-format
 msgid "Nicolas Leclercq"
 msgstr "নিকোলাস লেকলার্ক"
 
-#: ksysguard.cpp:546
+#: ksysguard.cpp:562
 #, kde-format
 msgid "Alex Sanda"
 msgstr "অ্যালেক্স স্যান্ড্রা"
 
-#: ksysguard.cpp:547
+#: ksysguard.cpp:563
 #, kde-format
 msgid "Bernd Johannes Wuebben"
 msgstr "বার্নড জোহানেস উইবেন"
 
-#: ksysguard.cpp:548
+#: ksysguard.cpp:564
 #, kde-format
 msgid "Ralf Mueller"
 msgstr "রাল্ফ মুলার"
 
-#: ksysguard.cpp:549
+#: ksysguard.cpp:565
 #, kde-format
 msgid "Hamish Rodda"
 msgstr "হামিশ রোড্ডা"
 
-#: ksysguard.cpp:550
+#: ksysguard.cpp:566
 #, kde-format
 msgid "Torsten Kasch"
 msgstr "টোর্সটেন কাশখ"
 
-#: ksysguard.cpp:550
+#: ksysguard.cpp:566
 #, kde-format
 msgid ""
 "Solaris Support\n"
@@ -289,7 +323,7 @@ msgid ""
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
 
-#: ksysguard.cpp:559
+#: ksysguard.cpp:575
 #, kde-format
 msgid "Optional worksheet files to load"
 msgstr "লোড করার জন্য চিহ্নিত ঐচ্ছিক ওয়ার্ক-শিট"
@@ -581,7 +615,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:597
 #, kde-format
-msgid "%1 of %2%1"
+msgid "%1 of %2"
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:625
@@ -1832,10 +1866,6 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 #~ msgstr[0] " sec"
 #~ msgstr[1] " sec"
 
-#~ msgctxt "Arguments are formatted byte sizes (used/total)"
-#~ msgid " Memory: %1 / %2 "
-#~ msgstr " মেমরি: %1 / %2 "
-
 #~ msgid "Font:"
 #~ msgstr "ফন্ট:"
 
@@ -1853,13 +1883,6 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
 #~ msgid "&Edit"
 #~ msgstr "সম্পাদনা (&E)"
-
-#, fuzzy
-#~| msgctxt "a percentage"
-#~| msgid "%"
-#~ msgctxt "units in percentage"
-#~ msgid "%1%"
-#~ msgstr "%"
 
 #~ msgid "Connection to %1 has been lost."
 #~ msgstr "%1-র সাথে সংযোগ বিচ্ছিন্ন হয়েছে।"
