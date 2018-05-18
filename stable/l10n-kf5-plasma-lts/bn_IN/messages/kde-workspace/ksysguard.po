@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-09 08:01+0100\n"
+"POT-Creation-Date: 2018-03-02 06:09+0100\n"
 "PO-Revision-Date: 2008-12-29 16:30+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -941,7 +941,7 @@ msgstr "মুছে ফেলুন (&D)"
 msgid "&Change"
 msgstr "পরিবর্তন (&C)"
 
-#: SensorDisplayLib/MultiMeterSettings.cpp:32
+#: SensorDisplayLib/MultiMeterSettings.cpp:33
 #, kde-format
 msgctxt ""
 "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
@@ -1331,12 +1331,12 @@ msgstr ""
 msgid "Enter the title of the worksheet here."
 msgstr "ওয়ার্ক-শিটের শিরোনাম লিখুন।"
 
-#: Workspace.cpp:110
+#: Workspace.cpp:111
 #, kde-format
 msgid "Sheet %1"
 msgstr "শিট %1"
 
-#: Workspace.cpp:169
+#: Workspace.cpp:170
 #, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
@@ -1345,36 +1345,35 @@ msgstr ""
 "ট্যাব '%1'-র মধ্যে পরিবর্তিত তথ্য উপস্থিত রয়েছে।\n"
 "ট্যাব সংরক্ষণ করা হবে কি?"
 
-#: Workspace.cpp:185
+#: Workspace.cpp:186
 #, kde-format
 msgid "Select Tab File to Import"
 msgstr ""
 
-#: Workspace.cpp:207 Workspace.cpp:227
+#: Workspace.cpp:208 Workspace.cpp:228
 #, kde-format
 msgid "You do not have a tab that could be saved."
 msgstr "সংরক্ষণ করার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
 
-#: Workspace.cpp:234
+#: Workspace.cpp:235
 #, kde-format
 msgid "Export Tab"
 msgstr ""
 
-#: Workspace.cpp:254
+#: Workspace.cpp:255
 #, kde-format
 msgid "There are no tabs that could be deleted."
 msgstr "মুছে ফেলার যোগ্য কোনো ট্যাব উপস্থিত নেই।"
 
-#: Workspace.cpp:294
-#, kde-format
+#: Workspace.cpp:299
+#, kde-kuit-format
+msgctxt "@info"
 msgid ""
-"<qt>To propose the current custom tab as a new System Monitor tab, email "
-"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
-"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
-"qt>"
+"<para>You can publish your custom tab on the <link url='%1'>KDE Store</link> "
+"in the <icode>%2</icode> category.</para><para><filename>%3</filename></para>"
 msgstr ""
 
-#: Workspace.cpp:294
+#: Workspace.cpp:304
 #, fuzzy, kde-format
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
