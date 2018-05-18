@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-16 05:38+0100\n"
+"POT-Creation-Date: 2018-02-06 03:29+0100\n"
 "PO-Revision-Date: 2008-10-22 19:48+0530\n"
 "Last-Translator: Ria Das <mailtoria@gmail.com>\n"
 "Language-Team: Bengali (India) <discuss@ankur.co.in>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ksysguardprocesslist.cpp:201 ksysguardprocesslist.cpp:458
+#: ksysguardprocesslist.cpp:202 ksysguardprocesslist.cpp:459
 #, fuzzy, kde-format
 #| msgid "Low Priority"
 msgid "Set Priority..."
@@ -27,27 +27,27 @@ msgid_plural "Set Priority..."
 msgstr[0] "নিম্ন পরিমাণ গুরুত্ব"
 msgstr[1] "নিম্ন পরিমাণ গুরুত্ব"
 
-#: ksysguardprocesslist.cpp:203 ksysguardprocesslist.cpp:551
+#: ksysguardprocesslist.cpp:204 ksysguardprocesslist.cpp:552
 #, kde-format
 msgid "Jump to Parent Process"
 msgstr "ঊর্ধ্বতন প্রসেসে এগিয়ে চলুন"
 
-#: ksysguardprocesslist.cpp:205
+#: ksysguardprocesslist.cpp:206
 #, kde-format
 msgid "Jump to Process Debugging This One"
 msgstr "এটি ডিবাগ করে প্রসেসে এগিয়ে চলুন"
 
-#: ksysguardprocesslist.cpp:206
+#: ksysguardprocesslist.cpp:207
 #, kde-format
 msgid "Show Application Window"
 msgstr "অ্যাপ্লিকেশন উইন্ডো প্রদর্শিত হবে"
 
-#: ksysguardprocesslist.cpp:207
+#: ksysguardprocesslist.cpp:208
 #, kde-format
 msgid "Resume Stopped Process"
 msgstr "স্থগিত প্রসেস পুনরায় আরম্ভ করা হবে"
 
-#: ksysguardprocesslist.cpp:208
+#: ksysguardprocesslist.cpp:209
 #, fuzzy, kde-format
 #| msgid "Own Processes"
 msgid "End Process"
@@ -55,7 +55,7 @@ msgid_plural "End Processes"
 msgstr[0] "নিজস্ব প্রসেস"
 msgstr[1] "নিজস্ব প্রসেস"
 
-#: ksysguardprocesslist.cpp:211 ksysguardprocesslist.cpp:459
+#: ksysguardprocesslist.cpp:212 ksysguardprocesslist.cpp:460
 #, fuzzy, kde-format
 #| msgid "Kill Process"
 #| msgid_plural "Kill Processes"
@@ -64,53 +64,53 @@ msgid_plural "Forcibly Kill Processes"
 msgstr[0] "প্রসেস kill করা হবে"
 msgstr[1] "প্রসেস kill করা হবে"
 
-#: ksysguardprocesslist.cpp:215
+#: ksysguardprocesslist.cpp:216
 #, kde-format
 msgid "Suspend (STOP)"
 msgstr "Suspend (STOP)"
 
-#: ksysguardprocesslist.cpp:216
+#: ksysguardprocesslist.cpp:217
 #, kde-format
 msgid "Continue (CONT)"
 msgstr "Continue (CONT)"
 
-#: ksysguardprocesslist.cpp:217
+#: ksysguardprocesslist.cpp:218
 #, kde-format
 msgid "Hangup (HUP)"
 msgstr "Hangup (HUP)"
 
-#: ksysguardprocesslist.cpp:218
+#: ksysguardprocesslist.cpp:219
 #, kde-format
 msgid "Interrupt (INT)"
 msgstr "Interrupt (INT)"
 
-#: ksysguardprocesslist.cpp:219
+#: ksysguardprocesslist.cpp:220
 #, kde-format
 msgid "Terminate (TERM)"
 msgstr "Terminate (TERM)"
 
-#: ksysguardprocesslist.cpp:220
+#: ksysguardprocesslist.cpp:221
 #, kde-format
 msgid "Kill (KILL)"
 msgstr "Kill (KILL)"
 
-#: ksysguardprocesslist.cpp:221
+#: ksysguardprocesslist.cpp:222
 #, kde-format
 msgid "User 1 (USR1)"
 msgstr "ইউসার ১ (USR1)"
 
-#: ksysguardprocesslist.cpp:222
+#: ksysguardprocesslist.cpp:223
 #, kde-format
 msgid "User 2 (USR2)"
 msgstr "ইউসার ২ (USR2)"
 
-#: ksysguardprocesslist.cpp:225
+#: ksysguardprocesslist.cpp:226
 #, fuzzy, kde-format
 #| msgid "Quick search"
 msgid "Focus on Quick Search"
 msgstr "দ্রুত অনুসন্ধান"
 
-#: ksysguardprocesslist.cpp:380
+#: ksysguardprocesslist.cpp:381
 #, kde-format
 msgid ""
 "<qt>End the selected process. Warning - you may lose unsaved work.<br>Right "
@@ -119,7 +119,7 @@ msgid ""
 "any time."
 msgstr ""
 
-#: ksysguardprocesslist.cpp:460
+#: ksysguardprocesslist.cpp:461
 #, fuzzy, kde-format
 #| msgid "Own Processes"
 msgctxt "Context menu"
@@ -128,115 +128,115 @@ msgid_plural "End Processes"
 msgstr[0] "নিজস্ব প্রসেস"
 msgstr[1] "নিজস্ব প্রসেস"
 
-#: ksysguardprocesslist.cpp:496
+#: ksysguardprocesslist.cpp:497
 #, kde-format
 msgid "Send Signal"
 msgstr "সিগনাল পাঠানো হবে"
 
-#: ksysguardprocesslist.cpp:514
+#: ksysguardprocesslist.cpp:515
 #, kde-format
 msgid "Jump to Parent Process (%1)"
 msgstr "ঊর্ধ্বতন প্রসেসে চলুন (%1)"
 
-#: ksysguardprocesslist.cpp:652
+#: ksysguardprocesslist.cpp:653
 #, kde-format
 msgid "Hide Column '%1'"
 msgstr "কলাম '%1' আড়াল করা হবে"
 
-#: ksysguardprocesslist.cpp:668
+#: ksysguardprocesslist.cpp:669
 #, kde-format
 msgid "Show Column '%1'"
 msgstr "কলাম প্রদর্শিত হবে '%1'"
 
-#: ksysguardprocesslist.cpp:696
+#: ksysguardprocesslist.cpp:697
 #, kde-format
 msgid "Display Units"
 msgstr "ইউনিটগুলি প্রদর্শিত হবে"
 
-#: ksysguardprocesslist.cpp:700
+#: ksysguardprocesslist.cpp:701
 #, kde-format
 msgid "Mixed"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:706
+#: ksysguardprocesslist.cpp:707
 #, fuzzy, kde-format
 #| msgid "Kilobytes"
 msgid "Kilobytes per second"
 msgstr "কিলোবাইট"
 
-#: ksysguardprocesslist.cpp:706
+#: ksysguardprocesslist.cpp:707
 #, kde-format
 msgid "Kilobytes"
 msgstr "কিলোবাইট"
 
-#: ksysguardprocesslist.cpp:712
+#: ksysguardprocesslist.cpp:713
 #, fuzzy, kde-format
 #| msgid "Megabytes"
 msgid "Megabytes per second"
 msgstr "মেগাবাইট"
 
-#: ksysguardprocesslist.cpp:712
+#: ksysguardprocesslist.cpp:713
 #, kde-format
 msgid "Megabytes"
 msgstr "মেগাবাইট"
 
-#: ksysguardprocesslist.cpp:718
+#: ksysguardprocesslist.cpp:719
 #, fuzzy, kde-format
 #| msgid "Gigabytes"
 msgid "Gigabytes per second"
 msgstr "গিগাবাইট"
 
-#: ksysguardprocesslist.cpp:718
+#: ksysguardprocesslist.cpp:719
 #, kde-format
 msgid "Gigabytes"
 msgstr "গিগাবাইট"
 
-#: ksysguardprocesslist.cpp:727
+#: ksysguardprocesslist.cpp:728
 #, kde-format
 msgid "Percentage"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:756
+#: ksysguardprocesslist.cpp:757
 #, kde-format
 msgid "Display command line options"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:763
+#: ksysguardprocesslist.cpp:764
 #, kde-format
 msgid "Divide CPU usage by number of CPUs"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:770
+#: ksysguardprocesslist.cpp:771
 #, kde-format
 msgid "Displayed Information"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:773
+#: ksysguardprocesslist.cpp:774
 #, kde-format
 msgid "Characters read/written"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:778
+#: ksysguardprocesslist.cpp:779
 #, kde-format
 msgid "Number of Read/Write operations"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:783
+#: ksysguardprocesslist.cpp:784
 #, kde-format
 msgid "Bytes actually read/written"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:789
+#: ksysguardprocesslist.cpp:790
 #, kde-format
 msgid "Show I/O rate"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:816
+#: ksysguardprocesslist.cpp:817
 #, kde-format
 msgid "Show Tooltips"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1077
+#: ksysguardprocesslist.cpp:1078
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -248,12 +248,12 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1105 ksysguardprocesslist.cpp:1330
+#: ksysguardprocesslist.cpp:1106 ksysguardprocesslist.cpp:1331
 #, kde-format
 msgid "You must select a process first."
 msgstr "প্রথমে একটি প্রসেস নির্বাচন করুন।"
 
-#: ksysguardprocesslist.cpp:1241
+#: ksysguardprocesslist.cpp:1242
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -265,7 +265,7 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1271
+#: ksysguardprocesslist.cpp:1272
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -277,7 +277,7 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1301
+#: ksysguardprocesslist.cpp:1302
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have the permission to kill the process and there was a "
@@ -289,7 +289,7 @@ msgstr ""
 "প্রসেসটি kill করার জন্য পর্যাপ্ত অনুমতি আপনার নেই এবং root পরিচয়ে এই কাজের "
 "প্রচেষ্টা করতে সমস্যা দেখা দিয়েছে।"
 
-#: ksysguardprocesslist.cpp:1339
+#: ksysguardprocesslist.cpp:1340
 #, fuzzy, kde-format
 #| msgid "Do you want to kill the selected process?"
 #| msgid_plural "Do you want to kill the %1 selected processes?"
@@ -301,7 +301,7 @@ msgid_plural ""
 msgstr[0] "আপনি কি নির্বাচিত প্রসেসটি kill করতে ইচ্ছুক?"
 msgstr[1] "আপনি কি %1-টি নির্বাচিত প্রসেসগুলি kill করতে ইচ্ছুক?"
 
-#: ksysguardprocesslist.cpp:1342
+#: ksysguardprocesslist.cpp:1343
 #, fuzzy, kde-format
 #| msgid "Own Processes"
 msgctxt "Dialog title"
@@ -310,12 +310,12 @@ msgid_plural "End %1 Processes"
 msgstr[0] "নিজস্ব প্রসেস"
 msgstr[1] "নিজস্ব প্রসেস"
 
-#: ksysguardprocesslist.cpp:1344
+#: ksysguardprocesslist.cpp:1345
 #, kde-format
 msgid "End"
 msgstr ""
 
-#: ksysguardprocesslist.cpp:1346
+#: ksysguardprocesslist.cpp:1347
 #, fuzzy, kde-format
 #| msgid "Do you want to kill the selected process?"
 #| msgid_plural "Do you want to kill the %1 selected processes?"
@@ -328,7 +328,7 @@ msgid_plural ""
 msgstr[0] "আপনি কি নির্বাচিত প্রসেসটি kill করতে ইচ্ছুক?"
 msgstr[1] "আপনি কি %1-টি নির্বাচিত প্রসেসগুলি kill করতে ইচ্ছুক?"
 
-#: ksysguardprocesslist.cpp:1349
+#: ksysguardprocesslist.cpp:1350
 #, fuzzy, kde-format
 #| msgid "Kill Process"
 #| msgid_plural "Kill Processes"
@@ -338,7 +338,7 @@ msgid_plural "Forcibly Kill %1 Processes"
 msgstr[0] "প্রসেস kill করা হবে"
 msgstr[1] "প্রসেস kill করা হবে"
 
-#: ksysguardprocesslist.cpp:1351
+#: ksysguardprocesslist.cpp:1352
 #, kde-format
 msgid "Kill"
 msgstr "Kill করুন"
@@ -1331,7 +1331,7 @@ msgstr "শুধুমাত্র প্রোগ্রাম"
 msgid "Set Priority"
 msgstr "নিম্ন পরিমাণ গুরুত্ব"
 
-#: ReniceDlg.cpp:80
+#: ReniceDlg.cpp:79
 #, kde-format
 msgctxt "Scheduler"
 msgid "Interactive"
