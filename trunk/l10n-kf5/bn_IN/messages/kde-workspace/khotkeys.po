@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-17 03:42+0200\n"
+"POT-Creation-Date: 2018-05-23 03:51+0200\n"
 "PO-Revision-Date: 2009-01-12 18:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -686,18 +686,18 @@ msgstr "মেইন্টেনার"
 #| "The current action has unsaved changes. If you continue those changes "
 #| "will be lost!"
 msgid ""
-"The current action has unsaved changes. If you continue these changes will "
-"be lost."
+"The current action has unsaved changes.\n"
+"Do you want to apply the changes or discard them?"
 msgstr ""
 "বর্তমান কর্মের ফলে হওয়া কিছু পরিবর্তন এখনো সংরক্ষণ করা হয়নি। এগিয়ে গেলে এই সমস্ত "
 "পরিবর্তনগুলি হারিয়ে যাবে!"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:333
+#: kcm_hotkeys/kcm_hotkeys.cpp:334
 #, kde-format
 msgid "Save changes"
 msgstr "পরিবর্তন সংরক্ষণ করা হবে"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:368 kcm_hotkeys/kcm_hotkeys.cpp:415
+#: kcm_hotkeys/kcm_hotkeys.cpp:380 kcm_hotkeys/kcm_hotkeys.cpp:427
 #, kde-format
 msgid ""
 "Unable to contact khotkeys. Your changes are saved, but they could not be "
