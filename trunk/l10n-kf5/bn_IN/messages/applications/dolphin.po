@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-03 03:23+0200\n"
+"POT-Creation-Date: 2018-06-04 03:23+0200\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -632,20 +632,20 @@ msgstr "অাবর্জনার বাক্স খালি করা হ�
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:397 search/dolphinsearchbox.cpp:307
+#: dolphinviewcontainer.cpp:392 search/dolphinsearchbox.cpp:307
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Search Toolbar"
 msgid "Search for %1 in %2"
 msgstr "অনুসন্ধান টুলবার"
 
-#: dolphinviewcontainer.cpp:467
+#: dolphinviewcontainer.cpp:462
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ফোল্ডার খোলা হচ্ছে..."
 
-#: dolphinviewcontainer.cpp:475
+#: dolphinviewcontainer.cpp:470
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -653,7 +653,7 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:486
+#: dolphinviewcontainer.cpp:481
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -661,25 +661,25 @@ msgctxt "@info"
 msgid "Searching..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:506
+#: dolphinviewcontainer.cpp:501
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:613
+#: dolphinviewcontainer.cpp:608
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:627
+#: dolphinviewcontainer.cpp:622
 #, kde-format
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:635
+#: dolphinviewcontainer.cpp:630
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
@@ -3178,13 +3178,13 @@ msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "অধিক তথ্য"
 
-#: statusbar/statusbarspaceinfo.cpp:95
+#: statusbar/statusbarspaceinfo.cpp:93
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "অজানা পরিমান"
 
-#: statusbar/statusbarspaceinfo.cpp:103
+#: statusbar/statusbarspaceinfo.cpp:101
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
