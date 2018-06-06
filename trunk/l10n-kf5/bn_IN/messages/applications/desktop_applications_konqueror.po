@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-14 01:54+0000\n"
+"POT-Creation-Date: 2018-06-06 01:51+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -74,7 +74,7 @@ msgctxt "Name"
 msgid "Konqueror Feed Icon"
 msgstr "Konqueror উইন্ডো"
 
-#: plugins/akregator/akregator_konqfeedicon.desktop:64
+#: plugins/akregator/akregator_konqfeedicon.desktop:65
 msgctxt "Comment"
 msgid "Displays an icon in the status bar if the page contains a feed"
 msgstr ""
@@ -84,7 +84,7 @@ msgctxt "Name"
 msgid "Add Feed to Akregator"
 msgstr ""
 
-#: plugins/akregator/akregator_konqplugin.desktop:72
+#: plugins/akregator/akregator_konqplugin.desktop:73
 msgctxt "Comment"
 msgid "Adds selected feed to Akregator"
 msgstr ""
@@ -97,7 +97,7 @@ msgctxt "Name"
 msgid "Auto Refresh"
 msgstr "X Refresh"
 
-#: plugins/autorefresh/autorefresh.desktop:71
+#: plugins/autorefresh/autorefresh.desktop:72
 msgctxt "Comment"
 msgid "Auto Refresh plugin"
 msgstr ""
@@ -136,7 +136,7 @@ msgctxt "Name"
 msgid "DOM Tree Viewer"
 msgstr "ছবি প্রদর্শন ব্যবস্থা"
 
-#: plugins/domtreeviewer/plugin_domtreeviewer.desktop:74
+#: plugins/domtreeviewer/plugin_domtreeviewer.desktop:75
 msgctxt "Comment"
 msgid "View the DOM tree of the current page"
 msgstr ""
@@ -215,7 +215,7 @@ msgctxt "Name"
 msgid "Flip Vertically"
 msgstr ""
 
-#: plugins/imagerotation/jpegorient.desktop:288
+#: plugins/imagerotation/jpegorient.desktop:289
 msgctxt "Name"
 msgid "Flip Horizontally"
 msgstr ""
@@ -228,7 +228,7 @@ msgctxt "Name"
 msgid "KHTML Settings"
 msgstr "বিবিধ বৈশিষ্ট্য"
 
-#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop:74
+#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop:75
 msgctxt "Comment"
 msgid "A fast way to change the KHTML settings"
 msgstr ""
@@ -241,7 +241,7 @@ msgctxt "Name"
 msgid "Image Gallery"
 msgstr "ছবি প্রদর্শনব্যবস্থা"
 
-#: plugins/kimgalleryplugin/kimgalleryplugin.desktop:72
+#: plugins/kimgalleryplugin/kimgalleryplugin.desktop:73
 msgctxt "Comment"
 msgid "An easy way to generate an HTML image gallery"
 msgstr ""
@@ -280,7 +280,7 @@ msgctxt "Name"
 msgid "Document Relations"
 msgstr "KDE API সংক্রান্ত নথিপত্র"
 
-#: plugins/rellinks/plugin_rellinks.desktop:75
+#: plugins/rellinks/plugin_rellinks.desktop:76
 msgctxt "Comment"
 msgid "Displays the document relations of a document"
 msgstr ""
@@ -293,7 +293,7 @@ msgctxt "Name"
 msgid "Search Bar"
 msgstr "PHP অনুসন্ধান"
 
-#: plugins/searchbar/searchbar.desktop:78
+#: plugins/searchbar/searchbar.desktop:79
 msgctxt "Comment"
 msgid "Provides a text box for easier access to search engines like Google."
 msgstr ""
@@ -336,7 +336,7 @@ msgctxt "Name"
 msgid "Website Validators"
 msgstr ""
 
-#: plugins/validators/plugin_validators.desktop:73
+#: plugins/validators/plugin_validators.desktop:74
 msgctxt "Comment"
 msgid "CSS and HTML validation tools"
 msgstr ""
@@ -349,7 +349,7 @@ msgctxt "Name"
 msgid "Web Archiver"
 msgstr "FTP আর্কাইভ"
 
-#: plugins/webarchiver/plugin_webarchiver.desktop:75
+#: plugins/webarchiver/plugin_webarchiver.desktop:76
 msgctxt "Comment"
 msgid "Creates archives of websites"
 msgstr ""
@@ -369,12 +369,12 @@ msgctxt "Name"
 msgid "Bookmarks"
 msgstr "বুকমার্ক"
 
-#: settings/bookmarks/bookmarks.desktop:103
+#: settings/bookmarks/bookmarks.desktop:104
 msgctxt "Comment"
 msgid "Configure the bookmarks home page"
 msgstr ""
 
-#: settings/bookmarks/bookmarks.desktop:180
+#: settings/bookmarks/bookmarks.desktop:182
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Bookmarks"
@@ -389,15 +389,15 @@ msgctxt "Name"
 msgid "Appearance"
 msgstr "চেহারাছবি"
 
-#: settings/konq/fileappearance.desktop:103
-#: settings/konq/webappearance.desktop:104
+#: settings/konq/fileappearance.desktop:104
+#: settings/konq/webappearance.desktop:105
 msgctxt "Comment"
 msgid "You can configure how Konqueror looks as a file manager here"
 msgstr ""
 "ফাইল পরিচালন ব্যবস্থা হিসাবে Konqueror-র চেহারাছবি এইখানে কনফিগার করা যাবে"
 
-#: settings/konq/fileappearance.desktop:195
-#: settings/konq/webappearance.desktop:196
+#: settings/konq/fileappearance.desktop:197
+#: settings/konq/webappearance.desktop:198
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,filemanager,word wrap,wrap,underline,display,filesize,bytes,font,"
@@ -409,12 +409,12 @@ msgctxt "Name"
 msgid "Behavior"
 msgstr "আচরণ"
 
-#: settings/konq/filebehavior.desktop:104 settings/konq/webbehavior.desktop:105
+#: settings/konq/filebehavior.desktop:105 settings/konq/webbehavior.desktop:106
 msgctxt "Comment"
 msgid "You can configure how Konqueror behaves as a file manager here"
 msgstr "ফাইল পরিচালন ব্যবস্থা হিসাবে Konqueror-র আচরণ এইখানে কনফিগার করা যাবে"
 
-#: settings/konq/filebehavior.desktop:196
+#: settings/konq/filebehavior.desktop:198
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
@@ -432,12 +432,12 @@ msgctxt "Comment"
 msgid "Configure the stylesheets used to render web pages"
 msgstr "ওয়েব পেজ রেন্ডার করতে ব্যবহৃত স্টাইল-শিট কনফিগার করুন"
 
-#: settings/konqhtml/css/kcmcss.desktop:196
+#: settings/konqhtml/css/kcmcss.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "CSS,HTML,style,stylesheet,accessibility"
 msgstr ""
 
-#: settings/konqhtml/khtml_appearance.desktop:106
+#: settings/konqhtml/khtml_appearance.desktop:107
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the fonts used on web pages"
@@ -445,7 +445,7 @@ msgctxt "Comment"
 msgid "Configure how to display web pages"
 msgstr "ওয়েব পেজে ব্যবহৃত ফন্ট কনফিগার করুন"
 
-#: settings/konqhtml/khtml_appearance.desktop:176
+#: settings/konqhtml/khtml_appearance.desktop:178
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,kfm,browser,html,web,www,fonts,charsets,character sets,encoding"
@@ -461,7 +461,7 @@ msgctxt "Comment"
 msgid "Configure the browser behavior"
 msgstr "ব্রাউজারের আচরণ কনফিগার করুন"
 
-#: settings/konqhtml/khtml_behavior.desktop:192
+#: settings/konqhtml/khtml_behavior.desktop:193
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,kfm,browser,html,web,www,fonts,colours,colors,java,javascript,"
@@ -492,7 +492,7 @@ msgctxt "Comment"
 msgid "Configure general Konqueror behavior"
 msgstr "Konqueror-র সাধারণ আচরণ কনফিগার করুন"
 
-#: settings/konqhtml/khtml_general.desktop:163
+#: settings/konqhtml/khtml_general.desktop:164
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Konqueror"
@@ -510,12 +510,12 @@ msgctxt "Comment"
 msgid "Configure the behavior of Java and JavaScript"
 msgstr "Java ও JavaScript-র আচরণ কনফিগার করুন"
 
-#: settings/konqhtml/khtml_java_js.desktop:196
+#: settings/konqhtml/khtml_java_js.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,java,javascript"
 msgstr ""
 
-#: settings/konq/webbehavior.desktop:197
+#: settings/konq/webbehavior.desktop:199
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
@@ -532,7 +532,7 @@ msgctxt "Comment"
 msgid "Configure settings that can improve Konqueror performance"
 msgstr "Konqueror-র কর্মক্ষমতা বৃদ্ধিকারী বৈশিষ্ট্য কনফিগার করুন"
 
-#: settings/performance/kcmkonqyperformance.desktop:193
+#: settings/performance/kcmkonqyperformance.desktop:194
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "KDED Konqueror Preloader Module"
@@ -545,18 +545,18 @@ msgctxt "Name"
 msgid "KDE Performance"
 msgstr "KDE-র কর্মক্ষমতা"
 
-#: settings/performance/kcmperformance.desktop:101
+#: settings/performance/kcmperformance.desktop:102
 msgctxt "Comment"
 msgid "Configure settings that can improve KDE performance"
 msgstr "KDE-র কর্মক্ষমতা বৃদ্ধিকারী বৈশিষ্ট্য কনফিগার করুন"
 
-#: settings/performance/kcmperformance.desktop:191
+#: settings/performance/kcmperformance.desktop:193
 msgctxt "X-KDE-Keywords"
 msgid "performance,speed,memory,improve"
 msgstr ""
 
-#: sidebar/default_entries/bookmarks.desktop:96
-#: sidebar/trees/init/bookmarks_module.desktop:96
+#: sidebar/default_entries/bookmarks.desktop:97
+#: sidebar/trees/init/bookmarks_module.desktop:97
 msgctxt "Comment"
 msgid "This is the list of your bookmarks, for a faster access"
 msgstr "দ্রুত ব্যবহারের সুবিধা উপলব্ধকারী বুকমার্কের তালিকা"
@@ -579,7 +579,7 @@ msgctxt "Name"
 msgid "Home Folder"
 msgstr "ব্যক্তিগত ফোল্ডার"
 
-#: sidebar/default_entries/home.desktop:96
+#: sidebar/default_entries/home.desktop:97
 msgctxt "Comment"
 msgid "This folder contains your personal files"
 msgstr "এই ফোল্ডারের মধ্যে ব্যবহারকারীর ব্যক্তিগত ফাইল সংরক্ষিত হয়"
@@ -608,7 +608,7 @@ msgctxt "Name"
 msgid "Root Folder"
 msgstr "Root ফোল্ডার"
 
-#: sidebar/default_entries/root.desktop:95
+#: sidebar/default_entries/root.desktop:96
 msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "এই ফোল্ডারটি ফাইল-সিস্টেমের root অর্থাৎ মূল"
@@ -624,7 +624,7 @@ msgctxt "Comment"
 msgid "Configure the history sidebar"
 msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার কনফিগার করুন"
 
-#: sidebar/history_module/kcmhistory.desktop:193
+#: sidebar/history_module/kcmhistory.desktop:194
 msgctxt "X-KDE-Keywords"
 msgid "history,expire"
 msgstr ""
@@ -719,7 +719,7 @@ msgctxt "Comment"
 msgid "Embeddable HTML component"
 msgstr ""
 
-#: webenginepart/src/webenginepart.desktop:41
+#: webenginepart/src/webenginepart.desktop:42
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Search Engine"
