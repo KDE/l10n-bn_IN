@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-10 03:23+0200\n"
+"POT-Creation-Date: 2018-06-15 03:29+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2270,7 +2270,7 @@ msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:613
+#: MainWindow.cpp:599
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2283,28 +2283,28 @@ msgstr[0] ""
 msgstr[1] ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:619 MainWindow.cpp:634
+#: MainWindow.cpp:605 MainWindow.cpp:620
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: MainWindow.cpp:621 MainWindow.cpp:635
+#: MainWindow.cpp:607 MainWindow.cpp:621
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:624 MainWindow.cpp:638
+#: MainWindow.cpp:610 MainWindow.cpp:624
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: MainWindow.cpp:631
+#: MainWindow.cpp:617
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2313,34 +2313,34 @@ msgid "There are %1 open tabs in this window. Do you still want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:741
+#: MainWindow.cpp:727
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "সাধারণ"
 
-#: MainWindow.cpp:747 Part.cpp:290
+#: MainWindow.cpp:733 Part.cpp:283
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "নতুন প্রোফাইল"
 
-#: MainWindow.cpp:752
+#: MainWindow.cpp:738
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
 
-#: MainWindow.cpp:757
+#: MainWindow.cpp:743
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@title Preferences page name"
 msgid "File Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: Part.cpp:296
+#: Part.cpp:289
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Part Info"
@@ -2381,12 +2381,12 @@ msgstr "ডিফল্ট মান রূপে নির্ধারণ ক�
 msgid "Default profile"
 msgstr "প্রোফাইল মুছে ফেলুন"
 
-#: ProfileManager.cpp:349
+#: ProfileManager.cpp:346
 #, kde-format
 msgid "Konsole does not have permission to save this profile to %1"
 msgstr ""
 
-#: ProfileManager.cpp:387
+#: ProfileManager.cpp:383
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgctxt "The default name of a profile"
@@ -3502,30 +3502,30 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TerminalDisplay.cpp:1416 TerminalDisplay.cpp:1417
+#: TerminalDisplay.cpp:1409 TerminalDisplay.cpp:1410
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1428
+#: TerminalDisplay.cpp:1421
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:3253
+#: TerminalDisplay.cpp:3238
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:3256
+#: TerminalDisplay.cpp:3241
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:3468
+#: TerminalDisplay.cpp:3453
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
@@ -3533,18 +3533,18 @@ msgid ""
 "b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3506
+#: TerminalDisplay.cpp:3491
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3794
+#: TerminalDisplay.cpp:3779
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3811
+#: TerminalDisplay.cpp:3796
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
