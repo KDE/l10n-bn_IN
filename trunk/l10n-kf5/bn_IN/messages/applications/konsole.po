@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-18 03:29+0200\n"
+"POT-Creation-Date: 2018-06-23 03:16+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -2270,7 +2270,7 @@ msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:599
+#: MainWindow.cpp:613
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2283,28 +2283,28 @@ msgstr[0] ""
 msgstr[1] ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:605 MainWindow.cpp:620
+#: MainWindow.cpp:619 MainWindow.cpp:634
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: MainWindow.cpp:607 MainWindow.cpp:621
+#: MainWindow.cpp:621 MainWindow.cpp:635
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:610 MainWindow.cpp:624
+#: MainWindow.cpp:624 MainWindow.cpp:638
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: MainWindow.cpp:617
+#: MainWindow.cpp:631
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2313,34 +2313,34 @@ msgid "There are %1 open tabs in this window. Do you still want to quit?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: MainWindow.cpp:727
+#: MainWindow.cpp:741
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "সাধারণ"
 
-#: MainWindow.cpp:733 Part.cpp:283
+#: MainWindow.cpp:747 Part.cpp:290
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "নতুন প্রোফাইল"
 
-#: MainWindow.cpp:738
+#: MainWindow.cpp:752
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
 
-#: MainWindow.cpp:743
+#: MainWindow.cpp:757
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@title Preferences page name"
 msgid "File Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: Part.cpp:289
+#: Part.cpp:296
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Part Info"
