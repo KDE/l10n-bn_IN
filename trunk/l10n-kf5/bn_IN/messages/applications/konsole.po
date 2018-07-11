@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-05 03:15+0200\n"
+"POT-Creation-Date: 2018-07-11 03:24+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1744,95 +1744,95 @@ msgctxt "@info:tooltip"
 msgid "Enter the text to search for here"
 msgstr "অনুসন্ধানের উদ্দেশ্যে এইখানে তথ্য লিখুন"
 
-#: IncrementalSearchBar.cpp:89
+#: IncrementalSearchBar.cpp:91
 #, fuzzy, kde-format
 #| msgid "Next"
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "পরবর্তী"
 
-#: IncrementalSearchBar.cpp:93
+#: IncrementalSearchBar.cpp:95
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Find the next match for the current search phrase"
 msgstr "চিহ্নিত তথ্যের পরবর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:100
+#: IncrementalSearchBar.cpp:102
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "পূর্ববর্তী"
 
-#: IncrementalSearchBar.cpp:103
+#: IncrementalSearchBar.cpp:105
 #, fuzzy, kde-format
 #| msgid "Find the previous match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Find the previous match for the current search phrase"
 msgstr "চিহ্নিত তথ্যের পূর্ববর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:119
+#: IncrementalSearchBar.cpp:121
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display the options menu"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:127
+#: IncrementalSearchBar.cpp:129
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Case sensitive"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:129
+#: IncrementalSearchBar.cpp:131
 #, fuzzy, kde-format
 #| msgid "Sets whether the search is case sensitive"
 msgctxt "@info:tooltip"
 msgid "Sets whether the search is case sensitive"
 msgstr "হরফের ছাঁদ মেলানো হবে কি না নির্ধারণ করতে ব্যবহৃত হয়"
 
-#: IncrementalSearchBar.cpp:133
+#: IncrementalSearchBar.cpp:135
 #, fuzzy, kde-format
 #| msgid "Match regular expression"
 msgctxt "@item:inmenu"
 msgid "Match regular expression"
 msgstr "রেগুলার এক্সপ্রেশন মেলানো হবে"
 
-#: IncrementalSearchBar.cpp:138
+#: IncrementalSearchBar.cpp:140
 #, fuzzy, kde-format
 #| msgid "Highlight all"
 msgctxt "@item:inmenu"
 msgid "Highlight all matches"
 msgstr "সকল উপস্থিতি উজ্জ্বল করা হবে"
 
-#: IncrementalSearchBar.cpp:141
+#: IncrementalSearchBar.cpp:143
 #, fuzzy, kde-format
 #| msgid "Sets whether matching text should be highlighted"
 msgctxt "@info:tooltip"
 msgid "Sets whether matching text should be highlighted"
 msgstr "চিহ্নিত তথ্যের সকল উপস্থিতি উজ্জ্বলিত করা হবে কি না নির্ধারণ করা হয়"
 
-#: IncrementalSearchBar.cpp:145
+#: IncrementalSearchBar.cpp:147
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Search backwards"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:148
+#: IncrementalSearchBar.cpp:150
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Sets whether search should start from the bottom"
 msgstr "চিহ্নিত তথ্যের পরবর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:179
+#: IncrementalSearchBar.cpp:181
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the bottom"
 msgstr "চিহ্নিত তথ্যের পরবর্তী উপস্থিতি অনুসন্ধান করুন"
 
-#: IncrementalSearchBar.cpp:185
+#: IncrementalSearchBar.cpp:187
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
@@ -3484,30 +3484,30 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TerminalDisplay.cpp:1418 TerminalDisplay.cpp:1419
+#: TerminalDisplay.cpp:1438 TerminalDisplay.cpp:1439
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1430
+#: TerminalDisplay.cpp:1450
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:3257
+#: TerminalDisplay.cpp:3277
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:3260
+#: TerminalDisplay.cpp:3280
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:3472
+#: TerminalDisplay.cpp:3492
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
@@ -3515,18 +3515,18 @@ msgid ""
 "b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3510
+#: TerminalDisplay.cpp:3530
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3798
+#: TerminalDisplay.cpp:3818
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3815
+#: TerminalDisplay.cpp:3835
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
