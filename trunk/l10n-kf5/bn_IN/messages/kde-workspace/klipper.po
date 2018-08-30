@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:16+0200\n"
+"POT-Creation-Date: 2018-08-30 03:58+0200\n"
 "PO-Revision-Date: 2009-01-05 12:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -624,11 +624,6 @@ msgstr "<empty clipboard>"
 msgid "<no matches>"
 msgstr "<no matches>"
 
-#: klipperpopup.cpp:73 main.cpp:43
-#, kde-format
-msgid "KDE cut & paste history utility"
-msgstr "KDE-র কাট ও পেস্ট কর্মের পূর্ববর্তী তথ্য সংরক্ষণের ব্যবস্থা"
-
 #: klipperpopup.cpp:118
 #, kde-format
 msgid "Klipper - Clipboard Tool"
@@ -638,6 +633,11 @@ msgstr "Klipper - ক্লিপবোর্ড সংক্রান্ত স
 #, kde-format
 msgid "Search..."
 msgstr ""
+
+#: klipperpopup.cpp:132 main.cpp:43
+#, kde-format
+msgid "KDE cut & paste history utility"
+msgstr "KDE-র কাট ও পেস্ট কর্মের পূর্ববর্তী তথ্য সংরক্ষণের ব্যবস্থা"
 
 #: main.cpp:41 tray.cpp:35
 #, kde-format
