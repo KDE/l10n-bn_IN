@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-28 03:37+0200\n"
+"POT-Creation-Date: 2018-10-07 03:36+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -675,13 +675,13 @@ msgstr "প্রারম্ভিক ডিরেক্টরি নির্�
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:911
+#: EditProfileDialog.cpp:909
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: EditProfileDialog.cpp:1095
+#: EditProfileDialog.cpp:1093
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -690,25 +690,25 @@ msgstr ""
 "এই রঙের বিন্যাসের সাথে স্বচ্ছ পটভূমি ব্যবহৃত হয়, কিন্তু আপনার ডেস্কটপে স্বচ্ছ পটভূমি "
 "সমর্থিত নয়"
 
-#: EditProfileDialog.cpp:1101
+#: EditProfileDialog.cpp:1099
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:1654
+#: EditProfileDialog.cpp:1652
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Any Font"
 msgstr "সমগ্র নির্বাচন"
 
-#: EditProfileDialog.cpp:1657
+#: EditProfileDialog.cpp:1655
 #, kde-format
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1709
+#: EditProfileDialog.cpp:1707
 #, kde-format
 msgid "AaZz09..."
 msgstr ""
@@ -2856,35 +2856,35 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1750
+#: SessionController.cpp:1749
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1761
+#: SessionController.cpp:1760
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1767
+#: SessionController.cpp:1766
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1828
+#: SessionController.cpp:1827
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে প্রাপ্ত ফলাফল সংরক্ষণ করুন"
 
-#: SessionController.cpp:1840
+#: SessionController.cpp:1839
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 URL-টি বৈধ নয় এবং ফলাফল সংরক্ষণ করা সম্ভব হবে না।"
 
-#: SessionController.cpp:1916
+#: SessionController.cpp:1915
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -3503,30 +3503,30 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাবের শিরোনামের বিন্যাস:"
 
-#: TerminalDisplay.cpp:1450 TerminalDisplay.cpp:1451
+#: TerminalDisplay.cpp:1453 TerminalDisplay.cpp:1454
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1462
+#: TerminalDisplay.cpp:1465
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:3297
+#: TerminalDisplay.cpp:3298
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:3300
+#: TerminalDisplay.cpp:3301
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: TerminalDisplay.cpp:3512
+#: TerminalDisplay.cpp:3513
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
@@ -3534,18 +3534,18 @@ msgid ""
 "b> to resume.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3550
+#: TerminalDisplay.cpp:3551
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3846
+#: TerminalDisplay.cpp:3847
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: TerminalDisplay.cpp:3863
+#: TerminalDisplay.cpp:3864
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
@@ -3570,90 +3570,90 @@ msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
 
-#: ViewManager.cpp:129
+#: ViewManager.cpp:130
 #, fuzzy, kde-format
 #| msgid "New &Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "নতুন ট্যাব (&T)"
 
-#: ViewManager.cpp:130
+#: ViewManager.cpp:131
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "পূর্ববর্তী"
 
-#: ViewManager.cpp:132
+#: ViewManager.cpp:133
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: ViewManager.cpp:134
+#: ViewManager.cpp:135
 #, fuzzy, kde-format
 #| msgid "Next View"
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "পরবর্তী প্রদর্শন"
 
-#: ViewManager.cpp:136
+#: ViewManager.cpp:137
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr ""
 
-#: ViewManager.cpp:138
+#: ViewManager.cpp:139
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr ""
 
-#: ViewManager.cpp:146
+#: ViewManager.cpp:147
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr ""
 
-#: ViewManager.cpp:154
+#: ViewManager.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr ""
 
-#: ViewManager.cpp:159
+#: ViewManager.cpp:160
 #, kde-format
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr ""
 
-#: ViewManager.cpp:170
+#: ViewManager.cpp:171
 #, kde-format
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "অন্যান্যগুলি বন্ধ করুন"
 
-#: ViewManager.cpp:180
+#: ViewManager.cpp:181
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr ""
 
-#: ViewManager.cpp:190
+#: ViewManager.cpp:191
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr ""
 
-#: ViewManager.cpp:205
+#: ViewManager.cpp:206
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: ViewManager.cpp:226
+#: ViewManager.cpp:227
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
