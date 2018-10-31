@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:15+0200\n"
+"POT-Creation-Date: 2018-10-31 04:05+0100\n"
 "PO-Revision-Date: 2009-01-06 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -98,50 +98,50 @@ msgstr "রঙের বর্তমান স্কিম সংরক্ষণ
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
 #: colorsettings.ui:34
-#, fuzzy, kde-format
-#| msgid "Import Scheme..."
-msgid "Edit Scheme"
-msgstr "স্কিম ইম্পোর্ট করুন..."
+#, kde-format
+msgid "Edit..."
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: colorsettings.ui:60
+#: colorsettings.ui:52
 #, kde-format
 msgid "Remove the selected scheme"
 msgstr "নির্বাচিত স্কিম মুছে ফেলুন"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: colorsettings.ui:63
-#, kde-format
-msgid "Remove Scheme"
+#: colorsettings.ui:55
+#, fuzzy, kde-format
+#| msgid "Remove Scheme"
+msgid "Remove"
 msgstr "স্কিম মুছে ফেলুন"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: colorsettings.ui:73
-#, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "ইন্টারনেট থেকে, রঙের নতুন স্কিম প্রাপ্ত করুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: colorsettings.ui:76
-#, fuzzy, kde-format
-#| msgid "Get &New Schemes..."
-msgid "Get &New Scheme"
-msgstr "নতুন স্কিম প্রাপ্ত করুন...(&N)"
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: colorsettings.ui:109
+#: colorsettings.ui:83
 #, kde-format
 msgid "Import a color scheme from a file"
 msgstr "ফাইল থেকে একটি নতুন রঙের স্কিম ইম্পোর্ট করুন"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: colorsettings.ui:112
+#: colorsettings.ui:86
 #, kde-format
-msgid "&Install from File"
+msgid "&Install from File..."
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
+#: colorsettings.ui:98
+#, kde-format
+msgid "Get new color schemes from the Internet"
+msgstr "ইন্টারনেট থেকে, রঙের নতুন স্কিম প্রাপ্ত করুন"
+
+#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
+#: colorsettings.ui:101
+#, fuzzy, kde-format
+#| msgid "Get &New Schemes..."
+msgid "Get &New Color Schemes..."
+msgstr "নতুন স্কিম প্রাপ্ত করুন...(&N)"
+
 #. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: colorsettings.ui:122
+#: colorsettings.ui:137
 #, fuzzy, kde-format
 #| msgid "Apply colors to &non-KDE4 applications"
 msgid "Apply colors to &non-Qt applications"
@@ -1220,6 +1220,11 @@ msgstr "স্বাভাবিক পটভূমি"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Import Scheme..."
+#~ msgid "Edit Scheme"
+#~ msgstr "স্কিম ইম্পোর্ট করুন..."
 
 #~ msgid "Selecting another scheme will discard any changes you have made"
 #~ msgstr "পৃথক স্কিম নির্বাচিত হলে, সকল পরিবর্তিত মান বর্জন করা হবে"
