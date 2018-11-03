@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-08 03:45+0200\n"
+"POT-Creation-Date: 2018-11-03 03:47+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -35,49 +35,49 @@ msgstr "লিঙ্কের টেক্সট:"
 msgid "Link URL:"
 msgstr "লিঙ্কের URL:"
 
-#: findreplace/kfind.cpp:59
+#: findreplace/kfind.cpp:60
 #, kde-format
 msgid "Find Next"
 msgstr "পরবর্তী উপস্থিত অনুসন্ধান"
 
-#: findreplace/kfind.cpp:64
+#: findreplace/kfind.cpp:65
 #, kde-format
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>'<b>%1</b>'-র পরবর্তী উপস্থিতি অনুসন্ধান করা হবে কি?</qt>"
 
-#: findreplace/kfind.cpp:623 findreplace/kfind.cpp:642
+#: findreplace/kfind.cpp:624 findreplace/kfind.cpp:643
 #, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "১-টি মিল পাওয়া গিয়েছে"
 msgstr[1] "%1-টি মিল পাওয়া গিয়েছে"
 
-#: findreplace/kfind.cpp:625
+#: findreplace/kfind.cpp:626
 #, kde-format
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>'<b>%1</b>'-র কোনো মিল পাওয়া যায়নি।</qt>"
 
-#: findreplace/kfind.cpp:644
+#: findreplace/kfind.cpp:645
 #, kde-format
 msgid "No matches found for '<b>%1</b>'."
 msgstr "'<b>%1</b>'-র কোনো মিল পাওয়া যায়নি।"
 
-#: findreplace/kfind.cpp:648 findreplace/kreplace.cpp:387
+#: findreplace/kfind.cpp:649 findreplace/kreplace.cpp:387
 #, kde-format
 msgid "Beginning of document reached."
 msgstr "নথির প্রারম্ভিক স্থান"
 
-#: findreplace/kfind.cpp:650 findreplace/kreplace.cpp:389
+#: findreplace/kfind.cpp:651 findreplace/kreplace.cpp:389
 #, kde-format
 msgid "End of document reached."
 msgstr "নথির অন্তিম স্থান"
 
-#: findreplace/kfind.cpp:658
+#: findreplace/kfind.cpp:659
 #, kde-format
 msgid "Continue from the end?"
 msgstr "অন্তিম স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
 
-#: findreplace/kfind.cpp:659
+#: findreplace/kfind.cpp:660
 #, kde-format
 msgid "Continue from the beginning?"
 msgstr "প্রারম্ভিক স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
@@ -436,235 +436,235 @@ msgstr ""
 "\n"
 "অনুগ্রহ করে সংশোধন করুন।"
 
-#: widgets/krichtextwidget.cpp:230
+#: widgets/krichtextwidget.cpp:204
 #, kde-format
 msgctxt "@action"
 msgid "Text &Color..."
 msgstr "টেক্সটে ব্যবহৃত রং...(&C)"
 
-#: widgets/krichtextwidget.cpp:231
+#: widgets/krichtextwidget.cpp:205
 #, kde-format
 msgctxt "@label stroke color"
 msgid "Color"
 msgstr "রঙ"
 
-#: widgets/krichtextwidget.cpp:242
+#: widgets/krichtextwidget.cpp:216
 #, kde-format
 msgctxt "@action"
 msgid "Text &Highlight..."
 msgstr "টেক্সট উজ্জ্বল করতে ব্যবহৃত রং...(&H)"
 
-#: widgets/krichtextwidget.cpp:252
+#: widgets/krichtextwidget.cpp:226
 #, kde-format
 msgctxt "@action"
 msgid "&Font"
 msgstr "ফন্ট (&F)"
 
-#: widgets/krichtextwidget.cpp:262
+#: widgets/krichtextwidget.cpp:236
 #, kde-format
 msgctxt "@action"
 msgid "Font &Size"
 msgstr "ফন্টের মাপ (&S)"
 
-#: widgets/krichtextwidget.cpp:272
+#: widgets/krichtextwidget.cpp:246
 #, kde-format
 msgctxt "@action boldify selected text"
 msgid "&Bold"
 msgstr "গাঢ় (&B)"
 
-#: widgets/krichtextwidget.cpp:286
+#: widgets/krichtextwidget.cpp:260
 #, kde-format
 msgctxt "@action italicize selected text"
 msgid "&Italic"
 msgstr "তেরছা (&I)"
 
-#: widgets/krichtextwidget.cpp:301
+#: widgets/krichtextwidget.cpp:275
 #, kde-format
 msgctxt "@action underline selected text"
 msgid "&Underline"
 msgstr "নিম্নরেখাঙ্কন (&U)"
 
-#: widgets/krichtextwidget.cpp:316
+#: widgets/krichtextwidget.cpp:290
 #, kde-format
 msgctxt "@action"
 msgid "&Strike Out"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:332
+#: widgets/krichtextwidget.cpp:306
 #, kde-format
 msgctxt "@action"
 msgid "Align &Left"
 msgstr "বাঁপাশ্বিক (&L)"
 
-#: widgets/krichtextwidget.cpp:333
+#: widgets/krichtextwidget.cpp:307
 #, kde-format
 msgctxt "@label left justify"
 msgid "Left"
 msgstr "বাঁদিক"
 
-#: widgets/krichtextwidget.cpp:340
+#: widgets/krichtextwidget.cpp:314
 #, kde-format
 msgctxt "@action"
 msgid "Align &Center"
 msgstr "কেন্দ্রস্থিত (&C)"
 
-#: widgets/krichtextwidget.cpp:341
+#: widgets/krichtextwidget.cpp:315
 #, kde-format
 msgctxt "@label center justify"
 msgid "Center"
 msgstr "মধ্য"
 
-#: widgets/krichtextwidget.cpp:348
+#: widgets/krichtextwidget.cpp:322
 #, kde-format
 msgctxt "@action"
 msgid "Align &Right"
 msgstr "ডানপার্শ্বিক (&R)"
 
-#: widgets/krichtextwidget.cpp:349
+#: widgets/krichtextwidget.cpp:323
 #, kde-format
 msgctxt "@label right justify"
 msgid "Right"
 msgstr "ডানদিকে"
 
-#: widgets/krichtextwidget.cpp:356
+#: widgets/krichtextwidget.cpp:330
 #, kde-format
 msgctxt "@action"
 msgid "&Justify"
 msgstr "সমপ্রান্তিক (&J)"
 
-#: widgets/krichtextwidget.cpp:357
+#: widgets/krichtextwidget.cpp:331
 #, kde-format
 msgctxt "@label justify fill"
 msgid "Justify"
 msgstr "সমপ্রান্তিক"
 
-#: widgets/krichtextwidget.cpp:377
+#: widgets/krichtextwidget.cpp:351
 #, kde-format
 msgctxt "@action"
 msgid "Left-to-Right"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:378
+#: widgets/krichtextwidget.cpp:352
 #, kde-format
 msgctxt "@label left-to-right"
 msgid "Left-to-Right"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:385
+#: widgets/krichtextwidget.cpp:359
 #, kde-format
 msgctxt "@action"
 msgid "Right-to-Left"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:386
+#: widgets/krichtextwidget.cpp:360
 #, kde-format
 msgctxt "@label right-to-left"
 msgid "Right-to-Left"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:402
+#: widgets/krichtextwidget.cpp:376
 #, kde-format
 msgctxt "@title:menu"
 msgid "List Style"
 msgstr "লিস্টের বিন্যাস"
 
-#: widgets/krichtextwidget.cpp:404
+#: widgets/krichtextwidget.cpp:378
 #, kde-format
 msgctxt "@item:inmenu no list style"
 msgid "None"
 msgstr "শূণ্য"
 
-#: widgets/krichtextwidget.cpp:405
+#: widgets/krichtextwidget.cpp:379
 #, kde-format
 msgctxt "@item:inmenu disc list style"
 msgid "Disc"
 msgstr "ডিস্ক"
 
-#: widgets/krichtextwidget.cpp:406
+#: widgets/krichtextwidget.cpp:380
 #, kde-format
 msgctxt "@item:inmenu circle list style"
 msgid "Circle"
 msgstr "বৃত্ত"
 
-#: widgets/krichtextwidget.cpp:407
+#: widgets/krichtextwidget.cpp:381
 #, kde-format
 msgctxt "@item:inmenu square list style"
 msgid "Square"
 msgstr "চৌকোণ"
 
-#: widgets/krichtextwidget.cpp:408
+#: widgets/krichtextwidget.cpp:382
 #, kde-format
 msgctxt "@item:inmenu numbered lists"
 msgid "123"
 msgstr "১২৩"
 
-#: widgets/krichtextwidget.cpp:409
+#: widgets/krichtextwidget.cpp:383
 #, kde-format
 msgctxt "@item:inmenu lowercase abc lists"
 msgid "abc"
 msgstr "অআকখ"
 
-#: widgets/krichtextwidget.cpp:410
+#: widgets/krichtextwidget.cpp:384
 #, kde-format
 msgctxt "@item:inmenu uppercase abc lists"
 msgid "ABC"
 msgstr "অআকখ"
 
-#: widgets/krichtextwidget.cpp:411
+#: widgets/krichtextwidget.cpp:385
 #, kde-format
 msgctxt "@item:inmenu lower case roman numerals"
 msgid "i ii iii"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:412
+#: widgets/krichtextwidget.cpp:386
 #, kde-format
 msgctxt "@item:inmenu upper case roman numerals"
 msgid "I II III"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:429
+#: widgets/krichtextwidget.cpp:403
 #, kde-format
 msgctxt "@action"
 msgid "Increase Indent"
 msgstr "প্রান্ত বৃদ্ধি করুন"
 
-#: widgets/krichtextwidget.cpp:442
+#: widgets/krichtextwidget.cpp:416
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Indent"
 msgstr "প্রান্ত হ্রাস করুন"
 
-#: widgets/krichtextwidget.cpp:455
+#: widgets/krichtextwidget.cpp:429
 #, kde-format
 msgctxt "@action"
 msgid "Insert Rule Line"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:466
+#: widgets/krichtextwidget.cpp:440
 #, kde-format
 msgctxt "@action"
 msgid "Link"
 msgstr "লিঙ্ক"
 
-#: widgets/krichtextwidget.cpp:477
+#: widgets/krichtextwidget.cpp:451
 #, kde-format
 msgctxt "@action"
 msgid "Format Painter"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:487
+#: widgets/krichtextwidget.cpp:461
 #, kde-format
 msgctxt "@action"
 msgid "To Plain Text"
 msgstr "প্লেইন-টেক্সটে পরিবর্তন"
 
-#: widgets/krichtextwidget.cpp:498
+#: widgets/krichtextwidget.cpp:472
 #, kde-format
 msgctxt "@action"
 msgid "Subscript"
 msgstr ""
 
-#: widgets/krichtextwidget.cpp:505
+#: widgets/krichtextwidget.cpp:479
 #, kde-format
 msgctxt "@action"
 msgid "Superscript"
