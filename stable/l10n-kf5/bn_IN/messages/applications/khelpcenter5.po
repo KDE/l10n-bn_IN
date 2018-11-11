@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-02 03:31+0200\n"
+"POT-Creation-Date: 2018-10-29 03:28+0100\n"
 "PO-Revision-Date: 2008-12-31 18:58+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -43,8 +43,23 @@ msgstr "KDE Help Center"
 #: application.cpp:96
 #, fuzzy, kde-format
 #| msgid "(c) 1999-2003, The KHelpCenter developers"
-msgid "(c) 1999-2011, The KHelpCenter developers"
+msgid "(c) 1999-2018, The KHelpCenter developers"
 msgstr "(c) ১৯৯৯-২০০৩, KHelpCenter-র নির্মাতাবৃন্দ"
+
+#: application.cpp:98
+#, kde-format
+msgid "Current maintainer"
+msgstr ""
+
+#: application.cpp:99
+#, kde-format
+msgid "Xapian-based search, lot of bugfixes"
+msgstr ""
+
+#: application.cpp:100
+#, kde-format
+msgid "Former maintainer"
+msgstr ""
 
 #: application.cpp:102
 #, kde-format
@@ -193,7 +208,7 @@ msgstr "অতিরিক্ত দ্রষ্টব্য: "
 msgid "Search Results"
 msgstr "অনুসন্ধানের ফলাফল"
 
-#: grantleeformatter.cpp:144 searchengine.cpp:257
+#: grantleeformatter.cpp:144 searchengine.cpp:277
 #, kde-format
 msgid "Search Results for '%1':"
 msgstr "'%1' অনুসন্ধানের ফলাফল"
@@ -245,77 +260,77 @@ msgstr "গন্তব্য (&G)"
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
 
-#: mainwindow.cpp:74
+#: mainwindow.cpp:73
 #, kde-format
 msgid "Search Error Log"
 msgstr "ত্রুটির লগ অনুসন্ধান করুন"
 
-#: mainwindow.cpp:134
+#: mainwindow.cpp:126
 #, kde-format
 msgid "Preparing Index"
 msgstr "ইন্ডেক্স প্রস্তুত করা হচ্ছে"
 
-#: mainwindow.cpp:184
+#: mainwindow.cpp:170
 #, kde-format
 msgid "Ready"
 msgstr "প্রস্তুত"
 
-#: mainwindow.cpp:235
+#: mainwindow.cpp:221
 #, kde-format
 msgid "Previous Page"
 msgstr "পূর্ববর্তী পৃষ্ঠা"
 
-#: mainwindow.cpp:237
+#: mainwindow.cpp:223
 #, kde-format
 msgid "Moves to the previous page of the document"
 msgstr "নথির পূর্ববর্তী পৃষ্ঠায় চলে"
 
-#: mainwindow.cpp:241
+#: mainwindow.cpp:227
 #, kde-format
 msgid "Next Page"
 msgstr "পরবর্তী পৃষ্ঠায়"
 
-#: mainwindow.cpp:243
+#: mainwindow.cpp:229
 #, kde-format
 msgid "Moves to the next page of the document"
 msgstr "নথির পরবর্তী পৃষ্ঠায় এগিয়ে চলে"
 
-#: mainwindow.cpp:248
+#: mainwindow.cpp:234
 #, kde-format
 msgid "Table of &Contents"
 msgstr "সূচিপত্র (&C)"
 
-#: mainwindow.cpp:249
+#: mainwindow.cpp:235
 #, kde-format
 msgid "Table of contents"
 msgstr "সূচিপত্র"
 
-#: mainwindow.cpp:250
+#: mainwindow.cpp:236
 #, kde-format
 msgid "Go back to the table of contents"
 msgstr "সূচিপত্রে প্রত্যাবর্তন করুন"
 
-#: mainwindow.cpp:256
+#: mainwindow.cpp:242
 #, kde-format
 msgid "&Last Search Result"
 msgstr "সর্বশেষ অনুসন্ধানের ফলাফল (&L)"
 
-#: mainwindow.cpp:274
+#: mainwindow.cpp:260
 #, kde-format
 msgid "Configure Fonts..."
 msgstr "ফন্ট কনফিগার করুন..."
 
-#: mainwindow.cpp:278
+#: mainwindow.cpp:264
 #, kde-format
 msgid "Increase Font Sizes"
 msgstr "ফন্টের মাপ বৃদ্ধি করুন"
 
-#: mainwindow.cpp:283
+#: mainwindow.cpp:269
 #, kde-format
 msgid "Decrease Font Sizes"
 msgstr "ফন্টের মাপ হ্রাস করুন"
 
-#: mainwindow.cpp:299
+#: mainwindow.cpp:285
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Bookmarks"
@@ -368,42 +383,42 @@ msgstr "অনুসন্ধানের ইন্ডেক্স নির্�
 msgid "Updating search index... done."
 msgstr "ক্যাশে পুনরায় নির্মাণ কর্ম... সমাপ্ত।"
 
-#: searchengine.cpp:52
+#: searchengine.cpp:72
 #, kde-format
 msgid "Error: No document type specified."
 msgstr ""
 
-#: searchengine.cpp:54
+#: searchengine.cpp:74
 #, kde-format
 msgid "Error: No search handler for document type '%1'."
 msgstr ""
 
-#: searchengine.cpp:227
+#: searchengine.cpp:247
 #, kde-format
 msgid "No valid search handler found."
 msgstr "অনুসন্ধানের বৈধ হ্যান্ডলার পাওয়া যায়নি।"
 
-#: searchhandler.cpp:52
+#: searchhandler.cpp:53
 #, kde-format
 msgid "Error executing search command '%1'."
 msgstr "অনুসন্ধানের জন্য '%1' কমান্ড সঞ্চালন করতে ব্যর্থ।"
 
-#: searchhandler.cpp:95
+#: searchhandler.cpp:96
 #, kde-format
 msgid "Error: %1"
 msgstr "ত্রুটি: %1"
 
-#: searchhandler.cpp:164 searchhandler.cpp:169
+#: searchhandler.cpp:161 searchhandler.cpp:166
 #, kde-format
 msgid "'%1' not found, check your installation"
 msgstr ""
 
-#: searchhandler.cpp:174
+#: searchhandler.cpp:171
 #, kde-format
 msgid "'%1' not found, install the package containing it"
 msgstr ""
 
-#: searchhandler.cpp:225
+#: searchhandler.cpp:222
 #, kde-format
 msgid "No search command or URL specified."
 msgstr "অনুসন্ধানের কমান্ড অথবা URL উল্লেখ করা হয়নি।"
@@ -468,12 +483,12 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "অজানা"
 
-#: view.cpp:227
+#: view.cpp:240
 #, kde-format
 msgid "Copy Link Address"
 msgstr "লিঙ্কের ঠিকানা কপি করুন"
 
-#: view.cpp:311
+#: view.cpp:324
 #, kde-format
 msgid ""
 "<p>Read the topic documentation in this window.<br /><br />Press <b>Space</"

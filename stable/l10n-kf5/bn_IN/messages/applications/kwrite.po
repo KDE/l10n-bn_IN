@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-20 03:38+0200\n"
+"POT-Creation-Date: 2018-08-20 03:31+0200\n"
 "PO-Revision-Date: 2008-07-04 18:33+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali(India) <discuss@ankur.org.in>\n"
@@ -198,33 +198,28 @@ msgstr "মেন্টেনার"
 
 #: main.cpp:110
 #, kde-format
-msgid "Anders Lund"
-msgstr "অ্যনডার্স লুন্ড"
+msgid "Dominik Haumann"
+msgstr "ডমিনিক হওম্যান"
 
-#: main.cpp:110 main.cpp:111 main.cpp:112 main.cpp:118
+#: main.cpp:110 main.cpp:111 main.cpp:112 main.cpp:113 main.cpp:118
 #, kde-format
 msgid "Core Developer"
 msgstr "কোর ডেভেলপার"
 
 #: main.cpp:111
 #, kde-format
-msgid "Joseph Wenninger"
-msgstr "জোসেফ ওয়েনিঙ্গর"
+msgid "Anders Lund"
+msgstr "অ্যনডার্স লুন্ড"
 
 #: main.cpp:112
 #, kde-format
+msgid "Joseph Wenninger"
+msgstr "জোসেফ ওয়েনিঙ্গর"
+
+#: main.cpp:113
+#, kde-format
 msgid "Hamish Rodda"
 msgstr "হামিশ রোড্ডা"
-
-#: main.cpp:113
-#, kde-format
-msgid "Dominik Haumann"
-msgstr "ডমিনিক হওম্যান"
-
-#: main.cpp:113
-#, kde-format
-msgid "Developer & Highlight wizard"
-msgstr "ডেভেলপার তথা হাইলাইট উইজার্ড "
 
 #: main.cpp:114
 #, kde-format
@@ -526,6 +521,9 @@ msgstr ""
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr "ফাইল '%1' খোলা যাচ্ছেনা: এটা সাধারন ফাইল নয়, এটা একটা ফোল্ডার"
+
+#~ msgid "Developer & Highlight wizard"
+#~ msgstr "ডেভেলপার তথা হাইলাইট উইজার্ড "
 
 #~ msgid ""
 #~ "The file given could not be read; check whether it exists or is readable "
