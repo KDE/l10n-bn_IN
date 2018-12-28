@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-12-20 03:02+0100\n"
+"POT-Creation-Date: 2018-12-28 02:58+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -332,11 +332,12 @@ msgstr "উপলব্ধকারী:"
 msgid "Category:"
 msgstr "শ্রেণী:"
 
-#. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
+#. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
 #: downloadwidget.ui:90
-#, kde-format
-msgid "Rating"
-msgstr "গুরুত্বের মান"
+#, fuzzy, kde-format
+#| msgid "Most Downloads"
+msgid "Most downloads"
+msgstr "সর্বাধিকবার ডাউনলোড করা হয়েছে"
 
 #. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
 #: downloadwidget.ui:103
@@ -344,12 +345,11 @@ msgstr "গুরুত্বের মান"
 msgid "Newest"
 msgstr "নতুন"
 
-#. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
+#. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
 #: downloadwidget.ui:110
-#, fuzzy, kde-format
-#| msgid "Most Downloads"
-msgid "Most downloads"
-msgstr "সর্বাধিকবার ডাউনলোড করা হয়েছে"
+#, kde-format
+msgid "Rating"
+msgstr "গুরুত্বের মান"
 
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
 #: downloadwidget.ui:117
