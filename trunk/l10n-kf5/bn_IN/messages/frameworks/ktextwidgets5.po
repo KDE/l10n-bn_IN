@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-03 03:47+0100\n"
+"POT-Creation-Date: 2019-01-01 02:58+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -40,44 +40,44 @@ msgstr "লিঙ্কের URL:"
 msgid "Find Next"
 msgstr "পরবর্তী উপস্থিত অনুসন্ধান"
 
-#: findreplace/kfind.cpp:65
+#: findreplace/kfind.cpp:64
 #, kde-format
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>'<b>%1</b>'-র পরবর্তী উপস্থিতি অনুসন্ধান করা হবে কি?</qt>"
 
-#: findreplace/kfind.cpp:624 findreplace/kfind.cpp:643
+#: findreplace/kfind.cpp:622 findreplace/kfind.cpp:641
 #, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "১-টি মিল পাওয়া গিয়েছে"
 msgstr[1] "%1-টি মিল পাওয়া গিয়েছে"
 
-#: findreplace/kfind.cpp:626
+#: findreplace/kfind.cpp:624
 #, kde-format
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>'<b>%1</b>'-র কোনো মিল পাওয়া যায়নি।</qt>"
 
-#: findreplace/kfind.cpp:645
+#: findreplace/kfind.cpp:643
 #, kde-format
 msgid "No matches found for '<b>%1</b>'."
 msgstr "'<b>%1</b>'-র কোনো মিল পাওয়া যায়নি।"
 
-#: findreplace/kfind.cpp:649 findreplace/kreplace.cpp:387
+#: findreplace/kfind.cpp:647 findreplace/kreplace.cpp:387
 #, kde-format
 msgid "Beginning of document reached."
 msgstr "নথির প্রারম্ভিক স্থান"
 
-#: findreplace/kfind.cpp:651 findreplace/kreplace.cpp:389
+#: findreplace/kfind.cpp:649 findreplace/kreplace.cpp:389
 #, kde-format
 msgid "End of document reached."
 msgstr "নথির অন্তিম স্থান"
 
-#: findreplace/kfind.cpp:659
+#: findreplace/kfind.cpp:657
 #, kde-format
 msgid "Continue from the end?"
 msgstr "অন্তিম স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
 
-#: findreplace/kfind.cpp:660
+#: findreplace/kfind.cpp:658
 #, kde-format
 msgid "Continue from the beginning?"
 msgstr "প্রারম্ভিক স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
@@ -355,23 +355,23 @@ msgstr "অনুসন্ধানের জন্য কিছু টেক্
 msgid "Invalid regular expression."
 msgstr "রেগুলার এক্সপ্রেশন বৈধ নয়।"
 
-#: findreplace/kreplace.cpp:59 findreplace/kreplace.cpp:71
+#: findreplace/kreplace.cpp:60 findreplace/kreplace.cpp:72
 #, kde-format
 msgid "Replace"
 msgstr "প্রতিস্থাপন"
 
-#: findreplace/kreplace.cpp:67
+#: findreplace/kreplace.cpp:68
 #, kde-format
 msgctxt "@action:button Replace all occurrences"
 msgid "&All"
 msgstr "সমগ্র (&A)"
 
-#: findreplace/kreplace.cpp:69
+#: findreplace/kreplace.cpp:70
 #, kde-format
 msgid "&Skip"
 msgstr "উপেক্ষা করা হবে (&S)"
 
-#: findreplace/kreplace.cpp:88
+#: findreplace/kreplace.cpp:89
 #, kde-format
 msgid "Replace '%1' with '%2'?"
 msgstr "'%1'-র পরিবর্তে '%2' লেখা হবে কি?"
