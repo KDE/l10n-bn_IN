@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-16 03:44+0200\n"
+"POT-Creation-Date: 2019-02-14 03:17+0100\n"
 "PO-Revision-Date: 2009-01-13 17:06+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -102,9 +102,10 @@ msgstr ""
 "উইজেটের বিন্যাস ও ইফেক্ট পরিবর্তন করা যাবে।"
 
 #: kcmstyle.cpp:173
-#, kde-format
-msgid "KDE Style Module"
-msgstr "KDE Style মডিউল"
+#, fuzzy, kde-format
+#| msgid "Widget style:"
+msgid "Widget Style"
+msgstr "উইজেটের বিন্যাস:"
 
 #: kcmstyle.cpp:175
 #, kde-format
@@ -259,6 +260,9 @@ msgstr "কম্বো-বক্স"
 #, kde-format
 msgid "Tab 2"
 msgstr "ট্যাব ২"
+
+#~ msgid "KDE Style Module"
+#~ msgstr "KDE Style মডিউল"
 
 #~ msgid "Ralf Nolden"
 #~ msgstr "রাল্ফ নোল্ডেন"

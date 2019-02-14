@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-13 02:44+0000\n"
+"POT-Creation-Date: 2019-02-14 02:22+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -394,7 +394,7 @@ msgstr "রং"
 #| msgctxt "Name"
 #| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Choose the color scheme"
+msgid "Choose color scheme"
 msgstr "কার্সারের ফাইল"
 
 #: kcms/colors/kcm_colors.desktop:127
@@ -561,7 +561,7 @@ msgstr "কার্সারের ফাইল"
 #| msgctxt "Name"
 #| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Choose the mouse cursor theme"
+msgid "Choose mouse cursor theme"
 msgstr "কার্সারের ফাইল"
 
 #: kcms/cursortheme/kcm_cursortheme.desktop:74
@@ -639,9 +639,12 @@ msgstr ""
 
 #: kcms/desktoptheme/kcm_desktoptheme.desktop:36
 #: kcms/desktoptheme/package/metadata.desktop:25
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Choose the Plasma theme"
-msgstr ""
+msgid "Choose Plasma theme"
+msgstr "কার্সারের ফাইল"
 
 #: kcms/desktoptheme/kcm_desktoptheme.desktop:57
 #, fuzzy
@@ -663,11 +666,11 @@ msgstr "ইমোআইকন"
 
 #: kcms/emoticons/emoticons.desktop:96
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Emoticons Themes Manager"
+#| msgctxt "Name"
+#| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Emoticon Theme"
-msgstr "ইমোআইকন থিম পরিচালন ব্যবস্থা"
+msgid "Choose emoticon theme"
+msgstr "কার্সারের ফাইল"
 
 #: kcms/emoticons/emoticons.desktop:142
 #, fuzzy
@@ -689,10 +692,10 @@ msgstr "ফন্ট"
 #| msgctxt "Comment"
 #| msgid "Configure keyboard and mouse settings"
 msgctxt "Comment"
-msgid "Configure the system fonts"
+msgid "Configure user interface fonts"
 msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
 
-#: kcms/fonts/kcm_fonts.desktop:115
+#: kcms/fonts/kcm_fonts.desktop:116
 msgctxt "X-KDE-Keywords"
 msgid ""
 "fonts,font size,styles,charsets,character sets,panel,control panel,desktops,"
@@ -748,7 +751,7 @@ msgstr "আইকন"
 #| msgctxt "Name"
 #| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Icon Theme"
+msgid "Choose icon theme"
 msgstr "কার্সারের ফাইল"
 
 #: kcms/icons/kcm_icons.desktop:153
@@ -891,9 +894,12 @@ msgid "Font Management"
 msgstr "ফাইল পরিচালনা"
 
 #: kcms/kfontinst/kcmfontinst/fontinst.desktop:71
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Install, manage, and preview fonts"
 msgctxt "Comment"
-msgid "Font Installation, Preview and Removal"
-msgstr ""
+msgid "Install, manage and preview fonts"
+msgstr "ফন্ট ইনস্টল, পরিচালনা করুন ও পূর্বরূপ প্রদর্শন করুন"
 
 #: kcms/kfontinst/kcmfontinst/fontinst.desktop:115
 msgctxt "X-KDE-Keywords"
@@ -957,9 +963,12 @@ msgstr ""
 
 #: kcms/ksplash/kcm_splashscreen.desktop:60
 #: kcms/ksplash/package/metadata.desktop:47
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Choose the splash screen theme"
-msgstr ""
+msgid "Choose splash screen theme"
+msgstr "কার্সারের ফাইল"
 
 #: kcms/ksplash/kcm_splashscreen.desktop:81
 msgctxt "X-KDE-Keywords"
@@ -1003,7 +1012,7 @@ msgstr ""
 #: kcms/lookandfeel/kcm_lookandfeel.desktop:53
 #: kcms/lookandfeel/package/metadata.desktop:41
 msgctxt "Comment"
-msgid "Choose the Look and Feel theme"
+msgid "Choose Look and Feel theme"
 msgstr ""
 
 #: kcms/lookandfeel/kcm_lookandfeel.desktop:74
@@ -1434,9 +1443,12 @@ msgid "Widget Style"
 msgstr ""
 
 #: kcms/style/style.desktop:61
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the spell checker"
 msgctxt "Comment"
-msgid "Widget Style and Behavior"
-msgstr ""
+msgid "Configure widget style and behavior"
+msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
 #: kcms/style/style.desktop:107
 msgctxt "X-KDE-Keywords"
@@ -1672,6 +1684,20 @@ msgid "Panel toolbox"
 msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
 
 #, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Emoticons Themes Manager"
+#~ msgctxt "Comment"
+#~ msgid "Emoticon Theme"
+#~ msgstr "ইমোআইকন থিম পরিচালন ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Cursor Files"
+#~ msgctxt "Comment"
+#~ msgid "Icon Theme"
+#~ msgstr "কার্সারের ফাইল"
+
+#, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Fonts"
 #~ msgctxt "Comment"
@@ -1837,10 +1863,6 @@ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্�
 #~ msgctxt "Comment"
 #~ msgid "Configuration of keybindings"
 #~ msgstr "কি-বাইন্ডিং কনফিগারেশন"
-
-#~ msgctxt "Comment"
-#~ msgid "Install, manage, and preview fonts"
-#~ msgstr "ফন্ট ইনস্টল, পরিচালনা করুন ও পূর্বরূপ প্রদর্শন করুন"
 
 #, fuzzy
 #~| msgctxt "Name"
