@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-15 03:17+0100\n"
+"POT-Creation-Date: 2019-02-20 03:32+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -256,6 +256,52 @@ msgstr ""
 msgid "Unsupported suspend method"
 msgstr "সমর্থিত স্কিম"
 
+#: powerdevilapp.cpp:65
+#, fuzzy, kde-format
+#| msgid "A Power Management tool for KDE4"
+msgid "KDE Power Management System"
+msgstr "KDE4-র সাথে ব্যবহারযোগ্য বিদ্যুৎ পরিচালন ব্যবস্থা"
+
+#: powerdevilapp.cpp:66
+#, kde-format
+msgctxt "@title"
+msgid ""
+"PowerDevil, an advanced, modular and lightweight power management daemon"
+msgstr ""
+
+#: powerdevilapp.cpp:68
+#, kde-format
+msgctxt "@info:credit"
+msgid "(c) 2015-2019 Kai Uwe Broulik"
+msgstr ""
+
+#: powerdevilapp.cpp:69
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#: powerdevilapp.cpp:70
+#, fuzzy, kde-format
+#| msgid "Maintainer"
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "মেইন্টেনার"
+
+#: powerdevilapp.cpp:72
+#, fuzzy, kde-format
+#| msgid "Dario Freddi"
+msgctxt "@info:credit"
+msgid "Dario Freddi"
+msgstr "ডারিও ফ্রেডি"
+
+#: powerdevilapp.cpp:73
+#, fuzzy, kde-format
+#| msgid "Maintainer"
+msgctxt "@info:credit"
+msgid "Previous maintainer"
+msgstr "মেইন্টেনার"
+
 #: powerdevilcore.cpp:91
 #, kde-format
 msgid ""
@@ -473,17 +519,6 @@ msgstr ""
 #, kde-format
 msgid "Your battery is now fully charged."
 msgstr ""
-
-#, fuzzy
-#~| msgid "A Power Management tool for KDE4"
-#~ msgid "KDE Power Management System"
-#~ msgstr "KDE4-র সাথে ব্যবহারযোগ্য বিদ্যুৎ পরিচালন ব্যবস্থা"
-
-#~ msgid "Dario Freddi"
-#~ msgstr "ডারিও ফ্রেডি"
-
-#~ msgid "Maintainer"
-#~ msgstr "মেইন্টেনার"
 
 #, fuzzy
 #~| msgid "Lock Screen"
