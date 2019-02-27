@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-23 04:03+0200\n"
+"POT-Creation-Date: 2019-02-27 03:33+0100\n"
 "PO-Revision-Date: 2008-12-29 15:54+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -150,9 +150,14 @@ msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
 
 #: package/contents/ui/main.qml:542
 #, fuzzy, kde-format
-#| msgid "Configure Desktops..."
-msgid "Configure Desktops..."
-msgstr "ডেস্কটপ কনফিগার করুন..."
+#| msgid "&Configure Desktops..."
+msgid "Configure Virtual Desktops..."
+msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
+
+#, fuzzy
+#~| msgid "Configure Desktops..."
+#~ msgid "Configure Desktops..."
+#~ msgstr "ডেস্কটপ কনফিগার করুন..."
 
 #~ msgid "Display icons:"
 #~ msgstr "আইকন প্রদর্শন করা হবে:"
@@ -175,8 +180,3 @@ msgstr "ডেস্কটপ কনফিগার করুন..."
 
 #~ msgid "Change the number of rows"
 #~ msgstr "সারির সংখ্যা পরিবর্তন করুন"
-
-#, fuzzy
-#~| msgid "&Configure Desktops..."
-#~ msgid "&Configure Virtual Desktops..."
-#~ msgstr "ডেস্কটপ কনফিগার করুন...(&C)"
