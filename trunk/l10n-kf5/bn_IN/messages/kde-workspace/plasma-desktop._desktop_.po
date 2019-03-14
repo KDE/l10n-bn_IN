@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-09 02:42+0000\n"
+"POT-Creation-Date: 2019-03-14 02:37+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -952,7 +952,7 @@ msgstr ""
 
 #: kcms/ksmserver/kcmsmserver.desktop:105
 msgctxt "X-KDE-Keywords"
-msgid "ksmserver,session,logout,confirmation,save,restore"
+msgid "ksmserver,session,logout,confirmation,save,restore,efi,uefi,bios"
 msgstr ""
 
 #: kcms/ksplash/kcm_splashscreen.desktop:15
@@ -1438,16 +1438,19 @@ msgid ""
 msgstr ""
 
 #: kcms/style/style.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
 msgctxt "Name"
-msgid "Widget Style"
-msgstr ""
+msgid "Application Style"
+msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
 #: kcms/style/style.desktop:61
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
 msgctxt "Comment"
-msgid "Configure widget style and behavior"
+msgid "Configure application style and behavior"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
 #: kcms/style/style.desktop:80
