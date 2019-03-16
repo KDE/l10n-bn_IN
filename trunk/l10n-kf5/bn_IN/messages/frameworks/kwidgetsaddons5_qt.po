@@ -2592,19 +2592,12 @@ msgctxt "KFontChooser|@item Font style"
 msgid "%1"
 msgstr "%1"
 
-#: kfontrequester.cpp:114
+#: kfontrequester.cpp:220
 #, fuzzy
 #| msgid "Choose..."
 msgctxt "KFontRequester|"
-msgid "Choose..."
+msgid "Choose Font..."
 msgstr "নির্বাচন করুন..."
-
-#: kfontrequester.cpp:220
-#, fuzzy
-#| msgid "Click to select a font"
-msgctxt "KFontRequester|"
-msgid "Click to select a font"
-msgstr "ফন্ট নির্বাচনের জন্য ক্লিক করুন"
 
 #: kfontrequester.cpp:226
 #, fuzzy
@@ -2621,7 +2614,7 @@ msgstr "নির্বাচিত ফন্টের পূর্বরূপ 
 msgctxt "KFontRequester|"
 msgid ""
 "This is a preview of the selected font. You can change it by clicking the "
-"\"Choose...\" button."
+"\"Choose Font...\" button."
 msgstr ""
 "নির্বাচিত ফন্টের পূর্বরূপ এইখানে প্রদর্শন করা হয়েছে। \"নির্বাচন করুন...\" বাটন ক্লিক "
 "করে এটি পরিবর্তন করা যাবে।"
@@ -2641,7 +2634,7 @@ msgstr "\"%1\" ফন্টের প্রদর্শিত পূর্বর
 msgctxt "KFontRequester|"
 msgid ""
 "This is a preview of the \"%1\" font. You can change it by clicking the "
-"\"Choose...\" button."
+"\"Choose Font...\" button."
 msgstr ""
 "\"%1\" ফন্টের পূর্বরূপ প্রদর্শিত হয়েছে। \"নির্বাচন করুন...\" বাটন ক্লিক করে এটি "
 "পরিবর্তন করা যাবে।"
@@ -3448,6 +3441,12 @@ msgstr "সম্পূর্ণ পর্দাজুড়ে প্রদর্�
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Click to select a font"
+#~ msgctxt "KFontRequester|"
+#~ msgid "Click to select a font"
+#~ msgstr "ফন্ট নির্বাচনের জন্য ক্লিক করুন"
 
 #, fuzzy
 #~| msgctxt "KCharSelect section name"
