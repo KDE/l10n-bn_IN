@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-17 02:55+0100\n"
+"POT-Creation-Date: 2019-03-18 07:47+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -521,52 +521,52 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
 #. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
-#: ColorSchemeEditor.ui:31 KeyBindingEditor.ui:31
+#: ColorSchemeEditor.ui:22 KeyBindingEditor.ui:31
 #, kde-format
 msgid "Description:"
 msgstr "বিবরণ:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, randomizedBackgroundCheck)
-#: ColorSchemeEditor.ui:49
+#: ColorSchemeEditor.ui:40
 #, kde-format
 msgid "Vary the background color for each tab"
 msgstr "প্রতিটি ট্যাবের পটভূমির রং পৃথক হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, blurCheckBox)
-#: ColorSchemeEditor.ui:56
+#: ColorSchemeEditor.ui:47
 #, fuzzy, kde-format
 #| msgid "Background"
 msgid "Blur background"
 msgstr "পটভূমি"
 
 #. i18n: ectx: property (text), widget (QLabel, transparencyLabel)
-#: ColorSchemeEditor.ui:65
+#: ColorSchemeEditor.ui:56
 #, kde-format
 msgid "Background transparency:"
 msgstr "পটভূমির স্বচ্ছতা:"
 
 #. i18n: ectx: property (text), widget (QLabel, transparencyPercentLabel)
-#: ColorSchemeEditor.ui:85
+#: ColorSchemeEditor.ui:76
 #, kde-format
 msgid "Percent"
 msgstr "শতাংশ"
 
 #. i18n: ectx: property (text), widget (QLabel, wallpaperLabel)
-#: ColorSchemeEditor.ui:99
+#: ColorSchemeEditor.ui:90
 #, fuzzy, kde-format
 #| msgid "Background"
 msgid "Background image:"
 msgstr "পটভূমি"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, wallpaperPath)
-#: ColorSchemeEditor.ui:106
+#: ColorSchemeEditor.ui:97
 #, fuzzy, kde-format
 #| msgid "Color Scheme && Background"
 msgid "Edit the path of the background image"
 msgstr "রঙের বিন্যাস ও পটভূমি"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, wallpaperSelectButton)
-#: ColorSchemeEditor.ui:113
+#: ColorSchemeEditor.ui:104
 #, fuzzy, kde-format
 #| msgid "Color Scheme && Background"
 msgid "Choose the background image"
@@ -574,7 +574,7 @@ msgstr "রঙের বিন্যাস ও পটভূমি"
 
 #. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: ColorSchemeEditor.ui:116 EditProfileGeneralPage.ui:148
+#: ColorSchemeEditor.ui:107 EditProfileGeneralPage.ui:148
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -640,7 +640,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: EditProfileAdvancedPage.ui:172
 #, kde-format
-msgctxt "Items that do not fit in other categories"
 msgid "Miscellaneous:"
 msgstr ""
 
@@ -834,21 +833,18 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, cursorShapeBlock)
 #: EditProfileAppearancePage.ui:236
 #, kde-format
-msgctxt "A solid rectangular"
 msgid "Block"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, cursorShapeIBeam)
 #: EditProfileAppearancePage.ui:246
 #, kde-format
-msgctxt "A vertical line on the left edge"
 msgid "I-Beam"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, cursorShapeUnderline)
 #: EditProfileAppearancePage.ui:256
 #, kde-format
-msgctxt "A hortizonal line on the bottom edge"
 msgid "Underline"
 msgstr ""
 
@@ -856,7 +852,6 @@ msgstr ""
 #: EditProfileAppearancePage.ui:288
 #, fuzzy, kde-format
 #| msgid "Color"
-msgctxt "Cursor color options"
 msgid "Color:"
 msgstr "রঙ"
 
@@ -907,7 +902,6 @@ msgstr "নিয়মিতরূপে কার্সারে ঝলকান�
 #. i18n: ectx: attribute (title), widget (QWidget, miscTab)
 #: EditProfileAppearancePage.ui:430 EditProfileMousePage.ui:249
 #, kde-format
-msgctxt "Items that do not fit in other categories"
 msgid "Miscellaneous"
 msgstr ""
 
@@ -1728,7 +1722,6 @@ msgstr "টার্মিন্যাল থেকে উৎপন্ন সক
 #: HistorySizeWidget.ui:138
 #, fuzzy, kde-format
 #| msgid "Unlimited scrollback"
-msgctxt "Save all lines to the scrollback history"
 msgid "Unlimited"
 msgstr "সীমাহীন স্ক্রোল-ব্যাক"
 
@@ -1738,10 +1731,10 @@ msgstr "সীমাহীন স্ক্রোল-ব্যাক"
 msgid "Do not remember previous output"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CloseTabButton)
 #. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
-#: HistorySizeWidget.ui:177
+#: HistorySizeWidget.ui:177 settings/TabBarSettings.ui:115
 #, kde-format
-msgctxt "Do not save any lines to the scrollback history"
 msgid "None"
 msgstr ""
 
@@ -3057,20 +3050,20 @@ msgstr ""
 msgid "Default Search Settings"
 msgstr "ডিফল্ট ক্যারেক্টার এনকোডিং:"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchCaseSensitive)
-#. i18n: ectx: tooltip, entry (SearchCaseSensitive), group (SearchSettings)
-#: settings/GeneralSettings.ui:147 settings/konsole.kcfg:46
-#, fuzzy, kde-format
-#| msgid "Sets whether the search is case sensitive"
-msgid "Sets whether the search is case sensitive"
-msgstr "হরফের ছাঁদ মেলানো হবে কি না নির্ধারণ করতে ব্যবহৃত হয়"
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchCaseSensitive)
 #. i18n: ectx: label, entry (SearchCaseSensitive), group (SearchSettings)
-#: settings/GeneralSettings.ui:150 settings/konsole.kcfg:45
+#: settings/GeneralSettings.ui:147 settings/konsole.kcfg:45
 #, fuzzy, kde-format
 #| msgid "Sets whether the search is case sensitive"
 msgid "Search is case sensitive"
+msgstr "হরফের ছাঁদ মেলানো হবে কি না নির্ধারণ করতে ব্যবহৃত হয়"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchCaseSensitive)
+#. i18n: ectx: tooltip, entry (SearchCaseSensitive), group (SearchSettings)
+#: settings/GeneralSettings.ui:150 settings/konsole.kcfg:46
+#, fuzzy, kde-format
+#| msgid "Sets whether the search is case sensitive"
+msgid "Sets whether the search is case sensitive"
 msgstr "হরফের ছাঁদ মেলানো হবে কি না নির্ধারণ করতে ব্যবহৃত হয়"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchRegExpression)
@@ -3089,18 +3082,18 @@ msgstr "রেগুলার এক্সপ্রেশন মেলানো 
 msgid "Highlight all search matches"
 msgstr "সকল উপস্থিতি উজ্জ্বল করা হবে"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
-#. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
-#: settings/GeneralSettings.ui:189 settings/konsole.kcfg:60
-#, kde-format
-msgid "Sets whether search should start from the bottom"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchReverseSearch)
 #. i18n: ectx: label, entry (SearchReverseSearch), group (SearchSettings)
-#: settings/GeneralSettings.ui:192 settings/konsole.kcfg:59
+#: settings/GeneralSettings.ui:189 settings/konsole.kcfg:59
 #, kde-format
 msgid "Search backwards"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
+#. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
+#: settings/GeneralSettings.ui:192 settings/konsole.kcfg:60
+#, kde-format
+msgid "Sets whether search should start from the bottom"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -3409,13 +3402,6 @@ msgstr ""
 #: settings/TabBarSettings.ui:110
 #, kde-format
 msgid "On the tab bar"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CloseTabButton)
-#: settings/TabBarSettings.ui:115
-#, kde-format
-msgctxt "Do not show a close button"
-msgid "None"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_NewTabButton)
