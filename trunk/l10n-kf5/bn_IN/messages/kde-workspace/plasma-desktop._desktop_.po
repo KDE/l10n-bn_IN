@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-04-23 01:55+0000\n"
+"POT-Creation-Date: 2019-04-27 01:44+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -68,6 +68,16 @@ msgctxt "Keywords"
 msgid "Input;IM;"
 msgstr ""
 
+#: applets/minimizeall/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Minimize all Windows"
+msgstr ""
+
+#: applets/minimizeall/package/metadata.desktop:41
+msgctxt "Comment"
+msgid "Shows the desktop by minimizing all windows"
+msgstr ""
+
 #: applets/pager/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Pager"
@@ -94,6 +104,19 @@ msgstr "পরিসেবা পরিচালনব্যবস্থা"
 msgctxt "Comment"
 msgid "Shows the activity manager"
 msgstr "পরিসেবা পরিচালনব্যবস্থা"
+
+#: applets/showdesktop/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
+msgctxt "Name"
+msgid "Show Desktop"
+msgstr "ডেস্কটপ"
+
+#: applets/showdesktop/package/metadata.desktop:60
+msgctxt "Comment"
+msgid "Show the Plasma desktop"
+msgstr ""
 
 #: applets/taskmanager/package/metadata.desktop:2
 msgctxt "Name"
@@ -1793,13 +1816,6 @@ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্�
 #~ msgctxt "Name"
 #~ msgid "Keyboard Layout"
 #~ msgstr "কি-বোর্ড বিন্যাস"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
-#~ msgctxt "Name"
-#~ msgid "Social Desktop"
-#~ msgstr "ডেস্কটপ"
 
 #~ msgctxt "Name"
 #~ msgid "Style"
