@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"POT-Creation-Date: 2019-06-07 03:22+0200\n"
 "PO-Revision-Date: 2009-01-13 17:22+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -81,23 +81,23 @@ msgstr "অন্যান্যগুলির নীচে স্থাপন 
 msgid "Keep above"
 msgstr "অন্যান্যগুলির উপরে স্থাপন করা হবে"
 
-#: kcm.cpp:92
+#: kcm.cpp:95
 #, fuzzy, kde-format
 #| msgid "kcmkwindecoration"
 msgid "Window Decorations"
 msgstr "kcmkwindecoration"
 
-#: kcm.cpp:96
+#: kcm.cpp:99
 #, kde-format
 msgid "Valerio Pilo"
 msgstr ""
 
-#: kcm.cpp:97
+#: kcm.cpp:100
 #, kde-format
 msgid "Author"
 msgstr ""
 
-#: kcm.cpp:135
+#: kcm.cpp:138
 #, kde-format
 msgid "Download New Window Decorations"
 msgstr ""
@@ -136,25 +136,24 @@ msgid "Titlebar Buttons"
 msgstr "বাটন"
 
 #: package/contents/ui/main.qml:79
-#, fuzzy, kde-format
-#| msgid "B&order size:"
-msgctxt "combobox label"
-msgid "Window border size:"
-msgstr "প্রান্তরেখার মাপ: (&o)"
+#, kde-format
+msgctxt "checkbox label"
+msgid "Use theme's default window border size"
+msgstr ""
 
-#: package/contents/ui/main.qml:94
+#: package/contents/ui/main.qml:110
 #, kde-format
 msgctxt "button text"
 msgid "Get New Window Decorations..."
 msgstr ""
 
-#: package/contents/ui/main.qml:110
+#: package/contents/ui/main.qml:126
 #, kde-format
 msgctxt "checkbox label"
 msgid "Close windows by double clicking the menu button"
 msgstr ""
 
-#: package/contents/ui/main.qml:122
+#: package/contents/ui/main.qml:138
 #, kde-format
 msgctxt "popup tip"
 msgid ""
@@ -162,7 +161,7 @@ msgid ""
 "appears."
 msgstr ""
 
-#: package/contents/ui/main.qml:129
+#: package/contents/ui/main.qml:145
 #, fuzzy, kde-format
 #| msgid "&Show window button tooltips"
 msgctxt "checkbox label"
@@ -227,6 +226,12 @@ msgstr "অতি বৃহৎ"
 #| msgid "Oversized"
 msgid "Oversized"
 msgstr "অত্যাধিক বৃহৎ"
+
+#, fuzzy
+#~| msgid "B&order size:"
+#~ msgctxt "combobox label"
+#~ msgid "Window border size:"
+#~ msgstr "প্রান্তরেখার মাপ: (&o)"
 
 #, fuzzy
 #~| msgid "B&order size:"
