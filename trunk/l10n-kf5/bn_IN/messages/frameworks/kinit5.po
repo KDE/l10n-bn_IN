@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:56+0200\n"
+"POT-Creation-Date: 2019-07-21 02:50+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kdeinit/kinit.cpp:510
+#: kdeinit/kinit.cpp:508
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -31,7 +31,7 @@ msgstr ""
 "সম্ভবত, সিস্টেমের ক্ষেত্রে অনুমোদিত সর্বাধিক সংখ্যক ফাইল খোলা অবস্থায় রয়েছে অথবা "
 "আপনার ব্যবহারের জন্য অনুমোদিত ফাইলের সংখ্যা হয়েছে।"
 
-#: kdeinit/kinit.cpp:532
+#: kdeinit/kinit.cpp:530
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -42,12 +42,12 @@ msgstr ""
 "সম্ভবত সিস্টেমের মধ্যে সর্বোচ্চ সংখ্যক প্রসেস অথবা আপনার ক্ষেত্রে সর্বোচ্চ অনুমোদিত "
 "সংখ্যক প্রসেস বর্তমানে চলছে।"
 
-#: kdeinit/kinit.cpp:615
+#: kdeinit/kinit.cpp:613
 #, kde-format
 msgid "Could not find '%1' executable."
 msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
 
-#: kdeinit/kinit.cpp:648
+#: kdeinit/kinit.cpp:646
 #, kde-format
 msgid ""
 "Could not open library '%1'.\n"
@@ -56,7 +56,7 @@ msgstr ""
 "লাইব্রেরি '%1' খোলা যায়নি।\n"
 "%2"
 
-#: kdeinit/kinit.cpp:685
+#: kdeinit/kinit.cpp:683
 #, kde-format
 msgid ""
 "Could not find 'kdemain' in '%1'.\n"
@@ -65,44 +65,44 @@ msgstr ""
 "'%1'-র মধ্যে 'kdemain' পাওয়া যায়নি।\n"
 "%2"
 
-#: klauncher/klauncher.cpp:434
+#: klauncher/klauncher.cpp:435
 #, fuzzy, kde-format
 #| msgid "KDEInit could not launch '%1'."
 msgid "KDEInit could not launch '%1'"
 msgstr "KDEInit দ্বারা '%1' লঞ্চ করা যায়নি"
 
-#: klauncher/klauncher.cpp:615 klauncher/klauncher.cpp:629
+#: klauncher/klauncher.cpp:616 klauncher/klauncher.cpp:630
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "পরিসেবা '%1' সন্ধান করা যায়নি।"
 
-#: klauncher/klauncher.cpp:647
+#: klauncher/klauncher.cpp:648
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr ""
 
-#: klauncher/klauncher.cpp:649 klauncher/klauncher.cpp:710
+#: klauncher/klauncher.cpp:650 klauncher/klauncher.cpp:711
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "'%1' পরিসেবা ত্রুটিপূর্ণ রূপে গঠিত হয়েছে।"
 
-#: klauncher/klauncher.cpp:797
+#: klauncher/klauncher.cpp:798
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 লঞ্চ করা হচ্ছে"
 
-#: klauncher/klauncher.cpp:981
+#: klauncher/klauncher.cpp:979
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "অজানা প্রোটোকল '%1'।\n"
 
-#: klauncher/klauncher.cpp:987
+#: klauncher/klauncher.cpp:985
 #, fuzzy, kde-format
 #| msgid "Could not find service '%1'."
 msgid "Could not find the '%1' plugin.\n"
 msgstr "পরিসেবা '%1' সন্ধান করা যায়নি।"
 
-#: klauncher/klauncher.cpp:1060
+#: klauncher/klauncher.cpp:1058
 #, fuzzy, kde-format
 #| msgid "Error loading '%1'.\n"
 msgid "Error loading '%1'."
