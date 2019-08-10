@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-26 02:43+0200\n"
+"POT-Creation-Date: 2019-08-10 02:42+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -30,24 +30,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runabh@gmail.com"
 
-#: kcmoduleloader.cpp:79
+#: kcmoduleloader.cpp:78
 #, kde-format
 msgid "The module %1 could not be found."
 msgstr "মডিউল %1 পাওয়া যায়নি।"
 
-#: kcmoduleloader.cpp:80
+#: kcmoduleloader.cpp:79
 #, kde-format
 msgid ""
 "<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></"
 "qt>"
 msgstr "<qt><p>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 পাওয়া যায়নি।</p></qt>"
 
-#: kcmoduleloader.cpp:82
+#: kcmoduleloader.cpp:81
 #, kde-format
 msgid "The module %1 is disabled."
 msgstr "%1 মডিউল নিষ্ক্রিয় করা হয়েছে।"
 
-#: kcmoduleloader.cpp:83
+#: kcmoduleloader.cpp:82
 #, kde-format
 msgid ""
 "<qt><p>Either the hardware/software the module configures is not available "
@@ -56,12 +56,12 @@ msgstr ""
 "<qt><p>সম্ভবত মডিউল দ্বারা কনফিগার হওয়া হার্ডওয়্যার/সফ্টওয়্যার উপলব্ধ নয় অথবা "
 "অ্যাডমিনিস্ট্রেটর দ্বারা মডিউল নিষ্ক্রিয় করা হয়েছে।</p></qt>"
 
-#: kcmoduleloader.cpp:140
+#: kcmoduleloader.cpp:139
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "%1 মডিউলটি বৈধ কনফিগারেশন মডিউল নয়।"
 
-#: kcmoduleloader.cpp:141
+#: kcmoduleloader.cpp:140
 #, kde-format
 msgid ""
 "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 "<qt>কারণ নির্ণয়:<br />ডেস্কটপ ফাইল %1 দ্বারা কোনো লাইব্রেরি নির্দেশিত হয়নি।</qt>"
 
-#: kcmoduleloader.cpp:156
+#: kcmoduleloader.cpp:155
 #, kde-format
 msgid ""
 "<qt><p>Possible reasons:<ul><li>An error occurred during your last system "
@@ -79,13 +79,13 @@ msgid ""
 "this fails, consider contacting your distributor or packager.</p></qt>"
 msgstr ""
 
-#: kcmoduleproxy.cpp:127
+#: kcmoduleproxy.cpp:119
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
 msgstr "কনফিগারেশনের এই বিভাগ বর্তমানে %1-র মধ্যে খোলা রয়েছে"
 
-#: kcmultidialog.cpp:63
+#: kcmultidialog.cpp:62
 #, fuzzy, kde-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -97,13 +97,13 @@ msgstr ""
 "\"%1\" ডকুমেন্টে কিছু পরিবর্তন করা হয়েছে।\n"
 "পরিবর্তনগুলি সংরক্ষণ করা হবে কি বর্জন করা হবে?"
 
-#: kcmultidialog.cpp:65
+#: kcmultidialog.cpp:64
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgid "Apply Settings"
 msgstr "বৈশিষ্ট্য"
 
-#: kcmultidialog.cpp:241 kpluginselector.cpp:720
+#: kcmultidialog.cpp:240 kpluginselector.cpp:720
 #, kde-format
 msgid "Configure"
 msgstr "কনফিগার করুন"
@@ -501,7 +501,7 @@ msgctxt "Used only for plugins"
 msgid "About %1"
 msgstr "%1 পরিচিতি"
 
-#: ksettings/componentsdialog.cpp:55
+#: ksettings/componentsdialog.cpp:56
 #, kde-format
 msgid "Select Components"
 msgstr "সামগ্রী নির্বাচন করুন"

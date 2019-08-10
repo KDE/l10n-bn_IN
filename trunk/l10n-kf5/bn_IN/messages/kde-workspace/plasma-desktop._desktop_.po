@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-09 01:40+0000\n"
+"POT-Creation-Date: 2019-08-10 01:27+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -970,22 +970,32 @@ msgid ""
 msgstr ""
 
 #: kcms/lookandfeel/kcm_lookandfeel.desktop:14
-#: kcms/lookandfeel/lookandfeel.knsrc:2
 #: kcms/lookandfeel/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cursor Files"
 msgctxt "Name"
-msgid "Look and Feel"
-msgstr ""
+msgid "Global Theme"
+msgstr "কার্সারের ফাইল"
 
 #: kcms/lookandfeel/kcm_lookandfeel.desktop:54
 #: kcms/lookandfeel/package/metadata.desktop:42
 msgctxt "Comment"
-msgid "Choose Look and Feel theme"
+msgid "Choose global look and feel"
 msgstr ""
 
 #: kcms/lookandfeel/kcm_lookandfeel.desktop:80
 msgctxt "X-KDE-Keywords"
 msgid "theme, look, feel"
 msgstr ""
+
+#: kcms/lookandfeel/lookandfeel.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Global Keyboard Shortcuts"
+msgctxt "Name"
+msgid "Global Themes"
+msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
 #: kcms/mouse/mouse.desktop:154
 msgctxt "X-KDE-Keywords"
@@ -1691,13 +1701,6 @@ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্�
 #~ msgctxt "Comment"
 #~ msgid "Emoticon Theme"
 #~ msgstr "ইমোআইকন থিম পরিচালন ব্যবস্থা"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cursor Files"
-#~ msgctxt "Comment"
-#~ msgid "Icon Theme"
-#~ msgstr "কার্সারের ফাইল"
 
 #, fuzzy
 #~| msgctxt "Name"
