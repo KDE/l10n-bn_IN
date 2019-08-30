@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmimetypefinder\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-29 07:23+0200\n"
+"POT-Creation-Date: 2019-08-30 07:51+0200\n"
 "PO-Revision-Date: 2010-01-04 12:43+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -41,13 +41,13 @@ msgstr "MimeType অনুসন্ধান ব্যবস্থা"
 msgid "Gives the MIME type for a given file"
 msgstr "কোনো নির্দিষ্ট ফাইলের mimetype প্রাপ্ত করতে ব্যবহৃত"
 
-#: kmimetypefinder.cpp:45
+#: kmimetypefinder.cpp:44
 #, fuzzy, kde-format
 #| msgid "Use only the file content for determining the mimetype."
 msgid "Use only the file content for determining the MIME type."
 msgstr "mimetype নির্ধারণের জন্য শুধুমাত্র ফাইলের বিষয়বস্তু প্রয়োগ করা হবে।"
 
-#: kmimetypefinder.cpp:46
+#: kmimetypefinder.cpp:45
 #, fuzzy, kde-format
 #| msgid ""
 #| "Whether use the file name only for determining the mimetype. Not used if -"
@@ -59,7 +59,7 @@ msgstr ""
 "mimetype নির্ধারণের জন্য শুধুমাত্র ফাইলের নাম ব্যবহার করা হবে কি না। -c বিকল্পটি "
 "প্রয়োগ করা হলে এটি ব্যবহার করা হয় না।"
 
-#: kmimetypefinder.cpp:47
+#: kmimetypefinder.cpp:46
 #, kde-format
 msgid "The filename to test. '-' to read from stdin."
 msgstr "পরীক্ষার উদ্দেশ্যে ফাইলের নাম। '-' stdin থেকে পড়া হবে।"
