@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwinrules\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-17 03:28+0200\n"
+"POT-Creation-Date: 2019-09-20 03:31+0200\n"
 "PO-Revision-Date: 2009-01-07 14:37+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -893,19 +893,20 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, placement)
 #: ruleswidgetbase.ui:1066
 #, kde-format
-msgid "Smart"
+msgid "Minimal Overlapping"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, placement)
 #: ruleswidgetbase.ui:1071
-#, kde-format
-msgid "Maximizing"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "M&inimized"
+msgid "Maximized"
+msgstr "সর্বনিম্ন মাপ (&i)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, placement)
 #: ruleswidgetbase.ui:1076
 #, kde-format
-msgid "Cascade"
+msgid "Cascaded"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, placement)
@@ -922,8 +923,9 @@ msgstr "যথেচ্ছ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, placement)
 #: ruleswidgetbase.ui:1091
-#, kde-format
-msgid "Top-Left Corner"
+#, fuzzy, kde-format
+#| msgid "Top-Left Corner"
+msgid "In Top-Left Corner"
 msgstr "উপরে-ডানদিকের কোণায়"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, placement)
