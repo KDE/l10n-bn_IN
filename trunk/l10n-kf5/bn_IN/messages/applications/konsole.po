@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:27+0200\n"
+"POT-Creation-Date: 2019-10-06 02:26+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -913,6 +913,13 @@ msgstr ""
 msgid "Make the cursor blink regularly"
 msgstr "নিয়মিতরূপে কার্সারে ঝলকানি হবে"
 
+#. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
+#. i18n: ectx: property (text), widget (QCheckBox, alignToCenterButton)
+#: EditProfileAppearancePage.ui:407 EditProfileAppearancePage.ui:576
+#, kde-format
+msgid "Enabled"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: attribute (title), widget (QWidget, miscTab)
 #: EditProfileAppearancePage.ui:430 EditProfileMousePage.ui:249
@@ -959,12 +966,6 @@ msgstr ""
 #: EditProfileAppearancePage.ui:563
 #, kde-format
 msgid "Align to center:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, alignToCenterButton)
-#: EditProfileAppearancePage.ui:576
-#, kde-format
-msgid "Enabled"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
