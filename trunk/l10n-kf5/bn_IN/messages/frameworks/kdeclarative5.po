@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-09 02:54+0200\n"
+"POT-Creation-Date: 2019-10-09 02:44+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -100,6 +100,17 @@ msgstr "টেপা কি-টি Qt-র মধ্যে সমর্থিত 
 #, kde-format
 msgid "Unsupported Key"
 msgstr "অসমর্থিত-কি"
+
+#: quickaddons/configmodule.cpp:173
+#, fuzzy, kde-format
+#| msgid "invalid flags"
+msgid "Invalid KPackage"
+msgstr "অবৈধ ফ্ল্যাগ"
+
+#: quickaddons/configmodule.cpp:179
+#, kde-format
+msgid "No QML file provided"
+msgstr ""
 
 #, fuzzy
 #~| msgctxt "No shortcut defined"
@@ -2108,9 +2119,6 @@ msgstr "অসমর্থিত-কি"
 
 #~ msgid "non-recoverable failure in name resolution"
 #~ msgstr "নাম মীমাংসা করতে স্থায়ী বিপর্যয়"
-
-#~ msgid "invalid flags"
-#~ msgstr "অবৈধ ফ্ল্যাগ"
 
 #~ msgid "memory allocation failure"
 #~ msgstr "মেমরি বরাদ্দ করতে বিফলতা"
