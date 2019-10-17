@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-16 01:47+0000\n"
+"POT-Creation-Date: 2019-10-17 01:32+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -937,7 +937,6 @@ msgid "Sends updated location data to the compositor"
 msgstr ""
 
 #: login-sessions/plasma.desktop.cmake:6
-#: login-sessions/plasmawayland.desktop.cmake:5
 msgctxt "Name"
 msgid "Plasma"
 msgstr ""
@@ -950,10 +949,22 @@ msgctxt "Comment"
 msgid "Plasma by KDE"
 msgstr ""
 
+#: login-sessions/plasmawayland.desktop.cmake:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
+msgctxt "Name"
+msgid "Plasma (Wayland)"
+msgstr "ডেস্কটপ"
+
 #: login-sessions/plasmawayland-dev.desktop.cmake:4
+msgctxt "Name"
+msgid "Plasma (Development, Wayland ${CMAKE_INSTALL_FULL_BINDIR})"
+msgstr ""
+
 #: login-sessions/plasmax11-dev.desktop.cmake:5
 msgctxt "Name"
-msgid "Plasma (Development ${CMAKE_INSTALL_FULL_BINDIR})"
+msgid "Plasma (Development, X11 ${CMAKE_INSTALL_FULL_BINDIR})"
 msgstr ""
 
 #: lookandfeel/metadata.desktop:2
@@ -1113,6 +1124,14 @@ msgstr "অ্যাপ্লিকেশন তালিকা"
 msgctxt "Name"
 msgid "Multimedia"
 msgstr "মাল্টি-মিডিয়া"
+
+#: menu/desktop/kf5-network.directory:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Networking"
+msgctxt "Name"
+msgid "Network"
+msgstr "নেটওয়ার্ক ব্যবস্থা"
 
 #: menu/desktop/kf5-office.directory:3
 msgctxt "Name"
@@ -1782,10 +1801,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Calendar data engine"
 #~ msgstr "বর্ষপঞ্জি পরিচালন ব্যবস্থা"
-
-#~ msgctxt "Name"
-#~ msgid "Networking"
-#~ msgstr "নেটওয়ার্ক ব্যবস্থা"
 
 #~ msgctxt "Comment"
 #~ msgid "Network interface information"
