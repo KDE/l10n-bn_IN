@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-21 02:56+0200\n"
+"POT-Creation-Date: 2019-10-21 02:51+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -164,7 +164,7 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
 
-#: kaboutapplicationpersonmodel_p.cpp:206
+#: kaboutapplicationpersonmodel_p.cpp:202
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1 is 'the slot asked for foo arguments', %2 is 'but there are only bar "
@@ -174,7 +174,7 @@ msgctxt "City, Country"
 msgid "%1, %2"
 msgstr "%1, %2."
 
-#: kaboutapplicationpersonmodel_p.cpp:309
+#: kaboutapplicationpersonmodel_p.cpp:305
 #, fuzzy, kde-format
 #| msgctxt "@item Text character set"
 #| msgid "Other"
@@ -182,13 +182,13 @@ msgctxt "A generic social network or homepage link of an unlisted type."
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kaboutapplicationpersonmodel_p.cpp:311
+#: kaboutapplicationpersonmodel_p.cpp:307
 #, kde-format
 msgctxt "A type of link."
 msgid "Blog"
 msgstr ""
 
-#: kaboutapplicationpersonmodel_p.cpp:319
+#: kaboutapplicationpersonmodel_p.cpp:315
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgctxt "A type of link."
@@ -617,29 +617,29 @@ msgstr "আইকন টেক্সট: (&x)"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
-#: kedittoolbar.cpp:617
+#: kedittoolbar.cpp:616
 #, kde-format
 msgid "Configure Toolbars"
 msgstr "টুল-বার কনফিগার করুন"
 
-#: kedittoolbar.cpp:680
+#: kedittoolbar.cpp:679
 #, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
 msgstr ""
 
-#: kedittoolbar.cpp:680
+#: kedittoolbar.cpp:679
 #, kde-format
 msgid "Reset Toolbars"
 msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
-#: kedittoolbar.cpp:680
+#: kedittoolbar.cpp:679
 #, kde-format
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
-#: kedittoolbar.cpp:1006
+#: kedittoolbar.cpp:1004
 #, kde-format
 msgid "&Toolbar:"
 msgstr "টুল-বার: (&T)"
@@ -651,101 +651,101 @@ msgstr "টুল-বার: (&T)"
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1021
+#: kedittoolbar.cpp:1019
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "উপলব্ধ করুন: (&v)"
 
-#: kedittoolbar.cpp:1036 kedittoolbar.cpp:1055
+#: kedittoolbar.cpp:1034 kedittoolbar.cpp:1053
 #, kde-format
 msgid "Filter"
 msgstr "ফিল্টার"
 
-#: kedittoolbar.cpp:1039
+#: kedittoolbar.cpp:1037
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "বর্তমান কর্ম: (&e)"
 
-#: kedittoolbar.cpp:1058
+#: kedittoolbar.cpp:1056
 #, kde-format
 msgid "Change &Icon..."
 msgstr "আইকন পরিবর্তন করুন...(&I)"
 
-#: kedittoolbar.cpp:1066
+#: kedittoolbar.cpp:1064
 #, kde-format
 msgid "Change Te&xt..."
 msgstr "টেক্সট পরিবর্তন করুন...(&x)"
 
-#: kedittoolbar.cpp:1221
+#: kedittoolbar.cpp:1217
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1248
+#: kedittoolbar.cpp:1244
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kedittoolbar.cpp:1250
+#: kedittoolbar.cpp:1246
 #, kde-format
 msgid "<Merge>"
 msgstr "<Merge>"
 
-#: kedittoolbar.cpp:1252
+#: kedittoolbar.cpp:1248
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Merge %1>"
 
-#: kedittoolbar.cpp:1258
+#: kedittoolbar.cpp:1254
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kedittoolbar.cpp:1259
+#: kedittoolbar.cpp:1255
 #, kde-format
 msgid "ActionList: %1"
 msgstr "ActionList: %1"
 
-#: kedittoolbar.cpp:1365 kedittoolbar.cpp:1392
+#: kedittoolbar.cpp:1357 kedittoolbar.cpp:1384
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1621
+#: kedittoolbar.cpp:1611
 #, kde-format
 msgid "Change Icon"
 msgstr "আইকন পরিবর্তন করুন"
 
-#: kgesture.cpp:503
+#: kgesture.cpp:502
 #, kde-format
 msgctxt "left mouse button"
 msgid "left button"
 msgstr "মাউসের বাঁদিকের বাটন"
 
-#: kgesture.cpp:505
+#: kgesture.cpp:504
 #, kde-format
 msgctxt "middle mouse button"
 msgid "middle button"
 msgstr "মাউসের মাঝের বাটন"
 
-#: kgesture.cpp:507
+#: kgesture.cpp:506
 #, kde-format
 msgctxt "right mouse button"
 msgid "right button"
 msgstr "মাউসের ডানদিকেট বাটন"
 
-#: kgesture.cpp:509
+#: kgesture.cpp:508
 #, kde-format
 msgctxt "a nonexistent value of mouse button"
 msgid "invalid button"
 msgstr "অবৈধ বাটন"
 
-#: kgesture.cpp:522
+#: kgesture.cpp:521
 #, kde-format
 msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
@@ -1194,17 +1194,17 @@ msgstr "সার্বজনীন:"
 msgid "Global alternate:"
 msgstr "সার্বজনীন বিকল্প"
 
-#: kshortcutseditor.cpp:734
+#: kshortcutseditor.cpp:735
 #, kde-format
 msgid "Action Name"
 msgstr "কর্মের নাম"
 
-#: kshortcutseditor.cpp:738
+#: kshortcutseditor.cpp:739
 #, kde-format
 msgid "Shortcuts"
 msgstr "শর্ট-কাট"
 
-#: kshortcutseditor.cpp:742
+#: kshortcutseditor.cpp:743
 #, kde-format
 msgid "Description"
 msgstr "বিবরণ"
@@ -1239,7 +1239,7 @@ msgstr ""
 "ব্যবহারের জন্য চিহ্নিত ভাষার জন্য যথাযত অনুবাদ অনুপস্থিত থাকলে বিকল্প হিসাবে "
 "ব্যবহারের উদ্দেশ্যে চিহ্নিত পৃথক একটি ভাষা যোগ করা হয়।"
 
-#: kswitchlanguagedialog_p.cpp:289 kswitchlanguagedialog_p.cpp:311
+#: kswitchlanguagedialog_p.cpp:288 kswitchlanguagedialog_p.cpp:310
 #, kde-format
 msgid ""
 "The language for this application has been changed. The change will take "
@@ -1248,27 +1248,27 @@ msgstr ""
 "চিহ্নিত অ্যাপ্লিকেশনের ভাষা পরিবর্তন করা হয়েছে। অ্যাপ্লিকেশন পুনরারম্ভ করা হলে এই "
 "পরিবর্তন প্রয়োগ করা হবে।"
 
-#: kswitchlanguagedialog_p.cpp:290 kswitchlanguagedialog_p.cpp:312
+#: kswitchlanguagedialog_p.cpp:289 kswitchlanguagedialog_p.cpp:311
 #, kde-format
 msgid "Application Language Changed"
 msgstr "অ্যাপ্লিকেশনে ব্যবহৃত ভাষা ব্যবহৃত হয়েছে"
 
-#: kswitchlanguagedialog_p.cpp:400
+#: kswitchlanguagedialog_p.cpp:399
 #, kde-format
 msgid "Primary language:"
 msgstr "প্রধান ভাষা:"
 
-#: kswitchlanguagedialog_p.cpp:400
+#: kswitchlanguagedialog_p.cpp:399
 #, kde-format
 msgid "Fallback language:"
 msgstr "বিকল্প ভাষা:"
 
-#: kswitchlanguagedialog_p.cpp:415
+#: kswitchlanguagedialog_p.cpp:414
 #, kde-format
 msgid "Remove"
 msgstr "মুছে ফেলুন"
 
-#: kswitchlanguagedialog_p.cpp:422
+#: kswitchlanguagedialog_p.cpp:421
 #, kde-format
 msgid ""
 "This is the main application language which will be used first, before any "
@@ -1276,7 +1276,7 @@ msgid ""
 msgstr ""
 "এই অ্যাপ্লিকেশনের জন্য অন্যান্য কোনো ভাষা ব্যবহারের আগে চিহ্নিত ভাষা প্রয়োগ করা হবে।"
 
-#: kswitchlanguagedialog_p.cpp:423
+#: kswitchlanguagedialog_p.cpp:422
 #, kde-format
 msgid ""
 "This is the language which will be used if any previous languages do not "
