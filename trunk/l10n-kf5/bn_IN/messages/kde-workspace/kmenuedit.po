@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-29 03:30+0100\n"
+"POT-Creation-Date: 2019-11-19 03:35+0100\n"
 "PO-Revision-Date: 2009-01-08 20:11+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -28,27 +28,27 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: basictab.cpp:68
+#: basictab.cpp:61
 #, kde-format
 msgid "&Name:"
 msgstr "নাম: (&N)"
 
-#: basictab.cpp:77
+#: basictab.cpp:70
 #, kde-format
 msgid "&Description:"
 msgstr "বিবরণ: (&D)"
 
-#: basictab.cpp:85
+#: basictab.cpp:78
 #, kde-format
 msgid "&Comment:"
 msgstr "মন্তব্য: (&C)"
 
-#: basictab.cpp:93
+#: basictab.cpp:86
 #, kde-format
 msgid "Co&mmand:"
 msgstr "কমান্ড: (&m)"
 
-#: basictab.cpp:98
+#: basictab.cpp:91
 #, kde-format
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -65,66 +65,64 @@ msgid ""
 "%c - the caption"
 msgstr ""
 
-#: basictab.cpp:113
+#: basictab.cpp:106
 #, kde-format
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:117
+#: basictab.cpp:110
 #, kde-format
 msgid "Only show in KDE"
 msgstr "শুধুমাত্র KDE-র মধ্যে প্রদর্শন করা হবে"
 
-#: basictab.cpp:121
+#: basictab.cpp:114
 #, kde-format
 msgid "Hidden entry"
 msgstr "আড়াল করা এনট্রি"
 
-#: basictab.cpp:133 preferencesdlg.cpp:75
+#: basictab.cpp:126 preferencesdlg.cpp:75
 #, kde-format
 msgid "General"
 msgstr "সাধারণ"
 
-#: basictab.cpp:145
+#: basictab.cpp:138
 #, kde-format
 msgid "&Work path:"
 msgstr ""
 
-#: basictab.cpp:157
+#: basictab.cpp:150
 #, kde-format
 msgid "Run in term&inal"
 msgstr "টার্মিন্যালে সঞ্চালনা (&i)"
 
-#: basictab.cpp:162
+#: basictab.cpp:155
 #, kde-format
 msgid "Terminal &options:"
 msgstr "টার্মিন্যাল সংক্রান্ত বিকল্প (&o)"
 
-#: basictab.cpp:176
+#: basictab.cpp:169
 #, kde-format
 msgid "&Run as a different user"
 msgstr "ভিন্ন ব্যবহারকারী রূপে সঞ্চালন করুন (&R)"
 
-#: basictab.cpp:181
+#: basictab.cpp:174
 #, kde-format
 msgid "&Username:"
 msgstr "ব্যবহারকারী: (&U)"
 
-#: basictab.cpp:195
+#: basictab.cpp:188
 #, kde-format
 msgid "Current shortcut &key:"
 msgstr "বর্তমান শর্ট-কাট কি: (&k)"
 
-#: basictab.cpp:206
+#: basictab.cpp:199
 #, kde-format
 msgid "Advanced"
 msgstr "উন্নত বৈশিষ্ট্য"
 
-#: khotkeys.cpp:51
+#: globalaccel.cpp:39
 #, kde-format
-msgid ""
-"Unable to contact khotkeys. Your changes are saved, but they could not be "
-"activated."
+msgid "Launch %1"
 msgstr ""
 
 #: kmenuedit.cpp:68
@@ -232,62 +230,62 @@ msgstr "সম্পাদনা (&E)"
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
 
-#: main.cpp:34
+#: main.cpp:31
 #, kde-format
 msgid "KDE menu editor"
 msgstr "KDE মেনু সম্পাদনা ব্যবস্থা"
 
-#: main.cpp:47 main.cpp:70 main.cpp:82
+#: main.cpp:44 main.cpp:59 main.cpp:71
 #, kde-format
 msgid "KDE Menu Editor"
 msgstr "KDE মেনু সম্পাদনা ব্যবস্থা"
 
-#: main.cpp:72
+#: main.cpp:61
 #, kde-format
 msgid "(C) 2000-2003, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
 msgstr "(C) ২০০০-২০০৩, ওয়াল্ডো ব্যাস্টিয়েন, রাফেল সান্দ্রিনি, ম্যাথায়েস এলটার"
 
-#: main.cpp:73
+#: main.cpp:62
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়েন"
 
-#: main.cpp:73
+#: main.cpp:62
 #, kde-format
 msgid "Maintainer"
 msgstr "মেইন্টেনার"
 
-#: main.cpp:74
+#: main.cpp:63
 #, kde-format
 msgid "Raffaele Sandrini"
 msgstr " রাফেল সান্দ্রিনি"
 
-#: main.cpp:74
+#: main.cpp:63
 #, kde-format
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী মেইন্টেনার"
 
-#: main.cpp:75
+#: main.cpp:64
 #, kde-format
 msgid "Matthias Elter"
 msgstr "ম্যাথায়েস এলটার"
 
-#: main.cpp:75
+#: main.cpp:64
 #, kde-format
 msgid "Original Author"
 msgstr "মূল নির্মাতা"
 
-#: main.cpp:76
+#: main.cpp:65
 #, kde-format
 msgid "Montel Laurent"
 msgstr "মন্টেল লরেন্ট"
 
-#: main.cpp:84
+#: main.cpp:73
 #, kde-format
 msgid "Sub menu to pre-select"
 msgstr "পূর্বে নির্বাচনের জন্য চিহ্নিত সাব-মেনু"
 
-#: main.cpp:87
+#: main.cpp:76
 #, kde-format
 msgid "Menu entry to pre-select"
 msgstr "পূর্বে নির্বাচনের জন্য চিহ্নিত মেনুর এনট্রি"
