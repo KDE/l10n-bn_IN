@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-14 03:35+0100\n"
+"POT-Creation-Date: 2019-11-20 03:34+0100\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -72,7 +72,7 @@ msgstr "ইসন্টলেশন স্থলের URL"
 msgid "Print"
 msgstr "প্রিন্ট করুন"
 
-#: apps/Printer.cpp:417 kcmfontinst/DuplicatesDialog.cpp:257
+#: apps/Printer.cpp:417 kcmfontinst/DuplicatesDialog.cpp:252
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgid "Canceling..."
@@ -135,27 +135,27 @@ msgstr "সরল ফন্ট প্রদর্শন ব্যবস্থা
 msgid "(C) Craig Drummond, 2004-2007"
 msgstr "(C) ক্রেগ ড্রাম্‌মন্ড, ২০০৪-২০০৭ "
 
-#: kcmfontinst/DuplicatesDialog.cpp:73
+#: kcmfontinst/DuplicatesDialog.cpp:68
 #, kde-format
 msgid "Duplicate Fonts"
 msgstr "ফন্টের প্রতিলিপি"
 
-#: kcmfontinst/DuplicatesDialog.cpp:103
+#: kcmfontinst/DuplicatesDialog.cpp:98
 #, kde-format
 msgid "Scanning for duplicate fonts. Please wait..."
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:126
+#: kcmfontinst/DuplicatesDialog.cpp:121
 #, kde-format
 msgid "No duplicate fonts found."
 msgstr "কোনো ফন্টের প্রতিলিপি পাওয়া যায়নি"
 
-#: kcmfontinst/DuplicatesDialog.cpp:136
+#: kcmfontinst/DuplicatesDialog.cpp:131
 #, kde-format
 msgid "Delete Marked Files"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:138
+#: kcmfontinst/DuplicatesDialog.cpp:133
 #, fuzzy, kde-format
 #| msgid "%1 duplicate fonts found."
 msgid "%1 duplicate font found."
@@ -163,7 +163,7 @@ msgid_plural "%1 duplicate fonts found."
 msgstr[0] "ফন্টের %1-টি প্রতিলিপি পাওয়া গিয়েছে।"
 msgstr[1] "ফন্টের %1-টি প্রতিলিপি পাওয়া গিয়েছে।"
 
-#: kcmfontinst/DuplicatesDialog.cpp:229
+#: kcmfontinst/DuplicatesDialog.cpp:224
 #, kde-format
 msgid ""
 "Are you sure you wish to delete:\n"
@@ -172,60 +172,60 @@ msgstr ""
 "নিশ্চিতরূপে মুছে ফেলা হবে কি:\n"
 "%1"
 
-#: kcmfontinst/DuplicatesDialog.cpp:231
+#: kcmfontinst/DuplicatesDialog.cpp:226
 #, kde-format
 msgid "Are you sure you wish to delete:"
 msgstr "নিশ্চিতরূপে মুছে ফেলা হবে কি:"
 
-#: kcmfontinst/DuplicatesDialog.cpp:255
+#: kcmfontinst/DuplicatesDialog.cpp:250
 #, fuzzy, kde-format
 #| msgid "Abort font scan?"
 msgid "Cancel font scan?"
 msgstr "ফন্ট অনুসন্ধান পরিত্যাগ করা হবে কি?"
 
-#: kcmfontinst/DuplicatesDialog.cpp:422
+#: kcmfontinst/DuplicatesDialog.cpp:417
 #, kde-format
 msgid "Font/File"
 msgstr "ফন্ট/ফাইল"
 
-#: kcmfontinst/DuplicatesDialog.cpp:424
+#: kcmfontinst/DuplicatesDialog.cpp:419
 #, kde-format
 msgid "Size"
 msgstr "মাপ"
 
-#: kcmfontinst/DuplicatesDialog.cpp:425
+#: kcmfontinst/DuplicatesDialog.cpp:420
 #, kde-format
 msgid "Date"
 msgstr "তারিখ"
 
-#: kcmfontinst/DuplicatesDialog.cpp:426
+#: kcmfontinst/DuplicatesDialog.cpp:421
 #, kde-format
 msgid "Links To"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:439 kcmfontinst/FontList.cpp:1422
+#: kcmfontinst/DuplicatesDialog.cpp:434 kcmfontinst/FontList.cpp:1422
 #, kde-format
 msgid "Open in Font Viewer"
 msgstr "ফন্ট প্রদর্শন ব্যবস্থায় খোলা হবে"
 
-#: kcmfontinst/DuplicatesDialog.cpp:441
+#: kcmfontinst/DuplicatesDialog.cpp:436
 #, kde-format
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
-#: kcmfontinst/DuplicatesDialog.cpp:444
+#: kcmfontinst/DuplicatesDialog.cpp:439
 #, fuzzy, kde-format
 #| msgid "Mark for Deletion..."
 msgid "Unmark for Deletion"
 msgstr "মুছে ফেলার চিহ্নিত..."
 
-#: kcmfontinst/DuplicatesDialog.cpp:446
+#: kcmfontinst/DuplicatesDialog.cpp:441
 #, fuzzy, kde-format
 #| msgid "Mark for Deletion..."
 msgid "Mark for Deletion"
 msgstr "মুছে ফেলার চিহ্নিত..."
 
-#: kcmfontinst/DuplicatesDialog.cpp:546
+#: kcmfontinst/DuplicatesDialog.cpp:541
 #, fuzzy, kde-format
 #| msgid "Open all %1 fonts in font viewer?"
 msgid "Open font in font viewer?"
