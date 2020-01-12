@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-30 02:32+0100\n"
+"POT-Creation-Date: 2020-01-12 02:36+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1286,13 +1286,13 @@ msgstr "অনুসন্ধান..."
 msgid "Search for %1"
 msgstr "অনুসন্ধান টুলবার"
 
-#: dolphinviewcontainer.cpp:548
+#: dolphinviewcontainer.cpp:549
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ফোল্ডার খোলা হচ্ছে..."
 
-#: dolphinviewcontainer.cpp:556
+#: dolphinviewcontainer.cpp:557
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -1300,7 +1300,7 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:567
+#: dolphinviewcontainer.cpp:568
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Search..."
@@ -1308,25 +1308,25 @@ msgctxt "@info"
 msgid "Searching..."
 msgstr "অনুসন্ধান..."
 
-#: dolphinviewcontainer.cpp:588
+#: dolphinviewcontainer.cpp:589
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:695
+#: dolphinviewcontainer.cpp:697
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin ওয়েব পাতা সমর্থন করে না, ওয়েব ব্রাউজার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:709
+#: dolphinviewcontainer.cpp:711
 #, kde-format
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "Dolphin এই  প্রোটোকল সমর্থন করেনা, Konqueror চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:717
+#: dolphinviewcontainer.cpp:719
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
@@ -4006,28 +4006,28 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "ফোল্ডার প্রথমে"
 
-#: views/dolphinview.cpp:843
+#: views/dolphinview.cpp:844
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:953
+#: views/dolphinview.cpp:954
 #, fuzzy, kde-format
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:958
+#: views/dolphinview.cpp:959
 #, fuzzy, kde-format
 #| msgid "Column width"
 msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "কলামের প্রস্থ"
 
-#: views/dolphinview.cpp:1477
+#: views/dolphinview.cpp:1478
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Delete operation completed."
@@ -4035,54 +4035,54 @@ msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1486
+#: views/dolphinview.cpp:1487
 #, kde-format
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ হলো।"
 
-#: views/dolphinview.cpp:1602
+#: views/dolphinview.cpp:1603
 #, fuzzy, kde-format
 #| msgid "Rename inline"
 msgctxt "@action:button"
 msgid "Rename and Hide"
 msgstr "inline নাম পরিবর্তন"
 
-#: views/dolphinview.cpp:1605
+#: views/dolphinview.cpp:1606
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this file's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
 
-#: views/dolphinview.cpp:1607
+#: views/dolphinview.cpp:1608
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this folder's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
 
-#: views/dolphinview.cpp:1609
+#: views/dolphinview.cpp:1610
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Show Hidden Files"
 msgid "Hide this File?"
 msgstr "গোপন ফাইলগুলো দেখানো হবে"
 
-#: views/dolphinview.cpp:1609
+#: views/dolphinview.cpp:1610
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Home Folder"
 msgid "Hide this Folder?"
 msgstr "হোম ফোল্ডার"
 
-#: views/dolphinview.cpp:1654
+#: views/dolphinview.cpp:1655
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "এই জায়গাটা ইতেমধ্যেই খালি।"
 
-#: views/dolphinview.cpp:1656
+#: views/dolphinview.cpp:1657
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -4420,52 +4420,6 @@ msgctxt "Sort ascending"
 msgid "Ascending"
 msgstr ""
 
-#: views/renamedialog.cpp:55
-#, kde-format
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "অাইটেমের নাম পরিবর্তন"
-
-#: views/renamedialog.cpp:56
-#, kde-format
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "অাইটেম সমূহের নাম পরিবর্তন"
-
-#: views/renamedialog.cpp:68
-#, kde-format
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "নাম পরিবর্তন (&R)"
-
-#: views/renamedialog.cpp:79
-#, kde-kuit-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "অাইটেম <filename>%1</filename> নাম পরিবর্তন:"
-
-#: views/renamedialog.cpp:83
-#, kde-format
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "নতুন নাম #"
-
-#: views/renamedialog.cpp:85
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "%1 অাইটেমের নাম পরিবর্তন:"
-msgstr[1] "%1 অাইটেম সমূহের নাম পরিবর্তন:"
-
-#: views/renamedialog.cpp:130
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "(# will be replaced by ascending numbers)"
-msgctxt "@info"
-msgid "# will be replaced by ascending numbers starting with:"
-msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
-
 #: views/versioncontrol/versioncontrolobserver.cpp:235
 #, fuzzy, kde-format
 #| msgctxt "@label"
@@ -4473,6 +4427,39 @@ msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো ন
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "অতিরিক্ত তথ্য"
+
+#~ msgctxt "@title:window"
+#~ msgid "Rename Item"
+#~ msgstr "অাইটেমের নাম পরিবর্তন"
+
+#~ msgctxt "@title:window"
+#~ msgid "Rename Items"
+#~ msgstr "অাইটেম সমূহের নাম পরিবর্তন"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Rename"
+#~ msgstr "নাম পরিবর্তন (&R)"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Rename the item <filename>%1</filename> to:"
+#~ msgstr "অাইটেম <filename>%1</filename> নাম পরিবর্তন:"
+
+#~ msgctxt "@info:status"
+#~ msgid "New name #"
+#~ msgstr "নতুন নাম #"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Rename the %1 selected item to:"
+#~ msgid_plural "Rename the %1 selected items to:"
+#~ msgstr[0] "%1 অাইটেমের নাম পরিবর্তন:"
+#~ msgstr[1] "%1 অাইটেম সমূহের নাম পরিবর্তন:"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "(# will be replaced by ascending numbers)"
+#~ msgctxt "@info"
+#~ msgid "# will be replaced by ascending numbers starting with:"
+#~ msgstr "(# -এর জায়গায় ছোটোর থেকে বড়ো নম্বর বসবে)"
 
 #, fuzzy
 #~| msgctxt "@option:check"
