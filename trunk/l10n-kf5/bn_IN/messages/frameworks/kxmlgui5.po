@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-12 03:01+0100\n"
+"POT-Creation-Date: 2020-01-15 02:59+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -321,71 +321,71 @@ msgctxt "@title:window"
 msgid "Ambiguous shortcut detected"
 msgstr "শর্ট-কাট"
 
-#: kbugreport.cpp:106
+#: kbugreport.cpp:103
 #, fuzzy, kde-format
 #| msgid "Submit Bug Report"
 msgctxt "@title:window"
 msgid "Submit Bug Report"
 msgstr "বাগ রিপোর্ট জমা করুন"
 
-#: kbugreport.cpp:135
+#: kbugreport.cpp:132
 #, kde-format
 msgid "Submit Bug Report"
 msgstr "বাগ রিপোর্ট জমা করুন"
 
-#: kbugreport.cpp:146
+#: kbugreport.cpp:143
 #, kde-format
 msgid ""
 "Your email address. If incorrect, use the Configure Email button to change it"
 msgstr ""
 "আপনার ই-মেইল ঠিকানা। ভুল হলে 'ই-মেইন কনফিগার করুন' বাটন টিপে তা পরিবর্তন করুন"
 
-#: kbugreport.cpp:147
+#: kbugreport.cpp:144
 #, kde-format
 msgctxt "Email sender address"
 msgid "From:"
 msgstr "প্রেরক:"
 
-#: kbugreport.cpp:155
+#: kbugreport.cpp:152
 #, fuzzy, kde-format
 #| msgid "Configure Email..."
 msgctxt "@action:button"
 msgid "Configure Email..."
 msgstr "ই-মেইল কনফিগার করুন..."
 
-#: kbugreport.cpp:161
+#: kbugreport.cpp:158
 #, kde-format
 msgid "The email address this bug report is sent to."
 msgstr "এই বাগ-রিপোর্টটি যে ই-মেইল ঠিকানায় প্রেরিত হয়েছে।"
 
-#: kbugreport.cpp:162
+#: kbugreport.cpp:159
 #, kde-format
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "প্রাপক:"
 
-#: kbugreport.cpp:171
+#: kbugreport.cpp:168
 #, fuzzy, kde-format
 #| msgid "&Send"
 msgctxt "@action:button"
 msgid "&Send"
 msgstr "পাঠিয়ে দিন (&S)"
 
-#: kbugreport.cpp:172
+#: kbugreport.cpp:169
 #, fuzzy, kde-format
 #| msgid "Send bug report."
 msgctxt "@info:tooltip"
 msgid "Send bug report."
 msgstr "বাগ রিপোর্ট পাঠিয়ে দিন।"
 
-#: kbugreport.cpp:173
+#: kbugreport.cpp:170
 #, fuzzy, kde-format
 #| msgid "Send this bug report to %1."
 msgctxt "@info:whatsthis"
 msgid "Send this bug report to %1."
 msgstr "এই বাগ রিপোর্টটি %1-এ পাঠিয়ে দিন।"
 
-#: kbugreport.cpp:181
+#: kbugreport.cpp:178
 #, kde-format
 msgid ""
 "The application for which you wish to submit a bug report - if incorrect, "
@@ -394,12 +394,12 @@ msgstr ""
 "যে অ্যাপ্লিকেশনের জন্য বাগ রিপোর্ট দায়ের করা হচ্ছে - সঠিক না হলে, অনুগ্রহ করে 'বাগ "
 "রিপোর্ট দায়ের করুন' শীর্ষক মেনু থেকে যথাযত অ্যাপ্লিকেশন নির্বাচন করুন"
 
-#: kbugreport.cpp:182
+#: kbugreport.cpp:179
 #, kde-format
 msgid "Application: "
 msgstr "অ্যাপ্লিকেশন: "
 
-#: kbugreport.cpp:209
+#: kbugreport.cpp:189
 #, kde-format
 msgid ""
 "The version of this application - please make sure that no newer version is "
@@ -408,48 +408,43 @@ msgstr ""
 "অ্যাপ্লিকেশনের সংস্করণ সংখ্যা - বাগ রিপোর্ট দায়ের করার আগে অনুগ্রহ করে পরীক্ষা করে "
 "নিন এই অ্যাপ্লিকেশনের কোনো নতুন সংস্করণ উপলব্ধ রয়েছে কি না।"
 
-#: kbugreport.cpp:210
+#: kbugreport.cpp:190
 #, kde-format
 msgid "Version:"
 msgstr "সংস্করণ:"
 
-#: kbugreport.cpp:215
+#: kbugreport.cpp:195
 #, kde-format
 msgid "no version set (programmer error)"
 msgstr "কোনো সংস্করণ নির্ধারিত হয়নি (প্রোগ্রামারের ত্রুটি)"
 
-#: kbugreport.cpp:227
+#: kbugreport.cpp:207
 #, kde-format
 msgid "OS:"
 msgstr "অপারেটিং সিস্টেম:"
 
-#: kbugreport.cpp:235
-#, kde-format
-msgid "Compiler:"
-msgstr "কম্পাইলার:"
-
-#: kbugreport.cpp:243
+#: kbugreport.cpp:217
 #, fuzzy, kde-format
 #| msgid "Se&verity"
 msgctxt "@title:group"
 msgid "Se&verity"
 msgstr "গুরুত্ব: (&v)"
 
-#: kbugreport.cpp:247
+#: kbugreport.cpp:221
 #, fuzzy, kde-format
 #| msgid "Critical"
 msgctxt "bug severity"
 msgid "Critical"
 msgstr "মারাত্মক"
 
-#: kbugreport.cpp:248
+#: kbugreport.cpp:222
 #, fuzzy, kde-format
 #| msgid "Grave"
 msgctxt "bug severity"
 msgid "Grave"
 msgstr "গুরুতর"
 
-#: kbugreport.cpp:249
+#: kbugreport.cpp:223
 #, fuzzy, kde-format
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -457,26 +452,26 @@ msgctxt "bug severity"
 msgid "Normal"
 msgstr "স্বাভাবিক"
 
-#: kbugreport.cpp:250
+#: kbugreport.cpp:224
 #, fuzzy, kde-format
 #| msgid "Wishlist"
 msgctxt "bug severity"
 msgid "Wishlist"
 msgstr "আকাঙ্ক্ষিত"
 
-#: kbugreport.cpp:251
+#: kbugreport.cpp:225
 #, fuzzy, kde-format
 #| msgid "Translation"
 msgctxt "bug severity"
 msgid "Translation"
 msgstr "অনুবাদ"
 
-#: kbugreport.cpp:269
+#: kbugreport.cpp:243
 #, kde-format
 msgid "S&ubject: "
 msgstr "প্রসঙ্গ: (&u)"
 
-#: kbugreport.cpp:277
+#: kbugreport.cpp:251
 #, kde-format
 msgid ""
 "Enter the text (in English if possible) that you wish to submit for the bug "
@@ -485,7 +480,7 @@ msgid ""
 "program.\n"
 msgstr ""
 
-#: kbugreport.cpp:299
+#: kbugreport.cpp:273
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>To submit a bug report, click on the button below. This will open a "
@@ -502,7 +497,7 @@ msgstr ""
 "\"http://bugs.kde.org\">http://bugs.kde.org</a> প্রদর্শনকারী একটি ওয়েব ব্রাউজার "
 "উইন্ডো খোলা হবে। উপরোক্ত তথ্যগুলি সংশ্লিষ্ট সার্ভারে প্রেরিত হবে।</qt>"
 
-#: kbugreport.cpp:304
+#: kbugreport.cpp:278
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>To submit a bug report, click on the button below. This will open a "
@@ -517,34 +512,28 @@ msgstr ""
 "\"http://bugs.kde.org\">http://bugs.kde.org</a> প্রদর্শনকারী একটি ওয়েব ব্রাউজার "
 "উইন্ডো খোলা হবে। উপরোক্ত তথ্যগুলি সংশ্লিষ্ট সার্ভারে প্রেরিত হবে।</qt>"
 
-#: kbugreport.cpp:321
+#: kbugreport.cpp:294
 #, fuzzy, kde-format
 #| msgid "&Launch Bug Report Wizard"
 msgctxt "@action:button"
 msgid "&Launch Bug Report Wizard"
 msgstr "বাগ রিপোর্ট প্রস্তুতির উইজার্ড আরম্ভ করুন (&L)"
 
-#: kbugreport.cpp:323
+#: kbugreport.cpp:296
 #, fuzzy, kde-format
 #| msgid "Submit Bug Report"
 msgctxt "@action:button"
 msgid "&Submit Bug Report"
 msgstr "বাগ রিপোর্ট জমা করুন"
 
-#: kbugreport.cpp:387
-#, kde-format
-msgctxt "unknown program name"
-msgid "unknown"
-msgstr "অজানা"
-
-#: kbugreport.cpp:446
+#: kbugreport.cpp:390
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr "রিপোর্ট দায়ের করার জন্য প্রসঙ্গ ও বিবরণ উল্লেখ করা আবশ্যক।"
 
-#: kbugreport.cpp:455
+#: kbugreport.cpp:399
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -556,7 +545,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:467
+#: kbugreport.cpp:411
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -568,7 +557,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:481
+#: kbugreport.cpp:425
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to send the bug report.\n"
@@ -583,12 +572,12 @@ msgstr ""
 "অনুগ্রহ করে বাগ রিপোর্ট স্বয়ং দায়ের করুন...\n"
 "নির্দেশাবলীর জন্য http://bugs.kde.org/ দেখুন।"
 
-#: kbugreport.cpp:489
+#: kbugreport.cpp:433
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr "বাগ রিপোর্ট পাঠানো হয়েছে। আপনার মতামত জানানোর জন্য ধন্যবাদ।"
 
-#: kbugreport.cpp:498
+#: kbugreport.cpp:442
 #, kde-format
 msgid ""
 "Close and discard\n"
@@ -597,7 +586,7 @@ msgstr ""
 "পরিবর্তিত বার্তা বন্ধ\n"
 "করে বর্জন করা হবে কি?"
 
-#: kbugreport.cpp:499
+#: kbugreport.cpp:443
 #, fuzzy, kde-format
 #| msgid "Close Message"
 msgctxt "@title:window"
@@ -1573,6 +1562,13 @@ msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
+
+#~ msgid "Compiler:"
+#~ msgstr "কম্পাইলার:"
+
+#~ msgctxt "unknown program name"
+#~ msgid "unknown"
+#~ msgstr "অজানা"
 
 #~ msgid "Delete"
 #~ msgstr "মুছে ফেলুন"

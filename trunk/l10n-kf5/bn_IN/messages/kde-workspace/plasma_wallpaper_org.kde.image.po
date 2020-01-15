@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-11 03:42+0100\n"
+"POT-Creation-Date: 2020-01-15 03:50+0100\n"
 "PO-Revision-Date: 2008-12-22 17:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,29 +18,23 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: image.cpp:251
+#: image.cpp:247
 #, kde-format
 msgid "Recommended wallpaper file"
 msgstr ""
 
-#: image.cpp:379
+#: image.cpp:382
 #, kde-format
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
-#: image.cpp:652
-#, fuzzy, kde-format
-#| msgid "Download new wallpapers"
-msgid "Download Wallpapers"
-msgstr "পটভূমির জন্য নতুন ছবি ডাউনলোড করুন"
-
-#: image.cpp:697
+#: image.cpp:682
 #, fuzzy, kde-format
 #| msgid "Select Wallpaper Image File"
 msgid "Open Image"
 msgstr "পটভূমির জন্য ছবির ফাইল নির্বাচন করুন"
 
-#: image.cpp:699
+#: image.cpp:684
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Image Files"
@@ -184,9 +178,10 @@ msgid "Add Folder..."
 msgstr "ফোল্ডার যোগ করুন: (&A)"
 
 #: imagepackage/contents/ui/config.qml:350
-#: imagepackage/contents/ui/config.qml:448
-#, kde-format
-msgid "Get New Wallpapers..."
+#: imagepackage/contents/ui/config.qml:449
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Wallpapers"
 msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
 
 #: imagepackage/contents/ui/config.qml:402
@@ -252,6 +247,14 @@ msgstr "পটভূমির জন্য নতুন ছবি প্রা�
 #| msgid "by %1"
 msgid "%1 by %2"
 msgstr "%1 দ্বারা"
+
+#, fuzzy
+#~| msgid "Download new wallpapers"
+#~ msgid "Download Wallpapers"
+#~ msgstr "পটভূমির জন্য নতুন ছবি ডাউনলোড করুন"
+
+#~ msgid "Get New Wallpapers..."
+#~ msgstr "পটভূমির জন্য নতুন ছবি প্রাপ্ত করুন..."
 
 #, fuzzy
 #~| msgid "..."
