@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-11 03:41+0100\n"
+"POT-Creation-Date: 2020-01-16 03:41+0100\n"
 "PO-Revision-Date: 2009-01-06 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -28,50 +28,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: colors.cpp:72 editor/scmeditordialog.cpp:80
+#: colors.cpp:77 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "রং"
 
-#: colors.cpp:74
+#: colors.cpp:79
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: colors.cpp:121
-#, fuzzy, kde-format
-#| msgid "Get &New Schemes..."
-msgid "Download New Color Schemes"
-msgstr "নতুন স্কিম প্রাপ্ত করুন...(&N)"
-
-#: colors.cpp:177
+#: colors.cpp:175
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: colors.cpp:191
+#: colors.cpp:189
 #, fuzzy, kde-format
 #| msgid "&Enter a name for the color scheme:"
 msgid "Unable to download the color scheme: %1"
 msgstr "রঙের স্কিম চিহ্নিত করা জন্য একটি নাম লিখুন: (&E)"
 
-#: colors.cpp:209
+#: colors.cpp:207
 #, fuzzy, kde-format
 #| msgid "Import a color scheme from a file"
 msgid "This file is not a color scheme file."
 msgstr "ফাইল থেকে একটি নতুন রঙের স্কিম ইম্পোর্ট করুন"
 
-#: colors.cpp:229
+#: colors.cpp:227
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:236
+#: colors.cpp:234
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:253
+#: colors.cpp:251
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr ""
@@ -1289,22 +1283,32 @@ msgstr "রঙের স্কিম ইম্পোর্ট করুন"
 msgid "Install from File..."
 msgstr ""
 
-#: package/contents/ui/main.qml:352
+#: package/contents/ui/main.qml:353
 #, fuzzy, kde-format
-#| msgid "Get &New Schemes..."
-msgid "Get New Color Schemes..."
-msgstr "নতুন স্কিম প্রাপ্ত করুন...(&N)"
+#| msgid "Save Color Scheme"
+msgid "Color Schemes"
+msgstr "রঙের স্কিম সংরক্ষণ করুন"
 
-#: package/contents/ui/main.qml:364
+#: package/contents/ui/main.qml:365
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Open Color Scheme"
 msgstr "রঙের স্কিম সংরক্ষণ করুন"
 
-#: package/contents/ui/main.qml:366
+#: package/contents/ui/main.qml:367
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Get &New Schemes..."
+#~ msgid "Download New Color Schemes"
+#~ msgstr "নতুন স্কিম প্রাপ্ত করুন...(&N)"
+
+#, fuzzy
+#~| msgid "Get &New Schemes..."
+#~ msgid "Get New Color Schemes..."
+#~ msgstr "নতুন স্কিম প্রাপ্ত করুন...(&N)"
 
 #, fuzzy
 #~| msgid "Save the current color scheme"
