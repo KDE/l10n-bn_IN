@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-06 03:03+0100\n"
+"POT-Creation-Date: 2020-01-17 02:55+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -51,6 +51,19 @@ msgstr "ডিফল্ট"
 msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "স্বয়ংক্রিয় সনাক্তকরণ"
+
+#: kcolorschememanager.cpp:109
+#, fuzzy, kde-format
+#| msgctxt "Encodings menu"
+#| msgid "Default"
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: kcolorschememanager.cpp:215 kcolorschememanager.cpp:220
+#, fuzzy, kde-format
+#| msgid "Shortcut Schemes"
+msgid "Color Scheme"
+msgstr "শর্ট-কাট স্কিম"
 
 #: kconfigdialog.cpp:44
 #, fuzzy, kde-format
@@ -3808,9 +3821,6 @@ msgstr "পরবর্তী (&N)"
 
 #~ msgid "Custom:"
 #~ msgstr "স্বনির্ধারিত:"
-
-#~ msgid "Shortcut Schemes"
-#~ msgstr "শর্ট-কাট স্কিম"
 
 #~ msgid "Current scheme:"
 #~ msgstr "বর্তমান স্কিম:"
