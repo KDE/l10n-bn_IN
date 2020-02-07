@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-14 03:42+0100\n"
+"POT-Creation-Date: 2020-02-07 03:50+0100\n"
 "PO-Revision-Date: 2008-12-30 15:12+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -90,6 +90,13 @@ msgstr ""
 msgctxt "@action:inmenu Global shortcut"
 msgid "Power Off"
 msgstr ""
+
+#: actions/bundled/handlebuttonevents.cpp:77
+#, fuzzy, kde-format
+#| msgid "PowerDevil"
+msgctxt "@action:inmenu Global shortcut"
+msgid "Power Down"
+msgstr "PowerDevil"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:87
 #, kde-format
@@ -602,9 +609,6 @@ msgstr ""
 #~ "নিম্নলিখিত কারণের ফলে %1 অ্যাপ্লিকেশন দ্বারা সিস্টেম স্থগিত করতে বাধা সৃষ্টি করা "
 #~ "হচ্ছে:\n"
 #~ "%2"
-
-#~ msgid "PowerDevil"
-#~ msgstr "PowerDevil"
 
 #, fuzzy
 #~| msgid "A Power Management tool for KDE4"
