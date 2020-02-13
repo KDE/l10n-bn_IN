@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 03:39+0100\n"
+"POT-Creation-Date: 2020-02-13 03:40+0100\n"
 "PO-Revision-Date: 2008-11-26 18:31+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -97,14 +97,18 @@ msgid "Harald Sitter"
 msgstr ""
 
 #: main.cpp:52
-#, kde-format
-msgid "&Exports"
+#, fuzzy, kde-format
+#| msgid "&Exports"
+msgctxt "@title/group"
+msgid "Exported Shares"
 msgstr "এক্সপোর্ট (&E)"
 
 #: main.cpp:54
-#, kde-format
-msgid "&Imports"
-msgstr "ইম্পোর্ট (&I)"
+#, fuzzy, kde-format
+#| msgid "Mounted Under"
+msgctxt "@title/group"
+msgid "Mounted Shares"
+msgstr "মাউন্টের স্থান"
 
 #: smbmountmodel.cpp:49
 #, kde-format
@@ -123,6 +127,9 @@ msgctxt ""
 "@title:column whether a samba share is accessible locally (i.e. mounted)"
 msgid "Accessible"
 msgstr "ব্যবহারের স্থান"
+
+#~ msgid "&Imports"
+#~ msgstr "ইম্পোর্ট (&I)"
 
 #~ msgid "Type"
 #~ msgstr "ধরন"
