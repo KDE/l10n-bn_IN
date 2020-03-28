@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-27 03:16+0000\n"
+"POT-Creation-Date: 2020-03-28 03:06+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -78,7 +78,7 @@ msgctxt "Name"
 msgid "Minimize all Windows"
 msgstr ""
 
-#: applets/minimizeall/package/metadata.desktop:36
+#: applets/minimizeall/package/metadata.desktop:37
 msgctxt "Comment"
 msgid "Shows the desktop by minimizing all windows"
 msgstr ""
@@ -118,7 +118,7 @@ msgctxt "Name"
 msgid "Show Desktop"
 msgstr "ডেস্কটপ"
 
-#: applets/showdesktop/package/metadata.desktop:36
+#: applets/showdesktop/package/metadata.desktop:37
 msgctxt "Comment"
 msgid "Show the Plasma desktop"
 msgstr ""
@@ -397,7 +397,7 @@ msgctxt "Name"
 msgid "Search"
 msgstr "ফাইল"
 
-#: kcms/baloo/package/metadata.desktop:34
+#: kcms/baloo/package/metadata.desktop:35
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -441,7 +441,7 @@ msgctxt "Comment"
 msgid "Choose color scheme"
 msgstr "কার্সারের ফাইল"
 
-#: kcms/colors/kcm_colors.desktop:143
+#: kcms/colors/kcm_colors.desktop:144
 msgctxt "X-KDE-Keywords"
 msgid ""
 "colors,colours,scheme,contrast,Widget colors,Color Scheme,color style,color "
@@ -551,7 +551,7 @@ msgctxt "Comment"
 msgid "Choose mouse cursor theme"
 msgstr "কার্সারের ফাইল"
 
-#: kcms/cursortheme/kcm_cursortheme.desktop:91
+#: kcms/cursortheme/kcm_cursortheme.desktop:92
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
@@ -624,7 +624,7 @@ msgctxt "Name"
 msgid "Plasma Style"
 msgstr ""
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:46
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:47
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Cursor Files"
@@ -632,7 +632,7 @@ msgctxt "Comment"
 msgid "Choose Plasma style"
 msgstr "কার্সারের ফাইল"
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:79
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:81
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
@@ -640,7 +640,7 @@ msgctxt "X-KDE-Keywords"
 msgid "Desktop Theme,Plasma Theme"
 msgstr "ডেস্কটপ"
 
-#: kcms/desktoptheme/package/metadata.desktop:35
+#: kcms/desktoptheme/package/metadata.desktop:36
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Cursor Files"
@@ -666,7 +666,7 @@ msgctxt "Comment"
 msgid "Choose emoticon theme"
 msgstr "কার্সারের ফাইল"
 
-#: kcms/emoticons/emoticons.desktop:131
+#: kcms/emoticons/emoticons.desktop:132
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Emoticons"
@@ -689,7 +689,7 @@ msgctxt "Comment"
 msgid "Configure user interface fonts"
 msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
 
-#: kcms/fonts/kcm_fonts.desktop:142
+#: kcms/fonts/kcm_fonts.desktop:143
 msgctxt "X-KDE-Keywords"
 msgid ""
 "fonts,font size,styles,charsets,character sets,panel,control panel,desktops,"
@@ -724,7 +724,7 @@ msgctxt "Comment"
 msgid "Calibrate Game Controller"
 msgstr "তারিখ ও সময়"
 
-#: kcms/hardware/joystick/joystick.desktop:48
+#: kcms/hardware/joystick/joystick.desktop:49
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Date and Time"
@@ -732,7 +732,7 @@ msgctxt "Name"
 msgid "Game Controller"
 msgstr "তারিখ ও সময়"
 
-#: kcms/hardware/joystick/joystick.desktop:81
+#: kcms/hardware/joystick/joystick.desktop:83
 msgctxt "X-KDE-Keywords"
 msgid "joystick,gamepad,controller"
 msgstr ""
@@ -751,7 +751,7 @@ msgctxt "Comment"
 msgid "Choose icon theme"
 msgstr "কার্সারের ফাইল"
 
-#: kcms/icons/kcm_icons.desktop:141
+#: kcms/icons/kcm_icons.desktop:142
 msgctxt "X-KDE-Keywords"
 msgid "icons,effects,size,hicolor,locolor"
 msgstr ""
@@ -789,7 +789,7 @@ msgctxt "Comment"
 msgid "Configure background services"
 msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
 
-#: kcms/kded/kcmkded.desktop:86
+#: kcms/kded/kcmkded.desktop:87
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
@@ -901,7 +901,7 @@ msgctxt "Comment"
 msgid "Install, manage and preview fonts"
 msgstr "ফন্ট ইনস্টল, পরিচালনা করুন ও পূর্বরূপ প্রদর্শন করুন"
 
-#: kcms/kfontinst/kcmfontinst/fontinst.desktop:108
+#: kcms/kfontinst/kcmfontinst/fontinst.desktop:109
 msgctxt "X-KDE-Keywords"
 msgid "font,fonts,installer,truetype,type1,bitmap"
 msgstr ""
@@ -949,7 +949,7 @@ msgctxt "Comment"
 msgid "Choose splash screen theme"
 msgstr "কার্সারের ফাইল"
 
-#: kcms/ksplash/kcm_splashscreen.desktop:98
+#: kcms/ksplash/kcm_splashscreen.desktop:99
 msgctxt "X-KDE-Keywords"
 msgid "splash screen,splash theme,startup"
 msgstr ""
@@ -990,13 +990,13 @@ msgctxt "Name"
 msgid "Global Theme"
 msgstr "কার্সারের ফাইল"
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:48
-#: kcms/lookandfeel/package/metadata.desktop:36
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:49
+#: kcms/lookandfeel/package/metadata.desktop:37
 msgctxt "Comment"
 msgid "Choose global look and feel"
 msgstr ""
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:80
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:82
 msgctxt "X-KDE-Keywords"
 msgid "theme, look, feel"
 msgstr ""
@@ -1064,7 +1064,7 @@ msgctxt "Name"
 msgid "KRunner"
 msgstr ""
 
-#: kcms/runners/kcm_plasmasearch.desktop:47
+#: kcms/runners/kcm_plasmasearch.desktop:48
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -1072,7 +1072,7 @@ msgctxt "Comment"
 msgid "Configure Search Bar"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
-#: kcms/runners/kcm_plasmasearch.desktop:87
+#: kcms/runners/kcm_plasmasearch.desktop:88
 msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo, Runner, krunner"
 msgstr ""
@@ -1439,7 +1439,7 @@ msgctxt "Name"
 msgid "Application Style"
 msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 
-#: kcms/style/kcm_style.desktop:51 kcms/style/package/metadata.desktop:37
+#: kcms/style/kcm_style.desktop:52 kcms/style/package/metadata.desktop:38
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -1447,7 +1447,7 @@ msgctxt "Comment"
 msgid "Configure application style and behavior"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
-#: kcms/style/kcm_style.desktop:85
+#: kcms/style/kcm_style.desktop:87
 msgctxt "X-KDE-Keywords"
 msgid ""
 "style,styles,look,widget,icons,toolbars,text,highlight,apps,KDE applications,"
@@ -1526,8 +1526,8 @@ msgctxt "Name"
 msgid "General Behavior"
 msgstr ""
 
-#: kcms/workspaceoptions/kcm_workspace.desktop:45
-#: kcms/workspaceoptions/package/metadata.desktop:36
+#: kcms/workspaceoptions/kcm_workspace.desktop:46
+#: kcms/workspaceoptions/package/metadata.desktop:37
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -1535,7 +1535,7 @@ msgctxt "Comment"
 msgid "Configure general workspace behavior"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
-#: kcms/workspaceoptions/kcm_workspace.desktop:78
+#: kcms/workspaceoptions/kcm_workspace.desktop:80
 msgctxt "X-KDE-Keywords"
 msgid ""
 "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,"
