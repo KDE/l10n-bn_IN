@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-01 03:41+0100\n"
+"POT-Creation-Date: 2020-04-10 03:54+0200\n"
 "PO-Revision-Date: 2009-01-12 16:47+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: logout.cpp:408
+#: logout.cpp:371
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr "'%1' দ্বারা লগ-আউট বাতিল করা হয়েছে"
@@ -113,59 +113,53 @@ msgid "Restores the saved user session if available"
 msgstr "ব্যবহারকারী দ্বারা সংরক্ষিত সেশন উপলব্ধ থাকলে তা পুনরায় স্থাপন করা হয়"
 
 #: main.cpp:270
-#, fuzzy, kde-format
-#| msgid ""
-#| "Starts 'wm' in case no other window manager is \n"
-#| "participating in the session. Default is 'kwin'"
-msgid ""
-"Starts <wm> in case no other window manager is \n"
-"participating in the session. Default is 'kwin'"
-msgstr ""
-"সেশানের মধ্যে অন্য কোনো উইন্ডো পরিচালন ব্যবস্থা উপস্থিত না থাকলে \n"
-"'wm' আরম্ভ করা হয়। ডিফল্ট মান হল 'kwin'"
-
-#: main.cpp:271
-#, kde-format
-msgid "wm"
-msgstr ""
-
-#: main.cpp:275
 #, kde-format
 msgid "Also allow remote connections"
 msgstr "দূরবর্তী সংযোগ অনুমোদিত হবে"
 
-#: main.cpp:279
+#: main.cpp:274
 #, kde-format
 msgid "Starts the session in locked mode"
 msgstr ""
 
-#: main.cpp:283
+#: main.cpp:278
 #, kde-format
 msgid ""
 "Starts without lock screen support. Only needed if other component provides "
 "the lock screen."
 msgstr ""
 
-#: server.cpp:1004
+#: server.cpp:970
 #, fuzzy, kde-format
 #| msgid "&Logout"
 msgid "Log Out"
 msgstr "লগ-আউট করুন (&L)"
 
-#: server.cpp:1009
+#: server.cpp:975
 #, kde-format
 msgid "Log Out Without Confirmation"
 msgstr ""
 
-#: server.cpp:1014
+#: server.cpp:980
 #, kde-format
 msgid "Halt Without Confirmation"
 msgstr ""
 
-#: server.cpp:1019
+#: server.cpp:985
 #, kde-format
 msgid "Reboot Without Confirmation"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Starts 'wm' in case no other window manager is \n"
+#~| "participating in the session. Default is 'kwin'"
+#~ msgid ""
+#~ "Starts <wm> in case no other window manager is \n"
+#~ "participating in the session. Default is 'kwin'"
+#~ msgstr ""
+#~ "সেশানের মধ্যে অন্য কোনো উইন্ডো পরিচালন ব্যবস্থা উপস্থিত না থাকলে \n"
+#~ "'wm' আরম্ভ করা হয়। ডিফল্ট মান হল 'kwin'"
 
 #, fuzzy
 #~| msgid "&Logout"
