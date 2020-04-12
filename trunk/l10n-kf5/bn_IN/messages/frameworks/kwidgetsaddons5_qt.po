@@ -2383,22 +2383,14 @@ msgctxt "KEditListWidget|"
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kfontchooser.cpp:159
-#, fuzzy
-#| msgctxt "@info:whatsthis"
-#| msgid "Here you can choose the font to be used."
-msgctxt "KFontChooser|@info:whatsthis"
-msgid "Here you can choose the font to be used."
-msgstr "ব্যবহারের উদ্দেশ্যে এইখানে ফন্ট নির্বাচন করা যাবে।"
-
-#: kfontchooser.cpp:181
+#: kfontchooser.cpp:189
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|"
 msgid "Requested Font"
 msgstr "অনুরোধ করা ফন্ট"
 
-#: kfontchooser.cpp:198
+#: kfontchooser.cpp:203
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Font"
@@ -2406,23 +2398,7 @@ msgctxt "KFontChooser|@option:check"
 msgid "Font"
 msgstr "ফন্ট"
 
-#: kfontchooser.cpp:202
-#, fuzzy
-#| msgctxt "@info:whatsthis"
-#| msgid "Enable this checkbox to change the font family settings."
-msgctxt "KFontChooser|@info:whatsthis"
-msgid "Enable this checkbox to change the font family settings."
-msgstr "ফন্ট সংকলন সংক্রান্ত বৈশিষ্ট্য পরিবর্তনের উদ্দেশ্যে এই চেকবক্স নির্বাচন করুন।"
-
-#: kfontchooser.cpp:203
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Change font family?"
-msgctxt "KFontChooser|@info:tooltip"
-msgid "Change font family?"
-msgstr "ফন্ট সংকলন পরিবর্তন করা হবে কি?"
-
-#: kfontchooser.cpp:207
+#: kfontchooser.cpp:208
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font:"
@@ -2430,7 +2406,7 @@ msgctxt "KFontChooser|@label"
 msgid "Font:"
 msgstr "ফন্ট:"
 
-#: kfontchooser.cpp:214
+#: kfontchooser.cpp:241
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Font style"
@@ -2438,78 +2414,14 @@ msgctxt "KFontChooser|@option:check"
 msgid "Font style"
 msgstr "ফন্টের বিন্যাস"
 
-#: kfontchooser.cpp:218
-#, fuzzy
-#| msgctxt "@info:whatsthis"
-#| msgid "Enable this checkbox to change the font style settings."
-msgctxt "KFontChooser|@info:whatsthis"
-msgid "Enable this checkbox to change the font style settings."
-msgstr "ফন্টের বিন্যাস সংক্রান্ত বৈশিষ্ট্য পরিবর্তনের উদ্দেশ্যে এই চেকবক্স নির্বাচন করুন।"
-
-#: kfontchooser.cpp:219
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Change font style?"
-msgctxt "KFontChooser|@info:tooltip"
-msgid "Change font style?"
-msgstr "ফন্টের বিন্যাস পরিবর্তন করা হবে কি?"
-
-#: kfontchooser.cpp:223
+#: kfontchooser.cpp:246
 #, fuzzy
 #| msgid "Font style:"
 msgctxt "KFontChooser|"
 msgid "Font style:"
 msgstr "ফন্টের বিন্যাস:"
 
-#: kfontchooser.cpp:231
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Size"
-msgctxt "KFontChooser|@option:check"
-msgid "Size"
-msgstr "মাপ"
-
-#: kfontchooser.cpp:239
-#, fuzzy
-#| msgctxt "@info:whatsthis"
-#| msgid "Enable this checkbox to change the font size settings."
-msgctxt "KFontChooser|@info:whatsthis"
-msgid "Enable this checkbox to change the font size settings."
-msgstr "ফন্টের মাপ সংক্রান্ত বৈশিষ্ট্য পরিবর্তনের জন্য এই চেকবক্স নির্বাচন করুন।"
-
-#: kfontchooser.cpp:240
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Change font size?"
-msgctxt "KFontChooser|@info:tooltip"
-msgid "Change font size?"
-msgstr "ফন্টের মাপ পরিবর্তন করা হবে কি?"
-
-#: kfontchooser.cpp:244
-#, fuzzy
-#| msgctxt "@label:listbox Font size"
-#| msgid "Size:"
-msgctxt "KFontChooser|@label:listbox Font size"
-msgid "Size:"
-msgstr "মাপ:"
-
 #: kfontchooser.cpp:260
-#, fuzzy
-#| msgctxt "@info:whatsthis"
-#| msgid "Here you can choose the font family to be used."
-msgctxt "KFontChooser|@info:whatsthis"
-msgid "Here you can choose the font family to be used."
-msgstr "ব্যবহারযোগ্য ফন্টের সংকলন এইখানে নির্বাচন করা যাবে।"
-
-#: kfontchooser.cpp:284
-#, fuzzy
-#| msgctxt "@info:whatsthis"
-#| msgid "Here you can choose the font style to be used."
-msgctxt "KFontChooser|@info:whatsthis"
-msgid "Here you can choose the font style to be used."
-msgstr "ব্যবহারযোগ্য ফন্টের বিন্যাস এইখানে নির্বাচন করা যাবে।"
-
-#: kfontchooser.cpp:292
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2517,7 +2429,7 @@ msgctxt "KFontChooser|QFontDatabase"
 msgid "Normal"
 msgstr "স্বাভাবিক"
 
-#: kfontchooser.cpp:293 kfontchooser.cpp:597
+#: kfontchooser.cpp:261 kfontchooser.cpp:587
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Italic"
@@ -2525,12 +2437,12 @@ msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "তেরছা"
 
-#: kfontchooser.cpp:294 kfontchooser.cpp:598
+#: kfontchooser.cpp:262 kfontchooser.cpp:588
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr ""
 
-#: kfontchooser.cpp:295
+#: kfontchooser.cpp:263
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold"
@@ -2538,7 +2450,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "গাঢ়"
 
-#: kfontchooser.cpp:296
+#: kfontchooser.cpp:264
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold Italic"
@@ -2546,7 +2458,23 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold Italic"
 msgstr "গাঢ় তেরছা"
 
-#: kfontchooser.cpp:314
+#: kfontchooser.cpp:280
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Size"
+msgctxt "KFontChooser|@option:check"
+msgid "Size"
+msgstr "মাপ"
+
+#: kfontchooser.cpp:285
+#, fuzzy
+#| msgctxt "@label:listbox Font size"
+#| msgid "Size:"
+msgctxt "KFontChooser|@label:listbox Font size"
+msgid "Size:"
+msgstr "মাপ:"
+
+#: kfontchooser.cpp:306
 #, fuzzy
 #| msgctxt "@item font size"
 #| msgid "Relative"
@@ -2554,7 +2482,7 @@ msgctxt "KFontChooser|@item font size"
 msgid "Relative"
 msgstr "আপেক্ষিক"
 
-#: kfontchooser.cpp:316
+#: kfontchooser.cpp:308
 #, fuzzy
 #| msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgctxt "KFontChooser|"
@@ -2562,7 +2490,7 @@ msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr ""
 "পরিবেশের সাথে সুসংগত <br /><i>সুনির্দিষ্ট</i> অথবা <i>আপেক্ষিক</i><br />ফন্টের মাপ"
 
-#: kfontchooser.cpp:318
+#: kfontchooser.cpp:310
 msgctxt "KFontChooser|"
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
@@ -2570,26 +2498,24 @@ msgid ""
 "paper size)."
 msgstr ""
 
-#: kfontchooser.cpp:342
-#, fuzzy
-#| msgid "Here you can choose the font size to be used."
-msgctxt "KFontChooser|"
-msgid "Here you can choose the font size to be used."
-msgstr "ব্যবহারযোগ্য ফন্টের মাপ এইখানে নির্বাচন করা যাবে।"
-
-#: kfontchooser.cpp:379
+#: kfontchooser.cpp:362
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 
-#: kfontchooser.cpp:382
+#: kfontchooser.cpp:365
 msgctxt "KFontChooser|"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr ""
 
-#: kfontchooser.cpp:582
+#: kfontchooser.cpp:376
+msgctxt "KFontChooser|@option:check"
+msgid "Show only monospaced fonts"
+msgstr ""
+
+#: kfontchooser.cpp:572
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -2740,21 +2666,33 @@ msgctxt "KMessageWidget|"
 msgid "Close message"
 msgstr "বার্তা বন্ধ করা হবে"
 
-#: kmimetypechooser.cpp:86
+#: kmimetypechooser.cpp:99
+msgctxt "KMimeTypeChooser|"
+msgid "Search for file type or filename pattern..."
+msgstr ""
+
+#: kmimetypechooser.cpp:100
+#, fuzzy
+#| msgid "Filter"
+msgctxt "KMimeTypeChooser|"
+msgid "&Filter:"
+msgstr "ফিল্টার"
+
+#: kmimetypechooser.cpp:114
 #, fuzzy
 #| msgid "Mime types"
 msgctxt "KMimeTypeChooser|"
 msgid "Mime Type"
 msgstr "Mime-র ধরন"
 
-#: kmimetypechooser.cpp:89
+#: kmimetypechooser.cpp:117
 #, fuzzy
 #| msgid "Comment"
 msgctxt "KMimeTypeChooser|"
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: kmimetypechooser.cpp:92
+#: kmimetypechooser.cpp:121
 #, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Braille Patterns"
@@ -2762,16 +2700,16 @@ msgctxt "KMimeTypeChooser|"
 msgid "Patterns"
 msgstr "ব্রেইল চিহ্ন"
 
-#: kmimetypechooser.cpp:105
+#: kmimetypechooser.cpp:137
 #, fuzzy
 #| msgid "&Edit..."
 msgctxt "KMimeTypeChooser|"
 msgid "&Edit..."
 msgstr "সম্পাদনা...(&E)"
 
-#: kmimetypechooser.cpp:115
+#: kmimetypechooser.cpp:147
 msgctxt "KMimeTypeChooser|"
-msgid "Click this button to display the familiar KDE mime type editor."
+msgid "Launch the KDE mime type editor."
 msgstr ""
 
 #: knewpassworddialog.cpp:69
@@ -3446,6 +3384,76 @@ msgstr "সম্পূর্ণ পর্দাজুড়ে প্রদর্�
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid "Here you can choose the font to be used."
+#~ msgctxt "KFontChooser|@info:whatsthis"
+#~ msgid "Here you can choose the font to be used."
+#~ msgstr "ব্যবহারের উদ্দেশ্যে এইখানে ফন্ট নির্বাচন করা যাবে।"
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid "Enable this checkbox to change the font family settings."
+#~ msgctxt "KFontChooser|@info:whatsthis"
+#~ msgid "Enable this checkbox to change the font family settings."
+#~ msgstr "ফন্ট সংকলন সংক্রান্ত বৈশিষ্ট্য পরিবর্তনের উদ্দেশ্যে এই চেকবক্স নির্বাচন করুন।"
+
+#, fuzzy
+#~| msgctxt "@info:tooltip"
+#~| msgid "Change font family?"
+#~ msgctxt "KFontChooser|@info:tooltip"
+#~ msgid "Change font family?"
+#~ msgstr "ফন্ট সংকলন পরিবর্তন করা হবে কি?"
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid "Enable this checkbox to change the font style settings."
+#~ msgctxt "KFontChooser|@info:whatsthis"
+#~ msgid "Enable this checkbox to change the font style settings."
+#~ msgstr ""
+#~ "ফন্টের বিন্যাস সংক্রান্ত বৈশিষ্ট্য পরিবর্তনের উদ্দেশ্যে এই চেকবক্স নির্বাচন করুন।"
+
+#, fuzzy
+#~| msgctxt "@info:tooltip"
+#~| msgid "Change font style?"
+#~ msgctxt "KFontChooser|@info:tooltip"
+#~ msgid "Change font style?"
+#~ msgstr "ফন্টের বিন্যাস পরিবর্তন করা হবে কি?"
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid "Enable this checkbox to change the font size settings."
+#~ msgctxt "KFontChooser|@info:whatsthis"
+#~ msgid "Enable this checkbox to change the font size settings."
+#~ msgstr "ফন্টের মাপ সংক্রান্ত বৈশিষ্ট্য পরিবর্তনের জন্য এই চেকবক্স নির্বাচন করুন।"
+
+#, fuzzy
+#~| msgctxt "@info:tooltip"
+#~| msgid "Change font size?"
+#~ msgctxt "KFontChooser|@info:tooltip"
+#~ msgid "Change font size?"
+#~ msgstr "ফন্টের মাপ পরিবর্তন করা হবে কি?"
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid "Here you can choose the font family to be used."
+#~ msgctxt "KFontChooser|@info:whatsthis"
+#~ msgid "Here you can choose the font family to be used."
+#~ msgstr "ব্যবহারযোগ্য ফন্টের সংকলন এইখানে নির্বাচন করা যাবে।"
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid "Here you can choose the font style to be used."
+#~ msgctxt "KFontChooser|@info:whatsthis"
+#~ msgid "Here you can choose the font style to be used."
+#~ msgstr "ব্যবহারযোগ্য ফন্টের বিন্যাস এইখানে নির্বাচন করা যাবে।"
+
+#, fuzzy
+#~| msgid "Here you can choose the font size to be used."
+#~ msgctxt "KFontChooser|"
+#~ msgid "Here you can choose the font size to be used."
+#~ msgstr "ব্যবহারযোগ্য ফন্টের মাপ এইখানে নির্বাচন করা যাবে।"
 
 #, fuzzy
 #~| msgid "&Details"
@@ -6554,9 +6562,6 @@ msgstr ""
 
 #~ msgid "A&vailable actions:"
 #~ msgstr "উপলব্ধ করুন: (&v)"
-
-#~ msgid "Filter"
-#~ msgstr "ফিল্টার"
 
 #~ msgid "Curr&ent actions:"
 #~ msgstr "বর্তমান কর্ম: (&e)"
