@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-27 02:38+0200\n"
+"POT-Creation-Date: 2020-04-28 02:41+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -204,14 +204,14 @@ msgctxt "@item"
 msgid "Toggle Background Window"
 msgstr "পটভূমি (প্রগাঢ়)"
 
-#: BookmarkHandler.cpp:126
+#: BookmarkHandler.cpp:124
 #, fuzzy, kde-format
 #| msgid "%1 on %2"
 msgctxt "@item:inmenu The user's name and host they are connected to via ssh"
 msgid "%1 on %2"
 msgstr "%1, %2-র উপর"
 
-#: BookmarkHandler.cpp:128
+#: BookmarkHandler.cpp:126
 #, fuzzy, kde-format
 #| msgid "%1"
 msgctxt "@item:inmenu The host the user is connected to via ssh"
@@ -1641,27 +1641,27 @@ msgstr ""
 msgid "The threshold for continuous silence to be detected by Konsole"
 msgstr ""
 
-#: Filter.cpp:443
+#: Filter.cpp:439
 #, kde-format
 msgid "Open Link"
 msgstr "লিংক প্রদর্শন"
 
-#: Filter.cpp:445
+#: Filter.cpp:441
 #, kde-format
 msgid "Copy Link Address"
 msgstr "লিংক দ্বারা চিহ্নিত অবস্থান কপি করুন"
 
-#: Filter.cpp:448
+#: Filter.cpp:444
 #, kde-format
 msgid "Send Email To..."
 msgstr "ই-মেইল প্রাপক..."
 
-#: Filter.cpp:450
+#: Filter.cpp:446
 #, kde-format
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করুন"
 
-#: Filter.cpp:592
+#: Filter.cpp:586
 #, fuzzy, kde-format
 #| msgid "Open Link"
 msgid "Open File"
@@ -2562,24 +2562,24 @@ msgstr "Linux কনসোল"
 msgid "Solaris console"
 msgstr "Solaris কনসোল"
 
-#: Session.cpp:125
+#: Session.cpp:126
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশান '%1'-এ ঘন্টাধ্বনি"
 
-#: Session.cpp:399
+#: Session.cpp:400
 #, kde-format
 msgid "Could not find binary: "
 msgstr "বাইনারি পাওয়া যায়নি: "
 
-#: Session.cpp:408
+#: Session.cpp:409
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "সতর্কবার্তা: "
 
-#: Session.cpp:466
+#: Session.cpp:467
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2588,22 +2588,22 @@ msgstr ""
 "'%1' পাওয়া না যাওয়ার ফলে, পরিবর্তে '%2' আরম্ভ করা হচ্ছে।  অনুগ্রহ করে আপনার "
 "প্রোফাইল সংক্রান্ত বৈশিষ্ট্যগুলি নিরীক্ষা করুন।"
 
-#: Session.cpp:469
+#: Session.cpp:470
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "আরম্ভ করার জন্য কোনো ইন্টারেক্টিভ শেল পাওয়া যায়নি।"
 
-#: Session.cpp:507
+#: Session.cpp:508
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্ট সহ আরম্ভ করা যায়নি।"
 
-#: Session.cpp:643
+#: Session.cpp:644
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "'%1' সেশানে নিরবতা"
 
-#: Session.cpp:905
+#: Session.cpp:906
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2612,29 +2612,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:933
+#: Session.cpp:934
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: Session.cpp:947 Session.cpp:960
+#: Session.cpp:948 Session.cpp:961
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: Session.cpp:949
+#: Session.cpp:950
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: Session.cpp:1392
+#: Session.cpp:1393
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
-#: Session.cpp:1713
+#: Session.cpp:1714
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "'%1'-এ কর্ম"
@@ -2904,12 +2904,12 @@ msgstr ""
 msgid "Print Shell"
 msgstr "Shell"
 
-#: SessionController.cpp:1757
+#: SessionController.cpp:1754
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1767
+#: SessionController.cpp:1764
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2917,20 +2917,20 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1778
+#: SessionController.cpp:1775
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1788
+#: SessionController.cpp:1785
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1794
+#: SessionController.cpp:1791
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
@@ -3911,7 +3911,7 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: Vt102Emulation.cpp:1232
+#: Vt102Emulation.cpp:1231
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
