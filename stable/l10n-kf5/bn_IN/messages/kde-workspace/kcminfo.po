@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-31 08:32+0100\n"
+"POT-Creation-Date: 2020-01-31 03:37+0100\n"
 "PO-Revision-Date: 2008-11-25 18:52+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -50,17 +50,17 @@ msgstr ""
 msgid "The PCI subsystem could not be queried, this may need root privileges."
 msgstr ""
 
-#: ../base/info_linux.cpp:103 main.cpp:51
+#: ../base/info_linux.cpp:102 main.cpp:51
 #, kde-format
 msgid "DMA-Channel"
 msgstr "DMA-চ্যানেল"
 
-#: ../base/info_linux.cpp:103 ../base/info_linux.cpp:154
+#: ../base/info_linux.cpp:102 ../base/info_linux.cpp:153
 #, kde-format
 msgid "Used By"
 msgstr ""
 
-#: ../base/info_linux.cpp:154
+#: ../base/info_linux.cpp:153
 #, kde-format
 msgid "I/O-Range"
 msgstr ""
@@ -529,13 +529,13 @@ msgstr ""
 msgid "This system may not be completely supported yet."
 msgstr ""
 
-#: info.cpp:36
+#: info.cpp:35
 #, fuzzy, kde-format
 #| msgid "KDE Panel System Information Control Module"
 msgid "System Information Control Module"
 msgstr "KDE প্যানেল সিস্টেমের তথ্য নিয়ন্ত্রণকারী মডিউল"
 
-#: info.cpp:38
+#: info.cpp:37
 #, kde-format
 msgid ""
 "(c) 2008 Nicolas Ternisien\n"
@@ -544,28 +544,28 @@ msgstr ""
 "(c) ২০০৮ নিকোলাস টার্নিসিয়ান\n"
 "(c) ১৯৯৮ - ২০০২ হেলগে ডেলার"
 
-#: info.cpp:41
+#: info.cpp:40
 #, kde-format
 msgid "Nicolas Ternisien"
 msgstr "নিকোলাস টার্নিসিয়ান"
 
-#: info.cpp:42
+#: info.cpp:41
 #, kde-format
 msgid "Helge Deller"
 msgstr "হেলগে ডেলার"
 
-#: info.cpp:62
+#: info.cpp:61
 #, kde-format
 msgid "This list displays system information on the selected category."
 msgstr "নির্বাচিত শ্রেণী সম্পর্কিত সিস্টেম সংক্রান্ত তথ্য এই তালিকায় প্রদর্শন করা হয়।"
 
-#: info.cpp:78
+#: info.cpp:77
 #, kde-format
 msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
 msgid "No information available about %1."
 msgstr "%1 সংক্রান্ত কোনো তথ্য উপস্থিত নেই।"
 
-#: info.cpp:109
+#: info.cpp:108
 #, kde-format
 msgid ""
 "All the information modules return information about a certain aspect of "
