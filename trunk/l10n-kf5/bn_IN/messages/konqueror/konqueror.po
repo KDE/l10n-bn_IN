@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-31 18:06+0200\n"
+"POT-Creation-Date: 2020-06-03 02:09+0200\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -28,8 +28,8 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: src/konqclosedwindowsmanager.cpp:414 src/konqmainwindow.cpp:4970
-#: src/konqmainwindow.cpp:5015
+#: src/konqclosedwindowsmanager.cpp:423 src/konqmainwindow.cpp:4970
+#: src/konqmainwindow.cpp:5016
 #, kde-format
 msgid "no name"
 msgstr "নাম বিহীন"
@@ -184,38 +184,38 @@ msgctxt "@title:window"
 msgid "Clear History?"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলা হবে কি?"
 
-#: src/konqmain.cpp:181
+#: src/konqmain.cpp:182
 #, kde-format
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: src/konqmain.cpp:182
+#: src/konqmain.cpp:183
 #, kde-format
 msgid "Web browser, file manager and document viewer."
 msgstr "ওয়েব ব্রাউজার, ফাইল পরিচালনব্যবস্থা, ও ডকুমেন্ট প্রদর্শক।"
 
-#: src/konqmain.cpp:184
+#: src/konqmain.cpp:185
 #, fuzzy, kde-format
 #| msgid "(C) 1999-2008, The Konqueror developers"
 msgid "(C) 1999-2016, The Konqueror developers"
 msgstr "(C) ১৯৯৯-২০০৮, Konqueror-র নির্মাতাবৃন্দ"
 
-#: src/konqmain.cpp:187
+#: src/konqmain.cpp:188
 #, kde-format
 msgid "Stefano Crocco"
 msgstr ""
 
-#: src/konqmain.cpp:187
+#: src/konqmain.cpp:188
 #, kde-format
 msgid "Current maintainer"
 msgstr ""
 
-#: src/konqmain.cpp:188
+#: src/konqmain.cpp:189
 #, kde-format
 msgid "David Faure"
 msgstr "ডেভিড ফাউরে"
 
-#: src/konqmain.cpp:188
+#: src/konqmain.cpp:189
 #, fuzzy, kde-format
 #| msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
 msgid ""
@@ -223,105 +223,105 @@ msgid ""
 msgstr ""
 "নির্মাতা (ফ্রেমওয়ার্ক, অংশবিশেষ, JavaScript, ইনপুট/আউটপুট লাইব্রেরি) ও মেইন্টেনার"
 
-#: src/konqmain.cpp:189
+#: src/konqmain.cpp:190
 #, kde-format
 msgid "Simon Hausmann"
 msgstr "সাইমন হওসম্যান"
 
-#: src/konqmain.cpp:189
+#: src/konqmain.cpp:190
 #, kde-format
 msgid "Developer (framework, parts)"
 msgstr "নির্মাতা (ফ্রেমওয়ার্ক, অংশবিশেষ)"
 
-#: src/konqmain.cpp:190
+#: src/konqmain.cpp:191
 #, kde-format
 msgid "Michael Reiher"
 msgstr "মাইকেল রাইহার"
 
-#: src/konqmain.cpp:190 src/konqmain.cpp:218 src/konqmain.cpp:224
+#: src/konqmain.cpp:191 src/konqmain.cpp:219 src/konqmain.cpp:225
 #, kde-format
 msgid "Developer (framework)"
 msgstr "নির্মাতা (ফ্রেমওয়ার্ক)"
 
-#: src/konqmain.cpp:191
+#: src/konqmain.cpp:192
 #, kde-format
 msgid "Matthias Welk"
 msgstr "ম্যাথায়েস ওয়েল্ক"
 
-#: src/konqmain.cpp:191
+#: src/konqmain.cpp:192
 #, kde-format
 msgid "Developer"
 msgstr "ডিভেলপর"
 
-#: src/konqmain.cpp:192
+#: src/konqmain.cpp:193
 #, kde-format
 msgid "Alexander Neundorf"
 msgstr "আলেকজান্ডার নিউনডোর্ফ"
 
-#: src/konqmain.cpp:192
+#: src/konqmain.cpp:193
 #, kde-format
 msgid "Developer (List views)"
 msgstr "নির্মাতা (লিস্ট অনুযায়ী প্রদর্শন)"
 
-#: src/konqmain.cpp:193
+#: src/konqmain.cpp:194
 #, kde-format
 msgid "Michael Brade"
 msgstr "মাইকেল ব্রেড"
 
-#: src/konqmain.cpp:193
+#: src/konqmain.cpp:194
 #, kde-format
 msgid "Developer (List views, I/O library)"
 msgstr "নির্মাতা (লিস্ট অনুযায়ী প্রদর্শন, ইনপুট/আউটপুট লাইব্রেরি)"
 
-#: src/konqmain.cpp:194
+#: src/konqmain.cpp:195
 #, kde-format
 msgid "Lars Knoll"
 msgstr "লার্স নল"
 
-#: src/konqmain.cpp:194 src/konqmain.cpp:195 src/konqmain.cpp:196
-#: src/konqmain.cpp:198 src/konqmain.cpp:199 src/konqmain.cpp:201
-#: src/konqmain.cpp:202 src/konqmain.cpp:203 src/konqmain.cpp:204
-#: src/konqmain.cpp:206
+#: src/konqmain.cpp:195 src/konqmain.cpp:196 src/konqmain.cpp:197
+#: src/konqmain.cpp:199 src/konqmain.cpp:200 src/konqmain.cpp:202
+#: src/konqmain.cpp:203 src/konqmain.cpp:204 src/konqmain.cpp:205
+#: src/konqmain.cpp:207
 #, kde-format
 msgid "Developer (HTML rendering engine)"
 msgstr "নির্মাতা (HTML রেন্ডারিং ইঞ্জিন)"
 
-#: src/konqmain.cpp:195
+#: src/konqmain.cpp:196
 #, kde-format
 msgid "Dirk Mueller"
 msgstr "ডার্ক মুয়েলার"
 
-#: src/konqmain.cpp:196
+#: src/konqmain.cpp:197
 #, kde-format
 msgid "Peter Kelly"
 msgstr "পিটার কেলি"
 
-#: src/konqmain.cpp:197
+#: src/konqmain.cpp:198
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: src/konqmain.cpp:197
+#: src/konqmain.cpp:198
 #, kde-format
 msgid "Developer (HTML rendering engine, I/O library)"
 msgstr "নির্মাতা (HTML রেন্ডারিং ইঞ্জিন, ইনপুট/আউটপুট লাইব্রেরি)"
 
-#: src/konqmain.cpp:198
+#: src/konqmain.cpp:199
 #, kde-format
 msgid "Germain Garand"
 msgstr "জার্মেইন গ্যারান্ড"
 
-#: src/konqmain.cpp:199
+#: src/konqmain.cpp:200
 #, kde-format
 msgid "Leo Savernik"
 msgstr "লিও সাভের্নিক"
 
-#: src/konqmain.cpp:200
+#: src/konqmain.cpp:201
 #, kde-format
 msgid "Stephan Kulow"
 msgstr "স্টিফান কুলো"
 
-#: src/konqmain.cpp:200
+#: src/konqmain.cpp:201
 #, kde-format
 msgid ""
 "Developer (HTML rendering engine, I/O library, regression test framework)"
@@ -329,102 +329,102 @@ msgstr ""
 "নির্মাতা (HTML রেন্ডারিং ইঞ্জিন, ইনপুট/আউটপুট লাইব্রেরি, রিগ্রেশন পরীক্ষণের "
 "পরিকাঠামো)"
 
-#: src/konqmain.cpp:201
+#: src/konqmain.cpp:202
 #, kde-format
 msgid "Antti Koivisto"
 msgstr "অ্যান্টি কোইভিস্টো"
 
-#: src/konqmain.cpp:202
+#: src/konqmain.cpp:203
 #, kde-format
 msgid "Zack Rusin"
 msgstr "জ্যাক রুসিন"
 
-#: src/konqmain.cpp:203
+#: src/konqmain.cpp:204
 #, kde-format
 msgid "Tobias Anton"
 msgstr "টোবিয়াস অ্যান্টন"
 
-#: src/konqmain.cpp:204
+#: src/konqmain.cpp:205
 #, kde-format
 msgid "Lubos Lunak"
 msgstr "লুবোস লুনাক"
 
-#: src/konqmain.cpp:205
+#: src/konqmain.cpp:206
 #, kde-format
 msgid "Maks Orlovich"
 msgstr ""
 
-#: src/konqmain.cpp:205 src/konqmain.cpp:207
+#: src/konqmain.cpp:206 src/konqmain.cpp:208
 #, kde-format
 msgid "Developer (HTML rendering engine, JavaScript)"
 msgstr "নির্মাতা (HTML রেন্ডারিং ইঞ্জিন, JavaScript)"
 
-#: src/konqmain.cpp:206
+#: src/konqmain.cpp:207
 #, kde-format
 msgid "Allan Sandfeld Jensen"
 msgstr "অ্যালান স্যান্ডফেল্ড জেনসেন"
 
-#: src/konqmain.cpp:207
+#: src/konqmain.cpp:208
 #, kde-format
 msgid "Apple Safari Developers"
 msgstr "Apple Safari নির্মাতাবৃন্দ"
 
-#: src/konqmain.cpp:208
+#: src/konqmain.cpp:209
 #, kde-format
 msgid "Harri Porten"
 msgstr "হ্যারি পোর্টেন"
 
-#: src/konqmain.cpp:208
+#: src/konqmain.cpp:209
 #, kde-format
 msgid "Developer (JavaScript)"
 msgstr "নির্মাতা (JavaScript)"
 
-#: src/konqmain.cpp:209
+#: src/konqmain.cpp:210
 #, kde-format
 msgid "Koos Vriezen"
 msgstr "কুস ভ্রাইজেন"
 
-#: src/konqmain.cpp:209
+#: src/konqmain.cpp:210
 #, kde-format
 msgid "Developer (Java applets and other embedded objects)"
 msgstr "নির্মাতা (Java অ্যাপ্লেট ও এমবেড করা অন্যান্য অবজেক্ট)"
 
-#: src/konqmain.cpp:210
+#: src/konqmain.cpp:211
 #, kde-format
 msgid "Matt Koss"
 msgstr "ম্যাট কোস"
 
-#: src/konqmain.cpp:210 src/konqmain.cpp:211
+#: src/konqmain.cpp:211 src/konqmain.cpp:212
 #, kde-format
 msgid "Developer (I/O library)"
 msgstr "নির্মাতা (ইনপুট/আউটপুট লাইব্রেরি)"
 
-#: src/konqmain.cpp:211
+#: src/konqmain.cpp:212
 #, kde-format
 msgid "Alex Zepeda"
 msgstr "অ্যালেক্স জেপেডা"
 
-#: src/konqmain.cpp:212
+#: src/konqmain.cpp:213
 #, kde-format
 msgid "Richard Moore"
 msgstr "রিচার্ড মুর"
 
-#: src/konqmain.cpp:212 src/konqmain.cpp:213
+#: src/konqmain.cpp:213 src/konqmain.cpp:214
 #, kde-format
 msgid "Developer (Java applet support)"
 msgstr "নির্মাতা (Java অ্যাপ্লেট সমর্থন)"
 
-#: src/konqmain.cpp:213
+#: src/konqmain.cpp:214
 #, kde-format
 msgid "Dima Rogozin"
 msgstr "ডিমা রোগোজিন"
 
-#: src/konqmain.cpp:214
+#: src/konqmain.cpp:215
 #, kde-format
 msgid "Wynn Wilkes"
 msgstr "উইন উইলক্স"
 
-#: src/konqmain.cpp:214
+#: src/konqmain.cpp:215
 #, kde-format
 msgid ""
 "Developer (Java 2 security manager support,\n"
@@ -433,167 +433,167 @@ msgstr ""
 "ডিভেলপর (Java 2 নিরাপত্তা পরিচালন ব্যবস্থা সমর্থন,\n"
 " ও অ্যাপ্লেট সমর্থন ব্যবস্থার জন্য গুরুত্বপূর্ণ উন্নতি)"
 
-#: src/konqmain.cpp:215
+#: src/konqmain.cpp:216
 #, kde-format
 msgid "Stefan Schimanski"
 msgstr "স্টিফান স্কিমানস্কি"
 
-#: src/konqmain.cpp:215
+#: src/konqmain.cpp:216
 #, kde-format
 msgid "Developer (Netscape plugin support)"
 msgstr "নির্মাতা (Netscape প্লাগ-ইন সমর্থন)"
 
-#: src/konqmain.cpp:216
+#: src/konqmain.cpp:217
 #, kde-format
 msgid "George Staikos"
 msgstr "জর্জ স্টাইকস"
 
-#: src/konqmain.cpp:216
+#: src/konqmain.cpp:217
 #, kde-format
 msgid "Developer (SSL, Netscape plugins)"
 msgstr "নির্মাতা (SSL, Netscape প্লাগ-ইন)"
 
-#: src/konqmain.cpp:217
+#: src/konqmain.cpp:218
 #, kde-format
 msgid "Dawit Alemayehu"
 msgstr "ডাউইট আলেমায়ু"
 
-#: src/konqmain.cpp:217
+#: src/konqmain.cpp:218
 #, kde-format
 msgid "Developer (I/O library, Authentication support)"
 msgstr "নির্মাতা (ইনপুট/আউটপুট লাইব্রেরি, অনুমোদন সমর্থন ব্যবস্থা)"
 
-#: src/konqmain.cpp:218
+#: src/konqmain.cpp:219
 #, kde-format
 msgid "Carsten Pfeiffer"
 msgstr "কার্স্টেন পাইফার"
 
-#: src/konqmain.cpp:219
+#: src/konqmain.cpp:220
 #, kde-format
 msgid "Torsten Rahn"
 msgstr "টোস্টেন রাহন"
 
-#: src/konqmain.cpp:219
+#: src/konqmain.cpp:220
 #, kde-format
 msgid "Graphics/icons"
 msgstr "গ্রাফিক্স/আইকন"
 
-#: src/konqmain.cpp:220
+#: src/konqmain.cpp:221
 #, kde-format
 msgid "Torben Weis"
 msgstr "টোর্বেন ওয়েস"
 
-#: src/konqmain.cpp:220
+#: src/konqmain.cpp:221
 #, kde-format
 msgid "KFM author"
 msgstr "KFM নির্মাতা"
 
-#: src/konqmain.cpp:221
+#: src/konqmain.cpp:222
 #, kde-format
 msgid "Joseph Wenninger"
 msgstr "জোসেফ ওয়েননিগার"
 
-#: src/konqmain.cpp:221
+#: src/konqmain.cpp:222
 #, kde-format
 msgid "Developer (navigation panel framework)"
 msgstr "নির্মাতা (পরিদর্শনের প্যানেলের পরিকাঠামো)"
 
-#: src/konqmain.cpp:222
+#: src/konqmain.cpp:223
 #, kde-format
 msgid "Stephan Binner"
 msgstr "স্টিফান বিনার"
 
-#: src/konqmain.cpp:222
+#: src/konqmain.cpp:223
 #, kde-format
 msgid "Developer (misc stuff)"
 msgstr "নির্মাতা (বিবিধ সামগ্রী)"
 
-#: src/konqmain.cpp:223
+#: src/konqmain.cpp:224
 #, kde-format
 msgid "Ivor Hewitt"
 msgstr "আইভর হিউয়িট"
 
-#: src/konqmain.cpp:223
+#: src/konqmain.cpp:224
 #, kde-format
 msgid "Developer (AdBlock filter)"
 msgstr "নির্মাতা (AdBlock ফিল্টার)"
 
-#: src/konqmain.cpp:224
+#: src/konqmain.cpp:225
 #, kde-format
 msgid "Eduardo Robles Elvira"
 msgstr "এডুয়ার্ডো রোবেল্স এলভিরা"
 
-#: src/konqmain.cpp:234
+#: src/konqmain.cpp:235
 #, fuzzy, kde-format
 #| msgid "Start without a default window"
 msgid "Start without a default window, when called without URLs"
 msgstr "ডিফল্ট উইন্ডো বিনা আরম্ভ করা হবে"
 
-#: src/konqmain.cpp:235
+#: src/konqmain.cpp:236
 #, kde-format
 msgid ""
 "Preload for later use. This mode does not support URLs on the command line"
 msgstr ""
 
-#: src/konqmain.cpp:236
+#: src/konqmain.cpp:237
 #, kde-format
 msgid "Profile to open (DEPRECATED, IGNORED)"
 msgstr ""
 
-#: src/konqmain.cpp:236
+#: src/konqmain.cpp:237
 #, kde-format
 msgid "profile"
 msgstr ""
 
-#: src/konqmain.cpp:237
+#: src/konqmain.cpp:238
 #, kde-format
 msgid "List available sessions"
 msgstr "উপলব্ধ সেশানের তালিকা"
 
-#: src/konqmain.cpp:238
+#: src/konqmain.cpp:239
 #, kde-format
 msgid "Session to open"
 msgstr "খোলার জন্য চিহ্নিত সেশান"
 
-#: src/konqmain.cpp:238
+#: src/konqmain.cpp:239
 #, fuzzy, kde-format
 #| msgid "Sessions"
 msgid "session"
 msgstr "সেশান"
 
-#: src/konqmain.cpp:239
+#: src/konqmain.cpp:240
 #, kde-format
 msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
 msgstr ""
 
-#: src/konqmain.cpp:239
+#: src/konqmain.cpp:240
 #, kde-format
 msgid "mimetype"
 msgstr ""
 
-#: src/konqmain.cpp:240
+#: src/konqmain.cpp:241
 #, kde-format
 msgid "Part to use (e.g. khtml or kwebkitpart)"
 msgstr ""
 
-#: src/konqmain.cpp:240
+#: src/konqmain.cpp:241
 #, kde-format
 msgid "service"
 msgstr ""
 
-#: src/konqmain.cpp:241
+#: src/konqmain.cpp:242
 #, kde-format
 msgid ""
 "For URLs that point to files, opens the directory and selects the file, "
 "instead of opening the actual file"
 msgstr ""
 
-#: src/konqmain.cpp:242
+#: src/konqmain.cpp:243
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 
-#: src/konqmain.cpp:244
+#: src/konqmain.cpp:245
 #, kde-format
 msgid "Location to open"
 msgstr "প্রদর্শনের জন্য চিহ্নিত অবস্থান"
@@ -1284,35 +1284,35 @@ msgstr ""
 "এই পেজের মধ্যে করা কিছু পরিবর্তন সংরক্ষণ করা হয়নি।\n"
 "উইন্ডোটি বন্ধ করা হলে, এই পরিবর্তনগুলি মুছে যাবে।"
 
-#: src/konqmainwindow.cpp:5090
+#: src/konqmainwindow.cpp:5092
 #, kde-format
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5090 src/konqmainwindow.cpp:5097
+#: src/konqmainwindow.cpp:5092 src/konqmainwindow.cpp:5099
 #, fuzzy, kde-format
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "ওয়েবের সাইড-বার"
 
-#: src/konqmainwindow.cpp:5095
+#: src/konqmainwindow.cpp:5097
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5097
+#: src/konqmainwindow.cpp:5099
 #, kde-format
 msgid "Add"
 msgstr "যোগ করুন"
 
-#: src/konqmainwindow.cpp:5097
+#: src/konqmainwindow.cpp:5099
 #, kde-format
 msgid "Do Not Add"
 msgstr "যোগ করা হবে না"
 
-#: src/konqmainwindow.cpp:5445
+#: src/konqmainwindow.cpp:5447
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1754,18 +1754,18 @@ msgstr "অবস্থানসূচক টুল-বার"
 msgid "Bookmark Toolbar"
 msgstr "বুকমার্কের টুল-বার"
 
-#: src/konqundomanager.cpp:108 src/konqundomanager.cpp:270
+#: src/konqundomanager.cpp:103 src/konqundomanager.cpp:265
 #, kde-format
 msgid "Und&o: Closed Tab"
 msgstr ""
 
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:121
-#: src/konqundomanager.cpp:165
+#: src/konqundomanager.cpp:105 src/konqundomanager.cpp:116
+#: src/konqundomanager.cpp:160
 #, kde-format
 msgid "Und&o: Closed Window"
 msgstr ""
 
-#: src/konqundomanager.cpp:123
+#: src/konqundomanager.cpp:118
 #, kde-format
 msgid "Und&o"
 msgstr ""
