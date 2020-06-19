@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-18 06:56+0000\n"
+"POT-Creation-Date: 2020-06-19 06:20+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -69,7 +69,7 @@ msgctxt "X-KDE-Keywords"
 msgid "about,info,information,distribution,distro,system,kernel,qt,kde"
 msgstr ""
 
-#: Modules/about-distro/src/about-distro.desktop:44
+#: Modules/about-distro/src/about-distro.desktop:45
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "PCI information"
@@ -77,7 +77,7 @@ msgctxt "Name"
 msgid "System Information"
 msgstr "PCI সংক্রান্ত তথ্য"
 
-#: Modules/about-distro/src/about-distro.desktop:74
+#: Modules/about-distro/src/about-distro.desktop:76
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
@@ -93,7 +93,7 @@ msgctxt "Name"
 msgid "Device Viewer"
 msgstr "ছবি প্রদর্শন ব্যবস্থা"
 
-#: Modules/devinfo/devinfo.desktop:75
+#: Modules/devinfo/devinfo.desktop:76
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Picture Viewer"
@@ -101,7 +101,7 @@ msgctxt "Comment"
 msgid "Device Viewer"
 msgstr "ছবি প্রদর্শন ব্যবস্থা"
 
-#: Modules/devinfo/devinfo.desktop:137
+#: Modules/devinfo/devinfo.desktop:139
 msgctxt "X-KDE-Keywords"
 msgid "device,devices,disk,drive,processor,cpu"
 msgstr ""
@@ -115,17 +115,17 @@ msgctxt "Name"
 msgid "Energy Information"
 msgstr "মেমরি সংক্রান্ত তথ্য"
 
-#: Modules/energy/kcm_energyinfo.desktop:50
+#: Modules/energy/kcm_energyinfo.desktop:51
 msgctxt "Comment"
 msgid "Energy Consumption Statistics"
 msgstr ""
 
-#: Modules/energy/kcm_energyinfo.desktop:92
+#: Modules/energy/kcm_energyinfo.desktop:94
 msgctxt "X-KDE-Keywords"
 msgid "Battery,Energy,Statistics,History,Power"
 msgstr ""
 
-#: Modules/energy/package/metadata.desktop:43
+#: Modules/energy/package/metadata.desktop:44
 msgctxt "Comment"
 msgid "Statistics about energy consumption"
 msgstr ""
@@ -136,17 +136,17 @@ msgctxt "Name"
 msgid "File Indexer Monitor"
 msgstr ""
 
-#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:48
+#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:49
 msgctxt "Comment"
 msgid "Monitor State of File Indexer"
 msgstr ""
 
-#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:87
+#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:89
 msgctxt "X-KDE-Keywords"
 msgid "Baloo,File,Index,Monitor"
 msgstr ""
 
-#: Modules/fileindexermonitor/package/metadata.desktop:40
+#: Modules/fileindexermonitor/package/metadata.desktop:41
 msgctxt "Comment"
 msgid "File Index Monitor"
 msgstr ""
@@ -156,12 +156,12 @@ msgctxt "Name"
 msgid "DMA-Channels"
 msgstr "DMA-চ্যানেল"
 
-#: Modules/info/dma.desktop:104
+#: Modules/info/dma.desktop:105
 msgctxt "Comment"
 msgid "DMA information"
 msgstr "DMA সংক্রান্ত তথ্য"
 
-#: Modules/info/dma.desktop:195
+#: Modules/info/dma.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "dma,DMA-Channels,System Information"
 msgstr ""
@@ -171,12 +171,12 @@ msgctxt "Name"
 msgid "Interrupts"
 msgstr "ইন্টারাপ্ট"
 
-#: Modules/info/interrupts.desktop:104
+#: Modules/info/interrupts.desktop:105
 msgctxt "Comment"
 msgid "Interrupt information"
 msgstr "ইন্টারাপ্ট সংক্রান্ত তথ্য"
 
-#: Modules/info/interrupts.desktop:194
+#: Modules/info/interrupts.desktop:196
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Interrupt information"
@@ -189,12 +189,12 @@ msgctxt "Name"
 msgid "IO-Ports"
 msgstr "IO-পোর্ট"
 
-#: Modules/info/ioports.desktop:104
+#: Modules/info/ioports.desktop:105
 msgctxt "Comment"
 msgid "IO-port information"
 msgstr "IO-পোর্ট সংক্রান্ত তথ্য"
 
-#: Modules/info/ioports.desktop:195
+#: Modules/info/ioports.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
 msgstr ""
@@ -207,7 +207,7 @@ msgctxt "Name"
 msgid "Wayland"
 msgstr "থাইল্যান্ড"
 
-#: Modules/info/wayland.desktop:57
+#: Modules/info/wayland.desktop:58
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
@@ -215,7 +215,7 @@ msgctxt "Comment"
 msgid "Information about the Wayland Compositor"
 msgstr "ফাইল ও ডিরেক্টরি"
 
-#: Modules/info/wayland.desktop:102
+#: Modules/info/wayland.desktop:104
 msgctxt "X-KDE-Keywords"
 msgid "Wayland,Compositor,Display,System Information"
 msgstr ""
@@ -225,12 +225,12 @@ msgctxt "Name"
 msgid "X-Server"
 msgstr "X-Server"
 
-#: Modules/info/xserver.desktop:104
+#: Modules/info/xserver.desktop:105
 msgctxt "Comment"
 msgid "X-Server information"
 msgstr "X-সার্ভার সংক্রান্ত তথ্য"
 
-#: Modules/info/xserver.desktop:194
+#: Modules/info/xserver.desktop:196
 msgctxt "X-KDE-Keywords"
 msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
 msgstr ""
@@ -240,12 +240,12 @@ msgctxt "Name"
 msgid "Memory"
 msgstr "মেমরি"
 
-#: Modules/memory/kcm_memory.desktop:104
+#: Modules/memory/kcm_memory.desktop:105
 msgctxt "Comment"
 msgid "Memory information"
 msgstr "মেমরি সংক্রান্ত তথ্য"
 
-#: Modules/memory/kcm_memory.desktop:194
+#: Modules/memory/kcm_memory.desktop:196
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Memory,RAM,Virtual memory,Physical memory,Shared memory,Swap,System "
@@ -257,7 +257,7 @@ msgctxt "Name"
 msgid "Network Interfaces"
 msgstr "নেটওয়ার্ক ইন্টারফেস"
 
-#: Modules/nics/nic.desktop:103
+#: Modules/nics/nic.desktop:104
 msgctxt "Comment"
 msgid "Network interface information"
 msgstr "নেটওয়ার্ক ইন্টারফেস সংক্রান্ত তথ্য"
@@ -267,12 +267,12 @@ msgctxt "Name"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: Modules/opengl/opengl.desktop:101
+#: Modules/opengl/opengl.desktop:102
 msgctxt "Comment"
 msgid "OpenGL information"
 msgstr "OpenGL সংক্রান্ত তথ্য"
 
-#: Modules/opengl/opengl.desktop:191
+#: Modules/opengl/opengl.desktop:193
 msgctxt "X-KDE-Keywords"
 msgid ""
 "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
@@ -284,12 +284,12 @@ msgctxt "Name"
 msgid "PCI"
 msgstr "PCI"
 
-#: Modules/pci/kcm_pci.desktop:103
+#: Modules/pci/kcm_pci.desktop:104
 msgctxt "Comment"
 msgid "PCI information"
 msgstr "PCI সংক্রান্ত তথ্য"
 
-#: Modules/pci/kcm_pci.desktop:194
+#: Modules/pci/kcm_pci.desktop:196
 msgctxt "X-KDE-Keywords"
 msgid "PCI,PCI-Devices,PCI-Bus,System Information"
 msgstr ""
@@ -299,12 +299,12 @@ msgctxt "Name"
 msgid "Samba Status"
 msgstr "Samba-র অবস্থা"
 
-#: Modules/samba/smbstatus.desktop:103
+#: Modules/samba/smbstatus.desktop:104
 msgctxt "Comment"
 msgid "Samba status monitor"
 msgstr "Samba অবস্থা নিরীক্ষণ"
 
-#: Modules/samba/smbstatus.desktop:193
+#: Modules/samba/smbstatus.desktop:195
 msgctxt "X-KDE-Keywords"
 msgid "SMB,SAMBA,Windows network,LAN,System Information"
 msgstr ""
@@ -314,12 +314,12 @@ msgctxt "Name"
 msgid "USB Devices"
 msgstr "USB ডিভাইস"
 
-#: Modules/usbview/kcmusb.desktop:103
+#: Modules/usbview/kcmusb.desktop:104
 msgctxt "Comment"
 msgid "USB devices attached to this computer"
 msgstr "কম্পিউটারের সাথে যুক্ত USB ডিভাইস"
 
-#: Modules/usbview/kcmusb.desktop:184
+#: Modules/usbview/kcmusb.desktop:186
 msgctxt "X-KDE-Keywords"
 msgid "USB,devices,viewer,control"
 msgstr ""
@@ -329,12 +329,12 @@ msgctxt "Name"
 msgid "IEEE 1394 Devices"
 msgstr "IEEE 1394 ডিভাইস"
 
-#: Modules/view1394/kcmview1394.desktop:102
+#: Modules/view1394/kcmview1394.desktop:103
 msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "সংযুক্ত IEEE 1394 ডিভাইস"
 
-#: Modules/view1394/kcmview1394.desktop:185
+#: Modules/view1394/kcmview1394.desktop:187
 msgctxt "X-KDE-Keywords"
 msgid "1394,Firewire,devices,viewer,control"
 msgstr ""
@@ -347,12 +347,12 @@ msgctxt "Name"
 msgid "Info Center"
 msgstr "তথ্য কেন্দ্র"
 
-#: org.kde.kinfocenter.desktop:49
+#: org.kde.kinfocenter.desktop:50
 msgctxt "GenericName"
 msgid "Info Center"
 msgstr "তথ্য কেন্দ্র"
 
-#: org.kde.kinfocenter.desktop:138
+#: org.kde.kinfocenter.desktop:140
 msgctxt "Comment"
 msgid "Centralized and convenient overview of system information"
 msgstr ""
