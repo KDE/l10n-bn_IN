@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-31 18:13+0200\n"
+"POT-Creation-Date: 2020-07-04 02:14+0200\n"
 "PO-Revision-Date: 2009-01-06 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -69,6 +69,13 @@ msgstr ""
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr ""
+
+#. i18n: ectx: label, entry (colorScheme), group (General)
+#: colorssettings.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Save Color Scheme"
+msgid "Color scheme name"
+msgstr "রঙের স্কিম সংরক্ষণ করুন"
 
 #: editor/kcolorschemeeditor.cpp:37
 #, fuzzy, kde-format
@@ -1294,11 +1301,6 @@ msgstr "রঙের স্কিম সংরক্ষণ করুন"
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Save Color Scheme"
-#~ msgid "Color Schemes"
-#~ msgstr "রঙের স্কিম সংরক্ষণ করুন"
 
 #, fuzzy
 #~| msgid "Get &New Schemes..."

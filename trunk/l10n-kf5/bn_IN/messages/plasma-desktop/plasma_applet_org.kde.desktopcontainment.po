@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-05 03:43+0100\n"
+"POT-Creation-Date: 2020-07-04 02:14+0200\n"
 "PO-Revision-Date: 2008-12-29 16:21+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: package/contents/config/config.qml:29
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt ""
 #| "Title of the page that lets the user choose which location should the "
 #| "folderview show"
@@ -31,11 +31,12 @@ msgstr "অবস্থান"
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:220
 #: package/contents/ui/FolderViewLayer.qml:412
+#, kde-format
 msgid "Icons"
 msgstr "আইকন"
 
 #: package/contents/config/config.qml:43
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt ""
 #| "Title of the page that lets the user choose how to filter the folderview "
 #| "contents"
@@ -44,73 +45,82 @@ msgid "Filter"
 msgstr "ফিল্টার"
 
 #: package/contents/ui/BackButtonItem.qml:116
+#, kde-format
 msgid "Back"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:76
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "File types:"
 msgid "Files:"
 msgstr "ফাইলের ধরন:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show All Files"
 msgid "Show all"
 msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show All Files"
 msgid "Show matching"
 msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show All Files"
 msgid "Hide matching"
 msgstr "সকল ফাইল প্রদর্শন করা হবে"
 
 #: package/contents/ui/ConfigFilter.qml:82
+#, kde-format
 msgid "File name pattern:"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:88
+#, kde-format
 msgid "File types:"
 msgstr "ফাইলের ধরন:"
 
 #: package/contents/ui/ConfigFilter.qml:90
+#, kde-format
 msgid "Search..."
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:188
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "File types:"
 msgid "File type"
 msgstr "ফাইলের ধরন:"
 
 #: package/contents/ui/ConfigFilter.qml:197
+#, kde-format
 msgid "Description"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:211
+#, kde-format
 msgid "Select All"
 msgstr "সমগ্র নির্বাচন করুন"
 
 #: package/contents/ui/ConfigFilter.qml:222
+#, kde-format
 msgid "Deselect All"
 msgstr "সমগ্র নির্বাচন বাতিল করুন"
 
 #: package/contents/ui/ConfigIcons.qml:75
+#, kde-format
 msgid "Panel button:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:81
+#, kde-format
 msgid "Use a custom icon"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:115
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "@title:menu in Copy To or Move To submenu"
 #| msgid "Browse..."
 msgctxt "@item:inmenu Open icon chooser dialog"
@@ -118,13 +128,14 @@ msgid "Choose..."
 msgstr "ব্রাউজ করুন..."
 
 #: package/contents/ui/ConfigIcons.qml:121
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Sort Icons"
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "আইকন সুবিন্যাস্ত করুন"
 
 #: package/contents/ui/ConfigIcons.qml:140
+#, kde-format
 msgid "Arrangement:"
 msgstr ""
 
@@ -141,26 +152,25 @@ msgid "Columns"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:149
+#, kde-format
 msgid "Align left"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:149
+#, kde-format
 msgid "Align right"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:164
+#, kde-format
 msgid "Lock in place"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:177
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Sort icons:"
 msgid "Sorting:"
 msgstr "আইকনের ক্রমবিন্যাস:"
-
-#: package/contents/ui/ConfigIcons.qml:185
-msgid "Manual"
-msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:38
@@ -194,6 +204,11 @@ msgstr "ধরন অনুযায়ী"
 msgid "Date"
 msgstr "তারিখ অনুযায়ী"
 
+#: package/contents/ui/ConfigIcons.qml:185
+#, kde-format
+msgid "Manual"
+msgstr ""
+
 #: package/contents/ui/ConfigIcons.qml:196
 #: plugins/folder/viewpropertiesmenu.cpp:55
 #, kde-format
@@ -201,23 +216,25 @@ msgid "Descending"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:204
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
 msgid "Folders first"
 msgstr "প্রথমে ফোল্ডার"
 
 #: package/contents/ui/ConfigIcons.qml:218
+#, kde-format
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:220
+#, kde-format
 msgid "List"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:231
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Icon size:"
 msgid "Icon size:"
 msgstr "আইকনের মাপ:"
@@ -235,12 +252,13 @@ msgid "Large"
 msgstr "বৃহৎ"
 
 #: package/contents/ui/ConfigIcons.qml:264
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Label:"
 msgid "Label width:"
 msgstr "লেবেল:"
 
 #: package/contents/ui/ConfigIcons.qml:267
+#, kde-format
 msgid "Narrow"
 msgstr ""
 
@@ -251,11 +269,12 @@ msgid "Medium"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:269
+#, kde-format
 msgid "Wide"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:277
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Inserted as %2 in the message below."
 #| msgid "1 file"
 #| msgid_plural "%1 files"
@@ -263,51 +282,59 @@ msgid "Text lines:"
 msgstr "একটি ফাইল"
 
 #: package/contents/ui/ConfigIcons.qml:293
+#, kde-format
 msgid "Features:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:295
+#, kde-format
 msgid "Tooltips"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:302
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "সমগ্র নির্বাচন করুন"
 
 #: package/contents/ui/ConfigIcons.qml:309
+#, kde-format
 msgid "Folder preview popups"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:315
+#, kde-format
 msgid "Preview thumbnails"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:323
+#, kde-format
 msgid "Configure Preview Plugins..."
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:93
+#, kde-format
 msgid "Show:"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:95
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show the Desktop folder"
 msgid "Desktop folder"
 msgstr "ডেস্কটপ ফোল্ডার প্রদর্শন করা হবে"
 
 #: package/contents/ui/ConfigLocation.qml:102
+#, kde-format
 msgid "Files linked to the current activity"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:109
+#, kde-format
 msgid "Places panel item:"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:142
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt ""
 #| "Title of the page that lets the user choose which location should the "
 #| "folderview show"
@@ -316,68 +343,83 @@ msgid "Custom location:"
 msgstr "অবস্থান"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Type a path or a URL here"
 msgid "Type path or URL..."
 msgstr "এইখানে একটি পাথ অথবা URL লিখুন"
 
 #: package/contents/ui/ConfigLocation.qml:191
+#, kde-format
 msgid "Title:"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:193
+#, kde-format
 msgid "None"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:193
+#, kde-format
 msgid "Default"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:193
+#, kde-format
 msgid "Full path"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:193
+#, kde-format
 msgid "Custom title"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:208
+#, kde-format
 msgid "Enter custom title..."
 msgstr ""
 
 #: package/contents/ui/ConfigOverlay.qml:101
+#, kde-format
 msgid "Rotate"
 msgstr ""
 
 #: package/contents/ui/ConfigOverlay.qml:192
+#, kde-format
 msgid "Open Externally"
 msgstr ""
 
 #: package/contents/ui/ConfigOverlay.qml:204
+#, kde-format
 msgid "Hide Background"
 msgstr ""
 
 #: package/contents/ui/ConfigOverlay.qml:204
+#, kde-format
 msgid "Show Background"
 msgstr ""
 
 #: package/contents/ui/ConfigOverlay.qml:252
+#, kde-format
 msgid "Remove"
 msgstr ""
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+#, kde-format
 msgid "Preview Plugins"
 msgstr ""
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+#, kde-format
 msgid "OK"
 msgstr ""
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+#, kde-format
 msgid "Cancel"
 msgstr ""
 
 #: package/contents/ui/main.qml:361
+#, kde-format
 msgid "Configure Desktop..."
 msgstr ""
 
