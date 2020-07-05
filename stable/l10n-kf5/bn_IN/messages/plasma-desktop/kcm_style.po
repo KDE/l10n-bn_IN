@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 03:49+0100\n"
+"POT-Creation-Date: 2020-07-05 07:44+0200\n"
 "PO-Revision-Date: 2009-01-13 17:06+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -260,17 +260,46 @@ msgstr "রেডিও বাটন"
 msgid "Tab 2"
 msgstr "ট্যাব ২"
 
+#. i18n: ectx: label, entry (widgetStyle), group (KDE)
+#: stylesettings.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Con&figure..."
+msgid "Application style"
+msgstr "কনফিগার করুন...(&f)"
+
+#. i18n: ectx: label, entry (iconsOnButtons), group (KDE)
+#: stylesettings.kcfg:13
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons on buttons"
+msgstr "বাটন রূপে আইকন প্রদর্শন করা হবে (&w)"
+
+#. i18n: ectx: label, entry (iconsInMenus), group (KDE)
+#: stylesettings.kcfg:17
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons in menus"
+msgstr "বাটন রূপে আইকন প্রদর্শন করা হবে (&w)"
+
+#. i18n: ectx: label, entry (toolButtonStyle), group (Toolbar style)
+#: stylesettings.kcfg:23
+#, kde-format
+msgid "Main toolbar label"
+msgstr ""
+
+#. i18n: ectx: label, entry (toolButtonStyleOtherToolbars), group (Toolbar style)
+#: stylesettings.kcfg:27
+#, kde-format
+msgid "Secondary toolbar label"
+msgstr ""
+
 #~ msgid "Unable to Load Dialog"
 #~ msgstr "ডায়লগ লোড করতে ব্যর্থ"
 
 #~ msgid "No description available."
 #~ msgstr "কোনো বিবরণ উপস্থিত নেই।"
-
-#, fuzzy
-#~| msgctxt "@option:check"
-#~| msgid "Sho&w icons on buttons"
-#~ msgid "Show icons in b&uttons:"
-#~ msgstr "বাটন রূপে আইকন প্রদর্শন করা হবে (&w)"
 
 #, fuzzy
 #~| msgid "Widget style:"
