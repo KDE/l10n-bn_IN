@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-30 02:07+0200\n"
+"POT-Creation-Date: 2020-08-02 02:07+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -760,7 +760,7 @@ msgstr "নির্বাচন করুন..."
 #| msgid "All Categories"
 msgctxt ""
 "The first entry in the category selection list (also the default value)"
-msgid "Show All Categories"
+msgid "All Categories"
 msgstr "সকল শ্রেণী"
 
 #: qtquick/categoriesmodel.cpp:108
@@ -957,13 +957,13 @@ msgctxt "Request installation of this item"
 msgid "Install"
 msgstr "ইনস্টল করুন"
 
-#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:189
+#: qtquick/qml/NewStuffList.qml:83
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:190
+#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:195
 #, fuzzy, kde-format
 #| msgid "Installed"
 msgctxt ""
@@ -971,7 +971,7 @@ msgctxt ""
 msgid "Installed Only"
 msgstr "ইনস্টল করা"
 
-#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:191
+#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:196
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -979,7 +979,7 @@ msgctxt ""
 msgid "Updateable Only"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:203
+#: qtquick/qml/NewStuffList.qml:97
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt ""
@@ -988,7 +988,7 @@ msgctxt ""
 msgid "Show most recent first"
 msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
 
-#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:204
+#: qtquick/qml/NewStuffList.qml:98
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -996,14 +996,14 @@ msgctxt ""
 msgid "Sort alphabetically"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:205
+#: qtquick/qml/NewStuffList.qml:99
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show highest rated first"
 msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
 
-#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:206
+#: qtquick/qml/NewStuffList.qml:100
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
@@ -1030,7 +1030,51 @@ msgstr ""
 msgid "Preview view mode"
 msgstr "ছবির পূর্বদৃশ্য:"
 
-#: qtquick/qml/Page.qml:253
+#: qtquick/qml/Page.qml:176
+#, fuzzy, kde-format
+#| msgid "Show %1"
+msgid "Show:"
+msgstr "%1 প্রদর্শন করা হবে"
+
+#: qtquick/qml/Page.qml:194
+#, kde-format
+msgctxt "List option which will set the filter to show everything"
+msgid "Everything"
+msgstr ""
+
+#: qtquick/qml/Page.qml:208
+#, fuzzy, kde-format
+#| msgid "Show directories first"
+msgctxt ""
+"List option which will set the sort order to based on when items were most "
+"recently updated"
+msgid "Most recent first"
+msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
+
+#: qtquick/qml/Page.qml:209
+#, kde-format
+msgctxt ""
+"List option which will set the sort order to be alphabetical based on the "
+"name"
+msgid "A-Z"
+msgstr ""
+
+#: qtquick/qml/Page.qml:210
+#, fuzzy, kde-format
+#| msgid "Show directories first"
+msgctxt "List option which will set the sort order to based on user ratings"
+msgid "Highest rated first"
+msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
+
+#: qtquick/qml/Page.qml:211
+#, fuzzy, kde-format
+#| msgid "Most Downloads"
+msgctxt ""
+"List option which will set the sort order to based on number of downloads"
+msgid "Most downloaded first"
+msgstr "সর্বাধিকবার ডাউনলোড করা হয়েছে"
+
+#: qtquick/qml/Page.qml:258
 #, fuzzy, kde-format
 #| msgid "Loading preview..."
 msgctxt ""
@@ -1038,7 +1082,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "পূর্বদৃশ্যের উদ্দেশ্যে লোড করা হচ্ছে..."
 
-#: qtquick/qml/Page.qml:320
+#: qtquick/qml/Page.qml:325
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
@@ -1640,6 +1684,13 @@ msgstr ""
 msgid "Start Upload"
 msgstr "প্রতিস্থাপন প্রারম্ভ"
 
+#, fuzzy
+#~| msgid "All Categories"
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "Show All Categories"
+#~ msgstr "সকল শ্রেণী"
+
 #~ msgid "Enter search phrase here"
 #~ msgstr "অনুসন্ধানের উদ্দেশ্যে এই স্থানে তথ্য লিখুন"
 
@@ -1838,9 +1889,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "Hide %1"
 #~ msgstr "%1 আড়াল করা হবে"
-
-#~ msgid "Show %1"
-#~ msgstr "%1 প্রদর্শন করা হবে"
 
 #~ msgid "Search Columns"
 #~ msgstr "কলাম অনুসন্ধান"
