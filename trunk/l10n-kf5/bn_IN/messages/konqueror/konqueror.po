@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-26 02:14+0200\n"
+"POT-Creation-Date: 2020-08-08 02:16+0200\n"
 "PO-Revision-Date: 2009-01-16 16:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -93,14 +93,14 @@ msgstr "%1-র মধ্যে ঝলক প্রদর্শন করা হ�
 msgid "Show %1"
 msgstr "%1 প্রদর্শন করুন"
 
-#: src/konqhistorydialog.cpp:51
+#: src/konqhistorydialog.cpp:53
 #, fuzzy, kde-format
 #| msgid "Clear History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
 
-#: src/konqhistorydialog.cpp:65 src/konqhistoryview.cpp:147
+#: src/konqhistorydialog.cpp:69 src/konqhistoryview.cpp:153
 #, kde-format
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
 msgid "Sort"
@@ -135,49 +135,55 @@ msgstr "নতুন উইন্ডোর মধ্যে প্রদর্শ
 msgid "Open in New Tab"
 msgstr "নতুন ট্যাবের মধ্যে খুলুন"
 
-#: src/konqhistoryview.cpp:75
+#: src/konqhistoryview.cpp:76
+#, fuzzy, kde-format
+#| msgid "Open in New Tab"
+msgid "Open in Current Tab"
+msgstr "নতুন ট্যাবের মধ্যে খুলুন"
+
+#: src/konqhistoryview.cpp:80
 #, fuzzy, kde-format
 #| msgid "Copy Link Address"
 msgid "&Copy Link Address"
 msgstr "লিংক দ্বারা চিহ্নিত অবস্থা কপি করুন"
 
-#: src/konqhistoryview.cpp:80
+#: src/konqhistoryview.cpp:85
 #, kde-format
 msgid "&Remove Entry"
 msgstr ""
 
-#: src/konqhistoryview.cpp:87
+#: src/konqhistoryview.cpp:92
 #, kde-format
 msgid "C&lear History"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: src/konqhistoryview.cpp:92
+#: src/konqhistoryview.cpp:97
 #, kde-format
 msgid "&Preferences..."
 msgstr "পছন্দ...(&P)"
 
-#: src/konqhistoryview.cpp:99
+#: src/konqhistoryview.cpp:104
 #, kde-format
 msgid "By &Name"
 msgstr "নাম অনুসারে (&N)"
 
-#: src/konqhistoryview.cpp:105
+#: src/konqhistoryview.cpp:110
 #, kde-format
 msgid "By &Date"
 msgstr "তারিখ অনুসারে (&D)"
 
-#: src/konqhistoryview.cpp:115
+#: src/konqhistoryview.cpp:120
 #, fuzzy, kde-format
 #| msgid "Clear History"
 msgid "Search in history"
 msgstr "পূর্ববর্তী তথ্য মুছে ফেলুন"
 
-#: src/konqhistoryview.cpp:175
+#: src/konqhistoryview.cpp:181
 #, kde-format
 msgid "Do you really want to clear the entire history?"
 msgstr "পূর্ববর্তী তথ্য সম্পূর্ণ মুছে ফেলা হবে কি?"
 
-#: src/konqhistoryview.cpp:176
+#: src/konqhistoryview.cpp:182
 #, fuzzy, kde-format
 #| msgid "Clear History?"
 msgctxt "@title:window"
