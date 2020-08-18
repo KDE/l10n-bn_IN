@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-17 00:32+0000\n"
+"POT-Creation-Date: 2020-08-18 00:39+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -92,13 +92,16 @@ msgid "Provides access to the clipboard history"
 msgstr ""
 
 #: applets/devicenotifier/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Device Notifier"
-msgstr "ডিভাইসের সূচনা ব্যবস্থা"
+msgid "Disks & Devices"
+msgstr "ডিভাইস"
 
 #: applets/devicenotifier/package/metadata.desktop:79
 msgctxt "Comment"
-msgid "Notifications and access for new devices"
+msgid "Notifications and access for devices"
 msgstr ""
 
 #: applets/devicenotifier/test-predicate-openinwindow.desktop:7
@@ -1816,6 +1819,10 @@ msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
 
+#~ msgctxt "Name"
+#~ msgid "Device Notifier"
+#~ msgstr "ডিভাইসের সূচনা ব্যবস্থা"
+
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Web Shortcuts"
@@ -1878,13 +1885,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Share Services"
 #~ msgstr "পরিসেবা"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
-#~ msgctxt "Name|plasma runner"
-#~ msgid "Devices"
-#~ msgstr "ডিভাইস"
 
 #~ msgctxt "Name"
 #~ msgid "kuiserver"
