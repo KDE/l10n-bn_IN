@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-14 02:11+0200\n"
+"POT-Creation-Date: 2020-09-18 02:11+0200\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -142,7 +142,7 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
 
-#: kaboutapplicationpersonmodel_p.cpp:192
+#: kaboutapplicationpersonmodel_p.cpp:191
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1 is 'the slot asked for foo arguments', %2 is 'but there are only bar "
@@ -152,7 +152,7 @@ msgctxt "City, Country"
 msgid "%1, %2"
 msgstr "%1, %2."
 
-#: kaboutapplicationpersonmodel_p.cpp:295
+#: kaboutapplicationpersonmodel_p.cpp:294
 #, fuzzy, kde-format
 #| msgctxt "@item Text character set"
 #| msgid "Other"
@@ -160,13 +160,13 @@ msgctxt "A generic social network or homepage link of an unlisted type."
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kaboutapplicationpersonmodel_p.cpp:297
+#: kaboutapplicationpersonmodel_p.cpp:296
 #, kde-format
 msgctxt "A type of link."
 msgid "Blog"
 msgstr ""
 
-#: kaboutapplicationpersonmodel_p.cpp:305
+#: kaboutapplicationpersonmodel_p.cpp:304
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgctxt "A type of link."
@@ -662,31 +662,31 @@ msgctxt "@option:check"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
-#: kedittoolbar.cpp:606
+#: kedittoolbar.cpp:604
 #, fuzzy, kde-format
 #| msgid "Configure Toolbars"
 msgctxt "@title:window"
 msgid "Configure Toolbars"
 msgstr "টুল-বার কনফিগার করুন"
 
-#: kedittoolbar.cpp:669
+#: kedittoolbar.cpp:667
 #, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
 msgstr ""
 
-#: kedittoolbar.cpp:669
+#: kedittoolbar.cpp:667
 #, kde-format
 msgid "Reset Toolbars"
 msgstr "টুল-বারের ডিফল্ট মান রি-সেট করা হবে"
 
-#: kedittoolbar.cpp:669
+#: kedittoolbar.cpp:667
 #, kde-format
 msgid "Reset"
 msgstr "রি-সেট করুন"
 
-#: kedittoolbar.cpp:1000
+#: kedittoolbar.cpp:998
 #, kde-format
 msgid "&Toolbar:"
 msgstr "টুল-বার: (&T)"
@@ -698,87 +698,87 @@ msgstr "টুল-বার: (&T)"
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1015
+#: kedittoolbar.cpp:1013
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "উপলব্ধ করুন: (&v)"
 
-#: kedittoolbar.cpp:1030 kedittoolbar.cpp:1049
+#: kedittoolbar.cpp:1028 kedittoolbar.cpp:1047
 #, kde-format
 msgid "Filter"
 msgstr "ফিল্টার"
 
-#: kedittoolbar.cpp:1033
+#: kedittoolbar.cpp:1031
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "বর্তমান কর্ম: (&e)"
 
-#: kedittoolbar.cpp:1052
+#: kedittoolbar.cpp:1050
 #, fuzzy, kde-format
 #| msgid "Change &Icon..."
 msgctxt "@action:button"
 msgid "Change &Icon..."
 msgstr "আইকন পরিবর্তন করুন...(&I)"
 
-#: kedittoolbar.cpp:1060
+#: kedittoolbar.cpp:1058
 #, fuzzy, kde-format
 #| msgid "Change Te&xt..."
 msgctxt "@action:button"
 msgid "Change Te&xt..."
 msgstr "টেক্সট পরিবর্তন করুন...(&x)"
 
-#: kedittoolbar.cpp:1213
+#: kedittoolbar.cpp:1211
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1240
+#: kedittoolbar.cpp:1238
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kedittoolbar.cpp:1242
+#: kedittoolbar.cpp:1240
 #, kde-format
 msgid "<Merge>"
 msgstr "<Merge>"
 
-#: kedittoolbar.cpp:1244
+#: kedittoolbar.cpp:1242
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Merge %1>"
 
-#: kedittoolbar.cpp:1250
+#: kedittoolbar.cpp:1248
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kedittoolbar.cpp:1251
+#: kedittoolbar.cpp:1249
 #, kde-format
 msgid "ActionList: %1"
 msgstr "ActionList: %1"
 
-#: kedittoolbar.cpp:1353 kedittoolbar.cpp:1380
+#: kedittoolbar.cpp:1351 kedittoolbar.cpp:1378
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1607
+#: kedittoolbar.cpp:1605
 #, kde-format
 msgid "Change Icon"
 msgstr "আইকন পরিবর্তন করুন"
 
 #. i18n: ectx: Menu (help)
-#: khelpmenu.cpp:158 ui_standards.rc:178
+#: khelpmenu.cpp:149 ui_standards.rc:178
 #, kde-format
 msgid "&Help"
 msgstr "সাহায্য (&H)"
 
-#: khelpmenu.cpp:266
+#: khelpmenu.cpp:257
 #, kde-format
 msgid "About %1"
 msgstr "%1 পরিচিতি"
@@ -1123,7 +1123,7 @@ msgstr "অপসারণের অনুরোধ সাফল্যের স
 msgid "Error saving the shortcut scheme."
 msgstr ""
 
-#: kshortcutsdialog.cpp:74
+#: kshortcutsdialog.cpp:70
 #, kde-format
 msgid ""
 "The current shortcut scheme is modified. Save before switching to the new "
@@ -1132,13 +1132,13 @@ msgstr ""
 "বর্তমান শর্ট-কাট স্কিম পরিবর্তিত হয়েছে। নতুন স্কিম প্রয়োগ করার পূর্বে এটি সংরক্ষণ করা "
 "হবে কি?"
 
-#: kshortcutsdialog.cpp:124
+#: kshortcutsdialog.cpp:120
 #, fuzzy, kde-format
 #| msgid "New Scheme"
 msgid "Manage &Schemes"
 msgstr "নতুন স্কিম"
 
-#: kshortcutsdialog.cpp:143
+#: kshortcutsdialog.cpp:139
 #, fuzzy, kde-format
 #| msgid "Configure Shortcuts"
 msgctxt "@title:window"
@@ -1322,14 +1322,14 @@ msgstr "প্রধান ভাষা:"
 msgid "Fallback language:"
 msgstr "বিকল্প ভাষা:"
 
-#: kswitchlanguagedialog_p.cpp:401
+#: kswitchlanguagedialog_p.cpp:402
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "মুছে ফেলুন"
 
-#: kswitchlanguagedialog_p.cpp:408
+#: kswitchlanguagedialog_p.cpp:409
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the main application language which will be used first, before "
@@ -1341,7 +1341,7 @@ msgid ""
 msgstr ""
 "এই অ্যাপ্লিকেশনের জন্য অন্যান্য কোনো ভাষা ব্যবহারের আগে চিহ্নিত ভাষা প্রয়োগ করা হবে।"
 
-#: kswitchlanguagedialog_p.cpp:409
+#: kswitchlanguagedialog_p.cpp:410
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the language which will be used if any previous languages do not "
