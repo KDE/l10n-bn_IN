@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-25 02:32+0200\n"
+"POT-Creation-Date: 2020-09-27 02:33+0200\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1414,7 +1414,7 @@ msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্
 msgid "Silence in session '%1'"
 msgstr "'%1' সেশানে নিরবতা"
 
-#: session/Session.cpp:921
+#: session/Session.cpp:928
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1423,29 +1423,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:957
+#: session/Session.cpp:964
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: session/Session.cpp:971 session/Session.cpp:984
+#: session/Session.cpp:978 session/Session.cpp:991
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: session/Session.cpp:973
+#: session/Session.cpp:980
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: session/Session.cpp:1416
+#: session/Session.cpp:1423
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
-#: session/Session.cpp:1732
+#: session/Session.cpp:1739
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "'%1'-এ কর্ম"
@@ -2621,7 +2621,7 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: Vt102Emulation.cpp:1253
+#: Vt102Emulation.cpp:1255
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
