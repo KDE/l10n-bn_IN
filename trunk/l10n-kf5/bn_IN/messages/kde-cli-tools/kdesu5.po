@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-08 03:31+0100\n"
+"POT-Creation-Date: 2020-10-23 02:31+0200\n"
 "PO-Revision-Date: 2009-01-13 10:27+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -180,17 +180,17 @@ msgstr "রিয়েল-টাইম: "
 msgid "Priority:"
 msgstr "গুরুত্বের মাত্রা:"
 
-#: sudlg.cpp:34
+#: sudlg.cpp:29
 #, kde-format
 msgid "Run as %1"
 msgstr "%1 রূপে সঞ্চালন করুন"
 
-#: sudlg.cpp:38
+#: sudlg.cpp:33
 #, kde-format
 msgid "Please enter your password below."
 msgstr "অনুগ্রহ করে, নীচে আপনার পাসওয়ার্ড লিখুন।"
 
-#: sudlg.cpp:42
+#: sudlg.cpp:37
 #, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
@@ -201,7 +201,7 @@ msgstr ""
 "<b>root ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন অথবা বর্তমান অনুমতির মাত্রা সহ এগিয়ে চলার "
 "জন্য 'উপেক্ষা করুন' ক্লিক করুন।"
 
-#: sudlg.cpp:46
+#: sudlg.cpp:41
 #, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
@@ -210,7 +210,7 @@ msgstr ""
 "অনুরোধ করা কর্মের জন্য <b>root ব্যবহারকারীর অনুমতি</b> আবশ্যক। অনুগ্রহ করে নীচে "
 "<b>root ব্যবহারকারীর</b> পাসওয়ার্ড লিখুন।"
 
-#: sudlg.cpp:50
+#: sudlg.cpp:45
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
@@ -221,7 +221,7 @@ msgstr ""
 "b> পাসওয়ার্ড লিখুন অথবা বর্তমান অনুমতির মাত্রা সহ এগিয়ে চলার জন্য 'উপেক্ষা করুন' "
 "ক্লিক করুন।"
 
-#: sudlg.cpp:55
+#: sudlg.cpp:50
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
@@ -230,12 +230,12 @@ msgstr ""
 "অনুরোধ করা কর্মের জন্য অতিরিক্ত অনুমতি আবশ্যক। অনুগ্রহ করে নীচে <b>%1 ব্যবহারকারীর</"
 "b> পাসওয়ার্ড লিখুন।"
 
-#: sudlg.cpp:79
+#: sudlg.cpp:74
 #, kde-format
 msgid "Conversation with su failed."
 msgstr "su-র সাথে তথ্য বিনিময় করতে ব্যর্থ।"
 
-#: sudlg.cpp:86
+#: sudlg.cpp:81
 #, kde-format
 msgid ""
 "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
@@ -243,7 +243,7 @@ msgstr ""
 "'su' প্রোগ্রামটি পাওয়া যায়নি। <br />অনুগ্রহ করে পরীক্ষা করুন, PATH-র মান সঠিকভাবে "
 "ধার্য করা হয়েছে কি না।"
 
-#: sudlg.cpp:96
+#: sudlg.cpp:91
 #, kde-format
 msgid ""
 "Permission denied.<br />Possibly incorrect password, please try again.<br /"
@@ -251,7 +251,7 @@ msgid ""
 "this program."
 msgstr ""
 
-#: sudlg.cpp:103
+#: sudlg.cpp:98
 #, kde-format
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "অভ্যন্তরীণ ত্রুটি: SuProcess::checkInstall() থেকে প্রাপ্ত ফলাফল বৈধ নয়"
