@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwinrules\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-27 02:35+0100\n"
+"POT-Creation-Date: 2020-10-31 02:28+0100\n"
 "PO-Revision-Date: 2009-01-07 14:37+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -236,12 +236,12 @@ msgstr "বন্ধ করার যোগ্য (&C)"
 msgid "Detect Window Properties"
 msgstr "উইন্ডোর বৈশিষ্ট্য সনাক্ত করা হবে (&D)"
 
-#: package/contents/ui/RulesEditor.qml:107
+#: package/contents/ui/RulesEditor.qml:106
 #, kde-format
 msgid "Instantly"
 msgstr ""
 
-#: package/contents/ui/RulesEditor.qml:108
+#: package/contents/ui/RulesEditor.qml:107
 #, kde-format
 msgid "After %1 second"
 msgid_plural "After %1 seconds"
@@ -722,136 +722,136 @@ msgstr ""
 msgid "Block compositing"
 msgstr ""
 
-#: rulesmodel.cpp:716
+#: rulesmodel.cpp:708
 #, kde-format
 msgid "Normal Window"
 msgstr "স্বাভাবিক উইন্ডো"
 
-#: rulesmodel.cpp:717
+#: rulesmodel.cpp:709
 #, kde-format
 msgid "Dialog Window"
 msgstr "ডায়লগ উইন্ডো"
 
-#: rulesmodel.cpp:718
+#: rulesmodel.cpp:710
 #, kde-format
 msgid "Utility Window"
 msgstr ""
 
-#: rulesmodel.cpp:719
+#: rulesmodel.cpp:711
 #, kde-format
 msgid "Dock (panel)"
 msgstr ""
 
-#: rulesmodel.cpp:720
+#: rulesmodel.cpp:712
 #, kde-format
 msgid "Toolbar"
 msgstr "টুল-বার"
 
-#: rulesmodel.cpp:721
+#: rulesmodel.cpp:713
 #, kde-format
 msgid "Torn-Off Menu"
 msgstr ""
 
-#: rulesmodel.cpp:722
+#: rulesmodel.cpp:714
 #, kde-format
 msgid "Splash Screen"
 msgstr "স্প্ল্যাশ স্ক্রিন"
 
-#: rulesmodel.cpp:723
+#: rulesmodel.cpp:715
 #, kde-format
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
 #. i18n("Unmanaged Window")   },  deprecated
-#: rulesmodel.cpp:725
+#: rulesmodel.cpp:717
 #, kde-format
 msgid "Standalone Menubar"
 msgstr "স্বতন্ত্র মেনু-বার"
 
-#: rulesmodel.cpp:740
+#: rulesmodel.cpp:732
 #, kde-format
 msgid "All Desktops"
 msgstr "সকল ডেস্কটপ"
 
-#: rulesmodel.cpp:753
+#: rulesmodel.cpp:745
 #, kde-format
 msgid "All Activities"
 msgstr ""
 
-#: rulesmodel.cpp:774
+#: rulesmodel.cpp:766
 #, kde-format
 msgid "Default"
 msgstr "ডিফল্ট মান"
 
-#: rulesmodel.cpp:775
+#: rulesmodel.cpp:767
 #, kde-format
 msgid "No Placement"
 msgstr ""
 
-#: rulesmodel.cpp:776
+#: rulesmodel.cpp:768
 #, kde-format
 msgid "Minimal Overlapping"
 msgstr ""
 
-#: rulesmodel.cpp:777
+#: rulesmodel.cpp:769
 #, fuzzy, kde-format
 #| msgid "M&inimized"
 msgid "Maximized"
 msgstr "সর্বনিম্ন মাপ (&i)"
 
-#: rulesmodel.cpp:778
+#: rulesmodel.cpp:770
 #, kde-format
 msgid "Cascaded"
 msgstr ""
 
-#: rulesmodel.cpp:779
+#: rulesmodel.cpp:771
 #, kde-format
 msgid "Centered"
 msgstr "কেন্দ্রস্থিত"
 
-#: rulesmodel.cpp:780
+#: rulesmodel.cpp:772
 #, kde-format
 msgid "Random"
 msgstr "যথেচ্ছ"
 
-#: rulesmodel.cpp:781
+#: rulesmodel.cpp:773
 #, fuzzy, kde-format
 #| msgid "Top-Left Corner"
 msgid "In Top-Left Corner"
 msgstr "উপরে-ডানদিকের কোণায়"
 
-#: rulesmodel.cpp:782
+#: rulesmodel.cpp:774
 #, kde-format
 msgid "Under Mouse"
 msgstr "মাউসের নীচে"
 
-#: rulesmodel.cpp:783
+#: rulesmodel.cpp:775
 #, kde-format
 msgid "On Main Window"
 msgstr "প্রধান উইন্ডোর মধ্যে"
 
-#: rulesmodel.cpp:791
+#: rulesmodel.cpp:783
 #, fuzzy, kde-format
 #| msgid "None"
 msgid "None"
 msgstr "শূণ্য"
 
-#: rulesmodel.cpp:792
+#: rulesmodel.cpp:784
 #, kde-format
 msgid "Low"
 msgstr "কম"
 
-#: rulesmodel.cpp:793
+#: rulesmodel.cpp:785
 #, kde-format
 msgid "Normal"
 msgstr "স্বাভাবিক"
 
-#: rulesmodel.cpp:794
+#: rulesmodel.cpp:786
 #, kde-format
 msgid "High"
 msgstr "বেশি"
 
-#: rulesmodel.cpp:795
+#: rulesmodel.cpp:787
 #, kde-format
 msgid "Extreme"
 msgstr ""

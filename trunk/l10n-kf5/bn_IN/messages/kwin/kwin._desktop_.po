@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-20 00:47+0000\n"
+"POT-Creation-Date: 2020-10-31 01:42+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -789,6 +789,19 @@ msgstr "CGI স্ক্রিপ্ট"
 msgctxt "Name"
 msgid "KWin Window Switcher"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+
+#: runners/kwin-runner-windows.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Close"
+msgctxt "Name|plasma runner"
+msgid "Windows"
+msgstr "উইন্ডো বন্ধ করুন"
+
+#: runners/kwin-runner-windows.desktop:73
+msgctxt "Comment"
+msgid "List windows and desktops and switch them"
+msgstr ""
 
 #: scripting/kwinscript.desktop:5
 #, fuzzy
