@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:13+0200\n"
+"POT-Creation-Date: 2020-11-13 02:13+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -783,39 +783,15 @@ msgstr "সাহায্য (&H)"
 msgid "About %1"
 msgstr "%1 পরিচিতি"
 
-#: kkeysequencewidget.cpp:117
+#: kkeysequencewidget.cpp:142
 #, kde-format
-msgid "Shortcut '%1' in Application %2 for action %3\n"
+msgctxt "@info:tooltip"
+msgid ""
+"Click on the button, then enter the shortcut like you would in the program.\n"
+"Example for Ctrl+A: hold the Ctrl key and press A."
 msgstr ""
 
-#: kkeysequencewidget.cpp:127
-#, kde-format
-msgctxt ""
-"%1 is the number of conflicts (hidden), %2 is the key sequence of the "
-"shortcut that is problematic"
-msgid "The shortcut '%2' conflicts with the following key combination:\n"
-msgid_plural ""
-"The shortcut '%2' conflicts with the following key combinations:\n"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kkeysequencewidget.cpp:133
-#, kde-format
-msgctxt "%1 is the number of shortcuts with which there is a conflict"
-msgid "Conflict with Registered Global Shortcut"
-msgid_plural "Conflict with Registered Global Shortcuts"
-msgstr[0] "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
-msgstr[1] "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
-
-#: kkeysequencewidget.cpp:135 kkeysequencewidget.cpp:223
-#: kkeysequencewidget.cpp:614
-#, fuzzy, kde-format
-#| msgid "Reassign"
-msgctxt "@action:button"
-msgid "Reassign"
-msgstr "পুনরায় নির্ধারণ"
-
-#: kkeysequencewidget.cpp:204
+#: kkeysequencewidget.cpp:166
 #, kde-format
 msgctxt "%1 is the number of conflicts"
 msgid "Shortcut Conflict"
@@ -823,12 +799,12 @@ msgid_plural "Shortcut Conflicts"
 msgstr[0] "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
 msgstr[1] "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
 
-#: kkeysequencewidget.cpp:208
+#: kkeysequencewidget.cpp:170
 #, kde-format
 msgid "Shortcut '%1' for action '%2'\n"
 msgstr "'%1' শর্ট-কাট, '%2' কর্মের জন্য নিবন্ধিত\n"
 
-#: kkeysequencewidget.cpp:213
+#: kkeysequencewidget.cpp:175
 #, kde-format
 msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
 msgid ""
@@ -842,34 +818,58 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kkeysequencewidget.cpp:232
+#: kkeysequencewidget.cpp:185 kkeysequencewidget.cpp:288
+#: kkeysequencewidget.cpp:353
+#, fuzzy, kde-format
+#| msgid "Reassign"
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "পুনরায় নির্ধারণ"
+
+#: kkeysequencewidget.cpp:190
 #, fuzzy, kde-format
 #| msgid "Shortcut conflict"
 msgctxt "@title:window"
 msgid "Shortcut conflict"
 msgstr "শর্ট-কাট সংক্রান্ত দ্বন্দ্ব"
 
-#: kkeysequencewidget.cpp:233
+#: kkeysequencewidget.cpp:191
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kkeysequencewidget.cpp:263
+#: kkeysequencewidget.cpp:273
 #, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Click on the button, then enter the shortcut like you would in the program.\n"
-"Example for Ctrl+A: hold the Ctrl key and press A."
+msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr ""
 
-#: kkeysequencewidget.cpp:455
+#: kkeysequencewidget.cpp:280
+#, kde-format
+msgctxt ""
+"%1 is the number of conflicts (hidden), %2 is the key sequence of the "
+"shortcut that is problematic"
+msgid "The shortcut '%2' conflicts with the following key combination:\n"
+msgid_plural ""
+"The shortcut '%2' conflicts with the following key combinations:\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kkeysequencewidget.cpp:286
+#, kde-format
+msgctxt "%1 is the number of shortcuts with which there is a conflict"
+msgid "Conflict with Registered Global Shortcut"
+msgid_plural "Conflict with Registered Global Shortcuts"
+msgstr[0] "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
+msgstr[1] "নিবন্ধিত সার্বজনীন শর্ট-কাটের সাথে দ্বন্দ্ব"
+
+#: kkeysequencewidget.cpp:300
 #, kde-format
 msgid "Reserved Shortcut"
 msgstr "সংরক্ষিত শর্ট-কাট"
 
-#: kkeysequencewidget.cpp:456
+#: kkeysequencewidget.cpp:301
 #, kde-format
 msgid ""
 "The F12 key is reserved on Windows, so cannot be used for a global "
@@ -877,14 +877,14 @@ msgid ""
 "Please choose another one."
 msgstr ""
 
-#: kkeysequencewidget.cpp:608
+#: kkeysequencewidget.cpp:347
 #, fuzzy, kde-format
 #| msgid "Conflict with Standard Application Shortcut"
 msgctxt "@title:window"
 msgid "Conflict with Standard Application Shortcut"
 msgstr "অ্যাপ্লিকেশনের প্রমিত শর্ট-কাটের সাথে দ্বন্দ্ব"
 
-#: kkeysequencewidget.cpp:609
+#: kkeysequencewidget.cpp:348
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -892,29 +892,17 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kkeysequencewidget.cpp:657
+#: kkeysequencewidget.cpp:392
 #, kde-format
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "ইনপুট"
 
-#: kkeysequencewidget.cpp:664 kshortcuteditwidget.cpp:52
+#: kkeysequencewidget.cpp:394 kshortcuteditwidget.cpp:52
 #, kde-format
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "শূণ্য"
-
-#: kkeysequencewidget.cpp:709
-#, kde-format
-msgid "The key you just pressed is not supported by Qt."
-msgstr "টেপা কি-টি Qt-র মধ্যে সমর্থিত হয় না।"
-
-#: kkeysequencewidget.cpp:710
-#, fuzzy, kde-format
-#| msgid "Unsupported Key"
-msgctxt "@title:window"
-msgid "Unsupported Key"
-msgstr "অসমর্থিত-কি"
 
 #: klicensedialog_p.cpp:34
 #, fuzzy, kde-format
@@ -1562,6 +1550,15 @@ msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
+
+#~ msgid "The key you just pressed is not supported by Qt."
+#~ msgstr "টেপা কি-টি Qt-র মধ্যে সমর্থিত হয় না।"
+
+#, fuzzy
+#~| msgid "Unsupported Key"
+#~ msgctxt "@title:window"
+#~ msgid "Unsupported Key"
+#~ msgstr "অসমর্থিত-কি"
 
 #, fuzzy
 #~| msgid "Switch Application Language"
