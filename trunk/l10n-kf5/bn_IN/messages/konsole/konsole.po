@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-15 02:37+0100\n"
+"POT-Creation-Date: 2020-11-18 02:48+0100\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -4030,11 +4030,10 @@ msgstr "চিহ্নিত তথ্যের পরবর্তী উপস
 msgid "Print Shell"
 msgstr "Shell"
 
-#: widgets/RenameTabWidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "New Color Scheme"
-msgid "Color from theme"
-msgstr "নতুন রঙের বিন্যাস"
+#: widgets/RenameTabWidget.cpp:37
+#, kde-format
+msgid "None"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteTabTitleEdit)
 #: widgets/RenameTabWidget.ui:41
@@ -4210,6 +4209,11 @@ msgstr "ট্যাবের নাম পরিবর্তন করুন...
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
+
+#, fuzzy
+#~| msgid "New Color Scheme"
+#~ msgid "Color from theme"
+#~ msgstr "নতুন রঙের বিন্যাস"
 
 #, fuzzy
 #~| msgid "Edit Profile \"%1\""
