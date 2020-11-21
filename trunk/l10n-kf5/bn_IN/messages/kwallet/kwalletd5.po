@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:13+0200\n"
+"POT-Creation-Date: 2020-11-21 02:13+0100\n"
 "PO-Revision-Date: 2009-01-02 17:05+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -100,52 +100,52 @@ msgid ""
 "system.</qt>"
 msgstr ""
 
-#: backend/kwalletbackend.cc:250
+#: backend/kwalletbackend.cc:249
 #, kde-format
 msgid "Already open."
 msgstr "বর্তমানে খোলা"
 
-#: backend/kwalletbackend.cc:252
+#: backend/kwalletbackend.cc:251
 #, kde-format
 msgid "Error opening file."
 msgstr "ফাইল খুলতে ব্যর্থ।"
 
-#: backend/kwalletbackend.cc:254
+#: backend/kwalletbackend.cc:253
 #, kde-format
 msgid "Not a wallet file."
 msgstr "wallet ফাইল নয়।"
 
-#: backend/kwalletbackend.cc:256
+#: backend/kwalletbackend.cc:255
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "পরিবর্ধিত ফাইলের বিন্যাস সমর্থিত নয়।"
 
-#: backend/kwalletbackend.cc:260
+#: backend/kwalletbackend.cc:259
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "এনক্রিপশনের স্কিম অজানা।"
 
-#: backend/kwalletbackend.cc:262
+#: backend/kwalletbackend.cc:261
 #, kde-format
 msgid "Corrupt file?"
 msgstr "ফাইল কি ক্ষতিগ্রস্ত?"
 
-#: backend/kwalletbackend.cc:264
+#: backend/kwalletbackend.cc:263
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "wallet-র অখণ্ডতা যাচাই করতে সমস্যা। সম্ভবত ক্ষতিগ্রস্ত।"
 
-#: backend/kwalletbackend.cc:268
+#: backend/kwalletbackend.cc:267
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "পড়তে সমস্যা - সম্ভবত পাসওয়ার্ড সঠিক নয়।"
 
-#: backend/kwalletbackend.cc:270
+#: backend/kwalletbackend.cc:269
 #, kde-format
 msgid "Decryption error."
 msgstr "ডিক্রিপশন সংক্রান্ত ত্রুটি।"
 
-#: backend/kwalletbackend.cc:446
+#: backend/kwalletbackend.cc:445
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -297,7 +297,7 @@ msgstr ""
 msgid "Use GPG encryption, for better protection"
 msgstr ""
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:598
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -306,7 +306,7 @@ msgstr ""
 "<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই "
 "ওয়ালেটের পাসওয়ার্ড নীচে লিখুন।</qt>"
 
-#: kwalletd.cpp:606
+#: kwalletd.cpp:605
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -316,20 +316,20 @@ msgstr ""
 "এই ওয়ালেটের পাসওয়ার্ড নীচে লিখুন।</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:617 kwalletd.cpp:761 kwalletd.cpp:877 kwalletd.cpp:1006
-#: kwalletd.cpp:1033 kwalletd.cpp:1047 kwalletd.cpp:1056 kwalletd.cpp:1666
+#: kwalletd.cpp:616 kwalletd.cpp:760 kwalletd.cpp:876 kwalletd.cpp:1005
+#: kwalletd.cpp:1032 kwalletd.cpp:1046 kwalletd.cpp:1055 kwalletd.cpp:1665
 #: main.cpp:166 main.cpp:172 main.cpp:174
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE Wallet পরিসেবা"
 
-#: kwalletd.cpp:632
+#: kwalletd.cpp:631
 #, fuzzy, kde-format
 #| msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgid "An application has requested to open a wallet (%1)."
 msgstr "<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।</qt>"
 
-#: kwalletd.cpp:639
+#: kwalletd.cpp:638
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -337,7 +337,7 @@ msgctxt ""
 msgid "Switch there"
 msgstr ""
 
-#: kwalletd.cpp:643
+#: kwalletd.cpp:642
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The application '<b>%1</b>' has requested access to the open wallet "
@@ -347,14 +347,14 @@ msgstr ""
 "<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।"
 "</qt>"
 
-#: kwalletd.cpp:651
+#: kwalletd.cpp:650
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr ""
 
-#: kwalletd.cpp:667 kwalletd.cpp:772
+#: kwalletd.cpp:666 kwalletd.cpp:771
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -363,7 +363,7 @@ msgstr ""
 "<qt>'<b>%1</b>' ওয়ালেট খুলতে ব্যর্থ। অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন।<br />(ত্রুটির "
 "কোড %2: %3)</qt>"
 
-#: kwalletd.cpp:726
+#: kwalletd.cpp:725
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -374,7 +374,7 @@ msgstr ""
 "জন্য এই পরিসেবাটি ব্যবহার করা হয়। এই ওয়ালেটের জন্য় অনুগ্রহ করে পাসওয়ার্ড লিখুন অথবা "
 "অ্যাপ্লিকেশনের অনুরোধ নাকচ করার জন্য বাতিল টিপুন।"
 
-#: kwalletd.cpp:734
+#: kwalletd.cpp:733
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -387,7 +387,7 @@ msgstr ""
 "অনুগ্রহ করে পাসওয়ার্ড লিখুন অথবা অ্যাপ্লিকেশনের অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</"
 "qt>"
 
-#: kwalletd.cpp:746
+#: kwalletd.cpp:745
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -398,7 +398,7 @@ msgstr ""
 "অনুগ্রহ করে এই ওয়ালেটের জন্য একটি পাসওয়ার্ড নির্বাচন করুন অথবা অ্যাপ্লিকেশনের এই "
 "অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</qt>"
 
-#: kwalletd.cpp:754
+#: kwalletd.cpp:753
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -409,12 +409,12 @@ msgstr ""
 "অনুরোধ জানানো হয়েছে। অনুগ্রহ করে এই ওয়ালেটের জন্য একটি পাসওয়ার্ড নির্বাচন করুন অথবা "
 "অ্যাপ্লিকেশনের এই অনুরোধ নাকচ করার জন্য বাতিল টিপুন।</qt>"
 
-#: kwalletd.cpp:879
+#: kwalletd.cpp:878
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE দ্বারা '<b>%1</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।</qt>"
 
-#: kwalletd.cpp:885
+#: kwalletd.cpp:884
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -423,14 +423,14 @@ msgstr ""
 "<qt>অ্যাপ্লিকেশন '<b>%1</b>' দ্বারা '<b>%2</b>' ওয়ালেট খোলার অনুরোধ জানানো হয়েছে।"
 "</qt>"
 
-#: kwalletd.cpp:1004
+#: kwalletd.cpp:1003
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr "ওয়ালেট খুলতে ব্যর্থ। পাসওয়ার্ড পরিবর্তনের জন্য ওয়ালেট খোলা আবশ্যক।"
 
-#: kwalletd.cpp:1021
+#: kwalletd.cpp:1020
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -438,23 +438,23 @@ msgid ""
 "associated to that key.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:1030
+#: kwalletd.cpp:1029
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr ""
 "<qt>অনুগ্রহ করে, ওয়ালেট '<b>%1</b>'-র জন্য একটি নতুন পাসওয়ার্ড নির্মাণ করুন।</qt>"
 
-#: kwalletd.cpp:1045
+#: kwalletd.cpp:1044
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "ওয়ালেট পুনরায় এনক্রিপ্ট করতে ব্যর্থ। পাসওয়ার্ড পরিবর্তন করা হয়নি।"
 
-#: kwalletd.cpp:1054
+#: kwalletd.cpp:1053
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "ওয়ালেট পুনরায় খুলতে ব্যর্থ। তথ্য হারিয়ে যেতে পারে।"
 
-#: kwalletd.cpp:1664
+#: kwalletd.cpp:1663
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
