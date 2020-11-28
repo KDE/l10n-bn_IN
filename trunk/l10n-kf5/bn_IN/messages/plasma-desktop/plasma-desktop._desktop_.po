@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-26 01:53+0000\n"
+"POT-Creation-Date: 2020-11-28 01:48+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -29,6 +29,19 @@ msgstr ""
 msgctxt "Comment"
 msgid "Switch between running applications"
 msgstr ""
+
+#: applets/keyboardlayout/metadata.desktop:2
+msgctxt "Name"
+msgid "Keyboard Layout"
+msgstr "কি-বোর্ড বিন্যাস"
+
+#: applets/keyboardlayout/metadata.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Comment"
+msgid "Show/switch keyboard layout"
+msgstr "কি-বোর্ড বিন্যাস"
 
 #: applets/kicker/package/metadata.desktop:2
 #, fuzzy
@@ -1715,10 +1728,6 @@ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্�
 #~ msgctxt "Name"
 #~ msgid "Paths"
 #~ msgstr "পাথ"
-
-#~ msgctxt "Name"
-#~ msgid "Keyboard Layout"
-#~ msgstr "কি-বোর্ড বিন্যাস"
 
 #~ msgctxt "Name"
 #~ msgid "Style"
