@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-05 01:51+0000\n"
+"POT-Creation-Date: 2020-12-06 01:48+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -128,19 +128,6 @@ msgctxt "Comment"
 msgid "View your filesystem as a TreeMap"
 msgstr ""
 
-#: plugins/fsview/fsview_part.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System"
-msgctxt "Name"
-msgid "File Size View"
-msgstr "সিস্টেম"
-
-#: plugins/fsview/fsview_part.desktop:63
-msgctxt "Comment"
-msgid "Enables a proportional view of directories and files based on file size"
-msgstr ""
-
 #: plugins/imagerotation/imageconverter.desktop:6
 msgctxt "X-KDE-Submenu"
 msgid "Convert To"
@@ -192,19 +179,6 @@ msgstr ""
 #: plugins/imagerotation/jpegorient.desktop:290
 msgctxt "Name"
 msgid "Flip Horizontally"
-msgstr ""
-
-#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop:12
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Settings"
-msgctxt "Name"
-msgid "HTML Settings"
-msgstr "বিবিধ বৈশিষ্ট্য"
-
-#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop:13
-msgctxt "Comment"
-msgid "A fast way to change the HTML settings"
 msgstr ""
 
 #: plugins/kimgalleryplugin/kimgalleryplugin.desktop:10
@@ -596,14 +570,6 @@ msgctxt "Name"
 msgid "History SideBar Module"
 msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
 
-#: sidebar/konq_sidebartng.desktop:16
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "History Sidebar"
-msgctxt "Name"
-msgid "Sidebar"
-msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
-
 #: sidebar/places_module/konqsidebar_places.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -698,6 +664,27 @@ msgstr ""
 msgctxt "Name"
 msgid "WebEngine"
 msgstr "সার্চ-ইঞ্জিন"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System"
+#~ msgctxt "Name"
+#~ msgid "File Size View"
+#~ msgstr "সিস্টেম"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Settings"
+#~ msgctxt "Name"
+#~ msgid "HTML Settings"
+#~ msgstr "বিবিধ বৈশিষ্ট্য"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "History Sidebar"
+#~ msgctxt "Name"
+#~ msgid "Sidebar"
+#~ msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
 
 #, fuzzy
 #~| msgctxt "Name"
