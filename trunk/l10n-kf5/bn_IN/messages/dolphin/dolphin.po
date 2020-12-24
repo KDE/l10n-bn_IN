@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-22 02:40+0100\n"
+"POT-Creation-Date: 2020-12-24 02:39+0100\n"
 "PO-Revision-Date: 2009-07-04 22:21+0530\n"
 "Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
 "Language-Team: Bengali (India) <fedora-trans-bn_IN@redhat.com>\n"
@@ -1415,7 +1415,7 @@ msgctxt "@info:tooltip"
 msgid "Hide Filter Bar"
 msgstr "ফিল্টার বার অদৃশ্য হবে"
 
-#: kitemviews/kfileitemlistwidget.cpp:61
+#: kitemviews/kfileitemlistwidget.cpp:71
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -2795,6 +2795,12 @@ msgstr ""
 msgid "Recursive directory size limit"
 msgstr ""
 
+#. i18n: ectx: label, entry (UseShortRelativeDates), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:56
+#, kde-format
+msgid "if true we use short relative dates, if not short dates"
+msgstr ""
+
 #. i18n: ectx: label, entry (HiddenFilesShown), group (Settings)
 #: settings/dolphin_directoryviewpropertysettings.kcfg:11
 #, fuzzy, kde-format
@@ -3674,26 +3680,26 @@ msgctxt "@action:button Choose font"
 msgid "Choose..."
 msgstr "নির্বাচিত করুন..."
 
-#: settings/viewmodes/viewsettingstab.cpp:51
+#: settings/viewmodes/viewsettingstab.cpp:54
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Default icon size:"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:59
+#: settings/viewmodes/viewsettingstab.cpp:62
 #, fuzzy, kde-format
 #| msgid "Preview size"
 msgctxt "@label:listbox"
 msgid "Preview icon size:"
 msgstr "প্রাকদর্শন অাকার"
 
-#: settings/viewmodes/viewsettingstab.cpp:67
+#: settings/viewmodes/viewsettingstab.cpp:70
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Label font:"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:72
+#: settings/viewmodes/viewsettingstab.cpp:75
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Small"
@@ -3701,7 +3707,7 @@ msgctxt "@item:inlistbox Label width"
 msgid "Small"
 msgstr "ছোটো"
 
-#: settings/viewmodes/viewsettingstab.cpp:73
+#: settings/viewmodes/viewsettingstab.cpp:76
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Medium"
@@ -3709,7 +3715,7 @@ msgctxt "@item:inlistbox Label width"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: settings/viewmodes/viewsettingstab.cpp:74
+#: settings/viewmodes/viewsettingstab.cpp:77
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Large"
@@ -3717,56 +3723,56 @@ msgctxt "@item:inlistbox Label width"
 msgid "Large"
 msgstr "বড়ো"
 
-#: settings/viewmodes/viewsettingstab.cpp:75
+#: settings/viewmodes/viewsettingstab.cpp:78
 #, kde-format
 msgctxt "@item:inlistbox Label width"
 msgid "Huge"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:76
+#: settings/viewmodes/viewsettingstab.cpp:79
 #, fuzzy, kde-format
 #| msgid "Item width"
 msgctxt "@label:listbox"
 msgid "Label width:"
 msgstr "অাইটেমের প্রস্থ"
 
-#: settings/viewmodes/viewsettingstab.cpp:79
+#: settings/viewmodes/viewsettingstab.cpp:82
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "Unlimited"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:80
+#: settings/viewmodes/viewsettingstab.cpp:83
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "1"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:81
+#: settings/viewmodes/viewsettingstab.cpp:84
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "2"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:82
+#: settings/viewmodes/viewsettingstab.cpp:85
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "3"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:83
+#: settings/viewmodes/viewsettingstab.cpp:86
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "4"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:84
+#: settings/viewmodes/viewsettingstab.cpp:87
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "5"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:85
+#: settings/viewmodes/viewsettingstab.cpp:88
 #, fuzzy, kde-format
 #| msgctxt "@label:slider"
 #| msgid "Maximum file size:"
@@ -3774,13 +3780,13 @@ msgctxt "@label:listbox"
 msgid "Maximum lines:"
 msgstr "ফাইলের সর্বোচ্চ পরিমাপ:"
 
-#: settings/viewmodes/viewsettingstab.cpp:90
+#: settings/viewmodes/viewsettingstab.cpp:93
 #, kde-format
 msgctxt "@item:inlistbox Maximum width"
 msgid "Unlimited"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:91
+#: settings/viewmodes/viewsettingstab.cpp:94
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Small"
@@ -3788,7 +3794,7 @@ msgctxt "@item:inlistbox Maximum width"
 msgid "Small"
 msgstr "ছোটো"
 
-#: settings/viewmodes/viewsettingstab.cpp:92
+#: settings/viewmodes/viewsettingstab.cpp:95
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Medium"
@@ -3796,7 +3802,7 @@ msgctxt "@item:inlistbox Maximum width"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: settings/viewmodes/viewsettingstab.cpp:93
+#: settings/viewmodes/viewsettingstab.cpp:96
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Large"
@@ -3804,7 +3810,7 @@ msgctxt "@item:inlistbox Maximum width"
 msgid "Large"
 msgstr "বড়ো"
 
-#: settings/viewmodes/viewsettingstab.cpp:94
+#: settings/viewmodes/viewsettingstab.cpp:97
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Text width:"
@@ -3812,14 +3818,14 @@ msgctxt "@label:listbox"
 msgid "Maximum width:"
 msgstr "টেক্সটের প্রস্থ:"
 
-#: settings/viewmodes/viewsettingstab.cpp:98
+#: settings/viewmodes/viewsettingstab.cpp:101
 #, fuzzy, kde-format
 #| msgid "Expandable folders"
 msgctxt "@option:check"
 msgid "Expandable"
 msgstr "বৃদ্ধিমান ফোল্ডার"
 
-#: settings/viewmodes/viewsettingstab.cpp:99
+#: settings/viewmodes/viewsettingstab.cpp:102
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Folders"
@@ -3827,7 +3833,7 @@ msgctxt "@label:checkbox"
 msgid "Folders:"
 msgstr "ফোল্ডার সমূহ"
 
-#: settings/viewmodes/viewsettingstab.cpp:103
+#: settings/viewmodes/viewsettingstab.cpp:106
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Number of lines:"
@@ -3835,26 +3841,46 @@ msgctxt "option:radio"
 msgid "Number of items"
 msgstr "লাইনের সংখ্যা"
 
-#: settings/viewmodes/viewsettingstab.cpp:104
+#: settings/viewmodes/viewsettingstab.cpp:107
 #, kde-format
 msgctxt "option:radio"
 msgid "Size of contents, up to "
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:112
+#: settings/viewmodes/viewsettingstab.cpp:115
 #, kde-format
 msgid " level deep"
 msgid_plural " levels deep"
 msgstr[0] ""
 msgstr[1] ""
 
-#: settings/viewmodes/viewsettingstab.cpp:121
+#: settings/viewmodes/viewsettingstab.cpp:124
 #, kde-format
 msgctxt "@title:group"
 msgid "Folder size displays:"
 msgstr ""
 
-#: settings/viewmodes/viewsettingstab.cpp:291
+#: settings/viewmodes/viewsettingstab.cpp:133
+#, kde-format
+msgctxt "option:radio as in relative date"
+msgid "Relative (e.g. '%1')"
+msgstr ""
+
+#: settings/viewmodes/viewsettingstab.cpp:136
+#, kde-format
+msgctxt "option:radio as in absolute date"
+msgid "Absolute (e.g. '%1')"
+msgstr ""
+
+#: settings/viewmodes/viewsettingstab.cpp:143
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu Additional information"
+#| msgid "Date"
+msgctxt "@title:group"
+msgid "Date style:"
+msgstr "তারিখ"
+
+#: settings/viewmodes/viewsettingstab.cpp:318
 #: statusbar/dolphinstatusbar.cpp:313
 #, kde-format
 msgctxt "@info:tooltip"
@@ -5366,13 +5392,6 @@ msgstr "অতিরিক্ত তথ্য"
 #~ msgctxt "@label"
 #~ msgid "Search:"
 #~ msgstr "অনুসন্ধান..."
-
-#, fuzzy
-#~| msgctxt "@action:inmenu Additional information"
-#~| msgid "Date"
-#~ msgctxt "@label"
-#~ msgid "Date:"
-#~ msgstr "তারিখ"
 
 #~ msgctxt "@label"
 #~ msgid "Size:"
