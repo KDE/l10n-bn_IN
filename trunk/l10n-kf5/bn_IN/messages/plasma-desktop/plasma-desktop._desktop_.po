@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-05 01:52+0000\n"
+"POT-Creation-Date: 2021-01-06 02:25+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -424,88 +424,25 @@ msgctxt "Comment"
 msgid "Configure the File Indexer"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
-#: kcms/componentchooser/componentchooser.desktop:13
+#: kcms/componentchooser/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Default Applications"
 msgstr "ডিফল্ট অ্যাপ্লিকেশন"
 
-#: kcms/componentchooser/componentchooser.desktop:99
+#: kcms/componentchooser/package/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Default Applications"
 msgctxt "Comment"
-msgid "Default Applications"
+msgid "Choose default Applications"
 msgstr "ডিফল্ট অ্যাপ্লিকেশন"
 
-#: kcms/componentchooser/componentchooser.desktop:152
+#: kcms/componentchooser/package/metadata.desktop:13
 msgctxt "X-KDE-Keywords"
 msgid ""
-"default applications,components,component chooser,resources,e-mail,email "
-"client,text editor,instant messenger,terminal emulator,web browser,URL,"
-"hyperlinks"
-msgstr ""
-
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:4
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Web Browser"
-msgctxt "Name|standard desktop component"
-msgid "Web Browser"
-msgstr "ওয়েব ব্রাউজার"
-
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:77
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default web browser. All KDE applications in "
-"which you can select hyperlinks should honor this setting."
-msgstr ""
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:4
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "File Manager"
-msgctxt "Name|standard desktop component"
-msgid "File Manager"
-msgstr "ফাইল পরিচালন ব্যবস্থা"
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:56
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default file manager. The entries in the K menu "
-"and all KDE applications in which you can open folders will use this file "
-"manager."
-msgstr ""
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Email Client"
-msgctxt "Name|standard desktop component"
-msgid "Email Client"
-msgstr "ই-মেইল ক্লায়েন্ট"
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default email client. All KDE "
-"applications which need access to an email client application should honor "
-"this setting."
-msgstr ""
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Terminal Emulator"
-msgctxt "Name|standard desktop component"
-msgid "Terminal Emulator"
-msgstr "টার্মিন্যাল এমুলেটর"
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default terminal emulator. All KDE "
-"applications which invoke a terminal emulator application should honor this "
-"setting."
+"default applications,components,component chooser,resources,web browser,"
+"browser,internet,file manager,dolphin,email,e-mail,email client,terminal,"
+"terminal emulator,konsole"
 msgstr ""
 
 #: kcms/dateandtime/clock.desktop:15
@@ -1420,6 +1357,34 @@ msgstr "ডেস্কটপ"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Web Browser"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Web Browser"
+#~ msgstr "ওয়েব ব্রাউজার"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "File Manager"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "File Manager"
+#~ msgstr "ফাইল পরিচালন ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Email Client"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Email Client"
+#~ msgstr "ই-মেইল ক্লায়েন্ট"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Terminal Emulator"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Terminal Emulator"
+#~ msgstr "টার্মিন্যাল এমুলেটর"
 
 #, fuzzy
 #~| msgctxt "Name"
