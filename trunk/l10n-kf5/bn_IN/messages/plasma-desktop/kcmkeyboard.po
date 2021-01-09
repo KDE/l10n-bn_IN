@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-20 02:37+0100\n"
+"POT-Creation-Date: 2021-01-09 02:55+0100\n"
 "PO-Revision-Date: 2008-12-29 15:37+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -571,19 +571,29 @@ msgstr "কি-বোর্ডের পুনরাবৃত্তি"
 msgid "Configure Layouts..."
 msgstr "কি-বোর্ড থেকে পুনরাবৃত্তি সক্রিয় করা হবে (&E)"
 
-#: tastenbrett/main.cpp:64
+#: tastenbrett/main.cpp:67
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgctxt "app display name"
 msgid "Keyboard Preview"
 msgstr "কি-বোর্ডের পুনরাবৃত্তি"
 
-#: tastenbrett/main.cpp:66
+#: tastenbrett/main.cpp:69
 #, fuzzy, kde-format
 #| msgid "KDE Keyboard Layout Switcher"
 msgctxt "app description"
 msgid "Keyboard layout visualization"
 msgstr "KDE Keyboard Layout Switcher"
+
+#: tastenbrett/main.cpp:148
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant."
+msgstr ""
 
 #~ msgid "Keyboard Repeat"
 #~ msgstr "কি-বোর্ডের পুনরাবৃত্তি"
