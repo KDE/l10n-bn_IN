@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-13 02:55+0100\n"
+"POT-Creation-Date: 2021-01-15 02:32+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -426,7 +426,7 @@ msgstr ""
 "করুন<i>gpg</i> ইনস্টল করা হয়েছে কি না। অন্যথা, ডাউনলোড করা সামগ্রী যাচাই করা "
 "সম্ভব হবে না।</qt>"
 
-#: core/security.cpp:203
+#: core/security.cpp:199
 #, kde-format
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
@@ -435,7 +435,7 @@ msgstr ""
 "<qt><b>0x%1</b> (<br /><i>%2&lt;%3&gt;</i><br /> অংশ) কি-র, পাসফ্রেস লিখুন:</"
 "qt>"
 
-#: core/security.cpp:281
+#: core/security.cpp:277
 #, kde-format
 msgid ""
 "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
@@ -446,17 +446,17 @@ msgstr ""
 "করুন <i>gpg</i> ইনস্টল করা হয়েছে কি না, অন্যথা ডাউনলোড করা সামগ্রীর যথার্যতা "
 "পরীক্ষা করা যাবে না।</qt>"
 
-#: core/security.cpp:336
+#: core/security.cpp:332
 #, kde-format
 msgid "Key used for signing:"
 msgstr "স্বাক্ষর করার উদ্দেশ্যে ব্যবহৃত কি:"
 
-#: core/security.cpp:337
+#: core/security.cpp:333
 #, kde-format
 msgid "Select Signing Key"
 msgstr "স্বাক্ষর করার জন্য কি নির্বাচন করুন"
 
-#: core/security.cpp:372
+#: core/security.cpp:368
 #, kde-format
 msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
