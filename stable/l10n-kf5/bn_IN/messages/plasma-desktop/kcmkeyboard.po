@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-16 02:48+0100\n"
+"POT-Creation-Date: 2021-01-22 11:57+0100\n"
 "PO-Revision-Date: 2008-12-29 15:37+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -29,47 +29,47 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: bindings.cpp:33
+#: bindings.cpp:32
 #, kde-format
 msgid "Switch to Next Keyboard Layout"
 msgstr "পরবর্তী কি-বোর্ড বিন্যাসে পরিবর্তন করুন"
 
-#: bindings.cpp:34
+#: bindings.cpp:33
 #, fuzzy, kde-format
 #| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "KDE Keyboard Layout Switcher"
 
-#: bindings.cpp:41
+#: bindings.cpp:39
 #, fuzzy, kde-format
 #| msgid "KDE Keyboard Layout Switcher"
 msgid "Keyboard Layout Switcher"
 msgstr "KDE Keyboard Layout Switcher"
 
-#: bindings.cpp:68
+#: bindings.cpp:64
 #, fuzzy, kde-format
 #| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
 msgstr "'%1' কি-বোর্ড বিন্যাসে পরিবর্তন করতে সমস্যা"
 
-#: flags.cpp:169
+#: flags.cpp:166
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:177
+#: flags.cpp:174
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:59
+#: kcm_add_layout_dialog.cpp:57
 #, kde-format
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:140 kcm_view_models.cpp:302
+#: kcm_add_layout_dialog.cpp:136 kcm_view_models.cpp:292
 #, fuzzy, kde-format
 #| msgctxt "Default variant"
 #| msgid "Default"
@@ -121,7 +121,7 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: kcm_keyboard.cpp:47
+#: kcm_keyboard.cpp:45
 #, fuzzy, kde-format
 #| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
@@ -133,7 +133,7 @@ msgstr "KDE Keyboard Layout Switcher"
 msgid "(c) 2010 Andriy Rysin"
 msgstr "স্বত্বাধিকার (C) ২০০৬-২০০৭ অ্যান্ড্রি রাইসিন"
 
-#: kcm_keyboard.cpp:52
+#: kcm_keyboard.cpp:53
 #, kde-format
 msgid ""
 "<h1>Keyboard</h1> This control module can be used to configure keyboard "
@@ -369,62 +369,62 @@ msgstr "উন্নত বৈশিষ্ট্য"
 msgid "&Configure keyboard options"
 msgstr "কি-বোর্ড থেকে পুনরাবৃত্তি সক্রিয় করা হবে (&E)"
 
-#: kcm_keyboard_widget.cpp:214
+#: kcm_keyboard_widget.cpp:199
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:216
+#: kcm_keyboard_widget.cpp:201
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:226
+#: kcm_keyboard_widget.cpp:212
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_keyboard_widget.cpp:606
+#: kcm_keyboard_widget.cpp:590
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kcm_keyboard_widget.cpp:622
+#: kcm_keyboard_widget.cpp:604
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, fuzzy, kde-format
 #| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
 msgstr "ম্যাপ"
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Layout"
 msgstr "বিন্যাস"
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Variant"
 msgstr "ধরন"
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Label"
 msgstr "লেবেল"
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, fuzzy, kde-format
 #| msgid "Main shortcuts:"
 msgid "Shortcut"
@@ -558,14 +558,14 @@ msgstr ""
 msgid "&Delay:"
 msgstr "বিলম্ব: (&D)"
 
-#: layout_tray_icon.cpp:44 layout_tray_icon.cpp:45
+#: layout_tray_icon.cpp:43 layout_tray_icon.cpp:44
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "কি-বোর্ডের পুনরাবৃত্তি"
 
-#: layouts_menu.cpp:135
+#: layouts_menu.cpp:131
 #, fuzzy, kde-format
 #| msgid "&Enable keyboard repeat"
 msgid "Configure Layouts..."
@@ -585,7 +585,7 @@ msgctxt "app description"
 msgid "Keyboard layout visualization"
 msgstr "KDE Keyboard Layout Switcher"
 
-#: tastenbrett/main.cpp:148
+#: tastenbrett/main.cpp:154
 #, kde-format
 msgctxt "@label"
 msgid ""
