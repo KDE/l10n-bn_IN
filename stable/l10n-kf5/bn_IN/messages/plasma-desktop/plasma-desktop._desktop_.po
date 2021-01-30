@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-25 07:43+0000\n"
+"POT-Creation-Date: 2021-01-30 09:35+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -24,7 +24,7 @@ msgctxt "Name"
 msgid "Icons-only Task Manager"
 msgstr ""
 
-#: applets/icontasks/metadata.desktop:53
+#: applets/icontasks/metadata.desktop:54
 msgctxt "Comment"
 msgid "Switch between running applications"
 msgstr ""
@@ -34,7 +34,7 @@ msgctxt "Name"
 msgid "Keyboard Layout"
 msgstr "কি-বোর্ড বিন্যাস"
 
-#: applets/keyboardlayout/metadata.desktop:79
+#: applets/keyboardlayout/metadata.desktop:80
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Keyboard Layout"
@@ -75,12 +75,12 @@ msgctxt "Name"
 msgid "Input Method Panel"
 msgstr ""
 
-#: applets/kimpanel/package/metadata.desktop:47
+#: applets/kimpanel/package/metadata.desktop:48
 msgctxt "Comment"
 msgid "A generic input method panel"
 msgstr ""
 
-#: applets/kimpanel/package/metadata.desktop:90
+#: applets/kimpanel/package/metadata.desktop:92
 msgctxt "Keywords"
 msgid "Input;IM;"
 msgstr ""
@@ -90,13 +90,13 @@ msgctxt "Name"
 msgid "Margins Separator"
 msgstr ""
 
-#: applets/margins-separator/metadata.desktop:26
+#: applets/margins-separator/metadata.desktop:27
 msgctxt "Comment"
 msgid ""
 "To be used as a separator between margin areas in themes that support them"
 msgstr ""
 
-#: applets/margins-separator/metadata.desktop:52
+#: applets/margins-separator/metadata.desktop:54
 msgctxt "Keywords"
 msgid "separator"
 msgstr ""
@@ -106,7 +106,7 @@ msgctxt "Name"
 msgid "Minimize all Windows"
 msgstr ""
 
-#: applets/minimizeall/package/metadata.desktop:39
+#: applets/minimizeall/package/metadata.desktop:40
 msgctxt "Comment"
 msgid "Shows the desktop by minimizing all windows"
 msgstr ""
@@ -146,7 +146,7 @@ msgctxt "Name"
 msgid "Show Desktop"
 msgstr "ডেস্কটপ"
 
-#: applets/showdesktop/package/metadata.desktop:39
+#: applets/showdesktop/package/metadata.desktop:40
 msgctxt "Comment"
 msgid "Shows the desktop by moving windows aside"
 msgstr ""
@@ -156,7 +156,7 @@ msgctxt "Name"
 msgid "Task Manager"
 msgstr ""
 
-#: applets/taskmanager/package/metadata.desktop:84
+#: applets/taskmanager/package/metadata.desktop:85
 msgctxt "Comment"
 msgid "Switch between tasks"
 msgstr ""
@@ -169,7 +169,7 @@ msgctxt "Name"
 msgid "Trashcan"
 msgstr "আবর্জনা"
 
-#: applets/trash/package/metadata.desktop:82
+#: applets/trash/package/metadata.desktop:83
 msgctxt "Comment"
 msgid "Provides access to the files sent to trash"
 msgstr ""
@@ -182,7 +182,7 @@ msgctxt "Name"
 msgid "Window list"
 msgstr "উইন্ডো"
 
-#: applets/window-list/metadata.desktop:55
+#: applets/window-list/metadata.desktop:56
 msgctxt "Comment"
 msgid "Plasmoid to show list of opened windows."
 msgstr ""
@@ -206,7 +206,7 @@ msgctxt "Name"
 msgid "Folder View"
 msgstr "ফন্ট প্রদর্শক"
 
-#: containments/folder/metadata.desktop:50
+#: containments/folder/metadata.desktop:51
 msgctxt "Comment"
 msgid "Display the contents of folders"
 msgstr ""
@@ -257,95 +257,95 @@ msgctxt "Name"
 msgid "A modifier key has become active"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:175
+#: kaccess/kaccess.notifyrc:176
 msgctxt "Comment"
 msgid ""
 "A modifier key (e.g. Shift or Ctrl) has changed its state and is now active"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:254
+#: kaccess/kaccess.notifyrc:256
 msgctxt "Name"
 msgid "A modifier key has become inactive"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:332
+#: kaccess/kaccess.notifyrc:335
 msgctxt "Comment"
 msgid ""
 "A modifier key (e.g. Shift or Ctrl) has changed its state and is now inactive"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:411
+#: kaccess/kaccess.notifyrc:415
 msgctxt "Name"
 msgid "A modifier key has been locked"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:490
+#: kaccess/kaccess.notifyrc:495
 msgctxt "Comment"
 msgid ""
 "A modifier key (e.g. Shift or Ctrl) has been locked and is now active for "
 "all of the following keypresses"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:569
+#: kaccess/kaccess.notifyrc:575
 msgctxt "Name"
 msgid "A lock key has been activated"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:649
+#: kaccess/kaccess.notifyrc:656
 msgctxt "Comment"
 msgid ""
 "A lock key (e.g. Caps Lock or Num Lock) has changed its state and is now "
 "active"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:728
+#: kaccess/kaccess.notifyrc:736
 msgctxt "Name"
 msgid "A lock key has been deactivated"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:808
+#: kaccess/kaccess.notifyrc:817
 msgctxt "Comment"
 msgid ""
 "A lock key (e.g. Caps Lock or Num Lock) has changed its state and is now "
 "inactive"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:887
+#: kaccess/kaccess.notifyrc:897
 msgctxt "Name"
 msgid "Sticky keys has been enabled or disabled"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:963
+#: kaccess/kaccess.notifyrc:974
 msgctxt "Comment"
 msgid "Sticky keys has been enabled or disabled"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:1044
+#: kaccess/kaccess.notifyrc:1056
 msgctxt "Name"
 msgid "Slow keys has been enabled or disabled"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:1119
+#: kaccess/kaccess.notifyrc:1132
 msgctxt "Comment"
 msgid "Slow keys has been enabled or disabled"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:1199
+#: kaccess/kaccess.notifyrc:1213
 msgctxt "Name"
 msgid "Bounce keys has been enabled or disabled"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:1275
+#: kaccess/kaccess.notifyrc:1289
 msgctxt "Comment"
 msgid "Bounce keys has been enabled or disabled"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:1356
+#: kaccess/kaccess.notifyrc:1370
 msgctxt "Name"
 msgid "Mouse keys has been enabled or disabled"
 msgstr ""
 
-#: kaccess/kaccess.notifyrc:1432
+#: kaccess/kaccess.notifyrc:1447
 msgctxt "Comment"
 msgid "Mouse keys has been enabled or disabled"
 msgstr ""
@@ -358,7 +358,7 @@ msgctxt "Comment"
 msgid "Configure Accessibility Options"
 msgstr "বিশেষ ব্যবহারের সহায়তা"
 
-#: kcms/access/kcm_access.desktop:134
+#: kcms/access/kcm_access.desktop:135
 msgctxt "X-KDE-Keywords"
 msgid ""
 "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,"
@@ -382,7 +382,7 @@ msgctxt "Comment"
 msgid "Automatically Started Applications"
 msgstr ""
 
-#: kcms/autostart/package/metadata.desktop:151
+#: kcms/autostart/package/metadata.desktop:152
 msgctxt "X-KDE-Keywords"
 msgid "Autostart Manager,autostart,startup,system startup,plasma start,cron"
 msgstr ""
@@ -395,7 +395,7 @@ msgctxt "Name"
 msgid "File Search"
 msgstr "ফাইল"
 
-#: kcms/baloo/kcm_baloofile.desktop:63
+#: kcms/baloo/kcm_baloofile.desktop:64
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -403,7 +403,7 @@ msgctxt "Comment"
 msgid "Configure File Search"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
-#: kcms/baloo/kcm_baloofile.desktop:112
+#: kcms/baloo/kcm_baloofile.desktop:114
 msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo"
 msgstr ""
@@ -416,7 +416,7 @@ msgctxt "Name"
 msgid "Search"
 msgstr "ফাইল"
 
-#: kcms/baloo/package/metadata.desktop:37
+#: kcms/baloo/package/metadata.desktop:38
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -437,7 +437,7 @@ msgctxt "Comment"
 msgid "Choose default Applications"
 msgstr "ডিফল্ট অ্যাপ্লিকেশন"
 
-#: kcms/componentchooser/package/metadata.desktop:117
+#: kcms/componentchooser/package/metadata.desktop:118
 msgctxt "X-KDE-Keywords"
 msgid ""
 "default applications,components,component chooser,resources,web browser,"
@@ -458,7 +458,7 @@ msgctxt "Comment"
 msgid "Date and Time"
 msgstr "তারিখ ও সময়"
 
-#: kcms/dateandtime/clock.desktop:162
+#: kcms/dateandtime/clock.desktop:163
 msgctxt "X-KDE-Keywords"
 msgid ""
 "clock,date,time,time zone,ntp,synchronize,calendar,local time,region time"
@@ -480,7 +480,7 @@ msgctxt "Name"
 msgid "Save the date/time settings"
 msgstr "তারিখ ও সময় সংক্রান্ত বৈশিষ্ট্য"
 
-#: kcms/dateandtime/kcmclock_actions.actions:144
+#: kcms/dateandtime/kcmclock_actions.actions:145
 msgctxt "Description"
 msgid "System policies prevent you from saving the date/time settings."
 msgstr ""
@@ -493,12 +493,12 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "সূচনাবার্তা"
 
-#: kcms/desktoppaths/desktoppath.desktop:60
+#: kcms/desktoppaths/desktoppath.desktop:61
 msgctxt "Comment"
 msgid "Location for Personal Files"
 msgstr ""
 
-#: kcms/desktoppaths/desktoppath.desktop:106
+#: kcms/desktoppaths/desktoppath.desktop:108
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,dolphin,files,filemanager,path, paths,desktop,directories,"
@@ -510,12 +510,12 @@ msgctxt "Name"
 msgid "Formats"
 msgstr ""
 
-#: kcms/formats/formats.desktop:63
+#: kcms/formats/formats.desktop:64
 msgctxt "Comment"
 msgid "Numeric, Currency and Time Formats"
 msgstr ""
 
-#: kcms/formats/formats.desktop:114
+#: kcms/formats/formats.desktop:115
 msgctxt "X-KDE-Keywords"
 msgid ""
 "language,translation,number format,locale,Country,charsets,character sets,"
@@ -532,7 +532,7 @@ msgctxt "Comment"
 msgid "Calibrate Game Controller"
 msgstr "তারিখ ও সময়"
 
-#: kcms/hardware/joystick/joystick.desktop:49
+#: kcms/hardware/joystick/joystick.desktop:50
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Date and Time"
@@ -540,7 +540,7 @@ msgctxt "Name"
 msgid "Game Controller"
 msgstr "তারিখ ও সময়"
 
-#: kcms/hardware/joystick/joystick.desktop:85
+#: kcms/hardware/joystick/joystick.desktop:87
 msgctxt "X-KDE-Keywords"
 msgid "joystick,gamepad,controller"
 msgstr ""
@@ -555,7 +555,7 @@ msgctxt "Comment"
 msgid "Mouse Controls"
 msgstr ""
 
-#: kcms/input/mouse.desktop:159
+#: kcms/input/mouse.desktop:160
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Mouse,Mouse acceleration,Mouse threshold,Mouse buttons,Selection,Cursor "
@@ -570,7 +570,7 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr ""
 
-#: kcms/kded/kcmkded.desktop:61 kcms/kded/package/metadata.desktop:50
+#: kcms/kded/kcmkded.desktop:62 kcms/kded/package/metadata.desktop:51
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure keyboard and mouse settings"
@@ -578,7 +578,7 @@ msgctxt "Comment"
 msgid "Configure background services"
 msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
 
-#: kcms/kded/kcmkded.desktop:95
+#: kcms/kded/kcmkded.desktop:97
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
@@ -599,7 +599,7 @@ msgctxt "Comment"
 msgid "Keyboard Hardware and Layout"
 msgstr "কি-বোর্ড বিন্যাস"
 
-#: kcms/keyboard/kcm_keyboard.desktop:160
+#: kcms/keyboard/kcm_keyboard.desktop:161
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Keyboard,Keyboard repeat,Click volume,Input Devices,repeat,volume,NumLock,"
@@ -629,7 +629,7 @@ msgctxt "Name"
 msgid "Shortcuts"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: kcms/keys/kcm_keys.desktop:46 kcms/keys/package/metadata.desktop:35
+#: kcms/keys/kcm_keys.desktop:47 kcms/keys/package/metadata.desktop:36
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -637,7 +637,7 @@ msgctxt "Comment"
 msgid "Configure Keyboard Shortcuts"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
-#: kcms/keys/kcm_keys.desktop:78
+#: kcms/keys/kcm_keys.desktop:80
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application "
@@ -709,7 +709,7 @@ msgid ""
 "rotating,spinning,disk,startup,program,report,taskbar"
 msgstr ""
 
-#: kcms/mouse/mouse.desktop:159
+#: kcms/mouse/mouse.desktop:160
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Mouse,Mouse acceleration,Mouse threshold,Mouse buttons,Selection,Cursor "
@@ -1248,7 +1248,7 @@ msgctxt "Name"
 msgid "Default Panel"
 msgstr "ডিফল্ট অ্যাপ্লিকেশন"
 
-#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:53
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:54
 msgctxt "Comment"
 msgid ""
 "Default panel featuring application launcher, task manager and system tray"
