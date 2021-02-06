@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-03 02:46+0100\n"
+"POT-Creation-Date: 2021-02-06 02:22+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -518,7 +518,7 @@ msgstr "%1 ইনস্টল করতে ব্যর্থ"
 msgid "Get Hot New Stuff!"
 msgstr ""
 
-#: downloadwidget.cpp:263 qtquick/qml/Page.qml:199
+#: downloadwidget.cpp:263
 #, kde-format
 msgid "Icons view mode"
 msgstr ""
@@ -547,7 +547,7 @@ msgstr "উপলব্ধকারী:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
-#: downloadwidget.ui:71 uploaddialog.ui:304
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:347 uploaddialog.ui:304
 #, kde-format
 msgid "Category:"
 msgstr "শ্রেণী:"
@@ -566,13 +566,13 @@ msgid "Newest"
 msgstr "নতুন"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:110
+#: downloadwidget.ui:110 qtquick/qml/Page.qml:274
 #, kde-format
 msgid "Rating"
 msgstr "গুরুত্বের মান"
 
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: downloadwidget.ui:117
+#: downloadwidget.ui:117 qtquick/qml/Page.qml:223
 #, kde-format
 msgid "Installed"
 msgstr "ইনস্টল করা"
@@ -590,7 +590,7 @@ msgid "Search:"
 msgstr "অনুসন্ধান:"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
-#: downloadwidget.ui:217 qtquick/qml/Page.qml:213
+#: downloadwidget.ui:217 qtquick/qml/Page.qml:327 qtquick/qml/Page.qml:332
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search..."
@@ -983,7 +983,7 @@ msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:69 qtquick/qml/Page.qml:253
+#: qtquick/qml/NewStuffList.qml:69
 #, fuzzy, kde-format
 #| msgid "Installed"
 msgctxt ""
@@ -991,7 +991,7 @@ msgctxt ""
 msgid "Installed Only"
 msgstr "ইনস্টল করা"
 
-#: qtquick/qml/NewStuffList.qml:70 qtquick/qml/Page.qml:254
+#: qtquick/qml/NewStuffList.qml:70
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -1041,62 +1041,124 @@ msgid ""
 "not be found."
 msgstr ""
 
-#: qtquick/qml/Page.qml:190
+#: qtquick/qml/Page.qml:176
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "Tiles"
+msgstr "ফাইল"
+
+#: qtquick/qml/Page.qml:178
 #, kde-format
-msgid "Tiles view mode"
+msgid "Icons"
+msgstr "আইকন"
+
+#: qtquick/qml/Page.qml:180
+#, fuzzy, kde-format
+#| msgid "Previews"
+msgid "Preview"
+msgstr "পূর্বদৃশ্য"
+
+#: qtquick/qml/Page.qml:195
+#, kde-format
+msgid "Detailed Tiles View Mode"
 msgstr ""
 
-#: qtquick/qml/Page.qml:208
+#: qtquick/qml/Page.qml:203
+#, fuzzy, kde-format
+#| msgid "Icons Only"
+msgid "Icons Only View Mode"
+msgstr "শুধুমাত্র আইকন"
+
+#: qtquick/qml/Page.qml:211
 #, fuzzy, kde-format
 #| msgid "Preview Image:"
-msgid "Preview view mode"
+msgid "Large Preview View Mode"
 msgstr "ছবির পূর্বদৃশ্য:"
 
-#: qtquick/qml/Page.qml:234
-#, fuzzy, kde-format
-#| msgid "Show %1"
-msgid "Show:"
-msgstr "%1 প্রদর্শন করা হবে"
-
-#: qtquick/qml/Page.qml:252
+#: qtquick/qml/Page.qml:221
 #, kde-format
-msgctxt "List option which will set the filter to show everything"
 msgid "Everything"
 msgstr ""
 
-#: qtquick/qml/Page.qml:266
+#: qtquick/qml/Page.qml:225
+#, fuzzy, kde-format
+#| msgid "Update"
+msgid "Updateable"
+msgstr "আপডেট করুন"
+
+#: qtquick/qml/Page.qml:244
+#, fuzzy, kde-format
+#| msgid "All Categories"
+msgctxt "List option which will set the filter to show everything"
+msgid "Show All Entries"
+msgstr "সকল শ্রেণী"
+
+#: qtquick/qml/Page.qml:252
+#, kde-format
+msgctxt ""
+"List option which will set the filter so only installed items are shown"
+msgid "Show Only Installed Entries"
+msgstr ""
+
+#: qtquick/qml/Page.qml:260
+#, kde-format
+msgctxt ""
+"List option which will set the filter so only installed items with updates "
+"available are shown"
+msgid "Show Only Updateable Entries"
+msgstr ""
+
+#: qtquick/qml/Page.qml:270
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Open Recent"
+msgid "Recent"
+msgstr "সম্প্রতি ব্যবহৃত খুলুন"
+
+#: qtquick/qml/Page.qml:272
+#, kde-format
+msgid "Alphabetical"
+msgstr ""
+
+#: qtquick/qml/Page.qml:276
+#, fuzzy, kde-format
+#| msgid "Download"
+msgid "Downloads"
+msgstr "ডাউনলোড করা হবে"
+
+#: qtquick/qml/Page.qml:295
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
 "recently updated"
-msgid "Most recent first"
+msgid "Show Most Recent First"
 msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
 
-#: qtquick/qml/Page.qml:267
+#: qtquick/qml/Page.qml:303
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
 "name"
-msgid "A-Z"
+msgid "Sort Alphabetically By Name"
 msgstr ""
 
-#: qtquick/qml/Page.qml:268
+#: qtquick/qml/Page.qml:311
 #, fuzzy, kde-format
 #| msgid "Show directories first"
 msgctxt "List option which will set the sort order to based on user ratings"
-msgid "Highest rated first"
+msgid "Show Highest Rated First"
 msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
 
-#: qtquick/qml/Page.qml:269
+#: qtquick/qml/Page.qml:319
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
-msgid "Most downloaded first"
+msgid "Show Most Downloaded First"
 msgstr "সর্বাধিকবার ডাউনলোড করা হয়েছে"
 
-#: qtquick/qml/Page.qml:344
+#: qtquick/qml/Page.qml:426
 #, fuzzy, kde-format
 #| msgid "Loading preview..."
 msgctxt ""
@@ -1104,7 +1166,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "পূর্বদৃশ্যের উদ্দেশ্যে লোড করা হচ্ছে..."
 
-#: qtquick/qml/Page.qml:355
+#: qtquick/qml/Page.qml:437
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
@@ -1712,6 +1774,32 @@ msgid "Start Upload"
 msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #, fuzzy
+#~| msgid "Show %1"
+#~ msgid "Show:"
+#~ msgstr "%1 প্রদর্শন করা হবে"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on when items were "
+#~ "most recently updated"
+#~ msgid "Most recent first"
+#~ msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
+
+#, fuzzy
+#~| msgid "Show directories first"
+#~ msgctxt "List option which will set the sort order to based on user ratings"
+#~ msgid "Highest rated first"
+#~ msgstr "প্রথমে ডিরেক্টরি প্রদর্শিত হবে"
+
+#, fuzzy
+#~| msgid "Most Downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Most downloaded first"
+#~ msgstr "সর্বাধিকবার ডাউনলোড করা হয়েছে"
+
+#, fuzzy
 #~| msgctxt ""
 #~| "Label showing the file name of a file that is about to be uploaded"
 #~| msgid "Uploading: %1"
@@ -1723,13 +1811,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgctxt "Show a page with details for this item"
 #~ msgid "Details..."
 #~ msgstr "বিবরণ..."
-
-#, fuzzy
-#~| msgid "All Categories"
-#~ msgctxt ""
-#~ "The first entry in the category selection list (also the default value)"
-#~ msgid "Show All Categories"
-#~ msgstr "সকল শ্রেণী"
 
 #~ msgid "Enter search phrase here"
 #~ msgstr "অনুসন্ধানের উদ্দেশ্যে এই স্থানে তথ্য লিখুন"
@@ -2496,9 +2577,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "HTML documentation"
 #~ msgstr "HTML নথিপত্র"
-
-#~ msgid "Icons"
-#~ msgstr "আইকন"
 
 #~ msgid "Configuration description files"
 #~ msgstr "কনফিগারেশনের বর্ণনামূলক ফাইল"
@@ -6029,10 +6107,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgstr "তালিকায় উপস্থিত পরবর্তী বস্তু"
 
 #~ msgctxt "@action"
-#~ msgid "Open Recent"
-#~ msgstr "সম্প্রতি ব্যবহৃত খুলুন"
-
-#~ msgctxt "@action"
 #~ msgid "Save As"
 #~ msgstr "নতুন রূপে সংরক্ষণ"
 
@@ -7651,9 +7725,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgid "Text Position"
 #~ msgstr "টেক্সটের অবস্থান"
 
-#~ msgid "Icons Only"
-#~ msgstr "শুধুমাত্র আইকন"
-
 #~ msgid "Text Only"
 #~ msgstr "শুধুমাত্র টেক্সট"
 
@@ -7920,9 +7991,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "Missing Plugin"
 #~ msgstr "অনুপস্থিত প্লাগ-ইন"
-
-#~ msgid "Download"
-#~ msgstr "ডাউনলোড করা হবে"
 
 #~ msgid "Do Not Download"
 #~ msgstr "ডাউনলোড করা হবে না"
@@ -9855,12 +9923,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 #~ msgstr "কর্ম"
 
 #, fuzzy
-#~| msgid "File"
-#~ msgctxt "@option:check Do filter on type - show only files"
-#~ msgid "Files"
-#~ msgstr "ফাইল"
-
-#, fuzzy
 #~| msgctxt "@item Text character set"
 #~| msgid "Other"
 #~ msgctxt "@option:check Do filter on type - show everything but files"
@@ -10115,11 +10177,6 @@ msgstr "প্রতিস্থাপন প্রারম্ভ"
 
 #~ msgid "Community"
 #~ msgstr "সম্প্রদায়"
-
-#, fuzzy
-#~| msgid "Previews"
-#~ msgid "Preview"
-#~ msgstr "পূর্বদৃশ্য"
 
 #, fuzzy
 #~| msgid "BSD"
