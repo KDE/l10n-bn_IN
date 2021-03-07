@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-22 02:30+0100\n"
+"POT-Creation-Date: 2021-03-07 02:21+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -58,21 +58,21 @@ msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "ডেভিড ফেওরে"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:53 kbuildsycoca/kbuildsycoca_main.cpp:56
+#: kbuildsycoca/kbuildsycoca_main.cpp:52 kbuildsycoca/kbuildsycoca_main.cpp:53
 #, fuzzy, kde-format
 #| msgid "Author"
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "লেখক"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:55
+#: kbuildsycoca/kbuildsycoca_main.cpp:53
 #, fuzzy, kde-format
 #| msgid "Waldo Bastian"
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:64
+#: kbuildsycoca/kbuildsycoca_main.cpp:60
 #, fuzzy, kde-format
 #| msgid "Disable checking files (dangerous)"
 msgctxt "@info:shell command-line option"
@@ -81,47 +81,47 @@ msgid ""
 "effect)"
 msgstr "ফাইল পরীক্ষণ নিষ্ক্রিয় করুন (বিপজ্জনক)"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:67
+#: kbuildsycoca/kbuildsycoca_main.cpp:62
 #, fuzzy, kde-format
 #| msgid "Disable incremental update, re-read everything"
 msgctxt "@info:shell command-line option"
 msgid "Disable incremental update, re-read everything"
 msgstr "ক্রমবর্ধমান আপডেট ব্যবস্থা নিষ্ক্রিয় করা হবে, সর্বধরনের তথ্য পুনরায় পাঠ করা হবে"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:70
+#: kbuildsycoca/kbuildsycoca_main.cpp:64
 #, kde-format
 msgctxt "@info:shell command-line option"
 msgid "Check file timestamps (deprecated, no longer having any effect)"
 msgstr ""
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:73
+#: kbuildsycoca/kbuildsycoca_main.cpp:66
 #, fuzzy, kde-format
 #| msgid "Disable checking files (dangerous)"
 msgctxt "@info:shell command-line option"
 msgid "Disable checking files (deprecated, no longer having any effect)"
 msgstr "ফাইল পরীক্ষণ নিষ্ক্রিয় করুন (বিপজ্জনক)"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:76
+#: kbuildsycoca/kbuildsycoca_main.cpp:67
 #, fuzzy, kde-format
 #| msgid "Perform menu generation test run only"
 msgctxt "@info:shell command-line option"
 msgid "Perform menu generation test run only"
 msgstr "শুধুমাত্র পরীক্ষামূলকভাবে মেনু নির্মাণ করা হবে"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:79
+#: kbuildsycoca/kbuildsycoca_main.cpp:69
 #, fuzzy, kde-format
 #| msgid "Track menu id for debug purposes"
 msgctxt "@info:shell command-line option"
 msgid "Track menu id for debug purposes"
 msgstr "ডিবাগ করার উদ্দেশ্যে মেনু id নিরীক্ষণ করা হবে"
 
-#: kbuildsycoca/kbuildsycoca_main.cpp:83
+#: kbuildsycoca/kbuildsycoca_main.cpp:71
 #, kde-format
 msgctxt "@info:shell command-line option"
 msgid "Switch QStandardPaths to test mode, for unit tests only"
 msgstr ""
 
-#: kdeinit/ktoolinvocation.cpp:58
+#: kdeinit/ktoolinvocation.cpp:60
 #, kde-format
 msgid "Function must be called from the main thread."
 msgstr "মূল থ্রেড থেকে ফাংশান কল করা হবে।"
@@ -142,7 +142,7 @@ msgstr ""
 "D-Bus-র মাধ্যমে KLauncher অবধি পৌছনো যায়নি। %1 কল করতে ত্রুটি:\n"
 "%2\n"
 
-#: kdeinit/ktoolinvocation_x11.cpp:228
+#: kdeinit/ktoolinvocation_x11.cpp:232
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -153,7 +153,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:229
+#: kdeinit/ktoolinvocation_x11.cpp:233
 #, fuzzy, kde-format
 #| msgid "Could not Launch Mail Client"
 msgid "Could not launch Mail Client"
@@ -162,8 +162,8 @@ msgstr "মেইল ক্লায়েন্ট আরম্ভ করতে �
 #. i18n("Could not launch %1:\n\n%2", exe, error),
 #. i18n("Could not launch %1:\n\n%2", htmlApp->exec(), error),
 #. i18n("Could not launch %1:\n\n%2", exe, error),
-#: kdeinit/ktoolinvocation_x11.cpp:279 kdeinit/ktoolinvocation_x11.cpp:304
-#: kdeinit/ktoolinvocation_x11.cpp:323
+#: kdeinit/ktoolinvocation_x11.cpp:282 kdeinit/ktoolinvocation_x11.cpp:307
+#: kdeinit/ktoolinvocation_x11.cpp:326
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -174,14 +174,14 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:280 kdeinit/ktoolinvocation_x11.cpp:305
-#: kdeinit/ktoolinvocation_x11.cpp:324
+#: kdeinit/ktoolinvocation_x11.cpp:283 kdeinit/ktoolinvocation_x11.cpp:308
+#: kdeinit/ktoolinvocation_x11.cpp:327
 #, fuzzy, kde-format
 #| msgid "Could not Launch Browser"
 msgid "Could not launch Browser"
 msgstr "ব্রাউজার আরম্ভ করতে ব্যর্থ"
 
-#: kdeinit/ktoolinvocation_x11.cpp:346
+#: kdeinit/ktoolinvocation_x11.cpp:347
 #, kde-format
 msgid ""
 "Could not launch the terminal client:\n"
@@ -192,7 +192,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:347
+#: kdeinit/ktoolinvocation_x11.cpp:348
 #, fuzzy, kde-format
 #| msgid "Could not Launch Terminal Client"
 msgid "Could not launch Terminal Client"
@@ -203,12 +203,12 @@ msgstr "টার্মিন্যাল ক্লায়েন্ট আরম�
 msgid "No service implementing %1"
 msgstr ""
 
-#: services/kservice.cpp:1055
+#: services/kservice.cpp:1040
 #, kde-format
 msgid "The provided service is not valid"
 msgstr "উপলব্ধ পরিসেবাটি বৈধ নয়"
 
-#: services/kservice.cpp:1059
+#: services/kservice.cpp:1044
 #, fuzzy, kde-format
 #| msgid ""
 #| "The service '%1' provides no library or the Library key is missing in "
