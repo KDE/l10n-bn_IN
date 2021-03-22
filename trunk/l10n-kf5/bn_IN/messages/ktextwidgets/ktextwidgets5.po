@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-14 02:36+0100\n"
+"POT-Creation-Date: 2021-03-22 02:10+0100\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -45,41 +45,41 @@ msgstr "পরবর্তী উপস্থিত অনুসন্ধান"
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>'<b>%1</b>'-র পরবর্তী উপস্থিতি অনুসন্ধান করা হবে কি?</qt>"
 
-#: findreplace/kfind.cpp:691 findreplace/kfind.cpp:712
+#: findreplace/kfind.cpp:703 findreplace/kfind.cpp:724
 #, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "১-টি মিল পাওয়া গিয়েছে"
 msgstr[1] "%1-টি মিল পাওয়া গিয়েছে"
 
-#: findreplace/kfind.cpp:693
+#: findreplace/kfind.cpp:705
 #, kde-format
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>'<b>%1</b>'-র কোনো মিল পাওয়া যায়নি।</qt>"
 
-#: findreplace/kfind.cpp:714
+#: findreplace/kfind.cpp:726
 #, kde-format
 msgid "No matches found for '<b>%1</b>'."
 msgstr "'<b>%1</b>'-র কোনো মিল পাওয়া যায়নি।"
 
-#: findreplace/kfind.cpp:718 findreplace/kreplace.cpp:420
+#: findreplace/kfind.cpp:730 findreplace/kreplace.cpp:423
 #, kde-format
 msgid "Beginning of document reached."
 msgstr "নথির প্রারম্ভিক স্থান"
 
-#: findreplace/kfind.cpp:720 findreplace/kreplace.cpp:422
+#: findreplace/kfind.cpp:732 findreplace/kreplace.cpp:425
 #, kde-format
 msgid "End of document reached."
 msgstr "নথির অন্তিম স্থান"
 
 #. i18n() of the first if() because of the plural form.
 #. Hope this word puzzle is ok, it's a different sentence
-#: findreplace/kfind.cpp:726
+#: findreplace/kfind.cpp:738
 #, kde-format
 msgid "Continue from the end?"
 msgstr "অন্তিম স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
 
-#: findreplace/kfind.cpp:726
+#: findreplace/kfind.cpp:738
 #, kde-format
 msgid "Continue from the beginning?"
 msgstr "প্রারম্ভিক স্থান থেকে অনুসন্ধান চালিয়ে যাওয়া হবে কি?"
@@ -378,35 +378,35 @@ msgstr "উপেক্ষা করা হবে (&S)"
 msgid "Replace '%1' with '%2'?"
 msgstr "'%1'-র পরিবর্তে '%2' লেখা হবে কি?"
 
-#: findreplace/kreplace.cpp:174 findreplace/kreplace.cpp:414
+#: findreplace/kreplace.cpp:174 findreplace/kreplace.cpp:417
 #, kde-format
 msgid "No text was replaced."
 msgstr "কোনো টেক্সট প্রতিস্থাপন করা হয়নি।"
 
-#: findreplace/kreplace.cpp:176 findreplace/kreplace.cpp:416
+#: findreplace/kreplace.cpp:176 findreplace/kreplace.cpp:419
 #, kde-format
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
 msgstr[0] "১-টি প্রতিস্থাপন করা হয়েছে।"
 msgstr[1] "%1-টি প্রতিস্থাপন করা হয়েছে।"
 
-#: findreplace/kreplace.cpp:429
+#: findreplace/kreplace.cpp:432
 #, kde-format
 msgid "Do you want to restart search from the end?"
 msgstr "আপনি কি নিশ্চিতরূপে নথির অন্তিম স্থান থেকে পুনরায় অনুসন্ধান করতে ইচ্ছুক?"
 
-#: findreplace/kreplace.cpp:429
+#: findreplace/kreplace.cpp:432
 #, kde-format
 msgid "Do you want to restart search at the beginning?"
 msgstr "আপনি কি নিশ্চিতরূপে নথির প্রারম্ভিক স্থান থেকে পুনরায় অনুসন্ধান করতে ইচ্ছুক?"
 
-#: findreplace/kreplace.cpp:434
+#: findreplace/kreplace.cpp:437
 #, kde-format
 msgctxt "@action:button Restart find & replace"
 msgid "Restart"
 msgstr "পুনরারম্ভ"
 
-#: findreplace/kreplace.cpp:435
+#: findreplace/kreplace.cpp:438
 #, kde-format
 msgctxt "@action:button Stop find & replace"
 msgid "Stop"
