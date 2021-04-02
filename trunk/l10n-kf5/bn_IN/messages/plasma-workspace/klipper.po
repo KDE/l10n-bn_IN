@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-27 02:30+0100\n"
+"POT-Creation-Date: 2021-04-02 00:19+0000\n"
 "PO-Revision-Date: 2009-01-05 12:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -398,77 +398,73 @@ msgstr "ক্লিপবোর্ডের পূর্ববর্তী ত�
 msgid "Open Klipper at Mouse Position"
 msgstr "মাউসের কার্সারের অবস্থানে মেনু পপ-আপ করে প্রদর্শিত হবে (&P)"
 
-#: klipper.cpp:483
-#, fuzzy, kde-format
-#| msgid ""
-#| "You can enable URL actions later by right-clicking on the Klipper icon "
-#| "and selecting 'Enable Actions'"
+#: klipper.cpp:484
+#, kde-kuit-format
+msgctxt "@info"
 msgid ""
-"You can enable URL actions later by left-clicking on the Klipper icon and "
-"selecting 'Enable Clipboard Actions'"
+"You can enable URL actions later in the <interface>Actions</interface> page "
+"of the Clipboard applet's configuration window"
 msgstr ""
-"পরে কোনো সময় URL সংক্রান্ত কর্ম সক্রিয় করার জন্য Klipper আইকনের উপর ডান দিকের "
-"মাউস বাটন সহ ক্লিক করে, 'কর্ম সক্রিয় করুন' নির্বাচন করুন"
 
-#: klipper.cpp:517
+#: klipper.cpp:519
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "লগ-ইন করার সময় Klipper স্বয়ংক্রিয়ভাবে আরম্ভ করা হবে কি?"
 
-#: klipper.cpp:518
+#: klipper.cpp:520
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "স্বয়ংক্রিয়ভাবে Klipper আরম্ভ করা হবে কি?"
 
-#: klipper.cpp:519
+#: klipper.cpp:521
 #, kde-format
 msgid "Start"
 msgstr "আরম্ভ করা হবে"
 
-#: klipper.cpp:520
+#: klipper.cpp:522
 #, kde-format
 msgid "Do Not Start"
 msgstr "আরম্ভ করা হবে না"
 
-#: klipper.cpp:867
+#: klipper.cpp:869
 #, kde-format
 msgid "Edit Contents"
 msgstr "তথ্য সম্পাদনা"
 
-#: klipper.cpp:934
+#: klipper.cpp:936
 #, kde-format
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:981
+#: klipper.cpp:983
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Really delete entire clipboard history?"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:982
+#: klipper.cpp:984
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Delete clipboard history?"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:998 klipper.cpp:1007
+#: klipper.cpp:1000 klipper.cpp:1009
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:1024
+#: klipper.cpp:1026
 #, kde-format
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1031
+#: klipper.cpp:1033
 #, kde-format
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1038
+#: klipper.cpp:1040
 #, kde-format
 msgid "down"
 msgstr ""
@@ -768,6 +764,17 @@ msgstr "এই পপ-আপ নিষ্ক্রিয় করা হবে"
 #, kde-format
 msgid "&Cancel"
 msgstr "বাতিল (&C)"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can enable URL actions later by right-clicking on the Klipper icon "
+#~| "and selecting 'Enable Actions'"
+#~ msgid ""
+#~ "You can enable URL actions later by left-clicking on the Klipper icon and "
+#~ "selecting 'Enable Clipboard Actions'"
+#~ msgstr ""
+#~ "পরে কোনো সময় URL সংক্রান্ত কর্ম সক্রিয় করার জন্য Klipper আইকনের উপর ডান দিকের "
+#~ "মাউস বাটন সহ ক্লিক করে, 'কর্ম সক্রিয় করুন' নির্বাচন করুন"
 
 #, fuzzy
 #~| msgid "Enable/Disable Clipboard Actions"
