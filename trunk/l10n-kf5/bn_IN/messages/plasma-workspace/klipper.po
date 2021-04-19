@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-02 00:19+0000\n"
+"POT-Creation-Date: 2021-04-19 00:21+0000\n"
 "PO-Revision-Date: 2009-01-05 12:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -615,14 +615,16 @@ msgstr ""
 msgid "Replay action in history"
 msgstr ""
 
-#: klipperpopup.cpp:72
-#, kde-format
-msgid "<empty clipboard>"
-msgstr "<empty clipboard>"
+#: klipperpopup.cpp:72 tray.cpp:38 tray.cpp:54
+#, fuzzy, kde-format
+#| msgid "C&lipboard history size:"
+msgid "Clipboard is empty"
+msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
 #: klipperpopup.cpp:73
-#, kde-format
-msgid "<no matches>"
+#, fuzzy, kde-format
+#| msgid "<no matches>"
+msgid "No matches"
 msgstr "<no matches>"
 
 #: klipperpopup.cpp:121
@@ -744,12 +746,6 @@ msgstr "অতিরিক্ত (&M)"
 msgid "Clipboard Contents"
 msgstr "প্রস্থানকালে, ক্লিপবোর্ডের তথ্য সংরক্ষণ করা হবে (&x)"
 
-#: tray.cpp:38 tray.cpp:54
-#, fuzzy, kde-format
-#| msgid "C&lipboard history size:"
-msgid "Clipboard is empty"
-msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
-
 #: urlgrabber.cpp:185
 #, kde-format
 msgid "%1 - Actions For: %2"
@@ -764,6 +760,9 @@ msgstr "এই পপ-আপ নিষ্ক্রিয় করা হবে"
 #, kde-format
 msgid "&Cancel"
 msgstr "বাতিল (&C)"
+
+#~ msgid "<empty clipboard>"
+#~ msgstr "<empty clipboard>"
 
 #, fuzzy
 #~| msgid ""
