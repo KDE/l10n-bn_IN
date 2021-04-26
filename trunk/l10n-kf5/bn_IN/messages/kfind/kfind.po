@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-25 00:21+0000\n"
+"POT-Creation-Date: 2021-04-26 00:23+0000\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -168,14 +168,14 @@ msgstr "ফলাফল সংরক্ষণ করতে ব্যর্থ।
 msgid "KFind Results File"
 msgstr "KFind ফাইলের ফাইল"
 
-#: kfindtreeview.cpp:516
+#: kfindtreeview.cpp:510
 #, fuzzy, kde-format
 #| msgid "Results were saved to file\n"
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "ফাইলের মধ্যে ফলাফল সংরক্ষণ করা হয়েছে\n"
 
-#: kfindtreeview.cpp:608 kftabdlg.cpp:426
+#: kfindtreeview.cpp:600 kftabdlg.cpp:426
 #, kde-format
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
@@ -297,7 +297,7 @@ msgstr "সর্বাধিক"
 msgid "Equal To"
 msgstr "চিহ্নিত মাপের সমান"
 
-#: kftabdlg.cpp:223 kftabdlg.cpp:884
+#: kftabdlg.cpp:223 kftabdlg.cpp:879
 #, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
@@ -503,7 +503,7 @@ msgstr "নির্ধারণ করা হবে"
 msgid "Do Not Set"
 msgstr "নির্ধারণ করা হবে না"
 
-#: kftabdlg.cpp:874
+#: kftabdlg.cpp:869
 #, fuzzy, kde-format
 #| msgid "&during the previous"
 msgctxt ""
@@ -514,7 +514,7 @@ msgid_plural "&during the previous"
 msgstr[0] "পূর্ববর্তী (&d)"
 msgstr[1] "পূর্ববর্তী (&d)"
 
-#: kftabdlg.cpp:875
+#: kftabdlg.cpp:870
 #, fuzzy, kde-format
 #| msgid "minute(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -523,7 +523,7 @@ msgid_plural "minutes"
 msgstr[0] "মিনিটের মধ্যে"
 msgstr[1] "মিনিটের মধ্যে"
 
-#: kftabdlg.cpp:876
+#: kftabdlg.cpp:871
 #, fuzzy, kde-format
 #| msgid "hour(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -532,7 +532,7 @@ msgid_plural "hours"
 msgstr[0] "ঘন্টার মধ্যে"
 msgstr[1] "ঘন্টার মধ্যে"
 
-#: kftabdlg.cpp:877
+#: kftabdlg.cpp:872
 #, fuzzy, kde-format
 #| msgid "day(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -541,7 +541,7 @@ msgid_plural "days"
 msgstr[0] "দিনের মধ্যে"
 msgstr[1] "দিনের মধ্যে"
 
-#: kftabdlg.cpp:878
+#: kftabdlg.cpp:873
 #, fuzzy, kde-format
 #| msgid "month(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -550,7 +550,7 @@ msgid_plural "months"
 msgstr[0] "মাসের মধ্যে"
 msgstr[1] "মাসের মধ্যে"
 
-#: kftabdlg.cpp:879
+#: kftabdlg.cpp:874
 #, fuzzy, kde-format
 #| msgid "year(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -559,7 +559,7 @@ msgid_plural "years"
 msgstr[0] "বৎসরের মধ্যে"
 msgstr[1] "বৎসরের মধ্যে"
 
-#: kquery.cpp:591
+#: kquery.cpp:587
 #, fuzzy, kde-format
 #| msgid "Error while using locate"
 msgctxt "@title:window"
