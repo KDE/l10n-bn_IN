@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-21 02:48+0100\n"
+"POT-Creation-Date: 2021-05-03 00:21+0000\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -607,7 +607,7 @@ msgstr "%1-র সাথে যুক্ত অতিরিক্ত ফাই�
 msgid "Failed to start the system daemon.<br><i>%1</i>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:708 kio/KioFonts.cpp:715
+#: kcmfontinst/JobRunner.cpp:708 kio/KioFonts.cpp:717
 #, fuzzy, kde-format
 #| msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
 msgid "<i>%1</i> already exists."
@@ -1181,18 +1181,18 @@ msgstr ""
 msgid "Fonts"
 msgstr "ফন্ট"
 
-#: kio/KioFonts.cpp:696
+#: kio/KioFonts.cpp:698
 #, fuzzy, kde-format
 #| msgid "Failed to start font printer."
 msgid "Failed to start the system daemon"
 msgstr "ফন্ট প্রিন্টার আরম্ভ করতে ব্যর্থ।"
 
-#: kio/KioFonts.cpp:699
+#: kio/KioFonts.cpp:701
 #, kde-format
 msgid "Backend died"
 msgstr ""
 
-#: kio/KioFonts.cpp:702
+#: kio/KioFonts.cpp:704
 #, fuzzy, kde-format
 #| msgid ""
 #| "You cannot install bitmap fonts, as these have been disabled on your "
@@ -1201,7 +1201,7 @@ msgid "%1 is a bitmap font, and these have been disabled on your system."
 msgstr ""
 "সিস্টেমের মধ্যে বিট-ম্যাপ ফন্ট নিষ্ক্রিয় হওয়ার ফলে, বিট-ম্যাপ ফন্ট ইনস্টল করা সম্ভব নয়।"
 
-#: kio/KioFonts.cpp:705
+#: kio/KioFonts.cpp:707
 #, fuzzy, kde-format
 #| msgid ""
 #| "File %1 contains the font:\n"
@@ -1214,13 +1214,13 @@ msgstr ""
 "%2\n"
 "এই নামের একটি ফন্ট বর্তমানে ইনস্টল করা আছে।\n"
 
-#: kio/KioFonts.cpp:708
+#: kio/KioFonts.cpp:710
 #, fuzzy, kde-format
 #| msgid "Could not read font."
 msgid "%1 is not a font."
 msgstr "ফন্ট পড়তে ব্যর্থ।"
 
-#: kio/KioFonts.cpp:711
+#: kio/KioFonts.cpp:713
 #, fuzzy, kde-format
 #| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with %1"
@@ -1641,17 +1641,17 @@ msgstr "ইনস্টল করুন..."
 msgid "Change Text..."
 msgstr "টেক্সট পরিবর্তন করুন..."
 
-#: viewpart/FontViewPart.cpp:345
+#: viewpart/FontViewPart.cpp:347
 #, kde-format
 msgid "Could not read font."
 msgstr "ফন্ট পড়তে ব্যর্থ।"
 
-#: viewpart/FontViewPart.cpp:392
+#: viewpart/FontViewPart.cpp:394
 #, kde-format
 msgid "Preview String"
 msgstr "পংক্তির পূর্বরূপ প্রদর্শন"
 
-#: viewpart/FontViewPart.cpp:392
+#: viewpart/FontViewPart.cpp:394
 #, kde-format
 msgid "Please enter new string:"
 msgstr "অনুগ্রহ করে নতুন পংক্তি লিখুন।"
