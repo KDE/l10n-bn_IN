@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-15 00:21+0000\n"
+"POT-Creation-Date: 2021-05-16 00:21+0000\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -110,27 +110,27 @@ msgstr "প্রিন্ট করার উদ্দেশ্যে ফন্
 msgid "Remove file containing list of fonts to print"
 msgstr "প্রিন্ট করার উদ্দেশ্যে ফন্টের তালিকা ধারণকারী ফাইল মুছে ফেলুন"
 
-#: apps/Viewer.cpp:74
+#: apps/Viewer.cpp:77
 #, kde-format
 msgid "Select Font to View"
 msgstr "প্রদর্শনের জন্য ফন্ট নির্বাচন করুন"
 
-#: apps/Viewer.cpp:114
+#: apps/Viewer.cpp:117
 #, kde-format
 msgid "URL to open"
 msgstr "প্রদর্শনযোগ্য URL"
 
-#: apps/Viewer.cpp:157
+#: apps/Viewer.cpp:160
 #, kde-format
 msgid "Font Viewer"
 msgstr "ফন্ট প্রদর্শন ব্যবস্থা"
 
-#: apps/Viewer.cpp:159
+#: apps/Viewer.cpp:162
 #, kde-format
 msgid "Simple font viewer"
 msgstr "সরল ফন্ট প্রদর্শন ব্যবস্থা"
 
-#: apps/Viewer.cpp:161
+#: apps/Viewer.cpp:164
 #, kde-format
 msgid "(C) Craig Drummond, 2004-2007"
 msgstr "(C) ক্রেগ ড্রাম্‌মন্ড, ২০০৪-২০০৭ "
@@ -1620,38 +1620,32 @@ msgstr "UTF-8"
 msgid "XML Decimal Entity"
 msgstr "XML ডেসিম্যাল এনটিটি"
 
-#: viewpart/FontViewPart.cpp:102
-#, fuzzy, kde-format
-#| msgid "Font Viewer"
-msgid "FontViewPart"
-msgstr "ফন্ট প্রদর্শন ব্যবস্থা"
-
-#: viewpart/FontViewPart.cpp:107
+#: viewpart/FontViewPart.cpp:105
 #, kde-format
 msgid "Show Face:"
 msgstr ""
 
-#: viewpart/FontViewPart.cpp:110
+#: viewpart/FontViewPart.cpp:108
 #, kde-format
 msgid "Install..."
 msgstr "ইনস্টল করুন..."
 
-#: viewpart/FontViewPart.cpp:131
+#: viewpart/FontViewPart.cpp:129
 #, kde-format
 msgid "Change Text..."
 msgstr "টেক্সট পরিবর্তন করুন..."
 
-#: viewpart/FontViewPart.cpp:347
+#: viewpart/FontViewPart.cpp:345
 #, kde-format
 msgid "Could not read font."
 msgstr "ফন্ট পড়তে ব্যর্থ।"
 
-#: viewpart/FontViewPart.cpp:394
+#: viewpart/FontViewPart.cpp:392
 #, kde-format
 msgid "Preview String"
 msgstr "পংক্তির পূর্বরূপ প্রদর্শন"
 
-#: viewpart/FontViewPart.cpp:394
+#: viewpart/FontViewPart.cpp:392
 #, kde-format
 msgid "Please enter new string:"
 msgstr "অনুগ্রহ করে নতুন পংক্তি লিখুন।"
@@ -2521,6 +2515,11 @@ msgstr "ফাগস পা"
 #, kde-format
 msgid "Yi"
 msgstr "ইয়ি"
+
+#, fuzzy
+#~| msgid "Font Viewer"
+#~ msgid "FontViewPart"
+#~ msgstr "ফন্ট প্রদর্শন ব্যবস্থা"
 
 #~ msgid "<p>No information</p>"
 #~ msgstr "<p>তথ্য উপলব্ধ নেই</p>"
