@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-07 00:20+0000\n"
+"POT-Creation-Date: 2021-05-26 00:21+0000\n"
 "PO-Revision-Date: 2009-01-05 12:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -354,8 +354,9 @@ msgid "C&lear Clipboard History"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
 #: klipper.cpp:160
-#, kde-format
-msgid "&Configure Klipper..."
+#, fuzzy, kde-format
+#| msgid "&Configure Klipper..."
+msgid "&Configure Klipper…"
 msgstr "Klipper কনফিগার করুন...(&C)"
 
 #: klipper.cpp:166
@@ -371,13 +372,14 @@ msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
 #: klipper.cpp:178
-#, kde-format
-msgid "&Edit Contents..."
-msgstr "তথ্য সম্পাদনা...(&E)"
+#, fuzzy, kde-format
+#| msgid "Edit Contents"
+msgid "&Edit Contents…"
+msgstr "তথ্য সম্পাদনা"
 
 #: klipper.cpp:186
 #, kde-format
-msgid "&Show Barcode..."
+msgid "&Show Barcode…"
 msgstr ""
 
 #: klipper.cpp:194
@@ -634,7 +636,7 @@ msgstr "Klipper - ক্লিপবোর্ড সংক্রান্ত স
 
 #: klipperpopup.cpp:129
 #, kde-format
-msgid "Search..."
+msgid "Search…"
 msgstr ""
 
 #: klipperpopup.cpp:138 main.cpp:43
@@ -760,6 +762,9 @@ msgstr "এই পপ-আপ নিষ্ক্রিয় করা হবে"
 #, kde-format
 msgid "&Cancel"
 msgstr "বাতিল (&C)"
+
+#~ msgid "&Edit Contents..."
+#~ msgstr "তথ্য সম্পাদনা...(&E)"
 
 #~ msgid "<empty clipboard>"
 #~ msgstr "<empty clipboard>"
