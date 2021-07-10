@@ -1,0 +1,569 @@
+# translation of kwrite.po to Bengali (India)
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Arindam Ghosh <makghosh@gmail.com>, 2007.
+# Arindam Ghosh <arindam.foss@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwrite\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-13 00:22+0000\n"
+"PO-Revision-Date: 2008-07-04 18:33+0530\n"
+"Last-Translator: Arindam Ghosh <arindam.foss@gmail.com>\n"
+"Language-Team: Bengali(India) <discuss@ankur.org.in>\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KAider 0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "অরিন্দম ঘোষ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "makghosh@gmail.com"
+
+#. i18n: ectx: Menu (file)
+#: data/kwriteui.rc:6
+#, kde-format
+msgid "&File"
+msgstr "ফাইল (&F)"
+
+#. i18n: ectx: Menu (edit)
+#: data/kwriteui.rc:23
+#, kde-format
+msgid "&Edit"
+msgstr "সম্পাদনা (&E)"
+
+#. i18n: ectx: Menu (view)
+#: data/kwriteui.rc:35
+#, kde-format
+msgid "&View"
+msgstr "প্রদর্শন (&V)"
+
+#. i18n: ectx: Menu (tools)
+#: data/kwriteui.rc:41
+#, kde-format
+msgid "&Tools"
+msgstr "সরঞ্জাম (&T)"
+
+#. i18n: ectx: Menu (settings)
+#: data/kwriteui.rc:46
+#, kde-format
+msgid "&Settings"
+msgstr "বিন্যাস(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: data/kwriteui.rc:56
+#, kde-format
+msgid "Main Toolbar"
+msgstr "মুখ্য টুলবার"
+
+#: kwrite.cpp:131
+#, fuzzy, kde-format
+#| msgid "Use this to close the current document"
+msgid "Use this command to close the current document"
+msgstr "এটা বর্তমান ডকুমেন্ট বন্ধ করার জন্যে ব্যবহার করুন"
+
+#: kwrite.cpp:137
+#, kde-format
+msgid "Use this command to create a new document"
+msgstr "এই কমান্ড নতুন ডকুমেন্ট খোলার জন্যে ব্যবহার করুন"
+
+#: kwrite.cpp:140
+#, kde-format
+msgid "Use this command to open an existing document for editing"
+msgstr "এই কমান্ড দিয়ে একটি সংরক্ষিত ডকুমেন্ট সম্পাদনার জন্যে খুলুন"
+
+#: kwrite.cpp:144
+#, kde-format
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"এটা অাপনার সম্প্রতি খোলা ফাইলগুলোর সূচী নির্মাণ করে এবং এগুলো সহজেই অাপনি অাবার "
+"খুলতে পারেন।"
+
+#: kwrite.cpp:148
+#, kde-format
+msgid "&New Window"
+msgstr "নতুন উইন্ডো(&N)"
+
+#: kwrite.cpp:150
+#, kde-format
+msgid "Create another view containing the current document"
+msgstr "বর্তমান ডকুমেন্টের জন্য নতুন প্রদর্শন বিন্যাস নির্মাণ করুন"
+
+#: kwrite.cpp:152
+#, kde-format
+msgid "Close the current document view"
+msgstr "বর্তমান ডকুমেন্টের প্রদর্শন বন্ধ করুন"
+
+#: kwrite.cpp:161
+#, kde-format
+msgid "Use this command to show or hide the view's statusbar"
+msgstr ""
+"এই কমান্ড প্রদর্শিত ক্ষেত্রের স্ট্যাটাস‌-বার প্রদর্শন বা গোপন করার জন্যে ব্যবহার করুন"
+
+#: kwrite.cpp:163
+#, fuzzy, kde-format
+#| msgid "Sho&w Path"
+msgid "Sho&w Path in Titlebar"
+msgstr "পথ প্রদর্শন করা হবে (&w)"
+
+#: kwrite.cpp:166
+#, kde-format
+msgid "Show the complete document path in the window caption"
+msgstr "উইন্ডো শিরোনামে ডকুমেন্টের সম্পূর্ণ পথ প্রদর্শন করা হবে"
+
+#: kwrite.cpp:169
+#, kde-format
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr "অ্যাপ্লিকেশনের কিবোর্ড-র্শটকাট অ্যাসাইনমেন্ট গুলো কনফিগর করুন"
+
+#: kwrite.cpp:172
+#, kde-format
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr "কোন বস্তুসমূহ টুলবারে প্রদর্শিত হবে তা কনফিগর করুন"
+
+#: kwrite.cpp:229 kwrite.cpp:231
+#, kde-format
+msgid "Open File"
+msgstr "ফাইল খুলুন"
+
+#: kwrite.cpp:278
+#, kde-format
+msgid ""
+"This will hide the menu bar completely. You can show it again by typing %1."
+msgstr ""
+
+#: kwrite.cpp:281
+#, kde-format
+msgid "Hide menu bar"
+msgstr ""
+
+#: kwrite.cpp:432
+#, kde-format
+msgid " [read only]"
+msgstr ""
+
+#: kwrite.cpp:436
+#, kde-format
+msgid "Untitled"
+msgstr "অসংরক্ষিত"
+
+#: main.cpp:109
+#, kde-format
+msgid "KWrite"
+msgstr "KWrite"
+
+#: main.cpp:111
+#, fuzzy, kde-format
+#| msgid "KWrite - Text Editor"
+msgid "KWrite - Text Editor"
+msgstr "KWrite - টেকস্ট সম্পাদন ব্যবস্থা"
+
+#: main.cpp:113
+#, fuzzy, kde-format
+#| msgid "(c) 2000-2005 The Kate Authors"
+msgid "(c) 2000-2021 The Kate Authors"
+msgstr "(c) ২০০০-২০০৫ Kate-র লেখকবৃন্দ"
+
+#: main.cpp:130
+#, kde-format
+msgid "Christoph Cullmann"
+msgstr "ক্রিস্টফ কালম্যান"
+
+#: main.cpp:130
+#, kde-format
+msgid "Maintainer"
+msgstr "মেন্টেনার"
+
+#: main.cpp:131
+#, kde-format
+msgid "Dominik Haumann"
+msgstr "ডমিনিক হওম্যান"
+
+#: main.cpp:131 main.cpp:132 main.cpp:134 main.cpp:137 main.cpp:144
+#, kde-format
+msgid "Core Developer"
+msgstr "কোর ডেভেলপার"
+
+#: main.cpp:132
+#, kde-format
+msgid "Anders Lund"
+msgstr "অ্যনডার্স লুন্ড"
+
+#: main.cpp:133
+#, kde-format
+msgid "Joseph Wenninger"
+msgstr "জোসেফ ওয়েনিঙ্গর"
+
+#: main.cpp:137
+#, kde-format
+msgid "Hamish Rodda"
+msgstr "হামিশ রোড্ডা"
+
+#: main.cpp:138
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "ওয়াল্ডো বাস্তিয়ান"
+
+#: main.cpp:138
+#, kde-format
+msgid "The cool buffersystem"
+msgstr "বাফার সিস্টেম"
+
+#: main.cpp:139
+#, kde-format
+msgid "Charles Samuels"
+msgstr "চার্লস্ স্যামুএল্স"
+
+#: main.cpp:139
+#, kde-format
+msgid "The Editing Commands"
+msgstr "সম্পাদন কমান্ড সমূহ"
+
+#: main.cpp:140
+#, kde-format
+msgid "Matt Newell"
+msgstr "ম্যাট নিউয়েল"
+
+#: main.cpp:141
+#, fuzzy, kde-format
+#| msgid "Testing, ..."
+msgctxt ""
+"Credit text for someone that did testing and some other similar things"
+msgid "Testing, ..."
+msgstr "পরীক্ষা করা হচ্ছে, ..."
+
+#: main.cpp:143
+#, kde-format
+msgid "Michael Bartl"
+msgstr "মাইকল বার্তেল"
+
+#: main.cpp:143
+#, kde-format
+msgid "Former Core Developer"
+msgstr "পূর্ব কোর ডেভেলপার"
+
+#: main.cpp:144
+#, kde-format
+msgid "Michael McCallum"
+msgstr "মাইকল ম্যক্-কলাম"
+
+#: main.cpp:145
+#, kde-format
+msgid "Jochen Wilhemly"
+msgstr "জোহেন উইল্হেমলি"
+
+#: main.cpp:145
+#, kde-format
+msgid "KWrite Author"
+msgstr "KWrite-র লেখক"
+
+#: main.cpp:146
+#, kde-format
+msgid "Michael Koch"
+msgstr "মাইকল কোচ"
+
+#: main.cpp:146
+#, kde-format
+msgid "KWrite port to KParts"
+msgstr "KWrite পোর্ট টু KParts"
+
+#: main.cpp:147
+#, kde-format
+msgid "Christian Gebauer"
+msgstr "ক্রিশ্চিয়ন গেবে"
+
+#: main.cpp:148
+#, kde-format
+msgid "Simon Hausmann"
+msgstr "সাইমন হওম্যান"
+
+#: main.cpp:149
+#, kde-format
+msgid "Glen Parker"
+msgstr "গ্লেন পার্কার"
+
+#: main.cpp:149
+#, kde-format
+msgid "KWrite Undo History, Kspell integration"
+msgstr "KWrite-র বাতিল ইতিহাস, KSpell-র একত্রীকরণ"
+
+#: main.cpp:150
+#, kde-format
+msgid "Scott Manson"
+msgstr "স্কট ম্যাসন"
+
+#: main.cpp:150
+#, kde-format
+msgid "KWrite XML Syntax highlighting support"
+msgstr "KWrite XML সিন্ট্যাক্সের বিভিন্ন অংশ পৃথকরূপে প্রদর্শনের আঁধার"
+
+#: main.cpp:151
+#, kde-format
+msgid "John Firebaugh"
+msgstr "জন ফায়রবাও"
+
+#: main.cpp:151
+#, kde-format
+msgid "Patches and more"
+msgstr "প্যাচ এবং অন্যান্য আরো"
+
+#: main.cpp:152
+#, kde-format
+msgid "Gerald Senarclens de Grancy"
+msgstr ""
+
+#: main.cpp:153
+#, kde-format
+msgid "QA and Scripting"
+msgstr ""
+
+#: main.cpp:157
+#, kde-format
+msgid "Matteo Merli"
+msgstr "ম্যতিয়ো মেরলি"
+
+#: main.cpp:157
+#, kde-format
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr "RPM Spec, Perl, Diff ইত্যাদি ফাইলের বিভিন্ন অংশের পৃথক বিন্যাস"
+
+#: main.cpp:158
+#, kde-format
+msgid "Rocky Scaletta"
+msgstr "রকি স্কালেতা"
+
+#: main.cpp:158
+#, kde-format
+msgid "Highlighting for VHDL"
+msgstr "VHDL-র জন্যে বিভিন্ন অংশের পৃথক বিন্যাস"
+
+#: main.cpp:159
+#, kde-format
+msgid "Yury Lebedev"
+msgstr "য়ুরি লেবেডেভ"
+
+#: main.cpp:159
+#, kde-format
+msgid "Highlighting for SQL"
+msgstr "SQL-র জন্যে বিভিন্ন অংশের পৃথক বিন্যাস"
+
+#: main.cpp:160
+#, kde-format
+msgid "Chris Ross"
+msgstr "ক্রিশ রশ"
+
+#: main.cpp:160
+#, kde-format
+msgid "Highlighting for Ferite"
+msgstr "Ferite-র জন্যে বিভিন্ন অংশের পৃথক বিন্যাস"
+
+#: main.cpp:161
+#, kde-format
+msgid "Nick Roux"
+msgstr "নিক রক্স"
+
+#: main.cpp:161
+#, kde-format
+msgid "Highlighting for ILERPG"
+msgstr "ILERPG-র জন্যে বিভিন্ন অংশের পৃথক বিন্যাস"
+
+#: main.cpp:162
+#, kde-format
+msgid "Carsten Niehaus"
+msgstr "কার্স্টেন নিহওস"
+
+#: main.cpp:162
+#, kde-format
+msgid "Highlighting for LaTeX"
+msgstr "LaTeX-র জন্যে ঔজ্জ্বল্যের বিন্যাস "
+
+#: main.cpp:163
+#, kde-format
+msgid "Per Wigren"
+msgstr "পার উইগ্রেন "
+
+#: main.cpp:163
+#, kde-format
+msgid "Highlighting for Makefiles, Python"
+msgstr "Makefiles, Python-র জন্যে ঔজ্জ্বল্যের বিন্যাস"
+
+#: main.cpp:164
+#, kde-format
+msgid "Jan Fritz"
+msgstr "জ্যান ফ্রিত্জ"
+
+#: main.cpp:164
+#, kde-format
+msgid "Highlighting for Python"
+msgstr "Pyhton-র জন্যে ঔজ্জ্বল্যের বিন্যাস"
+
+#: main.cpp:165
+#, kde-format
+msgid "Daniel Naber"
+msgstr "ডেনিয়ল ন্যবের"
+
+#: main.cpp:166
+#, kde-format
+msgid "Roland Pabel"
+msgstr "রোল্যন্ড পেবেল"
+
+#: main.cpp:166
+#, kde-format
+msgid "Highlighting for Scheme"
+msgstr "Scheme-র জন্যে ঔজ্জ্বল্যের বিন্যাস"
+
+#: main.cpp:167
+#, kde-format
+msgid "Cristi Dumitrescu"
+msgstr "ক্রিস্তি ডুমিত্রেস্কু"
+
+#: main.cpp:167
+#, kde-format
+msgid "PHP Keyword/Datatype list"
+msgstr "PHP Keyword(কিওয়ার্ড)/Datatype(ডাটাটাইপ) সূচি"
+
+#: main.cpp:168
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "কার্স্টেন ফেইফর"
+
+#: main.cpp:168
+#, fuzzy, kde-format
+#| msgid "Very nice help"
+msgctxt "Credit text for someone that helped a lot"
+msgid "Very nice help"
+msgstr "খুব ভালো সাহায্য"
+
+#: main.cpp:169
+#, kde-format
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr "সকলে যাঁরা সহযোগীতা করেছেন অথচ আমি তাঁদের নাম উল্লেখ করতে ভুলে গেছি"
+
+#: main.cpp:194
+#, fuzzy, kde-format
+#| msgid "Set encoding for the file to open"
+msgid "Set encoding for the file to open."
+msgstr "ফাইল খোলার জন্যে এনকোডিং ঠিক করুন"
+
+#: main.cpp:195
+#, kde-format
+msgid "encoding"
+msgstr ""
+
+#: main.cpp:199
+#, fuzzy, kde-format
+#| msgid "Navigate to this line"
+msgid "Navigate to this line."
+msgstr "এই পংত্তিতে পরিক্রমণ করা হবে"
+
+#: main.cpp:199
+#, kde-format
+msgid "line"
+msgstr ""
+
+#: main.cpp:203
+#, fuzzy, kde-format
+#| msgid "Navigate to this column"
+msgid "Navigate to this column."
+msgstr "এই কলামে পরিক্রমণ করা হবে"
+
+#: main.cpp:203
+#, kde-format
+msgid "column"
+msgstr ""
+
+#: main.cpp:207
+#, fuzzy, kde-format
+#| msgid "Read the contents of stdin"
+msgid "Read the contents of stdin."
+msgstr "stdin-র অভ্যন্তরস্থ বস্তু পড়া হবে"
+
+#: main.cpp:211
+#, kde-format
+msgid "The files/URLs opened by the application will be deleted after use"
+msgstr ""
+
+#: main.cpp:215
+#, fuzzy, kde-format
+#| msgid "Document to open"
+msgid "Documents to open."
+msgstr "ডকুমেন্ট যেটা খুলতে হবে"
+
+#: main.cpp:215
+#, kde-format
+msgid "[urls...]"
+msgstr ""
+
+#: main.cpp:322
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "ফাইল '%1' খোলা যাচ্ছেনা: এটা সাধারন ফাইল নয়, এটা একটা ফোল্ডার"
+
+#~ msgid "&Help"
+#~ msgstr "সাহায্য (&H)"
+
+#~ msgid "&About Editor Component"
+#~ msgstr "এডিটার কম্পোনেন্টের পরিচিতি (&A)"
+
+#~ msgid "Developer & Highlight wizard"
+#~ msgstr "ডেভেলপার তথা হাইলাইট উইজার্ড "
+
+#~ msgid ""
+#~ "The file given could not be read; check whether it exists or is readable "
+#~ "for the current user."
+#~ msgstr ""
+#~ "এই ফাইলটা পড়া যাচ্ছে না; অনুগ্রহ করে ফাইলটার অস্তিত্ব তথা বর্তমান ব্যবহারকারীর "
+#~ "পক্ষে তার পঠনযোগ্যতা পরীক্ষা করুন।"
+
+#, fuzzy
+#~| msgid ""
+#~| "A KDE text-editor component could not be found;\n"
+#~| "please check your KDE installation."
+#~ msgid ""
+#~ "A KDE text-editor component could not be found.\n"
+#~ "Please check your KDE installation."
+#~ msgstr ""
+#~ "KDE টেক্সট এডিটারের একটি কম্পোনেন্ট পাওয়া যায়নি;\n"
+#~ "অনুগ্রহ করে অাপনার KDE ইনস্টলেশন পরীক্ষা করুন।"
+
+#, fuzzy
+#~| msgid " Line: %1 Col: %2 "
+#~ msgctxt "@info:status Statusbar label for cursor line and column position"
+#~ msgid " Line: %1 Col: %2 "
+#~ msgstr " পংত্তি: %1 কলাম: %2 "
+
+#, fuzzy
+#~| msgid " LINE "
+#~ msgctxt "@info:status Statusbar label for line selection mode"
+#~ msgid " LINE "
+#~ msgstr " LINE "
+
+#~ msgid " INS "
+#~ msgstr " INS "
+
+#, fuzzy
+#~| msgid " BLOCK "
+#~ msgctxt "@info:status Statusbar label for block selection mode"
+#~ msgid " BLOCK "
+#~ msgstr " BLOCK "
+
+#~ msgid "Choose Editor Component"
+#~ msgstr "এডিটার কম্পোনেন্ট চয়ন করুন"
+
+#~ msgid "Choose Editor..."
+#~ msgstr "এডিটার চয়ন করুন..."
+
+#~ msgid "Override the system wide setting for the default editing component"
+#~ msgstr "ডিফল্ট সম্পাদন কম্পোনেন্টের জন্যে সিস্টেম প্রশস্ত বিন্যাস পরিবর্তন করা হবে"
