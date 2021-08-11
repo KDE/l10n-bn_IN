@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-04 00:26+0000\n"
+"POT-Creation-Date: 2021-08-11 00:25+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -340,6 +340,27 @@ msgctxt "X-KDE-Keywords"
 msgid "1394,Firewire,devices,viewer,control"
 msgstr ""
 
+#: Modules/vulkan/kcm_vulkan.desktop:15
+#: Modules/vulkan/package/metadata.desktop:18
+msgctxt "Name"
+msgid "Vulkan"
+msgstr ""
+
+#: Modules/vulkan/kcm_vulkan.desktop:17
+#: Modules/vulkan/package/metadata.desktop:20
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Processor Information"
+msgctxt "Comment"
+msgid "Vulkan graphics API information"
+msgstr "প্রসেসর সংক্রান্ত তথ্য"
+
+#: Modules/vulkan/kcm_vulkan.desktop:19
+#: Modules/vulkan/package/metadata.desktop:22
+msgctxt "X-KDE-Keywords"
+msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
+msgstr ""
+
 #: org.kde.kinfocenter.desktop:9
 #, fuzzy
 #| msgctxt "GenericName"
@@ -364,13 +385,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "System Information"
 #~ msgstr "PCI সংক্রান্ত তথ্য"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Processor Information"
-#~ msgctxt "Name"
-#~ msgid "Graphical Information"
-#~ msgstr "প্রসেসর সংক্রান্ত তথ্য"
 
 #, fuzzy
 #~| msgctxt "Comment"
