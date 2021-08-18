@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"POT-Creation-Date: 2021-08-18 00:19+0000\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -110,27 +110,27 @@ msgstr "প্রিন্ট করার উদ্দেশ্যে ফন্
 msgid "Remove file containing list of fonts to print"
 msgstr "প্রিন্ট করার উদ্দেশ্যে ফন্টের তালিকা ধারণকারী ফাইল মুছে ফেলুন"
 
-#: apps/Viewer.cpp:60
+#: apps/Viewer.cpp:58
 #, kde-format
 msgid "Select Font to View"
 msgstr "প্রদর্শনের জন্য ফন্ট নির্বাচন করুন"
 
-#: apps/Viewer.cpp:103
+#: apps/Viewer.cpp:101
 #, kde-format
 msgid "URL to open"
 msgstr "প্রদর্শনযোগ্য URL"
 
-#: apps/Viewer.cpp:146
+#: apps/Viewer.cpp:144
 #, kde-format
 msgid "Font Viewer"
 msgstr "ফন্ট প্রদর্শন ব্যবস্থা"
 
-#: apps/Viewer.cpp:148
+#: apps/Viewer.cpp:146
 #, kde-format
 msgid "Simple font viewer"
 msgstr "সরল ফন্ট প্রদর্শন ব্যবস্থা"
 
-#: apps/Viewer.cpp:150
+#: apps/Viewer.cpp:148
 #, kde-format
 msgid "(C) Craig Drummond, 2004-2007"
 msgstr "(C) ক্রেগ ড্রাম্‌মন্ড, ২০০৪-২০০৭ "
@@ -204,7 +204,7 @@ msgstr "তারিখ"
 msgid "Links To"
 msgstr ""
 
-#: kcmfontinst/DuplicatesDialog.cpp:387 kcmfontinst/FontList.cpp:1315
+#: kcmfontinst/DuplicatesDialog.cpp:387 kcmfontinst/FontList.cpp:1316
 #, kde-format
 msgid "Open in Font Viewer"
 msgstr "ফন্ট প্রদর্শন ব্যবস্থায় খোলা হবে"
@@ -291,24 +291,24 @@ msgstr "প্রতীক/অন্যান্য"
 msgid "Filter by %1…"
 msgstr ""
 
-#: kcmfontinst/FontList.cpp:553
+#: kcmfontinst/FontList.cpp:554
 #, kde-format
 msgid "Font"
 msgstr "ফন্ট"
 
-#: kcmfontinst/FontList.cpp:555
+#: kcmfontinst/FontList.cpp:556
 #, kde-format
 msgid "Status"
 msgstr ""
 
-#: kcmfontinst/FontList.cpp:569
+#: kcmfontinst/FontList.cpp:570
 #, kde-format
 msgid ""
 "This column shows the status of the font family, and of the individual font "
 "styles."
 msgstr ""
 
-#: kcmfontinst/FontList.cpp:676
+#: kcmfontinst/FontList.cpp:677
 #, kde-format
 msgid ""
 "<p>This list shows your installed fonts. The fonts are grouped by family, "
@@ -317,46 +317,46 @@ msgid ""
 "li><li>Bold</li><li>Bold Italic</li><li>Italic</li></ul></li></ul>"
 msgstr ""
 
-#: kcmfontinst/FontList.cpp:955 kcmfontinst/FontList.cpp:979
+#: kcmfontinst/FontList.cpp:956 kcmfontinst/FontList.cpp:980
 #, fuzzy, kde-format
 #| msgid "...plus %1 more"
 msgid "…plus %1 more"
 msgstr "...এবং %1 বেশি"
 
-#: kcmfontinst/FontList.cpp:1006
+#: kcmfontinst/FontList.cpp:1007
 #, kde-format
 msgid "%1 [%2]"
 msgstr "%1 [%2]"
 
-#: kcmfontinst/FontList.cpp:1305
+#: kcmfontinst/FontList.cpp:1306
 #, kde-format
 msgid "Delete"
 msgstr "মুছে ফেলুন"
 
-#: kcmfontinst/FontList.cpp:1307 kcmfontinst/GroupList.cpp:789
+#: kcmfontinst/FontList.cpp:1308 kcmfontinst/GroupList.cpp:789
 #: kcmfontinst/KCmFontInst.cpp:1132 kcmfontinst/KCmFontInst.cpp:1156
 #, kde-format
 msgid "Enable"
 msgstr "সক্রিয় করুন"
 
-#: kcmfontinst/FontList.cpp:1308 kcmfontinst/GroupList.cpp:790
+#: kcmfontinst/FontList.cpp:1309 kcmfontinst/GroupList.cpp:790
 #: kcmfontinst/KCmFontInst.cpp:1133 kcmfontinst/KCmFontInst.cpp:1157
 #, kde-format
 msgid "Disable"
 msgstr "নিষ্ক্রিয় করুন"
 
-#: kcmfontinst/FontList.cpp:1313 kcmfontinst/GroupList.cpp:796
+#: kcmfontinst/FontList.cpp:1314 kcmfontinst/GroupList.cpp:796
 #, fuzzy, kde-format
 #| msgid "Print"
 msgid "Print…"
 msgstr "প্রিন্ট করুন"
 
-#: kcmfontinst/FontList.cpp:1317
+#: kcmfontinst/FontList.cpp:1318
 #, kde-format
 msgid "Reload"
 msgstr "নতুন করে প্রদর্শন"
 
-#: kcmfontinst/FontList.cpp:1716
+#: kcmfontinst/FontList.cpp:1717
 #, kde-format
 msgid "Open all %1 fonts in font viewer?"
 msgstr "সকল %1-টি ফন্ট, ফন্ট প্রদর্শন ব্যবস্থা খোলা হবে কি?"
