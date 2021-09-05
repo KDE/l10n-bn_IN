@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-23 00:28+0000\n"
+"POT-Creation-Date: 2021-09-05 00:28+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -340,8 +340,9 @@ msgstr ""
 #: src/kcmkwin/kwincompositing/kwincompositing.desktop:107
 msgctxt "X-KDE-Keywords"
 msgid ""
-"kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,XRender,"
-"video settings,graphical effects,desktop effects"
+"kwin,window,manager,compositing,compositor,effect,3D effects,2D effects,"
+"OpenGL,XRender,video settings,graphical effects,desktop effects,graphics,"
+"latency,vsync,tearing,window thumbnails,scale method,scaling method,backend"
 msgstr ""
 
 #: src/kcmkwin/kwindecoration/kwindecoration.desktop:15
@@ -366,7 +367,7 @@ msgstr "উইন্ডোর আচরণ কনফিগার করুন"
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
-"kwm,decoration"
+"kwm,decoration,window decorations,titlebar,window buttons,window border,skin"
 msgstr ""
 
 #: src/kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:14
@@ -388,7 +389,7 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
-"pager applet,pager settings"
+"pager applet,pager settings,indicator,navigation,cube,slide,workspaces"
 msgstr ""
 
 #: src/kcmkwin/kwineffects/kcm_kwin_effects.desktop:15
@@ -419,7 +420,8 @@ msgid ""
 "effect,dim screen effect,slide back effect,eye candy,candy,show FPS effect,"
 "show paint effect,cover switch effect,desktop cube effect,desktop cube "
 "animation effect,desktop grid effect,flip switch effect,present windows "
-"effect,resize window effect,background contrast effect"
+"effect,resize window effect,background contrast effect,bling,fading,movement,"
+"motion,overview windows effect"
 msgstr ""
 
 #: src/kcmkwin/kwineffects/kwineffect.knsrc:2
@@ -452,7 +454,8 @@ msgstr "উইন্ডোর আচরণ"
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,window behavior,window actions,animation,raise,auto raise,"
-"windows,frame,titlebar,doubleclick"
+"windows,frame,titlebar,doubleclick,desktop,snap,movement,shading,shade,"
+"unshade,unshading,activation,activate"
 msgstr ""
 
 #: src/kcmkwin/kwinrules/kcm_kwinrules.desktop:14
@@ -477,7 +480,7 @@ msgstr "উইন্ডোর আচরণ"
 msgctxt "X-KDE-Keywords"
 msgid ""
 "size,position,state,window behavior,windows,specific,workarounds,remember,"
-"rules"
+"rules,window rules,apps,applications"
 msgstr ""
 
 #: src/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:13
@@ -501,7 +504,8 @@ msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
 "screen edges,desktop edges,screen edges,maximize windows,tile windows,side "
-"of screen,screen behavior,switch desktop,virtual desktop,screen corners"
+"of screen,screen behavior,switch desktop,virtual desktop,screen corners,"
+"borders,screen borders,desktop borders,desktop corners,corners"
 msgstr ""
 
 #: src/kcmkwin/kwinscreenedges/kwintouchscreen.desktop:13
@@ -525,12 +529,9 @@ msgid ""
 msgstr ""
 
 #: src/kcmkwin/kwinscripts/kwinscripts.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "CGI Scripts"
 msgctxt "X-KDE-Keywords"
-msgid "kwin script"
-msgstr "CGI স্ক্রিপ্ট"
+msgid "kwin script,plugins,window manager"
+msgstr ""
 
 #: src/kcmkwin/kwinscripts/kwinscripts.desktop:64
 #, fuzzy
@@ -575,7 +576,8 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"
-"alt-tab,alt+tab,alt tab"
+"alt-tab,alt+tab,alt tab,apps changer,application changer,app,task,switch,"
+"task switcher"
 msgstr ""
 
 #: src/kcmkwin/kwinvirtualkeyboard/kcm_virtualkeyboard.desktop:16
@@ -590,6 +592,13 @@ msgstr "ডেস্কটপ"
 #: src/kcmkwin/kwinvirtualkeyboard/kcm_virtualkeyboard.desktop:43
 msgctxt "Comment"
 msgid "Select which virtual keyboard to use"
+msgstr ""
+
+#: src/kcmkwin/kwinvirtualkeyboard/kcm_virtualkeyboard.desktop:68
+msgctxt "X-KDE-Keywords"
+msgid ""
+"software keyboard,virtual keyboard,touch keyboard,on screen keyboard,input "
+"methods"
 msgstr ""
 
 #: src/kwin.notifyrc:3
@@ -737,6 +746,13 @@ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "CGI Scripts"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kwin script"
+#~ msgstr "CGI স্ক্রিপ্ট"
 
 #, fuzzy
 #~| msgctxt "Name"
