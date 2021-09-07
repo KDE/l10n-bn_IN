@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-03 01:44+0000\n"
+"POT-Creation-Date: 2021-09-07 01:54+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -90,27 +90,27 @@ msgstr "স্ক্রোল-ব্যাক (&c)"
 msgid "Session Toolbar"
 msgstr "সেশানের সংখ্যা"
 
-#: Application.cpp:54
+#: Application.cpp:55
 #, fuzzy, kde-format
 #| msgid "Name of profile to use for new Konsole instance"
 msgctxt "@info:shell"
 msgid "Name of profile to use for new Konsole instance"
 msgstr "নতুন Konsole ইনস্ট্যান্সের জন্য ব্যবহারযোগ্য প্রোফাইলের নাম"
 
-#: Application.cpp:58
+#: Application.cpp:59
 #, fuzzy, kde-format
 #| msgid "Name of profile to use for new Konsole instance"
 msgctxt "@info:shell"
 msgid "json layoutfile to be loaded to use for new Konsole instance"
 msgstr "নতুন Konsole ইনস্ট্যান্সের জন্য ব্যবহারযোগ্য প্রোফাইলের নাম"
 
-#: Application.cpp:62
+#: Application.cpp:63
 #, kde-format
 msgctxt "@info:shell"
 msgid "Use the internal FALLBACK profile"
 msgstr ""
 
-#: Application.cpp:65
+#: Application.cpp:66
 #, fuzzy, kde-format
 #| msgid ""
 #| "The initial working directory for new terminal sessions using this profile"
@@ -118,27 +118,27 @@ msgctxt "@info:shell"
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr "চিহ্নিত প্রোফাইল সহ নির্মিত নতুন টার্মিন্যাল সেশানের জন্য প্রারম্ভিক ডিরেক্টরি"
 
-#: Application.cpp:69
+#: Application.cpp:70
 #, fuzzy, kde-format
 #| msgid "Do not close the initial session automatically when it ends."
 msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr "প্রথম সেশান সমাপ্ত হলে তা স্বয়ংক্রিয়ভাবে বন্ধ করার প্রচেষ্টা করা হবে না।"
 
-#: Application.cpp:72
+#: Application.cpp:73
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
 "Create a new tab in an existing window rather than creating a new window"
 msgstr ""
 
-#: Application.cpp:75
+#: Application.cpp:76
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
-#: Application.cpp:79
+#: Application.cpp:80
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -146,70 +146,70 @@ msgid ""
 "(by default) is pressed"
 msgstr ""
 
-#: Application.cpp:82
+#: Application.cpp:83
 #, kde-format
 msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr ""
 
-#: Application.cpp:85
+#: Application.cpp:86
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:88
+#: Application.cpp:89
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:91
+#: Application.cpp:92
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:94
+#: Application.cpp:95
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:97
+#: Application.cpp:98
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Konsole in fullscreen mode"
 msgstr ""
 
-#: Application.cpp:100
+#: Application.cpp:101
 #, fuzzy, kde-format
 #| msgid "Disable transparent backgrounds, even if the system supports them."
 msgctxt "@info:shell"
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "সিস্টেম দ্বারা সমর্থিত হলেও, স্বচ্ছ পটভূমি ব্যবহার করা হবে না।"
 
-#: Application.cpp:103
+#: Application.cpp:104
 #, fuzzy, kde-format
 #| msgid "List the available profiles"
 msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr "উপলব্ধ প্রোফাইলের তালিকা"
 
-#: Application.cpp:106
+#: Application.cpp:107
 #, kde-format
 msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: Application.cpp:109
+#: Application.cpp:110
 #, fuzzy, kde-format
 #| msgid "Change the value of a profile property."
 msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr "প্রোফাইলের কোনো বৈশিষ্ট্যের মান পরিবর্তন করুন।"
 
-#: Application.cpp:113
+#: Application.cpp:114
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -217,14 +217,14 @@ msgid ""
 "it as the last option."
 msgstr ""
 
-#: Application.cpp:122
+#: Application.cpp:123
 #, fuzzy, kde-format
 #| msgid "Arguments passed to command"
 msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "কমান্ডের সাথে উল্লিখিত আর্গুমেন্ট"
 
-#: Application.cpp:571
+#: Application.cpp:583
 #, fuzzy, kde-format
 #| msgid "Background (Intense)"
 msgctxt "@item"
@@ -1732,7 +1732,7 @@ msgstr "'%1' প্রোগ্রামটি, '%2' আর্গুমেন্
 msgid "Silence in '%1' (Session '%2')"
 msgstr "'%1' সেশানে নিরবতা"
 
-#: session/Session.cpp:935
+#: session/Session.cpp:924
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1741,29 +1741,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:971
+#: session/Session.cpp:960
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "সমাপ্ত"
 
-#: session/Session.cpp:985 session/Session.cpp:998
+#: session/Session.cpp:974 session/Session.cpp:987
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' বিপর্যস্ত হয়েছে।"
 
-#: session/Session.cpp:987
+#: session/Session.cpp:976
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1' প্রস্থানকালে, %2 অবস্থা উৎপন্ন হয়েছে।"
 
-#: session/Session.cpp:1430
+#: session/Session.cpp:1419
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem-র প্রগতি"
 
-#: session/Session.cpp:1750
+#: session/Session.cpp:1739
 #, fuzzy, kde-format
 #| msgid "Activity in session '%1'"
 msgid "Activity in '%1' (Session '%2')"
