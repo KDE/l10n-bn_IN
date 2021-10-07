@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"POT-Creation-Date: 2021-10-07 00:18+0000\n"
 "PO-Revision-Date: 2009-01-05 12:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -342,65 +342,65 @@ msgstr "ক্লিপবোর্ডের পূর্ববর্তী ত�
 msgid "%1x%2 %3bpp"
 msgstr ""
 
-#: klipper.cpp:117
+#: klipper.cpp:136
 #, fuzzy, kde-format
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable Clipboard Actions"
 msgstr "ক্লিপবোর্ড সংক্রান্ত কর্ম সক্রিয়/নিষ্ক্রিয় করুন"
 
-#: klipper.cpp:140
+#: klipper.cpp:159
 #, kde-format
 msgid "C&lear Clipboard History"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:147
+#: klipper.cpp:166
 #, fuzzy, kde-format
 #| msgid "&Configure Klipper..."
 msgid "&Configure Klipper…"
 msgstr "Klipper কনফিগার করুন...(&C)"
 
-#: klipper.cpp:153
+#: klipper.cpp:172
 #, fuzzy, kde-format
 #| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "প্রস্থান (&Q)"
 
-#: klipper.cpp:158
+#: klipper.cpp:177
 #, kde-format
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
-#: klipper.cpp:165
+#: klipper.cpp:184
 #, fuzzy, kde-format
 #| msgid "Edit Contents"
 msgid "&Edit Contents…"
 msgstr "তথ্য সম্পাদনা"
 
-#: klipper.cpp:173
+#: klipper.cpp:192
 #, kde-format
 msgid "&Show Barcode…"
 msgstr ""
 
-#: klipper.cpp:181
+#: klipper.cpp:200
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Next History Item"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:185
+#: klipper.cpp:204
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Previous History Item"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:191
+#: klipper.cpp:210
 #, fuzzy, kde-format
 #| msgid "&Popup menu at mouse-cursor position"
 msgid "Open Klipper at Mouse Position"
 msgstr "মাউসের কার্সারের অবস্থানে মেনু পপ-আপ করে প্রদর্শিত হবে (&P)"
 
-#: klipper.cpp:475
+#: klipper.cpp:494
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -408,65 +408,65 @@ msgid ""
 "of the Clipboard applet's configuration window"
 msgstr ""
 
-#: klipper.cpp:510
+#: klipper.cpp:529
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "লগ-ইন করার সময় Klipper স্বয়ংক্রিয়ভাবে আরম্ভ করা হবে কি?"
 
-#: klipper.cpp:511
+#: klipper.cpp:530
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "স্বয়ংক্রিয়ভাবে Klipper আরম্ভ করা হবে কি?"
 
-#: klipper.cpp:512
+#: klipper.cpp:531
 #, kde-format
 msgid "Start"
 msgstr "আরম্ভ করা হবে"
 
-#: klipper.cpp:513
+#: klipper.cpp:532
 #, kde-format
 msgid "Do Not Start"
 msgstr "আরম্ভ করা হবে না"
 
-#: klipper.cpp:860
+#: klipper.cpp:879
 #, kde-format
 msgid "Edit Contents"
 msgstr "তথ্য সম্পাদনা"
 
-#: klipper.cpp:927
+#: klipper.cpp:946
 #, kde-format
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:974
+#: klipper.cpp:993
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Really delete entire clipboard history?"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:975
+#: klipper.cpp:994
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Delete clipboard history?"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য মুছে ফেলুন (&l)"
 
-#: klipper.cpp:991 klipper.cpp:1000
+#: klipper.cpp:1010 klipper.cpp:1019
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history"
 msgstr "ক্লিপবোর্ডের পূর্ববর্তী তথ্য ধারণের মাপ: (&l)"
 
-#: klipper.cpp:1017
+#: klipper.cpp:1036
 #, kde-format
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1024
+#: klipper.cpp:1043
 #, kde-format
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1031
+#: klipper.cpp:1050
 #, kde-format
 msgid "down"
 msgstr ""
