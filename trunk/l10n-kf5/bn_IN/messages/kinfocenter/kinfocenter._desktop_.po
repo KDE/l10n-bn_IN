@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-12 00:26+0000\n"
+"POT-Creation-Date: 2021-10-13 00:27+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -211,36 +211,6 @@ msgid ""
 "Server,XFree86,Display"
 msgstr ""
 
-#: Modules/info/dma.desktop:13
-msgctxt "Name"
-msgid "DMA-Channels"
-msgstr "DMA-চ্যানেল"
-
-#: Modules/info/dma.desktop:105
-msgctxt "Comment"
-msgid "DMA information"
-msgstr "DMA সংক্রান্ত তথ্য"
-
-#: Modules/info/dma.desktop:198
-msgctxt "X-KDE-Keywords"
-msgid "dma,DMA-Channels,System Information"
-msgstr ""
-
-#: Modules/info/ioports.desktop:13
-msgctxt "Name"
-msgid "IO-Ports"
-msgstr "IO-পোর্ট"
-
-#: Modules/info/ioports.desktop:106
-msgctxt "Comment"
-msgid "IO-port information"
-msgstr "IO-পোর্ট সংক্রান্ত তথ্য"
-
-#: Modules/info/ioports.desktop:200
-msgctxt "X-KDE-Keywords"
-msgid "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
-msgstr ""
-
 #: Modules/interrupts/kcm_interrupts.desktop:14
 #: Modules/interrupts/package/metadata.desktop:14
 msgctxt "Name"
@@ -320,21 +290,6 @@ msgstr "কম্পিউটারের সাথে যুক্ত USB ড�
 #: Modules/usbview/kcmusb.desktop:191
 msgctxt "X-KDE-Keywords"
 msgid "USB,devices,viewer,control"
-msgstr ""
-
-#: Modules/view1394/kcmview1394.desktop:12
-msgctxt "Name"
-msgid "IEEE 1394 Devices"
-msgstr "IEEE 1394 ডিভাইস"
-
-#: Modules/view1394/kcmview1394.desktop:105
-msgctxt "Comment"
-msgid "Attached IEEE 1394 devices"
-msgstr "সংযুক্ত IEEE 1394 ডিভাইস"
-
-#: Modules/view1394/kcmview1394.desktop:191
-msgctxt "X-KDE-Keywords"
-msgid "1394,Firewire,devices,viewer,control"
 msgstr ""
 
 #: Modules/vulkan/kcm_vulkan.desktop:15
@@ -417,6 +372,30 @@ msgstr "তথ্য কেন্দ্র"
 msgctxt "Comment"
 msgid "Centralized and convenient overview of system information"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "DMA-Channels"
+#~ msgstr "DMA-চ্যানেল"
+
+#~ msgctxt "Comment"
+#~ msgid "DMA information"
+#~ msgstr "DMA সংক্রান্ত তথ্য"
+
+#~ msgctxt "Name"
+#~ msgid "IO-Ports"
+#~ msgstr "IO-পোর্ট"
+
+#~ msgctxt "Comment"
+#~ msgid "IO-port information"
+#~ msgstr "IO-পোর্ট সংক্রান্ত তথ্য"
+
+#~ msgctxt "Name"
+#~ msgid "IEEE 1394 Devices"
+#~ msgstr "IEEE 1394 ডিভাইস"
+
+#~ msgctxt "Comment"
+#~ msgid "Attached IEEE 1394 devices"
+#~ msgstr "সংযুক্ত IEEE 1394 ডিভাইস"
 
 #~ msgctxt "Name"
 #~ msgid "Memory"
