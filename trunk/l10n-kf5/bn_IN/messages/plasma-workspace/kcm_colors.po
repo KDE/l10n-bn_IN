@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-19 00:18+0000\n"
+"POT-Creation-Date: 2021-11-14 00:30+0000\n"
 "PO-Revision-Date: 2009-01-06 18:00+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -28,44 +28,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: colors.cpp:65 editor/scmeditordialog.cpp:66
+#: colors.cpp:66 editor/scmeditordialog.cpp:62
 #, kde-format
 msgid "Colors"
 msgstr "রং"
 
-#: colors.cpp:67
+#: colors.cpp:68
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: colors.cpp:192
+#: colors.cpp:193
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: colors.cpp:205
+#: colors.cpp:206
 #, fuzzy, kde-format
 #| msgid "&Enter a name for the color scheme:"
 msgid "Unable to download the color scheme: %1"
 msgstr "রঙের স্কিম চিহ্নিত করা জন্য একটি নাম লিখুন: (&E)"
 
-#: colors.cpp:223
+#: colors.cpp:224
 #, fuzzy, kde-format
 #| msgid "Import a color scheme from a file"
 msgid "This file is not a color scheme file."
 msgstr "ফাইল থেকে একটি নতুন রঙের স্কিম ইম্পোর্ট করুন"
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:249
+#: colors.cpp:250
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:266
+#: colors.cpp:267
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr ""
@@ -677,48 +677,38 @@ msgstr "নিষ্ক্রিয় শিরোনামের বারের 
 msgid "Inactive Titlebar Secondary"
 msgstr "নিষ্ক্রিয় শিরোনামের বারের লেখা"
 
-#: editor/scmeditordialog.cpp:65
+#: editor/scmeditordialog.cpp:61
 #, kde-format
 msgid "Options"
 msgstr "বিকল্প"
 
-#: editor/scmeditordialog.cpp:67
+#: editor/scmeditordialog.cpp:63
 #, fuzzy, kde-format
 #| msgid "Disabled"
 msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: editor/scmeditordialog.cpp:89
-#, kde-format
-msgid "This colour scheme was not saved. Continue?"
-msgstr ""
-
-#: editor/scmeditordialog.cpp:89
-#, kde-format
-msgid "Do you really want to upload?"
-msgstr ""
-
-#: editor/scmeditordialog.cpp:115
+#: editor/scmeditordialog.cpp:95
 #, kde-format
 msgid "You have unsaved changes. Do you really want to quit?"
 msgstr ""
 
-#: editor/scmeditordialog.cpp:115
+#: editor/scmeditordialog.cpp:95
 #, kde-format
 msgid "Unsaved changes"
 msgstr ""
 
-#: editor/scmeditordialog.cpp:133 editor/scmeditordialog.cpp:158
+#: editor/scmeditordialog.cpp:113 editor/scmeditordialog.cpp:138
 #, kde-format
 msgid "Save Color Scheme"
 msgstr "রঙের স্কিম সংরক্ষণ করুন"
 
-#: editor/scmeditordialog.cpp:133
+#: editor/scmeditordialog.cpp:113
 #, kde-format
 msgid "&Enter a name for the color scheme:"
 msgstr "রঙের স্কিম চিহ্নিত করা জন্য একটি নাম লিখুন: (&E)"
 
-#: editor/scmeditordialog.cpp:157
+#: editor/scmeditordialog.cpp:137
 #, kde-format
 msgid ""
 "A color scheme with that name already exists.\n"
@@ -727,35 +717,21 @@ msgstr ""
 "এই নামের একটি রঙের স্কিম বর্তমানে উপস্থিত রয়েছে।\n"
 "আপনি কি এটি নতুন করে লিখতে ইচ্ছুক?"
 
-#: editor/scmeditordialog.cpp:194
+#: editor/scmeditordialog.cpp:174
 #, kde-format
 msgid "You do not have permission to overwrite that scheme"
 msgstr "এই স্কিম মুছে নতুন করে লেখার অনুমতি আপনার নেই"
 
-#: editor/scmeditordialog.cpp:194
+#: editor/scmeditordialog.cpp:174
 #, kde-format
 msgid "Error"
 msgstr "ত্রুটি"
 
-#: editor/scmeditordialog.cpp:209
+#: editor/scmeditordialog.cpp:189
 #, fuzzy, kde-format
 #| msgid "Inactive"
 msgid "Inactive"
 msgstr "নিষ্ক্রিয়"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
-#: editor/scmeditordialog.ui:42
-#, fuzzy, kde-format
-#| msgid "Get new color schemes from the Internet"
-msgid "Share the selected scheme on the Internet"
-msgstr "ইন্টারনেট থেকে, রঙের নতুন স্কিম প্রাপ্ত করুন"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsUploadButton)
-#: editor/scmeditordialog.ui:45
-#, fuzzy, kde-format
-#| msgid "Import Scheme..."
-msgid "Upload Scheme"
-msgstr "স্কিম ইম্পোর্ট করুন..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: editor/scmeditoreffects.ui:17
@@ -1403,6 +1379,16 @@ msgstr ""
 #| msgid "Save the current color scheme"
 msgid " * %1 (current color scheme)"
 msgstr "রঙের বর্তমান স্কিম সংরক্ষণ করুন"
+
+#, fuzzy
+#~| msgid "Get new color schemes from the Internet"
+#~ msgid "Share the selected scheme on the Internet"
+#~ msgstr "ইন্টারনেট থেকে, রঙের নতুন স্কিম প্রাপ্ত করুন"
+
+#, fuzzy
+#~| msgid "Import Scheme..."
+#~ msgid "Upload Scheme"
+#~ msgstr "স্কিম ইম্পোর্ট করুন..."
 
 #, fuzzy
 #~| msgid "Get &New Schemes..."
