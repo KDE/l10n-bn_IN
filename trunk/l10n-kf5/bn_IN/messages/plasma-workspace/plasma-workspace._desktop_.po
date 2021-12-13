@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-12 00:53+0000\n"
+"POT-Creation-Date: 2021-12-13 00:52+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -65,22 +65,6 @@ msgstr "ডিভাইসের সূচনা ব্যবস্থা"
 msgctxt "Name"
 msgid "Device Status"
 msgstr "সূচনাবার্তা"
-
-#: dataengines/weather/ions/dwd/ion-dwd.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Debian Package Search"
-msgctxt "Name"
-msgid "German Weather Service"
-msgstr "Debian প্যাকেজ অনুসন্ধান"
-
-#: dataengines/weather/ions/dwd/ion-dwd.desktop:17
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Debian Package Search"
-msgctxt "Comment"
-msgid "Weather forecast by German Weather Service"
-msgstr "Debian প্যাকেজ অনুসন্ধান"
 
 #: freespacenotifier/freespacenotifier.notifyrc:3
 #, fuzzy
@@ -293,11 +277,6 @@ msgctxt "Name"
 msgid "Font Files"
 msgstr "টেক্সট ফাইল"
 
-#: kcms/kfontinst/viewpart/kfontviewpart.desktop:2
-msgctxt "Name"
-msgid "Font Viewer"
-msgstr ""
-
 #: kcms/lookandfeel/kcm_lookandfeel.desktop:8
 msgctxt "Name"
 msgid "Global Theme"
@@ -378,19 +357,9 @@ msgctxt "Name"
 msgid "Users"
 msgstr ""
 
-#: kcms/users/kcm_users.desktop:31
+#: kcms/users/kcm_users.desktop:32
 msgctxt "Comment"
 msgid "Manage user accounts"
-msgstr ""
-
-#: kioslave/desktop/desktopnotifier.desktop:3
-msgctxt "Name"
-msgid "Directory Watcher"
-msgstr ""
-
-#: kioslave/desktop/desktopnotifier.desktop:61
-msgctxt "Comment"
-msgid "Monitors directories for changes"
 msgstr ""
 
 #: kioslave/desktop/./directory.trash:2
@@ -518,16 +487,6 @@ msgstr ""
 #: krunner/org.kde.krunner.desktop.cmake:68
 msgctxt "Name"
 msgid "Run command on clipboard contents"
-msgstr ""
-
-#: libcolorcorrect/kded/colorcorrectlocationupdater.desktop:3
-msgctxt "Name"
-msgid "ColorCorrect Geolocation Updater"
-msgstr ""
-
-#: libcolorcorrect/kded/colorcorrectlocationupdater.desktop:51
-msgctxt "Comment"
-msgid "Sends updated location data to the compositor"
 msgstr ""
 
 #: login-sessions/plasmawayland.desktop.cmake:5
@@ -909,19 +868,6 @@ msgctxt "Name"
 msgid "Plasma Desktop Workspace"
 msgstr "ডেস্কটপ"
 
-#: soliduiserver/soliduiserver.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Hardware"
-msgctxt "Name"
-msgid "Hardware Detection"
-msgstr "হার্ডওয়্যার"
-
-#: soliduiserver/soliduiserver.desktop:61
-msgctxt "Comment"
-msgid "Provides a user interface for hardware events"
-msgstr ""
-
 #: statusnotifierwatcher/statusnotifierwatcher.desktop:3
 #, fuzzy
 #| msgctxt "Comment"
@@ -933,16 +879,6 @@ msgstr "KDE Notification ডেমন"
 #: statusnotifierwatcher/statusnotifierwatcher.desktop:67
 msgctxt "Comment"
 msgid "Manages services that provide status notifier user interfaces"
-msgstr ""
-
-#: systemmonitor/ksysguard.desktop:10
-msgctxt "Name"
-msgid "KSysguard"
-msgstr ""
-
-#: systemmonitor/ksysguard.desktop:62
-msgctxt "Comment"
-msgid "Launches KSysguard on Ctrl + Escape"
 msgstr ""
 
 #: systemmonitor/org.kde.systemmonitor.desktop:5
@@ -1016,45 +952,6 @@ msgctxt "Comment"
 msgid "Built-in unthemed Windows 9x style"
 msgstr ""
 
-#: wallpapers/color/metadata.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Color"
-msgctxt "Name"
-msgid "Plain Color"
-msgstr "রং"
-
-#: wallpapers/color/metadata.desktop:59
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Color"
-msgctxt "Comment"
-msgid "Plain color wallpaper"
-msgstr "রং"
-
-#: wallpapers/image/imagepackage/metadata.desktop:4
-msgctxt "Name"
-msgid "Image"
-msgstr "ছবি"
-
-#: wallpapers/image/imagepackage/metadata.desktop:85
-msgctxt "Comment"
-msgid "Wallpaper view for images"
-msgstr ""
-
-#: wallpapers/image/slideshowpackage/metadata.desktop:4
-msgctxt "Name"
-msgid "Slideshow"
-msgstr "স্লাইড-শো"
-
-#: wallpapers/image/slideshowpackage/metadata.desktop:80
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Slideshow"
-msgctxt "Comment"
-msgid "Slideshow wallpaper"
-msgstr "স্লাইড-শো"
-
 #: wallpapers/image/wallpaper.knsrc:2 wallpapers/image/wallpaper-mobile.knsrc:2
 msgctxt "Name"
 msgid "Wallpapers"
@@ -1064,6 +961,56 @@ msgstr ""
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Debian Package Search"
+#~ msgctxt "Name"
+#~ msgid "German Weather Service"
+#~ msgstr "Debian প্যাকেজ অনুসন্ধান"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Debian Package Search"
+#~ msgctxt "Comment"
+#~ msgid "Weather forecast by German Weather Service"
+#~ msgstr "Debian প্যাকেজ অনুসন্ধান"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Hardware"
+#~ msgctxt "Name"
+#~ msgid "Hardware Detection"
+#~ msgstr "হার্ডওয়্যার"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Name"
+#~ msgid "Plain Color"
+#~ msgstr "রং"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Comment"
+#~ msgid "Plain color wallpaper"
+#~ msgstr "রং"
+
+#~ msgctxt "Name"
+#~ msgid "Image"
+#~ msgstr "ছবি"
+
+#~ msgctxt "Name"
+#~ msgid "Slideshow"
+#~ msgstr "স্লাইড-শো"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Slideshow"
+#~ msgctxt "Comment"
+#~ msgid "Slideshow wallpaper"
+#~ msgstr "স্লাইড-শো"
 
 #, fuzzy
 #~| msgctxt "Comment"
