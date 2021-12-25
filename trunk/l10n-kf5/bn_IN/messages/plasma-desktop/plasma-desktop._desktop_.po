@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:53+0000\n"
+"POT-Creation-Date: 2021-12-25 00:52+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -23,19 +23,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Emoji Selector"
 msgstr ""
-
-#: desktoppackage/metadata.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Desktop Magnifier"
-msgctxt "Comment"
-msgid "Desktop view furniture"
-msgstr "বড় আকারে ডেস্কটপ প্রদর্শন"
-
-#: desktoppackage/metadata.desktop:50
-msgctxt "Name"
-msgid "Desktop"
-msgstr "ডেস্কটপ"
 
 #: kaccess/kaccess.desktop:3 kcms/access/kcm_access.desktop:7
 msgctxt "Name"
@@ -145,14 +132,6 @@ msgctxt "Comment"
 msgid "Mouse keys has been enabled or disabled"
 msgstr ""
 
-#: kcms/access/kcm_access.desktop:102
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Accessibility"
-msgctxt "Comment"
-msgid "Configure Accessibility Options"
-msgstr "বিশেষ ব্যবহারের সহায়তা"
-
 #: kcms/activities/kcm_activities.desktop:7
 #, fuzzy
 #| msgctxt "Name"
@@ -160,11 +139,6 @@ msgstr "বিশেষ ব্যবহারের সহায়তা"
 msgctxt "Name"
 msgid "Activities"
 msgstr "পরিসেবা পরিচালনব্যবস্থা"
-
-#: kcms/activities/kcm_activities.desktop:70
-msgctxt "Comment"
-msgid "Activities help you to focus on a specific task"
-msgstr ""
 
 #: kcms/baloo/kcm_baloofile.desktop:7
 #, fuzzy
@@ -174,25 +148,9 @@ msgctxt "Name"
 msgid "File Search"
 msgstr "ফাইল"
 
-#: kcms/baloo/kcm_baloofile.desktop:58
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the spell checker"
-msgctxt "Comment"
-msgid "Configure File Search"
-msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
-
 #: kcms/componentchooser/kcm_componentchooser.desktop:6
 msgctxt "Name"
 msgid "Default Applications"
-msgstr "ডিফল্ট অ্যাপ্লিকেশন"
-
-#: kcms/componentchooser/kcm_componentchooser.desktop:92
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Default Applications"
-msgctxt "Comment"
-msgid "Choose default Applications"
 msgstr "ডিফল্ট অ্যাপ্লিকেশন"
 
 #: kcms/dateandtime/kcmclock_actions.actions:2
@@ -221,14 +179,6 @@ msgctxt "Name"
 msgid "Date & Time"
 msgstr "তারিখ ও সময়"
 
-#: kcms/dateandtime/kcm_clock.desktop:101
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Date & Time"
-msgctxt "Comment"
-msgid "Date and Time"
-msgstr "তারিখ ও সময়"
-
 #: kcms/desktoppaths/kcm_desktoppaths.desktop:6
 #, fuzzy
 #| msgctxt "Name"
@@ -237,20 +187,7 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "সূচনাবার্তা"
 
-#: kcms/desktoppaths/kcm_desktoppaths.desktop:56
-msgctxt "Comment"
-msgid "Location for Personal Files"
-msgstr ""
-
 #: kcms/joystick/kcm_joystick.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Date and Time"
-msgctxt "Comment"
-msgid "Calibrate Game Controller"
-msgstr "তারিখ ও সময়"
-
-#: kcms/joystick/kcm_joystick.desktop:45
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Date and Time"
@@ -263,26 +200,10 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr ""
 
-#: kcms/kded/kcm_kded.desktop:57
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure keyboard and mouse settings"
-msgctxt "Comment"
-msgid "Configure background services"
-msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
-
 #: kcms/keyboard/kcm_keyboard.desktop:7
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "কি-বোর্ড"
-
-#: kcms/keyboard/kcm_keyboard.desktop:100
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Keyboard Layout"
-msgctxt "Comment"
-msgid "Keyboard Hardware and Layout"
-msgstr "কি-বোর্ড বিন্যাস"
 
 #: kcms/keys/kcm_keys.desktop:7
 #, fuzzy
@@ -290,14 +211,6 @@ msgstr "কি-বোর্ড বিন্যাস"
 #| msgid "Global Keyboard Shortcuts"
 msgctxt "Name"
 msgid "Shortcuts"
-msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
-
-#: kcms/keys/kcm_keys.desktop:47
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Global Keyboard Shortcuts"
-msgctxt "Comment"
-msgid "Configure Keyboard Shortcuts"
 msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
 
 #: kcms/ksmserver/kcm_smserver.desktop:7
@@ -308,23 +221,10 @@ msgctxt "Name"
 msgid "Desktop Session"
 msgstr "ডেস্কটপ"
 
-#: kcms/ksmserver/kcm_smserver.desktop:60
-msgctxt "Comment"
-msgid "Desktop Session Login and Logout"
-msgstr ""
-
 #: kcms/ksplash/kcm_splashscreen.desktop:7
 msgctxt "Name"
 msgid "Splash Screen"
 msgstr ""
-
-#: kcms/ksplash/kcm_splashscreen.desktop:60
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cursor Files"
-msgctxt "Comment"
-msgid "Choose splash screen theme"
-msgstr "কার্সারের ফাইল"
 
 #: kcms/ksplash/ksplash.knsrc:2
 msgctxt "Name"
@@ -339,33 +239,15 @@ msgctxt "Name"
 msgid "Quick Settings"
 msgstr "জয়-স্টিক সংক্রান্ত বৈশিষ্ট্য"
 
-#: kcms/landingpage/kcm_landingpage.desktop:44
-msgctxt "Comment"
-msgid "Landing page with some basic settings"
-msgstr ""
-
 #: kcms/launch/kcm_launchfeedback.desktop:7
 msgctxt "Name"
 msgid "Launch Feedback"
 msgstr ""
 
-#: kcms/launch/kcm_launchfeedback.desktop:95
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Comment"
-msgid "Application Launch Feedback"
-msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
-
 #: kcms/mouse/kcm_mouse.desktop:7
 msgctxt "Name"
 msgid "Mouse"
 msgstr "মাউস"
-
-#: kcms/mouse/kcm_mouse.desktop:101
-msgctxt "Comment"
-msgid "Mouse Controls"
-msgstr ""
 
 #: kcms/qtquicksettings/kcm_qtquicksettings.desktop:7
 msgctxt "Name"
@@ -379,14 +261,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Plasma Search"
 msgstr "ফাইল"
-
-#: kcms/runners/kcm_plasmasearch.desktop:30
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the spell checker"
-msgctxt "Comment"
-msgid "Configure search settings"
-msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
 #: kcms/solid_actions/device-actions/solid-device-Battery.desktop:2
 msgctxt "Name"
@@ -670,17 +544,6 @@ msgctxt "Name"
 msgid "Device Actions"
 msgstr "পূর্বনির্ধারিত কর্ম"
 
-#: kcms/solid_actions/kcm_solid_actions.desktop:80
-msgctxt "Comment"
-msgid "Manage actions available to the user when connecting new devices"
-msgstr ""
-
-#: kcms/solid_actions/kcm_solid_actions.desktop:135
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Solid Devices Actions,device actions,open with,play,download,browse,transfer"
-msgstr ""
-
 #: kcms/solid_actions/solid-device-type.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -697,29 +560,16 @@ msgctxt "Name"
 msgid "Spell Check"
 msgstr "বানান পরীক্ষণ ব্যবস্থা"
 
-#: kcms/spellchecking/kcmspellchecking.desktop:62
-msgctxt "Comment"
-msgid "Spell Checker Dictionaries and Options"
-msgstr ""
-
 #: kcms/tablet/kcm_tablet.desktop:2
 msgctxt "Name"
 msgid "Drawing Tablet"
 msgstr ""
 
-#: kcms/touchpad/kcm/kcm_touchpad.desktop:8
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:7
 #: kcms/touchpad/kded/kcm_touchpad.notifyrc:2
 msgctxt "Name"
 msgid "Touchpad"
 msgstr ""
-
-#: kcms/touchpad/kcm/kcm_touchpad.desktop:57
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Mouse settings"
-msgctxt "Comment"
-msgid "Touchpad settings"
-msgstr "মাউস সংক্রান্ত বৈশিষ্ট্য"
 
 #: kcms/touchpad/kded/kcm_touchpad.notifyrc:52
 msgctxt "Comment"
@@ -750,14 +600,6 @@ msgstr ""
 msgctxt "Name"
 msgid "General Behavior"
 msgstr ""
-
-#: kcms/workspaceoptions/kcm_workspace.desktop:49
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the spell checker"
-msgctxt "Comment"
-msgid "Configure general workspace behavior"
-msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
 #: knetattach/org.kde.knetattach.desktop:2
 msgctxt "Name"
@@ -797,6 +639,108 @@ msgstr "ডেস্কটপ"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্রী"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Desktop Magnifier"
+#~ msgctxt "Comment"
+#~ msgid "Desktop view furniture"
+#~ msgstr "বড় আকারে ডেস্কটপ প্রদর্শন"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop"
+#~ msgstr "ডেস্কটপ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Accessibility"
+#~ msgctxt "Comment"
+#~ msgid "Configure Accessibility Options"
+#~ msgstr "বিশেষ ব্যবহারের সহায়তা"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the spell checker"
+#~ msgctxt "Comment"
+#~ msgid "Configure File Search"
+#~ msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Default Applications"
+#~ msgctxt "Comment"
+#~ msgid "Choose default Applications"
+#~ msgstr "ডিফল্ট অ্যাপ্লিকেশন"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Date & Time"
+#~ msgctxt "Comment"
+#~ msgid "Date and Time"
+#~ msgstr "তারিখ ও সময়"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Date and Time"
+#~ msgctxt "Comment"
+#~ msgid "Calibrate Game Controller"
+#~ msgstr "তারিখ ও সময়"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure keyboard and mouse settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure background services"
+#~ msgstr "কি-বোর্ড ও মাউস সংক্রান্ত বৈশিষ্ট্য কনফিগার করা যাবে"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard Layout"
+#~ msgctxt "Comment"
+#~ msgid "Keyboard Hardware and Layout"
+#~ msgstr "কি-বোর্ড বিন্যাস"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Global Keyboard Shortcuts"
+#~ msgctxt "Comment"
+#~ msgid "Configure Keyboard Shortcuts"
+#~ msgstr "কি-বোর্ডের সার্বজনীন শর্ট-কাট"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Cursor Files"
+#~ msgctxt "Comment"
+#~ msgid "Choose splash screen theme"
+#~ msgstr "কার্সারের ফাইল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Launcher"
+#~ msgctxt "Comment"
+#~ msgid "Application Launch Feedback"
+#~ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the spell checker"
+#~ msgctxt "Comment"
+#~ msgid "Configure search settings"
+#~ msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Mouse settings"
+#~ msgctxt "Comment"
+#~ msgid "Touchpad settings"
+#~ msgstr "মাউস সংক্রান্ত বৈশিষ্ট্য"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the spell checker"
+#~ msgctxt "Comment"
+#~ msgid "Configure general workspace behavior"
+#~ msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
 #, fuzzy
 #~| msgctxt "Name"

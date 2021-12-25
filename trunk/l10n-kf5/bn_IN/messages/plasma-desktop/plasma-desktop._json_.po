@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-22 00:56+0000\n"
+"POT-Creation-Date: 2021-12-25 00:54+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -100,7 +100,7 @@ msgctxt "Name"
 msgid "Window list"
 msgstr "উইন্ডো"
 
-#: containments/desktop/package/metadata.json
+#: containments/desktop/package/metadata.json desktoppackage/metadata.json
 msgctxt "Name"
 msgid "Desktop"
 msgstr "ডেস্কটপ"
@@ -412,6 +412,14 @@ msgctxt "Description"
 msgid "Display the contents of folders"
 msgstr ""
 
+#: desktoppackage/metadata.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Desktop Magnifier"
+msgctxt "Description"
+msgid "Desktop view furniture"
+msgstr "বড় আকারে ডেস্কটপ প্রদর্শন"
+
 #: kcms/access/kcm_access.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -696,7 +704,8 @@ msgctxt "Authors Name"
 msgid "Sebastian Kügler, Eike Hein"
 msgstr ""
 
-#: containments/panel/metadata.json toolboxes/paneltoolbox/metadata.json
+#: containments/panel/metadata.json desktoppackage/metadata.json
+#: toolboxes/paneltoolbox/metadata.json
 msgctxt "Authors Name"
 msgid "Marco Martin"
 msgstr ""
@@ -730,13 +739,6 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Plasma Team"
 msgstr "ফাইল"
-
-#, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Desktop Magnifier"
-#~ msgctxt "Comment"
-#~ msgid "Desktop view furniture"
-#~ msgstr "বড় আকারে ডেস্কটপ প্রদর্শন"
 
 #~ msgctxt "Comment"
 #~ msgid "Accessibility"
