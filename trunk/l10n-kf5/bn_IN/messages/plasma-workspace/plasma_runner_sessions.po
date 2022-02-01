@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_sessions\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"POT-Creation-Date: 2022-02-01 00:45+0000\n"
 "PO-Revision-Date: 2009-01-09 12:49+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -156,9 +156,10 @@ msgid "sessions"
 msgstr "নতুন সেশান"
 
 #: sessionrunner.cpp:136
-#, kde-format
-msgid "New Session"
-msgstr "নতুন সেশান"
+#, fuzzy, kde-format
+#| msgid "switch user"
+msgid "Switch User"
+msgstr "ব্যবহারকারী পরিবর্তন করুন"
 
 #: sessionrunner.cpp:211
 #, kde-format
@@ -176,6 +177,9 @@ msgid ""
 "Plasma Panel and Desktop menus have actions for switching between sessions.</"
 "p>"
 msgstr ""
+
+#~ msgid "New Session"
+#~ msgstr "নতুন সেশান"
 
 #~ msgid "&Start New Session"
 #~ msgstr "নতুন সেশান আরম্ভ করুন (&S)"
