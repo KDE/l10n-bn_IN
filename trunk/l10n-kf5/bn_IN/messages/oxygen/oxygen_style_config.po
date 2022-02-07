@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstyle_config\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-28 00:21+0000\n"
+"POT-Creation-Date: 2022-02-07 00:45+0000\n"
 "PO-Revision-Date: 2008-07-04 23:26+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -209,24 +209,21 @@ msgstr "টুল-বারের বস্তুগুলির মধ্যে
 
 #. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
 #: ui/oxygenstyleconfig.ui:84
-#, fuzzy, kde-format
-#| msgid "Draw toolbar item separators"
-msgid "Always Hide Keyboard Accelerators"
-msgstr "টুল-বারের বস্তুগুলির মধ্যে বিভাজনরেখা আঁকা হবে"
+#, kde-format
+msgid "Always hide"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
 #: ui/oxygenstyleconfig.ui:89
-#, fuzzy, kde-format
-#| msgid "Draw toolbar item separators"
-msgid "Show Keyboard Accelerators When Needed"
-msgstr "টুল-বারের বস্তুগুলির মধ্যে বিভাজনরেখা আঁকা হবে"
+#, kde-format
+msgid "Show when Alt key is pressed"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
 #: ui/oxygenstyleconfig.ui:94
-#, fuzzy, kde-format
-#| msgid "Draw toolbar item separators"
-msgid "Always Show Keyboard Accelerators"
-msgstr "টুল-বারের বস্তুগুলির মধ্যে বিভাজনরেখা আঁকা হবে"
+#, kde-format
+msgid "Always show"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/oxygenstyleconfig.ui:108
@@ -382,6 +379,21 @@ msgstr ""
 #, kde-format
 msgid "Use selec&tion color (subtle)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Draw toolbar item separators"
+#~ msgid "Always Hide Keyboard Accelerators"
+#~ msgstr "টুল-বারের বস্তুগুলির মধ্যে বিভাজনরেখা আঁকা হবে"
+
+#, fuzzy
+#~| msgid "Draw toolbar item separators"
+#~ msgid "Show Keyboard Accelerators When Needed"
+#~ msgstr "টুল-বারের বস্তুগুলির মধ্যে বিভাজনরেখা আঁকা হবে"
+
+#, fuzzy
+#~| msgid "Draw toolbar item separators"
+#~ msgid "Always Show Keyboard Accelerators"
+#~ msgstr "টুল-বারের বস্তুগুলির মধ্যে বিভাজনরেখা আঁকা হবে"
 
 #, fuzzy
 #~| msgid "Triangular tree expander"
