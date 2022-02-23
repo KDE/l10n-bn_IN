@@ -2780,6 +2780,13 @@ msgid "Launch the MIME type editor"
 msgstr ""
 
 #: kmimetypeeditor.cpp:27
+#, fuzzy
+#| msgid "Could not find '%1' executable."
+msgctxt "QObject|"
+msgid "Could not find the \"keditfiletype5\" executable in PATH."
+msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
+
+#: kmimetypeeditor.cpp:37
 msgctxt "QObject|"
 msgid ""
 "Could not start the \"keditfiletype5\" executable, please check your "
@@ -8973,9 +8980,6 @@ msgstr ""
 #~ "নতুন প্রসেস নির্মাণ করতে ব্যর্থ।\n"
 #~ "সম্ভবত সিস্টেমের মধ্যে সর্বোচ্চ সংখ্যক প্রসেস অথবা আপনার ক্ষেত্রে সর্বোচ্চ অনুমোদিত "
 #~ "সংখ্যক প্রসেস বর্তমানে চলছে।"
-
-#~ msgid "Could not find '%1' executable."
-#~ msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
 
 #~ msgid ""
 #~ "Could not open library '%1'.\n"
