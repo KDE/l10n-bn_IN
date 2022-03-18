@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-25 00:54+0000\n"
+"POT-Creation-Date: 2022-03-18 00:58+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -222,6 +222,14 @@ msgctxt "Name"
 msgid "Plasma Renderer"
 msgstr ""
 
+#: kcms/runners/kcm_krunnersettings.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Joystick settings"
+msgctxt "Name"
+msgid "KRunner Settings"
+msgstr "জয়-স্টিক সংক্রান্ত বৈশিষ্ট্য"
+
 #: kcms/runners/kcm_plasmasearch.json
 #, fuzzy
 #| msgctxt "Name"
@@ -332,7 +340,7 @@ msgstr "নেটওয়ার্ক সংক্রান্ত সামগ্�
 
 #: applets/icontasks/metadata.json
 msgctxt "Description"
-msgid "Switch between running applications"
+msgid "Modern dock-style window switcher displaying only icons"
 msgstr ""
 
 #: applets/keyboardlayout/metadata.json
@@ -389,7 +397,7 @@ msgstr ""
 
 #: applets/taskmanager/package/metadata.json
 msgctxt "Description"
-msgid "Switch between tasks"
+msgid "Classic taskbar-style window switcher displaying icons and text"
 msgstr ""
 
 #: applets/trash/package/metadata.json
@@ -399,7 +407,7 @@ msgstr ""
 
 #: applets/window-list/metadata.json
 msgctxt "Description"
-msgid "Plasmoid to show list of opened windows."
+msgid "Show open windows in a menu"
 msgstr ""
 
 #: containments/desktop/package/metadata.json
@@ -535,6 +543,14 @@ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 msgctxt "Description"
 msgid "Mouse Controls"
 msgstr "তারিখ ও সময়"
+
+#: kcms/runners/kcm_krunnersettings.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the spell checker"
+msgctxt "Description"
+msgid "Configure KRunner behavior"
+msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
 #: kcms/runners/kcm_plasmasearch.json
 #, fuzzy
