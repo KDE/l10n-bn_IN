@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-22 00:44+0000\n"
+"POT-Creation-Date: 2022-03-24 00:46+0000\n"
 "PO-Revision-Date: 2009-01-09 16:29+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -172,12 +172,12 @@ msgctxt ""
 msgid "Start with an empty session"
 msgstr "ফাঁকা সেশান সহ আরম্ভ করা হবে (&s)"
 
-#: package/contents/ui/main.qml:136
+#: package/contents/ui/main.qml:135
 #, kde-format
 msgid "Don't restore these applications:"
 msgstr ""
 
-#: package/contents/ui/main.qml:142
+#: package/contents/ui/main.qml:152
 #, kde-format
 msgid ""
 "Here you can enter a colon or comma separated list of applications that "
@@ -185,7 +185,7 @@ msgid ""
 "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
 msgstr ""
 
-#: package/contents/ui/main.qml:156
+#: package/contents/ui/main.qml:161
 #, kde-format
 msgctxt "@option:check"
 msgid "Enter firmware setup screen on next restart"
