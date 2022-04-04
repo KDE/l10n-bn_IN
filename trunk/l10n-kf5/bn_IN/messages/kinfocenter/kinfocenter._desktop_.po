@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-12 00:54+0000\n"
+"POT-Creation-Date: 2022-04-04 00:54+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -76,6 +76,25 @@ msgstr ""
 msgctxt "Name"
 msgid "Information"
 msgstr "PCI সংক্রান্ত তথ্য"
+
+#: Modules/about-distro/src/dmidecode-helper/org.kde.kinfocenter.dmidecode.actions:6
+msgctxt "Name"
+msgid "Desktop Management Interface"
+msgstr ""
+
+#: Modules/about-distro/src/dmidecode-helper/org.kde.kinfocenter.dmidecode.actions:11
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "PCI information"
+msgctxt "Name"
+msgid "System Information"
+msgstr "PCI সংক্রান্ত তথ্য"
+
+#: Modules/about-distro/src/dmidecode-helper/org.kde.kinfocenter.dmidecode.actions:12
+msgctxt "Description"
+msgid ""
+"Read system information from system's Desktop Management Interface (DMI)"
+msgstr ""
 
 #: org.kde.kinfocenter.desktop:9
 #, fuzzy
@@ -272,13 +291,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Memory information"
 #~ msgstr "মেমরি সংক্রান্ত তথ্য"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "PCI information"
-#~ msgctxt "Name"
-#~ msgid "System Information"
-#~ msgstr "PCI সংক্রান্ত তথ্য"
 
 #, fuzzy
 #~| msgctxt "Comment"
