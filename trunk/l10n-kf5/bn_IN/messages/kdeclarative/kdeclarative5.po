@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-04 00:41+0000\n"
+"POT-Creation-Date: 2022-04-12 00:40+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -46,6 +46,12 @@ msgstr "অ্যাপ্লিকেশন ফন্ট নির্ধার�
 msgctxt "@action:button"
 msgid "Show Contextual Help"
 msgstr ""
+
+#: qmlcontrols/kcmcontrols/qml/private/GridViewInternal.qml:79
+#, fuzzy, kde-format
+#| msgid "Not found"
+msgid "No items found"
+msgstr "পাওয়া যায়নি"
 
 #: qmlcontrols/kquickcontrols/ColorButton.qml:63
 #, fuzzy, kde-format
@@ -7025,9 +7031,6 @@ msgstr ""
 #~| msgid "Find Links as You Type"
 #~ msgid "Find &links only"
 #~ msgstr "টাইপ করার সময় লিংক অনুসন্ধান করা হবে"
-
-#~ msgid "Not found"
-#~ msgstr "পাওয়া যায়নি"
 
 #~ msgid "F&ind:"
 #~ msgstr "অনুসন্ধান: (&i)"
