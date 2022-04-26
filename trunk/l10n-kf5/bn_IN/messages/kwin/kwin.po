@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-23 00:47+0000\n"
+"POT-Creation-Date: 2022-04-26 00:46+0000\n"
 "PO-Revision-Date: 2008-12-22 16:10+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -840,24 +840,24 @@ msgctxt "Mouse Button"
 msgid "task"
 msgstr ""
 
-#: debug_console.cpp:1203
+#: debug_console.cpp:1199
 #, fuzzy, kde-format
-#| msgid "Close Window"
-msgid "X11 Client Windows"
-msgstr "উইন্ডো বন্ধ করুন"
+#| msgid "Move Window"
+msgid "X11 Windows"
+msgstr "উইন্ডো স্থানান্তরণ"
 
-#: debug_console.cpp:1205
+#: debug_console.cpp:1201
 #, kde-format
 msgid "X11 Unmanaged Windows"
 msgstr ""
 
-#: debug_console.cpp:1207
+#: debug_console.cpp:1203
 #, fuzzy, kde-format
 #| msgid "Shade Window"
 msgid "Wayland Windows"
 msgstr "ছায়াবৃত উইন্ডো"
 
-#: debug_console.cpp:1209
+#: debug_console.cpp:1205
 #, fuzzy, kde-format
 #| msgid "Windows"
 msgid "Internal Windows"
@@ -2717,13 +2717,13 @@ msgstr "নীচের ডেস্কটপে পরিবর্তন কর
 msgid "Switch to Desktop %1"
 msgstr "ডেস্কটপ ১-এ পরিবর্তন করুন"
 
-#: window.cpp:3471
+#: window.cpp:3470
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
-#: workspace.cpp:1482
+#: workspace.cpp:1476
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
@@ -2737,6 +2737,11 @@ msgid ""
 "paste bin service\n"
 "like https://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Close Window"
+#~ msgid "X11 Client Windows"
+#~ msgstr "উইন্ডো বন্ধ করুন"
 
 #~ msgid "Pack Window to the Right"
 #~ msgstr "ডানদিকে উইন্ডো একত্রিত করুন"
