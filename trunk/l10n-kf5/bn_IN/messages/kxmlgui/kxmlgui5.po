@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-22 00:42+0000\n"
+"POT-Creation-Date: 2022-06-01 00:44+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -554,20 +554,23 @@ msgid "&Submit Bug Report"
 msgstr "বাগ রিপোর্ট জমা করুন"
 
 #: kbugreport.cpp:380
-#, fuzzy, kde-format
-#| msgid "Could not find '%1' executable."
-msgctxt "The arg is the command kcmshell5"
-msgid "Could not find '%1' executable in PATH."
-msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
+#, kde-format
+msgctxt ""
+"The second arg is 'kde-cli-tools' which is the package that contains "
+"kcmshell5 (the first arg)"
+msgid ""
+"Could not find <application>%1</application> executable (usually it's part "
+"of the \"%2\" package)."
+msgstr ""
 
-#: kbugreport.cpp:430
+#: kbugreport.cpp:432
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr "রিপোর্ট দায়ের করার জন্য প্রসঙ্গ ও বিবরণ উল্লেখ করা আবশ্যক।"
 
-#: kbugreport.cpp:439
+#: kbugreport.cpp:441
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -579,7 +582,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:455
+#: kbugreport.cpp:457
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -591,7 +594,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:474
+#: kbugreport.cpp:476
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to send the bug report.\n"
@@ -606,12 +609,12 @@ msgstr ""
 "অনুগ্রহ করে বাগ রিপোর্ট স্বয়ং দায়ের করুন...\n"
 "নির্দেশাবলীর জন্য http://bugs.kde.org/ দেখুন।"
 
-#: kbugreport.cpp:481
+#: kbugreport.cpp:483
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr "বাগ রিপোর্ট পাঠানো হয়েছে। আপনার মতামত জানানোর জন্য ধন্যবাদ।"
 
-#: kbugreport.cpp:489
+#: kbugreport.cpp:491
 #, kde-format
 msgid ""
 "Close and discard\n"
@@ -620,7 +623,7 @@ msgstr ""
 "পরিবর্তিত বার্তা বন্ধ\n"
 "করে বর্জন করা হবে কি?"
 
-#: kbugreport.cpp:490
+#: kbugreport.cpp:492
 #, fuzzy, kde-format
 #| msgid "Close Message"
 msgctxt "@title:window"
@@ -1627,6 +1630,12 @@ msgstr "বিবিধ বৈশিষ্ট্য (&S)"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "প্রধান টুল-বার"
+
+#, fuzzy
+#~| msgid "Could not find '%1' executable."
+#~ msgctxt "The arg is the command kcmshell5"
+#~ msgid "Could not find '%1' executable in PATH."
+#~ msgstr "'%1' এক্সেকিউটেবল পাওয়া যায়নি।"
 
 #, fuzzy
 #~| msgid "Libraries"
