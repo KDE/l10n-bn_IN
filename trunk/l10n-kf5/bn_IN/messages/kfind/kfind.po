@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-30 00:59+0000\n"
+"POT-Creation-Date: 2022-06-02 00:48+0000\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -159,19 +159,19 @@ msgstr "নতুন রূপে ফলাফল সংরক্ষণ কর�
 msgid "Unable to save results."
 msgstr "ফলাফল সংরক্ষণ করতে ব্যর্থ।"
 
-#: kfindtreeview.cpp:528
+#: kfindtreeview.cpp:532
 #, kde-format
 msgid "KFind Results File"
 msgstr "KFind ফাইলের ফাইল"
 
-#: kfindtreeview.cpp:543
+#: kfindtreeview.cpp:547
 #, fuzzy, kde-format
 #| msgid "Results were saved to file\n"
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "ফাইলের মধ্যে ফলাফল সংরক্ষণ করা হয়েছে\n"
 
-#: kfindtreeview.cpp:633 kftabdlg.cpp:397
+#: kfindtreeview.cpp:637 kftabdlg.cpp:397
 #, kde-format
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
@@ -545,148 +545,148 @@ msgid_plural "years"
 msgstr[0] "বৎসরের মধ্যে"
 msgstr[1] "বৎসরের মধ্যে"
 
-#: kquery.cpp:571
+#: kquery.cpp:577
 #, fuzzy, kde-format
 #| msgid "Error while using locate"
 msgctxt "@title:window"
 msgid "Error while using locate"
 msgstr "locate ব্যবহার করতে ত্রুটি"
 
-#: main.cpp:29
+#: main.cpp:36
 #, kde-format
 msgid "KFind"
 msgstr "KFind"
 
-#: main.cpp:30
+#: main.cpp:37
 #, kde-format
 msgid "KDE file find utility"
 msgstr "KDE দ্বারা উপলব্ধ ফাইল অনুসন্ধান ব্যবস্থা"
 
-#: main.cpp:31
+#: main.cpp:38
 #, fuzzy, kde-format
 #| msgid "(c) 1998-2003, The KDE Developers"
 msgid "(c) 1998-2021, The KDE Developers"
 msgstr "(c) ১৯৯৮-২০০৩, KDE নির্মাতাবৃন্দ"
 
-#: main.cpp:33
+#: main.cpp:40
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: main.cpp:33
+#: main.cpp:40
 #, kde-format
 msgid "Current Maintainer"
 msgstr "বর্তমান মেইন্টেনার"
 
-#: main.cpp:34
+#: main.cpp:41
 #, kde-format
 msgid "Eric Coquelle"
 msgstr "এরিখ কোকেল"
 
-#: main.cpp:34
+#: main.cpp:41
 #, fuzzy, kde-format
 #| msgid "Current Maintainer"
 msgid "Former Maintainer"
 msgstr "বর্তমান মেইন্টেনার"
 
-#: main.cpp:35
+#: main.cpp:42
 #, kde-format
 msgid "Mark W. Webb"
 msgstr "মার্ক ডব্লিউ. ওয়েব"
 
-#: main.cpp:35
+#: main.cpp:42
 #, kde-format
 msgid "Developer"
 msgstr "ডিভেলপর"
 
-#: main.cpp:36
+#: main.cpp:43
 #, kde-format
 msgid "Beppe Grimaldi"
 msgstr "বেপে গ্রিমাল্ডি"
 
-#: main.cpp:36
+#: main.cpp:43
 #, kde-format
 msgid "UI Design & more search options"
 msgstr "প্রেক্ষাপটের বিন্যাস ও অনুসন্ধানের অতিরিক্ত বিকল্প"
 
-#: main.cpp:37
+#: main.cpp:44
 #, kde-format
 msgid "Martin Hartig"
 msgstr "মার্টিন হার্টিগ"
 
-#: main.cpp:38
+#: main.cpp:45
 #, kde-format
 msgid "Stephan Kulow"
 msgstr "স্টিফান কুলো"
 
-#: main.cpp:39
+#: main.cpp:46
 #, kde-format
 msgid "Mario Weilguni"
 msgstr "মারিও ওয়েলগুনি"
 
-#: main.cpp:40
+#: main.cpp:47
 #, kde-format
 msgid "Alex Zepeda"
 msgstr "অ্যালেক্স জেপেডা"
 
-#: main.cpp:41
+#: main.cpp:48
 #, kde-format
 msgid "Miroslav Flídr"
 msgstr "মিরোস্লাভ ফ্লাইডার"
 
-#: main.cpp:42
+#: main.cpp:49
 #, kde-format
 msgid "Harri Porten"
 msgstr "হ্যারি পোর্টেন"
 
-#: main.cpp:43
+#: main.cpp:50
 #, kde-format
 msgid "Dima Rogozin"
 msgstr "ডিমা রোগোজিন"
 
-#: main.cpp:44
+#: main.cpp:51
 #, kde-format
 msgid "Carsten Pfeiffer"
 msgstr "কার্স্টেন পাইফার"
 
-#: main.cpp:45
+#: main.cpp:52
 #, kde-format
 msgid "Hans Petter Bieker"
 msgstr "হান্স পেটার বিইকার"
 
-#: main.cpp:46
+#: main.cpp:53
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "ওয়াল্ডো ব্যাস্টিয়ান"
 
-#: main.cpp:46
+#: main.cpp:53
 #, kde-format
 msgid "UI Design"
 msgstr "প্রেক্ষাপটের বিন্যাস"
 
-#: main.cpp:47
+#: main.cpp:54
 #, kde-format
 msgid "Alexander Neundorf"
 msgstr "আলেক্সান্ডার নিউন্ডোর্ফ"
 
-#: main.cpp:48
+#: main.cpp:55
 #, kde-format
 msgid "Clarence Dang"
 msgstr "ক্ল্যারেন্স ড্যং"
 
-#: main.cpp:49
+#: main.cpp:56
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "রুণা ভট্টাচার্য্য"
 
-#: main.cpp:49
+#: main.cpp:56
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "runab@redhat.com"
 
-#: main.cpp:55
+#: main.cpp:62
 #, kde-format
 msgid "Path(s) to search"
 msgstr "অনুসন্ধান স্থলের পাথ"
