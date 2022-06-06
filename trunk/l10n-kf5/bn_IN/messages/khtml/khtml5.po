@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:42+0000\n"
+"POT-Creation-Date: 2022-06-06 00:41+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -181,7 +181,6 @@ msgstr "প্রতিনির্দেশ"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "মান"
@@ -550,111 +549,6 @@ msgstr "HTTP হেডার"
 #, kde-format
 msgid "Property"
 msgstr "বৈশিষ্ট্য"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "অ্যাপ্লেট \"%1\" প্রারম্ভ করা হচ্ছে..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "অ্যাপ্লেট \"%1\" আরম্ভ করা হচ্ছে..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "অ্যাপ্লেট \"%1\" আরম্ভ করা হয়েছে"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "অ্যাপ্লেট \"%1\" বন্ধ করা হয়েছে"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "অ্যাপ্লেট লোড করা হচ্ছে"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "ত্রুটি: java এক্সেকিউটেবল পাওয়া যায়নি"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "স্বাক্ষরকারী (অনুমোদন: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "সার্টিফিকেট (অনুমোদন: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "নিরাপত্তা সংক্রান্ত সূচনা"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "সার্টিফিটকেটের সাথে Java অ্যাপ্লেট গ্রহণ করা হবে কী:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "নিম্নলিখিত অনুমতি"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "না (&N)"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "সমস্ত প্রত্যাখ্যান করা হবে (&R)"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "হ্যাঁ (&Y)"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "সমস্ত গ্রহণ করা হবে (&G)"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "KDE Java Applet Plugin"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "অ্যাপ্লেটের পরামিতি"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "পরামিতি"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "ক্লাস"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "বেস URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "আর্কাইভ"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1310,6 +1204,11 @@ msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>অবিশ্বস্ত পৃষ্ঠা দ্বারা<br /><b>%1</b><br />-র ব্যবহার প্রতিরোধ করা হয়েছে।</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "নিরাপত্তা সংক্রান্ত সূচনা"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1766,6 +1665,66 @@ msgstr ""
 #, kde-format
 msgid "XML parsing error"
 msgstr "XML পার্স সংক্রান্ত ত্রুটি"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "অ্যাপ্লেট \"%1\" প্রারম্ভ করা হচ্ছে..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "অ্যাপ্লেট \"%1\" আরম্ভ করা হচ্ছে..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "অ্যাপ্লেট \"%1\" আরম্ভ করা হয়েছে"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "অ্যাপ্লেট \"%1\" বন্ধ করা হয়েছে"
+
+#~ msgid "Loading Applet"
+#~ msgstr "অ্যাপ্লেট লোড করা হচ্ছে"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "ত্রুটি: java এক্সেকিউটেবল পাওয়া যায়নি"
+
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "স্বাক্ষরকারী (অনুমোদন: %1)"
+
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "সার্টিফিকেট (অনুমোদন: %1)"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "সার্টিফিটকেটের সাথে Java অ্যাপ্লেট গ্রহণ করা হবে কী:"
+
+#~ msgid "the following permission"
+#~ msgstr "নিম্নলিখিত অনুমতি"
+
+#~ msgid "&No"
+#~ msgstr "না (&N)"
+
+#~ msgid "&Reject All"
+#~ msgstr "সমস্ত প্রত্যাখ্যান করা হবে (&R)"
+
+#~ msgid "&Yes"
+#~ msgstr "হ্যাঁ (&Y)"
+
+#~ msgid "&Grant All"
+#~ msgstr "সমস্ত গ্রহণ করা হবে (&G)"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "KDE Java Applet Plugin"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "অ্যাপ্লেটের পরামিতি"
+
+#~ msgid "Parameter"
+#~ msgstr "পরামিতি"
+
+#~ msgid "Class"
+#~ msgstr "ক্লাস"
+
+#~ msgid "Base URL"
+#~ msgstr "বেস URL"
+
+#~ msgid "Archives"
+#~ msgstr "আর্কাইভ"
 
 #~ msgid "Overwrite"
 #~ msgstr "নতুন করে লেখা হবে"
