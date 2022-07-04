@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-24 00:45+0000\n"
+"POT-Creation-Date: 2022-07-04 00:47+0000\n"
 "PO-Revision-Date: 2008-07-08 16:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
 "Language-Team: Bengali INDIA <discuss@ankur.org.in>\n"
@@ -624,7 +624,7 @@ msgstr "%1-র সাথে যুক্ত অতিরিক্ত ফাই�
 msgid "Failed to start the system daemon.<br><i>%1</i>"
 msgstr ""
 
-#: kcmfontinst/JobRunner.cpp:708 kio/KioFonts.cpp:725
+#: kcmfontinst/JobRunner.cpp:708 kio/KioFonts.cpp:755 kio/KioFonts.cpp:779
 #, fuzzy, kde-format
 #| msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
 msgid "<i>%1</i> already exists."
@@ -1156,36 +1156,36 @@ msgstr "৩৬pt"
 msgid "48pt"
 msgstr "৪৮pt"
 
-#: kio/KioFonts.cpp:207
+#: kio/KioFonts.cpp:208 kio/KioFonts.cpp:216
 #, kde-format
 msgid "Can only install fonts to either \"%1\" or \"%2\"."
 msgstr ""
 
-#: kio/KioFonts.cpp:210
+#: kio/KioFonts.cpp:211 kio/KioFonts.cpp:219
 #, kde-format
 msgid ""
 "You cannot install a fonts package directly.\n"
 "Please extract %1, and install the components individually."
 msgstr ""
 
-#: kio/KioFonts.cpp:438
+#: kio/KioFonts.cpp:449 kio/KioFonts.cpp:451
 #, fuzzy, kde-format
 #| msgid "Copy Fonts"
 msgid "Cannot copy fonts"
 msgstr "ফন্ট কপি করুন"
 
-#: kio/KioFonts.cpp:443
+#: kio/KioFonts.cpp:458 kio/KioFonts.cpp:460
 #, fuzzy, kde-format
 #| msgid "Cannot Print"
 msgid "Cannot move fonts"
 msgstr "প্রিন্ট করা যাবে না"
 
-#: kio/KioFonts.cpp:454
+#: kio/KioFonts.cpp:473 kio/KioFonts.cpp:478
 #, kde-format
 msgid "Only fonts may be deleted."
 msgstr ""
 
-#: kio/KioFonts.cpp:456
+#: kio/KioFonts.cpp:475 kio/KioFonts.cpp:480
 #, fuzzy, kde-format
 #| msgid "You cannot rename, move, copy, or delete either \"%1\" or \"%2\"."
 msgid "Can only remove fonts from either \"%1\" or \"%2\"."
@@ -1193,33 +1193,33 @@ msgstr ""
 "আপনি \"%1\" অথবা \"%2\" কপি, স্থানান্তর ও অপসারণ করতে পারবেন না। এইগুলির নাম "
 "পরিবর্তন করাও সম্ভব নয়।"
 
-#: kio/KioFonts.cpp:483
+#: kio/KioFonts.cpp:509 kio/KioFonts.cpp:511
 #, kde-format
 msgid "Please specify \"%1\" or \"%2\"."
 msgstr "\"%1\" অথবা \"%2\"-র মধ্যে একটি নির্বাচন করুন।"
 
-#: kio/KioFonts.cpp:503
+#: kio/KioFonts.cpp:532
 #, kde-format
 msgid "No special methods supported."
 msgstr ""
 
-#: kio/KioFonts.cpp:577
+#: kio/KioFonts.cpp:606
 #, kde-format
 msgid "Fonts"
 msgstr "ফন্ট"
 
-#: kio/KioFonts.cpp:706
+#: kio/KioFonts.cpp:736 kio/KioFonts.cpp:760
 #, fuzzy, kde-format
 #| msgid "Failed to start font printer."
 msgid "Failed to start the system daemon"
 msgstr "ফন্ট প্রিন্টার আরম্ভ করতে ব্যর্থ।"
 
-#: kio/KioFonts.cpp:709
+#: kio/KioFonts.cpp:739 kio/KioFonts.cpp:763
 #, kde-format
 msgid "Backend died"
 msgstr ""
 
-#: kio/KioFonts.cpp:712
+#: kio/KioFonts.cpp:742 kio/KioFonts.cpp:766
 #, fuzzy, kde-format
 #| msgid ""
 #| "You cannot install bitmap fonts, as these have been disabled on your "
@@ -1228,7 +1228,7 @@ msgid "%1 is a bitmap font, and these have been disabled on your system."
 msgstr ""
 "সিস্টেমের মধ্যে বিট-ম্যাপ ফন্ট নিষ্ক্রিয় হওয়ার ফলে, বিট-ম্যাপ ফন্ট ইনস্টল করা সম্ভব নয়।"
 
-#: kio/KioFonts.cpp:715
+#: kio/KioFonts.cpp:745 kio/KioFonts.cpp:769
 #, fuzzy, kde-format
 #| msgid ""
 #| "File %1 contains the font:\n"
@@ -1241,13 +1241,13 @@ msgstr ""
 "%2\n"
 "এই নামের একটি ফন্ট বর্তমানে ইনস্টল করা আছে।\n"
 
-#: kio/KioFonts.cpp:718
+#: kio/KioFonts.cpp:748 kio/KioFonts.cpp:772
 #, fuzzy, kde-format
 #| msgid "Could not read font."
 msgid "%1 is not a font."
 msgstr "ফন্ট পড়তে ব্যর্থ।"
 
-#: kio/KioFonts.cpp:721
+#: kio/KioFonts.cpp:751 kio/KioFonts.cpp:775
 #, fuzzy, kde-format
 #| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with %1"
