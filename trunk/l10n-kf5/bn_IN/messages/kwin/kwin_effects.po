@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-30 00:47+0000\n"
+"POT-Creation-Date: 2022-07-06 00:47+0000\n"
 "PO-Revision-Date: 2009-01-05 19:38+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -578,15 +578,15 @@ msgstr "পটভূমি"
 msgid "Ignore minimized windows:"
 msgstr "আড়াল করা উইন্ডো অগ্রাহ্য করা হবে (&m)"
 
-#: overview/qml/DesktopBar.qml:188
+#: overview/qml/DesktopBar.qml:185
 #, kde-format
-msgid "Delete virtual desktop"
+msgid "Delete Virtual Desktop"
 msgstr ""
 
-#: overview/qml/DesktopBar.qml:278
+#: overview/qml/DesktopBar.qml:277
 #, fuzzy, kde-format
 #| msgid "Sphere"
-msgid "Add Desktop"
+msgid "Add Virtual Desktop"
 msgstr "গোলাকার"
 
 #: overview/qml/ScreenView.qml:170
@@ -598,6 +598,13 @@ msgstr ""
 #, kde-format
 msgid "Drag Down To Close"
 msgstr ""
+
+#: private/qml/WindowHeapDelegate.qml:371
+#, fuzzy, kde-format
+#| msgid "All &other windows"
+msgctxt "@info:tooltip as in: 'close this window'"
+msgid "Close window"
+msgstr "অন্যান্য সকল উইন্ডো (&o)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_InScale)
 #: scale/package/contents/ui/config.ui:46
@@ -1223,11 +1230,6 @@ msgstr ""
 #~| msgid "Ignore &minimized windows"
 #~ msgid "(Un-)Minimize window"
 #~ msgstr "আড়াল করা উইন্ডো অগ্রাহ্য করা হবে (&m)"
-
-#, fuzzy
-#~| msgid "All &other windows"
-#~ msgid "Close window"
-#~ msgstr "অন্যান্য সকল উইন্ডো (&o)"
 
 #, fuzzy
 #~| msgid "Sphere"
