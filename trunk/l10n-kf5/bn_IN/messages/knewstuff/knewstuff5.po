@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-22 00:41+0000\n"
+"POT-Creation-Date: 2022-07-07 00:41+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -1325,6 +1325,15 @@ msgstr "ইনস্টল করা হচ্ছে"
 msgctxt "Title for a dialog box which shows error messages"
 msgid "An Error Occurred"
 msgstr ""
+
+#: qtquick/qml/private/ErrorDisplayer.qml:51
+#, fuzzy, kde-format
+#| msgid "Please put in a name."
+msgid ""
+"\n"
+"\n"
+"Please try again later."
+msgstr "অনুগ্রহ করে নাম নিখুন:"
 
 #: qtquick/qml/private/GridTileDelegate.qml:113
 #, fuzzy, kde-format
@@ -9142,9 +9151,6 @@ msgstr "<p>ডাউনলোড করা সামগ্রী: %1</p>\n"
 
 #~ msgid "No provider selected."
 #~ msgstr "কোনো উপলব্ধকারী নির্বাচন করা হয়।"
-
-#~ msgid "Please put in a name."
-#~ msgstr "অনুগ্রহ করে নাম নিখুন:"
 
 #~ msgid "Old upload information found, fill out fields?"
 #~ msgstr "আপলোড করা পুরোনো তথ্য সনাক্ত করা হয়েছে, মান পূরণ করা হবে কী?"
