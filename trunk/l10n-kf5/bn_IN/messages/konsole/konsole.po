@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-12 00:51+0000\n"
+"POT-Creation-Date: 2022-07-13 00:49+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -36,7 +36,7 @@ msgstr "ফাইল"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnEdit)
 #. i18n: ectx: Menu (edit)
-#: ../desktop/konsoleui.rc:16 plugins/QuickCommands/quickcommandswidget.cpp:265
+#: ../desktop/konsoleui.rc:16 plugins/QuickCommands/quickcommandswidget.cpp:269
 #: plugins/SSHManager/sshwidget.ui:262
 #, kde-format
 msgid "Edit"
@@ -639,7 +639,7 @@ msgstr "রঙের বিন্যাস ও পটভূমি"
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, btnFindSshKey)
 #: colorscheme/ColorSchemeEditor.ui:154 plugins/SSHManager/sshwidget.ui:127
-#: widgets/EditProfileGeneralPage.ui:179
+#: widgets/EditProfileGeneralPage.ui:183
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -1456,7 +1456,7 @@ msgstr "কমান্ড:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: plugins/QuickCommands/qcwidget.ui:187
-#: plugins/QuickCommands/quickcommandswidget.cpp:302
+#: plugins/QuickCommands/quickcommandswidget.cpp:306
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgid "Warnings"
@@ -1498,18 +1498,18 @@ msgstr "কমান্ড:"
 msgid "Show Quick Commands"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:143
-#: plugins/QuickCommands/quickcommandswidget.cpp:154
+#: plugins/QuickCommands/quickcommandswidget.cpp:147
+#: plugins/QuickCommands/quickcommandswidget.cpp:158
 #, kde-format
 msgid "A duplicate item exists"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:160
+#: plugins/QuickCommands/quickcommandswidget.cpp:164
 #, kde-format
 msgid "Please fix all the warnings before trying to run this script"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:184
+#: plugins/QuickCommands/quickcommandswidget.cpp:188
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1517,58 +1517,58 @@ msgid "There are some errors on the script, do you really want to run it?"
 msgstr ""
 "এই উইন্ডোর মধ্যে একাধিক ট্যাব উপস্থিত রয়েছে, আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক?"
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:185
+#: plugins/QuickCommands/quickcommandswidget.cpp:189
 #, kde-format
 msgid "Shell Errors"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:186
+#: plugins/QuickCommands/quickcommandswidget.cpp:190
 #, kde-format
 msgctxt "@action:button"
 msgid "Run"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:211
+#: plugins/QuickCommands/quickcommandswidget.cpp:215
 #, kde-format
 msgid ""
 "You are about to delete the group %1,\n"
 " with multiple configurations, are you sure?"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:212
+#: plugins/QuickCommands/quickcommandswidget.cpp:216
 #: plugins/SSHManager/sshmanagerpluginwidget.cpp:196
 #, kde-format
 msgid "You are about to delete %1, are you sure?"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:215
+#: plugins/QuickCommands/quickcommandswidget.cpp:219
 #, kde-format
 msgid "Delete Quick Commands Configurations"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:245
+#: plugins/QuickCommands/quickcommandswidget.cpp:249
 #, kde-format
 msgid "Title can not be empty or blank"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:249
+#: plugins/QuickCommands/quickcommandswidget.cpp:253
 #, fuzzy, kde-format
 #| msgid "Command to execute"
 msgid "Command can not be empty"
 msgstr "সঞ্চালনযোগ্য কমান্ড"
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:269
+#: plugins/QuickCommands/quickcommandswidget.cpp:273
 #, fuzzy, kde-format
 #| msgid "Rename Tab"
 msgid "Rename"
 msgstr "ট্যাবের নাম পরিবর্তন করুন"
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:273
+#: plugins/QuickCommands/quickcommandswidget.cpp:277
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: plugins/QuickCommands/quickcommandswidget.cpp:304
+#: plugins/QuickCommands/quickcommandswidget.cpp:308
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgid "Warnings (*)"
@@ -3209,94 +3209,94 @@ msgstr "মাপ: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: terminalDisplay/TerminalDisplay.cpp:2129
+#: terminalDisplay/TerminalDisplay.cpp:2133
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2130
+#: terminalDisplay/TerminalDisplay.cpp:2134
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: terminalDisplay/TerminalDisplay.cpp:2163
+#: terminalDisplay/TerminalDisplay.cpp:2167
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2164
+#: terminalDisplay/TerminalDisplay.cpp:2168
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2165
+#: terminalDisplay/TerminalDisplay.cpp:2169
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2166
+#: terminalDisplay/TerminalDisplay.cpp:2170
 #, kde-format
 msgid "Backspace"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2167
+#: terminalDisplay/TerminalDisplay.cpp:2171
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2168
+#: terminalDisplay/TerminalDisplay.cpp:2172
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2169
+#: terminalDisplay/TerminalDisplay.cpp:2173
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2170
+#: terminalDisplay/TerminalDisplay.cpp:2174
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2193
+#: terminalDisplay/TerminalDisplay.cpp:2197
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2196
+#: terminalDisplay/TerminalDisplay.cpp:2200
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "বন্ধ করার নিশ্চিতি"
 
-#: terminalDisplay/TerminalDisplay.cpp:2197
+#: terminalDisplay/TerminalDisplay.cpp:2201
 #, fuzzy, kde-format
 #| msgid "Set cursor color to match current character"
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "বর্তমান অক্ষরের রঙ অনুযায়ী কার্সারের রঙ নির্ধারণ করা হবে"
 
-#: terminalDisplay/TerminalDisplay.cpp:2198
+#: terminalDisplay/TerminalDisplay.cpp:2202
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "নির্বাচিত অংশ পেস্ট করুন"
 
-#: terminalDisplay/TerminalDisplay.cpp:2199
+#: terminalDisplay/TerminalDisplay.cpp:2203
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2428
+#: terminalDisplay/TerminalDisplay.cpp:2432
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
@@ -3304,17 +3304,17 @@ msgid ""
 "b> to resume.</qt>"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2466
+#: terminalDisplay/TerminalDisplay.cpp:2470
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2705
+#: terminalDisplay/TerminalDisplay.cpp:2709
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2738
+#: terminalDisplay/TerminalDisplay.cpp:2742
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
@@ -3471,31 +3471,37 @@ msgctxt "@action Shortcut entry"
 msgid "Move tab to the left"
 msgstr ""
 
-#: ViewManager.cpp:278
+#: ViewManager.cpp:277
+#, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Setup semantic integration (bash)"
+msgstr ""
+
+#: ViewManager.cpp:284
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Equal size to all views"
 msgstr ""
 
-#: ViewManager.cpp:288
+#: ViewManager.cpp:294
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: ViewManager.cpp:987
+#: ViewManager.cpp:1009
 #, fuzzy, kde-format
 #| msgid "Open Link"
 msgid "Save File"
 msgstr "লিংক প্রদর্শন"
 
-#: ViewManager.cpp:987 ViewManager.cpp:1056
+#: ViewManager.cpp:1009 ViewManager.cpp:1078
 #, kde-format
 msgid "Konsole View Layout (*.json)"
 msgstr ""
 
-#: ViewManager.cpp:990
+#: ViewManager.cpp:1012
 #, fuzzy, kde-format
 #| msgid ""
 #| "A problem occurred when saving the output.\n"
@@ -3507,7 +3513,7 @@ msgstr ""
 "ফলাফল সংরক্ষণে সমস্যা।\n"
 "%1"
 
-#: ViewManager.cpp:1046
+#: ViewManager.cpp:1068
 #, fuzzy, kde-format
 #| msgid ""
 #| "A problem occurred when saving the output.\n"
@@ -3519,13 +3525,13 @@ msgstr ""
 "ফলাফল সংরক্ষণে সমস্যা।\n"
 "%1"
 
-#: ViewManager.cpp:1056
+#: ViewManager.cpp:1078
 #, fuzzy, kde-format
 #| msgid "Open Link"
 msgid "Open File"
 msgstr "লিংক প্রদর্শন"
 
-#: Vt102Emulation.cpp:2237
+#: Vt102Emulation.cpp:2306
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
@@ -3674,7 +3680,7 @@ msgstr "নির্বাচিত প্রোফাইল(গুলি) স�
 #. i18n: ectx: property (text), widget (QPushButton, textEditorCustomBtn)
 #. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
 #: widgets/EditProfileAppearancePage.ui:79
-#: widgets/EditProfileGeneralPage.ui:220 widgets/EditProfileKeyboardPage.ui:85
+#: widgets/EditProfileGeneralPage.ui:224 widgets/EditProfileKeyboardPage.ui:85
 #: widgets/EditProfileMousePage.ui:310
 #, kde-format
 msgid "Edit..."
@@ -4099,17 +4105,17 @@ msgstr ""
 msgid "Default profile for new terminal sessions in %1"
 msgstr "নির্বাচিত প্রোফাইলটি নতুন টার্মিন্যাল সেশানের জন্য ডিফল্টরূপে প্রয়োগ করা হবে"
 
-#: widgets/EditProfileDialog.cpp:514
+#: widgets/EditProfileDialog.cpp:530
 #, kde-format
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা"
 
-#: widgets/EditProfileDialog.cpp:515
+#: widgets/EditProfileDialog.cpp:531
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:546
+#: widgets/EditProfileDialog.cpp:562
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -4117,18 +4123,18 @@ msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:635
+#: widgets/EditProfileDialog.cpp:661
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরি নির্বাচন করুন"
 
-#: widgets/EditProfileDialog.cpp:1164
+#: widgets/EditProfileDialog.cpp:1190
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1343
+#: widgets/EditProfileDialog.cpp:1369
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -4137,14 +4143,14 @@ msgstr ""
 "এই রঙের বিন্যাসের সাথে স্বচ্ছ পটভূমি ব্যবহৃত হয়, কিন্তু আপনার ডেস্কটপে স্বচ্ছ পটভূমি "
 "সমর্থিত নয়"
 
-#: widgets/EditProfileDialog.cpp:1349
+#: widgets/EditProfileDialog.cpp:1375
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1742
+#: widgets/EditProfileDialog.cpp:1768
 #, kde-format
 msgid ""
 "The format is e.g. 'editorExec PATH:LINE:COLUMN'\n"
@@ -4161,25 +4167,32 @@ msgid ""
 "editor."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1755
+#: widgets/EditProfileDialog.cpp:1781
 #, kde-format
 msgid "Text Editor Custom Command"
 msgstr ""
 
+#. i18n: ectx: attribute (title), widget (QWidget, general)
+#: widgets/EditProfileGeneralPage.ui:39
+#, fuzzy, kde-format
+#| msgid "Default character encoding:"
+msgid "General Settings"
+msgstr "ডিফল্ট ক্যারেক্টার এনকোডিং:"
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, iconSelectButton)
-#: widgets/EditProfileGeneralPage.ui:59
+#: widgets/EditProfileGeneralPage.ui:63
 #, kde-format
 msgid "Select the icon displayed on tabs using this profile"
 msgstr "চিহ্নিত প্রোফাইল প্রয়োগকারী ট্যাবের মধ্যে প্রদর্শিত আইকন"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:77
+#: widgets/EditProfileGeneralPage.ui:81
 #, kde-format
 msgid "A descriptive name for the profile"
 msgstr "প্রোফাইলের বর্ণনামূলক নাম"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:80
+#: widgets/EditProfileGeneralPage.ui:84
 #, fuzzy, kde-format
 #| msgid "Profile name:"
 msgctxt "@label:textbox"
@@ -4187,20 +4200,20 @@ msgid "Profile name"
 msgstr "প্রোফাইলের নাম:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, setAsDefaultButton)
-#: widgets/EditProfileGeneralPage.ui:87
+#: widgets/EditProfileGeneralPage.ui:91
 #, fuzzy, kde-format
 #| msgid "Delete Profile"
 msgid "Default Profile"
 msgstr "প্রোফাইল মুছে ফেলুন"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/EditProfileGeneralPage.ui:118
+#: widgets/EditProfileGeneralPage.ui:122
 #, kde-format
 msgid "Command:"
 msgstr "কমান্ড:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:131
+#: widgets/EditProfileGeneralPage.ui:135
 #, kde-format
 msgid ""
 "The command to execute when new terminal sessions are created using this "
@@ -4209,65 +4222,65 @@ msgstr ""
 "চিহ্নিত প্রোফাইল সহযোগে নতুন টার্মিন্যাল সেশান নির্মাণের সময় সঞ্চালনযোগ্য কমান্ড"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:137
+#: widgets/EditProfileGeneralPage.ui:141
 #, kde-format
 msgid "/bin/sh"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: widgets/EditProfileGeneralPage.ui:150
+#: widgets/EditProfileGeneralPage.ui:154
 #, kde-format
 msgid "Initial directory:"
 msgstr "প্রারম্ভিক ডিরেক্টরি:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:163
+#: widgets/EditProfileGeneralPage.ui:167
 #, kde-format
 msgid ""
 "The initial working directory for new terminal sessions using this profile"
 msgstr "চিহ্নিত প্রোফাইল সহ নির্মিত নতুন টার্মিন্যাল সেশানের জন্য প্রারম্ভিক ডিরেক্টরি"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:169
+#: widgets/EditProfileGeneralPage.ui:173
 #, kde-format
 msgid "/home/username"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
-#: widgets/EditProfileGeneralPage.ui:176
+#: widgets/EditProfileGeneralPage.ui:180
 #, fuzzy, kde-format
 #| msgid "Browse for initial directory"
 msgid "Choose the initial directory"
 msgstr "প্রারম্ভিক ডিরেক্টরি চিহ্নিত করার জন্য ব্রাউজ করুন"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
-#: widgets/EditProfileGeneralPage.ui:186
+#: widgets/EditProfileGeneralPage.ui:190
 #, fuzzy, kde-format
 #| msgid "Start in same directory as current tab"
 msgid "Start in same directory as current session"
 msgstr "বর্তমান ট্যাবের ডিরেক্টরি প্রয়োগ করে আরম্ভ করা হবে"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: widgets/EditProfileGeneralPage.ui:199
+#: widgets/EditProfileGeneralPage.ui:203
 #, kde-format
 msgid "Environment:"
 msgstr "পরিবেশ:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
-#: widgets/EditProfileGeneralPage.ui:217
+#: widgets/EditProfileGeneralPage.ui:221
 #, kde-format
 msgid "Edit the list of environment variables and associated values"
 msgstr "এনভায়রনমেন্ট ভেরিয়েবলের তালিকা ও সংশ্লিষ্ট মান সম্পাদনা করুন"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: widgets/EditProfileGeneralPage.ui:264
+#: widgets/EditProfileGeneralPage.ui:268
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "Initial terminal size:"
 msgstr "টার্মিন্যালের বৈশিষ্ট্য"
 
 #. i18n: ectx: property (text), widget (QLabel, useCurrentWindowSizeNote)
-#: widgets/EditProfileGeneralPage.ui:339
+#: widgets/EditProfileGeneralPage.ui:343
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -4277,11 +4290,57 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, terminalBellLabel)
-#: widgets/EditProfileGeneralPage.ui:352
+#: widgets/EditProfileGeneralPage.ui:356
 #, fuzzy, kde-format
 #| msgid "Terminal emulator"
 msgid "Terminal bell mode:"
 msgstr "টার্মিন্যাল এমুলেটর"
+
+#. i18n: ectx: attribute (title), widget (QWidget, semantic)
+#: widgets/EditProfileGeneralPage.ui:374
+#, fuzzy, kde-format
+#| msgid "Remote Connection"
+msgid "Semantic Integration"
+msgstr "দূরবর্তী সংযোগ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, semanticUpDown)
+#: widgets/EditProfileGeneralPage.ui:380
+#, kde-format
+msgid "Up/Down Arrows emulation"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, semanticHintsURL)
+#: widgets/EditProfileGeneralPage.ui:387
+#, kde-format
+msgctxt "When showing URL hints"
+msgid "When URL hints show"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, semanticHintsNever)
+#: widgets/EditProfileGeneralPage.ui:397
+#, kde-format
+msgctxt "Never"
+msgid "Never"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, semanticHintsAlways)
+#: widgets/EditProfileGeneralPage.ui:407
+#, kde-format
+msgctxt "Always"
+msgid "Always"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: widgets/EditProfileGeneralPage.ui:423
+#, kde-format
+msgid "Semantic hints:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, semanticInputClick)
+#: widgets/EditProfileGeneralPage.ui:433
+#, kde-format
+msgid "Mouse click in input line moves cursor"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, note)
 #: widgets/EditProfileKeyboardPage.ui:29
@@ -5181,11 +5240,6 @@ msgstr "ট্যাব বন্ধ করুন (&C)"
 #~ msgctxt "The default name of a profile"
 #~ msgid "Profile #%1"
 #~ msgstr "প্রোফাইল \"%1\" সম্পাদনা করুন"
-
-#, fuzzy
-#~| msgid "Default character encoding:"
-#~ msgid "Current Tab Settings"
-#~ msgstr "ডিফল্ট ক্যারেক্টার এনকোডিং:"
 
 #, fuzzy
 #~| msgid "Show in Menu"
