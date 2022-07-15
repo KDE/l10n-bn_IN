@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-23 00:56+0000\n"
+"POT-Creation-Date: 2022-07-15 00:59+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -76,7 +76,7 @@ msgstr "পরিসেবা পরিচালনব্যবস্থা"
 #| msgctxt "Name"
 #| msgid "Desktop"
 msgctxt "Name"
-msgid "Show Desktop"
+msgid "Peek at Desktop"
 msgstr "ডেস্কটপ"
 
 #: applets/taskmanager/package/metadata.json
@@ -392,7 +392,8 @@ msgstr "পরিসেবা পরিচালনব্যবস্থা"
 
 #: applets/showdesktop/package/metadata.json
 msgctxt "Description"
-msgid "Shows the desktop by moving windows aside"
+msgid ""
+"Temporarily reveals the Desktop by moving open windows into screen corners"
 msgstr ""
 
 #: applets/taskmanager/package/metadata.json
@@ -751,6 +752,13 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Plasma Team"
 msgstr "ফাইল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop"
+#~ msgctxt "Name"
+#~ msgid "Show Desktop"
+#~ msgstr "ডেস্কটপ"
 
 #~ msgctxt "Comment"
 #~ msgid "Accessibility"
