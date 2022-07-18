@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-17 00:56+0000\n"
+"POT-Creation-Date: 2022-07-18 00:54+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -104,11 +104,6 @@ msgctxt "Name"
 msgid "GMenuDBusMenuProxy"
 msgstr ""
 
-#: kcms/autostart/kcm_autostart.desktop:2
-msgctxt "Name"
-msgid "Autostart"
-msgstr ""
-
 #: kcms/colors/colorschemes.knsrc:2
 msgctxt "Name"
 msgid "Color Schemes"
@@ -129,15 +124,6 @@ msgctxt "Comment"
 msgid "Plasma color scheme editor"
 msgstr ""
 
-#: kcms/colors/kcm_colors.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Colors"
-msgctxt "Name"
-msgid "Colors"
-msgstr "রং"
-
-#: kcms/cursortheme/kcm_cursortheme.desktop:7
 #: kcms/cursortheme/xcursor/xcursor.knsrc:2
 msgctxt "Name"
 msgid "Cursors"
@@ -159,18 +145,7 @@ msgctxt "Name"
 msgid "Plasma Styles"
 msgstr "ডেস্কটপ"
 
-#: kcms/feedback/kcm_feedback.desktop:7
-msgctxt "Name"
-msgid "User Feedback"
-msgstr ""
-
-#: kcms/fonts/kcm_fonts.desktop:7 kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
-#: kcms/kfontinst/kio/fonts.desktop:5
-msgctxt "Name"
-msgid "Fonts"
-msgstr ""
-
-#: kcms/icons/icons.knsrc:2 kcms/icons/kcm_icons.desktop:7
+#: kcms/icons/icons.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Icon"
@@ -208,13 +183,11 @@ msgctxt "Description"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr ""
 
-#: kcms/kfontinst/kcmfontinst/kcm_fontinst.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Session Manager"
+#: kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
+#: kcms/kfontinst/kio/fonts.desktop:5
 msgctxt "Name"
-msgid "Font Management"
-msgstr "সেশান পরিচালন ব্যবস্থা"
+msgid "Fonts"
+msgstr ""
 
 #: kcms/kfontinst/thumbnail/fontthumbnail.desktop:3
 #, fuzzy
@@ -224,40 +197,9 @@ msgctxt "Name"
 msgid "Font Files"
 msgstr "টেক্সট ফাইল"
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:8
-msgctxt "Name"
-msgid "Global Theme"
-msgstr ""
-
 #: kcms/lookandfeel/lookandfeel.knsrc:2
 msgctxt "Name"
 msgid "Global Themes"
-msgstr ""
-
-#: kcms/nightcolor/kcm_nightcolor.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Color"
-msgctxt "Name"
-msgid "Night Color"
-msgstr "রং"
-
-#: kcms/notifications/kcm_notifications.desktop:7
-msgctxt "Name"
-msgid "Notifications"
-msgstr "সূচনাবার্তা"
-
-#: kcms/region_language/kcm_regionandlang.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Languages"
-msgctxt "Name"
-msgid "Region & Language"
-msgstr "ভাষা"
-
-#: kcms/region_language/kcm_regionandlang.desktop:21
-msgctxt "Comment"
-msgid "Set Language, Numeric, Currency and Time Formats"
 msgstr ""
 
 #: kcms/style/gtk_themes.knsrc:2
@@ -267,19 +209,6 @@ msgstr ""
 msgctxt "Name"
 msgid "GNOME/GTK Application Styles"
 msgstr "অ্যাপ্লিকেশন তালিকা"
-
-#: kcms/style/kcm_style.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Applications"
-msgctxt "Name"
-msgid "Application Style"
-msgstr "অ্যাপ্লিকেশন তালিকা"
-
-#: kcms/users/kcm_users.desktop:6
-msgctxt "Name"
-msgid "Users"
-msgstr ""
 
 #: kioslave/desktop/./directory.trash:2
 msgctxt "Name"
@@ -875,6 +804,45 @@ msgstr ""
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Colors"
+#~ msgctxt "Name"
+#~ msgid "Colors"
+#~ msgstr "রং"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Session Manager"
+#~ msgctxt "Name"
+#~ msgid "Font Management"
+#~ msgstr "সেশান পরিচালন ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Name"
+#~ msgid "Night Color"
+#~ msgstr "রং"
+
+#~ msgctxt "Name"
+#~ msgid "Notifications"
+#~ msgstr "সূচনাবার্তা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Languages"
+#~ msgctxt "Name"
+#~ msgid "Region & Language"
+#~ msgstr "ভাষা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Applications"
+#~ msgctxt "Name"
+#~ msgid "Application Style"
+#~ msgstr "অ্যাপ্লিকেশন তালিকা"
 
 #, fuzzy
 #~| msgctxt "Name"
