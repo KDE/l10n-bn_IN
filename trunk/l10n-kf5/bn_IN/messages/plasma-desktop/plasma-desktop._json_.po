@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-23 00:57+0000\n"
+"POT-Creation-Date: 2022-07-24 00:57+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -221,6 +221,14 @@ msgstr "মাউস"
 msgctxt "Name"
 msgid "Plasma Renderer"
 msgstr ""
+
+#: kcms/recentFiles/kcm_recentFiles.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Font Files"
+msgctxt "Name"
+msgid "Recent Files"
+msgstr "ফন্ট ফাইল"
 
 #: kcms/runners/krunner/kcm_krunnersettings.json
 #, fuzzy
@@ -544,6 +552,11 @@ msgstr "অ্যাপ্লিকেশন সঞ্চালনকারী"
 msgctxt "Description"
 msgid "Mouse Controls"
 msgstr "তারিখ ও সময়"
+
+#: kcms/recentFiles/kcm_recentFiles.json
+msgctxt "Description"
+msgid "Manage your file activity history preferences"
+msgstr ""
 
 #: kcms/runners/krunner/kcm_krunnersettings.json
 #, fuzzy
@@ -1121,10 +1134,6 @@ msgstr "ফাইল"
 #~ msgctxt "Comment"
 #~ msgid "Install, manage and preview fonts"
 #~ msgstr "ফন্ট ইনস্টল, পরিচালনা করুন ও পূর্বরূপ প্রদর্শন করুন"
-
-#~ msgctxt "Name"
-#~ msgid "Font Files"
-#~ msgstr "ফন্ট ফাইল"
 
 #~ msgctxt "Name"
 #~ msgid "Font Viewer"
