@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-21 00:53+0000\n"
+"POT-Creation-Date: 2022-07-25 00:55+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -204,48 +204,6 @@ msgctxt "Comment"
 msgid "Move windows into screen corners"
 msgstr ""
 
-#: src/kcmkwin/kwincompositing/kwincompositing.desktop:7
-msgctxt "Name"
-msgid "Compositor"
-msgstr ""
-
-#: src/kcmkwin/kwindecoration/kcm_kwindecoration.desktop:7
-#: src/kcmkwin/kwindecoration/package/metadata.desktop:17
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Information"
-msgctxt "Name"
-msgid "Window Decorations"
-msgstr "উইন্ডো সংক্রান্ড তথ্য"
-
-#: src/kcmkwin/kwindecoration/package/metadata.desktop:81
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the window behavior"
-msgctxt "Comment"
-msgid "Configure window titlebars and borders"
-msgstr "উইন্ডোর আচরণ কনফিগার করুন"
-
-#: src/kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:7
-#: src/kcmkwin/kwindesktop/package/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
-msgctxt "Name"
-msgid "Virtual Desktops"
-msgstr "ডেস্কটপ"
-
-#: src/kcmkwin/kwindesktop/package/metadata.desktop:69
-msgctxt "Comment"
-msgid "Configure navigation, number and layout of virtual desktops"
-msgstr ""
-
-#: src/kcmkwin/kwineffects/kcm_kwin_effects.desktop:7
-#: src/kcmkwin/kwineffects/package/metadata.desktop:2
-msgctxt "Name"
-msgid "Desktop Effects"
-msgstr ""
-
 #: src/kcmkwin/kwineffects/kwineffect.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
@@ -254,54 +212,13 @@ msgctxt "Name"
 msgid "Window Manager Effects"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
-#: src/kcmkwin/kwineffects/package/metadata.desktop:56
-msgctxt "Comment"
-msgid "Desktop Effects"
-msgstr ""
-
-#: src/kcmkwin/kwinoptions/kcm_kwinoptions.desktop:7
-msgctxt "Name"
-msgid "Window Behavior"
-msgstr "উইন্ডোর আচরণ"
-
-#: src/kcmkwin/kwinrules/kcm_kwinrules.desktop:7
 #: src/kcmkwin/kwinrules/org.kde.kwin_rules_dialog.desktop:3
-#: src/kcmkwin/kwinrules/package/metadata.desktop:17
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Close"
 msgctxt "Name"
 msgid "Window Rules"
 msgstr "উইন্ডো বন্ধ করুন"
-
-#: src/kcmkwin/kwinrules/package/metadata.desktop:82
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Behavior"
-msgctxt "Comment"
-msgid "Individual Window Behavior"
-msgstr "উইন্ডোর আচরণ"
-
-#: src/kcmkwin/kwinscreenedges/kcm_kwinscreenedges.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen Edges"
-msgstr "স্ক্রিন-সেভার"
-
-#: src/kcmkwin/kwinscreenedges/kcm_kwintouchscreen.desktop:8
-msgctxt "Name"
-msgid "Touch Screen"
-msgstr ""
-
-#: src/kcmkwin/kwinscripts/kcm_kwin_scripts.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "CGI Scripts"
-msgctxt "Name"
-msgid "KWin Scripts"
-msgstr "CGI স্ক্রিপ্ট"
 
 #: src/kcmkwin/kwinscripts/kwinscripts.knsrc:2
 #, fuzzy
@@ -311,24 +228,6 @@ msgctxt "Name"
 msgid "Window Manager Scripts"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
-#: src/kcmkwin/kwintabbox/kcm_kwintabbox.desktop:12
-msgctxt "Name"
-msgid "Task Switcher"
-msgstr ""
-
-#: src/kcmkwin/kwintabbox/kcm_kwintabbox.desktop:76
-msgctxt "Comment"
-msgid "Navigation Through Windows"
-msgstr ""
-
-#: src/kcmkwin/kwintabbox/kcm_kwintabbox.desktop:125
-msgctxt "X-KDE-Keywords"
-msgid ""
-"window,windows,switcher,window switcher,switching,window switching,alttab,"
-"alt-tab,alt+tab,alt tab,apps changer,application changer,app,task,switch,"
-"task switcher"
-msgstr ""
-
 #: src/kcmkwin/kwintabbox/kwinswitcher.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
@@ -336,15 +235,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Window Manager Switching Layouts"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
-
-#: src/kcmkwin/kwinvirtualkeyboard/kcm_virtualkeyboard.desktop:10
-#: src/kcmkwin/kwinvirtualkeyboard/package/metadata.desktop:5
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
-msgctxt "Name"
-msgid "Virtual Keyboard"
-msgstr "ডেস্কটপ"
 
 #: src/kwin.notifyrc:3
 #, fuzzy
@@ -491,6 +381,59 @@ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Information"
+#~ msgctxt "Name"
+#~ msgid "Window Decorations"
+#~ msgstr "উইন্ডো সংক্রান্ড তথ্য"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the window behavior"
+#~ msgctxt "Comment"
+#~ msgid "Configure window titlebars and borders"
+#~ msgstr "উইন্ডোর আচরণ কনফিগার করুন"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop"
+#~ msgctxt "Name"
+#~ msgid "Virtual Desktops"
+#~ msgstr "ডেস্কটপ"
+
+#~ msgctxt "Name"
+#~ msgid "Window Behavior"
+#~ msgstr "উইন্ডোর আচরণ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Behavior"
+#~ msgctxt "Comment"
+#~ msgid "Individual Window Behavior"
+#~ msgstr "উইন্ডোর আচরণ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen Saver"
+#~ msgctxt "Name"
+#~ msgid "Screen Edges"
+#~ msgstr "স্ক্রিন-সেভার"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "CGI Scripts"
+#~ msgctxt "Name"
+#~ msgid "KWin Scripts"
+#~ msgstr "CGI স্ক্রিপ্ট"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop"
+#~ msgctxt "Name"
+#~ msgid "Virtual Keyboard"
+#~ msgstr "ডেস্কটপ"
 
 #, fuzzy
 #~| msgctxt "Name"
