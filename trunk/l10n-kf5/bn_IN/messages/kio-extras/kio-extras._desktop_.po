@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-02 01:00+0000\n"
+"POT-Creation-Date: 2022-07-31 00:57+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,16 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: filenamesearch/kded/filenamesearchmodule.desktop:11
-msgctxt "Name"
-msgid "Search Folder Updater"
-msgstr ""
-
-#: filenamesearch/kded/filenamesearchmodule.desktop:55
-msgctxt "Comment"
-msgid "Allows automatic updates of Search Folders"
-msgstr ""
 
 #: mtp/mtp-network.desktop:3
 #, fuzzy
@@ -45,65 +35,10 @@ msgctxt "Name"
 msgid "Browse Files with File Manager"
 msgstr "ডিফল্ট ব্রাউজার সহযোগে প্রদর্শিত হবে (&d)"
 
-#: recentdocuments/recentdocumentsnotifier.desktop:3
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
-msgctxt "Name"
-msgid "Recent Document Watcher"
-msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
-
-#: recentdocuments/recentdocumentsnotifier.desktop:70
-msgctxt "Comment"
-msgid "Monitors \"Recent Documents\" folder for changes"
-msgstr ""
-
-#: smb/kded/kded_smbwatcher.desktop:18
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
-msgctxt "Name"
-msgid "SMB Watcher"
-msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
-
-#: smb/kded/kded_smbwatcher.desktop:55
-msgctxt "Comment"
-msgid "Monitors directories on the smb:/ protocol for changes"
-msgstr ""
-
 #: smb/smb-network.desktop:3
 msgctxt "Name"
 msgid "Shared Folders (SMB)"
 msgstr ""
-
-#: thumbnail/appimagethumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Image"
-msgctxt "Name"
-msgid "AppImage"
-msgstr "ছবি"
-
-#: thumbnail/audiothumbnail.desktop:3
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Audio Mixer"
-msgctxt "Name"
-msgid "Audio files"
-msgstr "অডিও মিক্সার"
-
-#: thumbnail/comicbookthumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Comoros"
-msgctxt "Name"
-msgid "Comic Books"
-msgstr "কোমোরোস"
-
-#: thumbnail/cursorthumbnail.desktop:3
-msgctxt "Name"
-msgid "Cursor Files"
-msgstr "কার্সারের ফাইল"
 
 #: thumbnail/directorythumbnail.desktop:3
 #, fuzzy
@@ -113,80 +48,96 @@ msgctxt "Name"
 msgid "Folders"
 msgstr "ফোল্ডার"
 
-#: thumbnail/djvuthumbnail.desktop:3
-msgctxt "Name"
-msgid "DjVu Files"
-msgstr "DjVu ফাইল"
-
-#: thumbnail/ebookthumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Bookmarks"
-msgctxt "Name"
-msgid "eBooks"
-msgstr "বুকমার্ক"
-
-#: thumbnail/exrthumbnail.desktop:3
-msgctxt "Name"
-msgid "EXR Images"
-msgstr "EXR ছবি"
-
-#: thumbnail/imagethumbnail.desktop:3
-msgctxt "Name"
-msgid "Images (GIF, PNG, BMP, ...)"
-msgstr ""
-
-#: thumbnail/jpegthumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "EXR Images"
-msgctxt "Name"
-msgid "JPEG Images"
-msgstr "EXR ছবি"
-
-#: thumbnail/kraorathumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Qt3 Online Documentation"
-msgctxt "Name"
-msgid "Krita Documents"
-msgstr "Qt3 সংক্রান্ত অন-লাইন নথিপত্র"
-
-#: thumbnail/opendocumentthumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Qt3 Online Documentation"
-msgctxt "Name"
-msgid "Office Documents"
-msgstr "Qt3 সংক্রান্ত অন-লাইন নথিপত্র"
-
-#: thumbnail/svgthumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Images"
-msgctxt "Name"
-msgid "SVG Images"
-msgstr "ছবি"
-
-#: thumbnail/textthumbnail.desktop:3
-msgctxt "Name"
-msgid "Text Files"
-msgstr "টেক্সট ফাইল"
-
 #: thumbnail/thumbcreator.desktop:4
 msgctxt "Comment"
 msgid "Thumbnail Handler"
 msgstr "থাম্‌ব-নেইল হ্যান্ডলার"
 
-#: thumbnail/windowsexethumbnail.desktop:3
-msgctxt "Name"
-msgid "Microsoft Windows Executables"
-msgstr ""
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Network Analyzer"
+#~ msgctxt "Name"
+#~ msgid "Recent Document Watcher"
+#~ msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
 
-#: thumbnail/windowsimagethumbnail.desktop:3
-msgctxt "Name"
-msgid "Microsoft Windows Images"
-msgstr ""
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Network Analyzer"
+#~ msgctxt "Name"
+#~ msgid "SMB Watcher"
+#~ msgstr "নেটওয়ার্ক বিশ্লেষণ ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Image"
+#~ msgctxt "Name"
+#~ msgid "AppImage"
+#~ msgstr "ছবি"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Audio Mixer"
+#~ msgctxt "Name"
+#~ msgid "Audio files"
+#~ msgstr "অডিও মিক্সার"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Comoros"
+#~ msgctxt "Name"
+#~ msgid "Comic Books"
+#~ msgstr "কোমোরোস"
+
+#~ msgctxt "Name"
+#~ msgid "Cursor Files"
+#~ msgstr "কার্সারের ফাইল"
+
+#~ msgctxt "Name"
+#~ msgid "DjVu Files"
+#~ msgstr "DjVu ফাইল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Bookmarks"
+#~ msgctxt "Name"
+#~ msgid "eBooks"
+#~ msgstr "বুকমার্ক"
+
+#~ msgctxt "Name"
+#~ msgid "EXR Images"
+#~ msgstr "EXR ছবি"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "EXR Images"
+#~ msgctxt "Name"
+#~ msgid "JPEG Images"
+#~ msgstr "EXR ছবি"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Qt3 Online Documentation"
+#~ msgctxt "Name"
+#~ msgid "Krita Documents"
+#~ msgstr "Qt3 সংক্রান্ত অন-লাইন নথিপত্র"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Qt3 Online Documentation"
+#~ msgctxt "Name"
+#~ msgid "Office Documents"
+#~ msgstr "Qt3 সংক্রান্ত অন-লাইন নথিপত্র"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Images"
+#~ msgctxt "Name"
+#~ msgid "SVG Images"
+#~ msgstr "ছবি"
+
+#~ msgctxt "Name"
+#~ msgid "Text Files"
+#~ msgstr "টেক্সট ফাইল"
 
 #~ msgctxt "Name"
 #~ msgid "Network"
