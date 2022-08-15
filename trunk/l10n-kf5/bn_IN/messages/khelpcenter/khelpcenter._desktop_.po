@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-12 00:57+0000\n"
+"POT-Creation-Date: 2022-08-15 00:53+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -63,19 +63,6 @@ msgctxt "Name"
 msgid "Application Manuals"
 msgstr "অ্যাপ্লিকেশনের সহায়িকা"
 
-#: plugins/browsercontrolmodules.desktop:2
-msgctxt "Name"
-msgid "Browser Settings Modules"
-msgstr ""
-
-#: plugins/filemanagercontrolmodules.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "File Manager - Super User Mode"
-msgctxt "Name"
-msgid "Filemanager Settings Modules"
-msgstr "ফাইল পরিচালন ব্যবস্থা - সুপার-ইউজার মোড"
-
 #: plugins/fundamentals.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -106,14 +93,6 @@ msgstr "KInfoCenter মডিউল"
 msgctxt "Name"
 msgid "KIO Workers"
 msgstr ""
-
-#: plugins/konquerorcontrolmodules.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Control Center Modules"
-msgctxt "Name"
-msgid "Konqueror Settings Modules"
-msgstr "কনট্রোল সেন্টারের মডিউল"
 
 #: plugins/Manpages/.directory:2
 msgctxt "Name"
@@ -178,14 +157,6 @@ msgctxt "Name"
 msgid "Online Help"
 msgstr "Dolphin প্রদর্শন"
 
-#: plugins/othercontrolmodules.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Settings"
-msgctxt "Name"
-msgid "Other Settings Modules"
-msgstr "সিস্টেম সংক্রান্ত বৈশিষ্ট্য"
-
 #: plugins/plasma.desktop:4
 msgctxt "Name"
 msgid "Plasma Manual"
@@ -195,6 +166,27 @@ msgstr "Plasma সহায়িকা"
 msgctxt "Name"
 msgid "Scrollkeeper"
 msgstr "স্ক্রোল-কিপার"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "File Manager - Super User Mode"
+#~ msgctxt "Name"
+#~ msgid "Filemanager Settings Modules"
+#~ msgstr "ফাইল পরিচালন ব্যবস্থা - সুপার-ইউজার মোড"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Control Center Modules"
+#~ msgctxt "Name"
+#~ msgid "Konqueror Settings Modules"
+#~ msgstr "কনট্রোল সেন্টারের মডিউল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Settings"
+#~ msgctxt "Name"
+#~ msgid "Other Settings Modules"
+#~ msgstr "সিস্টেম সংক্রান্ত বৈশিষ্ট্য"
 
 #~ msgctxt "Name"
 #~ msgid "Kioslaves"
