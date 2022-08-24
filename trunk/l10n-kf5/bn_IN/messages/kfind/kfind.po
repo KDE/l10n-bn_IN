@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-22 00:49+0000\n"
+"POT-Creation-Date: 2022-08-24 00:50+0000\n"
 "PO-Revision-Date: 2009-01-08 12:28+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -171,7 +171,7 @@ msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "ফাইলের মধ্যে ফলাফল সংরক্ষণ করা হয়েছে\n"
 
-#: kfindtreeview.cpp:644 kftabdlg.cpp:397
+#: kfindtreeview.cpp:644 kftabdlg.cpp:395
 #, kde-format
 msgid "&Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (&P)"
@@ -293,7 +293,7 @@ msgstr "সর্বাধিক"
 msgid "Equal To"
 msgstr "চিহ্নিত মাপের সমান"
 
-#: kftabdlg.cpp:217 kftabdlg.cpp:830
+#: kftabdlg.cpp:217 kftabdlg.cpp:828
 #, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
@@ -420,19 +420,19 @@ msgstr "সর্বধরনের ভিডিও ফাইল"
 msgid "All Sounds"
 msgstr "সর্বধরনের শব্দের ফাইল"
 
-#: kftabdlg.cpp:395
+#: kftabdlg.cpp:393
 #, kde-format
 msgid "Name/&Location"
 msgstr "নাম/অবস্থান (&L)"
 
-#: kftabdlg.cpp:396
+#: kftabdlg.cpp:394
 #, fuzzy, kde-format
 #| msgid "C&ontents"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr "বিষয়বস্তু (&o)"
 
-#: kftabdlg.cpp:401
+#: kftabdlg.cpp:399
 #, kde-format
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
@@ -441,7 +441,7 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:409
+#: kftabdlg.cpp:407
 #, kde-format
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
@@ -449,47 +449,47 @@ msgid ""
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:550
+#: kftabdlg.cpp:548
 #, kde-format
 msgid "Unable to search within a period which is less than a minute."
 msgstr "এক মিনিটের কম সময়ের মধ্যে পরিবর্তিত ফাইল অনুসন্ধান করতে ব্যর্থ।"
 
-#: kftabdlg.cpp:561
+#: kftabdlg.cpp:559
 #, kde-format
 msgid "The date is not valid."
 msgstr "তারিখ বৈধ নয়।"
 
-#: kftabdlg.cpp:563
+#: kftabdlg.cpp:561
 #, kde-format
 msgid "Invalid date range."
 msgstr "তারিখের সীমা বৈধ নয়।"
 
-#: kftabdlg.cpp:565
+#: kftabdlg.cpp:563
 #, kde-format
 msgid "Unable to search dates in the future."
 msgstr "ভবিষ্যতের তারিখ অনুসন্ধান করতে ব্যর্থ।"
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Size is too big. Set maximum size value?"
 msgstr "অত্যাধিক বড় মাপ। সর্বাধিক মাপ নির্ধারণ করা হবে কি?"
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Error"
 msgstr "ত্রুটি"
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Set"
 msgstr "নির্ধারণ করা হবে"
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Do Not Set"
 msgstr "নির্ধারণ করা হবে না"
 
-#: kftabdlg.cpp:820
+#: kftabdlg.cpp:818
 #, fuzzy, kde-format
 #| msgid "&during the previous"
 msgctxt ""
@@ -500,7 +500,7 @@ msgid_plural "&during the previous"
 msgstr[0] "পূর্ববর্তী (&d)"
 msgstr[1] "পূর্ববর্তী (&d)"
 
-#: kftabdlg.cpp:821
+#: kftabdlg.cpp:819
 #, fuzzy, kde-format
 #| msgid "minute(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -509,7 +509,7 @@ msgid_plural "minutes"
 msgstr[0] "মিনিটের মধ্যে"
 msgstr[1] "মিনিটের মধ্যে"
 
-#: kftabdlg.cpp:822
+#: kftabdlg.cpp:820
 #, fuzzy, kde-format
 #| msgid "hour(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -518,7 +518,7 @@ msgid_plural "hours"
 msgstr[0] "ঘন্টার মধ্যে"
 msgstr[1] "ঘন্টার মধ্যে"
 
-#: kftabdlg.cpp:823
+#: kftabdlg.cpp:821
 #, fuzzy, kde-format
 #| msgid "day(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -527,7 +527,7 @@ msgid_plural "days"
 msgstr[0] "দিনের মধ্যে"
 msgstr[1] "দিনের মধ্যে"
 
-#: kftabdlg.cpp:824
+#: kftabdlg.cpp:822
 #, fuzzy, kde-format
 #| msgid "month(s)"
 msgctxt "use date ranges to search files by modified time"
@@ -536,7 +536,7 @@ msgid_plural "months"
 msgstr[0] "মাসের মধ্যে"
 msgstr[1] "মাসের মধ্যে"
 
-#: kftabdlg.cpp:825
+#: kftabdlg.cpp:823
 #, fuzzy, kde-format
 #| msgid "year(s)"
 msgctxt "use date ranges to search files by modified time"
