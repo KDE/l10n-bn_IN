@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-22 00:49+0000\n"
+"POT-Creation-Date: 2022-08-26 00:48+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -3354,172 +3354,178 @@ msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr ""
 
-#: ViewManager.cpp:131
+#: ViewManager.cpp:129
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Split View Automatically"
+msgstr ""
+
+#: ViewManager.cpp:139
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 2x2 terminals"
 msgstr ""
 
-#: ViewManager.cpp:140
+#: ViewManager.cpp:148
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 2x1 terminals"
 msgstr ""
 
-#: ViewManager.cpp:149
+#: ViewManager.cpp:157
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load a new tab with layout 1x2 terminals"
 msgstr ""
 
-#: ViewManager.cpp:157
+#: ViewManager.cpp:165
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr ""
 
-#: ViewManager.cpp:165
+#: ViewManager.cpp:173
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr ""
 
-#: ViewManager.cpp:175
+#: ViewManager.cpp:183
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "Detach Current &View"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: ViewManager.cpp:187
+#: ViewManager.cpp:195
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "Detach Current &Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করুন"
 
-#: ViewManager.cpp:192
+#: ViewManager.cpp:200
 #, fuzzy, kde-format
 #| msgid "New &Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "নতুন ট্যাব (&T)"
 
-#: ViewManager.cpp:200
+#: ViewManager.cpp:208
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "পূর্ববর্তী"
 
-#: ViewManager.cpp:208
+#: ViewManager.cpp:216
 #, fuzzy, kde-format
 #| msgid "Above Terminal Displays"
 msgctxt "@action Shortcut entry"
 msgid "Focus Above Terminal"
 msgstr "টার্মিন্যালের প্রদর্শনের উপরেী"
 
-#: ViewManager.cpp:215
+#: ViewManager.cpp:223
 #, fuzzy, kde-format
 #| msgid "Below Terminal Displays"
 msgctxt "@action Shortcut entry"
 msgid "Focus Below Terminal"
 msgstr "টার্মিন্যালের প্রদর্শনের নীচে"
 
-#: ViewManager.cpp:222
+#: ViewManager.cpp:230
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Left Terminal"
 msgstr ""
 
-#: ViewManager.cpp:228
+#: ViewManager.cpp:236
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Right Terminal"
 msgstr ""
 
-#: ViewManager.cpp:234
+#: ViewManager.cpp:242
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: ViewManager.cpp:239
+#: ViewManager.cpp:247
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs"
 msgstr ""
 
-#: ViewManager.cpp:244
+#: ViewManager.cpp:252
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle Between Two Tabs"
 msgstr ""
 
-#: ViewManager.cpp:249
+#: ViewManager.cpp:257
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs (Reverse)"
 msgstr ""
 
-#: ViewManager.cpp:254
+#: ViewManager.cpp:262
 #, kde-format
 msgctxt "@action Shortcut entry"
-msgid "Toggle maximize current view"
-msgstr ""
-
-#: ViewManager.cpp:255
-#, kde-format
-msgctxt "@action:inmenu"
 msgid "Toggle maximize current view"
 msgstr ""
 
 #: ViewManager.cpp:263
 #, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle maximize current view"
+msgstr ""
+
+#: ViewManager.cpp:271
+#, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the right"
 msgstr ""
 
-#: ViewManager.cpp:270
+#: ViewManager.cpp:278
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the left"
 msgstr ""
 
-#: ViewManager.cpp:277
+#: ViewManager.cpp:285
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Setup semantic integration (bash)"
 msgstr ""
 
-#: ViewManager.cpp:284
+#: ViewManager.cpp:292
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Equal size to all views"
 msgstr ""
 
-#: ViewManager.cpp:294
+#: ViewManager.cpp:302
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে পরিবর্তন করুন"
 
-#: ViewManager.cpp:1009
+#: ViewManager.cpp:1029
 #, fuzzy, kde-format
 #| msgid "Open Link"
 msgctxt "@title:window"
 msgid "Save File"
 msgstr "লিংক প্রদর্শন"
 
-#: ViewManager.cpp:1009 ViewManager.cpp:1093
+#: ViewManager.cpp:1029 ViewManager.cpp:1113
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr ""
 
-#: ViewManager.cpp:1022
+#: ViewManager.cpp:1042
 #, fuzzy, kde-format
 #| msgid ""
 #| "A problem occurred when saving the output.\n"
@@ -3532,7 +3538,7 @@ msgstr ""
 "ফলাফল সংরক্ষণে সমস্যা।\n"
 "%1"
 
-#: ViewManager.cpp:1083
+#: ViewManager.cpp:1103
 #, fuzzy, kde-format
 #| msgid ""
 #| "A problem occurred when saving the output.\n"
@@ -3545,7 +3551,7 @@ msgstr ""
 "ফলাফল সংরক্ষণে সমস্যা।\n"
 "%1"
 
-#: ViewManager.cpp:1093
+#: ViewManager.cpp:1113
 #, fuzzy, kde-format
 #| msgid "Open Link"
 msgctxt "@title:window"
