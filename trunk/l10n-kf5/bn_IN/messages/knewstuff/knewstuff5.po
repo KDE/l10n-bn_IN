@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-13 00:42+0000\n"
+"POT-Creation-Date: 2022-09-14 00:42+0000\n"
 "PO-Revision-Date: 2009-12-28 14:35+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -573,7 +573,7 @@ msgid "Provider:"
 msgstr "উপলব্ধকারী:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
-#: downloadwidget.ui:71 qtquick/qml/Page.qml:423
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:426
 #, kde-format
 msgid "Category:"
 msgstr "শ্রেণী:"
@@ -849,12 +849,6 @@ msgctxt ""
 "available"
 msgid "Download New Stuff"
 msgstr "নতুন জিনিস ডাউনলোড করুন..."
-
-#: qtquick/qml/Dialog.qml:128
-#, fuzzy, kde-format
-#| msgid "Continue operation"
-msgid "Contribute your own..."
-msgstr "কর্মে এগিয়ে চলুন"
 
 #: qtquick/qml/DownloadItemsSheet.qml:30
 #, kde-format
@@ -1212,7 +1206,13 @@ msgstr ""
 msgid "Go to..."
 msgstr "চিহ্নিত অবস্থানে চলুন...(&G)"
 
-#: qtquick/qml/Page.qml:494
+#: qtquick/qml/Page.qml:442
+#, fuzzy, kde-format
+#| msgid "Continue operation"
+msgid "Contribute your own…"
+msgstr "কর্মে এগিয়ে চলুন"
+
+#: qtquick/qml/Page.qml:508
 #, fuzzy, kde-format
 #| msgid "Loading preview..."
 msgctxt ""
