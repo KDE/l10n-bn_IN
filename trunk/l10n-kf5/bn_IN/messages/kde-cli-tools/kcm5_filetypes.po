@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-23 00:46+0000\n"
+"POT-Creation-Date: 2022-09-28 00:51+0000\n"
 "PO-Revision-Date: 2009-12-28 21:48+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
@@ -34,12 +34,12 @@ msgstr "runab@redhat.com"
 msgid "Left Click Action (only for Konqueror file manager)"
 msgstr ""
 
-#: filegroupdetails.cpp:26 filetypedetails.cpp:134
+#: filegroupdetails.cpp:26 filetypedetails.cpp:133
 #, kde-format
 msgid "Show file in embedded viewer"
 msgstr "এমবেড করা প্রদর্শন ব্যবস্থায় ফাইল প্রদর্শন করা হবে"
 
-#: filegroupdetails.cpp:27 filetypedetails.cpp:135
+#: filegroupdetails.cpp:27 filetypedetails.cpp:134
 #, kde-format
 msgid "Show file in separate viewer"
 msgstr "পৃথক প্রদর্শন ব্যবস্থায় ফাইল প্রদর্শন করা হবে"
@@ -54,19 +54,19 @@ msgid ""
 "configuration. Dolphin  shows files always in a separate viewer"
 msgstr ""
 
-#: filetypedetails.cpp:62
+#: filetypedetails.cpp:61
 #, kde-format
 msgid ""
 "This button displays the icon associated with the selected file type. Click "
 "on it to choose a different icon."
 msgstr ""
 
-#: filetypedetails.cpp:68
+#: filetypedetails.cpp:67
 #, kde-format
 msgid "Filename Patterns"
 msgstr "ফাইলের নামের বিন্যাস"
 
-#: filetypedetails.cpp:80
+#: filetypedetails.cpp:79
 #, kde-format
 msgid ""
 "This box contains a list of patterns that can be used to identify files of "
@@ -75,32 +75,32 @@ msgid ""
 "text files."
 msgstr ""
 
-#: filetypedetails.cpp:88 filetypesview.cpp:103 kservicelistwidget.cpp:103
+#: filetypedetails.cpp:87 filetypesview.cpp:103 kservicelistwidget.cpp:102
 #, kde-format
 msgid "Add..."
 msgstr "যোগ করুন..."
 
-#: filetypedetails.cpp:93
+#: filetypedetails.cpp:92
 #, kde-format
 msgid "Add a new pattern for the selected file type."
 msgstr "নির্বাচিত ধরনের ফাইলের জন্য একটি নতুন বিন্যাস যোগ করুন।"
 
-#: filetypedetails.cpp:95 kservicelistwidget.cpp:117
+#: filetypedetails.cpp:94 kservicelistwidget.cpp:116
 #, kde-format
 msgid "Remove"
 msgstr "মুছে ফেলুন"
 
-#: filetypedetails.cpp:100
+#: filetypedetails.cpp:99
 #, kde-format
 msgid "Remove the selected filename pattern."
 msgstr "নির্বাচিত ফাইলের নামের বিন্যাস মুছে ফেলুন।"
 
-#: filetypedetails.cpp:111
+#: filetypedetails.cpp:110
 #, kde-format
 msgid "Description:"
 msgstr "বিবরণ:"
 
-#: filetypedetails.cpp:116
+#: filetypedetails.cpp:115
 #, kde-format
 msgid ""
 "You can enter a short description for files of the selected file type (e.g. "
@@ -108,19 +108,19 @@ msgid ""
 "to display directory content."
 msgstr ""
 
-#: filetypedetails.cpp:129
+#: filetypedetails.cpp:128
 #, kde-format
 msgid "Left Click Action in Konqueror"
 msgstr ""
 
-#: filetypedetails.cpp:138
+#: filetypedetails.cpp:137
 #, kde-format
 msgid "Ask whether to save to disk instead (only for Konqueror browser)"
 msgstr ""
 "পরিবর্তে ডিস্কে সংরক্ষণ করা হবে কি না তা জিজ্ঞাসা করা হবে (শুধুমাত্র Konqueror "
 "ব্রাউজারের ক্ষেত্রে প্রযোজ্য)"
 
-#: filetypedetails.cpp:154
+#: filetypedetails.cpp:153
 #, kde-format
 msgid ""
 "Here you can configure what the Konqueror file manager will do when you "
@@ -131,32 +131,32 @@ msgid ""
 "file type is image/png. Dolphin always shows files in a separate viewer."
 msgstr ""
 
-#: filetypedetails.cpp:166
+#: filetypedetails.cpp:165
 #, kde-format
 msgid "&General"
 msgstr "সাধারণ (&G)"
 
-#: filetypedetails.cpp:167
+#: filetypedetails.cpp:166
 #, kde-format
 msgid "&Embedding"
 msgstr "এমবেড ব্যবস্থা (&E)"
 
-#: filetypedetails.cpp:208
+#: filetypedetails.cpp:207
 #, kde-format
 msgid "Add New Extension"
 msgstr "নতুন এক্সটেনশন যোগ করুন"
 
-#: filetypedetails.cpp:208
+#: filetypedetails.cpp:207
 #, kde-format
 msgid "Extension:"
 msgstr "এক্সটেনশন:"
 
-#: filetypedetails.cpp:326
+#: filetypedetails.cpp:325
 #, kde-format
 msgid "File type %1"
 msgstr "ফাইলের ধরন %1"
 
-#: filetypedetails.cpp:334
+#: filetypedetails.cpp:333
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr "'%1' দলের বৈশিষ্ট্য ব্যবহার করা হবে"
@@ -313,22 +313,22 @@ msgstr "ফাইলের ধরন %1 সম্পাদনা করুন"
 msgid "Create New File Type %1"
 msgstr "নতুন ফাইলের ধরন %1 নির্মাণ করুন"
 
-#: kservicelistwidget.cpp:37
+#: kservicelistwidget.cpp:36
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kservicelistwidget.cpp:50
+#: kservicelistwidget.cpp:49
 #, kde-format
 msgid "Application Preference Order"
 msgstr "পছন্দসই অ্যাপ্লিকেশনের অনুক্রম"
 
-#: kservicelistwidget.cpp:50
+#: kservicelistwidget.cpp:49
 #, kde-format
 msgid "Services Preference Order"
 msgstr "পছন্দসই পরিসেবার অনুক্রম"
 
-#: kservicelistwidget.cpp:61
+#: kservicelistwidget.cpp:60
 #, kde-format
 msgid ""
 "This is a list of applications associated with files of the selected file "
@@ -338,7 +338,7 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:66
+#: kservicelistwidget.cpp:65
 #, kde-format
 msgid ""
 "This is a list of services associated with files of the selected file type. "
@@ -348,12 +348,12 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:78
+#: kservicelistwidget.cpp:77
 #, kde-format
 msgid "Move &Up"
 msgstr "উপরে স্থানান্তর (&U)"
 
-#: kservicelistwidget.cpp:84
+#: kservicelistwidget.cpp:83
 #, kde-format
 msgid ""
 "Assigns a higher priority to the selected\n"
@@ -362,19 +362,19 @@ msgid ""
 "associated with more than one application."
 msgstr ""
 
-#: kservicelistwidget.cpp:88
+#: kservicelistwidget.cpp:87
 #, kde-format
 msgid ""
 "Assigns a higher priority to the selected\n"
 "service, moving it up in the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:91
+#: kservicelistwidget.cpp:90
 #, kde-format
 msgid "Move &Down"
 msgstr "নীচে স্থানান্তর (&D)"
 
-#: kservicelistwidget.cpp:96
+#: kservicelistwidget.cpp:95
 #, kde-format
 msgid ""
 "Assigns a lower priority to the selected\n"
@@ -383,40 +383,40 @@ msgid ""
 "associated with more than one application."
 msgstr ""
 
-#: kservicelistwidget.cpp:100
+#: kservicelistwidget.cpp:99
 #, kde-format
 msgid ""
 "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:108
+#: kservicelistwidget.cpp:107
 #, kde-format
 msgid "Add a new application for this file type."
 msgstr "এই ফাইলের ধরনের জন্য একটি নতুন অ্যাপ্লিকেশন যোগ করুন।"
 
-#: kservicelistwidget.cpp:110
+#: kservicelistwidget.cpp:109
 #, kde-format
 msgid "Edit..."
 msgstr "সম্পাদনা..."
 
-#: kservicelistwidget.cpp:115
+#: kservicelistwidget.cpp:114
 #, kde-format
 msgid "Edit command line of the selected application."
 msgstr "নির্বাচিত অ্যাপ্লিকেশনের কমান্ড-লাইন সম্পাদনা করুন।"
 
-#: kservicelistwidget.cpp:122
+#: kservicelistwidget.cpp:121
 #, kde-format
 msgid "Remove the selected application from the list."
 msgstr "নির্বাচিত অ্যাপ্লিকেশনটি তালিকা থেকে সরিয়ে নিন।"
 
-#: kservicelistwidget.cpp:145
+#: kservicelistwidget.cpp:144
 #, kde-format
 msgctxt "No applications associated with this file type"
 msgid "None"
 msgstr "শূণ্য"
 
-#: kservicelistwidget.cpp:147
+#: kservicelistwidget.cpp:146
 #, kde-format
 msgctxt "No components associated with this file type"
 msgid "None"
@@ -432,27 +432,27 @@ msgstr "পরিসেবা যোগ করুন"
 msgid "Select service:"
 msgstr "পরিসেবা নির্বাচন করুন:"
 
-#: newtypedlg.cpp:28
+#: newtypedlg.cpp:25
 #, kde-format
 msgid "Create New File Type"
 msgstr "নতুন ফাইলের ধরন নির্মাণ করুন"
 
-#: newtypedlg.cpp:33
+#: newtypedlg.cpp:30
 #, kde-format
 msgid "Group:"
 msgstr "দল:"
 
-#: newtypedlg.cpp:42
+#: newtypedlg.cpp:39
 #, kde-format
 msgid "Select the category under which the new file type should be added."
 msgstr ""
 
-#: newtypedlg.cpp:47
+#: newtypedlg.cpp:44
 #, kde-format
 msgid "Type name:"
 msgstr "ধরনের নাম:"
 
-#: newtypedlg.cpp:53
+#: newtypedlg.cpp:50
 #, kde-format
 msgid ""
 "Type the name of the file type. For instance, if you selected 'image' as "
