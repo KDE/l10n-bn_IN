@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-29 00:50+0000\n"
+"POT-Creation-Date: 2022-10-01 00:52+0000\n"
 "PO-Revision-Date: 2008-12-29 15:34+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -1346,13 +1346,13 @@ msgstr ""
 #: MainWindow.cpp:376
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Save tab layout to file"
+msgid "Save Tab Layout..."
 msgstr ""
 
 #: MainWindow.cpp:385
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Load tab layout from file"
+msgid "Load Tab Layout..."
 msgstr ""
 
 #: MainWindow.cpp:618 MainWindow.cpp:635
@@ -3561,20 +3561,19 @@ msgstr "দূরবর্তী সংযোগ"
 msgid "Line numbers "
 msgstr "সুনিশ্চিত পংক্তি সংখ্যা: "
 
-#: ViewManager.cpp:1073
-#, fuzzy, kde-format
-#| msgid "Open Link"
+#: ViewManager.cpp:1074
+#, kde-format
 msgctxt "@title:window"
-msgid "Save File"
-msgstr "লিংক প্রদর্শন"
+msgid "Save Tab Layout"
+msgstr ""
 
-#: ViewManager.cpp:1073 ViewManager.cpp:1157
+#: ViewManager.cpp:1076 ViewManager.cpp:1163
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr ""
 
-#: ViewManager.cpp:1086
+#: ViewManager.cpp:1089
 #, fuzzy, kde-format
 #| msgid ""
 #| "A problem occurred when saving the output.\n"
@@ -3587,7 +3586,7 @@ msgstr ""
 "ফলাফল সংরক্ষণে সমস্যা।\n"
 "%1"
 
-#: ViewManager.cpp:1147
+#: ViewManager.cpp:1150
 #, fuzzy, kde-format
 #| msgid ""
 #| "A problem occurred when saving the output.\n"
@@ -3600,12 +3599,11 @@ msgstr ""
 "ফলাফল সংরক্ষণে সমস্যা।\n"
 "%1"
 
-#: ViewManager.cpp:1157
-#, fuzzy, kde-format
-#| msgid "Open Link"
+#: ViewManager.cpp:1161
+#, kde-format
 msgctxt "@title:window"
-msgid "Open File"
-msgstr "লিংক প্রদর্শন"
+msgid "Load Tab Layout"
+msgstr ""
 
 #: Vt102Emulation.cpp:2313
 #, kde-format
@@ -5307,6 +5305,18 @@ msgstr "ট্যাবের নাম পরিবর্তন করুন...
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "ট্যাব বন্ধ করুন (&C)"
+
+#, fuzzy
+#~| msgid "Open Link"
+#~ msgctxt "@title:window"
+#~ msgid "Save File"
+#~ msgstr "লিংক প্রদর্শন"
+
+#, fuzzy
+#~| msgid "Open Link"
+#~ msgctxt "@title:window"
+#~ msgid "Open File"
+#~ msgstr "লিংক প্রদর্শন"
 
 #~ msgid "Size: XXX x XXX"
 #~ msgstr "মাপ: XXX x XXX"
