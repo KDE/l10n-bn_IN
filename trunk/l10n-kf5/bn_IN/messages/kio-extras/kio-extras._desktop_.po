@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-31 00:57+0000\n"
+"POT-Creation-Date: 2022-11-27 00:55+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -19,6 +19,22 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: afc/afc-network.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "Apple Devices"
+msgstr "ডিভাইস"
+
+#: afc/solid_afc.desktop:9 mtp/solid_mtp.desktop:9
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Open with &default Browser"
+msgctxt "Name"
+msgid "Browse Files with File Manager"
+msgstr "ডিফল্ট ব্রাউজার সহযোগে প্রদর্শিত হবে (&d)"
+
 #: mtp/mtp-network.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -26,14 +42,6 @@ msgstr ""
 msgctxt "Name"
 msgid "MTP Devices"
 msgstr "ডিভাইস"
-
-#: mtp/solid_mtp.desktop:9
-#, fuzzy
-#| msgctxt "Description"
-#| msgid "Open with &default Browser"
-msgctxt "Name"
-msgid "Browse Files with File Manager"
-msgstr "ডিফল্ট ব্রাউজার সহযোগে প্রদর্শিত হবে (&d)"
 
 #: smb/smb-network.desktop:3
 msgctxt "Name"
@@ -8059,13 +8067,6 @@ msgstr "থাম্‌ব-নেইল হ্যান্ডলার"
 #~ msgctxt "Name"
 #~ msgid "Hardware"
 #~ msgstr "হার্ডওয়্যার"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
-#~ msgctxt "Name"
-#~ msgid "Input Devices"
-#~ msgstr "ডিভাইস"
 
 #, fuzzy
 #~| msgctxt "Name"
