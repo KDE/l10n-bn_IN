@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-13 01:07+0000\n"
+"POT-Creation-Date: 2022-12-18 01:05+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -24,15 +24,12 @@ msgctxt "Comment"
 msgid "KWin Effect"
 msgstr "KWin ইফেক্ট"
 
-#: src/kcmkwin/kwineffects/kwineffect.knsrc:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
+#: src/kcms/effects/kwineffect.knsrc:2
 msgctxt "Name"
-msgid "Window Manager Effects"
-msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+msgid "Desktop Effects"
+msgstr ""
 
-#: src/kcmkwin/kwinrules/org.kde.kwin_rules_dialog.desktop:3
+#: src/kcms/rules/org.kde.kwin_rules_dialog.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Close"
@@ -40,7 +37,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "উইন্ডো বন্ধ করুন"
 
-#: src/kcmkwin/kwinscripts/kwinscripts.knsrc:2
+#: src/kcms/scripts/kwinscripts.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -48,7 +45,7 @@ msgctxt "Name"
 msgid "Window Manager Scripts"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
-#: src/kcmkwin/kwintabbox/kwinswitcher.knsrc:2
+#: src/kcms/tabbox/kwinswitcher.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -152,6 +149,13 @@ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Manager"
+#~ msgctxt "Name"
+#~ msgid "Window Manager Effects"
+#~ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
 #~ msgctxt "Name"
 #~ msgid "Plastik"
