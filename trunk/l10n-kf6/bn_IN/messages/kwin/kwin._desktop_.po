@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-11 01:05+0000\n"
+"POT-Creation-Date: 2023-03-18 02:37+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -18,11 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: src/effects/kwineffect.desktop:5
-msgctxt "Comment"
-msgid "KWin Effect"
-msgstr "KWin ইফেক্ট"
 
 #: src/kcms/effects/kwineffect.knsrc:2
 msgctxt "Name"
@@ -94,14 +89,6 @@ msgctxt "Comment"
 msgid "Xwayland has crashed"
 msgstr ""
 
-#: src/plugins/kdecorations/aurorae/src/kwindecoration.desktop:5
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Information"
-msgctxt "Comment"
-msgid "KWin Window Decoration"
-msgstr "উইন্ডো সংক্রান্ড তথ্য"
-
 #: src/plugins/krunner-integration/kwin-runner-windows.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -126,29 +113,37 @@ msgid ""
 "Lists all other desktops and allows to switch to them."
 msgstr ""
 
-#: src/scripting/kwinscript.desktop:5
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "CGI Scripts"
-msgctxt "Comment"
-msgid "KWin Script"
-msgstr "CGI স্ক্রিপ্ট"
+#~ msgctxt "Comment"
+#~ msgid "KWin Effect"
+#~ msgstr "KWin ইফেক্ট"
 
-#: src/tabbox/kwindesktopswitcher.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
-msgctxt "Comment"
-msgid "KWin Desktop Switcher Layout"
-msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+#~| msgctxt "Name"
+#~| msgid "Window Information"
+#~ msgctxt "Comment"
+#~ msgid "KWin Window Decoration"
+#~ msgstr "উইন্ডো সংক্রান্ড তথ্য"
 
-#: src/tabbox/kwinwindowswitcher.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
-msgctxt "Comment"
-msgid "KWin Window Switcher Layout"
-msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+#~| msgctxt "Name"
+#~| msgid "CGI Scripts"
+#~ msgctxt "Comment"
+#~ msgid "KWin Script"
+#~ msgstr "CGI স্ক্রিপ্ট"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Manager"
+#~ msgctxt "Comment"
+#~ msgid "KWin Desktop Switcher Layout"
+#~ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Manager"
+#~ msgctxt "Comment"
+#~ msgid "KWin Window Switcher Layout"
+#~ msgstr "উইন্ডো পরিচালন ব্যবস্থা"
 
 #, fuzzy
 #~| msgctxt "Name"
