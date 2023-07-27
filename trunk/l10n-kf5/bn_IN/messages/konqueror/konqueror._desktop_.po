@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-28 00:55+0000\n"
+"POT-Creation-Date: 2023-07-27 00:53+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -352,6 +352,7 @@ msgid "Configure the use of Cache"
 msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগার করুন"
 
 #: settings/konqhtml/cache/khtml_cache.desktop:115
+#: settings/konqhtml/useragent/khtml_useragent.desktop:13
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,browser,html,web,www"
 msgstr ""
@@ -453,6 +454,19 @@ msgstr "Java ও JavaScript-র আচরণ কনফিগার করুন"
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,java,javascript"
 msgstr ""
+
+#: settings/konqhtml/useragent/khtml_useragent.desktop:10
+msgctxt "Name"
+msgid "Browser Identification"
+msgstr "ব্রাউজার সনাক্তকরণ"
+
+#: settings/konqhtml/useragent/khtml_useragent.desktop:12
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure trash settings"
+msgctxt "Comment"
+msgid "Configure the user agent string"
+msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #: settings/performance/kcmkonqyperformance.desktop:9
 msgctxt "Name"
@@ -1228,10 +1242,6 @@ msgstr "সার্চ-ইঞ্জিন"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
 
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "ব্রাউজার সনাক্তকরণ"
-
 #~ msgctxt "Comment"
 #~ msgid "Configure the way Konqueror reports itself"
 #~ msgstr "Konqueror দ্বারা নিজস্ব পরিচিতি প্রদর্শন কনফিগার করুন"
@@ -1874,10 +1884,6 @@ msgstr "সার্চ-ইঞ্জিন"
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the trash."
 #~ msgstr "এই পরিসেবা দ্বারা আবর্জনার বাক্স কনফিগার করা যাবে।"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure trash settings"
-#~ msgstr "আবর্জনার বাক্স সংক্রান্ত বৈশিষ্ট্য কনফিগার করুন"
 
 #~ msgctxt "ExtraNames"
 #~ msgid "Original Path,Deletion Date"
