@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-28 00:53+0000\n"
+"POT-Creation-Date: 2023-09-25 00:48+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -160,14 +160,6 @@ msgctxt "X-KDE-Keywords"
 msgid "konqueror,reuse,preloading"
 msgstr "KDED Konqueror প্রি-লোডার মডিউল"
 
-#: sidebar/bookmarks_module/konqsidebar_bookmarks.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web SideBar Module"
-msgctxt "Name"
-msgid "Bookmarks SideBar Module"
-msgstr "ওয়েব সাইড-বার মডিউল"
-
 #: sidebar/default_entries/bookmarks.desktop:12
 #: sidebar/trees/init/bookmarks_module.desktop:5
 msgctxt "Name"
@@ -249,30 +241,6 @@ msgctxt "Name"
 msgid "Services"
 msgstr "পরিসেবা"
 
-#: sidebar/history_module/konqsidebar_history.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "History Sidebar"
-msgctxt "Name"
-msgid "History SideBar Module"
-msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
-
-#: sidebar/places_module/konqsidebar_places.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web SideBar Module"
-msgctxt "Name"
-msgid "Places SideBar Module"
-msgstr "ওয়েব সাইড-বার মডিউল"
-
-#: sidebar/tree_module/konqsidebar_tree.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web SideBar Module"
-msgctxt "Name"
-msgid "Tree SideBar Module"
-msgstr "ওয়েব সাইড-বার মডিউল"
-
 #: sidebar/trees/init/dirtree_module.desktop:5
 #: sidebar/trees/konqsidebar_tree.desktop:4
 msgctxt "Name"
@@ -338,6 +306,34 @@ msgstr "ওয়েব সাইড-বার মডিউল"
 msgctxt "Name"
 msgid "About-Page for Konqueror"
 msgstr "Konqueror-র পরিচিতির পেজ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web SideBar Module"
+#~ msgctxt "Name"
+#~ msgid "Bookmarks SideBar Module"
+#~ msgstr "ওয়েব সাইড-বার মডিউল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "History Sidebar"
+#~ msgctxt "Name"
+#~ msgid "History SideBar Module"
+#~ msgstr "পূর্ববর্তী তথ্য প্রদর্শনকারী পাশ্ববর্তী-বার"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web SideBar Module"
+#~ msgctxt "Name"
+#~ msgid "Places SideBar Module"
+#~ msgstr "ওয়েব সাইড-বার মডিউল"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web SideBar Module"
+#~ msgctxt "Name"
+#~ msgid "Tree SideBar Module"
+#~ msgstr "ওয়েব সাইড-বার মডিউল"
 
 #, fuzzy
 #~| msgctxt "Comment"
