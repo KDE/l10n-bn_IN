@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-26 01:53+0000\n"
+"POT-Creation-Date: 2023-10-21 01:45+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -260,19 +260,6 @@ msgstr "ফাইল ও ডিরেক্টরি"
 #| msgid "Locations"
 msgctxt "Name"
 msgid "Geolocation"
-msgstr "অবস্থান"
-
-#: dataengines/geolocation/plasma-geolocation-gps.json
-msgctxt "Name"
-msgid "Geolocation GPS"
-msgstr ""
-
-#: dataengines/geolocation/plasma-geolocation-ip.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Name"
-msgid "Geolocation IP"
 msgstr "অবস্থান"
 
 #: dataengines/hotplug/plasma-dataengine-hotplug.json
@@ -896,22 +883,6 @@ msgctxt "Description"
 msgid "Geolocation Data Engine"
 msgstr "Python ডাটা ইঞ্জিন"
 
-#: dataengines/geolocation/plasma-geolocation-gps.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Description"
-msgid "Geolocation from GPS address."
-msgstr "অবস্থান"
-
-#: dataengines/geolocation/plasma-geolocation-ip.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Description"
-msgid "Geolocation from IP address."
-msgstr "অবস্থান"
-
 #: dataengines/hotplug/plasma-dataengine-hotplug.json
 msgctxt "Description"
 msgid "Tracks hot-pluggable devices as they appear and disappear."
@@ -1477,6 +1448,27 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Name"
+#~ msgid "Geolocation IP"
+#~ msgstr "অবস্থান"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Description"
+#~ msgid "Geolocation from GPS address."
+#~ msgstr "অবস্থান"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Description"
+#~ msgid "Geolocation from IP address."
+#~ msgstr "অবস্থান"
 
 #, fuzzy
 #~| msgctxt "Name"
