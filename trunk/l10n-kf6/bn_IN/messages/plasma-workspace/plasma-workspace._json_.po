@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-10 01:54+0000\n"
+"POT-Creation-Date: 2023-11-14 01:45+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -317,11 +317,6 @@ msgctxt "Name"
 msgid "Status Notifier Information"
 msgstr "আওয়াজ সংক্রান্ত তথ্য"
 
-#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.json
-msgctxt "Name"
-msgid "System Monitor"
-msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
-
 #: dataengines/time/plasma-dataengine-time.json
 msgctxt "Name"
 msgid "Date and Time"
@@ -450,12 +445,9 @@ msgid "Global Theme"
 msgstr ""
 
 #: kcms/nightcolor/kcm_nightcolor.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Color"
 msgctxt "Name"
-msgid "Night Color"
-msgstr "রং"
+msgid "Night Light"
+msgstr ""
 
 #: kcms/region_language/kcm_regionandlang.json
 #, fuzzy
@@ -637,11 +629,6 @@ msgstr "ওয়েব শর্ট-কাট"
 msgctxt "Name"
 msgid "Status Notifier Manager"
 msgstr "KDE Notification ডেমন"
-
-#: systemmonitor/ksysguard.json
-msgctxt "Name"
-msgid "KSysguard"
-msgstr ""
 
 #: wallpapers/color/metadata.json
 #, fuzzy
@@ -944,14 +931,6 @@ msgid ""
 "protocol."
 msgstr ""
 
-#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Sound information"
-msgctxt "Description"
-msgid "System status information"
-msgstr "আওয়াজ সংক্রান্ত তথ্য"
-
 #: dataengines/time/plasma-dataengine-time.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -1064,7 +1043,7 @@ msgstr ""
 
 #: kcms/nightcolor/kcm_nightcolor.json
 msgctxt "Description"
-msgid "Adjust color temperature based on time"
+msgid "Adjust screen color temperature based on time"
 msgstr ""
 
 #: kcms/notifications/kcm_notifications.json
@@ -1245,11 +1224,6 @@ msgstr ""
 #: statusnotifierwatcher/statusnotifierwatcher.json
 msgctxt "Description"
 msgid "Manages services that provide status notifier user interfaces"
-msgstr ""
-
-#: systemmonitor/ksysguard.json
-msgctxt "Description"
-msgid "Launches KSysguard on Ctrl + Escape"
 msgstr ""
 
 #: wallpapers/color/metadata.json
@@ -1461,6 +1435,24 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "System Monitor"
+#~ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Name"
+#~ msgid "Night Color"
+#~ msgstr "রং"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Sound information"
+#~ msgctxt "Description"
+#~ msgid "System status information"
+#~ msgstr "আওয়াজ সংক্রান্ত তথ্য"
 
 #, fuzzy
 #~| msgctxt "Name"
