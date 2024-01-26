@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-22 03:12+0000\n"
+"POT-Creation-Date: 2024-01-26 02:32+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -74,7 +74,6 @@ msgid "Screen Locking"
 msgstr ""
 
 #: app/systemsettings.desktop:451
-#: categories/settings-hardware-powermanagement.desktop:8
 msgctxt "Name"
 msgid "Energy Saving"
 msgstr ""
@@ -185,14 +184,6 @@ msgctxt "Name"
 msgid "Disks & Cameras"
 msgstr ""
 
-#: categories/settings-network-connectivity.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Network & Connectivity"
-msgctxt "Name"
-msgid "Connectivity"
-msgstr "নেটওয়ার্ক ও সংযোগ"
-
 #: categories/settings-network.desktop:8
 msgctxt "Name"
 msgid "Internet"
@@ -239,14 +230,6 @@ msgctxt "Name"
 msgid "Workspace"
 msgstr "ওয়বের আচরণ"
 
-#: categories/settings-workspace-desktopbehavior.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Behavior"
-msgctxt "Name"
-msgid "Behavior"
-msgstr "উইন্ডোর আচরণ"
-
 #: categories/settings-workspace-search.desktop:8
 msgctxt "Name"
 msgid "Search"
@@ -260,11 +243,6 @@ msgctxt "Name"
 msgid "Session"
 msgstr "পার্টিশন"
 
-#: categories/settings-workspace-shortcuts.desktop:8
-msgctxt "Name"
-msgid "Shortcuts"
-msgstr ""
-
 #: categories/settings-workspace-windowmanagement.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -272,6 +250,20 @@ msgstr ""
 msgctxt "Name"
 msgid "Window Management"
 msgstr "বিদ্যুৎ সরবরাহ পরিচালনা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Network & Connectivity"
+#~ msgctxt "Name"
+#~ msgid "Connectivity"
+#~ msgstr "নেটওয়ার্ক ও সংযোগ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Behavior"
+#~ msgctxt "Name"
+#~ msgid "Behavior"
+#~ msgstr "উইন্ডোর আচরণ"
 
 #, fuzzy
 #~| msgctxt "Name"
