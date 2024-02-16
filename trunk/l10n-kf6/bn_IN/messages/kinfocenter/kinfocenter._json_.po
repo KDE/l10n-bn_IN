@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-16 00:45+0000\n"
+"POT-Creation-Date: 2024-02-16 00:46+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Modules/about-distro/src/kcm_about-distro.json
+#: kcms/about-distro/src/kcm_about-distro.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
@@ -27,7 +27,7 @@ msgctxt "Name"
 msgid "About this System"
 msgstr "ফাইল ও ডিরেক্টরি"
 
-#: Modules/block_devices/kcm_block_devices.json
+#: kcms/block_devices/kcm_block_devices.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -35,12 +35,12 @@ msgctxt "Name"
 msgid "Block Devices"
 msgstr "USB ডিভাইস"
 
-#: Modules/cpu/kcm_cpu.json
+#: kcms/cpu/kcm_cpu.json
 msgctxt "Name"
 msgid "CPU"
 msgstr ""
 
-#: Modules/egl/kcm_egl.json
+#: kcms/egl/kcm_egl.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "OpenGL"
@@ -48,17 +48,17 @@ msgctxt "Name"
 msgid "OpenGL (EGL)"
 msgstr "OpenGL"
 
-#: Modules/energy/kcm_energyinfo.json
+#: kcms/energy/kcm_energyinfo.json
 msgctxt "Name"
 msgid "Energy"
 msgstr ""
 
-#: Modules/firmware_security/kcm_firmware_security.json
+#: kcms/firmware_security/kcm_firmware_security.json
 msgctxt "Name"
 msgid "Firmware Security"
 msgstr ""
 
-#: Modules/glx/kcm_glx.json
+#: kcms/glx/kcm_glx.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "OpenGL"
@@ -66,47 +66,47 @@ msgctxt "Name"
 msgid "OpenGL (GLX)"
 msgstr "OpenGL"
 
-#: Modules/interrupts/kcm_interrupts.json
+#: kcms/interrupts/kcm_interrupts.json
 msgctxt "Name"
 msgid "Interrupts"
 msgstr "ইন্টারাপ্ট"
 
-#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+#: kcms/kwinsupportinfo/kcm_kwinsupportinfo.json.in
 msgctxt "Name"
 msgid "Window Manager"
 msgstr ""
 
-#: Modules/nics/kcm_nic.json
+#: kcms/network/kcm_network.json
 msgctxt "Name"
 msgid "Network Interfaces"
 msgstr "নেটওয়ার্ক ইন্টারফেস"
 
-#: Modules/opencl/kcm_opencl.json
+#: kcms/opencl/kcm_opencl.json
 msgctxt "Name"
 msgid "OpenCL"
 msgstr ""
 
-#: Modules/pci/kcm_pci.json.cmake
+#: kcms/pci/kcm_pci.json.cmake
 msgctxt "Name"
 msgid "PCI"
 msgstr "PCI"
 
-#: Modules/samba/smbstatus.json
+#: kcms/samba/smbstatus.json
 msgctxt "Name"
 msgid "Samba Status"
 msgstr "Samba-র অবস্থা"
 
-#: Modules/usbview/kcmusb.json
+#: kcms/usbview/kcmusb.json
 msgctxt "Name"
 msgid "USB Devices"
 msgstr "USB ডিভাইস"
 
-#: Modules/vulkan/kcm_vulkan.json
+#: kcms/vulkan/kcm_vulkan.json
 msgctxt "Name"
 msgid "Vulkan"
 msgstr ""
 
-#: Modules/wayland/kcm_wayland.json
+#: kcms/wayland/kcm_wayland.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Thailand"
@@ -114,12 +114,12 @@ msgctxt "Name"
 msgid "Wayland"
 msgstr "থাইল্যান্ড"
 
-#: Modules/xserver/kcm_xserver.json
+#: kcms/xserver/kcm_xserver.json
 msgctxt "Name"
 msgid "X-Server"
 msgstr "X-Server"
 
-#: Modules/about-distro/src/kcm_about-distro.json
+#: kcms/about-distro/src/kcm_about-distro.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
@@ -127,7 +127,7 @@ msgctxt "Description"
 msgid "Information About This System"
 msgstr "ফাইল ও ডিরেক্টরি"
 
-#: Modules/block_devices/kcm_block_devices.json
+#: kcms/block_devices/kcm_block_devices.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -135,7 +135,7 @@ msgctxt "Description"
 msgid "Block Devices"
 msgstr "USB ডিভাইস"
 
-#: Modules/cpu/kcm_cpu.json
+#: kcms/cpu/kcm_cpu.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Device Information"
@@ -143,7 +143,7 @@ msgctxt "Description"
 msgid "Advanced CPU Information"
 msgstr "ডিভাইস সংক্রান্ত তথ্য"
 
-#: Modules/egl/kcm_egl.json
+#: kcms/egl/kcm_egl.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "OpenGL information"
@@ -151,12 +151,12 @@ msgctxt "Description"
 msgid "EGL information"
 msgstr "OpenGL সংক্রান্ত তথ্য"
 
-#: Modules/energy/kcm_energyinfo.json
+#: kcms/energy/kcm_energyinfo.json
 msgctxt "Description"
 msgid "Energy Consumption Statistics"
 msgstr ""
 
-#: Modules/firmware_security/kcm_firmware_security.json
+#: kcms/firmware_security/kcm_firmware_security.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Memory information"
@@ -164,7 +164,7 @@ msgctxt "Description"
 msgid "Firmware Security Information"
 msgstr "মেমরি সংক্রান্ত তথ্য"
 
-#: Modules/glx/kcm_glx.json
+#: kcms/glx/kcm_glx.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "OpenGL information"
@@ -172,7 +172,7 @@ msgctxt "Description"
 msgid "GLX information"
 msgstr "OpenGL সংক্রান্ত তথ্য"
 
-#: Modules/interrupts/kcm_interrupts.json
+#: kcms/interrupts/kcm_interrupts.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Interrupt information"
@@ -180,7 +180,7 @@ msgctxt "Description"
 msgid "Interrupt information"
 msgstr "ইন্টারাপ্ট সংক্রান্ত তথ্য"
 
-#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+#: kcms/kwinsupportinfo/kcm_kwinsupportinfo.json.in
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "IO-port information"
@@ -188,7 +188,7 @@ msgctxt "Description"
 msgid "KWin Support information"
 msgstr "IO-পোর্ট সংক্রান্ত তথ্য"
 
-#: Modules/nics/kcm_nic.json
+#: kcms/network/kcm_network.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Network interface information"
@@ -196,7 +196,7 @@ msgctxt "Description"
 msgid "Network interface information"
 msgstr "নেটওয়ার্ক ইন্টারফেস সংক্রান্ত তথ্য"
 
-#: Modules/opencl/kcm_opencl.json
+#: kcms/opencl/kcm_opencl.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "PCI information"
@@ -204,7 +204,7 @@ msgctxt "Description"
 msgid "OpenCL API information"
 msgstr "PCI সংক্রান্ত তথ্য"
 
-#: Modules/pci/kcm_pci.json.cmake
+#: kcms/pci/kcm_pci.json.cmake
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "PCI information"
@@ -212,7 +212,7 @@ msgctxt "Description"
 msgid "PCI information"
 msgstr "PCI সংক্রান্ত তথ্য"
 
-#: Modules/samba/smbstatus.json
+#: kcms/samba/smbstatus.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Samba status monitor"
@@ -220,7 +220,7 @@ msgctxt "Description"
 msgid "Samba status monitor"
 msgstr "Samba অবস্থা নিরীক্ষণ"
 
-#: Modules/usbview/kcmusb.json
+#: kcms/usbview/kcmusb.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "USB devices attached to this computer"
@@ -228,7 +228,7 @@ msgctxt "Description"
 msgid "USB devices attached to this computer"
 msgstr "কম্পিউটারের সাথে যুক্ত USB ডিভাইস"
 
-#: Modules/vulkan/kcm_vulkan.json
+#: kcms/vulkan/kcm_vulkan.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Processor Information"
@@ -236,7 +236,7 @@ msgctxt "Description"
 msgid "Vulkan graphics API information"
 msgstr "প্রসেসর সংক্রান্ত তথ্য"
 
-#: Modules/wayland/kcm_wayland.json
+#: kcms/wayland/kcm_wayland.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Files and Directories"
@@ -244,7 +244,7 @@ msgctxt "Description"
 msgid "Information about the Wayland Compositor"
 msgstr "ফাইল ও ডিরেক্টরি"
 
-#: Modules/xserver/kcm_xserver.json
+#: kcms/xserver/kcm_xserver.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "X-Server information"
