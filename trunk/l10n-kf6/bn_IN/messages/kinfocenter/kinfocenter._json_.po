@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-16 00:46+0000\n"
+"POT-Creation-Date: 2024-03-12 00:45+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -26,6 +26,11 @@ msgstr ""
 msgctxt "Name"
 msgid "About this System"
 msgstr "ফাইল ও ডিরেক্টরি"
+
+#: kcms/audio_information/kcm_audio_information.json
+msgctxt "Name"
+msgid "Audio"
+msgstr ""
 
 #: kcms/block_devices/kcm_block_devices.json
 #, fuzzy
@@ -126,6 +131,14 @@ msgstr "X-Server"
 msgctxt "Description"
 msgid "Information About This System"
 msgstr "ফাইল ও ডিরেক্টরি"
+
+#: kcms/audio_information/kcm_audio_information.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Information"
+msgctxt "Description"
+msgid "Audio Device Information"
+msgstr "ডিভাইস সংক্রান্ত তথ্য"
 
 #: kcms/block_devices/kcm_block_devices.json
 #, fuzzy
@@ -271,13 +284,6 @@ msgstr "X-সার্ভার সংক্রান্ত তথ্য"
 #~| msgid "Device Information"
 #~ msgctxt "Name"
 #~ msgid "Basic Information"
-#~ msgstr "ডিভাইস সংক্রান্ত তথ্য"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Information"
-#~ msgctxt "Name"
-#~ msgid "Detailed Information"
 #~ msgstr "ডিভাইস সংক্রান্ত তথ্য"
 
 #, fuzzy
