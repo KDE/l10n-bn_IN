@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-20 00:47+0000\n"
+"POT-Creation-Date: 2025-06-27 00:49+0000\n"
 "PO-Revision-Date: 2008-12-29 15:53+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -19,6 +19,19 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: applets/devicenotifier/devicenotifications.notifyrc:2
+msgctxt "Name"
+msgid "Device Notifier"
+msgstr "ডিভাইসের সূচনা ব্যবস্থা"
+
+#: applets/devicenotifier/devicenotifications.notifyrc:84
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notifications"
+msgctxt "Name"
+msgid "Device Status"
+msgstr "সূচনাবার্তা"
+
 #: applets/devicenotifier/openWithFileManager.desktop:7
 #, fuzzy
 #| msgctxt "Description"
@@ -26,19 +39,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Open with File Manager"
 msgstr "ডিফল্ট ব্রাউজার সহযোগে প্রদর্শিত হবে (&d)"
-
-#: applets/devicenotifier/plugin/devicenotifications.notifyrc:2
-msgctxt "Name"
-msgid "Device Notifier"
-msgstr "ডিভাইসের সূচনা ব্যবস্থা"
-
-#: applets/devicenotifier/plugin/devicenotifications.notifyrc:84
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Notifications"
-msgctxt "Name"
-msgid "Device Status"
-msgstr "সূচনাবার্তা"
 
 #: components/shellprivate/plasmoids.knsrc:2
 #, fuzzy
